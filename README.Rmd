@@ -1,0 +1,37 @@
+---
+title: "README"
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Soil Knowledge Base
+
+A soil "knowledge base" centered around the National Cooperative Soil Survey (NCSS) standards as used by the USDA-NRCS and defined in the National Soil Survey Handbook (NSSH).
+
+### Get started
+```{r, echo=TRUE, eval=FALSE}
+devtools::install_github("brownag/SoilKnowledgeBase")
+
+SoilKnowledgeBase::parse_nssh_structure()
+```
+
+### The Structure of the National Soil Survey Handbook (NSSH)
+
+```{r, results='asis'}
+dat <- SoilKnowledgeBase::parse_nssh_structure()
+
+.doAbbreviate <- function(x) {
+  xx <- gsub("National Cooperative Soil Survey", "NCSS", x)
+  gsub("Quality Control, Quality Assurance,", "QC/QA*", xx)
+}
+
+dat$parent <- gsub("Part \\d+ . (.*)", "\\1", .doAbbreviate(dat$parent))
+dat$section <- gsub("Parts \\d+ to \\d+ . (.*)", "\\1", dat$section)
+
+cat(knitr::kable(dat[,c('part_number','parent','section','href')], "pipe"))
+```
+
+ - \* QC/QA = Quality Control, Quality Assurance
