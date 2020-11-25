@@ -99,6 +99,11 @@ parse_nssh_structure <- function(
         dir.create(dp, recursive = TRUE)
     })
 
+  # cleanup
+  res$target <- NULL
+  res$parent <- gsub("Part \\d+ . (.*)", "\\1", res$parent)
+  res$section <- gsub("Parts \\d+ to \\d+ . (.*)", "\\1", res$section)
+
   write.csv(res, file = "assets/NSSH/index.csv")
   return(res)
 }

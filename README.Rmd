@@ -24,22 +24,16 @@ SoilKnowledgeBase::parse_nssh_structure()
 ### The Structure of the National Soil Survey Handbook (NSSH)
 
 ```{r, results='asis'}
-remotes::install_github("brownag/SoilKnowledgeBase", dependencies = FALSE)
-
 dat <- SoilKnowledgeBase::parse_nssh_structure()
 
 .doAbbreviate <- function(x) {
   xx <- gsub("National Cooperative Soil Survey", "NCSS", x)
   gsub("Quality Control, Quality Assurance,", "QC/QA*", xx)
 }
-
-dat$parent <- gsub("Part \\d+ . (.*)", "\\1", .doAbbreviate(dat$parent))
-dat$section <- gsub("Parts \\d+ to \\d+ . (.*)", "\\1", dat$section)
-
+dat$parent <- .doAbbreviate(dat$parent)
 dat$href <- sprintf("[LINK](%s)", dat$href)
 
 knitr::kable(dat[,c('part_number','parent','section','href')])
-
 ```
 
  - \* QC/QA = Quality Control, Quality Assurance
