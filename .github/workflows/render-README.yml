@@ -57,7 +57,7 @@ jobs:
       - name: Install dependencies
         run: |
           Rscript -e 'remotes::install_deps(dependencies = TRUE)'
-          Rscript -e 'install.packages("dplyr", "magrittr", "rvest", "xml2")'
+          Rscript -e 'install.packages(c("dplyr", "magrittr", "rvest", "xml2"))'
       
       - name: Install SoilKnowledgeBase
         run: |
