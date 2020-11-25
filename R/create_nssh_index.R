@@ -4,11 +4,11 @@
 #'
 #' @param url A URL to parse for Table of Contents information.
 #' @param ignore.headers A character vector of h3 level headers to ignore on the NSSH Table of contents webpage.
-#' @param outpath A directory path to create "assets/NSSH" folder structure.
+#' @param outpath A directory path to create "inst/extdata/NSSH" folder structure.
 #'
 #' @details Hardcoded with \code{ignore.headers = "Part 615 – Amendments To Soil Taxonomy"}; TODO: set this to NULL when webpage is updated. Default URL: https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/ref/?cid=nrcs142p2_054240
 #'
-#' @return A data.frame object containing link, part and section information for the NSSH. A directory "assets/NSSH" is created in \code{outpath} (Default: ".") with a numeric subfolder for each part in the NSSH.
+#' @return A data.frame object containing link, part and section information for the NSSH. A directory "inst/extdata/NSSH" is created in \code{outpath} (Default: "./inst/extdata/NSSH/") with a numeric subfolder for each part in the NSSH.
 #'
 #' @export
 #'
@@ -20,7 +20,7 @@
 parse_nssh_structure <- function(
   url = NULL,
   ignore.headers = "Amendments To Soil Taxonomy",
-  outpath = "."
+  outpath = "./inst/extdata/NSSH/"
 ) {
 
   if(is.null(url))
@@ -94,7 +94,7 @@ parse_nssh_structure <- function(
     }))
 
   lapply(unique(res$part_number), function(x) {
-      dp <-  file.path('assets/NSSH', x)
+      dp <-  file.path(outpath, x)
       if (!dir.exists(dp))
         dir.create(dp, recursive = TRUE)
     })
@@ -104,6 +104,6 @@ parse_nssh_structure <- function(
   res$parent <- gsub("Part \\d+ . (.*)", "\\1", res$parent)
   res$section <- gsub("Parts \\d+ to \\d+ . (.*)", "\\1", res$section)
 
-  write.csv(res, file = "assets/NSSH/index.csv")
+  save(res, file = file.path(outpath, "index.rda"))
   return(res)
 }

@@ -7,7 +7,7 @@
 parse_nssh_structure(
   url = NULL,
   ignore.headers = "Amendments To Soil Taxonomy",
-  outpath = "."
+  outpath = "./inst/extdata/NSSH/"
 )
 }
 \arguments{
@@ -15,10 +15,10 @@ parse_nssh_structure(
 
 \item{ignore.headers}{A character vector of h3 level headers to ignore on the NSSH Table of contents webpage.}
 
-\item{outpath}{A directory path to create "assets/NSSH" folder structure.}
+\item{outpath}{A directory path to create "inst/extdata/NSSH" folder structure.}
 }
 \value{
-A data.frame object containing link, part and section information for the NSSH. A directory "assets/NSSH" is created in \code{outpath} (Default: ".") with a numeric subfolder for each part in the NSSH.
+A data.frame object containing link, part and section information for the NSSH. A directory "inst/extdata/NSSH" is created in \code{outpath} (Default: "./inst/extdata/NSSH/") with a numeric subfolder for each part in the NSSH.
 }
 \description{
 This provides a basic framework and folder structure for assets that are part of the NCSS standards.
