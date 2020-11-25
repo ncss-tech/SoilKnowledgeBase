@@ -17,6 +17,7 @@
 #' @importFrom rvest html_node html_nodes html_text
 #' @importFrom xml2 read_html xml_attr
 #' @importFrom utils write.csv
+#' @importFrom stats aggregate
 parse_nssh_structure <- function(
   url = NULL,
   ignore.headers = "Amendments To Soil Taxonomy",
@@ -101,9 +102,13 @@ parse_nssh_structure <- function(
 
   # cleanup
   res$target <- NULL
+  res$part <- res$part_number
+  res$part_number <- NULL
+  res$subpart <- do.call('c', aggregate(res$part, by = list(res$part),
+                                        FUN = function(x) LETTERS[1:2][1:length(x)])$x)
   res$parent <- gsub("Part \\d+ . (.*)", "\\1", res$parent)
   res$section <- gsub("Parts \\d+ to \\d+ . (.*)", "\\1", res$section)
 
-  save(res, file = file.path(outpath, "index.rda"))
+  write.csv(res, file = file.path(outpath, "index.csv"))
   return(res)
 }

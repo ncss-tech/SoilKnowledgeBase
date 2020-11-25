@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 [![R build status](https://github.com/brownag/SoilKnowledgeBase/workflows/R-CMD-check/badge.svg)](https://github.com/brownag/SoilKnowledgeBase/actions)
 
-A soil "knowledge base" centered around the National Cooperative Soil Survey (NCSS) standards as used by the USDA-NRCS and defined in the National Soil Survey Handbook (NSSH). This repository is also an R package that facilitates the regular updates of products from various data sources.
+A soil "knowledge base" centered around the **National Cooperative Soil Survey** (NCSS) standards as used by the **USDA-NRCS** and defined in the **National Soil Survey Handbook** (NSSH). This repository is also an **R** package that facilitates the version control of products from various data sources in compressed `.rda` format, ... [ and more? ]
 
 ### Get started
 ```{r, echo=TRUE, eval=FALSE}
@@ -32,8 +32,9 @@ dat <- SoilKnowledgeBase::parse_nssh_structure()
 }
 dat$parent <- .doAbbreviate(dat$parent)
 dat$href <- sprintf("[LINK](%s)", dat$href)
-
-knitr::kable(dat[,c('part_number','parent','section','href')])
-```
+dat$part_subpart <- paste(dat$part, dat$subpart)
+knitr::kable(dat[,c('part_subpart', 'parent', 'section', 'href')],
+             col.names = c("Part & Subpart", "Part Name", "Section", "Link"))
+``` 
 
  - \* QC/QA = Quality Control, Quality Assurance
