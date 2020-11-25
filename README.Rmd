@@ -9,8 +9,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Soil Knowledge Base
 
-[![R build status](https://github.com/brownag/SoilKnowledgeBase/workflows/R-CMD-check/badge.svg)](https://github.com/brownag/SoilKnowledgeBase/actions)
-
 A soil "knowledge base" centered around the National Cooperative Soil Survey (NCSS) standards as used by the USDA-NRCS and defined in the National Soil Survey Handbook (NSSH). This repository is also an R package that facilitates the regular updates of products from various data sources.
 
 ### Get started
@@ -23,6 +21,8 @@ SoilKnowledgeBase::parse_nssh_structure()
 ### The Structure of the National Soil Survey Handbook (NSSH)
 
 ```{r, results='asis'}
+devtools::install_github("brownag/SoilKnowledgeBase", dependencies = FALSE)
+
 dat <- SoilKnowledgeBase::parse_nssh_structure()
 
 .doAbbreviate <- function(x) {
