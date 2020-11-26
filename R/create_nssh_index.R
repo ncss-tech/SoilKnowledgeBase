@@ -6,6 +6,7 @@
 #' @param ignore.headers A character vector of h3 level headers to ignore on the NSSH Table of contents webpage.
 #' @param outpath A directory path to create "inst/extdata/NSSH" folder structure.
 #' @param download_pdf Download official PDF files from eDirectives?
+#' @param keep_pdf Keep PDF files after processing TXT?
 #'
 #' @details Hardcoded with \code{ignore.headers = "Part 615 – Amendments To Soil Taxonomy"}; TODO: set this to NULL when webpage is updated. Default URL: https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/ref/?cid=nrcs142p2_054240
 #'
