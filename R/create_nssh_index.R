@@ -5,6 +5,7 @@
 #' @param url A URL to parse for Table of Contents information.
 #' @param ignore.headers A character vector of h3 level headers to ignore on the NSSH Table of contents webpage.
 #' @param outpath A directory path to create "inst/extdata/NSSH" folder structure.
+#' @param download_pdf Download official PDF files from eDirectives?
 #'
 #' @details Hardcoded with \code{ignore.headers = "Part 615 – Amendments To Soil Taxonomy"}; TODO: set this to NULL when webpage is updated. Default URL: https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/ref/?cid=nrcs142p2_054240
 #'
@@ -16,16 +17,19 @@
 #' @importFrom magrittr %>%
 #' @importFrom rvest html_node html_nodes html_text
 #' @importFrom xml2 read_html xml_attr
-#' @importFrom utils write.csv
+#' @importFrom utils write.csv download.file
 #' @importFrom stats aggregate
 parse_nssh_structure <- function(
   url = NULL,
   ignore.headers = "Amendments To Soil Taxonomy",
-  outpath = "./inst/extdata/NSSH/"
+  outpath = "./inst/extdata/NSSH",
+  download_pdf = TRUE,
+  keep_pdf = FALSE
 ) {
 
   if(is.null(url))
     url <- "https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/ref/?cid=nrcs142p2_054240"
+
   ## NSSH Table of Contents
 
   html <- read_html(url)
@@ -94,20 +98,32 @@ parse_nssh_structure <- function(
      return(the_sections[x$part_number >= the_sections$start & x$part_number <= the_sections$end, 'section'])
     }))
 
-  lapply(unique(res$part_number), function(x) {
-      dp <-  file.path(outpath, x)
-      if (!dir.exists(dp))
-        dir.create(dp, recursive = TRUE)
-    })
-
   # cleanup
   res$target <- NULL
   res$part <- res$part_number
   res$part_number <- NULL
   res$subpart <- do.call('c', aggregate(res$part, by = list(res$part),
                                         FUN = function(x) LETTERS[1:2][1:length(x)])$x)
+
   res$parent <- gsub("Part \\d+ . (.*)", "\\1", res$parent)
   res$section <- gsub("Parts \\d+ to \\d+ . (.*)", "\\1", res$section)
+
+  # create directory structure and download PDFs
+  lapply(unique(res$part), function(x) {
+      dp <-  file.path(outpath, x)
+      if (!dir.exists(dp))
+        dir.create(dp, recursive = TRUE)
+      parts <- subset(res, res$part == x)
+      lapply(split(parts, 1:nrow(parts)), function(y) {
+         pat <- file.path(outpath, x, sprintf("%s%s.pdf", y$part, y$subpart))
+         if (download_pdf)
+          download.file(y$href, destfile = pat)
+         if (file.exists(pat))
+          system(sprintf("pdftotext -raw -nodiag %s", pat))
+         if (!keep_pdf)
+          system(sprintf("rm %s", pat))
+        })
+    })
 
   write.csv(res, file = file.path(outpath, "index.csv"))
   return(res)
