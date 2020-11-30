@@ -3,6 +3,8 @@ on:
     paths:
       - README.Rmd
 
+  workflow_dispatch:
+  
 name: Render README
 
 jobs:
