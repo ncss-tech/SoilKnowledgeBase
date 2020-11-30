@@ -1,16 +1,16 @@
 on:
   push:
     paths:
-      - .github/workflows/render-README.yml
+      - .github/workflows/refresh-extdata.yml
       - README.Rmd
 
   workflow_dispatch:
   
-name: Render README
+name: refresh-extdata
 
 jobs:
   render:
-    name: Render README
+    name: refresh-extdata
     
     runs-on: ${{ matrix.config.os }}
 
