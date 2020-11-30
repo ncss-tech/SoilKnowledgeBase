@@ -15,6 +15,7 @@ A soil "knowledge base" centered around the **National Cooperative Soil Survey**
 This repository is also an **R** package that facilitates the version control of and programmatic access to products from official data sources.
 
 ### Get started
+
 ```{r, echo=TRUE, eval=FALSE}
 # install.packages("remotes")
 remotes::install_github("brownag/SoilKnowledgeBase")
@@ -39,7 +40,12 @@ knitr::kable(dat[,c('part_subpart', 'parent', 'section', 'href')],
 ``` 
 
  - \* QC/QA = Quality Control, Quality Assurance
- 
+
+### Coming Soon: Links to headers
+
 ```{r}
-knitr::kable(SoilKnowledgeBase::parse_nssh_part(dat$part, dat$subpart))
+nssh_headers <- SoilKnowledgeBase::parse_nssh_part(dat$part, dat$subpart)
+if (!is.null(nssh_headers))
+  knitr::kable(nssh_headers[,c("part","subpart","header")],
+             row.names = FALSE, col.names = c("Part","Subpart","Header"))
 ```
