@@ -1,0 +1,592 @@
+Title 430 – National Soil Survey Handbook
+(430-639-H, 1st
+Ed., Amend. 25, Nov. 2017)
+639-A.1
+Part 639 – National Soil Information System (NASIS)
+Subpart A – General Information
+639.0 Definition and Purpose
+A. Definition.—The National Soil Information System (NASIS) application and database is one
+component of the overall National Soil Information System of the National Cooperative Soil Survey
+(NCSS). The application is used for the entry, storage, maintenance, interpretation, and publication
+of data pertaining to all aspects of the soil survey program.
+B. Purpose.—NASIS is designed as a client-server software application that accesses a national
+database to retrieve and build a local database. Edits are made to the local copy of the data and then
+uploaded back to the servers that store the national database. A soil scientist collects documentation
+during the course of a soil survey, and this documentation is compiled, analyzed, and aggregated to
+build information on soil properties, qualities, and interpretations for components within a map unit.
+C. Database Structure.—NASIS organizes soil survey data into major categories which are further
+defined by database objects and their underlying parent tables and child tables. The following are the
+major categories of the NASIS application:
+(1) Database security system
+(2) Point data records
+(3) Geographic area records
+(4) Map unit records
+(5) Standards, criteria, and guidelines
+(6) Spatial database
+639.1 Policy and Responsibilities
+A. Policy.—NASIS is the transactional database containing all soil survey attribute information. The
+data is maintained by the soil survey office staff following the guidelines set forth in this handbook,
+the NASIS online help feature, and other guidance documentation. The technical review and quality
+assurance of this information is completed by the soil survey regional offices (SSRs) as listed below.
+Distribution and public release of information is completed by the State soil scientist. The NASIS
+database is housed at the USDA Enterprise Data Center in Kansas City, MO.
+B. Responsibilities
+(1) The soil survey office (SSO) is responsible for the following:
+(i) Collecting soil pedon descriptions used to document the soil properties for a map unit
+component and entering the pedon data into NASIS.
+(ii) Collecting samples to be analyzed for soil physical and chemical properties.
+(iii) Aggregating or summarizing the pedon descriptive information and laboratory
+characterization data to build the soil component property ranges and representative
+values.
+(iv) Creating and maintaining map unit information and component properties used to
+generate manuscript reports for soil surveys in its assigned area.
+(v) Developing the accompanying spatial databases.
+Title 430 – National Soil Survey Handbook
+(430-639-H, 1st
+Ed., Amend. 25, Nov. 2017)
+639-A.2
+(vi) Ensuring the quality control of all data entered into NASIS within its area of
+responsibility.
+(2) The SSR is responsible for the following:
+(i) Creating and managing NASIS ownership groups and assigning members to each group
+as needed to manage edit permissions of the data.
+(ii) Ensuring that soil property data conform to NCSS standards
+(iii) Providing support, training, and leadership to SSO in describing soil properties and in
+making estimations of map unit component data.
+(iv) Recommending actions needed to correct errors and inconsistencies in NASIS.
+(v) Populating and maintaining general soil map data in the NASIS database and submitting
+it to the national coordinator for the U.S. General Soil Map.
+(vi) Monitoring soil survey update projects in NASIS and assisting the soil survey offices in
+keeping the soil survey projects on schedule.
+(vii) Completing the technical review and the quality assurance of the data entered into
+NASIS for its area of responsibility.
+(viii) Ensuring that all soil survey office staff in their area of responsibility receive proper
+and adequate training in the use of NASIS software.
+(3) The State office (SO) is responsible for the following:
+(i) Managing the legends and publication map unit symbols within its State of responsibility.
+(ii) Certifying and exporting correlated NASIS data to the Soil Data Warehouse and Web
+Soil Survey for geographic areas within its State.
+(iii) Developing criteria for local or State interpretations in NASIS, as needed.
+(4) The National Soil Survey Center (NSSC) is responsible for the following:
+(i) Coordinating with the Information Technology Center to ensure that NASIS-related
+software is developed and operational.
+(ii) Developing and implementing NASIS software training materials.
+(iii) Developing national standards and procedures for population and management of soil
+data in NASIS.
+(iv) Developing national interpretations using detailed and general soil survey information.
+(v) Managing certain data tables (e.g., “Area” and “Geomorphic Feature” tables) in NASIS
+that serve as lookup lists.
+(vi) Maintaining the general soil information data set.
+(vii) Creating and maintaining NASIS user accounts.
+(viii) Granting and revoking access through eAuthentication.
+639.2 Soil Survey Application Security Policy
+A. NASIS Accounts.—The NRCS is the lead agency for the NCSS (7 CFR Sec. 2.61). In its
+leadership role, NRCS maintains NASIS for the collection, management, and distribution of NCSS
+information. Access to NASIS is granted to NCSS partners and authorized agents for the purpose of
+creating, maintaining, or interpreting NCSS information. NASIS is a U.S. Government computing
+system. Only official NCSS activities are authorized on this system.
+B. Requests for a NASIS User Account.—Requests to become a NASIS user are submitted to
+SoilsHotline@lin.usda.gov. They must include the user’s full name, eAuthentication identification
+(not the password, just the user name), phone number, city, and State.
+C. NASIS User Requirements.—The NASIS user must obtain a level-2 eAuthentication account
+through the eAuthentication website at the following address: https://www.eauth.usda.gov.
+Title 430 – National Soil Survey Handbook
+(430-639-H, 1st
+Ed., Amend. 25, Nov. 2017)
+639-A.3
+639.3 NASIS Organization and Database Objects
+A. NASIS Organization.—The NASIS database is organized into separate database business objects
+that each contain data of a particular type.
+(1) Each record in the tables of a business object is owned by a specific NASIS site and group.
+Authority to edit a particular object is limited to users who are members of the responsible
+group and have the edit privileges for that object. Items within an object are owned by the
+creating group.
+(2) The user who creates or last edits a data record is recorded in each table along with the date
+and time of the edit. In addition, the user who last edited any data record in any table in the
+data object is listed in the object root table as the last person to edit the object along with the
+date of that edit.
+(3) Users who do not belong to a group are read-only users and cannot edit any data.
+(4) Frequently asked questions on NASIS and contact information is available at
+https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/tools/?cid=nrcs142p2_053551
+for NASIS assistance if a user record needs to be created, deleted, or modified in a way that
+cannot be accomplished by the individual user.
+B. Database Objects.—Detailed descriptions of each data business object and data element in NASIS
+are available in the NASIS online help system. Some data elements are restricted to specific entries,
+while others allow any appropriate entry. Detailed metadata reports for NASIS are accessible through
+the following address:
+https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/soils/survey/tools/?cid=nrcs142p2_053548. Follow the
+link to the “NASIS Version 7.x” index web site.
+C. Database Security System.—The security and communication of soil survey data housed in
+business objects in NASIS is maintained through the tables contained within the NASIS “Site” object
+and the NASIS “User” object. The tables constitute parts of the database security system.
+(1) NASIS “Site” Object.—This business object contains the “NASIS Site” table, “NASIS
+Group” table, and “NASIS Group Member” table.
+(i) The “NASIS Site” table contains all of the NASIS sites in the database. Parts of this table
+can be edited, but only by a user with NASIS administration privileges (i.e., the DSM
+flag is set to “yes”).
+(ii) The “NASIS Group” table lists the groups established for the NASIS site shown in the
+“NASIS Site” table. For example, a NASIS database at an SSR may have one group for
+the SSR staff and another group for the SSO staff working on the same data. The table
+can be edited, but only by a user with NASIS administration privileges.
+(iii) The “NASIS Group Member” table lists the users who are members of the group shown
+in the “NASIS Group” table. Users in the “NASIS Group Member” table can edit data
+owned by the group. The table can be edited but only by a user who has NASIS
+administration privileges.
+(2) NASIS “User” Object.—This business object contains the “NASIS User” table. The “NASIS
+User” table lists the users authorized to use NASIS. This table can be edited by users for
+applicable data such as email address, phone number, and description. Users with NASIS
+administration privileges can also edit this table.
+D. Point Data Records.—Point data records include soil profile descriptions, laboratory
+characterization data, field measurements, transect observations, site associations, and other soil
+survey data collected at individual sites. Point data records concern the composition, physical,
+chemical, morphological, and interpretation properties and performance for a specific point on the
+landscape at which data is collected. These data records are recorded in the NASIS database in the
+Title 430 – National Soil Survey Handbook
+(430-639-H, 1st
+Ed., Amend. 25, Nov. 2017)
+639-A.4
+“Site” object, “Pedon” object, “Transect” object, “Site Association” object, and “Vegetation Data”
+object, which are defined below. These objects are created as needed and retained as part of the
+historical records. Guidance on population of the various data tables and data elements is available in
+the NASIS Pedon Data Entry Guide, which is available on the NASIS downloads web site.
+(https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_053329.pdf.
+(1) “Site” Object
+(i) This business object contains a set of data tables designed to identify a specific
+geographic location and its characteristics. The spatial area of a particular site record
+may be a specific point where a pedon is described or may be a determined spatial area.
+The “Site” object allows for recording various kinds of data including soil profile
+descriptions, laboratory data, vegetative data, or specific soil property studies.
+Descriptions for the “Site” object tables and their data elements are available in the
+NASIS online help. The parent table in the “Site” object is the “Site” table. The “Site”
+table has several underlying child tables that contain detailed information on various
+features of a specific site. Sites are identified in the field labeled “User Site ID.” This
+field records a unique concatenated number assigned to identify a specific record.
+Historically, it has been assigned a 10- to 15-character field using the protocol shown
+here:
+ A letter identifying the type of sample or description
+ The four-digit calendar year (previously a two-digit year)
+ The two-character FIPS State code
+ The three-digit FIPS county code
+ A three- or four-digit consecutive pedon number for the calendar year (e.g.,
+S2010NE097001).
+(ii) Further guidance on the population of this field can be found in section 1.1.3 of Soil
+Survey Investigations Report No. 45, Soil Survey Laboratory Information Manual,
+Version 2.0, February 2011, USDA, NRCS. Specific sampling projects (e.g., the Rapid
+Carbon Assessment project) may provide specialized guidance for populating data.
+(2) “Pedon” Object.—This business object is designed to record the morphology, field measured
+properties, estimated or observed features, and taxonomic classification of a pedon. Each
+record in the “Pedon” object is linked to a corresponding record in the “Site” object using the
+“User Site ID” and the “Site Observation Date” columns. The parent table in the “Pedon”
+object is the “Pedon” table. The “Pedon” table has many underlying child tables that contain
+detailed information on various morphological features of a specific pedon. Within the
+“Pedon” table is the field labeled “User Pedon ID.” This field is a duplicate of the User Site
+ID, unless multiple pedons are linked to one site. It is a unique concatenated number
+assigned to identify the specific record. It is historically a 10- to 15-character field beginning
+with the type of sample, the four-digit (or older two-digit) calendar year, the two-character
+FIPS State code, the three-digit FIPS county code, a three- or four-digit consecutive pedon
+number for the calendar year (e.g., S2010NE097001-1), and if necessary a dash and number
+is allowed to identify multiple pedons linked to one site. Further guidance on the population
+of this field can be found in the Soil Survey Laboratory Information Manual, as cited above.
+Specific sampling projects (e.g., the Rapid Carbon Assessment project) may provide
+specialized guidance for populating data.
+(3) “Transect” Object
+(i) This business object is designed to group individual pedons that are the stops along a
+specific transect. The object table in the “Transect” object is the “Transect” table. The
+“Transect” table records the “User Transect ID” that is used in the “Pedon” table to link
+pedons to the appropriate transect. The “User Transect ID” is a unique set of characters
+Title 430 – National Soil Survey Handbook
+(430-639-H, 1st
+Ed., Amend. 25, Nov. 2017)
+639-A.5
+used to identify the transect name. A suggested naming convention is the concatenation
+of the following:
+ The letter “T”
+ The calendar year (e.g., “2010”)
+ The MLRA symbol (e.g., “74”)
+ The map unit symbol (e.g., “AbA”)
+ A sequential transect number for that survey for the given year (e.g., “001”)
+(ii) An example of this identifier is “T201074AbA001.” The “Transect Estimated
+Composition” table is a child table beneath the “Transect” table that stores the transect
+composition percentage by component name and local phase.
+(4) “Site Association” Object.—This business object is designed to record and manage groups of
+sites. The parent table in the “Site Association” object is the “Site Association” table. A
+record is created in this table to group various site records for a specific sampling study or for
+a particular update project.
+(5) “Vegetation Plot” Object.—This business object is designed to group and summarize
+vegetation data and analysis from plots and transects. It records metadata associated with
+vegetative plots and transects including inventory protocols, data summaries, and analysis
+details and observations regarding disturbances and grazing. The “Vegetation Plot” object
+includes data drawn from the “Plant” and the “Site Observation” parent tables.
+E. Geographic Area Records.—Geographic area records include symbols, names, and acreages for
+soil survey areas as well other political and physiographic areas. Geographic area records are
+maintained in the Area Type object.
+(1) “Area Type” Object.—This business object provides a means to organize the various types of
+geographic areas and to provide a complete list of approved soil survey areas and standard
+acreages for official soil survey areas, States, counties, and MLRAs used in soil survey
+operations management. Other types of areas are also recorded. The “Area Type” object
+includes the “Area Type,” “Area,” and “Area Text” tables.
+(i) The “Area Type” table lists the types of areas and the owners of each area. In NASIS,
+different kinds of areas are organized by area type. For example, traditional soil survey
+areas are listed in the “Area” table under the “Non-MLRA Soil Survey Area” type. Users
+may create their own area types.
+(ii) A record in the “Area Type” table is created as necessary and retained as part of the
+historical records for a soil survey area.
+(iii) Records recorded in the “Area Type” and “Area” tables serve as lookup tables for other
+data elements in NASIS.
+(iv) Nationally coordinated area type objects owned by NSSC Pangaea must not be
+duplicated.
+(v) The “Non-MLRA Soil Survey Area” and “MLRA Soil Survey Area” are the official area
+types for soil survey areas. Record maintenance for these official area types is the
+responsibility of the National Soil Survey Center.
+(vi) The “area symbol” is a unique label within a particular area type that is used to identify
+the soil survey area. Typically, symbols for political areas such as States and counties
+use Federal Information Processing Standards (FIPS) codes (e.g., Lancaster County,
+Nebraska = NE109). A survey area and a county may have the same area symbol
+because each is recorded under a different area type.
+(vii) The “area name” is the name given to the specific area. Although a soil survey area
+may be named for a county, the soil survey area name is recorded under the “soil survey
+area” area type and the county name is recorded under the “county” area type, even if the
+names are the same.
+Title 430 – National Soil Survey Handbook
+(430-639-H, 1st
+Ed., Amend. 25, Nov. 2017)
+639-A.6
+(viii) The “area acres” are the total acreage of all land and water areas in a specified
+geographic area as identified by the 1992 National Resources Inventory (NRI) data. For
+example, the total acreage of a multicounty soil survey area is recorded in this table, as
+well as the total acreage for each of the counties. Parts of the soil survey area that occur
+in each county are recorded in the “Legend Area Overlap” table. Acreages are not
+recorded for some area types.
+F. Map Unit Records.—Map unit records include soil survey area legends, map units, and the soil
+properties and interpretations for map units and their components. Map unit records are maintained
+in the “Legend” object, “Mapunit” object, “Data Mapunit” object, and “Project” object.
+(1) “Legend” Object.—This business object is designed for publishing soil survey information.
+The “Project” object, discussed later, was added with NASIS version 6.0 for the management
+of soil surveys. The “Legend” object links the survey area to its associated set of map units.
+These records are used to create the map unit identification legend, conversion legends, and
+correlation status reports for the survey area. The “Legend” object is created at the beginning
+of the survey, maintained throughout the course of the survey, and retained as part of the
+historical records. The “Legend” object includes several tables including the main “Legend”
+table. Generally, the legend in an initial survey is the responsibility of the soil survey office
+during the course of the initial soil survey. Responsibility is transferred to the SSR at
+completion of the survey.
+(i) In the “Legend” table, some columns are available for viewing but are restricted for
+editing. For example, the “survey status” column (which identifies the archived entries
+as belonging to nonproject, initial, published, update needed, update, out-of-date, or
+extensive revision surveys) and “correlation date” column (which records the historical
+correlation date for the survey) cannot be edited. Other data columns are not restricted
+for editing and allow any appropriate entry (e.g., “Legend Text”).
+(ii) In the “Legend Mapunit” a link is recorded between the “Legend” table and individual
+map unit records in the “Mapunit” table. The “Legend Mapunit” table identifies the
+publication map unit symbol, map unit status, and map unit acres for map units in the
+given survey area. The publication map unit symbol is assigned by the State soil
+scientist.
+(iii) The combination of map unit symbols and their status in the survey area legend are
+unique.
+(iv) The “Legend Area Overlap” table is required to contain at least the appropriate valid
+“State or Territory” area type overlap record, the appropriate “MLRA” area type, and the
+valid “County or Parish” area type overlap record within the legend survey area.
+(v) Each “County or Parish” area type listed in the “Legend Area Overlap” table has its
+corresponding “State or Territory” area type overlap.
+(vi) Project scale in the “Legend” table must be populated.
+(vii) Each map unit within the “Legend Mapunit” table has a unique publication symbol,
+name, and status combination (see part 627, section 627.5, of this handbook for
+guidance). The map unit name is maintained in the “Mapunit” object, defined below.
+(viii) Once created, map unit records are never deleted. During the correlation process, the
+status of map units migrates from “provisional” to “approved” to “correlated.” If a map
+unit is correlated to a new symbol, its status is changed to “additional.”
+(2) “Mapunit” Object.—This independent object is designed to facilitate sharing map units
+across soil survey area and political boundaries. The “Mapunit” object maintains the map
+unit name, its national map unit symbol, and the link to its associated data mapunits. It
+documents a continuous record of map unit development and correlation decisions made for
+the map unit, independent of the legend to which it is linked. These records are used to create
+the map unit identification legend, conversion legends, and correlation status reports for the
+Title 430 – National Soil Survey Handbook
+(430-639-H, 1st
+Ed., Amend. 25, Nov. 2017)
+639-A.7
+survey area where the map unit is linked. A map unit is related to a geographic area when
+linked to a soil survey area legend by the “Legend Mapunit” table. The Mapunit object
+includes several tables, including the “Mapunit,” “Correlation,” “Mapunit History,” and
+“Mapunit Text” tables.
+(i) The “Mapunit” table lists mapunit name, kind, national mapunit symbol, and linear and
+point feature characteristics. This information is relative to the specific map unit and
+must be considered when the map unit is linked to multiple legends.
+(ii) The “Correlation” table records all instances of data mapunits used to support correlation
+of the map unit. The “Mapunit History” table is populated when a new map unit is
+created and populated at each correlation event that affects the map unit.
+(iii) The “National Mapunit Symbol” is a computer-assigned conversion of the internal map
+unit record identification number to a base-31 alphanumeric character. This field is
+generated as new rows are created in the “Mapunit” table, and it is protected from
+editing. It was designed to facilitate the concept of soil survey update on an MLRA basis
+by providing a unique symbol to a map unit regardless of the soil survey areas to which
+the map unit is linked.
+(iv) Responsibility and ownership of a specific map unit is indicated by the “Mapunit NASIS
+Site” and “NASIS Group” columns in the “Mapunit” table. Map unit management in an
+ongoing survey or update project is the responsibility of the soil survey office.
+(3) “Data Mapunit” Object.—This business object is a record or a collection of records
+identifying percentage of its components (i.e., composition), physical and chemical
+properties, morphological attributes, interpretations, and performance for a map unit. A
+“Data Mapunit” object is a set of data records and as such is not related to any geographic
+area or map unit delineation unless linked to a specific map unit. These records are used to
+document map unit concept characteristics and create reports of soil properties and
+interpretations. “Data Mapunit” objects are created as needed and retained as part of the
+historical records. The “Data Mapunit” object includes the parent “Data Mapunit” table and
+many other tables. The underlying “Component” and “Horizon” tables are child tables of the
+“Data Mapunit” table. The “Component” and “Horizon” tables each have many underlying
+child tables.
+(i) “Data Mapunit” Table.—The “Data Mapunit” table lists data mapunits by using the
+“DMU Description” field as well as the “DMU NASIS Site,” and “NASIS Group” fields
+to identify ownership. It also contains information such as the order of survey for which
+the data mapunit was developed and State-specific soil potential and interpretive class
+ratings.
+(ii) “Component” Table.—The “Component” table lists the named soils, miscellaneous
+areas, or both for each map unit. Soils and miscellaneous areas populated in the
+“Component” table are the components identified in the map unit name along with those
+components that are strongly contrasting to the named components. Components are
+designated as either “major” or “minor” components depending on their percentage in the
+composition of the map unit. This table provides information pertinent to the component
+as a whole (e.g., slope, drainage class, taxonomic classification, etc.).
+(iii) Important Guidance on Populating Component Data
+ If the component percentage is greater than zero (e.g., Low=65, RV=75, High=90)
+for a component, that component exists in every delineation of that map unit. If the
+component percentage includes zero (e.g., Low=0, RV=50, High=90), the component
+may exist in some delineations but not in others.
+ Total representative component percentage should equal 100 percent; it cannot
+exceed 100 percent.
+Title 430 – National Soil Survey Handbook
+(430-639-H, 1st
+Ed., Amend. 25, Nov. 2017)
+639-A.8
+ The component name field must be populated using sentence case with a series name
+or an appropriate higher taxon name (e.g., Udorthents). Phase criteria, commas,
+spaces, or extraneous soil criteria information is not allowed in the component name
+field. Extra information is recorded in the “Local Phase” column.
+ The entry in the “Taxon Kind” column must agree with the component name. For
+example, if the name “Rock Outcrop,” is used then “miscellaneous area” must be
+selected as the taxon kind.
+ If the component kind is designated as a miscellaneous area, then the component
+name must exactly match one of the approved types that are defined in part 627 of
+this handbook.
+ Major components must be designated as such. Major components are generally
+those that are identified in the map unit name.
+ The “Hydric Rating” column must be populated for each component.
+ Pedons used to support development of the component must be identified with a
+record (i.e., row) in the “Component Pedon” table. This record links the “Data
+Mapunit” and “Pedon” objects. Only one pedon record is assigned as the
+“representative” pedon.
+ If a soil floods, or ponds, or contains moisture, then all 12 months are populated in
+the “Component Month” table and the months in which the annual event most
+commonly occurs are populated. Remaining months are left NULL.
+ In the “Component Crop Yield” table, only one unit of measure (UOM) is assigned
+for the unique crop name (e.g., a data entry showing two records of alfalfa, one with
+tons and one with AUM, is incorrect).
+ All root-limiting layers must be populated in the “Component Restriction” table.
+Depth to the restrictive layer matches the depth to the corresponding horizon in the
+“Component Horizon” table.
+(iv) “Horizon” Table.—The “Horizon” table presents the various horizons that have been
+aggregated from the genetic soil horizons described in the various documented pedons.
+These horizon data are aggregated for ease in generating interpretations and presenting
+soil survey information to users. Each horizon recorded in this table identifies the range
+of properties and interpretations for the given horizon. The horizons and their range of
+properties are aggregated from the observed population of point descriptions collected for
+the given component within the given map unit. Horizon properties are assigned three
+values: Low (L), Representative (RV), and High (H).
+(v) Important Guidance on Populating Horizon Data
+ Refer to part 618 of this handbook for detailed information on soil properties.
+ If the horizon thickness is greater than zero (e.g., Low=5, RV=8, High=12), the
+horizon exists everywhere this component occurs in this map unit. If the horizon
+thickness includes zero (e.g., Low=0, RV=1, High=3), the horizon may exist in some
+places where this component occurs but may not exist in other places.
+ “Top (Low, RV, High)” is the distance from the top of the soil to the upper boundary
+of the soil horizon. “Bottom Depth (Low, RV, High)” is the distance from the top of
+the soil to the lower boundary of the soil horizon.
+ No gaps or overlaps are allowed in horizon depths. Depths must join exactly
+between adjacent horizons.
+ “Master” is one of three kinds of symbols that, when concatenated, are used to
+distinguish different kinds of layers in soils. Master horizons and layers are the base
+symbols to which other characters are added to complete the designations. Capital
+letters, carets (^), and virgules (/) are the symbols used to choose the “Master”
+Title 430 – National Soil Survey Handbook
+(430-639-H, 1st
+Ed., Amend. 25, Nov. 2017)
+639-A.9
+designation. The word “and” is also part of the designation of some combination
+horizons (e.g., E and B).
+ Master horizons “O” and “R” must have the “Master” and “Designation” columns
+properly populated.
+ Combination horizons, such as “E/Bt” or “E and Bt,” are recorded twice: once for the
+characteristics of the first part and again on another row for the characteristics of the
+second part. The RV depths for each characteristic horizon should reflect the best
+estimate of depths for the recorded part. The RV values assigned for horizon top and
+bottom depths must be continuous (e.g., 20 to 35 cm for one record and 35 to 50 cm
+for the other record) and should not be duplicated or overlapping. The range of
+depths should be populated in the “Low” and “High” columns to identify the
+overlapping nature of the horizon.
+ “Designation” is the concatenation of five kinds of symbols that are separate data
+elements in NASIS and must be populated individually. These symbols are
+discontinuities (“Disc”), master horizons and layers (“Master”), prime symbols
+(“Prime”), suffix symbols (“Suffix”), and vertical subdivisions (“Sub”). These
+symbols are used in various combinations to designate layers within the soil. The full
+horizon designation, such as “Btk2” or “2^Cg1,” is shown in the “Designation”
+column. Default designations were set as generic “H” horizons, such as H1, H2, etc.,
+during conversion from a prior database into NASIS. These generic designations
+may continue to be used. The “Designation” column may be calculated, based on
+data in other columns. The status indicator in the rightmost part of the “Designation”
+column indicates whether a value in this column has been manually entered (M),
+calculated (C), or neither (a null entry in the status block).
+ All “Low,” “Representative,” and “High” value fields are populated for soil
+properties.
+ Tenth-bar, third-bar, and 15-bar water contents are populated with values less than
+100.
+ Populate CEC-7 if pH is greater than or equal to 5.5; otherwise populate ECEC.
+ Only one “Representative” texture is assigned for each horizon in the “Horizon
+Texture Group” table.
+ Avoid the use of stratified textures (e.g., SR-S-L) if possible by separating and
+populating horizons based on different soil properties.
+ Horizon structure must be populated.
+ Populate all fields in the “Horizon Fragments” table for soils with fragments.
+ The sum of the values in the “Vol % RV” column of the Horizon Fragments table
+should match the value in the “Total Fragment Volume RV” column in the “Horizon”
+table.
+ The sum of fragment volumes must agree with the texture modifier chosen for the
+RV texture modifier and class in the “Horizon Texture Group” table.
+(4) “Project” Object.—This business object is the soil survey program management tool designed
+for the management of all soil survey operations, including planning, managing, and tracking
+the status, milestone events, and progress of NCSS. The “Project” object is used to record
+staff, goals, progress, and survey management considerations. A record in the “Project”
+object is created as needed and retained as part of the historical records. The “Project” object
+includes the parent “Project” table and several other tables. Generally, responsibility for
+project data is created by the soil survey office.
+(i) For outmoded surveys, the project name will use the non-MLRA soil survey area name
+identified in the MOU (e.g., Saline County, Kansas – Published).
+Title 430 – National Soil Survey Handbook
+(430-639-H, 1st
+Ed., Amend. 25, Nov. 2017)
+639-A.10
+(ii) For updating soil surveys, the project name will use the MLRA symbol and the project
+name (e.g., MLRA 73 – Harney Silt Loam Ksat Study). The “Non-MLRA soil survey
+area” fields are not populated for update surveys.
+(iii) For the Soil Data Join Recorrelation projects, the project name will use the “SDJR”
+prefix, followed by the MLRA symbol and the project name (e.g. SDJR – MLRA 133B –
+Bowie fine sandy loam, 1 to 3 percent slopes)
+(iv) The “Soil Survey Office Area Symbol” and “Name” data elements must be populated.
+G. Standards, Criteria, and Guidelines.—Standards, criteria, and guidelines include taxonomic class
+limits, series ranges in characteristics, interpretation criteria, and other data and documents used to
+establish concepts, assist aggregation, and communicate policy in soil survey. Most standards,
+criteria, and guidelines, such as this handbook and the Soil Survey Manual, are managed as online
+documents. Some standards, criteria, and guidelines, such as queries, reports, and interpretation
+criteria, are managed as data in NASIS. These NASIS data records are recorded in the “Query”
+object, “Report” object, and business objects described for “Properties, Evaluations, and Rules,”
+defined below.
+(1) “Query” Object.—This business object is designed to maintain the name, selection criteria,
+description, and default target table developed for individual queries. The “Query” object
+contains the “Query” table and “Query Text” table. Queries are created as needed and
+retained at the discretion of the owner of the query. Ownership of a specific query is
+indicated by the site and group fields on the “General” tab for the particular query in NASIS.
+Authority to edit the “Query” object is limited to users who are members of the group that
+owns the query. Descriptions for data elements in the “Query” object and instructions for use
+of the editor are in the NASIS online documentation.
+Queries.—Specific naming convention is requested to facilitate consistency and avoid
+duplication of queries within the NASIS application. Queries are used to retrieve specific soil
+data records from the national NASIS database to populate the local NASIS database and also
+to bring soil data from the local database into a current NASIS session (selected set) for
+viewing, editing, or reporting. Note the following guidance on queries:
+ The query name should begin with a key word that either targets the table or data
+being queried (e.g., Component or Area/Mapunit/Component).
+ The key word is followed by concise terms that specify the criteria and parameters by
+which the query selects the data. The suggested syntax is: “[keyword] by [criteria]
+where [parameters].” Examples include:
+- “Area/Mapunit/Datamapunit by Area ID”
+- “Area/Mapunit/Component by component name, SSA symbol where major = yes”
+- “Pedon/Site/Transect by Soil Name As Sampled”
+ The “Query Description” must be populated by describing the appropriate target
+tables, the purpose of the query, the query author, and the date the query was created.
+ User names, numbers, and office locations are not acceptable for query names.
+ Key words are not to be prefixed with numbers or symbols with the intent to override
+sorting.
+ Duplicate queries among the various NASIS sites are avoided. A list of “Favorites”
+is a feature of NASIS that is available to manage the individual user’s queries.
+ The “Query Text” table is used to document edits made to each query.
+ Further details describing the process of writing queries can be found in the in the
+NASIS online documentation.
+(2) “Report” Object.—This business object is designed to maintain the style, format, content, and
+layout specifications developed for individual reports. Reports are created as needed and
+Title 430 – National Soil Survey Handbook
+(430-639-H, 1st
+Ed., Amend. 25, Nov. 2017)
+639-A.11
+retained at the discretion of the owner of the report. Ownership of a specific record in the
+“Report” object is indicated by the site and group fields on the “General” tab for the
+particular report in NASIS. The “Report” object contains the “Report” and “Report Text”
+tables. Authority to edit the “Report” object is limited to users who are members of the group
+that owns the report. Descriptions for data elements in the “Report” object and instructions
+for creating reports are in the NASIS online documentation.
+Reports.—A specific naming convention is necessary to facilitate consistency and avoid
+duplication of reports within the NASIS application. Reports are used to view data and
+generate output and can be run against the national NASIS database or against the local
+database. Note the following guidance on queries:
+ The report name should begin with a key word, in uppercase, that groups the report
+for a specific use. Examples include the following:
+- “CORR” for correlation reports
+- “MANU” for manuscript reports
+- “PEDON” for pedon reports
+- “SSS” for soil survey schedule reports
+ The key word is followed by a space, en dash, space. This is followed by concise
+terms that specify the purpose of the report. For example, the syntax should be
+“[keyword] – [criteria].” Examples include:
+- “CORR – Legend Field Review”
+- “MANU – Soil Features”
+ The “Report Description” field must be populated, and it must describe the purpose
+of the report, the report author, and the date the report was created.
+ Do not use user names or locations for report names.
+ Key words are not prefixed with numbers or symbols with the intent of overriding the
+default sorting.
+ Avoid duplicating reports, since reports are available on all NASIS sites.
+ Notes are entered into the “Report Text” table to document edits made to each report.
+ Further details describing the process of writing reports can be found in the NASIS
+online documentation.
+(3) Properties, Evaluations, and Rules.—The criteria for soil interpretations are comprised of
+“properties,” “evaluations,” and “rules.” These three elements are designed to maintain a list
+of soil properties, class limits, ranking terms, and restriction terms for each soil survey
+interpretation. The data for these elements is recorded in the “Property” object, “Evaluation”
+object, and “Rule” object. Records in each object are used to predict behavior from the
+physical, chemical, and morphological properties of individual components of map units.
+Interpretive results are reported and maintained independently from the criteria.
+Interpretation Criteria.—Interpretation criteria include official criteria as well as regionally or
+locally developed criteria. They are created as needed and retained as part of the historical
+records. Interpretation criteria are housed in several tables in the NASIS application. Further
+details describing the process of writing interpretations can be found in part 617 of this
+handbook and in the NASIS online documentation. Detailed guidance on developing
+interpretations is available from the NSSC soil survey interpretations staff.
+H. Spatial Database.—The spatial database is not yet integrated into the NASIS application. It is
+maintained as a separate standalone database.
+Title 430 – National Soil Survey Handbook
+(430-639-H, 1st
+Ed., Amend. 25, Nov. 2017)
+639-A.12
+639.4 Guidelines for Changing, Adding, or Deleting Soil Property Data Elements
+A. Data Dictionary.—The NRCS Soil Science Division maintains a soil data dictionary, which
+contains the national list of approved soil attributes and the standards for naming, defining, and
+implementing attributes in soil databases.
+B. Maintenance.—NSSC is responsible for maintaining the soil data dictionary and for integrating
+soil data within soil information systems as well as within other NRCS information systems.
+C. Modification.—Changes, additions, or deletions to the soil data dictionary are proposed by any
+participant in the National Cooperative Soil Survey. Those suggestions are transmitted to the NSSC.
+D. Definition.—Changes, additions, or deletions to the soil data dictionary are defined as—
+(1) Adding or removing attributes from the approved list of soil attributes.
+(2) Changing the definition of an existing attribute, including adding to, removing from, or
+redefining abbreviations or codes used to describe soil properties.
+(3) Adding to, removing from, changing, or redefining the methods used to obtain data for an
+attribute or changing the methods used for the derivation of data values for the attribute.
+E. Proposal Process.—The following steps are used to propose or revise soil property data elements
+for the NASIS application:
+(1) Formulate the need for a new element or a revision of an existing data element.
+(2) Record the necessary descriptive information for the data element using the exhibit found in
+part 639, subpart B, section 639.10, of this handbook.
+(3) Solicit comments from other soil scientists to refine proposals. Standing committees of
+regional NCSS conferences are appropriate venues. Refer to part 602 of this handbook for
+information.
+(4) Forward proposals for changes, additions, or deletions of data elements to the director of the
+NSSC for coordination of review and update of the soil data dictionary.
+
