@@ -80,6 +80,8 @@ jobs:
         run: |
           git config user.email "github-actions@github.com"
           git config user.name "SoilKnowledgeBot"
+          git commit inst/extdata/*.txt -m 'Update inst/extdata/ TXT files' || echo "No changes to commit"
+          git commit inst/extdata/*.html -m 'Update inst/extdata/ HTML files' || echo "No changes to commit"
           git commit README.md -m 'Render README.Rmd' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
 
