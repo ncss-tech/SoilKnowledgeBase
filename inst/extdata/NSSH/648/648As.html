@@ -1,0 +1,405 @@
+<!DOCTYPE html><html>
+<head>
+<title></title>
+<style type="text/css">
+<!--
+.xflip {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: fliph;
+}
+.yflip {
+    -moz-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: flipv;
+}
+.xyflip {
+    -moz-transform: scaleX(-1) scaleY(-1);
+    -webkit-transform: scaleX(-1) scaleY(-1);
+    -o-transform: scaleX(-1) scaleY(-1);
+    transform: scaleX(-1) scaleY(-1);
+    filter: fliph + flipv;
+}
+-->
+</style>
+</head>
+<body>
+<a name=1></a>Title&#160;430&#160;–&#160;National&#160;Soil&#160;Survey&#160;Handbook&#160;<br/>
+<b>Part&#160;648&#160;–&#160;Digital&#160;Soil&#160;Mapping&#160;–&#160;Raster&#160;Products&#160;&#160;</b><br/>
+<b>Subpart&#160;A&#160;–&#160;General&#160;Information&#160;</b><br/>
+<b>648.0&#160;&#160;Definition&#160;and&#160;Purpose&#160;</b><br/>
+A. &#160;Definition&#160;<br/>
+Raster&#160;soil&#160;survey&#160;is a&#160;reference&#160;to the products&#160;of&#160;soil&#160;survey&#160;work&#160;completed&#160;using&#160;digital&#160;soil&#160;<br/>mapping&#160;methodologies. &#160;Digital&#160;soil&#160;mapping&#160;is&#160;the production of&#160;georeferenced soil&#160;databases&#160;<br/>based&#160;on&#160;the quantitative relationships between&#160;soil&#160;measurements made&#160;in&#160;the&#160;field or&#160;laboratory&#160;<br/>and environmental&#160;data and&#160;may&#160;be represented&#160;as&#160;either&#160;discrete classes&#160;or&#160;continuous soil&#160;<br/>properties. &#160;Both&#160;digital&#160;and traditional&#160;soil&#160;mapping&#160;use&#160;a conceptual&#160;soil-landscape model&#160;as&#160;a&#160;<br/>means for&#160;organizing&#160;environmental&#160;information&#160;into&#160;discrete divisions.&#160;&#160;The primary&#160;difference&#160;<br/>between these&#160;two approaches&#160;is that&#160;digital&#160;methods exploit&#160;quantitative relationships of&#160;the&#160;<br/>environmental&#160;information,&#160;while&#160;traditional&#160;methods&#160;utilize a&#160;more subjective approach and&#160;the&#160;<br/>approximate&#160;relationships&#160;of&#160;the environmental&#160;information to&#160;spatially&#160;represent&#160;where&#160;the&#160;<br/>divisions are&#160;represented.&#160;&#160;Traditional&#160;soil&#160;mapping&#160;products are produced&#160;primarily&#160;through&#160;<br/>qualitative assessment&#160;of&#160;the landscape&#160;using&#160;aerial&#160;photography&#160;and other&#160;supporting&#160;digital&#160;<br/>environmental&#160;data&#160;and&#160;field&#160;sampling,&#160;and are&#160;delivered in&#160;a vector&#160;data structure&#160;(see&#160;section&#160;<br/>647.4). &#160;Digital&#160;soil&#160;mapping&#160;exploits&#160;the quantitative relationships between soil&#160;observations&#160;and&#160;<br/>digital&#160;environmental&#160;data&#160;and products are delivered&#160;as&#160;raster&#160;data&#160;(i.e.,&#160;rows and&#160;columns of&#160;<br/>pixels with geographic&#160;locations storing&#160;categorical&#160;or&#160;continuous data). Raster&#160;soil&#160;survey&#160;does&#160;<br/>not&#160;encompass the Gridded&#160;Soil&#160;Survey&#160;Geographic&#160;(gSSURGO)&#160;Database,&#160;which&#160;is&#160;a&#160;rasterized&#160;<br/>version of&#160;SSURGO&#160;polygon information.&#160;<br/>
+B.&#160;&#160;Purpose&#160;<br/>
+The&#160;purpose&#160;of&#160;this&#160;part&#160;is&#160;to provide&#160;standards&#160;regarding&#160;procedures,&#160;data development,&#160;<br/>responsibilities,&#160;mapping&#160;strategies, and&#160;products&#160;associated with&#160;raster&#160;soil&#160;survey&#160;efforts. &#160;These&#160;<br/>standards are used&#160;to consistently&#160;produce&#160;statewide raster&#160;soil&#160;survey&#160;databases corresponding&#160;to&#160;<br/>State raster&#160;soil&#160;survey&#160;areas&#160;and continuous,&#160;national&#160;soil&#160;property&#160;layers.&#160;The need for&#160;this&#160;<br/>guidance has&#160;been driven by&#160;significant&#160;advances&#160;in&#160;computer&#160;technology&#160;enabling&#160;soil&#160;survey&#160;<br/>information&#160;to be&#160;developed&#160;with&#160;an improved, quantifiable, and consistent&#160;representation of&#160;<br/>spatial&#160;variability. &#160;This&#160;improved&#160;information &#160;benefits&#160;conservation planners, modelers,&#160;policy&#160;<br/>makers,&#160;soil&#160;survey&#160;partners, and other&#160;stake holders&#160;making&#160;land&#160;inventory&#160;and management&#160;<br/>decisions.&#160;This part&#160;is&#160;not&#160;a&#160;step-by-step procedure for&#160;how&#160;to&#160;implement&#160;digital&#160;soil&#160;mapping&#160;<br/>methodologies&#160;to produce a&#160;raster&#160;soil&#160;survey.&#160;&#160;For more detailed&#160;information on&#160;digital&#160;soil&#160;<br/>mapping&#160;methodologies, see&#160;chapter&#160;5 of&#160;the Soil&#160;Survey&#160;Manual&#160;(Soil&#160;Science Division Staff&#160;<br/>2017).&#160;<br/>
+C.&#160;&#160;Raster&#160;Soil&#160;Survey&#160;Strategies&#160;<br/>
+(1)&#160;&#160;The term&#160;“strategy”&#160;here refers to the approach and&#160;operations&#160;applied&#160;towards&#160;the goal&#160;of&#160;<br/>
+developing&#160;consistent&#160;soil&#160;information&#160;using&#160;digital&#160;soil&#160;mapping&#160;methods.&#160;The strategy&#160;used&#160;<br/>for&#160;raster&#160;soil&#160;survey&#160;is dependent&#160;on&#160;the&#160;availability&#160;and quality&#160;of&#160;existing&#160;soil&#160;and&#160;<br/>environmental&#160;data. &#160;Raster&#160;soil&#160;surveys&#160;can fill&#160;the voids&#160;in&#160;the&#160;current&#160;inventory&#160;or&#160;be used&#160;<br/>to refine&#160;or&#160;supplement&#160;the&#160;existing&#160;inventory&#160;by&#160;more&#160;explicitly&#160;and consistently&#160;identifying&#160;<br/>a soil&#160;class. &#160;&#160;<br/>
+(2)&#160;&#160;The continuous raster&#160;soil&#160;survey&#160;strategy, discussed below,&#160;is a&#160;national&#160;project&#160;focused on&#160;<br/>
+developing&#160;a spatially&#160;continuous, consistent&#160;set&#160;of&#160;soil&#160;properties to&#160;support&#160;large&#160;scope&#160;soil&#160;<br/>investigations.&#160;&#160;&#160;<br/>
+(430-648-H,&#160;1st&#160;Ed., Amend.&#160;26,&#160;June&#160;2018)&#160;&#160;<br/>
+&#160;648-A.1&#160;&#160;<br/>
+<hr/>
+<a name=2></a>Title&#160;430&#160;–&#160;National&#160;Soil&#160;Survey&#160;Handbook&#160;<br/>
+(3)&#160;&#160;Project&#160;Mapping&#160;<br/>
+(i)&#160;&#160;This type of&#160;mapping&#160;identifies&#160;soil&#160;classes&#160;that&#160;are&#160;supported&#160;by&#160;expert&#160;knowledge, field&#160;<br/>
+observations, and&#160;associated geographic&#160;and&#160;environmental&#160;data. &#160;The quantitative&#160;<br/>relationships between&#160;these&#160;data&#160;are explored and discrete&#160;classes&#160;are established. &#160;Raster&#160;<br/>project&#160;mapping&#160;utilizes&#160;the&#160;SSURGO&#160;tabular&#160;data&#160;structure to support&#160;property&#160;and&#160;<br/>interpretation generation.&#160;&#160;<br/>
+(ii)&#160;&#160;Types&#160;of&#160;project&#160;mapping&#160;are—&#160;<br/>
+•&#160;&#160;MLRA&#160;Raster&#160;Soil&#160;Survey&#160;Project&#160;Mapping&#160;(See&#160;Part&#160;610).—Raster&#160;soil&#160;survey&#160;<br/>
+products&#160;improve&#160;or&#160;advance&#160;the currently&#160;existing&#160;official&#160;SSURGO&#160;inventories&#160;<br/>with&#160;detailed,&#160;refined,&#160;spatially&#160;explicit&#160;and&#160;seamless&#160;soil&#160;information&#160;across&#160;county,&#160;<br/>parish or&#160;State&#160;boundaries.&#160;These&#160;projects are often applied on a&#160;map&#160;unit,&#160;landform,&#160;<br/>or&#160;ecological&#160;unit&#160;potentially&#160;involving&#160;soil&#160;catenas.&#160;&#160;Data updates&#160;are&#160;delivered&#160;in&#160;<br/>statewide raster&#160;soil&#160;survey&#160;(RaSS)&#160;databases&#160;and published&#160;to the NRCS Data&#160;<br/>Gateway. Vector&#160;updates&#160;are&#160;discretionary&#160;for&#160;these projects.&#160;<br/>
+•&#160;&#160;Initial&#160;Raster&#160;Soil&#160;Survey&#160;Project&#160;Mapping&#160;(See&#160;Part&#160;627).—Raster&#160;soil&#160;survey&#160;<br/>
+products&#160;are&#160;foundational&#160;to providing&#160;detailed soil&#160;information&#160;in&#160;unmapped areas&#160;as&#160;<br/>part&#160;of&#160;the&#160;non-MLRA&#160;progressive&#160;soil&#160;survey.&#160;Initial&#160;raster&#160;soil&#160;survey&#160;project&#160;<br/>mapping&#160;is analogous to&#160;a first&#160;generation soil&#160;survey.&#160;&#160;The&#160;soil&#160;survey&#160;area&#160;is&#160;part&#160;of&#160;<br/>a&#160;statewide&#160;raster&#160;soil&#160;survey&#160;(RaSS)&#160;area&#160;and the child&#160;objects&#160;(legend,&#160;map&#160;unit,&#160;<br/>data&#160;map unit,&#160;etc.)&#160;are&#160;populated&#160;in&#160;the same&#160;manner&#160;as&#160;a&#160;traditional&#160;soil&#160;survey. &#160;A&#160;<br/>traditional&#160;SSURGO&#160;tabular&#160;and vector&#160;product&#160;is&#160;created&#160;from&#160;the&#160;information&#160;<br/>collected during&#160;the project&#160;and&#160;final&#160;raster&#160;map.&#160;&#160;The&#160;products&#160;of&#160;initial&#160;raster&#160;soil&#160;<br/>surveys will&#160;become&#160;a part&#160;of&#160;the&#160;official&#160;SSURGO&#160;data.&#160;<br/>
+(iii)&#160;&#160;For&#160;raster&#160;project&#160;mapping, the&#160;target&#160;pixel&#160;value&#160;represents&#160;the&#160;map&#160;unit&#160;key&#160;and relates&#160;<br/>
+to tabular&#160;data&#160;stored&#160;in&#160;NASIS.&#160;<br/>
+(4)&#160;&#160;Continuous&#160;Raster&#160;Mapping&#160;<br/>
+(i)&#160;&#160;This&#160;type of&#160;mapping&#160;predicts&#160;soil&#160;physical&#160;or&#160;chemical&#160;properties&#160;in horizontal&#160;and&#160;<br/>
+vertical&#160;dimensions. &#160;The&#160;soil&#160;properties are represented across&#160;a continuous&#160;range&#160;of&#160;<br/>values. &#160;&#160;<br/>
+•&#160;&#160;Raster&#160;layers of&#160;key&#160;soil&#160;properties&#160;are&#160;predicted at&#160;specified&#160;depth&#160;intervals.&#160;&#160;<br/>
+•&#160;&#160;Depth&#160;intervals will&#160;be&#160;0-5&#160;cm, 5-15&#160;cm, 15-30&#160;cm, 30-60&#160;cm, 60-100&#160;cm,&#160;and 100-<br/>
+200&#160;cm.&#160;<br/>
+•&#160;&#160;Soil&#160;properties&#160;must&#160;include&#160;all&#160;of&#160;the following, at&#160;a&#160;minimum:&#160;&#160;<br/>
+-&#160;Total&#160;profile&#160;depth&#160;(cm)&#160;<br/>-&#160;Plant&#160;exploitable (effective)&#160;soil&#160;depth (cm)&#160;<br/>-&#160;Organic&#160;carbon&#160;(g/kg)&#160;<br/>-&#160;pH&#160;(x10)&#160;<br/>-&#160;sand&#160;(g/kg)&#160;<br/>-&#160;silt&#160;(g/kg)&#160;<br/>-&#160;clay&#160;(g/kg)&#160;<br/>-&#160;gravel&#160;(m3&#160;m-3)&#160;<br/>-&#160;ECEC&#160;(cmolc/kg)&#160;<br/>-&#160;Bulk&#160;density&#160;of&#160;fine earth&#160;(&lt;2&#160;mm)&#160;fraction (excluding&#160;gravel)&#160;(Mg/m3)&#160;<br/>-&#160;Bulk&#160;density&#160;of&#160;whole&#160;soil&#160;(includes&#160;gravel)&#160;(Mg/m3)&#160;<br/>-&#160;Available&#160;water&#160;holding&#160;capacity&#160;(mm)&#160;<br/>
+•&#160;&#160;Each property&#160;will&#160;have an&#160;associated&#160;uncertainty&#160;at&#160;each depth interval,&#160;representing&#160;<br/>
+the 90-percent&#160;prediction interval.&#160;<br/>
+(ii)&#160;&#160;The target&#160;for&#160;a continuous raster&#160;is a&#160;pixel&#160;that&#160;stores&#160;a&#160;quantitative value&#160;for&#160;the&#160;<br/>
+respective property.&#160;The standards for&#160;continuous raster&#160;mapping&#160;shadow&#160;the&#160;<br/><a href="http://esdac.jrc.ec.europa.eu/projects/globalsoilmapnet">GlobalSoilMap.net&#160;standard&#160;</a>2.4, initially. &#160;This&#160;includes&#160;depth&#160;intervals&#160;and&#160;soil&#160;<br/>
+(430-648-H,&#160;1st&#160;Ed., Amend.&#160;26,&#160;June&#160;2018)&#160;&#160;<br/>
+&#160;648-A.2&#160;&#160;<br/>
+<hr/>
+<a name=3></a>Title&#160;430&#160;–&#160;National&#160;Soil&#160;Survey&#160;Handbook&#160;<br/>
+properties&#160;investigated. &#160;The one&#160;deviation of&#160;continuous raster&#160;mappings standards from&#160;<br/>the Global&#160;Soil&#160;Map standards&#160;is&#160;the horizontal&#160;resolution of&#160;the products. &#160;The Global&#160;<br/>Soil&#160;Map Standard&#160;is&#160;100&#160;meters,&#160;whereas&#160;the continuous raster&#160;mapping&#160;standard is 30&#160;<br/>meters.&#160;<br/>
+(iii)&#160;&#160;Work&#160;for&#160;the&#160;continuous&#160;raster&#160;mapping&#160;will&#160;not&#160;interfere with&#160;the day-to-day&#160;activities&#160;<br/>
+of&#160;the majority&#160;of&#160;soil&#160;scientists working&#160;within the National&#160;Cooperative Soil&#160;Survey. &#160;<br/>The&#160;work&#160;will&#160;be&#160;completed by&#160;a few agency&#160;employees and&#160;include cooperators&#160;and&#160;<br/>partners.&#160;&#160;<br/>
+D.&#160;&#160;Procedure&#160;<br/>
+(1)&#160;&#160;MLRA&#160;Raster&#160;Soil&#160;Survey&#160;Project&#160;Mapping.—A&#160;NASIS&#160;project&#160;plan&#160;is&#160;developed&#160;by&#160;the Soil&#160;<br/>
+Survey&#160;Office&#160;and&#160;follows&#160;the&#160;project&#160;approval&#160;process&#160;(430-NSSH-610-A-610.1A(3)).&#160;<br/>
+(2)&#160;&#160;Initial&#160;Raster&#160;Soil&#160;Survey&#160;Project&#160;Mapping.—A&#160;signed&#160;memorandum&#160;of&#160;understanding&#160;<br/>
+(MOU)&#160;or&#160;interagency&#160;agreement&#160;is required&#160;(430-NSSH-606). &#160;A&#160;NASIS&#160;project&#160;is&#160;created&#160;<br/>and follows the&#160;project&#160;approval&#160;process (430-NSSH-610-A-610.1A(3)).&#160;<br/>
+(3)&#160;&#160;Initial&#160;and&#160;MLRA&#160;raster&#160;soil&#160;survey&#160;project&#160;mapping&#160;resolution is determined&#160;by&#160;the available&#160;<br/>
+data,&#160;intended use, and&#160;is&#160;defined on&#160;project&#160;basis. &#160;Project&#160;spatial&#160;resolution&#160;is&#160;established&#160;in&#160;<br/>the project&#160;proposal,&#160;MOU, or&#160;interagency&#160;agreement. &#160;Projects&#160;(MLRA&#160;and&#160;initial&#160;raster&#160;soil&#160;<br/>survey)&#160;completed&#160;at&#160;resolutions other&#160;than&#160;10 meter&#160;are resampled to&#160;10 meter&#160;to&#160;fit&#160;<br/>seamlessly&#160;within a&#160;State&#160;raster&#160;soil&#160;survey&#160;database. &#160;Resolution for&#160;continuous raster&#160;<br/>mapping&#160;will&#160;initially&#160;be 30&#160;meter&#160;but&#160;may&#160;vary&#160;with the version of&#160;the&#160;product&#160;and be&#160;<br/>seamless&#160;for&#160;the&#160;continental&#160;United States (CONUS)&#160;and&#160;noncontiguous&#160;States and&#160;territories.&#160;<br/>
+(4)&#160;&#160;Spatial&#160;data&#160;resulting&#160;from&#160;MLRA&#160;and initial&#160;raster&#160;soil&#160;survey&#160;project&#160;mapping&#160;are&#160;aligned to&#160;<br/>
+the National&#160;Land&#160;Cover&#160;Database&#160;(NLCD)&#160;and&#160;delivered&#160;using&#160;the&#160;following&#160;projected&#160;<br/>coordinate&#160;systems:&#160;<br/>(i)&#160;&#160;CONUS: USA&#160;Contiguous Albers Equal&#160;Area Conic USGS version&#160;<br/>(ii)&#160;&#160;Puerto Rico and&#160;U.S.V.I:&#160;USA&#160;Contiguous Albers&#160;Equal&#160;Area&#160;Conic USGS version&#160;<br/>(iii)&#160;&#160;Hawaii:&#160;Hawaii&#160;Albers Equal&#160;Area Conic&#160;<br/>(iv)&#160;&#160;Alaska:&#160;WGS&#160;1984 Albers&#160;(MRLC&#160;-&#160;Alaska)&#160;<br/>(v)&#160;&#160;PAC&#160;Basin:&#160;Western Pacific&#160;Albers Equal&#160;Area&#160;Conic&#160;<br/>(vi)&#160;&#160;American Samoa:&#160;Hawaii&#160;Albers Equal&#160;Area&#160;Conic&#160;<br/>
+(5)&#160;&#160;The tabular&#160;information collected&#160;during&#160;MLRA&#160;project&#160;or&#160;initial&#160;raster&#160;soil&#160;survey&#160;mapping&#160;<br/>
+is stored and maintained&#160;in&#160;NASIS. &#160;The accompanying&#160;spatial&#160;data&#160;are stored in&#160;a&#160;statewide&#160;<br/>geodatabase&#160;with&#160;a corresponding&#160;tabular&#160;export&#160;and posted&#160;to&#160;the NRCS Data Gateway.&#160;<br/>
+Raster&#160;soil&#160;survey&#160;efforts are pursued using&#160;accepted exploratory&#160;and prediction&#160;methods,&#160;<br/>such as unsupervised&#160;(e.g.,&#160;ISODATA, k-means)&#160;and&#160;supervised classification&#160;(e.g.,&#160;<br/>predictive modeling, knowledge-based)&#160;and geostatistics. &#160;These&#160;methods&#160;are found in&#160;<br/>geographic information system&#160;(GIS)&#160;and statistical&#160;software, peer-reviewed literature, and&#160;<br/>are discussed in&#160;chapter&#160;5 of&#160;the Soil&#160;Survey&#160;Manual&#160;(Soil&#160;Science&#160;Division Staff&#160;2017).&#160;&#160;A&#160;<br/>consistent&#160;approach&#160;is&#160;desired for&#160;projects across similar&#160;landscapes or&#160;landforms such as&#160;<br/>MLRAs or&#160;floodplains.&#160;&#160;<br/>
+(6)&#160;&#160;SSURGO&#160;vector&#160;data&#160;reflects&#160;the findings of&#160;MLRA&#160;or&#160;initial&#160;raster&#160;project&#160;mapping&#160;in&#160;<br/>
+coincident&#160;areas.&#160;MLRA&#160;raster&#160;project&#160;mapping&#160;is&#160;not&#160;carried out&#160;as&#160;a means&#160;to&#160;require&#160;the&#160;<br/>development&#160;of&#160;a&#160;more detailed SSURGO&#160;product.&#160;&#160;Regional&#160;discretion, with concurrence&#160;<br/>from&#160;State&#160;conservationists&#160;(or&#160;designated&#160;appointee),&#160;the&#160;board&#160;of&#160;advisors&#160;(430-NSSH-609-<br/>A-609.1B(3)), technical&#160;teams, and cooperators,&#160;is&#160;used to&#160;determine&#160;the degree&#160;to which&#160;<br/>findings from&#160;MLRA&#160;raster&#160;soil&#160;survey&#160;projects&#160;are&#160;incorporated into&#160;existing&#160;SSURGO&#160;<br/>spatial&#160;and&#160;tabular&#160;information. &#160;The intent&#160;is to refine&#160;and improve&#160;upon&#160;the&#160;information&#160;<br/>which has&#160;already&#160;been&#160;inventoried. &#160;Raster&#160;mapping&#160;products&#160;must&#160;support&#160;consistent&#160;soil&#160;<br/>survey&#160;products across&#160;political&#160;boundaries,&#160;including&#160;correlation of&#160;existing&#160;SSURGO&#160;<br/>
+(430-648-H,&#160;1st&#160;Ed., Amend.&#160;26,&#160;June&#160;2018)&#160;&#160;<br/>
+&#160;648-A.3&#160;&#160;<br/>
+<hr/>
+<a name=4></a>Title&#160;430&#160;–&#160;National&#160;Soil&#160;Survey&#160;Handbook&#160;<br/>
+products&#160;into MLRA&#160;map units&#160;across natural&#160;landforms over&#160;broad areas (430-NSSH-610-<br/>A-610.1A(4)).&#160;<br/>
+(7)&#160;&#160;MLRA&#160;and&#160;initial&#160;raster&#160;soil&#160;survey&#160;mapping&#160;is&#160;quantitatively&#160;validated&#160;as&#160;part&#160;of&#160;the&#160;<br/>
+modeling&#160;process&#160;using&#160;accepted&#160;validation methods.&#160;These&#160;estimates&#160;of&#160;accuracy&#160;and&#160;<br/>uncertainty&#160;are published&#160;alongside&#160;the raster&#160;soil&#160;maps&#160;and published&#160;in&#160;the metadata. &#160;<br/>Examples&#160;are&#160;overall&#160;map&#160;accuracy,&#160;standard error,&#160;uncertainty,&#160;or&#160;probability&#160;maps.&#160;<br/>Continuous&#160;raster&#160;property&#160;maps&#160;must&#160;include uncertainty&#160;measures&#160;as specified in the&#160;<br/>GlobalSoilMap.net&#160;standard.&#160;<br/>
+(8)&#160;&#160;Legends&#160;for&#160;MLRA&#160;and initial&#160;raster&#160;soil&#160;survey&#160;mapping&#160;projects are built&#160;and managed&#160;in a&#160;<br/>
+raster&#160;soil&#160;survey&#160;area&#160;corresponding&#160;to&#160;a&#160;respective&#160;State&#160;or&#160;territory. &#160;Legends&#160;for&#160;initial&#160;<br/>raster&#160;soil&#160;survey&#160;mapping&#160;projects&#160;are&#160;also&#160;built&#160;and&#160;managed on a&#160;non-MLRA&#160;soil&#160;survey&#160;<br/>area&#160;extent.&#160;&#160;Publication&#160;symbols&#160;are&#160;the&#160;same as the national&#160;map&#160;unit&#160;symbol.&#160;<br/>
+E.&#160;&#160;Mapping&#160;Data&#160;Development&#160;<br/>
+(1)&#160;&#160;Spatial&#160;Data&#160;<br/>
+Spatial&#160;data used for&#160;raster&#160;soil&#160;survey&#160;map development&#160;meets&#160;the National&#160;Standard for&#160;<br/>Spatial&#160;Data&#160;Accuracy, set&#160;forth by&#160;the Federal&#160;Geographic Data&#160;Committee&#160;<br/><a href="https://www.fgdc.gov/standards/projects/accuracy">(https://www.fgdc.gov/standards/projects/accuracy)</a>. &#160;This&#160;organized structure of&#160;Federal&#160;<br/>geospatial&#160;professionals and constituents&#160;provide&#160;executive, managerial, and&#160;advisory&#160;<br/>direction&#160;and oversight&#160;for&#160;geospatial&#160;decisions&#160;and&#160;initiatives&#160;across&#160;the Federal&#160;Government&#160;<br/><a href="https://www.fgdc.gov/organization">(https://www.fgdc.gov/organization)</a>.&#160;&#160;&#160;<br/>
+(2)&#160;&#160;The data delivered&#160;to project&#160;offices&#160;is coordinated&#160;and validated by&#160;regional&#160;GIS&#160;specialists&#160;<br/>
+to ensure the consistency&#160;of&#160;coordinate&#160;systems, proper&#160;selection of&#160;datum&#160;transformations,&#160;<br/>resampling&#160;techniques,&#160;resolution, data types,&#160;co-registration,&#160;etc.&#160;&#160;Examples&#160;of&#160;data used&#160;<br/>include&#160;those listed below,&#160;although many&#160;options exist&#160;for&#160;data&#160;and derivatives&#160;beyond those&#160;<br/>presented here.&#160;<br/>(i)&#160;&#160;Digital&#160;Elevation Models (SRTM, NED,&#160;IFSAR,&#160;LiDAR)&#160;and derivatives&#160;&#160;<br/>
+•&#160;&#160;Slope&#160;<br/>
+•&#160;&#160;Aspect&#160;<br/>
+•&#160;&#160;Topographic&#160;wetness&#160;index&#160;<br/>
+•&#160;&#160;Curvature&#160;<br/>
+(ii)&#160;&#160;Spectral&#160;(LANDSAT,&#160;ASTER, Orthophotography)&#160;and&#160;Derivatives&#160;&#160;<br/>
+•&#160;&#160;Band&#160;ratios&#160;<br/>
+•&#160;&#160;Principal&#160;components&#160;<br/>
+(iii)&#160;&#160;Thematic&#160;&#160;Data&#160;<br/>
+•&#160;&#160;National&#160;Land&#160;Cover&#160;Database&#160;<br/>
+•&#160;&#160;Gap Analysis&#160;Program&#160;<br/>
+•&#160;&#160;Landforms&#160;<br/>
+•&#160;&#160;National&#160;Wetland Inventory&#160;<br/>
+(iv)&#160;&#160;Climatic Data&#160;<br/>
+•&#160;&#160;PRISM&#160;<br/>
+•&#160;&#160;Annual&#160;water&#160;balance&#160;<br/>
+•&#160;&#160;Incoming&#160;solar&#160;radiation&#160;<br/>
+(3)&#160;&#160;Data Capture&#160;<br/>
+Data capture&#160;relates&#160;to&#160;the&#160;process&#160;of&#160;maintaining, storing,&#160;and delivering&#160;information&#160;from&#160;a&#160;<br/>raster&#160;mapping&#160;project&#160;into&#160;a useable&#160;data product&#160;capable of&#160;generating&#160;soil&#160;properties&#160;and&#160;<br/>interpretations.&#160;&#160;<br/>
+•&#160;&#160;MLRA&#160;Raster&#160;Soil&#160;Survey&#160;Project&#160;Mapping&#160;<br/>
+(430-648-H,&#160;1st&#160;Ed., Amend.&#160;26,&#160;June&#160;2018)&#160;&#160;<br/>
+&#160;648-A.4&#160;&#160;<br/>
+<hr/>
+<a name=5></a>Title&#160;430&#160;–&#160;National&#160;Soil&#160;Survey&#160;Handbook&#160;<br/>
+Resources&#160;guiding&#160;MLRA&#160;raster&#160;soil&#160;survey&#160;projects&#160;include&#160;information already&#160;<br/>present&#160;within map&#160;unit&#160;descriptions&#160;(soil&#160;survey&#160;publications), historical&#160;<br/>documentation&#160;(transects, pedons, general&#160;soil&#160;maps),&#160;environmental&#160;data (digital&#160;<br/>elevation,&#160;spectral,&#160;thematic), and local&#160;expert&#160;knowledge.&#160;&#160;<br/>
+--&#160;Suitable extent&#160;is identified for&#160;improvement&#160;of&#160;official&#160;data&#160;(map&#160;units,&#160;<br/>
+landform, ecological&#160;sites,&#160;etc.). &#160;The&#160;corresponding&#160;extent&#160;is&#160;coincident&#160;with&#160;<br/>SSURGO&#160;polygon information&#160;and&#160;serves&#160;as&#160;the&#160;area&#160;over&#160;which&#160;the&#160;MLRA&#160;<br/>raster&#160;project&#160;is completed.&#160;&#160;Projects&#160;extending&#160;across&#160;very&#160;large areas can&#160;be&#160;<br/>further&#160;subdivided&#160;if&#160;soil&#160;forming&#160;factors, such as climate, vary&#160;considerably&#160;<br/>across&#160;the&#160;identified&#160;extent.&#160;Refined raster&#160;classes&#160;are&#160;identified&#160;and proposed&#160;<br/>using&#160;digital&#160;soil&#160;mapping&#160;methods, image analysis,&#160;field observations, and&#160;<br/>expert&#160;knowledge.&#160;<br/>
+--&#160;Correlation occurs&#160;on the&#160;basis of&#160;articulating&#160;the&#160;class&#160;concepts&#160;through model&#160;<br/>
+training&#160;data&#160;(field&#160;observations or&#160;ancillary&#160;data),&#160;model&#160;outputs,&#160;<br/>environmental&#160;data&#160;(digital&#160;elevation and spectral&#160;data),&#160;independent&#160;validation&#160;<br/>data&#160;(field&#160;observations/ground truthing), field reviews, visual&#160;analysis,&#160;<br/>estimates&#160;of&#160;accuracy&#160;or&#160;uncertainty, and documentation of&#160;the correlation&#160;in&#160;<br/>the NASIS project&#160;object.&#160;<br/>
+--&#160;Every&#160;State&#160;has a&#160;raster&#160;soil&#160;survey&#160;area&#160;and an accompanying&#160;raster&#160;soil&#160;<br/>
+survey&#160;legend in NASIS, identified&#160;with&#160;an area&#160;symbol&#160;using&#160;the&#160;State&#160;<br/>abbreviation&#160;and&#160;an area&#160;of&#160;000&#160;(e.g.,&#160;MA000 (section&#160;648.12)). &#160;Raster&#160;classes&#160;<br/>identified in&#160;MLRA&#160;raster&#160;soil&#160;survey&#160;projects are populated at&#160;the&#160;map&#160;unit&#160;<br/>level&#160;and below&#160;within&#160;the&#160;State&#160;raster&#160;soil&#160;survey&#160;area.&#160;<br/>
+--&#160;Field observations&#160;(training&#160;and validation data)&#160;are&#160;entered&#160;as&#160;NASIS pedons&#160;<br/>
+and related&#160;data.&#160;<br/>
+--&#160;Map layers&#160;of&#160;associated&#160;accuracy&#160;and&#160;uncertainty&#160;values&#160;are&#160;produced and&#160;<br/>
+will&#160;accompany&#160;the class&#160;layer&#160;(figure 648-A1). Validation measures&#160;for&#160;<br/>overall&#160;model&#160;accuracy&#160;or&#160;performance, as&#160;well&#160;as&#160;individual&#160;class accuracy&#160;or&#160;<br/>performance, are&#160;reported separately&#160;in metadata.&#160;Measures for&#160;overall&#160;model&#160;<br/>accuracy&#160;or&#160;performance will&#160;meet&#160;a minimum&#160;target&#160;of&#160;60&#160;percent.&#160;Validation&#160;<br/>using&#160;an&#160;independent&#160;data&#160;set&#160;is highly&#160;recommended,&#160;but&#160;not&#160;required, for&#160;all&#160;<br/>projects. Cross-validation or&#160;other&#160;appropriate data-splitting&#160;methods may&#160;be&#160;<br/>used&#160;in the absence of&#160;an&#160;independent&#160;validation data&#160;set.&#160;&#160;<br/>
+--&#160;A&#160;file geodatabase&#160;is established&#160;for&#160;each&#160;State&#160;raster&#160;soil&#160;survey&#160;area&#160;(section&#160;<br/>
+648.12).&#160; Results of&#160;raster&#160;soil&#160;survey&#160;project&#160;mapping&#160;(MLRA&#160;or&#160;initial)&#160;<br/>accumulate in&#160;this geodatabase,&#160;including&#160;raster&#160;layers&#160;and tabular&#160;exports.&#160;&#160;<br/>SSURGO&#160;products are developed or&#160;updated&#160;from&#160;MLRA&#160;raster&#160;soil&#160;survey&#160;<br/>mapping&#160;efforts, but&#160;require considerations of&#160;correlation and map unit&#160;design&#160;<br/>to create a&#160;more generalized representation of&#160;spatial&#160;and tabular&#160;data.&#160;<br/>
+--&#160;The&#160;State&#160;soil&#160;scientist&#160;certifies&#160;the data for&#160;publication in&#160;the NASIS&#160;“Legend&#160;<br/>
+Export&#160;Certification History”&#160;table.&#160;<br/>
+--&#160;The&#160;State&#160;raster&#160;soil&#160;survey&#160;area&#160;geodatabase, which&#160;includes the&#160;State&#160;raster&#160;<br/>
+class and&#160;accuracy&#160;or&#160;uncertainty&#160;spatial&#160;layers,&#160;and&#160;tabular&#160;data&#160;are&#160;published&#160;<br/>to&#160;the&#160;NRCS Data Gateway&#160;as&#160;two&#160;data packages.&#160;The&#160;first&#160;is&#160;a file&#160;<br/>geodatabase&#160;system&#160;containing&#160;both&#160;rasters&#160;and&#160;tables,&#160;and the second&#160;is&#160;a&#160;<br/>directory&#160;containing&#160;rasters&#160;in&#160;compressed&#160;tagged&#160;image&#160;file&#160;format&#160;(.tif)&#160;and&#160;<br/>tabular&#160;data as text&#160;files&#160;in&#160;pipe delimited&#160;format.&#160;<br/>
+The&#160;naming&#160;convention&#160;for&#160;the&#160;State&#160;raster&#160;workspace&#160;or&#160;directory&#160;is the&#160;<br/>product, area&#160;symbol, and&#160;year&#160;(e.g.,&#160;RaSS_MA000_2017). &#160;Within&#160;the&#160;<br/>directory&#160;is an unsigned 32-bit&#160;raster&#160;class layer&#160;(MA000_class_2017)&#160;and&#160;32-<br/>
+(430-648-H,&#160;1st&#160;Ed., Amend.&#160;26,&#160;June&#160;2018)&#160;&#160;<br/>
+&#160;648-A.5&#160;&#160;<br/>
+<hr/>
+<a name=6></a>Title&#160;430&#160;–&#160;National&#160;Soil&#160;Survey&#160;Handbook&#160;<br/>
+bit&#160;floating-point&#160;accuracy&#160;or&#160;uncertainty&#160;layers&#160;(MA000_a&#160;or&#160;MA000_u). &#160;&#160;<br/>Both layers have a&#160;NoData&#160;value of&#160;0.&#160;&#160;<br/>
+•&#160;&#160;Initial&#160;Raster&#160;Soil&#160;Survey&#160;Mapping&#160;<br/>
+Information&#160;aiding&#160;the development&#160;of&#160;initial&#160;raster&#160;soil&#160;surveys&#160;include&#160;adjoining&#160;<br/>SSURGO&#160;soil&#160;survey&#160;areas,&#160;STATSGO2,&#160;geological&#160;maps,&#160;environmental&#160;data&#160;<br/>(digital&#160;elevation,&#160;spectral,&#160;thematic&#160;data),&#160;soil&#160;sampling,&#160;and expert&#160;knowledge.&#160;<br/>
+--&#160;Map&#160;units&#160;or&#160;soil&#160;classes&#160;are&#160;identified and proposed&#160;based&#160;on the needs&#160;of&#160;the&#160;<br/>
+project&#160;set&#160;forth in&#160;the&#160;MOU&#160;or&#160;interagency&#160;agreement&#160;using&#160;digital&#160;soil&#160;<br/>mapping&#160;methods,&#160;image analysis,&#160;field observations,&#160;and expert&#160;knowledge.&#160;<br/>
+--&#160;Correlation occurs&#160;on the&#160;basis of&#160;articulating&#160;the&#160;class&#160;concepts&#160;through model&#160;<br/>
+training&#160;data&#160;(field&#160;observations or&#160;ancillary&#160;data),&#160;environmental&#160;data (digital&#160;<br/>elevation and spectral&#160;data),&#160;model&#160;outputs,&#160;independent&#160;validation data (field&#160;<br/>observations),&#160;field&#160;reviews, visual&#160;analysis, estimates&#160;of&#160;accuracy&#160;or&#160;<br/>uncertainty, and&#160;documentation&#160;of&#160;the&#160;correlation&#160;in&#160;the NASIS project&#160;object.&#160;<br/>
+--&#160;Every&#160;State&#160;has a&#160;raster&#160;soil&#160;survey&#160;area&#160;and an accompanying&#160;raster&#160;soil&#160;<br/>
+survey&#160;legend in NASIS, identified&#160;with&#160;an areasymbol&#160;using&#160;the&#160;State&#160;<br/>abbreviation&#160;and an area of&#160;000&#160;(e.g.,&#160;MA000 (section&#160;648.12)). &#160;Raster&#160;classes&#160;<br/>identified in&#160;initial&#160;raster&#160;soil&#160;survey&#160;projects are populated&#160;as&#160;map units&#160;and&#160;<br/>below&#160;within the&#160;State&#160;raster&#160;soil&#160;survey&#160;area.&#160;<br/>
+Additionally,&#160;initial&#160;raster&#160;soil&#160;survey&#160;projects&#160;have&#160;a&#160;non-MLRA&#160;soil&#160;survey&#160;<br/>area&#160;legend&#160;and below&#160;in populated NASIS&#160;for&#160;incorporating&#160;into SSURGO&#160;<br/>and Web Soil&#160;Survey.&#160;&#160;&#160;<br/>
+--&#160;Field observations&#160;(training&#160;and validation&#160;data)&#160;are&#160;entered&#160;as&#160;NASIS pedons&#160;<br/>
+and related&#160;data.&#160;<br/>
+--&#160;Map layers&#160;of&#160;associated&#160;accuracy&#160;and&#160;uncertainty&#160;values&#160;are&#160;produced and&#160;<br/>
+will&#160;accompany&#160;the class&#160;layer&#160;(figure 648-A1). Validation measures&#160;for&#160;<br/>overall&#160;model&#160;accuracy&#160;or&#160;performance, as&#160;well&#160;as&#160;individual&#160;class accuracy&#160;or&#160;<br/>performance, are&#160;reported&#160;separately&#160;in metadata.&#160;Measures for&#160;overall&#160;model&#160;<br/>accuracy&#160;or&#160;performance will&#160;meet&#160;a minimum&#160;target&#160;of&#160;60&#160;percent.&#160;Validation&#160;<br/>using&#160;an&#160;independent&#160;validation data set&#160;is&#160;highly&#160;recommended, but&#160;not&#160;<br/>required, for&#160;all&#160;projects. Cross-validation or&#160;other&#160;appropriate&#160;data-splitting&#160;<br/>methods may&#160;be used in&#160;the&#160;absence&#160;of&#160;an&#160;independent&#160;validation&#160;data set.&#160;&#160;<br/>
+--&#160;A&#160;file geodatabase&#160;is established&#160;for&#160;each&#160;raster&#160;soil&#160;survey&#160;area&#160;(section&#160;<br/>
+648.12).&#160; Results of&#160;raster&#160;soil&#160;survey&#160;project&#160;mapping&#160;(MLRA&#160;or&#160;initial)&#160;<br/>accumulate in&#160;this geodatabase,&#160;including&#160;raster&#160;layers&#160;and NASIS tabular&#160;<br/>exports.&#160;SSURGO&#160;products&#160;are developed from&#160;initial&#160;raster&#160;soil&#160;survey&#160;efforts,&#160;<br/>but&#160;require&#160;considerations of&#160;correlation and map unit&#160;design to&#160;create a&#160;more&#160;<br/>generalized representation&#160;of&#160;spatial&#160;and&#160;tabular&#160;data.&#160;&#160;<br/>
+--&#160;The State&#160;soil&#160;scientist&#160;creates a&#160;SSURGO&#160;export&#160;of&#160;the&#160;non-MLRA&#160;soil&#160;<br/>
+survey&#160;area&#160;and certifies the data for&#160;publication in&#160;the&#160;NASIS&#160;“Legend Export&#160;<br/>Certification History”&#160;table.&#160;<br/>
+--&#160;Vector&#160;spatial&#160;and&#160;tabular&#160;data&#160;are&#160;hosted&#160;on&#160;Web Soil&#160;Survey.&#160;<br/>--&#160;The&#160;State&#160;raster&#160;soil&#160;survey&#160;area&#160;geodatabase, which&#160;includes the&#160;State&#160;raster&#160;<br/>
+class and accuracy&#160;or&#160;uncertainty&#160;spatial&#160;layers,&#160;and&#160;tabular&#160;data are published&#160;<br/>to the NRCS Data Gateway&#160;as&#160;two&#160;data packages. &#160;The&#160;first&#160;is&#160;a file&#160;<br/>geodatabase&#160;system&#160;containing&#160;both&#160;rasters and&#160;tables,&#160;and the second&#160;is&#160;a&#160;<br/>directory&#160;containing&#160;rasters&#160;in compressed .tif&#160;and tabular&#160;data as&#160;text&#160;files&#160;in&#160;<br/>pipe delimited&#160;format.&#160;<br/>
+(430-648-H,&#160;1st&#160;Ed., Amend.&#160;26,&#160;June&#160;2018)&#160;&#160;<br/>
+&#160;648-A.6&#160;&#160;<br/>
+<hr/>
+<a name=7></a>Title&#160;430&#160;–&#160;National&#160;Soil&#160;Survey&#160;Handbook&#160;<br/>
+The&#160;naming&#160;convention&#160;for&#160;the&#160;State&#160;raster&#160;workspace&#160;or&#160;directory&#160;is&#160;the&#160;<br/>product,&#160;area&#160;symbol, and&#160;year&#160;(e.g., RaSS_MA000_2017). &#160;Within&#160;the&#160;<br/>directory&#160;is an unsigned 32-bit&#160;raster&#160;class layer&#160;(MA000_class_2017)&#160;and&#160;32-<br/>bit&#160;floating-point&#160;accuracy&#160;or&#160;uncertainty&#160;layers (MA000_a or&#160;MA000_u). &#160;&#160;<br/>NoData values are&#160;0.&#160;<br/>
+•&#160;&#160;Raster&#160;Property&#160;Mapping&#160;<br/>
+--&#160;Soil&#160;properties are predicted&#160;from&#160;soil&#160;observations&#160;using&#160;digital&#160;soil&#160;mapping&#160;<br/>
+methods.&#160;For more detailed&#160;information&#160;on digital&#160;soil&#160;mapping, see&#160;chapter&#160;5&#160;<br/>of&#160;the Soil&#160;Survey&#160;Manual&#160;(Soil&#160;Science&#160;Division Staff&#160;2017).&#160;<br/>
+--&#160;Field observations&#160;(training&#160;and validation data)&#160;are&#160;entered&#160;into&#160;NASIS.&#160;<br/>--&#160;A&#160;map of&#160;uncertainty&#160;values&#160;is produced for&#160;each property&#160;and depth&#160;interval&#160;<br/>
+representing&#160;the 90-percent&#160;prediction&#160;interval.&#160;<br/>
+The&#160;initial, primary&#160;spatial&#160;entity&#160;is&#160;a point&#160;location with defined&#160;X, Y&#160;<br/>coordinates. Points&#160;are located at&#160;the cell&#160;centers&#160;of&#160;a&#160;raster&#160;grid,&#160;initial&#160;spatial&#160;<br/>resolution will&#160;be&#160;30&#160;m.&#160;<br/>
+F.&#160;&#160;Responsibilities&#160;<br/>
+(1)&#160;&#160;National&#160;Headquarters&#160;provides&#160;overall&#160;direction,&#160;policy, guidance,&#160;and&#160;leadership for&#160;the&#160;<br/>
+National&#160;Cooperative Soil&#160;Survey&#160;within NRCS. See&#160;part&#160;608,&#160;section&#160;608.1,&#160;of&#160;this&#160;<br/>handbook&#160;for&#160;more detailed&#160;information&#160;on the responsibilities&#160;of&#160;National&#160;Headquarters&#160;and&#160;<br/>the other&#160;NRCS offices&#160;mentioned&#160;in this&#160;section.&#160;<br/>
+(2)&#160;&#160;The National&#160;Soil&#160;Survey&#160;Center&#160;is&#160;responsible for—&#160;<br/>
+(i)&#160;&#160;National&#160;Standards.&#160;<br/>(ii)&#160;&#160;NASIS database&#160;support.&#160;<br/>(iii)&#160;&#160;Training.&#160;<br/>(iv)&#160;&#160;Research.&#160;<br/>(v)&#160;&#160;Analysis.&#160;<br/>(vi)&#160;&#160;Coordination of&#160;NCSS&#160;raster&#160;property&#160;mapping.&#160;<br/>(vii)&#160;&#160;Raster&#160;property&#160;metadata development.&#160;<br/>(viii)&#160;&#160;Packaging&#160;and delivering&#160;raster&#160;property&#160;data to&#160;the NRCS Data Gateway.&#160;<br/>(ix)&#160;&#160;Packaging&#160;and delivering&#160;raster&#160;property&#160;data to web and map services which&#160;are&#160;to be&#160;<br/>
+developed.&#160;<br/>
+(3)&#160;&#160;The&#160;regional&#160;office&#160;is responsible&#160;for&#160;providing&#160;the leadership for—&#160;<br/>
+(i)&#160;&#160;The production and quality&#160;assurance of&#160;raster&#160;project&#160;spatial&#160;and tabular&#160;data.&#160;<br/>(ii)&#160;&#160;Ensuring&#160;soil&#160;scientists&#160;receive digital&#160;soil&#160;mapping&#160;training.&#160;<br/>(iii)&#160;&#160;The qualitative review&#160;of&#160;raster&#160;property&#160;data.&#160;<br/>(iv)&#160;&#160;Correlation&#160;of&#160;complete raster&#160;mapping&#160;projects&#160;to&#160;legends.&#160;<br/>(v)&#160;&#160;Acquiring&#160;and&#160;distributing&#160;raster&#160;project&#160;spatial&#160;data (elevation, spectral, others).&#160;<br/>(vi)&#160;&#160;Raster&#160;project&#160;metadata development.&#160;<br/>(vii)&#160;&#160;Packaging&#160;and&#160;delivering&#160;raster&#160;class&#160;and&#160;tabular&#160;data&#160;to&#160;the NRCS Data Gateway.&#160;<br/>(viii)&#160;&#160;Packaging&#160;and delivering&#160;SSURGO&#160;data&#160;to the staging&#160;server.&#160;<br/>
+(4)&#160;&#160;The&#160;State&#160;office&#160;(430-NSSH-609-A-609.1B(3))&#160;is&#160;responsible for&#160;the following:&#160;<br/>
+(i)&#160;&#160;State&#160;Conservationist&#160;(or&#160;Deignated Appointee)&#160;<br/>
+•&#160;&#160;Certifying&#160;initial&#160;raster&#160;soil&#160;&#160;surveys, incorporated&#160;into&#160;SSURGO, are&#160;official&#160;soil&#160;<br/>
+survey&#160;data&#160;<br/>
+•&#160;&#160;Participating&#160;or&#160;appointing&#160;a member&#160;to the&#160;board&#160;of&#160;advisors&#160;for&#160;MLRA&#160;soil&#160;survey&#160;<br/>
+activity&#160;<br/>
+(ii)&#160;&#160;State&#160;Soil&#160;Scientist&#160;<br/>
+•&#160;&#160;Serves&#160;as&#160;a member&#160;of&#160;SSOmanagement/tech&#160;team&#160;for&#160;MLRA&#160;soil&#160;survey&#160;activity,&#160;<br/>
+identifying&#160;priorities&#160;for&#160;MLRA&#160;raster&#160;projects&#160;<br/>
+(430-648-H,&#160;1st&#160;Ed., Amend.&#160;26,&#160;June&#160;2018)&#160;&#160;<br/>
+&#160;648-A.7&#160;&#160;<br/>
+<hr/>
+<a name=8></a>Title&#160;430&#160;–&#160;National&#160;Soil&#160;Survey&#160;Handbook&#160;<br/>
+•&#160;&#160;Review and concur&#160;with&#160;MLRA&#160;raster&#160;projects&#160;and recommendations&#160;<br/>
+•&#160;&#160;Exporting&#160;tabular&#160;data&#160;and&#160;committing&#160;vectorized versions of&#160;MLRA&#160;or&#160;initial&#160;raster&#160;<br/>
+mapping&#160;projects&#160;to Web Soil&#160;Survey&#160;<br/>
+•&#160;&#160;Providing&#160;certification of&#160;State&#160;Raster&#160;Soil&#160;Survey&#160;Area&#160;data and&#160;interpretations&#160;<br/>
+•&#160;&#160;Promoting&#160;raster&#160;soil&#160;survey&#160;products to&#160;internal&#160;and&#160;external&#160;customers and&#160;<br/>
+providing&#160;technical&#160;assistance&#160;in&#160;their&#160;use&#160;<br/>
+(5)&#160;&#160;The MLRA&#160;soil&#160;survey&#160;office&#160;is&#160;responsible for—&#160;<br/>
+(i)&#160;&#160;Coordinating&#160;technical&#160;and&#160;management&#160;team&#160;communication.&#160;<br/>(ii)&#160;&#160;Identifying&#160;and proposing&#160;MLRA&#160;raster&#160;projects.&#160;<br/>(iii)&#160;&#160;Completing&#160;digital&#160;soil&#160;mapping&#160;training.&#160;<br/>(iv)&#160;&#160;Managing&#160;and populating&#160;MLRA&#160;and initial&#160;raster&#160;projects&#160;in NASIS.&#160;<br/>(v)&#160;&#160;Providing&#160;supporting&#160;documentation and detailed logic&#160;on raster&#160;class&#160;development&#160;using&#160;<br/>
+pedons&#160;and&#160;detailed&#160;text&#160;notes&#160;linked&#160;to the project&#160;and&#160;component&#160;data&#160;in NASIS.&#160;<br/>
+(vi)&#160;&#160;Conducting&#160;quality&#160;control&#160;for&#160;raster&#160;projects&#160;and&#160;spatial&#160;and&#160;tabular&#160;data.&#160;<br/>
+(6)&#160;&#160;The National&#160;Geospatial&#160;Center&#160;for&#160;Excellence&#160;(NGCE)&#160;is&#160;responsible for—&#160;&#160;<br/>
+(i)&#160;&#160;Providing&#160;technical&#160;assistance&#160;to&#160;regional&#160;offices&#160;in&#160;spatial&#160;and&#160;metadata development&#160;to&#160;<br/>
+meet&#160;raster&#160;project&#160;and&#160;SSURGO&#160;specifications.&#160;&#160;<br/>
+(ii)&#160;&#160;Assisting&#160;regions&#160;with&#160;resolving&#160;problems&#160;related&#160;to submitting&#160;raster&#160;data&#160;to&#160;the&#160;<br/>
+Geospatial&#160;Data Gateway.&#160;&#160;<br/>
+(iii)&#160;&#160;Providing&#160;technical&#160;assistance on metadata&#160;development.&#160;<br/>
+G.&#160;&#160;Metadata&#160;<br/>
+(1)&#160;&#160;The format&#160;for&#160;metadata&#160;may&#160;be either&#160;FGDC&#160;CSDGM or&#160;ISO19115. &#160;The FGDC&#160;is&#160;moving&#160;<br/>
+towards the ISO&#160;format.&#160;<br/>
+(2)&#160;&#160;Metadata development&#160;avoids the use of&#160;escape&#160;characters or&#160;the abbreviation&#160;is spelled&#160;out&#160;<br/>
+in text&#160;narrative. &#160;These&#160;characters include&#160;the&#160;following:&#160;<br/>(i)&#160;&#160;”&#160;&#160;double quotes&#160;<br/>(ii)&#160;&#160;’&#160;&#160;single quote or&#160;apostrophe&#160;<br/>(iii)&#160;&#160;&gt; &#160;greater&#160;than&#160;<br/>(iv)&#160;&#160;&lt; &#160;less than&#160;<br/>(v)&#160;&#160;&amp;&#160; ampersand&#160;<br/>
+(3)&#160;&#160;Additional&#160;information&#160;on metadata can&#160;be&#160;found here:&#160;<br/>
+<a href="https://www2.usgs.gov/datamanagement/describe/metadata.php">https://www2.usgs.gov/datamanagement/describe/metadata.php&#160;</a><br/>
+<b>648.1&#160;&#160;Accuracy&#160;and&#160;Uncertainty</b>&#160;<br/>
+A. &#160;Signifigance.—The&#160;quality&#160;control&#160;and quality&#160;assurance (QC/QA)&#160;process for&#160;traditional&#160;soil&#160;<br/>mapping&#160;is based&#160;on many&#160;forms of&#160;evaluation,&#160;accumulates&#160;several&#160;degrees of&#160;subjectivity,&#160;and&#160;<br/>relies&#160;heavily&#160;on qualitative information&#160;evaluation (field experience,&#160;institutional&#160;knowledge, etc.).&#160;<br/>In contrast, validation of&#160;raster&#160;soil&#160;survey&#160;is often claimed to be free&#160;of&#160;subjective interference&#160;and&#160;<br/>entirely&#160;quantitative. However, simply&#160;reporting&#160;“right&#160;or&#160;wrong” can distort&#160;the reality&#160;of&#160;accounting&#160;<br/>for&#160;variability&#160;inherent&#160;in soil&#160;and associated&#160;environmental&#160;systems. &#160;It&#160;is recommended more than&#160;<br/>one method of&#160;both accuracy&#160;and uncertainty&#160;be used&#160;to evaluate MLRA&#160;and&#160;initial&#160;raster&#160;soil&#160;survey&#160;<br/>projects in order&#160;to explore&#160;and communicate results. &#160;Methods which&#160;allow&#160;for&#160;weighting&#160;class&#160;<br/>distance (e.g.,&#160;“degrees” of&#160;right&#160;or&#160;wrong)&#160;are encouraged.&#160;<br/>
+B. &#160;Suggested&#160;Methods&#160;of&#160;Accuracy&#160;and&#160;Uncertainity&#160;<br/>
+Figure 648-A1:&#160;Suggested&#160;Methods of&#160;Accuracy&#160;<br/>
+<b>Accuracy&#160;</b><br/>
+Method&#160;<br/>
+Description&#160;<br/>
+Pros&#160;<br/>
+Cons&#160;&#160;<br/>
+Reference&#160;<br/>
+(430-648-H,&#160;1st&#160;Ed., Amend.&#160;26,&#160;June&#160;2018)&#160;&#160;<br/>
+&#160;648-A.8&#160;&#160;<br/>
+<hr/>
+<a name=9></a>Title&#160;430&#160;–&#160;National&#160;Soil&#160;Survey&#160;Handbook&#160;<br/>
+<b>Overall&#160;</b><br/>
+The&#160;proportion&#160;of&#160;<br/>
+Simple to&#160;calculate&#160;and&#160;<br/>
+Does not&#160;account&#160;for&#160;mistakes due&#160;<br/>
+&#160;<br/>
+<b>Accuracy&#160;</b><br/>
+correctly&#160;classified&#160;<br/>
+interpret,&#160;based&#160;entirely&#160;on&#160;<br/>
+to&#160;chance.&#160;&#160;<br/>
+<b>(Cohen’s&#160;</b><br/>
+observations as&#160;<br/>
+the&#160;cross-classification&#160;<br/>
+Does not&#160;incorporate&#160;prior&#160;<br/>
+<b>Kappa)</b>&#160;<br/>
+tabulated&#160;in&#160;the&#160;cross-<br/>
+matrix.&#160;<br/>
+knowledge&#160;of&#160;class&#160;proportions.&#160;&#160;<br/>
+classification&#160;matrix.&#160;<br/>
+Does not&#160;incorporate class&#160;<br/>similarity.&#160;<br/>Does not&#160;incorporate information&#160;<br/>contained&#160;within&#160;vector&#160;of&#160;<br/>predicted&#160;probabilities.&#160;<br/>
+<b>Tau&#160;</b><br/>
+An&#160;index&#160;of&#160;accuracy&#160;<br/>
+The&#160;index&#160;is more&#160;<br/>
+Appropriate&#160;prior&#160;class proportions&#160;<br/>
+Rossiter&#160;et&#160;<br/>
+<b>index&#160;</b><br/>
+that&#160;accounts for&#160;<br/>
+informative&#160;when&#160;<br/>
+are&#160;method&#160;dependent.&#160;<br/>
+al.,&#160;2017&#160;<br/>
+&#160;<br/>
+agreement&#160;by&#160;chance—<br/>
+appropriate&#160;class&#160;<br/>
+Interpretation&#160;requires&#160;some&#160;<br/>
+effectively&#160;a&#160;<br/>
+proportions are&#160;supplied.&#160;<br/>
+training.&#160;<br/>
+replacement&#160;for&#160;<br/>
+Index&#160;values can&#160;be&#160;<br/>
+Cohen’s Kappa.&#160;<br/>
+referenced&#160;to&#160;concepts such&#160;<br/>as “better”&#160;or&#160;“worse”&#160;than&#160;<br/>random&#160;allocation.&#160;<br/>
+<b>Weighted&#160;</b><br/>
+Alternative&#160;version&#160;of&#160;<br/>
+The&#160;index&#160;is more&#160;<br/>
+Appropriate&#160;prior&#160;class proportions&#160;<br/>
+Rossiter&#160;et&#160;<br/>
+<b>Tau&#160;</b><br/>
+the&#160;tau&#160;index&#160;that&#160;<br/>
+informative&#160;when&#160;<br/>
+are&#160;method&#160;dependent.&#160;<br/>
+al.,&#160;2017&#160;<br/>
+<b>index&#160;</b><br/>
+accommodates&#160;class&#160;<br/>
+appropriate&#160;class&#160;<br/>
+There&#160;is no&#160;universal&#160;method&#160;for&#160;<br/>
+similarity.&#160;<br/>
+proportions are&#160;supplied.&#160;<br/>
+estimating&#160;class similarity&#160;weights.&#160;<br/>
+Class similarity&#160;down-<br/>
+Interpretation&#160;requires&#160;some&#160;<br/>
+weights mistakes between&#160;<br/>
+training.&#160;<br/>
+similar&#160;classes.&#160;<br/>
+<b>Brier&#160;</b><br/>
+The&#160;Brier score&#160;is an&#160;<br/>
+Integrates&#160;more&#160;information&#160;<br/>
+Interpretation&#160;requires&#160;some&#160;<br/>
+Brier,&#160;1950&#160;<br/>
+<b>Score&#160;</b><br/>
+index&#160;of&#160;agreement&#160;<br/>
+about&#160;predictions (all&#160;<br/>
+training.&#160;<br/>
+Harrell,&#160;<br/>
+between&#160;an&#160;observed&#160;<br/>
+probabilities)&#160;vs.&#160;the&#160;most&#160;<br/>
+Does not&#160;incorporate&#160;prior&#160;<br/>
+2011&#160;<br/>
+(actual)&#160;class and&#160;<br/>
+likely&#160;class used&#160;by&#160;overall&#160;<br/>
+knowledge&#160;of&#160;class&#160;proportions.&#160;<br/>
+vector&#160;of&#160;predicted&#160;<br/>
+accuracy&#160;or&#160;tau&#160;index.&#160;&#160;<br/>
+Does not&#160;incorporate class&#160;<br/>
+probabilities.&#160;Lower&#160;<br/>
+similarity.&#160;<br/>
+values denote higher&#160;<br/>accuracy.&#160;<br/>
+Figure 648-A2:&#160;Suggested&#160;Methods of&#160;Uncertainty&#160;<br/>
+<b>Uncertainty&#160;</b><br/>
+Method&#160;<br/>
+Description&#160;<br/>
+Pros&#160;<br/>
+Cons&#160;&#160;<br/>
+Reference&#160;<br/>
+<b>Shannon&#160;</b><br/>
+Quantitative&#160;measure&#160;<br/>
+Integrates&#160;“confusion”&#160;over&#160;&#160;May&#160;not&#160;be&#160;implemented&#160;in&#160;all&#160;<br/>
+Shannon,&#160;<br/>
+<b>Entropy&#160;</b><br/>
+of&#160;“information”&#160;<br/>
+all&#160;probabilities.&#160;<br/>
+software&#160;packages,&#160;but&#160;simple&#160;<br/>
+1949&#160;<br/>
+contained&#160;within&#160;a&#160;<br/>
+Entropy&#160;values&#160;from&#160;<br/>
+enough&#160;to&#160;compute manually.&#160;<br/>
+vector&#160;of&#160;<br/>
+widely&#160;different&#160;models&#160;<br/>
+probabilities.&#160;Larger&#160;<br/>
+(e.g.,&#160;differing&#160;numbers of&#160;<br/>
+values denote less&#160;<br/>
+classes) can&#160;be&#160;directly&#160;<br/>
+information.&#160;<br/>
+compared.&#160;<br/>
+<b>Normalized&#160;</b><br/>
+An&#160;alternate&#160;version&#160;<br/>
+Integrates&#160;“confusion”&#160;over&#160;&#160;Cannot&#160;be&#160;used&#160;to&#160;compare&#160;models&#160;<br/>
+Kempen&#160;et&#160;<br/>
+<b>Shannon&#160;</b><br/>
+of&#160;Shannon&#160;Entropy&#160;<br/>
+all&#160;probabilities.&#160;<br/>
+with&#160;differing&#160;numbers of&#160;classes.&#160;<br/>
+al.,&#160;2009&#160;<br/>
+<b>Entropy&#160;</b><br/>
+that&#160;is constrained&#160;to&#160;<br/>
+Constrained&#160;to&#160;[0,1].&#160;<br/>
+May&#160;not&#160;be&#160;implemented&#160;in&#160;all&#160;<br/>
+the&#160;interval&#160;[0,1].&#160;<br/>
+software&#160;packages,&#160;but&#160;simple&#160;<br/>enough&#160;to&#160;compute manually.&#160;<br/>
+<b>Confusion&#160;</b><br/>
+An&#160;index&#160;of&#160;<br/>
+Simple calculation&#160;and&#160;<br/>
+Cannot&#160;be&#160;used&#160;to&#160;compare&#160;models&#160;<br/>
+Burrough&#160;et&#160;<br/>
+<b>Index&#160;</b><br/>
+confusion&#160;among&#160;the&#160;<br/>
+constrained&#160;to&#160;[0,1].&#160;<br/>
+with&#160;differing&#160;numbers of&#160;classes.&#160;<br/>
+al.,&#160;1997&#160;<br/>
+top&#160;two&#160;most likely&#160;<br/>
+Only&#160;describes uncertainty&#160;of&#160;top&#160;<br/>
+classes.&#160;<br/>
+two&#160;classes.&#160;<br/>May&#160;not&#160;be&#160;implemented&#160;in&#160;all&#160;<br/>software&#160;packages,&#160;but&#160;simple&#160;<br/>enough&#160;to&#160;compute manually.&#160;<br/>
+Notes:&#160;<br/>
+1. &#160;The “overall&#160;accuracy”&#160;and unweighted&#160;Tau index&#160;are computed from&#160;the cross-classification&#160;<br/>
+(confusion)&#160;matrix. Rows&#160;within the cross-classification matrix&#160;record counts of&#160;predicted&#160;<br/>classes&#160;and&#160;columns record&#160;counts of&#160;actual&#160;classes.&#160;<br/>
+(430-648-H,&#160;1st&#160;Ed., Amend.&#160;26,&#160;June&#160;2018)&#160;&#160;<br/>
+&#160;648-A.9&#160;&#160;<br/>
+<hr/>
+<a name=10></a>Title&#160;430&#160;–&#160;National&#160;Soil&#160;Survey&#160;Handbook&#160;<br/>
+2. &#160;The row-wise&#160;proportion of&#160;correct&#160;entries&#160;in&#160;the&#160;cross-classification matrix&#160;is&#160;typically&#160;<br/>
+described as&#160;the&#160;“user’s accuracy” (map unit&#160;purity).&#160;The column-wise&#160;proportion&#160;of&#160;correct&#160;<br/>entries in&#160;the cross-classification matrix&#160;is&#160;typically&#160;described as the “producer’s&#160;accuracy”&#160;<br/>(or&#160;soil&#160;class representation).&#160;<br/>
+3. &#160;Most&#160;predictions from&#160;a model&#160;of&#160;soil&#160;classes are&#160;represented as&#160;a vector&#160;of&#160;class-wise&#160;<br/>
+probabilities typically&#160;associated with each pixel&#160;in the&#160;modeling&#160;domain. Entries&#160;within the&#160;<br/>cross-classification matrix&#160;use&#160;only&#160;on the most&#160;likely&#160;(highest&#160;probability)&#160;class.&#160;<br/>
+4. &#160;Differences&#160;between Shannon Entropy&#160;and the Confusion Index are more pronounced when&#160;<br/>
+there are a&#160;large number&#160;of&#160;classes&#160;or&#160;median&#160;class&#160;probability&#160;is low&#160;(e.g.,&#160;there is&#160;no clear&#160;<br/>dominant&#160;class in&#160;the&#160;predictions).&#160;<br/>
+<b>648.2&#160;&#160;References&#160;</b><br/>
+A. &#160;Brier, G.W.&#160;1950.&#160;Verification Of&#160;Forecasts Expressed In Terms Of Probability. Monthly&#160;<br/>Weather&#160;Review 78(1):&#160;1–3<a href="https://doi.org/10.1175/1520-0493(1950)078%3c0001:VOFEIT%3e2.0.CO;2">.&#160;https://doi.org/10.1175/1520-0493(1950)078&lt;0001:VOFEIT&gt;2.0.CO;2&#160;</a><br/>
+B. &#160;Burrough, P., P.V. Gaans, and R. Hootsmans. 1997. Continuous classification&#160;in soil&#160;survey:&#160;<br/>spatial&#160;correlation, confusion and boundaries. Geoderma 77(2-4):&#160;115–135.&#160;<br/><a href="https://doi.org/10.1016/S0016-7061(97)00018-9">https://doi.org/10.1016/S0016-7061(97)00018-9&#160;</a><br/>
+C. &#160;Harrell, F.E. 2001. Regression Modeling&#160;Strategies.&#160;Springer,&#160;New York, NY.&#160;<br/>
+D. &#160;Kempen, B., D.J. Brus,&#160;G.B. Heuvelink, and&#160;J.J. Stoorvogel. 2009. Updating&#160;the 1:50,000 Dutch&#160;<br/>soil&#160;map using&#160;legacy&#160;soil&#160;data:&#160;A&#160;multinomial&#160;logistic&#160;regression&#160;approach.&#160;Geoderma 151(3-4):&#160;<br/>311–<a href="https://doi.org/10.1016/j.geoderma.2009.04.023">326. &#160;https://doi.org/10.1016/j.geoderma.2009.04.023&#160;</a><br/>
+E. &#160;Rossiter, D.G., R. Zeng, and G.-L.&#160;Zhang. 2017. Accounting&#160;for&#160;taxonomic distance&#160;in accuracy&#160;<br/>assessment&#160;of&#160;soil&#160;class&#160;predictions. Geoderma 292:&#160;118–127. &#160;<br/><a href="https://doi.org/10.1016/j.geoderma.2017.01.012">https://doi.org/10.1016/j.geoderma.2017.01.012&#160;</a><br/>
+F. &#160;Shannon,&#160;C.E. 1949. A&#160;mathematical&#160;theory&#160;of&#160;communication. University&#160;of&#160;Illinois Press,&#160;<br/>Urbana.&#160;<br/>
+G. &#160;Soil&#160;Science Division Staff. 2017. Soil&#160;survey&#160;manual. C. Ditzler,&#160;K. Scheffe,&#160;and&#160;H.C. Monger&#160;<br/>(eds.). USDA&#160;Handbook&#160;18. Government&#160;Printing&#160;Office, Washington, DC.&#160;<br/>
+(430-648-H,&#160;1st&#160;Ed., Amend.&#160;26,&#160;June&#160;2018)&#160;&#160;<br/>
+&#160;648-A.10&#160;&#160;<br/>
+<hr/>
+</body>
+</html>
