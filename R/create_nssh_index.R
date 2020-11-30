@@ -6,6 +6,7 @@
 #' @param ignore.headers A character vector of h3 level headers to ignore on the NSSH Table of contents webpage.
 #' @param outpath A directory path to create "inst/extdata/NSSH" folder structure.
 #' @param download_pdf Download official PDF files from eDirectives? default: "ifneeded"; options: TRUE/FALSE
+#' @param output_types Options include \code{c("txt","html")} for processed PDF files.
 #' @param keep_pdf Keep PDF files after processing TXT?
 #'
 #' @details Hardcoded with \code{ignore.headers = "Part 615 – Amendments To Soil Taxonomy"}; TODO: set this to NULL when webpage is updated. Default URL: https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/ref/?cid=nrcs142p2_054240
@@ -20,11 +21,12 @@
 #' @importFrom xml2 read_html xml_attr
 #' @importFrom utils write.csv download.file
 #' @importFrom stats aggregate
-parse_nssh_structure <- function(
+create_nssh_index <- function(
   url = NULL,
   ignore.headers = "Amendments To Soil Taxonomy",
   outpath = "./inst/extdata/NSSH",
   download_pdf = "ifneeded",
+  output_types = c("txt","html"),
   keep_pdf = FALSE
 ) {
 
@@ -122,8 +124,12 @@ parse_nssh_structure <- function(
            dfile <- !file.exists(pat)
          if (dfile)
           download.file(y$href, destfile = pat)
-         if (file.exists(pat))
-          system(sprintf("pdftotext -raw -nodiag %s", pat))
+         if (file.exists(pat)) {
+          if ("txt" %in% output_types)
+            system(sprintf("pdftotext -raw -nodiag %s", pat))
+          if ("html" %in% output_types)
+            system(sprintf("pdftohtml %s", pat))
+         }
          if (!keep_pdf)
           system(sprintf("rm %s", pat))
         })
@@ -131,4 +137,23 @@ parse_nssh_structure <- function(
 
   write.csv(res, file = file.path(outpath, "index.csv"))
   return(res)
+}
+
+
+#' Refresh the entire SoilKnowledgeBase inst/extdata/ folder 
+#'
+#' @param ... Arguments passed to \code{create_nssh_index}
+#'
+#' @return Raw data and parsed files written to inst/extdata/ subfolders.
+#' @export
+refresh <- function(...) {
+  dat <- SoilKnowledgeBase::create_nssh_index(...)
+  hed <- SoilKnowledgeBase::parse_nssh_part(dat$part, dat$subpart)
+  
+  # run inst/scripts/NSSH
+  rpath <- list.files(paste0("inst/scripts/NSSH/", p), ".*.R", full.names = TRUE)
+  res <- lapply(rpath, function(filepath) {
+        if (file.exists(filepath))
+          source(filepath)
+      })
 }
