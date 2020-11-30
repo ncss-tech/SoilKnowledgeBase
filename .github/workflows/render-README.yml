@@ -1,6 +1,7 @@
 on:
   push:
     paths:
+      - render-README.yml
       - README.Rmd
 
   workflow_dispatch:
@@ -77,6 +78,8 @@ jobs:
         
       - name: Commit results
         run: |
+          git config user.email "github-actions@github.com"
+          git config user.name "SoilKnowledgeBot"
           git commit README.md -m 'Render README.Rmd' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
 
