@@ -1,6 +1,8 @@
 Soil Knowledge Base
 -------------------
 
+[![refresh
+inst/extdata](https://github.com/brownag/SoilKnowledgeBase/workflows/refresh-extdata/badge.svg)](https://github.com/brownag/SoilKnowledgeBase/actions?query=workflow%3Arefresh-extdata)
 [![R build
 status](https://github.com/brownag/SoilKnowledgeBase/workflows/R-CMD-check/badge.svg)](https://github.com/brownag/SoilKnowledgeBase/actions)
 
