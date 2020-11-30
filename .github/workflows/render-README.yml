@@ -61,6 +61,7 @@ jobs:
       
       - name: Install SoilKnowledgeBase
         run: |
+          sudo apt install poppler-utils
           cd ..
           R CMD build SoilKnowledgeBase
           R CMD INSTALL SoilKnowledgeBase
