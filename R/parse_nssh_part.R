@@ -13,20 +13,24 @@ parse_nssh_part <- function(number, subpart) {
     idx <- respart <- ressubpart <- numeric(0)
 
     try( {
+      f <- sprintf("inst/extdata/NSSH/%s/%s%s.txt",
+                   x$number, x$number, x$subpart)
+      
+      if(!file.exists(f))
+        return(NULL)
+      
+      L <- readLines(f, warn = FALSE)
 
-      L <- readLines(sprintf("inst/extdata/NSSH/%s/%s%s.txt",
-                           x$number, x$number, x$subpart), warn = FALSE)
-
-      idx <- grep("^\\d{3}\\.\\d+ [A-Z]", L)
-
-      respart <- rep(x$number, length(idx))
-      ressubpart <- rep(x$subpart, length(idx))
-
-
-      res <- data.frame(part = x$number,
-                      subpart = x$subpart,
-                      line = idx,
-                      header = L[idx])
+        idx <- grep("^\\d{3}\\.\\d+ [A-Z]", L)
+  
+        respart <- rep(x$number, length(idx))
+        ressubpart <- rep(x$subpart, length(idx))
+  
+  
+        res <- data.frame(part = x$number,
+                        subpart = x$subpart,
+                        line = idx,
+                        header = L[idx])
       return(res)
     } )
   }))
