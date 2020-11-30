@@ -5,7 +5,7 @@
 #' @param url A URL to parse for Table of Contents information.
 #' @param ignore.headers A character vector of h3 level headers to ignore on the NSSH Table of contents webpage.
 #' @param outpath A directory path to create "inst/extdata/NSSH" folder structure.
-#' @param download_pdf Download official PDF files from eDirectives?
+#' @param download_pdf Download official PDF files from eDirectives? default: "ifneeded"; options: TRUE/FALSE
 #' @param keep_pdf Keep PDF files after processing TXT?
 #'
 #' @details Hardcoded with \code{ignore.headers = "Part 615 – Amendments To Soil Taxonomy"}; TODO: set this to NULL when webpage is updated. Default URL: https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/ref/?cid=nrcs142p2_054240
@@ -24,7 +24,7 @@ parse_nssh_structure <- function(
   url = NULL,
   ignore.headers = "Amendments To Soil Taxonomy",
   outpath = "./inst/extdata/NSSH",
-  download_pdf = TRUE,
+  download_pdf = "ifneeded",
   keep_pdf = FALSE
 ) {
 
@@ -117,7 +117,10 @@ parse_nssh_structure <- function(
       parts <- subset(res, res$part == x)
       lapply(split(parts, 1:nrow(parts)), function(y) {
          pat <- file.path(outpath, x, sprintf("%s%s.pdf", y$part, y$subpart))
-         if (download_pdf)
+         dfile <- download_pdf
+         if (dfile == "ifneeded")
+           dfile <- !file.exists(pat)
+         if (dfile)
           download.file(y$href, destfile = pat)
          if (file.exists(pat))
           system(sprintf("pdftotext -raw -nodiag %s", pat))

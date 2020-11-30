@@ -39,3 +39,7 @@ knitr::kable(dat[,c('part_subpart', 'parent', 'section', 'href')],
 ``` 
 
  - \* QC/QA = Quality Control, Quality Assurance
+ 
+```{r}
+knitr::kable(parse_nssh_part(dat$part, dat$subpart), "Headers")
+```

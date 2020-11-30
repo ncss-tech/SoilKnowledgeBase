@@ -8,7 +8,8 @@ parse_nssh_structure(
   url = NULL,
   ignore.headers = "Amendments To Soil Taxonomy",
   outpath = "./inst/extdata/NSSH",
-  download_pdf = FALSE
+  download_pdf = "ifneeded",
+  keep_pdf = FALSE
 )
 }
 \arguments{
@@ -18,7 +19,9 @@ parse_nssh_structure(
 
 \item{outpath}{A directory path to create "inst/extdata/NSSH" folder structure.}
 
-\item{download_pdf}{Download official PDF files from eDirectives?}
+\item{download_pdf}{Download official PDF files from eDirectives? default: "ifneeded"; options: TRUE/FALSE}
+
+\item{keep_pdf}{Keep PDF files after processing TXT?}
 }
 \value{
 A data.frame object containing link, part and section information for the NSSH. A directory "inst/extdata/NSSH" is created in \code{outpath} (Default: "./inst/extdata/NSSH/") with a numeric subfolder for each part in the NSSH.
