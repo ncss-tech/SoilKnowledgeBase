@@ -15,7 +15,8 @@ access to products from official data sources.
     # install.packages("remotes")
     remotes::install_github("brownag/SoilKnowledgeBase")
 
-    SoilKnowledgeBase::parse_nssh_structure()
+    # install all remote data to inst/extdata
+    SoilKnowledgeBase::refresh()
 
 ### The Structure of the National Soil Survey Handbook (NSSH)
 
