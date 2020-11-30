@@ -27,7 +27,7 @@ SoilKnowledgeBase::refresh()
 ### The Structure of the National Soil Survey Handbook (NSSH)
 
 ```{r, results='asis'}
-dat <- SoilKnowledgeBase::parse_nssh_structure()
+dat <- SoilKnowledgeBase::create_nssh_index()
 
 .doAbbreviate <- function(x) {
   xx <- gsub("National Cooperative Soil Survey", "NCSS", x)
