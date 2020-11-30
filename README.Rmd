@@ -27,7 +27,12 @@ SoilKnowledgeBase::refresh()
 ### The Structure of the National Soil Survey Handbook (NSSH)
 
 ```{r, results='asis'}
-dat <- SoilKnowledgeBase::create_nssh_index()
+# do a full refresh
+library(SoilKnowledgeBase)
+stopifnot(refresh())
+
+# access the assets
+dat <- get_assets('NSSH', 'index')[[1]]
 
 .doAbbreviate <- function(x) {
   xx <- gsub("National Cooperative Soil Survey", "NCSS", x)
@@ -45,7 +50,7 @@ knitr::kable(dat[,c('part_subpart', 'parent', 'section', 'href')],
 ### Coming Soon: Links to headers
 
 ```{r}
-nssh_headers <- SoilKnowledgeBase::parse_nssh_part(dat$part, dat$subpart)
+nssh_headers <- get_assets('NSSH', 'headers')[[1]]
 if (!is.null(nssh_headers))
   knitr::kable(nssh_headers[,c("part","subpart","header")],
              row.names = FALSE, col.names = c("Part","Subpart","Header"))

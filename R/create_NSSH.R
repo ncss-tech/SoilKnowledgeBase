@@ -1,19 +1,18 @@
 #' Parse the National Soil Survey Handbook (NSSH) Table of Contents to get eDirectives links
 #'
-#' @description This provides a basic framework and folder structure for assets that are part of the NCSS standards.
+#' @description \code{parse_nssh_index} provides a basic framework and folder structure for assets that are part of the National Soil Survey Handbook (NSSH) a key part of National Cooperative Soil Survey (NCSS) standards.
 #'
-#' @param url A URL to parse for Table of Contents information.
+#' @param nssh_url A URL to parse for Table of Contents information.
 #' @param ignore.headers A character vector of h3 level headers to ignore on the NSSH Table of contents webpage.
 #' @param outpath A directory path to create "inst/extdata/NSSH" folder structure.
 #' @param download_pdf Download official PDF files from eDirectives? default: "ifneeded"; options: TRUE/FALSE
 #' @param output_types Options include \code{c("txt","html")} for processed PDF files.
 #' @param keep_pdf Keep PDF files after processing TXT?
-#'
+#' @param ... Additional arguments (may not be used)
+#' 
 #' @details Hardcoded with \code{ignore.headers = "Part 615 – Amendments To Soil Taxonomy"}; TODO: set this to NULL when webpage is updated. Default URL: https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/ref/?cid=nrcs142p2_054240
 #'
 #' @return A data.frame object containing link, part and section information for the NSSH. A directory "inst/extdata/NSSH" is created in \code{outpath} (Default: "./inst/extdata/NSSH/") with a numeric subfolder for each part in the NSSH.
-#'
-#' @export
 #'
 #' @importFrom dplyr bind_rows
 #' @importFrom magrittr %>%
@@ -21,21 +20,22 @@
 #' @importFrom xml2 read_html xml_attr
 #' @importFrom utils write.csv download.file
 #' @importFrom stats aggregate
-create_nssh_index <- function(
-  url = NULL,
+parse_nssh_index <- function(
+  nssh_url = NULL,
   ignore.headers = "Amendments To Soil Taxonomy",
-  outpath = "./inst/extdata/NSSH",
+  outpath = "./inst/extdata",
   download_pdf = "ifneeded",
   output_types = c("txt","html"),
-  keep_pdf = FALSE
+  keep_pdf = FALSE,
+  ...
 ) {
 
-  if (is.null(url))
-    url <- "https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/ref/?cid=nrcs142p2_054240"
+  if (is.null(nssh_url))
+    nssh_url <- "https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/ref/?cid=nrcs142p2_054240"
 
   ## NSSH Table of Contents
 
-  html <- read_html(url)
+  html <- read_html(nssh_url)
 
   # header level 2 are the sections
   the_sections <- html %>%
@@ -113,12 +113,12 @@ create_nssh_index <- function(
 
   # create directory structure and download PDFs
   lapply(unique(res$part), function(x) {
-      dp <-  file.path(outpath, x)
+      dp <-  file.path(outpath, "NSSH", x)
       if (!dir.exists(dp))
         dir.create(dp, recursive = TRUE)
       parts <- subset(res, res$part == x)
       lapply(split(parts, 1:nrow(parts)), function(y) {
-         pat <- file.path(outpath, x, sprintf("%s%s.pdf", y$part, y$subpart))
+         pat <- file.path(outpath, "NSSH", x, sprintf("%s%s.pdf", y$part, y$subpart))
          dfile <- download_pdf
          if (dfile == "ifneeded")
            dfile <- !file.exists(pat)
@@ -135,7 +135,7 @@ create_nssh_index <- function(
         })
     })
 
-  write.csv(res, file = file.path(outpath, "index.csv"))
+  write.csv(res, file = file.path(outpath, "NSSH", "index.csv"))
   return(res)
 }
 
@@ -143,12 +143,13 @@ create_nssh_index <- function(
 #'
 #' @param number Vector of part number(s) e.g. \code{600:614}
 #' @param subpart Vector of subpart characters e.g. \code{"A"}
+#' @param outpath A directory path to create "inst/extdata/NSSH" folder structure in
 #'
 #' @return A data.frame containing line numbers corresponding to NSSH part and subpart headers.
-#' @export
-parse_nssh_part <- function(number, subpart) {
+parse_nssh_part <- function(number, subpart, 
+                            outpath = "./inst/extdata") {
   
-  do.call('rbind', lapply(split(data.frame(number = number, subpart = subpart),
+  res <- do.call('rbind', lapply(split(data.frame(number = number, subpart = subpart),
                                 1:length(number)), function(x) {
                                   
                                   idx <- respart <- ressubpart <- numeric(0)
@@ -175,24 +176,36 @@ parse_nssh_part <- function(number, subpart) {
                                     return(res)
                                   } )
                                 }))
+  write.csv(res, file = file.path(outpath, "NSSH", "headers.csv"))
+  return(res)
 }
 
-#' Refresh the entire SoilKnowledgeBase inst/extdata/ folder 
+#' Create NSSH Dataset 
 #'
-#' @param ... Arguments passed to \code{create_nssh_index}
-#'
-#' @return Raw data and parsed files written to inst/extdata/ subfolders.
+#' @param ... Arguments to \code{parse_nssh_index}
+#' @return TRUE if successful
 #' @export
-refresh <- function(...) {
-  dat <- SoilKnowledgeBase::create_nssh_index(...)
-  hed <- SoilKnowledgeBase::parse_nssh_part(dat$part, dat$subpart)
+create_NSSH <- function(...) {
   
   # run inst/scripts/NSSH
-  for (p in unique(dat$part)) {
-    rpath <- list.files(paste0("inst/scripts/NSSH/", p), ".*.R", full.names = TRUE)
-    res <- lapply(rpath, function(filepath) {
-          if (file.exists(filepath))
-            source(filepath)
-        })
-  }
+  dat <- parse_nssh_index(...)
+  attempt <- try(for (p in unique(dat$part)) {
+    
+    hed <- parse_nssh_part(dat$part, dat$subpart)
+    
+    if (!is.null(hed)) {
+      rpath <- list.files(paste0("inst/scripts/NSSH/", p), ".*.R", full.names = TRUE)
+    
+      # find each .R file (one or more for each part) amd source them
+      lapply(rpath, function(filepath) {
+        if (file.exists(filepath))
+          source(filepath)
+      })
+    }
+  })
+  
+  if (inherits(attempt, 'try-error')) 
+    return(FALSE)
+  
+  return(TRUE)
 }
