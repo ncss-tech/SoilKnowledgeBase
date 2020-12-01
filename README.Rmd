@@ -4,7 +4,7 @@ output: md_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE)
 ```
 
 ## Soil Knowledge Base
@@ -29,7 +29,7 @@ SoilKnowledgeBase::refresh()
 ```{r, results='asis'}
 # do a full refresh
 library(SoilKnowledgeBase)
-stopifnot(refresh())
+stopifnot(all(unlist(refresh(keep_pdf=TRUE))))
 
 # access the assets
 dat <- get_assets('NSSH', 'index')[[1]]
