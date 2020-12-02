@@ -84,6 +84,10 @@ jobs:
           git commit -m 'Update inst/extdata/ TXT files' || echo "No changes to commit"
           git add inst/extdata/\*.html
           git commit -m 'Update inst/extdata/ HTML files' || echo "No changes to commit"
+          git add inst/extdata/\*.json
+          git commit -m 'Update inst/extdata/ JSON files' || echo "No changes to commit"
+          git add inst/extdata/\*.csv
+          git commit -m 'Update inst/extdata/ CSV files' || echo "No changes to commit"
           git commit README.md -m 'Render README.Rmd' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
 
