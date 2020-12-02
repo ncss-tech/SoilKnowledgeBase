@@ -71,7 +71,7 @@ strip_lines <- function(x) {
 
 # TODO: placeholder; better fixing of unicode stuff
 clean_chars <- function(x) {
-  x <- gsub("â€”",'"', x)
+  x <- gsub("â€”",' ', x)
   return(x)
 }
 
