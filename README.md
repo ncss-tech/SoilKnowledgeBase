@@ -22,7 +22,8 @@ access to products from official data sources.
 
 ### The Structure of the National Soil Survey Handbook (NSSH)
 
-Parsing NSSH Part 618…
+    ## Warning in readLines(raw_618a): incomplete final line found on 'inst/extdata/
+    ## NSSH/618/618A.txt'
 
 <table>
 <colgroup>
