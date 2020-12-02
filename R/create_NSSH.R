@@ -9,7 +9,7 @@
 #' @param output_types Options include \code{c("txt","html")} for processed PDF files.
 #' @param keep_pdf Keep PDF files after processing TXT?
 #' @param ... Additional arguments (may not be used)
-#' 
+#'
 #' @details Hardcoded with \code{ignore.headers = "Part 615 – Amendments To Soil Taxonomy"}; TODO: set this to NULL when webpage is updated. Default URL: https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/ref/?cid=nrcs142p2_054240
 #'
 #' @return A data.frame object containing link, part and section information for the NSSH. A directory "inst/extdata/NSSH" is created in \code{outpath} (Default: "./inst/extdata/NSSH/") with a numeric subfolder for each part in the NSSH.
@@ -146,29 +146,29 @@ parse_nssh_index <- function(
 #' @param outpath A directory path to create "inst/extdata/NSSH" folder structure in
 #'
 #' @return A data.frame containing line numbers corresponding to NSSH part and subpart headers.
-parse_nssh_part <- function(number, subpart, 
+parse_nssh_part <- function(number, subpart,
                             outpath = "./inst/extdata") {
-  
+
   res <- do.call('rbind', lapply(split(data.frame(number = number, subpart = subpart),
                                 1:length(number)), function(x) {
-                                  
+
                                   idx <- respart <- ressubpart <- numeric(0)
-                                  
+
                                   try( {
                                     f <- sprintf("inst/extdata/NSSH/%s/%s%s.txt",
                                                  x$number, x$number, x$subpart)
-                                    
+
                                     if(!file.exists(f))
                                       return(NULL)
-                                    
+
                                     L <- readLines(f, warn = FALSE)
-                                    
+
                                     idx <- grep("^\\d{3}\\.\\d+ [A-Z]", L)
-                                    
+
                                     respart <- rep(x$number, length(idx))
                                     ressubpart <- rep(x$subpart, length(idx))
-                                    
-                                    
+
+
                                     res <- data.frame(part = x$number,
                                                       subpart = x$subpart,
                                                       line = idx,
@@ -180,32 +180,118 @@ parse_nssh_part <- function(number, subpart,
   return(res)
 }
 
-#' Create NSSH Dataset 
+#' Parse a Part/Subpart TXT file from the National Soil Survey Handbook
+#'
+#' @param a_part Part number (a three digit integer, starting with 6)
+#' @param a_subpart Subpart letter (A or B)
+#'
+#' @return TRUE if succesful
+#' @export
+parse_NSSH <- function(a_part, a_subpart) {
+
+  raw_txt <- sprintf("inst/extdata/NSSH/%s/%s%s.txt", a_part, a_part, a_subpart)
+  stopifnot(file.exists(raw_txt))
+  raw <- readLines(raw_txt)
+
+  headers <- get_assets('NSSH','headers')[[1]]
+  headers <- subset(headers, headers$part == a_part &
+                             headers$subpart == a_subpart)
+
+  sect.idx <- c(1, headers$line, length(raw))
+  llag  <- sect.idx[1:(length(sect.idx - 1))]
+  llead <- sect.idx[2:(length(sect.idx))]
+
+  hsections <- lapply(1:(nrow(headers) + 1), function(i) {
+    fix_line_breaks(strip_lines(clean_chars(raw[llag[i]:(llead[i] - 1)])))
+  })
+
+  names(hsections) <- c("frontmatter", gsub("^(\\d+\\.\\d+) .*", "\\1", headers$header))
+  res <- convert_to_json(hsections)
+  write(res, file = sprintf("inst/extdata/NSSH/%s/%s%s.json", a_part, a_part, a_subpart))
+  return(TRUE)
+}
+
+# collapse multiline content into "clauses"
+fix_line_breaks <- function(x) {
+  # starts with A. (1) or 618. is a new line
+
+  ids <- strsplit(gsub("^(\\d+)\\.(\\d+) (.*)$", "\\1:\\2:\\3", x[1]), ":")
+
+  res <- aggregate(x,
+                   by = list(cumsum(grepl("^[A-Z]\\.|^6[0-9]{2}\\. |^\\(\\d+\\)", x))), # |^\\(\\d+\\) -- not sure if this is desired
+                   FUN = paste, collapse = " ")
+
+  # check for clauses that dont start with a capital letter, a number or a parenthesis
+  fclause.idx <- !grepl("^[A-Zivx0-9\\(]", res$x)
+
+  if (length(fclause.idx) > 0)
+    res$Group.1[fclause.idx] <- res$Group.1[fclause.idx] - 1
+
+  res2 <- aggregate(res$x,
+                    by = list(res$Group.1),
+                    FUN = paste, collapse = " ")
+
+  # idx.bad <- which(!grepl("\\.$", res2$x))
+  # res3 <- aggregate(res2$x,
+  #                   by = list(cumsum()),
+  #                   FUN = paste, collapse = " ")
+
+  colnames(res2) <- c("clause","content")
+  res2$part <- ids[[1]][1]
+  res2$headerid <- ids[[1]][2]
+  res2$header <- ids[[1]][3]
+  res2$clause <- 1:nrow(res2)
+  return(res2)
+}
+
+# remove material associated with page breaks and footnotes
+strip_lines <- function(x) {
+  idx <- grep("\\fTitle 430 .* National Soil Survey Handbook|(430-6\\d{2}-., 1st|Ed., Amend. \\d+, [A-Za-z]+ \\d+)|6\\d{2}-[AB].\\d+|^Subpart [AB] ", x)
+  idx.fn <- grep("-------------", x)
+  if (length(idx.fn))
+    x <- x[1:(idx.fn[1] - 1)]
+  if (length(idx) > 0)
+    return(x[-idx])
+  return(x)
+}
+
+# TODO: placeholder; better fixing of unicode stuff
+clean_chars <- function(x) {
+  x <- gsub("\u00E2\u20AC\u201D",' ', x)
+  return(x)
+}
+
+#' Create NSSH Dataset
 #'
 #' @param ... Arguments to \code{parse_nssh_index}
 #' @return TRUE if successful
 #' @export
 create_NSSH <- function(...) {
-  
+
   # run inst/scripts/NSSH
   dat <- parse_nssh_index(...)
   attempt <- try(for (p in unique(dat$part)) {
-    
+
     hed <- parse_nssh_part(dat$part, dat$subpart)
-    
+
     if (!is.null(hed)) {
+
+      # create the JSON clause products for each NSSH part/subpart .txt
+      dspt <- split(dat, 1:nrow(dat))
+      lapply(dspt, function(dd) parse_NSSH(dd$part, dd$subpart))
+
       rpath <- list.files(paste0("inst/scripts/NSSH/", p), ".*.R", full.names = TRUE)
-    
-      # find each .R file (one or more for each part) amd source them
+
+      # find each .R file (one or more for each part) and source them
       lapply(rpath, function(filepath) {
         if (file.exists(filepath))
           source(filepath)
       })
     }
   })
-  
-  if (inherits(attempt, 'try-error')) 
+
+  if (inherits(attempt, 'try-error'))
     return(FALSE)
-  
+
   return(TRUE)
 }
