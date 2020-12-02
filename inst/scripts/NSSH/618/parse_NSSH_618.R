@@ -32,7 +32,7 @@ fix_line_breaks <- function(x) {
   ids <- strsplit(gsub("^(\\d+)\\.(\\d+) (.*)$", "\\1:\\2:\\3", x[1]), ":")
    
   res <- aggregate(x, 
-                   by = list(cumsum(grepl("^[A-Z]\\.|^6[0-9]{2}\\. ", x))), # |^\\(\\d+\\) -- not sure if this is desired
+                   by = list(cumsum(grepl("^[A-Z]\\.|^6[0-9]{2}\\. |^\\(\\d+\\)", x))), # |^\\(\\d+\\) -- not sure if this is desired
                    FUN = paste, collapse = " ")
   
   # check for clauses that dont start with a capital letter, a number or a parenthesis
