@@ -1,0 +1,856 @@
+{
+  "frontmatter": [
+    {
+      "clause": 1,
+      "content": "Title 430 – National Soil Survey Handbook Part 647 – Soil Map Development",
+      "part": "Title 430 – National Soil Survey Handbook"
+    }
+  ],
+  "647.0": [
+    {
+      "clause": 1,
+      "content": "647.0 Definition and Purpose",
+      "part": "647",
+      "headerid": "0",
+      "header": "Definition and Purpose"
+    },
+    {
+      "clause": 2,
+      "content": "A. Soil map development includes activities related to the preparation and completion of maps for soil survey. The purpose is to provide current and accurate soil maps (digital and analog) and related products to users. Three functional areas describe the major cartographic procedures: imagery acquisition, digital data capture, and digital map finishing. A glossary of terms used in soil map development is present in part 647, subpart B, section 647.15.",
+      "part": "647",
+      "headerid": "0",
+      "header": "Definition and Purpose"
+    },
+    {
+      "clause": 3,
+      "content": "B. Imagery Acquisition.—Field mapping for soil survey is performed on an imagery base. Digital soil survey development and publication products utilize digital imagery. A memorandum of understanding (MOU) or long range soil survey plan initiates the acquisition of imagery for mapping and publication. Aerial photography can still be used in completing initial soil survey projects. Hardcopy imagery can also be used as a tool in association with digital imagery.",
+      "part": "647",
+      "headerid": "0",
+      "header": "Definition and Purpose"
+    },
+    {
+      "clause": 4,
+      "content": "C. Digital Data Capture.—Field mapping is performed using electronic media and heads-up (on- screen) digitizing. In rare instances mapping on hardcopy aerial photography, which is subsequently compiled to orthophotography, may be allowed when digital imagery is inadequate or when field digitizing tools are not available. This part establishes the standards and specifications for the soil survey map component of the Soil Survey Geographic (SSURGO) database.",
+      "part": "647",
+      "headerid": "0",
+      "header": "Definition and Purpose"
+    },
+    {
+      "clause": 5,
+      "content": "D. Digital Map Finishing and Print-on-Demand Maps.—Digital map finishing is the addition of data layers (i.e., transportation, hydrography, and cadastral) to the soils data to generate a print-ready file.",
+      "part": "647",
+      "headerid": "0",
+      "header": "Definition and Purpose"
+    }
+  ],
+  "647.1": [
+    {
+      "clause": 1,
+      "content": "647.1 Procedures and Responsibilities",
+      "part": "647",
+      "headerid": "1",
+      "header": "Procedures and Responsibilities"
+    },
+    {
+      "clause": 2,
+      "content": "A. Procedures",
+      "part": "647",
+      "headerid": "1",
+      "header": "Procedures and Responsibilities"
+    },
+    {
+      "clause": 3,
+      "content": "(1) According to NRCS policy (Title 430, General Manual, Part 402, subpart A, section 402.2) National Cooperative Soil Survey activities are guided by cooperative arrangements, such as memoranda of understanding among partners, long range plans for each soil survey office and project plans.",
+      "part": "647",
+      "headerid": "1",
+      "header": "Procedures and Responsibilities"
+    },
+    {
+      "clause": 4,
+      "content": "(2) Soil survey products from new and updated soil surveys are based on soil mapping designed to be used at a 1:24,000 or 1:12,000 scale. Enlargement of maps beyond the scale of mapping can cause misunderstanding of the detail of mapping and accuracy of soil line placement. The maps do not show the small areas of contrasting soils that could have been shown at a more detailed scale.",
+      "part": "647",
+      "headerid": "1",
+      "header": "Procedures and Responsibilities"
+    },
+    {
+      "clause": 5,
+      "content": "(3) Soil surveys use the definitions and applications of soil survey features on Form NRCS–SOI– 37A from part 627, section 627.14, of this handbook. Definitions of ad hoc features are the responsibility of the soil survey regional office (SSR).",
+      "part": "647",
+      "headerid": "1",
+      "header": "Procedures and Responsibilities"
+    },
+    {
+      "clause": 6,
+      "content": "(4) All new soil surveys must be digitally captured, certified, and maintained in the Soil Data Warehouse. All updated soil surveys will be maintained in the Soil Data Warehouse.",
+      "part": "647",
+      "headerid": "1",
+      "header": "Procedures and Responsibilities"
+    },
+    {
+      "clause": 7,
+      "content": "(5) New and updated soil survey publications utilize digital map finishing. The digital publication format is a 3.75- or 7.5-minute quadrangle.",
+      "part": "647",
+      "headerid": "1",
+      "header": "Procedures and Responsibilities"
+    },
+    {
+      "clause": 8,
+      "content": "B. Responsibilities",
+      "part": "647",
+      "headerid": "1",
+      "header": "Procedures and Responsibilities"
+    },
+    {
+      "clause": 9,
+      "content": "(1) The Federal Geographic Data Committee (FGDC) and the Office of Management and Budget (OMB) are formally assigned the responsibility for national coordination of digital soils data to NRCS. See the OMB Circular A-16 for more information: https://www.whitehouse.gov/omb/circulars_a016_rev/.",
+      "part": "647",
+      "headerid": "1",
+      "header": "Procedures and Responsibilities"
+    },
+    {
+      "clause": 10,
+      "content": "(2) NRCS Federal Responsibilities (i) NRCS has the Federal responsibility for the National Cooperative Soil Survey and Federal leadership for collecting, storing, maintaining, and distributing soil information on tribal and privately owned lands in the United States. These activities include—  Acquiring base imagery for soil survey mapping.  Performing the quality assurance of soil survey maps.  Preparing data for publication. (ii) NRCS also has the lead Federal responsibility in collecting, archiving, and distributing the SSURGO database.",
+      "part": "647",
+      "headerid": "1",
+      "header": "Procedures and Responsibilities"
+    },
+    {
+      "clause": 11,
+      "content": "(3) National Headquarters provides overall direction, policy, guidance, and leadership for the National Cooperative Soil Survey within NRCS. See part 608, subpart A, section 608.1, of this handbook for more detailed information on the responsibilities of National Headquarters and the other NRCS offices mentioned in this section.",
+      "part": "647",
+      "headerid": "1",
+      "header": "Procedures and Responsibilities"
+    },
+    {
+      "clause": 12,
+      "content": "(4) The National Soil Survey Center is responsible for national standards, databases, training, research, and analysis.",
+      "part": "647",
+      "headerid": "1",
+      "header": "Procedures and Responsibilities"
+    },
+    {
+      "clause": 13,
+      "content": "(5) The SSR is responsible for providing leadership in the production and quality assurance of soil survey information.",
+      "part": "647",
+      "headerid": "1",
+      "header": "Procedures and Responsibilities"
+    },
+    {
+      "clause": 14,
+      "content": "(6) The State office is responsible for certifying and posting official detailed soil survey information in the Soil Data Mart.",
+      "part": "647",
+      "headerid": "1",
+      "header": "Procedures and Responsibilities"
+    },
+    {
+      "clause": 15,
+      "content": "(7) The soil survey office is responsible for conducting quality control of all soil survey activities in the assigned portions of the MLRA soil survey area.",
+      "part": "647",
+      "headerid": "1",
+      "header": "Procedures and Responsibilities"
+    },
+    {
+      "clause": 16,
+      "content": "(8) The National Geospatial Center of Excellence (NGCE) is responsible for helping coordinate NRCS aerial imagery and LIDAR acquisitions.",
+      "part": "647",
+      "headerid": "1",
+      "header": "Procedures and Responsibilities"
+    },
+    {
+      "clause": 17,
+      "content": "(9) The digitizing units are responsible for— (i) Coordinating data capture and soil business activities with SSRs to ensure an orderly flow of work for all soil surveys which are to be processed by the unit. (ii) Performing certification review of submitted materials. (iii) Notifying the SSR of any problems discovered during certification review that require action by the SSR prior to certification. (iv) Digitally capturing compiled map materials, including scanning soil lines, labeling, edge matching, and digitizing linear and point features. (v) Performing quality control of final digital data, including spatial and metadata. (vi) Exporting the spatial data to the staging server.",
+      "part": "647",
+      "headerid": "1",
+      "header": "Procedures and Responsibilities"
+    },
+    {
+      "clause": 18,
+      "content": "(10) The digital map finishing sites (housed under the SSRs) are responsible for— (i) Coordinating digital map finishing activities with SSRs to ensure the orderly flow of work for all digital map finishing projects. (ii) Performing quality control with 100-percent edit.",
+      "part": "647",
+      "headerid": "1",
+      "header": "Procedures and Responsibilities"
+    }
+  ],
+  "647.2": [
+    {
+      "clause": 1,
+      "content": "647.2 Imagery",
+      "part": "647",
+      "headerid": "2",
+      "header": "Imagery"
+    },
+    {
+      "clause": 2,
+      "content": "A. Imagery should be the best available for the soil survey project that meets the National Standard for Spatial Data Accuracy.",
+      "part": "647",
+      "headerid": "2",
+      "header": "Imagery"
+    },
+    {
+      "clause": 3,
+      "content": "B. Initiation of Imagery Acquisition",
+      "part": "647",
+      "headerid": "2",
+      "header": "Imagery"
+    },
+    {
+      "clause": 4,
+      "content": "(1) Acquisition of imagery for mapping and publication of soil surveys begins before the fieldwork. It starts with a long range plan or an MOU between NRCS and cooperating entities. For more information about the MOU, see part 606 of this handbook. Responsibilities and intentions towards data capture and map finishing are part of a soil survey area MOU or an amendment to an MOU.",
+      "part": "647",
+      "headerid": "2",
+      "header": "Imagery"
+    },
+    {
+      "clause": 5,
+      "content": "(2) To acquire imagery, use the Geospatial Data Gateway (https://datagateway.nrcs.usda.gov/).",
+      "part": "647",
+      "headerid": "2",
+      "header": "Imagery"
+    },
+    {
+      "clause": 6,
+      "content": "C. Imagery Acquisition Assistance. The NGCE is available to assist SSRs in acquiring aerial photography and orthophotography. The NGCE will—",
+      "part": "647",
+      "headerid": "2",
+      "header": "Imagery"
+    },
+    {
+      "clause": 7,
+      "content": "(1) Provide information on imagery availability.",
+      "part": "647",
+      "headerid": "2",
+      "header": "Imagery"
+    },
+    {
+      "clause": 8,
+      "content": "(2) Inspect imagery to ensure quality and coverage.",
+      "part": "647",
+      "headerid": "2",
+      "header": "Imagery"
+    }
+  ],
+  "647.3": [
+    {
+      "clause": 1,
+      "content": "647.3 SSURGO Characteristics The database consists of—",
+      "part": "647",
+      "headerid": "3",
+      "header": "SSURGO Characteristics"
+    },
+    {
+      "clause": 2,
+      "content": "(1) Soils mapping using mobile devices, digital orthoimagery, and heads-up (on-screen) digitizing as much as possible to promote efficiency of data capture.",
+      "part": "647",
+      "headerid": "3",
+      "header": "SSURGO Characteristics"
+    },
+    {
+      "clause": 3,
+      "content": "(2) Mapping on 3.75-minute or 7.5-minute digital orthoimagery quadrangles or compiling onto one of these bases before or during digitizing if the techniques described in paragraph (1) above are not possible.",
+      "part": "647",
+      "headerid": "3",
+      "header": "SSURGO Characteristics"
+    },
+    {
+      "clause": 4,
+      "content": "(3) Mapping at a 1:12,000 or 1:24,000 scale.",
+      "part": "647",
+      "headerid": "3",
+      "header": "SSURGO Characteristics"
+    },
+    {
+      "clause": 5,
+      "content": "(4) An approved and signed classification and correlation document and amendments or an approved legend in the National Soil Information System (NASIS) for a progressive soil survey.",
+      "part": "647",
+      "headerid": "3",
+      "header": "SSURGO Characteristics"
+    },
+    {
+      "clause": 6,
+      "content": "(5) Captured or converted data in a geographic coordinate reference system, decimal degrees map units, and a North American Datum of 1983 (NAD 83) with a Geodetic Reference System of 1980 (GRS 80) spheroid.",
+      "part": "647",
+      "headerid": "3",
+      "header": "SSURGO Characteristics"
+    },
+    {
+      "clause": 7,
+      "content": "(6) Georeferenced digital spatial data, tabular data, and metadata.",
+      "part": "647",
+      "headerid": "3",
+      "header": "SSURGO Characteristics"
+    },
+    {
+      "clause": 8,
+      "content": "(7) Spatial data stored in a vector data structure.",
+      "part": "647",
+      "headerid": "3",
+      "header": "SSURGO Characteristics"
+    },
+    {
+      "clause": 9,
+      "content": "(8) Archiving in a survey area format.",
+      "part": "647",
+      "headerid": "3",
+      "header": "SSURGO Characteristics"
+    },
+    {
+      "clause": 10,
+      "content": "(9) Maintenance of the digitizing standards and specifications of NRCS.",
+      "part": "647",
+      "headerid": "3",
+      "header": "SSURGO Characteristics"
+    }
+  ],
+  "647.4": [
+    {
+      "clause": 1,
+      "content": "647.4 Data Capture Specifications",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 2,
+      "content": "A. Base Map Characteristics",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 3,
+      "content": "(1) Maps to be Used.—Imagery should be the best available for the soil survey project that meets the National Standard for Spatial Data Accuracy.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 4,
+      "content": "(2) Scale.—The primary standard is a 1:12,000 or 1:24,000 scale base.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 5,
+      "content": "(3) Reference System.—The horizontal control is the NAD 83 or World Geodetic System 1984 (WGS 84) and is determined by the imagery base.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 6,
+      "content": "B. Features to be Captured.—Area soil survey features and linear and point soil survey features are digitized as three separate layers.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 7,
+      "content": "(1) Layer 1 Examples of area features are soil and water areas. These features are composed of soil boundary lines or other boundary lines, such as a double line stream or limit of soil survey, that form polygons and occupy area.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 8,
+      "content": "(2) Layer 2 (i) Examples of soil line segments are narrow elongated riparian areas. (ii) Examples of soil point features are small circular riparian areas.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 9,
+      "content": "(3) Layer 3 (i) Examples of special linear features are escarpments and gullies. (ii) Examples of special point features are landform features, miscellaneous surface features, and ad hoc features (sometimes known as spot symbols). Wet spots, pits, and sinkholes are specific examples of these features. (iii) Both linear and point special features represent areas that are too small to be digitized as polygons (area features smaller than 0.5 cm in diameter).",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 10,
+      "content": "C. Data Capture.—The following standards and specifications apply to soil surveys at scales of 1:12,000 to 1:24,000:",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 11,
+      "content": "(1) Data Capture by Heads-Up (On-Screen) Digitizing.—Data capture of all soil survey features (i.e., soil and water boundaries and linear and point features) is performed by heads-up digitizing. Heads-up digitizing uses a data capture device, such as a mouse or stylus, to trace or draw on digital imagery.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 12,
+      "content": "(2) Data Capture by Manual Digitizing (i) Each soil survey feature (i.e., soil and water boundaries and linear and point features) is digitized within a 0.01-inch (0.254-mm) line width of the source document and the centerline of the boundary must be followed. (ii) Geographic control is established using the four corner coordinate values of the 7.5- minute quadrangle or 3.75-minute quadrangle.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 13,
+      "content": "(3) Collective Data Capture Specifications.—The following specifications apply to both heads- up and manual data capture: (i) All beginning and ending points of each digitized line at a common intersecting point (node) must be connected with another soil boundary, water boundary, or limit-of-soil- survey boundary. (ii) Average vertex density (distance between vertices) for soil and water boundaries should be greater than 15 meters. (iii) Straight segments of soil and water boundaries (i.e., survey area boundaries and urban map units) should be represented by no more than two vertices, one at each end of the segment. (iv) All “islands” must be digitized as a continuous line segment with only a beginning and ending node. (v) Each boundary must be represented with no greater number of coordinate pair vertices than is necessary to record the boundaries. (vi) In areas of dense soil and water boundaries, each boundary must have a minimum separation of 1/16 inch (19 ground meters at 1:12,000 or 38 ground meters at 1:24,000) or more at output scale for clarity. (vii) For soil and water boundary editing, zoom in no farther than about twice the publication scale:  1:12,000 for a 1:24,000 scale survey area.  1:6,000 for a 1:12,000 scale survey area.  The practical limit of zooming in to edit boundaries is a 1:3,000scale.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 14,
+      "content": "(4) Spatial Reference (i) The coordinate reference system required for all coordinate data includes—  A ground-based system and projection.  Horizontal datum, either the NAD 83 that is based upon the GRS 80 spheroid or the WGS 84 that is based on the WGS 84 spheroid. (ii) No x_ or y_ coordinate shifts (offsets) are permitted.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 15,
+      "content": "(5) Spatial Format.—The format is: (i) A geodatabase (ii) Vector structures (i.e., location of lines, points, and area boundaries) that are represented as x, y coordinate pairs",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 16,
+      "content": "D. Legends",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 17,
+      "content": "(1) Area Features (i) Use the soil map symbols in the legend in the classification and correlation document and amendments. (ii) Permanent water and miscellaneous water will conform to soil map unit labels (i.e., alpha, numeric, or alphanumeric). The use of symbols W and M-W is not required.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 18,
+      "content": "(2) Figure 647-A1 below shows a hypothetical example of an approved correlation legend that uses connotative, alphabetic map unit labels as the publication symbols. Connotative map unit labels are optional regardless of what kind of symbol is chosen. Figure 647-A1 Publication Symbol Approved Map Unit Name ApB Alpha silt loam, 1 to 3 percent slopes Ba Barney loam, very stony Be Beta silt loam Go Gomer clay, frequently flooded Md Madras loamy fine sand W Water We Wehadkee fine sandy loam",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 19,
+      "content": "(3) Linear and Point Soil Map Unit Features.—Use the soil map symbols in the legend in the classification and correlation documents and amendments.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 20,
+      "content": "(4) Linear and Point Special Features.—Digitize the soil survey standard and features identified in this handbook in Part 627, subpart B, section 627.14, Feature and Symbol Legend for Soil Survey, NRCS–SOI–37A, if they are identified in the classification and correlation document and amendments. Ad hoc features follow standard landform and miscellaneous surface features on the legend.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 21,
+      "content": "(4) Figure 647-A2 below shows an example of approved features with the descriptive labels. Figure 647-A2 Feature Label Feature Name CLA Clay spot GPI Gravel pit ROC Rock outcrop SLP Short, steep slope STV Very stony spot WET Wet spot BOG Areas of acid organics",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 22,
+      "content": "E. Labeling",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 23,
+      "content": "(1) Descriptive Labels.—Label each feature with a descriptive label. The descriptive labels are identical to the map unit symbols in the approved soil classification and correlation document and amendments. They include symbols for map unit delineations, special features, and ad hoc features.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 24,
+      "content": "(2) Label Position.—For area features, position the coordinate point for the map unit label at or near the centroid (i.e., geometric center) of the polygon. Move the coordinate point into the area if the centroid falls outside of the polygon. Centrally locate the coordinate point on the feature.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 25,
+      "content": "(3) Special Labels.—Special labels are listed in the map unit table in NASIS so that a map unit key (mukey) can be generated for them. As such, they will be included in the map unit legend. (i) Label areas not yet mapped or digitized as part of a progressive survey NOTCOM, for not completed. (ii) Label large concrete or riprap-covered dams DAM and large levees LEVEE when unassigned. (iii) Label water areas (ponds and lakes) with an appropriate map unit symbol. They should not be unlabeled. (iv) Label areas that are unmapped because access was denied with any appropriate symbol. See part 608, subpart A, section 608.3, of this handbook for more information on the recommended map unit name for such areas. (v) If the assigned map unit symbols are numeric, then only areas not yet completed (i.e., labeled NOTCOM) would lack a numeric symbol.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 26,
+      "content": "F. Spatial Data Files Naming Convention.—These file names are internal. They are utilized by ArcGIS and ArcInfo quality assurance processes. They are not the file names that are distributed by the Soil Data Mart that meet the Standard for Geospatial Dataset File Naming. The naming convention for SSURGO spatial files is the two-letter State FIPS code followed by a three-digit soil survey area number. An example of the soil polygon coverage name for Henry County, VA, is VA089_a. Each geospatial layer has its own designation: (i) a – soil polygon (ii) b – soil survey boundary (iii) c – linear soil map unit (iv) d – point soil map unit (v) l – linear special feature (vi) p – point special feature (vii) q – quadrangle",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 27,
+      "content": "G. Tabular Attribute Data",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 28,
+      "content": "(1) Current and accurate tabular data are present in the soil classification and correlation document and amendments, and they are identical to the data downloaded for use in the Field Office Technical Guide. The reliability of the individual data elements and tables are to be addressed in the metadata file if necessary.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 29,
+      "content": "(2) The exportcertdate column in the distlegendmd “Map Unit Record” table is defined as the mm/dd/yyyy that the data for the soil survey area was certified by the SSR as edited and available for public use. This column must be populated when submitting the tabular data. This is essential for dating the tabular data, which are periodically updated. (i) Map Unit Record Database.—Each map unit symbol contained in the spatial data must have a matching symbol in NASIS. It is acceptable for extra symbols to be in the NASIS data that are not in the spatial data. (ii) Special Features.—Prepare and archive a soil survey features file for the SSURGO database. The name of the file will be “feature.” The format is a variable record length ASCII text file. The first row contains the name of each column, feat_label, feat_name, and feat_desc. The second row contains at least one dash underneath each column name. Tabs separate the column names and dashes. A return character is at the end of each of these rows. Delimit each subsequent row by a return character and form a record in the table. A row consists of tab-delimited columns. Each row has the same number of columns as the file header (first two rows). The file contains a descriptive label, feature name, and definition for each linear and point soil survey feature and ad hoc feature in the legend.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 30,
+      "content": "H. Metadata",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 31,
+      "content": "(1) The SSURGO product is a combination of both spatial and tabular data. FGDC-compliant metadata exists for the spatial and tabular data. Both static and dynamic metadata exist for the tabular component.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 32,
+      "content": "(2) Metadata provide information about the content, quality, condition, and related characteristics of data; information about the SSURGO database holdings to data catalogues, clearinghouses, and brokerages; and information needed to process and interpret SSURGO data received through a transfer either by media or the Internet.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 33,
+      "content": "(3) Submit metadata with the SSURGO spatial data for archiving in the Soil Data Warehouse. The template in part 647, subpart B, section 647.16, is used to create metadata. The name of the metadata file in the SSURGO database is the area symbol for the soil survey area to which the dataset applies. The extension will be “met.” For example, va089.met is the name of the metadata file for Henry County, VA.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 34,
+      "content": "I. Quality Control",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 35,
+      "content": "(1) Quality control of soil surveys and their digital products is the responsibility of the office doing the work. The SSR provides quality assurance for the soil survey process.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 36,
+      "content": "(2) The digitizing units perform quality control on the digital survey.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 37,
+      "content": "J. Quality Assurance",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 38,
+      "content": "(1) The SSR is responsible for the overall technical accuracy of soil surveys.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    },
+    {
+      "clause": 39,
+      "content": "(2) The NGCE provides assistance to the SSR on quality assurance review of digital soil surveys.",
+      "part": "647",
+      "headerid": "4",
+      "header": "Data Capture Specifications"
+    }
+  ],
+  "647.5": [
+    {
+      "clause": 1,
+      "content": "647.5 Archiving The certified or updated soil survey information is permanently archived in the Soil Data Warehouse and then utilized by a variety of applications. The following conditions must be met for data to be uploaded to the staging server and then committed by the State soil scientist to the Soil Data Warehouse:",
+      "part": "647",
+      "headerid": "5",
+      "header": "Archiving"
+    },
+    {
+      "clause": 2,
+      "content": "(1) The digitizing units must have a signed certification letter for surveys that have not previously been archived in the Soil Data Warehouse.",
+      "part": "647",
+      "headerid": "5",
+      "header": "Archiving"
+    },
+    {
+      "clause": 3,
+      "content": "(2) The data must be converted to an ArcInfo coverage format.",
+      "part": "647",
+      "headerid": "5",
+      "header": "Archiving"
+    },
+    {
+      "clause": 4,
+      "content": "(3) The reference system must be projected to (if needed) the geographic coordinate system, NAD 83 datum, GRS 80 spheroid, and decimal degree map units.",
+      "part": "647",
+      "headerid": "5",
+      "header": "Archiving"
+    },
+    {
+      "clause": 5,
+      "content": "(4) A soil map unit polygon coverage and the soil survey boundary coverage must be present and correctly named.",
+      "part": "647",
+      "headerid": "5",
+      "header": "Archiving"
+    },
+    {
+      "clause": 6,
+      "content": "(5) A metadata file, correctly named, must be present.",
+      "part": "647",
+      "headerid": "5",
+      "header": "Archiving"
+    },
+    {
+      "clause": 7,
+      "content": "(6) The data must be zipped.",
+      "part": "647",
+      "headerid": "5",
+      "header": "Archiving"
+    }
+  ],
+  "647.6": [
+    {
+      "clause": 1,
+      "content": "647.6 Digital Map Finishing and Print-on-Demand Maps",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 2,
+      "content": "A. General",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 3,
+      "content": "(1) The Digital Map Finishing and Print-on-Demand Maps (DMF–PODM) process replaces the previous digital map finishing method. The new DMF–PODM process uses ArcMap Version 9.3.1 (or later) and Maplex for ArcGIS. The Digital Map Finishing and Print-on-Demand Maps User Guide provides instruction for the new process. (i) Users should adhere to all specifications cited in Part 647, subpart B, section 647.12, “Digital Map Finishing and Print-On-Demand Maps Specifications,” and the user guide. (ii) Contact the NGCE for a copy of the user guide. (iii) See the overview of the Digital Map Finishing and Print-on-Demand Maps process in Part 647, subpart B, section 647.11, “Digital Map Finishing and Print-on-Demand Maps Flowchart.”",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 4,
+      "content": "(2) SSRs are responsible for performing digital map finishing. The NGCE provides technical assistance for digital map finishing. The NGCE performs a limited number of digital map finishing projects upon request from the State soil survey office.",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 5,
+      "content": "(3) Form NRCS–SOI–37A (see part 627, subpart B, section 627.14, of this handbook) in the classification and correlation document identifies the features that will appear in the soil survey publication. Only map finish the items indicated on this approved form.",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 6,
+      "content": "B. Quality Control and Quality Assurance.—The SSR are responsible for digital map finishing and its quality control and assurance (data accuracy and DMF–PODM specifications are in Part 647, subpart B, section 647.12). State offices may agree to share this role. The NGCE provides DMF technical assistance to the SSRs. The NGCE also ensures adherence to the DMF–PODM specifications.",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 7,
+      "content": "(1) The SSR is responsible for developing DMF–PODM products and ensuring a 100 percent quality control edit before the PDFs are created. A digital map finishing checklist is provided in part 647, subpart B, section 647.13.",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 8,
+      "content": "(2) The SSR will provide three PDFs (one sheet should include the limit of soil survey) to the NGCE to ensure adherence to the DMF–PODM specifications. The NGCE will notify the State and SSR of their findings.",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 9,
+      "content": "(3) The PDFs created receive a 100-percent quality assurance review. When the corrections are made, the final PDFs are returned to the SSR for certification. See Part 647, Subpart B, Section 647.14, “Digital Map Finishing Certification.”",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 10,
+      "content": "(4) The SSR director signs the digital map finishing certification letter and ships the digital data files (file geodatabase, .mxd, .eps, and .pdf files) to the NGCE for archiving.",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 11,
+      "content": "C. How Data Are Obtained DMF–PODM data can be obtained by downloading digital files from the Geospatial Data Gateway. The Digital Map Finishing and Print-on-Demand Maps User Guide contains additional information for attaining data.",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 12,
+      "content": "D. Data Themes",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 13,
+      "content": "(1) Data themes available for the DMF–PODM process are SSURGO, Dynamap (TeleAtlas), National Hydro Dataset, Quad Index, Public Land Survey System (PLSS), Geographic Names, and Digital Raster Graphics (DRG). The National Agricultural Imagery Program (NAIP) imagery and ShadedRelief (Hillshade) imagery are captured from the NGCE Image Server. Other digital imagery may be used if FGDC standards are met.",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 14,
+      "content": "(2) Files provided by the NGCE (administrative privileges will be required to load fonts). (i) Fonts  NRCS-adhoc.TTF  NRCSP___.TTF  NRCSS___.TTF  The DMF–PODM specifications (see Part 647, subpart B, section 647.12) prescribe font style and sizes for specific map elements in order to maintain uniformity for all soil survey maps. Specific fonts (arial and times new roman) are used for soil labels, place names, culture and hydrographic feature names, margin information, etc. (ii) Style Sheet (NRCS SSURGO.style) To maintain consistency for map elements across map sheets undergoing digital map finishing, a style sheet is used. Stored in the ArcMap DMF tools folder, the style sheet employed in the DMF–PODM method for soil surveys is named NRCS SSURGO.style. The style sheet ensures that cultural and hydrographic point and line features are rendered the same way on different soil surveys. (iii) Templates.—NGCE templates include the dmf_template_12k.mxt (quadrangle template), dmf_template_24k.mxt (quadrangle template), and dmf_template_63.mxt (1:63,360 quadrangle template). To minimize user input and create a consistent map finishing product, the templates must be used for the DMF–PODM process. The digital map finishing templates include the following information: Note: All measurements cited are approximate. Do not adjust these elements on the templates.  Agency Name.—The agency name is located in the upper left corner of each map, 0.5 inch below the map margin. Indicate as— UNITED STATES DEPARTMENT OF AGRICULTURE NATURAL RESOURCES CONSERVATION SERVICE  Soil Survey Area Name.—The soil survey area name is located in the upper right corner of each map, 0.7 inch above the map neat line and 0.5 inch below the map margin. The soil survey area name is also located in the lower right corner of each map, 0.5 inch below the map neat line and 2.1 inches above the map margin.  Quadrangle Name.—The U.S. Geological Survey (USGS) quadrangle name is located in the upper right corner of the map, 0.5 inch above the map neat line and 0.7 inch below the map margin.  Quadrangle Sheet Number.—The map sheet number is located in the upper right corner of the map, 1 inch below the map neat line and 1.7 inches above the map margin.  Bar Scale Information.—Three separate bar scales are located in the lower center of each map. The first bar scale represents the mile increment, about 1 inch below the map neat line. The second bar scale represents the kilometer increment, 0.5 inch below the first scale. The third bar scale represents the foot increment, 0.5 inch below the second scale.  Map Scale Information.—The map scale is located in the lower center of the map below the bar scales. Most scales are 1:12,000 and 1:24,000.  Source Note Information.—Each map requires a source note in the lower left corner of the map, 0.2 inch below the map neat line. The lower limit must not exceed 2.2 inches below the map neat line (0.5 inch above the map margin). The note references contributors to the soil survey program and identifies the imagery date. - This soil survey map was compiled by the Natural Resources Conservation Service,",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 15,
+      "content": "U.S. Department of Agriculture. - Aerial imagery from the National Agriculture Imagery Program (NAIP), 2008 to present. - National Hydrography Dataset (NHD) and cultural features derived from data provided by the Department of the Interior-USGS. - North American Datum of 1983 (NAD 83), Universal Transverse Mercator (UTM) coordinate system.  Adjoining Sheet Names.—The “Joins Sheet” notes are used to identify adjacent quadrangle names. Eight adjoining sheet names are prepositioned at the appropriate locations on the template.  State Coordinate Ticks and Values (optional).—Position the tick values in 1,000- meter increments. Orient the values horizontally.  Geographic Coordinate Ticks and Values.—The geographic coordinate values are indicated as latitude and longitude in the degree, minute, second format in each map corner. The coordinate values are 15-minute, 7.5-minute, and 3.75-minute.  North Arrow.—A north arrow is displayed between the source note and scale bar, 5.5 inches from the left side of the map neat line.  Soil Survey Area Information.—The State and county information is located in the lower right corner of each map below the map neat line. The State and county information is also located in the upper right corner of the map.  Map Projection Information.—All map projection information is indicated in the source note. The map projection includes the UTM coordinate system, zone, and datum. The datum is the same for all maps within a survey area.  Index Map-Quadrangle Index.—Position the index map-quadrangle index at the bottom of the map and center between the scale bar and the soil survey area name.",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 16,
+      "content": "E. Digital Map Finishing and Print-on-Demand Maps Specifications",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 17,
+      "content": "(1) Base map requirements for digital map finishing are the same as those for SSURGO digitizing. See section 647.4 for these requirements. The SSR reviews and certifies all digital map finishing.",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 18,
+      "content": "(2) Acquire digital data layers from the Geospatial Data Gateway and other Federal geospatial data portals as needed. Create a file geodatabase and import all digital data themes needed for digital map finishing.",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 19,
+      "content": "(3) All digital map finishing work must meet the proper density, line widths, symbol, font styles, and sizes as stated in the Digital Map Finishing and Print-on-Demand Maps User Guide and in Part 647, subpart B, section 647.12 “Digital Map Finishing and Print-on-Demand Maps Specifications.”",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 20,
+      "content": "F. Data Files",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 21,
+      "content": "(1) Culture.—Cultural information including political and administrative boundaries, transportation, buildings, structures, and public land survey are displayed in black on the publication maps.",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 22,
+      "content": "(2) Priority.—When two or more boundaries fall in the same location, figure 647-A3 shows the priority for symbolizing these features. Figure 647-A3 Priority Feature 1 Road 2 National 3 State 4 County or parish 5 Reservation (national, State forest, or park) 6 Limit of soil survey 7 Minor civil division 8 Public land survey system 9 Neat line",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 23,
+      "content": "(3) Soils.—Soil information includes the soil delineations, soil labels, and standard landform and miscellaneous surface features certified as SSURGO. (i) Soil Polygons.—Soil delineations include all linear and point soil delineations as well as soil and miscellaneous areas, such as gravel pit areas; water areas; miscellaneous water areas, which are further identified as sewage lagoons and filtration ponds; and double line streams and canals. Note: Use the same color (RGB) for all polygons and labels throughout the survey area. (ii) Soil Labels.—The digital map finishing application places one soil label in each soil polygon, horizontally and near the geometric center of the soil delineation. Additional labels can be added as needed.  Ensure soil labels do not touch or extend across soil boundaries or other map features.  Soil labels that do not fit horizontally within the soil delineation will require rotating or leadering.  Where the soil polygon is too small to contain a label, place the label outside of the delineation and use a leader extending into the polygon. - A leader normally should not cross more than one soil line except where unavoidable. - The ends of the leader must not touch the soil label or any other map element within the soil area.  Soil polygons longer than approximately 3 inches in any direction may require more than one soil label.  In elongated or narrow areas, place soil labels as needed to maximize clarity.  If using a hydro layer with blue line symbols, it is permissible for the soil label to overlap the line feature to avoid using a leader.",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 24,
+      "content": "(4) Hydrography.—Hydrographic information includes water bodies, streams, ditches, flood pool boundaries, springs, and wells. Streams less than 0.5 inch in length are not shown except where connected to map neat lines that extend onto the adjacent map. Hydrographic Features:  Streams.—Label stream names. Place double line stream names between shores where overprinting will not occur. Place type for linear features on the upper side aligned with the general direction of the feature. Place names on the same side and align to fit the feature. Some features may require more than one label or different sized labels. Place word components in uncluttered areas wherever possible.  Other Hydrographic Features.—Label other hydrographic features, if needed; for example, ponds, lakes, and reservoirs.",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 25,
+      "content": "(5) Annotation.—Annotation includes soil labels and the proper names of cultural, hydrographic, and hypsographic features. The USGS digital raster graphics files (DRGs) are used for guidance in determining the names and locations of all annotation, excluding the placement of soil labels. Position annotation to read from left to right or from bottom to top (except where a feature is at an angle of more than 90 degrees, causing annotation to appear upside down). Align with the general shape of the feature it represents, unless specified to be placed horizontally. Where letter spacing is preferred for effective presentation of feature names, space the letters proportionately across the feature area. Avoid placing annotation over other features wherever possible. (i) Public Land Survey System (PLSS).—Label township and range identifications along the soil survey area boundary or outside the map neat line. Identify all land division sections within the interior of all maps. Adjust the section numbers to avoid overprinting other map elements. (ii) Boundary Identifications  Soil Survey Boundaries.—Identify all national, State, county or parish, and limit-of- soil-survey boundaries, and place the labels parallel to the boundary line. The soil survey area boundary options are county or parish boundary, State or national boundary, and limit of soil survey. - Identify limit-of-soil-survey boundaries only when they do not correspond with national, State, or county or parish boundaries. Label them “LIMIT OF SOIL SURVEY.” - If the proper name of a reservation, forest, or national or State park does not appear in the interior of the map, identify the boundary with its proper name, such as “ROSEBUD INDIAN RESERVATION.” - For surveys that coincide with counties, parishes, or MLRAs, label names of adjacent counties and parishes along the outside edge of the soil survey boundary parallel to the boundary. Where the survey joins another State, label the adjacent State name along with the adjacent county and parish names. - Where the survey adjoins another nation, label the national name and its provincial name along the national boundary. - For survey areas that contain more than one county or parish or portions of counties or parishes and have county or parish (or State) boundaries within a survey area, label counties, parishes, and States as they occur on each side of the State boundaries. Label more than once where boundaries are meandering or difficult to follow.  Political and Administrative Boundaries.—Label text for national or State parks, forests, and reservations parallel to the boundary line symbol. (iii) Transportation  Road Emblems.—Identify interstate, Federal, State, and other roads by placing route emblems as needed on the map. Place emblems horizontally. Place the emblem directly on the feature. Where roads continue on adjoining maps, place the emblems close to the map neat line. Identify county highways and other roads as needed.  Railroads.—Place the name directly on the feature. Abbreviate the names as needed. (iv) Geographic Names Information System (GNIS) – Populated Places.—Label cities, towns, and other populated areas horizontally. Annotation sizes should be used to distinguish priorities. (v) GNIS – Nonpopulated Places  Airports and Schools.—Label airports and schools horizontally.  Churches and Cemeteries.—Label churches and cemeteries horizontally. (vi) Hypsographic Features.—These include mountain ranges, ridges, peaks, knobs, buttes, hills, canyons, bluffs, plateaus, sinks, summits, gaps, mesas, plains, prairies, passes, reefs, valleys, hollows, meadows, gulches, deserts, washes, faults, escarpments, islands, peninsulas, arroyos, capes, points, landings, beaches, and basins.",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 26,
+      "content": "G. Spatial Data Format.—The format is:",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 27,
+      "content": "(1) A geodatabase",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 28,
+      "content": "(2) Vector structures (i.e., location of lines, points, and area boundaries) that are represented as x, y coordinate pairs",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 29,
+      "content": "H. Encapsulated Postscript Files The encapsulated postscript files will serve as master files for each of the map sheets. The average file size for a 3.75-minute quarter quadrangle is 100 megabytes. A 7.5-minute full quadrangle will average about 300 megabytes in size. Adobe Acrobat PDFs will be generated from this file for web delivery, CD production, or printing.",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 30,
+      "content": "I. Delivery Formats",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 31,
+      "content": "(1) Zip the primary DMF folder (State soil survey area id – STSSAID). This folder should include the .mxd, .eps, and .pdf files and the file geodatabase.",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    },
+    {
+      "clause": 32,
+      "content": "(2) The DMF–PODM files will be retrieved from the incoming site and stored on DVDs for long-term storage. Note: Esri, ArcGIS, ArcInfo, ArcMap, and Maplex for ArcGIS are trademarks, registered trademarks, or service marks of ESRI in the United States, the European Community, or certain other jurisdictions. Note: Adobe and Acrobat are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States, other countries, or both.",
+      "part": "647",
+      "headerid": "6",
+      "header": "Digital Map Finishing and Print-on-Demand Maps"
+    }
+  ]
+}
