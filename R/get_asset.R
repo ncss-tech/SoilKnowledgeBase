@@ -22,6 +22,7 @@ get_assets <- function(folder, name) {
 #'
 #' @importFrom utils read.csv
 #' @importFrom tools file_ext
+#' @importFrom jsonlite read_json
 .read_asset <- function(fname) {
   
   fxt <- tolower(tools::file_ext(fname))
@@ -32,8 +33,7 @@ get_assets <- function(folder, name) {
     # .csv    
     return(utils::read.csv(fname))
   } else if (fxt ==  'json') {
-    # .json
-    stop("TODO: JSON assets")
+    return(jsonlite::read_json(fname)) # TODO: simplify vector default is FALSE
   } else {
     # ???
     stop("unknown asset")
