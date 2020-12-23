@@ -8,19 +8,55 @@ status](https://github.com/brownag/SoilKnowledgeBase/workflows/R-CMD-check/badge
 
 A soil “knowledge base” centered around the **National Cooperative Soil
 Survey** (NCSS) standards as used by the **USDA-NRCS** and defined in
-the **National Soil Survey Handbook** (NSSH). This repository is also an
-**R** package that facilitates the version control of and programmatic
-access to products from official data sources.
+the **National Soil Survey Handbook** (NSSH).
+
+This repository is also an **R** package that facilitates the version
+control of and programmatic access to products from official data
+sources.
 
 ### Get started
 
     # install.packages("remotes")
-    remotes::install_github("brownag/SoilKnowledgeBase")
+    remotes::install_github("ncss-tech/SoilKnowledgeBase")
 
     # install all remote data to inst/extdata
     SoilKnowledgeBase::refresh()
 
 ### The Structure of the National Soil Survey Handbook (NSSH)
+
+\[1\] “Check Section Headings: OSD/A/AGNESTON.txt” \[1\] “Check Section
+Headings: OSD/A/ALIKCHI.txt” \[1\] “Check Section Headings:
+OSD/C/CABIN.txt” \[1\] “Check Section Headings: OSD/C/CALVERT.txt” \[1\]
+“Check Line 1 LOCATION: OSD/C/CENTISSIMA.txt” \[1\] “Check Section
+Headings: OSD/C/CHICANE.txt” \[1\] “Check Section Headings:
+OSD/C/CHRISTY.txt” \[1\] “Check Section Headings: OSD/F/FLATTOP.txt”
+\[1\] “Check Section Headings: OSD/G/GAPPMAYER.txt” \[1\] “Check Section
+Headings: OSD/G/GORGONIO.txt” \[1\] “Check Section Headings:
+OSD/H/HAPPYISLES.txt” \[1\] “Check Section Headings:
+OSD/H/HARDSCRABBLE.txt” \[1\] “Check Line 1 LOCATION:
+OSD/H/HARTLESS.txt” \[1\] “Check Section Headings: OSD/K/KOONICH.txt”
+\[1\] “Check Section Headings: OSD/K/KUSKOKWIM.txt” \[1\] “Check Section
+Headings: OSD/L/LAHRITY.txt” \[1\] “Check Section Headings:
+OSD/L/LARIM.txt” \[1\] “Check Section Headings: OSD/L/LITTLE\_HORN.txt”
+\[1\] “Check Section Headings: OSD/L/LOSEE.txt” \[1\] “Check Section
+Headings: OSD/M/MOTTLAND.txt” \[1\] “Check Section Headings:
+OSD/N/NODHILL.txt” \[1\] “Check Section Headings: OSD/O/OMNI.txt” \[1\]
+“Check Section Headings: OSD/P/PADRES.txt” \[1\] “Check Section
+Headings: OSD/P/PODEN.txt” \[1\] “Check Section Headings:
+OSD/R/RICHVILLE.txt” \[1\] “Check Section Headings: OSD/S/SALLISAW.txt”
+\[1\] “Check Section Headings: OSD/S/SIMCOE.txt” \[1\] “Check Line 1
+LOCATION: OSD/S/SLEEPER.txt” \[1\] “Check Section Headings:
+OSD/S/SNAKE.txt” \[1\] “Check Section Headings: OSD/T/TENEX.txt” \[1\]
+“Check Section Headings: OSD/T/TENORIO.txt” \[1\] “Check Section
+Headings: OSD/T/TEW.txt” \[1\] “Check Section Headings:
+OSD/T/TOQUOP.txt” \[1\] “Check Section Headings: OSD/T/TOY.txt” \[1\]
+“Check Section Headings: OSD/T/TRAPPER.txt” \[1\] “Check Section
+Headings: OSD/T/TUSKAHOMA.txt” \[1\] “Check Section Headings:
+OSD/U/UDEL.txt” \[1\] “Check Section Headings: OSD/U/USINE.txt” \[1\]
+“Check Section Headings: OSD/V/VARNA.txt” \[1\] “Check Section Headings:
+OSD/V/VERANO.txt” \[1\] “Check Section Headings: OSD/W/WAPPO.txt” \[1\]
+“Check Section Headings: OSD/W/WILLOW\_CREEK.txt” \[1\] “Check Section
+Headings: OSD/W/WOODPASS.txt”
 
 <table>
 <colgroup>
