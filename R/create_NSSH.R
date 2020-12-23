@@ -24,11 +24,11 @@ create_NSSH <- function(...) {
       # Optional: special scripts (by NSSH Part #) can be called from inst/scripts/NSSH
       # rpath <- list.files(paste0("inst/scripts/NSSH/", p), ".*.R", full.names = TRUE)
       
-      # find each .R file (one or more for each part) and source them
-      lapply(rpath, function(filepath) {
-        if (file.exists(filepath))
-          source(filepath)
-      })
+      # # find each .R file (one or more for each part) and source them
+      # lapply(rpath, function(filepath) {
+      #   if (file.exists(filepath))
+      #     source(filepath)
+      # })
     }
   })
   

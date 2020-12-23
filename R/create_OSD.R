@@ -15,13 +15,13 @@ create_OSD <- function(...) {
         download_OSD()
         
         # Optional: special scripts can be called from inst/scripts/OSD
-        # rpath <- list.files("inst/scripts/OSD/", ".*.R", full.names = TRUE)
-        
-        # Find each .R file (one or more for each part) and source them
-        lapply(rpath, function(filepath) {
-          if (file.exists(filepath))
-            source(filepath)
-        })         
+        #  rpath <- list.files("inst/scripts/OSD/", ".*.R", full.names = TRUE)
+        # 
+        # # Find each .R file (one or more for each part) and source them
+        # lapply(rpath, function(filepath) {
+        #   if (file.exists(filepath))
+        #     source(filepath)
+        # })         
         
         ## TODO: dedicated/built-in methods for wrangling the OSDRegistry snapshot
         # parse_OSD(...) 
@@ -48,7 +48,7 @@ create_OSD <- function(...) {
 #' @param url Path to OSD Data Snapshot
 #'
 #' @return TRUE if successful, try-error if download or parsing fails
-#' @importFrom OSDRegistry osd_to_json
+#' @rem  OSDRegistry osd_to_json
 download_OSD <- function(url = 'https://github.com/ncss-tech/OSDRegistry/releases/download/main/OSD-data-snapshot.zip') {
   download.file(url, "OSD.zip")
   unzip('OSD.zip')
