@@ -29,7 +29,7 @@ parse_nssh_index <- function(
   keep_pdf = FALSE,
   ...
 ) {
-
+  options(timeout = 120)
   if (is.null(nssh_url))
     nssh_url <- "https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/ref/?cid=nrcs142p2_054240"
 
@@ -123,7 +123,11 @@ parse_nssh_index <- function(
          if (dfile == "ifneeded")
            dfile <- !file.exists(pat)
          if (dfile)
-          download.file(y$href, destfile = pat)
+          dwn <- try(download.file(y$href, destfile = pat))
+          if (inherits(dwn, 'try-error'))
+            dwn <- try(download.file(y$href, destfile = pat))
+          if (inherits(dwn, 'try-error'))
+            stop(sprintf("Failed to download PDF: %s", y$href))     
          if (file.exists(pat)) {
           if ("txt" %in% output_types)
             system(sprintf("pdftotext -raw -nodiag %s", pat))
