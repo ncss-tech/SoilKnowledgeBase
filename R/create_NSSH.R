@@ -122,7 +122,7 @@ parse_nssh_index <- function(
          if (dfile == "ifneeded")
            dfile <- !file.exists(pat)
          if (dfile)
-           download.file(y$href, destfile = pat, method = "internal")
+           download.file(y$href, destfile = pat)
          if (file.exists(pat)) {
           if ("txt" %in% output_types)
             system(sprintf("pdftotext -raw -nodiag %s", pat))
@@ -135,7 +135,7 @@ parse_nssh_index <- function(
     })
 
   write.csv(res, file = file.path(outpath, "NSSH", "index.csv"))
-  return(TRUE)
+  return(res)
 }
 
 #' Parse headers and line positions by NSSH Part and Subpart
@@ -157,7 +157,7 @@ parse_nssh_part <- function(number, subpart,
                                     f <- sprintf("inst/extdata/NSSH/%s/%s%s.txt",
                                                  x$number, x$number, x$subpart)
 
-                                    if(!file.exists(f))
+                                    if (!file.exists(f))
                                       return(NULL)
 
                                     L <- readLines(f, warn = FALSE)
