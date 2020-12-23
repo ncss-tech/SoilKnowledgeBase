@@ -135,7 +135,7 @@ parse_nssh_index <- function(
     })
 
   write.csv(res, file = file.path(outpath, "NSSH", "index.csv"))
-  return(res)
+  return(TRUE)
 }
 
 #' Parse headers and line positions by NSSH Part and Subpart
