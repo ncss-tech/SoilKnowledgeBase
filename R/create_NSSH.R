@@ -201,7 +201,7 @@ parse_nssh_part <- function(number, subpart,
                                     if (!file.exists(f))
                                       return(NULL)
 
-                                    L <- readLines(f, warn = FALSE)
+                                    L <- suppressWarnings(readLines(f, warn = FALSE))
 
                                     idx <- grep("^\\d{3}\\.\\d+ [A-Z]", L)
 
@@ -231,7 +231,7 @@ parse_NSSH <- function(a_part, a_subpart) {
 
   raw_txt <- sprintf("inst/extdata/NSSH/%s/%s%s.txt", a_part, a_part, a_subpart)
   stopifnot(file.exists(raw_txt))
-  raw <- readLines(raw_txt)
+  raw <- suppressWarnings(readLines(raw_txt))
 
   headers <- get_assets('NSSH','headers')[[1]]
   headers <- subset(headers, headers$part == a_part &

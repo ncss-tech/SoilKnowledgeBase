@@ -5,7 +5,7 @@ output: md_document
 
 ```{r setup, include=FALSE}
 options(timeout = 180)
-knitr::opts_chunk$set(echo = FALSE, message = FALSE)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```
 
 ## Soil Knowledge Base
@@ -13,6 +13,7 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE)
 [![R build status](https://github.com/brownag/SoilKnowledgeBase/workflows/R-CMD-check/badge.svg)](https://github.com/brownag/SoilKnowledgeBase/actions)
 
 A soil "knowledge base" centered around the **National Cooperative Soil Survey** (NCSS) standards as used by the **USDA-NRCS** and defined in the **National Soil Survey Handbook** (NSSH). 
+
 This repository is also an **R** package that facilitates the version control of and programmatic access to products from official data sources.
 
 ### Get started
@@ -41,9 +42,11 @@ dat <- get_assets('NSSH', 'index')[[1]]
   xx <- gsub("National Cooperative Soil Survey", "NCSS", x)
   gsub("Quality Control, Quality Assurance,", "QC/QA*", xx)
 }
+
 dat$parent <- .doAbbreviate(dat$parent)
 dat$href <- sprintf("[LINK](%s)", dat$href)
 dat$part_subpart <- paste(dat$part, dat$subpart)
+
 knitr::kable(dat[,c('part_subpart', 'parent', 'section', 'href')],
              col.names = c("Part & Subpart", "Part Name", "Section", "Link"))
 ``` 
@@ -54,7 +57,9 @@ knitr::kable(dat[,c('part_subpart', 'parent', 'section', 'href')],
 
 ```{r}
 nssh_headers <- get_assets('NSSH', 'headers')[[1]]
-if (!is.null(nssh_headers))
-  knitr::kable(nssh_headers[,c("part","subpart","header")],
-             row.names = FALSE, col.names = c("Part","Subpart","Header"))
+
+if (!is.null(nssh_headers)) {
+  knitr::kable(nssh_headers[, c("part", "subpart", "header")],
+               row.names = FALSE, col.names = c("Part", "Subpart", "Header"))
+}
 ```
