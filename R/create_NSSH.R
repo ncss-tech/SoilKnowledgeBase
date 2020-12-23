@@ -1,3 +1,44 @@
+# Create NSSH data structures in inst/extdata
+
+#' Create NSSH Dataset
+#'
+#' @param ... Arguments to \code{parse_nssh_index}
+#' @return TRUE if successful
+#' @export
+create_NSSH <- function(...) {
+  
+  message("Processing NSSH from eDirectives...")
+  
+  # run inst/scripts/NSSH
+  dat <- parse_nssh_index(...)
+  attempt <- try(for (p in unique(dat$part)) {
+    
+    hed <- parse_nssh_part(dat$part, dat$subpart)
+    
+    if (!is.null(hed)) {
+      
+      # create the JSON clause products for each NSSH part/subpart .txt
+      dspt <- split(dat, 1:nrow(dat))
+      lapply(dspt, function(dd) parse_NSSH(dd$part, dd$subpart))
+      
+      # Optional: special scripts (by NSSH Part #) can be called from inst/scripts/NSSH
+      # rpath <- list.files(paste0("inst/scripts/NSSH/", p), ".*.R", full.names = TRUE)
+      
+      # find each .R file (one or more for each part) and source them
+      lapply(rpath, function(filepath) {
+        if (file.exists(filepath))
+          source(filepath)
+      })
+    }
+  })
+  
+  if (inherits(attempt, 'try-error'))
+    return(FALSE)
+  
+  message("Done!")
+  return(TRUE)
+}
+
 #' Parse the National Soil Survey Handbook (NSSH) Table of Contents to get eDirectives links
 #'
 #' @description \code{parse_nssh_index} provides a basic framework and folder structure for assets that are part of the National Soil Survey Handbook (NSSH) a key part of National Cooperative Soil Survey (NCSS) standards.
@@ -260,37 +301,4 @@ clean_chars <- function(x) {
   return(x)
 }
 
-#' Create NSSH Dataset
-#'
-#' @param ... Arguments to \code{parse_nssh_index}
-#' @return TRUE if successful
-#' @export
-create_NSSH <- function(...) {
 
-  # run inst/scripts/NSSH
-  dat <- parse_nssh_index(...)
-  attempt <- try(for (p in unique(dat$part)) {
-
-    hed <- parse_nssh_part(dat$part, dat$subpart)
-
-    if (!is.null(hed)) {
-
-      # create the JSON clause products for each NSSH part/subpart .txt
-      dspt <- split(dat, 1:nrow(dat))
-      lapply(dspt, function(dd) parse_NSSH(dd$part, dd$subpart))
-
-      rpath <- list.files(paste0("inst/scripts/NSSH/", p), ".*.R", full.names = TRUE)
-
-      # find each .R file (one or more for each part) and source them
-      lapply(rpath, function(filepath) {
-        if (file.exists(filepath))
-          source(filepath)
-      })
-    }
-  })
-
-  if (inherits(attempt, 'try-error'))
-    return(FALSE)
-
-  return(TRUE)
-}
