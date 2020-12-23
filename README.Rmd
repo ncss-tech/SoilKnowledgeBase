@@ -4,7 +4,8 @@ output: md_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+options(timeout = 180)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE)
 ```
 
 ## Soil Knowledge Base
@@ -18,7 +19,7 @@ This repository is also an **R** package that facilitates the version control of
 
 ```{r, echo=TRUE, eval=FALSE}
 # install.packages("remotes")
-remotes::install_github("brownag/SoilKnowledgeBase")
+remotes::install_github("ncss-tech/SoilKnowledgeBase")
 
 # install all remote data to inst/extdata
 SoilKnowledgeBase::refresh()
@@ -29,7 +30,9 @@ SoilKnowledgeBase::refresh()
 ```{r, results='asis'}
 # do a full refresh
 library(SoilKnowledgeBase)
-stopifnot(all(unlist(refresh(keep_pdf=TRUE))))
+
+# if any of these failed to download
+stopifnot(all(unlist(refresh(keep_pdf = TRUE))))
 
 # access the assets
 dat <- get_assets('NSSH', 'index')[[1]]
