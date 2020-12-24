@@ -2,10 +2,12 @@
 
 export(convert_to_json)
 export(create_NSSH)
+export(create_OSD)
 export(get_assets)
 export(get_create_functions)
 export(parse_NSSH)
 export(refresh)
+importFrom(OSDRegistry,osd_to_json)
 importFrom(dplyr,bind_rows)
 importFrom(jsonlite,read_json)
 importFrom(jsonlite,toJSON)
