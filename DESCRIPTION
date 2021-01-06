@@ -1,12 +1,11 @@
 Package: SoilKnowledgeBase
 Type: Package
 Title: USDA-NRCS Soil Knowledge Base
-Version: 0.2.0
+Version: 0.2.1
 Author: Soil and Plant Science Division Staff
 Maintainer: Andrew G. Brown <andrew.g.brown@usda.gov>
 Description: Unified management of USDA-NRCS / National Cooperative Soil Survey / Soil and Plant Science Division standards.
-Imports: dplyr, magrittr, rvest, xml2, jsonlite, OSDRegistry
-Remotes: ncss-tech/OSDRegistry
+Imports: dplyr, magrittr, rvest, xml2, jsonlite, stringi
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
