@@ -14,19 +14,19 @@ download_GDS <- function() {
                 url = "https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_051068.pdf")
 
   system(sprintf("pdftotext -raw -nodiag GDS.pdf"))
-  system(sprintf("pdftohtml GDS.pdf"))
+  # system(sprintf("pdftohtml GDS.pdf"))
 
   file.remove("GDS.pdf")
 
   dir.create("inst/extdata/GDS", recursive = TRUE)
   file.copy("GDS.txt","inst/extdata/GDS/GDS.txt")
 
-  htm <- list.files(pattern = "html")
-  file.copy(htm,"inst/extdata/GDS")
+  # htm <- list.files(pattern = "html")
+  # file.copy(htm,"inst/extdata/GDS")
 
-  img <- list.files(pattern = "png|jpg")
-  file.copy(img,"inst/extdata/GDS")
-  file.remove(c("GDS.txt", img, htm))
+  # img <- list.files(pattern = "png|jpg")
+  # file.copy(img,"inst/extdata/GDS")
+  # file.remove(c("GDS.txt", img, htm))
 }
 
 parse_GDS <- function() {
