@@ -81,6 +81,7 @@ parse_GDS <- function(outpath = "./inst/extdata",
   } else {
     message("Skipped GDS download")
   }
+  return(TRUE)
     # TODO: detailed outline; using structure parsed from abbreviated
   
     # TODO: Physiographic Location
