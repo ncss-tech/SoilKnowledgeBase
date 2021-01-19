@@ -2,7 +2,10 @@ on:
   pull_request:
     branches:
       - main
-
+    paths-ignore:
+      - .github/workflows/R-CMD-check.yml
+      - .github/workflows/refresh-extdata.yml
+  
   workflow_dispatch:
   
 name: refresh-extdata
