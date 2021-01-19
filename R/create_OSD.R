@@ -78,6 +78,8 @@ validateOSD <- function(filepath) {
   raw <- stringi::stri_trans_general(raw, "Latin-ASCII")
   
   raw <- trimws(raw[trimws(raw) != ""])
+  
+  # TODO: abstract and generalize these into rules
   x <- trimws(raw[-grep("^([A-Z '`][A-Z'`][A-Z .`']+)", raw, invert = TRUE)])
   
   loc.idx <- grep("^LOCATION", x)[1]
@@ -96,6 +98,7 @@ validateOSD <- function(filepath) {
     rem.idx <- length(x)
   } 
   
+  # TODO: abstract and generalize these into rules 
   markers <- trimws(gsub("^([A-Z`']{2}[A-Z ().`']+): ?(.*)", "\\1", x[(ser.idx + 1):rem.idx]))
   marker_self1 <- trimws(unlist(strsplit(gsub("LOCATION +([A-Z .`']+) {2,}\\d?([A-Z\\+]+)", "\\1;\\2", x[loc.idx]), ";")))
   marker_self2 <- trimws(gsub("([A-Z .`']) SERIES", "\\1", x[ser.idx]))
@@ -105,6 +108,7 @@ validateOSD <- function(filepath) {
     # print(marker_self2)
     message(sprintf("Check Line 1 LOCATION: %s", filepath))
     
+    # TODO: abstract and generalize these into rules 
     # three series in california have established dates before the state
     marker_self1[1] <- trimws(gsub("[0-9]|/","",marker_self1[1]))
     marker_self1 <- trimws(unlist(strsplit(gsub("LOCATION +([A-Z .`']+) {2,}\\d?([A-Z\\+]+)", "\\1;\\2", marker_self1[1]), ";")))
@@ -114,6 +118,7 @@ validateOSD <- function(filepath) {
       return(FALSE)
   }
   
+  # TODO: abstract and generalize these into rules 
   # for now, just check that at least one valid state code is used (dput(datasets::state.abb)); check these against metadata
   all_states <- c("AS","PB","PR","VI","HT","PW","FM", c("AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", 
                                                         "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", 
@@ -127,9 +132,11 @@ validateOSD <- function(filepath) {
   
   markheaders <- trimws(gsub(marker_self2, "", markers))
   
+  # TODO: abstract and generalize these into rules 
   # all section headers begin with capitals, and contain capitals up to the colon
   bad.idx <- grep("[a-z]", markheaders)
   
+  # TODO: abstract and generalize these into rules 
   # these are things that should be collapsed within RIC, REMARKS, etc
   bad.idx <- c(bad.idx, grep("SAR|SLOPE|NAD83", markheaders))
   
@@ -143,7 +150,8 @@ validateOSD <- function(filepath) {
   }
   
   # dput(markheaders[markheaders != ""])
-  
+                                
+  # TODO: abstract and generalize these into rules 
   headerpatterns <- c("TAXONOMIC CLASS", 
                       "TYPI(CAL|FYING) PEDON", 
                       "TYPE LOCATION", 
