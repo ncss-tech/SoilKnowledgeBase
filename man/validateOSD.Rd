@@ -4,9 +4,11 @@
 \alias{validateOSD}
 \title{Validate OSD using NSSH standards}
 \usage{
-validateOSD(filepath)
+validateOSD(logfile, filepath)
 }
 \arguments{
+\item{logfile}{Path to log file}
+
 \item{filepath}{Path to a single plain text file containing OSD narrative}
 }
 \value{

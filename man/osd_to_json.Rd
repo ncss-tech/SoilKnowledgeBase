@@ -5,6 +5,7 @@
 \title{Convert OSD plaintext to JSON using NSSH structural elements}
 \usage{
 osd_to_json(
+  logfile = file.path(output_dir, "OSD/OSD.log"),
   input_dir = "OSD",
   pattern = "txt",
   output_dir = "inst/extdata",
@@ -12,6 +13,8 @@ osd_to_json(
 )
 }
 \arguments{
+\item{logfile}{Path to log file; default: \code{file.path(output_dir, "OSD/OSD.log")}}
+
 \item{input_dir}{Default: \code{'OSD'}; files matching pattern are listed recursviely}
 
 \item{pattern}{Argument passed to \code{list.files} when \code{osd_files} is not specified}

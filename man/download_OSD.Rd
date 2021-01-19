@@ -4,10 +4,7 @@
 \alias{download_OSD}
 \title{Internal method for downloading OSDRegistry snapshot}
 \usage{
-download_OSD(
- 
-    url = "https://github.com/ncss-tech/OSDRegistry/releases/download/main/OSD-data-snapshot.zip"
-)
+download_OSD(url)
 }
 \arguments{
 \item{url}{Path to OSD Data Snapshot}
@@ -19,9 +16,9 @@ TRUE if successful, try-error if download or parsing fails
 This is an internal method for downloading the latest snapshot (or sample ZIP) containing Official Series Description (OSD) text files in an alphabetical folder structure. These files are un-zipped and processed into JSON which is stored in \code{"inst/extdata/OSD"}
 }
 \details{
-Default path to OSD data snapshot is an "artifact" created by the \code{refresh-osd} workflow on the \href{https://github.com/ncss-tech/OSDRegistry}{OSDRegistry} GitHub Repository. 
+Default path to OSD data snapshot is an "artifact" created by the \code{refresh-osd} workflow on the \href{https://github.com/ncss-tech/OSDRegistry}{OSDRegistry} GitHub Repository.
 
-The latest version of the snapshot can be downloaded as a ZIP file from this URL: \url{https://github.com/ncss-tech/OSDRegistry/releases/download/main/OSD-data-snapshot.zip}. 
+The latest version of the snapshot can be downloaded as a ZIP file from this URL: \url{https://github.com/ncss-tech/OSDRegistry/releases/download/main/OSD-data-snapshot.zip}.
 
 Note: This is a ZIP file within a ZIP file where the internal ZIP file has a unique (weekly) date stamp.
 }
