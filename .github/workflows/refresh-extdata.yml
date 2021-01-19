@@ -1,8 +1,7 @@
 on:
-  push:
-    paths:
-      - .github/workflows/refresh-extdata.yml
-      - README.Rmd
+  pull_request:
+    branches:
+      - main
 
   workflow_dispatch:
   
