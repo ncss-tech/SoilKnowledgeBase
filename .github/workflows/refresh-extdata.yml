@@ -40,7 +40,7 @@ jobs:
         shell: bash
         run: echo "BRANCH_NAME=$(echo ${GITHUB_HEAD_REF} | tr / -)" >> $GITHUB_ENV
         
-      - name: Commit results
+      - name: Configure git
         run: |
           git config user.email "github-actions@github.com"
           git config user.name "SoilKnowledgeBot"
