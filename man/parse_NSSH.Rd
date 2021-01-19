@@ -4,15 +4,22 @@
 \alias{parse_NSSH}
 \title{Parse a Part/Subpart TXT file from the National Soil Survey Handbook}
 \usage{
-parse_NSSH(a_part, a_subpart)
+parse_NSSH(
+  logfile = file.path(outpath, "NSSH/NSSH.log"),
+  outpath = "./inst/extdata",
+  a_part,
+  a_subpart
+)
 }
 \arguments{
+\item{outpath}{Path to read in NSSH raw txt from; default \code{"inst/extdata"}}
+
 \item{a_part}{Part number (a three digit integer, starting with 6)}
 
 \item{a_subpart}{Subpart letter (A or B)}
 }
 \value{
-TRUE if succesful
+TRUE if successful
 }
 \description{
 Parse a Part/Subpart TXT file from the National Soil Survey Handbook

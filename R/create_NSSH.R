@@ -6,24 +6,31 @@
 #' @return TRUE if successful
 #' @export
 create_NSSH <- function(...) {
-  
-  message("Processing NSSH from eDirectives...")
-  
+  outpath = "./inst/extdata"
+  logfile = file.path(outpath, "NSSH/NSSH.log")
+
+  logmsg(logfile, "Processing NSSH from eDirectives...")
+  # sink(logfile)
+
   # run inst/scripts/NSSH
-  dat <- parse_nssh_index(...)
+
+  dat <- parse_nssh_index(logfile = logfile, ...)
   attempt <- try(for (p in unique(dat$part)) {
-    
-    hed <- parse_nssh_part(dat$part, dat$subpart)
-    
+
+    hed <- parse_nssh_part(dat$part, dat$subpart, outpath = outpath, logfile = logfile)
+
     if (!is.null(hed)) {
-      
+
       # create the JSON clause products for each NSSH part/subpart .txt
       dspt <- split(dat, 1:nrow(dat))
-      lapply(dspt, function(dd) parse_NSSH(dd$part, dd$subpart))
-      
+      lapply(dspt, function(dd) parse_NSSH(logfile = logfile,
+                                           outpath = outpath,
+                                           a_part = dd$part,
+                                           a_subpart = dd$subpart))
+
       # Optional: special scripts (by NSSH Part #) can be called from inst/scripts/NSSH
       # rpath <- list.files(paste0("inst/scripts/NSSH/", p), ".*.R", full.names = TRUE)
-      
+
       # # find each .R file (one or more for each part) and source them
       # lapply(rpath, function(filepath) {
       #   if (file.exists(filepath))
@@ -31,11 +38,12 @@ create_NSSH <- function(...) {
       # })
     }
   })
-  
+
   if (inherits(attempt, 'try-error'))
     return(FALSE)
-  
-  message("Done!")
+
+  logmsg(logfile, "Done!")
+  sink(logfile)
   return(TRUE)
 }
 
@@ -43,6 +51,7 @@ create_NSSH <- function(...) {
 #'
 #' @description \code{parse_nssh_index} provides a basic framework and folder structure for assets that are part of the National Soil Survey Handbook (NSSH) a key part of National Cooperative Soil Survey (NCSS) standards.
 #'
+#' @param logfile Path to log file; default \code{file.path(outpath, "NSSH/NSSH.log")}
 #' @param nssh_url A URL to parse for Table of Contents information.
 #' @param ignore.headers A character vector of h3 level headers to ignore on the NSSH Table of contents webpage.
 #' @param outpath A directory path to create "inst/extdata/NSSH" folder structure.
@@ -54,7 +63,6 @@ create_NSSH <- function(...) {
 #' @details Hardcoded with \code{ignore.headers = "Part 615 – Amendments To Soil Taxonomy"}; TODO: set this to NULL when webpage is updated. Default URL: https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/ref/?cid=nrcs142p2_054240
 #'
 #' @return A data.frame object containing link, part and section information for the NSSH. A directory "inst/extdata/NSSH" is created in \code{outpath} (Default: "./inst/extdata/NSSH/") with a numeric subfolder for each part in the NSSH.
-#'
 #' @importFrom dplyr bind_rows
 #' @importFrom magrittr %>%
 #' @importFrom rvest html_node html_nodes html_text
@@ -62,6 +70,7 @@ create_NSSH <- function(...) {
 #' @importFrom utils write.csv download.file
 #' @importFrom stats aggregate
 parse_nssh_index <- function(
+  logfile = file.path(outpath, "NSSH/NSSH.log"),
   nssh_url = NULL,
   ignore.headers = "Amendments To Soil Taxonomy",
   outpath = "./inst/extdata",
@@ -165,6 +174,7 @@ parse_nssh_index <- function(
          if (dfile)
            download.file(y$href, destfile = pat)
          if (file.exists(pat)) {
+           logmsg(logfile, "Processing %s", pat)
           if ("txt" %in% output_types)
             system(sprintf("pdftotext -raw -nodiag %s", pat))
           if ("html" %in% output_types)
@@ -175,7 +185,11 @@ parse_nssh_index <- function(
         })
     })
 
-  write.csv(res, file = file.path(outpath, "NSSH", "index.csv"))
+  indexout <- file.path(outpath, "NSSH", "index.csv")
+  logmsg(logfile, "Wrote NSSH index to %s", indexout)
+
+  write.csv(res, file = indexout)
+
   return(res)
 }
 
@@ -183,19 +197,23 @@ parse_nssh_index <- function(
 #'
 #' @param number Vector of part number(s) e.g. \code{600:614}
 #' @param subpart Vector of subpart characters e.g. \code{"A"}
-#' @param outpath A directory path to create "inst/extdata/NSSH" folder structure in
+#' @param outpath A directory path to create "NSSH" folder structure in; default: \code{"S./inst/extdata"}
+#' @param logfile PAth to log file; default \code{file.path(outpath, "NSSH/NSSH.log")}
 #'
 #' @return A data.frame containing line numbers corresponding to NSSH part and subpart headers.
 parse_nssh_part <- function(number, subpart,
-                            outpath = "./inst/extdata") {
+                            outpath = "./inst/extdata",
+                            logfile = file.path(outpath, "NSSH/NSSH.log")) {
 
-  res <- do.call('rbind', lapply(split(data.frame(number = number, subpart = subpart),
+  res <- do.call('rbind', lapply(split(data.frame(number = number,
+                                                  subpart = subpart),
                                 1:length(number)), function(x) {
 
                                   idx <- respart <- ressubpart <- numeric(0)
 
                                   try( {
-                                    f <- sprintf("inst/extdata/NSSH/%s/%s%s.txt",
+                                    f <- sprintf(file.path(outpath,
+                                                           "NSSH/%s/%s%s.txt"),
                                                  x$number, x$number, x$subpart)
 
                                     if (!file.exists(f))
@@ -216,20 +234,27 @@ parse_nssh_part <- function(number, subpart,
                                     return(res)
                                   } )
                                 }))
-  write.csv(res, file = file.path(outpath, "NSSH", "headers.csv"))
+  nsshheaders <- file.path(outpath, "NSSH", "headers.csv")
+  logmsg(logfile, "Wrote NSSH index to %s", nsshheaders)
+  write.csv(res, file = nsshheaders)
   return(res)
 }
 
 #' Parse a Part/Subpart TXT file from the National Soil Survey Handbook
 #'
+#' @param outpath Path to read in NSSH raw txt from; default \code{"inst/extdata"}
 #' @param a_part Part number (a three digit integer, starting with 6)
 #' @param a_subpart Subpart letter (A or B)
 #'
-#' @return TRUE if succesful
-#' @export
-parse_NSSH <- function(a_part, a_subpart) {
+#' @return TRUE if successful
+parse_NSSH <- function(logfile = file.path(outpath, "NSSH/NSSH.log"),
+                       outpath = "./inst/extdata",
+                       a_part, a_subpart) {
 
-  raw_txt <- sprintf("inst/extdata/NSSH/%s/%s%s.txt", a_part, a_part, a_subpart)
+  logmsg(logfile, "Parsing NSSH Part %s Subpart %s", a_part, a_subpart)
+
+  raw_txt <- sprintf(file.path(outpath, "NSSH/%s/%s%s.txt"), a_part, a_part, a_subpart)
+  print(raw_txt)
   stopifnot(file.exists(raw_txt))
   raw <- suppressWarnings(readLines(raw_txt))
 
@@ -247,7 +272,8 @@ parse_NSSH <- function(a_part, a_subpart) {
 
   names(hsections) <- c("frontmatter", gsub("^(\\d+\\.\\d+) .*", "\\1", headers$header))
   res <- convert_to_json(hsections)
-  write(res, file = sprintf("inst/extdata/NSSH/%s/%s%s.json", a_part, a_part, a_subpart))
+  write(res, file = sprintf(file.path(outpath, "NSSH/%s/%s%s.json"),
+                                      a_part, a_part, a_subpart))
   return(TRUE)
 }
 
