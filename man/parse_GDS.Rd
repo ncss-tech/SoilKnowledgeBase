@@ -5,6 +5,7 @@
 \title{parse_GDS}
 \usage{
 parse_GDS(
+  logfile = file.path(outpath, "GDS/GDS.log"),
   outpath = "./inst/extdata",
   download_pdf = "ifneeded",
   output_types = c("txt"),
