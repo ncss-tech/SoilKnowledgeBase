@@ -26,6 +26,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        with: 
+          fetch-depth: '0'
+          clean: 'false' 
 
       - uses: r-lib/actions/setup-r@v1
         with:
@@ -75,10 +78,22 @@ jobs:
       - name: Render README
         run: Rscript -e 'rmarkdown::render("README.Rmd")'
         
+      - name: Get branch name (manual)
+        if: github.event_name != 'pull_request'
+        shell: bash
+        run: echo "BRANCH_NAME=$(echo ${GITHUB_REF#refs/heads/} | tr / -)" >> $GITHUB_ENV
+
+      - name: Get branch name (pull request)
+        if: github.event_name == 'pull_request'
+        shell: bash
+        run: echo "BRANCH_NAME=$(echo ${GITHUB_HEAD_REF} | tr / -)" >> $GITHUB_ENV
+
       - name: Commit results
         run: |
           git config user.email "github-actions@github.com"
           git config user.name "SoilKnowledgeBot"
+          git pull --rebase origin ${{ env.BRANCH_NAME }}
+          echo ${{ env.BRANCH_NAME }}
           git add inst/extdata/\*.txt
           git commit -m 'Update inst/extdata/ TXT files' || echo "No changes to commit"
           git add inst/extdata/\*.html
@@ -88,5 +103,8 @@ jobs:
           git add inst/extdata/\*.csv
           git commit -m 'Update inst/extdata/ CSV files' || echo "No changes to commit"
           git commit README.md -m 'Render README.Rmd' || echo "No changes to commit"
-          git push origin || echo "No changes to commit"
+      
+      - name: Push results
+        run: |
+          git push origin HEAD:${{ env.BRANCH_NAME }} || echo "No changes to commit"     
 
