@@ -78,7 +78,7 @@ validateOSD <- function(filepath) {
   raw <- stringi::stri_trans_general(raw, "Latin-ASCII")
   
   raw <- trimws(raw[trimws(raw) != ""])
-  x <- trimws(raw[-grep("^([A-Z '`]{2}[A-Z .`']+)", raw, invert = TRUE)])
+  x <- trimws(raw[-grep("^([A-Z '`][A-Z'`][A-Z .`']+)", raw, invert = TRUE)])
   
   loc.idx <- grep("^LOCATION", x)[1]
   ser.idx <- grep("SERIES$", x)[1] 
@@ -174,7 +174,10 @@ validateOSD <- function(filepath) {
                              "REMARKS") 
   
   headerorders <- sapply(1:length(headerpatterns), function(i) { 
-    grep(headerpatterns[i], markheaders)
+    j <- grep(headerpatterns[i], markheaders)
+    if (length(j) == 0)
+      return(NA)
+    return(j)
   })
   
   rez <- do.call('list', (lapply(1:length(headerorders), function(i) {
@@ -239,7 +242,9 @@ validateOSD <- function(filepath) {
                  BYREV = raw[loc.idx + 2],
                  REVDATE = raw[loc.idx + 3]), 
             rez)
+  
   rez2[is.na(names(rez2))] <- NULL
+  
   return(rez2)
 }  
 
