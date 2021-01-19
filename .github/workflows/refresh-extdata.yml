@@ -47,7 +47,7 @@ jobs:
         run: |
           git config user.email "github-actions@github.com"
           git config user.name "SoilKnowledgeBot"
-          git pull --rebase origin ${{ env.BRANCH_NAME }}
+          git pull --no-rebase origin ${{ env.BRANCH_NAME }}
           echo ${{ env.BRANCH_NAME }}
           
       - uses: r-lib/actions/setup-r@v1
