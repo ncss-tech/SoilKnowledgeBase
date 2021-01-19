@@ -78,6 +78,8 @@ validateOSD <- function(filepath) {
   raw <- stringi::stri_trans_general(raw, "Latin-ASCII")
   
   raw <- trimws(raw[trimws(raw) != ""])
+  
+  # TODO: abstract and generalize these into rules
   x <- trimws(raw[-grep("^([A-Z '`][A-Z'`][A-Z .`']+)", raw, invert = TRUE)])
   
   loc.idx <- grep("^LOCATION", x)[1]
@@ -96,6 +98,7 @@ validateOSD <- function(filepath) {
     rem.idx <- length(x)
   } 
   
+  # TODO: part 2l see above
   markers <- trimws(gsub("^([A-Z`']{2}[A-Z ().`']+): ?(.*)", "\\1", x[(ser.idx + 1):rem.idx]))
   marker_self1 <- trimws(unlist(strsplit(gsub("LOCATION +([A-Z .`']+) {2,}\\d?([A-Z\\+]+)", "\\1;\\2", x[loc.idx]), ";")))
   marker_self2 <- trimws(gsub("([A-Z .`']) SERIES", "\\1", x[ser.idx]))
