@@ -132,9 +132,11 @@ validateOSD <- function(filepath) {
   
   markheaders <- trimws(gsub(marker_self2, "", markers))
   
+  # TODO: abstract and generalize these into rules 
   # all section headers begin with capitals, and contain capitals up to the colon
   bad.idx <- grep("[a-z]", markheaders)
   
+  # TODO: abstract and generalize these into rules 
   # these are things that should be collapsed within RIC, REMARKS, etc
   bad.idx <- c(bad.idx, grep("SAR|SLOPE|NAD83", markheaders))
   
