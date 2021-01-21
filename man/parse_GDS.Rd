@@ -13,6 +13,8 @@ parse_GDS(
 )
 }
 \arguments{
+\item{logfile}{Path to log file; default: \code{file.path(outpath, "GDS/GDS.log")}}
+
 \item{outpath}{A directory path to create "inst/extdata/NSSH" folder structure.}
 
 \item{download_pdf}{Download official PDF file? default: "ifneeded"; options: TRUE/FALSE}

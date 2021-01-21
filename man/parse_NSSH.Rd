@@ -12,6 +12,8 @@ parse_NSSH(
 )
 }
 \arguments{
+\item{logfile}{Path to log file; default: \code{file.path(outpath, "NSSH/NSSH.log")}}
+
 \item{outpath}{Path to read in NSSH raw txt from; default \code{"inst/extdata"}}
 
 \item{a_part}{Part number (a three digit integer, starting with 6)}

@@ -242,6 +242,7 @@ parse_nssh_part <- function(number, subpart,
 
 #' Parse a Part/Subpart TXT file from the National Soil Survey Handbook
 #'
+#' @param logfile Path to log file; default: \code{file.path(outpath, "NSSH/NSSH.log")}
 #' @param outpath Path to read in NSSH raw txt from; default \code{"inst/extdata"}
 #' @param a_part Part number (a three digit integer, starting with 6)
 #' @param a_subpart Subpart letter (A or B)

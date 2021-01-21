@@ -62,6 +62,7 @@ create_OSD <- function(...) {
 #' @param url Path to OSD Data Snapshot
 #'
 #' @return TRUE if successful, try-error if download or parsing fails
+#' @importFrom utils unzip
 download_OSD <- function(url) {
   if (!dir.exists("OSD"))
     download.file(url, "OSD.zip")
