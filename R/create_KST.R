@@ -97,7 +97,7 @@ create_KST <- function(...) {
         st <- st[-pgidx, ]
 
         # remove three-letter abbreviated headers and CHAPTER X
-        st <- st[-grep("^CHAPTER|^[A-Z]$|^CAPÍTULO", st$content), ]
+        st <- st[-grep("^CHAPTER|^[A-Z]$|^CAP\u00cdTULO", st$content), ]
 
         # remove multi underscore footnote markup (spanish)
         if (language == "SP")
@@ -126,15 +126,15 @@ create_KST <- function(...) {
           c("LEFG. Other Udorthents that are saturated with water in one","LEFG","LEFH"),
           c("LEFH. Other Udorthents that have 50","LEFH","LEFI"),
           c("LEFI. Other Udorthents\\.","LEFI","LEFJ"),
-          c("JEDA. Ferrudalfs que tienen, en uno o más horizontes", "JEDA", "JEBA"), #
+          c("JEDA. Ferrudalfs que tienen, en uno o m\u00e1s horizontes", "JEDA", "JEBA"), #
           c("JEDB. Otros Ferrudalfs", "JEDB", "JEBB"), #
           c("JEJC. Otros Haplustalfs que tienen tanto:", "JEJC", "JCHC"), # Oxyaquic Vertic Haplustalfs
           c("JDBA. Palexeralfs que tienen una o ambas de las", "JDBA","JDFA"), # Vertic Palexeralfs
-          c("GCBH. Otros Haplodurids que tienen, a través de uno o", "GCBH","GCCF"), # Vitrandic Haplodurids
+          c("GCBH. Otros Haplodurids que tienen, a trav\u00e9s de uno o", "GCBH","GCCF"), # Vitrandic Haplodurids
           c("LEAB. Otros Gelifluvents.", "LEAB","LDAB"), # Typic Gelifluvents
           c("KGFI. Otros Dystrudepts que tienen todas las", "KGFI","KFFI"), # Fluvaquentic Dystrudepts
-          c("KFFB. Otros Haploxerepts que tienen un contacto lítico","KFFB", "KEFB"), # Lithic Haploxerepts
-          c("CECB. Otros Fragiorthods que están saturados con", "CECB","CECC") # Oxyaquic Fragiorthods
+          c("KFFB. Otros Haploxerepts que tienen un contacto l\\u00edtico","KFFB", "KEFB"), # Lithic Haploxerepts
+          c("CECB. Otros Fragiorthods que est\u00e1n saturados con", "CECB","CECC") # Oxyaquic Fragiorthods
         )
 
         # fix all the bad codes
@@ -201,21 +201,15 @@ create_KST <- function(...) {
           }
 
           key.idx <- which(m)
-
+          key.to.what <- gsub("^(Key to [A-Z a-z]*)$|^(Claves* para .*)$",
+                              "\\1\\2",
+                              h$content[key.idx])
           if (length(key.idx) == 1) {
             # this is the Key to Soil Orders
-            key.to.what <- gsub("^(Key to [A-Z a-z]*)$|^(Claves* para .*)$",
-                                "\\1\\2",
-                                h$content[key.idx])
             h$key <- key.to.what
             h$taxa <- "*"
           } else if (length(key.idx) > 0) {
             # all other Keys
-            #
-            key.to.what <- gsub("^(Key to [A-Z a-z]*)$|^(Claves* para .*)$",
-                                "\\1\\2",
-                                h$content[key.idx])
-
             key.taxa.idx <- key.idx
             key.taxa.idx[key.taxa.idx > 1] <- key.taxa.idx[key.taxa.idx > 1] - 1
 
@@ -223,7 +217,7 @@ create_KST <- function(...) {
 
             if (length(key.to.what) > 0) {
               taxsub.l <- key.to.what == "Key to Suborders" |
-                key.to.what == "Clave para Subórdenes"
+                key.to.what == "Clave para Sub\u00f3rdenes"
               key.taxa[taxsub.l] <-  as.character(chapter.taxon.lut[as.character(unique(h$chapter))])
             }
 
@@ -271,7 +265,7 @@ create_KST <- function(...) {
         st_criteria <- do.call('rbind', crits)
 
         # final cleanup
-        subgroup.key.l <- grepl("[Oo]rder|[Gg]roup|[Óó]rden|[Gg]rupo", st_criteria$key)
+        subgroup.key.l <- grepl("[Oo]rder|[Gg]roup|[\u00d3\u00f3]rden|[Gg]rupo", st_criteria$key)
 
         st_criteria_subgroup <- st_criteria[subgroup.key.l,]
         st_criteria_other <- st_criteria[!subgroup.key.l,]
@@ -309,8 +303,8 @@ create_KST <- function(...) {
 
         # process to remove page numbers
         taxchar <- as.character(taxa.lut)
-        taxchar.pg.idx <- grep("^(.*), p\\..*$|^(.*), pág\\..*$", taxchar)
-        taxchar[taxchar.pg.idx] <-  gsub("^(.*), p\\..*$|^(.*), pág\\..*$", "\\1\\2", taxchar[taxchar.pg.idx])
+        taxchar.pg.idx <- grep("^(.*), p\\..*$|^(.*), p\u00e1g\\..*$", taxchar)
+        taxchar[taxchar.pg.idx] <-  gsub("^(.*), p\\..*$|^(.*), p\u00e1g\\..*$", "\\1\\2", taxchar[taxchar.pg.idx])
 
         # couple fixes
         taxchar <- (gsub("aqnalfs", "aqualfs", taxchar))
@@ -506,7 +500,7 @@ get_taxon_breaks <-  function(content, key) {
   crit.to.what <- gsub("^([A-Z]+[abcdefgh]*)\\..*$", "\\1", content[crit.idx])
   bad.idx <- which(nchar(crit.to.what) == 1 &
                      key[crit.idx] != "Key to Soil Orders" &
-                     key[crit.idx] != "Claves para Órdenes de Suelo")
+                     key[crit.idx] != "Claves para \u00d3rdenes de Suelo")
   names(crit.idx) <- crit.to.what
   if (length(bad.idx) > 0)
     crit.idx <- crit.idx[-bad.idx]
@@ -582,7 +576,7 @@ subset_tree <- function(st_tree, crit_levels) {
 
 content_to_clause <- function(st_tree, language = "EN") {
   clause.en <- ";\\*? and$|;\\*? or$|[\\.:]$|p\\. [0-9]+|[:] [Ee]ither|[.:]$|\\.\\)$"
-  clause.sp <- ";\\*? y$|;\\*? o$|[\\.:]$|pág\\. [0-9]+|[:] [Yy]a sea|[.:]$|\\.\\)|artificial\\)$|ción\\)$"
+  clause.sp <- ";\\*? y$|;\\*? o$|[\\.:]$|p\u00e1g\\. [0-9]+|[:] [Yy]a sea|[.:]$|\\.\\)|artificial\\)$|ci\u00f3n\\)$"
   clause.idx <- grep(paste0(clause.en,"|",clause.sp), st_tree$content)
 
   st_tree$clause <- category_from_index(
@@ -612,14 +606,14 @@ content_to_clause <- function(st_tree, language = "EN") {
     grepl("[Aa]ll of.*[:]$|[Tt]odos.*[:]", res$content)
   logic.or <- (
     grepl("or$| o$", res$content) |
-      grepl("[Ee]ither.*[:]$|[Oo]r.*[:]$|[Yy]a sea.*[:]$$", res$content) |
-      grepl("[Oo]ne or more.*[:]$|[Uu]na o más.*[:]$", res$content) |
+      grepl("[Ee]ither.*[:]$|[Oo]r.*[:]$|[Yy]a sea.*[:]$", res$content) |
+      grepl("[Oo]ne or more.*[:]$|[Uu]na o m\u00e1s.*[:]$", res$content) |
       grepl("[:] [Ee]ither$|[Yy]a sea[:]$", res$content)
   ) # rare (spodosols)
   logic.endclause <-
     grepl("[.]$|or more$", res$content)
   # or more for kandic/kanhaplic ustalfs
-  logic.newkey <- grepl("p\\. [0-9]+|pág\\. [0-9]+", res$content)
+  logic.newkey <- grepl("p\\. [0-9]+|p\u00e1g\\. [0-9]+", res$content)
   logic.none <- !any(logic.and, logic.or, logic.endclause, logic.newkey)
 
   lmat <-  data.frame(
@@ -713,24 +707,24 @@ get_chapter_markers <- function(language = "EN") {
 
   chapter.markers.sp <- list(
     ch1 = "como muchas otras, tiene varios",
-    ch2 = "En la Taxonomía de Suelos se hace una diferenciación",
-    ch3 = "En este capítulo se definen los horizontes y las",
-    ch4 = "La clase taxonómica de un suelo específico se puede",
-    ch5 = "Alfisols que tienen, en uno o más horizontes, dentro",
+    ch2 = "En la Taxonom\u00eda de Suelos se hace una diferenciaci\u00f3n",
+    ch3 = "En este cap\u00edtulo se definen los horizontes y las",
+    ch4 = "La clase taxon\u00f3mica de un suelo espec\u00edfico se puede",
+    ch5 = "Alfisols que tienen, en uno o m\u00e1s horizontes, dentro",
     ch6 = "Andisols que tienen ya sea:",
-    ch7 = "Aridisols que tienen un régimen de temperatura",
+    ch7 = "Aridisols que tienen un r\u00e9gimen de temperatura",
     ch8 = "Entisols que tienen un potencial de agua positivo",
-    ch9 = "Gelisols que tienen materiales orgánicos de suelo",
-    ch10 = "Histosols que están saturados con agua por menos",
-    ch11 = "Inceptisols que tienen una o más de las siguientes",
+    ch9 = "Gelisols que tienen materiales org\u00e1nicos de suelo",
+    ch10 = "Histosols que est\u00e1n saturados con agua por menos",
+    ch11 = "Inceptisols que tienen una o m\u00e1s de las siguientes",
     ch12 = "Mollisols que tienen todas las siguientes",
-    ch13 = "Oxisols que tienen condiciones ácuicas por algún",
-    ch14 = "Spodosols que tienen condiciones ácuicas por",
-    ch15 = "Ultisols que tienen condiciones ácuicas por algún",
-    ch16 = "Vertisols que tienen, en uno o más horizontes",
-    ch17 = "Las familias y las series sirven para propósitos",
-    ch18 = "En este capítulo se describen los horizontes genéticos",
-    appendix = "Métodos de Laboratorio para la"
+    ch13 = "Oxisols que tienen condiciones \u00e1cuicas por alg\u00fan",
+    ch14 = "Spodosols que tienen condiciones \u00e1cuicas por",
+    ch15 = "Ultisols que tienen condiciones \u00e1cuicas por alg\u00fan",
+    ch16 = "Vertisols que tienen, en uno o m\u00e1s horizontes",
+    ch17 = "Las familias y las series sirven para prop\u00f3sitos",
+    ch18 = "En este cap\u00edtulo se describen los horizontes gen\u00e9ticos",
+    appendix = "M\u00e9todos de Laboratorio para la"
   )
 
   switch(language,
