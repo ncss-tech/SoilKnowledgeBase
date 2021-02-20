@@ -4,8 +4,12 @@
 #'
 #' @return TRUE if successful
 #' @export
+#' @importFrom tibble as_tibble
 create_KST <- function(...) {
-
+  args <- list(...)
+  if (!is.null(args[["download_pdf"]])) {
+    download_pdf <- args[["download_pdf"]]
+  }
   attempt <- try({
     languages <- c("EN", "SP")
 
@@ -18,17 +22,25 @@ create_KST <- function(...) {
 
         message("language: ", language)
 
+        pdftxtfile <- file.path("./inst/extdata/KST",
+                          sprintf("2014_KST_%s.txt", language))
+                          # TODO: check version?
+
         # download PDF, convert to TXT and put in inst/extdata
-        download_KST(language = language)
+        if (!download_KST(download_pdf = download_pdf, language = language)) {
+          message('No PDF input available!')
+          if (!file.exists(pdftxtfile)) {
+            message('No pdftotext output available!')
+            # graceful failure
+            return(TRUE)
+          }
+        }
 
         # # use pdftotext to extract text+metadata from Keys PDF
         suppressWarnings({
-          pdf <- data.frame(content = readLines(file.path(
-              "./inst/extdata/KST",
-              sprintf("2014_KST_%s.txt", language)
-              # manually change to new output for new keys; not overwriting old
-              # TODO: check version?
-            )), stringsAsFactors = FALSE)
+          if (file.exists(pdftxtfile)) {
+            pdf <- data.frame(content = readLines(pdftxtfile), stringsAsFactors = FALSE)
+          }
         })
 
         # simple count of page break indices and lines
@@ -179,12 +191,13 @@ create_KST <- function(...) {
         ch <- split(st, f = st$chapter)
 
         # save ch 1:4 + end chapters for definitions and criteria
-        write.csv(do.call('rbind', ch[c(1:4,17,18)]),
-                  file.path("./inst/extdata/KST",sprintf("2014_KST_%s_definitions.csv", language)))
+        st_def <- do.call('rbind', ch[c(1:4,18)])
 
-        # is this needed?
-        # write.csv(do.call('rbind', ch[5:16]),
-        #           file.path("./inst/extdata/KST",sprintf("2014_KST_%s_orders.csv", language)))
+        bad.idx <- c(
+          grep("^Horizons and Characteristics Diagnostic for the Higher Categories$", st_def$content)
+        )
+        if (length(bad.idx))
+          st_def <- st_def[-bad.idx,]
 
         # indexes 5 to 17 are the Keys to Order, Suborder, Great Group, Subgroup...
         #  indexes offset by 1 from their "true" chapter number in table
@@ -229,10 +242,8 @@ create_KST <- function(...) {
             key.group.names <- c("None", key.to.what, 'None')
             key.taxa.names <- c("None", key.taxa, 'None')
 
-            h$key <-  category_from_index(key.groups, length(h$content),
-                                          key.group.names)
-            h$taxa <-  category_from_index(key.groups, length(h$content),
-                                           key.taxa.names)
+            h$key <-  category_from_index(key.groups, length(h$content), key.group.names)
+            h$taxa <-  category_from_index(key.groups, length(h$content), key.taxa.names)
           }
 
           # remove Key to ... and higher level taxon name
@@ -323,8 +334,66 @@ create_KST <- function(...) {
           }
           return(out)
         }
+        diagnostic_features <- get_diagnostic_search_list()
 
-        # temporarily use group names for matching
+        last <- 1
+        idx <- unlist(lapply(diagnostic_features, function(x) {
+          res <- grep(pattern = sprintf("^%s$", x), st_def$content, ignore.case = FALSE)
+          if (length(res) > 1)
+            res <- res[res > last][1]
+          last <<- res
+          return(res)
+        }))
+
+        # parse diagnostic features (english only for now)
+        if (language == "EN") {
+
+          fts <- vector('list', length(idx))
+          for (i in 1:(length(idx))) {
+            endidx <- ifelse(i == length(idx), nrow(st_def), idx[i + 1] - 1)
+            fts[[i]] <- st_def[idx[i]:endidx,]
+          }
+
+          features <- lapply(fts[1:(length(fts))], parse_feature)
+          names(features) <- lapply(features, function(f) paste(f$name, f$page))
+
+          masterfeaturenames <- c(
+              "Diagnostic Surface Horizons: 7",
+              "Diagnostic Subsurface Horizons 11",
+              "Diagnostic Soil Characteristics for Mineral 17",
+              "Characteristics Diagnostic for 23",
+              "Horizons and Characteristics 26",
+              "Characteristics Diagnostic for 32",
+              "Family Differentiae for Mineral Soils and 317",
+              "Family Differentiae for Organic Soils 331",
+              "Series Differentiae Within a Family 333")
+
+          newmasterfeaturenames <- c("Surface","Subsurface","Mineral",
+                                     "Organic","Mineral or Organic",
+                                     "Human","Mineral Family",
+                                     "Organic Family", "Series")
+
+          feat.idx <- c(match(masterfeaturenames, names(features)), length(features))
+
+          mfeatures <- lapply(lapply(1:length(masterfeaturenames),
+                                     function(i) feat.idx[i]:(feat.idx[i + 1] - 1)),
+                              function(idx) { features[idx] })
+          names(mfeatures) <- newmasterfeaturenames
+
+          featurelist <- do.call('rbind', lapply(newmasterfeaturenames, function(mfn) {
+            mf <- mfeatures[[mfn]]
+            res <- cbind(group = mfn, do.call('rbind', lapply(mf, function(mff) {
+              mff$criteria <- list(mff$criteria)
+              tibble::as_tibble(mff)
+            })))
+            return(res)
+          }))
+          rownames(featurelist) <- NULL
+          featurelist <- tibble::as_tibble(featurelist)
+          write(convert_to_json(featurelist), file = "./inst/extdata/KST/2014_KST_EN_featurelist.json")
+        }
+
+        # use group names for matching
         names(st_db12) <- names(codes.lut)
         names(st_db12_unique) <- names(codes.lut)
         names(st_db12_taxaonly) <- names(codes.lut)
@@ -337,28 +406,22 @@ create_KST <- function(...) {
             if(length(newlast.idx)) {
               stdb$content <- .highlightTaxa(stdb$content, stdbnm)
             }
+
             # highlight codes
-            stdb$content <- gsub("^([A-Z]+[a-z]*\\.)(.*)$", "<b><u>\\1</u></b>\\2",
-                                 stdb$content)
-            stdb$content <- gsub("^([1-9]*\\.)(.*)$", "&nbsp;<b>\\1</b>\\2",
-                                 stdb$content)
-            stdb$content <- gsub("^([^A-Z][a-z]*\\.)(.*)$", "&nbsp;&nbsp;<b>\\1</b>\\2",
-                                 stdb$content)
-            stdb$content <- gsub("^(\\([1-9]*\\))(.*)$", "&nbsp;&nbsp;&nbsp;<b>\\1</b>\\2",
-                                 stdb$content)
-            stdb$content <- gsub("^(\\([a-z]*\\))(.*)$", "&nbsp;&nbsp;&nbsp;&nbsp;<b>\\1</b>\\2",
-                                 stdb$content)
-            stdb$content <- gsub("^(.*)(\\; and|\\; or)$", "\\1<i>\\2</i>",
-                                 stdb$content)
-            stdb$content <- gsub("^(.*)(\\; y|\\; o)$", "\\1<i>\\2</i>",
-                                 stdb$content)
+            stdb$content <- gsub("^([A-Z]+[a-z]*\\.)(.*)$", "<b><u>\\1</u></b>\\2", stdb$content)
+            stdb$content <- gsub("^([1-9]*\\.)(.*)$", "&nbsp;<b>\\1</b>\\2", stdb$content)
+            stdb$content <- gsub("^([^A-Z][a-z]*\\.)(.*)$", "&nbsp;&nbsp;<b>\\1</b>\\2", stdb$content)
+            stdb$content <- gsub("^(\\([1-9]*\\))(.*)$", "&nbsp;&nbsp;&nbsp;<b>\\1</b>\\2", stdb$content)
+            stdb$content <- gsub("^(\\([a-z]*\\))(.*)$", "&nbsp;&nbsp;&nbsp;&nbsp;<b>\\1</b>\\2", stdb$content)
+            stdb$content <- gsub("^(.*)(\\; and|\\; or)$", "\\1<i>\\2</i>", stdb$content)
+            stdb$content <- gsub("^(.*)(\\; y|\\; o)$", "\\1<i>\\2</i>", stdb$content)
             stdb$key <- gsub("Key to |Claves* para ", "", stdb$key)
             return(stdb)
           })
         }
 
         st_db12_html <- .do_HTML_postprocess(st_db12)
-        st_db12_unique <- .do_HTML_postprocess(st_db12_unique)
+        # st_db12_unique <- .do_HTML_postprocess(st_db12_unique)
         st_db12_taxaonly <- .do_HTML_postprocess(st_db12_taxaonly)
         st_db12_preceding <- preceding_taxon_ID(codes.lut)
 
@@ -383,19 +446,30 @@ create_KST <- function(...) {
           stop("somehow Gelisols are not first")
         }
 
-        save(st_db12,
-             st_db12_unique,
-             st_db12_html,
-             st_db12_preceding,
-             taxa.lut,
-             codes.lut,
-             file = sprintf("./inst/extdata/KST/2014_KST_db_%s.Rda", language))
+        # save(st_db12,
+        #      st_db12_unique,
+        #      st_db12_html,
+        #      st_db12_preceding,
+        #      taxa.lut,
+        #      codes.lut,
+        #      file = sprintf("./inst/extdata/KST/2014_KST_db_%s.Rda", language))
+
+        write(convert_to_json(st_db12),
+              file = sprintf("./inst/extdata/KST/2014_KST_criteria_%s.json", language))
+        write(convert_to_json(st_db12_unique),
+              file = sprintf("./inst/extdata/KST/2014_KST_criteria_%s.json", language))
+
+        # this binary file does not get version-controlled: ~15MB as json, ~1MB as rda
+        save(st_db12_html, file = sprintf("./inst/extdata/KST/2014_KST_HTML_%s.rda", language))
+
+        # can be readily calculated with ncss-tech/SoilTaxonomy package
+        # write(convert_to_json(st_db12_preceding),
+        #      file = sprintf("./inst/extdata/KST/2014_KST_preceding_%s.json", language))
 
         if (language == "EN") {
-          write.csv(data.frame(code = as.character(codes.lut),
-                               name = names(codes.lut)),
-                    row.names = FALSE, quote = FALSE,
-                    file = "./inst/extdata/KST/2014_KST_db_codes.csv")
+          code_lut <- data.frame(code = as.character(codes.lut),
+                                 name = names(codes.lut))
+          write(convert_to_json(code_lut), file = "./inst/extdata/KST/2014_KST_codes.json")
         }
     }
   })
@@ -415,19 +489,26 @@ download_KST <- function(outpath = "./inst/extdata",
   # hard coding 12th edition
   yhref <- "https://www.nrcs.usda.gov/wps/PA_NRCSConsumption/download?cid=stelprdb1252094&ext=pdf"
 
-  if(language == "SP")
+  if (language == "SP") {
     yhref <- "https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_051546.pdf"
+  }
 
   fn <- sprintf("2014_KST_%s.pdf", language)
   dlkst <- FALSE
 
-  if (!file.exists(fn) && as.character(download_pdf) == "ifneeded")
-    download_pdf <- TRUE
+  if (as.character(download_pdf) == "ifneeded") {
+    download_pdf <- !file.exists(fn)
+  }
 
-  if (download_pdf)
+  if (as.logical(download_pdf)) {
     download.file(yhref, destfile = fn)
+  }
 
-  system(sprintf("pdftotext -raw -nodiag %s", fn))
+  if (file.exists(fn)) {
+    system(sprintf("pdftotext -raw -nodiag %s", fn))
+  } else {
+    return(file.exists(fn))
+  }
 
   if (!keep_pdf)
     file.remove(fn)
@@ -435,10 +516,11 @@ download_KST <- function(outpath = "./inst/extdata",
   outfile <- gsub("\\.pdf",".txt", fn)
 
   if (!dir.exists(file.path(outpath, "KST")))
-    dir.create(file.path(outpath, "KST"), "KST", recursive = TRUE)
+    dir.create(file.path(doutpath, "KST"), "KST", recursive = TRUE)
 
   file.copy(outfile, file.path(outpath, "KST", outfile))
-  file.remove(outfile)
+
+  return(file.remove(outfile))
 }
 
 get_page_breaks <- function(content) {
@@ -662,7 +744,7 @@ parse_feature <- function(f) {
     endchar <- kchar
 
   if(length(endchar) > 1) {
-    warning(sprintf("possible bad parsing: %s", f$content[1]))
+    message("possible bad parsing: ", f$content[1])
   }
 
   if(endchar[1] < 3) {
@@ -748,4 +830,81 @@ get_chapter_orders <- function(language = "EN") {
     "15" = "Ultisols",
     "16" = "Vertisols"
   )
+}
+
+get_diagnostic_search_list <- function(language = "EN") {
+
+  # TODO: spanish language support
+  stopifnot(language == "EN")
+
+  ## quick and dirty way to get some names to begin the process (iterative)
+  # st_def$content <- gsub("Required Characteristics", "Required Characteristics.", st_def$content)
+  # cst_def <- content_to_clause(st_def)
+  # idx <- grep("Required Characteristics", ignore.case = FALSE, cst_def$content)
+  # lapply(idx, function(i) cst_def$content[(i+1)])
+
+  # TODO: proper naming for incomplete identifiers or w/ non-alpha characters
+  c("Mineral Soil Material","Organic Soil Material",
+    "Distinction Between Mineral Soils and Organic",
+    "Soil Surface","Mineral Soil Surface",
+    "Definition of Mineral Soils","Definition of Organic Soils",
+    "Diagnostic Surface Horizons:","Anthropic Epipedon","Folistic Epipedon",
+    "Histic Epipedon","Melanic Epipedon",
+    "Mollic Epipedon","Ochric Epipedon","Plaggen Epipedon","Umbric Epipedon",
+    "Diagnostic Subsurface Horizons",
+    "Agric Horizon","Albic Horizon","Anhydritic Horizon","Argillic Horizon",
+    "Calcic Horizon","Cambic Horizon","Duripan","Fragipan","Glossic Horizon",
+    "Gypsic Horizon","Kandic Horizon","Natric Horizon","Ortstein","Oxic Horizon",
+    "Petrocalcic Horizon", "Petrogypsic Horizon","Placic Horizon",
+    "Salic Horizon","Sombric Horizon", "Spodic Horizon",
+    "Diagnostic Soil Characteristics for Mineral",
+    "Abrupt Textural Change","Albic Materials","Andic Soil Properties",
+    "Anhydrous Conditions","Coefficient of Linear Extensibility \\(COLE\\)",
+    "Fragic Soil Properties", "Free Carbonates", "Identifiable Secondary Carbonates",
+    "Interfingering of Albic Materials","Lamellae*", "Linear Extensibility \\(LE\\)",
+    "Lithologic Discontinuities", "n Value", "Petroferric Contact", "Plinthite",
+    "Resistant Minerals", "Slickensides","Spodic Materials", "Volcanic Glass",
+    "Weatherable Minerals", "Characteristics Diagnostic for",
+    "Kinds of Organic Soil Materials","Fibers", "Fibric Soil Materials",
+    "Hemic Soil Materials", "Sapric Soil Materials",
+    "Humilluvic Material", "Kinds of Limnic Materials", "Coprogenous Earth",
+    "Diatomaceous Earth", "Marl","Thickness of Organic Soil Materials",
+    "Surface Tier", "Subsurface Tier", "Bottom Tier",
+    "Horizons and Characteristics",
+    "Aquic Conditions", "Cryoturbation", "Densic Contact", "Densic Materials",
+    "Gelic Materials", "Ice Segregation", "Glacic Layer",
+    "Lithic Contact", "Paralithic Contact", "Paralithic materials",
+    "Permafrost", "Soil Moisture Regimes", "Soil Moisture Control Section",
+    "Classes of Soil Moisture Regimes","Sulfidic Materials","Sulfuric Horizon",
+    "Characteristics Diagnostic for","Anthropogenic Landforms",
+    "Constructional Anthropogenic Landforms", "Destructional Anthropogenic Landforms",
+    "Anthropogenic Microfeatures", "Constructional Anthropogenic Microfeatures",
+    "Destructional Anthropogenic Microfeatures","Artifacts",
+    "Human-Altered Material","Human-Transported Material","Manufactured Layer",
+    "Manufactured Layer Contact", "Subgroups for Human-Altered and Human\\-",
+    "Family Differentiae for Mineral Soils and",
+    "Control Section for Particle-Size Classes and Their",
+    "Key to the Particle-Size and Substitute Classes of Mineral",
+    "Strongly Contrasting Particle-Size Classes",
+    "Use of Human-Altered and Human-Transported Material",
+    "Key to Human-Altered and Human-Transported Material",
+    "Key to the Control Section for Human-Altered and Human-",
+    "Mineralogy Classes",
+    "Key to Mineralogy Classes",
+    "Cation-Exchange Activity Classes",
+    "Use of Cation-Exchange Activity Classes",
+    "Key to Cation-Exchange Activity Classes",
+    "Reaction Classes", "Soil Temperature Classes","Soil Depth Classes",
+    "Family Differentiae for Organic Soils", "Particle-Size Classes",
+    "Control Section for Particle-Size Classes",
+    "Key to Particle-Size Classes of Organic Soils",
+    "Mineralogy Classes Applied Only to Limnic Subgroups",
+    "Control Section for the Ferrihumic Mineralogy Class and",
+    "Mineralogy Classes Applied Only to Terric Subgroups",
+    "Control Section for Mineralogy Classes Applied Only to",
+    "Key to Mineralogy Classes",
+    "Reaction Classes","Soil Temperature Classes","Soil Depth Classes",
+    "Series Differentiae Within a Family",
+    "Control Section for the Differentiation of Series",
+    "Key to the Control Section for the Differentiation")
 }
