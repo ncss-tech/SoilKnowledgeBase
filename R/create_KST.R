@@ -1,15 +1,23 @@
 #' Create Keys to Soil Taxonomy Datasets
 #'
-#' @param ... not used
+#' @param ... arguments passed to `download_KST`
 #'
 #' @return TRUE if successful
 #' @export
 #' @importFrom tibble as_tibble
 create_KST <- function(...) {
   args <- list(...)
+  message("Creating Keys to Soil Taxonomy (12th Edition) datasets...")
+  download_pdf <- TRUE
   if (!is.null(args[["download_pdf"]])) {
     download_pdf <- args[["download_pdf"]]
   }
+
+  keep_pdf <- FALSE
+  if (!is.null(args[["keep_pdf"]])) {
+    keep_pdf <- args[["keep_pdf"]]
+  }
+
   attempt <- try({
     languages <- c("EN", "SP")
 
@@ -27,7 +35,11 @@ create_KST <- function(...) {
                           # TODO: check version?
 
         # download PDF, convert to TXT and put in inst/extdata
-        if (!download_KST(download_pdf = download_pdf, language = language)) {
+        if (!download_KST(
+             download_pdf = download_pdf,
+             keep_pdf = keep_pdf,
+             language = language
+            )) {
           message('No PDF input available!')
           if (!file.exists(pdftxtfile)) {
             message('No pdftotext output available!')
@@ -486,7 +498,7 @@ download_KST <- function(outpath = "./inst/extdata",
                          keep_pdf = FALSE,
                          language = "EN") {
 
-  # hard coding 12th edition
+  # hard coding 12th edition web sources for PDF files
   yhref <- "https://www.nrcs.usda.gov/wps/PA_NRCSConsumption/download?cid=stelprdb1252094&ext=pdf"
 
   if (language == "SP") {
@@ -510,13 +522,16 @@ download_KST <- function(outpath = "./inst/extdata",
     return(file.exists(fn))
   }
 
-  if (!keep_pdf)
-    file.remove(fn)
+  if (keep_pdf) {
+    file.copy(fn, file.path(outpath,"KST",fn))
+  }
+  file.remove(fn)
 
   outfile <- gsub("\\.pdf",".txt", fn)
 
-  if (!dir.exists(file.path(outpath, "KST")))
+  if (!dir.exists(file.path(outpath, "KST"))) {
     dir.create(file.path(doutpath, "KST"), "KST", recursive = TRUE)
+  }
 
   file.copy(outfile, file.path(outpath, "KST", outfile))
 
@@ -832,8 +847,8 @@ get_chapter_orders <- function(language = "EN") {
   )
 }
 
-get_diagnostic_search_list <- function(language = "EN") {
 
+get_diagnostic_search_list <- function(language = "EN") {
   # TODO: spanish language support
   stopifnot(language == "EN")
 
@@ -844,44 +859,109 @@ get_diagnostic_search_list <- function(language = "EN") {
   # lapply(idx, function(i) cst_def$content[(i+1)])
 
   # TODO: proper naming for incomplete identifiers or w/ non-alpha characters
-  c("Mineral Soil Material","Organic Soil Material",
+  c("Mineral Soil Material",
+    "Organic Soil Material",
     "Distinction Between Mineral Soils and Organic",
-    "Soil Surface","Mineral Soil Surface",
-    "Definition of Mineral Soils","Definition of Organic Soils",
-    "Diagnostic Surface Horizons:","Anthropic Epipedon","Folistic Epipedon",
-    "Histic Epipedon","Melanic Epipedon",
-    "Mollic Epipedon","Ochric Epipedon","Plaggen Epipedon","Umbric Epipedon",
+    "Soil Surface",
+    "Mineral Soil Surface",
+    "Definition of Mineral Soils",
+    "Definition of Organic Soils",
+    "Diagnostic Surface Horizons:",
+    "Anthropic Epipedon",
+    "Folistic Epipedon",
+    "Histic Epipedon",
+    "Melanic Epipedon",
+    "Mollic Epipedon",
+    "Ochric Epipedon",
+    "Plaggen Epipedon",
+    "Umbric Epipedon",
     "Diagnostic Subsurface Horizons",
-    "Agric Horizon","Albic Horizon","Anhydritic Horizon","Argillic Horizon",
-    "Calcic Horizon","Cambic Horizon","Duripan","Fragipan","Glossic Horizon",
-    "Gypsic Horizon","Kandic Horizon","Natric Horizon","Ortstein","Oxic Horizon",
-    "Petrocalcic Horizon", "Petrogypsic Horizon","Placic Horizon",
-    "Salic Horizon","Sombric Horizon", "Spodic Horizon",
+    "Agric Horizon",
+    "Albic Horizon",
+    "Anhydritic Horizon",
+    "Argillic Horizon",
+    "Calcic Horizon",
+    "Cambic Horizon",
+    "Duripan",
+    "Fragipan",
+    "Glossic Horizon",
+    "Gypsic Horizon",
+    "Kandic Horizon",
+    "Natric Horizon",
+    "Ortstein",
+    "Oxic Horizon",
+    "Petrocalcic Horizon",
+    "Petrogypsic Horizon",
+    "Placic Horizon",
+    "Salic Horizon",
+    "Sombric Horizon",
+    "Spodic Horizon",
     "Diagnostic Soil Characteristics for Mineral",
-    "Abrupt Textural Change","Albic Materials","Andic Soil Properties",
-    "Anhydrous Conditions","Coefficient of Linear Extensibility \\(COLE\\)",
-    "Fragic Soil Properties", "Free Carbonates", "Identifiable Secondary Carbonates",
-    "Interfingering of Albic Materials","Lamellae*", "Linear Extensibility \\(LE\\)",
-    "Lithologic Discontinuities", "n Value", "Petroferric Contact", "Plinthite",
-    "Resistant Minerals", "Slickensides","Spodic Materials", "Volcanic Glass",
-    "Weatherable Minerals", "Characteristics Diagnostic for",
-    "Kinds of Organic Soil Materials","Fibers", "Fibric Soil Materials",
-    "Hemic Soil Materials", "Sapric Soil Materials",
-    "Humilluvic Material", "Kinds of Limnic Materials", "Coprogenous Earth",
-    "Diatomaceous Earth", "Marl","Thickness of Organic Soil Materials",
-    "Surface Tier", "Subsurface Tier", "Bottom Tier",
+    "Abrupt Textural Change",
+    "Albic Materials",
+    "Andic Soil Properties",
+    "Anhydrous Conditions",
+    "Coefficient of Linear Extensibility \\(COLE\\)",
+    "Fragic Soil Properties",
+    "Free Carbonates",
+    "Identifiable Secondary Carbonates",
+    "Interfingering of Albic Materials",
+    "Lamellae*",
+    "Linear Extensibility \\(LE\\)",
+    "Lithologic Discontinuities",
+    "n Value",
+    "Petroferric Contact",
+    "Plinthite",
+    "Resistant Minerals",
+    "Slickensides",
+    "Spodic Materials",
+    "Volcanic Glass",
+    "Weatherable Minerals",
+    "Characteristics Diagnostic for",
+    "Kinds of Organic Soil Materials",
+    "Fibers",
+    "Fibric Soil Materials",
+    "Hemic Soil Materials",
+    "Sapric Soil Materials",
+    "Humilluvic Material",
+    "Kinds of Limnic Materials",
+    "Coprogenous Earth",
+    "Diatomaceous Earth",
+    "Marl",
+    "Thickness of Organic Soil Materials",
+    "Surface Tier",
+    "Subsurface Tier",
+    "Bottom Tier",
     "Horizons and Characteristics",
-    "Aquic Conditions", "Cryoturbation", "Densic Contact", "Densic Materials",
-    "Gelic Materials", "Ice Segregation", "Glacic Layer",
-    "Lithic Contact", "Paralithic Contact", "Paralithic materials",
-    "Permafrost", "Soil Moisture Regimes", "Soil Moisture Control Section",
-    "Classes of Soil Moisture Regimes","Sulfidic Materials","Sulfuric Horizon",
-    "Characteristics Diagnostic for","Anthropogenic Landforms",
-    "Constructional Anthropogenic Landforms", "Destructional Anthropogenic Landforms",
-    "Anthropogenic Microfeatures", "Constructional Anthropogenic Microfeatures",
-    "Destructional Anthropogenic Microfeatures","Artifacts",
-    "Human-Altered Material","Human-Transported Material","Manufactured Layer",
-    "Manufactured Layer Contact", "Subgroups for Human-Altered and Human\\-",
+    "Aquic Conditions",
+    "Cryoturbation",
+    "Densic Contact",
+    "Densic Materials",
+    "Gelic Materials",
+    "Ice Segregation",
+    "Glacic Layer",
+    "Lithic Contact",
+    "Paralithic Contact",
+    "Paralithic materials",
+    "Permafrost",
+    "Soil Moisture Regimes",
+    "Soil Moisture Control Section",
+    "Classes of Soil Moisture Regimes",
+    "Sulfidic Materials",
+    "Sulfuric Horizon",
+    "Characteristics Diagnostic for",
+    "Anthropogenic Landforms",
+    "Constructional Anthropogenic Landforms",
+    "Destructional Anthropogenic Landforms",
+    "Anthropogenic Microfeatures",
+    "Constructional Anthropogenic Microfeatures",
+    "Destructional Anthropogenic Microfeatures",
+    "Artifacts",
+    "Human-Altered Material",
+    "Human-Transported Material",
+    "Manufactured Layer",
+    "Manufactured Layer Contact",
+    "Subgroups for Human-Altered and Human\\-",
     "Family Differentiae for Mineral Soils and",
     "Control Section for Particle-Size Classes and Their",
     "Key to the Particle-Size and Substitute Classes of Mineral",
@@ -894,8 +974,11 @@ get_diagnostic_search_list <- function(language = "EN") {
     "Cation-Exchange Activity Classes",
     "Use of Cation-Exchange Activity Classes",
     "Key to Cation-Exchange Activity Classes",
-    "Reaction Classes", "Soil Temperature Classes","Soil Depth Classes",
-    "Family Differentiae for Organic Soils", "Particle-Size Classes",
+    "Reaction Classes",
+    "Soil Temperature Classes",
+    "Soil Depth Classes",
+    "Family Differentiae for Organic Soils",
+    "Particle-Size Classes",
     "Control Section for Particle-Size Classes",
     "Key to Particle-Size Classes of Organic Soils",
     "Mineralogy Classes Applied Only to Limnic Subgroups",
@@ -903,8 +986,11 @@ get_diagnostic_search_list <- function(language = "EN") {
     "Mineralogy Classes Applied Only to Terric Subgroups",
     "Control Section for Mineralogy Classes Applied Only to",
     "Key to Mineralogy Classes",
-    "Reaction Classes","Soil Temperature Classes","Soil Depth Classes",
+    "Reaction Classes",
+    "Soil Temperature Classes",
+    "Soil Depth Classes",
     "Series Differentiae Within a Family",
     "Control Section for the Differentiation of Series",
-    "Key to the Control Section for the Differentiation")
+    "Key to the Control Section for the Differentiation"
+  )
 }
