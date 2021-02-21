@@ -2,17 +2,31 @@
 
 #' Create OSD Dataset
 #'
-#' @param ... Arguments to \code{parse_OSD}
+#' @param ... not used
+#'
 #' @return TRUE if successful
 #' @export
 create_OSD <- function(...) {
 
+  output_dir <- "inst/extdata/OSD"
+  logfile <- file.path(output_dir, "OSD.log")
+
+  logmsg(logfile, "Processing OSD data snapshot from OSDRegistry...")
+
   attempt <- try({
 
-        message("Processing OSD data snapshot from OSDRegistry...")
-
+        logmsg(logfile, "Downloading snapshot...")
         # Download OSDRegistry snapshot
-        download_OSD()
+        download_OSD(url = 'https://github.com/ncss-tech/OSDRegistry/releases/download/main/OSD-data-snapshot.zip')
+
+        # Do JSON parsing of sections
+        res <- osd_to_json(logfile = logfile,
+                           output_dir = output_dir)
+
+        if (!all(res))
+          logmsg(logfile, "ERROR: One or more OSDs failed to parse to JSON!")
+
+        unlink("OSD", recursive = TRUE)
 
         # Optional: special scripts can be called from inst/scripts/OSD
         #  rpath <- list.files("inst/scripts/OSD/", ".*.R", full.names = TRUE)
@@ -23,15 +37,12 @@ create_OSD <- function(...) {
         #     source(filepath)
         # })
 
-        ## TODO: dedicated/built-in methods for wrangling the OSDRegistry snapshot
-        # parse_OSD(...)
-
       })
 
   if (inherits(attempt, 'try-error'))
     return(FALSE)
 
-  message("Done!")
+  logmsg(logfile, "Done!")
   return(TRUE)
 }
 
@@ -58,19 +69,18 @@ download_OSD <- function(url = NULL) {
   wkzip <- list.files(pattern = "OSD_.*zip")
   unzip(wkzip)
   file.remove(wkzip)
-  res <- osd_to_json(output_dir = "inst/extdata/OSD")
-  stopifnot(all(res))
-  unlink("OSD", recursive = TRUE)
   return(TRUE)
 }
 
 #' Validate OSD using NSSH standards
+#'
+#' @param logfile Path to log file
 #' @param filepath Path to a single plain text file containing OSD narrative
 #'
 #' @return A nested list containing OSD structure for specified file path
 #' @export
 #' @importFrom stringi stri_trans_general
-validateOSD <- function(filepath) {
+validateOSD <- function(logfile, filepath) {
 
   if (!file.exists(filepath))
     return(FALSE)
@@ -97,7 +107,7 @@ validateOSD <- function(filepath) {
 
   if (length(rem.idx) == 0) {
     # these have some sort of malformed series status
-    message(sprintf("Check Section Headings: %s", filepath))
+    logmsg(logfile, "CHECK: Section Headings %s", filepath)
     rem.idx <- length(x)
   }
 
@@ -109,7 +119,7 @@ validateOSD <- function(filepath) {
   if (marker_self1[1] != marker_self2) {
     # print(marker_self1[1])
     # print(marker_self2)
-    message(sprintf("Check Line 1 LOCATION: %s", filepath))
+    logmsg(logfile, "CHECK: Line 1 LOCATION %s", filepath)
 
     # TODO: abstract and generalize these into rules
     # three series in california have established dates before the state
@@ -130,9 +140,10 @@ validateOSD <- function(filepath) {
                                                         "UT", "VT", "VA", "WA", "WV", "WI", "WY"))
   n_states <- sum(unlist(lapply(all_states, function(x) sum(grepl(x, marker_self1[2])))))
 
-  if (n_states < 1)
-    message(sprintf("Unknown state marker: %s", marker_self1[2]))
-
+  if (n_states < 1) {
+    # This is not invoked, given list of state and territory codes
+    logmsg(logfile, "CHECK:  Unknown state marker: %s", marker_self1[2])
+  }
   markheaders <- trimws(gsub(marker_self2, "", markers))
 
   # TODO: abstract and generalize these into rules
@@ -147,9 +158,12 @@ validateOSD <- function(filepath) {
   if (length(bad.idx) > 0) {
     nu <- markheaders[-bad.idx]
     tst <- unique(nu)
-    # if (length(tst) != length(nu)) {
-    #   print(sprintf("Duplicate sections: %s [%s]", filepath, paste0(names(table(nu))[table(nu) > 1], collapse = ",")))
-    # }
+
+    if (length(tst) != length(nu)) {
+      # This is never invoked
+      logmsg(logfile, "CHECK: Duplicate sections: %s [%s]", filepath, paste0(names(table(nu))[table(nu) > 1], collapse = ","))
+    }
+
     markheaders <- tst
   }
 
@@ -170,7 +184,6 @@ validateOSD <- function(filepath) {
                       "SOIL SURVEY REGIONAL OFFICE",
                       "(SERIES )?(ESTABLISHED|PROPOSED)",
                       "REMARKS|NOTE|ADDITIONAL DATA")
-  # everything after established/proposed is "remarks", dont care about order
 
   names(headerpatterns) <- c("TAXONOMIC CLASS",
                              "TYPICAL PEDON",
@@ -210,13 +223,15 @@ validateOSD <- function(filepath) {
                            yes = length(raw),
                            no =  ifelse(is.na(idx_next), length(raw), idx_next - 1))
 
+        # # : when and why do these get invoked?
         if (length(idx_start) == 0 | length(idx_stop) == 0) {
-          return(list(section = markheaders[i],
+          logmsg(logfile, "DEBUG: idx_start/idx_stop have length 0")
+          return(list(section = markheaders[p],
                       content = NA))
         }
-
         if (is.na(idx_start) | is.na(idx_stop)) {
-          return(list(section = markheaders[i],
+          logmsg(logfile, "DEBUG: idx_start/idx_stop are NA")
+          return(list(section = markheaders[p],
                       content = NA))
         }
 
@@ -247,6 +262,7 @@ validateOSD <- function(filepath) {
 
 #' Convert OSD plaintext to JSON using NSSH structural elements
 #'
+#' @param logfile Path to log file; default: \code{file.path(output_dir, "OSD/OSD.log")}
 #' @param input_dir Default: \code{'OSD'}; files matching pattern are listed recursviely
 #' @param pattern Argument passed to \code{list.files} when \code{osd_files} is not specified
 #' @param output_dir Default: \code{'inst/extdata'}; folder to create alphabetical folder structure with JSON files
@@ -255,7 +271,8 @@ validateOSD <- function(filepath) {
 #' @return A logical vector equal in length to the number of input files.
 #' @export
 #' @importFrom jsonlite toJSON
-osd_to_json <- function(input_dir = 'OSD',
+osd_to_json <- function(logfile = file.path(output_dir, "OSD/OSD.log"),
+                        input_dir = 'OSD',
                         pattern = "txt",
                         output_dir = "inst/extdata",
                         osd_files = NULL) {
@@ -269,7 +286,8 @@ osd_to_json <- function(input_dir = 'OSD',
 
   res <- sapply(1:length(all_osds), function(i) {
     filepath <- all_osds[[i]]
-    x <- validateOSD(filepath)
+    logmsg(logfile, " - %s", filepath)
+    x <- validateOSD(logfile, filepath)
 
     if (is.logical(x))
       if (!x) return(FALSE)
