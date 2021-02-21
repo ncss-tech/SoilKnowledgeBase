@@ -13,8 +13,6 @@ create_OSD <- function(...) {
 
   logmsg(logfile, "Processing OSD data snapshot from OSDRegistry...")
 
-  sink(logfile)
-
   attempt <- try({
 
         logmsg(logfile, "Downloading snapshot...")
@@ -45,7 +43,6 @@ create_OSD <- function(...) {
     return(FALSE)
 
   logmsg(logfile, "Done!")
-  sink(logfile)
   return(TRUE)
 }
 

@@ -10,7 +10,6 @@ create_NSSH <- function(...) {
   logfile = file.path(outpath, "NSSH/NSSH.log")
 
   logmsg(logfile, "Processing NSSH from eDirectives...")
-  # sink(logfile)
 
   # run inst/scripts/NSSH
 
@@ -43,7 +42,6 @@ create_NSSH <- function(...) {
     return(FALSE)
 
   logmsg(logfile, "Done!")
-  sink(logfile)
   return(TRUE)
 }
 
