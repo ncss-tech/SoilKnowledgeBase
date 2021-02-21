@@ -497,6 +497,10 @@ download_KST <- function(outpath = "./inst/extdata",
                          download_pdf = "ifneeded",
                          keep_pdf = FALSE,
                          language = "EN") {
+  # create output path
+  if (!dir.exists(file.path(outpath, "KST"))) {
+    dir.create(file.path(outpath, "KST"), "KST", recursive = TRUE)
+  }
 
   # hard coding 12th edition web sources for PDF files
   yhref <- "https://www.nrcs.usda.gov/wps/PA_NRCSConsumption/download?cid=stelprdb1252094&ext=pdf"
@@ -528,10 +532,6 @@ download_KST <- function(outpath = "./inst/extdata",
   file.remove(fn)
 
   outfile <- gsub("\\.pdf",".txt", fn)
-
-  if (!dir.exists(file.path(outpath, "KST"))) {
-    dir.create(file.path(doutpath, "KST"), "KST", recursive = TRUE)
-  }
 
   file.copy(outfile, file.path(outpath, "KST", outfile))
 
