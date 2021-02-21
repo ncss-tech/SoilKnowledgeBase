@@ -4,14 +4,21 @@
 \alias{parse_nssh_part}
 \title{Parse headers and line positions by NSSH Part and Subpart}
 \usage{
-parse_nssh_part(number, subpart, outpath = "./inst/extdata")
+parse_nssh_part(
+  number,
+  subpart,
+  outpath = "./inst/extdata",
+  logfile = file.path(outpath, "NSSH/NSSH.log")
+)
 }
 \arguments{
 \item{number}{Vector of part number(s) e.g. \code{600:614}}
 
 \item{subpart}{Vector of subpart characters e.g. \code{"A"}}
 
-\item{outpath}{A directory path to create "inst/extdata/NSSH" folder structure in}
+\item{outpath}{A directory path to create "NSSH" folder structure in; default: \code{"S./inst/extdata"}}
+
+\item{logfile}{PAth to log file; default \code{file.path(outpath, "NSSH/NSSH.log")}}
 }
 \value{
 A data.frame containing line numbers corresponding to NSSH part and subpart headers.

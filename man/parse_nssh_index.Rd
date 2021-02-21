@@ -5,6 +5,7 @@
 \title{Parse the National Soil Survey Handbook (NSSH) Table of Contents to get eDirectives links}
 \usage{
 parse_nssh_index(
+  logfile = file.path(outpath, "NSSH/NSSH.log"),
   nssh_url = NULL,
   ignore.headers = "Amendments To Soil Taxonomy",
   outpath = "./inst/extdata",
@@ -15,6 +16,8 @@ parse_nssh_index(
 )
 }
 \arguments{
+\item{logfile}{Path to log file; default \code{file.path(outpath, "NSSH/NSSH.log")}}
+
 \item{nssh_url}{A URL to parse for Table of Contents information.}
 
 \item{ignore.headers}{A character vector of h3 level headers to ignore on the NSSH Table of contents webpage.}

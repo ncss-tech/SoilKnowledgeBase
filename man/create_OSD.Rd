@@ -7,7 +7,7 @@
 create_OSD(...)
 }
 \arguments{
-\item{...}{Arguments to \code{parse_OSD}}
+\item{...}{not used}
 }
 \value{
 TRUE if successful
