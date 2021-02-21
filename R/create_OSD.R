@@ -60,9 +60,10 @@ create_OSD <- function(...) {
 #'
 #' @return TRUE if successful, try-error if download or parsing fails
 #' @importFrom utils unzip
-download_OSD <- function(url) {
-  if (!dir.exists("OSD"))
-    download.file(url, "OSD.zip")
+download_OSD <- function(url = NULL) {
+  if (is.null(url))
+    url <- 'https://github.com/ncss-tech/OSDRegistry/releases/download/main/OSD-data-snapshot.zip'
+  download.file(url, "OSD.zip")
   unzip('OSD.zip')
   file.remove('OSD.zip')
   wkzip <- list.files(pattern = "OSD_.*zip")

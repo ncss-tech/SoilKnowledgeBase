@@ -4,7 +4,7 @@
 \alias{download_OSD}
 \title{Internal method for downloading OSDRegistry snapshot}
 \usage{
-download_OSD(url)
+download_OSD(url = NULL)
 }
 \arguments{
 \item{url}{Path to OSD Data Snapshot}
