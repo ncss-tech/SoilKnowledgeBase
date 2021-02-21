@@ -7,7 +7,7 @@
 create_KST(...)
 }
 \arguments{
-\item{...}{not used}
+\item{...}{arguments passed to `download_KST`}
 }
 \value{
 TRUE if successful
