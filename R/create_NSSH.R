@@ -253,7 +253,6 @@ parse_NSSH <- function(logfile = file.path(outpath, "NSSH/NSSH.log"),
   logmsg(logfile, "Parsing NSSH Part %s Subpart %s", a_part, a_subpart)
 
   raw_txt <- sprintf(file.path(outpath, "NSSH/%s/%s%s.txt"), a_part, a_part, a_subpart)
-  print(raw_txt)
   stopifnot(file.exists(raw_txt))
   raw <- suppressWarnings(readLines(raw_txt))
 
