@@ -7,12 +7,20 @@ inst/extdata](https://github.com/brownag/SoilKnowledgeBase/workflows/refresh-ext
 status](https://github.com/brownag/SoilKnowledgeBase/workflows/R-CMD-check/badge.svg)](https://github.com/brownag/SoilKnowledgeBase/actions)
 
 A soil “knowledge base” centered around the **National Cooperative Soil
-Survey** (NCSS) standards as used by the **USDA-NRCS** and defined in
-the **National Soil Survey Handbook** (NSSH).
+Survey** (NCSS) standards.
 
-This repository is also an **R** package that facilitates the version
-control of and programmatic access to products from official data
-sources.
+These are standards developed and maintained by the United States
+Department of Agriculture Natural Resources Conservation Service
+(**USDA-NRCS**) Soil and Plant Science Division (**SPSD**). They are
+defined in the **National Soil Survey Handbook** (**NSSH**\*)
+
+The contents of this repository are completely reproducible. You can
+build an instance of all of the external data from scratch if you
+install the package off GitHub and run the `refresh()` command.
+
+This repository is an **R** package that facilitates management of
+dependencies, continuous integration, version control of and limited
+programmatic access to products from official data sources.
 
 ### Get started
 
@@ -22,7 +30,22 @@ sources.
     # install all remote data to inst/extdata
     SoilKnowledgeBase::refresh()
 
+The repository is *regularly updated* to reflect changes that happen in
+a variety of official data sources.
+
+Depending on your application you may be better off simply cloning the
+repository and calling `git pull` on a schedule that is convenient for
+you.
+
 ### The Structure of the National Soil Survey Handbook (NSSH)
+
+The materials provided in this repository are generally defined
+somewhere within the NSSH. For now, only top-level links to whole
+sections of the handbook are available.
+
+These links connect to
+[eDirectives](http://directives.sc.egov.usda.gov/) which are the
+official sources of standards of this nature.
 
 <table>
 <colgroup>
@@ -339,7 +362,7 @@ sources.
 
 -   \* QC/QA = Quality Control, Quality Assurance
 
-### Coming Soon: Links to headers
+### The following are headers within individual handbook parts
 
 <table>
 <colgroup>
