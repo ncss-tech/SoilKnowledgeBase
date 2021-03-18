@@ -112,7 +112,7 @@ validateOSD <- function(logfile, filepath) {
   }
 
   # TODO: abstract and generalize these into rules
-  markers <- trimws(gsub("^([A-Z`']{2}[A-Z ().`']+): ?(.*)", "\\1", x[(ser.idx + 1):rem.idx]))
+  markers <- trimws(gsub("^([A-Z`']{2}[A-Z ().`']+)[:;]? ?.*", "\\1", x[(ser.idx + 1):rem.idx]))
   marker_self1 <- trimws(unlist(strsplit(gsub("LOCATION +([A-Z .`']+) {2,}\\d?([A-Z\\+]+)", "\\1;\\2", x[loc.idx]), ";")))
   marker_self2 <- trimws(gsub("([A-Z .`']) SERIES", "\\1", x[ser.idx]))
 
@@ -172,7 +172,7 @@ validateOSD <- function(logfile, filepath) {
   # TODO: abstract and generalize these into rules
 
   headerpatterns <- c("TAXONOMIC CLASS",
-                      "TYPI(CAL|FYING) PEDON",
+                      "TYPI(CI?AL|FYING) PEDON|SOIL PROFILE",
                       "TYPE LOCATION",
                       "RANGE (IN|OF) CHARACTERISTICS|RANGE OF INDIVIDUAL HORIZONS",
                       "COMPETING SERIES",
