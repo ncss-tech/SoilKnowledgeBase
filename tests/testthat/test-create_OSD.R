@@ -2,7 +2,7 @@ test_that("osd_to_json works", {
   # set pseudorandom seed for consistently random results
   set.seed(123)
 
-  # sample without replacement -- 1000 OSDs
+  # list OSD .txt files
   testfiles <- na.omit(list.files("OSD",
                              recursive = TRUE,
                              full.names = TRUE))
