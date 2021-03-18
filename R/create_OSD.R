@@ -155,6 +155,7 @@ validateOSD <- function(logfile, filepath) {
                                                         "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX",
                                                         "UT", "VT", "VA", "WA", "WV", "WI", "WY"))
   n_states <- sum(unlist(lapply(all_states, function(x) sum(grepl(x, marker_self1[2])))))
+  what_states <- paste0(unlist(sapply(all_states, function(x) x[grep(x, marker_self1[2])])), collapse = ",")
 
   if (n_states < 1) {
     # This is not invoked, given list of state and territory codes
@@ -268,7 +269,8 @@ validateOSD <- function(logfile, filepath) {
   rez2 <- c(list(SERIES = marker_self2,
                  STATUS = raw[loc.idx + 1],
                  BYREV = raw[loc.idx + 2],
-                 REVDATE = raw[loc.idx + 3]),
+                 REVDATE = raw[loc.idx + 3],
+                 STATES = what_states),
             rez)
 
   rez2[is.na(names(rez2))] <- NULL
