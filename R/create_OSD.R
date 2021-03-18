@@ -92,6 +92,20 @@ validateOSD <- function(logfile, filepath) {
 
   raw <- trimws(raw[trimws(raw) != ""])
 
+  # this should be the last line in OSD
+  raw.max.idx <- grep("^U\\.S\\.A\\.$", raw)
+
+  if (length(raw.max.idx) == 0) {
+    # if not present, take last line
+    raw.max.idx <- length(raw)
+  } else if(length(raw.max.idx) > 1) {
+    # this shouldnt happen (but it does) -- duplicated OSD contents e.g. HEDVILLE
+    logmsg(logfile, "CHECK FOR DUPLICATION: %s", filepath)
+  }
+
+  # handle only first instance where OSD is duplicated
+  raw <- raw[1:raw.max.idx[1]]
+
   # TODO: abstract and generalize these into rules
   x <- trimws(raw[-grep("^([A-Z '`][A-Z'`][A-Z .`']+)", raw, invert = TRUE)])
 
