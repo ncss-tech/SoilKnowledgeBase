@@ -7,9 +7,17 @@ test_that("refresh (no source PDF download)", {
 })
 
 test_that("refresh (from source; poppler-utils required)", {
+
   skip_if_not(Sys.info()['sysname'] == 'Linux')
   skip_if_not(system("dpkg --list | grep poppler-utils") == 0)
+
   res <- refresh(keep_pdf = TRUE)
-  expect_true(all(unlist(res)))
+  res_test <- unlist(res)
+
+  # more informative output about which if any failed
+  if (any(!res_test))
+    print(res_test)
+
+  expect_true(all(res_test))
   unlink("inst", recursive = TRUE)
 })
