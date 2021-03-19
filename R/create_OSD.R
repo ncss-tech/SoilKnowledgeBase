@@ -161,7 +161,9 @@ validateOSD <- function(logfile, filepath) {
     # This is not invoked, given list of state and territory codes
     logmsg(logfile, "CHECK:  Unknown state marker: %s", marker_self1[2])
   }
-  markheaders <- trimws(gsub(marker_self2, "", markers))
+
+  # remove whole series name if used in header
+  markheaders <- trimws(gsub(paste0("\\b", marker_self2, "\\b"), "", markers))
 
   # TODO: abstract and generalize these into rules
   # all section headers begin with capitals, and contain capitals up to the colon
