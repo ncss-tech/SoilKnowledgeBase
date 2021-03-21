@@ -126,7 +126,7 @@ validateOSD <- function(logfile, filepath) {
   }
 
   # TODO: abstract and generalize these into rules
-  markers <- trimws(gsub("^([A-Z`']{2}[A-Z ().`']+[A-Za-z)`']{2}) ?[:;] ?.*|(USE): .*|(TYPICAL PEDON) - .*",
+  markers <- trimws(gsub("^([A-Z`']{2}[A-Z ().`']+[A-Za-z)`']{2}) ?[:;] ?.*|(USE): .*|(TYPICAL PEDON)[ \\-]+.*|^(Typical Pedon) ?[;:\\-].*",
                          "\\1\\2\\3",
                          x[(ser.idx + 1):rem.idx]))
   marker_self1 <- trimws(unlist(strsplit(gsub("LOCATION +([A-Z .`']+) {2,}\\d?([A-Z\\+]+)", "\\1;\\2",
@@ -192,7 +192,7 @@ validateOSD <- function(logfile, filepath) {
   # TODO: abstract and generalize these into rules
 
   headerpatterns <- c("TAXONOMIC CLASS",
-                      "TYPI(CI?AL|FYING) PEDON|SOIL PROFILE",
+                      "TYPI(CI?AL|FYING) PEDON|SOIL PROFILE|Typical Pedon",
                       "TYPE LOCATION",
                       "RANGE (IN|OF) CHARACTERISTICS|RANGE OF INDIVIDUAL HORIZONS",
                       "COMPETING SERIES",
