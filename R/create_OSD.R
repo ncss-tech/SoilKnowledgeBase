@@ -107,7 +107,7 @@ validateOSD <- function(logfile, filepath) {
   raw <- raw[1:raw.max.idx[1]]
 
   # TODO: abstract and generalize these into rules
-  x <- trimws(raw[-grep("^([A-Z '`][A-Z'`][A-Z .`']+)", raw, invert = TRUE)])
+  x <- trimws(raw[-grep("^[A-Z '`][A-Z'`]{2}[A-Z `']+.*|Typical [Pp]edon ?[:;\\-] .*|[A-Z]{3,}[:].*", raw, invert = TRUE)])
 
   loc.idx <- grep("^LOCATION", x)[1]
   ser.idx <- grep("SERIES$", x)[1]
@@ -126,7 +126,7 @@ validateOSD <- function(logfile, filepath) {
   }
 
   # TODO: abstract and generalize these into rules
-  markers <- trimws(gsub("^([A-Z`']{2}[A-Z ().`']+[A-Za-z)`']{2}) ?[:;] ?.*|(USE): .*|(TYPICAL PEDON)[ \\-]+.*|^(Typical Pedon) ?[;:\\-]+.*",
+  markers <- trimws(gsub("^([A-Z`']{2}[A-Z ().`']+[A-Za-z)`']{2}) ?[:;] ?.*|(USE): .*|(TY[PIC]+AL +PEDON)[ \\-]+.*|^(Typical +[Pp]edon) ?[;:\\-]+.*",
                          "\\1\\2\\3\\4",
                          x[(ser.idx + 1):rem.idx]))
   marker_self1 <- trimws(unlist(strsplit(gsub("LOCATION +([A-Z .`']+) {2,}\\d?([A-Z\\+]+)", "\\1;\\2",
@@ -166,13 +166,19 @@ validateOSD <- function(logfile, filepath) {
   # remove whole series name if used in header
   markheaders <- trimws(gsub(paste0("\\b", marker_self2, "\\b"), "", markers))
 
-  # TODO: abstract and generalize these into rules
   # all section headers begin with capitals, and contain capitals up to the colon
   bad.idx <- grep("[a-z]", markheaders)
 
+  # has typical pedon
+  typ.idx <- grep("ty[pic]+al pedon", markheaders, ignore.case = TRUE)
+  if (length(typ.idx) > 0) {
+    if (any(typ.idx %in% bad.idx))
+      bad.idx <- bad.idx[!(bad.idx %in% typ.idx)]
+  }
+
   # TODO: abstract and generalize these into rules
 
-  # these are things that should be collapsed within RIC, REMARKS, etc
+  # these are non-canonical headers (with colons) that should be collapsed within RIC, REMARKS, etc
   bad.idx <- c(bad.idx, grep("SAR|SLOPE|NAD83", markheaders))
 
   if (length(bad.idx) > 0) {
@@ -192,9 +198,9 @@ validateOSD <- function(logfile, filepath) {
   # TODO: abstract and generalize these into rules
 
   headerpatterns <- c("TAXONOMIC CLASS",
-                      "TYPI(CI?AL|FYING) PEDON|SOIL PROFILE|Typical Pedon",
+                      "TY[PIC]+(AL|FYING) PEDON|SOIL PROFILE|Typical [Pp]edon",
                       "TYPE LOCATION",
-                      "RANGE (IN|OF) CHARACTERISTICS|RANGE OF INDIVIDUAL HORIZONS",
+                      "RANGE IN CHARACTERISTICS|RANGE OF CHARACTERISTICS|RANGE OF INDIVIDUAL HORIZONS",
                       "COMPETING SERIES",
                       "GEOGRAPHICA?L? SETTINGS?|SETTING",
                       "ASSOCIATED SOILS",
