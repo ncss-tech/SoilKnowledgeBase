@@ -179,7 +179,7 @@ validateOSD <- function(logfile, filepath) {
   # TODO: abstract and generalize these into rules
 
   # these are non-canonical headers (with colons) that should be collapsed within RIC, REMARKS, etc
-  bad.idx <- c(bad.idx, grep("SAR|SLOPE|NAD83", markheaders))
+  bad.idx <- c(bad.idx, grep("SAR|SLOPE|NAD83|MLRA\\(S\\)", markheaders))
 
   if (length(bad.idx) > 0) {
     nu <- markheaders[-bad.idx]
@@ -207,7 +207,7 @@ validateOSD <- function(logfile, filepath) {
                       "DRAINAGE AND (PERMEABILITY|SATURATED HYDRAULIC CONDUCTIVITY)|PERMEABILITY|DRAINAGE CLASS|DRAINAGE",
                       "USE AND VEGETATION|VEGETATION|USE",
                       "DISTRIBUTION AND EXTENT|DISTRIBUTION|EXTENT",
-                      "SOIL SURVEY REGIONAL OFFICE",
+                      "SOIL SURVEY REGIONAL OFFICE|MLRA",
                       "(SERIES )?(ESTABLISHED|PROPOSED)",
                       "REMARKS|NOTE|ADDITIONAL DATA")
 
