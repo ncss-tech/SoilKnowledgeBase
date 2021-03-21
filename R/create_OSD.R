@@ -100,14 +100,18 @@ validateOSD <- function(logfile, filepath) {
     raw.max.idx <- length(raw)
   } else if(length(raw.max.idx) > 1) {
     # this shouldnt happen (but it does) -- duplicated OSD contents e.g. HEDVILLE
-    logmsg(logfile, "CHECK FOR DUPLICATION: %s", filepath)
+    logmsg(logfile, "DUPLICATE 'U.S.A.' END OF FILE MARKER: %s", filepath)
   }
 
   # handle only first instance where OSD is duplicated
   raw <- raw[1:raw.max.idx[1]]
 
   # TODO: abstract and generalize these into rules
-  x <- trimws(raw[-grep("^[A-Z '`][A-Z'`]{2}[A-Z `']+.*|Typical [Pp]edon ?[:;\\-] .*|[A-Z]{3,}[:].*", raw, invert = TRUE)])
+  x <- trimws(raw[-grep("[A-Z '`][A-Z\\.'`]{2}[A-Z `']+.*|Typical [Pp]edon ?[:;\\-] .*|[A-Z]{3,}[:].*", raw, invert = TRUE)])
+
+  if (length(x) != length(unique(x))) {
+    logmsg(logfile, "CHECK DUPLICATION OF HEADERS: %s", filepath)
+  }
 
   loc.idx <- grep("^LOCATION", x)[1]
   ser.idx <- grep("SERIES$", x)[1]
@@ -116,8 +120,10 @@ validateOSD <- function(logfile, filepath) {
   # grep("REMARKS|NOTE|ADDITIONAL DATA", x)[1]
 
   # unable to locate location and series
-  if (is.na(loc.idx) | is.na(ser.idx) | length(x) == 0)
+  if (is.na(loc.idx) | is.na(ser.idx) | length(x) == 0) {
+    logmsg(logfile, "CHECK LOCATION AND/OR SERIES: %s", filepath)
     return(FALSE)
+  }
 
   if (length(rem.idx) == 0) {
     # these have some sort of malformed series status
@@ -179,14 +185,13 @@ validateOSD <- function(logfile, filepath) {
   # TODO: abstract and generalize these into rules
 
   # these are non-canonical headers (with colons) that should be collapsed within RIC, REMARKS, etc
-  bad.idx <- c(bad.idx, grep("SAR|SLOPE|NAD83|MLRA\\(S\\)", markheaders))
+  bad.idx <- c(bad.idx, grep("SAR|SLOPE|NAD83|MLRA\\(S\\)|NSTH 17", markheaders))
 
   if (length(bad.idx) > 0) {
     nu <- markheaders[-bad.idx]
     tst <- unique(nu)
 
     if (length(tst) != length(nu)) {
-      # This is never invoked
       logmsg(logfile, "CHECK: Duplicate sections: %s [%s]", filepath, paste0(names(table(nu))[table(nu) > 1], collapse = ","))
     }
 
@@ -242,12 +247,23 @@ validateOSD <- function(logfile, filepath) {
     }
 
     if (length(parts) > 0) {
-      lpart <- lapply(parts, function(p) {
-        idx_start <- grep(pattern = markheaders[p], x = raw, fixed = TRUE)[1]
-        idx_next <- pmatch(markheaders[p + 1], raw)
+      lpart <- lapply(seq_along(parts), function(pii) {
+        p <- parts[pii]
+        idx_start <- grep(pattern = markheaders[p], x = raw, fixed = TRUE)
+
+        if (length(idx_start) > 1)
+          idx_start <- idx_start[pii]
+
+        idx_next <- grep(markheaders[p + 1], raw, fixed = TRUE)
+        tag_next <- grep("([A-Z`']{2}[A-Z ().`']+[A-Za-z)`']{2}) ?[:;] ?.*", raw)
+
+        idx_new <- pmin(tag_next[which(tag_next > idx_start)[1]] - 1,
+                        idx_next[which(idx_next > idx_start)[1]] - 1,
+                        length(raw), na.rm = TRUE)[1]
+
         idx_stop <- ifelse(test = (i == length(headerpatterns)),
                            yes = length(raw),
-                           no =  ifelse(is.na(idx_next), length(raw), idx_next - 1))
+                           no =  idx_new)
 
         # # : when and why do these get invoked?
         if (length(idx_start) == 0 | length(idx_stop) == 0) {
@@ -264,7 +280,10 @@ validateOSD <- function(logfile, filepath) {
         return(list(section = markheaders[p],
                     content = paste0(raw[unique(idx_start:idx_stop)], collapse = "\n")))
       })
+
+      # TODO: resolve duplication with unique() to hide exact duplicates (common c/p error)
       lpartc <- Map('c', lpart)
+
       if (length(lpartc) > 0)
         return(as.list(apply(do.call(rbind, lpartc), 2, paste, collapse = " & ")))
     }
