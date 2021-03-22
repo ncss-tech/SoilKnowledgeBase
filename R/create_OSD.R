@@ -200,7 +200,7 @@ validateOSD <- function(logfile, filepath) {
   markheaders <- trimws(gsub(paste0("\\b", marker_self2, "\\b"), "", markers))
 
   # all section headers begin with capitals, and contain capitals up to the colon
-  bad.idx <- grep("[a-z]", markheaders)
+  bad.idx <- grep("[a-z1-9]", markheaders)
 
   # has typical pedon
   typ.idx <- grep("ty[pic]+al pedon", markheaders, ignore.case = TRUE)
@@ -212,7 +212,7 @@ validateOSD <- function(logfile, filepath) {
   # TODO: abstract and generalize these into rules
 
   # these are non-canonical headers (with colons) that should be collapsed within RIC, REMARKS, etc
-  bad.idx <- unique(c(bad.idx, grep("SAR|SLOPE|NAD83|MLRA[s(:]|NSTH 17", markheaders)))
+  bad.idx <- unique(c(bad.idx, grep("SAR|SLOPE|NAD83|MLRA[s(:]|NSTH 17|NOTES|NOTE", markheaders)))
 
   if (length(bad.idx) > 0) {
     nu <- markheaders[-bad.idx]
@@ -241,7 +241,7 @@ validateOSD <- function(logfile, filepath) {
                       "DISTRIBUTION AND EXTENT|DISTRIBUTION|EXTENT",
                       "SOIL SURVEY REGIONAL OFFICE",
                       "(SERIES )?(ESTABLISHED|PROPOSED)",
-                      "REMARKS|NOTE|ADDITIONAL DATA|DIAGNOSTIC HORIZONS AND OTHER FEATURES RECOGNIZED")
+                      "REMARKS|ADDITIONAL DATA|DIAGNOSTIC HORIZONS AND OTHER FEATURES RECOGNIZED")
 
   names(headerpatterns) <- c("TAXONOMIC CLASS",
                              "TYPICAL PEDON",
