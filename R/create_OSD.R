@@ -88,9 +88,23 @@ validateOSD <- function(logfile, filepath) {
   raw <- scan(file = filepath,
               what = character(),
               sep = "\n", quiet = TRUE)
+
   raw <- stringi::stri_trans_general(raw, "Latin-ASCII")
 
   raw <- trimws(raw[trimws(raw) != ""])
+
+  ser.raw.idx <- grep("SERIES$", raw)[1]
+  tax.raw.idx <- grep("TAXONOMIC CLASS[:]", raw)[1]
+  brief.desc.idx <- which(1:length(raw) > ser.raw.idx &
+                            1:length(raw) < tax.raw.idx)
+
+  # capture any info between ALPHA SERIES and TAXONOMIC CLASS:
+  if (length(brief.desc.idx) > 0) {
+    brief.desc <- raw[brief.desc.idx]
+    raw <- raw[-brief.desc.idx]
+  } else {
+    brief.desc <- NA
+  }
 
   # this should be the last line in OSD
   raw.max.idx <- grep("^U\\.S\\.A\\.$", raw)
@@ -100,24 +114,43 @@ validateOSD <- function(logfile, filepath) {
     raw.max.idx <- length(raw)
   } else if(length(raw.max.idx) > 1) {
     # this shouldnt happen (but it does) -- duplicated OSD contents e.g. HEDVILLE
-    logmsg(logfile, "CHECK FOR DUPLICATION: %s", filepath)
+    logmsg(logfile, "DUPLICATE 'U.S.A.' END OF FILE MARKER: %s", filepath)
   }
 
   # handle only first instance where OSD is duplicated
   raw <- raw[1:raw.max.idx[1]]
 
   # TODO: abstract and generalize these into rules
-  x <- trimws(raw[-grep("^([A-Z '`][A-Z'`][A-Z .`']+)", raw, invert = TRUE)])
+  x <- trimws(raw[-grep("[A-Z '`][A-Z\\.'`]{2}[A-Z `']+.*|Typical [Pp]edon ?[:;\\-] .*|[A-Z]{3,}[:].*", raw, invert = TRUE)])
+
+  if (length(x) != length(unique(x))) {
+    logmsg(logfile, "CHECK DUPLICATION OF HEADERS: %s", filepath)
+  }
 
   loc.idx <- grep("^LOCATION", x)[1]
   ser.idx <- grep("SERIES$", x)[1]
-  rem.idx <- grep("SERIES ESTABLISHED[:]|SERIES PROPOSED[:]|ESTABLISHED SERIES[:]|PROPOSED SERIES[:]|REMARKS[:]", x)
-  rem.idx <- rem.idx[length(rem.idx)]
-  # grep("REMARKS|NOTE|ADDITIONAL DATA", x)[1]
+  lst.idx <- grep("SERIES ESTABLISHED[:]|SERIES PROPOSED[:]|ESTABLISHED SERIES[:]|PROPOSED SERIES[:]", x)
+  lst.idx <- lst.idx[length(lst.idx)]
+
+  rem.idx <- grep("REMARKS[:]", x)
+
+  if (length(rem.idx) == 0) {
+    alt.idx <- grep("ADDITIONAL DATA|DIAGNOSTIC HORIZONS AND OTHER FEATURES RECOGNIZED", x)
+    if (length(alt.idx) > 0) {
+      if (any(alt.idx > lst.idx))
+        rem.idx <- max(alt.idx, TRUE)
+    } else {
+      rem.idx <- lst.idx
+    }
+  } else {
+    rem.idx <- rem.idx[1]
+  }
 
   # unable to locate location and series
-  if (is.na(loc.idx) | is.na(ser.idx) | length(x) == 0)
+  if (is.na(loc.idx) | is.na(ser.idx) | length(x) == 0) {
+    logmsg(logfile, "CHECK LOCATION AND/OR SERIES: %s", filepath)
     return(FALSE)
+  }
 
   if (length(rem.idx) == 0) {
     # these have some sort of malformed series status
@@ -126,7 +159,8 @@ validateOSD <- function(logfile, filepath) {
   }
 
   # TODO: abstract and generalize these into rules
-  markers <- trimws(gsub("^([A-Z`']{2}[A-Z ().`']+[A-Za-z)`']{2}) ?[:;] ?.*|(USE): .*", "\\1\\2",
+  markers <- trimws(gsub("^([A-Z`']{2}[A-Z ().`']+[A-Za-z)`']{2}) ?[:;] ?.*|(USE): .*|(TY[PIC]+AL +PEDON)[ \\-]+.*|^(Typical +[Pp]edon) ?[;:\\-]+.*",
+                         "\\1\\2\\3\\4",
                          x[(ser.idx + 1):rem.idx]))
   marker_self1 <- trimws(unlist(strsplit(gsub("LOCATION +([A-Z .`']+) {2,}\\d?([A-Z\\+]+)", "\\1;\\2",
                                               x[loc.idx]), ";")))
@@ -165,21 +199,26 @@ validateOSD <- function(logfile, filepath) {
   # remove whole series name if used in header
   markheaders <- trimws(gsub(paste0("\\b", marker_self2, "\\b"), "", markers))
 
-  # TODO: abstract and generalize these into rules
   # all section headers begin with capitals, and contain capitals up to the colon
-  bad.idx <- grep("[a-z]", markheaders)
+  bad.idx <- grep("[a-z1-9]", markheaders)
+
+  # has typical pedon
+  typ.idx <- grep("ty[pic]+al pedon", markheaders, ignore.case = TRUE)
+  if (length(typ.idx) > 0) {
+    if (any(typ.idx %in% bad.idx))
+      bad.idx <- bad.idx[!(bad.idx %in% typ.idx)]
+  }
 
   # TODO: abstract and generalize these into rules
 
-  # these are things that should be collapsed within RIC, REMARKS, etc
-  bad.idx <- c(bad.idx, grep("SAR|SLOPE|NAD83", markheaders))
+  # these are non-canonical headers (with colons) that should be collapsed within RIC, REMARKS, etc
+  bad.idx <- unique(c(bad.idx, grep("SAR|SLOPE|NAD83|MLRA[s(:]|NSTH 17|NOTES|NOTE", markheaders)))
 
   if (length(bad.idx) > 0) {
     nu <- markheaders[-bad.idx]
     tst <- unique(nu)
 
     if (length(tst) != length(nu)) {
-      # This is never invoked
       logmsg(logfile, "CHECK: Duplicate sections: %s [%s]", filepath, paste0(names(table(nu))[table(nu) > 1], collapse = ","))
     }
 
@@ -191,9 +230,9 @@ validateOSD <- function(logfile, filepath) {
   # TODO: abstract and generalize these into rules
 
   headerpatterns <- c("TAXONOMIC CLASS",
-                      "TYPI(CI?AL|FYING) PEDON|SOIL PROFILE",
+                      "TY[PIC]+(AL|FYING) PEDON|SOIL PROFILE|Typical [Pp]edon",
                       "TYPE LOCATION",
-                      "RANGE (IN|OF) CHARACTERISTICS|RANGE OF INDIVIDUAL HORIZONS",
+                      "RANGE IN CHARACTERISTICS|RANGE OF CHARACTERISTICS|RANGE OF INDIVIDUAL HORIZONS",
                       "COMPETING SERIES",
                       "GEOGRAPHICA?L? SETTINGS?|SETTING",
                       "ASSOCIATED SOILS",
@@ -202,7 +241,7 @@ validateOSD <- function(logfile, filepath) {
                       "DISTRIBUTION AND EXTENT|DISTRIBUTION|EXTENT",
                       "SOIL SURVEY REGIONAL OFFICE",
                       "(SERIES )?(ESTABLISHED|PROPOSED)",
-                      "REMARKS|NOTE|ADDITIONAL DATA")
+                      "REMARKS|ADDITIONAL DATA|DIAGNOSTIC HORIZONS AND OTHER FEATURES RECOGNIZED")
 
   names(headerpatterns) <- c("TAXONOMIC CLASS",
                              "TYPICAL PEDON",
@@ -235,12 +274,31 @@ validateOSD <- function(logfile, filepath) {
     }
 
     if (length(parts) > 0) {
-      lpart <- lapply(parts, function(p) {
-        idx_start <- grep(pattern = markheaders[p], x = raw, fixed = TRUE)[1]
-        idx_next <- pmatch(markheaders[p + 1], raw)
+      lpart <- lapply(seq_along(parts), function(pii) {
+        p <- parts[pii]
+        idx_start <- grep(pattern = markheaders[p], x = raw, fixed = TRUE)
+
+        if (length(idx_start) > 1) {
+          idx_start <- idx_start[pii]
+        }
+
+        if (length(idx_start) == 0 | is.na(idx_start)) {
+          idx_start <- grep(pattern = markheaders[p - 1], x = raw, fixed = TRUE)
+        }
+
+        idx_next <- grep(markheaders[p + 1], raw, fixed = TRUE)
+        tag_next <- sort(as.numeric(sapply(headerpatterns[i:length(headerpatterns)], function(xx) {
+            y <- grep(xx, raw[idx_start:length(raw)], fixed = TRUE) + idx_start - 1
+            return(y[length(y)])
+          })))
+
+        idx_new <- pmin(ifelse(tag_next[1] > idx_start, tag_next[1], length(raw)),
+                        idx_next[which(idx_next > idx_start)[1]] - 1,
+                        length(raw), na.rm = TRUE)[1]
+
         idx_stop <- ifelse(test = (i == length(headerpatterns)),
                            yes = length(raw),
-                           no =  ifelse(is.na(idx_next), length(raw), idx_next - 1))
+                           no =  idx_new)
 
         # # : when and why do these get invoked?
         if (length(idx_start) == 0 | length(idx_stop) == 0) {
@@ -248,6 +306,7 @@ validateOSD <- function(logfile, filepath) {
           return(list(section = markheaders[p],
                       content = NA))
         }
+
         if (is.na(idx_start) | is.na(idx_stop)) {
           logmsg(logfile, "DEBUG: idx_start/idx_stop are NA")
           return(list(section = markheaders[p],
@@ -257,7 +316,10 @@ validateOSD <- function(logfile, filepath) {
         return(list(section = markheaders[p],
                     content = paste0(raw[unique(idx_start:idx_stop)], collapse = "\n")))
       })
+
+      # TODO: resolve duplication with unique() to hide exact duplicates (common c/p error)
       lpartc <- Map('c', lpart)
+
       if (length(lpartc) > 0)
         return(as.list(apply(do.call(rbind, lpartc), 2, paste, collapse = " & ")))
     }
@@ -273,6 +335,7 @@ validateOSD <- function(logfile, filepath) {
                  BYREV = raw[loc.idx + 2],
                  REVDATE = raw[loc.idx + 3],
                  STATES = what_states),
+                 # OVERVIEW = paste0(brief.desc, collapse = "\n")),
             rez)
 
   rez2[is.na(names(rez2))] <- NULL
