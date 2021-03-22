@@ -334,8 +334,8 @@ validateOSD <- function(logfile, filepath) {
                  STATUS = raw[loc.idx + 1],
                  BYREV = raw[loc.idx + 2],
                  REVDATE = raw[loc.idx + 3],
-                 STATES = what_states),
-                 # OVERVIEW = paste0(brief.desc, collapse = "\n")),
+                 STATES = what_states,
+                 OVERVIEW = paste0(brief.desc, collapse = "\n")),
             rez)
 
   rez2[is.na(names(rez2))] <- NULL
