@@ -115,9 +115,20 @@ validateOSD <- function(logfile, filepath) {
 
   loc.idx <- grep("^LOCATION", x)[1]
   ser.idx <- grep("SERIES$", x)[1]
-  rem.idx <- grep("SERIES ESTABLISHED[:]|SERIES PROPOSED[:]|ESTABLISHED SERIES[:]|PROPOSED SERIES[:]|REMARKS[:]", x)
-  rem.idx <- rem.idx[length(rem.idx)]
-  # grep("REMARKS|NOTE|ADDITIONAL DATA", x)[1]
+  lst.idx <- grep("SERIES ESTABLISHED[:]|SERIES PROPOSED[:]|ESTABLISHED SERIES[:]|PROPOSED SERIES[:]", x)
+  lst.idx <- lst.idx[length(lst.idx)]
+
+  rem.idx <- grep("REMARKS[:]", x)[1]
+
+  if (length(rem.idx) == 0) {
+    alt.idx <- grep("ADDITIONAL DATA|DIAGNOSTIC HORIZONS AND OTHER FEATURES RECOGNIZED", x)
+    if (length(alt.idx) > 0) {
+      if (any(alt.idx > lst.idx))
+        rem.idx <- max(alt.idx, TRUE)
+    } else {
+      rem.idx <- lst.idx
+    }
+  }
 
   # unable to locate location and series
   if (is.na(loc.idx) | is.na(ser.idx) | length(x) == 0) {
@@ -185,7 +196,7 @@ validateOSD <- function(logfile, filepath) {
   # TODO: abstract and generalize these into rules
 
   # these are non-canonical headers (with colons) that should be collapsed within RIC, REMARKS, etc
-  bad.idx <- c(bad.idx, grep("SAR|SLOPE|NAD83|MLRA\\(S\\)|NSTH 17", markheaders))
+  bad.idx <- unique(c(bad.idx, grep("SAR|SLOPE|NAD83|MLRA[s(:]|NSTH 17", markheaders)))
 
   if (length(bad.idx) > 0) {
     nu <- markheaders[-bad.idx]
@@ -212,9 +223,9 @@ validateOSD <- function(logfile, filepath) {
                       "DRAINAGE AND (PERMEABILITY|SATURATED HYDRAULIC CONDUCTIVITY)|PERMEABILITY|DRAINAGE CLASS|DRAINAGE",
                       "USE AND VEGETATION|VEGETATION|USE",
                       "DISTRIBUTION AND EXTENT|DISTRIBUTION|EXTENT",
-                      "SOIL SURVEY REGIONAL OFFICE|MLRA",
+                      "SOIL SURVEY REGIONAL OFFICE",
                       "(SERIES )?(ESTABLISHED|PROPOSED)",
-                      "REMARKS|NOTE|ADDITIONAL DATA")
+                      "REMARKS|NOTE|ADDITIONAL DATA|DIAGNOSTIC HORIZONS AND OTHER FEATURES RECOGNIZED")
 
   names(headerpatterns) <- c("TAXONOMIC CLASS",
                              "TYPICAL PEDON",
@@ -255,9 +266,12 @@ validateOSD <- function(logfile, filepath) {
           idx_start <- idx_start[pii]
 
         idx_next <- grep(markheaders[p + 1], raw, fixed = TRUE)
-        tag_next <- grep("([A-Z`']{2}[A-Z ().`']+[A-Za-z)`']{2}) ?[:;] ?.*", raw)
+        tag_next <- sort(as.numeric(sapply(headerpatterns[i:length(headerpatterns)], function(xx) {
+            y <- grep(xx, raw[idx_start:length(raw)], fixed = TRUE) + idx_start - 1
+            return(y[length(y)])
+          })))
 
-        idx_new <- pmin(tag_next[which(tag_next > idx_start)[1]] - 1,
+        idx_new <- pmin(tag_next[1] - 1,
                         idx_next[which(idx_next > idx_start)[1]] - 1,
                         length(raw), na.rm = TRUE)[1]
 
@@ -271,6 +285,7 @@ validateOSD <- function(logfile, filepath) {
           return(list(section = markheaders[p],
                       content = NA))
         }
+
         if (is.na(idx_start) | is.na(idx_stop)) {
           logmsg(logfile, "DEBUG: idx_start/idx_stop are NA")
           return(list(section = markheaders[p],
