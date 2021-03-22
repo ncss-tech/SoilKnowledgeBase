@@ -88,9 +88,23 @@ validateOSD <- function(logfile, filepath) {
   raw <- scan(file = filepath,
               what = character(),
               sep = "\n", quiet = TRUE)
+
   raw <- stringi::stri_trans_general(raw, "Latin-ASCII")
 
   raw <- trimws(raw[trimws(raw) != ""])
+
+  ser.raw.idx <- grep("SERIES$", raw)[1]
+  tax.raw.idx <- grep("TAXONOMIC CLASS[:]", raw)[1]
+  brief.desc.idx <- which(1:length(raw) > ser.raw.idx &
+                            1:length(raw) < tax.raw.idx)
+
+  # capture any info between ALPHA SERIES and TAXONOMIC CLASS:
+  if (length(brief.desc.idx) > 0) {
+    brief.desc <- raw[brief.desc.idx]
+    raw <- raw[-brief.desc.idx]
+  } else {
+    brief.desc <- NA
+  }
 
   # this should be the last line in OSD
   raw.max.idx <- grep("^U\\.S\\.A\\.$", raw)
@@ -118,7 +132,7 @@ validateOSD <- function(logfile, filepath) {
   lst.idx <- grep("SERIES ESTABLISHED[:]|SERIES PROPOSED[:]|ESTABLISHED SERIES[:]|PROPOSED SERIES[:]", x)
   lst.idx <- lst.idx[length(lst.idx)]
 
-  rem.idx <- grep("REMARKS[:]", x)[1]
+  rem.idx <- grep("REMARKS[:]", x)
 
   if (length(rem.idx) == 0) {
     alt.idx <- grep("ADDITIONAL DATA|DIAGNOSTIC HORIZONS AND OTHER FEATURES RECOGNIZED", x)
@@ -128,6 +142,8 @@ validateOSD <- function(logfile, filepath) {
     } else {
       rem.idx <- lst.idx
     }
+  } else {
+    rem.idx <- rem.idx[1]
   }
 
   # unable to locate location and series
@@ -262,8 +278,13 @@ validateOSD <- function(logfile, filepath) {
         p <- parts[pii]
         idx_start <- grep(pattern = markheaders[p], x = raw, fixed = TRUE)
 
-        if (length(idx_start) > 1)
+        if (length(idx_start) > 1) {
           idx_start <- idx_start[pii]
+        }
+
+        if (length(idx_start) == 0 | is.na(idx_start)) {
+          idx_start <- grep(pattern = markheaders[p - 1], x = raw, fixed = TRUE)
+        }
 
         idx_next <- grep(markheaders[p + 1], raw, fixed = TRUE)
         tag_next <- sort(as.numeric(sapply(headerpatterns[i:length(headerpatterns)], function(xx) {
@@ -271,7 +292,7 @@ validateOSD <- function(logfile, filepath) {
             return(y[length(y)])
           })))
 
-        idx_new <- pmin(tag_next[1] - 1,
+        idx_new <- pmin(ifelse(tag_next[1] > idx_start, tag_next[1], length(raw)),
                         idx_next[which(idx_next > idx_start)[1]] - 1,
                         length(raw), na.rm = TRUE)[1]
 
@@ -314,6 +335,7 @@ validateOSD <- function(logfile, filepath) {
                  BYREV = raw[loc.idx + 2],
                  REVDATE = raw[loc.idx + 3],
                  STATES = what_states),
+                 # OVERVIEW = paste0(brief.desc, collapse = "\n")),
             rez)
 
   rez2[is.na(names(rez2))] <- NULL
