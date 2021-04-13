@@ -11,7 +11,7 @@ create_KST <- function(...) {
   download_pdf <- TRUE
   if (!is.null(args[["download_pdf"]])) {
     download_pdf <- args[["download_pdf"]]
-  }
+  } 
 
   keep_pdf <- FALSE
   if (!is.null(args[["keep_pdf"]])) {
@@ -366,10 +366,11 @@ create_KST <- function(...) {
             fts[[i]] <- st_def[idx[i]:endidx,]
           }
 
-          features <- lapply(fts[1:(length(fts))], parse_feature)
+          features <- lapply(fts, parse_feature)
           names(features) <- lapply(features, function(f) paste(f$name, f$page))
 
           masterfeaturenames <- c(
+              "Mineral Soil Material 3",
               "Diagnostic Surface Horizons: 7",
               "Diagnostic Subsurface Horizons 11",
               "Diagnostic Soil Characteristics for Mineral 17",
@@ -380,7 +381,8 @@ create_KST <- function(...) {
               "Family Differentiae for Organic Soils 331",
               "Series Differentiae Within a Family 333")
 
-          newmasterfeaturenames <- c("Surface","Subsurface","Mineral",
+          newmasterfeaturenames <- c("Soil Materials", 
+                                     "Surface","Subsurface","Mineral",
                                      "Organic","Mineral or Organic",
                                      "Human","Mineral Family",
                                      "Organic Family", "Series")
