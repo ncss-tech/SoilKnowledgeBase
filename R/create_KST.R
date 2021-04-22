@@ -16,7 +16,7 @@ create_KST <- function(...) {
   keep_pdf <- FALSE
   if (!is.null(args[["keep_pdf"]])) {
     keep_pdf <- args[["keep_pdf"]]
-  }
+  } 
 
   attempt <- try({
     languages <- c("EN", "SP")
@@ -976,9 +976,12 @@ get_diagnostic_search_list <- function(language = "EN") {
     "Cation-Exchange Activity Classes",
     "Use of Cation-Exchange Activity Classes",
     "Key to Cation-Exchange Activity Classes",
-    "Reaction Classes",
+    "Calcareous and Reaction Classes of Mineral Soils",
     "Soil Temperature Classes",
     "Soil Depth Classes",
+    "Rupture-Resistance Classes",
+    "Classes of Coatings on Sands",
+    "Classes of Permanent Cracks",
     "Family Differentiae for Organic Soils",
     "Particle-Size Classes",
     "Control Section for Particle-Size Classes",
