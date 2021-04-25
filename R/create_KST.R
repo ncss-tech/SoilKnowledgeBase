@@ -139,31 +139,33 @@ create_KST <- function(...) {
         st$content[andfix - 1] <- paste0(st$content[andfix - 1], " and")
 
         # fix PSCS and HAHT headers
-
-
-        idx <- sapply(
-          c(
-            "Subgroups for Human-Altered and Human\\-",
-            "Family Differentiae for Mineral Soils and",
-            "Control Section for Particle-Size Classes and Their",
-            "Key to the Particle-Size and Substitute Classes of Mineral",
-            "Use of Human-Altered and Human-Transported Material",
-            "Key to Human-Altered and Human-Transported Material",
-            "Key to the Control Section for Human-Altered and Human-",
-            "Control Section for the Ferrihumic Mineralogy Class and",
-            "Control Section for Mineralogy Classes Applied Only to",
-            "Key to the Control Section for the Differentiation"
-          ), grep,
-          st$content)
-        idxp1 <- idx + 1
-        st$content[idx] <-
-          paste(st$content[idx],
-            # ifelse(
-            #         endsWith(st$content[idx], "-"),
-            #      st$content[idx],
-            #         paste0(st$content[idx] , " ")),
-                st$content[idxp1])
-        st$content[idxp1] <- ""
+        # TODO: extend feature and family keys to language="SP"
+        if(language == "EN") {
+          idx <- sapply(
+            c(
+              "Subgroups for Human-Altered and Human\\-",
+              "Family Differentiae for Mineral Soils and",
+              "Control Section for Particle-Size Classes and Their",
+              "Key to the Particle-Size and Substitute Classes of Mineral",
+              "Use of Human-Altered and Human-Transported Material",
+              "Key to Human-Altered and Human-Transported Material",
+              "Key to the Control Section for Human-Altered and Human-",
+              "Control Section for the Ferrihumic Mineralogy Class and",
+              "Control Section for Mineralogy Classes Applied Only to",
+              "Key to the Control Section for the Differentiation"
+            ), grep,
+            st$content)
+          if(length(idx) > 0) {
+            idxp1 <- idx + 1
+            st$content[idx] <-
+              paste(st$content[idx],
+                    # ifelse(endsWith(st$content[idx], "-"),
+                    #        st$content[idx],
+                    #        paste0(st$content[idx] , " ")),
+                    st$content[idxp1])
+            st$content[idxp1] <- ""
+          }
+        }
 
         # errata syntax and language fixes
 
