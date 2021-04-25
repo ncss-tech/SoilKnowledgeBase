@@ -11,12 +11,12 @@ create_KST <- function(...) {
   download_pdf <- TRUE
   if (!is.null(args[["download_pdf"]])) {
     download_pdf <- args[["download_pdf"]]
-  } 
+  }
 
   keep_pdf <- FALSE
   if (!is.null(args[["keep_pdf"]])) {
     keep_pdf <- args[["keep_pdf"]]
-  } 
+  }
 
   attempt <- try({
     languages <- c("EN", "SP")
@@ -137,6 +137,40 @@ create_KST <- function(...) {
         andfix <- grep("^and$|^y$", st$content)
         st$content[orfix - 1] <- paste0(st$content[orfix - 1], " or")
         st$content[andfix - 1] <- paste0(st$content[andfix - 1], " and")
+
+        # fix PSCS and HAHT headers
+        # TODO: extend feature and family keys to language="SP"
+        if(language == "EN") {
+          idx <- sapply(
+            c("^Characteristics Diagnostic for",
+              "Anthropogenic Landforms and",
+              "Subgroups for Human-Altered and Human\\-",
+              "Family Differentiae for Mineral Soils and",
+              "Control Section for Particle-Size Classes and Their",
+              "Key to the Particle-Size and Substitute Classes of Mineral",
+              "Use of Human-Altered and Human-Transported Material",
+              "Key to Human-Altered and Human-Transported Material",
+              "Key to the Control Section for Human-Altered and Human-",
+              "Control Section for the Ferrihumic Mineralogy Class and",
+              "Control Section for Mineralogy Classes Applied Only to",
+              "Key to the Control Section for the Differentiation"
+            ), grep,
+            st$content)
+          if (is.list(idx)) {
+            idx <- do.call('c', idx)
+          }
+          if (length(idx) > 0) {
+            idxp1 <- idx + 1
+            st$content[idx] <- paste(st$content[idx], trimws(st$content[idxp1]))
+            st$content[idxp1] <- ""
+          }
+
+          haht.idx <- grep("Human-Altered and Human-$", st$content)
+          st$content[haht.idx] <- paste0(trimws(st$content[haht.idx:(haht.idx+2)]), collapse="")
+          st$content[haht.idx+(1:2)] <- ""
+
+          st$content <- gsub("Human\\- T", "Human-T", st$content)
+        }
 
         # errata syntax and language fixes
 
@@ -350,7 +384,7 @@ create_KST <- function(...) {
 
         last <- 1
         idx <- unlist(lapply(diagnostic_features, function(x) {
-          res <- grep(pattern = sprintf("^%s$", x), st_def$content, ignore.case = FALSE)
+          res <- grep(pattern = sprintf("^%s", x), st_def$content, ignore.case = FALSE)
           if (length(res) > 1)
             res <- res[res > last][1]
           last <<- res
@@ -374,14 +408,14 @@ create_KST <- function(...) {
               "Diagnostic Surface Horizons: 7",
               "Diagnostic Subsurface Horizons 11",
               "Diagnostic Soil Characteristics for Mineral 17",
-              "Characteristics Diagnostic for 23",
+              "Characteristics Diagnostic for Organic Soils 23",
               "Horizons and Characteristics 26",
-              "Characteristics Diagnostic for 32",
-              "Family Differentiae for Mineral Soils and 317",
+              "Characteristics Diagnostic for Human-Altered and Human-Transported Soils 32",
+              "Family Differentiae for Mineral Soils and Mineral Layers of Some Organic Soils 317",
               "Family Differentiae for Organic Soils 331",
               "Series Differentiae Within a Family 333")
 
-          newmasterfeaturenames <- c("Soil Materials", 
+          newmasterfeaturenames <- c("Soil Materials",
                                      "Surface","Subsurface","Mineral",
                                      "Organic","Mineral or Organic",
                                      "Human","Mineral Family",
@@ -404,6 +438,7 @@ create_KST <- function(...) {
           }))
           rownames(featurelist) <- NULL
           featurelist <- tibble::as_tibble(featurelist)
+          featurelist$description <- trimws(featurelist$description)
           write(convert_to_json(featurelist), file = "./inst/extdata/KST/2014_KST_EN_featurelist.json")
         }
 
@@ -919,7 +954,7 @@ get_diagnostic_search_list <- function(language = "EN") {
     "Spodic Materials",
     "Volcanic Glass",
     "Weatherable Minerals",
-    "Characteristics Diagnostic for",
+    "Characteristics Diagnostic for Organic Soils",
     "Kinds of Organic Soil Materials",
     "Fibers",
     "Fibric Soil Materials",
@@ -944,14 +979,15 @@ get_diagnostic_search_list <- function(language = "EN") {
     "Glacic Layer",
     "Lithic Contact",
     "Paralithic Contact",
-    "Paralithic materials",
+    "Paralithic Materials",
     "Permafrost",
     "Soil Moisture Regimes",
     "Soil Moisture Control Section",
     "Classes of Soil Moisture Regimes",
     "Sulfidic Materials",
     "Sulfuric Horizon",
-    "Characteristics Diagnostic for",
+    "Characteristics Diagnostic for Human-Altered and Human-Transported Soils",
+    "Anthropogenic Landforms",
     "Anthropogenic Landforms",
     "Constructional Anthropogenic Landforms",
     "Destructional Anthropogenic Landforms",
@@ -970,8 +1006,10 @@ get_diagnostic_search_list <- function(language = "EN") {
     "Strongly Contrasting Particle-Size Classes",
     "Use of Human-Altered and Human-Transported Material",
     "Key to Human-Altered and Human-Transported Material",
-    "Key to the Control Section for Human-Altered and Human-",
+    "Key to the Control Section for Human-Altered and Human-Transported Material Classes",
+    "Key to Human-Altered and Human-Transported Material Classes",
     "Mineralogy Classes",
+    "Control Section for Mineralogy Classes",
     "Key to Mineralogy Classes",
     "Cation-Exchange Activity Classes",
     "Use of Cation-Exchange Activity Classes",
