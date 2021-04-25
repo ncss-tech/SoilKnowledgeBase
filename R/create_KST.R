@@ -142,7 +142,8 @@ create_KST <- function(...) {
         # TODO: extend feature and family keys to language="SP"
         if(language == "EN") {
           idx <- sapply(
-            c(
+            c("^Characteristics Diagnostic for",
+              "Anthropogenic Landforms and",
               "Subgroups for Human-Altered and Human\\-",
               "Family Differentiae for Mineral Soils and",
               "Control Section for Particle-Size Classes and Their",
@@ -155,16 +156,20 @@ create_KST <- function(...) {
               "Key to the Control Section for the Differentiation"
             ), grep,
             st$content)
-          if(length(idx) > 0) {
+          if (is.list(idx)) {
+            idx <- do.call('c', idx)
+          }
+          if (length(idx) > 0) {
             idxp1 <- idx + 1
-            st$content[idx] <-
-              paste(st$content[idx],
-                    # ifelse(endsWith(st$content[idx], "-"),
-                    #        st$content[idx],
-                    #        paste0(st$content[idx] , " ")),
-                    st$content[idxp1])
+            st$content[idx] <- paste(st$content[idx], trimws(st$content[idxp1]))
             st$content[idxp1] <- ""
           }
+
+          haht.idx <- grep("Human-Altered and Human-$", st$content)
+          st$content[haht.idx] <- paste0(trimws(st$content[haht.idx:(haht.idx+2)]), collapse="")
+          st$content[haht.idx+(1:2)] <- ""
+
+          st$content <- gsub("Human\\- T", "Human-T", st$content)
         }
 
         # errata syntax and language fixes
@@ -403,9 +408,9 @@ create_KST <- function(...) {
               "Diagnostic Surface Horizons: 7",
               "Diagnostic Subsurface Horizons 11",
               "Diagnostic Soil Characteristics for Mineral 17",
-              "Characteristics Diagnostic for 23",
+              "Characteristics Diagnostic for Organic Soils 23",
               "Horizons and Characteristics 26",
-              "Characteristics Diagnostic for 32",
+              "Characteristics Diagnostic for Human-Altered and Human-Transported Soils 32",
               "Family Differentiae for Mineral Soils and Mineral Layers of Some Organic Soils 317",
               "Family Differentiae for Organic Soils 331",
               "Series Differentiae Within a Family 333")
@@ -433,6 +438,7 @@ create_KST <- function(...) {
           }))
           rownames(featurelist) <- NULL
           featurelist <- tibble::as_tibble(featurelist)
+          featurelist$description <- trimws(featurelist$description)
           write(convert_to_json(featurelist), file = "./inst/extdata/KST/2014_KST_EN_featurelist.json")
         }
 
@@ -948,7 +954,7 @@ get_diagnostic_search_list <- function(language = "EN") {
     "Spodic Materials",
     "Volcanic Glass",
     "Weatherable Minerals",
-    "Characteristics Diagnostic for",
+    "Characteristics Diagnostic for Organic Soils",
     "Kinds of Organic Soil Materials",
     "Fibers",
     "Fibric Soil Materials",
@@ -973,14 +979,15 @@ get_diagnostic_search_list <- function(language = "EN") {
     "Glacic Layer",
     "Lithic Contact",
     "Paralithic Contact",
-    "Paralithic materials",
+    "Paralithic Materials",
     "Permafrost",
     "Soil Moisture Regimes",
     "Soil Moisture Control Section",
     "Classes of Soil Moisture Regimes",
     "Sulfidic Materials",
     "Sulfuric Horizon",
-    "Characteristics Diagnostic for",
+    "Characteristics Diagnostic for Human-Altered and Human-Transported Soils",
+    "Anthropogenic Landforms",
     "Anthropogenic Landforms",
     "Constructional Anthropogenic Landforms",
     "Destructional Anthropogenic Landforms",
@@ -999,8 +1006,10 @@ get_diagnostic_search_list <- function(language = "EN") {
     "Strongly Contrasting Particle-Size Classes",
     "Use of Human-Altered and Human-Transported Material",
     "Key to Human-Altered and Human-Transported Material",
-    "Key to the Control Section for Human-Altered and Human-",
+    "Key to the Control Section for Human-Altered and Human-Transported Material Classes",
+    "Key to Human-Altered and Human-Transported Material Classes",
     "Mineralogy Classes",
+    "Control Section for Mineralogy Classes",
     "Key to Mineralogy Classes",
     "Cation-Exchange Activity Classes",
     "Use of Cation-Exchange Activity Classes",
