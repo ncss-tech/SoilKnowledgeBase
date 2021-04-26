@@ -5,6 +5,7 @@
 #' @return TRUE if successful
 #' @export
 #' @importFrom tibble as_tibble
+#' @importFrom stringi stri_enc_toascii
 create_KST <- function(...) {
   args <- list(...)
   message("Creating Keys to Soil Taxonomy (12th Edition) datasets...")
@@ -142,7 +143,8 @@ create_KST <- function(...) {
         # TODO: extend feature and family keys to language="SP"
         if(language == "EN") {
           idx <- sapply(
-            c("^Characteristics Diagnostic for",
+            c("^Diagnostic Soil Characteristics for Mineral",
+              "^Characteristics Diagnostic for",
               "Anthropogenic Landforms and",
               "Subgroups for Human-Altered and Human\\-",
               "Family Differentiae for Mineral Soils and",
@@ -407,7 +409,7 @@ create_KST <- function(...) {
               "Mineral Soil Material 3",
               "Diagnostic Surface Horizons: 7",
               "Diagnostic Subsurface Horizons 11",
-              "Diagnostic Soil Characteristics for Mineral 17",
+              "Diagnostic Soil Characteristics for Mineral Soils 17",
               "Characteristics Diagnostic for Organic Soils 23",
               "Horizons and Characteristics 26",
               "Characteristics Diagnostic for Human-Altered and Human-Transported Soils 32",
@@ -438,7 +440,20 @@ create_KST <- function(...) {
           }))
           rownames(featurelist) <- NULL
           featurelist <- tibble::as_tibble(featurelist)
-          featurelist$description <- trimws(featurelist$description)
+
+          # force ASCII and convert some unicode characters
+          .clean_feature_string <- function(x) {
+            gsub("\u001a", "", gsub("\u001a\u001a\u001a", " ",
+                                    trimws(stringi::stri_enc_toascii(
+                                      gsub("\u201c|\u201d", '\\"',
+                                           gsub("\u2019", "'",
+                                                  gsub("\u2020", " [see footnote]",
+                                                       gsub("\u00bd", "1/2", x))))))))
+          }
+
+          featurelist$description <- .clean_feature_string(featurelist$description)
+          featurelist$criteria <- lapply(featurelist$criteria, .clean_feature_string)
+
           write(convert_to_json(featurelist), file = "./inst/extdata/KST/2014_KST_EN_featurelist.json")
         }
 
@@ -1012,11 +1027,14 @@ get_diagnostic_search_list <- function(language = "EN") {
     "Control Section for Mineralogy Classes",
     "Key to Mineralogy Classes",
     "Cation-Exchange Activity Classes",
-    "Use of Cation-Exchange Activity Classes",
+    "Use of the Cation-Exchange Activity Classes",
+    "Control Section for Cation-Exchange Activity Classes",
     "Key to Cation-Exchange Activity Classes",
     "Calcareous and Reaction Classes of Mineral Soils",
     "Soil Temperature Classes",
+    "Key to Soil Temperature Classes",
     "Soil Depth Classes",
+    "Key to Soil Depth Classes for Mineral Soils and Histels",
     "Rupture-Resistance Classes",
     "Classes of Coatings on Sands",
     "Classes of Permanent Cracks",
