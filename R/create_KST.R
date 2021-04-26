@@ -444,7 +444,7 @@ create_KST <- function(...) {
           # force ASCII and convert some unicode characters
           .clean_feature_string <- function(x) {
             gsub("\u001a", "", gsub("\u001a\u001a\u001a", " ",
-                                    trimws(stringi::stri_enc_toascii(gsub("“|”", '"',
+                                    trimws(stringi::stri_enc_toascii(gsub("\\u201c|\\u201d", '"',
                                                   gsub("\\u2020", " [see footnote]",
                                                        gsub("\\u00bd", "1/2", x)))))))
           }
