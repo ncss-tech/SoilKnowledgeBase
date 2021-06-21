@@ -1,0 +1,106 @@
+---
+title: "NSSH Part 629"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    mathjax: null
+    jquery: null
+    smart: no
+    number_sections: no
+    toc: yes
+    toc_depth: 3
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+```{r echo = FALSE}
+
+
+## ideas
+# https://stackoverflow.com/questions/26588350/programmatically-insert-text-headers-and-lists-with-r-markdown
+
+
+source('local-functions.R')
+
+
+library(jsonlite)
+
+sources <- fromJSON('json/sources.json')
+
+f <- list.files('json', pattern = 'glossary-*', full.names = TRUE)
+glossary <- lapply(f, fromJSON)
+
+names(glossary) <- letters
+
+
+```
+
+
+
+# Definition and Purpose
+This glossary provides the NCSS soil survey program, soil scientists, and natural resource specialists with landform, geologic, and related terms and their definitions to:
+ * Improve soil landscape description with a standard, single source landform and geologic glossary;
+ * Enhance geomorphic content and clarity of soil map unit descriptions by use of accurate, defined terms;
+ * Establish consistent geomorphic term usage in soil science and the National Cooperative Soil Survey (NCSS);
+ * Provide standard geomorphic definitions for databases and soil survey technical publications; and
+ * Train soil scientists and related professionals in soils as landscape and geomorphic entities.
+ 
+ 
+# Responsibilities
+This glossary serves as the official NCSSreference for landform, geologic, and related terms.  The staff of the National Soil Survey Center, located in Lincoln, NE, is responsible for maintaining and updating this glossary.  Soil and Plant Science Division staff and NCSS participants are encouraged to propose additions and changes to the glossary for use in pedon descriptions, soil map unit descriptions, and soil survey publications.  The Glossary of Geology (GG, 2005) serves as a major source for many glossary terms.  The American Geologic Institute (AGI) granted USDA-Natural Resources Conservation Service (formerly Soil Conservation Service) permission (in letters dated 9/11/85 and 9/22/93) to use existing definitions.  Sources of, and modifications to original definitions are explained immediately below.
+
+# Definitions
+
+## Reference Codes
+Sources from which definitions were taken, whole or in part, are identified by a code (e.g., GG) following each definition.  Underlined codes (e.g., GG) signify a definition modification of the original source.  The reference codes are
+
+```{r echo = FALSE, results='asis'}
+formatSourceList(sources)
+```
+
+## Clarifying Comments Included with Glossary Definitions
+(not recommended) use - denotes an unacceptable term (obsolete, poorly-defined, or erroneous) that should not be used.  The glossary provides alternative terms. 
+
+(not preferred) refer to - denotes a technically acceptable, but poorly-defined or outdated term that should be avoided to prevent confusion and redundancy.  Preferred alternatives are provided.
+
+(colloquial: ) - denotes a regionally-derived or applied term and identifies the region where it has been used. A colloquial term is either not widely accepted or unknown outside the geographic area where it originates.  A colloquial term should be avoided if a more widely recognized alternative exists. 
+
+Compare - Follows a term definition and indicates additional glossary entries that are similar or related to that term. 
+
+
+## Glossary
+
+```{r echo = FALSE, results='asis'}
+# glossary <- fromJSON('json/glossary-g.json')
+# i <- glossary['glade']
+
+for(g in seq_along(glossary)){
+  
+  this.section <- glossary[[g]]
+  this.letter <- toupper(names(glossary[g]))
+  
+  cat(
+    sprintf("### %s\n", this.letter)
+  )
+  
+  if(length(this.section) > 1) {
+    formatGlossaryList(this.section)
+  }
+  
+  cat('\n')
+  
+}
+
+
+```
+ 
+
+# References
+
+## Current References
+
+## Classic References
+
+
+
