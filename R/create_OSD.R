@@ -370,7 +370,10 @@ osd_to_json <- function(logfile = file.path(output_dir, "OSD/OSD.log"),
   res <- sapply(1:length(all_osds), function(i) {
     filepath <- all_osds[[i]]
     logmsg(logfile, " - %s", filepath)
+
     x <- validateOSD(logfile, filepath)
+
+    typicalpedon <- .parseTypicalPedon(x[["TYPICAL PEDON"]])
 
     if (is.logical(x))
       if (!x) return(FALSE)
@@ -388,4 +391,8 @@ osd_to_json <- function(logfile = file.path(output_dir, "OSD/OSD.log"),
   })
   names(res) <- all_osds
   return(res)
+}
+
+.parseTypicalPedon <- function(section) {
+
 }
