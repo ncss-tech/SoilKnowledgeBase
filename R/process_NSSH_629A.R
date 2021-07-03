@@ -1,5 +1,6 @@
-#' @importFrom jsonlite read_json
-#' @importFrom stringi stri_split_regex stri_detect_regex stri_extract_all_fixed
+#' @importFrom jsonlite read_json write_json
+#' @importFrom stringi stri_split_regex stri_detect_regex stri_extract_all_fixed stri_trim_both
+#' @importFrom stats na.omit
 process_NSSH_629A <- function(outpath = "./inst/extdata") {
 
   # this is a data.frame containing raw definitions content from NSSH 629A section 2
@@ -39,7 +40,7 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
   # toJSON(sources[1], pretty = TRUE, auto_unbox = TRUE)
 
   # save to file
-  write_json(sources, path = file.path(outpath, "NSSH/629/sources.json"), pretty = TRUE, auto_unbox = TRUE)
+  jsonlite::write_json(sources, path = file.path(outpath, "NSSH/629/sources.json"), pretty = TRUE, auto_unbox = TRUE)
 
   # ## glossary
   # # copy / paste into notepad++
@@ -64,6 +65,8 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
   # init glossary list
   defcontent <- defs$content[glossary.idx:nrow(defs)]
 
+  ## patches
+
   gloss <- lapply(defcontent, function(i) {
 
     ## compound definitions are delimited using the following
@@ -84,7 +87,7 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
       if (i.list[[1]] == "") {
         i.list <- i.list[-1]
       } else {
-        i.list <- lapply(i.list[2:length(i.list)], function(x) paste(i.list[[1]], "—",x))
+        i.list <- lapply(i.list[2:length(i.list)], function(x) paste0(i.list[[1]], ".—",x))
       }
     } else {
       # convert definition to a list
@@ -107,7 +110,7 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
 
       # remove the sources if possible
       # note that there may be a trailing "." if this source is listed as part of a complex def
-      s.txt <- stringi::stri_extract_all_regex(j, pattern = '(\\.[^.,—]*\\.?)$', simplify = TRUE)
+      s.txt <- stringi::stri_extract_all_regex(j, pattern = '(\\.[^.,—)]*\\.?)$', simplify = TRUE)
       s.txt <- as.vector(s.txt)
 
       # if found, replace with a period (search includes trailing period)
@@ -129,7 +132,7 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
         # replace with empty string
         j <- gsub(j, pattern = comp, replacement = '', fixed = TRUE)
         # clean white space
-        j <- stri_trim_both(j)
+        j <- stringi::stri_trim_both(j)
       } else {
         comp <- NA_character_
       }
@@ -139,14 +142,16 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
         # replace with empty string
         j <- gsub(j, pattern = comp, replacement = '', fixed = TRUE)
         # clean white space
-        j <- stri_trim_both(j)
+        j <- stringi::stri_trim_both(j)
       } else {
         comp <- NA_character_
       }
 
-      # search for obsolete
-      if (length(grep("\\(obsolete – use|\\(not recommended: obsolete", j) > 0)) {
-        newterms <- trimws(strsplit(gsub('.*obsolete – use ([A-Za-z, ]+).*|\\(not recommended: obsolete', "\\1", j), ",|, or")[[1]])
+      # search for obsolete, not preferred
+      if (length(grep("\\(obsolete – use|\\(not recommended: obsolete|\\(not preferred\\) Refer to", j) > 0)) {
+        newterms <- trimws(strsplit(gsub('.*obsolete – use ([A-Za-z, ]+).*|.*\\(not recommended: obsolete\\) Use ([^\\.]*).?$|.*\\(not preferred\\) Refer to ([^\\.]*).?$', "\\1\\2\\3", j), ",|, or")[[1]])
+        if (newterms[1] == j)
+          newterms <- character(0)
       } else newterms <- character(0)
 
       # search for colloquial
@@ -154,7 +159,7 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
         coldesc <- trimws(strsplit(gsub('.*colloquial:([A-Za-z, ]+)\\).*', "\\1", j), ",|, or")[[1]])
       } else coldesc <- character(0)
 
-      h <- trimws(strsplit(gsub("\\(\\d+\\) (.*).[–—](.*)", "\\1:\\2", j), ":")[[1]])
+      h <- trimws(strsplit(gsub("\\(\\d+\\) ([^\\(\\)]*).[–—](.*)", "\\1::::\\2", j), "::::")[[1]])
 
       # pack into a list
       final <- list(
@@ -189,11 +194,11 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
       }
     }
 
-    return(i.list[[1]])
+    return(i.list)
   })
 
   # split into letters of the alphabet
-  gloss.split <- split(gloss, toupper(substr(sapply(gloss, function(x) x$term), 1, 1)))
+  gloss.split <- split(gloss, toupper(substr(sapply(gloss, function(x) x[[1]]$term), 1, 1)))
 
   for(letter in LETTERS) {
     # current letter / index
@@ -203,7 +208,7 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
     f <- sprintf('inst/extdata/NSSH/629/GDS-glossary-%s.json', letter)
 
     # save
-    write_json(txt, path = f, pretty = TRUE, auto_unbox = TRUE)
+    jsonlite::write_json(txt, path = f, pretty = TRUE, auto_unbox = TRUE)
   }
 }
 
