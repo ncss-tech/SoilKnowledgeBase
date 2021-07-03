@@ -14,24 +14,11 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
   comments.idx <- grep("^[A-Z]\\. Clarifying Comments Included With Glossary Definitions$", defs$content) + 1
   glossary.idx <- grep("^[A-Z]\\. Glossary$", defs$content) + 1
 
-  # ## sources
-  # # copy / paste into notepad++
-  # # remove blank lines
-  # # normalize separators
-  # srcx <- read.table('misc/GDS/sources.txt', sep = '\t', header = FALSE, stringsAsFactors = FALSE)
-  #
-  # # column names
-  # names(srcx) <- c('code', 'citation')
-  #
-  # # re-format into a named list
-  # sources <- lapply(1:nrow(srcx), function(x) {
-  #   srcx[x, ]$citation
-  # })
-  # names(sources) <- srcx$code
+  # ## reference source codes
 
   # build from 629A.json
   refcodes <- strsplit(paste(defs$content[sources.idx:(comments.idx-1)], collapse=" "), " \\([ivx]+\\) ")
-  srcx <- as.data.frame(do.call('rbind', strsplit(refcodes[[1]][2:length(refcodes[[1]])], ".—")))
+  srcx <- as.data.frame(do.call('rbind', strsplit(refcodes[[1]][2:length(refcodes[[1]])], ".\u2014")))
   names(srcx) <- c('code', 'citation')
   sources <- as.list(srcx$citation)
   names(sources) <- srcx$code
@@ -41,26 +28,6 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
 
   # save to file
   jsonlite::write_json(sources, path = file.path(outpath, "NSSH/629/sources.json"), pretty = TRUE, auto_unbox = TRUE)
-
-  # ## glossary
-  # # copy / paste into notepad++
-  # # remove blank lines
-  # # replaced 2 instances of wrong dash "–" (top-level delimeter)
-  # #
-  # x <- readLines('glossary.txt', encoding = 'UTF-8')
-  #
-  # # split into two parts using '–' character, will have trim whitespace
-  # x.split <- stri_split_fixed(x, pattern = '–', n = 2, simplify = TRUE)
-  #
-  # # work on terms
-  # terms <- x.split[, 1]
-  # # trim whitespace
-  # terms <- stri_trim_right(terms)
-  #
-  # # work on definitions
-  # defs <- x.split[, 2]
-  # # trim whitespace
-  # defs <- stri_trim_both(defs)
 
   # init glossary list
   defcontent <- defs$content[glossary.idx:nrow(defs)]
@@ -87,7 +54,7 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
       if (i.list[[1]] == "") {
         i.list <- i.list[-1]
       } else {
-        i.list <- lapply(i.list[2:length(i.list)], function(x) paste0(i.list[[1]], ".—",x))
+        i.list <- lapply(i.list[2:length(i.list)], function(x) paste0(i.list[[1]], ".\u2014",x))
       }
     } else {
       # convert definition to a list
@@ -110,7 +77,7 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
 
       # remove the sources if possible
       # note that there may be a trailing "." if this source is listed as part of a complex def
-      s.txt <- stringi::stri_extract_all_regex(j, pattern = '(\\.[^.,—)]*\\.?)$', simplify = TRUE)
+      s.txt <- stringi::stri_extract_all_regex(j, pattern = '(\\.[^.,\u2014)]*\\.?)$', simplify = TRUE)
       s.txt <- as.vector(s.txt)
 
       # if found, replace with a period (search includes trailing period)
@@ -148,8 +115,8 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
       }
 
       # search for obsolete, not preferred
-      if (length(grep("\\(obsolete – use|\\(not recommended: obsolete|\\(not preferred\\) Refer to", j) > 0)) {
-        newterms <- trimws(strsplit(gsub('.*obsolete – use ([A-Za-z, ]+).*|.*\\(not recommended: obsolete\\) Use ([^\\.]*).?$|.*\\(not preferred\\) Refer to ([^\\.]*).?$', "\\1\\2\\3", j), ",|, or")[[1]])
+      if (length(grep("\\(obsolete \u2014 use|\\(not recommended: obsolete|\\(not preferred\\) Refer to", j) > 0)) {
+        newterms <- trimws(strsplit(gsub('.*obsolete \u2014 use ([A-Za-z, ]+).*|.*\\(not recommended: obsolete\\) Use ([^\\.]*).?$|.*\\(not preferred\\) Refer to ([^\\.]*).?$', "\\1\\2\\3", j), ",|, or")[[1]])
         if (newterms[1] == j)
           newterms <- character(0)
       } else newterms <- character(0)
@@ -159,13 +126,13 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
         coldesc <- trimws(strsplit(gsub('.*colloquial:([A-Za-z, ]+)\\).*', "\\1", j), ",|, or")[[1]])
       } else coldesc <- character(0)
 
-      h <- trimws(strsplit(gsub("\\(\\d+\\) ([^\\(\\)]*).[–—](.*)", "\\1::::\\2", j), "::::")[[1]])
+      h <- trimws(strsplit(gsub("\\(\\d+\\) ([^\\(\\)]*).[\u2014](.*)", "\\1::::\\2", j), "::::")[[1]])
 
       # pack into a list
       final <- list(
         term = h[1],
         text = h[2],
-        compare = gsub("[\\.]","", trimws(strsplit(trimws(strsplit(comp, "–")[[1]])[2], ",")[[1]])),
+        compare = gsub("[\\.]","", trimws(strsplit(trimws(strsplit(comp, "\u2014")[[1]])[2], ",")[[1]])),
         sources = s,
         colloquial = length(coldesc) > 0,
         colloquloc = coldesc,
