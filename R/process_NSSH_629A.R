@@ -1,185 +1,210 @@
-library(jsonlite)
-library(stringi)
+#' @importFrom jsonlite read_json
+#' @importFrom stringi stri_split_regex stri_detect_regex stri_extract_all_fixed
+process_NSSH_629A <- function(outpath = "./inst/extdata") {
 
-# this is a data.frame containing raw definitions content from NSSH 629A section 2
-defs <- read_json("inst/extdata/NSSH/629/629A.json", simplifyVector = TRUE)$`629.2`
+  # this is a data.frame containing raw definitions content from NSSH 629A section 2
+  part629a <- jsonlite::read_json(file.path(outpath, "NSSH/629/629A.json"), simplifyVector = TRUE)
 
-# ## sources
-# # copy / paste into notepad++
-# # remove blank lines
-# # normalize separators
+  # part1 <-  part629a$`629.1`
+  defs <- part629a$`629.2`
+  # references <- part629a$`629.3`
 
-# TODO: build this from 629A.json
+  sources.idx <- grep("^[A-Z]\\. Reference Codes Sources", defs$content)
+  comments.idx <- grep("^[A-Z]\\. Clarifying Comments Included With Glossary Definitions$", defs$content) + 1
+  glossary.idx <- grep("^[A-Z]\\. Glossary$", defs$content) + 1
 
-srcx <- read.table('misc/GDS/sources.txt', sep = '\t', header = FALSE, stringsAsFactors = FALSE)
+  # ## sources
+  # # copy / paste into notepad++
+  # # remove blank lines
+  # # normalize separators
+  # srcx <- read.table('misc/GDS/sources.txt', sep = '\t', header = FALSE, stringsAsFactors = FALSE)
+  #
+  # # column names
+  # names(srcx) <- c('code', 'citation')
+  #
+  # # re-format into a named list
+  # sources <- lapply(1:nrow(srcx), function(x) {
+  #   srcx[x, ]$citation
+  # })
+  # names(sources) <- srcx$code
 
-# column names
-names(srcx) <- c('code', 'citation')
+  # build from 629A.json
+  refcodes <- strsplit(paste(defs$content[sources.idx:(comments.idx-1)], collapse=" "), " \\([ivx]+\\) ")
+  srcx <- as.data.frame(do.call('rbind', strsplit(refcodes[[1]][2:length(refcodes[[1]])], ".—")))
+  names(srcx) <- c('code', 'citation')
+  sources <- as.list(srcx$citation)
+  names(sources) <- srcx$code
 
-# re-format into a named list
-sources <- lapply(1:nrow(srcx), function(x) {
-  srcx[x, ]$citation
-})
-names(sources) <- srcx$code
+  # converts to reasonable JSON
+  # toJSON(sources[1], pretty = TRUE, auto_unbox = TRUE)
 
-# convert to reasonable JSON
-toJSON(sources[1], pretty = TRUE, auto_unbox = TRUE)
+  # save to file
+  write_json(sources, path = file.path(outpath, "NSSH/629/sources.json"), pretty = TRUE, auto_unbox = TRUE)
 
-# save to file
-write_json(sources, path = 'misc/GDS/json/sources.json', pretty = TRUE, auto_unbox = TRUE)
+  # ## glossary
+  # # copy / paste into notepad++
+  # # remove blank lines
+  # # replaced 2 instances of wrong dash "–" (top-level delimeter)
+  # #
+  # x <- readLines('glossary.txt', encoding = 'UTF-8')
+  #
+  # # split into two parts using '–' character, will have trim whitespace
+  # x.split <- stri_split_fixed(x, pattern = '–', n = 2, simplify = TRUE)
+  #
+  # # work on terms
+  # terms <- x.split[, 1]
+  # # trim whitespace
+  # terms <- stri_trim_right(terms)
+  #
+  # # work on definitions
+  # defs <- x.split[, 2]
+  # # trim whitespace
+  # defs <- stri_trim_both(defs)
 
+  # init glossary list
+  defcontent <- defs$content[glossary.idx:nrow(defs)]
 
-# ## glossary
-# # copy / paste into notepad++
-# # remove blank lines
-# # replaced 2 instances of wrong dash "–" (top-level delimeter)
-# #
-# x <- readLines('glossary.txt', encoding = 'UTF-8')
-#
-# # split into two parts using '–' character, will have trim whitespace
-# x.split <- stri_split_fixed(x, pattern = '–', n = 2, simplify = TRUE)
-#
-# # work on terms
-# terms <- x.split[, 1]
-# # trim whitespace
-# terms <- stri_trim_right(terms)
-#
-# # work on definitions
-# defs <- x.split[, 2]
-# # trim whitespace
-# defs <- stri_trim_both(defs)
+  gloss <- lapply(defcontent, function(i) {
 
+    ## compound definitions are delimited using the following
+    # a) b) c) ...
+    # (a) (b) (c) ...
+    # (i) (ii) (iii) ...
 
-# init glossary list
-start.idx <- grep("^[A-Z]\\. Glossary$", defs$content) + 1
-defcontent <- defs$content[start.idx:nrow(defs)]
+    # is i a compound definition?
+    cmplx.pattern <- ' \\(?[a-g]\\) | \\(i+\\) '
+    cmplx <- stringi::stri_detect_regex(i, pattern = cmplx.pattern)
 
-gloss <- lapply(defcontent, function(i) {
-
-  ## compound definitions are delimited using the following
-  # a) b) c) ...
-  # (a) (b) (c) ...
-  # (i) (ii) (iii) ...
-
-  # is i a compound definition?
-  cmplx.pattern <- ' \\(?[a-g]\\) | \\(i+\\) '
-  cmplx <- stri_detect_regex(i, pattern = cmplx.pattern)
-
-  if(cmplx) {
-    # split on compound definition markers
-    i.list <- stri_split_regex(i, pattern = cmplx.pattern)[[1]]
-    # trim
-    i.list <- lapply(i.list, stri_trim_both)
-    # remove the first empty element
-    if (i.list[[1]] == "")
-      i.list <- i.list[-1]
-    else
-      i.list <- lapply(i.list[2:length(i.list)], function(x) paste(i.list[[1]], "—",x))
-  } else {
-    # convert definition to a list
-    i.list <- as.list(i)
-  }
-
-  # iterate over definitions:
-  # search / remove from right -> left of string
-  #  -> sources
-  #  -> comparisons
-  i.list <- lapply(i.list, function(j) {
-
-    # find sources
-    s <- stri_extract_all_fixed(j, pattern = names(sources), simplify = TRUE)
-
-    # convert matrix -> vector -> drop NA -> drop attr
-    s <- as.vector(na.omit(as.vector(s)))
-
-    # remove the sources if possible
-    # note that there may be a trailing "." if this source is listed as part of a complex def
-    s.txt <- stri_extract_all_regex(j, pattern = '(\\.[^.]*\\.?)$', simplify = TRUE)
-    s.txt <- as.vector(s.txt)
-
-    # if found, replace with a period (search includes trailing period)
-    if(! is.na(s.txt)){
-      j <- gsub(j, pattern = s.txt, replacement = '.', fixed = TRUE)
-    }
-
-    # if there are no sources found, then keep track of this via NA
-    if(length(s) < 1) {
-      s <- NA
-    }
-
-    # search for comparisons
-    comp <- stri_extract_all_regex(j, pattern = 'Compare.*\\.', simplify = TRUE)
-    comp <- as.vector(comp)
-
-    # remove comparison text if found
-    if(!is.na(comp)) {
-      # replace with empty string
-      j <- gsub(j, pattern = comp, replacement = '', fixed = TRUE)
-      # clean white space
-      j <- stri_trim_both(j)
+    if(cmplx) {
+      # split on compound definition markers
+      i.list <- stringi::stri_split_regex(i, pattern = cmplx.pattern)[[1]]
+      # trim
+      i.list <- lapply(i.list, stringi::stri_trim_both)
+      # remove the first empty element
+      if (i.list[[1]] == "") {
+        i.list <- i.list[-1]
+      } else {
+        i.list <- lapply(i.list[2:length(i.list)], function(x) paste(i.list[[1]], "—",x))
+      }
     } else {
-      comp <- NA_character_
+      # convert definition to a list
+      i.list <- as.list(i)
     }
 
-    h <- strsplit(gsub("\\(\\d+\\) (.*).[—\\(](.*)", "\\1:\\2", j), ":")[[1]]
+    # iterate over definitions:
+    # search / remove from right -> left of string
+    #  -> sources
+    #  -> comparisons
+    #  -> obsolete and other comments
+    i.list <- lapply(i.list, function(j) {
 
-    # pack into a list
-    final <- list(
-      term = h[1],
-      text = h[2],
-      compare = gsub("[\\.]","", trimws(strsplit(trimws(strsplit(comp, "–")[[1]])[2], ",")[[1]])),
-      sources = s
-    )
+      # find sources
+      s <- stringi::stri_extract_all_fixed(j, pattern = names(sources), simplify = TRUE)
+
+      # convert matrix -> vector -> drop NA -> drop attr
+      s <- unique(as.vector(na.omit(as.vector(s))))
+      s <- s[nchar(s) > 0]
+
+      # remove the sources if possible
+      # note that there may be a trailing "." if this source is listed as part of a complex def
+      s.txt <- stringi::stri_extract_all_regex(j, pattern = '(\\.[^.,—]*\\.?)$', simplify = TRUE)
+      s.txt <- as.vector(s.txt)
+
+      # if found, replace with a period (search includes trailing period)
+      if(! is.na(s.txt)){
+        j <- gsub(j, pattern = s.txt, replacement = '.', fixed = TRUE)
+      }
+
+      # if there are no sources found, then keep track of this via NA
+      if(length(s) < 1) {
+        s <- NA
+      }
+
+      # search for comparisons
+      comp <- stringi::stri_extract_all_regex(j, pattern = 'Compare.*\\.', simplify = TRUE)
+      comp <- as.vector(comp)
+
+      # remove comparison text if found
+      if(!is.na(comp)) {
+        # replace with empty string
+        j <- gsub(j, pattern = comp, replacement = '', fixed = TRUE)
+        # clean white space
+        j <- stri_trim_both(j)
+      } else {
+        comp <- NA_character_
+      }
+
+      # remove comparison text if found
+      if(!is.na(comp)) {
+        # replace with empty string
+        j <- gsub(j, pattern = comp, replacement = '', fixed = TRUE)
+        # clean white space
+        j <- stri_trim_both(j)
+      } else {
+        comp <- NA_character_
+      }
+
+      # search for obsolete
+      if (length(grep("\\(obsolete – use|\\(not recommended: obsolete", j) > 0)) {
+        newterms <- trimws(strsplit(gsub('.*obsolete – use ([A-Za-z, ]+).*|\\(not recommended: obsolete', "\\1", j), ",|, or")[[1]])
+      } else newterms <- character(0)
+
+      # search for colloquial
+      if (length(grep("\\(colloquial:", j) > 0)) {
+        coldesc <- trimws(strsplit(gsub('.*colloquial:([A-Za-z, ]+)\\).*', "\\1", j), ",|, or")[[1]])
+      } else coldesc <- character(0)
+
+      h <- trimws(strsplit(gsub("\\(\\d+\\) (.*).[–—](.*)", "\\1:\\2", j), ":")[[1]])
+
+      # pack into a list
+      final <- list(
+        term = h[1],
+        text = h[2],
+        compare = gsub("[\\.]","", trimws(strsplit(trimws(strsplit(comp, "–")[[1]])[2], ",")[[1]])),
+        sources = s,
+        colloquial = length(coldesc) > 0,
+        colloquloc = coldesc,
+        obsolete = length(newterms) > 0,
+        preferred = newterms
+      )
 
 
-    return(final)
+      return(final)
+    })
+
+    ## TODO: make sure this is robust
+
+    # check to see if there is a single source record, if so copy to all records
+    all.sources <- lapply(i.list, '[[', 'sources')
+
+    # find records missing sources
+    # sources can be vectors, hence the complexity here
+    missing.sources <- which(sapply(all.sources, function(z) {all(is.na(z)) }))
+
+    if(length(missing.sources) > 0) {
+
+      # replace with "last" source
+      for(z in missing.sources) {
+        i.list[[z]]$sources <- all.sources[[length(all.sources)]]
+      }
+    }
+
+    return(i.list[[1]])
   })
 
+  # split into letters of the alphabet
+  gloss.split <- split(gloss, toupper(substr(sapply(gloss, function(x) x$term), 1, 1)))
 
-  ## TODO: make sure this is robust
+  for(letter in LETTERS) {
+    # current letter / index
+    txt <- gloss.split[[letter]]
 
-  # check to see if there is a single source record, if so copy to all records
-  all.sources <- lapply(i.list, '[[', 'sources')
+    # filename
+    f <- sprintf('inst/extdata/NSSH/629/GDS-glossary-%s.json', letter)
 
-  # find records missing sources
-  # sources can be vectors, hence the complexity here
-  missing.sources <- which(sapply(all.sources, function(z) {all(is.na(z)) }))
-
-  if(length(missing.sources) > 0) {
-
-    # replace with "last" source
-    for(z in missing.sources) {
-      i.list[[z]]$sources <- all.sources[[length(all.sources)]]
-    }
+    # save
+    write_json(txt, path = f, pretty = TRUE, auto_unbox = TRUE)
   }
-
-  # pack into a list
-  res <- list(
-    def = i.list
-  )
-
-  return(res)
-})
-
-
-# terms are list element names
-names(gloss) <- terms
-
-# check: ok
-toJSON(gloss[1:5], pretty = TRUE, auto_unbox = TRUE)
-
-# split into letters of the alphabet
-gloss.split <- split(gloss, substr(terms, 1, 1))
-
-for(letter in letters){
-  # current letter / index
-  txt <- gloss.split[[letter]]
-  # filename
-  f <- sprintf('json/glossary-%s.json', letter)
-  # save
-  write_json(txt, path = f, pretty = TRUE, auto_unbox = TRUE)
 }
-
-
 
 
