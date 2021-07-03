@@ -56,5 +56,57 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features in the pedon are:\nMollic epipedon - from 0 to 10 inches (A1, and A2 horizon)\nLithic contact - At 10 inches (top of 2R horizon)\nAndic soil properties assumed - Based on laboratory data from associated soils.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "cf_class": "stony",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 5 inches; very dark gray (10YR 3/1) stony ashy loam, black (10YR 2/1) moist; single grain; loose, friable, nonsticky and nonplastic;  many fine roots; 25 percent stones; slightly acid (pH 6.5); clear wavy boundary. (4 to 6 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 13,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 2,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "cf_class": "very stony",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A2--5 to 10 inches; very dark brown (10YR 2/2) very stony ashy loam, black (10YR 2/1) moist; single grain; loose, very friable, nonsticky and nonplastic; many fine roots; 60 percent stones; slightly alkaline (pH 7.4); abrupt smooth boundary. (4 to 9 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 25,
+        "narrative": "2R--10 inches; fractured quartzitic bedrock."
+      }
+    ]
+  ]
 }

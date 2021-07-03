@@ -56,5 +56,108 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from 0 to 20 inches (A, AB, Bt1 horizons)\nArgillic horizon - from 16 to 34 inches (Bt1, Bt2, Btk horizons)\nSecondary calcium carbonate accumulation - from 30 to 34 inches (Btk horizon)\nParalithic contact - at 34 inches (Cr horizon)\nParticle size control section - from 16 to 34 inches (Bt1, Bt2, Btk horizons)\nStubbs soils have a cryic temperature regime and an ustic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 6 inches; dark gray (10YR 4/1) loam, black (10YR 2/1) moist; strong fine granular structure; soft, very friable, moderately sticky and slightly plastic; neutral (pH 6.8); clear smooth boundary. (4 to 8 inches thick)"
+      },
+      {
+        "name": "AB",
+        "top": 15,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "AB--6 to 16 inches; dark gray (10YR 4/1) loam, black (10YR 2/1) moist; weak medium prismatic structure parting to moderate medium subangular blocky; slightly hard, very friable, moderately sticky and moderately plastic; neutral (pH 7.2); clear smooth boundary. (8 to 12 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 41,
+        "bottom": 51,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--16 to 20 inches; grayish brown (10YR 5/2) clay loam, very dark grayish brown (10YR 3/2) moist; moderate fine prismatic structure parting to moderate fine subangular blocky; very hard, very friable, moderately sticky and moderately plastic; continuous faint clay films on faces of peds and in root channels; neutral (pH 7.2); gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 51,
+        "bottom": 76,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--20 to 30 inches; brown (10YR 5/3) clay loam, brown (10YR 4/3) moist; moderate fine prismatic structure parting to moderate fine subangular blocky; very hard, very friable, moderately sticky and moderately plastic; continuous faint clay films on faces of peds and in root channels; slightly alkaline (pH 7.4); gradual wavy boundary. (combined thickness of the Bt1, Bt2 horizons - 6 to 24 inches)"
+      },
+      {
+        "name": "Btk",
+        "top": 76,
+        "bottom": 86,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btk--30 to 34 inches; light yellowish brown (2.5Y 6/3) clay loam, light olive brown (2.5Y 5/3) moist; weak medium subangular blocky structure; hard, very friable, moderately sticky and moderately plastic; common faint clay films on faces of peds and in root channels; common soft masses of calcium carbonate; strongly effervescent; moderately alkaline (pH 8.4); gradual wavy boundary. (3 to 19 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 86,
+        "bottom": 152,
+        "texture_class": "silt",
+        "narrative": "Cr--34 to 60 inches; weakly calcareous, soft shale and siltstone."
+      }
+    ]
+  ]
 }

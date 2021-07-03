@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The name was coined.\nDiagnostic horizons and features recognized in this pedon include:\nMollic epipedon - The zone from the mineral soil surface to 15 inches (A1, A2, Bt1 and the Bt2 horizons).\nVitrandic intergrade feature -- High volcanic glass content in the .02 to 2mm fraction from the mineral soil surface to 31 inches (A1, A2 and the Bt horizons).\nArgillic horizon - The zone from 4 to 15 inches (Bt horizon).\nLithic contact - The boundary at 15 inches to underlying soft weathered bedrock (Cr layer).\nParticle-size control section - The zone from 4 to 15 inches (Bt horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 1 inches; brown (10YR 5/3) crushed very gravelly ashy sandy loam, dark brown (10YR 3/3) crushed moist; weak fine granular structure; soft, very friable, slightly sticky, slightly plastic; common very fine roots; common very fine interstitial pores; 5 percent cobbles and 45 percent pebbles; slightly acid, (pH 6.3);  clear smooth boundary. (1 to 5 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 3,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--1 to 4 inches; grayish brown (10YR 5/2) crushed very gravelly ashy loam, very dark brown (10YR 2/2) crushed moist; moderate fine subangular blocky structure; soft, very friable, slightly sticky, slightly plastic; common fine roots and many very fine roots; common very fine interstitial and tubular pores; 10 percent cobbles and 45 percent pebbles; slightly acid, (pH 6.4); clear wavy boundary. (0 to 5 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 10,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "texture_class": "sand",
+        "cf_class": "extremely gravelly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--4 to 10 inches; brown (10YR 4/3) crushed extremely gravelly ashy loam, very dark grayish brown (10YR 3/2) crushed moist; moderate fine subangular blocky structure; slightly hard, very friable, moderately sticky, moderately plastic; many very fine and fine roots; common very fine interstitial and tubular pores; 15 percent faint clay bridges between sand grains; 15 percent cobbles and 55 percent pebbles; slightly acid, (pH 6.5); clear wavy boundary. (4 to 8 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 25,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2--10 to 15 inches; brown (10YR 5/3) crushed extremely gravelly ashy loam, very dark grayish brown (10YR 3/2) crushed moist; moderate fine subangular blocky structure; slightly hard, very friable, moderately sticky, slightly plastic; common very fine to medium roots; common very fine interstitial and tubular pores; 15 percent faint clay films on surfaces along pores and 15 percent faint clay films on faces of peds; 15 percent cobbles and 55 percent pebbles; neutral, (pH 6.6);  abrupt wavy boundary. (4 to 8 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 38,
+        "narrative": "R--15 inches; hard andesite."
+      }
+    ]
+  ]
 }

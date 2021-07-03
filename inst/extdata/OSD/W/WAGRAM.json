@@ -56,5 +56,108 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This revision recognizes the low activity clay properties of this soil as defined in the Low Activity Clay Amendment to Soil Taxonomy, August 1986. This series includes soils previously classified as thick surface phases of the Norfolk series and some previously classified as moderately shallow phases of the Lakeland series. Diagnostic horizons and soil characteristics recognized in this pedon:\nOchric epipedon--the zone from the surface to a depth of 24 inches (A, E horizons)\nArenic features--the zone from the surface to a depth of 24 inches (A, E horizons)\nArgillic horizon--the zone between 24 and 75 inches (Bt horizons)\nKandic horizon--the zone between 24 and 75 inches has low activity clay in more than 50 percent of the upper 40 inches of the horizon (Bt horizon)\nADDITIONAL DATA:\nCharacterization samples were analyzed and are available from NRCS-Soil Survey Laboratory, Lincoln, NE; pedon numbers--S81NC101003, S00NC101001, S99GA103039\nTABULAR SERIES DATA:\nSOI-5   Soil Name   Slope  Airtemp  FrFr/Seas  Precip  Elevation\nNC0042  WAGRAM      0-15   57-70    195-245    35-55   30-300\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0042 NONE          >5.0       -      -       >80     -\nSOI-5  Depth  Texture    3-Inch  No-10    Clay%  -CEC-\nNC0042  0-24  LS LFS     0-0     98-100   2-10   1-3\nNC0042  0-24  FS S       0-0     90-100   1-7    1-3\nNC0042 24-75  SCL SL     0-0     98-100  10-35   1-4\nSOI-5  Depth    -pH-     O.M.    Salin  Permeab   Shnk-Swll\nNC0042  0-24  3.5- 5.5  0.5-2.0  0-0    6.0-20    LOW\nNC0042  0-24  3.5- 5.5  0.5-2.0  0-0    6.0-20    LOW\nNC0042 24-75  3.5- 5.5  0.0-0.5  0-0    0.6-2.0   LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; grayish brown (10YR 5/2) loamy sand, light brownish gray (10YR 6/2) dry; single grain; loose, nonsticky, nonplastic; moderately acid; abrupt smooth boundary. (1 to 10 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 20,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E--8 to 24 inches; pale brown (10YR 6/3) loamy sand; single grain; loose, nonsticky, nonplastic; few lenses of sandy loam; strongly acid; gradual wavy boundary. (10 to 35 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 61,
+        "bottom": 69,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--24 to 27 inches; yellowish brown (10YR 5/6) sandy loam; few fine distinct grayish brown (10YR 5/2) mottles; weak medium subangular blocky structure; friable, nonsticky, nonplastic; few penetrations of loamy sand E material in old root channels; few areas are brittle; strongly acid; clear wavy boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 69,
+        "bottom": 97,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--27 to 38 inches; yellowish brown (10YR 5/8) sandy clay loam; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; few faint clay films in pores and on faces of peds; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 97,
+        "bottom": 132,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt3--38 to 52 inches; yellowish brown (10YR 5/8) sandy clay loam; common medium distinct yellowish red (5YR 5/8) mottles; weak medium and coarse subangular blocky structure; friable, slightly sticky, slightly plastic; few faint clay films on faces of peds; common clean grains of coarse sand; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt4",
+        "top": 132,
+        "bottom": 190,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "Bt4--52 to 75 inches; yellowish brown (10YR 5/6) sandy clay loam; few medium distinct yellowish red (5YR 5/8) masses of oxidized iron and few medium faint pale brown (10YR 6/3) iron depletions; weak medium and coarse subangular blocky structure; friable slightly sticky, slightly plastic; strongly acid; gradual irregular boundary. (Combined thickness of the Bt horizon is 21 to 60 inches or more.)"
+      },
+      {
+        "name": "BC",
+        "top": 190,
+        "bottom": 208,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "BC--75 to 82 inches; yellowish brown (10YR 5/6) sandy loam; massive; friable, nonsticky, nonplastic; few lenses or pockets of sandy clay loam; many medium and coarse prominent gray (10YR 6/1) iron depletions; some gray areas contain very coarse sand grains; very strongly acid."
+      }
+    ]
+  ]
 }

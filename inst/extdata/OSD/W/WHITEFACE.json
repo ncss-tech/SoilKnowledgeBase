@@ -56,5 +56,53 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic features and horizons:\n- Mollic epipedon - 0 to 16 inches.\n- Argillic horizon - 12 to 16 inches (estimated clay content 25\nto 35).\n- Xeric soil moisture regime, cryic soil temperature regime.\n- Indurated duripan\nNATIONAL COOPERATIVE SOIL SURVEY\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "narrative": "A--0 to 8 inches; dark brown (7.5YR 3/2) cobbly loam, brown"
+      },
+      {
+        "name": "AB",
+        "top": 20,
+        "bottom": 30,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "narrative": "AB--8 to 12 inches; dark brown (7.5YR 3/3) gravelly loam,"
+      },
+      {
+        "name": "2Bt",
+        "top": 30,
+        "bottom": 41,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "narrative": "2Bt--12 to 16 inches; dark brown (7/5YR 3/3) gravelly clay"
+      },
+      {
+        "name": "2Bqm",
+        "top": 41,
+        "bottom": 58,
+        "cf_class": "gravelly",
+        "narrative": "2Bqm--16 to 23 inches; indurated gravelly duripan."
+      }
+    ]
+  ]
 }

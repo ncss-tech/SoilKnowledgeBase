@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from 0 to 3 inches (A horizon)\nArgillic horizon - The zone from 3 to 15 inches (Bt1, Bt2 horizons)\nParalithic contact - The boundary at 15 inches (2Cr horizon)\nLithic contact - The boundary at 22 inches (2R horizon)\nSeries originally proposed in Mohave County, Arizona; Soil survey of Mohave County, Arizona, Southern Part; 1994.\nClassified according to the Keys to Soil Taxonomy, Ninth Edition, 2003.\nResponsibility for this series was transferred from Davis to Phoenix 12/2015. The last revision to the series was 6/2005. ET\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; brown (7.5YR 5/3) extremely gravelly sandy loam, brown (7.5YR 4/3) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; few very fine roots; few very fine tubular pores; 65 percent gravel; noneffervescent; slightly alkaline (pH 7.8); abrupt smooth boundary. (2 to 4 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 8,
+        "bottom": 13,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--3 to 5 inches; brown (7.5YR 5/4) very gravelly clay loam, brown (7.5YR 4/4) moist; moderate fine subangular blocky structure; hard, firm, sticky and plastic; common very fine roots; common very fine tubular pores; few faint clay films on ped faces and in pores; 40 percent gravel; noneffervescent; slightly alkaline (pH 7.8); clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 13,
+        "bottom": 38,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt2--5 to 15 inches; reddish brown (5YR 4/4) gravelly clay, dark reddish brown (5YR 3/4) moist; strong medium subangular blocky structure; hard, firm, very stick and very plastic; common very fine roots; common very fine tubular pores; common faint clay films on ped faced and in pores; 15 percent gravel; noneffervescent; moderately alkaline (pH 8.0); abrupt smooth boundary. (Combined thickness of the Bt horizons is 9 to 17 inches)"
+      },
+      {
+        "name": "2Cr",
+        "top": 38,
+        "bottom": 56,
+        "narrative": "2Cr--15 to 22 inches; weathered granite. (3 to 10 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 56,
+        "narrative": "2R--22 inches; granite."
+      }
+    ]
+  ]
 }

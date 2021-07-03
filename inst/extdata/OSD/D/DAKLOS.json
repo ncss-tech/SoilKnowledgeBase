@@ -56,5 +56,57 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 3 inches (A horizon)\nParticle size control section - 0 to 10 inches (A and C horizons)\nLithic contact - the boundary at 10 inches (R horizon)\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Twelfth  Edition, 2014\nThe assignment of the cation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nUpdated competing series section June 26, 2008, CEM\nUpdated for the correlation of the Emery Area, Utah. Air and soil temperatures were adjusted to account for the differences between MLRA 34B and 35. Soils correlated as Daklos in Utah have cooler air and soil temperatures and should be evaluated. April 26, 2011 CEM.\nUpdate and revisions for the correlation of Capitol Reef National Park, January 2013, WWJ\nUpdate and revisions for the correlation of Kane County, UT, July 2017, CEM\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; very pale brown (10YR 7/3) loam, brown (10YR 5/3) moist; weak fine granular structure; soft, very friable, slightly sticky and slightly plastic; common very fine and fine roots; 5 percent gravel; slightly effervescent; carbonates are disseminated throughout; slightly alkaline (pH 7.6); abrupt smooth boundary. (1 to 5 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 8,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C--3 to 10 inches; very pale brown (10YR 7/3) very gravelly loam, brown (10YR 5/3) moist; massive; slightly hard, friable, slightly sticky and slightly plastic; common very fine and fine and few medium roots; 55 percent gravel; slightly effervescent; carbonates are disseminated throughout; slightly alkaline (pH 7.6); abrupt smooth boundary. (5 to 15 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 25,
+        "texture_class": "sand",
+        "narrative": "R--10 inches; Dakota Formation Sandstone bedrock."
+      }
+    ]
+  ]
 }

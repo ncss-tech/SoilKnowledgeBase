@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 7 inches\nArgillic horizon  - the zone from 7 to 24 inches.\nLithic contact - the boundary with sandstone at 36 inches.\nUstic feature - soil moisture regime and organic carbon content meets the requirements for Ustic intergrades.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "A--0 to 7 inches; reddish brown (5YR 5/4) loam, dark reddish brown  (5YR 3/4) moist; weak fine granular structure; slightly hard, very  friable, slightly sticky and plastic; slightly alkaline; clear smooth  boundary.  (4 to 8 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 18,
+        "bottom": 36,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--7 to 14 inches; reddish brown (5YR 5/4) clay loam; reddish brown  (5YR 4/4) moist; weak medium subangular structure; hard, friable, slightly sticky and plastic; slightly alkaline; clear smooth boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "Btk",
+        "top": 36,
+        "bottom": 61,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "Btk--14 to 24 inches; reddish brown (5YR 5/4) clay loam, yellowish red (5YR 4/6) moist; moderate medium subangular blocky; hard, friable,  slightly sticky and plastic; lime segregated in common fine irregularly  shaped soft masses; violently effervescent; moderately alkaline; gradual  wavy boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 61,
+        "bottom": 91,
+        "dry_hue": "5YR",
+        "dry_value": 8,
+        "dry_chroma": 1,
+        "moist_hue": "5YR",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bk--24 to 36 inches; white (5YR 8/1) loam, pink (5YR 7/4) moist;  massive; hard, very friable, slightly sticky and plastic; 10 percent  pebbles; lime disseminated throughout and on pebbles as thick pendants;  calcareous; moderately alkaline; abrupt wavy boundary. (6 to 12 inches  thick)"
+      },
+      {
+        "name": "R",
+        "top": 91,
+        "texture_class": "sand",
+        "narrative": "R--36 inches; hard sandstone."
+      }
+    ]
+  ]
 }

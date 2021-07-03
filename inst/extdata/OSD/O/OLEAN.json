@@ -56,5 +56,70 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in the typical pedon are:\n1. Ochric epipedon - the zone from the surface to a depth of 9 inches (Ap horizon.)\n2. Agrillic horizon - the zone from 23 to 36 inches. (Bt horizon.)\n3. Aquic subgroup - low chroma redoximorphic features within a depth of 30 inches below the soil surface. (Bt horizon.)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 9 inches; dark grayish brown (10YR 4/2) silt loam, light brownish gray (10YR 6/2) dry; weak fine granular structure; very friable; many fine roots; 2 percent rock fragments; strongly acid; abrupt smooth boundary. (4 to 11 inches thick.)"
+      },
+      {
+        "name": "BE",
+        "top": 23,
+        "bottom": 58,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BE -- 9 to 23 inches; yellowish brown (10YR 5/4) silt loam; weak medium subangular blocky structure; very friable; common fine roots; 2 percent rock fragments; strongly acid; clear smooth boundary. (8 to 16 inches thick.)"
+      },
+      {
+        "name": "Bt",
+        "top": 58,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt -- 23 to 36 inches; brown (10YR 5/3) silty clay loam; moderate medium and fine subangular blocky structure; friable; common fine pores; faint patchy grayish brown (10YR 5/2) clay films on all faces of peds and continious clay films on surfaces along pores; common medium distinct light brownish gray (10YR 6/2) areas of iron depletion and yellowish brown (10YR 5/8) masses of iron accumulations within the matrix; 2 percent rock fragments; strongly acid; abrupt smooth boundary. (8 to 14 inches thick.)"
+      },
+      {
+        "name": "2C",
+        "top": 91,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "cf_class": "very gravelly",
+        "pH_class": "strongly acid",
+        "narrative": "2C -- 36 to 72 inches; brown (10YR 4/3) very gravelly loamy sand; massive; loose; 55 percent rock fragments; strongly acid."
+      }
+    ]
+  ]
 }

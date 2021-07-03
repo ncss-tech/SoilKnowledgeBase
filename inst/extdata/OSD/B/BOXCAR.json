@@ -56,5 +56,86 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features and horizons recognized in this profile include:\nPresumed greater than 2.0 cmol(+)/kg Al 3+ in the solum\nAndic soil materials from 3 to 20 inches (8 to 52 cm)\nSandy or sandy-skeletal particle size from 20 to 60 inches (52 to 152 cm)\nLoess mantle dominated by ash influenced loess that has a moist bulk density of less than 0.90 grams per cubic centimeter and phosphorous retention greater than 85 percent.\nThe weighted average particle size of the contrasting substratum material is sandy (99ss034-01).\nTemperature regime: cryic\nMoisture regime: udic\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 8,
+        "pH": 4.3,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 3 inches (0 to 8 cm); black (10YR2/1); slight decomposed plant material; extremely acid (pH 4.3); abrupt smooth boundary. (2 to 3 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 8,
+        "bottom": 13,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "broken",
+        "narrative": "A--3 to 5 inches (8 to 13 cm); dark reddish brown (5YR2.5/2) and dark brown (7.5YR 3/2); silt loam; weak fine granular structure; very friable, nonsticky and nonplastic; many very fine and fine roots, few medium roots; very smeary; very strongly acid (pH 5.0); abrupt broken boundary. (2 to 8 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 13,
+        "bottom": 15,
+        "texture_class": "very fine sandy loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "broken",
+        "narrative": "E--5 to 6 inches (13 to 16 cm); very dark grayish brown (10YR4/2); very fine sandy loam; weak fine granular structure; very friable, nonsticky and nonplastic; common very fine and fine roots, few medium roots; very smeary; very strongly acid (pH 4.8); abrupt broken boundary. (0 to 2 inches thick)"
+      },
+      {
+        "name": "Ab",
+        "top": 15,
+        "bottom": 23,
+        "texture_class": "very fine sandy loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ab--6 to 9 inches (16 to 24 cm); dark brown (10YR4/4); very fine sandy loam; weak fine granular structure; very friable, nonsticky and nonplastic; common very fine and fine roots, common few roots; very smeary; very strongly acid (pH 4.8); clear smooth boundary. (3 to 5 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 23,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "very fine sandy loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw--9 to 20 inches (24 to 52 cm); dark yellowish brown (10YR 4/4); very fine sandy loam; weak fine granular structure; very friable, nonsticky and nonplastic; few very fine and fine roots; very smeary; 5 percent gravel; very strongly acid (pH 4.8); abrupt smooth boundary. (8 to 13 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 51,
+        "bottom": 152,
+        "texture_class": "loamy fine sand",
+        "cf_class": "extremely cobbly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "narrative": "2C--20 to 60 inches (52 to 152 cm); olive brown (2.5y 4/3); extremely cobbly loamy fine sand; single grained; loose nonsticky and nonplastic; few very fine and fine roots; 25 percent gravel, 35 percent cobbles, and 5 percent stones; moderately acid (pH 5.8)."
+      }
+    ]
+  ]
 }

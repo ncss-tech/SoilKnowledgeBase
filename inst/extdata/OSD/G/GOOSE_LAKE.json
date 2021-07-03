@@ -56,5 +56,111 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 10 inches (A and Eg horizons).\nAlbic horizon - The zone from 6 to 10 inches (Eg horizon).\nMollisol order - The upper 6 inches of the profile (A horizon) meets the requirements for a mollic epipedon, the upper 7 inches of the profile (A horizon and 1 inch of albic horizon (Eg horizon) meets the requirements of a mollic epipedon and the argillic horizon (Btg1 and Btg2 horizons) meets the requirements of a mollic epipedon.\nVitrandic subgroup feature - The zone from the soil surface to 10 inches (A and Eg horizons).\nArgillic horizon - The zone from 10 to 33 inches (Btg1 and Btg2 horizons).\nEndosaturation - The soil is saturated or moist during the winter and summer and is dry in the fall.\nADDITIONAL DATA:  Characterization data available for 2 pedons 72OR037001 (pedon # 72C0114) and 72CA049013 (pedon # 72C0115) Riverside Laboratory; not published data.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "silt loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 6 inches; black (N 2/0) ashy silt loam, dark gray (N 4/) dry; moderate very thin platy structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine roots; few very fine tubular pores; slightly acid (pH 6.2); abrupt smooth boundary.  (6 to 9 inches thick)"
+      },
+      {
+        "name": "Eg",
+        "top": 15,
+        "bottom": 25,
+        "dry_hue": "N",
+        "dry_value": 6,
+        "dry_chroma": 0,
+        "moist_hue": "N",
+        "moist_value": 3,
+        "moist_chroma": 0,
+        "texture_class": "silt loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Eg--6 to 10 inches; very dark gray (N 3/0) ashy silt loam, gray (N 6/0) dry; moderate very thin platy structure; hard, friable, slightly sticky and slightly plastic; common very fine roots; few very fine tubular pores; slightly acid (pH 6.4); abrupt smooth boundary.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 25,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btg1--10 to 19 inches; very dark gray (10YR 3/1) silty clay, gray (10YR 5/1) dry; strong coarse prismatic structure; very hard, very firm, very sticky and very plastic; common very fine roots; few very fine tubular pores; black (10YR 2/1) coatings on the upper few inches of prisms; continuous stress cutans on prisms; neutral (pH 6.8); clear smooth boundary.  (7 to 12 inches thick)"
+      },
+      {
+        "name": "Btg2",
+        "top": 48,
+        "bottom": 84,
+        "dry_hue": "2.5Y",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "N",
+        "moist_value": 3,
+        "moist_chroma": 0,
+        "texture_class": "silty clay",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btg2--19 to 33 inches; very dark gray (N 3/0) silty clay, dark gray (2.5Y 4/1) dry; strong coarse prismatic structure; very hard, very firm, very sticky and very plastic; continuous stress cutans on prisms; neutral (pH 7.0); clear smooth boundary.  (12 to 18 inches thick)"
+      },
+      {
+        "name": "Bkg",
+        "top": 84,
+        "bottom": 107,
+        "dry_hue": "N",
+        "dry_value": 5,
+        "dry_chroma": 0,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "narrative": "Bkg--33 to 42 inches; very dark gray (2.5Y 3/1) silty clay, gray (N 5/0) dry; moderate coarse prismatic structure; very firm, very sticky and very plastic; common very fine roots; few very fine tubular pores; slightly effervescent; common threads of secondary carbonates; many stress cutans on prisms; slightly alkaline (pH 7.8).  (8 to 15 inches thick)"
+      },
+      {
+        "name": "BCkg",
+        "top": 107,
+        "bottom": 157,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "narrative": "BCkg--42 to 62 inches; dark gray (10YR 4/1) silty clay loam, light gray (10YR 7/1) dry; massive, very hard, firm, moderately sticky and moderately plastic; slightly effervescent; slightly alkaline (pH 7.8)."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,109 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon include:\n1. Ochric epipedon - the zone from 0 to 8 inches (Ap horizon).\n2. Cambic horizon - the zone from 8 to 41 inches (Bw, E, and B'w horizons).\n3. Albic horizon - the zone from 24 to 32 inches (E horizon).\n4. Coarse-silty particle-size class - average of the control section from 10 to 40 inches.\n5. Bisequal horizon sequence - the zone from 8 to 41 inches (Bw-E-B'w).\nADDITIONAL DATA:  Characterization data are available for two pedons S58RI-5-2 and S58RI-5-3.  Engineering test data are available for three pedons S67NY-52-3, S67NY-52-4, and S67NY-52-5.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; very dark grayish brown (10YR 3/2) silt loam, pale brown (10YR 6/3) dry; weak fine and medium granular structure; very friable; few pebbles; strongly acid; abrupt smooth boundary.  (6 to 12 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 20,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--8 to 16 inches; dark yellowish brown (10YR 4/4) silt loam; weak medium subangular blocky structure; very friable; few pebbles; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 41,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--16 to 24 inches; brown (10YR 5/3) silt loam; weak medium subangular blocky structure; very friable; strongly acid; clear wavy boundary.  (Combined thickness of the Bw horizons is 12 to 20 inches.)"
+      },
+      {
+        "name": "E",
+        "top": 61,
+        "bottom": 81,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--24 to 32 inches; grayish brown (2.5Y 5/2) silt loam; massive; very friable; few fine distinct yellowish brown (10YR 5/6) masses of iron  concentration; strongly acid; clear wavy boundary.  (4 to 11 inches thick)"
+      },
+      {
+        "name": "B'w1",
+        "top": 81,
+        "bottom": 97,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "B'w1--32 to 38 inches; strong brown (7.5YR 5/8) silt loam; massive; very friable; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "B'w2",
+        "top": 97,
+        "bottom": 104,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "B'w2--38 to 41 inches; light olive brown (2.5Y 5/4) very fine sandy loam; massive; very friable; few fine distinct grayish brown (2.5Y 5/2) iron depletions; strongly acid; clear wavy boundary.  (Combined thickness of the B'w horizons is 4 to 25 inches.)"
+      },
+      {
+        "name": "2C",
+        "top": 104,
+        "bottom": 165,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH_class": "strongly acid",
+        "narrative": "2C--41 to 65 inches; grayish brown (2.5Y 5/2) very gravelly sand; single grain; loose; 40 percent gravel and 15 percent cobbles; common silt caps on rock fragments; strongly acid."
+      }
+    ]
+  ]
 }

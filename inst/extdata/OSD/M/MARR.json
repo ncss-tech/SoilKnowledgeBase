@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Marr soils were formerly included in the Collington series.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nMD0045 MARR        0- 45     -        -       -         -\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nMD0045 NONE          6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nMD0045  0-12  FSL VFSL L              0-  0  95-100 16-23    -\nMD0045 12-34  SCL FSL                 0-  0  95-100 18-35    -\nMD0045 34-60  FSL LFS                 0-  0  95-100 12-20    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nMD0045  0-12  5.1- 5.5  .5-3.  0- 0   2.0- 6.0  LOW\nMD0045 12-34  4.5- 5.5    -    0- 0   0.6- 2.0  LOW\nMD0045 34-60  4.5- 5.5    -    0- 0   2.0- 6.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 6 inches; dark brown (10YR 3/3) fine sandy loam; weak medium granular structure; soft, friable; many roots; strongly acid; clear smooth boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "B1",
+        "top": 15,
+        "bottom": 30,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "B1 -- 6 to 12 inches; brown (7.5YR 5/4) fine sandy loam; weak medium subangular blocky structure; slightly hard, friable, slightly plastic; common roots; many pores; strongly acid; gradual smooth boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "B21t",
+        "top": 30,
+        "bottom": 56,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "B21t -- 12 to 22 inches; strong brown (7.5YR 5/6) sandy clay loam; moderate medium subangular blocky structure; hard, friable to firm, slightly sticky, slightly plastic; few roots; almost continuous thin clay films; sand component is very fine; strongly acid; gradual smooth boundary (10 to 22 inches thick)"
+      },
+      {
+        "name": "B22t",
+        "top": 56,
+        "bottom": 86,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "B22t -- 22 to 34 inches; strong brown (7.5YR 5/8) heavy sandy clay loam; weak medium subangular blocky structure; slightly hard, friable, slightly plastic; few roots; discontinuous strong brown (7.5YR 5/6) distinct clay films; sand component is fine; very strongly acid; clear smooth boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 86,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "narrative": "C -- 34 to 60 inches; variegated brownish yellow (10YR 6/8) and reddish yellow (7.5YR 6/6) fine sandy loam; masive; soft, very friable; strongly acid."
+      }
+    ]
+  ]
 }

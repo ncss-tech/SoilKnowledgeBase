@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon include:\nOchric epipedon\nCambic horizon - from a depth of 3 to 16 inches (Bw1, Bw2 horizons).\nAndic feature - from the mineral soil surface to a depth of 3 inches (A horizon). Medial modifiers were used for those horizons meeting the andic subgroup criteria although not meeting andic soil properties. A proposal was submitted to NSSC (2000) to revise the definition of medial to also include those soil properties qualifying for the Andic subgroup under criteria #1 for andic soil properties.\nLithic feature - bedrock at a depth of 16 inches (R horizon).\nParticle-size control section - from a depth of 10 to 16 inches (Bw2 horizon).\nDepth to diagnostic horizons and features are measured from the top of the first mineral horizon.\nThe current lower limit of the elevation range for this series is 1800 feet which is considerably lower than that of the geographically associated soils (at 3000 feet). Upon further investigation and field observations in Polk County this range is likely to be revised to be consistent with all the associated soils.\nADDITIONAL DATA: Characterization data for samples S01OR-053-003 (Polk County, Oregon) and S00OR-003-008 (Benton County, Oregon); NSSL; Lincoln, NE; 5/02.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; organic litter of leaves and needles."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--1 to 3 inches; brown (7.5YR 5/4) very shaly medial loam, pale brown (10YR 6/3) dry; moderate very fine granular structure; soft, very friable, slightly sticky and slightly plastic; weakly smeary; many fine roots; 45 percent shale fragments; very strongly acid (pH 5.0); clear wavy boundary. (2 to 6 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 8,
+        "bottom": 18,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--3 to 7 inches; brown (7.5YR 5/3) very shaly clay loam, light brown (7.5YR 6/4) dry; weak fine subangular structure; hard, firm, moderately sticky and moderately plastic; many fine roots; 55 percent shale fragments; very strongly acid (pH 5.0); clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 18,
+        "bottom": 41,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw2--7 to 16 inches; brown (7.5YR 5/4) extremely shaly clay loam, light brown (7.5YR 6/4) dry; weak fine subangular blocky structure; hard, firm, moderately sticky and moderately plastic; many fine roots; 70 percent shale fragments; very strongly acid (pH 4.8); abrupt wavy boundary. (Combined thickness of the Bw horizon is 11 to 14 inches)"
+      },
+      {
+        "name": "R1",
+        "top": 41,
+        "bottom": 89,
+        "texture_class": "silt",
+        "narrative": "R1--16 to 35 inches; light gray very strongly cemented, highly fractured siltstone with many large black coatings on surfaces; fractured at intervals of 4 to 18 inches; fragments range in size from 1/2 to 4.5 inches thick and from 2 to 6 inches long; little or no fines in interstices. (10 to 24 inches thick)"
+      },
+      {
+        "name": "R2",
+        "top": 89,
+        "narrative": "R2--35 inches; consolidated shale."
+      }
+    ]
+  ]
 }

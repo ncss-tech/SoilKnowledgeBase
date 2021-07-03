@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soil interpretation record:  MT3083, MT3084.  Diagnostic horizons and features recognized in this pedon are:  a layer of partially decomposed needles, twigs, and leaves from 1/2 inches to the mineral soil surface (Oi horizon); an ochric epipedon from the mineral surface to 7 inches (A, E horizons); an argillic horizon from 7 to 18 inches (Bt horizon); a particle- size control section from 7 to 18 inches (Bt horizon); hard fine grained igneous bedrock at 18 inches (R horizon).  Redfern soils have a cryic temperature regime and an ustic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; light brownish gray (2.5Y 6/2) very cobbly loam, dark grayish brown (2.5Y 4/2) moist; weak fine and medium subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; many very fine and fine and few medium roots; many very fine and fine interstitial and tubular pores; 20 percent cobbles, 30 percent pebbles; neutral (pH 6.9); clear smooth boundary. (0 to 5 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--3 to 7 inches; light gray (10YR 7/2) extremely gravelly loam, brown (10YR 5/3) moist; weak fine and medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and fine and few medium roots; many very fine and fine interstitial and tubular pores; 20 percent cobbles, 40 percent pebbles; neutral (pH 6.8); clear smooth boundary. (3 to 8 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 18,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "extremely gravelly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "narrative": "Bt--7 to 18 inches; yellowish brown (10YR 5/4) extremely gravelly clay loam, dark yellowish brown (10YR 4/4) moist; moderate medium subangular blocky structure; slightly hard, friable, moderately sticky and slightly plastic; common very fine and  fine and few medium roots; common very fine and fine interstitial and tubular pores; many distinct dark grayish brown (10YR 4/2) clay films on faces of peds and bridging sand grains; 20 percent cobbles, 45 percent pebbles; moderately acid (pH 5.8). (6 to 13 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 46,
+        "dry_hue": "5Y",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "narrative": "R--18 inches; very dark gray (5Y 3/1), hard fine grained igneous bedrock."
+      }
+    ]
+  ]
 }

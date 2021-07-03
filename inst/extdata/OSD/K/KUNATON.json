@@ -56,5 +56,60 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon\nare:\nOchric epipedon - the zone from 0 to 4 inches (E horizon)\nArgillic horizon - the zone from 4 to 13 inches (Bt and Btk horizons).\nIndurated duripan - the zone from 13 to 25 inches (Bkqm horizon).\nParticle-size control section - the zone from 0 to 13 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "E",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "narrative": "E--0 to 4 inches; pale brown (10YR 6/3) silt loam, dark yellowish"
+      },
+      {
+        "name": "Bt",
+        "top": 10,
+        "bottom": 23,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "narrative": "Bt--4 to 9 inches; brown (7.5YR 5/4) silty clay, dark brown (7.5YR"
+      },
+      {
+        "name": "Btk",
+        "top": 23,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "silty clay",
+        "narrative": "Btk--9 to 13 inches; very pale brown (10YR 7/3) silty clay, dark"
+      },
+      {
+        "name": "Bkqm",
+        "top": 33,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "narrative": "Bkqm--13 to 25 inches; very pale brown (10YR 7/4) duripan, light"
+      },
+      {
+        "name": "R",
+        "top": 64,
+        "narrative": "R--25 inches; highly jointed and fractured vesicular basalt."
+      }
+    ]
+  ]
 }

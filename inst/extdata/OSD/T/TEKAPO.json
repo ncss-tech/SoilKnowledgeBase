@@ -56,5 +56,55 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to depth of 2 inches (A horizon)\nParalithic contact - the boundary at 10 inches (Cr horizon)\nEntisol Feature - the lack of diagnostic horizons.\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Eleventh Edition, 2010\nUpdate and revisions for the correlation of Chinle Area (AZ713), August 2011, LJGII\n________________________________________\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "cf_class": "channery",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; reddish brown (2.5YR 4/4) channery silty clay loam, reddish brown (2.5YR 4/4) moist; strong fine granular structure; slightly hard, firm, sticky and plastic; common fine and many very fine roots; many very fine irregular pores; 20 percent channers; slightly effervescent; slightly alkaline; abrupt smooth boundary. (2 to 4 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 5,
+        "bottom": 25,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "silty clay",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C--2 to 10 inches; reddish brown (2.5YR 4/4) silty clay, dark red (2.5YR 3/6) moist; massive; hard, firm, sticky and plastic; few medium and coarse, many fine and common very fine roots; common very fine irregular pores; slightly effervescent; slightly alkaline; abrupt smooth boundary. (4 to 18 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 25,
+        "texture_class": "silt",
+        "narrative": "Cr--10 inches; soft shale and siltstone."
+      }
+    ]
+  ]
 }

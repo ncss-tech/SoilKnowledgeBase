@@ -56,5 +56,58 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon: from the surface to a depth of 25 cm (A horizon).\nCambic horizon: from a depth of 25 to 46 cm (Bw horizon).\nRepresentative data mapunit for this pedon is DMU ID 153376 in MO 11.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 25 cm (0 to 10 inches); black (10YR 2/1) sandy loam, very dark gray (10YR 3/1) dry; moderate fine granular structure; very friable; many fine and medium roots; 14 percent rock fragments; neutral; abrupt smooth boundary. [10 to 30 cm (4 to 12 inches) thick]"
+      },
+      {
+        "name": "Bw",
+        "top": 25,
+        "bottom": 46,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw--25 to 46 cm (10 to 18 inches); brown (7.5YR 4/3) very gravelly coarse sandy loam; weak medium granular structure; very friable; common fine and medium roots; 35 percent rock fragments; slightly alkaline; abrupt smooth boundary. [8 to 23 cm (3 to 9 inches) thick]"
+      },
+      {
+        "name": "C",
+        "top": 46,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately alkaline",
+        "narrative": "C--46 to 203 cm (18 to 80 inches); yellowish brown (10YR 5/4) very gravelly loamy coarse sand; single grain; loose; 50 percent rock fragments; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

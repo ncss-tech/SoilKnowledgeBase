@@ -56,5 +56,70 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  These soils were formerly included in the Hibriten series.  However, Hibriten soils have a paralithic contact at depths of 20 to 40 inches.  Diagnostic horizons and features recognized in this pedon:\nOchric epipedon--the zone from the surface of the soil to 16 inches (the A and AB horizons)\nArgillic horizont--the zone from 16 to 30 inches (the Bt horizon)\nLithic contact--the upper boundary of hard mica schist bedrock (the upper boundary of the R horizon)\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0265 CLIFFSIDE   8- 70   58- 61  190-210  47- 52   500-1200\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0265 NONE          6.0-6.0              -     20-40   HARD\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0265  0-16  CBV-SL CBV-L           20- 40  50- 65  7-20   2-  6\nNC0265  0-16  GRV-SL GRV-L            0- 20  30- 50  7-20   2-  6\nNC0265  0-16  GR-SL GR-L CB-SL        0- 10  60- 75  7-20   2-  6\nNC0265 16-30  CBV-SCL GRV-SCL GRV-C  10- 40  40- 55 10-35   2-  8\nNC0265 30-34  UWB                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0265  0-16  4.5- 5.5  .5-2.  0- 0   2.0- 6.0  LOW\nNC0265  0-16  4.5- 5.5  .5-2.  0- 0   2.0- 6.0  LOW\nNC0265  0-16  4.5- 5.5  .5-2.  0- 0   2.0- 6.0  LOW\nNC0265 16-30  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  LOW\nNC0265 30-34     -        -     -    0.00- 0.1\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 5,
+        "bottom": 0,
+        "narrative": "0i--2 to 0 inches; slightly decomposed leaves and twigs and live roots."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very cobbly",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 7 inches; brown (10YR 4/3) very cobbly sandy loam; weak medium granular structure; very friable; common fine and medium roots; 20 percent pebbles and 15 percent cobbles by volume; few fine flakes of mica; strongly acid; abrupt smooth boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "AB",
+        "top": 18,
+        "bottom": 41,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "AB--7 to 16 inches; strong brown (7.5YR 4/6) very gravelly sandy loam; moderate medium granular structure; very friable; common fine roots; 25 percent pebbles and 10 percent cobbles by volume; common fine flakes of mica; very strongly acid; clear wavy boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 41,
+        "bottom": 76,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--16 to 30 inches; yellowish red (5YR 4/6) very gravelly sandy clay loam; weak fine subangular blocky structure; friable; few fine roots; 40 percent pebbles by volume; common fine flakes of mica; very strongly acid; clear wavy boundary.  (12 to 24 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 76,
+        "bottom": 86,
+        "narrative": "R--30 to 34 inches; hard fractured mica schist bedrock."
+      }
+    ]
+  ]
 }

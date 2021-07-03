@@ -56,5 +56,68 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the surface to 18 cm. (Ap and part of C1 horizon horizon)\nParticle-size control section - Upper part - the zone from 25 to 48 cm (part of the C1 horizon); lower part the zone from 48 to 100 cm (2C2 horizons and parts of the 3C3 horizon).\nADDITIONAL DATA:  Laboratory sample 92UT041002 from Sevier County, Utah by SSL, Lincoln, NE, 07/92.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 13 cm; yellowish brown (10YR 5/4) fine sandy loam, dark yellowish brown (10YR 3/4) moist; weak fine granular structure; slightly hard, very friable, slightly sticky and nonplastic; many very fine and fine and few medium roots; many very fine and fine interstitial and tubular pores; 5 percent gravel; strongly effervescent; carbonates are disseminated; moderately alkaline (pH 8.2); clear smooth boundary. (8 to 20 cm thick)"
+      },
+      {
+        "name": "C1",
+        "top": 13,
+        "bottom": 48,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C1--13 to 48 cm; brown (10YR 5/3) fine sandy loam, brown (10YR 4/3) moist; weak fine subangular blocky structure; slightly hard, very friable, slightly sticky and nonplastic; common very fine and fine and few medium roots; strongly effervescent, carbonates are disseminated; moderately alkaline (pH 8.2); abrupt smooth boundary. (20 to 50 cm thick)"
+      },
+      {
+        "name": "2C2",
+        "top": 48,
+        "bottom": 73,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "2C2-- 48 to 73 cm; light brownish gray (10YR 6/2) loamy fine sand, grayish brown (10YR 5/2) moist; single grain; loose, nonsticky and nonplastic; few very fine and fine roots; 5 percent gravel; strongly effervescent, carbonates are disseminated; moderately alkaline (pH 8.4); abrupt smooth boundary. (15 to 50 cm thick)"
+      },
+      {
+        "name": "3C3",
+        "top": 73,
+        "bottom": 150,
+        "texture_class": "coarse sand",
+        "cf_class": "very gravelly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "narrative": "3C3--73 to 150 cm; multicolored very gravelly coarse sand; single grain; loose, nonsticky and nonplastic; 50 percent gravel, 7 percent cobbles; slightly effervescent, carbonates are on undersides of rock fragments; moderately alkaline (pH 8.4)."
+      }
+    ]
+  ]
 }

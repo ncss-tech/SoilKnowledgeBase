@@ -56,5 +56,77 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - from a depth of 0 to 3 inches (A horizon)\nArgillic horizon - from a depth of 3 to 10 inches (Bt and Btk horizon)\nCalcic horizon - from a depth of 7 to 18 inches (Btk and Bk horizon)\nPetrocalcic horizon - at a depth of 18 inches (Bkm horizon)\nClassified according to Soil Taxonomy Second Edition, 1999.\nClassification was changed from Petrocalcic Ustollic Paleargids to Ustalfic Petrocalcids in 12/94.\nThe classification change referred to by the 12/94 remark did not become official, so this change was made at the request of Region 4. tdc 7/2019\nThe classification change affected the competing series section, which was changed. tdc 7/2019\nAdded metric units to horizon descriptions. tdc 7/2019\nClassified according to Soil Taxonomy Twelfth Edition, 2014. It was assumed that calcic horizon criteria was met in the Btk and Bk horizons. No KSSL data exists for the Esplin series. tdc 7/2019\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 8 cm (0 to 3 inches); reddish brown (5YR 4/4) loam, yellowish red (5YR 4/6) moist; moderate very fine granular structure; soft, friable, slightly sticky and slightly plastic; common fine and few medium roots; few fine vesicular pores; about 10 percent of the surface covered with basalt gravel and hardpan fragments; noncalcareous; moderately alkaline (pH 8.2); clear smooth boundary. (1 to 5 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 8,
+        "bottom": 18,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--8 to 18 cm (3 to 7 inches); dark red (2.5YR 3/6) clay loam, dark red (2.5YR 3/6) moist; weak coarse prismatic structure that parts to moderate medium subangular blocky structure; very hard, firm, sticky and plastic; common fine and medium roots; common fine and few medium interstitial pores; common moderately thick clay films in pores and on faces of some peds; noncalcareous; moderately alkaline (pH 8.0); clear smooth boundary. (4 to 8 inches thick)"
+      },
+      {
+        "name": "Btk",
+        "top": 18,
+        "bottom": 25,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH": 8.6,
+        "pH_class": "strongly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btk--18 to 25 cm (7 to 10 inches); yellowish red (5YR 4/6) silty clay loam, yellowish red (5YR 4/6) moist; moderate medium subangular blocky structure; hard, friable, sticky and plastic; common fine and medium roots; common fine and few medium interstitial pores; strongly effervescent, carbonates are present as accretions and veins; strongly alkaline (pH 8.6); clear wavy boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 25,
+        "bottom": 46,
+        "moist_hue": "5YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 8.8,
+        "pH_class": "strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bk--25 to 46 cm (10 to 18 inches); light reddish brown (5YR 6/4) silt loam, yellowish red (5YR 5/6) moist; weak medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common fine and few medium roots; common fine and few medium interstitial pores; strongly effervescent, carbonates are present as accretions and veins; strongly alkaline (pH 8.8); abrupt smooth boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bkm",
+        "top": 46,
+        "narrative": "Bkm--46 cm (18 inches); indurated carbonate hardpan."
+      }
+    ]
+  ]
 }

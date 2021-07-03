@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this profile include:\nOchric epipedon: 0 to 8 inches\nSandy-skeletal particle size: 8 to 60 inches\nOrganic carbon: irregular decrease assumed from stratified morphology\nTemperature regime: cryic\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "narrative": "Oi--0 to 1 inch; very dark brown (10YR 2/2) slightly decomposed plant material; very strongly acid (pH 5.0).  (1 to 3 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "very fine sandy loam",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--1 to 3 inches; very dark grayish brown (10YR 3/2) very fine sandy loam with occasional strata and pockets of dark gray (2.5Y 4/1) fine sand and sand; weak medium granular structure; very friable, nonsticky and nonplastic; common very fine, fine, and medium and few coarse roots; moderately acid (pH 5.6); clear smooth boundary.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "AC",
+        "top": 8,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sand",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "AC--3 to 9 inches; dark brown (10YR 3/3) and dark gray (10YR 4/1) stratified fine sand and silt; very friable, nonsticky and nonplastic; common very fine, fine and medium roots; moderately acid (pH 5.6) clear smooth boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "2C1",
+        "top": 23,
+        "bottom": 69,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "coarse sand",
+        "cf_class": "extremely gravelly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2C1--9 to 27 inches; variegated extremely gravelly coarse sand with occasional lenses and pockets of dark gray (2.5Y 4/1) and dark brown (10YR 3/3) sand; single grain; loose, nonsticky and nonplastic; moderately acid (pH 5.8); gradual smooth boundary.  (15 to 55 inches thick)"
+      },
+      {
+        "name": "2C2",
+        "top": 69,
+        "bottom": 152,
+        "texture_class": "coarse sand",
+        "cf_class": "extremely gravelly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "narrative": "2C2--27 to 60 inches; variegated extremely gravelly coarse sand; single grain; loose, nonsticky and nonplastic; moderately acid (pH 5.8)"
+      }
+    ]
+  ]
 }

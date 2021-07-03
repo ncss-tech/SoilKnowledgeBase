@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Soils now included with the Micaville series were previously mapped with the Chandler series. Chandler soils are very deep to bedrock.\nThe 9/96 revision added changes in textures and runoff class.\nDiagnostic horizons and soil characteristics recognized in this pedon are:\nOchric epipedon - the zone from the soil surface to a depth of 5 inches (Oi, Oe, and A horizons).\nCambic horizon - the zone from 5 to 53 inches (Bw1, Bw2 and BC horizons).\nParalithic contact - contact with weathered bedrock at 53 inches (upper boundary of the Cr horizon)\nADDITIONAL DATA:\nMLRA: 130 SIR(s): NC0275\nRevised: 05/93-JBA,JAK; 09/96-BPS,DHK, 12/97-DHK, 7/00-MKC\nADDITIONAL DATA: Characterization data is available from the National Soil Survey Laboratory, Lincoln, NE; pedon number S90NC-121-004.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; slightly decomposed oak-pine leaf litter. (0 to 2 inches thick)"
+      },
+      {
+        "name": "Oe",
+        "top": 3,
+        "bottom": 5,
+        "narrative": "Oe--01 to 2 inches; moderately decomposed leaf litter. (0 to 2 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "channery",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--2 to 5 inches; black (10YR 2/1) channery coarse sandy loam, dark brown (10YR 3/3) dry; weak fine granular structure; friable; many fine to coarse roots; many fine and medium and few coarse tubular pores; many fine flakes of mica; 10 by volume pebbles and 15 percent channers; extremely acid; abrupt smooth boundary. (1 to 8 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 13,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--5 to 9 inches; yellowish brown (10YR 5/6) channery coarse sandy loam; moderate coarse subangular blocky structure; friable; common fine to coarse roots; common fine and few medium and coarse tubular pores; many fine flakes of mica; 15 percent by volume pebbles and 15 percent channers; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 23,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "coarse sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--9 to 30 inches; yellowish brown (10YR 5/6) coarse sandy loam; moderate coarse subangular blocky structure; friable; common fine to coarse roots; common very fine and fine tubular pores; few medium and many fine flakes of mica; 10 percent by volume pebbles; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw3",
+        "top": 76,
+        "bottom": 99,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "coarse sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw3--30 to 39 inches; yellowish brown (10YR 5/8) coarse sandy loam; moderate coarse subangular blocky structure; very friable; few fine to coarse roots; few very fine or fine tubular and vesicular pores; many fine flakes of mica; 5 percent by volume pebbles; strongly acid; clear wavy boundary. (Combined thickness of the Bw horizon is 12 to 48 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 99,
+        "bottom": 135,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "BC--39 to 53 inches; yellowish brown (10YR 5/8) gravelly sandy loam; weak coarse subangular blocky structure; very friable; few fine to coarse roots; few very fine tubular and vesicular pores; common medium and many fine flakes of mica; 20 percent by volume pebbles; strongly acid; abrupt wavy boundary. (0 to 20 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 135,
+        "bottom": 160,
+        "narrative": "Cr--53 to 63 inches; weathered, multicolored mica schist that can be dug with difficulty with hand tools; few fine and medium roots in cracks that are spaced more than 4 inches apart."
+      }
+    ]
+  ]
 }

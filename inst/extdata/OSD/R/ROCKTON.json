@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 38 to 79 centimeters;\nseries control section--the zone from the surface to a depth of 79 centimeters.\nDiagnostic horizons and features recognized in this pedon include:\nmollic epipedon--the zone from the surface to a depth of 38 centimeters (Ap and AB horizons);\nargillic horizon--the zone from a depth of 38 to 79 centimeters (Bt1, Bt2, and 2Bt3 horizons);\nlithic contact--the contact with limestone bedrock at 79 centimeters;\nudic moisture regime.\nThe upper 0.3 to 1.5 meters of limestone may be significantly fractured and may not be a root restrictive layer.\nCation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomy version--Keys to Soil Taxonomy, tenth edition, 2006.\nADDITIONAL DATA::  Refer to MAES Central File Code No. 869 for results of some laboratory analysis of the typical pedon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 25 centimeters; very dark brown (10YR 2/2) loam, very dark grayish brown (10YR 3/2) dry; weak very fine granular structure; very friable; slightly acid; abrupt wavy boundary.  (15 to 25 centimeters thick)"
+      },
+      {
+        "name": "AB",
+        "top": 25,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "AB--25 to 38 centimeters; very dark grayish brown (10YR 3/2) loam, dark grayish brown (10YR 4/2) dry; weak fine subangular blocky structure; very friable; very dark brown (10YR 2/2) coats on faces of peds; moderately acid; clear irregular boundary.  (0 to 20 centimeters thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 38,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--38 to 53 centimeters; brown (10YR 4/3) loam; moderate fine angular blocky structure; friable; very dark grayish brown (10YR 3/2) coats on faces of peds; few fine pores; few thin clay films on faces of peds; about 3 percent coarse fragments; strongly acid; clear wavy boundary"
+      },
+      {
+        "name": "Bt2",
+        "top": 53,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--53 to 66 centimeters; dark yellowish brown (10YR 4/4) sandy clay loam; moderate fine subangular blocky structure; friable; brown (10YR 4/3) coats on faces of peds; few variable sized pores; many thin clay films on faces of peds and clay bridges between sand grains; about 3 percent rock fragments; strongly acid; clear wavy boundary.  (Combined thickness of the Bt horizon is 10 to 50 centimeters.)"
+      },
+      {
+        "name": "2Bt3",
+        "top": 66,
+        "bottom": 79,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bt3--66 to 79 centimeters; dark yellowish brown (10YR 4/4) light clay; moderate fine subangular blocky structure; firm; many thin and medium clay films on faces of peds; about 3 percent rock fragments; moderately acid; clear wavy boundary.  (0 to 15 centimeters thick)"
+      },
+      {
+        "name": "2R",
+        "top": 79,
+        "narrative": "2R--79 centimeters; limestone bedrock, weathered along joints and partially fractured in the upper 60 centimeters."
+      }
+    ]
+  ]
 }

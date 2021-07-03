@@ -56,5 +56,57 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - from the surface to 4 centimeters (A horizon)\nParticle-size control section - from the surface to 8 centimeters (A and Bw horizons)\nLithic contact - at a depth of 10 centimeters (R horizon)\nSixteenmile soils have a frigid temperature regime and an ustic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 4,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 4 centimeters; reddish brown (5YR 5/3) very channery loam, dark reddish brown (5YR 3/3) moist; weak very fine granular structure; soft, very friable, slightly sticky and slightly plastic; many very fine and fine roots; 55 percent channers; neutral (pH 7.0); clear smooth boundary. (4 to 10 cm thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 4,
+        "bottom": 10,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely channery",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw--4 to 10 centimeters; light reddish brown (5YR 6/4) extremely channery loam, reddish brown (5YR 4/4) moist; moderate very fine granular structure; soft, very friable, slightly sticky and nonplastic; few very fine and medium roots; 75 percent channers; 2 percent flagstones; neutral (pH 7.2); abrupt smooth boundary. (5 to 15 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 10,
+        "narrative": "R--10 centimeters; hard, strongly cemented shale bedrock."
+      }
+    ]
+  ]
 }

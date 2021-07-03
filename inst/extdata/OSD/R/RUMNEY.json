@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: *MLRA 101, 144A, and 145 are areas with mesic soil temperature regimes. Rumney soils have a frigid temperature regime and will not be mapped in MLRA 101, 144A, and 145 when these areas are updated. Some pedons have been described with an AC horizon sequence.\nDiagnostic horizons and features recognized in this pedon include:\na. Ochric epipedon - the zone from 0 to 9 inches (Ap horizon).\nb. Cambic horizon - the zone from 9 to 30 inches (Bg horizon).\nc. Fluvaquentic feature - the content of organic carbon decreases irregularly with depth.\nd. Aquic conditions - redox features throughout the mineral soil.\nADDITIONAL DATA: The Soil Interpretation Record number for the Rumney series is ME0014.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 9 inches; very dark grayish brown (10YR 3/2) fine sandy loam, light brownish gray (10YR 6/2) dry; weak fine granular structure; very friable; many very fine and fine and common medium and coarse roots; few fine distinct dark grayish brown (2.5Y 4/2) iron depletions; very strongly acid; clear smooth boundary. (3 to 10 inches thick.)"
+      },
+      {
+        "name": "Bg1",
+        "top": 23,
+        "bottom": 51,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg1 -- 9 to 20 inches; dark grayish brown (2.5Y 4/2) fine sandy loam; weak fine granular structure; very friable; many very fine and fine, and common medium roots; common fine prominent dark yellowish brown (10YR 4/4) masses of iron accumulation and common fine faint grayish brown (2.5Y 5/2) iron depletions; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 51,
+        "bottom": 76,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg2 -- 20 to 30 inches; grayish brown (2.5Y 5/2) sandy loam; weak fine granular structure; friable; common very fine, fine and medium roots; many medium prominent strong brown (7.5YR 4/6) masses of iron accumulation and common medium faint olive gray (5Y 5/2) iron depletions; moderately acid; clear wavy boundary. (The combined thickness of the Bg horizon is 14 to 30 inches.)"
+      },
+      {
+        "name": "Cg",
+        "top": 76,
+        "bottom": 165,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "moderately acid",
+        "narrative": "Cg -- 30 to 65 inches; olive gray (5Y 4/2) loamy sand; single grain; loose; common medium faint olive gray (5Y 5/2) and few fine faint gray (5Y 6/1) iron depletions; moderately acid."
+      }
+    ]
+  ]
 }

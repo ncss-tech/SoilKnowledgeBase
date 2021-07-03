@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This revision of February 2003 moves the type location from Lassen County to Siskiyou County, California, to a soil survey area where the series is correlated.  Although the Dunnlake series was proposed in the Susanville Area soil survey in 1985, it was eventually correlated to the competing Devada series.\nDiagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 10 inches (A, Bt1, and Bt2 horizons).\nArgillic horizon - The zone from 4 to 16 inches (Bt1, Bt2, and Bt3 horizons).\nLithic contact - The boundary at 16 inches to hard, unweathered bedrock (R layer).\nParticle-size control section - The zone from 4 to 16 inches (Bt1, Bt2, and Bt3 horizons).\nClassification was updated to 11th edition on 07/2011 changed from Lithic Argixerolls to Aridic Lithic Argixerolls\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; grayish brown (10YR 5/2) loam, very dark grayish brown (10YR 3/2) moist; moderate medium platy structure parting to moderate medium granular; soft, very friable, slightly sticky and slightly plastic; many very fine and many fine roots; common very fine interstitial pores; 5 percent cobbles and 5 percent pebbles; neutral; abrupt smooth boundary.  (3 to 5 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 10,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--4 to 7 inches; grayish brown (10YR 5/2) clay loam, very dark grayish brown (10YR 3/2) moist; moderate medium subangular blocky structure; slightly hard, very friable, moderately sticky and moderately plastic; many very fine and many fine roots; many very fine interstitial pores; few distinct clay films on faces of peds; 5 percent cobbles and 5 percent pebbles; neutral; clear smooth boundary.  (2 to 4 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 18,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--7 to 10 inches; brown (10YR 5/3) clay, dark brown (10YR 3/3) moist; moderate medium subangular blocky structure; slightly hard, friable, moderately sticky and moderately plastic; common fine and few medium roots; many very fine interstitial pores; common distinct clay films on faces of peds; 5 percent cobbles and 5 percent pebbles; neutral; clear smooth boundary.  (2 to 4 inches thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 25,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt3--10 to 16 inches; yellowish brown (10YR 5/4) clay, dark yellowish brown (10YR 4/4) moist; strong fine subangular blocky structure; hard, firm, very sticky and very plastic; common fine and few medium roots; many very fine interstitial pores; many distinct clay films on faces of peds; 3 percent cobbles and 5 percent pebbles; neutral; abrupt smooth boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 41,
+        "narrative": "R--16 inches; hard, unweathered basalt."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,122 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Prior to 1998, Bt horizons having vertic characteristics that were less than 20 inches thick were too thin to place these soils in Vertic Hapludalfs. The eighth edition of the Keys to Soil Taxonomy, 1998 changed the requirements for Vertic subgroups and now these soils fit.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface of the soil to 7 inches (Ap1 and Ap2 horizons)\nArgillic horizon - the zone from 7 to 24 inches (Btss1, Btss2, and Bt horizons)\nMLRA = 136\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5     Soil Name    Slope   Airtemp    FrFr/Seas   Precip    Elevation\nSC0016  IREDELL     0-15     59- 66      190-225      37-60     300-550\nSC0146  IREDELL     0-15     59- 66      190-225      37-60     300-550\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nSC0016 NONE          1.0-2.0    PERCHED  DEC-APR  >60\nSC0146 NONE          1.0-2.0    PERCHED  DEC-APR  40-60  SOFT\nSOI-5  Depth  Texture      3-Inch  No-10   Clay%   -CEC-\nSC0016  0- 7  GR-L ST-L    1-5    65- 80   10-25    9-13\nSC0016  0- 7  FSL SL       0-1    80- 96   10-20    8-12\nSC0016  0- 7  L SIL CL     0-1    95-100   15-35    9-15\nSC0016  7-24  C            0-0    60-100   40-60   26-30\nSC0016 24-27  L SCL CL     0-1    85-100   15-35   15-30\nSC0016 27-62  VAR           -       -        -       -\nSC0146  0- 7  GR-L ST-L    1-5    65- 80   10-25    9-13\nSC0146  0- 7  FSL SL       0-1    80- 96   10-20    8-12\nSC0146  0- 7  L SIL CL     0-1    95-100   15-35    9-15\nSC0146  7-27  C            0-0    60-100   40-60   26-30\nSC0146 27-44  L SCL SL     0-1    85-100   10-35   10-25\nSC0146 44-62  WB            -       -        -       -\nSOI-5  Depth    -pH-     O.M.  Salin    Permeab   Shnk-Swll\nSC0016  0- 7  5.1- 7.3  .5-2.  0- 0     2.0-6.0    LOW\nSC0016  0- 7  5.1- 7.3  .5-2.  0- 0     2.0-6.0    LOW\nSC0016  0- 7  5.1- 7.3  .5-2.  0- 0     0.6-2.0    LOW\nSC0016  7-24  5.6- 7.3  0.-.5  0- 0  0.0015-0.06   VERY HIGH\nSC0016 24-27  6.1- 7.8  0.-.5  0- 0    0.06-0.2    HIGH\nSC0016 27-62     -        -     -          -\nSC0146  0- 7  5.1- 7.3  .5-2.  0- 0     2.0-6.0    LOW\nSC0146  0- 7  5.1- 7.3  .5-2.  0- 0     2.0-6.0    LOW\nSC0146  0- 7  5.1- 7.3  .5-2.  0- 0     0.6-2.0    LOW\nSC0146  7-27  5.6- 7.3  0.-.5  0- 0  0.0015-0.06   VERY HIGH\nSC0146 27-44  6.1- 7.8  0.-.5  0- 0    0.06-0.2    MODERATE\nSC0146 44-62     -        -     -          -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap1",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap1--0 to 5 inches; dark grayish brown (2.5Y 4/2) sandy loam; weak medium granular structure; friable, slightly sticky, slightly plastic; many fine and medium roots; 1 percent fine pebbles; few fine black concretions; slightly acid; clear smooth boundary. (4 to 7 inches thick)"
+      },
+      {
+        "name": "Ap2",
+        "top": 13,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Ap2--5 to 7 inches; dark grayish brown (10YR 4/2) loam; moderate medium granular structure; friable, slightly sticky, slightly plastic; many fine and medium roots; few fine black concretions; neutral; clear wavy boundary. (0 to 3 inches thick)"
+      },
+      {
+        "name": "Btss1",
+        "top": 18,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btss1--7 to 11 inches; brown (10YR 4/3) clay; moderate medium angular blocky structure; very firm, very sticky, very plastic; many fine and medium roots; common distinct clay films on faces of peds; common slickensides; many fine (1 to 2 mm) black concretions; slightly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Btss2",
+        "top": 28,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btss2--11 to 20 inches; brown (10YR 4/3) clay; moderate medium and coarse angular blocky structure; very firm, very sticky, very plastic; many fine and medium roots along faces of peds; common distinct clay films on faces of peds; common slickensides and pressure faces; common fine black concretions; few fine weathered feldspar crystals; neutral; gradual smooth boundary."
+      },
+      {
+        "name": "Btg",
+        "top": 51,
+        "bottom": 61,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg--20 to 24 inches; dark grayish brown (2.5Y 4/2) clay; moderate medium and coarse angular blocky structure; very firm, very sticky, very plastic; many fine and medium roots, mostly along faces of peds; few fine pores; common distinct clay films on faces of peds; few medium black concretions; few fine weathered feldspar crystals; slightly acid; gradual smooth boundary. (Combined thickness of the Bt horizon is 13 to 30 inches)"
+      },
+      {
+        "name": "BC",
+        "top": 61,
+        "bottom": 69,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BC--24 to 27 inches; olive (5Y 4/3) loam; common medium distinct very pale brown (10YR 7/3) and few fine distinct dark grayish brown (2.5Y 4/2) and black (N 2/0) mottles; moderate medium and coarse angular blocky structure; firm, sticky, plastic; many fine and medium roots along faces of peds; few medium pores; common distinct clay films on faces of peds; common soft dark grayish brown and black saprolite; neutral; clear wavy boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 69,
+        "bottom": 81,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C1--27 to 32 inches; finely mottled dark greenish gray, very pale brown, and yellowish brown loam; 80 percent saprolite that crushes easily; many fine roots and few distinct clay films along cleavage planes; neutral; gradual wavy boundary."
+      },
+      {
+        "name": "C2",
+        "top": 81,
+        "bottom": 112,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C2--32 to 44 inches; finely mottled dark greenish gray, very pale brown, black and yellowish brown sandy loam; 90 percent saprolite that crushes easily; many fine roots and few distinct clay films along cleavage planes; moderately alkaline; gradual wavy boundary."
+      },
+      {
+        "name": "C3",
+        "top": 112,
+        "bottom": 157,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "C3--44 to 62 inches; finely mottled dark greenish gray, yellowish brown, black and very pale brown sandy loam; 90 percent saprolite that crushes easily; few fine roots along cleavage planes; 10 percent fragments of hard rock; moderately alkaline."
+      }
+    ]
+  ]
 }

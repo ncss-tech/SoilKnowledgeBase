@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The April 1993 revision of the Liddell series changed the great group classification from Haplaquepts to Endoaquepts.\nDiagnostic horizons and soil properties recognized in the typical pedon are:\nOchric epipedon - the zone from the surface to a depth of 8 inches (Ap horizon)\nCambic horizon - the zone between depths of 8 to 54 inches (Bg1, Bg2, and Bg3 horizons)\nMLRA(S): 133A, 153A         SIR: NC0088\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0088 LIDDELL     0-  2   60- 64  200-220  46- 52    30- 150\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0088 NONE   RARE     0-1.0  APPARENT NOV-APR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0088  0- 8  L SIL VFSL              0-  0 100-100  5-25   2-  8\nNC0088  8-65  L SIL VFSL              0-  0 100-100  5-25   1-  6\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0088  0- 8  4.5- 5.5  1.-3.  0- 0   2.0- 6.0  LOW\nNC0088  8-65  4.5- 5.5  0.-1.  0- 0   0.6- 2.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; dark gray (10YR 4/1) very fine sandy loam; weak medium granular structure; very friable; many fine roots; strongly acid; clear smooth boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "Bg1",
+        "top": 20,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg1--8 to 14 inches; gray (10YR 6/1) very fine sandy loam; weak medium granular structure; very friable; few fine roots; common root channels filled with dark gray soil; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 36,
+        "bottom": 107,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bg2--14 to 42 inches; gray (10YR 6/1) very fine sandy loam; common medium distinct mottles of brownish yellow (10YR 6/6); weak fine subangular blocky structure; very friable; slightly sticky, slightly plastic; few large pores; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bg3",
+        "top": 107,
+        "bottom": 137,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bg3--42 to 54 inches; gray (10YR 6/1) very fine sandy loam; few fine distinct mottles of brownish yellow (10YR 6/6); weak fine subangular blocky structure; very friable, slightly sticky, slightly plastic; few faint silt coating on some ped faces; very strongly acid; gradual wavy boundary.  (Combined thickness of the Bg horizons is 34 to 50 inches.)"
+      },
+      {
+        "name": "Cg",
+        "top": 137,
+        "bottom": 165,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Cg--54 to 65 inches; gray (10YR 6/1) loam; common medium distinct mottles of brown (10YR 5/3) and brownish yellow (10YR 6/6) mottles; massive; friable, slightly sticky, slightly plastic; very strongly acid."
+      }
+    ]
+  ]
 }

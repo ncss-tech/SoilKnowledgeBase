@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 28 to 46 centimeters;\nseries control section--the zone from surface of the soil to a depth of 150 centimeters.\nDiagnostic horizons and features recognized in this pedon include:\nmollic epipedon--the zone from 0 to 28 centimeters (Ap horizon);\nargillic horizon-the zone from 28 to 46 centimeters (Btg horizon);\naquic moisture regime.\nTaxonomy version--Keys to Soil Taxonomy, tenth edition, 2006\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 28 centimeters; very dark gray (10YR 3/1) silt loam, gray (10YR 5/1) dry; weak fine and moderate granular structure; very friable; common fine and very fine roots; moderately acid; clear smooth boundary. (20 to 33 centimeters thick)"
+      },
+      {
+        "name": "Btg",
+        "top": 28,
+        "bottom": 46,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg--28 to 46 centimeters; olive gray (5Y 5/2) silty clay loam; weak very fine angular blocky structure; firm; common fine and very fine roots; few faint grayish brown (2.5Y 5/2) clay films on faces of peds; common fine prominent olive brown (2.5Y 4/4) and few fine prominent olive (5Y 5/6) redoximorphic concentrations; neutral; gradual wavy boundary. (13 to 51 centimeters thick)"
+      },
+      {
+        "name": "Bg",
+        "top": 46,
+        "bottom": 64,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bg--46 to 64 centimeters; olive (5Y 5/3) silt loam; moderate medium subangular blocky structure; friable; few fine and very fine roots; common medium distinct light olive brown (2.5Y 5/6) redoximorphic concentrations; common medium faint grayish brown (2.5Y 5/2) redoximorphic depletions; strongly effervescent; moderately alkaline; abrupt wavy boundary. (13 to 51 centimeters thick)"
+      },
+      {
+        "name": "2C",
+        "top": 64,
+        "bottom": 203,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "loamy very fine sand",
+        "pH_class": "moderately alkaline",
+        "narrative": "2C--64 to 203 centimeters; light gray (2.5Y 7/2) loamy very fine sand; single grain; friable; few fine faint light gray (10YR 7/1) nodules of calcium carbonate; common fine distinct pale olive (5Y 6/4) Fe depletions, and common fine and medium prominent yellow (10YR 7/8) Fe concentrations; violently effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizon and features recognized in this pedon are:\nOchric epipedon - The zone from the surface to 10 inches (A1 and A2 horizon)\nCalcic horizon - The Zone from 10 to 18 inches (Bk horizon)\nParticle size control section - The zone from 10 to 18 inches (Bk horizon)\nPetrocalcic horizon -The zone at 18 inches (Bkm horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 1 inches; very pale brown (10YR 8/3) sandy loam, light yellowish brown (10YR 6/4) moist; moderate medium platy structure; soft, friable, nonsticky and nonplastic; few very fine roots, common very fine and fine vesicular pores; 10 percent pebbles; strongly effervescent; moderately alkaline (pH 8.4) clear wavy boundary (1 to 2 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 3,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--1 to 10 inches; very pale brown (10YR 8/3) sandy loam, light yellowish brown (10YR 6/4) moist; moderate medium subangular blocky structure; soft, very friable, nonsticky and nonplastic, common very fine, fine and medium roots, common very fine and fine interstitial pores, 5 percent pebbles, strongly effervescent; moderately alkaline (pH 8.4); clear wavy boundary.  (0 to 9 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 25,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH": 9,
+        "pH_class": "strongly alkaline",
+        "narrative": "Bk--10 to 18 inches; white (10YR 8/1) gravelly clay loam, light yellowish brown (10YR 6/4) and yellowish brown (10YR 5/4) moist; massive; soft, very friable, slightly sticky and plastic; common very fine, fine and medium roots; 20 percent pebbles; common soft lime filaments throughout horizon; violently effervescent; strongly alkaline (pH 9.0) abrupt, smooth boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "Bkm",
+        "top": 46,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 1,
+        "narrative": "Bkm--18 to 60 inches, white (10YR 8/1) indurated petrocalcic horizon."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,54 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Spears Mountian soils were previously mapped as.Badin soils when same area was considered to be located in the thermic temperature regime.\nDiagnostic horizons and soil characteristics recognized in this pedon are:\nOchric epipedon--the zone from 1 to 7 inches (Ap horizon)\nArgillic horizon--the zone from 7 to 28 inches (Bt horizon)\nSeries control section--the zone from 0 to 38 inches\nADDITIONAL DATA: This pedon described as VA-029-473\nTABULAR SERIES DATA:\nSlope  Airtemp FrFr/Seas Precip   Elevation\n2- 55  52 57   165-200   40- 50   400-1600\nFloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNONE          6.0-6.0              -     20-40   SOFT\nDepth  Texture                3-Inch  No-10  Clay%   -CEC-\n0- 7  CN-SIL CN-VFSL CN-L     0- 10  60- 75 10-27   3-  8\n0- 7  CN-SICL                 0- 10  60- 75 27-40   6- 10\n0- 7  SIL L                   0-  5  75-100 10-27   3-  8\n0- 7  SICL                    0-  5  75-100 27-40   6- 10\n7-28  SIC SICL CN-SICL        0-  5  60-100 35-55   7- 12\n28-60  WB                       -       -      -      -\nDepth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\n0- 7  3.5- 6.5  1.-3.  0- 0   0.6- 2.0  LOW\n7-28  3.5- 5.5  0.-.5  0- 0   0.6- 2.0  MODERATE\n28-60     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 5.3,
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; yellowish brown (10YR 5/4) silt  loam; weak coarse subangular blocky structure; friable, slightly sticky and non plastic; many fine, medium and coarse roots; 10 percent  gravel; strongly acid (pH 5.3); gradual smooth boundary."
+      },
+      {
+        "name": "Bt",
+        "top": 18,
+        "bottom": 71,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH": 5.3,
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt--7 to 28 inches;  red (2.5YR 4/6) clay; moderate fine and medium angular blocky structure; friable,  sticky and slightly plastic; common fine, medium and coarse roots; 5 percent gravel; many medium distinct clay films on faces of peds; strongly acid (pH 5.3); abrupt irregular boundary."
+      },
+      {
+        "name": "Cr",
+        "top": 71,
+        "bottom": 152,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "narrative": "Cr--28 to 60 inches; mottled reddish brown (2.5YR 4/4) and yellow (2.5Y 7/6) highly weathered sericite schist that crushes to silt loam."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,122 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This revision reflects updates to the series concept, taxonomic class and range in characteristics as well as conversion to metric units. The type location is moved from Tolland County, CT with this revision. The pedon selected is supported by lab characterization. These soils are thought to be post active sulfate soils which is the final stage (fossil) of the acid sulfate weathering process and explains the high pedogenic iron content and low iron ratios.  Research results show this pedon has weighted average pedogenic iron (dithionite-citrate extractable iron) content in the mineral pedon of 5.9 percent and a weighted average ratio of ammonium oxalate extractable iron to pedogenic iron of 0.08 in the series control section.  The weighted average dithionite-citrate extractable iron (pedogenic iron) is commonly twice that of; extractable aluminum is commonly 1.67 times greater than; and the ratio of ammonium oxalate extractable iron to dithionite-citrate extractable iron is commonly 75 percent less than, historically associated soils formed in parent material that is not related to iron sulfide bearing materials.  These characteristics and parasesquic mineralogy class provide a distinction from other series, particularly the Charlton Series.\nDiagnostic horizons and features in this pedon include:\n1) Ochric epipedon - the zone from 0 to 5 cm (the Oi, Oa and A horizons).\n2) Cambic horizon - the zone from 5 to 79 cm (the Bw1 and Bw2 horizons).\n3) Particle-size control section - the zone from 25 to 100 cm (part of the Bw1, the Bw2 and part of the C1 horizons).\n4) Parasesquic mineralogy - the percent (by weight) iron oxide as Fe2O3 plus the percent (by weight) gibbsite is 17.4 percent.\nADDITIONAL DATA: M.S. Thesis work by Shawn McVey, University of Connecticut, 2006. Characterization data for the typical pedon is S05MA027002. Additional pedon data from S05CT013001, S05CT015001, and S04MA027001. Pedons analyzed by the NSSL, Lincoln, NE.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "narrative": "Oi--0 to 1 cm; black (10YR 2/1) moderately decomposed forest plant material matted with roots. (0 to 3 cm thick)"
+      },
+      {
+        "name": "Oa",
+        "top": 1,
+        "bottom": 2.5,
+        "moist_hue": "2.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "pH": 3.6,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oa--1 to 2.5 cm; reddish black (2.5YR 2.5/1) well decomposed forest plant material; soft, very friable, nonsticky and nonplastic; many very fine and common fine and medium roots; extremely acid (pH 3.6) by 0.01M CaCl2; abrupt smooth boundary. (0 to 4.5 cm thick)"
+      },
+      {
+        "name": "A",
+        "top": 2.5,
+        "bottom": 5,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 4.2,
+        "pH_class": "extremely acid",
+        "narrative": "A--2.5 to 5 cm; dark brown (10YR 3/3) sandy loam, brown (7.5YR 4/3) dry; weak fine granular structure; soft, friable, nonsticky and nonplastic; many fine roots; 5 percent gravel; extremely acid (pH 4.2) by 1:1 H2O; abrupt clear boundary. (2 to 7.5 cm thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 5,
+        "bottom": 38,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--5 to 38 cm; yellowish red (5YR 4/6) gravelly sandy loam, strong brown (7.5YR 5/6) dry; weak medium granular structure; slightly hard, friable, nonsticky and nonplastic; many fine and medium roots; 15 percent gravel; very strongly acid (pH 4.8) by 1:1 H2O; clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 38,
+        "bottom": 79,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 4.7,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw2--38 to 79 cm; yellowish red (5YR 4/6) gravelly loam, light brown (7.5YR 6/4) dry; weak fine granular structure; slightly hard, friable, nonsticky and nonplastic; common medium roots; 30 percent gravel; very strongly acid (pH 4.7) by 1:1 H2O; abrupt wavy boundary. (Combined thickness of the Bw horizons is 48 to 90 cm.)"
+      },
+      {
+        "name": "C1",
+        "top": 79,
+        "bottom": 101,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C1--79 to 101 cm; 75 percent brownish yellow (10YR 6/6) gravelly fine sandy loam, 25 percent strong brown (7.5YR 5/6) gravelly loamy sand, brownish yellow (10YR 6/6) dry; 75 percent massive, 25 percent single grain; loose, nonsticky and nonplastic; 30 percent gravel; very strongly acid (pH 4.8) by 1:1 H2O; abrupt wavy boundary. (15 to 50 cm thick)"
+      },
+      {
+        "name": "C2",
+        "top": 101,
+        "bottom": 165,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 5.2,
+        "pH_class": "strongly acid",
+        "narrative": "C2--101 to 165 cm; grayish brown (2.5Y 5/2) fine sandy loam, brownish yellow (10YR 6/6) dry, streaks of 50 percent yellowish red (5YR 5/6) and 50 percent red (2.5YR 4/6) coarse sand, reddish yellow (7.5YR 6/6) dry; massive; loose, nonsticky and nonplastic; 10 percent gravel; strongly acid (pH 5.2) by 1:1 H2O."
+      }
+    ]
+  ]
 }

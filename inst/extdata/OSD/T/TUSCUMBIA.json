@@ -56,5 +56,53 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to a depth of about 4 inches (Ap horizon).\nHaplaquepts feature - dominantly gray below the Ap horizon (Bg1, Bg2 horizons).\nVertic feature - slickensides that do not intersect in the zone from approximately 10 to 50 inches (Bg2 horizon).\nADDTIONAL DATA:  Laboratory data - engineering test data for one pedon are published in the Soil Survey of Lee County, Mississippi (issued March 1973), pp. 54-55.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "mildly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 4 inches; very dark grayish brown (10YR 3/2) silty clay loam; moderate medium granular structure; firm, sticky, plastic; common fine roots; mildly alkaline; clear smooth boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bg1",
+        "top": 10,
+        "bottom": 25,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "mildly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bg1--4 to 10 inches; gray (5Y 5/1) clay; common fine and medium distinct yellowish brown (10YR 5/6) and strong brown (7.5YR 5/6) mottles; moderate fine angular blocky and subangular blocky structure; firm, very plastic, very sticky; few fine roots; few fine brown soft bodies; cracks, and root channels filled with material like the Ap horizon; mildly alkaline; gradual wavy boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 25,
+        "bottom": 152,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "mildly alkaline",
+        "narrative": "Bg2--10 to 60 inches; gray (5Y 5/1) clay; common fine and medium distinct yellowish brown (10YR 5/6) and strong brown (7.5YR 5/6) mottles; moderate medium angular blocky and subangular blocky structure; firm, very plastic, very sticky; few fine roots; few slickensides that do not intersect; common fine brown soft bodies; few fine black concretions; cracks and root channels filled with material like that of overlying horizons; mildly alkaline. (Combined thickness of the Bg horizon is 46 to 60 inches or more.)"
+      }
+    ]
+  ]
 }

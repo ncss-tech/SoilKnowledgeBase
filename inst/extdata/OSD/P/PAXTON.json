@@ -56,5 +56,70 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Paxton is the state soil of Massachusetts.\nPrior revisions included changes to the range in characteristics as well as general updating to metric units. Cation exchange activity class placement was determined from a review of limited lab data and similar or associated soils. Paxton soils were previously classified as Typic Dystrochrepts, and before that as Typic Fragiochrepts.\nThe Paxton series was previously used in some surveys in Maine. Maine determined from soil temperature studies that the mesic soil temperature regime would no longer be used.  Maine is re-evaluating the soil temperature regimes in southern Maine as of the date of this revision.\nDiagnostic horizons and features recognized in this pedon include:\n1. Ochric epipedon - the zone from 0 to 20 cm (Ap horizon).\n2. Cambic horizon - the zone from 20 to 66 cm (Bw horizons).\n3. Densic material - the zone from 66 to 165 cm (Cd horizon).\n4. Oxyaquic subgroup - based on saturation in one or more layers within 100 cm of the mineral surface, for one month or more per year, in 6 out of 10 years.\n5) Particle-size control section - the zone from 20 to 66 cm (Bw horizons).\nADDITIONAL DATA: Full characterization data for pedons with User Pedon IDs of S1955MA027002, S1955NH015001, S1973MA005001, S1973MA005006, S1975CT013001, S1996NH013001, S1999NY061001. Pedons analyzed by the NSSL, Lincoln, NE. Laboratory characterization data for these pedons and similar soils is available through the National Cooperative Soil Survey Soil Characterization Database: http://ncsslabdatamart.sc.egov.usda.gov/\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 20 cm; dark brown (10YR 3/3) fine sandy loam, pale brown (10YR 6/3) dry; moderate medium granular structure; friable; many fine roots; 5 percent gravel; strongly acid; abrupt smooth boundary. (13 to 28 cm thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 20,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1 -- 20 to 38 cm; dark yellowish brown (10YR 4/4) fine sandy loam; weak medium subangular blocky structure; friable; common fine roots; 5 percent gravel; few earthworm casts; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 38,
+        "bottom": 66,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2 -- 38 to 66 cm; olive brown (2.5Y 4/4) fine sandy loam; weak medium subangular blocky structure; friable; few fine roots; 10 percent gravel; strongly acid; clear wavy boundary. (Combined thickness of the Bw horizon is 38 to 94 cm thick.)"
+      },
+      {
+        "name": "Cd",
+        "top": 66,
+        "bottom": 165,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "narrative": "Cd -- 66 to 165 cm; olive (5Y 5/3) gravelly fine sandy loam; medium plate-like divisions; massive; very firm, brittle; 25 percent gravel; many dark coatings on plates; strongly acid."
+      }
+    ]
+  ]
 }

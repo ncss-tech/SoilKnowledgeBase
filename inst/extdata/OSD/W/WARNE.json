@@ -56,5 +56,118 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nThese soils were formerly included with the Wahee series.  The central concept of the Wahee series is in the Tidewater MLRA (153B).\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon--the zone from the surface of the soil to 7 inches (A and E horizons)\nAlbic horizon--the zone from 4 to 7 inches (E horizon)\nArgillic horizon--the zone from 7 to 60 inches (Bt1, Bt2, Bt3, Btg1, Btg2, and Btg3 horizons)\nEndosaturation--saturation in all layers to a depth of 80 inches\nADDITIONAL DATA:\nMLRA = 136, 133A\nREVISED=9/7/2006, RLV,MC-restricted elevation to 25 to 800 feet, previously 100 to 450 feet.  The July 2009 revision moves the type location from King and Queen County, VA to Rowan County, NC.  This pedon better fits the central concept of the series.\nTABULAR SERIES DATA:\nSoil Name   Slope   Airtemp  FrFr/Seas   Precip   Elevation\nWARNE       0-4     59-66     200-260     38-54    25-750\nSoil Name   FloodL  FloodH  Watertable    Kind    Months   Bedrock\nWARNE       NONE    COMMON   0.5-1.5    APPARENT  DEC-MAR   >60\nSoil Name   Depth    Texture       3-Inch   No-10    Clay%   -CEC-\nWARNE       0-7      SL FSL         0-0     95-100    5-20   2-6\nWARNE       0-7      L SIL VFSL     0-0    100-100   10-27   3-10\nWARNE       7-12     CL SICL        0-0    100-100   28-39   8-20\nWARNE      12-48     C CL SIC       0-0    100-100   35-70   8-20\nWARNE      48-60     CL SICL        0-0    100-100   28-39   8-20\nSoil Name  Depth    -pH-      O.M.   Salin   Permeab   Shnk-Swll\nWARNE      0-7    4.5-6.0   .5-5.    0-0    0.6-2.0      LOW\nWARNE      0-7    4.5-6.0   .5-5.    0-0    0.2-2.0      LOW\nWARNE      7-12   3.6-5.5   0.-.5    0-0    0.2-0.6     MODERATE\nWARNE     12-48   3.6-5.5   0.-.5    0-0    0.06-0.2    MODERATE\nWARNE     48-60   3.6-5.5   0.-.5    0-0    0.2-0.6     MODERATE\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; brown (10YR 4/3) loam; moderate fine granular structure; very friable; many fine and medium roots; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 18,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E--4 to 7 inches; light brownish gray (2.5Y 6/2) loam; moderate fine granular structure; very friable; many fine roots; common fine distinct brown (7.5YR 5/4) masses of oxidized iron; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 30,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--7 to 12 inches; light yellowish brown (2.5Y 6/4) clay loam; weak fine subangular blocky structure; friable; slightly sticky and slightly plastic; common fine roots; common fine pores; few faint clay films on faces of peds; brown (7.5YR 5/4) masses of oxidized iron and many medium distinct light brownish gray (10YR 6/2) iron depletions; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 30,
+        "bottom": 48,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--12 to 19 inches; light yellowish brown (2.5Y 6/4) clay; moderate fine subangular blocky structure; firm; moderately sticky and moderately plastic; few fine roots; common fine pores; common distinct clay films on faces of peds; common fine prominent yellowish red (5YR 5/8) masses of oxidized iron and many medium distinct light brownish gray (10YR 6/2) iron depletions; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 48,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt3--19 to 26 inches; yellowish brown (10YR 5/6) clay; moderate fine subangular blocky structure; firm; moderately sticky and moderately plastic; few fine roots; common distinct clay films on faces of peds; common fine prominent red (2.5YR 5/8) masses of oxidized iron and many medium distinct light brownish gray (10YR 6/2) iron depletions; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btg1",
+        "top": 66,
+        "bottom": 102,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg1--26 to 40 inches; gray (10YR 6/1) clay; weak fine subangular blocky structure; very firm; moderately sticky and very plastic; few fine roots; few distinct clay films on faces of peds; common medium distinct strong brown (7.5YR 5/8) and brownish yellow (10YR 6/6) and few fine prominent yellowish red (5YR 5/8) masses of oxidized iron; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 102,
+        "bottom": 122,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg2--40 to 48 inches; gray (5Y 6/1) clay; weak fine subangular blocky structure; very firm; moderately sticky and very plastic; few fine roots; few distinct clay films on faces of peds; many medium distinct brownish yellow (10YR 6/6) and common fine prominent strong brown (7.5YR 5/8) masses of oxidized iron; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btg3",
+        "top": 122,
+        "bottom": 152,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Btg3--48 to 60 inches; gray (5Y 6/1) clay loam; weak fine subangular blocky structure; firm; moderately sticky and plastic; few fine roots; few distinct clay films on faces of peds; many medium distinct brownish yellow (10YR 6/6) and common fine prominent strong brown (7.5YR 5/8) irregularly shaped masses of oxidized iron; very strongly acid."
+      }
+    ]
+  ]
 }

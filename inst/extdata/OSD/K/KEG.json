@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 25 to 100 centimeters (A, Bw, BC, and C horizons);\nseries control section--the zone from the surface to a depth of 150 centimeters (Ap, A, Bw, BC, and C horizons).\nDiagnostic horizons and features recognized in this pedon include:\nmollic epipedon--the zone from the surface to a depth of 28 centimeters (Ap and A horizons);\ncambic horizon--the zone from a depth of 28 to 86 centimeters (Bw and BC horizons);\nudic moisture regime.\nCation-exchange activity class is supported by lab sample numbers S70IA-133-002 and S95IA-193-007, NSSL.\nTaxonomy version--Keys to Soil Taxonomy, ninth edition, 2003.\nMatrix chroma of 2 in the cambic horizon is not considered pedogenic and is thought to be the color derived from the parent material. These colors were not considered in the classification of this series.\nADDITIONAL DATA:\nLaboratory data--Iowa State University, Ames, Iowa, pedon number 98-IA-193-029A;\nLaboratory data--National Soil Survey Laboratory, Lincoln, Nebraska, pedon numbers S70IA-133-002 and S95IA-193-007, (http://ssldata.nrcs.usda.gov/).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 15 centimeters; black (10YR 2/1) silt loam, dark gray (10YR 4/1) dry; weak fine subangular blocky structure parting to weak fine granular; friable; slightly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 15,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--15 to 28 centimeters; very dark brown (10YR 2/2) and very dark grayish brown (10YR 3/2) silt loam, dark grayish brown (10YR 4/2) dry; weak very fine subangular blocky structure parting to weak fine granular; friable; neutral; clear smooth boundary. (Combined thickness of the A horizon is 25 to 49 centimeters.)"
+      },
+      {
+        "name": "Bw",
+        "top": 28,
+        "bottom": 56,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--28 to 56 centimeters; dark grayish brown (2.5Y 4/2) silt loam; weak very fine subangular blocky structure; friable; neutral; clear smooth boundary. (18 to 30 centimeters thick)"
+      },
+      {
+        "name": "BC",
+        "top": 56,
+        "bottom": 86,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BC--56 to 86 centimeters; dark grayish brown (2.5Y 4/2) silt loam; weak fine subangular blocky structure; friable; few fine faint grayish brown (2.5Y 5/2) redoximorphic depletions; slightly effervescent; slightly alkaline; gradual smooth boundary. (18 to 36 centimeters thick)"
+      },
+      {
+        "name": "C",
+        "top": 86,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "C--86 to 152 centimeters; dark grayish brown (2.5Y 4/2) silt loam; massive; very friable; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

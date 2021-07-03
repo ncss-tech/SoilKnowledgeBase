@@ -56,5 +56,88 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This subaqueous series is named for Sand Point, a feature within the Rhode River sub-estuary of Chesapeake Bay and were areas formerly included with water.\nDiagnostic horizons and other diagnostic soil characteristics recognized in this pedon are:\nOchric epipedon-the zone from 0 to 5 centimeters (Ase horizon)\nPeraquic feature-the zone from 0 to 200 centimeters is permanently saturated\nLithologic Discontinuity-pre-Holocene contact (Tertiary aged marine deposits of the Aquia and Nanjemoy formations), the zone from 88 to 200 centimeters (2Cseg1 and 2Cseg2 horizons).\nADDITIONAL DATA:\nNASIS Data Mapunit ID:  800964\nNASIS OSD Site and Pedon ID:  S2015MD003039\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "subaqueous"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ase",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10Y",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "narrative": "Ase -- 0 to 5 cm; greenish black (10Y 2.5/1) fine sand; dark olive brown (2.5Y 3/3) surface film; single grain; nonfluid; slightly alkaline (pH 7.8), moderately acid (pH 5.9) after 16 weeks; color reaction with 3% hydrogen peroxide, slightly effervescent with 30% hydrogen peroxide; abrupt boundary."
+      },
+      {
+        "name": "Cseg1",
+        "top": 5,
+        "bottom": 25,
+        "moist_hue": "10Y",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "narrative": "Cseg1 -- 5 to 25 cm; very dark greenish gray (10Y 3/1) fine sand; single grain; nonfluid; 2 percent shell fragments; moderately alkaline (pH 8.0), moderately acid (pH 5.8) after 16 weeks; no reaction with 3% hydrogen peroxide, very slightly effervescent with 30% hydrogen peroxide; gradual boundary."
+      },
+      {
+        "name": "Cseg2",
+        "top": 25,
+        "bottom": 61,
+        "moist_hue": "10Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "narrative": "Cseg2 -- 25 to 61 cm; dark greenish gray (10Y 4/1) fine sand; single grain; nonfluid; 2 percent shell fragments; slight hydrogen sulfide odor; moderately alkaline (pH 8.0), moderately acid (pH 6.0) after 16 weeks; no reaction with 3% hydrogen peroxide, very slightly effervescent with 30% hydrogen peroxide; gradual boundary."
+      },
+      {
+        "name": "Cseg3",
+        "top": 61,
+        "bottom": 88,
+        "moist_hue": "10Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "loamy fine sand",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "narrative": "Cseg3 -- 61 to 88 cm; dark greenish gray (10Y 4/1) loamy fine sand; massive; nonfluid; 1 percent shell fragments; slight hydrogen sulfide odor; moderately alkaline (pH 8.0), extremely acid (pH 4.0) after 16 weeks; no reaction with 3% hydrogen peroxide, very slightly effervescent with 30% hydrogen peroxide; gradual boundary."
+      },
+      {
+        "name": "2Cseg1",
+        "top": 88,
+        "bottom": 135,
+        "moist_hue": "10Y",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH": 7.5,
+        "pH_class": "very strongly acid",
+        "narrative": "2Cseg1 -- 88 to 135 cm; very dark greenish gray (10Y 3/1) loam; massive; moderately fluid; 1 percent shell fragments; slightly alkaline (pH 7.5), very strongly acid (pH 4.7) after 16 weeks; no reaction with 3% hydrogen peroxide, very slightly effervescent with 30% hydrogen peroxide; clear boundary."
+      },
+      {
+        "name": "2Cseg2",
+        "top": 135,
+        "bottom": 200,
+        "moist_hue": "10Y",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "narrative": "2Cseg2 -- 135 to 200 cm; very dark greenish gray (10Y 3/1) loam; massive; moderately fluid; moderately alkaline (pH 8.0), extremely acid (pH 3.7) after 16 weeks; no reaction with 3% hydrogen peroxide, very slightly effervescent with 30% hydrogen peroxide."
+      }
+    ]
+  ]
 }

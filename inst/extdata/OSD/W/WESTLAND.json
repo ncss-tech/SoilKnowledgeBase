@@ -56,5 +56,84 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon: from the surface to a depth of 25 cm (Ap horizon).\nArgillic horizon: from a depth of 25 to 114 cm (Btg, 2Btg horizons).\nAquic conditions: chroma of 2 or less immediately below the mollic epipedon and in all horizons below.\nLimestone, clayey, loamy, and silty substratum phases are recognized, and may become new series when the soil survey subsets with these phases are updated. Also, an undrained phase is recognized.\nRepresentative data mapunit for this pedon is DMU ID 153135 in MO 11.\nADDITIONAL DATA: Supporting characterization data is available from the Purdue University Soil Characterization Laboratory for pedon S80IN177-11. Transect data is on file at the MLRA Project Office in Indianapolis.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 25 cm (10 inches); very dark grayish brown (2.5Y 3/2) silt loam, grayish brown (2.5Y 5/2) dry; weak medium subangular blocky structure; friable; few fine roots; neutral; abrupt smooth boundary. [25 to 51 cm (10 to 20 inches) thick]"
+      },
+      {
+        "name": "Btg1",
+        "top": 25,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btg1--25 to 51 cm (10 to 20 inches); dark grayish brown (10YR 4/2) clay loam; moderate medium and weak coarse subangular blocky structure; firm; few fine roots; many distinct dark gray (10YR 4/1) clay films on faces of peds; common medium and coarse prominent yellowish brown (10YR 5/6) masses of oxidized iron in the matrix; few fine faint gray (10YR 5/1) iron depletions in the matrix; 3 percent gravel; neutral; clear smooth boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 51,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btg2--51 to 76 cm (20 to 30 inches); dark grayish brown (10YR 4/2) clay loam; moderate coarse angular blocky structure; firm; many distinct dark gray (10YR 4/1) clay films on faces of peds; many medium and coarse prominent yellowish brown (10YR 5/6) masses of oxidized iron in the matrix; 10 percent gravel; neutral; clear smooth boundary. [Combined thickness of the Bt horizon is 38 to 63 cm (15 to 25 inches).]"
+      },
+      {
+        "name": "2Btg3",
+        "top": 76,
+        "bottom": 114,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2Btg3--76 to 114 cm (30 to 45 inches); grayish brown (10YR 5/2) gravelly sandy clay loam; weak medium subangular blocky structure; firm; many faint grayish brown (10YR 5/2) clay bridging between sand grains; common fine prominent yellowish brown (10YR 5/6) masses of oxidized iron in the matrix; 15 percent gravel; neutral; clear smooth boundary. [13 to 43 cm (5 to 17 inches) thick]"
+      },
+      {
+        "name": "2Cg",
+        "top": 114,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "coarse sand",
+        "cf_class": "gravelly",
+        "pH_class": "slightly alkaline",
+        "narrative": "2Cg--114 to 152 cm (45 to 60 inches); grayish brown (10YR 5/2) stratified gravelly coarse sand and sand; single grain; loose; 30 percent gravel; strongly effervescent; slightly alkaline."
+      }
+    ]
+  ]
 }

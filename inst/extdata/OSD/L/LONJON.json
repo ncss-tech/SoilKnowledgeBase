@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from the surface of the soil to 10 inches (A horizon).\nCalcic horizon - the zone from 16 inches to the bedrock.\nParticle size control section - the zone from 10 inches to bedrock.\nCarbonatic mineralogy - the particle size control section averages more than 40 percent by weight carbonates in the size fraction less than 20 mm in diameter.\nField work is needed on the Lonjon series to determine if pedogenic lime is present in the Bk as filaments, soft coatings, or soft nodules.  The portion of the mollic range of 7 to 10 inches would not be an applicable part of the concept if the lime is not present as filaments, soft coatings, or soft nodules.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 10 inches; dark brown (10YR 3/3) silt loam, brown (10YR 4/3) dry; weak fine granular structure; soft, friable, slightly sticky and slightly plastic; common very fine and few fine roots; 5 percent gravel; slightly calcareous, carbonate disseminated; neutral (pH 7.2); clear wavy boundary. (3 to 12 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 25,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--10 to 16 inches; yellowish brown (10YR 5/4) gravelly silt loam, light yellowish brown (10YR 6/4) dry; moderate fine and medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; few very fine and fine roots; common very fine pores; 25 percent gravel; strongly calcareous, carbonate disseminated; slightly alkaline (pH 7.6); clear wavy boundary. (5 to 10 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 41,
+        "bottom": 76,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bk--16 to 30 inches; very pale brown (10YR 7/4) extremely gravelly loam, very pale brown (10YR 8/3) dry; massive; hard, friable, slightly sticky and slightly plastic; few very fine roots; common very fine pores; 55 percent gravel and 15 percent cobbles; very strongly calcareous, carbonates are disseminated, moderately alkaline (pH 8.2); abrupt irregular boundary. (6 to 14 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 76,
+        "texture_class": "sand",
+        "narrative": "R--30 inches; hard sandstone."
+      }
+    ]
+  ]
 }

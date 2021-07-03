@@ -56,5 +56,111 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon: from the surface to a depth of 36 cm (14 inches) (Ap, A).\nCambic horizon: from a depth of 36 to 81 cm (14 to 32 inches) (Bg1, Bg2).\nAquic conditions: matrix color with chroma of 1 below the mollic epipedon.\n12/2015 revision: added glacial drainage channel to list of landforms; allowed for thin subhorizons of coarse sand in the BCg horizon; added statement regarding shift from grasslands to woodlands from west to east of series extent.\nADDITIONAL DATA: Characterization data for the typical pedon (S2001IN141004) is available from the Kellogg Soil Survey Laboratory, Lincoln, NE.\nIn Iowa, the native vegetative cover is an herbaceous wetland community commonly inhabited with Bluejoint Grasses, Fowl Bluegrasses, Green Muhlies, Fox Sedges, Field Sedges, Dudleys Rushes, Torreys Rushes, Swamp Milkweeds, False Sneezeweeds, False Asters, New England Asters, White Panicled Asters, and Wild Mints. Source: Iowa State Office, Natural Resources Conservation Service, Des Moines, IA.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 28 cm (11 inches); black (10YR 2/1) sandy loam, dark gray (10YR 4/1) dry; moderate fine granular structure; friable; slightly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 28,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--28 to 36 cm (11 to 14 inches); very dark gray (10YR 3/1) sandy loam, gray (10YR 5/1) dry; weak fine subangular blocky structure; friable; slightly acid; gradual wavy boundary. [Combined thickness of the A horizon is 25 to 61 cm (10 to 24 inches).]"
+      },
+      {
+        "name": "Bg1",
+        "top": 36,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bg1--36 to 51 cm (14 to 20 inches); gray (10YR 5/1) sandy loam; weak medium subangular blocky structure; friable; common fine prominent yellowish brown (10YR 5/6) masses of oxidized iron in the matrix; moderately acid; clear irregular boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 51,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg2--51 to 81 cm (20 to 32 inches); gray (10YR 5/1) sandy loam; moderate medium subangular blocky structure; firm; common fine prominent yellowish brown (10YR 5/6) masses of oxidized iron in the matrix; slightly acid; clear wavy boundary. [Combined thickness of the Bg horizon is 36 to 66 cm (14 to 26 inches).]"
+      },
+      {
+        "name": "BCg",
+        "top": 81,
+        "bottom": 96,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BCg--81 to 96 cm (32 to 38 inches); gray (10YR 6/1) loamy sand; weak fine subangular blocky structure; very friable; common medium prominent strong brown (7.5YR 5/6) masses of oxidized iron; neutral; clear wavy boundary. [10 to 30 cm (4 to 12 inches) thick]"
+      },
+      {
+        "name": "Cg1",
+        "top": 96,
+        "bottom": 122,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cg1--96 to 122 cm (38 to 48 inches); gray (10YR 6/1) sand; single grain; loose; neutral; clear wavy boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 122,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "coarse sand",
+        "pH_class": "moderately alkaline",
+        "narrative": "Cg2--122 to 203 cm (48 to 80 inches); gray (10YR 6/1) coarse sand and sand; single grain; loose; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

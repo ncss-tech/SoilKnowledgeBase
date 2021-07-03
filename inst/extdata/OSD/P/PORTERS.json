@@ -56,5 +56,84 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Porters soils were formerly classified as Gray-Brown Podzolic soils intergrading to Lithosols.  The 9/89 revision restricts depth to bedrock to 40 to 60 inches.  The Plott series was previously included with Porters soils.  Plott soils are deeper than 60 inches to bedrock and have an umbric epipedon 10 to 20 inches thick.\nThe 1/97 revision placed Porters soils in a fine-loamy family.  This series was formerly placed in a coarse-loamy family.  Laboratory PSA (pipette method) and corresponding field texture estimates (feel method) indicate control section clay contents of generally 12 to 24 percent, with most pedons marginally coarse-loamy.  However, chemical lab data indicate that sufficient amorphous, clay-sized materials occur in the particle-size control section to place this soil in a fine-loamy family.  Average clay contents are generally less than 25 percent.\nAdditionally, textures were also modified in the range in characteristics for horizons within the solum.\nThis latest revision places Porters soils in an isotic mineralogy class.  Using the 7th Edition of Keys to Soil Taxonomy (1996), Porters soils would classify as fine-loamy, isotic, mesic Andic Dystrochrepts.  However, a proposal has been made to add an acid oxalate-extractable silicon requirement to Andic subgroups, which would exclude Balsam soils, which lack volcanic glass.\nDiagnostic horizons and features in this pedon are:\nOchric epipedon - 0 to 7 inches (Ap horizon)\nUmbric Dystrochrept feature - Moist value of 3 in the 0 to 7 inch Ap horizon.\nCambic horizon - 10 to 28 inches (Bw and BC horizons)\nLithic contact - hard bedrock at a depth of 42 inches.\nIsotic mineralogy class - within the PSCS the soil generally has high amorphous materials (high pH-dependent charge) and a high moisture retention (at 1500 kPa) to clay ratio.\nProperties that would place the soil in an Andic subgroup--a horizon or horizons with total thickness of 7 inches (18 cm) or more within 30 inches (75 cm) of the mineral soil surface with a fine-earth bulk density of 1.0 g/cm3 or less (at 33 kPa water retention) and ammonium oxalate extractable aluminum plus 1/2 iron percentages totaling more than 1.0.\nRevised: 10/92-DLN,HJB,AG; 1/97-DHK, 12/97-DHK\n01-2011   Classification -- 11th Keys, update competing series, MLRA clarification --  BPS\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; very dark grayish brown (10YR 3/2) loam; moderate fine and medium granular structure; very friable; many fine roots; few fine mica flakes; slightly acid; gradual smooth boundary.  (7 to 10 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 18,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BA--7 to 10 inches; brown (10YR 4/3) loam; weak fine and medium subangular blocky structure; friable; few mica flakes; few medium gneiss and quartz fragments; moderately acid; gradual smooth boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 25,
+        "bottom": 56,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw--10 to 22 inches; brown (7.5YR 4/4) loam; weak medium subangular blocky structure; friable; few fine mica flakes; few medium fragments of quartz and partly weathered rock; slightly acid; gradual smooth boundary.  (10 to 30 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 56,
+        "bottom": 71,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "diffuse",
+        "topography": "wavy",
+        "narrative": "BC--22 to 28 inches; brown (7.5YR 4/4) loam; very weak medium and coarse subangular blocky structure; friable; common medium fragments of quartz and partly weathered rock; few fine mica flakes; slightly acid; diffuse wavy boundary.  (0 to 16 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 71,
+        "bottom": 107,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "narrative": "C--28 to 42 inches; mottled brown (10YR 4/3) and grayish brown (10YR 5/2) sandy loam; gneiss saprolite with quartz, weathered feldspar, hornblende, mica and other minerals; massive; friable; slightly acid; grades into hard rock."
+      },
+      {
+        "name": "R",
+        "top": 107,
+        "narrative": "R--42 inches; dark colored gneiss bedrock."
+      }
+    ]
+  ]
 }

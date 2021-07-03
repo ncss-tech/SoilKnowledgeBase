@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 4 inches (A horizon).\nCambic horizon - the zone from 4 to 13 inches (Bw horizon).\nLithic contact - the boundary at approximately 27 inches (2R).\nParticle-size control section - the zone from 10 to 27 inches (part of the Bw2 horizon and the C horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very stony",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; light brownish gray (10YR 6/2) and brown (10YR 5/3) pale brown (10YR 6/3 crushed) very stony fine sandy loam, very dark grayish brown (10YR 3/2), dark grayish brown (10YR 4/2 crushed) moist; weak very thin platy structure parting to weak very fine granular; slightly hard, very friable; many very fine and common fine roots; many very fine irregular and tubular pores; about 3 percent angular stones and 7 percent angular cobbles; neutral (pH 6.8); clear smooth boundary.  (2 to 6 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 10,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "very fine sandy loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--4 to 7 inches; brown (10YR 5/3) pale brown (10YR 6/3 crushed) very fine sandy loam, very dark grayish brown (10YR 3/2), dark grayish brown (10YR 4/2 crushed) moist; weak coarse and medium prismatic structure parting to weak medium subangular blocky; slightly hard, very friable, slightly sticky and slightly plastic; common very fine, few fine, and medium roots; many very fine pores; 3 percent basalt stones and 7 percent angular cobbles; neutral (pH 7.0); clear smooth boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 18,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw2--7 to 13 inches; brown (10YR 5/3) pale brown (10YR 6/3 crushed) fine sandy loam, dark brown (10YR 3/3), dark grayish brown (10YR 4/2 crushed) moist; weak coarse and medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine, few fine, medium and coarse roots; many very fine irregular and common very fine tubular pores; 5 percent basalt stones and angular cobbles and few gravel; neutral (pH 7.2); clear smooth boundary.  (5 to 13 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 33,
+        "bottom": 69,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "cobbly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--13 to 27 inches; pale brown (10YR 6/3) cobbly fine sandy loam, dark grayish brown (10YR 4/2) moist; massive; slightly hard, very friable, nonsticky and nonplastic; few fine and medium roots; common very fine tubular pores; few firm krotovinas (cicada); 20 percent basalt stones, angular cobblestones, and angular gravel; slightly alkaline (pH 7.4); abrupt wavy boundary.  (0 to 27 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 69,
+        "narrative": "2R--27 inches; basalt; lime coating on surface and in pores; calcareous material in cracks."
+      }
+    ]
+  ]
 }

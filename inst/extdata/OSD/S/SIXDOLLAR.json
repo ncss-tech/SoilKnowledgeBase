@@ -56,5 +56,113 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nmollic epipedon:   1 to 12 inches;   A\ncambic horizon:   12 to 21 inches;   Bw\nargillic horizon:   30 to 56 inches;   2Bt1b, 2Bt2b\nparticle-size control section:\nashy part:   1 to 21 inches;   A, Bw\nloamy part:   21 to 41 inches;   2Eb, 2Bt1b, 2Bt2b\nlithic contact:  56 inches;   3R\nEcological site: PSME/SPBE; may include PIPO/SPBE, PSME/SYAL, PIPO/CARU and ABGR/SPBE\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inches; needles, twigs, and leaves."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--1 to 12 inches; dark brown (7.5YR 3/2) ashy loam, brown (7.5YR 5/4) dry; weak fine and medium subangular blocky structure; soft, very friable, slightly sticky and nonplastic; common fine, very fine, and medium and few coarse roots; common fine irregular pores; neutral (pH 7.0); clear wavy boundary. (9 to 12 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 30,
+        "bottom": 53,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--12 to 21 inches; dark brown (7.5YR 3/4) ashy silt loam, brown (7.5YR 5/4) dry; weak fine and medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; common fine and medium and few coarse roots; few fine tubular pores; neutral (pH 7.0); clear wavy boundary. (6 to 9 inches thick)"
+      },
+      {
+        "name": "2Eb",
+        "top": 53,
+        "bottom": 76,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Eb--21 to 30 inches; brown (7.5YR 4/4) sandy loam, strong brown (7.5YR 5/6) dry; weak fine subangular blocky structure; soft, friable, slightly sticky and nonplastic; common fine and medium roots; few fine tubular pores; slightly acid (pH 6.5); gradual smooth boundary. (9 to 14 inches thick)"
+      },
+      {
+        "name": "2Btb1",
+        "top": 76,
+        "bottom": 99,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Btb1--30 to 39 inches; brown (7.5YR 4/4) sandy loam, strong brown (7.5YR 5/6) dry; moderate medium subangular blocky structure; hard, friable, slightly sticky and nonplastic; common faint clay films on ped faces; common fine and medium roots; few very fine tubular pores; 10 percent gravel; slightly acid (pH 6.5); gradual smooth boundary. (9 to 24 inches thick)"
+      },
+      {
+        "name": "2Btb2",
+        "top": 99,
+        "bottom": 142,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Btb2--39 to 56 inches; brown (7.5YR 4/4) gravelly loam, strong brown (7.5YR 5/6) dry; moderate medium subangular blocky structure; hard to very hard, friable, slightly sticky and slightly plastic; common faint clay films on ped faces; few fine and medium roots; few very fine tubular pores; 15 percent gravel; slightly acid (pH 6.5); gradual smooth boundary. (6 to 20 inches thick)"
+      },
+      {
+        "name": "3R",
+        "top": 142,
+        "narrative": "3R--56 inches; granitic bedrock."
+      }
+    ]
+  ]
 }

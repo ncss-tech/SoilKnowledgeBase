@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic features recognized in this pedon are:\nOchric epipedon - the zone from the surface to approximately 10 inches (Ap horizon)\nADDITIONAL DATA:\nData Mapunit ID--479470\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nGA0033 TOCCOA      0-  4   60- 65  180-240  45- 55   470-1500\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nGA0033 NONE   COMMON 2.5-5.0  APPARENT DEC-APR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nGA0033  0-10  L SIL                   0-  0  95-100  7-17   3-  6\nGA0033  0-10  SL FSL                  0-  0  95-100  2-15   2-  5\nGA0033  0-10  LFS LS                  0-  0  85-100  2-10   1-  4\nGA0033 10-60  SL L                    0-  0  90-100  2-19   1-  4\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nGA0033  0-10  5.1- 6.5  1.-2.  0- 0   2.0- 6.0  LOW\nGA0033  0-10  5.1- 6.5  1.-2.  0- 0   2.0- 6.0  LOW\nGA0033  0-10  5.1- 6.5  1.-2.  0- 0   6.0-  20  LOW\nGA0033 10-60  5.1- 6.5    -    0- 0   2.0- 6.0  LOW\nMLRA = 136, 137\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 30 centimeters (0 to 12 inches); dark yellowish brown (10YR 4/4) sandy loam; weak medium granular structure; very friable; many fine and few medium roots; common fine flakes of mica; slightly acid; clear smooth boundary. (4 to 17 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 30,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C1--30 to 56 centimeters (12 to 22 inches); dark yellowish brown (10YR 4/6) loam; massive; very friable; few fine and medium roots; common fine flakes of mica; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "C2",
+        "top": 56,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C2--56 to 89 centimeters (22 to 35 inches); yellowish brown (10YR 5/4) loam; massive; very friable; common fine flakes of mica; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "C3",
+        "top": 89,
+        "bottom": 127,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C3--89 to 127 centimeters (35 to 50 inches); dark yellowish brown (10YR 4/4) loam; massive; very friable; common fine flakes of mica; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "C4",
+        "top": 127,
+        "bottom": 157,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "pH_class": "moderately acid",
+        "narrative": "C4--127 to 157 centimeters (50 to 62 inches); dark yellowish brown (10YR 4/6) loamy sand; single grained; loose; common fine flakes of mica; moderately acid."
+      }
+    ]
+  ]
 }

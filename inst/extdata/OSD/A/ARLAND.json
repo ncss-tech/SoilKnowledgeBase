@@ -56,5 +56,103 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle size control section--the zone from a depth of 38 to 88 centimeters;\nseries control section--the zone from the surface of the soil to a depth of 116 centimeters.\nDiagnostic horizons and features recognized in this pedon are:\nochric epipedon--the zone from the surface of the soil to a depth of 38 centimeters (Ap, E, and E/B horizons);\nalbic horizon--the zone from a depth of 20 to 38 centimeters (E and E/B horizons);\nglossic horizon--the zone from a depth of 25 to 58 centimeters (E/B and B/E horizons);\nargillic horizon--the zone from a depth of 38 to 91 centimeters (B/E and Bt horizons);\nparalithic contact--at a depth of 91 centimeters (2Cr horizon);\nudic moisture regime.\nCation-exchange activity class is based on laboratory data of similar or adjacent soils.\nTaxonomy version--Keys to Soil Taxonomy, tenth edition, 2006.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 20 centimeters; very dark grayish brown (10YR 3/2) fine sandy loam, light brownish gray (10YR 6/2) dry; weak medium subangular blocky structure; friable; common fine roots; some brown (7.5YR 4/3) soil mixed in by plowing; about 1 percent gravel; slightly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "E",
+        "top": 20,
+        "bottom": 25,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--20 to 25 centimeters; brown (7.5YR 4/3) sandy loam, pink (7.5YR 7/3) dry; weak medium platy structure; friable; few fine roots; some very dark grayish brown (10YR 3/2) soil in worm and root channels; about 1 percent gravel; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "E/B",
+        "top": 25,
+        "bottom": 38,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E/B--25 to 38 centimeters; about 80 percent brown (7.5YR 4/3) sandy loam (E), pink (7.5YR 7/3) dry; weak medium platy structure; friable; extends as tongues into and surrounds remnants of reddish brown (5YR 4/4) sandy loam (Bt); moderate medium subangular blocky structure; friable; few fine roots; few distinct dark brown (7.5YR 3/3) clay films on faces of peds and in pores; about 2 percent gravel; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "B/E",
+        "top": 38,
+        "bottom": 58,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "B/E--38 to 58 centimeters; about 55 percent reddish brown (5YR 4/4) sandy loam (Bt); moderate medium subangular blocky structure; friable; common distinct dark brown (7.5YR 3/3) clay films on faces of peds and in pores; penetrated by tongues of brown (7.5YR 4/3) sandy loam (E), pink (7.5YR 7/3) dry; moderate medium subangular blocky structure; friable; few fine roots; about 4 percent gravel; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt",
+        "top": 58,
+        "bottom": 91,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--58 to 91 centimeters; reddish brown (5YR 4/4) sandy loam; moderate medium subangular blocky structure; friable; few fine roots; common distinct dark brown (7.5YR 3/3) clay films on faces of peds and in pores; about 6 percent gravel; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "2Cr",
+        "top": 91,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "narrative": "2Cr--91 to 152 centimeters; yellowish brown (10YR 5/6) sandstone."
+      }
+    ]
+  ]
 }

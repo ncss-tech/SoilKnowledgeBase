@@ -56,5 +56,101 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Volusia is a Hall of Fame series and a benchmark soil. There are plans for future project work to separate out frigid soil areas from areas previously mapped as the mesic Volusia.  After these spatial edits are completed, the Volusia OSD will be edited to remove statements in the Geographic Setting section referring to the higher elevation areas.\nThe separation between Volusia and Venango (Fragiaqualfs) can overlap on the landscape in some places. Future MLRA work refining the difference between the two would be beneficial.\nDiagnostic horizons and features recognized in the typical pedon include:\n1. Ochric epipedon - the zone from 0 to 23 cm (0 to 9 inches) (Ap horizon).\n2. Fragipan - the zone from 43 to 137 cm (17 to 54 inches) (Bx horizons).\n3. Aquepts suborder - aquic moisture regime, and matrix or ped faces of 2 chroma or less and redoximorphic features within 51 cm (20 inches) of the soil surface (Eg horizon).\n4. Aeric subgroup - a zone within 76 cm (30 inches) of the surface that has dominant chroma higher than 2 in 40 percent or more of the matrix (Bw horizon).\n5. Udic soil moisture regime (a humid, temperate climate).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 23 cm (0 to 9 inches); very dark grayish brown (10YR 3/2) channery silt loam, light brownish gray (10YR 6/2) dry; weak medium and coarse granular structure; friable; common fine and medium roots throughout and few coarse roots throughout; 15 percent rock fragments; neutral; abrupt wavy boundary. (15 to 30 cm thick) (6 to 12 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 23,
+        "bottom": 38,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--23 to 38 cm (9 to 15 inches); 60 percent olive brown (2.5Y 4/3) and 40 percent brown (10YR 4/3) channery silt loam; weak fine and medium subangular blocky structure, friable; common fine and medium roots throughout; 5 percent fine and medium distinct light brownish gray (10YR 6/2), moist, masses of reduced iron and 5 percent fine and medium distinct strong brown (7.5YR 4/6), moist, masses of oxidized iron; 20 percent rock fragments; moderately acid; clear wavy boundary. (0 to 25 cm thick) (0 to 10 inches thick)"
+      },
+      {
+        "name": "Eg",
+        "top": 38,
+        "bottom": 43,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Eg--38 to 43 cm (15 to 17 inches); light brownish gray (2.5Y 6/2) channery silt loam; weak fine and medium subangular blocky structure; friable; few fine and medium roots throughout; 5 percent fine and medium distinct strong brown (7.5YR 4/6), moist, masses of oxidized iron; 20 percent rock fragments; moderately acid; clear wavy boundary. (0 to 30 cm thick) (0 to 12 inches thick)"
+      },
+      {
+        "name": "Bx1",
+        "top": 43,
+        "bottom": 74,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bx1--43 to 74 cm (17 to 29 inches); light olive brown (2.5Y 5/3) channery loam; moderate very coarse prismatic structure; prisms are 20 to 36 cm (8 to 14 inches) across; prism faces are gray (10YR 6/1) with strong brown (7.5YR 4/6) borders; very firm; brittle; few fine roots along prism faces; 1 percent medium distinct light brownish gray (10YR 6/2), moist, masses of reduced iron and 1 percent medium prominent strong brown (7.5YR 5/8), moist, masses of oxidized iron; 25 percent rock fragments; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bx2",
+        "top": 74,
+        "bottom": 137,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bx2--74 to 137 cm (29 to 54 inches); olive brown (2.5Y 4/4) very channery loam; moderate coarse prismatic structure; prisms are 20 to 36 cm (8 to 14 inches) across; prism faces are gray (10YR 6/1) with strong brown (7.5YR 4/6) borders; very firm; brittle; 1 percent fine distinct light brownish gray (10YR 6/2), moist, masses of reduced iron and 1 percent fine prominent strong brown (7.5YR 5/8), moist, masses of oxidized iron; 60 percent rock fragments; moderately acid; clear wavy boundary. (Combined thickness of the Bx horizon is 51 to 163 cm (20 to 64 inches))"
+      },
+      {
+        "name": "C",
+        "top": 137,
+        "bottom": 183,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "moderately acid",
+        "narrative": "C--137 to 183 cm (54 to 72 inches); olive (5Y 5/3) channery silt loam; massive; firm; 34 percent rock fragments; moderately acid."
+      }
+    ]
+  ]
 }

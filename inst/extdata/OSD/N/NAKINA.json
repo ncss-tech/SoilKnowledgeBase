@@ -56,5 +56,104 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  These soils have been mapped as taxadjuncts to the Stockade series because of a difference in mineralogy.  Lab data indicates siliceous mineralogy.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0169 NAKINA      0-  2   60- 70  185-240  45- 55    30- 100\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0169 RARE            0-1.0  APPARENT NOV-MAY  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0169  0-14  FSL L                   0-  0 100-100 10-15  10- 30\nNC0169  0-14  LFS FS                  0-  0 100-100  6-12  10- 25\nNC0169 14-49  SCL FSL                 0-  0 100-100 18-35   4- 15\nNC0169 49-80  VAR                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0169  0-14  4.5- 6.5  4.-10  0- 0   2.0- 6.0  LOW\nNC0169  0-14  4.5- 6.5  4.-10  0- 0   2.0- 6.0  LOW\nNC0169 14-49  5.1- 8.4  0.-1.  0- 0   0.6- 6.0  LOW\nNC0169 49-80     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 14 inches; black (10YR 2/1) fine sandy loam; weak medium granular structure; very friable; common very fine roots; slightly acid; clear wavy boundary.  (10 to 20 inches thick)"
+      },
+      {
+        "name": "BAg",
+        "top": 36,
+        "bottom": 48,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BAg--14 to 19 inches; dark grayish brown (10YR 4/2) fine sandy loam; common medium faint grayish brown (10YR 5/2) mottles; weak medium subangular blocky structure; very friable; few fine and very fine roots; very strongly acid; gradual wavy boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 48,
+        "bottom": 84,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg1--19 to 33 inches; very dark gray (10YR 3/1) fine sandy loam with lenses of loamy sand; few fine distinct strong brown (7.5YR 5/6) mottles; weak medium subangular blocky structure; friable; few faint clay films on faces of peds; very strong acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 84,
+        "bottom": 99,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg2--33 to 39 inches; dark grayish brown (10YR 4/2) sandy clay loam; common medium faint grayish brown (10YR 5/2) and few fine distinct strong brown (7.5YR 5/8) mottles; weak medium subangular blocky structure; friable; few faint clay films on faces of peds; neutral; gradual wavy boundary.  (Combined thickness of the Btg horizon is 15 to 45 inches)"
+      },
+      {
+        "name": "BCg",
+        "top": 99,
+        "bottom": 124,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BCg--39 to 49 inches; dark gray (10YR 4/1) sandy loam with thin lenses of loamy sand; few fine distinct strong brown (7.5YR 5/8) and few medium distinct light gray (10YR 7/1) mottles; weak medium subangular blocky structure; friable; neutral; gradual wavy boundary."
+      },
+      {
+        "name": "2Cg",
+        "top": 124,
+        "bottom": 178,
+        "moist_hue": "5GY",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2Cg--49 to 70 inches; greenish gray (5GY 5/1) sand with lenses of sandy loam; massive; loose; moderately alkaline; gradual wavy boundary."
+      },
+      {
+        "name": "3Cg",
+        "top": 178,
+        "bottom": 203,
+        "moist_hue": "5G",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "3Cg--70 to 80 inches; grayish green (5G 5/2) sandy clay loam; massive; friable; moderately alkaline."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 18 cm (A and part of the C horizon).\nParalithic contact - The boundary at 28 cm to underlying soft, weathered bedrock (Cr1 layer).\nParticle-size control section and ashy substitute class with glassy mineralogy - The zone from the soil surface to 28 cm (A and C horizons).\nADDITIONAL DATA:  A reference pedon of Tuffo has partial characterization data by the Soil Survey Laboratory (SSL), Lincoln, NE, as soil survey sample number S83NV-007-000 (pedon # 84P0486).  Selected data such as particle-size distribution and sand mineralogy are available.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 8 cm; pale brown (10YR 6/3) ashy fine sandy loam, dark brown (10YR 3/3) moist; moderate medium and thick platy structure; soft, very friable, nonsticky and nonplastic; common very fine, few fine and medium roots; many very fine and common fine vesicular pores; 5 percent gravel; slightly alkaline (pH 7.4); abrupt smooth boundary.  (3 to 15 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 8,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "very fine sandy loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C--8 to 28 cm; light yellowish brown (10YR 6/4) ashy very fine sandy loam, brown (10YR 4/3) moist; massive; slightly hard, very friable, nonsticky and nonplastic; many very fine, common fine and few medium roots; common very fine tubular pores; 5 percent gravel; slightly alkaline (pH 7.4); clear smooth boundary.  (8 to 23 cm thick)"
+      },
+      {
+        "name": "Cr1",
+        "top": 28,
+        "bottom": 58,
+        "texture_class": "sand",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Cr1--28 to 58 cm; highly weathered and fractured tuffaceous sandstone; few fine roots in fractures; gradual wavy boundary."
+      },
+      {
+        "name": "Cr2",
+        "top": 58,
+        "bottom": 107,
+        "texture_class": "sand",
+        "narrative": "Cr2--58 to 107 cm; weathered and fractured tuffaceous sandstone; common pendants of secondary carbonates on bedding planes."
+      }
+    ]
+  ]
 }

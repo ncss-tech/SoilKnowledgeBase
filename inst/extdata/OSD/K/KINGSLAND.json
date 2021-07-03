@@ -56,5 +56,50 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic feature recognized in this pedon is:\nHistic epipedon - the zone from the surface to approximately 65 inches (Oe1, Oe2, and Oe3 horizons).\nHemic material - the zone from the surface to approximately 65 inches (Oe1, Oe2, and Oe3 horizons).\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nGA0066 KINGSLAND   0-  1   60- 71  240-285  45- 55     5- 150\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nGA0066 COMMON          0-0.5  APPARENT JAN-DEC  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nGA0066  0-65  MPT                     0-  5    -     0- 0    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nGA0066  0-65  4.5- 6.5  40-99  0- 0   6.0-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe1",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Oe1--0 to 10 inches; dark reddish brown (5YR 2/2) unrubbed and rubbed, hemic material; about 40 percent fiber unrubbed, 22 percent fiber rubbed; fibers are 1 to 3 mm in size, about 5 percent fiber 3 to 5 mm; about 5 to 10 percent mineral matter; massive; slightly acid; gradual wavy boundary.  (8 to 20 inches thick)"
+      },
+      {
+        "name": "Oe2",
+        "top": 25,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Oe2--10 to 20 inches; black (10YR 2/1) unrubbed and rubbed, hemic material; fiber content is about 40 percent unrubbed, 24 percent rubbed; fiber size 1 to 3 mm; about 5 to 10 percent mineral material; massive; slightly acid; gradual wavy boundary.  (8 to 20 inches thick)"
+      },
+      {
+        "name": "Oe3",
+        "top": 51,
+        "bottom": 165,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH_class": "slightly acid",
+        "narrative": "Oe3--20 to 65 inches; very dark brown (10YR 2/2) unrubbed and rubbed, hemic material; about 70 percent fiber unrubbed, 40 percent rubbed; fiber size 1 to 3 mm, about 5 percent fiber 3 to 6 mm; 5 percent mineral material; slightly acid."
+      }
+    ]
+  ]
 }

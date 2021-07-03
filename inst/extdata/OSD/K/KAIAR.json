@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nSeries control section:  The zone from 0 to 88 cm.\nParticle-size control section:  The zone from 25 to 88 cm.  (part of Bw, entire Bk and BCk horizons)\nOchric epipedon:  The zone from 0 to 10 cm.  (A horizon)\nCambic horizon:  The zone from 10 to 30 cm.  (Bw horizon)\nCalcic horizon:  The zone from 30 to 70 cm.  (Bk and BCk horizons)\nLithic contact:  The contact with sandstone bedrock at 88 cm.  (R horizon)\nThe assignment of the cation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomic Version:  Classified according to Keys to Soil Taxonomy, Eleventh Edition, 2010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "texture_class": "loamy fine sand",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 10 cm; light brown (7.5YR 6/3) loamy fine sand, brown (7.5YR 4/3), moist; weak fine granular structure; soft, very friable, slightly sticky and slightly plastic; few coarse and fine and common very fine roots; very slightly effervescent (2 percent calcium carbonate equivalent), carbonates are finely disseminated throughout; moderately alkaline (pH 8.0); clear wavy boundary.  (8 to 32 cm thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 10,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--10 to 30 cm; light brown (7.5YR 6/4) fine sandy loam, brown (7.5YR 4/4), moist; weak fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; few coarse and fine and common very fine roots; very slightly effervescent (4 percent calcium carbonate equivalent), carbonates are finely disseminated throughout; moderately alkaline (pH 8.0); gradual wavy boundary.  (15 to 48 cm thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 30,
+        "bottom": 70,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 8.1,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bk--30 to 70 cm; pink (7.5YR 7/3) fine sandy loam, brown (7.5YR 5/3), moist; weak medium and fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; few fine and common very fine roots; 2 percent channers and 10 percent gravel; strongly effervescent (12 percent calcium carbonate equivalent), common fine threadlike masses of carbonates, common faint carbonate coats on bottom of rock fragments, carbonates are finely disseminated throughout; moderately alkaline (pH 8.1); clear wavy boundary."
+      },
+      {
+        "name": "BCk",
+        "top": 70,
+        "bottom": 88,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "BCk--70 to 88 cm; very pale brown (10YR 7/3) gravelly fine sandy loam, brown (10YR 5/3), moist; weak fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; few fine and common very fine roots; 10 percent channers and 15 percent gravel; violently effervescent (20 percent calcium carbonate equivalent), common fine threadlike masses of carbonates, common distinct carbonate coats on bottom of rock fragments, carbonates are finely disseminated throughout; moderately alkaline (pH 8.4); abrupt smooth boundary.  (combined thickness of the Bk and/or BCk horizons is 20 to 58 cm)"
+      },
+      {
+        "name": "R",
+        "top": 88,
+        "bottom": 98,
+        "texture_class": "sand",
+        "narrative": "R--88 to 98 cm; calcareous sandstone bedrock, Curtis formation; common distinct carbonate coats on bedrock."
+      }
+    ]
+  ]
 }

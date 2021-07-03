@@ -56,5 +56,106 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon: The zone from 0 to 25 inches (Oi, Oa, Eg1, and Eg2);\nAlbic epipedon:  The zone from 8 to 25 inches (Eg1 and Eg2);\nArgillic horizon:  The zone from 25 to 38 inches (Bt and 2Btg);\nParticle size control section:  The zone from 25 to 40 inches;\nLithologic discontinuity:  The upper boundary of the 2Btg horizon at 34 inches;\nRedoximorphic concentrations in the zone from 14 to 34 inches.\nOnly series status, responsibility, and scriveners errors changed - 3/09.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oi--0 to 2 inches; brown (7.5YR 4/4) peat; weak fine platy structure; very strongly acid; abrupt wavy boundary. Undecomposed sedge fibers."
+      },
+      {
+        "name": "Oa",
+        "top": 5,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oa--2 to 8 inches; very dark gray (10YR 3/1) muck; strong fine granular structure; friable; common very fine and fine roots; common very fine and fine tubular pores; very strongly acid; abrupt wavy boundary. (Combined thickness of the O horizon is 8 to 15 inches.)"
+      },
+      {
+        "name": "A",
+        "top": 20,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "A--8 to 14 inches; dark gray (10YR 4/1) fine sand, gray (10YR 6/1) dry; moderate medium subangular blocky structure; very friable; common very fine roots; common very fine and fine tubular pores; very strongly acid; clear irregular boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "Eg",
+        "top": 36,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Eg--14 to 25 inches; grayish brown (10YR 5/2) fine sand, light gray (10YR7/2) dry; moderate thin platy structure; very friable; common very fine roots; common very fine and fine tubular pores; common fine prominent strong brown (7.5YR 4/6) masses of iron accumulation; moderately acid; clear wavy boundary.   (Combined thickness of the Eg horizon is 10 to 33 inches.)"
+      },
+      {
+        "name": "Bt",
+        "top": 64,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loamy fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--25 to 34 inches; brown (10YR 5/3) loamy fine sand; weak thick platy structure; very friable; common very fine and fine roots; common very fine and fine tubular pores; few prominent  brown (7.5YR 4/4) clay bridging between sand grains; many coarse prominent strong brown (7.5YR 5/6) masses of iron accumulation and few medium distinct light brownish gray (10YR 6/2) masses of iron depletion slightly acid; abrupt wavy boundary.  (4 to 15 inches thick)"
+      },
+      {
+        "name": "2Btg",
+        "top": 86,
+        "bottom": 97,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Btg--34 to 38 inches; 80 percent gray (5Y 6/1) and 20 percent reddish brown (5YR 5/4) clay; strong coarse angular blocky structure; firm; common very fine and fine roots; common very fine and fine tubular pores; few distinct gray (2.5Y 5/1) clay films on faces of peds; neutral; clear wavy boundary.  (5 to 25 inches thick)"
+      },
+      {
+        "name": "2Bkg",
+        "top": 97,
+        "bottom": 203,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "moderately alkaline",
+        "narrative": "2Bkg--38 to 80 inches; 60 percent gray (5Y 6/1) and 20 percent reddish brown (5YR 4/4) and 20 percent reddish brown (5YR 5/4) clay; massive; very firm; common very fine and fine roots; fine rounded white (2.5Y 8/1) carbonate concretions and fine white (2.5Y 8/1) carbonate threads; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

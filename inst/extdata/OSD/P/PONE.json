@@ -56,5 +56,100 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This soil was formerly included in the Pocomoke soil series.\nDiagnostic horizons and features recognized in this pedon are:\nUmbric epipedon--the zone from the surface of the soil to a depth of 14 inches (A1 and A2 horizons)\nArgillic horizon--the zone from 14 to 26 inches (Btg horizon).\nAbrupt textural change--at a depth of 47 inches, the top of the 2Cg horizon\nSERIES INTERPRETATION RECORD(S):\nTABULAR SERIES DATA:\nSOI-5 Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nMD0144 PONE        0-  2   52- 58  190-210  42- 48    10-  80\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nMD0144 NONE             -     APPARENT    -     >60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nMD0144  0-14  MK-L L                  0-  0  90-100 10-18   5- 15\nMD0144  0-14  MK-SL SL                0-  0  90-100  5-12   5- 15\nMD0144 14-26  SL L                    0-  0  85- 95  8-18   2-  5\nMD0144 26-37  LS SL                   0-  0  85- 95  3-15   2-  5\nMD0144 37-47  S LS                    0-  0  75-100  3- 8   2-  5\nMD0144 47-69  VFSL SIL SICL           0-  0  85- 95 15-30   2-  5\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nMD0144  0-14  3.6- 5.5  3.-15  0- 0   0.6- 6.0  LOW\nMD0144  0-14  3.6- 5.5  3.-15  0- 0   2.0- 6.0  LOW\nMD0144 14-26  3.6- 5.5  0.-.5  0- 0   2.0- 6.0  LOW\nMD0144 26-37  3.6- 5.5  0.-.5  0- 0   2.0- 6.0  LOW\nMD0144 37-47  3.6- 5.5  0.-.5  0- 0   2.0-  20  LOW\nMD0144 47-69  3.6- 5.5  0.-.5  0- 0  0.06- 0.6  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi/Oa",
+        "top": 0,
+        "bottom": 8,
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oi/Oa--0 to 3 inches; undecomposed and highly decomposed leaves, needles and twigs; clear smooth boundary. (0 to 4 inches thick)"
+      },
+      {
+        "name": "A1",
+        "top": 8,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A1--3 to 6 inches; black (10YR 2/1) mucky sandy loam; strong medium granular structure; friable, slightly sticky, slightly plastic; many very fine and fine, common medium and few coarse roots; many very fine and fine and common medium irregular pores; 10 percent organic matter; extremely acid; gradual smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 15,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A2--6 to 14 inches; black (10YR 2/1) sandy loam; weak medium subangular blocky structure parting to weak fine granular; friable, slightly sticky, slightly plastic; many very fine, common fine and medium, and few coarse roots; many very fine and fine and common medium irregular pores; high organic matter content; strongly acid; gradual wavy boundary. (combined thickness of A1 and A2 horizons is 10 to 16 inches)"
+      },
+      {
+        "name": "Btg",
+        "top": 36,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Btg--14 to 26 inches; grayish brown (10YR 5/2) sandy loam; common medium distinct light gray (10YR 7/1) mottles and common coarse distinct very dark grayish brown (10YR 3/2) A horizon material in vertical channels; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; many very fine, common fine and few medium roots; many very fine, common fine and few medium tubular pores; common prominent clay films on ped faces and lining soil pores; very strongly acid; clear irregular boundary. (10 to 17 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 66,
+        "bottom": 94,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "BC--26 to 37 inches; light gray (10YR 7/2) loamy sand; common coarse distinct grayish brown (2.5Y 5/2) mottles and few medium prominent yellowish brown (10YR 5/8) mottles; massive; very friable; common very fine and few fine roots; common very fine and fine and few medium tubular pores; 10 percent pockets of dark gray sandy clay loam in vertical channels; very strongly acid; clear irregular boundary. (6 to 14 inches thick)"
+      },
+      {
+        "name": "Cg1",
+        "top": 94,
+        "bottom": 119,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "broken",
+        "narrative": "Cg1--37 to 47 inches; gray (10YR 5/1) sand; many coarse prominent strong brown (7.5YR 5/8) mottles; massive; very friable; common very fine roots; stratified horizontal lines of light and dark gray sand less than 3mm thick; very strongly acid; clear broken boundary. (9 to 18 inches thick)"
+      },
+      {
+        "name": "2Cg2",
+        "top": 119,
+        "bottom": 175,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "narrative": "2Cg2--47 to 69 inches; gray (5Y 6/1) silt loam; common coarse distinct gray (10YR 5/1) mottles and common fine prominent strong brown (7.5YR 5/8) mottles; massive; friable, slightly sticky, plastic; few very fine roots; many very fine tubular pores; very strongly acid."
+      }
+    ]
+  ]
 }

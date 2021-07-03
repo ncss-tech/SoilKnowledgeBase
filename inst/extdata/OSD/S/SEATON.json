@@ -56,5 +56,139 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 38 to 88 centimeters (15 to 35 inches) (Bt1, Bt2, Bt3, and Bt4 horizons);\nseries control section--the zone from the surface to a depth of 178 centimeters (0 to 70 inches) (A, E, BE, Bt1, Bt2, Bt3, Bt4, and BC horizons).\nDiagnostic horizons and features recognized in this pedon:\nochric epipedon--the zone from the surface of the soil to a depth of about 23 centimeters (0 to 9 inches) (A and E horizons);\nargillic horizon--the zone from a depth of 38 to 112 centimeters (15 to 44 inches) (Bt1, Bt2, Bt3, and Bt4 horizons);\nudic moisture regime.\nResearch data from a project conducted jointly by UW-River Falls and the Soil Conservation Service indicates that Seaton soils formed in loess thicker than 80 inches typically have a perched zone of near saturation with redox features. Internal drainage appears to be restricted by structure differences in the lower part of the argillic horizon and/or contrasting pore size, resulting in the zone of near saturation during wet periods. Seaton soils, however, will be considered well drained.\nCation-exchange activity class is supported by lab data from National Soil Survey Laboratory, Lincoln, Nebraska.\nClay content in the particle-size control section and lower third of the series control section is based on analysis of laboratory data (NSSL)\nTaxonomy version--Keys to Soil Taxonomy, ninth edition, 2003.\nADDITIONAL DATA:\nLaboratory data--National Soil Survey Laboratory, Lincoln, Nebraska many pedons (http://ssldata.sc.egov.usda.gov/)\nLaboratory data--Illinois Agricultural Experiment Station Bulletins 587, 701, and 739.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 10 centimeters (0 to 4 inches); dark brown (10YR 3/3) silt loam, brown (10YR 5/3) dry; weak fine granular structure; very friable; slightly acid; clear smooth boundary. [5 to 13 centimeters (2 to 5 inches) thick]"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--10 to 23 centimeters (4 to 9 inches); brown (10YR 4/3) silt loam, pale brown (10YR 6/3) dry; weak thin platy structure; friable; slightly acid; clear smooth boundary. [0 to 18 centimeters (0 to 7 inches) thick]"
+      },
+      {
+        "name": "BE",
+        "top": 23,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BE--23 to 38 centimeters (9 to 15 inches); yellowish brown (10YR 5/4) silt loam; weak fine and medium subangular blocky structure; friable; few faint brown (10YR 4/3) clay films and common faint light yellowish brown (10YR 6/4) silt coats on faces of peds; moderately acid; clear smooth boundary. [0 to 18 centimeters (0 to 7 inches) thick]"
+      },
+      {
+        "name": "Bt1",
+        "top": 38,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--38 to 53 centimeters (15 to 21 inches); yellowish brown (10YR 5/4) silt loam; moderate fine and medium subangular blocky structure; friable; few faint brown (10YR 4/3) clay films and few faint light yellowish brown (10YR 6/4) silt coats on faces of peds; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 53,
+        "bottom": 69,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--53 to 69 centimeters (21 to 27 inches); brown (7.5YR 5/4) silt loam; moderate fine and medium subangular blocky structure; firm; few faint brown (10YR 4/3) clay films and few faint light yellowish brown (10YR 6/4) silt coats on faces of peds; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 69,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt3--69 to 86 centimeters (27 to 34 inches); yellowish brown (10YR 5/4) silt loam; moderate medium angular blocky structure; firm; common faint brown (10YR 4/3) clay films on faces of peds; strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt4",
+        "top": 86,
+        "bottom": 112,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt4--86 to 112 centimeters (34 to 44 inches); brown (10YR 5/3) silt loam; weak medium and coarse prismatic structure; firm; few faint brown (10YR 4/3) clay films and few faint light yellowish brown (10YR 6/4) silt coats on vertical faces of peds; moderately acid; gradual smooth boundary. [Combined thickness of the Bt horizon is 64 to 114 centimeters (25 to 45 inches).]"
+      },
+      {
+        "name": "BC",
+        "top": 112,
+        "bottom": 178,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BC--112 to 178 centimeters (44 to 70 inches); brown (10YR 4/3) silt loam; weak very coarse prismatic structure; friable; few faint brown (7.5YR 4/2) clay films on vertical faces of peds; moderately acid; gradual smooth boundary. [0 to 76 centimeters (0 to 30 inches) thick]"
+      },
+      {
+        "name": "C",
+        "top": 178,
+        "bottom": 241,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C--178 to 241 centimeters (70 to 95 inches); light brownish gray (10YR 6/2) and brown (10YR 5/3) silt loam; massive; friable; common fine faint dark yellowish brown (10YR 4/4) and yellowish brown (10YR 5/6) masses of iron accumulation; slightly acid; clear smooth boundary."
+      }
+    ]
+  ]
 }

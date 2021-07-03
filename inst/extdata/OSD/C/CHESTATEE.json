@@ -56,5 +56,94 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 9 inches (Ap horizon).\nArgillic horizon - the zone from approximately 9 to 36 inches (Bt1, Bt2, Bt3 horizons).\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nGA0054 CHESTATEE   2- 50   59- 65  210-240  48- 55   500-1100\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nGA0054 NONE          6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nGA0054  0- 9  ST-SL ST-FSL BY-SL     10- 22  66- 85  8-20    -\nGA0054  0- 9  STV-SL STV-L           22- 44  50- 75  8-25    -\nGA0054  9-13  ST-SCL ST-CL BY-SCL    10- 30  60- 90 25-40    -\nGA0054 13-36  BY-C BY-CL BY-SC       10- 35  60- 90 35-60    -\nGA0054 36-72  WB                       -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nGA0054  0- 9  4.5- 5.5  .5-2.  0- 0   2.0- 6.0  LOW\nGA0054  0- 9  4.5- 5.5  .5-2.  0- 0   2.0- 6.0  LOW\nGA0054  9-13  4.5- 5.5    -    0- 0   0.6- 2.0  LOW\nGA0054 13-36  4.5- 5.5    -    0- 0   0.6- 2.0  LOW\nGA0054 36-72     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {}
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "stony",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Ap--0 to 9 inches; brown (7.5YR 4/4) stony sandy loam; weak fine granular structure; friable; many fine roots; 20 percent by volume of angular rock fragments ranging from 1 to 20 inches in longest dimension; very strongly acid; clear irregular boundary.  (5 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 23,
+        "bottom": 33,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "cf_class": "stony",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--9 to 13 inches; red (2.5YR 4/6) stony sandy clay loam; moderate medium and coarse subangular blocky structure; friable; few fine roots and medium pores; common fine flakes of mica; 25 percent by volume of angular rock fragments ranging from 1 to 20 inches in longest dimension; peds coated with brown soil from Ap; very strongly acid; gradual wavy boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 33,
+        "bottom": 71,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "cf_class": "bouldery",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "Bt2--13 to 28 inches; red (2.5YR 4/6) bouldery clay; moderate medium subangular blocky structure; firm; common fine roots; 25 percent by volume fragments of rock ranging from 3 to 40 inches in longest dimension; common fractured soft subangular rock fragments; common medium flakes of mica; thin continuous clay films on faces of peds; very strongly acid; gradual irregular boundary.  (10 to 20 inches thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 71,
+        "bottom": 91,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "cf_class": "bouldery",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bt3--28 to 36 inches; red (2.5YR 4/6) bouldery clay; moderate medium subangular blocky structure; firm; few fine roots and pores; about 45 percent by volume, slightly hard to hard, gneiss and granite stones and coarse fragments; many medium flakes of mica; few patchy clay films on faces of peds; irregular tongues 2 to 12 inches thick extend to depths of 60 inches in places; tongues are oriented to tilted bedding of weathered rock; very strongly acid; clear irregular boundary.  (5 to 20 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 91,
+        "bottom": 168,
+        "moist_hue": "2.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--36 to 66 inches; soft saprolite of granite and gneiss with bedding tilted about 30 degrees; crushed to red (2.5YR 5/6) and strong brown (7.5YR 5/6) loam; firm; common fine flakes of mica; strongly acid; clear wavy boundary.  (0 to 40 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 168,
+        "bottom": 183,
+        "moist_hue": "7.5YR",
+        "moist_value": 8,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "pH_class": "strongly acid",
+        "narrative": "Cr--66 to 72 inches; pinkish white (7.5YR 8/2), red (2.5YR 4/6), and very dark grayish brown (10YR 3/2) massive weathered rock that crushed to coarse sandy loam; firm; common fine flakes of mica; strongly acid."
+      }
+    ]
+  ]
 }

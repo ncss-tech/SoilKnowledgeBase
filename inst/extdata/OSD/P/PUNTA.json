@@ -56,5 +56,59 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This revision changes the series classification to recognize the 1992 amendments to Soil Taxonomy that introduces changes in classification of Spodosols.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - zone from the surface to a depth of 57 inches (A, E1, E2).\nAlbic horizon - zone from 4 to 57 inches (E1, E2).\nSpodic horizon - zone from 57 to 80 inches (Bh).\nAquic condition - endosaturation - all layers below about 6 inches.\nDATA:  Soil Characterization Lab., IFAS, UOF\nS8-6-(1-5)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; dark gray (l0YR 4/l) fine sand; weak fine granular; very friable; many fine to common medium roots; very strongly acid; clear smooth boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "E1",
+        "top": 10,
+        "bottom": 28,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E1--4 to 11 inches; light brownish gray (l0YR 6/2) fine sand; single grained; loose; common fine and medium roots; very strongly acid; gradual wavy boundary.  (6 to 26 inches thick)"
+      },
+      {
+        "name": "E2",
+        "top": 28,
+        "bottom": 145,
+        "texture_class": "fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E2--11 to 57 inches; white (l0YR 8/l) fine sand; single grained; loose; few fine and common medium roots; strongly acid; abrupt wavy boundary.  (30 to 50 inches thick)"
+      },
+      {
+        "name": "Bh",
+        "top": 145,
+        "bottom": 203,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bh--57 to 80 inches; black (N 2/0) fine sand; moderate fine subangular blocky structure; friable; strongly acid; abrupt wavy boundary."
+      }
+    ]
+  ]
 }

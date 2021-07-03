@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features and horizons recognized in this profile include:\nredoximorphic concentrations: from 7 to 72 inches, 18 to 183 cm.\nredoximorphic depletions: from 7 to 72 inches, 18 to 183 cm.\ncryoturbation and gelic materials: from 7 to 72 inches, 18 to 183 cm.\npermafrost: from 24 to 72 inches, 62 to 183 cm.\nTemperature regime: Cryic 26 F., -3 C.\nMoisture regime: aquic\nADDITIONAL DATA: National Soil Survey Laboratory data S04AK-068-001\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "pH": 4.7,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 5 inches, (0 to 12 cm); brown (7.5YR 4/3); slightly decomposed plant material; many very fine to coarse roots; very strongly acid (pH 4.7); abrupt smooth boundary."
+      },
+      {
+        "name": "Oe",
+        "top": 13,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "pH": 5.2,
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--5 to 6 inches, (12 to 16 cm); very dark gray (10YR 3/1); moderately decomposed plant material; many very fine to coarse roots; strongly acid (pH 5.2); abrupt smooth boundary. (The combines thickness of the O horizons 3 to 7 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 15,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 5.3,
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--6 to 7 inches, (16 to 18 cm); very dark grayish brown (10YR 3/2); silt loam; weak medium granular structure; very friable, slightly sticky, slightly plastic; many very fine to medium few coarse roots; strongly acid (pH 5.3); abrupt smooth boundary. (1 to 2 inches thick)"
+      },
+      {
+        "name": "Bjjg",
+        "top": 18,
+        "bottom": 61,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bjjg--7 to 24 inches, (18 to 62 cm); light olive brown (2.5Y 5/4); silt loam; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; common fine and very fine and few medium roots; 10 percent fine and medium strong brown (7.5YR 5/6) redoximorphic concentrations and 30 percent medium and coarse reddish gray (2.5YR 5/1) redoximorphic depletions; neutral (pH 6.6); clear smooth boundary. (16 to 83 inches thick)"
+      },
+      {
+        "name": "Bgf",
+        "top": 61,
+        "bottom": 183,
+        "narrative": "Bgf--24 to 72 inches, (62 to 183 cm); permanently frozen material."
+      }
+    ]
+  ]
 }

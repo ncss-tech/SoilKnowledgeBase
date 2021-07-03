@@ -56,5 +56,64 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  La Taina soils were formerly included in the Maresua series and the Serpentinite outcrop miscellaneous land type.\nDiagnostic horizons and features recognized in this pedon include:\nMollic epipedon - The zone from 0 to 8 inches (Ap horizon)\nArgillic horizon - The zone from 8 to 17 inches (Bt1 and Bt2 horizons).\nParalithic contact - The contact at 17 inches (Cr horizon).\nLithic contact - The contact at 29 inches (R horizon).\nADDITIONAL DATA:  Characterization pedon- San Germn Municipality, Puerto Rico; S88PR125-001.  Sample by the NSSL, Lincoln, NE.\nLa Taina soils are in MLRA 270.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "cf_class": "very gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; very dark brown (10YR 2/2) very gravelly clay; moderate fine subangular blocky structure parting to moderate fine granular structure; slightly hard, friable; slightly sticky, slightly plastic; many fine and medium roots, few coarse roots; common fine interstitial pores; about 40 percent, by volume, pebbles; neutral; clear smooth boundary. (3 to 8 inches)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 33,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "cf_class": "extremely gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--8 to 13 inches; dark reddish brown (5YR 3/2) extremely gravelly clay; moderate fine subangular blocky structure parting to weak fine granular structure; slightly hard, firm; sticky, plastic; common fine and medium roots; common fine interstitial and few fine tubular pores; few faint clay films on faces of peds; about 60 percent, by volume, pebbles; about 10 percent, by volume, cobbles; neutral; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 33,
+        "bottom": 43,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt2--13 to 17 inches; dark reddish brown (5YR 3/2) extremely paragravelly clay loam, weak fine subangular blocky structure; slightly hard, firm; sticky, plastic; common fine medium roots; common fine interstitial pores; common faint clay films on faces of peds; about 75 percent, by volume, parapebbles; about 10 percent, by volume, paracobbles; neutral; abrupt smooth boundary. (Combined thickness of the Bt horizons range from 7 to 12 inches)"
+      },
+      {
+        "name": "Cr",
+        "top": 43,
+        "bottom": 74,
+        "narrative": "Cr--17 to 29 inches; Highly fractured serpentinite bedrock."
+      }
+    ]
+  ]
 }

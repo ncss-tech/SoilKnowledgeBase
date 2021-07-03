@@ -56,5 +56,71 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This revision reflects changes to the range in characteristics as well as general updating to metric units. In the past, the Pittstown series was mapped in areas that are now considered frigid. These areas require investigation are not included in the modern range of the series.\nDiagnostic horizons and features recognized in this pedon are:\n1. Ochric epipedon - the zone from 0 to 10 inches (0 to 25 centimeters) (Ap horizon).\n2. Cambic horizon - the zone from 10 to 29 inches (25 to 74 centimeters) (Bw horizons).\n3. Densic material- the zone from 29 through 65 inches (74 through 165 centimeters) (Cd horizon).\n4. Aquic subgroup - presence of low chroma iron depletions at 18 inches (46 centimeters) (Bw1 horizon).\n5) Particle-size control section - the zone from 10 through 29 inches (25 through 74 centimeters) (Bw horizons).\nADDITIONAL DATA: Full characterization data for sample no. 78NH005025 and 78NH019010. Pedons analyzed by the NSSL, Lincoln, NE.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap --0 to 10 inches (0 to 25 centimeters); very dark grayish brown (10YR 3/2) loam, light brownish gray (10YR 6/2) dry; moderate medium granular structure; friable; 10 percent phyllite fragments; very strongly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "Bw1",
+        "top": 25,
+        "bottom": 46,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw1 --10 to 18 inches (25 to 46 centimeters); olive brown (2.5Y 4/4) loam; weak medium granular structure; friable; 10 percent phyllite fragments; very strongly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 46,
+        "bottom": 74,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw2 --18 to 29 inches (46 to 74 centimeters); olive (5Y 4/3) channery loam; massive; friable; 15 percent phyllite fragments; common medium prominent dark yellowish brown (10YR 4/4) masses of iron accumulations and common medium distinct gray (5Y 5/1) iron depletions; very strongly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "Cd",
+        "top": 74,
+        "bottom": 165,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "narrative": "Cd --29 to 65 inches (74 to 165 centimeters); olive (5Y 5/3) channery loam; massive; very firm, brittle; 20 percent phyllite fragments; many coarse prominent dark yellowish brown (10YR 4/4) masses of iron accumulation and many coarse distinct olive gray (5Y 5/2) iron depletions; very strongly acid."
+      }
+    ]
+  ]
 }

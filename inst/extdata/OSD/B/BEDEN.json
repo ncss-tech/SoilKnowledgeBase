@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 11 inches (A1 and A2 horizons).\nArgillic horizon - The zone from 11 to 18 inches (2Bt1 and 2Bt2 horizons).\nVitrandic intergrade properties - The zone from the soil surface to 11 inches (A1 and A2 horizons).\nLithic contact - The boundary at 18 inches to underlying hard, unweathered bedrock (2R layer).\nParticle-size control section - The zone from 11 to 18 inches (2Bt1 and 2Bt2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "stony",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 5 inches; grayish brown (10YR 5/2) stony ashy sandy loam, very dark grayish brown (10YR 3/2) moist; weak medium platy structure parting to weak fine granular; slightly hard, friable, slightly sticky and nonplastic; many very fine roots; many fine vesicular pores; 5 percent pebbles, 5 percent cobbles, and 10 percent stones; neutral (pH 7.0); clear wavy boundary.  (2 to 6 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 13,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "stony",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--5 to 11 inches; brown (10YR 5/3) stony ashy sandy loam, dark brown (10YR 3/3) moist; weak fine granular structure; slightly hard, friable, slightly sticky and nonplastic; common very fine, common fine, and common medium roots; few very fine and few fine tubular pores; 5 percent pebbles, 5 percent cobbles, and 5 percent stones; neutral (pH 7.2); clear wavy boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "2Bt1",
+        "top": 28,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Bt1--11 to 15 inches; brown (10YR 5/3) loam, dark brown (10YR 3/3) moist; moderate medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common fine and common medium roots; few very fine tubular pores; few faint clay films on faces of peds and lining pores; 10 percent pebbles; slightly alkaline (pH 7.4); abrupt wavy boundary."
+      },
+      {
+        "name": "2Bt2",
+        "top": 38,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Bt2--15 to 18 inches; brown (10YR 5/3) clay loam, dark brown (10YR 3/3) moist; moderate medium subangular blocky structure; hard, very firm, moderately sticky and moderately plastic; few fine and few medium roots; few very fine tubular pores; common faint clay films on faces of peds and lining pores; 10 percent pebbles; slightly alkaline (pH 7.6); abrupt wavy boundary.  (Combined thickness of the 2Bt horizons is 4 to 10 inches)"
+      },
+      {
+        "name": "2R",
+        "top": 46,
+        "narrative": "2R--18 inches; fractured basalt with a thin discontinuous opal coating on the surface."
+      }
+    ]
+  ]
 }

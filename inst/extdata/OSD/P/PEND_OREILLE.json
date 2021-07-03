@@ -56,5 +56,131 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the mineral soil surface to 7 inches (A and part of Bw1 horizons)\nCambic horizon - the zone from 6 to 19 inches (Bw1 and Bw2 horizons)\nArgillic horizon - the zone from 19 to 43 inches (2Bt1 and 2Bt2 horizons)\nVolcanic ash mantle - the zone from 2 to 19 inches (A, Bw1, and Bw2 horizons)\nParticle-size control section - the zone from the mineral soil surface to 40 inches (A, Bw1, Bw2, 2Bt1 and part of the 2Bt2 horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "0i--0 to 1 inch; slightly decomposed needles and twigs. (0.5 to 2 inches thick)"
+      },
+      {
+        "name": "0e",
+        "top": 3,
+        "bottom": 5,
+        "narrative": "0e--1 to 2 inches; moderately decomposed needles and twigs mixed with Mt. St. Helens volcanic ash. (0.5 to 1 inch thick)"
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--2 to 6 inches; light yellowish brown (10YR 6/4) ashy silt loam, dark yellowish brown (10YR 3/4) moist; weak fine subangular blocky structure parting to strong very fine granular; soft, very friable, nonsticky and slightly plastic; many very fine, fine, and medium roots; many very fine irregular pores; 10 percent pebbles; neutral (pH 6.6); clear wavy boundary.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 15,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--6 to 15 inches; light yellowish brown (10YR 6/4) ashy silt loam, dark yellowish brown (10YR 4/4) moist; weak fine subangular blocky structure parting to strong very fine granular; soft, very friable, nonsticky and slightly plastic; many very fine, fine and medium roots; many very fine irregular pores; 10 percent pebbles; slightly acid (pH 6.1); clear wavy boundary.  (7 to 14 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 38,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--15 to 19 inches; light yellowish brown (10YR 6/4) ashy loam, dark yellowish brown (10YR 4/4) moist; weak medium subangular blocky structure; soft, friable, nonsticky and slightly plastic; common very fine, fine, and medium roots; many very fine irregular pores; 5 percent pebbles; slightly acid (pH 6.1); clear wavy boundary.  (3 to 10 inches thick)"
+      },
+      {
+        "name": "2Bt1",
+        "top": 48,
+        "bottom": 76,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bt1--19 to 30 inches; pale brown (10YR 6/3) gravelly sandy loam, brown (10YR 4/3) moist; massive: slightly hard, friable, nonsticky and nonplastic; common very fine, fine, and medium roots; many fine tubular pores; few faint clay films bridging mineral grains; 20 percent pebbles, 5 percent cobbles and stones; moderately acid (pH 6.0); clear wavy boundary."
+      },
+      {
+        "name": "2Bt2",
+        "top": 76,
+        "bottom": 109,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bt2--30 to 43 inches; pale brown (10YR 6/3) gravelly sandy loam, brown (10YR 4/3) moist; massive; slightly hard, friable, nonsticky and nonplastic; common very fine and fine roots; many fine tubular pores; few faint clay films bridging mineral grains; 20 percent pebbles, 5 percent cobbles and stones; slightly acid (pH 6.3); clear wavy boundary.  (Combined thickness of 2Bt horizons is 10 to 42 inches)"
+      },
+      {
+        "name": "2C",
+        "top": 109,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very cobbly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "narrative": "2C--43 to 60 inches; very pale brown (10YR 7/3) very cobbly sandy loam, brown (10YR 5/3) moist; massive; slightly hard, friable, nonsticky and nonplastic; common very fine and fine roots; many fine tubular pores; 15 percent pebbles, 20 percent cobbles and stones; slightly acid (pH 6.4)."
+      }
+    ]
+  ]
 }

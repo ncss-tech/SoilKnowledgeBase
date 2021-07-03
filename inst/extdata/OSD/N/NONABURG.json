@@ -56,5 +56,54 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons in this pedon are:\nOchric epipedon: 0 to 2 inches (A horizon)\nArgillic horizon: 2 to 10 inches (Bt horizon)\nParalithic Contact: 10 to 40 inches (Cr horizon\nInceptic subgroup feature: Argillic horizon less than 14 inches\nthick (35 cm).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "Oi--1 to 0 inches; partially decomposed hardwood litter and twigs."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; dark brown (10YR 3/3) silty clay loam; moderate medium granular structure; friable; many fine and medium roots; 5 percent shale channers; neutral; abrupt smooth boundary.  (1 to 7 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 5,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--2 to 10 inches; dark yellowish brown (10YR 4/4) clay; common medium distinct yellowish brown (10YR 5/8) mottles; moderate medium subangular blocky structure; firm; sticky; plastic; common medium roots; few distinct clay films on faces of peds and in pores; 10 percent shale channers; slightly acid; abrupt wavy boundary.  (5 to 14 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 25,
+        "bottom": 102,
+        "narrative": "Cr--10 to 40 inches; soft, brownish, fractured, tilted calcareous shale.  (12 to more than 40 inches thick)"
+      }
+    ]
+  ]
 }

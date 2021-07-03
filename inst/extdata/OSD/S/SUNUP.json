@@ -56,5 +56,58 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nParticle-size control section:  The zone from 0 to 14 inches.  (A, C)\nOchric epipedon:  The zone from 0 to 14 inches.  (A, C)\nLithic contact:  The contact with hard shale at 14 inches. (R)\nTaxonomic version:  Eighth Edition, 1998.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "very channery",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 5 inches; light brownish gray (2.5Y 6/2) very channery clay loam, dark grayish brown (2.5Y 4/2) moist; moderate fine granular structure; soft, very friable, moderately sticky and moderately plastic; common fine and very fine roots; strongly effervescent, lime disseminated; 40 percent small, hard shale channers; moderately alkaline (pH 8.2); clear smooth boundary.  (2 to 6 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 13,
+        "bottom": 36,
+        "dry_hue": "5Y",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very channery",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--5 to 14 inches; olive (5Y 5/3) very channery clay loam, olive (5Y 4/3) moist; massive; soft, very friable, moderately sticky and moderately plastic; few fine roots; strongly effervescent, lime disseminated; 40 percent small, hard slate and shale channers; moderately alkaline (pH 8.2); abrupt wavy boundary.  (3 to 16 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 36,
+        "texture_class": "sand",
+        "narrative": "R--14 inches; hard shale interbedded with slate and fine grained sandstone."
+      }
+    ]
+  ]
 }

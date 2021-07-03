@@ -56,5 +56,67 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon:  the zone from 0 to 6 inches (A1 and A2 horizons).\nCambic horizon: from 1 to 12 inches ( A2 and Bw horizons).\nParalithic contact: at 12 inches (upper boundary of Cr layer)\nKeys to Soil Taxonomy:  Eighth Edition, 1998.\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "7.5YR",
+        "dry_value": 3,
+        "dry_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 1 inches; dark brown (7.5YR 3/3) very gravelly loam; brown (7.5YR 5/3) dry; weak fine granular structure; soft, friable, slightly sticky and slightly plastic; 30 percent gravel and 10 percent cobbles; strongly effervescent; moderately alkaline (pH 8.2); clear smooth boundary (1 to 4 inches thick)."
+      },
+      {
+        "name": "A2",
+        "top": 3,
+        "bottom": 15,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--1 to 6 inches; brown (7.5YR 4/3) very gravelly loam; light brown (7.5YR 6/3) dry; weak fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; 30 percent gravel, and 10 percent cobbles; strongly effervescent; moderately alkaline (pH 8.2); clear wavy boundary (3 to 7 inches thick)."
+      },
+      {
+        "name": "Bw",
+        "top": 15,
+        "bottom": 30,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely cobbly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bw--6 to 12 inches; reddish brown (5YR 5/4) extremely cobbly loam;  light reddish brown (5YR 6/4) dry; weak fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; 40 percent gravel and 20 percent cobbles; strongly effervescent; moderately alkaline (pH 8.4); abrupt irregular boundary (6 to 10 inches thick)."
+      },
+      {
+        "name": "Cr",
+        "top": 30,
+        "texture_class": "sand",
+        "narrative": "Cr--12 inches; fractured soft sandstone bedrock"
+      }
+    ]
+  ]
 }

@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in the pedon are:\nOchric epipedon:  1 to 18 inches (E1,E2);\nLithic contact: 43 inches (2R);\nParticle size control section: 10 to 40 inches.\nOnly series status, responsibility, and scriveners errors changed - 3/09.\nADDITIONAL DATA: For laboratory data on the typical pedon refer to S00MI-083-003 from the NSSL\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "narrative": "Oe--0 to 1 inch; very dark brown (10YR 2/2); partially decomposed forest litter. (0 to 3 inches thick)"
+      },
+      {
+        "name": "E1",
+        "top": 3,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E1--1 to 14 inches; light brownish gray (10YR 6/2) sand, light gray (10YR 7/2) dry; weak coarse subangular blocky structure; very friable; many very fine and fine roots; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "E2",
+        "top": 36,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E2--14 to 18 inches; brown (10YR 5/3) sand, light brownish gray (10YR 6/2) dry; single grain; loose; few very fine roots; strongly acid; clear wavy boundary. (Combined thickness of the E horizon is 5 to 20 inches thick.)"
+      },
+      {
+        "name": "Bw",
+        "top": 46,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--18 to 26 inches; dark brown (10YR 3/3) sand; single grain; loose; common medium distinct very pale brown (10YR 7/4) iron depletions; 2 percent sandstone flags; moderately acid; gradual wavy boundary. (4 to 18 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 66,
+        "bottom": 109,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "cf_class": "flaggy",
+        "pH_class": "strongly acid",
+        "narrative": "C--26 to 43 inches; brown (10YR 4/3) flaggy sand; single grain; loose; common medium distinct light yellowish brown (10YR 6/4) masses of iron accumulation; 20 percent sandstone flags; strongly acid. (0 to 20 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 109,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "narrative": "R--43 inches; yellowish brown (10YR 5/4) weathered sandstone bedrock; strongly acid."
+      }
+    ]
+  ]
 }

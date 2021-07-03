@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: CEC activity class changed from active to semi-active based on preponderance of lab data for the Honeoye-Lima-Kendaia catena.\nDiagnostic horizons and other features recognized in the typical pedon:\n(1) Ochric Epipedon - the zone from the surface to 20 cm. (Ap horizon).\n(2) Cambric horizon - the zone from 20 to 51 cm (Bw and Bg horizons).\n(3) Aquic moisture regime - as evidenced by matrix chroma of 2 and mottles in the zone from 38 to 51 cm (Bg horizon).\n(4) Aeric subgroup - as evidenced by matrix chroma of 3 in the zone from 20 to 38 cm (Bw horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 20 cm; very dark grayish brown (10YR 3/2) silt loam; grayish brown (10YR 5/2) rubbed and dry; moderate medium and fine granular structure; friable; many fine roots; slightly acid; 5 percent rock fragments; abrupt smooth boundary. (15 to 30 cm thick.)"
+      },
+      {
+        "name": "Bw",
+        "top": 20,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw -- 20 to 38 cm; brown (10YR 5/3) silt loam; very weak medium subangular blocky structure; friable; common fine roots; common fine pores; faces of peds are grayish brown (10YR 5/2); 5 percent rock fragments; many medium distinct yellowish brown (10YR 5/6) masses of iron accumulation and common medium faint grayish brown (10YR 5/2) areas of iron depletion; slightly acid; gradual wavy boundary. (0 to 61 cm thick.)"
+      },
+      {
+        "name": "Bg",
+        "top": 38,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bg -- 38 to 51 cm; grayish brown (10YR 5/2) gravelly silt loam; weak medium subangular blocky structure; friable; common fine roots in upper part, few in lower part; common fine pores; 20 percent rock fragments; many medium and fine prominent yellowish brown (10YR 5/6) and distinct dark yellowish brown (10YR 4/4) masses of iron accumulation; neutral; abrupt wavy boundary. (10 to 51 cm thick.)"
+      },
+      {
+        "name": "BCg",
+        "top": 51,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BCg -- 51 to 61 cm; dark grayish brown (10YR 4/2) gravelly loam; weak medium and fine subangular blocky structure; friable; few fine roots; common fine pores; 20 percent rock fragments; many medium distinct yellowish brown (10YR 5/4) iron accumulation; slightly effervescent; slightly alkaline; clear wavy boundary. (0 to 25 cm thick.)"
+      },
+      {
+        "name": "C",
+        "top": 61,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately alkaline",
+        "narrative": "C -- 61 to 183 cm; dark grayish brown (10YR 4/2) gravelly loam; moderate medium plate like divisions; very firm; 30 percent rock fragments; common medium distinct yellowish brown (10YR 5/4) masses of iron accumulation and faint light brownish gray (10YR 6/2) areas of iron depletion; strongly calcareous, lime is segregated as grayish brown coats on plate faces and as filaments in plate interiors; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

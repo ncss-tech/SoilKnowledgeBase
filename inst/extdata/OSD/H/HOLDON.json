@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 7 inches (A horizon and part of the Bw1 horizon).\nCambic horizon - The zone from 3 to 23 inches (Bw1 and Bw2 horizons).\nLithic contact - The boundary at 47 inches to underlying hard bedrock (2R layer).\nParticle-size control section - The zone from 10 to 40 inches (Bw2 horizon and parts of the Bw1 and 2C horizons).\nThe revision of December 2006 updated the taxonomic class from Xeric Eutrocryepts based on the tenth edition of the Keys to Soil Taxonomy, 2006.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "extremely gravelly",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; pale brown (10YR 6/3) extremely gravelly loamy coarse sand, brown (10YR 4/3) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; common very fine and fine roots; many very fine interstitial pores; 55 percent gravel and 10 percent cobbles; neutral; abrupt wavy boundary.  (1 to 3 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 8,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--3 to 12 inches; pale brown (10YR 6/3) extremely gravelly coarse sandy loam, brown (10YR 4/3) moist; moderate fine and medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; common very fine, fine, medium and coarse and few very coarse roots; common very fine tubular and interstitial and few very fine and fine vesicular pores; 55 percent gravel and 25 percent cobbles; neutral; clear wavy boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 30,
+        "bottom": 58,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bw2--12 to 23 inches; very pale brown (10YR 7/4) extremely gravelly sandy loam, yellowish brown (10YR 5/4) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; few very fine, fine, medium, coarse, and very coarse roots; many very fine and fine interstitial pores; 55 percent gravel and 25 percent cobbles; neutral; abrupt irregular boundary.  (8 to 14 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 58,
+        "bottom": 119,
+        "texture_class": "silt",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2C--23 to 47 inches; cobbles; few fine and medium roots; many very coarse interstitial pores between fragments; 15 percent gravel and 75 percent cobbles; silt coats on upper surfaces of some fragments; clear wavy boundary."
+      },
+      {
+        "name": "2R",
+        "top": 119,
+        "narrative": "2R--47 inches; hard, fractured tuff."
+      }
+    ]
+  ]
 }

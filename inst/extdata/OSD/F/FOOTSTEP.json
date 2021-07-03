@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\n1. Umbric epipedon - the zone from 0 to 35 centimeters (A1, A2, & Bt1 horizons)\n2. Argillic horizon - the zone from 18 to 70 centimeters (Bt1 and Bt2 horizons)\n3. Lithic contact - the bedrock interface at 70 centimeters\n4. Particle-size control section - the zone from 18 to 68 centimeters, averages 26 percent clay, by weight, and 58 percent rock fragments, by volume.\n5. Haplohumults feature - the clay maximum is 27 percent in the Bt2 horizon and drops to 0 in the underlying R horizon.\nSoil classified using the 12th Edition of the Keys to Soil Taxonomy.\nNASIS User Pedon ID: 04CA605REDW129\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 7,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 7 centimeters (0 to 3 inches); black (10YR 2/1) gravelly loam, dark grayish brown (10YR 4/2) dry; moderate very fine and fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine and fine and common medium roots throughout; many very fine and fine interstitial and tubular pores; 25 percent gravel; very strongly acid (pH 5.0); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 7,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 4.9,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--7 to 18 centimeters (3 to 7 inches); very dark brown (10YR 2/2) gravelly loam, dark grayish brown (10YR 4/2) dry; weak fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine and fine and common medium and coarse roots throughout; many very fine and fine interstitial and tubular pores; 30 percent gravel; very strongly acid (pH 4.9); clear smooth boundary. (Combined thickness is 15 to 50 centimeters)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 35,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 4.7,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--18 to 35 centimeters (7 to 14 inches); very dark grayish brown (10YR 3/2) very gravelly loam, brown (10YR 5/3) dry; weak fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine and fine roots throughout; many fine and medium tubular and common very fine and fine interstitial pores; 40 percent gravel and 5 percent cobbles; very strongly acid (pH 4.7); clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 35,
+        "bottom": 70,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "extremely gravelly",
+        "pH": 4.7,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2--35 to 70 centimeters (14 to 28 inches); dark yellowish brown (10YR 4/4) extremely gravelly clay loam, light yellowish brown (10YR 6/4) dry; weak fine and medium subangular blocky structure; slightly hard, friable, slightly sticky and moderately plastic; few distinct clay films on rock fragments; common very fine and fine roots around fragments; many fine and medium tubular and common very fine and fine interstitial pores; 55 percent gravel and 10 percent cobbles; very strongly acid (pH 4.7); abrupt wavy boundary. (Combined thickness of Bt horizons is 20 to 55 centimeters)"
+      },
+      {
+        "name": "R",
+        "top": 70,
+        "bottom": 200,
+        "texture_class": "sand",
+        "narrative": "R--70 to 200 centimeters (28 to 79 inches); fractured indurated greywacke sandstone, lithic material with cracks greater than 10 to 45 centimeters apart. Approximately 1 percent soil material in fractures and pockets."
+      }
+    ]
+  ]
 }

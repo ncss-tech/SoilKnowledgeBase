@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nEdited 01/2017 (RFG-ROG): Changed to tabular format. Added metric measurements. Updated competing series, geographic setting, and associated soils sections.\nDiagnostic horizons and features recognized in this pedon are:\nParticle-size control section: 25 to 76 cm (10 to 30 in)\nSoil moisture: a moisture control section that in normal years is dry in some part for six-tenths or more of the cumulative days per year\nOchric epipedon: 0 to 20 cm (0 to 8 in) (A horizon)\nCambic horizon: 20 to 76 cm (8 to 30 in) (Bk1 and Bk2 horizons)\nParalithic contact: weakly cemented sandstone at 76 cm (30 in) (Cr horizon)\nADDITIONAL DATA: None\nTaxonomic Version: Keys to Soil Taxonomy, Twelfth Edition, 2014\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "A--0 to 20 cm (0 to 8 in); brown (7.5YR 5/3) fine sandy loam, brown (7.5YR 4/3) when moist; structureless; soft, very friable; few fine concretions of calcium carbonate; few siliceous pebbles; calcareous; moderately alkaline; gradual boundary.  Thickness is 10 to 30 cm (4 to 12 in)"
+      },
+      {
+        "name": "Bk1",
+        "top": 20,
+        "bottom": 66,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "Bk1--20 to 66 cm (8 to 26 in); brown (7.5YR 5/4) fine sandy loam, brown (7.5YR 4/4) when moist; weak coarse prismatic breaking to subangular blocky structure; slightly hard, very friable; few fine concretions, threads and films of calcium carbonate; few medium siliceous pebbles; calcareous; moderately alkaline; clear boundary.  Thickness is 25 to 76 cm (10 to 30 in)"
+      },
+      {
+        "name": "Bk2",
+        "top": 66,
+        "bottom": 76,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "Bk2--66 to 76 cm (26 to 30 in); light brown (7.5YR 6/4) fine sandy loam, brown (7.5YR 5/4) when moist; weak subangular blocky structure; slightly hard, very friable; contains about 5 percent by volume, of soft masses and a few concretions of calcium carbonate; calcareous; moderately alkaline; abrupt boundary.  Thickness is 5 to 20 cm (2 to 8 in) Combined thickness of the Bk horizon is 30 to 91 cm (12 to 36 in)"
+      },
+      {
+        "name": "Cr",
+        "top": 76,
+        "bottom": 91,
+        "texture_class": "sand",
+        "narrative": "Cr--76 to 91 cm (30 to 36 in); interbedded weakly cemented and strongly cemented yellowish and grayish calcareous sandstone with thin discontinuous coatings of whitish calcium carbonate on the upper surface and in the fractures; massive; hard."
+      }
+    ]
+  ]
 }

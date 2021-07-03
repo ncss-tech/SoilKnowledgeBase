@@ -56,5 +56,65 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 18 cm (A1 and A2 horizons).\nParalithic contact - The boundary at 18 cm (Cr layer).\nParticle-size control section - The zone from the soil surface to 18 cm (A1 and A2 horizons).\nADDITIONAL DATA:  NASIS Pedon and Site ID 07NV770Y018jbf.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 8 cm; light brownish gray (10YR 6/2) gravelly sandy loam, dark grayish brown (10YR 4/2) moist; weak fine subangular blocky structure; soft, very friable, slightly sticky and nonplastic; many very fine roots; many very fine tubular pores; 25 percent fine gravel; neutral (pH 6.8); clear smooth boundary. (5 to 15 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--8 to 18 cm; pale brown (10YR 6/3) gravelly sandy loam, brown (10YR 4/3) moist; weak fine and medium subangular blocky structure; soft, very friable, slightly sticky and nonplastic; common very fine roots; common very fine and fine tubular pores; 30 percent fine gravel; neutral (pH 7.0); clear smooth boundary.  (3 to 30 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 18,
+        "bottom": 53,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "narrative": "Cr--18 to 53 cm; weathered granodiorite; very gravelly sandy loam in some fractures about 1.3 to 2.5 cm thick.  (23 to 43 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 53,
+        "narrative": "R--53 cm; hard granodiorite."
+      }
+    ]
+  ]
 }

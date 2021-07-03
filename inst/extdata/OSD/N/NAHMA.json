@@ -56,5 +56,99 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nHistic epipedon: from the surface to a depth of 23 cm (9 inches) (Oa and A horizons).\nCambic horizon: from a depth of 23 to 33 cm (9 to 13 inches) (Bg and Bw horizons).\nAquic conditions: muck and mucky loam surface horizons and reduced matrix color and/or redox depletions and concentrations present in underlying horizons.\nLithic contact: limestone bedrock at 84 cm (33 inches) (top of the R layer).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oa",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oa--0 to 10 cm (4 inches); black (5YR 2.5/1) muck; weak medium granular structure; very friable; neutral; clear smooth boundary. [10 to 41 cm (4 to 16 inches) thick]"
+      },
+      {
+        "name": "A",
+        "top": 10,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--10 to 23 cm (4 to 9 inches); black (10YR 2/1) mucky loam; moderate medium granular structure; friable; neutral; clear smooth boundary. [0 to 15 cm (6 inches) thick]"
+      },
+      {
+        "name": "Bg",
+        "top": 23,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bg--23 to 33 cm (9 to 13 inches); gray (10YR 5/1) loam; weak medium subangular blocky structure; friable; common medium faint dark gray (10YR 4/1) iron depletions; few fine prominent olive brown (2.5Y 4/4) masses of oxidized iron; neutral; clear smooth boundary. [8 to 15 cm (3 to 6 inches) thick)]"
+      },
+      {
+        "name": "Bw",
+        "top": 33,
+        "bottom": 48,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw--33 to 48 cm (13 to 19 inches); brown (7.5YR 5/4) fine sandy loam; weak medium platy structure; friable; few medium faint brown (10YR 5/3) iron depletions; neutral; abrupt smooth boundary. [10 to 36 cm (4 to 14 inches) thick]"
+      },
+      {
+        "name": "C",
+        "top": 48,
+        "bottom": 74,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--48 to 74 cm (19 to 29 inches); pale brown (10YR 6/3) loam; massive; friable; common medium distinct yellowish brown (10YR 5/6) and prominent yellowish brown (10YR 5/8) masses of oxidized iron; common medium faint very pale brown (10YR 8/2) iron depletions; strongly effervescent; moderately alkaline; clear wavy boundary. [15 to 51 cm (6 to 20 inches) thick]"
+      },
+      {
+        "name": "Cg",
+        "top": 74,
+        "bottom": 84,
+        "moist_hue": "5G",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Cg--74 to 84 cm 29 to 33 inches; light greenish gray (5G 7/1) loam mixed with weathered bedrock fragments; massive; friable; common fine prominent light olive brown (2.5Y 5/6) masses of oxidized iron; strongly effervescent; moderately alkaline; abrupt smooth boundary. [0 to 15 cm (6 inches) thick]"
+      },
+      {
+        "name": "R",
+        "top": 84,
+        "bottom": 109,
+        "narrative": "R--84 to 109 cm (33 to 43 inches); limestone bedrock."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,94 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from the mineral surface to 20 inches (A1, A2 horizons).\nGlossic horizon - from 20 to 30 inches (E/B horizon).\nArgillic horizon (Pale feature) - the zone from 30 to 73 inches (Bt1, Bt2 horizons).\nParticle-size control section - the zone from 30 to 50 inches (the upper 20 inches of the argillic horizon).\nKeys to Soil Taxonomy:  Series classified according to Eighth Edition, 1998\nIn Utah this series is correlated with High Mountain range sites.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi-0 to 1 inch; aspen leaves, twigs and other forest duff."
+      },
+      {
+        "name": "A1",
+        "top": 3,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--1 to 6 inches; very dark grayish brown (10YR 3/2) loam, very dark brown (10YR 2/2) moist; weak fine granular structure; soft, very friable; many fine roots; slightly acid (pH 6.4); clear wavy boundary. (4 to 9 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 15,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "cobbly",
+        "pH": 5.9,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--6 to 20 inches; very dark grayish brown (10YR 3/2) cobbly clay loam, very dark brown (10YR 2/2) moist; weak fine granular structure; soft, very friable; many fine and common medium roots; many fine pores; 20 percent stones and cobbles; moderately acid (pH 5.9); abrupt wavy boundary. (6 to 15 inches thick)"
+      },
+      {
+        "name": "E/B",
+        "top": 51,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very cobbly",
+        "pH": 5.7,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "E/B--20 to 30 inches; (E) light brownish gray (10YR 6/2) very cobbly sandy clay loam, dark grayish brown (10YR 4/2) moist; (Bt) brown (10YR 5/3) cobbly sandy clay loam, dark brown (10YR 4/3) moist; most peds have E exteriors and Bt interiors; weak coarse and medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common fine roots; common fine pores; 50 percent cobbles and stones; moderately acid (pH 5.7); clear irregular boundary.  (5 to 20 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 76,
+        "bottom": 99,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH": 5.3,
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--30 to 39 inches; brown (7.5YR 5/4) very cobbly clay loam, brown (7.5YR 4/4) moist; moderate coarse subangular blocky structure and strong medium angular blocky; very hard, very firm, moderately sticky and moderately plastic; common fine roots; few very fine pores; 50 percent cobbles and stones; moderately thick continuous clay films; thin patchy gray coatings; strongly acid (pH 5.3); gradual wavy boundary.  (9 to 15 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 99,
+        "bottom": 185,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "very cobbly",
+        "pH": 4.9,
+        "pH_class": "very strongly acid",
+        "narrative": "Bt2--39 to 73 inches; brown (7.5YR 5/4) very cobbly clay, dark brown (7.5YR 4/4) moist; moderate coarse subangular blocky structure and strong medium angular blocky; very hard, very firm, very sticky and very plastic; few fine roots; few fine pores; 50 percent cobbles and stones; moderately thick continuous clay films; very strongly acid (pH 4.9)."
+      }
+    ]
+  ]
 }

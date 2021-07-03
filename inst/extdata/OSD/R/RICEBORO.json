@@ -56,5 +56,118 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to approximately 25 inches (A, E1, E2, and E3 horizons).\nArenic epipedon - the zone from the surface to approximately 25 inches (A, E1, E2, and E3 horizons).\nArgillic horizon - the zone from approximately 25 to 70 inches (Btg1, Btg2, Btg3, and Btg4 horizons).\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nGA0074 RICEBORO    0-  2   63- 70  240-285  45- 55    10-  50\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nGA0074 COMMON          0-1.0  APPARENT JAN-MAY  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nGA0074  0-25  S LS LFS                0-  0  95-100  5-10    -\nGA0074  0-25  LCOS                    0-  0  95-100  2- 7    -\nGA0074 25-29  SCL CL                  0-  0  95-100 25-40    -\nGA0074 29-70  SC C                    0-  0  95-100 35-60    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nGA0074  0-25  4.5- 5.5  1.-2.  0- 0   6.0-  20  LOW\nGA0074  0-25  4.5- 5.5  1.-2.  0- 0   6.0-  20  LOW\nGA0074 25-29  4.5- 5.5    -    0- 0   0.2- 0.6  MODERATE\nGA0074 29-70  4.5- 5.5    -    0- 0  0.06- 0.2  MODERATE\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "loamy fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 8 inches; very dark gray (10YR 3/1) loamy fine sand; weak fine granular structure; very friable; many fine and medium roots; very strongly acid; clear smooth boundary.  (4 to 9 inches thick)"
+      },
+      {
+        "name": "E1",
+        "top": 20,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E1--8 to 12 inches; dark grayish brown (10YR 4/2) loamy fine sand; single grained; loose; common fine and medium roots; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "E2",
+        "top": 30,
+        "bottom": 43,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E2--12 to 17 inches; light brownish gray (2.5Y 6/2) loamy fine sand; single grained; loose; few fine and medium roots; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "E3",
+        "top": 43,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E3--17 to 25 inches; light gray (10YR 7/2) loamy fine sand; common medium distinct yellowish brown (10YR 5/6) mottles; single grained; very friable; very strongly acid; clear wavy boundary.  (Combined thickness of the E horizon is 11 to 34 inches.)"
+      },
+      {
+        "name": "Btg1",
+        "top": 64,
+        "bottom": 74,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg1--25 to 29 inches; light brownish gray (2.5Y 6/2) sandy clay loam; common medium distinct strong brown (7.5YR 5/6) mottles; weak fine subangular blocky structure; friable; very strongly acid; gradual smooth boundary.  (3 to 5 inches thick)"
+      },
+      {
+        "name": "Btg2",
+        "top": 74,
+        "bottom": 91,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg2--29 to 36 inches; light brownish gray (2.5Y 6/2) sandy clay; common medium distinct strong brown (7.5YR 5/8) and few medium prominent red (2.5YR 4/8) mottles; moderate medium subangular blocky structure; firm; few faint clay films on faces of peds; very strongly acid; gradual smooth boundary.  (6 to 13 inches thick)"
+      },
+      {
+        "name": "Btg3",
+        "top": 91,
+        "bottom": 122,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg3--36 to 48 inches; light brownish gray (10YR 6/2) sandy clay; many medium prominent red (2.5YR 4/6) and common medium distinct strong brown (7.5YR 5/6) mottles; strong coarse angular blocky structure, very firm; common distinct clay films on faces of peds; very strongly acid; gradual wavy boundary.  (12 to 29 inches thick)"
+      },
+      {
+        "name": "Btg4",
+        "top": 122,
+        "bottom": 178,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay",
+        "pH_class": "very strongly acid",
+        "narrative": "Btg4--48 to 70 inches; mottled grayish brown (2.5Y 5/2), strong brown (7.5YR 5/8) and red (2.5YR 4/8) sandy clay; weak coarse subangular blocky structure; firm; few faint clay films on faces of peds; few lenses of gray (N 6/0) fine sand; very strongly acid."
+      }
+    ]
+  ]
 }

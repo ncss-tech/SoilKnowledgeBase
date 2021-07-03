@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: 1. The use of the Lyman series in MLRA 144A is in question. Lyman has a frigid temperature regime which is not typical in 144A.\n2. Diagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon - the zone from 0 to 13 cm (Oe, A, and E horizons).\nb. Albic horizon - the zone from 8 to 13 cm (E horizon).\nc. Spodic horizon - the zone from 13 to 46 cm (Bhs, Bs1, and Bs2 horizons).\nd. Lithic feature - bedrock at 43 cm from the mineral soil surface.\nADDITIONAL DATA: Characterization data for Lyman and similar soils is available through the National Cooperative Soil Survey Soil Characterization Database: http://ncsslabdatamart.sc.egov.usda.gov/\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oe --0 to 3 cm; moderately decomposed plant material. (O horizon thickness is 0 to 15 cm.)"
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 8,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--3 to 8 cm; black (N 2/0) loam; weak fine granular structure; very friable; many fine and medium roots; extremely acid; abrupt wavy boundary. (0 to 10 cm thick)"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 13,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "broken",
+        "narrative": "E--8 to 13 cm; reddish gray (5YR 5/2) fine sandy loam; weak fine granular structure; very friable; many fine and medium roots; 10 percent gravel; extremely acid; abrupt broken boundary. (0 to 25 cm thick)"
+      },
+      {
+        "name": "Bhs",
+        "top": 13,
+        "bottom": 18,
+        "moist_hue": "2.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "broken",
+        "narrative": "Bhs--13 to 18 cm; very dusky red (2.5YR 2.5/2) loam; weak fine granular structure; friable; many fine and medium roots; 10 percent fine gravel; extremely acid; abrupt broken boundary."
+      },
+      {
+        "name": "Bs1",
+        "top": 18,
+        "bottom": 28,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs1--18 to 28 cm; dark red (2.5YR 3/6) loam; weak fine and medium granular structure; friable; many fine and medium roots; 10 percent fine gravel; few mica flakes; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bs2",
+        "top": 28,
+        "bottom": 46,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bs2--28 to 46 cm; brown (7.5YR 4/4) grading with depth to brown (10YR 5/3) channery loam; weak coarse subangular blocky structure parting to medium and fine granular; friable; many fine and medium roots; 15 percent channers of schist and quartzite; common flakes of mica; very strongly acid; abrupt smooth boundary. (Combined thickness of the Bhs and Bs horizons is 10 to 43 cm.)"
+      },
+      {
+        "name": "R",
+        "top": 46,
+        "narrative": "R--46 cm; dark gray mica schist bedrock."
+      }
+    ]
+  ]
 }

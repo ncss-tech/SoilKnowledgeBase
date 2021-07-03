@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Location coordinates determined by Global Positioning System.\nDiagnostic horizons and features recognized in this pedon are:\nUmbric epipedon - the zone from the mineral soil surface to 30 inches (the A1, A2 and A3 horizons).\nCambic horizon - the zone from 30 to 39 inches (the Bw horizon).\nParticle-size control section - the zone from 10 to 39 inches (part of the A1 horizon, the A2 and A3 horizons and Bw horizons).\nVitrandic subgroup feature - the zone from the mineral soil surface to 39 inches (A1, A2, A3 and Bw horizons)\nMoisture regime - udic.\nADDITIONAL DATA: NSSL S92ID-043-079.\nThe 3/2008 description reflects a change in classification from Loamy-skeletal, isotic Vitrandic Dystrocryepts to Loamy-skeletal, isotic Vitrandic Humicryepts due to revision of the cryepts great groups and subgroups. The competing series section was not updated and should be reviewed after all the cryepts have been re-classified.\n3/31/08 - In review of this description and corresponding lab analysis, further investigation is needed to determine dominant base saturation to classify as Inceptisol (mollic vs. umbric epipedon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely stony",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A1--0 to 16 inches; dark grayish brown (10YR 4/2) extremely stony ashy loam, very dark brown (10YR 2/2) moist; moderate fine granular structure; soft, very friable, nonsticky and nonplastic; many very fine through coarse roots; many very fine irregular pores; 5 percent cobbles and 80 percent stones; moderately acid (pH 5.8); abrupt wavy boundary. (4 to 16 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 41,
+        "bottom": 61,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely stony",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--16 to 24 inches; brown (10YR 5/3) extremely stony ashy loam, dark brown (7.5YR 3/2) moist; weak medium subangular blocky structure parting to week fine granular; soft, very friable, nonsticky and nonplastic; many very fine through coarse roots; common very fine irregular and many very fine tubular pores; 5 percent cobbles and 80 percent stones; slightly acid (pH 6.2); clear wavy boundary. (8 to 14 inches thick)"
+      },
+      {
+        "name": "A3",
+        "top": 61,
+        "bottom": 76,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely stony",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A3--24 to 30 inches; brown (10YR 5/3) extremely stony ashy loam, dark brown (7.5YR 3/2) moist; weak medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; common very fine through coarse roots; common very fine tubular pores; 5 percent gravel and 80 percent stones; moderately acid (pH 5.8); clear wavy boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 76,
+        "bottom": 99,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely stony",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bw--30 to 39 inches; pale brown (10YR 6/3) extremely stony ashy loam, brown (10YR 4/3) moist; weak medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; common very fine through medium roots; common very fine tubular pores; 5 percent gravel and 80 percent stones; slightly acid (pH 6.2); abrupt irregular boundary. (7 to 16 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 99,
+        "narrative": "R--39 inches; hard basalt."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,61 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and other features recognized in this pedon are:\na.  Ochric epipedon - the zone between 0 and 5 inches (Ap horizon).  b.  Argillic horizon - the zone between 5 and 13 inches (Bt horizon).  c.  Base saturation - greater than 60 percent at the surface of the limestone bedrock.\nd.  Lithic contact at 25 inches.\nThe 10/2005 revision updates this soil to the 9th Edition of the Keys to Soil Taxonomy (2003). CEC class based on NASIS data from Rockingham County, Virginia. Competing series, pedon description (including horizon nomenclature and/or descriptive terms), and other sections on the OSD were not revised.\nSIR = VA00487, VA0104 (GRAVELLY)\nMLRA = 128, 147\nREVISED 10/21/2005\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 5 inches; brown (10YR 4/3) silty clay; moderate medium granular structure; firm, slightly sticky, plastic; common fine roots; common worm casts and channels; neutral; clear wavy boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 13,
+        "bottom": 33,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt--5 to 13 inches; strong brown (7.5YR 5/6) clay; moderate fine subangular blocky structure; very firm, very sticky, plastic; few fine roots; few fine pores; few distinct clay films on faces of peds; few oxide concretions up to 2 mm in size; common worm casts and channels; neutral; abrupt irregular boundary.  (6 to 26 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 33,
+        "bottom": 64,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "cf_class": "extremely channery",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C--13 to 25 inches; strong brown (7.5YR 5/6) extremely channery clay; the fine-earth part of this horizon occurs along shale and limestone interfaces; massive; firm, sticky, plastic; few fine roots between fragments; 75 percent shale and limestone channers and flags; strongly effervescent; moderately alkaline; gradual wavy boundary.  (0 to 15 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 64,
+        "narrative": "R--25 inches; hard interbedded shale and limestone; strongly effervescent."
+      }
+    ]
+  ]
 }

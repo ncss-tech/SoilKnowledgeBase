@@ -56,5 +56,62 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons recognized in this pedon are:\nOchric epipedon:  0 to 9 inches (AP).\nArgillic horizon:  9 to 40 inches (Bt, Btx).\nFragipan:  23 to 40 inches (Btx).\nClassification only was changed in 7/94.  Competing series and other items will be updated later.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 9 inches; brown (10YR 4/3) silt loam with weak fine granular structure; very friable; many roots; few small black concretions; medium acid; clear smooth boundary.  (7 to 13 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 23,
+        "bottom": 58,
+        "texture_class": "silty clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--9 to 23 inches; yellowish brown (10YR 5/4-5/6) light silty clay loam with weak to moderate medium subangular blocky structure; friable; few clay films; common roots; common black concretions and black soft material; strongly acid; abrupt wavy boundary.  (8 to 18 inches thick)"
+      },
+      {
+        "name": "Btx",
+        "top": 58,
+        "bottom": 102,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btx--23 to 40 inches; light yellowish brown (10YR 6/4) light silty clay loam with many medium distinct mottles of strong brown and light brownish gray; weak coarse angular blocky structure; very firm, compact, brittle; tongues of gray silty clay separate many of the peds; common black concretions and much black soft material; strongly acid; gradual wavy boundary.  (10 to 24 inches thicK)"
+      },
+      {
+        "name": "2C",
+        "top": 102,
+        "bottom": 178,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "narrative": "2C--40 to 70 inches; mottled light brownish gray (2.5Y 6/2) yellowish brown (10YR 5/6) and strong brown (7.5YR 5/6) clay; massive or weak coarse blocky structure; very firm, sticky, very plastic; common small black concretions; strongly or very strongly acid. (20 to 50 inches thick)"
+      }
+    ]
+  ]
 }

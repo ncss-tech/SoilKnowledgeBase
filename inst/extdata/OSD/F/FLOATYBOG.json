@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nHistic epipedon - The zone from the surface to 61 cm (Oe1 and Oe2 horizons).\nTerric feature - The zone from 61 to 152 cm (A, Cg1 and Cg2 horizons).\nParticle-size control section - The zone from the surface to 130 cm (Oe1, Oe2, A, Cg1 and upper Cg2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe1",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Oe1--0 to 25 cm; brown (10YR 5/3) mucky peat, dark brown (10YR 3/3) moist; 75 percent unrubbed and 40 percent rubbed fibers; many very fine and fine roots; many very fine interstitial pores; slightly acid, (pH 6.4); clear wavy boundary. (25 to 36 cm thick)"
+      },
+      {
+        "name": "Oe2",
+        "top": 25,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Oe2--25 to 61 cm; mucky peat, very dark grayish brown (10YR 3/2) moist; 60 percent unrubbed and 25 percent rubbed fibers; weak fine granular structure; many very fine and fine roots; many very fine interstitial pores; slightly acid, (pH 6.4); clear wavy boundary. (15 to 50 cm thick)"
+      },
+      {
+        "name": "A",
+        "top": 61,
+        "bottom": 74,
+        "texture_class": "loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--61 to 74 cm; mucky loam, black (N 2.5/) moist; massive; soft, very friable, slightly sticky and nonplastic; common very fine roots; common very fine interstitial pores; slightly acid, (pH 6.4); clear wavy boundary. (10 to 25 cm thick)"
+      },
+      {
+        "name": "Cg1",
+        "top": 74,
+        "bottom": 114,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cg1--74 to 114 cm; sandy loam, gray (N 5/) moist; massive; soft, very friable, slightly sticky and nonplastic; few very fine roots; few very fine tubular pores; 10 percent brown (7.5YR 4/4), moist, masses of oxidized iron in the matrix; neutral, (pH 6.6); clear wavy boundary. (30 to 50 cm thick)"
+      },
+      {
+        "name": "Cg2",
+        "top": 114,
+        "bottom": 152,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "5GY",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "narrative": "Cg2--114 to 152 cm; sandy loam, greenish gray (5GY 5/1) moist; massive; soft, very friable, slightly sticky and nonplastic; few very fine roots; few very fine tubular pores; 10 percent brown (7.5YR 4/4), moist, masses of oxidized iron in the matrix; neutral, (pH 6.6)."
+      }
+    ]
+  ]
 }

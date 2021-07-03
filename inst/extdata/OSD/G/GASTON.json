@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This series was formerly included with Cullen series and originally fitted in the concept of the Lloyd series in North Carolina.  The large acreage (25,000 acres in Gaston and Lincoln Cos., NC) of soil similar to Cullen but having dark surface layers with moist value less than 3.5 and dry value less than 6 in the Ap horizon supports proposal of this series.\nDiagnostic horizons recognized in this pedon are:\nOchric epipedon - the zone from the surface of the soil to a depth of 6 inches (Ap horizon).\nArgillic horizon - the zone from a depth of 6 inches to a depth of 47 inches (Bt1 and Bt2 horizons).\nADDITIONAL DATA: NC State University-\nApparent CEC     B.S.\nPedon Horizon     Depth (in.)   Me/100g clay   percent\n1    Bt2           8 - 23        53.5\n1    BC           53 - 60                      6.2\n2    Bt1          10 - 24        51.8\n2    C            55 - 60                      3.9\n3    Bt            8 - 24        50\n3    BC           55 - 60                      2.7\n4    Bt1           7 - 28        23.7\n5    Bt1          12 - 24        34.8\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0170 GASTON      0- 25   58- 65  180-220  45- 55   400-1200\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0170 NONE          6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0170  0- 6  L FSL                   0-  5  84-100 15-27   4- 15\nNC0170  0- 6  CL SCL                  0-  5  84-100 20-40   5- 20\nNC0170  6-47  C CL                    0-  5  90-100 35-70   5- 30\nNC0170 47-57  CL SCL L                0-  5  84-100 20-40   4- 15\nNC0170 57-72  VAR                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0170  0- 6  5.1- 7.3  .5-3.  0- 0   2.0- 6.0  LOW\nNC0170  0- 6  5.1- 7.3  .5-3.  0- 0   0.6- 2.0  LOW\nNC0170  6-47  4.5- 6.5  0.-.5  0- 0   0.6- 2.0  MODERATE\nNC0170 47-57  4.5- 6.5  0.-.5  0- 0   0.6- 2.0  LOW\nNC0170 57-72     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; dark reddish brown (5YR 3/4), yellowish red (5YR 5/4) dry, sandy clay loam; weak medium granular structure; friable; many fine roots; slightly acid; clear smooth boundary.  (3 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 36,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--6 to 14 inches; dark red (2.5YR 3/6) clay; moderate medium subangular blocky structure; firm; sticky, plastic; common fine and few medium roots; common distinct clay films on faces of peds; few black streaks; moderately acid; gradual wavy boundary.  (5 to 38 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 36,
+        "bottom": 119,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--14 to 47 inches; red (2.5YR 4/6) clay; few medium distinct reddish yellow (7.5YR 6/8) mottles; moderate medium subangular blocky structure; firm; sticky, plastic; common fine roots; common distinct clay films on faces of peds; few fine flakes of mica; few black streaks; moderately acid; clear wavy boundary.  (10 to 45 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 119,
+        "bottom": 145,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BC--47 to 57 inches; red (2.5YR 4/6) clay loam; common medium prominent reddish yellow (7.5YR 6/8) mottles; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; common fine flakes of mica; few pockets of weathered black minerals; moderately acid; clear wavy boundary. (0 to 24 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 145,
+        "bottom": 183,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "narrative": "C--57 to 72 inches; red (2.5YR 4/6), yellowish red (5YR 5/6), and yellowish brown (10YR 5/4) saprolite that has a loam texture; rock controlled structure; common black specks and streaks; common fine flakes of mica; moderately acid."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: 1. The Classification and location of the typical pedon are changed with this revision. The former classification was Loamy, isotic, frigid Lithic Haplorthods. Recent laboratory data from Maine, New Hampshire, Vermont and New York shows that some pedons mapped as Hogback (and some mapped as Lyman) meet the requirements of the Humods suborder.\n2. These soils were originally recognized as having some \"thixotropic-like\" properties, i.e., smeariness, high organic carbon content, high effective clay percentage, high K value, and fragile nature (easily damaged by use) but have been classified as Orthods based on available laboratory data.\n3. The diagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon - the zone from 0 to 8 inches (O and E horizons).\nb. Spodic horizon - the zone from 8 to 19 inches (Bhs horizon).\nc. Lithic feature - bedrock at 15 inches from the mineral soil surface.\nADDITIONAL DATA: The spodic horizon of this pedon was sampled to determine carbon content for taxonomic placement. The data is available from the National\nSoil Survey Laboratory, sample number S99VT-019-013.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi -- 0 to 1 inches; slightly decomposed plant material."
+      },
+      {
+        "name": "Oe",
+        "top": 3,
+        "bottom": 8,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe -- 1 to 3 inches; very dark gray (5YR 3/1) moderately decomposed plant material; massive; very friable; many very fine, fine, medium and coarse roots; 5 percent rock fragments; extremely acid; abrupt smooth boundary."
+      },
+      {
+        "name": "Oa",
+        "top": 8,
+        "bottom": 10,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oa -- 3 to 4 inches; black (5YR 2.5/1) highly decomposed plant material; weak fine granular structure; very friable; many very fine, fine, medium and coarse roots; 5 percent rock fragments; extremely acid; abrupt smooth boundary. (Combined thickness of the O horizon is 0 to 6 inches)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 20,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E -- 4 to 8 inches; gray (5YR 5/1) gravelly fine sandy loam; weak very fine granular structure; very friable; common fine and medium roots; 15 percent rock fragments; extremely acid; abrupt wavy boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bhs1",
+        "top": 20,
+        "bottom": 23,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bhs1 -- 8 to 9 inches; dark reddish brown (5YR 2.5/2) very fine sandy loam; weak very fine subangular blocky structure; very friable; many fine and common medium roots; 10 percent rock fragments; moderately smeary; extremely acid; abrupt wavy boundary."
+      },
+      {
+        "name": "Bhs2",
+        "top": 23,
+        "bottom": 48,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bhs2 -- 9 to 19 inches; dark brown (7.5YR 3/2) very fine sandy loam; weak very fine subangular blocky structure; very friable; many fine, medium and coarse roots; 10 percent rock fragments; moderately smeary; very strongly acid; abrupt wavy boundary.  (Combined thickness of the Bhs horizons is 4 to 18 inches.)"
+      },
+      {
+        "name": "R",
+        "top": 48,
+        "narrative": "R -- 19 inches; schist bedrock."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The classification was updated with the 4/91 draft from Fine-loamy, mixed, isohyperthermic Typic Tropudalfs to Fine-loamy, mixed, isohyperthermic Typic Paleudalfs.  The previous OSED date was 1/69.\nAs originally mapped, the Via series contained moderately deep, aquic soils which are now classified in the Junquitos series.\nDiagnostic horizons and features recognized in this pedon:\nOchric epipedon - zone from 0 to 8 inches (Ap horizon)\nArgillic horizon - zone from 8 to 47 inches (Bt horizons)\nPale clay curve - Less than 20 percent clay cutback in Bt and 2C horizons and value of 4 in Bt horizon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; dark grayish brown (10YR 4/2), brown (10YR 5/3) dry silty clay loam; weak fine subangular blocky structure; hard, friable, slightly sticky, slightly plastic; common fine roots; common fine dark concretions; few worm casts; few cobbles and pebbles at contact with B horizon; extremely acid; abrupt smooth boundary.  (6 to 14 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 58,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--8 to 23 inches; reddish brown (5YR 4/4) clay loam; weak medium subangular blocky structure; very hard; firm, slightly sticky, slightly plastic; common fine roots; few faint clay films on vertical ped faces; many fine dark mineral grains; common fine rock fragments; slightly acid; clear smooth boundary.  (10 to 16 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 58,
+        "bottom": 119,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--23 to 47 inches; yellowish red (5YR 4/8) clay loam; weak medium subangular blocky structure; very hard; firm, slightly sticky; slightly plastic; few fine roots; few faint clay films; common fine dark minerals; many fine and medium rock fragments; slightly acid; gradual wavy boundary. (14 to 30 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 119,
+        "bottom": 157,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "narrative": "2C--47 to 62 inches plus; dark brown (7.5YR 4/4) gravelly clay loam; structureless massive; hard, firm, slightly sticky; more than 70 percent by volume coarse fragments; medium acid."
+      }
+    ]
+  ]
 }

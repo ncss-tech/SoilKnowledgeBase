@@ -56,5 +56,98 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Nahunta soils were formerly included with the Dunbar, Lynchburg, and Bertie series.\nThe date of this revision is May 26, 1988.\nDiagnostic horizons recognized in this pedon are:\nOchric epipedon - the zone from 0 to 8 inches (Ap and E horizons).\nArgillic horizon - the zone from 15 to 65 inches (Bt,Btg1, Btg2 horizons).\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0065 NAHUNTA     0-  2   58- 63  185-240  45- 55    40- 170\nSC0121 NAHUNTA     0-  2   60- 66  230-270  46- 54    25- 125\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0065 NONE          1.0-1.5  APPARENT DEC-MAY  60-60\nSC0121 NONE          0.5-1.5  APPARENT DEC-MAY  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0065  0-12  VFSL L SIL              0-  0  95-100  6-18   3-  7\nNC0065 12-79  L CL SICL               0-  0  95-100 18-35   3-  8\nSC0121  0- 7  LS SL L                 0-  0  95-100  1-18   2-  7\nSC0121  7-20  SL SCL L                0-  0  95-100  1-35   3-  8\nSC0121 20-55  L SCL CL                0-  0  95-100 18-35   4-  9\nSC0121 55-60  CBV-SCL CBX-SCL CBX-S  45- 85  15- 55 18-45   4-  9\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0065  0-12  4.5- 6.0  2.-4.  0- 0   2.0- 6.0  LOW\nNC0065 12-79  3.5- 5.5  0.-.5  0- 0   0.2- 0.6  LOW\nSC0121  0- 7  3.6- 6.0  2.-4.  0- 0   2.0- 6.0  LOW\nSC0121  7-20  3.6- 6.0    -    0- 0   2.0- 6.0  LOW\nSC0121 20-55  3.6- 6.0    -    0- 0   0.2- 0.6  LOW\nSC0121 55-60  3.6- 5.5    -    0- 0   0.6- 2.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "very fine sandy loam",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; dark gray (10YR 4/1) very fine sandy loam; weak medium granular structure; very friable; many fine roots; medium acid; abrupt smooth boundary.  (5 to 10 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 20,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--8 to 12 inches; pale brown (10YR 6/3) very fine sandy loam; weak medium granular structure; very friable; many fine roots; strongly acid; clear wavy boundary.  (0 to 5 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 30,
+        "bottom": 38,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BE--12 to 15 inches; pale yellow (2.5Y 7/4) loam; common medium distinct grayish brown (10YR 5/2) mottles; moderate medium granular structure; friable, slightly sticky and plastic; common fine roots; strongly acid; gradual wavy boundary.  (0 to 5 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 38,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--15 to 22 inches; brownish yellow (10YR 6/6) clay loam; many medium distinct light gray (10YR 7/1) mottles; weak medium subangular blocky structure; friable, slightly sticky and plastic; few fine roots; thin discontinuous clay films on faces of peds and in pores; very strongly acid; gradual wavy boundary.  (5 to 10 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 56,
+        "bottom": 102,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "narrative": "Btg1--22 to 40 inches; light gray (10YR 6/1) clay loam; common"
+      },
+      {
+        "name": "Btg2",
+        "top": 102,
+        "bottom": 165,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "narrative": "Btg2--40 to 65 inches; light gray (10YR 7/1) clay loam; common"
+      },
+      {
+        "name": "BCg",
+        "top": 165,
+        "bottom": 201,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "pH_class": "strongly acid",
+        "narrative": "BCg--65 to 79 inches; light gray (10YR 7/1) clay loam; many coarse distinct brownish yellow (10YR 6/6) and prominent dark red (2.5YR 3/6) mottles; massive; firm, sticky and plastic; few red nodules and soft red bodies; strongly acid."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,89 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the soil surface to 4 inches (A horizon)\nCambic horizon - the zone from 14 to 21 inches (Bw horizon)\nCalcic horizon - the zone from 21 to 45 inches (Bkq and Bkqm horizons)\nDuripan - the zone from 27 to 45 inches (2Bkqm horizon)\nParticle size control section - the zone from 10 to 27 inches\nSoil moisture regime - aridic bordering xeric\nGeographic setting - terms used throughout MLRA 11 to identify the setting of this soil are quire varied although all equate to the same landscape.  These will be further investigation from an MLRA project level as to the accepted terms for use.\nThe term silty alluvium used in this series concept infers a localized influence on the mixed loess and weathered volcanic ash soil mantle by overland flow of running water.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 4 inches; pale brown (10YR 6/3) silt loam, dark brown (10YR 3/3) moist; moderate medium platy structure; soft, friable; nonsticky and nonplastic; many very fine and fine roots; common very fine and fine tubular pores; neutral (pH 6.7); gradual wavy boundary.  (4 to 7 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 10,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BA--4 to 14 inches; pale brown (10YR 6/3) silt loam, brown (10YR 4/3) moist; weak medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine and fine roots; common fine tubular pores; neutral (pH 7.0); gradual wavy boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 36,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--14 to 21 inches; pale brown (10YR 6/3) silt loam, brown (10YR 4/3) moist; moderate medium subangular blocky structure; hard, friable, slightly sticky and slightly plastic; common very fine and fine roots; common fine tubular pores; slightly effervescent (8 percent calcium carbonate); slightly alkaline (pH 7.4); clear smooth boundary.  (6 to 20 inches thick)"
+      },
+      {
+        "name": "2Bkq",
+        "top": 53,
+        "bottom": 69,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "2Bkq--21 to 27 inches; light gray (10YR 7/2) loam, grayish brown (10YR 5/2) moist; massive; very hard, firm, slightly sticky and slightly plastic; few very fine roots; few fine tubular pores; 10 percent durinodes; 10 percent gravel size duripan fragments; strongly effervescent (34 percent calcium carbonate); slightly alkaline (pH 7.8); abrupt smooth boundary.  (6 to 20 inches thick)"
+      },
+      {
+        "name": "2Bkqm",
+        "top": 69,
+        "bottom": 114,
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2Bkqm--27 to 45 inches; fractured duripan; 1/4 to 3 inch silica lenses throughout; extremely hard, platy, rock-like material; gradual wavy boundary.  (9 to 30 inches thick)"
+      },
+      {
+        "name": "3Bk",
+        "top": 114,
+        "bottom": 155,
+        "texture_class": "sand",
+        "pH": 7.9,
+        "pH_class": "moderately alkaline",
+        "narrative": "3Bk--45 to 61 inches; multi-colored stratified sand and gravel; single grain; loose, nonsticky and nonplastic; strongly effervescent (8 percent calcium carbonate); moderately alkaline (pH 7.9)"
+      }
+    ]
+  ]
 }

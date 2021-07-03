@@ -56,5 +56,60 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The series name is from a local landform.  Diagnostic horizons and features recognized in this pedon:\nMollic epipedon--The zone from the soil surface to a depth of about 10 inches (A horizon).\nLithic contact--The zone at a depth of 13 inches (R horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "Oe--0 to 2 inches (0 to 5 centimeters); Cenonothus leaves and sticks."
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--2 to 10 inches (5 to 25 centimeters); very dark grayish brown (10YR 3/2) loam, very dark brown (10YR 2/2) moist; few fine subangular blocky structure; slightly hard, very friable, nonsticky and nonplastic; many very fine, common fine through coarse roots; common very fine tubular pores; 5 percent pararock fragments of soft sandstone; 10 percent fine and medium subangular gravel; neutral (pH 6.6); abrupt wavy boundary. ( 7 to 20 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 25,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Cr--10 to 13 inches (25 to 33 centimeters); soft weathered sandstone that is comprised of light yellowish brown (10YR 6/4) 85 percent pararock fragments, dark yellowish brown (10YR 4/4) moist, and 10 percent soil material in fractures that has the same colors and is a loam; abrupt wavy boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 33,
+        "texture_class": "sand",
+        "narrative": "R--13 inches (33 centimeters); hard yellow sandstone with fractures 4 to 8 inches apart that are 1/8 to 1/4 inch wide with soil material from above in them, and few fine roots. Sandstone is uplifted parallel to the surface."
+      }
+    ]
+  ]
 }

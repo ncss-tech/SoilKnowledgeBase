@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and other features recognized in this pedon include:\nMollic epipedon - zone from 0 to 11 inches (A and Bw horizons).\nParalithic contact - the contact at 11 inches (Cr horizon).\nLithic contact - the contact at 22 inches (R horizon).\nADDITIONAL DATA:  Characterization pedon - St. John Island, U.S. Virgin Islands; S91VI-20-11.  Additional characterization pedon - St. John Island, U.S. Virgin Islands; S91VI-20-12.  Samples by NSSL, Lincoln NE. 1991.\nMLRA:  271.\nSIR = VI0014\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 7 inches; very dark brown (10YR 2/2) gravelly loam, weak coarse granular structure; friable; many fine roots, common medium roots, few coarse roots; many fine and medium wormcasts; about 15 percent, by volume, pebbles; slightly acid; clear wavy boundary. (2 to 10 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 18,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--7 to 11 inches; dark brown (10YR 3/3) gravelly loam; moderate very fine and fine subangular blocky structure; friable; common fine and medium roots; common fine and medium wormcasts; about 30 percent, by volume, pebbles; very strongly acid; clear wavy boundary. (2 to 10 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 28,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cr--11 to 22 inches; dark brown (10YR 4/3) saprolite that has a silt loam texture; massive; common fine roots, few medium roots; very strongly acid; clear wavy boundary. (2 to 20 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 56,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "narrative": "R--22 to 60 inches; brown (10YR 5/3) unweathered igneous bedrock."
+      }
+    ]
+  ]
 }

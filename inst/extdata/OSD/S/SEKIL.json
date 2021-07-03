@@ -56,5 +56,86 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0043 SEKIL       0-45   59- 62   175-210  38-46    200-800\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0043 NONE          6.0-6.0              -     20-40   HARD\nSOI-5  Depth  Texture         3-Inch  No-10   Clay%   -CEC-\nVA0043  0-10  SL L FSL        0-5     75-100   5-18     -\nVA0043 10-14  SL L            0-5     75-100   5-18     -\nVA0043 14-37  GR-SL          10-25    40-70    5-15     -\nVA0043 37-47  UWB              -        -       -       -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0043  0-10  4.5- 6.0  .5-2.  0-0    2.0- 6.0   LOW\nVA0043 10-14  4.5- 6.0  0.-.5  0-0    2.0- 6.0   LOW\nVA0043 14-37  4.5- 6.0  0.-.5  0-0    2.0- 6.0   LOW\nVA0043 37-47     -        -     -     0.00-0.01\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 5,
+        "bottom": 3,
+        "narrative": "0i--2 to 1 inches; undecomposed leaves, pine needles, and twigs."
+      },
+      {
+        "name": "0e",
+        "top": 3,
+        "bottom": 0,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "narrative": "0e--1 to 0 inch; black (10YR 2/1) partially decomposed organic matter."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; very dark grayish brown (10YR 3/2) sandy loam; weak very fine granular structure; very friable; many fine roots; very strongly acid; clear smooth boundary. (0 to 5 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--3 to 10 inches; brown (10YR 4/3) sandy loam; weak fine granular structure; very friable; many fine and medium roots; 5 percent quartz fragments up to 2 inches in diameter; few very fine flakes of mica; strongly acid; clear smooth boundary. (4 to 12 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 25,
+        "bottom": 36,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt--10 to 14 inches; strong brown (7.5YR 5/6) sandy loam; weak fine subangular blocky structure; friable; many fine and medium roots; clay bridging between sand grains, thin coatings on sand grains; 5 percent weathered rock fragments up to 1 inch in diameter; few fine flakes of mica; moderately acid; gradual smooth boundary. (3 to 6 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 36,
+        "bottom": 94,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "C--14 to 37 inches; multicolored brown, yellow, black, and white gravelly sandy loam; massive; firm in place; 25 percent fragments of hard and weathered rock up to 2 inches in diameter; many fine flakes of mica; moderately acid; gradual irregular boundary. (6 to 24 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 94,
+        "narrative": "R--37 inches; hard basic and acidic rock."
+      }
+    ]
+  ]
 }

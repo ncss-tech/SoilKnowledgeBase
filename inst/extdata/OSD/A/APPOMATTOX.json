@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The parent material of Appomattox soils has substantial amounts of gibbsite and is high in oxides, however, mineralogical analysis does not support a oxidic versus mixed family.\nDiagnostic horizons and soil characteristics recognized in this pedon:\nOchric epipedon--the zone from 0 to 6 inches (Ap horizon)\nArgillic horizon--the zone from 6 to 65 inches (Bt horizon)\nAquic conditions--periodic saturation and reduction within 36 to 60 inches of the soil surface, and one or more unsaturated layers within 80 inches of the surface, occurring below the periodically saturated zone (episaturation)\nOther soil features identified with this pedon:\nLithologic discontinuity-\nSeries control section--the zone from 0 to 80 inches\nADDITIONAL DATA:\nLaboratory Data: Laboratory analysis of 16 pedons has been completed by Virginia Polytechnic Institute and State University, Blacksburg, Virginia.\nDatabase Information:\nTypical Pedon Data Mapunit ID--434882\nTABULAR SERIES DATA:\nSOI-5  Soil Name    Slope  Airtemp  FrFr/Seas Precip  Elevation\nVA0288 APPOMATTOX   0-45   52-57    160-205   40-55   200-800\nSOI-5  FloodL FloodH Watertable Kind     Months    Bedrock Hardness\nVA0288 NONE          3.0-3.3    PERCHED  DEC-MAR   >60     -\nSOI-5  Depth  Texture          3-Inch  No-10   Clay%  -CEC-\nVA0288  0- 6  FSL SL           0-5     75-100  10-20    -\nVA0288  0- 6  GR-SL GR-FSL     5-10    55-75   10-20    -\nVA0288  0- 6  CL L             0-5     75-100  27-40    -\nVA0288  6-36  CL GR-SC C       0-15    50-100  35-80    -\nVA0288 36-65  CL SC CBV-C      0-30    35-100  27-45    -\nSOI-5   Depth     -pH-     O.M.   Salin  Permeab  Shnk-Swll\nVA0288  0-6     4.5-6.0  1.0-2.0  0-0    0.6-6.0  LOW\nVA0288  0-6     4.5-6.0  1.0-2.0  0-0    0.6-6.0  LOW\nVA0288  0-6     4.5-6.0  0.5-1.0  0-0    0.6-2.0  LOW\nVA0288  6-36    4.5-6.0  0.0-0.5  0-0    0.2-0.6  MODERATE\nVA0288 36-65    4.5-6.0  0.0-0.5  0-0    0.6-6.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; brown (7.5YR 4/4) gravelly sandy loam; weak coarse subangular blocky and angular blocky structure; friable; many fine, medium, and coarse roots; 27 percent gravel; very strongly acid; clear smooth boundary. (0 to 14 inches)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 23,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--6 to 9 inches; red (2.5YR 4/6) clay loam; weak fine medium and coarse subangular blocky structure; friable; slightly sticky, slightly plastic; many fine, medium, and coarse roots; few distinct clay films on faces of peds; 10 percent gravel; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 23,
+        "bottom": 91,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--9 to 36 inches; red (2.5YR 4/6) clay; weak fine and medium subangular blocky structure; friable; very sticky, plastic; common, fine, medium and coarse roots; common distinct clay films on faces of peds; 10 percent gravel; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 91,
+        "bottom": 124,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt3--36 to 49 inches; red (2.5YR 4/6) clay; moderate thin and medium platy structure; firm; slightly sticky, slightly plastic; common distinct clay films on faces of peds; common medium and coarse distinct dark red (10R 3/6) and prominent yellowish brown (10YR 5/8) masses of oxidized iron; common medium prominent very pale brown (10YR 7/4) iron depletions; few fine roots; 10 percent gravel; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt4",
+        "top": 124,
+        "bottom": 203,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "narrative": "Bt4--49 to 80 inches; red (2.5YR 4/6) clay; moderate thin and medium platy structure; firm, slightly sticky, slightly plastic; few fine roots; common faint clay films on ped faces; common medium and coarse distinct dark red (10R 3/6) and prominent yellowish brown (10YR 5/8) masses of oxidized iron with sharp boundaries and light gray (10YR 7/2) iron depletions with sharp boundaries; 10 percent gravel; strongly acid; masses of oxidized iron and iron depletions are relic redoximorphic features. (Combined thickness of the Bt horizon is 35 to 60 or more inches.)"
+      }
+    ]
+  ]
 }

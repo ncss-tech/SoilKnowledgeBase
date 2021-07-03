@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - from 0 to 13 cm (Oi, A horizons);\nCambic horizon - from 13 to 40 cm (Bw horizon);\nParalithic layer - from 40 to 48 cm (Cr horizon);\nLithic contact - at 48 cm (R horizon); and\nParticle-size control section - from 25 to 40 cm (part of Bw horizon).\nRoegulch soils have a frigid temperature regime and an ustic moisture regime.\nADDITIONAL DATA: Soil interpretation records - MT3081, MT3082.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "Oi--0 to 5 cm; partially decomposed needles, twigs, and leaves. (0 to 6 cm thick)"
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "cf_class": "cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--5 to 13 cm; dark grayish brown (10YR 4/2) cobbly sandy clay loam, very dark grayish brown (10YR 3/2) moist; weak medium and fine subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; many very fine and few fine roots; many very fine and fine, and few medium pores; 20 percent cobbles, 10 percent gravel; neutral (pH 7.0); clear smooth boundary. (8 to 12 cm thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 13,
+        "bottom": 40,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very cobbly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--13 to 40 cm; pale brown (10YR 6/3) very cobbly sandy clay loam, brown (10YR 5/3) moist; moderate medium and fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine, common fine and medium and few coarse roots; many very fine and few fine tubular and interstitial pores; 10 percent stones, 20 percent cobbles, 20 percent gravel; slightly acid (pH 6.2); clear smooth boundary. (16 to 36 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 40,
+        "bottom": 48,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "texture_class": "coarse sand",
+        "cf_class": "very gravelly",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Cr--40 to 48 cm; light brownish gray (2.5Y 6/2) decomposed granite bedrock (grus) that crushes to very gravelly coarse sand; gradual wavy boundary. (5 to 15 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 48,
+        "narrative": "R--48 cm; hard granite bedrock."
+      }
+    ]
+  ]
 }

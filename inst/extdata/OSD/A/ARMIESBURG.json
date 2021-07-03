@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon: from the surface to a depth of 41 cm (16 inches) (Ap and A horizons).\nCambic horizon: from a depth of 41 to 96 cm (16 to 38 inches) (Bw1, Bw2).\nThe organic carbon in the typical pedon is .46 percent at 127 cm (50 inches).\n11/2011 Revision: formatting change to semi-tabular; added metric units; added lat/long/UTM coordinates; updated competing series.\nADDITIONAL DATA: Purdue Soil Characterization Laboratory S76IN83-19-(1-5) (typical pedon), S75IN83-3-(1-5), S74IN165-2-(1-5), S74IN165-3-(1-5), S76IN109-22-(1-6), S77IN21-29-(1-6), S79IN125-20-(1-7), S80IN55-9-(1-9), and NSSL S90IN-119-056.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 20 cm (8 inches); very dark grayish brown (10YR 3/2) silty clay loam, grayish brown (10YR 5/2) dry; moderate medium granular structure; friable; slightly alkaline; abrupt smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 20,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--20 to 41 cm (8 to 16 inches); very dark grayish brown (10YR 3/2) silty clay loam, grayish brown (10YR 5/2) dry; moderate medium angular blocky structure; firm; slightly alkaline; clear wavy boundary. [Combined thickness of the A horizon is 25 to 51 cm (10 to 20 inches).]"
+      },
+      {
+        "name": "Bw1",
+        "top": 41,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--41 to 61 cm (16 to 24 inches); brown (10YR 4/3) silty clay loam; weak coarse prismatic structure parting to moderate medium subangular blocky; firm; common distinct very dark grayish brown (10YR 3/2) organic coatings on faces of peds; neutral; clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 61,
+        "bottom": 96,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw2--61 to 96 cm (24 to 38 inches); yellowish brown (10YR 5/4) silty clay loam; weak very coarse prismatic structure parting to weak coarse subangular blocky; firm; neutral; gradual wavy boundary. [Combined thickness of the Bw horizon is 38 to 102 cm (15 to 40 inches).]"
+      },
+      {
+        "name": "C",
+        "top": 96,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "narrative": "C--96 to 152 cm (38 to 60 inches); brown (10YR 5/3) silty clay loam; massive; firm; neutral."
+      }
+    ]
+  ]
 }

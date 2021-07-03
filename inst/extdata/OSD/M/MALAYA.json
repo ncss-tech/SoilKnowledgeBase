@@ -56,5 +56,57 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nOchric epipedon - the zone from 0 to 4 inches (Ap horizon).\nCambic horizon - the zone from 4 to 10 inches (Bw horizon).\nParalithic contact - the contact at 10 inches (Cr1 horizon).\nThe type location was moved to its present location in 2003 based on field observations this profile is a better representation of the series concept.\nMalaya soils formed in the Yauco Formation (Ky).\nMalaya soils are in MLRA 270.\nADDITIONAL DATA:  Characterization pedon - Yauco Municipality, Puerto Rico; S01PR-153-002.  Sample by NSSL, Lincoln, NE., 11/2002.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 4 inches; brown (10YR 4/3) clay; moderate fine and medium granular structure; slightly hard, friable; slightly sticky, slightly plastic; many very fine and fine roots; many very fine and fine vesicular pores, common fine interstitial pores; about 10 percent, by volume, pebbles; slightly acid; noneffervescent; clear smooth boundary. (3 to 10 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 10,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--4 to 10 inches; brown (10YR 4/3) gravelly clay; moderate fine and medium subangular blocky structure; slightly hard, firm; slightly sticky, plastic; common very fine and fine roots; common fine and medium tubular pores, common fine interstitial pores; about 20 percent, by volume, pebbles; neutral; noneffervescent; abrupt wavy boundary. (4 to 8 inches thick)"
+      },
+      {
+        "name": "Cr1",
+        "top": 25,
+        "bottom": 36,
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Cr1--10 to 14 inches; highly fractured calcareous tuffaceous rock; noneffervescent; abrupt irregular boundary. (4 to 9 inches thick)"
+      },
+      {
+        "name": "Cr2",
+        "top": 36,
+        "bottom": 183,
+        "narrative": "Cr2--14 to 72 inches; semi-consolidated calcareous tuffaceous rock; strongly effervescent."
+      }
+    ]
+  ]
 }

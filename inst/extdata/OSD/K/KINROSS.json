@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are: ochric epipedon - the zone from 0 to 10 inches (Oa and E horizons);  albic horizon - the zone from 6 to 10 inches (E horizon); spodic horizon - the zone from 10 to 24 inches (Bhs and Bs horizons); aquic soil moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oa",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oa--0 to 6 inches; black (5YR 2/1) muck; weak medium granular structure; very friable; many fine roots; very strongly acid; clear smooth boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 15,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--6 to 10 inches; grayish brown (10YR 5/2) sand; few fine faint dark gray (10YR 4/1) mottles; single grain; loose; many fine roots; very strongly acid; abrupt wavy boundary.  (0 to 15 inches thick)"
+      },
+      {
+        "name": "Bhs",
+        "top": 25,
+        "bottom": 30,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bhs--10 to 12 inches; dark reddish brown (5YR 3/2) sand; single grain; loose; common fine roots; very strongly acid; gradual wavy boundary.  (2 to 9 inches thick)"
+      },
+      {
+        "name": "Bs",
+        "top": 30,
+        "bottom": 61,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bs--12 to 24 inches; dark reddish brown (5YR 3/4) sand; few medium faint dark reddish brown (5YR 3/2) mottles; single grain; loose; few fine roots; strongly acid; gradual wavy boundary.  (8 to 30 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 61,
+        "bottom": 107,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--24 to 42 inches; brown (7.5YR 4/4) sand; single grain; loose; strongly acid; gradual wavy boundary.  (0 to 20 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 107,
+        "bottom": 152,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "narrative": "C--42 to 60 inches; brown (7.5YR 5/4) sand; single grain; loose; strongly acid."
+      }
+    ]
+  ]
 }

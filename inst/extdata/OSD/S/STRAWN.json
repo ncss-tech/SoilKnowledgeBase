@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons recognized in this pedon are:ochric epipedon - the layer from the surface of the soil to a depth of 18 cm (7 inches) (Ap horizon); argillic horizon - the zone from approximately 18 to 56 cm (7 to 22 inches) (Bt1 and Bt2 horizons).\nModerately permeable (IL0227), moderately permeable, eroded (IL0337), moderately slowly permeable (IL)0344), and moderately slowly permeable, eroded (IL0345) phases are recognized and some may become new series when the subset soil surveys in which they are in are updated.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 18 cm (0 to 7 inches); brown (10YR 4/3) and brown (10YR 5/3) loam, pale brown (10YR 6/3) and very pale brown (10YR 7/3) dry; weak fine and medium granular structure; friable; common fine roots; few pebbles; neutral; abrupt smooth boundary. [10 to 20 cm (4 to 8 inches) thick]"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--18 to 28 cm (7 to 11 inches); brown (10YR 4/3) clay loam; moderate fine subangular blocky structure; firm; few fine roots; many faint brown (10YR 4/3) clay films on faces of peds; few pebbles; neutral; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 28,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--28 to 56 cm (11 to 22 inches); brown (10YR 4/3) clay loam; moderate medium subangular blocky structure; firm; few fine roots; many faint brown (10YR 4/3) clay films on faces of peds; few pebbles; neutral; clear smooth boundary. [Combined thickness of the Bt horizons is 18 to 46 cm (7 to 18 inches).]"
+      },
+      {
+        "name": "C",
+        "top": 56,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "C--56 to 152 cm (22 to 60 inches); brown (10YR 5/3) loam; few fine prominent strong brown (7.5YR 5/8) masses of oxidized iron in the matrix; massive; firm; few pebbles; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

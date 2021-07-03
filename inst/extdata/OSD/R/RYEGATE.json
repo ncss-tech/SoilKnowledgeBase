@@ -56,5 +56,108 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic features recognized in this pedon are:\nMollic epipedon: the zone from 0 to 10 inches. (A horizon)\nArgillic horizon: the zone from 10 to 21 inches. (Bt and BCt horizons)\nCalcic horizon: the zone from 32 to 38 inches (2Bk horizon)\nLithic contact: sandstone at 36 inches.\nOther features: Aridic ustic moisture regime.\nRemarks: The Ryegate series was first proposed in Yellowstone County, Montana, but was transferred to Las Animas County, Colorado due to a change in temperature regimes in Montana from mesic to frigid.  The series is named after a town close by the original type location.  Last updated by the state 12/89.\nModified by Lee Neve in January 2002 changing taxonomy from Aridic to Calcidic, in addition to basic reformatting to create a semitab format.\nTaxonomic Version: Second Edition, 1999.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 10 inches; grayish brown (10YR 5/2) sandy loam, dark brown (10YR 3/3) moist; weak very fine granular structure; soft, very friable, nonsticky and nonplastic; slightly alkaline (pH 7.6); clear smooth boundary.  (7 to 12 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 25,
+        "bottom": 53,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--10 to 21 inches; brown (10YR 5/3) sandy clay loam, brown (10YR 4/3) moist; moderate medium subangular blocky structure; very hard, friable, sticky and slightly plastic; common clay films on faces of peds; slightly alkaline (pH 7.6); clear smooth boundary.  (8 to 13 inches thick)"
+      },
+      {
+        "name": "BCt",
+        "top": 53,
+        "bottom": 76,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BCt--21 to 30 inches; yellowish brown (10YR 5/4) sandy clay loam, dark yellowish brown (10YR 4/4) moist; weak medium subangular blocky structure; hard, very friable, slightly sticky and nonplastic; few clay films on faces of peds; slightly alkaline (pH 7.4); clear wavy boundary.  (5 to 9 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 76,
+        "bottom": 81,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "BC--30 to 32 inches; brown (10YR 5/3) sandy clay loam, brown (10YR 4/3) moist; moderate fine subangular blocky structure; very hard, friable, sticky and slightly plastic; 10 percent gravel; slightly effervescent; slightly alkaline (pH 7.6); abrupt wavy boundary.  (0 to 3 inches thick)"
+      },
+      {
+        "name": "2Bk",
+        "top": 81,
+        "bottom": 97,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Bk--32 to 38 inches; very pale brown (10YR 7/3) gravelly loam, light yellowish brown (10YR 6/4) moist; massive; very hard, friable, slightly sticky and nonplastic; 30 percent gravel; 20 percent calcium carbonate equivalent; visible common soft masses and filaments; calcium carbonate coating on rocks; violent effervescence; moderately alkaline (pH 8.4); abrupt wavy boundary.  (3 to 8 inches)"
+      },
+      {
+        "name": "R",
+        "top": 97,
+        "texture_class": "sand",
+        "narrative": "R--38 inches; hard sandstone."
+      }
+    ]
+  ]
 }

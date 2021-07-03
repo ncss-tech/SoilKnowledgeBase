@@ -56,5 +56,87 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are: Particle-size control section: The zone from 41 to 76 centimeters (16 to 30 inches). (Bt1, Bt2 horizons)\nMollic epipedon: The zone from 0 to 41 centimeters (0 to 16 inches). (A and BA horizons)\nArgillic horizon: The zone from 41 to 76 centimeters (16 to 30 inches). (Bt1, Bt2 horizons)\nParalithic contact: The contact with weathered sandy shale at 76 centimeters (30 inches). (Cr horizons)\nThe assignment of the CEC activity class is supported by KSSL lab sample numbers 81P0658 (pedon 81KS115001), 99P0643 (pedon 99KS169003), 02N0361 (pedon S02KS-029-002), and 40A1794 (pedon 53KS169006).\nLRR=H\nAdded \"moderately deep\" to first sentence in the first paragraph.  Increase slope range to \"16 percent\".\nDescribed wet consistence in typical pedon and added clay film to the Bt horizons.\nRemoved series that did compete within the same family from the competing series paragraph.\nChanged runoff from rapid to medium to reflect permeability.\nAdded Soil Interpretation Record clay content and sand content to \"Range In Characteristics\".\nModified format by LRM in 2/2006 to include metric conversion and change permeability to saturated hydraulic conductivity.\n05/2014 DJK Updated intro paragraph to SSRO5 standards. Updated activity class in classification from superactive to active (added statement in remarks about this being from KSSL lab data). Added slope, aspect, slope shape, and elevation to typical pedon. Added quadrangle and lat/long to type location. Updated soil moisture regime to SSRO5 requirements and added mean annual soil temperature.  Added sand content and BA horizon data to RIC. Updated parent material, changed slopes to 20 percent from 16 percent because of the 3396 3-20 percent map unit.  Updated climate data, added precipitation pattern, and added elevation to geographic setting.  Updated competing series for new classification with active activity class.  Changed runoff to high. Updated geographically associated soils and distribution and extent sections.\nADDITIONAL DATA: National Soil Survey Laboratory Soil Survey investigation Report No. 4, page 39. KSSL characterization data available for pedons 81KS115001, 53KS169005, and 53KS169006.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A--0 to 23 centimeters (0 to 9 inches); dark grayish brown (10YR 4/2) loam, very dark brown (10YR 2/2) moist; weak medium granular structure; hard, friable, slightly plastic and slightly sticky; moderately acid; few fine roots: gradual smooth boundary.  (15 to 36 centimeters (6 to 14 inches) thick)"
+      },
+      {
+        "name": "BA",
+        "top": 23,
+        "bottom": 41,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BA--23 to 41 centimeters (9 to 16 inches); brown (7.5YR 4/2) clay loam, dark brown (7.5YR 3/2) moist; moderate fine subangular blocky structure; hard, friable, slightly plastic and slightly sticky; few fine roots; less than 5 percent hard sandstone fragments about 2 mm to 1 inch diameter; moderately acid; gradual smooth boundary.  (0 to 20 centimeters (0 to 8 inches) thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 41,
+        "bottom": 61,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--41 to 61 centimeters (16 to 24 inches); brown (7.5YR 5/4) clay loam, brown (7.5YR 4/4) moist; moderate medium subangular blocky structure; very hard, firm, plastic and sticky; few fine roots; slightly darker colored clay films on vertical faces of peds and in root channels; slightly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 61,
+        "bottom": 76,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt2--61 to 76 centimeters (24 to 30 inches); reddish yellow (7.5YR 6/6) sandy clay loam, strong brown (7.5YR 5/6) moist; streaked and splotched with colors that are more yellow and more gray than the soil mass and with few distinct reddish spots; weak medium blocky structure; very hard, firm, plastic and sticky; few fine roots; darker colored clay films on some faces of peds; neutral; gradual smooth boundary.  (Combined thickness of the Bt horizon ranges from 15 to 79 centimeters (6 to 31 inches))"
+      },
+      {
+        "name": "Cr",
+        "top": 76,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "narrative": "Cr--76 centimeters (30 inches); partially weathered sandy shale; neutral."
+      }
+    ]
+  ]
 }

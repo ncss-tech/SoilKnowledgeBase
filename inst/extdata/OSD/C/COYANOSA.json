@@ -56,5 +56,57 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostics horizons and features recognized in this pedon are:\nOchric epipedon - The zone from 0 to 10 inches (A Horizons)\nUstic feature - Aridic moisture regime that borders on the Ustic regime\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Tenth Edition, 2006.\nUpdate and revisions for the recorrelation of Brewster County, TX, Main Part, 2/7/08, CEM\nRevised for the correlation of Presidio County, Texas ; Oct, 2012, WWJ\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 4 inches; dark yellowish brown (10YR 4/4) very gravelly loam, dark yellowish brown (10YR 3/4) moist; weak fine granular structure; soft, very friable; common fine roots; 50 percent angular sandstone gravel mostly 1/8 to 3 inches in diameter; neutral; clear smooth boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "extremely gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--4 to 10 inches; dark yellowish brown (10YR 4/4) extremely gravelly loam, dark yellowish brown (10YR 3/4) moist; weak fine subangular blocky structure; slightly hard, very friable; common fine roots; 70 percent angular sandstone gravel mostly 1/8 to 3 inches in diameter; moderately alkaline; abrupt wavy boundary.  (0 to 7 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 25,
+        "bottom": 152,
+        "texture_class": "sand",
+        "narrative": "R--10 to 60 inches; strongly cemented fractured sandstone bedrock."
+      }
+    ]
+  ]
 }

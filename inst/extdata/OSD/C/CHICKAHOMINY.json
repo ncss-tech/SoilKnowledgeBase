@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Chickahominy soils have previously been included with Roanoke, Bladen, and Coxville soils.\nDiagnostic horizons and features recognized in this pedon are: Ochric Epipedon - The zone between the surface and 7 inches (A and  E horizon).  Argillic horizon - the zone between 7 and 85 inches (Btg horizons) Typic Aquults - All horizons dominated with chroma of 2 or less.\nADDITIONAL DATA:  Particle-size and chemical data from VPI & SU is available for the typical pedon.  Particle-size, chemical, and engineering data from VPI & SU is available for pedon 79VA-149-16 in Prince George County, Virginia.\nSIR=VA0172, VA0321 (PONDED)\nMLRA=133A, 153A\nREVISED=9/6/95, MHC\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; dark grayish brown (2.5Y 4/2) silt loam; moderate medium and fine granular structure; friable, sticky, plastic; many fine medium and coarse roots; few very fine tubular pores; extremely acid; abrupt smooth boundary.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "Eg",
+        "top": 5,
+        "bottom": 18,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Eg--2 to 7 inches; dark grayish brown (2.5Y 4/2) silt loam; common fine faint light olive brown (2.5Y 5/4) mottles and common fine distinct very dark grayish brown (1OYR 3/2) mottles; moderate medium granular and weak fine subangular blocky structure; friable, sticky, plastic; many fine medium and coarse roots; common very fine tubular pores; few fine flakes of mica; extremely acid; clear smooth boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 18,
+        "bottom": 33,
+        "moist_hue": "N",
+        "moist_value": 6,
+        "moist_chroma": 0,
+        "texture_class": "silty clay loam",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg1--7 to 13 inches; gray (N 6/0) silty clay loam; common medium prominent yellowish brown (1OYR 5/8) mottles; strong medium and fine subangular blocky structure; very firm, sticky, plastic; common fine medium and coarse roots; few very fine tubular pores; few faint clay films on faces of peds; few fine flakes of mica; extremely acid; gradual smooth boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 33,
+        "bottom": 84,
+        "moist_hue": "N",
+        "moist_value": 6,
+        "moist_chroma": 0,
+        "texture_class": "silty clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg2--13 to 33 inches; gray (N 6/0) silty clay; common fine and medium prominent yellowish brown (1OYR 5/8) mottles; weak medium prismatic structure parting to strong fine and medium angular blacky; very firm, sticky, plastic; common fine and medium roots along primary structural faces; few very fine tubular pores; common distinct clay films on faces of peds; few fine flakes of mica; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Btg3",
+        "top": 84,
+        "bottom": 119,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg3--33 to 47 inches; gray (5Y 6/1) silty clay; common medium Prominent yellowish brown (1OYR 5/8) mottles; moderate coarse prismatic structure parting to strong medium and fine angular blocky; very firm, sticky, plastic; common fine and few medium roots along primary structural faces; common prominent clay films on faces of peds; few fine roots of mica; extremely acid; gradual smooth boundary."
+      },
+      {
+        "name": "Btg4",
+        "top": 119,
+        "bottom": 155,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg4--47 to 61 inches; gray (5Y 5/1) silty clay; common medium prominent yellowish brown (1OYR 5/8) mottles; strong medium and fine subangular and angular blocky structure; firm, sticky, plastic; few fine and medium roots; few prominent clay films on faces of peds; few fine flakes of mica; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Btg5",
+        "top": 155,
+        "bottom": 216,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Btg5--61 to 85 inches; gray (5Y 6/1) clay loam; common medium prominent yellowish brown (1OYR 5/8) mottles; strong medium and fine subangular and angular blocky structure; firm, sticky, plastic; few fine roots; few very fine tubular pores; few prominent clay films on faces of peds; few fine flakes of mica; very strongly acid.  (Combined thickness of toe Bt horizon is 50 to more than 80 inches)"
+      }
+    ]
+  ]
 }

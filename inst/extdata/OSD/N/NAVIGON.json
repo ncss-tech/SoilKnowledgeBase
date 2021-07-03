@@ -56,5 +56,58 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon: The zone from 0 to 4 inch. (A horizon)\nParticle-size control section: The zone from 0 to 8 inches. (A and C horizons)\nLithic contact: The contact with Navajo sandstone bedrock at 8 inches. (R horizon)\nTaxonomic Version: Ninth Edition, 2003\nADDITIONAL DATA: Ecological Site-Semidesert Steep Shallow Sandy Loam (Juniper)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sand",
+        "cf_class": "extremely stony",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; light yellowish brown (10YR 6/4) extremely stony fine sand, yellowish brown (10YR 5/4) moist; single grained ; loose, loose; nonsticky, nonplastic; few very fine and fine roots; 15 percent gravel, 25 percent cobbles and 30 percent stones, lithology is basalt; noneffervescent; neutral (pH 7.0); clear smooth boundary."
+      },
+      {
+        "name": "C",
+        "top": 10,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sand",
+        "cf_class": "very cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C--4 to 8 inches; light yellowish brown (10YR 6/4) very cobbly fine sand, yellowish brown (10YR 5/4) moist; single grained ; loose, loose; nonsticky, nonplastic; few very fine and fine roots; 15 percent gravel, 30 percent cobbles and 10 percent stones, lithology is basalt; noneffervescent; neutral (pH 7.0); abrupt smooth boundary"
+      },
+      {
+        "name": "R",
+        "top": 20,
+        "texture_class": "sand",
+        "narrative": "R--8 inches; Navajo Formation sandstone bedrock."
+      }
+    ]
+  ]
 }

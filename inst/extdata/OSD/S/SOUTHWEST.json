@@ -56,5 +56,118 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon: from the surface to a depth of 25 cm (10 inches) (Ap).\nCambic horizon: from a depth of 25 to 58 cm (10 to 23 inches) (Bg1, Bg2).\nAquic conditions: redoximorphic features present in all horizon below a depth of 25 cm (10 inches) (Bg, 2Ab, 2Bgb, 3Ab, and 3Cg horizons).\nDrained (IN0612) and undrained (IN0613) phases are recognized.\nNASIS Data Mapunit ID 155046 represents the typical pedon in northern Indiana.\nADDITIONAL DATA: Lab characterization data is available for the typical pedon (S94IN-039-024) from the National Soil Survey Laboratory, Lincoln, NE. Transect data for the typical pedon (T94IN-039-141 is on file in the MLRA project office in Plymouth, Indiana. Transect shows 70 percent Southwest soils, 20 percent Brookston soils, and 10 percent Crosier soils.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 25 cm (10 inches); dark grayish brown (10YR 4/2) silt loam; weak fine granular structure; friable; common very fine and fine roots throughout; slightly acid; clear wavy boundary. [10 to 46 cm (4 to 18 inches) thick]"
+      },
+      {
+        "name": "Bg1",
+        "top": 25,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg1--25 to 46 cm (10 to 18 inches); dark grayish brown (10YR 4/2) silty clay loam; weak medium subangular blocky structure; friable; common very fine and fine roots throughout; many fine and medium interstitial and tubular pores with moderate continuity; common medium faint brown (10YR 4/3) masses of oxidized iron in the matrix; slightly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 46,
+        "bottom": 58,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg2--46 to 58 cm (18 to 23 inches); dark grayish brown (10YR 4/2) silty clay loam; weak medium subangular blocky structure; friable; common very fine and fine roots throughout; common fine and medium interstitial and tubular pores with moderate continuity; common medium faint brown (10YR 4/3) masses of oxidized iron in the matrix; slightly acid; clear wavy boundary. [Combined thickness of the Bg horizon is 15 to 56 cm (6 to 22 inches).]"
+      },
+      {
+        "name": "2Ab",
+        "top": 58,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Ab--58 to 86 cm (23 to 34 inches); black (10YR 2/1) silty clay loam; moderate fine subangular blocky structure; firm; common very fine and fine roots throughout; neutral; clear wavy boundary. [15 to 30 cm (6 to 12 inches) thick]"
+      },
+      {
+        "name": "2Bgb",
+        "top": 86,
+        "bottom": 114,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bgb--86 to 114 cm (34 to 45 inches); gray (10YR 5/1) silty clay loam; moderate medium subangular blocky structure; firm; many medium distinct brown (10YR 5/3) and common fine prominent yellowish brown (10YR 5/8) masses of oxidized iron in the matrix; neutral; clear wavy boundary. [28 to 76 cm (11 to 30 inches) thick]"
+      },
+      {
+        "name": "3Ab1",
+        "top": 114,
+        "bottom": 140,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "3Ab1--114 to 140 cm (45 to 55 inches); very dark grayish brown (10YR 3/2) silty clay loam; weak coarse subangular blocky structure; firm; common medium prominent dark yellowish brown (10YR 4/6) masses of oxidized iron in the matrix; neutral; gradual wavy boundary."
+      },
+      {
+        "name": "3Ab2",
+        "top": 140,
+        "bottom": 190,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "3Ab2--140 to 190 cm (55 to 75 inches); very dark grayish brown (10YR 3/2) silty clay loam; weak thick platy structure; friable; common medium prominent dark yellowish brown (10YR 4/6) masses of oxidized iron in the matrix; neutral; gradual wavy boundary. [Combined thickness of the 3Ab horizon is 0 to 76 cm (30 inches).]"
+      },
+      {
+        "name": "3Cg",
+        "top": 190,
+        "bottom": 203,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "3Cg--190 to 203 cm (75 to 80 inches); dark gray (5Y 4/1) silt loam; massive; friable; slightly effervescent; slightly alkaline."
+      }
+    ]
+  ]
 }

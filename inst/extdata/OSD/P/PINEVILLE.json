@@ -56,5 +56,94 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  (1) Mineralogy data from two West Virginia pedons indicate mixed mineralogy, but both are close to siliceous.  (2) These soils were formerly mapped as Jefferson.  (3) In West Virginia, these soils are formed in colluvium from the New River and the lower part of the Kanawha geologic formation.  (4) Diagnostic horizons and features recognized in this pedon are:\na.) Ochric epipedon - 0 to 3 inches (A horizon).\nb.) Argillic horizon - 10 to 50 inches (Bt1, Bt2, and Bt3 horizons).  (5) Additional Data:  Refer to NSSL characterization pedons S86WV-005- 003, S86WV-109-001, S81WV-109-5, S81WV-109-7 for laboratory data.\nNational Cooperative Soil Survey\nUS.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "Oi--1 to 0 inches; undecomposed oak and yellow-poplar leaves."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "narrative": "A--0 to 3 inches; dark brown (10YR 3/3) channery loam; moderate"
+      },
+      {
+        "name": "BA",
+        "top": 8,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "narrative": "BA--3 to 10 inches; yellowish brown (10YR 5/6) channery loam;"
+      },
+      {
+        "name": "Btl",
+        "top": 25,
+        "bottom": 58,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btl--10 to 23 inches; brownish yellow (10YR 6/6) channery loam; moderate, medium subangular blocky structure; friable; common fine, medium, and coarse roots; few distinct clay films on faces of peds; 20 percent rock fragments; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 58,
+        "bottom": 84,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--23 to 33 inches; yellowish brown (10YR 5/6) channery loam; moderate medium subangular blocky structure; friable; common fine and medium roots; common distinct clay films on faces of peds; 20 percent rock fragments; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 84,
+        "bottom": 127,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "cf_class": "very channery",
+        "narrative": "Bt3--33 to 50 inches; yellowish brown (10YR 5/6) very channery"
+      },
+      {
+        "name": "C",
+        "top": 127,
+        "bottom": 165,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH_class": "strongly acid",
+        "narrative": "C--50 to 65 inches; yellowish brown (10YR 5/6) very channery loam; massive; firm; 50 percent rock fragments; strongly acid."
+      }
+    ]
+  ]
 }

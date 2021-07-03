@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The present concept excludes soils having hard bedrock at depths within 20 inches of the surface.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the soil surface to a depth of 7 inches.\nCambic horizon - the zone between depths of 7 and 16 inches.\nParalithic contact - the occurrence of weathered, fractured bedrock at a depth of 16 inches.\nLithic contact - the occurrence of hard fractured bedrock at a depth of 36 inches.\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name Slope  Airtemp  FrFr/Seas  Precip  Elevation\nNC0033 GOLDSTON  2-60   59-63    190-240    40-60   300-700\nSOI-5  FloodL FloodH Watertable Kind Months  Bedrock Hardness\nNC0033 NONE          >6.0              -     10-20   SOFT\nSOI-5  Depth  Texture            3-Inch  No-10  Clay%  -CEC-\nNC0033  0- 7  CN-SIL CN-VFSL    10-20   50-80   5-27    1-7\nNC0033  0- 7  CNV-SIL CNV-VFSL  20-50   30-80   5-15    1-5\nNC0033  7-16  CNV-SIL CNV-VFSL  20-50   30-80   5-27    1-6\nNC0033 16-36  WB                  -       -      -       -\nNC0033 36-46  UWB                 -       -      -       -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0033  0- 7  3.5- 5.5  .5-2.  0- 0   2.0- 6.0  LOW\nNC0033  0- 7  3.5- 5.5  .5-2.  0- 0   2.0- 6.0  LOW\nNC0033  7-16  3.5- 5.5  0.-.5  0- 0   2.0- 6.0  LOW\nNC0033 16-36     -        -     -        -\nNC0033 36-46     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "0i--1 to 0 inch; undecomposed organic litter."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "very channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 1 inch; dark grayish brown (10YR 4/2) very channery silt loam; weak medium granular structure; friable; many fine and medium roots; slate fragments 1/4 inch to 3 inches in size comprise 40 percent by volume; very strongly acid; abrupt smooth boundary. (2 to 8 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 3,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "very channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--1 to 7 inches; brown (10YR 5/3) very channery silt loam; weak medium granular structure; friable; many fine and medium roots; slate fragments 1/4 inch to 3 inches in size comprise 40 percent by volume; very strongly acid; abrupt wavy boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 18,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "cf_class": "very channery",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--7 to 16 inches; brownish yellow (10YR 6/6) very channery silt loam; weak medium subangular blocky structure; friable; common fine and medium roots; slate fragments 1/2 inch to 6 inches in size comprise 58 percent by volume; strongly acid; gradual wavy boundary. (6 to 12 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 41,
+        "bottom": 91,
+        "texture_class": "silt loam",
+        "narrative": "Cr--16 to 36 inches; multicolored, weathered, fractured argillite; few seams of yellowish brown silt loam in cracks."
+      },
+      {
+        "name": "R",
+        "top": 91,
+        "narrative": "R--36 inches; hard fractured argillite."
+      }
+    ]
+  ]
 }

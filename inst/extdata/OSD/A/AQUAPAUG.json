@@ -56,5 +56,114 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This series is named for the Boy Scouts of America Camp Aquapaug located on Worden Pond in Rhode Island.\nDiagnostic horizons and features recognized in this pedon include:\n1. Peraquic feature - positive soil water potential (permanently submerged) at the soil surface\n2. Ochric epipedon - the zone from 0 to 23 cm. (A1 and A2 horizons)\n3. Particle size control section - the zone from 25 to 100 cm. (CA, Cg1, and Cg2 horizons)\nADDITIONAL DATA: Reference sample 2011RI009028, by the University of Rhode Island, 2011 is the typical pedon.  Additional reference samples include pedons 2011RI009031, 2011RI009016, 2011RI009004, 2011RI009038, 2011RI007004, 2011RI009025, 2011RI009034, 2011RI009039;  by the University of Rhode Island,  2011.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "subaqueous"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 11,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "narrative": "A1--0 to 11 cm; black (7.5YR 2.5/1) loamy sand, light brownish gray (10YR 6/2) dry; massive; 2 percent organic matter; nonfluid; nonsaline; very strongly acid (pH 5.0); abrupt boundary."
+      },
+      {
+        "name": "A2",
+        "top": 11,
+        "bottom": 23,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH": 4.7,
+        "pH_class": "very strongly acid",
+        "narrative": "A2--11 to 23 cm; black (5YR 2.5/1) sandy loam, brown (7.5YR 4/2) dry; massive; 2 percent organic matter; nonfluid; nonsaline; very strongly acid (pH 4.7); abrupt boundary.  (Combined thickness of A horizons is 0 to 23 cm.)"
+      },
+      {
+        "name": "CA",
+        "top": 23,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH": 4.1,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "CA--23 to 41 cm; brown (10YR 4/3) sand; single grain; loose; 1 percent organic matter; nonfluid; nonsaline; extremely acid (pH 4.1); clear smooth boundary. (0 to 60 cm. thick)"
+      },
+      {
+        "name": "Cg1",
+        "top": 41,
+        "bottom": 87,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH": 4.4,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Cg1--41 to 87 cm; dark grayish brown (10YR 4/2) sand; single grain; loose; 1 percent organic matter; nonfluid; nonsaline; extremely acid (pH 4.4); clear smooth boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 87,
+        "bottom": 132,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH": 4.1,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Cg2--87 to 132 cm; gray (2.5Y 6/1) fine sand; single grain; loose; 1 percent organic matter; nonfluid; nonsaline; extremely acid (pH 4.1); abrupt smooth boundary."
+      },
+      {
+        "name": "Cg3",
+        "top": 132,
+        "bottom": 200,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Cg3--132 to 200 cm; dark gray (2.5Y 4/1) fine sand; single grain; loose; 1 percent organic matter; nonfluid; nonsaline; very strongly acid (pH 4.8); abrupt smooth boundary."
+      },
+      {
+        "name": "Cg4",
+        "top": 200,
+        "bottom": 257,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "loamy fine sand",
+        "pH": 5.1,
+        "pH_class": "strongly acid",
+        "narrative": "Cg4--200 to 257 cm; dark gray (2.5Y 4/1) loamy fine sand; single grain; loose; 1 percent organic matter; nonfluid; nonsaline; strongly acid (pH 5.1). (Combined thickness of Cg horizons is 70 to 180 cm.)"
+      }
+    ]
+  ]
 }

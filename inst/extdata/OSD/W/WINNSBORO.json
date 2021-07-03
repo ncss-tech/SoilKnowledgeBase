@@ -56,5 +56,113 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon--the zone from the surface of the soil to 9 inches (Ap and E horizons)\nArgillic horizon--the zone from 9 to 20 inches (Bt1 and Bt2 horizons)\n2006 revision better defines coarse fragment content in profile.\nREVISED = 11/2000 KSL; 05/2006 RHB; 07/2008 DTA\nMLRA = 136\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope   Airtemp   FrFr/Seas   Precip   Elevation\nSC0088 WINNSBORO   2-30    57-63     175-230     40-60    200-1400\nSOI-5 FloodL FloodH  Watertable  Kind  Months   Bedrock  Hardness\nSC0088 NONE          >6.0         -     -       40-60    SOFT\nSOI-5  Depth   Texture     3-Inch   No-10    Clay%  -CEC-\nSC0088 0-9     SL FSL      0-5      85-100  10-20   6-15\nSC0088 0-9     SIL L       0-5      90-100  10-25   8-17\nSC0088 0-9     SCL CL      0-5      85-100  20-35   10-20\nSC0088 9-33    C CL        0-3      85-100  35-60   19-60\nSC0088 33-51   L SCL SL    0-3      45-100  15-35   10-40\nSC0088 51-65   WB           -         -       -       -\nSOI-5  Depth   -pH-     O.M.    Salin    Permeab   Shnk-Swll\nSC0088 0-9   5.1-6.5   0.5-2.0   0-0     2.0-6.0   LOW\nSC0088 0-9   5.1-6.5   0.5-2.0   0-0     0.6-2.0   LOW\nSC0088 0-9   5.1-6.5   0.5-2.0   0-0     0.6-2.0   MODERATE\nSC0088 9-33  6.1-7.8   0.0-1.0   0-0     0.06-0.2  HIGH\nSC0088 33-51 6.1-7.8   0.0-0.5   0-0     0.2-0.6   MODERATE\nSC0088 51-65    -         -       -         -      -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 5 inches; brown (10YR 4/3) sandy loam; weak fine granular structure; very friable; many fine roots; common medium (5-6 mm) dark concretions; 3 percent angular pebbles of quartz; moderately acid; abrupt smooth boundary. (4 to 9 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 13,
+        "bottom": 23,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "E--5 to 9 inches; light olive brown (2.5Y 5/4) sandy loam; weak fine granular structure; very friable; common fine roots; 3 percent angular pebbles of quartz; few medium (5-6 mm) dark concretions; slightly acid; abrupt smooth boundary. (0 to 7 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 23,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--9 to 16 inches; yellowish brown (10YR 5/6) clay; moderate coarse angular blocky structure; very firm, plastic; common distinct clay films on faces of peds; common fine roots; many very fine pores; few fine dark concretions; slightly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 41,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--16 to 20 inches; yellowish brown (10YR 5/6) clay; common coarse distinct black (10YR 2/1) discrete bodies within peds; moderate coarse angular blocky structure; very firm, plastic; common distinct clay films on faces of peds; few fine roots; common very fine pores; slightly acid; clear wavy boundary. (Combined thickness of the Bt horizon is 10 to 32 inches)"
+      },
+      {
+        "name": "BC1",
+        "top": 51,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC1--20 to 30 inches; mottled yellowish brown (10YR 5/6), black (10YR 2/1) and dark greenish gray (5G 4/1) loam; weak medium angular blocky structure; firm; few distinct clay films on faces of peds; slightly sticky; few fine roots; common very fine pores; most ped interiors are relic rock material; common fine flakes of mica; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "BC2",
+        "top": 76,
+        "bottom": 97,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BC2--30 to 38 inches; mottled strong brown (7.5YR 5/6), dark greenish gray (5G 4/1), black (10YR 2/1), brownish yellow (10YR 6/6), and olive gray (5Y 4/2) loam; weak medium angular blocky structure; firm, few distinct clay films on faces of peds; few fine roots; common very fine pores; most ped interiors are relic rock material; slightly acid; clear wavy boundary. (Combined thickness of the BC horizon is 0 to 28 inches)"
+      },
+      {
+        "name": "C",
+        "top": 97,
+        "bottom": 130,
+        "moist_hue": "5G",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--38 to 51 inches; mottled dark greenish gray (5G 4/1), white (10YR 8/1), and black (10YR 2/1) sandy loam; massive; few distinct clay films in cracks and seams; neutral; abrupt wavy boundary. (0 to 40 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 130,
+        "bottom": 165,
+        "narrative": "Cr--51 to 65 inches; soft, weathered, moderately fractured mafic bedrock."
+      }
+    ]
+  ]
 }

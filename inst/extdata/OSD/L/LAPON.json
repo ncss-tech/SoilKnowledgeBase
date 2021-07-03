@@ -56,5 +56,99 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 5 cm (A horizon)\nArgillic horizon - The zone from about 5 to 25 cm (Bt1, Bt2 and Btqk horizons)\nCemented duripan - The zone from about 25 to 51 cm (Bqkm horizon)\nLithic contact - The boundary between the duripan and bedrock at about 51 cm (R layer).\nParticle size control section - The zone from the surface to 25 cm (A, Bt1, Bt2 and Btkq horizons)\nADDITIONAL DATA:\nNASIS pedon and site ID: 2006NV019004.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 5 cm; light brownish gray (10YR 6/2) extremely cobbly loam, dark grayish brown (10YR 4/2) moist; weak medium and thin platy structure; slightly hard, very friable, nonsticky and nonplastic; many fine and very fine vesicular pores; 40 percent gravel, 20 percent cobbles and 10 percent stones; neutral (pH 7.0); abrupt smooth boundary. (3 to 10 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 5,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt1--5 to 8 cm; grayish brown (10YR 5/2) very gravelly clay loam, dark grayish brown (10YR 4/2) moist; moderate fine granular structure; slightly hard, firm, sticky and plastic; few fine and many very fine roots; many very fine interstitial pores; few faint clay films on faces of peds and surfaces of pores; 40 percent gravel and 5 percent cobbles; neutral (pH 7.2); abrupt smooth boundary.  (0 to 10 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 8,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--8 to 18 cm; brown (10YR 5/3) very gravelly clay loam, brown (10YR 4/3) moist; moderate medium and fine subangular blocky structure; very hard, firm, very sticky and very plastic; few medium, and common fine and very fine roots; few fine and many very fine tubular pores; few faint clay films on faces of peds and surfaces of pores; 40 percent gravel and 5 percent cobbles; neutral (pH 7.2); clear smooth boundary.  (8 to 23 cm thick)"
+      },
+      {
+        "name": "Btkq",
+        "top": 18,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "extremely gravelly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Btkq--18 to 25 cm; brown (10YR 5/3) extremely gravelly clay loam, brown (10YR 4/3) moist; weak fine and medium subangular blocky structure; hard, firm, sticky and plastic; few medium and fine and common very fine roots; few fine and many very fine interstitial pores; few faint clay films on faces of peds and surfaces of pores; 70 percent silica-carbonate coated gravel and gravel sized extremely hard duripan fragments; strongly effervescent; moderately alkaline (pH 8.4); abrupt wavy boundary.  (0 to 15 cm thick)"
+      },
+      {
+        "name": "Bqkm",
+        "top": 25,
+        "bottom": 51,
+        "narrative": "Bqkm--25 to 51 cm; white indurated duripan; massive; violently effervescent.  (3 to 75 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 51,
+        "narrative": "R--51 cm; hard andesite with silica-carbonate plugged fractures in the upper part."
+      }
+    ]
+  ]
 }

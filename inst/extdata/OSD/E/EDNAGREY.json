@@ -56,5 +56,51 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in the profile are:\nOchric epipedon - 0 to 7 inches (A and part of the Bk horizon).\nCalcic horizon  2 to 8 inches (Bk horizon).\nLithic contact - 8 inches (R horizon).\nParticle-size control section - 0 to 8 inches (A and Bk horizons).\nResponsibility for this series was transferred from Davis to Phoenix 4/2015. The last revision to the series was 7/2006. ET\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; pale brown (10YR6/3) extremely gravelly fine sandy loam, brown (10YR 4/3) moist; moderate very thick platy structure; moderately hard, very friable, slightly sticky and slightly plastic; few very fine roots; many very fine and common fine tubular pores; 60 percent pebbles and 4 percent cobbles; strongly effervescent; moderately alkaline (pH 8.4); clear smooth boundary. (1 to 2 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 5,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "very abrupt",
+        "topography": "wavy",
+        "narrative": "Bk--2 to 8 inches; pale brown (10YR6/3) very gravelly fine sandy loam, brown (10YR 4/3) moist; weak fine subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; common very fine and fine roots; many very fine and common fine tubular pores; 80 percent, continuous, distinct, white (10YR8/1) calcium carbonate coats on bottom of rock fragments; 40 percent pebbles and 1 percent cobbles; violently effervescent; moderately alkaline (pH 8.4); very abrupt wavy boundary. (3 to 8 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 20,
+        "narrative": "R--8 inches; very hard limestone."
+      }
+    ]
+  ]
 }

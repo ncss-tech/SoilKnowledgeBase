@@ -56,5 +56,71 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 4 inches (A horizon)\nParalithic contact - the boundary at 18 inches (2Cr horizon)\nParticle size control section  the zone from 10 to 18 inches (C)\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Eleventh Edition, 2010\nUpdates and revisions for MLRA consistency, February 2008, DWD.\nUpdated competing series January 2010, CEM.\nUpdate and revisions for the correlation of Little Colorado River Area (AZ707), Sept. 2011, CEM\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; reddish brown (5YR 4/3) clay, reddish brown (5YR 4/3) moist; weak thick platy and weak medium subangular blocky structure; hard, firm, moderately sticky and moderately plastic; few fine and medium roots; very few fine tubular pores; slightly effervescent; moderately alkaline (pH 8.0); clear smooth boundary.  (2 to 8 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 10,
+        "bottom": 46,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--4 to 18 inches; reddish brown (5YR 4/3) clay, reddish brown (5YR 4/4) moist; massive; very hard, firm, moderately sticky and moderately plastic; few fine roots; few medium tubular pores; few medium distinct pink accumulations of calcium carbonate, slightly effervescent; moderately alkaline (pH 8.0); abrupt wavy boundary.  (8 to 14 inches thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 46,
+        "bottom": 86,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "2Cr--18 to 34 inches; gray (10YR 6/1) weathered shale, light brownish gray (10YR 6/2) moist, few gypsum crystals; slightly effervescent; moderately alkaline (pH 8.0); gradual irregular boundary. (8 to 14 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 86,
+        "narrative": "2R--34 inches; shale."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and soil characteristics recognized in this pedon are:\nOchric epipedon - the zone from the surface to approximately 4 inches (A horizons).\nAlbic horizon - the zones from approximately 4 to 17 inches and 25 to 49 inches (E and E' horizons).\nSpodic horizon - the zone from approximately 17 to 25 inches (Bh1 and Bh2 horizons).\nArgillic horizon - the zone from approximately 49 to 84 inches (Btg horizon).\nSeries control section--the zone from 0 to 80 inches\nADDITIONAL DATA:\nData Map Unit ID: 458,367\nTABULAR SERIES DATA:\nSoil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nSAPELO      0-  2   65- 71  240-285  45- 55    14- 450\nSAPELO      0-  2   65- 71  240-285  45- 55    14- 450\nFloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNONE          0.5-1.5  APPARENT NOV-APR  60-60\nNONE            0-0.5  APPARENT NOV-APR  60-60\nDepth  Texture                3-Inch  No-10  Clay%   -CEC-\n0-17  FS S                    0-  0 100-100  2- 5   1-  3\n17-25  FS S LFS                0-  0 100-100  3- 7   2-  5\n25-49  FS S                    0-  0 100-100  3- 6   1-  3\n49-84  SL SCL FSL              0-  0 100-100 10-30   2-  5\nDepth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\n0-17  3.6- 5.5  1.-3.  0- 0   6.0-  20  LOW\n17-25  3.6- 5.5  2.-4.  0- 0   0.6- 2.0  LOW\n25-49  3.6- 5.5    -    0- 0   6.0-  20  LOW\n49-84  3.6- 5.5    -    0- 0   0.2- 2.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; black (N 2/0) fine sand; weak fine granular structure; very friable; many fine shrub roots; many clean sand grains giving a salt and pepper appearance; very strongly acid; clear smooth boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--4 to 17 inches; light gray (10YR 7/1) fine sand; few medium distinct vertical streaks of dark gray (10YR 4/1); single grained; loose; common fine roots; very strongly acid; abrupt wavy boundary.  (2 to 22 inches thick)"
+      },
+      {
+        "name": "Bh1",
+        "top": 43,
+        "bottom": 48,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bh1--17 to 19 inches; very dark brown (10YR 2/2) fine sand; weak fine granular structure; weakly cemented; common fine roots; many sand grains coated with organic matter; few clean sand grains; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bh2",
+        "top": 48,
+        "bottom": 56,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bh2--19 to 22 inches; brown (7.5YR 4/4) fine sand; common medium prominent distinct dark reddish brown (5YR 2/2) bodies of sand grains coated with organic matter;  weak fine granular structure; weakly cemented; few fine roots; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bh3",
+        "top": 56,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bh3--22 to 25 inches; brown (10YR 4/3) fine sand; common medium faint dark brown (10YR 3/3) and yellowish brown (10YR 5/4) soft masses of iron accumulation; weak fine granular structure; friable with common weakly cemented bodies; few fine roots; many sand grains coated with organic matter; few clean sand grains; very strongly acid; clear wavy boundary. (Combined thickness of the Bh horizons is 5 to 19 inches)"
+      },
+      {
+        "name": "E'",
+        "top": 64,
+        "bottom": 124,
+        "moist_hue": "2.5Y",
+        "moist_value": 8,
+        "moist_chroma": 4,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E'--25 to 49 inches; pale yellow (2.5Y 8/4) fine sand; common medium prominent strong brown (7.5YR 5/6) soft masses of iron accumulation; common 10 to 50 mm weakly cemented pockets that are light yellowish brown (2.5Y 6/4); single grained; loose; common clean sand grains; very strongly acid; clear wavy boundary.  (20 to 31 inches thick)"
+      },
+      {
+        "name": "Btg",
+        "top": 124,
+        "bottom": 213,
+        "moist_hue": "5Y",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Btg--49 to 84 inches; light gray (5Y 7/1) sandy clay loam; common, medium prominent yellowish brown (10YR 5/8) and a few fine prominent red (2.5YR 4/8) soft masses of iron accumulation; moderate medium subangular blocky structure; firm; patchy clay films on faces of peds; very strongly acid."
+      }
+    ]
+  ]
 }

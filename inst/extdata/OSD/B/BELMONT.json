@@ -56,5 +56,100 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons recognized in this pedon are:\na.  Ochric epipedon - the zone from the surface to a depth of 11 inches.  (A and E horizons)\nb. Argillic horizon - the zone from 11 to 38 inches.  (Bt1 and Bt2 horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inches; undecomposed organic materials consisting of mixed hardwood leaf litter."
+      },
+      {
+        "name": "Oe",
+        "top": 3,
+        "bottom": 5,
+        "narrative": "Oe--1 to 2 inch; partially decomposed organic materials."
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 13,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--2 to 5 inches; dark brown (7.5YR 3/2) silt loam; moderate fine granular structure; friable; many roots; strongly acid; clear smooth boundary. (2 to 5 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 13,
+        "bottom": 28,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "E--5 to 11 inches; brown (7.5YR 4/2) silt loam; weak fine subangular blocky structure; friable; many roots; moderately acid; gradual smooth boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 28,
+        "bottom": 58,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--11 to 23 inches; reddish brown (5YR 4/3) silty clay loam; moderate medium subangular blocky structure; firm, slightly sticky, slightly plastic; common roots; common clay films on peds; 10 percent rock fragments; moderately acid; gradual smooth boundary. (6 to 15 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 58,
+        "bottom": 97,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "cf_class": "channery",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--23 to 38 inches; reddish brown (5YR 4/3) channery silty clay loam; moderate medium subangular blocky structure; firm, slightly sticky, slightly plastic; common clay films on peds; 15 percent rock fragments; slightly acid; clear wavy boundary.  (10 to 24 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 97,
+        "bottom": 114,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "cf_class": "very channery",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--38 to 45 inches; reddish brown (5YR 4/3) very channery clay loam with pockets of silty clay loam; massive; friable; 35 percent rock fragments; neutral; clear wavy boundary.  (0 to 16 inches)"
+      },
+      {
+        "name": "R",
+        "top": 114,
+        "narrative": "R--45 inches, hard, gray limestone."
+      }
+    ]
+  ]
 }

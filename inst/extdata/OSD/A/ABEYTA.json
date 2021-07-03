@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nMollic epipedon - 5 to 38 cm (A1 and A2 horizons)\nCalcic horizon - 38 to 74 cm (Bk horizon)\nParalithic contact - 74 cm to shale bedrock (Cr horizon)\nParticle size control section - 25 to 74 cm (part of the\nA2 and the Bk horizon)\nAbeyta soils have a frigid temperature regime and are in an ustic soil moisture regime bordering on udic.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "pH_class": "neutral",
+        "narrative": "Oi--0 to 5 cm; slightly decomposed plant material, neutral. (0 to 8 cm thick)"
+      },
+      {
+        "name": "A1",
+        "top": 5,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--5 to 15 cm; dark grayish brown (10YR 4/2) loam, very dark grayish brown (10YR 3/2) moist; weak fine granular structure; very friable, soft, slightly sticky, slightly plastic; few very fine roots throughout; violently effervescent; 18 percent calcium carbonate equivalent; moderately alkaline (pH 8.0); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 15,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--15 to 38 cm; dark grayish brown (10YR 4/2) clay loam, very dark grayish brown (10YR 3/2) moist; weak medium subangular blocky structure parting to moderate medium granular; friable, slightly hard, moderately sticky, moderately plastic; few very fine roots throughout; few very fine tubular pores; violently effervescent; 26 percent calcium carbonate equivalent; moderately alkaline (pH 8.0); clear smooth boundary. (combined thickness of A1, A2 - 20 to 40 cm)"
+      },
+      {
+        "name": "Bk",
+        "top": 38,
+        "bottom": 74,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk--38 to 74 cm; grayish brown (10YR 5/2) clay loam, dark grayish brown (10YR 4/2) moist; moderate medium subangular blocky structure parting to strong fine subangular blocky; firm, hard, very sticky, very plastic; few very fine roots throughout; few very fine tubular pores; 5 percent parachanners; violently effervescent; 30 percent calcium carbonate equivalent; finely disseminated carbonates and fine threadlike carbonate masses; moderately alkaline (pH 8.2); clear smooth boundary. (15 to 61 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 74,
+        "bottom": 99,
+        "pH_class": "moderately alkaline",
+        "narrative": "Cr--74 to 99 cm; weakly cemented calcareous shale bedrock, moderately alkaline."
+      }
+    ]
+  ]
 }

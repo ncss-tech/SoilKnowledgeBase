@@ -56,5 +56,78 @@
   "REMARKS": {
     "section": "ADDITIONAL DATA",
     "content": "ADDITIONAL DATA:  Various chemical and physical data for these marsh soils are contained in a Masters Thesis, Pedogenic Investigations of Tidal Marsh Soils in Virginia, by Gary A. Reusche, VPI & SU, 1975.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0170 BACKBAY     0-  1   59- 65  190-240  40- 50     0-   5\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0170 FREQ            0-  0  APPARENT JAN-DEC  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0170  0-11  PEAT MPT                 -       -     0- 0    -\nVA0170 11-22  SL L SIL                0-  0 100-100 10-27    -\nVA0170 22-60  SR SL SICL              0-  0 100-100  8-34    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0170  0-11  4.5- 6.0  20-60  2- 8   2.0- 6.0  LOW\nVA0170 11-22  5.1- 7.3  1.-5.  2- 4   0.2- 2.0  LOW\nVA0170 22-60  5.1- 7.3  1.-5.  0- 2   0.2- 2.0  MODERATE\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oe--0 to 11 inches; very dark brown (10YR 2/2) mucky peat (hemic material); about 36 percent fiber, 28 percent rubbed; massive; common fine and medium roots; sodium pyrophosphate very pale brown (10YR 7/3); slight sulfide odor; strongly acid; clear smooth boundary.  (8 to 16 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 28,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--11 to 22 inches; black (10YR 2/1) silt loam; weak medium granular structure; slightly sticky, slightly plastic; common fine and medium roots; slightly acid; clear smooth boundary.  (4 to 30 inches thick)"
+      },
+      {
+        "name": "Cg1",
+        "top": 56,
+        "bottom": 84,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Cg1--22 to 33 inches; gray (10YR 5/1) sandy clay loam; massive; sticky, slightly plastic; few medium roots; few fine flakes of mica; neutral; clear smooth boundary.  (4 to 20 inches thick)"
+      },
+      {
+        "name": "Cg2",
+        "top": 84,
+        "bottom": 119,
+        "moist_hue": "N",
+        "moist_value": 6,
+        "moist_chroma": 0,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Cg2--33 to 47 inches; gray (N 6/0) silty clay loam; common medium distinct light olive brown (2.5Y 5/6) mottles; massive; slightly sticky, plastic; few fine flakes of mica; neutral; gradual smooth boundary.  (6 to 16 inches thick)"
+      },
+      {
+        "name": "Cg3",
+        "top": 119,
+        "bottom": 152,
+        "moist_hue": "N",
+        "moist_value": 6,
+        "moist_chroma": 0,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "narrative": "Cg3--47 to 60 inches; gray (N 6/0) silty clay loam; many coarse distinct light olive brown (2.5Y 5/6) mottles; massive; slightly sticky, plastic; common fine flakes of mica; neutral."
+      }
+    ]
+  ]
 }

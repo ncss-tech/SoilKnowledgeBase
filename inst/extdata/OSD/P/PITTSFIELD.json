@@ -56,5 +56,98 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\n1. Ochric Epipedon - the zone from the surface of the soil to a depth of 9 inches (Ap horizon).\n2. Cambic Horizon - the zone from 9 inches to 32 inches (Bw1, Bw2, and BC horizons)\n3. Base saturation greater than 60 percent within the 9 to 32 inch depth (Bw1, Bw2 & BC) horizons).\n4. Particle-size control section from 10 to 40 inches that is coarse-loamy (Bw1, Bw2, BC, and C1 horizons).\n5. Carbonates below a depth of 40 inches (C2 horizon).\n6. Mesic temperature regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 9 inches, very dark grayish brown (10YR 3/2) loam, light brownish gray (10YR 6/2) dry; moderate fine and medium granular structure; very friable; many fine and medium roots; less than 5 percent fine schist channers; neutral; abrupt smooth boundary. (5 to 10 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 23,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1 -- 9 to 15 inches, dark yellowish brown (10YR 4/4) loam; weak fine and medium granular structure; very friable; common fine roots; 10 percent fine schist channers; common earthworm casts and channels; neutral; clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 38,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw2 -- 15 to 25 inches, brown (10YR 4/3) fine sandy loam; weak fine and medium granular structure; very friable; common fine roots; 10 percent fine schist channers; common earthworm casts and channels; neutral; clear smooth boundary. (Combined thickness of the Bw horizons is 6 to 25 inches)"
+      },
+      {
+        "name": "BC",
+        "top": 64,
+        "bottom": 81,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BC -- 25 to 32 inches, olive brown (2.5Y 4/4) gravelly sandy loam; very weak thick platy structure; friable; common fine roots; 15 percent fine gravel and fine schist channers, quartzite and limestone ghosts; common earthworm casts and channels; neutral; clear smooth boundary. (0 to 15 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 81,
+        "bottom": 109,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C1 -- 32 to 43 inches, olive brown (2.5Y 4/4) gravelly sandy loam; massive; friable; very few fine roots; 20 percent fine gravel and fine schist channers, quartzite, and strong brown (7.5YR 5/6) limestone ghosts; neutral; clear smooth boundary. (10 to 20 inches thick)"
+      },
+      {
+        "name": "C2",
+        "top": 109,
+        "bottom": 165,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly alkaline",
+        "narrative": "C2 -- 43 to 65 inches, olive gray (5Y 4/2) gravelly fine sandy loam; massive; friable; 15 percent fine gravel and schist channers and partly weathered limestone; slightly effervescent; slightly alkaline."
+      }
+    ]
+  ]
 }

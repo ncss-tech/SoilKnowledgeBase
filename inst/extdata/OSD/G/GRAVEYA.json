@@ -56,5 +56,104 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This revision (8/95) changes the classification from Xerollic Camborthids to Xeric Haplocalcids according to the 1994 edition of Keys to Soil Taxonomy.  The remainder of the OSD has not been updated since 5/93.\nDiagnostic horizons and other features recognized in this pedon:\nOchric epipedon - zone 0 to 8 inches (A1 and A2 horizons)\nCambic horizon - zone 8 to 22 inches (Bw1 and Bw2 horizons)\nCalcic horizon - zone 22 to 60 inches (2Bkq1 and 2Bkq2 horizons)\nParticle-size control section - zone 10 to 40 inches (part of the Bw1, the Bw2, and part of the 2Bkq1 horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "stony",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 3 inches; pale brown (10YR 6/3) stony loam, dark brown (10YR 3/3) moist; moderate fine platy structure parting to moderate fine granular; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and fine, common medium roots; many very fine and fine, few medium vesicular and interstitial pores; 20 percent gravel, 5 percent cobbles, 3 percent stones; neutral (pH 7.0); clear smooth boundary.  (2 to 6 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--3 to 8 inches; pale brown (10YR 6/3) gravelly loam, brown (10YR 4/3) moist; moderate fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine, fine and medium roots; few very fine and fine tubular pores; 15 percent gravel; neutral (pH 7.2); clear smooth boundary.  (0 to 5 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 20,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--8 to 14 inches; light yellowish brown (10YR 6/4) gravelly clay loam, dark yellowish brown (10YR 4/4) moist; moderate fine and medium subangular blocky structure; slightly hard, friable, sticky and plastic; common very fine and fine roots; few very fine, fine and medium tubular pores; 30 percent gravel; slightly acid (pH 6.3); clear smooth boundary.   (5 to 10 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 36,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw2--14 to 22 inches; very pale brown (10YR 7/3) very gravelly clay loam, brown (10YR 5/3) moist; moderate medium subangular blocky structure; slightly hard, friable, sticky and plastic; common very fine and fine roots; 40 percent gravel, 5 percent cobbles; neutral (pH 6.6); clear smooth boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "2Bkq1",
+        "top": 56,
+        "bottom": 107,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 8.8,
+        "pH_class": "strongly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bkq1--22 to 42 inches; very pale brown (10YR 7/4) very gravelly sandy loam, yellowish brown (10YR 5/4) moist; massive; slightly hard, very friable; few very fine and fine roots; 50 percent gravel, 5 percent cobbles, calcium carbonate and silica coat rock fragments; strongly effervescent; strongly alkaline (pH 8.8); clear wavy boundary.  (10 to 30 inches thick)"
+      },
+      {
+        "name": "2Bkq2",
+        "top": 107,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 8.6,
+        "pH_class": "strongly alkaline",
+        "narrative": "2Bkq2--42 to 60 inches; very pale brown (10YR 7/4) extremely gravelly sandy loam, yellowish brown (10YR 5/4) moist; single grain; loose; 60 percent gravel, 10 percent cobbles, calcium carbonate and silica pendants are 1 to 5 mm thick around rock fragments; violently effervescent; strongly alkaline (pH 8.6)."
+      }
+    ]
+  ]
 }

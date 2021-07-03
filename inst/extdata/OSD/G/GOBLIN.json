@@ -56,5 +56,50 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features in this pedon include:\nSeries control section: 0 to 12 inches (0 to 30 cm)\nOchric epipedon: 0 to 3 inches (0 to 8 cm) (A horizon).\nGypsic horizon: 3 to 12 inches (8 to 30 cm) (By horizon).\nIn Utah this series is correlated with Desert range sites.\nIn 2010 the series ownership was transferred from Phoenix, Arizona.\nThe original classification was loamy, gypsic, mesic shallow Typic Torriorthents.\nIn the future, further investigation and lab sampling is needed to better define the gypsum content of this soil. Soil mapping in the adjacent Emery County suggests that the gypsum content exceeds 30 percent, jwb.\nTaxonomic Version: Eleventh Edition, 2010\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "2.5YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; light reddish brown (2.5YR 6/4) loam, red (2.5YR 4/6) moist; weak fine granular structure; slightly hard, very friable; few fine roots; few fine tubular pores; slightly calcareous; carbonates are disseminated; moderately alkaline (pH 8.2); clear smooth boundary.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "By",
+        "top": 8,
+        "bottom": 30,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "By--3 to 12 inches; yellowish red (5YR 5/6) loam, yellowish red (5YR 4/6) moist; weak subangular blocky structure; hard, friable, slightly sticky and slightly plastic; few fine, few medium roots; few fine tubular pores; common gypsum crystals and veining; moderately calcareous; carbonates are disseminated; moderately alkaline (pH 8.4); clear smooth boundary.  (6 to 18 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 30,
+        "bottom": 56,
+        "narrative": "Cr--12 to 22 inches; gypsiferous shale."
+      }
+    ]
+  ]
 }

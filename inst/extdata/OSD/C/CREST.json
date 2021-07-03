@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from 4 to 6 inches (A horizon)\nAlbic horizon - The zone from 6 to 10 inches (E horizon)\nArgillic horizon - The zone from 14 to 28 inches (Bt horizon)\nLithic contact - at 28 inches (R horizon)\nClassified according to Keys to Soil Taxonomy Tenth Edition, 2006\nName was taken from a well established and marked hiking trail through the Monzano Mountains.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "0i--0 to 1 inches; decomposed organic material mainly leaves, twigs, bark and needles."
+      },
+      {
+        "name": "0e",
+        "top": 3,
+        "bottom": 10,
+        "narrative": "0e--1 to 4 inches; decomposed and partially decomposed organic mat made up of the remnants of needles, twigs and bark. Combined thickness of the Oi and Oe horizon (1 to 4 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 10,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "cf_class": "stony",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "narrative": "A--4 to 6 inches; very dark gray (10YR 3/1) stony silt loam, black (10YR 2/1) moist; moderate fine crumb structure; soft, very friable; about 20 percent of this horizon is stone; neutral (pH 7.2); abrupt boundary.  0 to 2 inches thick."
+      },
+      {
+        "name": "E",
+        "top": 15,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "stony",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "narrative": "E--6 to 10 inches; light brownish gray (10YR 6/2) stony silt loam, dark grayish brown (10YR 4/2) moist; moderate fine crumb structure; soft, very friable; about 20 percent of his horizon is stone; neutral (pH 7.2); clear boundary.  4 to 6 inches thick."
+      },
+      {
+        "name": "E",
+        "top": 25,
+        "bottom": 36,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "narrative": "B&E--10 to 14 inches; of the material less than 2 mm., about 25 percent is like the E horizon and is the matrix.  About 75 percent is Bt material and characterized as follows: brown (7.5YR 5/3) clay loam, brown (7.5YR 4/3) moist; moderate fine subangular blocky structure; very hard, firm.  About 25 to 40 percent of the horizon is stone; neutral (pH 7.2); gradual boundary.  4 to 15 inches thick."
+      },
+      {
+        "name": "Bt",
+        "top": 36,
+        "bottom": 71,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "very stony",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "narrative": "Bt--14 to 28 inches; reddish brown (5YR 5/4) very stony clay, reddish brown (5YR 4/4) moist; moderate medium subangular blocky structure; extremely hard, firm; about 55 percent of the horizon is stone; there are thin continuous clay films on peds and coating the stone fragments; slightly alkaline (pH 7.4); clear boundary.  12 to 37 inches thick."
+      },
+      {
+        "name": "R",
+        "top": 71,
+        "bottom": 76,
+        "narrative": "R--28 to 30 inches; limestone bedrock weakly fractured with streamers of Bt horizon extending into the rock."
+      }
+    ]
+  ]
 }

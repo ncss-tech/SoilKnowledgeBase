@@ -56,5 +56,58 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 2 inches (A horizon)\nParalithic contact - the boundary at 11 inches (2Cr horizon)\nEntisol feature - the absence of diagnostic subsurface horizons\nType location moved in 1990 because original site was 3 inches deep and did not meet the Soil Taxonomy thickness requirement of 4 inches to be considered soil.\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Eleventh Edition, 2010\nRevised for the correlation of AZ661, 2/2009, WWJ\nRevised for the correlation of Graham County, AZ, Southwestern Part; March, 2011, WWJ\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; light reddish brown (5YR 6/4) very channery loam, reddish brown (5YR 4/4) moist; weak thin platy structure; soft, very friable, nonsticky and nonplastic; common very fine roots; common fine interstitial pores; slightly acid (pH 6.5); clear smooth boundary.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 5,
+        "bottom": 28,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--2 to 11 inches; yellowish red (5YR 5/6) very channery loam, yellowish red (5YR 4/6) moist; massive; soft, very friable, slightly sticky and slightly plastic; common very fine, fine and medium roots; common very fine and fine interstitial pores; neutral (pH 6.8); abrupt wavy boundary.  (0 to 11 inches thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 28,
+        "bottom": 152,
+        "narrative": "2Cr--11 to 60 inches; variegated fractured schist; common very fine and fine roots and few fine calcium carbonate coatings in fractures."
+      }
+    ]
+  ]
 }

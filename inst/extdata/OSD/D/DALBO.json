@@ -56,5 +56,114 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized are: ochric epipedon - from surface to 6 inch (A and E horizons); albic horizon - from 1 to 6 inches (E horizon); argillic horizon - from 6 to 35 inches (B/E, Bt1, Bt2, and Bt3 horizons); oxyaquic subgroup based on low chroma mottles and saturation at some time in the upper 40 inches; vertic subgroup based on more than 6 cm of COLE in the upper 40 inches; B/E does not qualify for a glossic horizon because E part is less than 15 percent of horizon. Base saturation greater than 60 percent in all parts of argillic horizons. 2/10/2011-TYPE LOCATION error was corrected.\nADDITIONAL DATA: See Minn. Ag. Exp. Stat. CFC No 2457 for information from representative pedon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0e",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "0e--0 to 1 inch; organic litter, mainly partially decomposed leaves, twigs, and grass. (0 to 2 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--1 to 2 inches; very dark gray (10YR 3/1) silt loam, gray (10YR 5/1) dry; moderate medium and fine granular structure; friable; many fine and medium roots; moderately acid; abrupt smooth boundary. (1 to 4 inches)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--2 to 6 inches; gray (10YR 6/1) and light brownish gray (10YR 6/2) silt loam; weak medium and thick platy structure; firm; many fine and medium roots; common very fine vesicular pores; moderately acid; abrupt wavy boundary. (2 to 12 inches thick)"
+      },
+      {
+        "name": "B/E",
+        "top": 15,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "B/E--6 to 9 inches; 90 percent brown (10YR 4/3) silty clay loam (Bt); 10 percent light brownish gray (10YR 6/2) silt loam (E); moderate weak medium angular blocky structure; firm; many fine and medium roots; strongly acid; abrupt wavy boundary. (0 to 7 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 23,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--9 to 15 inches; dark yellowish brown (10YR 4/4) clay; strong medium fine, and very fine angular blocky structure; firm; many distinct brown (10YR 4/3) clay films on faces of peds; many fine and medium roots; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 38,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--15 to 21 inches; brown (10YR 4/3) clay; few fine faint dark grayish brown (10YR 4/2) Fe depletions; strong fine and very fine angular blocky structure; firm; many distinct dark brown (10YR 3/3) and dark grayish brown (10YR 4/2) clay films on the faces of peds; common fine roots; neutral; clear smooth boundary. (Combined Bt horizon is 10 to 24 inches thick.)"
+      },
+      {
+        "name": "Bt3",
+        "top": 53,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silty clay",
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt3--21 to 35 inches; brown (10YR 5/3) silty clay; few fine faint yellowish brown (10YR 5/4) Fe concentrations; moderate medium and weak fine and very fine angular blocky structure; firm; common distinct brown (10YR 4/3) dark grayish brown (10YR 4/2) and very dark grayish brown (10YR 3/2) clay films on the faces of peds; few fine roots; slightly alkaline; gradual smooth boundary. (0 to 16 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 89,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "C--35 to 60 inches; light olive brown (2.5Y 5/4) silty clay loam; common fine distinct light brownish gray (2.5Y 6/2) and few fine prominent gray (5Y 6/1) Fe depletions; massive; firm; slightly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

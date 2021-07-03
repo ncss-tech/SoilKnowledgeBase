@@ -56,5 +56,77 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: 1. Catpoint soils were formerly mapped with the Tarboro series.  The presence of lamellae, siliceous mineralogy, and the seasonal high water table distinguish it from the Tarboro series.\n2. Classification  was changed with this revision of the series.  The series was previously classified as siliceous, thermic Typic Udipsamments.\n3. Diagnostic horizons and features recognized in this pedon are:\na.  Ochric epipedon - the zone from 0 to 9 inches (Ap horizon).\nSIR = VA0163\nMLRA = 133A, 153A, 153B\nREVISED = 2/16/93, MHC\nADDITIONAL DATA:  Laboratory data from the typical pedon (S74VA-159-5) may be obtained from the SCS in Richmond.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0163 CATPOINT    0-  6   59- 64  190-240  40- 48     5- 250\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0163 NONE   RARE   4.0-6.0  APPARENT FEB-APR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0163  0- 9  LS LFS                  0-  0  75-100  0-10    -\nVA0163  0- 9  S FS                    0-  0  75-100  0- 5    -\nVA0163  9-40  S LFS GR-S              0-  0  60-100  0-10    -\nVA0163 40-72  FS GRV-S LS             0-  5  15-100  0-10    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0163  0- 9  4.5- 6.5  .5-1.  0- 0   6.0-  20  LOW\nVA0163  0- 9  4.5- 6.5  .5-1.  0- 0   6.0-  20  LOW\nVA0163  9-40  4.5- 6.5  0.-.5  0- 0   6.0-  20  LOW\nVA0163 40-72  4.5- 6.5  0.-.5  0- 0   6.0-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 9 inches; dark brown (10YR 3/3) loamy sand; weak coarse granular structure; very friable; common fine roots; slightly acid; abrupt smooth boundary.  (4 to 12 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 23,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1--9 to 16 inches; dark yellowish brown (10YR 4/4) sand; common medium faint light yellowish brown (10YR 6/4) mottles; weak very coarse granular structure; very friable; few fine roots; 1 percent semi-rounded quartz gravel; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 41,
+        "bottom": 69,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "narrative": "Bw2--16 to 27 inches; yellowish brown (10YR 5/4) sand; few fine distinct brown (7.5YR 4/4) mottles; single grain; loose; coated; few fine roots; 1 percent semi-rounded quartz gravel; slightly acid; wavy diffuse boundary.  (Combined thickness of the Bw horizon is 0 to 40 inches.)"
+      },
+      {
+        "name": "E",
+        "top": 69,
+        "bottom": 102,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E--27 to 40 inches; light yellowish brown (10YR 6/4) sand; single grain; loose; few fine roots; slightly acid; gradual wavy boundary.  (0 to 20 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 102,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "narrative": "E and Bt--40 to 72 inches; very pale brown (10YR 7/3) fine sand (E); single grain; loose; uncoated; few dark minerals; yellowish brown (10YR 5/4) fine sandy loam lamellae (Bt) 1/8 to 1 inch thick, and totaling 2 to 3 inches in thickness; weak fine subangular blocky structure; very friable; sand grains coated and bridged with clay; slightly acid."
+      }
+    ]
+  ]
 }

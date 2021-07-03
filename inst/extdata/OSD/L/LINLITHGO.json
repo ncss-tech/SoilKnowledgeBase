@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: A minimal update was made in 1/2006 to add the CEC activity class at the request of the NSSC. The CEC is assigned based on one pedon of lab data from Cornell University. The competing series were updated. No other work was done. The last full update of this OSD was 1990.\nDiagnostic horizons and features recognized in the typical pedon are:\n(1) Ochric epipedon - The zone from the surface to a depth of 13 inches (Ap horizon).\n(2) Aquic moisture regime - Horizon within 20 inches that has dominant chroma of 2 or less with high chroma mottles (AB horizon).\n(3) The soil lacks a cambic horizon due to irregular decrease in organic carbon in the presence of an aquic moisture regime.\nSoil Interpretation Record NY0352\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 13 inches; dark brown (10YR 3/3) silt loam, light brownish gray (10YR 6/2) dry; moderate medium subangular blocky structure parting to weak very fine granular; very friable; common fine and few medium roots; slightly acid; clear smooth boundary. (5 to 14 inches thick)"
+      },
+      {
+        "name": "AB",
+        "top": 33,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "narrative": "AB -- 13 to 21 inches; very dark gray (10YR 3/1) loam; common, fine, faint dark brown (7.5 YR 4/4) mottles; moderate fine and medium subangular structure; very friable; few fine roots; moderately acid; clear, wavy boundary. (0 to 9 inches thick)"
+      },
+      {
+        "name": "Bg1",
+        "top": 53,
+        "bottom": 74,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bg1 -- 21 to 29 inches; grayish brown (2.5Y 5/2) silt loam; common fine prominent yellowish brown (10YR 5/8) mottles; weak coarse and medium subangular blocky structure; friable; few fine roots; few medium vesicular pores; common fine and very fine tubular pores; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 74,
+        "bottom": 94,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bg2 -- 29 to 37 inches; gray (5Y 6/1) gravelly loam; many medium and coarse prominent strong brown (7.5YR 5/8) and yellowish red (5YR 4/8) mottles, more than 40 percent; weak medium and coarse subangular blocky structure; friable; common fine vesicular pores; few fine tubular pores; 15 percent rock fragments; slightly acid; clear smooth boundary. (Combined thickness of the B horizon is 11 to 24 inches)"
+      },
+      {
+        "name": "2C",
+        "top": 94,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "very gravelly",
+        "pH_class": "slightly acid",
+        "narrative": "2C -- 37 to 72 inches; grayish brown (10YR 5/2) very gravelly loamy coarse sand; single grain; loose; 60 percent rock fragments; slightly acid."
+      }
+    ]
+  ]
 }

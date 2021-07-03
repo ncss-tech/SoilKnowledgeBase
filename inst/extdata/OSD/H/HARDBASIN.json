@@ -56,5 +56,74 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in the profile are:\nOchric epipedon -- 0 to 1 inch (Ay horizon).\nPetrogypsic horizon - 1 to 12 inches (Bym1 and Bym2 horizons).\nParalithic contact -- 12 inches (Cr layer).\nParticle-size control section -- 0 to 1 inch (Ay horizon).\nResponsibility for this series was transferred from Davis to Phoenix 4/2015. The last revision to the series was 7/2006. ET\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ay",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ay--0 to 1 inch; light reddish brown (5YR 6/4) fine sandy loam, yellowish red (5YR 4/6) moist; strong very thick platy structure; soft, very friable, nonsticky and nonplastic; many very fine and few fine vesicular and interstitial pores; electrical conductivity 2.7 dS/m; 10 percent soft masses of gypsum; 5 percent pebbles; violently effervescent (1 percent calcium carbonate equivalent in the fine earth fraction); moderately alkaline (pH 8.2); abrupt smooth boundary. (1 to 4 inches thick)"
+      },
+      {
+        "name": "Bym1",
+        "top": 3,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 4,
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bym1--1 to 7 inches; white (10YR 8/1) weakly to strongly cemented petrogypsic horizon, very pale brown (10YR 8/4) moist; massive; very hard to extremely hard, very firm to slightly rigid, brittle; few fine roots; vertically oriented crystals of gypsum; very slightly effervescent; abrupt wavy boundary. (4 to 8 inches thick)"
+      },
+      {
+        "name": "Bym2",
+        "top": 18,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 4,
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bym2--7 to 12 inches; very pale brown (10YR 8/2) very strongly cemented petrogypsic horizon, very pale brown (10YR 8/4) moist; massive; very rigid, rigid, brittle; few fine interstitial pores; continuous gypsum cap; very slightly effervescent; gradual wavy boundary. (4 to 8 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 30,
+        "bottom": 79,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "narrative": "Cr--12 to 31 inches; very pale brown (10YR 8/3) gypsiferous sedimentary rocks interbedded with sandstone, very pale brown (10YR 8/4) moist; massive; hard, firm; very slightly effervescent."
+      }
+    ]
+  ]
 }

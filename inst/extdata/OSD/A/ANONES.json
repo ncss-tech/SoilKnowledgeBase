@@ -56,5 +56,62 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nUmbric epipedon - the zone from 0 to 6 inches (Ap horizon).\nCambic horizon - the zone from 6 to 27 inches (Bw1 and Bw2 horizon).\nParalithic contact - at 27 inches.\nThese soils were formerly included and mapped with the Alonso series from which they differ in being shallower to the saprolite and in not having a well developed B horizon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; dusky red (2.5YR 3/2) clay; weak fine granular structure; firm; nonsticky, slightly plastic; many fine roots; strongly acid; clear smooth boundary.  (4 to 8 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 15,
+        "bottom": 33,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1--6 to 13 inches; dusky red (2.5YR 3/2), silty clay loam; weak medium subangular blocky structure; firm; nonsticky, slightly plastic; common fine roots; very fine pores; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 33,
+        "bottom": 69,
+        "moist_hue": "10R",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw2--13 to 27 inches; weak red (10R 4/2) loam; massive; very friable; nonsticky, nonplastic; common fine roots; strongly acid; about 40 percent, by volume, saprolite; gradual wavy boundary.  (Combined thickness of the Bw horizons range from 20 to 28 inches)"
+      },
+      {
+        "name": "Cr",
+        "top": 69,
+        "bottom": 102,
+        "pH_class": "strongly acid",
+        "narrative": "Cr--27 to 40 inches; saprolite consisting of highly weathered volcanic rock with original rock structure visible.  Rock fragments are easily broken between fingers; strongly acid."
+      }
+    ]
+  ]
 }

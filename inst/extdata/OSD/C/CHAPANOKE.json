@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  In the past Chapanoke soils have been included with Augusta and Barclay soils.  However, Chapanoke soils are in a fine-silty family.   The soil was proposed in Perquimans County, North Carolina, but established with the City of Virginia Beach, Virginia correlation.\nDiagnostic horizons and soil properties recognized in the typical pedon are:\nOchric epipedon - the zone from the surface to a depth of 6 inches (Ap horizon)\nArgillic horizon - the zone from 6 to 50 inches below the surface (Bt, Btg1, and Btg2 horizons)\nADDITIONAL DATA:  used in MLRA(S): 153A, 153B\nTABULAR SERIES DATA:\nSOI-5   Soil Name   Slope  Airtemp  FrFr/Seas   Precip  Elevation\nNC0160  CHAPANOKE    0-2    59-62   190-250      46-54    5-25\nSOI-5   FloodL  FloodH   Watertable     Kind     Months    Bedrock\nNC0160   NONE    RARE     0.5-1.5     APPARENT   NOV-APR     >60\nSOI-5  Depth  Texture          3-Inch   No-10    Clay%   -CEC-\nNC0160  0-6  SIL L              0-0    100-100   7-27     2-8\nNC0160  0-6  FSL VFSL           0-0    100-100   5-15     2-5\nNC0160  6-50  SICL L CL         0-0    100-100  18-35     3-9\nNC0160 50-62  FSL LFS L         0-0    100-100   7-27     1-6\nNC0160 62-80  SR S L            0-0     98-100   2-15     0-3\nSOI-5    Depth     -pH-      O.M.    Permeab    Shnk-Swll\nNC0160   0-6      3.5-6.5   .5-2.     2.0-6.0   LOW\nNC0160   0-6      3.5-6.5   .5-2.     2.0-6.0   LOW\nNC0160   6-50     3.5-6.5   0.-.5     0.2-0.6   LOW\nNC0160  50-62     3.5-6.5   0.-.5     0.2-0.6   LOW\nNC0160  62-80     3.5-6.5   0.-.5     0.2-2.0   LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; grayish brown (2.5Y 5/2) silt loam; weak medium granular structure; friable; few fine and medium roots; moderately acid; clear smooth boundary.  (4 to 12 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 15,
+        "bottom": 30,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--6 to 12 inches; olive yellow (2.5Y 6/6) loam; weak medium subangular blocky structure; friable; slightly sticky; few fine roots; common medium prominent brownish yellow (10YR 6/8) iron masses and common medium prominent light brownish gray (2.5Y 6/2) iron depletions; few faint clay films on faces of peds; few fine flakes of mica; strongly acid; clear smooth boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 30,
+        "bottom": 76,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btg1--12 to 30 inches; light gray (2.5Y 7/2) silty clay loam; friable; slightly sticky, slightly plastic; few fine roots; common medium prominent brownish yellow (10YR 6/8) iron masses; weak medium subangular blocky structure; few faint clay films on faces of peds; common fine flakes of mica; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 76,
+        "bottom": 127,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg2--30 to 50 inches; gray (10YR 6/1) silt loam; weak fine subangular blocky structure; friable; common medium prominent brownish yellow (10YR 6/6) and pale yellow (2.5Y 7/4) iron masses; common fine flakes of mica; strongly acid; gradual smooth boundary.  (Combined thickness of Btg is 20 to 50 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 127,
+        "bottom": 157,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "loamy fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Cg--50 to 62 inches; gray (10YR 6/1) loamy fine sand; single grained; loose; common coarse prominent brownish yellow (10YR 6/6) iron masses; common fine flakes of mica; many fine dark opaque minerals; strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "C",
+        "top": 157,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "fine sand",
+        "pH_class": "strongly acid",
+        "narrative": "C--62 to 80 inches; brownish yellow (10YR 6/6) fine sand; single grained; loose; few fine prominent light brownish gray (10YR 6/2) iron depletions; common fine flakes of mica; many fine dark opaque minerals; strongly acid."
+      }
+    ]
+  ]
 }

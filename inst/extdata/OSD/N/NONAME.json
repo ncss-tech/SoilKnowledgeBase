@@ -56,5 +56,73 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 7 inches (A and Bw1 horizons and part of the Bw2 horizon).\nCambic horizon - The zone from 3 to 12 inches (Bw1 and Bw2 horizons).\nLithic contact - The boundary at 12 inches to underlying hard, unweathered bedrock (R layer).\nParticle-size control section - The zone from the soil surface to 12 inches (A, Bw1, and Bw2 horizons).  The typical pedon averages 30 percent clay and 14 percent rock fragments.\nThe revision of December 2006 updated the taxonomic class from Lithic Eutrocryepts based on the tenth edition of the Keys to Soil Taxonomy, 2006.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "stony",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; pale brown (10YR 6/3) stony clay loam, very dark grayish brown (10YR 3/2) moist; weak fine subangular blocky structure; slightly hard, very friable, moderately sticky and slightly plastic; many roots; many very fine and fine tubular pores; 10 percent stones, 5 percent cobbles, and 10 percent gravel; slightly acid (pH 6.4); gradual wavy boundary.  (2 to 4 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 8,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--3 to 6 inches; yellowish brown (10YR 5/4) clay loam, dark brown (10YR 3/3) moist; moderate medium subangular blocky structure; soft, very friable, moderately sticky and slightly plastic; many roots; many very fine and fine tubular pores; 3 percent cobbles and 10 percent gravel; slightly acid (pH 6.4); clear wavy boundary.  (0 to 4 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 15,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bw2--6 to 12 inches; yellowish brown (10YR 5/4) clay loam, dark yellowish brown (10YR 3/4) moist; moderate medium subangular blocky structure; soft, very friable, moderately sticky and moderately plastic; common roots; many very fine and fine tubular pores; 3 percent cobbles and 10 percent gravel; slightly acid (pH 6.4); clear irregular boundary.  (2 to 6 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 30,
+        "narrative": "R--12 inches; igneous rock."
+      }
+    ]
+  ]
 }

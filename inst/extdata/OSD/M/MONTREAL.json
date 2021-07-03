@@ -56,5 +56,119 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nalbic horizon - 2 to 6 inches (E horizon);\nspodic horizon - 6 to 20 inches (Bhs and Bs horizons);\nfragipan -  20 to 51 inches [(E/B)x and (B/E)x horizons];\nglossic horizon - 20 to 80 inches [(E/B)x, (B/E)x and E/B horizons];\nOxyaquic feature - the soil is saturated within 40 inches for 20 or more consecutive days.\nOnly series status, responsibility, and scrivener's errors changed - 4/09.\nADDITIONAL DATA: For laboratory data on the typical pedon refer to pedon S00MI-083-002 from the NSSL.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oa",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "7.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oa--0 to 2 inches; black (7.5YR 2.5/1) well decomposed forest litter; very strongly acid; abrupt smooth boundary. (0 to 2 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 15,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "cobbly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "E--2 to 6 inches; brown (7.5YR 5/2) cobbly fine sandy loam, pinkish gray (7.5YR 7/2) dry; moderate medium granular structure; friable; many very fine to coarse roots; 10 percent gravel, 15 percent cobbles, 1 percent stones; 1 percent boulders; very strongly acid; clear irregular boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "Bhs",
+        "top": 15,
+        "bottom": 28,
+        "texture_class": "fine sandy loam",
+        "cf_class": "cobbly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bhs--6 to 11 inches; dark brown (7.5YR3/3); cobbly fine sandy loam, moderate medium subangular blocky structure; friable; many very fine to coarse roots; ; 10 percent gravel, 15 percent cobbles, 1 percent stones, 1 percent boulders; strongly acid; clear irregular boundary. (5 to 12 inches thick)"
+      },
+      {
+        "name": "Bs",
+        "top": 28,
+        "bottom": 51,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "cobbly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs--11 to 20 inches; dark brown (7.5YR 3/4) and brown (7.5YR 4/4) cobbly fine sandy loam; moderate fine and medium subangular blocky structure; friable; few fine and medium roots; few fine vesicular pores; few fine distinct strong brown (7.5YR 4/6) masses of iron accumulation; 10 percent gravel, 15 percent cobbles, 1 percent stones, 1 percent boulders; strongly acid; clear wavy boundary. (9 to 20 inches thick)"
+      },
+      {
+        "name": "x",
+        "top": 51,
+        "bottom": 84,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loamy fine sand",
+        "cf_class": "very cobbly",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "(E/B)x--20 to 33 inches; about 55 percent brown (7.5YR 5/3) very cobbly loamy fine sand, pinkish gray (7.5YR 7/2) dry (E), surrounding reddish brown (5YR 4/4) very cobbly fine sandy loam (Bt); moderate medium platy structure; very firm; few very fine and fine roots; common fine and medium vesicular pores; common medium distinct strong brown (7.5YR 4/6) masses of iron accumulation; 15 percent gravel, 20 percent cobbles, 2 percent stones, 1 percent boulders; moderately acid; clear wavy boundary. (0 to 15 inches thick)"
+      },
+      {
+        "name": "x",
+        "top": 84,
+        "bottom": 130,
+        "dry_hue": "5YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy fine sand",
+        "cf_class": "very cobbly",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "(B/E)x--33 to 51 inches; about 65 percent reddish brown (5YR 4/4) very cobbly  fine sandy loam (Bt), surrounded by reddish brown (5YR 5/3) very cobbly loamy fine sand, pinkish gray (5YR 7/2) dry (E); moderate thick platy structure; firm; common fine and medium vesicular pores; common faint reddish brown (5YR 4/4) clay films on faces of peds; common fine prominent reddish brown (2.5YR 4/4) masses of iron accumulation; 15 percent gravel, 20 percent cobbles, 2 percent stones, 1 percent boulders; moderately acid; gradual wavy boundary. (15 to 35 inches thick)"
+      },
+      {
+        "name": "E/B",
+        "top": 130,
+        "bottom": 203,
+        "dry_hue": "5YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loamy fine sand",
+        "cf_class": "cobbly",
+        "pH_class": "slightly acid",
+        "narrative": "E/B--51 to 80 inches; about 75 percent light brown (7.5YR 6/3) cobbly loamy fine sand, pinkish gray (5YR 7/2) dry (E); massive; friable; surrounding reddish brown (5YR 4/4) cobbly fine sandy loam (B); moderate medium platy parting to moderate medium subangular blocky structure; friable; common faint reddish brown (5YR 4/4) clay films on faces of peds; common fine prominent reddish brown (2.5YR 4/4) masses of iron accumulation; 10 percent gravel, 10 percent cobbles, 1 percent stones, 1 percent boulders; slightly acid."
+      }
+    ]
+  ]
 }

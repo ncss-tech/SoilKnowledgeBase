@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and other features recognized in this pedon:\nMollic epipedon - the zone from 5 to 78 cm (A1 and A2 horizons) (There is less than 0.6 percent organic carbon below 78 cm.  Dark colors are due to parent material).\nParalithic contact - at 123cm (Cr horizon)\nLaboratory data exists for a pedon sampled as Naz (xeric moisture regime): Lab Pedon #06N1084, KSSL.\nNaz series is mapped in ID617 at lower elevations (<1525m) and needs to be investigated as a potential frigid taxadjunct to the series.  The depth class and moisture regime of Naz should also be investigated across its extent (currently mapped as deep and very deep).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "narrative": "Oe--0 to 5 cm; very dark grayish brown (10YR 3/2) moderately decayed leaves, needles, and twigs; slightly acid (pH 6.5); abrupt, wavy boundary.  (0 to 8 cm thick)"
+      },
+      {
+        "name": "A1",
+        "top": 5,
+        "bottom": 45,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "narrative": "A1--5 to 45 cm; dark grayish brown (10YR 4/2) sandy loam, very dark brown (10YR 2/2) moist; moderate very fine granular structure; soft, very friable, nonsticky and nonplastic; many very fine, fine, and medium, common coarse roots; many very fine irregular and tubular pores; 3 percent angular gravel, mostly less than 5 mm. in diameter; slightly acid (pH 6.4); clear, smooth boundary.  (13 to 50 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 45,
+        "bottom": 78,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "narrative": "A2--45 to 78 cm; brown (10YR 5/3) sandy loam, very dark grayish brown (10YR 3/2) moist; weak very fine granular structure; soft, very friable, nonsticky and nonplastic; common very fine, fine, and medium, few coarse roots; many very fine irregular and common very fine tubular pores; 13 percent angular gravel, mostly less than 5 mm. in diameter; slightly acid (pH 6.5); gradual, wavy boundary.  (15 to 48 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 78,
+        "bottom": 123,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "coarse sandy loam",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "narrative": "C--78 to 123 cm; brown (10YR 5/3) coarse sandy loam, dark brown (10YR 3/3) moist; massive; slightly hard, very friable, nonsticky and nonplastic; few very fine, fine, and medium roots; many very fine irregular and tubular pores; 12 percent angular gravel, mostly less than 5 mm. in diameter; neutral (pH 6.7); clear, smooth boundary.  (28 to 100 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 123,
+        "bottom": 155,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 3,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "narrative": "Cr--123 to 155 cm; very pale brown (10YR 8/3) gravelly coarse sandy loam, pale brown (10YR 6/3) moist; commonly stained very pale brown (10YR 7/4) and light yellowish brown (10YR 6/4), brown (7.5YR 5/4) moist; moderately cemented; many fine mica flakes; neutral (pH 6.9)."
+      }
+    ]
+  ]
 }

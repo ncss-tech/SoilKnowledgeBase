@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soils mapped as Dubakella at the family level in MLRA 22 should be reevaluated as new series.  Soils previously included with Dubakella with soil temperatures of 53 to 59 degrees are now excluded from the series concept.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon--the zone from the surface to a depth of about 11 inches (A1, A2).\nArgillic horizon--the zone from about 11 to 21 inches (Bt).\nParticle-size control section--the zone from about 11 to 21 inches (Bt).\nADDITIONAL DATA:  NSSL pedon S68CA-057-036 (variant)\nMLRA SOIL SURVEY REGIONAL OFFICE (MO) RESPONSIBLE: Davis, California\nSERIES ESTABLISHED:  Soil-Vegetation survey of Mendocino County, California, 1952.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "stony",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 2 inches; reddish brown (5YR 4/4) stony loam, dark reddish brown (5YR 3/4) moist; strong fine and medium subangular blocky structure; soft, friable, nonsticky and nonplastic; many very fine roots; many very fine and fine interstitial pores; about 30 percent stones, cobbles and pebbles; neutral (pH 7.0); abrupt smooth boundary. (2 to 4 inches thick)."
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 28,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "stony",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "A2--2 to 11 inches; reddish brown (5YR 4/4) stony clay loam, dark reddish brown (5YR 3/4) moist; moderate medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine and fine and common medium roots; many very fine and fine pores; about 20 percent stones, cobbles and pebbles, pebbles are weathered subangular fragments of serpentinized rock; neutral (pH 7.0); gradual irregular boundary.  (6 to 12 inches thick)."
+      },
+      {
+        "name": "Bt",
+        "top": 28,
+        "bottom": 53,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "very gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bt--11 to 21 inches; yellowish brown (10YR 5/4) very gravelly clay, dark yellowish brown (10YR 4/4) moist; strong medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine and fine, and few medium roots; many very fine and fine pores; few thin discontinuous clay films; about 35 percent rock fragments, pebbles are angular and less weathered than above; neutral (pH 7.0); clear irregular boundary.  (6 to 26 inches thick)."
+      },
+      {
+        "name": "C",
+        "top": 53,
+        "bottom": 64,
+        "texture_class": "clay",
+        "narrative": "C--21 to 25 inches; blue green, hard, fractured and partly weathered serpentinized rock; cracks filled with soil material similar to that in Bt horizon with moderately thick, nearly continuous clay films and dark coatings in fractures.  (0 to 6 inches thick)."
+      },
+      {
+        "name": "R",
+        "top": 64,
+        "bottom": 76,
+        "narrative": "R--25 to 30 inches; serpentinized bedrock."
+      },
+      {
+        "name": "Oi",
+        "top": 5,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--2 inches to 0; fresh, partly decomposed and decomposed pine needles; abrupt smooth boundary.  (1 to 3 inches thick)."
+      }
+    ]
+  ]
 }

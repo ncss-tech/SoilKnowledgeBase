@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This revision changes the series classification to recognize the 1992 amendments to Soil Taxonomy that introduces changes in classification of Spodosols.\n09/2008.  The OSD was reclassified from Grossarenic Alaquods to Arenic Umbric Alaquods.  These soils have both the Grossarenic and Umbric soil features; however, classify as Arenic Umbric Alaquods by virtue of the order of the Alaquod subgroups in the 10th edition of the Keys to Soil Taxonomy.  These soils would classify as Grossarenic Umbric Alaquods if such existed in the Soil Taxonomy.\nDiagnostic horizons and features recognized in this pedon are:\nUmbric epipedon-zone from the surface to a depth of 18 inches (A1, A2).\nAlbic horizon-zone from 18 to 52 inches (E1, E2).\nSpodic horizon-zone from 52 to 80 inches (Bh).\nAquic condition-endosaturation throughout soil.\nADDITIONAL DATA: Soil Characterization Lab., IFAS, UOF\nS3-14-(1-8), S4-5-(1-7)\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nFL0295 ALLANTON    0-  2   65- 70  230-310  50- 60    20- 150\nFL0397 ALLANTON    0-  2   65- 70  230-310  50- 60    20- 150\nFL0489 ALLANTON    0-  2   65- 70  230-310  50- 60    20- 150\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nFL0295 NONE            0-0.5  APPARENT FEB-SEP  60-60\nFL0397 COMMON          0-0.5  APPARENT DEC-MAY  60-60\nFL0489 NONE             -     APPARENT    -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nFL0295  0-18  LS LFS                  0-  0 100-100  8-12  10- 25\nFL0295  0-18  S FS                    0-  0 100-100  3- 8   4-  8\nFL0295 18-56  S FS LS                 0-  0 100-100  3-12   1-  8\nFL0295 56-80  S FS LS                 0-  0 100-100  3-12  10- 30\nFL0397  0-18  S FS                    0-  0 100-100  3- 8   4-  8\nFL0397  0-18  LS LFS                  0-  0 100-100  8-12  10- 25\nFL0397 18-52  S FS LS                 0-  0 100-100  3-12   1-  8\nFL0397 52-80  S FS LS                 0-  0 100-100  3-12  10- 30\nFL0489  0-18  MK-S MK-FS MK-LFS       0-  0 100-100  3-12  15- 30\nFL0489 18-56  S FS                    0-  0 100-100  1- 8   1-  8\nFL0489 56-80  S FS LS                 0-  0 100-100  3-12  10- 30\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nFL0295  0-18  3.5- 5.5  2.-7.  0- 2   2.0- 6.0  LOW\nFL0295  0-18  3.5- 5.5  2.-5.  0- 2   2.0- 6.0  LOW\nFL0295 18-56  3.5- 5.5  0.-.5  0- 2   6.0-  20  LOW\nFL0295 56-80  3.5- 5.5  2.-4.  0- 2   0.6- 6.0  LOW\nFL0397  0-18  3.5- 5.5  2.-5.  0- 0   2.0- 6.0  LOW\nFL0397  0-18  3.5- 5.5  2.-7.  0- 2   2.0- 6.0  LOW\nFL0397 18-52  3.5- 5.5  0.-.5  0- 0   6.0-  20  LOW\nFL0397 52-80  3.5- 5.5  2.-4.  0- 0   0.6- 6.0  LOW\nFL0489  0-18  3.5- 5.5  10-20  0- 2   2.0- 6.0  LOW\nFL0489 18-56  3.5- 5.5  0.-1.  0- 2   2.0- 6.0  LOW\nFL0489 56-80  3.5- 5.5  2.-4.  0- 2   0.6- 6.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 10 inches; black (10YR 2/1) sand; weak fine granular structure; very friable; many fine and medium roots; many uncoated sand grains; very strongly acid; clear smooth boundary. (10 to 22 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 25,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--10 to 18 inches; very dark gray (10YR 3/1) sand; single grain; loose; common uncoated sand grains; common fine and medium roots; very strongly acid; clear wavy boundary. (6 to 12 inches thick)"
+      },
+      {
+        "name": "E1",
+        "top": 46,
+        "bottom": 69,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E1--18 to 27 inches; dark gray (10YR 4/1) sand with streaks and splotches of gray (10YR 5/1); single grain; loose; few medium roots; common uncoated sand grains; very strongly acid; gradual wavy boundary. (6 to 12 inches thick)"
+      },
+      {
+        "name": "E2",
+        "top": 69,
+        "bottom": 132,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E2--27 to 52 inches; light gray (10YR 7/1) sand; single grain; loose; few fine roots; very strongly acid; clear smooth boundary. (5 to 33 inches thick)"
+      },
+      {
+        "name": "Bh1",
+        "top": 132,
+        "bottom": 142,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bh1--52 to 56 inches; very dark gray (10YR 3/1) sand; single grain; loose; about 50 percent of sand grains coated with organic matter; very strongly acid; clear wavy boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bh2",
+        "top": 142,
+        "bottom": 203,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "sand",
+        "pH_class": "extremely acid",
+        "narrative": "Bh2--56 to 80 inches; black (N 2/0) sand; massive, crushing to weak fine granular structure; very friable; sand grains coated with organic matter; extremely acid."
+      }
+    ]
+  ]
 }

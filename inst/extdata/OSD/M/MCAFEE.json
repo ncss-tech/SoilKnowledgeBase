@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons in the pedon are:\nMollic epipedon: 0 to 7 inches (Ap)\nArgillic horizon: 7 to 32 inches (Bt1, Bt2, Bt3)\nLithic contact @ 32 inches\nADDITIONAL DATA: Characterization sample 08KY-167-02-(1-4) by the University of Kentucky.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; dark brown (10YR 3/3) silt loam, brown (10YR 4/3) dry; moderate medium granular structure; friable; common fine roots throughout; moderately acid; abrupt smooth boundary. (6 to 9 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 41,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--7 to 16 inches; brown (7.5YR 4/4) silty clay loam; moderate medium subangular blocky structure; firm, slightly sticky, slightly plastic; common fine roots between peds; 50 percent continuous distinct clay films on vertical faces of peds; 1 percent fine prominent spherical moderately cemented black (7.5YR 2.5/1) iron-manganese nodules; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 41,
+        "bottom": 66,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silty clay",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--16 to 26 inches; dark reddish brown (5YR 3/3) silty clay; strong medium subangular blocky structure; very firm, moderately sticky, moderately plastic; few fine roots between peds; 70 percent continuous distinct clay films on vertical faces of peds; 1 percent fine prominent spherical moderately cemented black (7.5YR 2.5/1) iron-manganese nodules; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 66,
+        "bottom": 81,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt3--26 to 32 inches; dark reddish brown (5YR 3/3) clay; strong medium subangular blocky structure; very firm, moderately sticky, moderately plastic; few fine roots between peds; 70 percent continuous distinct clay films on vertical faces of peds; 1 percent fine prominent spherical moderately cemented black (7.5YR 2.5/1) iron-manganese nodules; 5 percent nonflat angular indurated 2- to 150-millimeter chert fragments; neutral; abrupt irregular boundary. (combined thickness of the Bt horizon ranges from 18 to 32 inches)"
+      },
+      {
+        "name": "R",
+        "top": 81,
+        "narrative": "R--32 inches; hard phosphatic limestone bedrock."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,57 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from soil surface to 10 cm. (A and C horizons) .\nLithic Contact - The boundary at 10 cm (R layer).\nParticle-size control section - The zone from soil surface to 10 cm (A and C horizons) .\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely stony",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 cm; brown (10YR 5/3) extremely stony loam, dark brown (10YR 3/3) moist; moderate fine subangular blocky structure; soft, very friable, nonsticky and slightly plastic; few very fine roots; many very fine interstitial pores; 35 percent gravel, 10 percent cobbles, and 20 percent stones; moderately alkaline (pH 8.2); violently effervescent; abrupt smooth boundary. (3 to 5 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 3,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely stony",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--3 to 10 cm; pale brown (10YR 6/3) extremely stony loam, brown (10YR 4/3) moist; moderate fine subangular blocky structure; soft, very friable, nonsticky and slightly plastic; common very fine, few fine roots; many very fine interstitial pores; 35 percent gravel, 5 percent cobbles, and 20 percent stones; moderately alkaline (pH 8.4); violently effervescent; abrupt wavy boundary. (5 to 12 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 10,
+        "narrative": "R--10 cm; dolomite."
+      }
+    ]
+  ]
 }

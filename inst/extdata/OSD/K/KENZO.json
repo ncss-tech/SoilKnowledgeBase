@@ -56,5 +56,52 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon: The zone from 0 to 4 inches. (A horizon)\nLithic feature: bedrock at 11 inches (R horizon)\nParticle size control section: The zone from 0 to 11 inches. (A and, C horizons)\nTaxonomic Version: Ninth Edition 2003The assignment of the cation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "5YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "cf_class": "cobbly",
+        "pH": 8.1,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; reddish yellow (5YR 6/6) cobbly loamy sand, yellowish red (5YR 4/6) moist; weak fine granular structure; soft, very friable, nonsticky, nonplastic; few very fine and fine roots; common very fine tubular and few fine interstitial pores; 15 percent gravel and 10 percent cobbles; very slightly effervescent; moderately alkaline (pH 8.1); clear smooth boundary. (0 to 5 inches thick)."
+      },
+      {
+        "name": "C",
+        "top": 10,
+        "bottom": 28,
+        "moist_hue": "5YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "cobbly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C--4 to 11 inches; reddish yellow (5YR 6/6) cobbly sandy loam, yellowish red (5YR 5/6) moist; weak fine and medium granular structure; soft, very friable, nonsticky, nonplastic; few very fine and fine roots; common very fine tubular pores; 5 percent gravel, 15 percent cobbles, and 5 percent stones; slightly effervescent; moderately alkaline (pH 8.2); abrupt smooth boundary. (5 to 18 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 28,
+        "texture_class": "sand",
+        "narrative": "R--11 inches; Kayenta Formation sandstone bedrock."
+      }
+    ]
+  ]
 }

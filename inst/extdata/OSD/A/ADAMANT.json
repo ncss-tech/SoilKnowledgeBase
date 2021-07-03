@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  1.  The classification was updated to Coarse-silty, isotic, frigid Typic Haplorthods with a 1998 revision.\n2.  Adamant soils were previously mapped and correlated as Salmon Variant (moderately deep variant) in Lamoille County, Vermont.\n3.  Diagnostic horizons and features recognized in this pedon are:\na.  Albic horizon - the zone from 4 to 9 inches (E horizon).\nb.  Spodic horizon - the zone from 9 to 14 inches (Bs1 horizon).\nc.  Lithic contact - bedrock at 28 inches from the soil surface.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inches; slightly decomposed organic material"
+      },
+      {
+        "name": "Oa",
+        "top": 3,
+        "bottom": 10,
+        "narrative": "Oa--1 to 4 inches; well decomposed organic material. (0 to 4 inches thick.)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "E--4 to 9 inches; grayish brown (10YR 5/2) very fine sandy loam; weak fine granular structure; friable; many fine and common medium roots; very strongly acid; abrupt smooth boundary. (0 to 7 inches thick)"
+      },
+      {
+        "name": "Bs1",
+        "top": 23,
+        "bottom": 36,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bs1--9 to 14 inches; brown (7.5YR 4/4) very fine sandy loam; weak fine granular structure; friable; common fine and few medium roots; very strongly acid; abrupt smooth boundary. (3 to 15 inches thick)"
+      },
+      {
+        "name": "Bs2",
+        "top": 36,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bs2--14 to 22 inches; dark yellowish brown (10YR 4/4) very fine sandy loam; weak fine subangular blocky structure; very friable; few fine roots; very strongly acid; clear smooth boundary.  (5 to 15 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 56,
+        "bottom": 71,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C--22 to 28 inches; dark grayish brown (2.5Y 4/2) very fine sandy loam; massive; friable; few fine roots; 2 percent rock fragments; strongly acid; abrupt smooth boundary.  (0 to 25 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 71,
+        "narrative": "R--28 inches; hard, schist bedrock."
+      }
+    ]
+  ]
 }

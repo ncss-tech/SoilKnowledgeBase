@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The Dunbar series formerly was classified as Red-Yellow Podzolic soils intergrading toward Low-Humic Gley soils.\nADDITIONAL DATA: None\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0046 DUNBAR      0-  5   59- 66  190-240  38- 50    25- 450\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0046 NONE          1.0-2.0  APPARENT NOV-MAY  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0046  0- 8  SL FSL L                0-  0 100-100  5-27   2-  7\nNC0046  0- 8  LS LFS                  0-  0  90-100 10-15   3-  6\nNC0046  8-14  L SCL CL                0-  0   0-  0  0- 0   2-  5\nNC0046 14-80  SC CL C                 0-  0   0-  0  0- 0   4-  7\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0046  0- 8  4.5- 5.5  2.-4.  0- 0   2.0- 6.0  LOW\nNC0046  0- 8  4.5- 5.5  2.-4.  0- 0   6.0-  20  LOW\nNC0046  8-14  4.5- 5.5  0.-1.  0- 0   0.2- 0.6  LOW\nNC0046 14-80  4.5- 5.5  0.-.5  0- 0   0.2- 0.6  MODERATE\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {}
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; dark gray (10YR 4/1) sandy loam; weak medium and fine granular structure; very friable; many fine roots; strongly acid; clear smooth boundary. (5 to 12 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 20,
+        "bottom": 36,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--8 to 14 inches; light olive brown (2.5Y 5/4) clay loam; moderate medium subangular blocky structure; hard, firm, plastic, sticky; many fine roots; few fine pores; thin patchy clay films; few medium distinct dark gray (10YR 4/1) iron depletions in the matrix; very strongly acid; gradual wavy boundary. (5 to 10 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 36,
+        "bottom": 51,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg1--14 to 20 inches; grayish brown (2.5Y 5/2) sandy clay; moderate medium subangular blocky structure; firm, hard, plastic, sticky; few fine roots and pores; thin continuous clay films on faces of peds; many medium distinct light olive brown (2.5Y 5/4) masses of iron accumulation on faces of peds; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 51,
+        "bottom": 107,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg2--20 to 42 inches; gray (10YR 5/1) sandy clay; moderate medium subangular blocky structure; hard, firm, sticky, plastic; few fine roots and pores; thin patchy clay films on faces of peds; common medium distinct yellowish brown (10YR 5/8) and yellowish red (5YR 5/8) masses of iron accumulation on faces of peds; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btg3",
+        "top": 107,
+        "bottom": 157,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg3--42 to 62 inches; gray (10YR 6/1) sandy clay; moderate medium subangular blocky structure; firm; few fine roots and pores; thin patchy clay films on faces of peds; few medium distinct yellowish brown (10YR 5/4) and brown (10YR 5/3) masses of iron accumulation on faces of peds; very strongly acid; gradual wavy boundary. (Combined thickness of the Btg horizon is 40 to 75 inches.)"
+      },
+      {
+        "name": "Cg",
+        "top": 157,
+        "bottom": 234,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Cg--62 to 92 inches; light gray (10YR 7/1) sandy clay with a few pockets of sandy clay loam; massive; firm; very strongly acid."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface of the soil to 8 inches (Ap horizon)\nArgillic horizon - the zone from 8 to 72 inches (Bt1, Bt2 and Bt3 horizons)\nMLRA = 133A\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nSC0046 SUMMERTON   0- 12   59- 66  200-240  38- 50    40- 180\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nSC0046 NONE          6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nSC0046  0- 8  LFS LS                  0-  0  95-100  5-12   1-  3\nSC0046  0- 8  VFSL                    0-  0  95-100 10-18   1-  3\nSC0046  0- 8  FSL SL                  0-  0  95-100 10-18   1-  4\nSC0046  8-72  SC CL C                 0-  0  98-100 35-70   3-  8\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nSC0046  0- 8  4.5- 6.5  .5-1.  0- 0   6.0-  20  LOW\nSC0046  0- 8  4.5- 6.5  .5-1.  0- 0   0.6- 6.0  LOW\nSC0046  0- 8  4.5- 6.5  .5-1.  0- 0   0.6- 6.0  LOW\nSC0046  8-72  3.6- 5.5  0.-.5  0- 0   0.2- 0.6  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; brown (7.5YR 5/4) fine sandy loam; weak fine granular structure; very friable; common fine roots; slightly acid; abrupt smooth boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 43,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--8 to 17 inches; red (2.5YR 4/6) clay; common fine and medium distinct strong brown (7.5YR 5/8), and few medium faint yellowish red (5YR 4/8) mottles; strong medium subangular blocky structure; few fine roots and pores; firm; many distinct clay films on faces of peds; few fine flakes of mica; strongly acid; clear smooth boundary.  (8 to 20 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 43,
+        "bottom": 122,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--17 to 48 inches; red (2.5YR 4/6) clay; common fine and medium distinct strong brown (7.5YR 5/8) mottles; moderate medium subangular blocky structure; few fine roots; few fine pores; firm; many distinct clay films on faces of peds; few fine flakes of mica; very strongly acid; gradual wavy boundary.  (20 to 32 inches thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 122,
+        "bottom": 183,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "narrative": "Bt3--48 to 72 inches; red (2.5YR 4/8) clay; many fine and medium distinct strong brown (7.5YR 5/8) mottles; moderate medium subangular blocky structure; firm; few fine roots; few fine pores; few distinct clay films on faces of peds; many fine flakes of mica; very strongly acid."
+      }
+    ]
+  ]
 }

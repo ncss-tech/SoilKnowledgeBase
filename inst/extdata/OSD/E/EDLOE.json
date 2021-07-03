@@ -56,5 +56,94 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nSeries control section:  The zone from 0 to 32 inches.\nParticle-size control section:  The zone from 20 to 32 inches.  (Bt horizon)\nOchric epipedon:  from 2 to 6 inches.  (A horizon)\nArgillic horizon:  from 20 to 32 inches.  (Bt horizon)\nLithic contact:  The contact with gneiss at 32 inches.  (R layer)\nTaxonomic Version:  Classified according to Keys to soil Taxonomy, 11th Edition, 2009.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "Oe--0 to 2 inches; moderately decomposed plant material."
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--2 to 4 inches; very dark grayish brown (10YR 3/2) very gravelly sandy loam, black (10YR 2/1) moist; weak medium granular structure; very friable, soft, nonsticky, nonplastic; 3 percent stones and 5 percent cobbles and 40 percent gravel; neutral (pH 7.0); abrupt smooth boundary. (2 to 6 inches thick)"
+      },
+      {
+        "name": "E1",
+        "top": 10,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "E1--4 to 10 inches; pale brown (10YR 6/3), very gravelly sandy loam, brown (10YR 4/3), moist; weak fine subangular blocky structure; very friable, soft, nonsticky, nonplastic; 5 percent cobbles and 40 percent gravel; slightly acid (pH 6.4); abrupt smooth boundary."
+      },
+      {
+        "name": "E2",
+        "top": 25,
+        "bottom": 51,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E2--10 to 20 inches; pale brown (10YR 6/3), very gravelly sandy loam, brown (10YR 5/3), moist; weak medium subangular blocky structure; very friable, slightly hard, slightly sticky, nonplastic; 5 percent cobbles and 40 percent gravel; slightly acid (pH 6.4); gradual wavy boundary. (combined thickness of the E horizons is 10 to 18 inches)"
+      },
+      {
+        "name": "Bt",
+        "top": 51,
+        "bottom": 81,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--20 to 32 inches; light brown (7.5YR 6/4) extremely gravelly sandy clay loam, brown (7.5YR 4/4) moist; moderate medium subangular blocky structure; friable, hard, moderately sticky, slightly plastic; few faint clay films on all faces of peds; 10 percent cobbles and 50 percent gravel; slightly acid (pH 6.4); gradual wavy boundary. (12 to 25 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 81,
+        "bottom": 152,
+        "narrative": "R--32 to 60 inches; indurated gneiss bedrock."
+      }
+    ]
+  ]
 }

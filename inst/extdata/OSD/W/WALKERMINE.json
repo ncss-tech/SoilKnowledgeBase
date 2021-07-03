@@ -56,5 +56,63 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - zone from 1 to 3 in, (3 to 8 cm) (A)\nCambic horizon - zone from 3 to 12 in, (8 to 30 cm) (Bt)\nLithic contact - 12 inches, (30 cm)\nParticle-size control section - zone from 1 to 12 in. (3 to 30 cm)\nThe soil moisture control section - zone at 12 inches, (30 cm) is dry in all parts from about mid June to October (about 120 days).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 1 inch, (0 to 3 cm); slightly decomposed plant material; abrupt smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--1 to 3 inches, (3 to 8 cm); light yellowish brown (10YR 6/4) very gravelly loam, brown (7.5YR 4/2) moist; 22 percent clay; moderate fine granular structure; slightly hard, friable, nonsticky, slightly plastic; common very fine and fine roots; many very fine and fine and common medium vesicular and tubular pores; 15 percent cobbles and 45 percent gravel; slightly acid, pH 6.5 by Hellige-Truog; NaF pH 9.0; clear smooth boundary. (2 to 3 inches, (5 to 8 cm) thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 8,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt--3 to 12 inches, (8 to 30 cm); light brown (7.5YR 6/4) very gravelly loam, brown (7.5YR 4/4) moist; 23 percent clay; moderate fine and medium subangular blocky parting to moderate fine granular structure; moderately hard, friable, nonsticky, slightly plastic; common fine and medium roots; many very fine and fine and common medium vesicular and tubular pores; 90 percent continuous faint clay bridging between sand grains; 20 percent cobbles and 40 percent gravel; moderately acid, pH 6.0 by Hellige-Truog; NaF pH 9.2; abrupt smooth boundary. (2 to 18 inches, (5 to 46 cm) thick)"
+      },
+      {
+        "name": "R",
+        "top": 30,
+        "narrative": "R--12 inches, (30 cm); indurated metavolcanic bedrock."
+      }
+    ]
+  ]
 }

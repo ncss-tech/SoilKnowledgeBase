@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this soil are:\nMollic epipedon: the zone from the surface to 23 cm (A and Bw1 horizons)\nCambic horizon: the zone from 10 to 35 cm (Bw1 and Bw2 horizons), Lithic contact:  at 35 cm (R horizon).\nParticle-size control section: the zone from the surface to 35 cm (A, Bw1 and Bw2 horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 10 cm; brown (10YR 5/3) very gravelly ashy loam, very dark grayish brown (10YR 3/2) moist; moderate fine subangular blocky structure; soft, very friable, slightly sticky, nonplastic; common very fine and fine roots; 30 percent gravel, 5 percent cobbles, 10 percent stones; slightly acid (pH 6.2); clear wavy boundary. (10 to 30 cm thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 10,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1--10 to 23 cm; brown (10YR 5/3) very gravelly loam, dark brown (10YR 3/3) moist; moderate fine subangular blocky structure; soft, very friable, slightly sticky, slightly plastic; common very fine and fine roots; 40 percent gravel, 15 percent cobbles; slightly acid (pH 6.2); gradual wavy boundary.  (0 to 20 cm thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 23,
+        "bottom": 35,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw2--23 to 35 cm; yellowish brown (10YR 5/4) extremely gravelly loam, brown (7.5YR 4/3) moist; weak fine subangular blocky structure; soft, very friable, slightly sticky, slightly plastic; few fine roots; 45 percent gravel, 20 percent cobbles; slightly acid (pH 6.2); abrupt wavy boundary.  (0 to 23 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 35,
+        "narrative": "R--35 cm; rhyolite."
+      }
+    ]
+  ]
 }

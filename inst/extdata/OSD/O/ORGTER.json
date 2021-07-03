@@ -56,5 +56,62 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section - 95 to 130 cm\nSoil moisture regime - Aquic\nHemic soil material - Oe horizon\nAquic soil conditions - All soil horizons\nReduced matrix - ACg horizon\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 8,
+        "pH": 4.1,
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 8 cm; peat; nonsticky, nonplastic; many fine roots, common medium roots, and common very fine roots; extremely acid (pH 4.1); gradual smooth boundary"
+      },
+      {
+        "name": "Oe",
+        "top": 8,
+        "bottom": 95,
+        "pH": 4.1,
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Oe--8 to 95 cm; mucky peat; nonsticky, nonplastic; many fine roots, common medium roots, and many very fine roots; extremely acid (pH 4.1); gradual smooth boundary"
+      },
+      {
+        "name": "A",
+        "top": 95,
+        "bottom": 115,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 4.7,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--95 to 115 cm; very dark grayish brown (10YR 3/2) stratified mucky silt loam; 40 percent sand; 55 percent silt; 5 percent clay; weak medium granular structure; friable, nonsticky, nonplastic; common very fine roots; 1 percent gravel; very strongly acid (pH 4.7); clear smooth boundary"
+      },
+      {
+        "name": "ACg",
+        "top": 115,
+        "bottom": 183,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "narrative": "ACg--115 to 183 cm; very dark grayish brown (2.5Y 3/2) stratified sandy loam; 60 percent sand; 35 percent silt; 5 percent clay; weak coarse subangular blocky structure; nonsticky, nonplastic; very strongly acid (pH 4.8)"
+      }
+    ]
+  ]
 }

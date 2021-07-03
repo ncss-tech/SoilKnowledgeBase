@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are: a mollic epipedon from the soil surface to 8 inches (A1 and A2 horizons); a cambic horizon from 8 to 14 inches (Bw horizon); a particle-size control section from 10 to 40 inches (Bw and BC horizons); a paralithic contact at 48 inches.  Wissikihon soils have a cryic temperature regime and an ustic moisture regime.  Gravels throughout the profile are primarily fine pea gravel less than 10 mm in diameter and there is a high proportion of medium, coarse, and very coarse angular sand in the sand fraction, inherited from granitic parent material.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 3 inches; dark grayish brown (10YR 4/2) gravelly coarse sandy loam, very dark grayish brown (10YR 3/2) moist; moderate medium granular structure; soft, very friable, non-sticky and non-plastic; many very fine, fine, and medium roots; 20 percent fine and medium gravel; slightly acid (pH 6.2); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--3 to 8 inches; dark brown (10YR 3/3) gravelly coarse sandy loam, very dark brown (10YR 2/2) moist; weak medium subangular blocky structure; soft, very friable, slightly sticky and non-plastic; many very fine and common fine and medium roots; few fine and very fine tubular pores; 20 percent fine and medium gravel; slightly acid (pH 6.2); clear smooth boundary. (combined thickness of A1 and A2 horizons is 6 to 15 inches)"
+      },
+      {
+        "name": "Bw",
+        "top": 20,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "narrative": "Bw--8 to 14 inches; brown (10YR 5/3) gravelly coarse sandy loam, brown (10YR 4/3) moist; weak medium prismatic structure parting to weak medium subangular blocky; slightly hard, very friable, slightly sticky and non-plastic; common very fine and fine and few medium roots; few very fine tubular pores; 30 percent fine gravel; slightly acid (pH 6.4); gradual clear boundary. (5 to 11 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 36,
+        "bottom": 122,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--14 to 48 inches; light brownish gray (10YR 6/2) gravelly loamy coarse sand, grayish brown (10YR 5/2) moist; massive; soft, loose, non-sticky and non-plastic; few very fine roots; 35 percent fine gravel; neutral (pH 6.6); gradual wavy boundary."
+      },
+      {
+        "name": "Cr",
+        "top": 122,
+        "bottom": 152,
+        "narrative": "Cr--48 to 60 inches; soft, weathered granite bedrock."
+      }
+    ]
+  ]
 }

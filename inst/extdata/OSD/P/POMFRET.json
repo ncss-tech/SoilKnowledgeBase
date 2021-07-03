@@ -56,5 +56,86 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: 1.  The type location is moved from Orange County, VT, to Windsor County, VT, with this revision.\n2.  The classification is updated to Sandy, mixed, active, frigid Humic Dystrudepts to conform to the Keys to Soil Taxonomy, 8th edition, 1998.  The former classification was Sandy micaceous, frigid Entic Haplumbrepts.\n3.  Mineralogy is changed from micaceous to mixed based on assessment of available lab data and conformance to the Keys to Soil Taxonomy, 8th edition, 1998. Mineralogy for the series is still being assessed and may change as more data is collected.\n4.  Diagnostic horizons and features recognized in this pedon are:\na.  Umbric epipedon - the zone from 0 to 11 inches (Ap horizon).\nb.  Cambic horizon - the zone from 21 to 34 inches (Bw2 horizon).\nc.  Sandy particle size class.\nd.  Lithic contact - bedrock at 61 inches.\nADDITIONAL DATA:  NSSL lab data available for this series: S74VT-17-10, S74VT-17-11, S85VT-27-022, S87VT-27-002.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 28,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 11 inches; very dark grayish brown (10YR 3/2) loamy fine sand, olive brown (2.5YR 4/3) dry; weak very fine and fine granular structure; very friable; many fine and medium roots; 5 percent rock fragments; slightly acid; abrupt wavy boundary.  ( 5 to 11 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 28,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loamy fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1--11 to 21 inches; dark yellowish brown (10YR 3/4) loamy fine sand; weak medium and fine granular structure; very friable; common fine and medium roots; 5 percent rock fragments; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 53,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "broken",
+        "narrative": "Bw2--21 to 34 inches; brown (10YR 4/3) fine sandy loam; weak fine and medium subangular blocky structure; friable; common fine and medium roots; 5 percent rock fragments; slightly acid; abrupt broken boundary.  (combined thickness of the Bw horizons is 18 to 38 inches)"
+      },
+      {
+        "name": "C1",
+        "top": 86,
+        "bottom": 112,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "C1--34 to 44 inches; dark gray (10YR 4/1) fine sand; weak thin platy structure; friable; few very fine roots; 5 percent rock fragments; neutral; clear irregular boundary."
+      },
+      {
+        "name": "C2",
+        "top": 112,
+        "bottom": 155,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "narrative": "C2--44 to 61 inches; grayish brown (10YR 5/2) fine sand;"
+      },
+      {
+        "name": "R",
+        "top": 155,
+        "narrative": "R--61 inches; interbedded micaceous schist, phyllite, and siliceous limestone."
+      }
+    ]
+  ]
 }

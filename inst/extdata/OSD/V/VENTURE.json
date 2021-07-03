@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nMollic epipedon - from the surface to 10 inches (A, Bt horizons)\nArgillic horizon - from 6 to 15 inches (Bt, Btk horizon)\nPetrocalcic horizon - at 15 inches (Bkm horizon)\nThe 08/2011 revision restricts the moisture regime and subclass to aridic-ustic, with Upland ecological sites. The Semidesert sites previously included with this series are now excluded. Accordingly precipitation is narrowed from 9-14 to 12-14 inches.\nAt the type location and other locations where the parent material is alluvium it is possible the landforms are remnants of old dissected fan remnants or pediments rather than \"mountainsides and ridges\".\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "very cobbly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 6 inches; dark grayish brown (10YR 4/2) very cobbly silt loam, very dark brown (10YR 2/2) moist; weak fine granular structure; slightly hard, friable, slightly sticky and slightly plastic; many fine and medium roots; few fine and medium tubular pores; 30 percent cobbles, 25 percent gravel and 5 percent stones; neutral (pH 7.2); clear smooth boundary.  (3 to 7 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 15,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--6 to 10 inches; brown (10YR 4/3) very gravelly clay loam, dark brown (10YR 3/3) moist; weak medium angular blocky structure; very hard, firm, moderately sticky and moderately plastic; few fine and medium roots; few fine tubular pores; few thin clay films; 30 percent gravel and 5 percent cobbles; neutral (pH 7.0); clear smooth boundary.  (4 to 15 inches thick)"
+      },
+      {
+        "name": "Btk",
+        "top": 25,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btk--10 to 15 inches; pale brown (10YR 6/3) very gravelly clay loam, dark grayish brown (10YR 4/2) moist; weak fine subangular blocky structure; hard, firm, slightly sticky and moderately plastic; common fine and medium and few coarse roots; few fine tubular pores; few thin clay films; 30 percent gravel and 5 percent cobbles; moderately calcareous; moderately alkaline (pH 8.4); gradual wavy boundary.  (0 to 5 inches thick)"
+      },
+      {
+        "name": "Bkm",
+        "top": 38,
+        "narrative": "Bkm--15 inches; indurated lime-cemented hardpan."
+      }
+    ]
+  ]
 }

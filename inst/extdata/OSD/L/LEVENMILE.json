@@ -56,5 +56,100 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recongnized in this pedon are:\nSeries control section: The zone from 0 to 60 inches.\nParticle-size section: The zone from 10 to 40 inches. (part of the Bw, C1, part of the C2 horizons)\nMollic epepedon: From 0 to 12 inches. (A1, A2, Bw horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 2 inches; brown (7.5YR 5/4) sandy loam, dark brown (7.5YR 3/2) moist; weak fine granular structure; soft, very friable, slightly sticky and nonplastic; 5 percent gravel; neutral (pH 6.6); abrupt smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A2--2 to 5 inches; brown (10YR 4/3) sandy loam, very dark grayish brown (10YR 3/2) moist; weak medium subangular blocky structure; soft, very friable, slightly sticky and nonplastic; 10 percent gravel; neutral (pH 6.8); abrupt smooth boundary. (combined thickness of A horizons is 5 to 10 inches)"
+      },
+      {
+        "name": "Bw",
+        "top": 13,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--5 to 12 inches; brown (10YR 5/3) very gravelly sandy loam, dark brown (10YR 3/3) moist; weak medium subangular blocky structure; soft, very friable, slightly sticky and nonplastic; 45 percent gravel; neutral (pH 7.0); clear smooth boundary. (6 to 8 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 30,
+        "bottom": 81,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C1--12 to 32 inches; light gray (10YR 7/2) sandy loam, grayish brown (10YR 5/2) moist; massive; slightly hard, very friable, slightly sticky and nonplastic; 10 percent gravel; slightly alkaline (pH 7.4); clear smooth boundary. (10 to 25 inches thick)"
+      },
+      {
+        "name": "C2",
+        "top": 81,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "narrative": "C2--32 to 60 inches; light gray (10YR 7/2) coarse sandy loam, grayish brown (10YR 5/2) moist; massive; slightly hard, very friable, nonsticky and nonplastic; 10 percent gravel; slightly alkaline (pH 7.6)."
+      }
+    ]
+  ]
 }

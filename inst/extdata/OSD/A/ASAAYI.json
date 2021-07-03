@@ -56,5 +56,60 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from 0 to 3 inches (A horizon)\nArgillic horizon - The zone from 3 to 8 inches (Bt horizon)\nLithic contact - The boundary at 8 inches (R horizon)\nClassified according to Soil Taxonomy Second Edition, 1999.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; decomposing pine needles and other forest litter."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 10,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--1 to 4 inches; brown (7.5YR 5/2) fine sandy loam, brown (7.5YR 4/2) moist; moderate thin platy structure; soft, very friable, nonsticky and nonplastic; common very fine and fine roots; common very fine and fine irregular pores; neutral; abrupt smooth boundary.  (2 to 4 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 10,
+        "bottom": 23,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt--4 to 9 inches; yellowish red (5YR 4/6) sandy clay loam, reddish brown (5YR 4/4) moist; moderate fine subangular blocky structure; hard, firm, sticky and plastic; common very fine, fine and medium roots; common fine and very fine irregular pores; few faint clay films lining pores and on faces of peds; neutral; abrupt smooth boundary.  (5 to 16 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 23,
+        "texture_class": "sand",
+        "narrative": "2R--9 inches; sandstone."
+      }
+    ]
+  ]
 }

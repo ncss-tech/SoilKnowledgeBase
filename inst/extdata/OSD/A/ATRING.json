@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features include:\nOchric epipedon\nCambic horizon - the zone from 9 to 20 inches (Bw horizon)\nDystric feature - the zone from 10 to 30 inches (Bw and upper part of BC horizon) having assumed base saturation by (NH4OAC) of less than 60 percent.\nIn the mountains of interior Curry County, Oregon the mean annual precipitation ranges up to 100 inches due to elevated winter rainfall; summer periods are hot and dry.\nClassification revised from loamy-skeletal, mixed, mesic Dystric Xerochrepts 6/99\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 9 inches; dark grayish brown (10YR 4/2) gravelly loam, light gray (10YR 7/2) dry; moderate fine and medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and fine roots; many very fine irregular pores; 20 percent gravel; slightly acid (pH 6.4); clear wavy boundary.  (6 to 12 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 23,
+        "bottom": 51,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--9 to 20 inches; brown (10YR 4/3) very gravelly loam, very pale brown (10YR 7/3) dry; weak fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine to medium roots; common very fine to medium tubular pores; 50 percent gravel; slightly acid (pH 6.2); gradual wavy boundary.  (9 to 33 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 51,
+        "bottom": 89,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BC--20 to 35 inches; yellowish brown (10YR 5/6) very gravelly loam, very pale brown (10YR 7/4) dry; weak fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine to medium roots; common very fine to medium tubular pores; 50 percent coarse gravel and cobbles; moderately acid (pH 6.0); clear wavy boundary.  (0 to 18 inches thick)"
+      },
+      {
+        "name": "Oi",
+        "top": 5,
+        "narrative": "Oi--2 inches to 0; Douglas fir needles, cones, bark, and lichen."
+      },
+      {
+        "name": "Cr",
+        "top": 89,
+        "texture_class": "sand",
+        "narrative": "Cr--35 inches; fractured and weathered sandstone."
+      }
+    ]
+  ]
 }

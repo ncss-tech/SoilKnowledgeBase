@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon from - 1 to 19 inches (A1, A2 horizons)\nArgillic horizon - from 19 to 38 inches (Bt horizon)\nRedox features - from 1 to 38 inches (A1, A2, Bt horizons)\nParticle-size control section - from 19 to 38 inches (Bt horizon)\nPlimpton soils have a cryic temperature regime, an ustic moisture regime, and an oxyaquic moisture subclass.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 1 inch; undecomposed and partially decomposed matted roots; abrupt smooth boundary. (1 to 3 inches thick)"
+      },
+      {
+        "name": "A1",
+        "top": 3,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A1--1 to 9 inches; very dark gray (10YR 3/1) silt loam, black (10YR 2/1) moist; few fine faint dark brown (7.5YR 3/3) moist redox concentrations (due to prolonged saturation from flood irrigation); moderate medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine and fine roots; common very fine and fine dendritic tubular pores; 5 percent gravel; slightly alkaline (pH 7.6); gradual wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 23,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A2--9 to 19 inches; grayish brown (10YR 5/2) loam, very dark brown (10YR 2/2) moist; few fine faint dark brown (7.5YR 3/3)moist redox concentrations (due to prolonged saturation from flood irrigation); moderate medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine and fine roots; many very fine and fine dendritic tubular pores; 10 percent gravel; neutral (pH 6.8); gradual wavy boundary. (combined thickness of A1, A2 horizons - 10 to 20 inches)"
+      },
+      {
+        "name": "Bt",
+        "top": 48,
+        "bottom": 97,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--19 to 38 inches; pale brown (10YR 6/3) sandy clay loam, brown (10YR 4/3) moist; few fine faint brown (7.5YR 4/3) moist redox concentrations (due to prolonged saturation from flood irrigation); moderate medium prismatic structure; hard, firm, moderately sticky and moderately plastic; common very fine and fine roots; many very fine and fine dendritic tubular pores; common distinct continuous clay films on faces of peds and common faint patchy clay films between sand grains; 10 percent gravel; neutral (pH 6.8); gradual wavy boundary. (12 to 40 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 97,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "narrative": "BC--38 to 60 inches; very pale brown (10YR 8/2) gravelly sandy clay loam, light brownish gray (10YR 6/2) moist; weak fine and medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; few very fine roots; common very fine dendritic tubular pores; 20 percent gravel; neutral (pH 6.8)."
+      }
+    ]
+  ]
 }

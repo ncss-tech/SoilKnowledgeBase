@@ -56,5 +56,50 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in\nthis pedon are:\nMollic epipedon - the zone from the surface of the soil to a\ndepth of approximately 16 inches (A, Bw horizons).\nCambic horizon - the zone from approximately 8 inches to 16\ninches (Bw horizon).\nUltic intergrade - Base saturation is less than 75 percent\nabove the paralithic contact.\nParalithic contact - partially weathered granitic bedrock at approximately 24 inches.\nXeric feature - a moisture control section that is usually\nmoist, but dry for 60 to 80 consecutive days during the\nsummer.\nNATIONAL COOPERATIVE SOIL SURVEY\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "narrative": "A--0 to 8 inches; very dark grayish brown (10YR 3/2)"
+      },
+      {
+        "name": "Bw",
+        "top": 20,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "narrative": "Bw--8 to 16 inches; dark brown (10YR 4/3) sandy loam,"
+      },
+      {
+        "name": "C",
+        "top": 41,
+        "bottom": 58,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "loam",
+        "narrative": "C--16 to 23 inches; yellowish brown (10YR 5/8) loamy"
+      },
+      {
+        "name": "Cr",
+        "top": 58,
+        "narrative": "Cr--23 inches; partially weathered granitic bedrock; can"
+      }
+    ]
+  ]
 }

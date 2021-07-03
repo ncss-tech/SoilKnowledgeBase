@@ -56,5 +56,62 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon include:\nOchric epipedon (oxidized)--the zone from 0 to 3 inches (0 to 8 centimeters)  ^Ag horizon\nPeraquic conditions--the zone from 0 to 65 inches (0 to 165 centimeters) is permanently saturated\nSulfidic conditions--the zone from 3 to 17 inches (8 to 43 centimeters)  (2^Cseg1 horizon) and from 37 to 65 inches (95 to 165 centimeters) (4^Cseg2 horizon) contain sulfidic materials (verified by moist incubation)\nHuman-transported materials-the zone from 0 to 65 inches (0 to 165 centimeters) is influenced by human alteration\nFluidity Class-the zone from 3 to 17 inches (8 to 43 centimeters) (2^Cseg1 horizon) and from 37 to 65 inches (95 to 165 centimeters) (4^Cseg2 horizon) are slightly fluid.\nADDITIONAL DATA:\nNASIS User site and pedon ID: 1997MD047014\nNASIS Data Map Unit ID: 800941\n________________________________________\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "subaqueous"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "^Ag",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "^Ag-- 0 to 3 inches (0 to 8 cm); dark olive gray (5Y 3/2) sand; single grain; loose; nonsticky, nonplastic, nonfluid; common fine and very fine roots; 5 percent, by volume shell fragments; clear smooth boundary."
+      },
+      {
+        "name": "2^Cseg1",
+        "top": 8,
+        "bottom": 43,
+        "moist_hue": "5GY",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2^Cseg1--3 to  17 inches (8 to 43 cm); dark greenish gray (5GY 3/1) sandy loam; few fine faint dark gray (5Y 4/1) mottles; massive; friable; nonsticky, nonplastic, slightly fluid; few very fine roots; 1 percent, by volume shell fragments; sulfurous odor; clear smooth boundary. (15 to 50 centimeters thick)"
+      },
+      {
+        "name": "3^Cg",
+        "top": 43,
+        "bottom": 94,
+        "moist_hue": "5Y",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "3^Cg--17 to 37 inches (43 to 95 cm); very dark gray (5Y 3/1) sand; few medium distinct gray (5Y 5/1) mottles; single grain; loose; nonsticky, nonplastic, nonfluid; 10 percent, by volume shell fragments; gradual smooth boundary. (10 to 38 centimeters thick)"
+      },
+      {
+        "name": "4^Cseg2",
+        "top": 94,
+        "bottom": 165,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "very fine sandy loam",
+        "narrative": "4^Cseg2--37 to 65 inches (95 to 165 cm); very dark gray (N 3/) very fine sandy loam; massive; firm; slightly sticky, slightly plastic, slightly fluid; 2 percent, by volume shell fragments; 3 percent, by volume very dark grayish brown (10YR 3/2) organic fragments; sulfurous odor."
+      }
+    ]
+  ]
 }

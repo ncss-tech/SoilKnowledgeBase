@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The April 1993 revision of this series places the Pasquotank series in coarse-silty, mixed, nonacid, thermic Typic Endoaquepts. Classification changed to coarse-silty, mixed, semiactive, Typic Endoaquults in 2000.\nDiagnostic horizons and soil properties recognized in this pedon are:\nOchric epipedon - the zone from the surface of the soil to a depth of 7 inches (Ap horizon)\nArgillic horizon - the zone from 6 to 39 inches (Btg1, Btg2, and Btg3 horizons)\nMLRA(S): 153A, 149A, 153B\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5     Soil Name   Slope  Airtemp   FrFr/Seas  Precip   Elevation\nNC0003    PASQUOTANK  0-2    59-63     200-240    46-52    5-25\nSOI-5   FloodL  FloodH  Watertable    Kind     Months   Bedrock\nNC0003   NONE    RARE     0-1.0     APPARENT  DEC-MAR   >60\nSOI-5    Depth   Texture            3-Inch    No-10   Clay%     CEC\nNC0003    0-6    SIL L VFSL         0-0      100-100   5-12     3-9\nNC0003    6-44   L VFSL SIL         0-0      100-100   9-18     1-5\nNC0003   44-60   LS LFS FS          0-0      100-100   3-12     1-3\nSOI-5     Depth    -pH-      O.M.    Salin   Permeab     Shnk-Swll\nNC0003     0-6    4.5-6.0   2.-5.0   0-0     0.6- 2.0      LOW\nNC0003     6-44   4.5-5.5   0.-1.0   0-0     0.6- 2.0      LOW\nNC0003    44-60   4.5-5.5   0.-.5    0-0     2.0- 6.0      LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; dark grayish brown (2.5Y 4/2) silt loam; weak fine granular structure and weak fine subangular blocky structure; very friable; non-sticky and non-plastic; common very fine and few fine roots; common fine flakes of mica; strongly acid; abrupt smooth boundary"
+      },
+      {
+        "name": "Btg1",
+        "top": 15,
+        "bottom": 46,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg1--6 to 18 inches; light brownish gray (2.5Y 6/2) loam; weak medium subangular blocky structure; friable; slightly sticky and slightly plastic; few very fine and fine roots; common fine and medium distinct light yellowish brown (10YR 6/4) irregularly shaped masses of iron accumulation on faces of peds and in root channels and/or pores; common fine flakes of mica; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 46,
+        "bottom": 86,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Btg2--18 to 34 inches; gray (2.5Y 6/1) loam; weak medium subangular blocky structure; very friable; slightly sticky and non-plastic; few medium distinct olive yellow (2.5Y 6/6) and yellowish brown (10YR 5/4) irregularly shaped masses of iron accumulation distributed uniformly throughout the horizon; common fine flakes of mica; very strongly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "Btg3",
+        "top": 86,
+        "bottom": 99,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg3--34 to 39 inches; gray (2.5Y 6/1) loam; weak medium subangular blocky structure; friable; slightly sticky, slightly plastic; common medium distinct yellowish brown (10YR 5/4) and common medium and coarse distinct olive yellow (2.5Y 6/6) irregularly shaped masses of iron accumulation distributed uniformly throughout the horizon; common fine flakes of mica; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "BCg",
+        "top": 99,
+        "bottom": 112,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BCg--39 to 44 inches; gray (2.5Y 6/1) loam; weak coarse subangular blocky structure; very friable; non-sticky, non-plastic; common medium distinct yellowish brown (10YR 5/4)and light yellowish brown (10YR 6/4) irregularly shaped masses of iron accumulation distributed uniformly throughout the horizon; common fine flakes of mica; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Cg",
+        "top": 112,
+        "bottom": 135,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Cg--44 to 53 inches; gray (2.5Y 6/1) loam; massive; very friable; non-sticky and non-plastic; common medium distinct yellowish brown and light yellowish brown (10YR 6/4) irregularly shaped masses of iron accumulation distributed uniformly throughout the horizon; common fine flakes of mica; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "C",
+        "top": 135,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "narrative": "C--53 to 60 inches; light olive brown (2.5Y 5/3) silt loam; massive; moderately sticky and moderately plastic; common medium distinct yellowish brown (10YR 5/4) cylindrical masses of iron accumulation and common medium prominent light gray (10YR 7/1) cylindrical iron depletions distributed uniformly throughout the horizon; common fine flakes of mica; strongly acid."
+      }
+    ]
+  ]
 }

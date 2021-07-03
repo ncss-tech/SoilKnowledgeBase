@@ -56,5 +56,73 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from a depth of 0 to 7 inches (A and Bt1 horizons)\nArgillic horizon - from a depth of 3 to 10 inches (Bt1 and Bt2 horizons)\nParticle-size control section - from a depth of 0 to 10 inches (A, Bt1, and Bt2 horizons) averages 12 percent rock fragments and 38 percent clay.\nAridic soil moisture regime bordering xeric.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; brown (10YR 5/3) cobbly loam, dark brown (10YR 3/3) moist; weak and moderate medium platy structure; slightly hard, very friable, slightly sticky and slightly plastic; few very fine roots; many very fine and fine tubular and irregular pores; 10 percent gravel, 15 percent cobbles and 5 percent stones; neutral (pH 7.2); abrupt smooth boundary.  (2 to 5 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 8,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--3 to 7 inches; brown (10YR 4/3) clay, dark brown (10YR 3/3) moist; moderate medium subangular blocky structure; hard, firm, moderately sticky and moderately plastic; few very fine roots; many very fine and fine tubular and irregular pores; common faint clay films on faces of peds; neutral (pH 7.2); clear smooth boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 18,
+        "bottom": 25,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2--7 to 10 inches; reddish yellow (7.5YR 6/6) clay, strong brown (7.5YR 4/6) moist; moderate medium angular blocky structure; extremely hard, firm, moderately sticky and moderately plastic; few very fine roots; many very fine and fine tubular and irregular pores; common distinct clay films on faces of peds; 10 percent stones; neutral (pH 6.8); abrupt wavy boundary.  (2 to 5 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 25,
+        "narrative": "R--10 inches; fractured hard igneous bedrock."
+      }
+    ]
+  ]
 }

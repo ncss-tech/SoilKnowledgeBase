@@ -56,5 +56,99 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 25 to 100 centimeters;\nseries control section--the zone from the surface to a depth of 150 centimeters.\nDiagnostic horizons and features recognized in this pedon are:\nmollic epipedon--the zone from the surface to a depth of 0 to 85 centimeters (Ap, Al and A2 horizons);\ncambic horizon--the zone from a depth of 85 to 109 centimeters (Bg horizon);\ncalcic horizon--the zone from a depth of 109 to 142 centimeters (2Bkg horizon);\naquic moisture regime.\nA somewhat poorly drained overwash phase is recognized that has 20 to 50 centimeters of colluvium overlying the original dark-colored surface layer.\nThis series replaces the Delft soils that were previously correlated in parts of the Granite Falls Till geomorphic landform.\nCation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomy version--Keys to Soil Taxonomy, tenth edition, 2006.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 25 centimeters; black (10YR 2/1) loam, dark gray (10YR 4/1) dry; weak medium subangular blocky structure; friable; common fine and medium roots; about 2 percent gravel; neutral; abrupt smooth boundary."
+      },
+      {
+        "name": "A1",
+        "top": 25,
+        "bottom": 66,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "N",
+        "moist_value": 2.5,
+        "moist_chroma": 0,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--25 to 66 centimeters; black (N 2.5/0) loam, dark gray (10YR 4/1) dry; moderate medium parting to moderate fine subangular blocky structure; friable; common fine roots; about 2 percent gravel; neutral; clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 66,
+        "bottom": 85,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "N",
+        "moist_value": 3,
+        "moist_chroma": 0,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A2--66 to 85 centimeters; very dark gray (N 3/0) loam, dark gray (10YR 4/1) dry; moderate medium parting to moderate fine subangular blocky structure; very friable; few fine roots; about 2 percent gravel; neutral; gradual smooth boundary. (Combined thickness of the A horizon is 60 to 150 centimeters.)"
+      },
+      {
+        "name": "Bg",
+        "top": 85,
+        "bottom": 109,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bg--85 to 109 centimeters; olive gray (5Y 5/2) loam; moderate medium subangular blocky structure; friable; few fine roots; common fine prominent dark yellowish brown (10YR 3/4) iron concentrations; few masses of iron-manganese accumulation; about 4 percent gravel; neutral; clear smooth boundary. (0 to 60 centimeters thick)"
+      },
+      {
+        "name": "2Bkg",
+        "top": 109,
+        "bottom": 142,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "2Bkg--109 to 142 centimeters; gray (5Y 6/1) sandy loam; weak medium subangular blocky structure; friable; common masses of carbonate coats on faces of peds; many medium prominent light olive brown (2.5Y 5/6) iron concentrations; about 6 percent gravel; strongly effervescent; slightly alkaline. (0 to 35 centimeters thick)"
+      },
+      {
+        "name": "2Cg",
+        "top": 142,
+        "bottom": 203,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "2Cg--142 to 203 centimeters; gray (5Y 6/1) sandy loam; weak coarse subangular blocky structure; firm; many medium and coarse prominent olive brown (2.5Y 4/4) iron concentrations; about 6 percent gravel; moderately effervescent; slightly alkaline."
+      }
+    ]
+  ]
 }

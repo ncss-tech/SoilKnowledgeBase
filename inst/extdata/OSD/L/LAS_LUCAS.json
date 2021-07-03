@@ -56,5 +56,64 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric Epipedon - The zone from the surface to a depth of 8 inches. (A horizon)\nCambic horizon - The zone from 8 to 15 inches. (Bw horizon)\nClassified according to Soil Taxonomy Second Edition, 1999.\nSeries name after a small village in Bernalillo County, New Mexico.  Soil at type location differs from typical profile for series description by having a light clay texture at 8 to 15 inches and having slightly coarser structure throughout the horizon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "narrative": "A--0 to 8 inches; pale brown (10YR 6/3) clay loam, brown (10YR 4/3) moist; weak medium platy structure in the upper 1 or 2 inches, moderate fine granular structure in the lower part; slightly hard, friable; abundant roots; weakly calcareous in upper 4 inches becoming strongly calcareous in lower part; clear boundary.  5 to 10 inches thick."
+      },
+      {
+        "name": "Bw",
+        "top": 20,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bw--8 to 15 inches; brown (10YR 5/3) heavy clay loam, brown (10YR 4/3) moist; moderate medium and coarse subangular blocky structure; hard, friable; roots are common; very strongly calcareous; clear irregular boundary.  5 to 9 inches thick."
+      },
+      {
+        "name": "Bk",
+        "top": 38,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "narrative": "Bk--15 to 22 inches; yellowish brown (10YR 5/4) clay loam, dark yellowish brown (10YR 4/4) moist; weak angular and subangular blocky structure; very hard, firm; very strongly calcareous; this is a weak Bk horizon with a few small calcium carbonate concretions; gradual boundary.  5 to 10 inches thick."
+      },
+      {
+        "name": "Ck",
+        "top": 56,
+        "bottom": 102,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "narrative": "Ck--22 to 40 inches; pale olive (5Y 6/3) light clay loam, light olive brown (2.5Y 5/3) moist; massive; hard, friable; strongly calcareous; this is a weak Ck horizon with a few small calcium carbonate concretions and thin seams; gradual boundary.  8 to 14 inches thick."
+      },
+      {
+        "name": "R",
+        "top": 102,
+        "bottom": 127,
+        "narrative": "R--40 to 50 inches +; Gray and olive shale, laminated and with common salt crystals between the laminations."
+      }
+    ]
+  ]
 }

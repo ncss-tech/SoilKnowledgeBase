@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  In the past Perquimans soils have been included with Tomotley and Roanoke soils.  However, Tomotley soils are in a fine-loamy family, and Roanoke soils are in a clayey family.  Particle-size data are available for this pedon.\nDiagnostic horizons and soil properties recognized in the typical pedon are:\nOchric epipedon -the zone from 0 to 8 inches (Ap and Eg horizons)\nArgillic horizon -the zone between depths of 8 to 62 inches (Btg1, Btg2, Btg3 and Btg4 horizons)\nMLRA(s): 153B     SIR: NC0145\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5   Soil Name    Slope   Airtemp   FrFr/Seas   Precip   Elevation\nNC0145  PERQUIMANS    0-2     59-63     200-240    46-52      5-25\nSOI-5   FloodL FloodH   Watertable    Kind     Months    Bedrock\nNC0145  NONE   RARE       0-1.0     APPARENT   NOV-APR    60-60\nSOI-5   Depth    Texture              3-Inch   No-10   Clay%   -CEC-\nNC0145   0-8     SIL L VFSL            0-0    100-100   8-25    3-9\nNC0145   8-50    L SICL CL             0-0    100-100  18-35    4-8\nNC0145   50-62   SIL L SL              0-0    100-100   8-25    2-6\nSOI-5   Depth     -pH-     O.M.   Salin   Permeab   Shnk-Swll\nNC0145   0-8     4.5-6.5   2.-4.   0-0    2.0-6.0     LOW\nNC0145   8-50    4.5-6.0   0.-1.   0-0    0.2-0.6     LOW\nNC0145  50-62    4.5-6.0   0.-.5   0-0    0.2-0.6     LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 5 inches; grayish brown (10YR 5/2) silt loam; weak medium granular structure; friable; few fine and medium roots; slightly acid; abrupt smooth boundary.  (4 to 9 inches thick)"
+      },
+      {
+        "name": "Eg",
+        "top": 13,
+        "bottom": 20,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Eg--5 to 8 inches; light gray (2.5Y 7/2) silt loam; weak medium granular structure; friable; few fine and medium roots; slightly acid; abrupt smooth boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 20,
+        "bottom": 48,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btg1--8 to 19 inches; gray (10YR 6/1) silty clay loam; weak medium subangular blocky structure; friable; slightly sticky, slightly plastic; few medium roots; common fine prominent brownish yellow (10YR 6/8) iron masses; few faint clay films on faces of peds; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 48,
+        "bottom": 79,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btg2--19 to 31 inches; grayish brown (2.5Y 5/2) clay loam; weak medium subangular blocky structure; friable; slightly sticky, slightly plastic; common coarse prominent brownish yellow (10YR 6/8) iron masses; few faint clay films on faces of peds; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Btg3",
+        "top": 79,
+        "bottom": 127,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btg3--31 to 50 inches; gray (10YR 6/1) silty clay loam; weak medium subangular blocky structure; slightly sticky, slightly plastic; many medium prominent brownish yellow (10YR 6/8) iron masses and common medium faint light gray (2.5Y 7/2) iron depletions; few faint clay films on faces of peds; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Btg4",
+        "top": 127,
+        "bottom": 157,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "narrative": "Btg4--50 to 62 inches; light brownish gray (2.5Y 6/2) silt loam; weak medium subangular blocky structure; friable; common medium prominent strong brown (7.5YR 5/6) and olive yellow (2.5Y 6/6) iron masses; strongly acid.  (Combined thickness of the Btg horizon ranges from 25 to 60 inches.)"
+      }
+    ]
+  ]
 }

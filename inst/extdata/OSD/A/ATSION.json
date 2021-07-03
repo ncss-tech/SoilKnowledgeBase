@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and other diagnostic soil characteristics recognized in this pedon are:\nAquic conditions--the zone from the soil surface to a depth of 80 inches is periodically saturated (endosaturation)\nOchric epipedon--the zone from the soil surface to a depth of 8 inches (Ap horizon)\nAlbic horizon--the zone from 8 to 18 inches (E horizon)\nSpodic horizon--the zone from 18 to 25 inches (Bh horizon)\nSERIES INTERPRETATION RECORDS(s): NJ0015, NJ0086\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNJ0015 ATSION      0-  2   52-58   180-210  40-55       -\nNJ0086 ATSION      0-  2     -        -       -         -\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNJ0015 NONE   RARE     0-1.0  APPARENT NOV-JUN  60-60\nNJ0086 FREQ            0-1.0  APPARENT JAN-DEC  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNJ0015  0-18  S FS LS                 0-  0  90-100  1- 6    -\nNJ0015 18-24  LS S SL                 0-  0  85-100  2- 7    -\nNJ0015 24-40  S LS                    0-  0  85-100  2-10    -\nNJ0015 40-60  SR S SIL                0-  0  70-100  2-15    -\nNJ0086  0-18  S                       0-  0  90-100  1- 6    -\nNJ0086 18-24  LS S SL                 0-  0  90-100  2- 7    -\nNJ0086 24-40  S LS                    0-  0  85-100  3-10    -\nNJ0086 40-60  SR S LS                 0-  0  85-100  3-10    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNJ0015  0-18  3.5- 5.0  2.-4.  0- 0   6.0-  20  LOW\nNJ0015 18-24  3.5- 5.0    -    0- 0   2.0-  20  LOW\nNJ0015 24-40  3.5- 5.0    -    0- 0   6.0-  20  LOW\nNJ0015 40-60  3.5- 5.0    -    0- 0   0.2-  20  LOW\nNJ0086  0-18  3.5- 5.0  2.-4.  0- 4   6.0-  20  LOW\nNJ0086 18-24  3.5- 5.0    -    0- 4   2.0- 6.0  LOW\nNJ0086 24-40  3.5- 5.0    -    0- 4   6.0-  20  LOW\nNJ0086 40-60  3.5- 5.0    -    0- 4   6.0-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {}
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 8 inches, dark gray (10YR 4/1) sand, gray (10YR 5/1) dry; single grain; loose; many fine roots; less than 1 percent white rounded quartzose pebbles; extremely acid; abrupt wavy boundary. (6 to 10 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 20,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--8 to 18 inches, light gray (10YR 6/1) sand, (10YR 7/1) dry; single grain; loose; few roots; less than 1 percent white rounded quartzose pebbles; strongly acid; abrupt wavy boundary. (5 to 24 inches thick)"
+      },
+      {
+        "name": "Bh",
+        "top": 46,
+        "bottom": 61,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "extremely acid",
+        "distinctness": "diffuse",
+        "topography": "wavy",
+        "narrative": "Bh--18 to 24 inches, very dark brown (7.5YR 2/2) sand, dark grayish brown (10YR 4/2) dry; massive; firm to friable; few or common medium roots; less than 1 percent rounded quartzose pebbles; extremely acid; diffuse wavy boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bg",
+        "top": 61,
+        "bottom": 91,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bg--24 to 36 inches, very dark gray (10YR 3/1) sand, grayish brown (10YR 5/2) dry; single grain; loose; few medium roots; 5 percent rounded quartzose pebbles; extremely acid; gradual wavy boundary. (0 to 20 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 91,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "narrative": "Cg--36 to 60 inches, brown (10YR 5/3) sand, grayish brown (10YR 5/2) dry; single grain; loose; few fine roots; 5 percent rounded quartzose pebbles; very strongly acid."
+      }
+    ]
+  ]
 }

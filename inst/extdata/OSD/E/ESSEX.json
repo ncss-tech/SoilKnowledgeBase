@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Classification history for this soil: Entic Fragiorthods, Typic Fragiochrepts (1975), Typic Dystrochrepts (1983), and Oxyaquic Dystrochrepts (1997). The Montauk series, which includes soils with, fine sandy loam A and B horizons overlying a firm loamy sand substratum were included in the Essex series in New England prior to about 1965.\nDiagnostic horizons and features recognized in this pedon include:\n1. Ochric epipedon - the zone from 0 to 5 inches (Oe and Ap horizon);\n2. Cambic horizon - the zone from 5 to 31 inches (Bw1,Bw2, and Bw3 horizons);\n3. Densic contact - firm, root-restrictive layer at 31 inches (Cd horizon);\n4. Oxyaquic subgroup - presence of water table at 18 to 24 inches November through March.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "Oe--0 to 2 inches; moderately decomposed plant material"
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--2 to 5 inches; dark yellowish brown (10YR 3/4) gravelly fine sandy loam; weak fine and medium granular structure; very friable; many fine and medium roots; 10 percent gravel, 2 percent cobbles, 3 percent stones; strongly acid; abrupt wavy boundary. (3 to 8 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 13,
+        "bottom": 43,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "cobbly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--5 to 17 inches; brown (7.5YR 4/4) cobbly sandy loam; weak medium subangular blocky structure; very friable; many fine roots; 10 percent gravel, 7 percent cobbles, 3 percent stones; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 43,
+        "bottom": 71,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "cf_class": "cobbly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--17 to 28 inches; dark yellowish brown (10YR 4/4) cobbly loamy sand; massive; very friable; common fine and few coarse roots; 10 percent gravel, 8 percent cobbles; 2 percent stones; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw3",
+        "top": 71,
+        "bottom": 79,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "cf_class": "cobbly",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw3--28 to 31 inches; pale brown (10YR 6/3) cobbly loamy sand; massive; very friable; common fine and few coarse roots; 15 percent gravel; 8 percent cobbles, 2 percent stones; moderately acid; clear wavy boundary. (Combined thickness of the Bw horizons is 6 to 40 inches.)"
+      },
+      {
+        "name": "Cd",
+        "top": 79,
+        "bottom": 165,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "narrative": "Cd--31 to 65 inches; grayish brown (2.5Y 5/2) gravelly loamy sand; massive; firm; 25 percent gravel; 2 percent cobbles; moderately acid."
+      }
+    ]
+  ]
 }

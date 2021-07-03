@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon:\nUmbric epipedon - from 0 to 12 inches (A horizon)\nCambic horizon - from 12 to 26 inches (Bw and BC horizon)\nParticle-size control section - from 0 to 26 inches (A, Bw, BC horizons) with a weighted average of 37 percent rock fragments.\nAndic properties - from 0 to 26 inches based on similar Laderly and Caterl associated soils.\nThe classification was revised 08/2001 from Alic Fulvicryands to ferrihydritic Typic Fulvicryands. Further investigation is needed to determine if the ferrigydritic mineralogy class is the same in both the Coast Range and Cascade Range mountains. Lab data seem to indicate that the Coast Range soils contain more than 2 cmol (+)/kg of KCl extractable aluminum while the Cascade Range soils have less than 2 cmol.\nAll depths to diagnostic horizons and other features are measured from the top of the first mineral horizon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 30,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 12 inches; dark reddish brown (5YR 3/2) gravelly medial loam, dark reddish gray (5YR 4/2) dry; moderate fine and very fine granular structure; soft, friable, slightly sticky and slightly plastic; weakly smeary; many very fine, fine, and medium roots; many very fine irregular pores; 15 percent basalt gravel; very strongly acid (pH 4.8); clear wavy boundary. (10 to 15 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 30,
+        "bottom": 53,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--12 to 21 inches; dark reddish brown (5YR 3/4) very cobbly medial loam, strong brown (7.5YR 5/6) dry; moderate medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; weakly smeary; common fine and very fine roots; many very fine irregular pores; 15 percent gravel, 30 percent cobbles and 10 percent stones; very strongly acid (pH 4.8); clear wavy boundary. (8 to 30 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 53,
+        "bottom": 66,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "very stony",
+        "pH": 4.6,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "BC--21 to 26 inches; strong brown (7.5YR 4/6) very stony medial loam, reddish yellow (7.5YR 6/6) dry; weak medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; weakly smeary; few roots; common fine tubular pores; 55 percent stones; very strongly acid (pH 4.6); abrupt smooth boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 66,
+        "narrative": "R--26 inches; fractured basalt."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,104 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: After further review, since the Btss is 10 inches thick with a total depth of 25 inches, the aquertic (vertic properties, aquic) subgroup has been changed to albaquultic (abrupt textural change, base saturation between 35 and 60 percent, aquic) Very-high shrink-swell has been changed to high in the Btss.03/06. This series was formerly included with the Orange, Pittsboro, Sedgefield, Wilkes, and Wynott soils. Orange soils have smectitic minerology, paralithic contact at a depth of 40 to 60 inches, and are in the mesic soil temperature regime. Pittsboro soils do not have redoximorphic depletions of chroma 2 or less in the upper 10 inches of the argillic horizon. Wilkes soils are well drained, and have paralithic contact at a depth of 10 to 20 inches. Wynott soils are well drained.  The April 2007 only changed the status of this soil back to tentative.  This soil was never correlated in Virginia.  The 2012 change decreases the requirement of coarse fragments in the lower horizons.\nDiagnostic horizons and soil characteristics recognized in this pedon are:\nOchric epipedon - the zone from 0 to 7 inches (A and E horizons)\nArgillic horizon - the zone from 7 to 21 inches (Bt horizon)\nAquic conditions - the soil has redoxomorphic depletions and concentrations within the upper 10 inches of the argillic horizon, with periodic saturation and reduction at some time during the year\nParalithic contact - the occurrence of weathered bedrock at a depth of 25 inches (upper boundary of the Cr horizon)\nADDITIONAL DATA: University of Georgia, Department of Crop and Soil Sciences, Soil Characterization Lab, 1/22/01, pedon# SOOGA-265-001:\nTABULAR SERIES DATA:\nSoil Name           Slope   Airtemp   FrFr/Seas   Precip   Elevation\nCRAWFORDVILLE   2-25    60-64        214-225      46-50    340-660\nFloodL  FloodH  Watertable      Kind          Months     Bedrock   Hardness\nNONE                    1.0-1.5      PERCHED    OCT-APR    20-40     SOFT\nDepth     Texture          3-Inch    No-10      Clay%     -CEC-\n0-7         LS,LCOS,SL,COSL     0-5        90-100     5-15         2-10\n7-11        SCL, CL, SC, C            0-5\t  90-100    25-40        8-15\n11-21      C,SC                             0-10\t  95-100    40-60       15-30\n21-25     SCL, SC, GRSCL         0-10\t  85-100    25-40         5-15\n25-60    WB                                  -               -               -               -\nDepth\t      Permeab     Shnk-Swll\n0-7                 2.0-6.0       LOW\n7-11               0.6-2.0        MOD-HIGH\n11-21             0.0-0.06     HIGH\n21-25           0.06-0.2      MOD-HIGH\n25-60                  -                 -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; dark olive brown (2.5Y 3/3) loamy sand; weak medium granular structure; very friable; many very fine, fine and medium and few coarse roots; strongly acid; abrupt smooth boundary. (1 to 7 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 18,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--2 to 7 inches; light olive brown (2.5Y 5/6) loamy sand; common fine brown (7.5YR 4/4) organic stains; weak medium granular structure parting to single grained; very friable; common very fine and fine, and few medium and coarse roots; 5 percent by volume fine quartz gravel; moderately acid; abrupt wavy boundary. (0 to 7 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 18,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--7 to 11 inches; 60 percent yellowish brown (10YR 5/8) and 40 percent strong brown (7.5YR 5/8) sandy clay; moderate medium subangular blocky structure; firm, moderately sticky and moderately plastic; few very fine, fine, medium and coarse roots; many prominent, continuous yellowish brown (10YR5/4) clay films on faces of peds; many medium soft black (7.5YR 2.5/1) manganese concentrations and common medium strong brown (7.5YR 5/8) hard Fe-Mn concretions; strongly acid; clear smooth boundary. (Thickness of the Bt horizon ranges from 4 to 8 inches)"
+      },
+      {
+        "name": "Btss1",
+        "top": 28,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btss1--11 to 17 inches; dark yellowish brown (10YR 4/6) clay; moderate coarse subangular blocky structure; very firm, very sticky and very plastic; few very fine, fine and medium roots; common distinct non-intersecting slickensides, many prominent, continuous brown (10YR5/3) clay films on faces of peds; 10 percent by volume angular cobbles; common fine and medium strong brown (7.5YR 5/8) iron accumulations on linings of root channels; many fine and medium grayish brown (2.5Y 5/2) iron depletions on ped faces and on linings of root channels; strongly acid; clear wavy boundary"
+      },
+      {
+        "name": "Btss2",
+        "top": 43,
+        "bottom": 53,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Btss2--17 to 21 inches; 60 percent light yellowish brown (2.5Y 6/3) and 40 percent gray (2.5Y 5/1) clay; moderate coarse subangular blocky structure; very firm, very sticky and very plastic; few very fine, fine and medium roots; common distinct non-intersecting slickensides; many prominent, continuous light olive brown (2.5Y 5/3) clay films on faces of peds; 5 percent by volume angular cobbles; few fine and medium strong brown (7.5YR 5/8) iron accumulations on linings of root channels; moderately acid; clear irregular boundary. (Combined thickness of the Btss horizon is 10 to 22 inches)"
+      },
+      {
+        "name": "Cg",
+        "top": 53,
+        "bottom": 64,
+        "moist_hue": "5BG",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Cg--21 to 25 inches; dark greenish gray (5BG 4/1) sandy clay loam; massive; firm, moderately sticky and moderately plastic; few very fine, fine and medium roots; common medium strong brown (7.5YR 5/8) iron accumulations; common medium gray (2.5Y 6/1) iron depletions; slightly acid; abrupt irregular boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 64,
+        "bottom": 152,
+        "moist_hue": "5G",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "pH_class": "slightly acid",
+        "narrative": "Cr--25 to 60 inches; greenish gray (5G 5/1) fine grained weathered mafic rock with seams of quartz; high excavation difficulty; slightly acid."
+      }
+    ]
+  ]
 }

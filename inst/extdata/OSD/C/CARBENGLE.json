@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizon and features recognized in this pedon are:\nParticle size control section: 25 to 86 cm (10 to 34 in) [A2, Bk1 and Bk2 horizons]\nMollic epipedon: 0 to 30 cm (0 to 12 in) [A1 and A2 horizons]\nCalcic horizon: 30 to 86 cm (12 to 34 in) [Bk1 and Bk2 horizons]\nParalithic contact: The contact with weakly cemented sandstone at 86 cm (34 in) [Cr horizon]\nParalithic materials: 86 to 152 cm (34 to 60 in) [Cr horizon]\nFree carbonates: 0 to 152 cm (0 to 60 in) [A1, A2, Bk1, Bk2, and Cr horizons]\nSecondary carbonates: 30 to 86 cm (12 to 34 in) [Bk1 and Bk2 horizons]\nAdditional comments:\nSoil Interpretation Record Number: TX0790\nADDITIONAL DATA: KSSL Data: Fayette County, S08TX149001 (08N04384-08N04390); TAMU Data: Austin County, S08TX015001 (TAMU7335-TAMU7339).\nTaxonomic version: Keys to Soil Taxonomy, Eleventh Edition, 2010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "texture_class": "clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 18 cm (0 to 7 in); very dark gray (10YR 3/1) clay loam, black (10YR 2/1), moist; weak fine granular structure; hard, friable; many fine roots; strong effervescence; moderately alkaline; clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 18,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "texture_class": "clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--18 to 30 cm (7 to 12 in); very dark gray (10YR 3/1) clay loam, black (10YR 2/1), moist; weak fine subangular blocky structure; hard, friable; many fine roots; many fine pores; violent effervescence, ; moderately alkaline; abrupt wavy boundary. (Combined thickness of the A horizon is 18 to 46 cm [7 to 18 in])"
+      },
+      {
+        "name": "Bk1",
+        "top": 30,
+        "bottom": 58,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bk1--30 to 58 cm (12 to 23 in); light gray (10YR 7/2) loam, light gray (10YR 7/2), moist; moderate fine and medium subangular blocky structure; hard, very friable; common fine roots; common fine pores; common carbonate masses; violent effervescence; moderately alkaline; clear wavy boundary."
+      },
+      {
+        "name": "Bk2",
+        "top": 58,
+        "bottom": 86,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bk2--58 to 86 cm (23 to 34 in); very pale brown (10YR 8/2) loam, light gray (10YR 7/2), moist; weak fine and medium subangular blocky structure; hard, very friable; common fine roots; common fine pores; 30 percent carbonate masses and common carbonate concretions; violent effervescence; moderately alkaline; abrupt wavy boundary. (Combined thickness of the Bk horizon is 18 to 46 cm [7 to 18 in])"
+      },
+      {
+        "name": "Cr",
+        "top": 86,
+        "bottom": 152,
+        "texture_class": "sand",
+        "pH_class": "moderately alkaline",
+        "narrative": "Cr--86 to 152 cm (34 to 60 in); weakly cemented calcareous sandstone bedrock; structureless massive; weakly cemented; violent effervescence; interbedded with loamy materials; moderately alkaline."
+      }
+    ]
+  ]
 }

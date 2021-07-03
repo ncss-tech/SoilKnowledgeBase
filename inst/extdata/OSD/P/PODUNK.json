@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: 1. The classification is updated to Coarse-loamy, mixed, active, frigid Fluvaquentic Dystrudepts to conform to the Keys to Soil Taxonomy, 8th edition, 1998.\n2. Diagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon - the zone from the soil surface to a depth of 10 inches (Ap horizon).\nb. Cambic horizon - the zone from 10 to a depth of 30 inches (Bw horizon).\nc. Aquic feature - redox features below a depth of 18 inches (Bw2 and C horizons).\nd. Fluvaquentic features - content of organic carbon decreases irregularly with depth and redox depletions are within a depth of 24 inches of the soil surface.\nADDITIONAL DATA: The Soil Interpretation Record number for the Podunk series is ME0050.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 10 inches; dark yellowish brown (10YR 3/4) fine sandy loam, pale brown (10YR 6/3) dry; weak fine granular structure; friable; many roots; strongly acid; abrupt smooth boundary. (5 to 14 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 25,
+        "bottom": 46,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw1 -- 10 to 18 inches; light olive brown (2.5Y 5/4) fine sandy loam; weak fine granular structure; friable; many roots; strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 46,
+        "bottom": 76,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw2 -- 18 to 30 inches; light olive brown (2.5Y 5/4) fine sandy loam; weak fine granular structure; friable; few roots; common medium distinct light brownish gray (2.5Y 6/2) iron depletions and common medium faint light yellowish brown (2.5Y 6/4) masses of iron accumulation; strongly acid; gradual smooth boundary.  (The combined thickness Bw horizon is 11 to 22 inches.)"
+      },
+      {
+        "name": "C",
+        "top": 76,
+        "bottom": 165,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH_class": "strongly acid",
+        "narrative": "C -- 30 to 65 inches; olive gray (5Y 5/2) loamy fine sand; single grain; loose; many medium prominent light yellowish brown (2.5Y 6/4) and yellowish brown (10YR 5/4) masses of iron accumulation; and many medium faint pale olive (5Y 6/3) masses of iron accumulation; strongly acid."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The type location was moved to Washoe County, Nevada, North Part, in 2002 to better represent the series.  Taxonomic classification and range of characteristics were not affected by the move.\nDiagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 36 cm (A1, A2, and Bt1 horizons).\nArgillic horizon - The zone from 15 to 48 cm (Bt1 and Bt2 horizons).\nLithic contact - The boundary at 48 cm to underlying hard, unweathered bedrock (R layer).\nParticle-size control section - The zone from 15 to 48 cm (Bt1 and Bt2 horizons).\nClassification was updated to 11th edition on 07/2011 changed from Lithic Argixerolls to Aridic Lithic Argixerolls.\nADDITIONAL DATA: Previous authors and editors include GAM-DD-TM.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 5 cm; grayish brown (10YR 5/2) very cobbly loam, very dark brown (10YR 2/2) moist; moderate thin and medium platy structure; slightly hard, friable, slightly sticky and slightly plastic; few very fine and fine roots; many very fine interstitial pores; 20 percent cobbles and 30 percent gravel; neutral (pH 7.0); clear wavy boundary. (3 to 15 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--5 to 15 cm; dark grayish brown (10YR 4/2) clay loam, very dark brown (10YR 2/2) moist; weak very fine and fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and fine roots; many very fine tubular pores; 10 percent gravel; neutral (pH 7.2); clear wavy boundary. (3 to 15 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--15 to 36 cm; brown (10YR 4/3) gravelly clay, dark brown (10YR 3/3) moist; strong fine and medium subangular blocky structure; hard, very friable, very sticky and very plastic; common very fine and few fine roots; many very fine tubular pores; many distinct clay films on faces of peds and lining pores; 25 percent gravel; neutral (pH 7.2); clear wavy boundary. (15 to 30 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 36,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt2--36 to 48 cm; yellowish brown (10YR 5/4) gravelly clay, brown (10YR 4/3) moist; strong fine and medium subangular blocky structure; hard, friable, very sticky and very plastic; common very fine and fine roots; many very fine tubular pores; 25 percent gravel; many distinct clay films on faces of peds and lining pores; neutral (pH 7.2); abrupt smooth boundary. (0 to 15 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 48,
+        "narrative": "R--48 cm; hard basalt."
+      }
+    ]
+  ]
 }

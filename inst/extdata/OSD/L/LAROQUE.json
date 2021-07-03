@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Data from 5 pedons in Spotsylvania County by Virginia Polytechnic Institute and State University supports the classification.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0119 LAROQUE     0- 55   59- 64  190-220  35- 45   300- 900\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0119 NONE          6.0-6.0              -     20-40   SOFT\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0119  0- 7  L SIL                   0-  5  75-100  5-27    -\nVA0119  7-14  L SIL CL                0-  5  90-100 18-35    -\nVA0119 14-34  L SIL SL                0-  5  90-100  5-27    -\nVA0119 34-60  WB                       -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0119  0- 7  3.6- 5.5  1.-3.  0- 0   2.0- 6.0  LOW\nVA0119  7-14  3.6- 5.5  0.-.5  0- 0   0.6- 2.0  LOW\nVA0119 14-34  3.6- 5.5  0.-.5  0- 0   2.0- 6.0  LOW\nVA0119 34-60     -        -     -    0.00-0.06\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "0--1 to 0 inches; undecomposed and partially decomposed leaves and twigs."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; dark grayish brown (10YR 4/2) loam; moderate fine granular structure; very friable; many fine and medium roots; 8 percent angular quartz pebbles 2 to 50 mm in diameter; extremely acid; clear smooth boundary. (1 to 5 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--2 to 7 inches; light yellowish brown (10YR 6/4) loam; moderate fine granular structure; very friable; many fine and medium roots; 3 percent angular quartz pebbles 2 to 50 mm in diameter; extremely acid; clear smooth boundary.  (3 to 12 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 18,
+        "bottom": 36,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--7 to 14 inches; reddish yellow (7.5YR 6/6) loam; moderate fine and medium subangular blocky structure; friable, slightly plastic; many fine and medium roots; few thin patchy clay films on faces of peds; 3 percent angular quartz pebbles 2 to 75 mm in diameter; many fine flakes of mica; very strongly acid; clear smooth boundary.  (3 to 10 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 36,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "C--14 to 34 inches; yellowish brown (10YR 5/8) loam; many medium distinct, reddish yellow (7.5YR7/6) and yellowish red (5YR4/8) mottles; massive; very friable; 3 percent angular quartz pebbles 2 to 50 mm in diameter; many very fine flakes of mica; very strongly acid; gradual smooth boundary. (20 to 40 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 86,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Cr--34 to 60 inches; yellowish brown (10YR 5/8), red (2.5YR 4/6), and white (10 YR8/1) weathered mica schist; firm in place, chunks crush with difficulty between the fingers to loam; many very fine flakes of mica; very strongly acid."
+      }
+    ]
+  ]
 }

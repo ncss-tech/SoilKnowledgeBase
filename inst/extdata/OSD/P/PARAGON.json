@@ -56,5 +56,58 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features:\n- Mollic epipedon - 0 to 25 inches.\n- Argillic horizon - 13 to 25 inches.\n- Assume base saturation of greater than 50 percent throughout\nthe profile and less than 75 percent in the argillic horizon.\nThe superactive cation exchange activity class was added in 03/2003 to the taxonomic classification by the National Soil Survey Center on request of the Reno MLRA office, without review of the soil series property data. The remainder of this document has not been updated.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "narrative": "A--0 to 3 inches; dark reddish brown (5YR 2/2) cobbly loam,"
+      },
+      {
+        "name": "AB",
+        "top": 8,
+        "bottom": 33,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "narrative": "AB--3 to 13 inches; dark reddish brown (5YR 3/3) cobbly loam,"
+      },
+      {
+        "name": "Bt",
+        "top": 33,
+        "bottom": 64,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "cf_class": "gravelly",
+        "narrative": "Bt--13 to 25 inches; dark reddish brown (5YR 3/3) gravelly"
+      },
+      {
+        "name": "O",
+        "top": 3,
+        "narrative": "O--1 inch to 0; partially decomposed needles and twigs."
+      },
+      {
+        "name": "Cr",
+        "top": 64,
+        "narrative": "Cr--25 inches; weathered andesite."
+      }
+    ]
+  ]
 }

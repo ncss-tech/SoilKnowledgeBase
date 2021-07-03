@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon:  0 - 7 inches (A horizon)\nThe Totness series is proposed for Psammaquents that have sufficient clay increase below the particle-size control section to alter the permeability and other dependent interpretations.\nTotness soils have previously been included in the Osier series in mapping.\nMLRA = 133A, 137, 153A\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nSC0144 TOTNESS     0-  1   62- 66  220-240  46- 48    25- 450\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nSC0144 FREQ            0-1.0  APPARENT NOV-APR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nSC0144  0- 7  COS LCOS S              0-  0  40- 98  2-12   1-  4\nSC0144  0- 7  SL COSL                 0-  0  50-100  5-18   2-  4\nSC0144  7-48  S LS COS                0-  0  25- 95  2-12 0.2-  1\nSC0144 48-74  MK-L SIL COSL           0-  0  75- 98 10-28   3-  6\nSC0144 74-80  S LS SL                 0-  0  45- 95  2-18 0.2-  2\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nSC0144  0- 7  4.5- 5.5  2.-5.  0- 0   6.0-  20  LOW\nSC0144  0- 7  4.5- 5.5  2.-8.  0- 0   6.0-  20  LOW\nSC0144  7-48  4.5- 5.5  1.-2.  0- 0   6.0-  20  LOW\nSC0144 48-74  4.5- 5.5  2.-15  0- 0   0.6- 2.0  LOW\nSC0144 74-80  4.5- 5.5  1.-2.  0- 0   6.0-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "loamy coarse sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A -- 0 to 7 inches; dark gray (10YR 4/1) loamy coarse sand; weak coarse granular structure; friable; common medium, and few fine roots; very strongly acid; abrupt wavy boundary. (3 to 9 inches thick)"
+      },
+      {
+        "name": "Cg1",
+        "top": 18,
+        "bottom": 81,
+        "moist_hue": "N",
+        "moist_value": 7,
+        "moist_chroma": 0,
+        "texture_class": "coarse sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Cg1 -- 7 to 32 inches; light gray (N 7/0) coarse sand; single grained; loose; few fine roots; common coarse white flakes of feldspar; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 81,
+        "bottom": 122,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "coarse sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Cg2 -- 32 to 48 inches; gray (10YR 6/1) coarse sand; single grained; loose; common coarse white flakes of feldspar; few flakes of mica; very strongly acid; clear smooth boundary. (Combined thickness of the Cg horizons is 28 to 52 inches)"
+      },
+      {
+        "name": "Ab1",
+        "top": 122,
+        "bottom": 140,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Ab1 -- 48 to 55 inches; black (N 2/0) mucky loam; massive; friable; common fine roots; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Ab2",
+        "top": 140,
+        "bottom": 178,
+        "moist_hue": "N",
+        "moist_value": 4,
+        "moist_chroma": 0,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Ab2 -- 55 to 70 inches; dark gray (N 4/0) loam; massive; friable; very strongly acid; gradual smooth boundary"
+      },
+      {
+        "name": "Ab3",
+        "top": 178,
+        "bottom": 188,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "coarse sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ab3 -- 70 to 74 inches; black (N 2/0) coarse sandy loam; massive; friable; very strongly acid; clear smooth boundary. (Combined thickness of the Ab horizons is 8 to 32 inches)"
+      },
+      {
+        "name": "C",
+        "top": 188,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "narrative": "C -- 74 to 80 inches; very dark grayish brown (10YR 3/2) sand; single grained; loose; 1 percent white coarse fragments; strongly acid."
+      }
+    ]
+  ]
 }

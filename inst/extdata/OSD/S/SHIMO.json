@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon:\nMollic epipedon - zone from the soil surface to 12 inches (A1 and A2 horizons)\nParticle-size control section - zone from 10 to 24 inches\nLithic contact - at 24 inches (R)\nSoil moisture regime - xeric\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "cf_class": "very stony",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 4 inches; brown (10YR 5/3) very stony loamy sand, very dark grayish brown (10YR 3/2) moist; weak fine granular structure; very friable, nonsticky and nonplastic; common very fine and fine, few medium and coarse roots; many very fine, fine and medium irregular pores; 20 percent gravel, 5 percent cobbles, 20 percent stones; neutral (pH 6.6); clear wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "cf_class": "cobbly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--4 to 12 inches; brown (10YR 5/3) cobbly loamy sand, very dark grayish brown (10YR 3/2) moist; single grain; loose, nonsticky and nonplastic; common very fine and fine, few medium and coarse roots; many very fine, fine and medium irregular pores; 10 percent gravel, 20 percent cobbles; neutral (pH 6.6); clear wavy boundary. (combined A horizon - 7 to 14 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 30,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "cf_class": "very cobbly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C1--12 to 20 inches; brown (10YR 5/3) very cobbly loamy sand, brown (10YR 4/3) moist; single grain; loose, nonsticky and nonplastic; common very fine and fine, few medium roots; many very fine and fine irregular pores; 25 percent gravel, 25 percent cobbles; slightly acid (pH 6.5); gradual wavy boundary."
+      },
+      {
+        "name": "C2",
+        "top": 51,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "cf_class": "very cobbly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "broken",
+        "narrative": "C2--20 to 24 inches; pale brown (10YR 6/3) very cobbly loamy sand, brown (10YR 5/3) moist; single grain; loose, nonsticky and nonplastic; few very fine and fine roots; 25 percent gravel, 15 percent cobbles; slightly acid (pH 6.4); abrupt broken boundary. (combined C horizon - 13 to 30 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 61,
+        "narrative": "R--24 inches; moderately weathered granodiorite."
+      }
+    ]
+  ]
 }

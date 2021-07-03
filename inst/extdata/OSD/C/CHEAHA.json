@@ -56,5 +56,70 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Cheaha soils were formerly included in the Clymer series.  Data obtained from Auburn University indicate that Cheaha soils are in a fine-loamy textural family with mixed mineralogy.\nRev: RLV 5/97\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nAL0032 CHEAHA      5- 60   58- 65  200-210  48- 56  1400-2400\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nAL0032 NONE          6.0-6.0              -     20-40   HARD\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nAL0032  0- 4  ST-L ST-SIL            19- 42  60- 90  7-20    -\nAL0032  0- 4  ST-FSL ST-SL           19- 42  55- 85  7-20    -\nAL0032  4-35  ST-SCL ST-CL ST-SIL    19- 42  60- 90 18-35    -\nAL0032 35-80  UWB                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nAL0032  0- 4  4.5- 5.5  .5-2.  0- 0   2.0- 6.0  LOW\nAL0032  0- 4  4.5- 5.5  .5-2.  0- 0   2.0- 6.0  LOW\nAL0032  4-35  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  LOW\nAL0032 35-80     -        -     -    0.00- 0.2\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "01",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "01--1 to 0 inch; pine leaf residue."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "stony",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 4 inches; dark brown (10YR 3/3) stony silt loam; moderate medium granular structure; friable; 25 percent sandstone cobbles and stones; many fine, medium, and large roots; very strongly acid; clear wavy boundary.  (3 to 5 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 10,
+        "bottom": 58,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "cf_class": "stony",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "Bt1--4 to 23 inches; yellowish brown (10YR 5/6) stony silt loam; weak fine subangular blocky structure; friable; 25 percent sandstone cobbles and stones; common fine, medium, and large roots; common fine pores; thin discontinuous clay films on faces of peds; very strongly acid; gradual irregular boundary.  (10 to 20 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 58,
+        "bottom": 89,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay loam",
+        "cf_class": "stony",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt2--23 to 35 inches; strong brown (7.5YR 5/8) stony clay loam; weak medium subangular blocky structure; friable; 25 percent sandstone cobbles and stones; few fine and medium roots; common fine pores; thin discontinuous clay films on faces of peds; very strongly acid; abrupt irregular boundary.  (7 to 15 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 89,
+        "texture_class": "sand",
+        "narrative": "R--35 inches; hard sandstone bedrock."
+      }
+    ]
+  ]
 }

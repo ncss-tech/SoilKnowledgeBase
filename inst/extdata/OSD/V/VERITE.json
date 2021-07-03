@@ -56,5 +56,73 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 2 inches (A horizon) When colors meet the requirements of a mollic epipedon, the horizon is less than 4 inches thick\nArgillic horizon - the zone from 2 to 11 inches (Bt1 and Bt2 horizons)\nLithic contact - the boundary at 11 inches (R horizon)\nClassified according to Soil Taxonomy Second Edition, 1999; Keys to Soil Taxonomy, Tenth Edition, 2006\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; brown (7.5YR 5/4) fine sandy loam, dark brown (7.5YR 3/3) moist; weak fine granular structure; slightly hard, very friable, nonsticky and nonplastic; common very fine roots throughout; neutral (pH 6.6); abrupt smooth boundary. (1 to 4 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 5,
+        "bottom": 15,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--2 to 6 inches; reddish brown (5YR 5/4) clay loam, reddish brown (5YR 4/3) moist; moderate medium subangular blocky structure; moderately hard, friable, slightly sticky and moderately plastic; common very fine, fine, and medium roots throughout; common very fine pores; common continuous distinct clay films on faces of peds and lining pores; neutral (pH 6.6); clear smooth boundary. (3 to 10 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 15,
+        "bottom": 28,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt2--6 to 11 inches; reddish brown (5YR 5/4) clay loam, reddish brown (5YR 4/3) moist; moderate medium subangular blocky structure; moderately hard, friable, moderately sticky and moderately plastic; common very fine, fine, and medium roots throughout; common very fine discontinuous tubular pores; common continuous distinct clay films on faces of peds and lining pores; neutral (pH 6.8); abrupt smooth boundary. (0 to 12 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 28,
+        "texture_class": "sand",
+        "narrative": "R--11 inches; fractured sandstone bedrock."
+      }
+    ]
+  ]
 }

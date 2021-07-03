@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon\nare:\nOchric epipidon - The zone from the soil surface to 5 inches (A1 and A2\nhorizons).\nArgillic horizon - The zone from 5 to 13 inches (Bt and Btk horizons).\nCalcic horizon - The zone from 13 to 31 inches (2Bk1, 2Bk2 and 3Bk3\nhorizons).\nParticle-size control section - The zone from 5 to 31 inches - the top\nof the argillic horizon to the duripan, (Bt, Btk, 2Bk1, 2Bk2 and 3Bk3\nhorizons).\nDuripan - The boundary at 31 inches (4Bqkm horizon).\nNational Cooperative Soil Survey.\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "narrative": "A1--0 to 3 inches; pale brown (10YR 6/3) gravelly silt loam, dark"
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "narrative": "A2--3 to 5 inches; pale brown (10YR 6/3) gravelly silt loam, dark"
+      },
+      {
+        "name": "Bt",
+        "top": 13,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "narrative": "Bt--5 to 11 inches; pale brown (10YR 6/3) gravelly clay loam, brown"
+      },
+      {
+        "name": "Btk",
+        "top": 28,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "cf_class": "very gravelly",
+        "narrative": "Btk--11 to 13 inches; very pale brown (10YR 7/3) very gravelly"
+      },
+      {
+        "name": "2Bk1",
+        "top": 33,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "cf_class": "very gravelly",
+        "narrative": "2Bk1--13 to 17 inches; very pale brown (10YR 7/3) very gravelly"
+      },
+      {
+        "name": "2Bk2",
+        "top": 43,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 3,
+        "narrative": "2Bk2--17 to 24 inches; very pale brown (10YR 8/3) extremely"
+      },
+      {
+        "name": "2Bk3",
+        "top": 61,
+        "bottom": 79,
+        "texture_class": "sand",
+        "narrative": "2Bk3--24 to 31 inches; multicolored stratified sand and gravel;"
+      },
+      {
+        "name": "3Bqkm",
+        "top": 79,
+        "narrative": "3Bqkm--31 inches; lime-silica indurated pan; extremely hard and"
+      }
+    ]
+  ]
 }

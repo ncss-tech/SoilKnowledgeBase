@@ -56,5 +56,101 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 86 cm (A1, A2, Bt1 and Bt2 horizons).\nArgillic horizon - The zone from 20 to 86 cm (Bt1 and Bt2 horizons).\nParalithic contact - The boundary at 86 cm to underlying soft bedrock (Cr layer).\nVitrandic intergrade feature -- High volcanic glass content in the .02 to 2mm fraction from the mineral soil surface to 86 cm (A1, A2, Bt1 and Bt2 horizons).\nParticle-size control section - The zone from 20 to 86 cm (Bt1 and Bt2 horizons).\nADDITIONAL DATA: User Pedon ID: 2006CA051029.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 5 cm; grayish brown (10YR 5/2) gravelly ashy sandy loam, very dark grayish brown (10YR 3/2) moist; weak fine and medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; few very fine roots; few very fine interstitial pores; 20 percent subangular andesite gravel; slightly acid (pH 6.2); clear wavy boundary. (5 to 13 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--5 to 20 cm; brown (10YR 5/3) gravelly ashy sandy loam, dark brown (10YR 3/3) moist; weak fine and medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; many very fine to medium roots; few very fine and fine interstitial pores; 2 percent subangular andesite cobbles and 25 percent subangular andesite gravel; slightly acid (pH 6.4); clear wavy boundary. (0 to 25 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 50,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--20 to 50 cm; brown (10YR 5/3) very gravelly ashy sandy loam, dark brown (10YR 3/3) moist; moderate fine and medium subangular blocky structure; slightly hard, very friable, slightly sticky and nonplastic; common fine to coarse roots; common very fine and fine interstitial pores; 5 percent faint clay bridges between sand grains; 10 percent subangular andesite cobbles and 40 percent subangular andesite gravel; slightly acid (pH 6.4); clear wavy boundary. (20 to 38 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 50,
+        "bottom": 86,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very cobbly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--50 to 86 cm; brown (7.5YR 5/3) very cobbly ashy sandy loam, dark brown (7.5YR 3/3) moist; moderate medium subangular blocky structure; moderately hard, friable, slightly sticky and nonplastic; few very fine and fine roots; common very fine and fine interstitial pores; 5 percent faint clay bridges between sand grains; 20 percent subangular andesite cobbles and 30 percent subangular andesite gravel; slightly acid (pH 6.2); clear wavy boundary. (20 to 50 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 86,
+        "bottom": 99,
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cr--86 to 99 cm; weathered andesitebedrock; clear wavy boundary."
+      },
+      {
+        "name": "R",
+        "top": 99,
+        "narrative": "R--99 cm; andesite bedrock."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,101 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 25 to 100 centimeters (A1, AB, Bg1, and 2Bg2 horizons);\nseries control section--the zone from the surface to a depth of 0 to 150 centimeters (Ap, A1, AB, Bg1, 2Bg2, and 2Cg horizons).\nDiagnostic horizons and features recognized in this pedon include:\nmollic epipedon--the zone from the surface to a depth of 0 to 53 centimeters (Ap, A1, and AB horizons);\ncambic horizon--the zone from a depth of 53 to 104 centimeters (Bg1 and 2Bg2 horizons);\naquic moisture regime--matrix chroma of 2 or less with redoximorphic concentrations;\nCation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomy version--Keys to Soil Taxonomy, ninth edition, 2003.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 20 centimeters; black (10YR 2/1) silty clay loam, very dark gray (10YR 3/1) dry; weak fine granular structure; friable; neutral; abrupt smooth boundary. (17 to 25 centimeters thick)"
+      },
+      {
+        "name": "A1",
+        "top": 20,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A1--20 to 33 centimeters; black (10YR 2/1) silty clay loam, very dark gray (10YR 3/1) dry; moderate fine and medium subangular blocky structure; friable; neutral; abrupt wavy boundary. (0 to 20 centimeters thick)"
+      },
+      {
+        "name": "AB",
+        "top": 33,
+        "bottom": 53,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "AB--33 to 53 centimeters; very dark gray (10YR 3/1) silty clay loam, dark gray (10YR 4/1) dry; few black (10YR 2/1) and dark gray (10YR 4/1) organic stains on surfaces along root channels; weak fine and medium subangular blocky structure; friable; neutral; clear wavy boundary. (0 to 25 centimeters thick)"
+      },
+      {
+        "name": "Bg1",
+        "top": 53,
+        "bottom": 76,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg1--53 to 76 centimeters; dark gray (2.5Y 4/1) silty clay loam; weak fine and medium prismatic structure parting to moderate fine and medium subangular blocky; friable; few fine prominent brown (7.5YR 4/4) masses of iron accumulation; neutral; clear wavy boundary. (14 to 46 centimeters thick)"
+      },
+      {
+        "name": "2Bg2",
+        "top": 76,
+        "bottom": 104,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bg2--76 to 104 centimeters; olive gray (5Y 4/2) loam; weak fine and medium prismatic structure parting to moderate fine and medium subangular blocky; friable; common medium distinct dark yellowish brown (10YR 4/4) masses of iron accumulation; about 5 percent rock fragments; neutral; clear wavy boundary. (0 to 30 centimeters thick)"
+      },
+      {
+        "name": "2Cg",
+        "top": 104,
+        "bottom": 160,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "2Cg--104 to 160 centimeters; olive gray (5Y 5/2) loam; weak fine and medium prismatic structure parting to weak fine and medium subangular blocky; friable; many medium distinct dark yellowish brown (10YR 4/4) masses of iron accumulation; about 5 percent rock fragments; slightly effervescent; slightly alkaline."
+      }
+    ]
+  ]
 }

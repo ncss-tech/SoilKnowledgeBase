@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from a depth of 0 to 11 cm\nArgillic horizon - the zone from a depth of 11 to 130 cm\nCalcic horizon - the zone from a depth of 28 to 130 cm\nSecondary carbonates - the zone from a depth of 28 to 130 cm\nParalithic contact - the zone from a depth of 130 to 140 cm\nLithic contact - the zone beginning at 140 cm\nADDITIONAL DATA:\nNASIS Pedon Site ID 2016CA6961324\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 11,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "narrative": "A--0 to 11 cm; brown (10YR 5/3) loam, dark brown (10YR 3/3) moist; strong fine granular structure; friable, slightly hard, slightly sticky and slightly plastic; common very fine roots; common fine and few coarse tubular pores; finely disseminated calcium carbonate; 1 percent shell fragments and 2 percent channers; strongly effervescent; moderately alkaline (pH 8.0); clear boundary. (8 to 22 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 11,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--11 to 28 cm; loam, brown (10YR 4/3) moist; weak medium subangular blocky structure; friable, slightly hard, moderately sticky and slightly plastic; common very fine roots; common fine irregular pores; few clay films on ped faces; finely disseminated calcium carbonate; 3 percent channers; strongly effervescent; moderately alkaline (pH 8.0); clear wavy boundary. (15 to 63 cm thick)"
+      },
+      {
+        "name": "Btk1",
+        "top": 28,
+        "bottom": 65,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btk1--28 to 65 cm; loam, brown (10YR 4/3) moist; weak medium subangular blocky structure; friable, moderately sticky and moderately plastic; few medium and very fine roots; common fine tubular and common very fine irregular pores; few clay films on ped faces; finely disseminated calcium carbonate and common medium irregular calcium carbonate masses; 3 percent channers; strongly effervescent; moderately alkaline (pH 8.2); clear wavy boundary."
+      },
+      {
+        "name": "Btk2",
+        "top": 65,
+        "bottom": 130,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Btk2--65 to 130 cm; loam, dark yellowish brown (10YR 4/4) moist; weak fine subangular blocky structure; friable, moderately sticky and moderately plastic; few medium and very fine roots; common very fine irregular pores; common clay films on ped faces; finely disseminated calcium carbonate and common medium irregular calcium carbonate masses; 3 percent channers; violently effervescent; moderately alkaline (pH 8.2); abrupt wavy boundary. (Combined thickness of Btk horizons 35 to 140 cm)"
+      },
+      {
+        "name": "Cr",
+        "top": 130,
+        "bottom": 140,
+        "narrative": "Cr--130 to 140 cm; moderately cemented, limestone bedrock. (0 to 10 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 140,
+        "bottom": 165,
+        "narrative": "R--140 to 165 cm; indurated limestone bedrock."
+      }
+    ]
+  ]
 }

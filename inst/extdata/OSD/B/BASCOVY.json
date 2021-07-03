@@ -56,5 +56,73 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soil interpretations record:  MT0281.\nDiagnostic horizons and features recognized in this pedon are:  ochric epipedon - the zone from the surface of the soil to a depth of 7 inches (A1, A2, and part of Bss horizons); slickensides - from 6 to 15 inches (Bss and Bssy horizons); transition horizon - the zone from 15 to 23 inches (BC horizon); and a paralithic contact - at a depth of 23 inches.   Bascovy soils have a frigid temperature regime and an ustic moisture regime that borders on aridic.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Bss",
+        "top": 15,
+        "bottom": 25,
+        "dry_hue": "5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bss--6 to 10 inches; olive gray (5Y 5/2) clay, olive gray (5Y 4/2) moist; moderate medium and fine subangular blocky structure; extremely hard, very firm, very sticky and very plastic; few fine roots; few fine pores; few vertical cracks less than 1/4 inch wide; common faint slickensides or pressure faces; slightly alkaline (pH 7.6); gradual smooth boundary. (0 to 24 inches thick)"
+      },
+      {
+        "name": "Bssy",
+        "top": 25,
+        "bottom": 38,
+        "dry_hue": "5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bssy--10 to 15 inches; olive gray (5Y 5/2) clay, olive gray (5Y 5/2) moist; moderate medium and fine subangular blocky structure; extremely hard, very firm, very sticky and very plastic; few fine roots; few fine pores; common distinct slickensides; few fine threads of gypsum; neutral (pH 6.8); gradual wavy boundary. (5 to 13 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 38,
+        "bottom": 58,
+        "dry_hue": "5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--15 to 23 inches; olive gray (5Y 5/2) clay, olive gray (5Y 4/2) moist; weak medium and fine subangular blocky structure; extremely hard, very firm, very sticky and very plastic, few fine pores; 15 percent hard shale chips; moderately acid (pH 5.6); gradual wavy boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 58,
+        "bottom": 152,
+        "narrative": "Cr--23 to 60 inches; olive gray and olive brown semiconsolidated shale."
+      }
+    ]
+  ]
 }

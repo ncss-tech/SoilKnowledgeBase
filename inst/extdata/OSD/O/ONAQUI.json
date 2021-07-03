@@ -56,5 +56,51 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nMollic epipedon - the zone from the surface to a depth of 15 inches. (A1 and A2 horizon)\nLithic feature - the contact of quartzite bedrock at a depth of 15 inches.\nThe classification is based on the \"Keys to Soil Taxonomy, Eighth Edition, 1998\".\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 4 inches; dark brown (10YR 4/3) very cobbly loam, very dark brown (10YR 2/2) moist; moderate fine and very fine granular structure; soft, very friable, slightly sticky, slightly plastic; common very fine and fine and a few medium roots; 25 percent gravel and 25 percent cobbles in the horizon; slightly alkaline (pH 7.6); clear wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely cobbly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "A2--4 to 15 inches; brown (10YR 5/3) extremely cobbly loam, dark brown (10YR 3/3) moist; moderate fine and very fine subangular blocky structure; slightly hard, very friable, slightly sticky, slightly plastic; common very fine, fine and medium and a few coarse roots; common very fine and few fine tubular pores; 30 percent gravel and 35 percent cobbles; slightly alkaline (pH 7.6); abrupt irregular boundary.  (Combined A horizons 10 to 16 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 38,
+        "narrative": "R--15 inches; fractured quartzite."
+      }
+    ]
+  ]
 }

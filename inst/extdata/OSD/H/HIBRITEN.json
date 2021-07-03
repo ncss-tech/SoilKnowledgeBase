@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This soil was formerly included in the Talladega and Tallapoosa series.  The completed soil temperature study indicates the county where the series type site is located is mesic throughout. The 08/2000 revision updates the series to a mesic temperature regime.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon--The zone from 0 to 12 inches (the A1, A2, and BA horizons)\nArgillic horizon--The zone from 12 to 24 inches (the Bt horizon)\nParalithic contact--The contact with weathered bedrock at 24 inches\nADDITIONAL DATA: Engineering Index Data from Soil Mechanics Lab, Ft. Worth, TX; pedon (S80NC-027-005). Sand mineralogy (fine sand) of the Bt horizon from North Carolina State University, Department of Soil Science Lab., May 12, 1980:\nFine Sand Mineralogy (Optical Grain Count); quartz 64.3 percent; mica 23.0 percent; opaque 1.7 percent; and heavy minerals 11.0 percent.\nData Map Unit ID: To be developed\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0153 HIBRITEN    6- 60   52- 57  190-210  45- 55   900-2000\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0153 NONE          6.0-6.0              -     20-40   SOFT\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0153  0-12  CBV-SL STV-SL          10- 60  35- 90  7-20   2-  6\nNC0153  0-12  GR-SL                   0- 20  30- 55  7-20   2-  6\nNC0153  0-12  CB-SL                  15- 30  65- 80  7-20   2-  6\nNC0153 12-24  CBV-CL CBV-SCL CBV-L   20- 70  35- 90 10-35   2-  8\nNC0153 24-48  WB                       -       -      -      -\nNC0153 48-58  UWB                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0153  0-12  4.5- 5.5  .5-2.  0- 0   2.0- 6.0  LOW\nNC0153  0-12  4.5- 5.5  .5-2.  0- 0   2.0- 6.0  LOW\nNC0153  0-12  4.5- 5.5  .5-2.  0- 0   2.0- 6.0  LOW\nNC0153 12-24  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  LOW\nNC0153 24-48     -        -     -        -\nNC0153 48-58     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very cobbly",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 2 inches; dark grayish brown (10YR 4/2) very cobbly sandy loam; weak fine granular structure; very friable; many fine and medium roots; few medium flakes of mica; 40 percent, by volume fragments of sillimanite schist; very strongly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very cobbly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--2 to 8 inches; brown (10YR 4/3) very cobbly sandy loam; moderate medium granular structure; very friable; few fine and medium roots; few fine flakes of mica; 40 percent, by volume fragments of sillimanite schist; very strongly acid; clear smooth boundary.  (Combined thickness of the A horizon is 2 to 12 inches.)"
+      },
+      {
+        "name": "BA",
+        "top": 20,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "very cobbly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BA--8 to 12 inches; yellowish brown (10YR 5/6) very cobbly sandy loam; weak very coarse granular structure; very friable; few medium roots; few fine flakes of mica; 60 percent, by volume fragments of sillimanite schist; very strongly acid; clear smooth boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 30,
+        "bottom": 61,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very cobbly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--12 to 24 inches; yellowish red (5YR 4/6) very cobbly sandy clay loam; weak medium subangular blocky structure; friable; few fine and medium flakes of mica; 60 percent, by volume fragments of sillimanite schist; very strongly acid; clear smooth boundary.  (10 to 23 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 61,
+        "bottom": 122,
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Cr--24 to 48 inches; soft sillimanite schist; fractured at intervals of 4 to less than 18 inches; moderately cemented; high excavation difficulty; clear irregular boundary.  (0 to 30 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 122,
+        "narrative": "R--48 inches; hard sillimanite schist; fractured at intervals of 4 to less than 18 inches; very strongly cemented; extremely high excavation difficulty."
+      }
+    ]
+  ]
 }

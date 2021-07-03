@@ -56,5 +56,101 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this soil include: an albic horizon from 0 to 1 inch; a spodic horizon from 1 to 15 inches; assumed organic carbon content greater than 6 percent in the upper 10 cm; Andic soil properties throughout the mineral soil; cryic temperature regime; consolidated bedrock at 19 inches; assumed moist 15 bar water content between 30 and 100 percent.\nNo lab data is available for this soil. Andic soil properties are assumed based on field morphology and lab data from the associated Sukoi series (NSSL S87AK-220-010).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 10,
+        "bottom": 0,
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oe-- 4 to 0 inches; mucky peat; many very fine, fine and medium roots; abrupt wavy boundary. (0 to 4 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "N",
+        "moist_value": 5,
+        "moist_chroma": 0,
+        "texture_class": "loam",
+        "pH": 4,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E-- 0 to 1 inch; gray (N 5/0) loam; weak coarse granular structure; slightly sticky and slightly plastic; strongly smeary; 10 percent gravel; many very fine, fine and medium roots; extremely acid (pH 4.0); abrupt wavy boundary. (1 to 2 inches thick)"
+      },
+      {
+        "name": "Bh",
+        "top": 3,
+        "bottom": 5,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH": 4,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bh-- 1 to 2 inches; black (5YR 2/1) mucky silt loam; moderate medium granular structure; slightly sticky and slightly plastic; strongly smeary; 10 percent gravel; many very fine, fine and medium roots; extremely acid (pH 4.0); abrupt wavy boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "Bs1",
+        "top": 5,
+        "bottom": 15,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs1-- 2 to 6 inches; dark reddish brown (2.5YR 3/4) silt loam; moderate medium subangular blocky structure; slightly sticky and slightly plastic; strongly smeary; 10 percent gravel; common very fine, fine and medium roots; very strongly acid (pH 5.0); clear wavy boundary. (3 to 7 inches thick)"
+      },
+      {
+        "name": "Bs2",
+        "top": 15,
+        "bottom": 38,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "cobbly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bs2-- 6 to 15 inches; brown (7.5YR 4/4) cobbly silt loam; moderate medium subangular blocky structure; slightly sticky and slightly plastic; strongly smeary; 10 percent gravel and 20 percent cobble; common fine and medium roots; moderately acid (pH 6.0); gradual wavy boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 38,
+        "bottom": 48,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "cobbly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C-- 15 to 19 inches; reddish brown (5YR 4/4) and dark reddish brown (5YR 3/4) cobbly silt loam; massive; slightly sticky and slightly plastic; strongly smeary; 10 percent gravel and 20 percent cobble; few fine roots; moderately acid (pH 6.0); abrupt smooth boundary. (2 to 5 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 48,
+        "narrative": "R-- 19 inches; consolidated bedrock"
+      }
+    ]
+  ]
 }

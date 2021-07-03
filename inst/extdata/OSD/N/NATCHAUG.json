@@ -56,5 +56,64 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: These soils were previously mapped in Connecticut as the Palms series.\nDiagnostic horizons and features recognized in this pedon are:\n1. Sapric soil materials - the zone from the surface to 46 centimeters (Oa1 and Oa2 horizons)\n2. Terric feature - mineral soil material in the zone from 46 to 200 centimeters (2Cg1 and 2Cg2 horizons)\n3. Particle size control section - 46 to 130 centimeters (2Cg1 and 2Cg2 horizons);\n4. Histosols control section - the zone from 0 to 130 centimeters (Oa1, Oa2, 2Cg1, and 2Cg2 horizons)\n5. Euic reaction class - pH of 4.5 or more in 0.01 M calcium chloride in one or more organic layers within the Histosols control section (Oa1 and Oa2 horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oa1",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oa1--0 to 10 centimeters; very dark brown (10YR 2/2) rubbed and black (10YR 2/1) broken face muck; 15 percent fibers, 5 percent rubbed; moderate fine granular structure; friable, nonsticky, and slightly plastic; common medium roots; 20 percent mineral soil material; slightly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "Oa2",
+        "top": 10,
+        "bottom": 46,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oa2--10 to 46 centimeters; dark reddish brown (5YR 2/2) broken face muck; 30 percent fibers, 8 percent rubbed; massive; friable, moderately sticky, slightly plastic; 10 percent mineral soil material; neutral; abrupt smooth boundary. (Combined thickness of the O horizons is 40 to 130 cm.)"
+      },
+      {
+        "name": "2Cg1",
+        "top": 46,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "2Cg1--46 to 61 centimeters; dark gray (10YR 4/1) silt loam; massive; friable, slightly sticky, moderately plastic; neutral; abrupt smooth boundary."
+      },
+      {
+        "name": "2Cg2",
+        "top": 61,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "neutral",
+        "narrative": "2Cg2--61 to 152 centimeters; gray (10YR 5/1) fine sandy loam; massive; friable, nonsticky, nonplastic; neutral."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,55 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nOchric epipedon - the zone from 0 to 2 inches (Ap horizon).\nCambic horizon - the zone from 2 to 14 inches (Bw horizon).\nParalithic contact - the contact at 14 inches (Cr horizon).\nLithic contact - the contact at 16 inches (R horizon).\nThese soils were formerly included in the Descalabrado series.  A soil moisture study performed in the San German Area Soil Survey Update recognize the Aridic Soil Moisture Regime in southern Puerto Rico.\nEl Papayo soils are in MLRA 271.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "7.5YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 2 inches; dark brown (7.5YR 3/2) gravelly clay loam, dark brown (7.5YR 3/2) dry; moderate medium granular structure; soft, very friable; slightly sticky, slightly plastic; common very fine roots; many very fine irregular pores; about 25 percent, by volume, pebbles; neutral; clear smooth boundary. (2 to 5 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 5,
+        "bottom": 36,
+        "dry_hue": "7.5YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw--2 to 14 inches; dark brown (7.5YR 3/2) clay, dark brown (7.5YR 3/2) dry; strong medium subangular blocky structure; hard, firm; sticky, plastic; common fine roots; common very fine irregular and tubular pores; about 5 percent, by volume, angular pebbles; neutral; abrupt smooth boundary. (5 to 15 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 36,
+        "bottom": 41,
+        "narrative": "Cr--14 to 16 inches; highly fractured unconsolidated andesite rock. (2 to 11 inches thick)"
+      }
+    ]
+  ]
 }

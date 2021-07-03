@@ -56,5 +56,77 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this soil:\nMollic epipedon - zone from the soil surface to 21 inches (A, Bt1 and Bt2 horizons)\nArgillic horizon - zone from 3 to 24 inches (Bt1, Bt2 and Bt3 horizons)\nLithic contact - at 24 inches (R)\nParticle-size control section - zone from 3 to 23 inches\nLinear extensibility - 6.0 cm or more exists in the zone from the soil surface to the lithic contact (assumed)\nSoil moisture regime - xeric\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; brown (10YR 4/3) loam, dark brown (10YR 3/3) moist; moderate thin platy structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and fine roots; many very fine and fine irregular pores; neutral (pH 6.6); clear wavy boundary. (2 to 4 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 8,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--3 to 11 inches; brown (10YR 4/3) clay loam, dark brown (10YR 3/3) moist; moderate very coarse prismatic structure parting to moderate coarse subangular blocky; hard, friable, moderately sticky and moderately plastic; common very fine and fine roots; many very fine and fine tubular pores; common distinct clay films on faces of peds and in pores; cracks less than 5 mm wide; neutral (pH 6.8); gradual wavy boundary. (5 to 10 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 28,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--11 to 21 inches; dark yellowish brown (10YR 4/4) clay, dark brown (7.5YR 3/3) moist; moderate fine and medium prismatic structure parting to moderate medium subangular blocky; very hard, firm, very sticky and very plastic; few very fine roots; common very fine and fine tubular pores; many prominent clay films on faces of peds and in pores; 2 percent gravel; cracks less than 5 mm wide; neutral (pH 7.0); clear wavy boundary. (5 to 10 inches thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 53,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt3--21 to 24 inches; yellowish brown (10YR 5/4) clay, brown (7.5YR 4/3) moist; weak medium prismatic structure parting to weak medium subangular blocky; very hard, firm, very sticky and very plastic; few very fine and fine roots; common very fine and fine tubular pores; many prominent clay films on faces of peds and in pores; 2 percent paragravel; neutral (pH 7.2); clear smooth boundary. (0 to 5 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 61,
+        "narrative": "R--24 inches; fractured welded tuff."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon\nare:\nOchric epipedon - the zone from the surface to 7 inches (A1 and A2\nhorizons)\nCambic horizon - the zone from 7 to 18 inches (Bw1 and Bw2 horizons)\nControl section - 10 to 40 inches\nSecondary lime accumulation - the zone from 18 to 41 inches (2Bk1 and\n2Bk2 horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "narrative": "A1--0 to 2 inches; pale brown (10YR 6/3) gravelly silt loam, very"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "narrative": "A2--2 to 7 inches; pale brown (10YR 6/3) silt loam, very dark"
+      },
+      {
+        "name": "Bw1",
+        "top": 18,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "narrative": "Bw1--7 to 12 inches; very pale brown (10YR 7/3) gravelly silt loam,"
+      },
+      {
+        "name": "Bw2",
+        "top": 30,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "silt",
+        "cf_class": "gravelly",
+        "narrative": "Bw2--12 to 18 inches; very pale brown (10YR 7/3) gravelly silt"
+      },
+      {
+        "name": "2Bk1",
+        "top": 46,
+        "bottom": 79,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 3,
+        "cf_class": "very gravelly",
+        "narrative": "2Bk1--18 to 31 inches; very pale brown (10YR 8/3) very gravelly"
+      },
+      {
+        "name": "2Bk2",
+        "top": 79,
+        "bottom": 104,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 3,
+        "narrative": "2Bk2--31 to 41 inches; very pale brown (10YR 8/3) extremely"
+      },
+      {
+        "name": "3C",
+        "top": 104,
+        "bottom": 152,
+        "cf_class": "extremely gravelly",
+        "narrative": "3C--41 to 60 inches; multicolored stratified extremely gravelly"
+      }
+    ]
+  ]
 }

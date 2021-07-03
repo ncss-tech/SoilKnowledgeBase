@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are: ochric epipedon - the zone from 0 to 9 inches (Oa and E horizons); albic horizon - the zone from 1 to 9 inches (E horizon); spodic horizon - the zone from 9 to 25 inches (Bhs and Bs horizon); paralithic feature - weathered sandstone from 25 to 39 inches (Cr horizon); lithic feature - hard sandstone at 39 inches (R horizon).\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0a",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "pH_class": "extremely acid",
+        "narrative": "0a--0 to 1 inch; well decomposed black (5YR 2.5/1) and very dark gray (N 3/0) leaf litter; extremely acid.  (0 to 3 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 3,
+        "bottom": 23,
+        "moist_hue": "5YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "E--1 to 9 inches; pinkish gray (5YR 6/2) sand; weak fine granular structure; very friable; extremely acid; abrupt irregular boundary. (3 to 12 inches thick)"
+      },
+      {
+        "name": "Bhs",
+        "top": 23,
+        "bottom": 25,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bhs--9 to 10 inches; dark reddish brown (5YR 3/2) loamy sand; weak subangular blocky structure; very friable; very strongly acid; abrupt irregular boundary.  (1 to 20 inches thick)"
+      },
+      {
+        "name": "Bs",
+        "top": 25,
+        "bottom": 64,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bs--10 to 25 inches; reddish brown (5YR 4/4) sand; single grain; loose; 10 percent weakly cemented chunks of ortstein; very strongly acid; gradual smooth boundary.  (6 to 20 inches thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 64,
+        "bottom": 99,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "moderately acid",
+        "narrative": "2Cr--25 to 39 inches; dark yellowish brown (10YR 4/4) and very pale brown (10YR 8/3)  highly weathered and fractured sandstone; moderately acid.  (0 to 25 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 99,
+        "texture_class": "sand",
+        "narrative": "2R--39 inches; consolidated sandstone bedrock."
+      }
+    ]
+  ]
 }

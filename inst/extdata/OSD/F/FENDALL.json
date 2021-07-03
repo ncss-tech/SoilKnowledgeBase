@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features in this pedon include:\nUmbric epipedon - from 1 to 14 inches (A and AB horizons).\nCambic horizon - from 14 to 22 inches (Bw horizon).\nAndic subgroup feature - the zone from 1 to 14 inches (A and AB horizons) which is assumed not to have andic soil properties based on a moist bulk density of greater than 0.9 g/cc.\nA proposal was submitted to NSSC (2000) to revise the definition of medial to also include those soil properties qualifying for the Andic subgroup under criteria #1 for andic soil properties. If accepted, medial modifiers would be used for those horizons meeting the andic subgroup criteria although not always meeting andic soil properties.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; slightly decomposed litter of leaves and needles."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--1 to 5 inches; black (10YR 2/1) gravelly clay loam, very dark gray (10YR 3/1) dry; strong very fine granular structure; very friable, slightly sticky and slightly plastic; weakly smeary; many roots; many very fine and fine irregular pores; 20 percent fine gravel; very strongly acid (pH 5.0); abrupt smooth boundary. (3 to 13 inches thick)"
+      },
+      {
+        "name": "AB",
+        "top": 13,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "AB--5 to 14 inches; very dark brown (10YR 2/2) clay loam, very dark grayish brown (10YR 3/2) dry; few brown peds; strong fine angular and very fine subangular blocky structure; friable, slightly sticky and slightly plastic; weakly smeary; many roots; many fine irregular pores; 5 percent fine gravel; very strongly acid (pH 4.8); abrupt smooth boundary. (0 to 14 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 36,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 4.6,
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--14 to 22 inches; yellowish brown (10YR 5/4) clay, light yellowish brown and yellowish brown (10YR 6/4, 5/4) dry; few thin darker colored coatings; moderate fine and very fine subangular blocky structure; friable, moderately sticky and moderately plastic; few roots; common very fine tubular pores;5 percent gravel; very strongly acid (pH 4.6); gradual wavy boundary. (4 to 22 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 56,
+        "bottom": 81,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BC--22 to 32 inches; yellowish brown (10YR 5/4, 5/8) and yellowish red (5YR 3/6) very paragravelly clay, yellow (10YR 7/6, 7/8) dry; weak fine subangular blocky structure; friable, moderately sticky and moderately plastic; few thin coatings on shale fragments; few roots; few very fine tubular pores; 40 percent partially weathered shale gravel; very strongly acid (pH 4.5); clear wavy boundary. (0 to 12 inches thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 81,
+        "narrative": "2Cr--32 inches; fractured yellowish brown partially weathered shale with a few roots in the fractures in the upper 3 inches."
+      }
+    ]
+  ]
 }

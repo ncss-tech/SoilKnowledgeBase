@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Bluemount soils were formerly recognized in the Spriggs series.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 4 inches (A horizon)\nArgillic horizon - the zone from 4 to 24 inches (Bt horizons)\nLithic contact - 24 inches (R horizon)\nADDITIONAL DATA: Typical pedon sampled as S98VA-067-002. Additional reference sample is S98VA-067-001.\nLAST REVISION: 10/13/99, MHC\nTABULAR SERIES DATA:\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0215 NONE          6.0-6.0              -     20-40   HARD\nVA0344 NONE          6.0-6.0              -     20-40   HARD\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0215  0- 4  SIL L                   0-  2  80-100 10-27    -\nVA0215  0- 4  SL FSL                  0-  2  80-100 10-20    -\nVA0215  4-24  SIL CL L                0-  2  50-100 20-35    -\nVA0215 24     UWB                      -       -      -      -\nVA0344  0- 4  STV-SIL STV-L           4- 23  50- 95 10-27  35- 60\nVA0344  4-24  SIL CL L                0-  2  85-100 20-35  35- 60\nVA0344 24     UWB                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0215  0- 4  5.1- 6.5  .5-2.  0- 0   0.6- 2.0  LOW\nVA0215  0- 4  5.1- 6.5  .5-2.  0- 0   0.6- 2.0  LOW\nVA0215  4-24  5.1- 6.5  0.-.5  0- 0   0.6- 2.0  MODERATE\nVA0215 24        -        -     -        -         -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 1,
+        "bottom": 0,
+        "narrative": "Oi--0.5 to 0 inches; loose leaves and twigs."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH": 5.4,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; brown (10YR 4/3) gravelly silt loam; weak fine granular structure; very friable, nonsticky and nonplastic; many very fine, fine, and medium roots; 11 percent subrounded amphibolite gravel  and 5 percent subrounded amphibolite cobbles; strongly acid (pH 5.4); clear smooth boundary."
+      },
+      {
+        "name": "Bt1",
+        "top": 10,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1-- 4 to 9 inches; dark yellowish brown (10YR 4/6) silt loam; weak fine subangular blocky structure; very friable, nonsticky and slightly plastic; common very fine through very coarse roots; few faint clay films on faces of peds; 10 percent subrounded amphibolite cobbles and 3 percent subrounded amphibolite gravel; moderately acid (pH 5.6); clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 23,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--9 to 14 inches; dark yellowish brown (10YR 4/6) silt loam; weak medium subangular blocky structure; very friable, slightly sticky and slightly plastic; common very fine, fine and medium roots; common distinct clay films on faces of peds; 10 percent subrounded amphibolite cobbles and 3 percent subrounded amphibolite gravel; moderately acid (pH 5.8); clear smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 36,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH": 5.9,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt3--14 to 24 inches; yellowish brown (10YR 5/6) very cobbly clay loam; moderate medium subangular blocky structure; firm, sticky and plastic; few very fine through coarse roots; common distinct clay films on faces of peds and on rock fragments; 40 percent subrounded amphibolite cobbles and 10 percent subrounded amphibolite gravel; moderately acid (pH 5.9); abrupt wavy boundary."
+      },
+      {
+        "name": "R",
+        "top": 61,
+        "narrative": "R--24 inches; hard unweathered amphibolite."
+      }
+    ]
+  ]
 }

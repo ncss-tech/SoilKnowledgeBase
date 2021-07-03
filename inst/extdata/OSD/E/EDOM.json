@@ -56,5 +56,87 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are: 1.  Ochric epipedon - the zone from the surface of the soil to a depth of about 8 inches (Ap horizon). 2.  Argillic horizon - the zone from 8 inches to a depth of about 27 inches (Bt1 and Bt2 horizons).\nLaboratory Data: S61-PA-014-1; S65-PA-028-3; S67-PA-031-3; S67-PA-031-8 ( < 40 inches deep); S67-PA-031-4 ( high rock fragments, very deep).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; dark brown (10YR 4/3) silty clay loam; moderate medium granular structure; friable, sticky, plastic; 5 percent shale fragments; neutral; abrupt smooth boundary.  (4 to 12 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 43,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--8 to 17 inches; reddish brown (5YR 4/4) silty clay; moderate medium subangular blocky structure; firm, sticky, plastic; many faint clay films on faces of peds; 5 percent shale fragments; neutral; clear wavy boundary.  (3 to 15 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 43,
+        "bottom": 69,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--17 to 27 inches; reddish brown (5YR 4/4) clay; moderate medium subangular blocky structure; firm, sticky, plastic; many faint clay films on faces of peds; few fine black iron and manganese coatings on fragments; 10 percent shale fragments; moderately acid; gradual wavy boundary.  (4 to 15 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 69,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BC--27 to 36 inches; yellowish brown (10YR 5/4) silty clay; weak medium platy structure; firm, sticky, plastic; common faint reddish brown (5YR 5/4) clay films in pores; few fine black iron and manganese coatings on fragments; 10 percent shale fragments; moderately acid; clear wavy boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 91,
+        "bottom": 117,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "cf_class": "extremely channery",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "C--36 to 46 inches; reddish brown (5YR 4/4) extremely channery silty clay filling interstices between shale fragments; weak medium platy fragments; 70 percent shale fragments; neutral; abrupt irregular boundary.  (5 to 40 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 117,
+        "narrative": "R--46 inches; interbedded shale and limestone; beds are nearly vertical."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This soil was formerly classified as a Lithosol. The 6/99 revision updates classification to the 8th Edition of Keys to Soil Taxonomy.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to a depth of 5 inches (Oe, A1, and A2 horizons)\nCambic horizon - the zone between 5 and 24 inches (Bw horizon)\nMLRA = 130, 147 SIR's = NC0017, NC0263 (Stony)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oe--0 to 1 inch; mat of moderately decomposed organic material. (0 to 2 inches thick)"
+      },
+      {
+        "name": "A1",
+        "top": 3,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--1 to 2 inch; very dark brown (10YR 2/2) loam; weak fine and medium granular structure; very friable; many fine roots; few fine flakes of mica; very strongly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--2 to 5 inches; dark grayish brown (10YR 4/2) loam; weak fine and medium granular structure; very friable; many fine roots; common fine and medium flakes of mica; very strongly acid; clear smooth boundary. (Combined thickness of the A horizon is 4 to 10 inches)"
+      },
+      {
+        "name": "Bw",
+        "top": 13,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--5 to 24 inches; yellowish brown (10YR 5/8) loam; weak medium subangular blocky structure; very friable; common fine roots; many fine and medium flakes of mica; very strongly acid; gradual wavy boundary. (16 to 33 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 61,
+        "bottom": 170,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "narrative": "C--24 to 67 inches; multicolored loam saprolite weathered from mica gneiss; massive, very friable; few fine roots; many fine and medium flakes of mica; very strongly acid."
+      }
+    ]
+  ]
 }

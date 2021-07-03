@@ -56,5 +56,97 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Although Anakeesta soils may exhibit some of the characteristics of andic soil properties, they lack the volcanic glass found in soils of similar taxa in the Western United States.\nRevisions made 9/07 (HCD), Adjusted OSD to reflect Lab Data.\nDiagnostic horizons and other feature recognized in this soil are:\nUmbric epipedon--the zone from the mineral soil surface to 8 inches (A1 and A2 horizons)\nCambic horizon--the zone from 8 to 45 inches (Bw horizon)\nLithic contact--the occurrence of hard bedrock at depth of 45 inches\nIsotic mineralogy class - In more than one-half of the control section, a 1500 kPa water to clay ratio of 0.6 or more and a pH in NaF solution of more than 8.4.\nADDITIONAL DATA:  Characterization data are available from the National Soil Survey Laboratory, Lincoln, NE for the following pedons: S01TN-155-006 and S01NC-173-004.\nNASIS Data Map Unit ID: NASIS data for the typical pedon in the Great Smoky Mountains National Park are represented by DMU #460894.\n02/11-BPS: Taxonomic Classification -- 11th Keys, update competing and associated series, MLRA clarification\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oe--0 to 1 inches; moderately decomposed plant material and root mat"
+      },
+      {
+        "name": "A1",
+        "top": 3,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--1 to 4 inches; very dark grayish brown (10YR 3/2) channery loam; moderate fine to coarse granular structure; very friable; many medium to coarse roots, common fine and very fine roots; 25 percent by volume slate channers; extremely acid; clear wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "cf_class": "channery",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--4 to 8 inches; dark brown (10YR 3/3) channery loam; moderate fine to coarse granular structure; very friable; many medium to coarse roots, common fine and very fine roots; 20 percent by volume slate channers, 7 percent by volume metasandstone channers; extremely acid; clear wavy boundary. (7 to 14 inches)"
+      },
+      {
+        "name": "Bw1",
+        "top": 20,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--8 to 14 inches; dark yellowish brown (10YR 4/4) extremely channery loam; weak medium and coarse subangular blocky structure; friable; few fine and medium roots; 60 percent by volume slate channers, and 10 percent by volume quartz gravel; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 36,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw2--14 to 30 inches; dark yellowish brown (10YR 4/4) extremely channery loam; weak medium and coarse subangular blocky structure; friable; 65 percent by volume slate channers, and 10 percent by volume quartz gravel; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bw3",
+        "top": 76,
+        "bottom": 114,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "extremely channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw3--30 to 45 inches; dark yellowish brown (10YR 4/4) extremely channery coarse sandy loam; weak medium and coarse subangular blocky structure; friable; 65 percent by volume slate channers, and 10 percent by volume quartz gravel; strongly acid; clear smooth boundary. (20 to 40 inches)"
+      },
+      {
+        "name": "R",
+        "top": 114,
+        "narrative": "R--45 inches; fractured Anakeesta slate; some earthen material in fractures, which are greater than 4 inches apart."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This draft changes the type location from Lake County, Oregon to Owyhee County, Idaho.\nDiagnostic horizons and other features recognized in this pedon:\nOchric epipedon - The zone from the soils surface to 28 cm (the A and BA horizons).\nArgillic horizon - The zone from 28 to 51 cm (The Bt horizon).\nLithic contact - The boundary at 122 cm (R boundary).\nParticle-size control section - The zone from 28 to 51 cm (The Bt horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 10 cm; pale brown (10YR 6/3) very cobbly sandy loam, brown (10YR 4/3) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; many very fine, common fine roots; many very fine interstitial pores; 25 percent gravel, 15 percent cobbles, 10 percent stones; neutral (pH 7.0); clear smooth boundary.  (8 to 15 cm thick)"
+      },
+      {
+        "name": "BA",
+        "top": 10,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BA--10 to 28 cm; light yellowish brown (10YR 6/4) gravelly loam, dark yellowish brown (10YR 4/4) moist; weak fine and medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine and fine roots; many very fine tubular and interstitial pores; 20 percent gravel, 10 percent cobbles, neutral (pH 7.2); clear smooth boundary.  (0 to 18 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 28,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--28 to 51 cm; light yellowish brown (10YR 6/4) very gravelly clay loam, dark yellowish brown (10YR 4/4) moist; moderate fine and medium subangular blocky structure; hard, firm, slightly sticky and slightly plastic; common very fine and few fine roots; many very fine tubular pores; many faint clay films on faces of peds and in pores; 35 percent gravel, 15 percent cobbles; slightly alkaline (pH 7.4); clear smooth boundary.  (15 to 46 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 51,
+        "bottom": 122,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--51 to 122 cm; very pale brown (10YR 7/4) extremely gravelly loam; dark yellowish brown (10YR 4/4) moist; massive; slightly hard, very friable, slightly sticky and slightly plastic; common very fine and few fine roots; many very fine tubular pores; 40 percent gravel, 25 percent cobbles; slightly alkaline (pH 7.6); abrupt wavy boundary."
+      },
+      {
+        "name": "R",
+        "top": 122,
+        "narrative": "R--122 cm; fractured welded rhyolitic tuff."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizon and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 8 inches (Ap and E horizons).\nArgillic horizon - the zone from 15 to 80 inches (Bt1, Bt2, Bt3, Btv, and Btgv horizons).\nPlinthic feature - more than 5 percent plinthite in the zone from 40 to 80 inches (Btv and Btgv horizons).\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nSC0009 CLARENDON   0-  6   59- 70  190-245  38- 52    75- 450\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nSC0009 NONE          1.5-2.5  APPARENT DEC-MAR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nSC0009  0-15  LS LFS S                0-  0  85-100  2-10   1-  3\nSC0009  0-15  SL FSL                  0-  0  85-100  5-15   1-  4\nSC0009 15-40  SCL                     0-  0  85-100 18-35   2-  5\nSC0009 40-80  SCL SL SC               0-  0  96-100 15-40   2-  5\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nSC0009  0-15  4.5- 6.5  .5-3.  0- 0   2.0- 6.0  LOW\nSC0009  0-15  4.5- 6.5  .5-3.  0- 0   2.0- 6.0  LOW\nSC0009 15-40  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  LOW\nSC0009 40-80  4.5- 5.5  0.-.5  0- 0   0.2- 0.6  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; dark grayish brown (10YR 4/2) loamy sand; weak fine granular structure, very friable; common fine roots; strongly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "E",
+        "top": 20,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--8 to 15 inches; light yellowish brown (10YR 6/4) loamy sand; few medium distinct very dark grayish brown (10YR 3/2) mottles; weak coarse granular structure parting to single grained; very friable; common fine roots; few nodules of ironstone; moderately acid; abrupt wavy boundary."
+      },
+      {
+        "name": "Bt1",
+        "top": 38,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--15 to 21 inches; yellowish brown (10YR 5/6) sandy clay loam; few medium faint brownish yellow (10YR 6/6) soft masses of iron accumulation; weak medium subangular blocky structure; friable; few fine roots, few faint clay films on faces of peds; some of the mottled areas are firm; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 53,
+        "bottom": 69,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--21 to 27 inches; yellowish brown (10YR 5/4) sandy clay loam; few medium faint gray (10YR 5/1) iron depletions, common medium faint yellowish brown (10YR 5/6) and few medium distinct strong brown (7.5YR 5/6) soft masses of iron accumulation; weak medium subangular blocky structure; friable; few fine roots; common faint clay films on faces of peds; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 69,
+        "bottom": 102,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt3--27 to 40 inches; yellowish brown (10YR 5/4) sandy clay loam; common medium distinct light gray (10YR 7/1) iron depletions, common coarse prominent yellowish red (5YR 5/6) and common medium distinct strong brown (7.5YR 5/6) soft masses of iron accumulation; weak medium subangular blocky structure; common faint clay films on faces of peds; common (4 percent) plinthite occurring as firm 2 to 22 mm irregular nodules; extremely acid; clear wavy boundary."
+      },
+      {
+        "name": "Btv",
+        "top": 102,
+        "bottom": 175,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btv--40 to 69 inches; mottled gray (10YR 5/1) and yellowish brown (10YR 5/4) sandy clay loam; many coarse prominent red (2.5YR 5/6), and common medium distinct brownish yellow (10YR 6/8) soft masses of iron accumulation; moderate medium subangular blocky structure; friable; common distinct clay films on faces of peds; common (15 percent) plinthite occurring as firm 2 to 50 mm irregular nodules; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Btgv",
+        "top": 175,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Btgv--69 to 80 inches; gray (10YR 6/1) sandy clay loam; many coarse prominent red (2.5YR 5/6), many coarse prominent yellowish red (5YR 5/6), and common coarse distinct yellowish brown (10YR 5/8) soft masses of iron accumulation; weak medium subangular blocky structure; friable; common distinct clay films on faces of most peds; common (10 percent) plinthite occurring as firm 2 to 50 mm irregular nodules; very strongly acid."
+      }
+    ]
+  ]
 }

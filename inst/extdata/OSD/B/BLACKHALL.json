@@ -56,5 +56,57 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon--0 to 4 inches (A)\nUstic subgroup - Aridic soil moisture regime that borders Ustic.\nParalithic contact--12 inches (Cr)\nSIRs'- WY0223, WY0723, WY0889, WY0928\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 4 inches; light yellowish brown (2.5Y 6/3) fine sandy loam, olive brown (2.5Y 4/3) moist; moderate very fine granular structure; soft, very friable; few soft sandstone fragments; slightly effervescent; moderately alkaline (pH 8.2); gradual wavy boundary.  (2 to 8 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 10,
+        "bottom": 30,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C--4 to 12 inches; pale yellow (2.5Y 7/3) fine sandy loam, light yellowish brown (2.5Y 6/3) moist; massive; slightly hard, very friable, few soft sandstone chips; strongly effervescent; moderately alkaline (pH 8.2); clear smooth boundary.  (3 to 18 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 30,
+        "bottom": 51,
+        "texture_class": "sand",
+        "narrative": "Cr--12 to 20 inches; soft, strongly effervescent sandstone."
+      }
+    ]
+  ]
 }

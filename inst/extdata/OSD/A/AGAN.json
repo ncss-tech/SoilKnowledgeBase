@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soil Interpretation Record:  Series    OK0025\nDiagnostic horizons and features in this pedon are:\nOchric epipedon - zone from the surface to about 7 inches (Ap horizon)\nArgillic horizon - zone from 7 to 61 inches.  (Bt1, Bt2, Bt3 horizons)\nUdertic features - soils that have cracks at some period in most years that are 1 cm or more wide at a depth of 20 inches, that are at least 12 inches long in some part, and extend upward to the surface or base of the Ap horizon, and have a COLE of 0.07 or more in the upper 20 inches of the Bt horizon and a potential linear extensibility of 6 cm or more in the upper 50 inches of the soil; have more than 35 percent clay in the Bt horizons; and the depth to soft powdery secondary lime is more than 28 inches.\nPaleustalfs features - soils that have an ustic moisture regime; have an ochric epipedon; have an argillic horizon and have base saturation of 35 percent or more at a depth of 72 inches below the soil surface; have an argillic horizon in which the upper part has a clayey particle-size class and there is an increase of at least 15 percent clay (absolute) within a vertical distance of 1 inch at the upper boundary or have an argillic horizon that has a clay distribution such that the percentage of clay does not decrease by as much as 20 percent of the maximum within a depth of 60 inches from the soil surface and has common coarse redoximorphic concentrations in the lower part of the argillic horizon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 7 inches; grayish brown (10YR 5/2) loam, very dark grayish brown (10YR 3/2) moist; weak fine granular; hard, friable; few fragments of granite less than 3 inches in diameter; slightly acid; abrupt wavy boundary.  (3 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 66,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--7 to 26 inches; grayish brown (10YR 5/2) clay, very dark grayish brown (10YR 3/2) moist; common fine faint brown redoximorphic concentrations; moderate medium blocky structure; extremely hard, very firm; few fine roots and pores; thick continuous clay films on surfaces of peds; surfaces on vertical peds have thin coatings of material from A horizon; few fragments of granite less than 3 inches in diameter; neutral; gradual wavy boundary.  (7 to 34 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 66,
+        "bottom": 117,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--26 to 46 inches; grayish brown (10YR 5/2) clay, dark grayish brown (10YR 4/2) moist; common fine faint brown redoximorphic concentrations; weak medium blocky structure; extremely hard, very firm; few fine roots and pores; thick continuous clay films on surface of peds; some vertical faces are coated with material from A horizon; about 5 percent by volume fragments of granite less than 3 inches in diameter; slightly alkaline; gradual wavy boundary.  (0 to 34 inches thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 117,
+        "bottom": 155,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt3--46 to 61 inches; grayish brown (2.5Y 5/2) gravelly clay, dark grayish brown (2.5Y 4/2) moist; common medium distinct brown (10YR 4/3) redoximorphic concentrations; weak coarse blocky structure; extremely hard, very friable; continuous clay films on surfaces of peds; about 25 percent by volume fragments of granite less than 3 inches in diameter; moderately alkaline; gradual wavy boundary.  (0 to 30 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 155,
+        "bottom": 213,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "texture_class": "clay",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately alkaline",
+        "narrative": "BC--61 to 84 inches; light brownish gray (2.5Y 6/2) very gravelly clay in upper part and weathered granite in lower part; very weak blocky structure; extremely hard, very firm; 60 to 90 percent by volume fragments of granite less than 3 inches in diameter; moderately alkaline."
+      }
+    ]
+  ]
 }

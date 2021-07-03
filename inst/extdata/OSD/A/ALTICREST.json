@@ -56,5 +56,51 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - from 0 to 10 inches (A and E horizons)\nCambic horizon - from 10 to 32 inches (Bw horizon)\nAdditional remarks - In Tennessee, the Alticrest series was   included with the Ramsey, Crossville, and Lily series.\nMLRAs used in: 125, 128\nSIR numbers: TN0132, VA0399\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 3,
+        "bottom": 0,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "narrative": "Oe--1 to 0 inches; very dark gray (10YR 3/1) partially decomposed organic mat of pine needles, twigs and hardwood leaves."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; dark brown (l0YR 3/3) sandy loam; weak fine granular structure; very friable; many fine roots; very strongly acid; clear smooth boundary.  (l to 3 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 25,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--2 to 10 inches; brown (l0YR 4/3) sandy loam; few fine faint dark brown (l0YR 3/3) organic stains; weak fine granular structure; very friable; many fine and few coarse roots; very strongly acid; clear smooth boundary.  (0 to 9 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 81,
+        "texture_class": "sand",
+        "narrative": "R--32 inches; hard sandstone bedrock."
+      }
+    ]
+  ]
 }

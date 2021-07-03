@@ -56,5 +56,96 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from the soil surface to 14 inches (Ap and A horizons)\nCambic horizon - the zone from 14 inch to 21 inches (Bw horizon)\nStrongly contrasting particle-size classes at 21 inches.\nParticle-size control section - the zone from 0 to 40 inches (the Ap, A, Bw, 2C1, and part of the 2C2.\nThe 10/2001 draft reflects a change in classification from Ashy over sandy or sandy-skeletal, mixed, frigid Mollic Vitrandepts to Ashy over sandy or sandy-skeletal, glassy over mixed, frigid Humic Vitrixerands. This change is based on Soil Taxonomy 2nd Edition\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; dark gray (10YR 4/1) ashy loam, black (10YR 2/1) moist; weak fine granular structure; soft, very friable, slightly plastic; many roots; 10 percent gravel; neutral (pH 6.6); abrupt smooth boundary. (6 to 8 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 15,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--6 to 14 inches; dark grayish brown (10YR 4/2) ashy loam, very dark brown (10YR 2/2) moist; weak medium subangular blocky structure; soft, very friable, slightly plastic; many roots; many very fine pores; 10 percent gravel; neutral (pH 6.7); abrupt wavy boundary. (4 to 11 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 36,
+        "bottom": 53,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--14 to 21 inches; yellowish brown (10YR 5/4) very gravelly ashy sandy loam, dark yellowish brown (10YR 3/4) moist; weak medium subangular blocky structure; soft, very friable; common roots; many fine and very fine pores; 45 percent gravel; neutral (pH 6.9); clear wavy boundary. (7 to 10 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 53,
+        "bottom": 66,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "cf_class": "very gravelly",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C1--21 to 26 inches; pale brown (10YR 6/3) very gravelly loamy sand, brown (10YR 4/3) moist; massive; loose; common roots; 50 percent gravel and cobblestones; neutral (pH 6.9); abrupt wavy boundary. (4 to 6 inches thick)"
+      },
+      {
+        "name": "2C2",
+        "top": 66,
+        "bottom": 122,
+        "texture_class": "coarse sand",
+        "cf_class": "very gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "narrative": "2C2--26 to 48 inches; very gravelly coarse sand; loose; 50 percent gravel and cobblestones; neutral (pH 7.0); lime coatings on underside of some coarse fragments. (Many feet thick)"
+      }
+    ]
+  ]
 }

@@ -56,5 +56,63 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from 1 to 11 inches (A, Bt horizons)\nArgillic horizon - the zone from 6 to 11 inches (Bt horizon)\nLithic contact - the boundary at 11 inches (R horizon)\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Tenth Edition, 2006.\nRevised for the correlation of AZ675, 5/2009, WWJ\nRevised for the correlation of Kane County (UT642) July 2017, CEM\nADDITIONAL DATA:\nNSSL sample S65AZ001022\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "0i-- 0 to 1 inch; pine needles."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 15,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--1 to 6 inches; brown (7.5YR 4/2) cobbly sandy loam, dark brown (7.5YR 3/2) moist; weak medium subangular blocky structure; slightly hard, very friable, sticky and plastic; many fine and common medium roots; many fine irregular pores; few faint clay films on faces of peds and lining pores; 85 percent cobble; noneffervescent; neutral (pH 7.0); abrupt smooth boundary.  (4 to 11 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 15,
+        "bottom": 28,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "extremely cobbly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt--6 to 11 inches; brown (7.5YR 4/2) extremely cobbly clay loam, dark brown (7.5YR 3/2) moist; weak medium subangular blocky structure; slightly hard, friable, sticky and plastic; many fine and common medium roots; many fine irregular pores; few faint clay films on faces of peds and lining pores; 85 percent cobble; noneffervescent; slightly acid (pH 6.5); abrupt smooth boundary. (3 to 9 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 28,
+        "narrative": "2R--11 inches; tuff."
+      }
+    ]
+  ]
 }

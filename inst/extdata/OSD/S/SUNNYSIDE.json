@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are: a. Ochric Epipedon - The zone from the surface to 2 inches (A horizon).  b. Argillic horizon - The zone from 12 to 32 inches (Bt horizon).\nc. Typic udult feature - No part of the moisture control section is dry for as long as 90 consecutive days and the soil reaction is extremely acid in the C horizon from 48 to 60 inches.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nMD0055 SUNNYSIDE   0- 50   48- 58  150-220  38- 44   150- 350\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nMD0055 NONE          6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nMD0055  0- 8  L SCL                   0-  0  80-100  7-25    -\nMD0055  0- 8  FSL                     0-  0  80-100  5-15    -\nMD0055  8-48  SCL FSL L               0-  0  80-100 15-29    -\nMD0055 48-60  LFS FSL FS              0-  0  80-100  5-20    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nMD0055  0- 8  4.5- 5.5  1.-4.  0- 0   0.6- 2.0  LOW\nMD0055  0- 8  4.5- 5.5  1.-4.  0- 0   0.6- 2.0  LOW\nMD0055  8-48  3.6- 5.0  0.-.5  0- 0   0.6- 2.0  LOW\nMD0055 48-60  3.6- 4.4  0.-.5  0- 0   2.0- 6.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; very dark grayish brown (10YR 3/2) fine sandy loam; weak fine granular structure; very friable; many roots; strongly acid; clear smooth boundary.  (1 to 3 inches thick)."
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 20,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E -- 2 to 8 inches; brown (7.5YR 4/4) fine sandy loam; weak fine granular structure; very friable; common roots; strongly acid; clear smooth boundary.  (6 to 8 inches thick)."
+      },
+      {
+        "name": "BE",
+        "top": 20,
+        "bottom": 30,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "BE -- 8 to 12 inches; reddish brown (5YR 5/4) fine sandy loam; moderate medium subangular blocky structure; friable, slightly sticky; common roots; very strongly acid; gradual irregular boundary.  (2 to 5 inches thick)."
+      },
+      {
+        "name": "Bt",
+        "top": 30,
+        "bottom": 81,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "Bt -- 12 to 32 inches; red (2.5YR 4/6) sandy clay loam; moderate medium and coarse subangular blocky structure; hard, moderately firm, sticky, slightly plastic; common roots in upper part; many thin clay films; very strongly acid; diffuse smooth boundary.  (15 to 24 inches thick)."
+      },
+      {
+        "name": "BC",
+        "top": 81,
+        "bottom": 122,
+        "moist_hue": "2.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "BC -- 32 to 48 inches; red (2.5YR 5/6) fine sandy loam; weak coarse subangular blocky structure; friable; sticky; very few roots; very few very faint clay films; very strongly acid; clear irregular boundary. (0 to 20 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 122,
+        "bottom": 152,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loamy fine sand",
+        "pH_class": "extremely acid",
+        "narrative": "C -- 48 to 60 inches; reddish brown (5YR 5/4) loamy fine sand; single grain; loose; few thin lenses of gray clay; extremely acid."
+      }
+    ]
+  ]
 }

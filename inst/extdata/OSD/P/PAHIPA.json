@@ -56,5 +56,88 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Soil moisture - moist and not dry in any part for as long as 90 cumulative days in most years (Udic moisture regime).\nDiagnostic horizons and features recognized in this pedon are:\nAndic soil properties - 5 to 99 centimeters (2 to 39 inches) (A, 2A, 2Bw1/3C1 and 3C2/2Bw2 horizons).\nLithic contact - 99 centimeters (39 inches) (3R horizon).\nHemic materials - 0 to 5 centimeters (0 to 2 inches) (Oe horizon).\nUmbric epipedon - 5 to 76 centimeters (2 to 30 inches) (A, 2A and 2Bw/3C1 horizons).\nADDITIONAL DATA: NASIS User Pedon ID 99HI602005.\nEdit log: 4/09 MRK. Andic textural modifiers added plus minor edits.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 5,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe -- 0 to 5 centimeters (0 to 2 inches); moderately decomposed plant material; abrupt smooth boundary. (3 to 8 centimeters {1 to 3 inches} thick)"
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 20,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A -- 5 to 20 centimeters (2 to 8 inches); dark brown (7.5YR 3/2) hydrous silty clay loam; strong very fine and fine granular structure; very friable, slightly sticky, slightly plastic; moderately smeary; many very fine and fine, and common medium roots; many very fine interstitial and irregular pores; 5 percent angular `a`a gravel and 5 percent angular `a`a cobbles; slightly acid (pH 6.1); clear wavy boundary. (15 to 23 centimeters {6 to 9 inches} thick)"
+      },
+      {
+        "name": "2A",
+        "top": 20,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2A -- 20 to 41 centimeters (8 to 16 inches); black (10YR 2/1) gravelly highly organic hydrous silt loam; moderate very fine and fine subangular blocky structure; very friable, moderately sticky, moderately plastic; moderately smeary; common very fine and fine roots; few very fine irregular pores; 15 percent angular `a`a gravel and 5 percent angular `a`a cobbles; moderately acid (pH 5.8); clear smooth boundary."
+      },
+      {
+        "name": "2Bw1/3C1",
+        "top": 41,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "cf_class": "very cobbly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2Bw1/3C1 -- 41 to 76 centimeters (16 to 30 inches); dark brown (10YR 3/3) very cobbly hydrous silty clay loam; moderate fine subangular blocky structure; friable, moderately sticky, moderately plastic; moderately smeary; common very fine and fine roots; common very fine irregular and vesicular pores; 20 percent angular `a`a gravel and 30 percent angular `a`a cobbles; the 3C part of this horizon consists of unconsolidated `a`a lava fragments of variable size; slightly acid (pH 6.2); gradual wavy boundary."
+      },
+      {
+        "name": "3C2/2Bw2",
+        "top": 76,
+        "bottom": 99,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "cf_class": "extremely cobbly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "3C2/2Bw2 -- 76 to 99 centimeters (30 to 39 inches); dark brown (10YR 3/3) extremely cobbly hydrous silty clay loam; weak very fine and fine subangular blocky structure; friable, moderately sticky, moderately plastic; moderately smeary; few very fine and fine roots; common very fine irregular and vesicular pores; 30 percent angular `a`a gravel and 35 percent angular `a`a cobbles; slightly acid (pH 6.2); the 3C part of this horizon consists of unconsolidated `a`a lava fragments of variable size;  abrupt wavy boundary. (Combined thickness of the Bw is 50 to 80 centimeters {20 to 31 inches})"
+      },
+      {
+        "name": "3R",
+        "top": 99,
+        "narrative": "3R -- 99 centimeters (39 inches); hard, massive `a`a blue rock."
+      }
+    ]
+  ]
 }

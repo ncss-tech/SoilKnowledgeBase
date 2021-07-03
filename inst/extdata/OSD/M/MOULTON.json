@@ -56,5 +56,108 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this profile are:\nMollic epipedon - zone from 0 to 19 inches (Ap, A and Bw1 horizons)\nCambic horizon - zone from 12 to 26 inches (Bw1, Bw2 horizons)\nContrasting textures - at 26 inches\nMottles - at 6 inches\nMoisture regime - aquic\nTemperature regime - mesic\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; grayish brown (2.5Y 5/2) fine sandy loam, very dark grayish brown (2.5Y 3/2) moist; weak very fine granular structure; slightly hard, very friable, slightly sticky; common fine roots; common fine pores; neutral; (pH 6.6); abrupt smooth boundary. (4 to 8 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 15,
+        "bottom": 30,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--6 to 12 inches; grayish brown (2.5Y 5/2) fine sandy loam, very dark grayish brown (2.5Y 3/2) moist; common fine faint grayish brown (10YR 5/2) mottles; weak medium fine subangular blocky structure; slightly hard, very friable, slightly sticky; common fine roots; many very fine pores; neutral (pH 6.8); clear wavy boundary. (4 to 8 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 30,
+        "bottom": 48,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--12 to 19 inches; grayish brown (2.5Y 5/2) fine sandy loam, dark grayish brown (2.5Y 4/2) moist; common fine distinct brown (10YR 5/3) mottles; massive; slightly hard, very friable, slightly sticky; common fine roots; many very fine pores; neutral (pH 6.7); clear wavy boundary.  (5 to 20 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 48,
+        "bottom": 66,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw2--19 to 26 inches; light brownish gray (2.5Y 6/2) fine sandy loam, dark grayish brown (2.5Y 4/2) moist; medium distinct very pale brown (10YR 7/4) mottles; massive; slightly hard, very friable, slightly sticky; common fine roots; many very fine pores; neutral (pH 6.7); abrupt smooth boundary. (0 to 7 inches thick)"
+      },
+      {
+        "name": "2C1",
+        "top": 66,
+        "bottom": 76,
+        "dry_hue": "2.5Y",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "cf_class": "very gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "narrative": "2C1--26 to 30 inches; light brownish gray (2.5Y 6/2) moist very gravelly loamy sand; few dark grayish brown (2.5Y 4/2) mottles; single grained; loose; few fine roots; neutral (pH 6.8).  (0 to 5 inches thick)"
+      },
+      {
+        "name": "2C2",
+        "top": 76,
+        "bottom": 152,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "narrative": "2C2--30 to 60 inches; sand and gravel; single grain; loose; neutral."
+      }
+    ]
+  ]
 }

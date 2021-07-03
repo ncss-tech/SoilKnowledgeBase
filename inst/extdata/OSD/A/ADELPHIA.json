@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The series description and classification was revised 6/97 to update horizon nomenclature and to add the cation-exchange activity class.  Further revisions to this series in 7/99 and 2/02 include restricting the drainage class to moderately well drained and weighted average of glauconite pellets to 10 to 20 percent within the mineralogy control section. Notes collected by MLRA staff and review of previously published soil surveys in New Jersey support these changes to the series. Adelphia soils in Burlington County and Monmouth County are described in the soil surveys as predominately moderately well drained. Additional minor changes to the range in characteristics were made to allow correlation of this soil within the MLRA soil survey updates.\nDiagnostic horizons and other soil characteristics recognized in this\npedon are:\nOchric epipedon--the zone from the soil surface to a depth of 14 inches (Ap and BA horizons).\nArgillic horizon--the zone from 14 to 30 inches (Bt1 and Bt2 horizons).\nAquic conditions--the zone from a depth of about 22 inches to 80 inches is periodically saturated (endosaturation).\nADDITIONAL DATA: None listed\nDatabase Information:\nOSD Data Mapunit ID: To be developed\nTypical Pedon Data Mapunit ID: 99256\nOSD User Pedon ID: To be developed\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNJ0024 ADELPHIA    0- 10  52-57   180-210   40-48   25-150\nSOI-5  FloodL FloodH Watertable Kind     Months   Bedrock Hardness\nNJ0024 NONE          1.5-3.5    APPARENT JAN-APR  >72     ---\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNJ0024  0-14  SL FSL SIL              0-  0  95-100  5-25    -\nNJ0024 14-30  SCL L                   0-  0  95-100 20-35    -\nNJ0024 30-60  SR LS SL                0-  0  95-100  5-15    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNJ0024  0-14  3.6- 5.5  .5-3.  0- 0   0.6- 6.0  LOW\nNJ0024 14-30  3.6- 5.5    -    0- 0   0.2- 2.0  MODERATE\nNJ0024 30-60  3.6- 5.5    -    0- 0   0.6-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "2.5Y",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 10 inches; dark grayish brown (2.5Y 4/2) fine sandy loam, olive brown (2.5Y 4/3) dry; weak fine granular structure; friable; many fine and medium roots; less than 5 percent, by volume glauconite pellets; strongly acid; abrupt smooth boundary. (6 to 12 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 25,
+        "bottom": 36,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BA--10 to 14 inches; light olive brown (2.5Y 5/6) fine sandy loam; weak fine granular structure; friable; many fine and medium roots; less than 5 percent, by volume glauconite pellets; very strongly acid; gradual smooth boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 36,
+        "bottom": 56,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--14 to 22 inches; olive brown (2.5Y 4/4) sandy clay loam; weak medium subangular blocky structure; friable; slightly sticky, slightly plastic; many fine roots; few medium distinct olive (5Y 5/3) iron depletions and yellowish brown (10YR 5/8) masses of oxidized iron; common clay bridging between sand grains; 15 percent, by volume glauconite pellets; common flakes of mica; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 56,
+        "bottom": 76,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt2--22 to 30 inches; olive brown (2.5Y 4/4) sandy clay loam; weak medium subangular blocky structure; friable; slightly sticky, slightly plastic; many fine roots; few medium distinct olive gray (5Y 5/2) iron depletions and yellowish brown (10YR 5/8) masses of oxidized iron; common clay bridging between sand grains; 15 percent, by volume glauconite pellets; common flakes of mica; very strongly acid; gradual smooth boundary. (Combined thickness of the Bt horizon is 15 to 45 inches.)"
+      },
+      {
+        "name": "Cg",
+        "top": 76,
+        "bottom": 203,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "extremely acid",
+        "narrative": "Cg--30 to 80 inches; finely stratified olive gray (5Y 4/2) and dark olive gray (5Y 3/2) sandy loam and yellowish brown (10YR 5/8) loamy sand; loamy sand part is single grain; loose; sandy loam part is massive; friable; few fine roots; common fine distinct olive gray (5Y 4/2) iron depletions in loamy sand part; 15 percent, by volume glauconite pellets; extremely acid."
+      }
+    ]
+  ]
 }

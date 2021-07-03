@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and other features recognized in this pedon are:\nMollic epipedon - The zone from 0 to 46 cm (A and AB horizons).\nCambic horizon - The zone from 46 to 79 cm (Bw and Bk horizons).\nSecondary carbonates as filaments and coatings on bedrock at 74 to 79 cm. (Bk horizon).\nLithic contact - The contact at 79 cm (R layer).\nParticle-size control section - The zone from 25 to 79 cm (Bw, Bk and part of the AB horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely bouldery",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 20 cm; dark brown (7.5YR 3/2) extremely bouldery loam, brown (7.5YR 5/2) dry; weak medium and fine granular structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine and fine, few medium and coarse roots; common very fine and fine tubular pores; 40 percent boulders, 10 percent stones, 10 percent cobbles, and 10 percent gravel; neutral (pH 6.6); gradual wavy boundary. (18 to 28 cm thick)"
+      },
+      {
+        "name": "AB",
+        "top": 20,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very bouldery",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "AB--20 to 46 cm; dark brown (10YR 3/3) very bouldery loam, brown (10YR 4/3) dry; moderate medium and coarse subangular blocky structure; hard, firm, moderately sticky and moderately plastic; many very fine and fine, few medium and coarse roots; common very fine and fine tubular pores; 25 percent boulders, 15 percent stones, 5 percent cobbles, and 10 percent gravel; slightly alkaline (pH 7.4); gradual wavy boundary. (0 to 33 cm thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 46,
+        "bottom": 74,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely bouldery",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--46 to 74 cm; dark brown (10YR 3/3) extremely bouldery loam, pale brown (10YR 6/3) dry; massive; slightly hard, firm, slightly sticky and slightly plastic; common very fine and fine, few medium and coarse roots; common very fine and fine tubular pores; 20 percent boulders, 15 percent stones, 10 percent cobbles, and 20 percent gravel; slightly alkaline (pH 7.4); gradual wavy boundary. (20 to 38 cm thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 74,
+        "bottom": 79,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely bouldery",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bk--74 to 79 cm; dark brown (10YR 3/3) extremely bouldery loam, light yellowish brown (10YR 6/4) dry; massive; very hard, firm, slightly sticky and slightly plastic; few roots; few fine carbonate filaments; carbonate coatings on the underside of rock fragments; violently effervescent; 40 percent boulders, 15 percent stones, 10 percent cobbles, and 15 percent gravel; slightly alkaline (pH 7.4); abrupt irregular boundary. (5 to 15 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 79,
+        "narrative": "R--79 cm; fractured basalt."
+      }
+    ]
+  ]
 }

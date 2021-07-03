@@ -56,5 +56,101 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon include:\n1. Albic horizon- the zone from 3 to 5 cm (E horizon).\n2. Spodic horizon - the zone from 5 to 28 cm (Bh and Bs horizons).\n3. Lithic contact - hard bedrock at 66 cm. (R horizon).\n3. Other features - frigid temperature regime and udic moisture regime.\nADDITIONAL DATA:  Source of data used in establishing the range in characteristics is composite data from the Field Appraisal of Resource Management Systems compiled by Dr. Paul R. Hepler, Department of Plant and Soil Sciences, University of Maine, Orono, Maine.\nSoil interpretation record numbers for the Elliottsville series are: Elliottsville, ME0114; and Elliottsville, stony, ME0086.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oa",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oa--0 to 3 cm; dark reddish brown (5YR 2.5/2) sapric material; moderate fine granular structure; very friable; many very fine and fine, common medium and few coarse roots; extremely acid; abrupt wavy boundary.  (0 to 10 cm thick)"
+      },
+      {
+        "name": "E",
+        "top": 3,
+        "bottom": 5,
+        "moist_hue": "7.5YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--3 to 5 cm; pinkish gray (7.5YR 7/2) silt loam; weak fine granular structure; friable; common very fine and fine and few medium and coarse roots; 10 percent channers; extremely acid; abrupt wavy boundary.  (0 to 8 cm thick)"
+      },
+      {
+        "name": "Bh",
+        "top": 5,
+        "bottom": 10,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bh--5 to 10 cm; dark reddish brown (5YR 3/4) silt loam; weak very fine and fine granular structure; very friable; common very fine, fine and medium and few coarse roots; 10 percent channers; extremely acid; abrupt wavy boundary.  (0 to 15 cm thick)"
+      },
+      {
+        "name": "Bs",
+        "top": 10,
+        "bottom": 28,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "flaggy",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs--10 to 28 cm; strong brown (7.5YR 5/6) flaggy loam; weak fine granular structure; very friable; common very fine and fine and few medium and coarse roots; 15 percent channers and 10 percent flagstones; very strongly acid; clear wavy boundary.  (10 to 41 cm  thick)"
+      },
+      {
+        "name": "BC",
+        "top": 28,
+        "bottom": 43,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--28 to 43 cm; light olive brown (2.5Y 5/6) channery loam; weak fine and medium granular structure; friable; few very fine, fine, medium and coarse roots; 10 percent channers and 5 percent flagstones; strongly acid; gradual wavy boundary.  (0 to 36 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 43,
+        "bottom": 66,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "C--43 to 66 cm; olive (5Y 5/4) channery loam; weak medium platy structure; friable; few very fine roots; 10 percent channers and 5 percent flagstones; moderately acid; abrupt irregular boundary."
+      },
+      {
+        "name": "R",
+        "top": 66,
+        "narrative": "R--66 cm; slate."
+      }
+    ]
+  ]
 }

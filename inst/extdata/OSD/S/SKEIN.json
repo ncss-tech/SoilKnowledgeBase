@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nSeries control section:  The zone from 0 to 19 inches.\nParticle-size control section; the zone from 10 to 19 inches.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon: the zone from the surface to 6 inches (A horizon).\nCalcic horizon: the zone from 6 to 19 inches (Bk1 and Bk2 horizons).\nLithic contact: hard lime coated sandstone at 19 inches (2R horizon).Last updated by the state 2/99.\nTaxonomic Version:  Classified according to Keys to Soil Taxonomy, Eleventh Edition, 2010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 6 inches; reddish brown (5YR 4/4) loam, dark reddish brown (5YR 3/4) moist; weak fine granular structure; slightly hard, very friable, slightly sticky, strongly effervescent; moderately alkaline (pH 8.0); clear wavy boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 15,
+        "bottom": 33,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bk1--6 to 13 inches; reddish brown (5YR 5/3) loam, dark reddish gray (5YR 4/2) moist; moderate medium subangular blocky structure; hard, very friable, slightly sticky, and slightly plastic; 20 percent calcium carbonate, disseminated; strongly effervescent; moderately alkaline (pH 8.0); clear wavy boundary.  (3 to 7 inches thick)"
+      },
+      {
+        "name": "Bk2",
+        "top": 33,
+        "bottom": 48,
+        "dry_hue": "5YR",
+        "dry_value": 8,
+        "dry_chroma": 1,
+        "moist_hue": "5YR",
+        "moist_value": 8,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bk2--13 to 19 inches; white (5YR 8/1) very gravelly loam, pinkish white (5YR 8/2) moist; massive; hard, very friable; 35 percent gravel and 15 percent cobbles;  43 percent calcium carbonate; lime disseminated throughout; violently effervescent; moderately alkaline (pH 8.4); abrupt wavy boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 48,
+        "bottom": 58,
+        "texture_class": "sand",
+        "narrative": "2R--19 to 23 inches; hard lime coated sandstone."
+      }
+    ]
+  ]
 }

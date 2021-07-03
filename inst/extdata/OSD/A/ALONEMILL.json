@@ -56,5 +56,51 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon, the zone from 0 to 10 inches (Ap horizon).\nCambic horizon, the zone from 0 to 10 to 72 inches (Bw horizon).\nNote: CEC class based on information from similar soils.\nThe 1/2006 revision updates this soil to the 9th Edition of the Keys to Soil Taxonomy (2003).  The CEC activity class placement is based on similar soils and not on laboratory data.  Class placement may be revised in the future when laboratory data becomes available.\nCompeting series, pedon description (including horizon nomenclature and/or descriptive terms), and other sections on the OSD were not revised.\nPrevious revision date 10/92\nSIR= VA0372\nMLRA= 125, 128, 147\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 10 inches; dark brown (7.5YR 3/4) fine sandy loam, weak fine granular structure; friable, slightly sticky, slightly plastic; comm fine and medium roots; neutral; abrupt smooth boundary."
+      },
+      {
+        "name": "Bw1",
+        "top": 25,
+        "bottom": 64,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "neutral",
+        "narrative": "Bw1--10 to 25 inches; dark brown (7.5YR 3/4) fine sandy loam; weak fine subangular blocky structure; friable, slightly sticky, slightly plastic; few fine roots; neutral; diffuse boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 64,
+        "bottom": 183,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "neutral",
+        "narrative": "Bw2--25 to 72 inches; dark brown (7.5YR 4/4) fine sandy loam; weak fine subangular blocky structure; friable, slightly sticky, slightly plastic; few fine roots; neutral."
+      }
+    ]
+  ]
 }

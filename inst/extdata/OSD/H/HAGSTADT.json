@@ -56,5 +56,71 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon from the soil surface to 6inches (A, Bw horizons);\nCambic horizon from 6 to 22 inches (Bw horizon);\nParticle-size control section from 10 inches to 22 inches (Bw horizon).\nParalithic contact at 22 inches (top of Cr horizon);\nHagstadt soils have a frigid temperature regime and an ustic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "0i--0 to 1 inch; undecomposed and slightly decomposed forest litter."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A--1 to 6 inches; brown (10YR 5/3) silt loam, very dark grayish brown (10YR 3/2) moist; moderate very thin and thin platy structure; soft, friable, nonsticky and slightly plastic; common fine and medium roots; common fine pores; 1 percent pebbles; neutral (pH 7.0); gradual smooth boundary. (2 to 5 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 15,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--6 to 22 inches; light yellowish brown (10YR 6/4) silty clay loam, yellowish brown (10YR 5/6) moist; moderate and strong fine and medium subangular blocky structure; slightly hard, friable, moderately sticky and moderately plastic; common medium roots and few fine roots; common very fine and fine pores; 5 percent pebbles, 70 percent soft siltstone fragments; neutral (pH 7.0); abrupt wavy boundary. (18 to 38 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 56,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt",
+        "pH": 7,
+        "pH_class": "neutral",
+        "narrative": "Cr--22 to 60 inches; very pale brown (10YR 7/4) consolidated siltstone, yellowish brown (10YR 5/6) moist; neutral (pH 7.0)."
+      }
+    ]
+  ]
 }

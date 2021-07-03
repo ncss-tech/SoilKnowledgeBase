@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizon and features recognized in this pedon are: mollic--the zone from 0 to 10 inches (A horizon); cambic horizon--the zone from 10 to 44 inches (Bg and 2Bkg horizons); calcic horizon-the zone from 30 to 44 inches (2Bkg horizon).\nThis soil was previously correlated as Marcus Variant in Rock County, Minnesota. It is in a unique geologic feature resembling a crater on the landscape, however its evolution is not clear at this time.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 10 inches; black (10YR 2/1) silty clay loam, very dark gray (10YR 3/1) dry; moderate medium angular blocky structure; friable; neutral; abrupt smooth boundary. (7 to 10 inches thick)"
+      },
+      {
+        "name": "2Bg",
+        "top": 25,
+        "bottom": 76,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bg--10 to 30 inches; dark grayish brown (2.5Y 4/2) clay loam; moderate medium and fine angular blocky structure; firm; common fine distinct light olive brown (2.5Y 5/4) Fe concentrations; neutral; gradual smooth boundary. (15 to 40 inches thick)"
+      },
+      {
+        "name": "3Bkg",
+        "top": 76,
+        "bottom": 112,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "3Bkg--30 to 44 inches; grayish brown (2.5Y 5/2) silty clay; moderate fine and medium angular blocky structure; firm; few fine distinct light olive brown (2.5Y 5/4) Fe concentrations; strongly effervescent; moderately alkaline; gradual smooth boundary. (10 to 30 inches thick)"
+      },
+      {
+        "name": "3Cg1",
+        "top": 112,
+        "bottom": 178,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "3Cg1--44 to 70 inches; grayish brown (2.5Y 5/2) clay; massive; firm; few fine distinct light olive brown (2.5Y 5/4) Fe concentrations; slightly effervescent; moderately alkaline; gradual smooth boundary. (0 to 20 inches thick)"
+      },
+      {
+        "name": "3Cg2",
+        "top": 178,
+        "bottom": 203,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "moderately alkaline",
+        "narrative": "3Cg2--70 to 80 inches; gray (2.5Y 5/1) clay; massive; firm; slightly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

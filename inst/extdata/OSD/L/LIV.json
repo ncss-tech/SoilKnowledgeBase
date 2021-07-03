@@ -56,5 +56,100 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognizes in this pedon are:\nMollic epipedon -  the zone from 0 to 38 inches (A, Bt1, and Bt2 horizons)\nArgillic horizons - the zone from 9 to 38 inches (Bt and Btk horizons)\nPale feature - clayey particle size class in the upper argillic and an absolute increase of clay of 20 percent within 3 inches\nPachic feature - mollic epipedon is thicker than 20 inches\nAdditional Data:  Lincoln Laboratory Data for texture and mineralogy is available for the Bt2 horizon - LSL No. 66L166.\nSoil classified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Eleventh Edition, 2010\nUpdates and revisions for Brewster County, Texas, Main Part, 2/12/08, CEM\nRevised for the correlation of Big Bend National Park, TX, Oct. 2010, CEM\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "very cobbly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 9 inches; very dark grayish brown (10YR 3/2) very cobbly silt loam, very dark brown (10YR 2/2) moist; strong fine granular structure; slightly hard, friable, moderately sticky and moderately plastic; many fine roots; 20 percent igneous gravel, 20 percent igneous cobbles, and 10 percent igneous stones; neutral; clear smooth boundary.  (4 to 14 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 23,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "cf_class": "very cobbly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--9 to 17 inches; very dark grayish brown (10YR 3/2) very cobbly clay, very dark brown (10YR 2/2) moist; strong fine angular blocky structure; hard, very firm, very sticky and moderately plastic; common continuous clay films on surfaces of peds; many very fine and fine roots; 25 percent igneous gravel 20 percent igneous cobbles, and 10 percent igneous stones; slightly acid; clear smooth boundary.  (6 to 18 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 43,
+        "bottom": 58,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "cf_class": "very cobbly",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt2--17 to 23 inches; dark reddish gray (5YR 4/2) very cobbly clay, dark reddish brown (5YR 3/3) moist; strong fine angular blocky structure; hard, firm, very sticky and moderately plastic; common patchy clay films on surfaces of peds; 25 percent igneous gravel, 20 percent igneous cobbles, and 10 percent igneous stones; slightly acid; gradual smooth boundary.  (6 to 24 inches thick)"
+      },
+      {
+        "name": "Btk",
+        "top": 58,
+        "bottom": 97,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "cf_class": "very cobbly",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btk--23 to 38 inches; reddish brown (5YR 4/3) very cobbly clay, dark reddish brown (5YR 3/3) moist; moderate medium angular blocky structure; hard, firm, very sticky and plastic; many continuous clay films on surfaces of peds; 30 percent igneous gravel; 20 percent igneous cobbles, and 10 percent igneous stones; many masses of calcium carbonate; violently effervescent; clear smooth boundary.  (0 to 15 inches thick)"
+      },
+      {
+        "name": "Crk",
+        "top": 97,
+        "bottom": 112,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "Crk--38 to 44 inches; light reddish brown (5YR 6/3) and reddish gray (5YR 5/2) weathered tuffaceous rock; weakly cemented fragile fragments; fractures filled with many masses of calcium carbonate; gradual irregular boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 112,
+        "bottom": 152,
+        "narrative": "Cr--44 to 60 inches; light olive tuffaceous rock; weakly cemented; fractured; calcium carbonate lime coatings in fractures."
+      }
+    ]
+  ]
 }

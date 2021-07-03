@@ -56,5 +56,84 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 25 to 100 centimeters\nseries control section--the zone from the surface to a depth of 150 centimeters\nDiagnostic horizons and features recognized in this pedon include:\nochric epipedon--the zone from the surface to a depth of 13 centimeters (A horizon);\ncambic horizon--the zone from 13 centimeters to 86 centimeters (Bw1 and Bw2 horizons);\ndystric subgroup--no free carbonates within a depth of 100 centimeters;\nisotic mineralogy--based on a 15 kPa water to measured clay ratio of greater than 0.6\nTaxonomy version--Keys to Soil Taxonomy, tenth edition, 2006\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 13 centimeters; very dark gray (10YR 3/1) sandy loam, gray (10YR 5/1) dry; moderate medium granular structure; friable; many fine and very fine and common medium roots; about 5 percent gravel and 2 percent cobbles; strongly acid; clear smooth boundary. (5 to 15 centimeters thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 13,
+        "bottom": 51,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1--13 to 51 centimeters; brown (7.5YR 4/4) sandy loam; weak fine and medium subangular blocky structure; friable; many fine and very fine and common medium roots; about 10 percent gravel and 1 percent cobbles; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 51,
+        "bottom": 86,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--51 to 86 centimeters; brown (7.5YR 4/3) sandy loam; weak medium subangular blocky structure; friable; common fine and few medium roots; about 12 percent gravel and 2 percent cobbles; moderately acid; clear wavy boundary. (Combined thickness of the Bw horizons is 46 to 86 centimeters)"
+      },
+      {
+        "name": "2BC",
+        "top": 86,
+        "bottom": 99,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "cf_class": "very gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2BC--86 to 99 centimeters; brown (7.5YR 4/4) very gravelly loamy sand; weak coarse subangular blocky structure; very friable; common fine and very fine roots; about 40 percent gravel; about 3 percent cobbles; slightly acid; gradual wavy boundary. (0 to 30 centimeters thick)"
+      },
+      {
+        "name": "2C",
+        "top": 99,
+        "bottom": 203,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH_class": "slightly acid",
+        "narrative": "2C--99 to 203 centimeters; brown (7.5YR 4/4) very gravelly sand; single grain; loose; about 50 percent gravel; about 4 percent cobbles; slightly acid."
+      }
+    ]
+  ]
 }

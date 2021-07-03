@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic features recognized in this pedon are:\nOchric epipedon - the zone from the surface to approximately 2 inches (A  horizon).\nDepth to seasonal water table is more than 6 feet.\nSIR=GA0016\nMLRA=133A, 133B, 137, 153A\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "coarse sand",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; dark grayish brown (10YR 4/2) coarse sand; grayish brown (10YR 5/2) dry; single grained; loose; common fine roots; strongly acid; abrupt smooth boundary.  (2 to 7 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 5,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "coarse sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C1--2 to 9 inches; yellowish brown (10YR 5/6) coarse sand; common medium distinct dark yellowish brown (10YR 4/4) splotches and streaks; single grained; loose; common fine roots; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "C2",
+        "top": 23,
+        "bottom": 160,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "coarse sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C2--9 to 63 inches; yellowish brown (10YR 5/6) coarse sand; single grained; loose; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "C3",
+        "top": 160,
+        "bottom": 211,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "coarse sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C3--63 to 83 inches; very pale brown (10YR 7/4) coarse sand; single grained; loose; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "C4",
+        "top": 211,
+        "bottom": 264,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "coarse sand",
+        "pH_class": "strongly acid",
+        "narrative": "C4--83 to 104 inches; brownish yellow (10YR 6/6) coarse sand; single grained; loose; strongly acid.  (Combined thickness of the C horizon is 40 to more than 120 inches thick)"
+      }
+    ]
+  ]
 }

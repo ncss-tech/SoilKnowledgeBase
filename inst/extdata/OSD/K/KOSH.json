@@ -56,5 +56,51 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon:\nMollic epipedon - zone from the 0 to 10 inches (A horizon)\nParticle-size control section - zone from 10 to 18 inches (PSCS is whole soil when depth to bedrock is less than 14 inches)\nLithic contact - at 18 inches (R)\nSoil moisture regime - xeric\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 10 inches; brown (10YR 4/3) fine gravelly sandy loam, dark brown (10YR 3/3) moist; weak medium and coarse granular structure; soft, very friable, nonsticky and slightly plastic; many very fine and fine, few medium and coarse roots; many very fine, fine and medium irregular pores; 25 percent fine gravel; moderately acid (pH 5.8); clear wavy boundary. (5 to 12 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 25,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "cf_class": "extremely gravelly",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C--10 to 18 inches; brownish yellow (10YR 6/6) extremely gravelly loamy sand, dark yellowish brown (10YR 4/6) moist; single grain; loose, nonsticky and nonplastic; common very fine and fine, few medium and coarse roots; many very fine, fine and medium irregular pores; 60 percent gravel, 5 percent cobbles; slightly acid (pH 6.1); gradual wavy boundary. (5 to 10 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 46,
+        "narrative": "R--18 inches; fractured granodiorite."
+      }
+    ]
+  ]
 }

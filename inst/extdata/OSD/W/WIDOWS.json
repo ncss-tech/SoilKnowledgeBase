@@ -56,5 +56,57 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and other features:\nMollic epipedon - 0 to 14 inches (A and Bt horizons)\nArgillic horizon - 2 to 14 inches (Bt horizon)\nXeric moisture regime\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "extremely cobbly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 2 inches; very dark grayish brown (10YR 3/2) extremely cobbly clay loam, brown (10YR 4/3) dry; weak fine granular structure; slightly hard, friable, moderately sticky and moderately plastic; many fine and common very fine roots; common fine discontinuous pores; 35 percent cobbles and 35 percent gravel; neutral (pH 6.6); abrupt wavy boundary.  (2 to 10 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 5,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "cf_class": "very gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--2 to 14 inches; black (10YR 2/1) very gravelly clay, very dark gray (10YR 3/1) dry; moderate medium subangular blocky structure; hard, very firm, very sticky and very plastic; many very fine roots; common fine discontinuous pores; continuous prominent clay films on ped faces; 10 percent cobbles and 30 percent gravel; neutral (pH 6.8); clear wavy boundary.  (8 to 10 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 36,
+        "narrative": "R--14 inches; hard, fractured serpentine, partially weathered in the upper few inches."
+      }
+    ]
+  ]
 }

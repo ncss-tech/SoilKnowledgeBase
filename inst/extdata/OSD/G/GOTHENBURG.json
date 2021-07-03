@@ -56,5 +56,63 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon-0 to 8 centimeters (0 to 3 inches)\nAquic conditions-0 to 200 centimeters (0 to 80 inches)\nBefore extensive flooding of the Platte River was controlled by\nupstream dams, this soil was unstable riverwash. Since 1940, these areas have become stabilized and vegetated with trees and grasses. In older surveys, these soils were called Loamy alluvial land, Gravelly alluvial land, or Mixed alluvial land. The depth to the water table within these soils is related to the water level in the channel. Periods of drought lower the water table within these soils.\n6/2002RRZ Slope range dropped from 3 to 2 percent.\n12/2011 TDW Added metric units\nChanged \"Depth to rock fragments\" from less than 10 inches but ranges from 1 to 20 inches to less than 25 centimeters (10 inches)\nChanged \"Depth to secondary calcium carbonate:\" calcium carbonates are generally found in the upper part of most soil profiles to 0 to 20 centimeters, calcium carbonates are generally not found in the 2C material\nClay content in the A horizon was changed from 2-8% to 2-10%\nAdded clay content ranges to the C and 2CG horizon ranges\nAdded sand content ranges to all horizon ranges\nRock fragments in the A horizon were changed from 0-5% to 0-14% and size was changed from 2-75mm to 2-20mm\nRock fragments in the Cg horizon were changed from 0-25% to 0-34%and size was changed from 2-75mm to 2-20mm and added stratification of the sandy and gravelly layers is common\nChanged runoff from slow to very low\nChanged permeability rapid to very rapid to Saturated Hydraulic Conductivity high\nDeleted out the statement about permeability in the introductory paragraph\nUpdated the list of competing soil series\nUpdated the list of geographically associated soil series\nAdded CCE range for the A and C horizons\nChanged \"shallow streams\" to \"braided streams\" in geographic settings section\nAdded MLRA's to the distribution and extent section\nAdded depth to redoximorphic features in the range in characteristics\nMoved the soil temperature statement from geographic settings to the range in characteristics section\nChanged topographic quadrangle to USGS quadrangle in the type location section\nChanged the statement that Wann was on similar landform positions to Wann is on higher landform positions\n12/2011 JCR Removed \"Thickness of Mollic epipedon\" as thickness criteria for a Mollic epipedon is not met with the range\nADDITIONAL DATA: The A and C horizon rock fragments are predominately in the size range of 2-5mm based on sieve analysis.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 8 centimeters (0 to 3 inches); grayish brown (10YR 5/2) loamy sand, very dark grayish brown (10YR 3/2) moist; weak fine granular structure; soft, very friable; many fine and medium roots; neutral; clear wavy boundary. (3 to 15 centimeters (1 to 6 inches) thick)"
+      },
+      {
+        "name": "C",
+        "top": 8,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "coarse sand",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--8 to 20 centimeters (3 to 8 inches); light brownish gray (10YR 6/2) coarse sand, grayish brown (10YR 5/2) moist; single grain; loose; 3 percent gravel by volume; neutral; abrupt wavy boundary. (0 to 36 centimeters (0 to 14 inches) thick)"
+      },
+      {
+        "name": "2Cg",
+        "top": 20,
+        "bottom": 203,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "coarse sand",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "narrative": "2Cg--20 to 203 centimeters (8 to 80 inches); light gray (10YR 7/2) gravelly coarse sand, pale brown (10YR 6/3) moist; common, medium prominent strong brown (7.5YR 5/6) moist iron masses in the soil matrix; single grain; loose; 30 percent gravel by volume; neutral."
+      }
+    ]
+  ]
 }

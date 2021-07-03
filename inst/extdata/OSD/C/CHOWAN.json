@@ -56,5 +56,65 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The nonacid condition is attributed to surface runoff and erosion of soil this pedon.\nADDITIONAL DATA: None\nTABULAR SERIES DATA:\nSOI-5   Soil Name   Slope   Airtemp   FrFr/Seas   Precip   Elevation\nNC0146   CHOWAN      0-2     61-70     220-280    44-51      2-15\nSOI-5    FloodL FloodH Watertable    Kind      Months   Bedrock\nNC0146   FREQ            0-0.5     APPARENT   NOV-MAY   60-60\nSOI-5    Depth    Texture          3-Inch   No-10   Clay%    CEC\nNC0146   0-6    L SIL SICL          0-0    100-100   5-25    3-9\nNC0146   6-27   L SIL SICL          0-0    100-100  18-35    4-11\nNC0146  27-80       SP                               2-12   20-85\nSOI-5  Depth   -pH-O.M.  Salin  Permeab   Shnk-Swll\nNC0146  0-6  3.5-6.0  2.-4.  0-0   2.0-6.0  LOW\nNC0146  6-27  3.5-6.0  1.-4.  0-0   0.2-0.6  LOW\nNC0146 27-80  3.5-5.0  20-80  0-0   0.2-6.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 6 inches; dark grayish brown (10YR 4/2) silt loam; massive; friable; slightly sticky; common medium and coarse roots; moderately acid; gradual wavy boundary.  (5 to 12 inches thick)"
+      },
+      {
+        "name": "Cg1",
+        "top": 15,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Cg1--6 to 20 inches; gray (10YR 5/1) silty clay loam; massive; friable; moderately sticky; common coarse roots; moderately acid; gradual wavy boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 51,
+        "bottom": 69,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Cg2--20 to 27 inches; dark grayish brown (10YR 4/2) silt loam; massive; friable; slightly sticky; few coarse roots; moderately acid; gradual wavy boundary.  (Combined thickness of the Cg horizon is 15 to 32 inches.)"
+      },
+      {
+        "name": "2Oa",
+        "top": 69,
+        "bottom": 203,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "extremely acid",
+        "narrative": "2Oa--27 to 80 inches; black (5YR 2/1) sapric material; about 30 percent fibers, less than 10 percent rubbed, massive; very friable; common logs and stumps; extremely acid."
+      }
+    ]
+  ]
 }

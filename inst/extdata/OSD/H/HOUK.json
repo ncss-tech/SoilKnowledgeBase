@@ -56,5 +56,96 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and other features recognized in this\npedon are:\nMollic epipedon - the zone from 0 to 8 inches (Ap horizon).\nAlbic horizon - the zone from 8 to 13 inches (E horizon).\nArgillic horizon - the zone from 13 to 46 inches (Bt horizon).\nParticle-size control section - the zone from 13 to 33 inches (upper 20\ninches of the argillic horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "narrative": "Ap--0 to 8 inches; gray (10YR 5/1) silty clay loam, very dark gray"
+      },
+      {
+        "name": "E",
+        "top": 20,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "narrative": "E--8 to 13 inches; gray (10YR 6/1) silty clay loam, dark gray (10YR"
+      },
+      {
+        "name": "Bt1",
+        "top": 33,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "narrative": "Bt1--13 to 25 inches; dark gray (10YR 4/1) clay, very dark gray"
+      },
+      {
+        "name": "Bt2",
+        "top": 64,
+        "bottom": 79,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "narrative": "Bt2--25 to 31 inches; dark gray (10YR 4/1) clay; black (10YR 2/1)"
+      },
+      {
+        "name": "Btk1",
+        "top": 79,
+        "bottom": 97,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "narrative": "Btk1--31 to 38 inches; gray (10YR 5/1) clay loam, very dark gray"
+      },
+      {
+        "name": "Btk2",
+        "top": 97,
+        "bottom": 117,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "narrative": "Btk2--38 to 46 inches; gray (10YR 5/1) clay loam, very dark gray"
+      },
+      {
+        "name": "Bgk",
+        "top": 117,
+        "bottom": 145,
+        "moist_hue": "5Y",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "narrative": "Bgk--46 to 57 inches; light gray (5Y 7/2) sandy clay loam, gley"
+      },
+      {
+        "name": "Bg",
+        "top": 145,
+        "bottom": 155,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "narrative": "Bg--57 to 61 inches; gray (5Y 6/1) sandy loam, dark greenish gray"
+      }
+    ]
+  ]
 }

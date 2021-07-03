@@ -56,5 +56,89 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: 1. The classification is changed from the previous classification was Coarse-loamy over sandy or sandy-skeletal, mixed, frigid Typic Haplorthods. Some soils mapped Duxbury in the past met the old classification and need to be reevaluated.\n2.Duxbury is frigid and its use in MLRA 144A is relict. It will be replaced as mapping is updated.\n3. Diagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon - the zone from 0 to 6 inches (Oe and E horizons).\nb. Albic horizon - the zone from 0 to 5 inches (E horizon).\nc. Spodic horizon - the zone from 5 to 16 inches (Bh and Bhs horizons).\n3. Sandy particle-size class - the weighted average texture of the fine earth fraction of the particle-size control section (10 to 40 inches) is loamy coarse sand.\nADDITIONAL DATA: NSSL laboratory data is available for the following pedons: S77VT-15-5 and S77VT-15-7.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oe -- 0 to 1 inch; moderately decomposed plant material."
+      },
+      {
+        "name": "E",
+        "top": 3,
+        "bottom": 15,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "E -- 1 to 6 inches; brown (7.5YR 5/2) gravelly fine sandy loam; weak very fine granular structure; very friable; many roots; 15 percent rock fragments; extremely acid; abrupt irregular boundary. (0 to 6 inches thick.)"
+      },
+      {
+        "name": "Bhs",
+        "top": 15,
+        "bottom": 23,
+        "moist_hue": "2.5YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "broken",
+        "narrative": "Bhs -- 6 to 9 inches; very dusky red (2.5YR 2/2) silt loam; weak medium subangular blocky structure; very friable; many roots; 10 percent rock fragments; extremely acid; clear broken boundary."
+      },
+      {
+        "name": "Bs",
+        "top": 23,
+        "bottom": 43,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bs -- 9 to 17 inches; dark reddish brown (5YR 3/4) gravelly fine sandy loam; weak medium subangular blocky structure; very friable; many roots; 15 percent rock fragments; very strongly acid; gradual wavy boundary. (Combined thickness of the Bh, Bhs and Bs horizons is 4 to 23 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 43,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "BC -- 17 to 26 inches; dark yellowish brown (10YR 3/4) gravelly fine sandy loam; massive; very friable; common roots; 20 percent rock fragments; very strongly acid; abrupt irregular boundary. (0 to 10 inches thick.)"
+      },
+      {
+        "name": "2C",
+        "top": 66,
+        "bottom": 165,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH_class": "strongly acid",
+        "narrative": "2C -- 26 to 65 inches; gray (5Y 5/1) and pale brown (10YR 6/3) very gravelly sand; single grain; loose; 48 percent rock fragments; strongly acid."
+      }
+    ]
+  ]
 }

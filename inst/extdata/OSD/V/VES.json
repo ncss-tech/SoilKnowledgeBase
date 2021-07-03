@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 25 to 100 centimeters; series control section--the zone from the surface to a depth of 150 centimeters.\nDiagnostic horizons and features recognized in this pedon are:\nmollic epipedon--the zone from the surface to a depth of 20 centimeters (Ap horizon);\ncambic horizon--the zone from a depth of 20 to 56 centimeters (Bw1 and Bw2 horizons);\ncalcic horizon--the zone from a depth of 56 to 84 centimeters (Bk horizon);\nudic moisture regime.\nCation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomy version--Keys to Soil Taxonomy, tenth edition, 2006.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 20 centimeters; very dark brown (10YR 2/2) loam, very dark grayish brown (10YR 3/2) dry; weak medium subangular blocky structure; friable; about 2 percent gravel; neutral; abrupt smooth boundary."
+      },
+      {
+        "name": "Bw1",
+        "top": 20,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--20 to 33 centimeters; brown (10YR 4/3) loam; weak medium subangular blocky structure; friable; about 2 percent gravel; neutral; clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 33,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--33 to 56 centimeters; dark yellowish brown (10YR 4/4) loam; weak medium subangular blocky structure; friable; about 2 percent gravel; neutral; clear wavy boundary."
+      },
+      {
+        "name": "Bk",
+        "top": 56,
+        "bottom": 84,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk--56 to 84 centimeters; dark yellowish brown (10YR 4/4) loam; weak medium subangular blocky structure; friable; common soft light brownish gray (10YR 6/2) accumulations of lime; few yellowish red (5YR 5/8) iron masses; about 3 percent gravel; strongly effervescent; moderately alkaline; gradual wavy boundary."
+      },
+      {
+        "name": "Ck",
+        "top": 84,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "Ck--84 to 152 centimeters; light olive brown (2.5Y 5/4) loam; massive; friable; few soft light brownish gray (2.5Y 6/2) lime masses; few yellowish red (5YR 5/8) iron masses; about 3 percent gravel; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

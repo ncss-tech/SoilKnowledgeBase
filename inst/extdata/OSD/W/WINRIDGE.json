@@ -56,5 +56,62 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic features recognized in this soil are:\nMollic epipedon - zone from the soil surface to about 16 inches (A,\nBt1, and Bt2 horizons)\nArgillic horizon - zone from about 4 to 23 inches (Bt1, Bt2, and Bt3\nhorizons)\nParticle-size control section - 4 to 23 inches (Bt1, Bt2, and Bt3\nhorizons)\nLithic contact - at 23 inches (R horizon)\nNational Cooperative Soil Survey\nU. S. A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "texture_class": "clay loam",
+        "narrative": "A--0 to 4 inches; dark grayish brown (10YR 4/2) clay loam, very"
+      },
+      {
+        "name": "Bt1",
+        "top": 10,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "narrative": "Bt1--4 to 10 inches; dark grayish brown (10YR 4/2) gravelly clay,"
+      },
+      {
+        "name": "Bt2",
+        "top": 25,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "texture_class": "clay",
+        "narrative": "Bt2--10 to 16 inches; brown (10YR 4/3) clay, dark brown (10YR 3/3)"
+      },
+      {
+        "name": "Bt3",
+        "top": 41,
+        "bottom": 58,
+        "dry_hue": "2.5Y",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "narrative": "Bt3--16 to 23 inches; olive brown (2.5Y 4/4) sandy clay loam, dark"
+      },
+      {
+        "name": "R",
+        "top": 58,
+        "narrative": "R--23 inches decomposing andesite bedrock."
+      }
+    ]
+  ]
 }

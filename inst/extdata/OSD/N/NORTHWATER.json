@@ -56,5 +56,77 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic features include a thickened mollic epipedon from 0 to 25 inches (A1 and A2 horizons) and an argillic horizon from 25 to 50 inches (Bt horizon).  A lithic contact is at 50 inches.  A pale feature is in excess of 24 inches.  Last updated by the state 10/91.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 5,
+        "bottom": 0,
+        "narrative": "Oe--2 to 0 inches; organic material."
+      },
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 10 inches; brown (10YR 4/3) loam, very dark grayish brown (10YR 3/2) moist; moderate fine granular structure; soft, very friable, slightly sticky and slightly plastic; many fine and very fine roots; neutral; clear smooth boundary.  (10 to 15 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 25,
+        "bottom": 64,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--10 to 25 inches; dark grayish brown (10YR 4/2) loam, very dark brown (10YR 2/2) moist; moderate fine granular structure; slightly hard, very friable, slightly sticky and slightly plastic; many fine and very fine roots; 10 percent pebbles; neutral; clear wavy boundary.  (10 to 20 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 64,
+        "bottom": 127,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "very channery",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--25 to 50 inches; light brown (7.5YR 6/4) very channery clay loam, dark brown (7.5YR 4/4) moist; moderate medium subangular blocky structure parting to moderate fine subangular blocks; hard, friable, sticky and plastic; common medium and large roots; common thin clay films and organic coats on faces of peds and along root channels; 50 percent channers, mostly 3/4 to 3 inches in length; neutral; clear wavy boundary.  (20 to 50 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 127,
+        "texture_class": "sand",
+        "narrative": "R--50 inches; fractured sandstone."
+      }
+    ]
+  ]
 }

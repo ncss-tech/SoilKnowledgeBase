@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soils of the Sipsey series were formerly included in mapping with the Hartsells series.  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon:  the zone from the surface to a depth of 16 inches (the A, E, and EB horizons)\nArgillic horizon:  the zone from a depth of 16 inches to a depth of 31 inches (the Bt horizon)\nParalithic contact:  the base of the soil at a depth of 31 inches (top of the Cr horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 4 inches; brown (10YR 4/3) loamy sand; weak fine granular structure; very friable; many fine and medium roots; 5 percent by volume of sandstone channers; strongly acid; abrupt wavy boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--4 to 10 inches; yellowish brown (10YR 5/4) sandy loam; weak fine granular structure; friable; common fine and few medium roots; 5 percent by volume of sandstone channers; moderately acid; clear wavy boundary.  (0 to 15 inches thick)"
+      },
+      {
+        "name": "EB",
+        "top": 25,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "EB--10 to 16 inches; yellowish brown (10YR 5/6) sandy loam; weak medium subangular blocky structure; very friable; 10 percent by volume of sandstone channers; strongly acid; clear wavy boundary.  (0 to l0 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 41,
+        "bottom": 79,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--16 to 31 inches; strong brown (7.5YR 5/8) sandy clay loam; moderate medium subangular blocky structure; friable; distinct discontinuous clay films on faces of some peds; 10 percent by volume of sandstone channers; strongly acid; clear wavy boundary.  (6 to 18 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 79,
+        "bottom": 152,
+        "texture_class": "sand",
+        "narrative": "Cr--31 to 60 inches; soft, weathered sandstone bedrock; massive."
+      }
+    ]
+  ]
 }

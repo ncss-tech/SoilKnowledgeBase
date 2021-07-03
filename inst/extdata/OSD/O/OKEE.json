@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:  ochric epipedon -  0 to 61 cm (0 to 24 inches) (A,  Bw); argillic horizon - 61 to 86 cm (24 to 34 inches) (2Bt1, 2Bt2); arenic feature - sandy particle-size class throughout a layer extending from the mineral soil surface to the top of the argillic horizon at a depth of 50 cm or more.\n12/05 - A new typical pedon is used in this revision. The former typical pedon was described in a D slope map unit of Okee. The D slope Okee map units were later combined with D slope Wyocena loamy sand map units during correlation (probably because of small acreage). Therefore, the former Okee typical pedon is located in a polygon of D slope Wyocena loamy sand.\n12/05 -The central concept of Okee in Columbia and Green Lake Counties is sandy outwash or eolian mantle over sandy clay loam or sandy loam 2Bt over sandy loam till 2C. The Green Lake TUD allows loamy sand 2C but the TP for the TUD is sandy loam and Columbia Co. has 1 field description over loamy sand till. The Adams Co. TUD says Okee soils ?formed in sandy and loamy deposits over sandy glacial till. The Waushara Co. TUD says Okee soils formed in sandy and loamy glacial till. Need field investigation to determine if there is a need for 2 series. Can Okee soils in Columbia and Green Lake Co. be separated from those in Adams and Waushara Co. based on texture of the till (sandy vs loamy).  Is there some difference in landform or glacial advance?\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 23 cm (0 to 9 inches); dark grayish brown (10YR 4/2) loamy fine sand, grayish brown (10YR 5/2) dry; weak fine granular structure; very friable;  common roots; moderately acid; abrupt smooth boundary.  [15 to 25 cm (6 to 10 inches) thick]"
+      },
+      {
+        "name": "Bw",
+        "top": 23,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loamy fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw--23 to 64 cm (9 to 25 inches); yellowish brown (10YR 5/4) loamy fine sand; weak fine subangular blocky structure; very friable; few roots; moderately acid; abrupt smooth boundary. [48 to 91 cm (19 to 36 inches) thick]"
+      },
+      {
+        "name": "2Bt1",
+        "top": 64,
+        "bottom": 78,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bt1--64 to 78 cm (25 to 31 inches); brown (7.5YR 4/4) sandy loam; weak fine and medium subangular blocky structure; friable; few roots; common pores; common clay films on faces of peds and on gravel; about 5 percent gravel;  moderately acid; clear wavy boundary."
+      },
+      {
+        "name": "2Bt2",
+        "top": 78,
+        "bottom": 114,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Bt2--78 to 114 cm (31 to 45 inches); brown (7.5YR 4/4 ) sandy loam; weak fine subangular blocky structure; friable; few roots; common pores; common clay films on faces of peds and on gravel; about 5 percent gravel;  slightly acid; abrupt wavy boundary. [Combined thickness of the 2Bt horizon ranges from 25 to 51 cm (10 to 20 inches).]"
+      },
+      {
+        "name": "2C",
+        "top": 114,
+        "bottom": 152,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately alkaline",
+        "narrative": "2C--114 to 152 cm (45 to 60 inches); brown (7.5YR 5/4) gravelly sandy loam; massive; friable; common pores; about 15 percent gravel; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

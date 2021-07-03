@@ -56,5 +56,101 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in the pedon are:\nOchric epipedon - the zone from 1 to 8 inches (A and E horizons)\nLamellic subgroup feature - the zone from 8 to 53 inches (E&Bt1 and E&Bt2 horizons)\nParticle-size control section - the zone from 10 to 40 inches (part of the E&Bt1 and E&Bt2 horizons)\nThe classification of this series has been revised as of 5/00 from mixed, mesic Alfic Xeropsamments to mixed, mesic Lamellic Xeropsamments based on revisions to Soil Taxonomy.\nThe description for the type location has been revised based on a revisitof the pedon location and development of a more complete pedon description. The drainage class has been revised from excessively drained to well drained based on the presence of lamellae and their effect on water movement.\nADDITIONAL DATA: Laboratory data - S01-WA063-008, pedon number: 02N0119 and S68WA-063-002, Spokane County, WA; NSSL, Lincoln, NE.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 1 inch; litter of partially decomposed needles, leaves and twigs; abrupt smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--1 to 4 inches; grayish brown (10YR 5/2) loamy sand, very dark grayish brown (10YR 3/2) moist; weak coarse granular structure; soft, very friable, nonsticky and nonplastic; many very fine, common fine and few medium roots; common fine interstitial pores; slightly acid (pH 6.4); clear wavy boundary. (3 to 6 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--4 to 8 inches; pale brown (10YR 6/3) loamy sand, brown (10YR 4/3) moist; massive; soft, very friable, nonsticky and nonplastic; common very fine and few medium and coarse roots; common fine interstitial pores; slightly acid (pH 6.4); clear wavy boundary. (2 to 8 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 69,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy coarse sand",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E&Bt1--8 to 27 inches; pale brown (10YR 6/3) sand (E part), brown (10YR 4/3) moist; single grain; loose, nonsticky and nonplastic; few faint irregular wavy continuous 1/8 to 1/4 inch thick yellowish brown (10YR 5/6) bands of loamy coarse sand (lamellae, Bt part), dark yellowish brown (10YR 4/6) moist; massive; soft, very friable, nonsticky and nonplastic; common very fine and few fine, medium, and coarse roots; common fine interstitial pores; neutral (pH 6.6); gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 69,
+        "bottom": 135,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy coarse sand",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E&Bt2--27 to 53 inches; pale brown (10YR 6/3) sand (E part), brown (10YR 4/3) moist; single grain; loose, nonsticky and nonplastic; common prominent irregular wavy continuous 1/8 to 1/2 inch thick yellowish brown (10YR 5/6) bands of loamy coarse sand (lamellae, Bt part), dark yellowish brown (10YR 4/6) moist; massive; slightly hard, friable, nonsticky and nonplastic; few very fine and coarse roots; common fine interstitial pores; slightly acid (pH 6.5); gradual wavy boundary. (combined thickness of the E&Bt is 30 to 50 inches)"
+      },
+      {
+        "name": "C",
+        "top": 135,
+        "bottom": 152,
+        "texture_class": "sand",
+        "pH": 7,
+        "pH_class": "neutral",
+        "narrative": "C--53 to 60 inches; variegated sand; single grain; loose, nonsticky and nonplastic; few very fine roots; many fine interstitial pores; neutral (pH 7.0)."
+      }
+    ]
+  ]
 }

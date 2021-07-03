@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to approximately 4 inches (the Ag horizon).\nCambic horizon - the zone from 4 to 23 inches (the Bg1, Bg2, and Bg3 horizons).\nParticle-size control section - the zone from 10 to 40 inches (part of the Bg1, the Bg2, Bg3, and part of the 2C horizons)\nMoisture regime - aquic.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 4,
+        "bottom": 0,
+        "narrative": "Oi--1.5 to 0 inches; undecomposed roots from grasses and sedges."
+      },
+      {
+        "name": "Ag",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ag--0 to 4 inches; grayish brown (10YR 5/2) silty clay loam, black (10YR 2/1) moist; moderate medium subangular blocky structure parting to strong fine granular; hard, firm, sticky and plastic; many very fine and fine roots; few fine prominent dark yellowish brown irregularly shaped masses of iron accumulation (10YR 3/6) moist; moderately acid (pH 5.8); abrupt wavy boundary. (3 to 7 inches thick)"
+      },
+      {
+        "name": "Bg1",
+        "top": 10,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bg1--4 to 12 inches; light gray (10YR 7/2) silt loam, grayish brown (10YR 5/2) moist; strong medium subangular blocky structure; slightly hard, friable, slightly sticky and plastic; common fine roots; common fine prominent dark yellowish brown (10YR 4/6) and few fine faint dark grayish brown (10YR 4/2) moist irregularly shaped masses of iron accumulation; slightly acid (pH 6.4); clear smooth boundary. (4 to 12 inches thick)"
+      },
+      {
+        "name": "Bg2",
+        "top": 30,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg2--12 to 18 inches; very pale brown (10YR 7/3) silt loam, brown (10YR 5/3) moist; strong medium subangular blocky structure; slightly hard, friable, slightly sticky and plastic; common fine roots; many fine and medium prominent dark yellowish brown (10YR 4/6) and common fine faint grayish brown (10YR 5/2) moist irregularly shaped masses of iron accumulation; slightly acid (pH 6.4); clear wavy boundary. (3 to 10 inches thick)"
+      },
+      {
+        "name": "Bg3",
+        "top": 46,
+        "bottom": 58,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg3--18 to 23 inches; very pale brown (10YR 7/3) loam, brown (10YR 5/3) moist; moderate medium subangular blocky structure; slightly hard, friable, slightly sticky and plastic; common fine roots; many coarse prominent dark gray (5Y 4/1) moist irregularly shaped masses of iron depletion and many medium prominent dark yellowish brown (10YR 4/6) moist irregularly shaped masses of iron accumulation; 10 percent gravel; slightly acid (pH 6.4); clear wavy boundary. (2 to 12 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 58,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "extremely gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "narrative": "2C--23 to 60 inches; light gray (10YR 7/2) extremely gravelly loamy coarse sand, dark grayish brown (10YR 4/2) moist; single grain; loose; 70 percent gravel; neutral (pH 7.0)."
+      }
+    ]
+  ]
 }

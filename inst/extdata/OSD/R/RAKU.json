@@ -56,5 +56,110 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nParticle-size control section:  The zone from 8 to 28 inches.  (Bt1, Bt2, and Bt3 horizons)\nMollic epipedon:  The zone from 0 to 11 inches.  (A and Bt1 horizons)\nArgillic horizon:  The zone from 8 to 45 inches.  (Bt1, Bt2, Bt3, and Btk horizons)\nCalcic horizon:  The zone from 45 to 68 inches.  (Bk horizons)\nOther features:  Aridic ustic moisture regime.\nRemarks:\nThe assignment of the cation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomic Version:  Second Edition, 1999.\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 8 inches; grayish brown (10YR 5/2) silt loam, very dark grayish brown (10YR 3/2) moist; moderate very fine granular structure; slightly hard, very friable, slightly sticky and slightly plastic, neutral; abrupt smooth boundary.  (7 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt1--8 to 11 inches; brown (10YR 5/3) silty clay loam, very dark grayish brown (10YR 3/2) moist; moderate very fine subangular blocky structure; very hard, friable, sticky and plastic; common patchy distinct clay films on all faces of peds; neutral; abrupt smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 28,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt2--11 to 22 inches; brown (10YR 5/3) silty clay, brown (10YR 4/3) moist and crushed; moderate medium prismatic structure parting to strong medium angular blocks; extremely hard, firm, very sticky and very plastic; common continuous distinct clay films on all faces of peds; slightly alkaline; abrupt smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 56,
+        "bottom": 71,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt3--22 to 28 inches; brown (10YR 5/3) silty clay, brown (10YR 4/3) moist and crushed; moderate medium angular blocky structure; very hard, friable, sticky and plastic; common continuous distinct clay films on all faces of peds; violently effervescent (2 percent calcium carbonate equivalent); moderately alkaline; clear smooth boundary.  (Combined thickness of the Bt horizons is 18 to 30 inches)"
+      },
+      {
+        "name": "Btk",
+        "top": 71,
+        "bottom": 114,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btk--28 to 45 inches; pale brown (10YR 6/3) silty clay loam, brown (10YR 4/3) moist; moderate very fine angular blocky structure; very hard, friable, sticky and plastic; few patchy distinct clay films on all faces of peds; common fine irregular distinct carbonate masses; violently effervescent (4 percent calcium carbonate equivalent); moderately alkaline; gradual smooth boundary.  (13 to 18 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 114,
+        "bottom": 173,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "Bk--45 to 68 inches; very pale brown (10YR 7/3) clay loam, brownish yellow (10YR 6/6) moist; weak coarse subangular blocky structure; slightly hard, friable, sticky and plastic; violently effervescent (17 percent calcium carbonate equivalent); moderately alkaline."
+      }
+    ]
+  ]
 }

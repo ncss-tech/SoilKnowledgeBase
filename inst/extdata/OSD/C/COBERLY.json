@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The 5/87 revision documented a change in type location from the Routt County Area.  Last updated by the state 5/93.  Diagnostic features include a mollic epipedon from 0 to 24 inches, and a paralithic contact at 24 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 7.1,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 6 inches; brown (10YR 5/3) fine sandy loam, very dark grayish brown (10YR 3/2) moist; single grain; loose, nonsticky and nonplastic; neutral (pH 7.1); clear smooth boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 15,
+        "bottom": 61,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 7.1,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--6 to 24 inches; brown (10YR 5/3) fine sandy loam; very dark grayish brown (10YR 3/2) moist; weak medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; neutral (pH 7.1); abrupt wavy boundary.  (16 to 22 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 61,
+        "texture_class": "sand",
+        "narrative": "Cr--24 inches; weathered sandstone."
+      }
+    ]
+  ]
 }

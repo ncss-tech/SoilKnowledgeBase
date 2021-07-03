@@ -56,5 +56,54 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Revised 2/95.\nThe soil was formerly classified as Loamy, mixed Lithic Haploborolls.\nDiagnostic horizons and features recognized in this pedon are:  mollic epipedon - the zone from the surface of the soil to a depth of 7 inches (after mixing ) (A horizon); dark color in the C horizon is from the influence of the shale; paralithic contact - at 16 inches (top of Cr horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 6 inches; dark gray (10YR 4/1) loam, black (10YR 2/1) moist; weak medium subangular blocky and moderate very fine subangular blocky structure; friable; many roots; few small shale fragments; neutral; clear wavy boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 15,
+        "bottom": 41,
+        "dry_hue": "5Y",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "moist_hue": "5Y",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--6 to 16 inches; gray (5Y 5/1) loam, very dark gray (5Y 3/1) moist; weak medium subangular blocky and moderate very fine subangular blocky structure; friable; common roots; few shale fragments in the upper part increasing to many in the lower part; neutral; clear wavy boundary.  (0 to 14 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 41,
+        "bottom": 152,
+        "narrative": "Cr--16 to 60 inches; weathered shale bedrock."
+      }
+    ]
+  ]
 }

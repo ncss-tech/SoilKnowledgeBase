@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This soil was formerly included in the Badin series.  However, Badin soils are fine.  This soil is in a fine-loamy particle size class because it contains, by weight, more than 15 percent particles that are fine sand or coarser, including fragments up to 7.5 cm in diameter.\nLaboratory Data on particle size distribution and cation exchange capacity from N.C. State University, 1992:\nHorizon\tDepth\t\tSand\tSilt\tClay\tCEC meq/100g clay\n-------\t------\t----\t----\t----\t-----------------\nBt\t\t8-19\"\t\t23.2\t47.5\t29.3\t\t17.1\nBC\t\t19-29\"\t39.5\t34.2\t26.3\t\t16.9\nDiagnostic horizons and soil characteristics recognized in this pedon are:\nOchric epipedon - the zone from the surface of the soil to a depth of 8 inches (the A and AB horizons).\nArgillic horizon - the zone from a depth of 8 inches to 29 inches (the Bt and BC horizons).\nParalithic contact - the upper boundary of weathered sericite schist bedrock at a depth of 29 inches (the upper boundary of the Cr horizon).\nADDITIONAL DATA:\nMLRA: 136     SIR: NC0288\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0288 MONTONIA    2- 60   59- 61  180-210  47- 49   500-1700\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0288 NONE          6.0-6.0              -     20-40   SOFT\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0288  0- 8  CN-SIL CN-L CN-VFSL     5- 15  55- 85  5-20   2-  3\nNC0288  0- 8  CNV-SIL CNV-L          20- 50  30- 80  5-20   1-  3\nNC0288  8-19  CN-CL CN-SIL L          0- 10  60- 90 20-35   3-  5\nNC0288 19-29  CN-L CN-SICL CN-CL      5- 15  50- 80 10-35   1-  5\nNC0288 29-42  WB                       -       -      -      -\nNC0288 42-52  UWB                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0288  0- 8  4.5- 6.0  .5-3.  0- 0   0.6- 2.0  LOW\nNC0288  0- 8  4.5- 6.0  .5-3.  0- 0   0.6- 2.0  LOW\nNC0288  8-19  4.5- 6.0  0.-.5  0- 0   0.6- 2.0  LOW\nNC0288 19-29  4.5- 6.0  0.-.5  0- 0   0.6- 2.0  LOW\nNC0288 29-42     -        -     -        -\nNC0288 42-52     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 5,
+        "bottom": 0,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "narrative": "Oi--2 to 0 inches; loose deciduous leaves and twigs and very dark brown (10YR 2/2) partially decomposed organic matter."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "very channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; yellowish brown (10YR 5/4) very channery silt loam; weak fine granular structure; very friable; many fine and medium, and few coarse roots; 45 percent channers and 5 percent flagstones by volume; very strongly acid; abrupt wavy boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "AB",
+        "top": 8,
+        "bottom": 20,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "AB--3 to 8 inches; strong brown (7.5YR 5/6) channery silt loam; moderate medium granular structure; friable; many fine and medium roots; 25 percent channers by volume; very strongly acid; clear wavy boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 20,
+        "bottom": 48,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--8 to 19 inches; yellowish red (5YR 5/8) channery clay loam; moderate medium subangular blocky structure; friable; few fine roots; common faint clay films on faces of peds; 15 percent channers by volume; strongly acid; clear wavy boundary.  (10 to 24 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 48,
+        "bottom": 74,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BC--19 to 29 inches; yellowish red (5YR 5/8) channery loam; weak medium subangular blocky structure; friable; few fine roots; few distinct clay films on faces of peds; 30 percent channers by volume; strongly acid; clear wavy boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 74,
+        "bottom": 107,
+        "narrative": "Cr--29 to 42 inches; multicolored weathered sericite schist bedrock."
+      },
+      {
+        "name": "R",
+        "top": 107,
+        "narrative": "R--42 inches; hard unweathered sericite schist bedrock."
+      }
+    ]
+  ]
 }

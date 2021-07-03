@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nEdited 11/2015 (RFG-CJV): Series classification changed from Typic Haplustepts in order to recognize a calcic horizon. Almost all descriptions in published Soil Survey manuscripts are described like calcic horizons. Changed to tabular format. Added metric measurements. Updated horizon range in characteristics, competing series lists, geographically associated soil, and geographic setting.\nDiagnostic horizons and features recognized in this pedon are:\nParticle-size control section: 25 to 76 cm (10 to 30 in). (Parts of Bw horizon and Bk horizon)\nOchric epipedon: 0 to 15 cm (0 to 6 in). (A horizon)\nCambic horizon: 15 to 46 cm (6 to 18 in). (Bw horizon)\nIdentifiable secondary carbonates: 15 to 76 cm (6 to 30 in). (Bw and Bk horizons)\nCalcic horizon: 46 to 76 cm (18 to 30 in). (Bk horizon)\nDensic contact: The contact with claystone or shale at 76 cm (30 in). (Cd horizon)\nUnderlying material - Most clods slake in water in less than 1 hour. This material can be dug with a light duty backhoe.\nADDITIONAL DATA: KSSL data 82TX207001 (Haskell Co., TX)\nTaxonomic Version: Keys to Soil Taxonomy, Twelfth Edition, 2014\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 15 cm (0 to 6 in); reddish brown (5YR 5/4) clay loam, reddish brown (5YR 4/4) moist; weak fine granular and subangular blocky structure; hard, friable; common fine roots; many very fine and fine pores; calcareous; moderately alkaline; clear smooth boundary. Thickness is 10 to 25 cm (4 to 10 in)"
+      },
+      {
+        "name": "Bw",
+        "top": 15,
+        "bottom": 46,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw--15 to 46 cm (6 to 18 in); reddish brown (5YR 5/4) clay loam, dark reddish brown (5YR 3/4) moist; moderate fine and medium subangular blocky structure; hard, firm; common fine roots; many very fine and fine pores; common medium worm casts; few fine calcium carbonate concretions and a few films and threads of calcium carbonate; calcareous; moderately alkaline; gradual smooth boundary. Thickness is 15 to 38 cm (6 to 15 in)"
+      },
+      {
+        "name": "Bk",
+        "top": 46,
+        "bottom": 76,
+        "dry_hue": "2.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bk--46 to 76 cm (18 to 30 in); reddish brown (2.5YR 5/4) clay loam, reddish brown (2.5YR 4/4) moist; moderate fine and medium subangular blocky structure; hard, firm; few fine roots; few fine pores; about 15 percent by volume of fine to medium bodies and concretions of calcium carbonate; calcareous; moderately alkaline; gradual smooth boundary. Thickness is 25 to 64 cm (10 to 25 in)"
+      },
+      {
+        "name": "Cd",
+        "top": 76,
+        "bottom": 152,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "moderately alkaline",
+        "narrative": "Cd--76 to 152 cm (30 to 60 in); reddish brown (2.5YR 4/4) partially weathered, massive, calcareous clayey shale; moderately alkaline."
+      }
+    ]
+  ]
 }

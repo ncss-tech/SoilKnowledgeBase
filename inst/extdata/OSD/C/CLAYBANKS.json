@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in the pedon are:\nOchric horizon: from the surface to a depth of 18 cm (7 inches) (Ap horizon).\nAlbic horizon: from a depth of 18 to 28 cm (7 to 11 inches) (E part of the E/B horizon).\nArgillic horizon: from a depth of 28 to 51 cm (11 to 20 inches) (Bt horizon).\nGlossic horizon: from a depth of 18 to 28 cm (7 to 11 inches) (E/B horizon)\nHaplic feature: glossic horizon is 10 cm (4 inches) thick.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 18 cm (7 inches); very dark grayish brown (10YR 3/2) silt loam, light brownish gray (10YR 6/2) dry; moderate medium granular structure; friable; about 3 percent fine gravel; neutral; abrupt smooth boundary. [15 to 25 cm (6 to 10 inches) thick]"
+      },
+      {
+        "name": "E/B",
+        "top": 18,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E/B--18 to 28 cm (7 to 11 inches); light brownish gray (10YR 6/2) silt loam (E); occupies about 65 percent of the horizon and occurs as tongues (greater than 5mm wide) which extend into or completely surround isolated remnants of reddish brown (5YR 4/4) silty clay (Bt); moderate medium subangular blocky structure; firm; few fine roots; many faint reddish brown (5YR 4/3) clay films on faces of peds; few very dark grayish brown (10YR 3/2) organic stains in root channels or pores or both; many medium prominent yellowish brown (10YR 5/6) masses of oxidized iron; about 3 percent fine gravel; neutral; clear wavy boundary. [8 to 15 cm (3 to 6 inches) thick]"
+      },
+      {
+        "name": "Bt1",
+        "top": 28,
+        "bottom": 43,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--28 to 43 cm (11 to 17 inches); reddish brown (5YR 4/4) clay; moderate medium subangular blocky structure parting to strong fine angular blocky; firm; few fine roots; many faint reddish brown (5YR 4/3) clay films on faces of peds; few medium prominent yellowish brown (10YR 5/8) masses of oxidized iron; about 3 percent fine gravel; neutral; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 43,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--43 to 51 cm (17 to 20 inches); brown (10YR 4/3) clay; strong medium angular blocky structure; very firm; few fine roots; few clay films on faces of peds; common distinct dark gray (10YR 4/1) iron depletions; about 3 percent fine gravel; slightly alkaline; clear wavy boundary. [Combined thickness of the Bt horizon is 13 to 51 cm (5 to 20 inches).]"
+      },
+      {
+        "name": "Bk",
+        "top": 51,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "moderately alkaline",
+        "narrative": "Bk--51 to 152 cm (20 to 60 inches); pale brown (10YR 6/3) clay; massive; firm; common medium pinkish white (7.5YR 8/2) masses of carbonate; common fine distinct yellowish brown (10YR 5/6) masses of oxidized iron; about 5 percent fine gravel; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,121 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the soil surface to 6 inches (Oi, Oe, and A1 horizons)\nCambic horizon - the zone from 10 to 22 inches (Bw horizons)\nLithic contact at 31 inches - top of R horizon\nParticle-size control section - the zone from 10 to 31 inches (Bw horizons and the C horizon) with a weighted average rock fragment content of 45 percent\nVitrandic feature the zone from 1.5 to 10 inches\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; needles and twigs."
+      },
+      {
+        "name": "Oe",
+        "top": 3,
+        "bottom": 4,
+        "narrative": "Oe--1 to 1.5 inches; partly decomposed needles and twigs."
+      },
+      {
+        "name": "A1",
+        "top": 4,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--1.5 to 6 inches; light brownish gray (10YR 6/2) ashy loam, dark brown (10YR 3/3) moist; weak fine subangular blocky structure that parts to moderate fine granular; soft, friable, slightly sticky and slightly plastic; many very fine, fine, and medium roots; many very fine and fine irregular pores; 3 percent gravel; 3 percent cobbles; 3 percent angular basalt stones; neutral (pH 6.6); clear smooth boundary. (4 to 7 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 15,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--6 to 10 inches; pale brown (10YR 6/3) ashy loam, brown (10YR 4/3) moist; moderate subangular blocky structure that parts to moderate fine granular structure; soft, friable, slightly sticky and slightly plastic; many very fine medium roots; many fine irregular pores; 3 percent gravel; 3 percent cobbles; 5 percent angular basalt stones; neutral (pH 6.7); abrupt wavy boundary. (3 to 6 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 25,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "stony",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--10 to 16 inches; pale brown (10YR 6/3) stony loam, brown (10YR 4/3) moist; weak medium prismatic structure; slightly hard, firm, slightly sticky and slightly plastic; common fine and medium roots; common fine tubular pores; 5 percent gravel; 3 percent cobbles; 15 percent angular basalt stones; neutral (pH 6.7); clear wavy boundary. (6 to 9 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 41,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "stony",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bw2--16 to 22 inches; pale brown (10YR 6/3) stony loam, brown (10YR 4/3) moist; weak medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common fine and medium roots; common fine tubular pores; 5 percent gravel; 3 percent cobbles; 15 percent angular basalt stones; neutral (pH 6.6); clear irregular boundary. (6 to 10 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 56,
+        "bottom": 79,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely stony",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "C--22 to 31 inches; very pale brown (10YR 7/3) extremely stony loam, yellowish brown (10YR 5/4) moist; massive; slightly hard, friable, slightly sticky and slightly plastic; common fine and medium roots; common fine tubular pores; 5 percent gravel, 15 percent cobbles,  55 percent angular basalt stones; neutral (pH 6.8); abrupt irregular boundary. (8 to 15 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 79,
+        "narrative": "R--31 inches; basalt, fractured in upper 2 to 3 feet, with few fines in the cracks."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,86 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - surface to 4 centimeters (Oi, AE horizons)\nSpodic horizon - 5 to 15 centimeters (Bs horizon)\nLithic contact - basalt bedrock at 81 centimeters (2R horizon)\nParticle size control section - the zone from 25 to 81 centimeters\nOxyaquic feature - redoximorphic concentrations and soil saturation above 81 centimeters\nFragic feature - 30 percent or more of a layer 15 inches or more in thickness is brittle and has firm or firmer rupture resistance class. (E/Bx horizon).\nADDITIONAL DATA: Refer to lab pedon no. 07N0161 for Primary Characterization Data from the National Soil Survey Laboratory, Lincoln, NE.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 1,
+        "moist_hue": "7.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 1 centimeters (0 to 0.5 inches); black (7.5YR 2.5/1) slightly decomposed plant material; very friable; many very fine to coarse roots throughout; extremely acid, abrupt smooth boundary. (0 to 4 centimeters thick)"
+      },
+      {
+        "name": "AE",
+        "top": 1,
+        "bottom": 5,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "moist_hue": "7.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "AE--1 to 5 centimeters (0.5 to 2 inches); black (7.5YR 2.5/1) and brown (7.5YR 5/3) sandy loam, very dark gray (7.5YR 3/1) and gray (7.5YR 5/1) dry; moderate medium granular structure; friable; many very fine to coarse roots throughout; about 2 percent cobbles and 6 percent gravel; strongly acid, pH 5.1 in 1:1 water solution; clear smooth boundary. (0 to 15 centimeters thick)"
+      },
+      {
+        "name": "Bs",
+        "top": 5,
+        "bottom": 15,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bs--5 to 15 centimeters (2 to 6 inches); dark brown (7.5YR 3/4) fine sandy loam; weak fine subangular blocky structure; friable; many very fine to medium roots throughout; about 2 percent cobbles and 6 percent gravel; moderately acid, pH 5.9 in 1:1 water solution; clear smooth boundary. (10 to 25 centimeters thick)"
+      },
+      {
+        "name": "E/B",
+        "top": 15,
+        "bottom": 43,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "E/B--15 to 43 centimeters (6 to 17 inches); 70 percent brown (7.5YR 5/3) and 30 percent dark brown (7.5YR 3/4) fine sandy loam; weak medium subangular blocky structure; friable; common very fine and fine roots throughout; about 2 percent medium distinct yellowish red (5YR 4/6) and 2 percent coarse distinct yellowish red (5YR 4/6) masses of iron accumulation throughout; about 2 percent cobbles and 6 percent gravel; moderately acid, pH 5.9 in 1:1 water solution; clear irregular boundary. (0 to 30 centimeters thick)"
+      },
+      {
+        "name": "E/Bx",
+        "top": 43,
+        "bottom": 81,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "narrative": "E/Bx--43 to 81 centimeters (17 to 32 inches); 70 percent brown (7.5YR 5/3) and 30 percent dark brown (7.5YR 3/4) fine sandy loam; weak medium platy structure; very firm; few very fine roots throughout; about 2 percent coarse distinct yellowish red (5YR 4/6) and 2 percent medium distinct yellowish red (5YR 4/6) masses of iron accumulation throughout; about 2 percent cobbles and 6 percent gravel; slightly acid, pH 6.4 in 1:1 water solution. (10 to 40 centimeters thick)"
+      },
+      {
+        "name": "2R",
+        "top": 81,
+        "narrative": "2R--81 centimeters (32 inches); basalt bedrock."
+      }
+    ]
+  ]
 }

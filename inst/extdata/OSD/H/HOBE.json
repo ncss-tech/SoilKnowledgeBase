@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizon and features recognized in this pedon:\nOchric epipedon - the zone from the surface to a depth of 70 inches (A, E1, E2 and E3 horizons).\nAlbic horizon - the zone from a depth of 4 inches to a depth of 70 inches (the E1, E2, and E3 horizons).\nSpodic horizon - the zone from a depth of 70 inches to a depth of 78 inches (the Bh and BE/Bh horizons).\nArgillic horizon - the zone from a depth of 78 inches to a depth of 88 or more inches (Btg horizon).\nA water table may be at depths of 50 to 60 inches for brief periods following heavy rains.  It is normally at depths of 60 to 80 inches during the wet season and below 80 inches the remainder of the year.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; gray (10YR 5/1) fine sand; weak fine granular structure; very friable; many fine and medium roots; many uncoated sand grains; very strongly acid; clear smooth boundary.  (1 to 8 inches thick)"
+      },
+      {
+        "name": "E1",
+        "top": 10,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E1--4 to 9 inches; gray (10YR 6/1) fine sand; single grained; loose; common fine and medium roots; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "E2",
+        "top": 23,
+        "bottom": 112,
+        "moist_hue": "N",
+        "moist_value": 8,
+        "moist_chroma": 0,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "diffuse",
+        "topography": "wavy",
+        "narrative": "E2--9 to 44 inches; white (N 8/0) fine sand; single grained; loose; few fine and medium roots; very strongly acid; diffuse wavy boundary."
+      },
+      {
+        "name": "E3",
+        "top": 112,
+        "bottom": 178,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E3--44 to 70 inches; light gray (10YR 7/1) fine sand; single grained; loose; few fine roots; few gray (10YR 5/1) and dark gray (10YR 4/1) streaks in root channels; extremely acid; abrupt wavy boundary.  (Combined thickness of the E horizons range from 30 to 86 inches)"
+      },
+      {
+        "name": "Bh",
+        "top": 178,
+        "bottom": 188,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bh--70 to 74 inches; black (5YR 2/1) fine sand; weak fine and medium granular structure; massive and strongly cemented in about 30 percent of horizon; friable to firm; few fine and medium roots; common pockets of dark reddish brown (5YR 2/2) sand grains well coated with organic matter; few medium and coarse pockets of dark yellowish brown (10YR 4/4) areas of organic matter depletions; extremely acid; clear irregular boundary.  (2 to 20 inches thick)"
+      },
+      {
+        "name": "BE/Bh",
+        "top": 188,
+        "bottom": 198,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sand",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BE/Bh--74 to 78 inches; dark yellowish brown (10YR 4/4) fine sand (BE); weak fine granular structure; very friable; few fine and medium roots; few to common, firm, weakly cemented dark brown (10YR 3/3 and 7.5YR 3/2) Bh fragments; sand grains thinly coated with organic matter; extremely acid; clear wavy boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "Btg",
+        "top": 198,
+        "bottom": 224,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Btg--78 to 88 inches; gray (5Y 6/1) fine sandy loam; weak coarse subangular blocky structure; slightly sticky, slightly plastic; few medium roots; common medium to coarse distinct olive brown (2.5Y 4/4) and pale yellow (2.5Y 7/4) and few to common fine distinct olive (5Y 5/4) masses of iron and organic matter accumulation in the upper 3.0 inches; sand grains are coated and bridged with clay; very strongly acid."
+      }
+    ]
+  ]
 }

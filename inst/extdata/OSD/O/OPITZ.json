@@ -56,5 +56,100 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soil interpretation record:  MT1574, MT3055. Diagnostic horizons and features recognized in this pedon are:  a mollic epipedon from the surface to 10 inches (A horizon); an argillic horizon from 10 to 22 inches (Bt1 and Bt2 horizons); a particle-size control section from 10 to 22 inches (Bt1 and Bt2 horizons); a layer of decomposed granite (grus) from 36 to 57 inches (Cr horizon); hard granite bedrock at 57 inches (R horizon).  Opitz soils have a cryic temperature regime and an ustic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 10 inches; very dark grayish brown (10YR 3/2) coarse sandy loam, very dark brown (10YR 2/2) moist; moderate medium granular structure; slightly hard, very friable, nonsticky and nonplastic; many very fine and fine roots; many very fine and fine interstitial pores; 10 percent pebbles; neutral (pH 6.6); clear wavy boundary. (7 to 13 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 25,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--10 to 15 inches; brown (10YR 5/3) gravelly sandy clay loam, dark brown (10YR 4/3) moist; moderate medium prismatic structure parting to moderate medium subangular blocky; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and fine roots; many very fine and fine tubular pores; common distinct clay films on faces of peds; 20 percent pebbles; neutral (pH 6.6); clear wavy boundary. (4 to 8 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 38,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--15 to 22 inches; pale brown (10YR 6/3) gravelly coarse sandy loam, grayish brown (10YR 5/2) moist; moderate medium prismatic structure parting to moderate medium subangular blocky; slightly hard, very friable, slightly sticky and nonplastic; common very fine and fine roots; many very fine and fine tubular pores; common faint clay films on faces of peds; 30 percent pebbles; neutral (pH 6.8); gradual wavy boundary. (6 to 12 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 56,
+        "bottom": 91,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "BC--22 to 36 inches; grayish brown (10YR 5/2) very gravelly coarse sandy loam, brown (10YR 4/3) moist; massive; slightly hard, very friable, nonsticky and nonplastic; common very fine and fine roots; common fine and very fine tubular pores; 40 percent pebbles; neutral (pH 6.8); gradual irregular boundary. (6 to 18 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 91,
+        "bottom": 145,
+        "texture_class": "coarse sand",
+        "cf_class": "very gravelly",
+        "narrative": "Cr--36 to 57 inches; decomposed granite bedrock (grus) that crushes to very gravelly coarse sand. (17 to 30 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 145,
+        "narrative": "R--57 inches; hard granite bedrock."
+      }
+    ]
+  ]
 }

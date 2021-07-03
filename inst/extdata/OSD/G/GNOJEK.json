@@ -56,5 +56,74 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soil interpretation record: MT3050.\nDiagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from the surface to 7 inches (A, Bt horizons);\nArgillic horizon - the zone from 3 to 7 inches (Bt horizon);\nParticle-size control section - the zone from the top of the argillic horizon to 16 inches (Bt, Bk horizons);\nHorizon of secondary calcium carbonate accumulation - the zone from 7 to 16 inches (Bk horizon);\nLithic contact - hard fine grained sandstone bedrock at 16 inches (R horizon).\nGnojek soils have a frigid temperature regime and an ustic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; dark grayish brown (10YR 4/2) very cobbly loam, very dark grayish brown (10YR 3/2) moist; moderate fine granular structure; soft, very friable, slightly sticky and nonplastic; many very fine and fine roots; many very fine and fine interstitial pores; 25 percent cobbles and 20 percent gravel; neutral (pH 7.2); clear wavy boundary. (3 to 7 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 8,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--3 to 7 inches; dark grayish brown (10YR 4/2) very gravelly clay loam, very dark grayish brown (10YR 3/2) moist; moderate medium prismatic structure parting to moderate fine subangular blocky; slightly hard, firm, slightly sticky and slightly plastic; many very fine and fine roots; many very fine and fine interstitial and tubular pores; common distinct clay films on faces of peds and bridging sand grains; 15 percent cobbles and 35 percent gravel; slightly alkaline (pH 7.4); clear wavy boundary. (4 to 9 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 18,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "narrative": "Bk--7 to 16 inches; light brownish gray (10YR 6/2) very cobbly loam, brown (10YR 5/3) moist; moderate fine subangular blocky structure; soft, friable, slightly sticky and slightly plastic; common very fine and fine roots; many very fine and fine interstitial and tubular pores; 25 percent cobbles and 30 percent gravel; disseminated lime; common medium masses and threads of lime; common distinct lime coatings on fragments; violently effervescent; moderately alkaline (pH 8.2)."
+      },
+      {
+        "name": "R",
+        "top": 41,
+        "texture_class": "sand",
+        "narrative": "R--16 inches; hard fine grained sandstone."
+      }
+    ]
+  ]
 }

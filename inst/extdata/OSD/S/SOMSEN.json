@@ -56,5 +56,107 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 4 inches (A1 and A2 horizons)\nCambic horizon - the zone from 4 to 9 inches (Bw horizon)\nCalcic horizon - the zone from 9 to 24 inches (Bk1 and Bk2 horizons)\nLithic contact - the contact with bedrock at 24 inches (R horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 4,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very stony",
+        "pH": 7.6,
+        "pH_class": "mildly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 1.5 inches; grayish brown (10YR 5/2) very stony light fine sandy loam, very dark grayish brown (10YR 3/2) moist; massive; soft, very friable, nonsticky and nonplastic; many very fine roots; many very fine interstitial pores; mildly alkaline (pH 7.6); abrupt smooth boundary.  (0 to 2 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 4,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A2--1.5 to 4 inches; light brownish gray (10YR 6/2) fine sandy loam, dark grayish brown (10YR 4/2) moist; weak very thin platy structure that parts to very weak very fine granular structure; slightly hard, very friable, nonsticky and slightly plastic; common very fine roots; many very fine tubular pores; 15 percent basalt stones and angular cobblestones; slightly calcareous; moderately alkaline (pH 8.0); abrupt smooth boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 10,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "cobbly",
+        "pH": 8.1,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--4 to 9 inches; light brownish gray (10YR 6/2) pale brown (10YR 6/3, crushed) cobbly fine sandy loam, brown (10YR 4/3) moist; very weak coarse subangular blocky structure; slightly hard, very friable, nonsticky and slightly plastic; common very fine and fine roots; many very fine tubular and interstitial pores; 15 percent basalt stones and angular cobblestones; moderately calcareous; moderately alkaline (pH 8.1); clear smooth boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 23,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "cobbly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk1--9 to 14 inches; light brownish gray (10YR 6/2) cobbly fine sandy loam, brown (10YR 4/3) moist; massive; slightly hard, very friable, slightly sticky and slightly plastic; common very fine roots; common very fine interstitial and tubular pores; 20 percent basalt stones and angular cobblestones; moderately calcareous, few very fine veins and splotches of lime and common small chunks of highly calcareous material; moderately alkaline (pH 8.2); clear smooth boundary.  (5 to 11 inches thick)"
+      },
+      {
+        "name": "Bk2",
+        "top": 36,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "cobbly",
+        "pH": 8.6,
+        "pH_class": "strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bk2--14 to 24 inches; white (10YR 8.2) cobbly fine sandy loam, pale brown (10YR 6/3) moist; massive; hard, friable, slightly sticky and slightly plastic; common very fine roots; few very fine tubular pores; 25 percent basalt stones and angular cobblestones; common subrounded nodular krotovinas; thin (about 12 inches thick), discontinuous, very weakly cemented material on top of bedrock; strongly calcareous; strongly alkaline (pH 8.6); abrupt wavy boundary.  (9 to 12 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 61,
+        "narrative": "2R--24 inches; basalt; lime coating on surface and in cracks."
+      }
+    ]
+  ]
 }

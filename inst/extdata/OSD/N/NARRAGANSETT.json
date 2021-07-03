@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This revision reflects update in soil taxonomy and general updating.  Cation exchange activity class placement determined from a review of limited lab data and similar or associated soils.\nDiagnostic horizons and features recognized in this pedon include:\n1. Ochric epipedon- the zone from 0 to 6 inches (Ap);\n2. Cambic horizon- the zone from 6 to 28 inches (Bw horizons);\n3. Particle size class - two strongly contrasting classes are present, coarse-loamy over sandy skeletal in the control section, 10 to 40 inches; both are  thicker than 12.5 cm. and the transition zone between them is less than 12.5 cm. thick;\n4. Lithologic discontinuity-a significant and abrupt change in particle size occurs at 28 inches (2C) where silt loam textures overlie very gravelly loamy coarse sand.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 6 inches; dark brown (10YR 3/3) silt loam; weak medium granular structure; very friable; common medium roots; very strongly acid; clear wavy boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 15,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1--6 to 15 inches; dark yellowish brown (10YR 4/6) silt loam; weak medium subangular blocky structure; very friable; common medium roots; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 38,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--15 to 24 inches; yellowish brown (10YR 5/6) silt loam; weak medium subangular blocky structure; very friable; common medium roots; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw3",
+        "top": 61,
+        "bottom": 71,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw3--24 to 28 inches; yellowish brown (10YR 5/6) gravelly silt loam; weak medium subangular blocky structure; very friable; few fine roots; 15 percent gravel; strongly acid; clear wavy boundary.  (Combined thickness of the Bw horizons is 16 to 34 inches)"
+      },
+      {
+        "name": "2C",
+        "top": 71,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "very gravelly",
+        "pH_class": "strongly acid",
+        "narrative": "2C--28 to 60 inches; light olive brown (2.5Y 5/4) very gravelly loamy coarse sand; single grain; loose; 45 percent gravel and cobbles; strongly acid."
+      }
+    ]
+  ]
 }

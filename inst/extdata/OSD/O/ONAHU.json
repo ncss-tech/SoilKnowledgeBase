@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nUmbric epipedon:  The zone from 0 to 16 inches.  (A1 and A2 horizons)\nParticle-size control section:  The zone from 10 to 40 inches.  (parts of the A2, 2Bg and parts of the 2Cg horizons)\nRedoximorphic concentrations and depletions:  In the zone from 16 to 45 inches. (2Bg and 2Cg horizons)\nEpisaturation:  The zone of saturation at 16 to 45 inches, inferred from the low chroma of the soil matrix. (2Bg and 2Cg horizons). The zone of saturation is perched on the paralithic contact.\nParalithic contact:  The contact with gneiss and schist at 45 inches.  (3Cr layer)\nTaxonomic Version:  Eighth Edition\nThe mineralogy class was changed from paramicaceous to micaceous in 07/2010 by the National Soil Survey Center on request of the responsible MLRA regional office.  The change was necessary based on the eleventh edition of the Keys to Soil Taxonomy, 2010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 7 inches; brown (7.5YR 4/2) loam, very dark brown (7.5YR 2/2) moist; weak fine granular structure; soft, very friable, slightly sticky and slightly plastic; many very fine and fine roots; very strongly acid (pH 4.5); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 18,
+        "bottom": 41,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A2--7 to 16 inches; brown (7.5YR 4/3) loam, dark brown (7.5YR 3/2) moist; weak medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine and fine roots; 10 percent gravel; very strongly acid (pH 4.5); abrupt smooth boundary.  (Combined thickness of the A horizons is 12 to 20 inches)"
+      },
+      {
+        "name": "2Bg",
+        "top": 41,
+        "bottom": 61,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 4.6,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2Bg--16 to 24 inches; light brownish gray (10YR 6/2) very gravelly sandy loam, dark grayish brown (10YR 4/2) moist; weak medium subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; common very fine and fine roots; common medium dark yellowish brown (10YR 4/6) masses of iron concentrations throughout and common medium light gray (10YR 7/1) iron depletions throughout; 40 percent gravel; very strongly acid (pH 4.6); clear smooth boundary.  (8 to 14 inches thick)"
+      },
+      {
+        "name": "2Cg",
+        "top": 61,
+        "bottom": 114,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 4.6,
+        "pH_class": "very strongly acid",
+        "narrative": "2Cg--24 to 45 inches; light gray (10YR 7/1) very gravelly sandy loam, dark gray (10YR 4/1) moist; massive; soft, very friable, slightly sticky and slightly plastic; common fine dark yellowish brown (10YR 4/6) masses of iron concentrations throughout; 50 percent gravel and 5 percent cobbles; very strongly acid (pH 4.6).  (20 to 26 inches thick)"
+      },
+      {
+        "name": "3Cr",
+        "top": 114,
+        "bottom": 140,
+        "narrative": "3Cr--45 to 55 inches; soft weathered gneiss and schist."
+      }
+    ]
+  ]
 }

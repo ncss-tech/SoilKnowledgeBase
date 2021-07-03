@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The Poindexter series was formerly included in the Bremo series.  Diagnostic horizons and features recognized in this pedon are:\n1.  Ochric epipedon:  the zone from 0 to 12 inches (A and E horizon).\n2.  Argillic horizon:  the zone from 12 to 18 inches (the Bt horizon).\nMLRA = 136\nREVISED = 9/5/97 RLV.  5/28/02 DTA.\nADDITIONAL DATA:  Chemical data for samples from the typifying pedon is available from the V.P.I. laboratory (identified as Wilkes, fine-loamy, Variant-1971).\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp  FrFr/Seas  Precip  Elev.\nVA0044 POINDEXTER  2-60   57-62   165-200     38-48   250-900\nVA0326 POINDEXTER  2-60   57-62   165-200     38-48   250-900\nSOI-5  FloodL FloodH Watertable Kind  Months Bedrock Hardness\nVA0044 NONE          6.0-6.0           -     20-40   SOFT\nVA0326 NONE          6.0-6.0           -     20-40   SOFT\nSOI-5    Depth  Texture         3-Inch  No-10   Clay%   -CEC-\nVA0044   0-12   SL FSL           0-0    85-100   5-18    -\nVA0044   0-12   L SIL            0-0    85-100  10-25    -\nVA0044   0-12   CL SCL           0-0    85-100  27-35    -\nVA0044  12-18   CL SCL GR-L      0-0    50-100  20-35    -\nVA0044  18-23   SICL L GR-SL     0-0    50-100  10-35    -\nVA0044  23-43   WB                -       -       -      -\nVA0044  43      UWB               -       -       -      -\nVA0326   0-12   GR-SL GR-FSL     0-0    50-75    5-18    -\nVA0326   0-12   GR GR-SIL        0-0    40-75   10-25    -\nVA0326   0-12   GR-CL GR-SCL     0-0    50-75   27-35    -\nVA0326  12-18   CL SCL GR-L      0-0    50-100  20-35    -\nVA0326  18-23   SICL L GR-SL     0-0    50-100  10-35    -\nVA0326  23-43   WB                -       -       -      -\nVA0326  43      UWB               -       -       -      -\nSOI-5    Depth    -pH-      O.M.   Salin  Permeab   Shnk-Swll\nVA0044   0-12    5.1-7.3   .5-2.   0-0    2.0-6.0    LOW\nVA0044   0-12    5.1-7.3   .5-2.   0-0    2.0-6.0    LOW\nVA0044   0-12    5.1-7.3   .5-1.   0-0    0.6-2.0    LOW\nVA0044  12-18    5.1-7.3   0.-.5   0-0    0.6-2.0    LOW\nVA0044  18-23    5.1-7.3   0.-.5   0-0    0.6-6.0    LOW\nVA0044  23-43       -        -      -     0.0-0.06\nVA0044  43          -        -      -     0.0-0.06\nVA0326   0-12    5.1-7.3   .5-2.   0-0    2.0-6.0    LOW\nVA0326   0-12    5.1-7.3   .5-2.   0-0    2.0-6.0    LOW\nVA0326   0-12    5.1-7.3   .5-1.   0-0    0.6-2.0    LOW\nVA0326  12-18    5.1-7.3   0.-.5   0-0    0.6-2.0    LOW\nVA0326  18-23    5.1-7.3   0.-.5   0-0    0.6-6.0    LOW\nVA0326  23-43       -        -      -     0.0-0.06\nVA0326  43          -        -      -     0.0-0.06\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; light yellowish brown (2.5Y 6/4) loam; weak fine granular structure; very friable; many fine and medium roots; many fine and medium pores; very strongly acid; clear smooth boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E--4 to 12 inches; light yellowish brown (10YR 6/4) fine sandy loam; weak fine granular structure; very friable; few fine and medium roots; many fine and medium pores; very strongly acid; gradual wavy boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 30,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--12 to 18 inches, yellow (10YR 7/8) sandy clay loam; moderate medium subangular blocky structure; friable, slightly sticky, slightly plastic; few distinct clay films on faces of peds; moderately acid; gradual wavy boundary. (4 to 22 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 46,
+        "bottom": 58,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--18 to 23 inches; mottled strong brown (7.5YR 5/6), yellowish red (5YR 5/6), and white (5YR 8/1) sandy clay loam; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; slightly acid; gradual wavy boundary.  (2 to 20 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 58,
+        "bottom": 109,
+        "narrative": "Cr--23 to 43 inches; weathered, moderately fractured diabase."
+      },
+      {
+        "name": "R",
+        "top": 109,
+        "narrative": "R--43 inches; unweathered, slightly fractured diabase."
+      }
+    ]
+  ]
 }

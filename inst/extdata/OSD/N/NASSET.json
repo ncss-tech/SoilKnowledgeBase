@@ -56,5 +56,106 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 30 to 80 centimeters (Bt1, Bt2 and Bt3 horizons);\nseries control section--the zone from the surface to a depth of 112 centimeters (Ap, BE, Bt1, Bt2, Bt3, and 2Bt4 horizons).\nDiagnostic horizons and features recognized in this pedon include:\nochric epipedon--the zone from the surface to a depth of 15 centimeters (Ap horizon);\nargillic horizon--the zone from a depth of 15 to 112 centimeters (Bt1, Bt2, Bt3, and 2Bt4 horizons);\nlithic contact--dolomitic limestone bedrock at 112 centimeters;\nudic moisture regime.\nThickness of the A horizon, depth to layer of maximum clay content, thickness of the Bt horizon, and depth to limestone bedrock decrease with increasing gradient on convex slopes.\nThe upper 0.3 to 1.5 meters of limestone may be significantly fractured and may not be a root restrictive layer.\nCation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomy version--Keys to Soil Taxonomy, tenth edition, 2006.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 15 centimeters; very dark grayish brown (10YR 3/2) silt loam, grayish brown (10YR 5/2) dry; weak very fine granular structure; friable; moderately acid; abrupt wavy boundary. (13 to 23 centimeters thick)"
+      },
+      {
+        "name": "BE",
+        "top": 15,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "BE--15 to 30 centimeters; brown (10YR 4/3) silt loam; moderate medium platy structure parting to moderate very fine subangular blocky; friable; moderately acid; abrupt wavy boundary. (0 to 20 centimeters thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 30,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt1--30 to 43 centimeters; yellowish brown (10YR 5/4) silt loam; strong very fine subangular blocky structure; friable; common medium tubular pores; few faint brown (10YR 4/3) clay films and common pale brown (10YR 6/3) silt coats on faces of peds; strongly acid; abrupt wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 43,
+        "bottom": 69,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2--43 to 69 centimeters; yellowish brown (10YR 5/4) silty clay loam; strong fine subangular blocky structure; friable; common medium pores; many faint brown (10YR 4/3) clay films and few pale brown (10YR 6/3) silt coats on faces of peds; strongly acid; abrupt wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 69,
+        "bottom": 94,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt3--69 to 94 centimeters; yellowish brown (10YR 5/4) silt loam; moderate medium subangular blocky structure; friable; common medium pores; common faint brown (10YR 4/3) clay films on faces of peds; strongly acid; abrupt wavy boundary. (Combined thickness of the Bt horizon is 38 to 127 centimeters.)"
+      },
+      {
+        "name": "2Bt4",
+        "top": 94,
+        "bottom": 112,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Bt4--94 to 112 centimeters; brown (7.5YR 4/4) clay; moderate medium subangular blocky structure; very firm; many faint brown (7.5YR 4/3) clay films on faces of peds; slightly acid; abrupt wavy boundary. (0 to 23 centimeters thick)"
+      },
+      {
+        "name": "3R",
+        "top": 112,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "narrative": "3R--112 centimeters; less than 2 centimeters of soft very pale brown (10YR 7/3) fragmented limestone over hard level bedded limestone that is shattered in the upper part. Some of the limestone fragments can be separated and have small amounts of reddish clayey material between them."
+      }
+    ]
+  ]
 }

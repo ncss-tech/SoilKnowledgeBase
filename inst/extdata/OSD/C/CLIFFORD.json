@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon:\nOchric epipedon--the zone from the surface of the soil to a depth of 5 inches (Ap horizon)\nArgillic horizon--the zone from 13 and 48 inches (Bt horizon)\nKandic horizon--the zone between 13 and 58 inches (Bt and BC horizons)\nOther soil features identified with this pedon:\nSeries control section--the zone from 0 to 60 inches\nADDITIONAL DATA:\nLaboratory Data: Lab data for the typical pedon and supporting pedons is available from Virginia Polytechnic Institute and State University.\nDatabase Information:\nTypical Pedon Data Mapunit ID--To be developed\nTABULAR SERIES DATA:\nSoil Name  Slope  Airtemp  FrFr/Seas  Precip  Elevation\nCLIFFORD   2-60   52-57    160-205    40-55   300-1400\nFloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNONE          >.6.0      -      -       >80     -\nDepth  Texture                3-Inch  No-10   Clay%   -CEC-\n0-13  SL FSL L                0-5     80-100  5-20    1-5\n0-13  GR-SL GR-L GR-FSL       5-5     55-85   5-20    1-5\n0-13  SCL CL                  0-5     75-100  20-35   5-10\n13-58 C CL                    0-5     92-100  35-70   3-12\n58-72 VAR                      -        -       -     1-12\nDepth   -pH-     O.M.    Permeab  Shnk-Swll\n0-13  4.5-6.0  0.5-1.0   2.0-6.0  LOW\n0-13  4.5-6.0  0.5-1.0   2.0-6.0  LOW\n0-13  4.5-6.0  0.5-1.0   0.6-2.0  LOW\n13-58 4.5-6.0  0.0-0.5   0.6-2.0  LOW\n58-72    -        -         -     -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 5 inches; dark brown (7.5YR 3/3) fine sandy loam; weak fine granular structure; very friable, slightly sticky, slightly plastic; many fine, medium, and coarse roots; many fine tubular pores; 5 percent gravel; very strongly acid; clear wavy boundary. (1 to 9 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 13,
+        "bottom": 33,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BA--5 to 13 inches; yellowish red (5YR 4/6) loam; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; many fine, medium, and coarse roots; common fine tubular pores; very strongly acid; gradual wavy boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 33,
+        "bottom": 43,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--13 to 17 inches; 80 percent red (2.5YR 4/6) and 20 percent red (2.5YR4/8) clay loam; moderate medium and fine subangular blocky structure; friable, slightly sticky, slightly plastic; common fine, medium, and coarse roots; common fine tubular pores; common discontinuous faint clay films on faces of peds; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 43,
+        "bottom": 122,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--17 to 48 inches; red (2.5YR 4/8) clay; moderate medium subangular blocky structure; firm, moderately sticky, slightly plastic; common fine, medium, and coarse roots; common fine tubular pores; few discontinuous faint clay films on faces of peds; few fine flakes of mica; very strongly acid; gradual wavy boundary. (Combined thickness of the Bt horizon is 25 to 50 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 122,
+        "bottom": 147,
+        "moist_hue": "10R",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--48 to 58 inches; red (10R 4/6) clay loam; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; few fine, medium, and coarse roots; few fine tubular pores; few fine flakes of mica; very strongly acid; gradual wavy boundary. (0 to 25 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 147,
+        "bottom": 183,
+        "moist_hue": "2.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "narrative": "C--58 to 72 inches; 80 percent red (2.5YR 5/8) and 20 percent reddish yellow (5YR 6/6) loam saprolite; massive; friable, few fine flakes of mica; very strongly acid."
+      }
+    ]
+  ]
 }

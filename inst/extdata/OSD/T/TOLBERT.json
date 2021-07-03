@@ -56,5 +56,55 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from 0 to 18 cm (A horizon)\nArgillic horizon - from 18 to 30 cm (Bt horizon)\nParticle size control section - from 0 to 30 cm (A and Bt horizons)\nLithic contact - at 30 cm (R horizon)\nTolbert soils have a frigid temperature regime and an ustic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 18 cm; dark grayish brown (10YR 4/2) very cobbly loam, very dark grayish brown (10YR 3/2) moist; moderate medium subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; many very fine and fine roots; many very fine and fine interstitial pores; 10 percent gravel and 30 percent cobbles; neutral (pH 6.6); clear wavy boundary. (10 to 20 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 18,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "narrative": "Bt--18 to 30 cm; brown (10YR 5/3) very cobbly clay loam, brown (10YR 4/3) moist; moderate fine and medium subangular blocky structure; slightly hard, friable, moderately sticky and moderately plastic; many very fine and fine roots; many very fine and fine interstitial and tubular pores; common distinct dark grayish brown (10YR 4/2) clay films on faces of peds and bridging between sand grains; 15 percent gravel and 40 percent cobbles; neutral (pH 6.8). (13 to 38 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 30,
+        "narrative": "R--30 cm; hard fine grained igneous rock."
+      }
+    ]
+  ]
 }

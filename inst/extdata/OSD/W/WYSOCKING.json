@@ -56,5 +56,77 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  These soils were formerly mapped as a phase of the Pasquotank series.  However, Pasquotank soils do not have buried organic layers.\nDiagnostic horizons and soil characteristics recognized in the typical pedon are:\nOchric epipedon - the zone from the surface to a depth of 6 inches (Ap horizon)\nAquic conditions - observed endosaturation from the surface to a depth of 62 inches (all horizons)\nMLRA: 153B\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0102 WYSOCKING   0-  2   61- 65  200-260  50- 55     1-  10\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0102 RARE   FREQ     0-1.0  APPARENT NOV-MAY  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0102  0-30  SI SIL VFSL             0-  0 100-100  1- 5   2-  6\nNC0102 30-62  MUCK                     -       -     0- 0  20- 95\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0102  0-30  3.5- 5.5  2.-5.  0- 0   2.0- 6.0  LOW\nNC0102 30-62  3.5- 5.5  20-95  0- 0   0.2- 6.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; very dark brown (10YR 2/2) very fine sandy loam; weak fine granular structure; very friable; common fine roots; few very fine tubular pores; few fine flakes of mica; very strongly acid; abrupt smooth boundary.  (5 to 9 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 15,
+        "bottom": 74,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Cg--6 to 29 inches; grayish brown (2.5Y 5/2) silt; massive parting to weak medium platy structure; very friable; few fine and medium roots; black (N 2/0) wavy and discontinuous bedding planes (arcuate cusps) 0.05 to 1 inch thick, becoming thicker as depth increases, on about 10 degree angle sloping toward lake; common medium distinct yellowish brown (10YR 5/6) masses of iron accumulation lining pores with clear boundaries in the matrix; few fine flakes of mica; very strongly acid; gradual smooth boundary.  (11 to 31 inches thick)"
+      },
+      {
+        "name": "2Oa1",
+        "top": 74,
+        "bottom": 147,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2Oa1--29 to 58 inches; dark reddish brown (5YR 2.5/2), broken face and rubbed muck; about 44 percent fibers, less than 2 percent rubbed; massive; moderately fluid; slightly sticky; few medium roots; 31 percent mineral material; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "2Oa2",
+        "top": 147,
+        "bottom": 198,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2Oa2--58 to 78 inches; dark reddish brown (5YR 2.5/2), broken face and rubbed muck; about 20 percent fibers, less than 4 percent rubbed; massive; moderately fluid; slightly sticky; few medium roots; 4 percent mineral material; extremely acid; gradual wavy boundary.  (Combined thickness of the 2Oa horizon is 8 to more than 80 inches)"
+      },
+      {
+        "name": "2Ab",
+        "top": 198,
+        "bottom": 236,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "narrative": "2Ab--78 to 93 inches; very dark brown (10YR 2/2) mucky silt loam; massive; friable; slightly sticky, slightly plastic; 12 percent organic matter; very strongly acid."
+      }
+    ]
+  ]
 }

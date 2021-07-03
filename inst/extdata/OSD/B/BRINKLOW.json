@@ -56,5 +56,77 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The Brinklow series has previously been included in the Linganore, Urbana, Chester, Glenelg, and Manor series.  The Linganore series is loamy-skeletal, Urbana is classified as an Aquic Fragiudalf, and Chester, Glenelg, and Manor soils are very deep to bedrock.\nDiagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon - the zone from the surface of the soil to a depth of 10 inches (Ap horizon).\nb. Argillic horizon - the zone from 10 to 19 inches (Bt horizon).\nc. Paralithic contact - the zone from 25 to 35 inches (Cr horizon).\nd. Lithic contact - at 35 inches (R horizon).\nAdditional Data:  Laboratory data on two pedons are available from the University of Maryland, Department of Agronomy, Soil Characterization Lab.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 10 inches; brown (7.5YR 5/4) channery silt loam; weak fine granular structure; friable; common fine roots; 15 percent rock fragments; slightly acid; abrupt smooth boundary.  (6 to 12 inches thick.)"
+      },
+      {
+        "name": "Bt",
+        "top": 25,
+        "bottom": 48,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--10 to 19 inches; strong brown (7.5YR 5/8) channery silt loam; moderate medium subangular blocky structure; friable; few fine roots; 20 percent rock fragments; common fine tubular pores with thick clay films on ped faces and pores; moderately acid; clear wavy boundary.  (7 to 10 inches thick.)"
+      },
+      {
+        "name": "BC",
+        "top": 48,
+        "bottom": 64,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "BC--19 to 25 inches; variegated strong brown (7.5YR 5/8), reddish yellow (7.5YR 7/6), and yellowish red (5YR 5/6) channery loam; moderate medium and fine subangular blocky structure; friable; 30 percent rock fragments; common fine tubular pores; moderately acid; abrupt wavy boundary.  (8 to 16 inches thick.)"
+      },
+      {
+        "name": "Cr",
+        "top": 64,
+        "bottom": 89,
+        "moist_hue": "5YR",
+        "moist_value": 7,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Cr--25 to 35 inches; reddish yellow (5YR 7/6) soft bedrock that crushes to very channery loam; weak thin platy rock structure; firm; 40 percent rock fragments; moderately acid; abrupt wavy boundary.  (5 to 10 inches thick.)"
+      },
+      {
+        "name": "R",
+        "top": 89,
+        "narrative": "R--35 inches; hard phyllite bedrock."
+      }
+    ]
+  ]
 }

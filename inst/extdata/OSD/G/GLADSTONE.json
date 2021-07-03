@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons recognized in this pedon are:\na. Ochric Epipedon - the zone from the surface to a depth of 10 inches (Ap horizon)\nb. Argillic horizon - the zone from 15 to 40 inches (Bt1 and Bt2 horizons)\nMost uncleared areas have very or extremely stony or bouldery surface phases.\nRevision 7/1997  SG-DDL-MS\n2/2008 Revision updates profile description, competing and geographically associated soils, and geographic setting\n2006 Pedon description updated\nSIR = NJ0078, NJ0082 (VERY STONY), NJ0090 (EXTREMELY STONY)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 10 inches, brown (10YR 4/3) gravelly loam; moderate medium granular structure; friable, slightly sticky, slightly plastic; many fine roots; 20 percent subangular gravel; moderately acid; abrupt smooth boundary. (6 to 13 inches)"
+      },
+      {
+        "name": "BA",
+        "top": 25,
+        "bottom": 38,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BA--10 to 15 inches, brown (7.5YR 5/4) loam; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; many fine roots; 10 percent subangular gravel; moderately acid; clear wavy boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 38,
+        "bottom": 61,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--15 to 24 inches, brown (7.5YR 4/4) gravelly loam; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; few fine roots; few clay films on ped faces; 25 percent subangular gravel; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 61,
+        "bottom": 102,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--24 to 40 inches, strong brown (7.5YR 5/6) gravelly loam; weak coarse prismatic structure parting to moderate medium subangular blocky; friable, slightly sticky, slightly plastic; few fine roots; common clay films on ped faces and root channels; 30 percent subangular gravel; strongly acid; clear wavy boundary. (Combined thickness of Bt horizons 13 to 40 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 102,
+        "bottom": 168,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "C--40 to 66 inches, strong brown (7.5YR 5/8) very gravelly sandy loam; massive; very friable, nonsticky, nonplastic; few very fine roots; 40 percent subangular gravel; strongly acid; gradual irregular boundary. (10 to 40 inches thick)"
+      }
+    ]
+  ]
 }

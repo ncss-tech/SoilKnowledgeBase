@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in the pedon:\nMollic epipedon - the zone from 1 to 10 inches (A and AB horizons).\nArgillic horizon - the zone from 10 to 26 inches (Bt horizon).\nParalithic contact - the contact at 26 inches (Cr horizon).\nLithic contact - the contact at 46 inches (R horizon).\nThese soils were formerly included in the Rosario series.\nThe 12/01 revision changed the classification from Eutrudepts to Argiudolls in recognition of the mollic epipedon and the argillic horizon.\nADDITIONAL DATA:  Characterization pedon - San German Municipality, Puerto Rico; S00PR-125-001.  Sample by the NSSL, Lincoln, NE.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; leaves, needles, twigs, sticks and bark."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--1 to 4 inches; very dark grayish brown (10YR 3/2) gravelly clay loam, very dark gray (10YR 3/1) dry; moderate fine granular structure; friable, slightly hard; slightly sticky; slightly plastic; many very fine, fine, and medium roots, few coarse roots; many very fine interstitial and vesicular pores; about 29 percent, by volume, pebbles; neutral; clear smooth boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "AB",
+        "top": 10,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "extremely gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "AB--4 to 10 inches; very dark grayish brown (10YR 3/2) extremely gravelly clay loam, very dark gray (10YR 3/1) dry; moderate fine to medium subangular blocky structure; friable, slightly hard; slightly sticky and plastic; common fine and medium roots, few coarse roots; common fine interstitial pores, few fine tubular pores; common distinct dark reddish brown (5YR 3/3) stains and coatings on ped faces and in pores; about 5 percent, by volume, pebbles; neutral; clear smooth boundary.  (4 to 8 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 25,
+        "bottom": 66,
+        "dry_hue": "5YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--10 to 26 inches; dark reddish brown (5YR 3/3) extremely paragravelly clay, dark reddish brown (5YR 3/2) dry; weak fine subangular blocky structure; firm, slightly hard, sticky, and plastic; many fine and medium roots between paragravel fragments; few very fine interstitial pores; common distinct clay films on faces of peds; about 85 percent, by volume, paragravel fragments; neutral; abrupt wavy boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 66,
+        "bottom": 117,
+        "narrative": "Cr--26 to 46 inches; soft semi-consolidated serpentinite bedrock that is rippable by hand tools."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,73 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features in this pedon\nare:\nOchric epipedon - the zone from the surface of the soil to a\ndepth of approximately 16 inches (Akn1, Akn2, Akn3\nhorizons).\nInceptisol (Halaquept) - SAR of greater than 13 from 0 to 25\ninches and decreases to 7 from 25 to 46 inches.\nAquept - soil has an aquic soil moisture regime.\nTypic Halaquept - chroma of 2 throughout 6 to 30 inches.\nFine family - based on 2.5 x 15 bar water.\nADDITIONAL DATA:  Pedon number 87P 148; sample number 87P\n843-848.\nNATIONAL COOPERATIVE SOIL SURVEY\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Akn1",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt",
+        "narrative": "Akn1--0 to 4 inches; dark grayish brown (2.5Y 4/2) silty"
+      },
+      {
+        "name": "Akn2",
+        "top": 10,
+        "bottom": 28,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "narrative": "Akn2--4 to 11 inches; dark grayish brown (2.5Y 4/2)"
+      },
+      {
+        "name": "Akn3",
+        "top": 28,
+        "bottom": 41,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "narrative": "Akn3--11 to 16 inches; dark grayish brown (2.5Y 4/2)"
+      },
+      {
+        "name": "Bkn",
+        "top": 41,
+        "bottom": 64,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt",
+        "narrative": "Bkn--16 to 25 inches; grayish brown (2.5Y 5/2) silty"
+      },
+      {
+        "name": "2Bk1",
+        "top": 64,
+        "bottom": 117,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "narrative": "2Bk1--25 to 46 inches; grayish brown (2.5Y 5/2) clay,"
+      },
+      {
+        "name": "2Bk2",
+        "top": 117,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "narrative": "2Bk2--46 to 60 inches; light olive brown (2.5Y 5/4)"
+      }
+    ]
+  ]
 }

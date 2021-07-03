@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon from - the soil surface to 28 cm (A horizon)\nCambic horizon from - 28 to 79 cm (Bw1 and Bw2 horizons)\nParalithic contact from - 79 to 145 cm (Cr horizon)\nLithic contact at 145 cm (R horizon)\nParticle-size control section from - 25 to 79 cm (part of the A, Bw1, and Bw2 horizons)\nBaxton soils have a frigid temperature regime and an ustic moisture regime.\nAdditional Data: Soil interpretation record - MT1545.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 28 cm; dark grayish brown (10YR 4/2) coarse sandy loam, very dark brown (10YR 2/2) moist; weak fine and very fine granular structure; soft, very friable, slightly sticky and nonplastic; many very fine and few fine, medium and coarse roots; many very fine and fine pores; 10 percent gravel; neutral (pH 6.8); clear smooth boundary. (25 to 36 cm thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 28,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--28 to 56 cm; yellowish brown (10YR 5/4) gravelly coarse sandy loam, dark yellowish brown (10YR 4/4) moist; weak medium and fine subangular blocky structure; soft, very friable, slightly sticky and nonplastic; many very fine and few fine, medium and coarse roots; common very fine and fine pores; 20 percent gravel; neutral (pH 7.2); clear wavy boundary. (25 to 61 cm thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 56,
+        "bottom": 79,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "gravelly",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--56 to 79 cm; light yellowish brown (10YR 6/4) gravelly coarse sandy loam, yellowish brown (10YR 5/4) moist; weak medium and fine subangular blocky structure; soft, very friable, slightly sticky and nonplastic; common very fine and few fine, medium and coarse roots; common very fine and fine pores; 30 percent gravel; neutral (pH 7.3); clear wavy boundary. (combined thickness of Bw horizons is 45 to 75 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 79,
+        "bottom": 145,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "very gravelly",
+        "narrative": "Cr--79 to 145 cm; reddish yellow (7.5YR 6/6) disintegrated granite bedrock (grus) that crushes to very gravelly loamy coarse sand. (8 to 71 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 145,
+        "narrative": "R--145 cm; hard granite bedrock."
+      }
+    ]
+  ]
 }

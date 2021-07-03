@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nochric epipedon - 0 to 8 inches  (Ap horizon);\ncambic horizon - 10 to 24 inches (Bg, and BCg horizons);\nAeric feature - in one or more horizons between the Ap and a depth of 75 cm hue of 7.5YR or redder in 50 percent or of the matrix, and chroma of 2 or more on 50 percent or more of ped exteriors;\naquic soil moisture regime - 8 to 24 inches (Eg, Bg and BCg horizons).\nLaboratory data of soils formed in similar parent materials are being evaluated to determine if this series should classify in Vertic Epiaquepts.  The sandy substratum phase of this series is no longer within the concept of the series.\nIn 1976 the Pickford official series was revised.  This series revision stated that the Pickford series formed in clayey glacial till on depressional areas of moraines.\nADDITIONAL DATA: Soil Interpretation Records: MI0157; MI0274 (FLOODED).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; very dark gray (10YR 3/1) silty clay loam, gray (10YR 6/1) dry; moderate fine granular structure; friable; moderately acid; abrupt smooth boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "Eg",
+        "top": 20,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Eg--8 to 10 inches; dark gray (10YR 4/1) silty clay loam; moderate fine subangular blocky structure; firm; common fine prominent yellowish brown (10YR 5/8) iron accumulations throughout; many fine and medium roots; neutral; clear smooth boundary.  (0 to 4 inches thick)"
+      },
+      {
+        "name": "Bg",
+        "top": 25,
+        "bottom": 41,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bg--10 to 16 inches; weak red (2.5YR 4/2) silty clay; moderate fine angular blocky structure; firm; many coarse prominent strong brown (7.5YR 5/8) iron accumulations and distinct dark gray (10YR 4/1) iron depletions throughout; few fine roots; neutral; gradual wavy boundary.  (4 to 14 inches thick)"
+      },
+      {
+        "name": "BCg",
+        "top": 41,
+        "bottom": 61,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BCg--16 to 24 inches; weak red (2.5YR 4/2) clay; weak very fine angular blocky structure; very firm; common fine prominent strong brown (7.5YR 5/8) iron accumulations and distinct dark gray (10YR 4/1) iron depletions throughout; slightly effervescent; slightly alkaline; clear smooth boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 61,
+        "bottom": 152,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "moderately alkaline",
+        "narrative": "C--24 to 60 inches; reddish brown (2.5YR 4/4) clay; massive; very firm; common fine prominent yellowish red (5YR 5/8) iron accumulations throughout; greenish gray (5GY 6/1) coatings of calcium carbonates on faces of peds; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

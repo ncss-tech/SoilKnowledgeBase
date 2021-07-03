@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the mineral soil surface to 5 inches (the A horizon).\nCambic horizon - the zone from 5 to 12 inches (the Bw horizon).\nParticle size control section - the zone from 10 to 40 inches (part of the Bw, the BC and part of the C horizons).\nMoisture regime - Xeric\nThe 3/2008 description reflects a change in classification from Sandy-skeletal, mixed Xeric Eutrocryepts Sandy-skeletal, mixed Xeric Haplocryepts due to revision of the cryepts great groups and subgroups. The competing series section was not updated and should be reviewed after all the cryepts have been re-classified.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 0,
+        "bottom": 1,
+        "distinctness": "abrupt",
+        "topography": "broken",
+        "narrative": "0i--0 to 0.5 inches; forest litter of needles; 15 percent pebbles, 10 percent cobbles, trace stones; abrupt broken boundary. (0 to 4 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 1,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0.5 to 5 inches; brown (10YR 4/3) extremely gravelly silt loam, dark brown (10YR 3/3) moist; weak coarse subangular blocky structure parting to weak very fine granular; soft, very friable, slightly sticky and slightly plastic; many very fine, few medium and coarse roots; many very fine irregular pores; 60 percent pebbles, 5 percent cobbles; slightly acid (pH 6.4); abrupt smooth boundary. (2 to 9 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 13,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--5 to 12 inches; light brownish gray (10YR 6/2) extremely gravelly loam, dark grayish brown (10YR 4/2) moist; weak very fine granular structure; soft very friable, nonsticky and slightly plastic; many very fine, few medium and coarse roots; many very fine irregular pores; many faint coats of silt on upper surface of rock fragments; 80 percent pebbles, 5 percent cobbles; slightly acid (pH 6.4); clear smooth boundary. (6 to 16 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 30,
+        "bottom": 69,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "cf_class": "extremely gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BC--12 to 27 inches; light brownish gray (10YR 6/2) extremely gravelly loamy sand, grayish brown (10YR 5/2) moist; massive; soft, very friable, nonsticky and nonplastic; many very fine, few medium and coarse roots; many very fine tubular pores; many faint coats of silt on upper surface of rock fragments; 80 percent pebbles, 5 percent cobbles; neutral (pH 6.6); gradual smooth boundary. (3 to 25 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 69,
+        "bottom": 152,
+        "texture_class": "sand",
+        "narrative": "C--27 to 60 inches; fragmental; single grain; loose; common very fine roots; many coarse irregular pores; many coats of silt and sand on upper surfaces of rock fragments; 95 percent pebbles, 5 percent cobbles."
+      }
+    ]
+  ]
 }

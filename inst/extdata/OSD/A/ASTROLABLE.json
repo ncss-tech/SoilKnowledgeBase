@@ -56,5 +56,43 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and other features in this pedon\n*Ochric epipedon\n*Redoximorphic iron concentrations--zone from the surface to a depth of 25 cm\n*Redoximorphic iron depletions that have chroma of 2 or less--zone from the surface to a depth of 25 cm\n*Reduced matrix--zone from the surface to a depth of 150 cm\n*Aquic conditions--zone from the surface to a depth of 150 cm\n*Particle-size control section--zone from 25 to 100 cm\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Cg1",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Cg1--0 to 25 cm; sandy clay loam, light olive gray (5Y 6/2) dry, olive gray (5Y 4/2) moist; massive; slightly hard, friable, slightly sticky and slightly plastic; common very fine and coarse roots throughout; few very fine and fine interstitial pores; 15 percent coarse masses of reduced iron, dark gray (2.5Y 4/1) moist, and 20 percent coarse masses of oxidized iron, strong brown (7.5YR 4/6) moist; 10 percent coarse gravel; moderately saline (electrical conductivity of 14 dS/m); neutral (pH 7.2); abrupt smooth boundary"
+      },
+      {
+        "name": "Cg2",
+        "top": 25,
+        "bottom": 150,
+        "texture_class": "coarse sand",
+        "cf_class": "very gravelly",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "narrative": "Cg2--25 to 150 cm; variegated very gravelly coarse sand; single grain; loose, nonsticky and nonplastic; common very fine, fine, and medium roots; few very fine interstitial pores; 60 percent coarse gravel; strongly saline (electrical conductivity of 16 dS/m); slightly alkaline (pH 7.5)"
+      }
+    ]
+  ]
 }

@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  1. The classification is revised with this revision. 2. The Nasmith series replaces some soils formally mapped as Enosburg that have a frigid temperature regime. The former classification was Sandy over loamy, mixed, nonacid, frigid Typic Humaquepts.  3. Diagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon - the zone from 0 to 9 inches (Ap horizon).\nb. Aquents feature - a layer directly under the epipedon that has 50 percent or more chroma 2 in the matrix with redox concentrations (Bg1 horizon).\nc. Aeric feature - hue of 2.5Y with value of 5 and chroma of 2 (Bg1 horizon).\nd. Strongly contrasting particle size class - the transition between the sandy material and the loamy material in the control section (10 to 40 inches) is less than 5 inches.  The loamy material has less than 50 percent fine or coarser sand.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 9 inches; very dark grayish brown (2.5Y 3/2) loamy fine sand, grayish brown (2.5Y 5/2) dry; weak medium granular structure; friable; many very fine and fine roots; many fine prominent strong brown (7.5YR 4/6) pore linings; moderately acid; abrupt smooth boundary. (7 to 10 inches thick)"
+      },
+      {
+        "name": "Bg1",
+        "top": 23,
+        "bottom": 46,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bg1--9 to 18 inches; grayish brown (2.5Y 5/2) loamy fine sand; weak very fine and fine subangular blocky structure; friable; common very fine and fine roots; many coarse distinct light olive brown (2.5Y 5/4) and few medium prominent strong brown (7.5YR 4/6) masses of iron accumulation, and common medium faint olive gray (5Y 5/2) iron depletions in the matrix; neutral; clear smooth boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 46,
+        "bottom": 58,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bg2--18 to 23 inches; olive gray (5Y 4/2) loamy fine sand; weak very fine and fine subangular blocky structure; friable; few very fine roots; common medium faint gray (5Y 5/1) iron depletions and few medium prominent strong brown (7.5YR 4/6) masses of iron accumulation in the matrix; neutral; abrupt wavy boundary. (combined thickness of the Bg horizon is 6 to 29 inches)"
+      },
+      {
+        "name": "2Cg1",
+        "top": 58,
+        "bottom": 69,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Cg1--23 to 27 inches; stratified grayish brown (2.5Y 5/2) loamy fine sand and gray (N 5/0) silty clay loam; massive; firm; common medium prominent yellowish brown (10YR 5/8) and common medium distinct light olive brown (2.5Y 5/4) masses of iron accumulation in the matrix; 5 percent rock fragments; neutral; abrupt wavy boundary."
+      },
+      {
+        "name": "2Cg2",
+        "top": 69,
+        "bottom": 165,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "2Cg2--27 to 65 inches; grayish brown (2.5Y 5/2) silty clay loam; massive; firm; common medium distinct light olive brown (2.5Y 5/4), common medium prominent yellowish brown (10YR 5/8), and common medium prominent brown (7.5YR 4/2) masses of iron accumulation; very strongly acid."
+      }
+    ]
+  ]
 }

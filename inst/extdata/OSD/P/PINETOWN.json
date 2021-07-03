@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nParticle-size control section:  The zone from 10 to 16 inches.  (Bk2 horizon)\nOchric epipedon:  The zone from 0 to 3 inches.  (A horizon)\nCalcic horizon:  The zone from 3 to 16 inches.  (Bk1, Bk2 horizons)\nPetrocalcic horizon:  The zone from 16 to 26 inches.  (Bkm\nhorizon)\nThe cation exchange activity class was inferred from laboratory data from similar soils in the Uintah Area Soil Survey.\nADDITIONAL DATA:  Percent calcium carbonate determined by calcimeter.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; brown (7.5YR 5/4) loam, brown (7.5YR 4/4) moist; weak very fine and fine subangular blocky structure; soft, friable, nonsticky and slightly plastic; many very fine, common fine, and few medium roots; many very fine and fine tubular pores; 10 percent gravel; slightly effervescent (11 percent calcium carbonate equivalent), carbonates are disseminated; moderately alkaline (pH 8.0); clear wavy boundary.  (2 to 5 inches thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 8,
+        "bottom": 23,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bk1--3 to 9 inches; brown (7.5YR 5/4) very gravelly loam, brown (7.5YR 4/4) moist; weak medium subangular blocky structure parting to weak very fine and fine subangular blocks; slightly hard, friable, slightly sticky and slightly plastic; many very fine, common fine, few medium and coarse roots; many very fine and fine tubular pores; 40 percent gravel and gravel sized hardpan fragments; slightly effervescent (21 percent calcium carbonate equivalent), carbonates are disseminated and segregated as common coatings 1 to 3 mm thick on undersides of rock fragments; moderately alkaline (pH 8.2); clear wavy boundary."
+      },
+      {
+        "name": "Bk2",
+        "top": 23,
+        "bottom": 41,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk2--9 to 16 inches; light brown (7.5YR 6/4) extremely gravelly loam, brown (7.5YR 5/4) moist; weak fine subangular blocky structure; soft, friable, sticky and plastic; common very fine, few fine roots; common very fine and few fine tubular pores; 70 percent gravel and gravel sized hardpan fragments; strongly effervescent (36 percent calcium carbonate equivalent), carbonates are disseminated and segregated by coats 1 to 3 mm thick on undersides of rock fragments; moderately alkaline (pH 8.2); clear smooth boundary.  (combined thickness of Bk horizon ranges from 15 to 18 inches thick)"
+      },
+      {
+        "name": "Bkm",
+        "top": 41,
+        "bottom": 66,
+        "narrative": "Bkm--16 to 26 inches; indurated calcium carbonate hardpan."
+      }
+    ]
+  ]
 }

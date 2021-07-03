@@ -56,5 +56,111 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The Bourne series was formerly included in the Beltsville series.\nADDITIONAL DATA: None\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0036 BOURNE      0-15   59-62   180-220   38-46    50-350\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0036 NONE          1.5-2.5  PERCHED  DEC-MAY  >60\nSOI-5  Depth  Texture            3-Inch  No-10   Clay%  -CEC-\nVA0036  0-12  FSL SL             0- 0    75-100   5-20    -\nVA0036  0-12  L VFSL             0- 0    75-100  10-27    -\nVA0036 12-28  SCL CL L           0- 0    75-100  20-35    -\nVA0036 28-52  L SCL FSL          0- 0    75-100  15-35    -\nVA0036 52-80  VAR                 -        -       -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0036  0-12  4.5- 6.5  1.-3.  0- 0   2.0- 6.0  LOW\nVA0036  0-12  4.5- 6.5  1.-3.  0- 0   0.6- 6.0  LOW\nVA0036 12-28  3.6- 5.5  0.-.5  0- 0   0.6- 2.0  LOW\nVA0036 28-52  3.6- 5.5  0.-.5  0- 0  0.00- 0.2  LOW\nVA0036 52-80     -        -     -    0.01- 20\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "01",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "01--1 to 0 inches; pine needles, leaves, and other partially decomposed organic material."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 6 inches; light yellowish brown (2.5Y 6/4) fine sandy loam; weak very fine granular structure; very friable; common fine and medium roots; very strongly acid; clear smooth boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "EB",
+        "top": 15,
+        "bottom": 30,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "EB--6 to 12 inches; light yellowish brown (2.5Y 6/4) fine sandy loam; weak medium subangular blocky structure; friable, few fine and medium roots; very strongly acid; clear smooth boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 30,
+        "bottom": 46,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--12 to 18 inches; light yellowish brown (2.5Y 6/4) sandy clay loam; few fine faint yellowish brown (10YR 5/6) mottles; weak fine and medium subangular blocky structure; friable, slightly sticky, nonplastic; few rounded pebbles of quartz up to 2 inches in diameter; few fine roots; very strongly acid; clear smooth boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 46,
+        "bottom": 71,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--18 to 28 inches; strong brown (7.5YR 5/6) clay loam; common medium distinct yellowish brown (10YR 5/4) mottles; moderate medium subangular blocky structure; friable, slightly sticky, slightly plastic; few fine roots; thin continuous clay films; few rounded pebbles of quartz up to 2 inches in diameter; very strongly acid; clear wavy boundary. (6 to 24 inches thick)"
+      },
+      {
+        "name": "Bx1",
+        "top": 71,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bx1--28 to 35 inches; yellowish brown (10YR 5/6) loam; strong very coarse prismatic parting to moderate, very thick platy structure; firm; brittle; few fine roots; thin continuous strong brown (7.5YR 5/6) clay films; 15 percent rounded fragments of quartz up to 4 inches in diameter; common medium distinct light gray (10YR 7/2) iron depletions; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bx2",
+        "top": 89,
+        "bottom": 132,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bx2--35 to 52 inches; yellowish red (5YR 5/6) sandy clay loam; many medium and coarse distinct red (2.5YR 4/6), very pale brown (10YR 7/3), and strong brown (7.5YR 5/8) mottles; strong very coarse prismatic parting to moderate very thick platy structure; firm, slightly sticky, slightly plastic; brittle; thin continuous clay films; 10 percent rounded pebbles of quartz up to 2 inches in diameter; very strongly acid; clear irregular boundary. (Combined thickness of the Bx horizons is 6 to 47 inches)."
+      },
+      {
+        "name": "C",
+        "top": 132,
+        "bottom": 203,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "C--52 to 80 inches; dark red (2.5YR 3/6), brownish yellow (10YR 6/6), and light gray (10YR 7/2) clay loam; massive; friable, slightly sticky, slightly plastic; few rounded pebbles of quartz up to 1 inch in diameter; very strongly acid."
+      }
+    ]
+  ]
 }

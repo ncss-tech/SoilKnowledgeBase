@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nParticle size control section:  18 to 68 cm (Bt1 and part of Bt2 horizons)\nArgillic horizon:  18 to 91 cm (Bt horizons)\nParalithic contact:  91 cm to weathered sandstone and shale bedrock(Cr horizon)\nVertic features:  cracks in the Bt1 horizon that are about 15 mm wide, 43 cm deep, 45 cm apart and reach the surface in dry periods.  Linear extensibility is about 8.3 cm for the whole soil, projected from lab data of the Bt1 horizon.\nNutrita soils have a mesic soil temperature regime and are in an ustic soil moisture regime bordering on aridic.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 5 cm; grayish brown (10YR 5/2) loam, dark grayish brown (10YR 4/2) moist; weak medium platy structure that parts to moderate fine granular; hard, friable, slightly sticky and slightly plastic; few very fine roots throughout: few very fine tubular pores; 5 percent sandstone gravel; neutral; (pH 6.8); clear smooth boundary.  (5 to 20 cm thick)"
+      },
+      {
+        "name": "AB",
+        "top": 5,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "AB--5 to 18 cm; grayish brown (10YR 5/2) clay loam, dark grayish brown (10YR 4/2) moist; moderate medium angular blocky structure that parts to strong fine subangular blocky; hard, firm, moderately sticky and moderately plastic; few very fine roots throughout: few very fine tubular pores; 5 percent sandstone gravel; neutral (pH 7.0); clear smooth boundary.  (0 to 15 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 61,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--18 to 61 cm; brown (7.5YR 5/3) clay, brown (7.5YR 4/3) moist; moderate medium angular blocky structure; very hard, very firm, very sticky and very plastic; few fine roots throughout: common fine tubular pores; common distinct clay films on ped faces; 2, 43 cm deep, 15 mm wide cracks per square meter; 2 percent sandstone cobbles, 2 percent sandstone gravel; neutral (pH 6.8); gradual smooth boundary.  (30 to 61 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 61,
+        "bottom": 91,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--61 to 91 cm; brown (7.5YR 5/4) clay, brown (7.5YR 4/4) moist; moderate medium angular blocky structure; extremely hard, very firm, very sticky and very plastic; few fine roots throughout: common very fine tubular pores; common distinct clay films on ped faces; slightly alkaline (pH 7.6); clear wavy boundary.  (0 to 51 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 91,
+        "bottom": 117,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "narrative": "Cr--91 to 117 cm; weathered sandstone and shale; neutral."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,55 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Data on mineralogy are lacking, but data for the related and associated Bates soil has siliceous mineralogy.\nDiagnostic horizons and features recognized in this soil are:\nMollic epipedon - the zone from the surface of the soil to a depth of 18 cm (7 inches) (the A horizon).\nLithic contact - hard sandstone bedrock at a depth of 23 cm (9 inches) (the R layer).\nMoisture Regime - Udic\n5/25/00:PRF- modified classification to include superactive.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 18 cm (0 to 7 inches); very dark grayish brown (10YR 3/2) fine sandy loam, dark grayish brown (10YR 4/2) dry; moderate medium granular structure; slightly hard, very friable; moderately acid; gradual wavy boundary.  [10 to 36 cm (4 to 14 inches) thick]"
+      },
+      {
+        "name": "C",
+        "top": 18,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--18 to 23 cm (7 to 9 inches); brown (10YR 4/3) fine sandy loam, brown (10YR 5/3) dry; massive; slightly hard, very friable; 40 percent soft and hard fragments of sandstone by volume; moderately acid abrupt wavy boundary.  [0 to 15 cm (0 to 6 inches) thick]"
+      },
+      {
+        "name": "R",
+        "top": 23,
+        "bottom": 51,
+        "texture_class": "sand",
+        "narrative": "R--23 to 51 cm (9 to 20 inches); yellowish brown sandstone; hard; fractured at intervals from 30 to 91 cm (12 to 36 inches) with small amount of soil material in the cracks."
+      }
+    ]
+  ]
 }

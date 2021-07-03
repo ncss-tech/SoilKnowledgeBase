@@ -56,5 +56,74 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from 0 to 3 inches (A horizon)\nCalcic horizon - The zone from 3 to 12 inches (Bk horizon)\nPetrocalcic horizon - The zone from 12 to 32 inches (Bkm and Bkym horizons).\nLithic Contact - The boundary at 32 inches (R horizon)\nSuperactive cation exchange activity class - CEC to percent clay ratio is 0.60 or greater.  This is assumed from the abundant zeolitic minerals in the Pruett Tuff, which overlies the Jeff Conglomerate; and laboratory data from similar soils in Presidio County, Texas\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Tenth Edition, 2006.\nMoisture and temperature regime revised for Brewster County, TX, Main Part, 2/8/08, CEM\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; pale brown (10YR 6/3) very gravelly loam, brown (10YR 5/3) moist; moderate fine and medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine and fine roots; common very fine interstitial pores; few distinct discontinuous white (10YR 8/1) calcium carbonate coatings on rock fragments; 30 percent subrounded gray limestone gravel, and 10 percent subangular black chert gravel; 5.0 percent calcium carbonate equivalent; violently effervescent; moderately alkaline; clear smooth boundary.  (2 to 9 inches thick)."
+      },
+      {
+        "name": "Bk",
+        "top": 8,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bk--3 to 12 inches; pale brown (10YR 6/3) extremely gravelly loam, brown (10YR 5/3) moist; weak fine and medium subangular blocky structure; slightly hard, friable, moderately sticky and moderately plastic; common very fine, fine, and medium roots; common very fine interstitial pores; very few distinct discontinuous white (10YR 8/1) calcium carbonate coatings on surfaces of peds; 45 percent subrounded gray limestone gravel, 5 percent subrounded gray limestone cobbles, and 20 percent subangular black chert gravel; coarse fragments have calcium carbonate coatings 1 to 2 mm thick; 35.0 percent calcium carbonate equivalent; violently effervescent; moderately alkaline; abrupt wavy boundary.  (0 to 11 inches thick)."
+      },
+      {
+        "name": "Bkm",
+        "top": 30,
+        "bottom": 61,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bkm--12 to 24 inches; strongly cemented caliche with 1 mm thick laminar cap; common very fine roots in cracks; 60 percent subrounded gray limestone gravel, 10 percent subrounded gray limestone cobbles, and 10 percent subangular chert gravel cemented with calcium carbonate; violently effervescent; moderately alkaline; gradual smooth boundary."
+      },
+      {
+        "name": "Bkym",
+        "top": 61,
+        "bottom": 81,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bkym--24 to 32 inches; moderately cemented caliche; common very fine roots in cracks; common fine and medium platy, slightly hard gypsum crystals around stones; 70 percent subrounded gray limestone gravel, 10 percent subrounded gray limestone cobbles, and 10 percent subangular black chert gravel; rock fragments have calcium carbonate coatings in the form of pendants from 1 to 3 mm thick on the lower sides; violently effervescent; moderately alkaline; abrupt smooth boundary."
+      },
+      {
+        "name": "R",
+        "top": 81,
+        "bottom": 203,
+        "narrative": "R--32 to 80 inches; unweathered indurated conglomerate bedrock."
+      }
+    ]
+  ]
 }

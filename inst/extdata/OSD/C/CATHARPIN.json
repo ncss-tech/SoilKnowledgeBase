@@ -56,5 +56,100 @@
   "REMARKS": {
     "section": "ADDITIONAL DATA",
     "content": "ADDITIONAL DATA:  Data on particle size and chemical analysis for typifying pedon are available VPI & SU Soil Survey Laboratory 1970 (field name of soil:  Chancellorsville 187BI, Spotsylvania County, Virginia).\nNOTES:  Diagnostic horizons and features recogized in this pedon.\nOchric Epipedon - The Ap horizon from 0 to 9 inches.\nArgillic horizon - from 9 to 76 inches\nClayey feature - more than 35 percent clay in the upper 20 inches of   the argillic horizon.\nPapers on these soils: (1) Elder, J.H. and D.E. Pettry.  1969.  Morphology of Soils Developed in Western Spotsylvania County, Virginia.  Agronomy Abstracts 1969 Annual Meetings, Detroit, Michigan, p. 106.\n(2) Elder, J. H. and D. E. Pettry.  1969.  Field Observations of Soils Developed in Unconsolidated Sediments in Western Spotsylvania County, Virginia.  Virginia Journal of Science, Vol. 20, #3, p. 96.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0076 CATHARPIN   0- 15   59- 64  185-220  35- 45   250- 800\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0076 NONE          6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0076  0- 9  SIL SICL SL             0-  5  75- 95 18-30    -\nVA0076  9-37  C SICL CL               0-  5  75- 95 35-75    -\nVA0076 37-54  C CL SICL               0- 10  75- 90 30-70    -\nVA0076 54-76  C CN-C CN-SIL           5- 15  50- 85 15-60    -\nVA0076 76-86  WB                       -       -     0- 0    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0076  0- 9  4.5- 6.0  .5-3.  0- 0   0.6- 6.0  LOW\nVA0076  9-37  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  MODERATE\nVA0076 37-54  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  MODERATE\nVA0076 54-76  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  MODERATE\nVA0076 76-86     -        -     -    0.00-0.06\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 9 inches; yellowish brown (lOYR 5/4) silt loam; weak fine granular structure; very friable; many fine roots; 3 percent rounded reddish quartzite gravel moderately acid; abrupt smooth boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 23,
+        "bottom": 43,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--9 to 17 inches; yellowish red (5YR 5/6) silty clay loam; weak fine subangular blocky structure; friable, sticky, plastic; common fine roots; few faint clay films on faces of peds; 3 percent rounded reddish quartzite; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 43,
+        "bottom": 66,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--17 to 26 inches; red (2.5YR 4/6) clay; moderate fine and medium subangular blocky structure; firm, very sticky, plastic; common fine roots; many faint and distinct clay films on faces of peds; 2 percent rounded reddish quartzite gravel; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 91,
+        "bottom": 94,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt3--36 to 37 inches; red (2.5YR 4/8) clay; common fine faint yellowish red (5YR 4/6) mottles; moderate medium and fine subangular blocky structure; firm, very sticky, plastic; few fine roots; many distinct clay films on faces of peds; 2 percent rounded reddish quartzite; strongly acid; clear smooth boundary. (Combined thickness of the Bt horizon is 18 to 48 inches.)"
+      },
+      {
+        "name": "2Bt4",
+        "top": 94,
+        "bottom": 137,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bt4--37 to 54 inches; red (2.5YR 4/8) clay; moderate fine subangular blocky structure; firm, slightly sticky, slightly plastic; few fine roots; common distinct clay films; 2 percent strongly weathered fragments of schist; common flakes of mica; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "2Bt5",
+        "top": 137,
+        "bottom": 193,
+        "moist_hue": "25YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bt5--54 to 76 inches; red (25YR 4/8) channery clay; many fine distinct yellowish brown (lOYR 5/8), and white (lOYR 8/2) mottles; weak fine subangular blocky structure; friable; common distinct clay films on faces of peds; 25 percent strongly weathered fragments of schist; many flakes of mica; very strongly acid; gradual smooth boundary.  (Combined thickness of the 2B horizon is 12 to 44 inches.)"
+      },
+      {
+        "name": "2",
+        "top": 193,
+        "bottom": 254,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "narrative": "2--76 to 100 inches; brown, yellow, red and white silt loam; massive; friable; highly weathered; micaceous, schist; few distinct clay flows between rock structural planes; very strongly acid."
+      }
+    ]
+  ]
 }

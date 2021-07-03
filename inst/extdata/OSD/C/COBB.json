@@ -56,5 +56,72 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nEdited 01/2017 (RFG-ROG): Added metric measurements. Updated competing series, geographic setting, and associated soils sections.\nDiagnostic horizons and features recognized in this pedon are:\nParticle-size control section: 20 to 70 cm (8 to 27 in). (Top 50 cm of argillic horizon)\nOchric epipedon:0 to 20 cm (0 to 8 in). (Ap horizon)\nArgillic horizon:20 to 76 cm (8 to 30 in). (Bt1 and Bt2 horizons)\nParalithic contact: The contact at 76 cm (30 in). (Top of Cr horizon)\nADDITIONAL DATA: None\nTaxonomic version: Keys to Soil Taxonomy, Twelfth Edition, 2014\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 20 cm (0 to 8 in); reddish brown (5YR 4/3) fine sandy loam, dark reddish brown (5YR 3/3) moist; weak fine subangular blocky structure; hard, very friable; few fine roots; slightly acid; gradual smooth boundary. Thickness is 8 to 30 cm (3 to 12 in)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 56,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--20 to 56 cm (8 to 22 in); reddish brown (5YR 4/4) sandy clay loam, dark reddish brown (5YR 3/4) moist; weak coarse prismatic structure parting to weak medium subangular blocky; very hard, friable; few fine roots; few fine pores; slightly acid; clear wavy boundary. Thickness is 20 to 46 cm (8 to 18 in)"
+      },
+      {
+        "name": "Bt2",
+        "top": 56,
+        "bottom": 76,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt2--56 to 76 cm (22 to 30 in); reddish brown (5YR 5/4) sandy clay loam, reddish brown (5YR 4/4) moist; weak coarse prismatic structure parting to weak medium subangular blocky; very hard, friable; neutral; abrupt irregular boundary. Thickness is 15 to 46 cm (6 to 18 in), Combined thickness of the Bt horizon is 38 to 91 cm (15 to 36 in)"
+      },
+      {
+        "name": "Cr",
+        "top": 76,
+        "bottom": 152,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "narrative": "Cr--76 to 152 cm (30 to 60 in); weakly cemented reddish sandstone with common distinct coatings of calcium carbonate in the fissures or crevices; neutral."
+      }
+    ]
+  ]
 }

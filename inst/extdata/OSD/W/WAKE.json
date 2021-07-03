@@ -56,5 +56,61 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The April 1994 revision changed the classification from thermic, coated Lithic Quartzipsamments to mixed, thermic Lithic Udipsamments. Laboratory data documents more than 10 percent weatherable minerals in the control section of these soils in North Carolina. North Carolina is the only state that the Wake series has been correlated in. The November 2002 revision moved the type location to another site in Wake County. It also removed the coarse fragment requirement of 15 to 35 percent throughout.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from 0 to 5 inches (A horizon)\nLithic contact - The occurrence of hard bedrock at 12 inches (R horizon)\nADDITIONAL DATA:\nMLRA: 136\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope   Airtemp  FrFr/Seas  Precip   Elevation\nNC0079 WAKE        2-45    58-62    180-270    35-54     350-1200\nSOI-5  FloodL FloodH  Watertable Kind   Months   Bedrock  Hardness\nNC0079 NONE           >6.0                -      11-20    HARD\nSOI-5   Depth  Texture           3-Inch   No-10    Clay%    -CEC-\nNC0079  0-5    LCOS LS S         0-10     90-100   3-12       -\nNC0079  5-12   LCOS LS S         0-10     90-100   3-15       -\nNC0079  12     UWB                -         -       -         -\nSOI-5   Depth     -pH-      O.M.   Salin   Permeab    Shnk-Swll\nNC0079  0-5     4.5- 6.0   .5-1.   0-0     6.0-20       LOW\nNC0079  5-12    4.5- 6.0    0-.5   0-0     6.0-20       LOW\nNC0079  12         -         -      -         -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 5 inches; dark yellowish brown (10YR 3/4) loamy sand; weak fine granular; very friable; about 10 percent gravel by volume; many fine, common medium, and many coarse roots; strongly acid; clear wavy boundary. (3 to 9 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 13,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--5 to 10 inches; dark yellowish brown (10YR 4/6) loamy sand; weak fine subangular blocky structure; very friable; about 10 percent gravel by volume; many fine, common medium, and many coarse roots; strongly acid; clear wavy boundary. (0 to 7 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 25,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--10 to 12 inches; dark yellowish brown (10YR 4/4) gravelly loamy coarse sand; single grain; loose; about 18 percent gravel by volume; many grains of feldspar; few flakes of mica and dark mineral grains; strongly acid; abrupt wavy boundary. (2 to 16 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 30,
+        "narrative": "R--12 inches; hard, slightly fractured, unweathered granite."
+      }
+    ]
+  ]
 }

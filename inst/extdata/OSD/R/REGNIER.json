@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon: 0 to 23 cm. (A horizon)\nParalithic contact: stratified shale and siltstone at 46 cm.\nADDITIONAL DATA:  NSSL data from De Baca County, NM (S82NM-011-003)\nTAXONOMIC VERSION: Keys to Soil Taxonomy, Tenth edition, 2006\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "2.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "strongly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A--0 to 23 cm (0 to 9 in); reddish brown (2.5YR 5/4) clay loam, reddish brown (2.5YR 4/4) moist; strong fine granular structure; hard, firm, sticky and plastic; many fine and very fine roots; violently effervescent; strongly alkaline; gradual smooth boundary. (5 to 30 cm)"
+      },
+      {
+        "name": "C",
+        "top": 23,
+        "bottom": 46,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "strongly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--23 to 46 cm (9 to 18 in); reddish brown (2.5YR 4/4) clay loam, dark reddish brown (2.5YR 3/4) moist; massive; hard, firm, sticky and plastic; common fine and very fine roots; violently effervescent; strongly alkaline; clear wavy boundary. (15 to 25 cm)"
+      },
+      {
+        "name": "Cr",
+        "top": 46,
+        "bottom": 91,
+        "texture_class": "silt",
+        "pH_class": "strongly alkaline",
+        "narrative": "Cr--46 to 91 cm (18 to 36 in); stratified shale and siltstone; very few fine and very fine roots following natural cleavage planes through the shale; strongly alkaline."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon the zone from the soil surface to a depth of 26 inches (A, AB, and Bt  horizons);\nArgillic horizon - the zone from 16 to 30 inches (Bt and BC horizons).\nLithic contact- the upper boundary of the R horizon 30 inches below the soil surface.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 10 inches; brown (7.5YR 5/3) fine sandy loam, dark brown (7.5YR 3/3) moist; strong fine crumb structure; soft, very friable; slightly acid (pH 6.4); gradual wavy boundary. (6 to 12 inches thick)"
+      },
+      {
+        "name": "AB",
+        "top": 25,
+        "bottom": 41,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "AB--10 to 16 inches; reddish brown (5YR 5/3) fine sandy loam, dark reddish brown (5YR 3/3) moist; weak coarse prismatic structure parting to moderate coarse and medium subangular blocky; slightly hard, very friable; few small krotovinas; slightly acid (pH 6.4); gradual wavy boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 41,
+        "bottom": 66,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--16 to 26 inches; reddish brown (5YR 5/3) fine sandy loam, dark reddish brown (5YR 3/3) moist; moderate coarse prismatic structure parting to moderate medium subangular blocky; slightly hard, very friable; common faint clay films on faces of peds; slightly acid (pH 6.4); clear smooth boundary. (6 to 16 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 66,
+        "bottom": 76,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "BC--26 to 30 inches; brown (7.5YR 5/3) fine sandy loam, brown (7.5YR 4/3) moist; weak medium subangular blocky structure; slightly hard, very friable; few thin clay films on some sand grains; slightly acid (pH 6.4); abrupt smooth boundary. (3 to 6 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 76,
+        "texture_class": "sand",
+        "narrative": "R--30 inches; sandstone."
+      }
+    ]
+  ]
 }

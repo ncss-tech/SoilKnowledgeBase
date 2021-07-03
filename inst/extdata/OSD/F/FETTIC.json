@@ -56,5 +56,94 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The 4/2000 revision updated the taxonomic subgroup from Aquic Natrargids to Aridic Natrixerolls.\nDiagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 30 cm (A and Btn horizons).\nNatric horizon - The zone from 10 to 51 cm (Btn and Btk horizons).\nIdentifiable secondary carbonates - The zone from 30 to 51 cm (Btk horizon).\nEndosaturation feature - The condition of ground water with an upper boundary between 104 and 152 cm at certain times during normal years (part of the C1 and C2 horizons).\nParticle size control section - The zone from 10 to 30 cm (Btn horizon).\nADDITIONAL DATA:  The type location was moved to Washoe County, NV to better reflect the series concept.\nUser Pedon ID: 2006NV031034.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "texture_class": "loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "narrative": "A--0 to 10 cm; dark grayish brown (10YR 4/2), loam, very dark grayish brown (10YR 3/2), moist; moderate medium subangular blocky structure; slightly hard, friable, slightly sticky, slightly plastic; many very fine to medium roots; common very fine and fine interstitial pores; slightly effervescent; moderately alkaline (pH 8.0); abupt smooth boundary. (8 to 15 cm thick)"
+      },
+      {
+        "name": "Btn",
+        "top": 10,
+        "bottom": 30,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 8.9,
+        "pH_class": "strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Btn-- 10 to 30 cm; grayish brown (2.5Y 5/2) clay loam, very dark grayish brown (2.5Y 3/2) moist; strong fine and medium prismatic parts to strong fine angular blocky structure; hard, firm, moderately sticky, moderately plastic; many very fine to medium roots; common very fine and fine interstitial pores; common faint clay films on surfaces along pores; strongly effervescent; strongly alkaline (pH 8.9); abrupt smooth boundary. (20 to 30 cm thick)"
+      },
+      {
+        "name": "Btnk",
+        "top": 30,
+        "bottom": 51,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 9.2,
+        "pH_class": "very strongly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btnk-- 30 to 51 cm; light brownish gray (2.5Y 6/2) clay loam, dark grayish brown (2.5Y 4/2) moist; strong fine and medium prismatic parts to strong fine angular blocky structure; hard, firm, moderately sticky, slightly plastic; many medium roots and common very fine and fine roots; common very fine and fine tubular pores; very few faint clay films on surfaces along pores; few fine carbonate masses;  violently effervescent; very strongly alkaline (pH 9.2); clear smooth boundary. (15 to 40 cm thick)"
+      },
+      {
+        "name": "C1",
+        "top": 51,
+        "bottom": 114,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 8.8,
+        "pH_class": "strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C1-- 51 to 114 cm; light brownish gray (2.5Y 6/2) fine sandy loam, grayish brown (2.5Y 5/2) moist; massive; hard, firm, slightly sticky, slightly plastic; many very fine to medium roots in pockets; common fine tubular pores; violently effervescent; strongly alkaline (pH 8.8); abrupt smooth boundary. (50 to 70 cm thick)"
+      },
+      {
+        "name": "C2",
+        "top": 114,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "narrative": "C2-- 114 to 152 cm; very pale brown (10YR 7/3) fine sandy loam, light yellowish brown (2.5Y 6/4) moist; massive; hard, friable, slightly sticky, slightly plastic; common very fine roots; common very fine tubular pores; slightly effervescent; moderately alkaline (pH 8.2)"
+      }
+    ]
+  ]
 }

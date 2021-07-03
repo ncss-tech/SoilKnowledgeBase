@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nMollic epipedon - the zone from 0 to 8 inches (Oi and A horizon).\nArgillic horizon - the zone from 8 to 15 inches (Bt horizon).\nLithic contact - the contact at 15 inches (R layer).\nEl Descanso soils were formerly included in the Serpentinite outcrop miscellaneous land type.  A soil moisture and soil temperature study performed in the San German Area Soil Survey Update recognized the Perudic Soil Moisture Regime in Puerto Rico, recognized the isothermic soil temperature regime at 750 meters above sea level (in Perudic Soil Moisture Regime) and 900 meters above sea level (in Udic Soil Moisture Regime) and adjusted the isothermic-isohyperthermic line.\nEl Descanso soils formed in the Serpentinite Formation (Ks).\nEl Descanso soils are in MLRA 270.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Oi--0 to 3 inches; black (10YR 2/1) mucky peat, about 70 percent fiber  crushed and rubbed; massive, very friable; nonsticky, nonplastic; many very fine, medium and coarse roots; about 10 percent, by volume, cobbles and about 2 percent, by volume, stones; slightly acid; clear wavy boundary. (1 to 4 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 8,
+        "bottom": 20,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--3 to 8 inches; dark brown (7.5YR 3/2) very gravelly clay loam; strong very fine and fine granular structure; slightly hard, firm; slightly sticky, moderately plastic; many very fine to coarse roots; many very fine to medium irregular pores; few faint pressure faces on faces of peds; about 45 percent, by volume, angular pebbles; neutral; clear wavy boundary. (4 to 6 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 20,
+        "bottom": 38,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt--8 to 15 inches; dark brown (7.5YR 3/2) extremely paragravelly clay; moderate very fine and fine subangular blocky structure; hard, firm; slightly sticky, moderately plastic; many very fine and fine roots; many very fine to fine irregular pores; common distinct clay films on faces of peds and coarse fragments; about 70 percent, by volume, angular parapebbles, and about 5 percent, by volume, angular paracobbles; neutral; abrupt irregular boundary. (6 to 12 inches thick)"
+      }
+    ]
+  ]
 }

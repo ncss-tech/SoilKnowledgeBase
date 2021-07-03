@@ -56,5 +56,72 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon -- 0 to 17 inches (A, Bt1, Bt2).\nArgillic horizon -- 7 to 17 inches (Bt1, Bt2)\nParalithic contact - the boundary at 17 inches (Crt horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; grayish brown (10YR 5/2) loam, very dark grayish brown (10YR 3/2) moist; weak, very fine subangular blocky structure parting to weak very fine and fine granular; slightly hard, friable, slightly sticky and slightly plastic; common very fine roots; many very fine interstitial and common very fine tubular pores; 2 percent soft through hard angular and subangular pebbles (2-20mm); medium acid (pH 6.0); abrupt smooth boundary.  (1 to 5 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 5,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "pH": 5.8,
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--2 to 13 inches; dark grayish brown (10YR 4/2) sandy clay loam, very dark brown (10YR 2/2) moist; moderate fine and medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine and few fine roots; few very fine interstitial and common very fine and fine tubular pores; 2 percent soft through hard angular and subangular pebbles (2-40mm); few thin clay films on peds and in pores; medium acid (pH 5.8); clear wavy boundary.  (6 to 15 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 33,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH": 5.8,
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt2--13 to 17 inches; dark grayish brown (10YR 4/2) gravelly clay loam, very dark grayish brown (10YR 3/2) moist; moderate very fine and fine subangular blocky structure; slightly hard, firm, slightly sticky and slightly plastic; common very fine roots; common very fine interstitial and tubular pores and few fine tubular pores; very few thin clay films on peds and in pores; 30 percent soft through hard angular and subangular pebbles (2-40mm); medium acid (pH 5.8); abrupt irregular boundary,  (2 to 8 inches thick)"
+      },
+      {
+        "name": "Crt",
+        "top": 43,
+        "bottom": 102,
+        "texture_class": "sand",
+        "narrative": "Crt--17 to 40 inches; folded and fractured soft through moderately hard, sandstone; few fine roots follow primary fractures; thin and moderately thick clay films coat primary fracture faces that are 5 to 30mm apart and less than 1mm wide."
+      }
+    ]
+  ]
 }

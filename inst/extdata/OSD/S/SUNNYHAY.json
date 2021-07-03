@@ -56,5 +56,49 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this profile include: a histic epipedon 11 inches thick; a lithic contact at 14 inches; pH of 4.5 (0.01M CaCl2) or greater in the organic layer from 4 to 11 inches; sapric material from 0.5 to 11 inches.  It is assumed that these soils never freeze below 2 inches.\nSunnyhay soils were formerly classified as dysic.  However, the pH is 4.5 (0.01M CaCl2) or greater in one or more layers within the control section is all profiles.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oa2",
+        "top": 10,
+        "bottom": 28,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Oa2--4 to 11 inches; black (5YR 2.5/1) muck; common fine roots; very strongly acid (pH 4.5); clear wavy boundary.  (3 to 10 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 28,
+        "bottom": 36,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very stony",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--11 to 14 inches; dark reddish brown (5YR 2.5/2) very stony loam with patches of dark yellowish brown (10YR 4/4); single grain; loose, nonsticky and nonplastic; few fine roots; 60 percent gravel and stones; very strongly acid (pH 4.8); abrupt wavy boundary.  (0 to 4 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 36,
+        "narrative": "R--14 inches; graywacke bedrock."
+      }
+    ]
+  ]
 }

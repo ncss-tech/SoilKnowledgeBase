@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The soils now placed in the Abell series were formerly included in the Seneca series which is now inactive.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0056 ABELL       0-  7   59- 68  190-220  40- 46   350- 800\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0056 NONE          2.0-3.5  APPARENT DEC-MAR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0056  0-15  SL FSL                  0-  0  85-100  5-18    -\nVA0056  0-15  SIL L                   0-  0  85-100 10-27    -\nVA0056  0-15  LFS LS                  0-  0  85-100  5-15    -\nVA0056 15-27  SCL CL SL               0-  0  75-100 18-35    -\nVA0056 27-39  C CL SICL               0-  5  75- 95 30-45    -\nVA0056 39-60  L SL SIL                0-  5  75-100 10-27    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0056  0-15  4.5- 6.0  1.-2.  0- 0   0.6- 6.0  LOW\nVA0056  0-15  4.5- 6.0  .5-2.  0- 0   0.6- 6.0  LOW\nVA0056  0-15  4.5- 6.0  .5-1.  0- 0   2.0- 6.0  LOW\nVA0056 15-27  4.5- 6.0  0.-.5  0- 0   0.6- 2.0  LOW\nVA0056 27-39  4.5- 6.0  0.-.5  0- 0   0.6- 2.0  MODERATE\nVA0056 39-60  4.5- 6.0  0.-.5  0- 0   0.6- 6.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 28,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 11 inches; dark brown (7.5YR 4/4) fine sandy loam, weak fine granular structure; friable, nonsticky, nonplastic; common fine and medium roots; few fine pores; strongly acid; gradual smooth boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 28,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--11 to 15 inches; brown (10YR 5/3) fine sandy loam; weak fine granular structure; friable, slightly sticky, slightly plastic; few fine roots; few fine pores; strongly acid; clear smooth boundary.  (0 to 16 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 38,
+        "bottom": 48,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--15 to 19 inches; yellowish brown (10YR 5/4) sandy clay loam; weak medium and fine subangular blocky structure; friable, slightly sticky, slightly plastic; few fine roots; few fine pores; thin patchy clay films on faces of peds; 5 percent angular quartz pebbles up to 1/4 inch in diameter; very strongly acid; gradual smooth boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 48,
+        "bottom": 69,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt2--19 to 27 inches; yellowish brown (10YR 5/6) clay loam; weak fine subangular blocky structure; friable, slightly sticky, plastic; few fine roots; thin patchy clay films on faces of peds; few very fine flakes of mica; 3 percent angular quartz pebbles up to 1 inch in diameter; very strongly acid; gradual smooth boundary.  (7 to 30 inches thick)"
+      },
+      {
+        "name": "2Bt3",
+        "top": 69,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bt3--27 to 32 inches; yellowish brown (10YR 5/6) clay; common fine distinct yellowish red (5YR 5/6) mottles; moderate, medium and fine subangular blocky structure; firm, sticky, plastic; few fine roots; thin continuous clay films on faces of peds; many fine flakes of mica; very strongly acid; gradual smooth boundary.  (0 to 20 inches thick)"
+      },
+      {
+        "name": "2Bt4",
+        "top": 81,
+        "bottom": 99,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bt4--32 to 39 inches; light olive brown (2.5Y 5/4) clay; common medium distinct yellowish red (5YR 4/6), and common fine prominent gray (10YR 6/1) mottles; weak and moderate medium subangular blocky structure; firm, sticky, plastic; few fine roots; thin patchy clay films on faces of peds; many fine flakes of mica; very strongly acid; gradual smooth boundary.  (4 to 20 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 99,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "narrative": "2C--39 to 60 inches; multicolored gray (10YR 6/1), yellowish red (5YR 4/6), and strong brown (7.5YR 5/6) loam; massive; friable, nonsticky, nonplastic; few clay flows in upper part; many fine flakes of mica; very strongly acid."
+      }
+    ]
+  ]
 }

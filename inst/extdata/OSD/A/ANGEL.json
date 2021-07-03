@@ -56,5 +56,77 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features and horizons recognized in this profile include:\nOchric Epipedon: from 2 to 3 inches, 5 to 8 cm.\nCambic Horizon: from 3 to 15 inches, 8 to 38 cm.\nParalithic contact: from 15 inches, 18 cm.\nparticle-size of loamy skeletal: from 3 to 15 inches, 8 to 38 cm.\nTemperature regime: Cryic 26 F., -3 C.\nMoisture regime: Udic\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "pH": 4,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 1 inches, (0 to 2 cm); dark yellowish brown (10YR 3/4); slightly decomposed plant material; many very fine and fine roots; extremely acid (pH 4.0); abrupt smooth boundary."
+      },
+      {
+        "name": "Oe",
+        "top": 3,
+        "bottom": 5,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "pH": 4,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--1 to 2 inches, (2 to 5 cm); black (5YR 2.5/1); moderately decomposed plant material; many very fine, fine, medium and coarse roots; extremely acid (pH 4.0); abrupt smooth boundary. (the combined thickness of the O horizons is 2 to 6 inches thick)"
+      },
+      {
+        "name": "AE",
+        "top": 5,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "AE--2 to 3 inches, (5 to 8 cm); dark grayish brown (10YR 4/2); silt loam; weak fine granular structure; friable, slightly sticky, slightly plastic; few fine, medium and coarse roots; very strongly acid (pH 4.8); abrupt wavy boundary. (1 to 2 inches thick)"
+      },
+      {
+        "name": "2Bw",
+        "top": 8,
+        "bottom": 38,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely cobbly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bw--3 to 15 inches, (8 to 38 cm); brown (7.5YR 4/4); extremely cobbly sandy loam; massive; friable, slightly sticky, slightly plastic; common fine and medium roots; 20 percent gravel, 50 percent cobble, 10 percent stone; moderately acid (pH 5.6); clear wavy boundary. (4 to 18 inches thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 38,
+        "bottom": 183,
+        "narrative": "2Cr--15 to 72 inches, (38 to 183 cm); weathered granite bedrock"
+      }
+    ]
+  ]
 }

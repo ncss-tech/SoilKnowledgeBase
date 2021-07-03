@@ -56,5 +56,59 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This soil was previously mapped marsh.  It is classified on the basis of lab data from  Va. Tech.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0229 FEATHERSTO  0-  1   59- 65  200-240  40- 50     0-   2\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0229 FREQ             -     APPARENT    -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0229  0-14  MK-L MK-SIL             0-  1  90-100 10-27    -\nVA0229 14-72  L SIL                   0-  1  85- 98 10-27    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0229  0-14  4.5- 5.5  10-30  2- 8   0.6- 2.0  LOW\nVA0229 14-72  4.5- 5.5  2.-5.  2- 8   0.6- 2.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 5,
+        "bottom": 0,
+        "narrative": "0i--2 to 0 inches; mosses and partially decomposed organic matter."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 14 inches; very dark grayish brown (10YR 3/2) mucky silt loam; structureless; very friable, slightly sticky, slightly plastic; many fine medium and coarse roots; many decomposing roots and organic debris; 15 percent organic carbon; strongly acid; clear smooth boundary (3 to 16 inches thick)."
+      },
+      {
+        "name": "Cg",
+        "top": 36,
+        "bottom": 97,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Cg--14 to 38 inches; dark grayish brown (10YR 4/2) loam; many medium and coarse prominent very dark gray (10YR 3/1) mottles; structureless; friable, slightly sticky, slightly plastic; common fine roots; 1 percent fine quartz gravel; strongly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "C",
+        "top": 97,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "narrative": "C--38 to 72 inches; dark yellowish brown (10YR 4/4) loam; many medium and fine distinct dark gray (10YR 4/1) mottles; structureless; friable; slightly sticky, slightly plastic; few fine roots; 1 percent; fine quartz gravel; strongly acid."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,89 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nVitrandic feature - from the mineral soil surface to 56 centimeters (A, Bw horizons)\nOchric epipedon - from 0 to 18 centimeters (Oi and part of the A horizons)\nCambic horizon - from 20 to 56 centimeters (Bw horizon)\nCalcic horizon - from 56 to 105 centimeters (Bk horizon)\nParticle-size control section - from 25 to 100 centimeters (part of the Bw and Bk horizons)\nKila soils have a frigid temperature regime and an udic moisture regime. Where present, soil water is primarily from subsurface lateral flow. Depth to water fluctuates throughout the year and from year to year.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 2,
+        "narrative": "Oi--0 to 2 centimeters; slightly decomposed forest litter."
+      },
+      {
+        "name": "A",
+        "top": 2,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A--2 to 20 centimeters; light brownish gray (10YR 6/2) ashy silt loam, very dark grayish brown (10YR 3/2) moist; weak medium subangular blocky structure parting to weak medium granular; slightly hard, friable, nonsticky and nonplastic; common very fine, fine, and medium roots; few medium tubular pores and common fine dendritic tubular pores; strongly effervescent; slightly alkaline (ph 7.8); gradual smooth boundary. (10 to 30 centimeters thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 20,
+        "bottom": 56,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--20 to 56 centimeters; light yellowish brown (2.5Y 6/3) ashy silt loam, brown (10YR 4/3) moist; weak fine and medium subangular blocky structure; slightly hard, friable, nonsticky and nonplastic; common very fine, fine, and medium roots; common fine dendritic tubular pores; strongly effervescent; slightly alkaline (ph 7.8); clear smooth boundary. (25 to 50 centimeters thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 56,
+        "bottom": 105,
+        "dry_hue": "2.5Y",
+        "dry_value": 8,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk--56 to 105 centimeters; pale yellow (2.5Y 8/3) silt loam, light yellowish brown (2.5Y 6/3) moist; weak medium subangular blocky structure; slightly hard, friable, slightly sticky and nonplastic; few very fine and fine roots; common fine dendritic tubular pores; few fine soft masses of lime and disseminated lime; violently effervescent; moderately alkaline (ph 8.4); clear smooth boundary. (25 to 50 centimeters thick)"
+      },
+      {
+        "name": "2C",
+        "top": 105,
+        "bottom": 152,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "very gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "narrative": "2C--105 to 152 centimeters; light gray (2.5Y 7/2) very gravelly silt loam, grayish brown (2.5Y 5/2) moist; massive; slightly hard, friable, nonsticky and nonplastic; common prominent dark yellowish brown (10YR 4/6) redox concentrations; few very fine and fine roots; common fine dendritic tubular pores; 5 percent stones, 10 percent cobbles, and 35 percent gravel; disseminated lime; violently effervescent; moderately alkaline (pH 8.2)."
+      }
+    ]
+  ]
 }

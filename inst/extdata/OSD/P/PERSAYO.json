@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - from 0 to 10 cm\nParalithic contact - at 36 cm\nSeries control section - from 0 to 36 cm (A and C horizons)\nPersayo soils have a mesic temperature regime and an aridic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A--0 to 10 cm; light yellowish brown (2.5Y 6/3) silty clay loam, light olive brown (2.5Y 5/3) moist; moderate fine granular structure, weak platy in the upper 1 cm; soft, very friable; strongly effervescent; moderately alkaline (pH 8.2); gradual smooth boundary. (2.5 to 18 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 10,
+        "bottom": 36,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "C--10 to 36 cm; light yellowish brown (2.5Y 6/4) silty clay loam, light olive brown (2.5Y 5/4) moist; weak medium subangular blocky structure parting to moderate fine granules; hard, very friable; few fine gypsum crystals; strongly effervescent; moderately alkaline (pH 8.2) gradual smooth boundary. (18 to 36 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 36,
+        "texture_class": "silt",
+        "narrative": "Cr--36 cm; calcareous gray and yellow shale and siltstone."
+      }
+    ]
+  ]
 }

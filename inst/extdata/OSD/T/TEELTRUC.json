@@ -56,5 +56,107 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 26 inches (A1, A2, and Bw1 horizons).\nCambic horizon - The zone from 26 to 51 inches (Bw2 horizon).\nDuric feature - The zone from 51 to 61 inches (Bq horizon).\nLithic contact - The boundary at 61 inches to underlying hard bedrock (2R layer).\nParticle-size control section - The zone from 10 to 40 inches (Bw1 horizon and parts of the A2 and Bw2 horizons).\nADDITIONAL DATA:  Volcanic glass content determined locally by optical grain count using a polarizing microscope.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 3 inches; brown (10YR 5/3) ashy sandy loam, very dark grayish brown (10YR 3/2) moist; moderate medium granular structure; soft, very friable,  slightly sticky and nonplastic; common very fine and common fine roots; common very fine interstitial pores; slightly acid (pH 6.5); clear smooth boundary.  (2 to 6 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--3 to 15 inches; grayish brown (10YR 5/2) ashy sandy loam, very dark grayish brown (10YR 3/2) moist; weak medium subangular blocky structure parting to strong medium granular; soft, very friable, slightly sticky and nonplastic; common very fine, common fine, and common medium roots; common very fine interstitial and common medium tubular pores; neutral (pH 6.6); clear smooth boundary.  (5 to 15 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 38,
+        "bottom": 66,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw1--15 to 26 inches; brown (10YR 5/3) ashy sandy loam, dark brown (10YR 3/3) moist; moderate medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine, common fine, few medium, and few coarse roots; common fine and medium tubular pores; neutral (pH 6.7); gradual smooth boundary.  (6 to 15 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 66,
+        "bottom": 130,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "cobbly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw2--26 to 51 inches; brown (10YR 5/3) cobbly ashy sandy loam, brown (10YR 4/3) moist; moderate medium subangular blocky structure; slightly hard, friable, slightly sticky and nonplastic; few very fine, few fine, and few medium roots; common very fine and common fine tubular pores; 10 percent pebbles and 15 percent cobbles; neutral (pH 6.8); abrupt smooth boundary.  (10 to 26 inches thick)"
+      },
+      {
+        "name": "Bq",
+        "top": 130,
+        "bottom": 155,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bq--51 to 61 inches; light yellowish brown (10YR 6/4) ashy sandy loam, dark yellowish brown (10YR 4/4) moist; weak medium and coarse subangular blocky structure; hard, firm, slightly sticky and nonplastic; weak discontinuous cementation by secondary silica; 10 percent pebbles; common fine opal coats on faces of peds; neutral (pH 7.0); abrupt wavy boundary.  (5 to 14 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 155,
+        "narrative": "2R--61 inches; unweathered basalt."
+      }
+    ]
+  ]
 }

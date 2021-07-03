@@ -56,5 +56,124 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from 0 to 30 cm (A1, A2, and BA horizons)\nArgillic horizon - from 30 to 76 cm (Bt1 and Bt2 horizons)\nLithic contact - at 76 cm\nParticle-size control section - from 30 to 76 cm. (Bt1 and Bt2 horizons)\nMoento soils have a frigid soil temperature regime and an ustic soil moisture regime.\nNote: In this pedon it is assumed the A1 horizon displays the greatest amount of eluviation and that the clay increase, required for a diagnostic argillic horizon, is measured from the A1 horizon to the Bt1 horizon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 5 cm; dark brown (10YR 3/3) loam, very dark brown (10YR 2/2) moist; weak thin platy structure parting to weak fine granular; slightly hard, friable, nonsticky and nonplastic; common very fine and fine roots; few fine pores; slightly acid (pH 6.4); clear smooth boundary. (5 to 23 cm)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--5 to 15 cm; dark brown (10YR 3/3) clay loam, very dark grayish brown (10YR 3/2) moist; weak medium subangular blocky structure; hard, friable, nonsticky and nonplastic; common fine roots; few fine pores; slightly acid (pH 6.4); clear smooth boundary. (5 to 20 cm thick)"
+      },
+      {
+        "name": "BA",
+        "top": 15,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BA--15 to 30 cm; brown (10YR 4/3) clay loam, dark brown (10YR 3/3) moist; moderate medium and coarse subangular blocky structure; hard, friable, slightly sticky and slightly plastic; common fine roots; few fine pores; slightly acid (pH 6.2); clear wavy boundary. (0 to 51 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 30,
+        "bottom": 53,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--30 to 53 cm; brown (7.5YR 5/4) clay loam, brown (7.5YR 4/4) moist; moderate medium and coarse subangular blocky structure; hard, firm, moderately sticky and moderately plastic; few very fine roots; few large pores; common prominent clay films on faces of peds; slightly acid (pH 6.2); gradual smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 53,
+        "bottom": 76,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt2--53 to 76 cm; strong brown (7.5YR 5/6) sandy clay loam, strong brown (7.5YR 5/8) moist; moderate coarse subangular blocky structure; very hard, firm, slightly sticky and slightly plastic; common prominent clay films on faces of peds; few very fine roots; few very fine and fine pores; slightly acid (pH 6.2); gradual smooth boundary. (Combined thickness of Bt horizons is 38 to 76 cm)"
+      },
+      {
+        "name": "C",
+        "top": 76,
+        "bottom": 91,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C--76 to 91 cm; reddish yellow (7.5YR 6/6) sandy clay loam; reddish yellow (7.5YR 6/8) moist; massive; slightly hard, friable, nonsticky and nonplastic; slightly acid (pH 6.4); abrupt smooth boundary. (20 to 30 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 91,
+        "texture_class": "sand",
+        "narrative": "R--91 cm; sandstone bedrock that is fractured and weathered in the top 5 to 8 cm."
+      }
+    ]
+  ]
 }

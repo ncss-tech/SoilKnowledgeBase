@@ -56,5 +56,146 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\n06/2000-These soils were formally mapped as Sandy Land, Ironstone in older surveys in New Jersey. This revision was done under the guidance and consultation with Thornton J. Hole, former NRCS project leader who proposed the Phalanx series and wrote the original type location description in Ocean County, NJ. It refines the horizonation and identifies specific cemented (ironstone) layers formally specifically described, but included as part of the Bt or BC horizons. Thickness and percent cementation given for each horizon (originally described as Birm layers) was used as the basis for calculating the depths and thickness of the individual cemented layers (Bm horizons). The new horizonation provides a better format for interpretation generation in NASIS.\nSandstone bedrock does not exist in soils of the coastal plain of New Jersey. This revision excludes the use of sandstone as a term used in conjunction with cemented materials. Locally, sandstone was commonly used to describe coarse-grained materials in the past. Phalanx soils in NJ are typically red due to ferriferous parent materials. The revision defines the diagnostic horizons and features that are found in this soil. The range of individual horizons has had major revision. In some pedons, it may not be appropriate to identify many very thin Bm layers, and more useful to describe the layer as a Bt/Bm or similar horizon designation. The revision refines the parent materials, geographic setting, and other information that is needed for updating or maintaining modern soil surveys.\nDiagnostic horizons and other soil characteristics recognized in this pedon are:\nOchric epipedon-the zone from 0 to 6 inches, (A and E horizons)\nArgillic horizon--the zone from 6 to 28 inches, (Bt1 and Bt2 horizons)\nPetroferric contact--contact at a depth of 28 inches and also at 35 and 43 inches (the upper boundaries of the Bm, B'm, and B''m horizons)\nOther soil features identified with this pedon:\nCemented material--the zone from 28 to 32 inches (Bm horizon), 35 to 40 inches (B'm horizon), and 43 to 46 inches (B''m horizon)\nParticle-size control section--the zone from 6 to 28 inches\nSeries control section--the zone from 0 to 28 inches\nADDITIONAL DATA: None\nDatabase Information:\nOSD Data Mapunit ID: To be developed\nTypical Pedon Data Mapunit ID: 100448\nOSD User Pedon ID: Phalanx-OSD\nTABULAR SERIES DATA:\nSOI-5   Soil Name   Slope  Airtemp  FrFr/Seas  Precip   Elevation\nNJ0083  PHALANX     0- 25   50-57   180-215    40-48    80-140\nSOI-5   FloodL  FloodH Watertable Kind   Months  Bedrock  Hardness\nNJ0083  NONE           >72               -       >72\nSOI-5  Depth  Texture                 3-Inch  No-10   Clay% -CEC-\nNJ0083  0- 6  LS S                    0-  0   85- 95  2-10    -\nNJ0083  6-22  SL LS CN-SL             0- 15   80- 95  5- 2    -\nNJ0083 22-46  CN-SL FL-LS SCL         5- 30   15- 70  2-25    -\nNJ0083 46-72  S LS FL-S               0- 30   20-100  1- 9    -\nSOI-5   Depth    -pH-      O.M.   Salin  Permeab   Shnk-Swll\nNJ0083  0- 6    3.6- 5.0   .5-2.  0- 0   6.0-20.0  LOW\nNJ0083  6-22    4.5- 5.5    -     0- 0   2.0-20.0  LOW\nNJ0083  22-46   4.5- 5.5    -     0- 0   0.6-20.0  LOW\nNJ0083  46-72   4.5- 5.5    -     0- 0   6.0-20.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; dark brown (7.5YR 3/2) loamy sand; brown (7.5YR 4/2) dry; weak medium granular structure; very friable; many fine roots; many medium irregular pores; extremely acid; clear smooth boundary. (1 to 7 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 15,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E--2 to 6 inches; reddish brown (5YR 5/3) loamy sand; weak medium granular structure; very friable; many fine roots and many medium roots; many fine irregular pores; extremely acid; gradual wavy boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 30,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "diffuse",
+        "topography": "wavy",
+        "narrative": "Bt1--6 to 12 inches; red (2.5YR 4/6) sandy loam; weak medium subangular blocky structure; very friable; common medium roots and common fine roots; many fine irregular pores; very strongly acid; diffuse wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 30,
+        "bottom": 71,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--12 to 28 inches; red (2.5YR 4/6) channery sandy loam; weak medium subangular blocky structure; very friable; common medium roots; many fine irregular pores; common faint clay films on faces of peds and common clay bridging between sand grains; 20 percent indurated petroferric fragments; very strongly acid; gradual wavy boundary. (Combined thickness of the Bt horizon is 6 to 35 inches)"
+      },
+      {
+        "name": "Bm",
+        "top": 71,
+        "bottom": 81,
+        "moist_hue": "10R",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bm--28 to 32 inches; red (10R 4/6) cemented material; massive; very rigid, indurated; common fine roots and common medium roots in cracks; cemented material (ironstone) is horizontal and more than 90 percent continuous, cracks are greater than 4 inches apart and are filled with red sandy loam soil material; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "BC",
+        "top": 81,
+        "bottom": 89,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "cf_class": "extremely flaggy",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--32 to 35 inches; red (2.5YR 4/6) extremely flaggy loamy sand; massive; very friable; few medium roots and few fine roots; common fine irregular pores; few clay bridging between sand grains; 75 percent indurated petroferric fragments; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "B'm",
+        "top": 89,
+        "bottom": 102,
+        "moist_hue": "10R",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "narrative": "B'm--35 to 40 inches; red (10R 4/6) cemented material; massive; very rigid, indurated; common fine roots and common medium roots in cracks; cemented material (ironstone) is horizontal and more than 90 percent continuous, cracks are greater than 4 inches apart and are filled with red loamy sand soil material; very strongly acid; gradual wavy."
+      },
+      {
+        "name": "BC'",
+        "top": 102,
+        "bottom": 109,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "cf_class": "very channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC'--40 to 43 inches; red (2.5YR 4/6) very channery loamy sand; massive; very friable; few medium roots and few fine roots; common fine irregular pores; few clay bridging between sand grains; 50 percent indurated petroferric fragments; very strongly acid; gradual wavy boundary. (Combined thickness of the BC horizon is 0 to 20 inches.)"
+      },
+      {
+        "name": "B''m",
+        "top": 109,
+        "bottom": 117,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "narrative": "B''m--43 to 46 inches; red (2.5YR 4/6) cemented material; massive; very rigid, indurated; common fine roots and common medium roots in cracks; cemented material (ironstone) is horizontal and more than 90 percent continuous, cracks are greater than 4 inches apart and are filled with red loamy sand soil material; very strongly acid; gradual wavy. (Thickness of individual Bm horizons is 3 to 20 inches or more.)"
+      },
+      {
+        "name": "C",
+        "top": 117,
+        "bottom": 203,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "narrative": "C--46 to 80 inches; yellowish red (5YR 5/6) sand; single grain; loose; very strongly acid."
+      }
+    ]
+  ]
 }

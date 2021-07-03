@@ -56,5 +56,58 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from 0 to 10 inches (A horizon)\nDepth to redox concentrations - at 7 inches (C horizon)\nDepth to lithologic discontinuity - at 24 inches (2C horizon)\nParticle-size control section - from 10 to 40 inches (C, part of 2C horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 10 inches; grayish brown (10YR 5/2) loam, very dark grayish brown (10YR 3/2) moist; weak fine subangular blocky structure parting to moderate fine granular; slightly hard, very friable; strongly effervescent; moderately alkaline (pH 8.0); gradual wavy boundary. (7 to 15 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 25,
+        "bottom": 61,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C--10 to 24 inches; brown (7.5YR 5/3) loam, brown (7.5YR 4/3) moist; common fine faint brown (7.5YR 4/4) moist redox concentrations; massive; hard, very friable; strongly effervescent; moderately alkaline (pH 8.2); gradual wavy boundary. (5 to 33 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 61,
+        "bottom": 152,
+        "texture_class": "loamy sand",
+        "cf_class": "very gravelly",
+        "narrative": "2C--24 to 60 inches; very gravelly loamy sand or sand; strongly effervescent."
+      }
+    ]
+  ]
 }

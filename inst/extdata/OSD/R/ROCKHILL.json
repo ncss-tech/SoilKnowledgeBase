@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - 0 to 7 inches (Oi, A, Bw horizons);\nCambic horizon - 5 to 14 inches (Bw horizon);\nParticle size control section - 1 to 18 inches (A, Bw, 2C horizons); and\nLithic contact - at 19 inches (R horizon).\nRockhill soils have andic soil properties, a udic moisture regime, and a frigid temperature regime.\nADDITIONAL DATA: Soil Interpretation Record MT1541.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; undecomposed and slightly decomposed forest litter. (1 to 2 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "very gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--1 to 5 inches; brown (10YR 5/3) very gravelly ashy silt loam, dark brown (10YR 3/3) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic;   common very fine and fine roots; 5 percent cobbles, 40 percent gravel; slightly acid (pH 6.2); clear smooth boundary. (1 to 4 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 13,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "very gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--5 to 14 inches; light yellowish brown (10YR 6/4) very gravelly ashy silt loam, dark yellowish brown (10YR 4/4) moist; weak fine subangular blocky structure parting to weak fine granular; soft, very friable, nonsticky and nonplastic; common very fine and fine roots; 5 percent cobbles, 50 percent gravel; slightly acid (pH 6.2); clear wavy boundary. (9 to 15 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 36,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2C--14 to 19 inches; light yellowish brown (10YR 6/4) extremely gravelly silt loam, dark yellowish brown (10YR 4/4) moist; massive; soft, very friable, nonsticky and nonplastic; few fine and medium roots; 10 percent cobbles, 65 percent gravel; slightly acid (pH 6.2); abrupt wavy boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 48,
+        "narrative": "R--19 inches; fractured argillite and quartzite bedrock."
+      }
+    ]
+  ]
 }

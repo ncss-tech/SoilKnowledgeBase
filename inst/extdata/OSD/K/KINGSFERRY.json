@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Classification changed from Arenic Haplaquods to Arenic Umbric Haplaquods, a recent addition to Soil Taxonomy, with this revision of the series.\nDiagnostic horizons and features recognized in this pedon are:\nUmbric epipedon and arenic properties--the zone from the soil surface to a depth of 34 inches (A1, A2, A3 horizons)\nSpodic horizons--the zone from 34 to 80 inches (Bh1, Bh2, Bh3 horizons).\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nFL0500 KINGSFERRY  0-  2   65- 70  230-310  50- 60    10- 150\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nFL0500 NONE            0-0.5  APPARENT FEB-SEP  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nFL0500  0-34  S FS                    0-  0 100-100  1- 7   3-  6\nFL0500 34-67  S FS LFS                0-  0 100-100  3-12  15- 30\nFL0500 67-80  S FS                    0-  0 100-100  3-12  30- 40\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nFL0500  0-34  3.6- 5.5  1.-5.  0- 2   6.0-  20  LOW\nFL0500 34-67  3.6- 5.5  1.-6.  0- 2   0.6- 2.0  LOW\nFL0500 67-80  3.6- 5.5  2.-6.  0- 2  0.06- 0.2  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 11 inches; black (10YR 2/1) fine sand; moderate medium granular structure; friable; many fine, common medium and few coarse roots; extremely acid, clear wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 28,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A2--11 to 17 inches; very dark gray (10YR 3/1) fine sand; single grained; loose; common fine roots; sand grains very thinly coated with organic matter; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "A3",
+        "top": 43,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A3--17 to 34 inches; very dark gray (10YR 3/1) fine sand; common medium faint dark gray (10YR 4/1) and few fine faint gray streaks; single grained; loose; few fine roots; very strongly acid; gradual wavy boundary. (Combined thickness of the A horizon is 20 to 47 inches)"
+      },
+      {
+        "name": "Bh1",
+        "top": 86,
+        "bottom": 109,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bh1--34 to 43 inches; very dark gray (5YR 3/1) fine sand; massive; very friable; sand grains coated with organic matter; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bh2",
+        "top": 109,
+        "bottom": 170,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bh2--43 to 67 inches; dark reddish brown (5YR 2/2) fine sand; common medium distinct black (5YR 2/1) weakly cemented fragments; massive; friable; sand grains coated with organic matter; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bh3",
+        "top": 170,
+        "bottom": 203,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "narrative": "Bh3--67 to 80 inches; black (5YR 2/1) fine sand; massive; very firm; weakly cemented; sand grains coated with organic matter, very strongly acid."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,118 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This series type location was originally in Louisa County, Virginia which is now a mesic temperature regime area. It was reclassified to mesic family 2001.  The distribution of the series has more acreage in the thermic temperature regime, therefore it is now thermic (2007).  The soils in the thermic area are also very deep to soft bedrock.\nDiagnostic horizons and soil characteristics recognized in this pedon:\nOchric epipedon--the zone from 0 to 1 inches (A horizon)\nArgillic horizon--the zone from 5 to 55 inches (Bt horizons)\nADDITIONAL DATA: (VPI&SU Publication)\nData Map Unit ID (type Location): 89076\nTABULAR SERIES DATA:\nSOI-5 Soil Name Slope Airtemp Frfr/Seas Precip Elevation\nVA0007 FLUVANNA 0- 25 45- 70 180-220 35- 50 250- 700\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0007 NONE          6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0007  0- 9  FSL L SIL               0-  0  80-100  5-27    -\nVA0007  0- 9  SICL CL                 0-  0  80-100 27-40    -\nVA0007  9-46  C SIC SICL              0-  0  95-100 35-65    -\nVA0007 46-60  CL SICL GR-CL           0-  5  45-100 20-40    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0007  0- 9  4.5- 5.5  1.-3.  0- 0   2.0- 6.0  LOW\nVA0007  0- 9  4.5- 5.5  .5-2.  0- 0   0.6- 2.0  MODERATE\nVA0007  9-46  4.5- 5.5  0.-.5  0- 0  0.06- 0.6  MODERATE\nVA0007 46-60  4.5- 5.5  0.-.5  0- 0  0.06- 0.6  MODERATE\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 1 inches; very dark grayish brown (10YR 3/2) fine sandy loam; moderate fine granular structure; very friable, nonsticky, nonplastic; many fine and medium roots and many coarse roots; 4 percent subrounded quartz gravel; extremely acid; clear smooth boundary."
+      },
+      {
+        "name": "E",
+        "top": 3,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "E--1 to 5 inches; yellowish brown (10YR 5/4) fine sandy loam; moderate fine granular structure; friable, nonsticky, nonplastic; many fine and medium roots and many coarse roots; 4 percent subrounded quartz gravel; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt1",
+        "top": 13,
+        "bottom": 28,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--5 to 11 inches; strong brown (7.5YR 5/6) clay loam; many medium distinct yellowish brown (10YR 5/4) mottles; moderate medium subangular blocky structure; friable, moderately sticky, moderately plastic; many fine and medium roots and many coarse roots; many prominent continuous clay films on all faces of peds; 2 percent subrounded quartz gravel; extremely acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 28,
+        "bottom": 58,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt2--11 to 23 inches; strong brown (7.5YR 5/6) clay; common medium distinct yellowish red (5YR 4/6) mottles; moderate medium subangular blocky structure; friable, moderately sticky, moderately plastic; many fine and medium roots; many prominent continuous clay films on all faces of peds; 1 percent subrounded quartz gravel; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 58,
+        "bottom": 112,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt3--23 to 44 inches; yellowish red (5YR 5/8) clay; common medium distinct strong brown (7.5YR 5/6) mottles; moderate medium subangular blocky structure; firm, moderately sticky, moderately plastic; many fine and medium roots; many prominent continuous clay films on all faces of peds; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt4",
+        "top": 112,
+        "bottom": 140,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "Bt4--44 to 55 inches; yellowish red (5YR 5/6) silty clay; many medium distinct dark red (10R 3/6) and many medium distinct brownish yellow (10YR 6/6) mottles; moderate coarse platy parting to moderate medium subangular blocky structure; firm, moderately sticky, moderately plastic; many fine roots; many prominent continuous clay films on all faces of peds; 10 percent subangular phyllite gravel; very strongly acid; diffuse smooth boundary.  (Combined thickness of the Bt horizon is   40 to 55 inches)"
+      },
+      {
+        "name": "C1",
+        "top": 140,
+        "bottom": 178,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "C1--55 to 70 inches; brownish yellow (10YR 6/6), yellowish red (5YR 4/6), and dark red (10R 3/6) silty clay loam saprolite; massive; friable, moderately sticky, moderately plastic; many fine roots; 10 percent subangular phyllite gravel; very strongly acid; diffuse smooth boundary."
+      },
+      {
+        "name": "C2",
+        "top": 178,
+        "bottom": 201,
+        "moist_hue": "10R",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "C2--70 to 79 inches; dark red (10R 3/6), black (10YR 2/1), and brownish yellow (10YR 6/6) silty clay loam saprolite; massive; friable, moderately sticky, moderately plastic; 10 percent subangular phyllite gravel; very strongly acid."
+      }
+    ]
+  ]
 }

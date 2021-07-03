@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Rolesville soils were previously mapped as Louisburg, Wake, and Wateree soils.\nDiagnostic horizons and soil characteristics recognized in this pedon are:\nOchric epipedon--the zone from the soil surface to a depth of 12 inches (A horizon)\nParalithic contact--the zone from 32 to 38 inches (Cr horizon)\nLithic contact-the zone starting at 38 inches (R horizon)\nSeries control section--the zone from 0 to 32 inches\nADDITIONAL DATA:\nReference particle-size data is available from the project soil survey staff, Raleigh, North Carolina.\nData Map Unit ID:\nTABULAR SERIES DATA:\nSoil Name    Slope  Airtemp  FrFr/Seas  Precip   Elevation\nRolesville   0-45   57-65    180-260    40-55    150-450\nFloodL FloodH   Watertable Kind     Months   Bedrock   Hardness\nNONE            6.0-6.0                -      20-40     Hard\nDepth  Texture            3-Inch  No-10    Clay%  -CEC-\n0-12   LS LCOS S          0-2     95-100    3-15    -\n12-26  LS LCOS S          0-0     95-100    5-15    -\n26-32  LS LCOS S          0-0     95-100    3-15    -\n32-38  WB                  -        -        -      -\n38     UWB                 -        -        -      -\nDepth   -pH-     O.M.  Salin    Permeab     Shnk-Swll-\n0-12   3.6-5.5   1-3    0-0       2-6         LOW\n12-26  3.6-5.5   0-.5   0-0     6.0-20        LOW\n26-32  3.6-5.5   0-.5   0-0     6.0-20        LOW\n32-38     -       -      -         -\n38        -       -      -         -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 12 inches; dark yellowish brown (10YR 4/4) loamy sand; moderate fine granular structure; very friable; common fine roots; slightly acid; abrupt smooth boundary.  (1 to 14 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 30,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--12 to 26 inches; brownish yellow (10YR 6/6) loamy sand; weak fine subangular blocky structure; very friable; few fine roots; few fine and medium pores; few fine flakes of mica; very strongly acid; clear wavy boundary.  (8 to 23 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 66,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "loamy coarse sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--26 to 32 inches; very pale brown (10YR 7/4) loamy coarse sand saprolite; common medium distinct brownish yellow (10YR 6/6) and common fine distinct yellowish brown (10YR 5/6) mottles; massive; very friable; 5 percent by volume pararock fragments of weathered granite; common fine flakes of mica; very strongly acid; clear wavy boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 81,
+        "bottom": 97,
+        "narrative": "Cr--32 to 38 inches; weathered, moderately fractured granite.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 97,
+        "narrative": "R--38 inches; unweathered, slightly fractured granite."
+      }
+    ]
+  ]
 }

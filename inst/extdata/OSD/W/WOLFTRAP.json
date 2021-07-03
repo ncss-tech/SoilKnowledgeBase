@@ -56,5 +56,88 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Wolftrap soils were previously mapped with the White Store series.  The April 1997 relocation of the mesic/thermic soil temperature regime line necessitated the establishment the Wolftrap series as a White Store counterpart.\nDiagnostic horizons and soil features recognized in this pedon:\nOchric epipedon--the zone from 0 to 8 inches (Ap horizon)\nArgillic horizon--the zone from 8 to 31 inches (Btss horizons)\nSlickensides--the presence of slickensides in a zone from 8 to 31 inches (Btss horizon)\nOther soil features identified with this pedon:\nVertic feature--linear extensibility of 6.0 cm or more between the mineral soil surface and a depth of 100 cm\nSeries control section--the zone from 0 to 60 inches\nADDITIONAL DATA:\nLaboratory Data: No laboratory data available.\nDatabase Information:\nTypical Pedon Data Mapunit ID--103385\nTABULAR SERIES DATA:\nSOI-5  Soil Name  Slope  Airtemp  FrFr/Seas  Precip  Elevation\nNC0059 WOLFTRAP   2-25   52-57    60-205     40-55   300-850\nSOI-5 FloodL FloodH  Watertable  Kind     Months   Bedrock  Hardness\nNC0059 NONE          1.5-2.5     PERCHED  DEC-MAR  >60      -\nSOI-5  Depth  Texture    3-Inch  No-10  Clay%   -CEC-\nNC0059  0-8   SL FSL     0-3  95-100    5-20    5-15\nNC0059  0-8   L SIL      0-3  80-100    5-27    5-15\nNC0059  0- 8  CL C       0-3  95-100   27-45    5-15\nNC0059  8-31  C          0-3  90-100   45-70   20-40\nNC0059 31-65  SL L CL    0-3  85-100   12-40    5-20\nSOI-5  Depth    -pH-     O.M.   Salin  Permeab  Shnk-Swll\nNC0059  0- 8  5.6-6.0  0.5-2.0  0-0   0.6-2.0   LOW\nNC0059  0- 8  5.6-6.0  0.5-2.0  0-0   0.6-2.0   LOW\nNC0059  0- 8  4.5-5.5  0.0-0.5  0-0   0.06-0.6  HIGH\nNC0059  8-31  4.5-5.5  0.0-0.5  0-0   0.0-0.06  VERY HIGH\nNC0059 31-65  4.5-5.5  0.0-0.5  0-0   0.06-0.2  MODERATE\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--0 to 1 inch; slightly decomposed plant material; very strongly acid; mostly pine needles and twigs; abrupt smooth boundary. (0 to 3 inches thick)"
+      },
+      {
+        "name": "Ap",
+        "top": 3,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--1 to 8 inches; yellowish brown (10YR 5/4), light yellowish brown (10YR 6/4), fine sandy loam; weak fine granular structure; friable, slightly sticky, nonplastic; many fine and few medium and large roots; very strongly acid; abrupt smooth boundary. (1 to 10 inches thick)"
+      },
+      {
+        "name": "Btss1",
+        "top": 20,
+        "bottom": 48,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btss1--8 to 19 inches: 60 percent red (2.5YR 4/6) and 40 percent light yellowish brown (2.5Y 6/4) clay; weak coarse angular blocky structure; very firm, moderately sticky, moderately plastic; common flattened fine roots on faces of peds and few medium roots; common nonintersecting slickensides; few fine tubular pores; common prominent clay films on faces of peds; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Btss2",
+        "top": 48,
+        "bottom": 79,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btss2--19 to 31 inches; brown (7.5YR 4/3) clay; weak medium and coarse angular blocky structure; very firm, very sticky, very plastic; few flattened fine roots on faces of peds and few medium roots; few fine tubular pores; many distinct clay films on faces of peds; common nonintersecting slickensides; common medium prominent light brownish gray (2.5Y 6/2) iron depletions; very strongly acid; clear wavy boundary. (Combined thickness of the Btss horizon is 20 to 40 inches)"
+      },
+      {
+        "name": "BC",
+        "top": 79,
+        "bottom": 97,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "BC--31 to 38 inches; reddish brown (2.5YR 4/3) clay loam; weak medium and coarse angular blocky structure; firm, moderately sticky, moderately plastic; few fine roots; few fine tubular pores; common medium prominent grayish brown (10YR 5/2) iron depletions; very strongly acid; abrupt smooth boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 97,
+        "bottom": 165,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "narrative": "C--38 to 65 inches; reddish brown (2.5YR 4/3) silt loam saprolite; massive; friable, slightly sticky, nonplastic; strongly acid."
+      }
+    ]
+  ]
 }

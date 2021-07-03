@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 8 cm (A1 and A2 horizons).\nArgillic horizon - The zone from 8 to 18 cm. (Bt horizon)\nParalithic contact - The contact at 18 cm (R layer).\nParticle-size control section - The zone from the surface of the soil surface to 18 cm (A1, A2 and Bt horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "gravelly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 3 cm; pale brown (10YR 6/3) gravelly coarse sandy loam, brown (10YR 4/3) moist; moderate medium platy structure; soft, very friable, nonsticky and nonplastic; few very fine roots; many very fine and fine vesicular and interstitial pores; 25 percent gravel; strongly effervescent; slightly alkaline (pH 7.8); abrupt smooth boundary.  (0 to 5 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 3,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "coarse sandy loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--3 to 8 cm; pale brown (10YR 6/3) coarse sandy loam, brown (10YR 4/3) moist; strong very thick platy structure parting to moderate medium subangular blocky; slightly hard, very friable, slightly sticky and nonplastic; few very fine roots; many very fine and fine vesicular pores; 10 percent gravel; few faint clay films lining pores in the lower part of the horizon; violently effervescent moderately alkaline (pH 8.4); clear wavy boundary.  (3 to 13 cm thick)"
+      },
+      {
+        "name": "Btkq",
+        "top": 8,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Btkq--8 to 18 cm; light yellowish brown (10YR 6/4) gravelly sandy clay loam, brown (10YR 4/3) moist; moderate medium subangular blocky structure; slightly hard, very friable, slightly sticky and plastic; common very fine and fine, few medium roots; many very fine tubular and interstitial pores; 25 percent gravel; common distinct clay films lining pores; common thin carbonate and silica pendants on gravel; strongly effervescent; moderately alkaline (pH 8.0); abrupt wavy boundary.  (8 to 23 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 18,
+        "bottom": 28,
+        "narrative": "Cr--18 to 28 cm; weathered, very highly fractured tuffaceous rock; few very fine roots in fractures."
+      }
+    ]
+  ]
 }

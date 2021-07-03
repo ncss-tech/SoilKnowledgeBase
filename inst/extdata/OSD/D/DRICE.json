@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to about 36 cm (A and AB horizons).\nArgillic horizon - The zone from about 36 cm to 58 cm. (Bt1 and Bt2 horizons)\nVitritorrandic feature - Aridic moisture regime bordering on Xeric. Volcanic glass is 30 to 50 percent of the 0.2 to 2 mm fraction in the zone from 0 to 36 cm (A and AB horizons).\nParticle control section - The zone from 36 cm to 58 cm. (Bt1 and Bt2 horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "cf_class": "stony",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 10 cm; grayish brown (10YR 5/2) stony ashy silty clay loam, dark brown (10YR 3/3) moist; weak fine and medium granular structure; common fine roots and common very fine roots; 10 percent stones and 10 percent cobbles; slightly alkaline (pH 7.4) clear smooth boundary. (5 to 18 cm thick)"
+      },
+      {
+        "name": "AB",
+        "top": 10,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "AB--10 to 36 cm; grayish brown (10YR 5/2) ashy silty clay loam, dark brown (10YR 3/3) moist; weak thin platy structure; common fine roots and common very fine roots; 1 percent clay films on surfaces along pores; 4 percent gravel; slightly alkaline (7.6); abrupt smooth boundary. (0 to 26 cm  thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 36,
+        "bottom": 53,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--36 to 53 cm; brown (10YR 4/3) clay, brown (10YR 4/3) moist; strong fine prismatic parting to strong medium angular blocky structure; common fine roots and common very fine roots; 60 percent pressure faces; 5 percent stones, 4 percent gravel, slightly alkaline (pH 7.6); clear smooth boundary. (13 to 23 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 53,
+        "bottom": 58,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "stony",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt2--53 to 58 cm; dark yellowish brown (10YR 4/4) stony clay, dark yellowish brown (10YR 4/4) moist; strong medium angular blocky structure; common fine roots and common very fine roots; 60 percent pressure faces; 10 percent stones, 5 percent cobbles, 4 percent gravel; slightly alkaline (pH 7.6); abrupt smooth boundary. (5 to 8 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 58,
+        "narrative": "R--58 cm; indurated basalt"
+      }
+    ]
+  ]
 }

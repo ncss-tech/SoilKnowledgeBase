@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - from 0 to 15 cm (0 to 6 inches) (Oa, A1 and A2 horizons)\nCambic horizon - from 15 to 41 cm (6 to 16 inches) (Bw horizon)\nParalithic contact - contact with shale bedrock at 41 cm (16 inches) (top of Cr horizon)\nThis edit adopts the semitabular format, updates the horizon nomenclature, location information, geographic setting, distribution and extent, and diagnostic features, and includes some editorial changes.\n________________________________________\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {}
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oa",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "narrative": "Oa--0 to 3 cm (0 to 1 inch); black (10YR 2/1) highly decomposed organic material."
+      },
+      {
+        "name": "A1",
+        "top": 3,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--3 to 5 cm (1 to 2 inches); very dark gray (10YR 3/1) channery silt loam; moderate fine granular structure; friable; many fine roots; 30 percent by volume shale channers; strongly acid; clear wavy boundary. (0 to 8 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A2--5 to 15 cm (2 to 6 inches); dark grayish brown (10YR 4/2) channery silt loam; weak fine granular structure; friable; many fine and medium roots; 30 percent by volume shale channers; strongly acid; gradual wavy boundary. (8 to 18 cm thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 15,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "extremely channery",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "Bw--15 to 41 cm (6 to 16) inches; yellowish brown (10YR 5/4) extremely channery silt loam; weak fine subangular blocky structure; friable; common fine and few coarse roots; about 70 percent by volume shale channers; strongly acid; gradual irregular boundary. (10 to 38 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 41,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "silt",
+        "narrative": "Cr--41 to 91 cm (16 to 36 inches); light yellowish brown (10YR 6/4) weakly cemented, fractured silty shale containing less than 5 percent fines coating shale fragments and partially filling cracks."
+      }
+    ]
+  ]
 }

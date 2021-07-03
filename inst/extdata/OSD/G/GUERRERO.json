@@ -56,5 +56,108 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nOchric epipedon - the zone from 0 to 22inches (A1 and A2 horizons).\nArgillic horizon - the zone from 22 to 80 inches (Bt1, Bt2, Btv1, Btv2, and Btv3 horizons).\nPlinthic horizon - the zone from 36 to 80 inches (Btv1, Btv2, and Btv3 horizons).\nArenic feature - the zone from 0 to 22 inches (A1 and A2 horizons).\nClassification was changed to recognize the presence of plinthite.\nThese soils were formerly mapped in the Guayabo series but differ from it being usually moist and not having a subhorizon from 7 to 20 inches dry for as much as 60 consecutive days in most years.\nSupporting data:  Lab Characterization Sample Number 87PR-071-002.  Lab data by NSSC, Lincoln, NE.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 10 inches; dark grayish brown (10YR 4/2) sand; grayish brown (10YR 5/2) dry; single grain; loose; nonsticky, nonplastic; many fine roots; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 25,
+        "bottom": 56,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--10 to 22 inches; brown (7.5YR 4/4) sand; single grain; loose; nonsticky, nonplastic; many fine roots; few fine soft black (10YR 2/1) concretions; moderately acid; clear smooth boundary.  (Combined thickness of the A horizons range from 16 to 30 inches)"
+      },
+      {
+        "name": "Bt1",
+        "top": 56,
+        "bottom": 71,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--22 to 28 inches; yellowish red (5YR 4/6) loamy sand; single grain; loose; nonsticky, nonplastic; few fine roots; few fine soft black (10YR 2/1) concretions; moderately acid; clear smooth boundary.  (4 to 10 inches thick)."
+      },
+      {
+        "name": "Bt2",
+        "top": 71,
+        "bottom": 91,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--28 to 36 inches; yellowish red (5YR 4/6) sandy clay; weak coarse subangular blocky structure; firm; slightly sticky, slightly plastic; few fine roots; few fine soft black (10YR 2/1) concretions; many fine quartz grains; many distinct clay films on ped faces; strongly acid; clear wavy boundary.  (Thickness of the Bt horizons range from 10 to 20 inches)."
+      },
+      {
+        "name": "Btv1",
+        "top": 91,
+        "bottom": 112,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btv1--36 to 44 inches; strong brown (7.5YR 5/8) clay; weak coarse subangular blocky structure; firm; slightly sticky, plastic; many distinct clay films on ped faces; few fine soft black (10YR 2/1) concretions; many fine quartz grains; about 15 percent, by volume, plinthite; common fine prominent red (2.5YR 4/8) and few fine faint brown (7.5YR 4/4) masses of iron accumulation; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Btv2",
+        "top": 112,
+        "bottom": 127,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btv2--44 to 50 inches; strong brown (7.5YR 5/8) clay; weak coarse subangular blocky structure; firm; slightly sticky, slightly plastic; many fine quartz grains; common faint clay films on ped faces; about 15 percent, by volume, plinthite; common medium distinct yellowish brown (10YR 5/6), common fine and medium prominent dark red (2.5YR 3/6) masses of iron accumulations; common medium prominent light gray (10YR 7/1) areas of iron depletions; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btv3",
+        "top": 127,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "narrative": "Btv3--50 to 80 inches; yellowish brown (10YR 5/8) clay; weak coarse subangular blocky structure; firm; slightly sticky, slightly plastic; many fine quartz grains; common faint clay films on ped faces; about 8 percent, by volume, plinthite; few fine prominent dark red (2.5YR 3/6) masses of iron accumulation; common medium prominent light gray (10YR 7/1) areas of iron depletions; very strongly acid."
+      }
+    ]
+  ]
 }

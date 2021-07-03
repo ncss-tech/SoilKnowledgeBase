@@ -56,5 +56,128 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in the pedon are:\nOchric epipedon - the zone from the surface to 9 inches.  This horizon does not qualify for a mollic epipedon because it is too thin. (A1, A2 horizons)\nArgillic horizon:  the zone from 16 to 54 inches (B/E, Bt1, Bt2 horizons).\nParticle-size control section: The zone from 16 to 36 inches (B/E, Bt1, and part of Bt2 horizon)\nThe type location was moved from Wasatch County to Summit County, Utah to better represent the mapping.\nClassification: Keys to Soil Taxonomy, Eighth Edition, 1998.\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 4 inches; dark brown (7.5YR 3/2) loam, dark grayish brown (10YR 4/2) dry; strong very fine granular structure; soft, very friable, slightly sticky and slightly plastic; many very fine, fine and common medium roots; few very fine vesicular pores; 10 percent gravel; slightly acid (pH 6.5); clear smooth boundary.  (1 to 6 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--4 to 9 inches; dark brown (7.5YR 3/2) gravelly loam, brown (10YR 5/3) dry; weak medium subangular blocky structure parting to moderate medium granular; slightly hard, very friable, slightly sticky and slightly plastic; many very fine, fine and common medium roots; few very fine tubular pores; 15 percent gravel, 5 percent cobbles; slightly acid (pH 6.5); clear smooth boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 23,
+        "bottom": 41,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--9 to 16 inches; brown (10YR 4/3) very gravelly loam, light brown (7.5YR 6/4) dry; weak medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine, fine and common medium roots; few very fine tubular pores; 25 percent gravel, 10 percent cobbles; slightly acid (pH 6.5); clear smooth boundary.  (4 to 15 inches thick)"
+      },
+      {
+        "name": "B/E",
+        "top": 41,
+        "bottom": 51,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "very fine sandy loam",
+        "cf_class": "very cobbly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "B/E--16 to 20 inches; 70 percent B part is strong brown (7.5YR 4/6) very cobbly clay loam, brown (7.5YR 5/4) dry, weak fine and medium subangular blocky structure, hard, friable, moderately sticky and moderately plastic, few faint clay films on faces of peds; 30 percent E part is brown (10YR 4/3) very cobbly very fine sandy loam, light brown (7.5YR 6/4) dry; weak medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic. Both Bt and E have common very fine and fine roots; many very fine tubular pores; 20 percent gravel, 15 percent cobbles, 10 percent stones; slightly acid (pH 6.5); clear wavy boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 51,
+        "bottom": 84,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "cf_class": "very cobbly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--20 to 33 inches; yellowish red (5YR 4/6) very cobbly clay, yellowish red (5YR 5/6) dry; moderate medium and fine subangular blocky structure; extremely hard, very firm, moderately sticky and moderately plastic; few very fine and fine roots; many fine tubular pores; many faint clay films on faces of peds; 25 percent gravel, 20 percent cobbles, 5 percent stones; slightly acid (pH 6.2); gradual wavy boundary.  (7 to 15 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 84,
+        "bottom": 137,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "cf_class": "very cobbly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt2--33 to 54 inches; yellowish red (5YR 4/6) very cobbly clay, reddish yellow (5YR 6/6) dry; weak coarse and medium subangular blocky structure; extremely hard, very firm, moderately sticky and moderately plastic; few very fine and fine roots; few fine tubular pores; common faint clay films on faces of peds; 20 percent gravel, 20 percent cobbles, 10 percent stones; slightly acid (pH 6.2), abrupt smooth boundary (7 to 20 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 137,
+        "narrative": "R--54 inches; conglomerate."
+      }
+    ]
+  ]
 }

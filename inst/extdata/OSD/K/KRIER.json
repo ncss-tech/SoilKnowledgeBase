@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nMajor revision to OSD that includes new KSSL data and aggregation of all available pedon data.  Updated format, refined series range in characteristics, and moved OSD type location to KSSL site in Beaver Co., OK.  Defined series for inclusion in MLRA 77E and MLRA 78C.\nThe series is named for a small airfield in Clark County.\nDiagnostic horizons and features recognized in this pedon:\nOchric epipedon: 0 to 19 cm (0 to 8 in) (An horizon)\nAccumulation of Sodium: Within 50 cm (20 in) of the soil surface, a   sodium adsorption ration (SAR) of 13 or more, with decreasing values at depths below, and saturation within 100 cm (40 in) of the soil surface\nAquic conditions: 35 to 51 cm (14 to 20 in) Prominent iron-manganese depletions (Bkn2 horizon)\nRedoximorphic features: 35 to 51 cm (14 to 20 in) (Bkn2 horizon)\nFree carbonates: 0 to 51 cm (0 to 20 in) (An, Bkn1, Bkn2 horizons)\nAeric subgroup: matrix chroma of 3 or more in 40 percent or more of horizons between 15 and 75 cm (6 to 30 in) below the surface\nEndosaturation: soil is saturated with water from underground sources within 50 to 100 cm (20 to 40 in) of the surface\nADDITIONAL DATA:  KSSL data available. S2009OK007003 (TL-Beaver County, OK).  Additional laboratory analyses have been completed by KSSL on pedon P1980KS025008.\nTaxonomic Version: Keys to Soil Taxonomy, Twelfth Edition, 2014.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "An",
+        "top": 0,
+        "bottom": 19,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "very strongly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "An--0 to 19 cm (0 to 8 in); brown (7.5YR 4/2), dark brown (7.5YR 3/2), and brown (7.5YR 5/3) stratified loam, brown (7.5YR 5/2), dark brown (7.5YR 3/2), and light brown (7.5YR 6/3), dry; strong medium subangular blocky parting to strong medium granular structure; very hard, extremely firm; common very fine, common fine, and few medium roots throughout; common very fine irregular pores; slightly effervescent (11 percent calcium carbonate equivalent); very strongly alkaline, pH 9.6; moderately saline, EC 8.8 dS/m (saturated paste), sodium adsorption ratio (SAR) 90, exchangeable sodium percentage (ESP) 100 percent; clear smooth boundary. Thickness of the An horizons is 8 to 28 cm (3 to 11 in)"
+      },
+      {
+        "name": "Bkn1",
+        "top": 19,
+        "bottom": 35,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bkn1--19 to 35 cm (8 to 14 in); very pale brown (10YR 7/3), fine sand; very pale brown (10YR 7/3), dry; weak medium subangular blocky structure; soft, very friable; few fine and few medium roots throughout; few medium irregular pores; few faint very pale brown (10YR 8/2), dry, carbonate coats on vertical faces of peds; 1 percent 2 to 20 mm well-rounded indurated quartzite fragments; slightly effervescent (3 percent calcium carbonate equivalent); very strongly alkaline, pH 9.8; nonsaline, EC 1.8 dS/m (saturated paste), sodium adsorption ratio (SAR) 20, exchangeable sodium percentage (ESP) 65 percent; clear smooth boundary."
+      },
+      {
+        "name": "Bkn2",
+        "top": 35,
+        "bottom": 51,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bkn2--35 to 51 cm (14 to 20 in); brown (7.5YR 5/4), loamy sand, brown (7.5YR 5/4), dry; moderate medium subangular blocky structure; moderately hard, friable; few fine roots throughout; common very fine, common fine, and few medium irregular pores; many medium prominent cylindrical indurated cemented reddish yellow (5YR 6/6), dry, and yellowish red (5YR 5/6), moist, iron-manganese masses infused into matrix along faces of peds; few fine distinct threadlike and irregular noncemented carbonate masses in matrix; 1 percent 2 to 20 mm well-rounded indurated quartzite fragments; slightly effervescent (3 percent calcium carbonate equivalent); very strongly alkaline, pH 9.3; nonsaline, EC 1.8 dS/m (saturated paste), sodium adsorption ratio (SAR) 24, exchangeable sodium percentage (ESP) 35 percent; abrupt smooth boundary. Combined thickness of the Bkn horizons is 17 to 33 cm (7 to 13 in)"
+      },
+      {
+        "name": "Cn1",
+        "top": 51,
+        "bottom": 70,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH_class": "very strongly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Cn1--51 to 70 cm (20 to 28 in); light brown (7.5YR 6/3), sand, light brown (7.5YR 6/3), dry; structureless single grain; soft, loose; few fine roots throughout; 1 percent 2 to 20 mm well-rounded indurated quartzite fragments; noneffervescent (1 percent calcium carbonate equivalent); very strongly alkaline, pH 9.2; nonsaline, EC 0.5 dS/m (saturated paste), exchangeable sodium percentage (ESP) 21 percent; clear smooth boundary."
+      },
+      {
+        "name": "Cn2",
+        "top": 70,
+        "bottom": 180,
+        "moist_hue": "7.5YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH_class": "very strongly alkaline",
+        "narrative": "Cn2--70 to 180 cm (28 to 71 in); pink (7.5YR 7/3), sand, pink (7.5YR 7/3), dry; structureless single grain; soft, loose; 1 percent 2 to 20 mm well-rounded indurated quartzite fragments; few medium to very coarse (2 to 76 mm) clay balls; noneffervescent (1 percent calcium carbonate equivalent); very strongly alkaline, pH 9.1; nonsaline, EC 1.0 dS/m (saturated paste), exchangeable sodium percentage (ESP) 38 percent."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,127 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are: Ochric epipedon - from 0 to 6 cm (Oi, Oe, A horizons);\nCambic horizon - from 6 to 68 cm (Bw1, Bw2, 2Bw3 horizons);\nAndic soil properties - from 5 to 35 cm (E, Bw1 and Bw2 horizons); and\nParticle Size Control Section - from 30 to 99 cm (part of Bw2, 2Bw3, 2C horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "narrative": "Oi--0 to 3 cm; needles, leaves, and twigs; slightly acid (pH 6.5). (0 to 5 cm thick)"
+      },
+      {
+        "name": "Oe",
+        "top": 3,
+        "bottom": 5,
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--3 to 5 cm; partially decomposed needles, leaves, and twigs; slightly acid (pH 6.5); abrupt smooth boundary. (0 to 3 cm thick)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 6,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "very fine sandy loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--5 to 6 cm; light gray (10YR 7/1) ashy very fine sandy loam, dark gray (10YR 4/1) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; many very fine and fine roots; many very fine and fine pores; neutral (pH 6.6); abrupt wavy boundary. (0 to 3 cm thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 6,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--6 to 23 cm; pale brown (10YR 6/3) ashy silt loam, brown (10YR 4/3) moist; weak fine and medium granular structure; soft, very friable, slightly sticky and nonplastic; many fine and medium and few coarse roots; many fine and medium pores; 5 percent channers; neutral (pH 6.6); clear wavy boundary. (10 to 20 cm thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 23,
+        "bottom": 35,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--23 to 35 cm; pale brown (10YR 6/3) channery ashy silt loam, dark yellowish brown (10YR 4/4) moist; weak fine and medium subangular blocky structure; soft, very friable, slightly sticky and nonplastic; many fine and medium and few coarse roots; many fine and medium pores; 15 percent channers; slightly acid (pH 6.4); clear wavy boundary. (10 to 20 cm thick)"
+      },
+      {
+        "name": "2Bw3",
+        "top": 35,
+        "bottom": 68,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bw3--35 to 68 cm; very pale brown (10YR 7/4) channery loam, yellowish brown (10YR 5/4) moist; weak fine and medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common fine and medium and few coarse roots; common fine and medium pores; 20 percent channers and 10 percent flagstone; slightly acid (pH 6.4); clear wavy boundary. (25 to 38 cm thick)"
+      },
+      {
+        "name": "2C",
+        "top": 68,
+        "bottom": 99,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2C--68 to 99 cm; pale yellow (2.5Y 7/4) very channery loam, light olive brown (2.5Y 5/4) moist; massive; slightly hard, friable, slightly sticky and slightly plastic; few fine and medium roots; few fine and medium pores; 40 percent channers and 10 percent flagstone; slightly acid (pH 6.4); clear wavy boundary. (25 to 38 cm thick)"
+      },
+      {
+        "name": "2R",
+        "top": 99,
+        "narrative": "2R--99 cm; fractured phyllite with fines in some voids."
+      }
+    ]
+  ]
 }

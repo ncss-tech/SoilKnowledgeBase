@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features and horizons recognized in this profile include:\nLithic contact: 33 inches. (2R horizon)\nUmbric epipedon: 1 to 18 inches. (A1 and 2A2 horizons)\nCambic horizon: 18 to 26 inches. (2Bw horizon)\nLithologic discontinuity: At the upper boundary of A1 horizon\nWeighted average coarse-loamy particle size control section: 10 to 36 inches\nTemperature regime: cryic\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH": 4.6,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Oe--0 to 1 inch (0 to 3 cm); very dark brown (10YR 2/2) slightly decomposed plant material; many very fine and fine, medium, and coarse roots; very strongly acid (pH 4.6); clear wavy boundary."
+      },
+      {
+        "name": "A1",
+        "top": 3,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "A1--1 to 9 inches (3 to 23 cm); very dark brown (10YR 2/2) silt loam; very friable, nonsticky and nonplastic; many very fine and fine, medium, and coarse roots; very strongly acid (pH 5.0); gradual irregular boundary."
+      },
+      {
+        "name": "2A2",
+        "top": 23,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 5.5,
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "2A2--9 to 18 inches (23 to 46 cm); very dark brown (10YR 2/2) and dark brown (7.5YR 3/3) loam; friable, nonsticky and nonplastic; common very fine and fine and few medium roots; 10 percent gravel; strongly acid (pH 5.5); gradual irregular boundary."
+      },
+      {
+        "name": "2Bw",
+        "top": 46,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 5.1,
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2Bw--18 to 26 inches (46 to 66 cm); dark yellowish brown (10YR 4/4) and dark yellowish brown (10YR 3/4) very cobbly loam; friable, nonsticky and nonplastic; few very fine and fine roots; 20 percent gravel, 15 percent cobbles, 2 percent stones; strongly acid (pH 5.1); gradual wavy boundary."
+      },
+      {
+        "name": "2C",
+        "top": 66,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "2C--26 to 36 inches (66 to 91 cm); dark yellowish brown (10YR 3/4) very cobbly loam; friable, nonsticky and nonplastic; 20 percent gravel, 15 percent cobbles, 2 percent stones; moderately acid (pH 5.8); abrupt irregular boundary."
+      },
+      {
+        "name": "2R",
+        "top": 91,
+        "bottom": 152,
+        "narrative": "2R--36 to 60 inches (91 to 152 cm); fractured bedrock."
+      }
+    ]
+  ]
 }

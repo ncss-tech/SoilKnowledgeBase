@@ -56,5 +56,114 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: After reviewing location, geographic coordiantes changed from USGS Amherst topographic quadrangle; lat. 44 degrees 46 minutes 48 seconds N. and long. 68 degrees 22 minutes 19 seconds W., NAD 27.\nDiagnostic horizons and features recognized in this pedon include:\n1. Ochric epipedon - the zone from 0 to 18 cm (Oi, Oa and A horizons).\n2. Cambic horizon - the zone from 25 to 58 cm (Bg and BC horizons).\n3. Densic contact - very firm, dense basal till at a depth of 58 cm.\n4. Aeric Feature - both value and chroma of 3 or more in the zone from 41  to 58 (BC horizon).\n5. Aquic conditions - redox depletions throughout the subsoil. (Eg, Bg and BC horizons).\nThe Aurelie series is included in the competing soils section with a previous revision.\nPrevious remarks June, 2004 revision:\nThe type location is changed with this revision based on consensus that placement in the shallow family is reflective of the dominant characteristics of the series.  It is acknowledged that historically the series exceeded 50 cm to densic contact in some places.  The series is re-classified from Epiaquepts to Endoaquepts in accordance with Soil Taxonomy which, in reference to applying keys, stipulates that diagnostic horizons and properties below a densic contact are excluded.  It is assumed the depth to bedrock from the mineral surface of this pedon exceeds 152 cm. This soil was previously type located in New York and classified as Coarse-loamy, mixed, nonacid, frigid Aeric Fragiaquepts. The classification was changed as a result of the Northeast Fragipan Study. This series also included somewhat poorly drained soils but has since been restricted to poorly drained.\nADDITIONAL DATA: Source of the data used in establishing taxonomic class and range in characteristics is Maine Agricultural Experiment Station Technical Bulletin 94, September 1979.\nSoil Interpretation Record Numbers for the Brayton Series are: Brayton, ME0100; Brayton, stony, ME0101; Brayton bouldery, ME0123; Brayton, variant ME0090.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 2,
+        "narrative": "Oi--0 to 2 cm; slightly decomposed leaves, needles and twigs."
+      },
+      {
+        "name": "Oa",
+        "top": 2,
+        "bottom": 13,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oa--2 to 13 cm; black (5YR 2/1) highly decomposed organic material; weak very fine granular structure; very friable, many very fine, fine and medium, and common coarse roots; extremely acid; abrupt wavy boundary.  (Combined thickness of the O horizons is 0 to 15 cm.)"
+      },
+      {
+        "name": "A",
+        "top": 13,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--13 to 18 cm; very dark gray (10YR 3/1) fine sandy loam, gray (10YR 6/1) dry; weak fine and medium granular structure; very friable; many very fine, fine and medium, and common coarse roots; 10 percent rock fragments; extremely acid; abrupt wavy boundary. (0 to 15 cm thick)"
+      },
+      {
+        "name": "Eg",
+        "top": 18,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Eg--18 to 25 cm; gray (10YR 5/1) gravelly fine sandy loam; few medium distinct pinkish gray (5YR 6/2) masses of iron accumulation and few fine faint gray (10YR 6/1) iron depletions; weak very fine subangular blocky structure; friable; many very fine and fine, and common medium roots; 20 percent rock fragments; extremely acid; abrupt wavy boundary.  (0 to 10 cm thick)"
+      },
+      {
+        "name": "Bg",
+        "top": 25,
+        "bottom": 41,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg--25 to 41 cm; grayish brown (2.5Y 5/2) fine sandy loam; weak very fine and fine subangular blocky structure; friable; common very fine and fine roots; many medium prominent dark yellowish brown (10YR 4/6) masses of iron accumulation and few fine faint gray (10YR 6/1) iron depletions; 10 percent rock fragments; strongly acid; clear wavy boundary. (13 to 51 cm thick)"
+      },
+      {
+        "name": "BC",
+        "top": 41,
+        "bottom": 58,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BC--41 to 58 cm; light olive brown (2.5Y 5/4) fine sandy loam; weak thin platy structure; firm; many medium faint dark yellowish brown (10YR 4/4) masses of iron accumulation and few fine prominent gray (10YR 6/1) iron depletions; 10 percent rock fragments; moderately acid; clear wavy boundary.  (0 to 25 cm thick)"
+      },
+      {
+        "name": "Cd1",
+        "top": 58,
+        "bottom": 74,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cd1--58 to 74 cm; olive (5Y 5/3) fine sandy loam; moderate thin and medium platy; very firm; many medium prominent yellowish brown (10YR 5/6) and common medium prominent dark yellowish brown masses of iron accumulation, few fine prominent gray (10YR 6/1) iron depletions; 10 percent rock fragments; slightly acid; clear wavy boundary."
+      },
+      {
+        "name": "Cd2",
+        "top": 74,
+        "bottom": 165,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "narrative": "Cd2--74 to 165 cm; olive (5Y 4/3) fine sandy loam; massive; very firm; common medium distinct dark yellowish brown (10YR 4/4) masses of iron accumulation, few fine prominent gray (10YR 6/1) iron depletions; 10 percent rock fragments; slightly acid."
+      }
+    ]
+  ]
 }

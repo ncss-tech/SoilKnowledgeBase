@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Tuckahoe soils were formerly included in the Congaree and Riverview series.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0103 TUCKAHOE    0-  2   59- 62  190-220  38- 45    25- 700\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0103 COMMON        6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0103  0-10  L FSL SIL               0-  0  95-100 10-25    -\nVA0103 10-61  L CL SICL               0-  0  95-100 18-35    -\nVA0103 61-68  SR GR-SL SICL           0- 15  45-100 10-35    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0103  0-10  5.6- 7.3  2.-4.  0- 0   0.6- 6.0  LOW\nVA0103 10-61  5.6- 7.3  .5-1.  0- 0   0.6- 2.0  LOW\nVA0103 61-68  5.6- 7.3  .5-1.  0- 0   0.6- 2.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 10 inches; dark brown (10YR 4/3) loam; moderate fine granular structure; very friable, nonsticky, slightly plastic; common fine roots; common fine pores; few fine flakes of mica; few worm casts; neutral; clear smooth boundary.  (0 to 10 inches"
+      },
+      {
+        "name": "BA",
+        "top": 25,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BA--10 to 17 inches; brown (10YR 4/3) loam; weak fine subangular blocky structure; friable; nonsticky, slightly plastic; common fine roots; common fine pores; few fine flakes of mica; neutral; clear wavy boundary.  (0 to 14 inches thick)"
+      },
+      {
+        "name": "Bwl",
+        "top": 43,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bwl--17 to 30 inches; brown (10YR 4/3) clay loam; moderate fine subangular blocky structure; friable; slightly sticky, slightly plastic; few fine roots; few fine pores; few fine flakes of mica; slightly acid; clear wavy boundary.  (10 to 25 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 76,
+        "bottom": 109,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--30 to 43 inches; dark yellowish brown (10YR 4/4) silty clay loam; moderate fine subangular blocky structure; friable, slightly sticky, slightly plastic; few fine roots; few fine pores; few fine flakes of mica; slightly acid; clear wavy boundary.  (8 to 20 inches thick)"
+      },
+      {
+        "name": "Bw3",
+        "top": 109,
+        "bottom": 155,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw3--43 to 61 inches; brown (7.5YR 5/4) loam; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic few fine roots; few distinct light yellowish brown (10YR 6/4) sand coatings; few fine flakes of mica; slightly acid; gradual wavy boundary.  (0 to 20 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 155,
+        "bottom": 173,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "narrative": "C--61 to 68 inches; brown (7.5YR 5/4) silt loam; massive; friable, nonsticky, slightly plastic; few fine roots; few dark oxide stains; few fine flakes of mica; slightly acid."
+      }
+    ]
+  ]
 }

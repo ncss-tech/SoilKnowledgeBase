@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  1. Grange Series were formerly recognized and mapped in New Hampshire as Raynham Variant.  The series includes about 750 acres correlated and published in Carroll County, New Hampshire as Raynham silt loam, sandy subsoil variant.\n2.  Diagnostic horizons and features recognized in this pedon are:\na.  Ochric epipedon - the zone from 0 to 6 inches (Ap horizon).\nb.  Cambic horizon - the zone from 6 to 27 inches (Bw, Bg1, Bg2 horizons).\nc.  Aquepts feature - horizons at a depth of less than 20 inches (50 cm) from the mineral soil surface that have redox concentrations and matrix chroma of 2 or less (Bg1 and Bg2 horizons).\nd.  Aeric feature - horizon within a depth of 30 inches (75 cm) from the mineral soil surface that has hue of 10YR or yellower and value and chroma of 3 or more (Bw horizon).\ne.  Nonacid feature - soil reaction is greater than 5.5 in 1:1 water in at least some part between 10 and 40 inches (2Cg1 horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 6 inches; olive gray (5Y 4/2) silt loam, light olive gray (5Y 6/2) dry; moderate fine granular structure; friable; common very fine and fine roots; strongly acid; clear wavy boundary. (5 to 8 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 15,
+        "bottom": 23,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--6 to 9 inches; olive (5Y 5/3) silt loam; weak fine subangular blocky structure; friable; few fine and very fine roots; common medium distinct gray (5Y 6/1) iron depletions and common medium prominent yellowish brown (10YR 5/8) masses of iron accumulation; strongly acid; clear wavy boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "Bg1",
+        "top": 23,
+        "bottom": 41,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg1--9 to 16 inches; olive gray (5Y 4/2) silt loam; weak fine subangular blocky structure; friable; few very fine roots; many medium prominent reddish brown (5YR 4/4) and yellowish brown (10YR 5/6) masses of iron accumulation and common medium faint gray (5Y 5/1) iron depletions; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 41,
+        "bottom": 69,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bg2--16 to 27 inches; olive gray (5Y 5/2) silt loam; weak fine subangular blocky structure; friable; common medium prominent yellowish brown (10YR 5/6) and strong brown (7.5YR 5/6) masses of iron accumulation and common medium faint gray (5Y 5/1) and dark gray (5Y 4/1) iron depletions; strongly acid; abrupt wavy boundary.  (Combined thickness of the Bg horizons is 8 to 23 inches)"
+      },
+      {
+        "name": "2Cg1",
+        "top": 69,
+        "bottom": 127,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2Cg1--27 to 50 inches; dark gray (5Y 4/1) fine and medium sand; single grain; loose; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "2Cg2",
+        "top": 127,
+        "bottom": 165,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "coarse sand",
+        "pH_class": "slightly acid",
+        "narrative": "2Cg2--50 to 65 inches; dark gray (5Y 4/1) medium and coarse sand; single grain; loose; slightly acid."
+      }
+    ]
+  ]
 }

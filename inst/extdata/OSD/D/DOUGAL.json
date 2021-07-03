@@ -56,5 +56,73 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 8 inches (A and AB horizons).\nArgillic horizon - The zone from 8 to 16 inches (Bt horizon).\nLithic contact - The boundary at 16 inches to underlying hard bedrock (R layer).\nParticle-size control section - The zone from 8 to 16 inches (Bt horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "stony",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; pale brown (10YR 6/3) stony sandy loam, dark brown (10YR 3/3) moist; weak medium subangular blocky structure parting to weak fine platy; slightly hard, very friable, slightly sticky and slightly plastic; many very fine, many fine, and few medium roots; common very fine and common fine vesicular and irregular pores; 5 percent gravel and 1 percent stones; neutral (pH 6.9); clear smooth boundary.  (2 to 6 inches thick)"
+      },
+      {
+        "name": "AB",
+        "top": 10,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "AB--4 to 8 inches; pale brown (10YR 6/3) sandy loam, brown (10YR 4/3) moist; moderate medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine, common fine, and common medium roots; common very fine and common fine irregular and tubular pores; 5 percent gravel; slightly acid (pH 6.5); clear smooth boundary.  (0 to 5 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 20,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--8 to 16 inches; light yellowish brown (10YR 6/4) sandy clay loam, yellowish brown (10YR 5/4) moist; strong medium subangular blocky structure; hard, friable, slightly sticky and slightly plastic; common very fine, common fine, and few medium roots; many very fine and many fine tubular and irregular pores; common faint and distinct clay films on faces of peds and bridging sand grains; 10 percent gravel; slightly acid (pH 6.3); abrupt wavy boundary.  (5 to 8 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 41,
+        "narrative": "R--16 inches; fractured, welded rhyolitic tuff."
+      }
+    ]
+  ]
 }

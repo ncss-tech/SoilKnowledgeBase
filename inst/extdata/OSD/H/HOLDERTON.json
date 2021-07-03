@@ -56,5 +56,83 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Holderton series was proposed for somewhat poorly drained soils previously included with the Middlebury series. The Middlebury series is now restricted to moderately well drained.\nThe original pedon from Chautauqua County, NY classified as a Fluvaquentic Endoaquepts in the 8th edition of Soil Taxonomy. In 2005 a new pedon from Allegany County, NY was substituted for the original pedon from Chautauqua County, NY because of changes in the 9th edition of Soil Taxonomy. Pedons from the 3 counties where this has been mapped in NY (Chautauqua, Cattaraugus and Allegany) classify as Fluventic Endoaquepts using the 9th edition.\nThe elevation range listed is the range that was determined through SDJR to be valid for most soils that occur in valleys across the extent of the MLRA map unit, and is not intended to represent the elevations of this series as it is currently mapped. It is anticipated that this series extent will eventually be expanded to cover the \"somewhat poorly drained\" areas previously mapped as the Middlebury series, since Middlebury series now only allows for \"moderately well drained\".\nDiagnostic horizons and features recognized in the typical pedon include:\n1. Ochric epipedon - the zone from the surface to a depth of 25 cm (10 inches) (Ap horizon).\n2. Irregular decrease in organic carbon with depth and is greater than 0.2 percent within 1.25 meters (50 inches).\n3. An Aquic moisture regime - evidenced by low chroma ped face colors and redoximorphic features in the Bw2 horizon.\n4. Particle-size control section from 25 to 100 cm (10 and 39 inches) that is coarse-loamy by weighted average.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 25 cm (0 to 10 inches), dark grayish brown (10YR 4/2) silt loam; light brownish gray (10YR 6/2) dry; moderate medium and fine granular structure; friable; many very fine and fine roots and common medium roots; neutral; abrupt smooth boundary. (15 to 30 cm (6 to 12 inches) thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 25,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--25 to 46 cm (10 to 18 inches), dark yellowish brown (10YR 4/4) loam; moderate fine and medium subangular blocky structure; friable; common very fine and fine roots; common fine and medium distinct light brownish gray (10YR 6/2) and common fine and medium pale brown (10YR 6/3) areas of iron depletions; slightly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 46,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2 -- 46 to 89 cm (18 to 35 inches), brown (10YR 4/3) fine sandy loam; moderate medium and coarse subangular blocky structure; friable; common very fine and fine roots; common fine distinct yellowish brown (10YR 5/6) masses of iron accumulations and olive gray (5Y 5/2) areas of iron depletion on 60% of ped faces; common fine distinct black (10YR 2/1) iron-manganese concretions; slightly acid; clear wavy boundary. (Combined thickness of the Bw horizon is 8 to 76 cm (3 to 30 inches).)"
+      },
+      {
+        "name": "C1",
+        "top": 89,
+        "bottom": 107,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C1 -- 89 to 107 cm (35 to 42 inches), 60 percent grayish brown (2.5Y 5/2) and 40 percent light olive brown sandy loam; massive; friable; few fine roots; many coarse prominent strong brown (7.5YR 4/6) masses of iron accumulations in the matrix; moderately acid; clear wavy boundary."
+      },
+      {
+        "name": "C2",
+        "top": 107,
+        "bottom": 183,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "narrative": "C2 -- 107 to 183 cm (42 to 72 inches), dark grayish brown (2.5Y 4/2) gravelly loamy coarse sand; loose; single grained; 30 percent gravel; moderately acid."
+      }
+    ]
+  ]
 }

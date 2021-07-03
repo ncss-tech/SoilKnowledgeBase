@@ -56,5 +56,83 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Major diagnostic horizons and features recognized in this pedon are:\n1.  Ochric epipedon-0 to 3 inches, (A); ranges from 2 to 4 inches thick.\n2.  Argillic horizon--3 to 33 inches, (Bt1, Bt2, Bt3, BCt); ranges from 15 to 30 inches thick.\n2.1  Weighted average of clay content in upper 20 inches\nranges from 40 to 50 percent (field estimate).\n2.2  Ten to 15 percent increase in clay content from the A\nhorizon (field estimate).\n2.3  Thin to moderately thick clay pressure faces present.\nOther Diagnostic Soil Characteristics:\n1.  Vertic Subgroup:\n1.1  Vertical cracks extend from the surface to the base of\nthe Bt horizon from mid-July through October.\n1.2  Cole exceeds 0.05 in all horizons and is about 0.08 from\n3 to 24 inches.  (These estimates are based on percent\nclay, percent calcium carbonate and percent rock fragments.)\n1.3  Clay content is more than 40 percent from 3 to 24 inches.\n2.  Mesic Temperature Regime:\n2.1  The mean annual soil temperature varies from 47 to 50\ndegrees F.  (The MAST at temperature site no. 4, at 5000\nfeet, is 47 degrees F. from 5 years of data.)\n3.  Moisture Regime - Xeric:\n3.1  The MCS is dry throughout from July 15th to November 1st\n(107 days).  It is moist throughout from December 1st to\nMay 15th.3\n3.2  The soil temperature exceeds 41 degrees F. from April\n15th to December 1st (229 days).  Within this time\nperiod, the MCS is moist in some parts from April 15th to\nJuly 15th from November 1st to December 1st (121 days).\n3.3  The soil temperature exceeds 47 degrees F. from May 15th\nto November 15th.  Within this time period, the MCS is\nmoist in some part from May 15th to July 15th (61 days).\nJAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC\nControl Sec.  |___|___|___|___|_  |   |   |   |   |   |  _|___|\nMoist Throughout  |   |   |   |   |   |   |   |   |   |   |   | Control Sec.  |   |   |   |   |   |   | __|___|___|___|___|   |\nDry Throughout|   |   |   |   |   |   |   |   |   |   |   |   |\nSoil Temp.    |   |   |   |___|___|___|___|___|___|___|___|   | Exceeds 41 degrees F. |   |   |   |   |   |   |   |   |   |   |\nSoil Temp.    |   |   |   |   |___|___|___|___|___|___|__ |   | Exceeds 47 degrees F. |   |   |   |   |   |   |   |   |   |   |\nBase saturation measured by the UCD Soil Morphology Lab.\nA 59.6 percent base saturation;\nBt1 81.1 percent base saturation;\nBt2 83.0 percent base saturation;\nBt3 80.9 percent base saturation;\nBCt 81.9 percent base saturation;\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "texture_class": "clay loam",
+        "narrative": "A--0 to 3 inches; light yellowish brown (2.5Y 6/4) clay loam,"
+      },
+      {
+        "name": "Bt1",
+        "top": 8,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "texture_class": "clay",
+        "narrative": "Bt1--3 to 8 inches; pale brown (10YR 6/3) clay, brown (10YR"
+      },
+      {
+        "name": "Bt2",
+        "top": 20,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "texture_class": "clay",
+        "narrative": "Bt2--8 to 16 inches; pale brown (10YR 6/3) clay, yellowish"
+      },
+      {
+        "name": "Bt3",
+        "top": 41,
+        "bottom": 61,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "narrative": "Bt3--16 to 24 inches; light yellowish brown (10YR 6/4) clay, yellowish brown (10YR 5/4) moist; common medium distinct light brownish gray (2.5Y 6/2) lithochromic mottles, common medium"
+      },
+      {
+        "name": "BCt",
+        "top": 61,
+        "bottom": 84,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "narrative": "BCt--24 to 33 inches; pale yellow (2.5Y 7/4) sandy clay loam,"
+      },
+      {
+        "name": "Crl",
+        "top": 84,
+        "bottom": 99,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 1,
+        "narrative": "Crl--33 to 39 inches; white (10YR 8/1) fractured mudstone,"
+      },
+      {
+        "name": "Cr2",
+        "top": 99,
+        "narrative": "Cr2--39 inches; soft massive metasedimentary rock."
+      }
+    ]
+  ]
 }

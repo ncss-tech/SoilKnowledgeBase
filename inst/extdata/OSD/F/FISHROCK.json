@@ -56,5 +56,78 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The activity class was added to the classification in February of 2003. Competing series were not checked at that time. - ET\nDiagnostic horizons and features recognized in this soil:\n1.  Ochric epipedon - 0 to 2 inches (A)\n2.  Argillic horizon - 2 to 12 inches (Bt1, Bt2)\n3.  Particle-size control section - 0 to 12 inches weighted average = 40 percent clay\n4.  Soil moisture/temperature - xeric/mesic moisture control section is moist in all parts 210 days and is dry in all parts 90 days in most years.\n5.  Mineralogy - assume to be mixed but strongly influenced by kaolinite.\n6.  Many areas of Fishrock soil were mapped as the Noyo soil by the California Soil Vegetation Survey 1947-1950.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; brown (10YR 5/3) loam, dark yellowish brown (10YR 4/4) moist; strong medium and coarse subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine and common fine and medium roots; common very fine, fine and medium tubular and common very fine interstitial pores; very strongly acid (pH 4.8); clear smooth boundary.  (1 to 5 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 5,
+        "bottom": 18,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH": 4.4,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--2 to 7 inches; reddish yellow (7.5YR 6/6) clay loam, strong brown (7.5YR 4/6) moist; strong fine, medium and coarse subangular blocky structure; slightly hard, friable, slightly sticky and plastic; common very fine, fine and medium roots; many very fine, fine and medium tubular pores; common thin and moderately thick clay films on faces of peds and lining pores; extremely acid (pH 4.4); clear smooth boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 18,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH": 4.2,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--7 to 12 inches; light yellowish brown (10YR 6/4) clay, brownish yellow (10YR 6/6) moist; strong medium and coarse subangular blocky structure; very hard, firm, very sticky and plastic; common fine and medium roots; common very fine tubular and interstitial pores; many moderately thick and thick clay films on faces of peds and lining pores; 10 percent hard, angular and subangular pebbles (2-20mm); extremely acid (pH 4.2); clear smooth boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "0i",
+        "top": 3,
+        "narrative": "0i--1 inch to 0; fresh litter of manzanita and huckleberry leaves and twigs."
+      },
+      {
+        "name": "R",
+        "top": 30,
+        "texture_class": "sand",
+        "narrative": "R--12 inches; hard fractured sandstone, fractures are 2 to 6cm apart and 1 to 2mm wide; few fine and medium roots and many thick clay films along fracture planes."
+      }
+    ]
+  ]
 }

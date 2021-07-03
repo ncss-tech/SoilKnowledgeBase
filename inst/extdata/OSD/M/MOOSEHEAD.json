@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic features recognized in this profile include:\nCambic horizon: 1 to 30 inches\nTemperature regime: cryic\nRedoximorphic depletions: 6 to 35 inches\nParticle size control section: coarse-loamy from 10 to 30 inches, and sandy or sandy-skeletal from 30 to 40 inches (weighted average)\nIf undisturbed for a prolonged period, forest succession may lead to the buildup of a thick O horizon and permafrost may become established.\nDrainage class was changed from well drained to moderately well drained by the presence of the redoximorphic features in the solum.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "pH": 4,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 5 inches; dark brown (7.5YR 3/2) slightly decomposed plant material; many very fine and common fine roots; extremely acid (pH 4.0); clear smooth boundary. (2 to 8 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 13,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 5.4,
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--5 to 6 inch; dark grayish brown (10YR 4/2) silt loam; weak medium platy structure parting to thin platy; very friable; nonsticky and slightly plastic; common very fine and fine roots; few fine distinct dark yellowish brown (10YR 4/6) redoximorphic features; strongly acid (pH 5.4); abrupt wavy boundary."
+      },
+      {
+        "name": "Bw1",
+        "top": 15,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loamy very fine sand",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw1--6 to 16 inches; dark yellowish brown (10YR 4/6) silt loam stratified with loamy very fine sand; massive, parting to weak thin platy structure; very friable; nonsticky and nonplastic; few very fine to medium roots; many coarse prominent grayish brown (2.5Y 5/2) redoximorphic depletions; moderately acid (pH 5.6); gradual smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 41,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy very fine sand",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw2--16 to 35 inches; dark yellowish brown (10YR 4/4) silt loam; stratified with loamy very fine sand; massive, parting to weak thin platy structure; very friable; nonsticky and nonplastic; few fine to medium roots; few fine prominent dark grayish brown (10YR 4/2) redoximorphic depletions; moderately acid (pH 5.8); clear smooth boundary."
+      },
+      {
+        "name": "2C",
+        "top": 89,
+        "bottom": 152,
+        "texture_class": "sand",
+        "cf_class": "extremely gravelly",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "narrative": "2C--35 to 60 inches; extremely gravelly sand; single grain; loose; nonsticky and nonplastic; 55 percent gravel and 5 percent cobbles; neutral (pH 6.7)."
+      }
+    ]
+  ]
 }

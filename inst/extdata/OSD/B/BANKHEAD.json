@@ -56,5 +56,63 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The Bankhead series was formerly included in the Hector, Mountainburg, Muskingum, and Pirum series.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon: the zone from the surface to a depth of 4 inches (A horizon)\nCambic horizon: the zone from a depth of 4 inches to a depth of 26 inches (Bw1 and Bw2 horizons)\nLithic contact: the contact with sandstone (26 inches)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 4 inches; very dark grayish brown (10YR 3/2) sandy loam; weak fine granular structure; very friable; common fine and medium roots; 10 percent sandstone channers 2 to 20 mm in size; strongly acid; clear wavy boundary. (2 to 5 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 10,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1--4 to 13 inches; brownish yellow (10YR 6/6) channery sandy loam; weak fine subangular blocky structure; very friable; common medium roots; 20 percent by volume of sandstone channers 2 to 30 mm in length; strongly acid; gradual wavy boundary. (8 to 20 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 33,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "cobbly",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bw2--13 to 26 inches; yellowish brown (10YR 5/6) cobbly sandy loam; weak fine subangular blocky structure; very friable; few medium roots; 35 percent by volume of sandstone cobbles 3 to 10 inches in size; strongly acid; abrupt irregular boundary. (10 to 20 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 66,
+        "texture_class": "sand",
+        "narrative": "R--26 inches; fractured, hard, level bedded sandstone bedrock with loamy soil material in cracks."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nUmbric epipedon--the zone from the surface to approximately 12 inches (A horizon)\nArenic epipedon--the zone from the surface to approximately 32 inches (A, E horizon)\nArgillic horizon--the zone from approximately 32 to 65 inches (Btg1, Btg2 horizons)\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSoil Name   Slope   Airtemp  FrFr/Seas  Precip    Elevation\nSURRENCY    0-  1   57- 70   190-285    38- 52    15- 200\nSURRENCY    0-  1   57- 70   190-285    38- 52    15- 200\nFloodL FloodH Watertable Kind   Months  Bedrock Hardness\nCOMMON          0-0.5  APPARENT JAN-DEC  60-60\nNONE            0-0.5  APPARENT JAN-DEC  60-60\nDepth  Texture                3-Inch  No-10  Clay%   -CEC-\n0-12  LS LFS                  0-  0  95-100  0-10    -\n0-12  S FS                    0-  0  95-100  0-10    -\n0-12  MK-FS MK-S              0-  0  95-100  2- 8    -\n12-32  LS S FS                 0-  0  95-100  0-10    -\n32-48  SL SCL                  0-  0  95-100 10-23    -\n48-65  SCL                     0-  0  95-100 22-35    -\nDepth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\n0-12  3.6- 5.5  2.-9.  0- 0   6.0-  20  LOW\n0-12  3.6- 5.5  2.-9.  0- 0   6.0-  20  LOW\n0-12  3.6- 5.0  10-20  0- 0   6.0-  20  LOW\n12-32  3.6- 5.0    -    0- 0   2.0-  20  LOW\n32-48  3.6- 5.5    -    0- 0   0.6- 6.0  LOW\n48-65  3.6- 5.5    -    0- 0   0.2- 2.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "0i--1 to 0 inch; spongy layer of slightly decomposed moss."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 30,
+        "texture_class": "loamy sand",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 12 inches; black (N 2/) loamy sand; weak fine and medium granular structure; very friable; many small and medium tree and shrub roots; small pockets of uncoated sand grains; extremely acid; clear wavy boundary. (10 to 30 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 30,
+        "bottom": 81,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "E--12 to 32 inches; grayish brown (2.5Y 5/2) and dark grayish brown (10YR 4/2) sand; single grained; very friable; few fine and medium roots; most sand grains are clean; few coated brown sand grains; extremely acid; gradual smooth boundary. (7 to 24 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 81,
+        "bottom": 122,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg1--32 to 48 inches; light gray (10YR 7/2) sandy loam with pockets of loamy sand; common medium distinct brownish yellow (10YR 6/6) masses of oxidized iron; weak medium subangular blocky structure; very friable; few clay coated sand grains; few small roots; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 122,
+        "bottom": 165,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Btg2--48 to 65 inches; grayish brown (10YR 5/2) sandy clay loam; common medium and coarse distinct yellowish brown (10YR 5/8) and strong brown (7.5YR 5/8) masses of oxidized iron; weak medium subangular blocky structure; few distinct clay films on faces of peds; very friable; very strongly acid."
+      }
+    ]
+  ]
 }

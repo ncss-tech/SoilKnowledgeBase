@@ -56,5 +56,60 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon and arenic properties -- The zone from the soil surface to a depth of about 28 inches. (Ap and E horizons)\nArgillic horizon - The zone from about 28 to 45 inches. (Bt horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; pale brown (10YR 6/3) fine sand; few coarse white (10YR 8/2) splotches of clean sand grains; weak fine granular structure; very friable; moderately acid; clear smooth boundary.  (4 to 9 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 18,
+        "bottom": 71,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--7 to 28 inches; light gray (10YR 7/2) fine sand; many coarse white (10YR 8/2) splotches of clean sand grains: single grained; loose; slightly acid; abrupt wavy boundary. (13 to 31 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 71,
+        "bottom": 114,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt--28 to 45 inches; brownish yellow (10YR 6/8) sandy clay loam; few limestone chips; few fine prominent light gray (10YR 7/1) mottles in lower part; strong medium subangular blocky structure; firm; few clay skins; slightly acid; abrupt irregular boundary.  (6 to 51 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 114,
+        "narrative": "2R--45 inches; fractured porous limestone bedrock."
+      }
+    ]
+  ]
 }

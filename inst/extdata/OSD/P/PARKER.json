@@ -56,5 +56,86 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The 11/2005 revision places Parker in a semiactive CEC activity class. This placement is based on the similar Gladstone series which has laboratory data for three pedons, all within the semiactive class.\nDiagnostic horizons recognize in this pedon are:\na. Ochric epipedon, the portion from 3 inches above the soil surface to 12 inches below the soil surface. (Oi, Oe, and A horizons)\nb. Cambic horizon, the part from 12 to 38 inches. (Bw1 and Bw2 horizons)\nADDITIONAL DATA: CEC class placement based on lab data from the related Gladstone series. Three Gladstone pedons from Hunterdon and Warren Counties have semiactive activity class.\nREVISED: 11/86- CFE, JHW; 11/2005-RJE, DHK\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "O",
+        "top": 8,
+        "bottom": 0,
+        "narrative": "O--3 to 0 inches; undecomposed tree leaves and twigs from oak, yellow poplar and ash. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "strongly acid",
+        "narrative": "Oe--0 to 7 inches; black (10YR 2/1) partially decomposed organic matter in spaces between angular stones, gravel and cobbles; strongly acid. (0 to 7 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 18,
+        "bottom": 30,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "A--7 to 12 inches; dark brown (7.5YR 3/2) very gravelly sandy loam; strong coarse granular structure; friable; many fine and few large roots; 50 percent angular stones, cobbles and gravel; strongly acid; abrupt irregular boundary. (2 to 8 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 30,
+        "bottom": 69,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "diffuse",
+        "topography": "irregular",
+        "narrative": "Bw1--12 to 27 inches; brown (7.5YR 4/4) very gravelly loam; moderate coarse granular structure; very friable; few fine and many large roots; 50 percent angular gravel, cobbles and stones; strongly acid; diffuse irregular boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 69,
+        "bottom": 97,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "diffuse",
+        "topography": "irregular",
+        "narrative": "Bw2--27 to 38 inches; dark yellowish brown (10YR 4/4) very gravelly sandy loam; moderate coarse granular and moderate fine subangular blocky structure; very friable; few fine and large roots; 50 percent angular stones, cobbles and gravel; very strongly acid; diffuse irregular boundary. (combined thickness of the Bw horizons is 15 to 35  inches)"
+      },
+      {
+        "name": "C",
+        "top": 97,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH_class": "very strongly acid",
+        "narrative": "C--38 to 72 inches; yellowish brown (10YR 5/4) extremely gravelly sandy loam; weak coarse granular structure; very friable; few fine roots; 60 percent angular stones, cobbles and gravel, mostly hard and unweathered; very strongly acid."
+      }
+    ]
+  ]
 }

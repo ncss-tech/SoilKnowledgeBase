@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the surface to 20 cm (A1 and A2 horizons).\nArgillic horizon - The zone from about 20 to 48 cm (Bt and Btk horizons).\nXeric feature - The soil moisture regime and organic matter content meets the requirements for xeric.\nLithic contact - The boundary at about 48 cm (R layer).\nParticle-size control section - The zone from about 20 to 48 cm (Bt and Btk horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 8 cm; light brownish gray (10YR 6/2) very cobbly loam, dark grayish brown (10YR 4/2) moist; weak thin platy structure parting to weak very fine granular; soft, very friable, slightly sticky and slightly plastic; few fine roots; many fine vesicular pores; 25 percent gravel, 25 percent cobbles; neutral (pH 7.0); clear smooth boundary. (3 to 8 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--8 to 20 cm; light brownish gray (10YR 6/2) cobbly loam, dark brown (10YR 3/3) moist; weak thin platy structure parting to weak very fine granular; soft, very friable, slightly sticky and slightly plastic; common fine roots; many very fine interstitial pores; 10 percent gravel and 20 percent cobbles; neutral (pH 7.2); clear wavy boundary. (5 to 15 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 20,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--20 to 38 cm; brown (10YR 5/3) very cobbly clay loam, dark yellowish brown (10YR 4/4) moist; weak medium prismatic structure parting to moderate medium and fine subangular blocky; very hard, firm, sticky and plastic; common fine roots; few very fine tubular pores; continuous thick clay films on faces of peds; 20 percent gravel and 20 percent cobbles; moderately alkaline (pH 8.4); gradual wavy boundary. (13 to 20 cm thick)"
+      },
+      {
+        "name": "Btk",
+        "top": 38,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Btk--38 to 48 cm; pale brown (10YR 6/3) very cobbly clay loam, brown (10YR 5/3) moist; weak medium subangular blocky structure; hard, firm, moderately sticky and moderately plastic; few fine roots; few very fine tubular pores; thin patchy clay films on faces of peds; 30 percent gravel and 20 percent cobbles; lime coats on undersides of rock fragments; slightly effervescent; moderately alkaline (pH 8.4); abrupt irregular boundary.  (8 to 13 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 48,
+        "narrative": "R--48 cm; fractured hard rhyolite; fractures more than 10 cm apart."
+      }
+    ]
+  ]
 }

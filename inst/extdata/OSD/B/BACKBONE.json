@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 43 to 76 centimeters;\nseries control section--the zone from the surface to a depth of 76 centimeters.\nDiagnostic horizons and features recognized in this pedon include:\nochric epipedon--the zone from the surface to a depth of 43 centimeters (Ap and BE horizons);\nargillic horizon--the zone from a depth of 43 to 76 centimeters (Bt1 and 2Bt2 horizons);\nudic moisture regime.\nCation-exchange class is inferred from lab data from similar soils in the surrounding area.\nTaxonomy version--Keys to Taxonomy, tenth edition, 2006.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 20 centimeters; very dark gray (10YR 3/1) sandy loam, gray (10YR 5/1) dry; weak fine granular structure; very friable; neutral; abrupt smooth boundary. (15 to 23 centimeters thick)"
+      },
+      {
+        "name": "BE",
+        "top": 20,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BE--20 to 43 centimeters; brown (10YR 4/3) and dark grayish brown (10YR 4/2) sandy loam; few streaks of very dark gray (10YR 3/1) from the Ap horizon; weak fine subangular blocky structure; very friable; neutral; clear smooth boundary. (15 to 25 centimeters thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 43,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--43 to 61 centimeters; brown (10YR 4/3) and dark yellowish brown (10YR 4/4) sandy loam; weak fine prismatic structure parting to weak fine and very fine subangular blocky; very friable; few distinct dark brown (10YR 3/3) clay films on faces of peds; neutral; clear wavy boundary. (15 to 40 centimeters thick)"
+      },
+      {
+        "name": "2Bt2",
+        "top": 61,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Bt2--61 to 76 centimeters; brown (10YR 4/3) and dark yellowish brown (10YR 3/4) clay loam; moderate fine subangular blocky structure; very firm; common distinct dark brown (7.5YR 3/2) clay films on faces of peds; about 5 percent small chert fragments; neutral; abrupt wavy boundary. (0 to 25 centimeters thick)"
+      },
+      {
+        "name": "2R",
+        "top": 76,
+        "narrative": "2R--76 centimeters; hard, fractured, limestone bedrock."
+      }
+    ]
+  ]
 }

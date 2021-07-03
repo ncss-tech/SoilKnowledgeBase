@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in the profile are:\nMollic epipedon - 0 to 7 inches (A and Bt1 horizons).\nArgillic horizon - 1 to 11 inches (Bt1 and Bt2 horizons).\nLithic contact - 11 inches (upper boundary of the R layer).\nParticle-size control section - 0 to 11 inches (A, Bt1 and Bt2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 1 inch; brown (7.5YR 5/2) very gravelly loam, dark brown (7.5YR 3/2) moist; moderate medium subangular blocky structure; soft, very friable, slightly sticky and nonplastic; common very fine and many fine roots; many very fine and common fine tubular pores; 40 percent pebbles and 5 percent cobbles; slightly acid (pH 6.2); abrupt smooth boundary. (1 to 3 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 3,
+        "bottom": 18,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--1 to 7 inches; brown (7.5YR 5/2) very gravelly loam, dark brown (7.5YR 3/2) moist; moderate fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine, common fine through coarse roots; common very fine and many fine tubular pores; 25 percent, discontinuous, faint, clay films on faces of peds and rock fragments; 55 percent pebbles and 1 percent cobbles; neutral (pH 7.0); clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 18,
+        "bottom": 28,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "very abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2--7 to 11 inches; brown (7.5YR 4/4) very gravelly loam, brown (7.5YR 4/4) moist; moderate fine subangular blocky structure; moderately hard, very friable, slightly sticky and moderately plastic; common very fine through very coarse roots; common very fine and few fine tubular pores; 35 percent, discontinuous, faint, clay films on faces of peds and rock fragments; 55 percent pebbles and 1 percent cobbles; neutral (pH 7.0); very abrupt wavy boundary. (Combined thickness of the Bt horizons is 9 to 18 inches)"
+      },
+      {
+        "name": "R",
+        "top": 28,
+        "narrative": "R--11 inches; indurated quartzite bedrock."
+      }
+    ]
+  ]
 }

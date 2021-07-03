@@ -56,5 +56,62 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nParticle-size control section: 0 to 33 cm (0 to 13_in)\nOchric epipedon: 0 to 20 cm (0 to 8 in) (A horizon)\nCambic horizon: 20 to 33 cm (8 to 13 in) (B horizon)\nDensic contact: at 33 cm (13 in), the top of the Cd layer\nDensic material: 33 to 163 cm (13 to 64 in), the Cd layer\nADDITIONAL DATA: Oklahoma State University - Lab sample 75-OK-75-3-(1-3); KSSL Lab sample 87P-2277-2282\nTaxonomic version: Keys to Soil Taxonomy, Twelfth Edition, 2014.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 20 cm (0 to 8 in); reddish brown (5YR 5/4) loam, reddish brown (5YR 4/4) moist; weak medium granular structure; slightly hard, friable; many fine roots; slightly effervescent; moderately alkaline; gradual wavy boundary.  Thickness of the A horizon is 10 to 30 cm (4 to 12 in)"
+      },
+      {
+        "name": "Bw",
+        "top": 20,
+        "bottom": 33,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--20 to 33 cm (8 to 13 in); red (2.5YR 4/6) loam, dark red (2.5YR 3/6) moist; weak medium granular structure; slightly hard, friable; many fine roots; less than 2 percent of 2 to 10 mm in diameter pararock fragments consisting of very weakly cemented sandstone; strongly effervescent; moderately alkaline; gradual wavy boundary.  Thickness of the Bw horizon is 5 to 30 cm (2 to 12 in)"
+      },
+      {
+        "name": "Cd",
+        "top": 33,
+        "bottom": 163,
+        "dry_hue": "2.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "moderately alkaline",
+        "narrative": "Cd--33 to 163 cm (13 to 64 in); red (2.5YR 5/6) noncemented, calcareous sandstone bedrock, red (2.5YR 4/6) moist; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

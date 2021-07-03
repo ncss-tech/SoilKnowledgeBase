@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The Arapahoe series were formerly mapped in the Pocomoke and Torhunta series.\nDiagnostic horizons and features recognized in this pedon are :\nUmbric epipedon -the zone from the surface to a depth of 17 inches (the Ap and A horizons).\nCambic horizon -from a depth of 17 inches to a depth of 42 inches (Bg1, Bg2 and BCg horizons).\nAquic feature -mottles with chromas of 2 or less below a depth of 11 inches.\nADDITIONAL DATA: None\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp   FrFr/Seas   Precip    Elevation\nNC0110 ARAPAHOE     0-2    58-63     185-240    40-58       5-70\nSOI-5   FloodL   FloodH   Watertable    Kind     Months     Bedrock\nNC0110   NONE    COMMON     0-1.0     APPARENT   NOV-MAY     60-60\nSOI-5  Depth  Texture                3-Inch     No-10   Clay%    -CEC-\nNC0110  0-17  LFS LS                  0-0      100-100    3-12     5-12\nNC0110  0-17  FSL L SL                0-0      100-100    8-18     6-14\nNC0110  0-17  MK-SL MK-L MK-FSL       0-0      100-100    8-18    11-24\nNC0110 17-42  FSL L SL                0-0      100-100    8-18     4-15\nNC0110 42-80  S LFS SL                0-0      100-100    3-18     2-10\nSOI-5  Depth     -pH-      O.M.  Salin    Permeab     Shnk-Swll\nNC0110  0-17    3.5-5.5   5.-10   0-0     6.0-20        LOW\nNC0110  0-17    3.5-5.5   5.-10   0-0    2.0-6.0        LOW\nNC0110  0-17    3.5-5.5   10-15   0-0    2.0-6.0        LOW\nNC0110 17-42    3.5-5.5   .5-3.   0-0    2.0-6.0        LOW\nNC0110 42-80    5.6-7.8   .5-1.   0-0    2.0-20         LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loamy fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 11 inches; black (10YR 2/1) loamy fine sand; weak medium granular structure; very friable; many fine roots; moderately acid; clear wavy boundary."
+      },
+      {
+        "name": "A",
+        "top": 28,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--11 to 17 inches; very dark brown (10YR 2/2) loamy fine sand; weak medium granular structure; very friable; few fine roots; strongly acid; gradual wavy boundary.  (Combined thickeness of A horizons is 10 to 23 inches thick)"
+      },
+      {
+        "name": "Bg1",
+        "top": 43,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bg1--17 to 21 inches; dark gray (10YR 4/1) fine sandy loam; weak fine subangular blocky structure; very friable; few fine roots; common fine pores; common medium faint grayish brown (10YR 5/2) iron depletions; strongly acid; gradual wavy boundary.  (0 to 5 inches thick)"
+      },
+      {
+        "name": "Bg2",
+        "top": 53,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bg2--21 to 30 inches; dark gray (10YR 4/1) fine sandy loam; weak fine subangular blocky structure; very friable; common fine pores; common medium faint gray (10YR 6/1) iron depletions and few medium distinct dark yellowish brown (10YR 4/4) iron masses; few thin lenses of sandy clay loam; strongly acid; gradual wavy boundary.  (5 to 20 inches thick)"
+      },
+      {
+        "name": "BCg",
+        "top": 76,
+        "bottom": 107,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BCg--30 to 42 inches; dark gray (10YR 4/1) fine sandy loam; massive; very friable; common medium faint gray (10YR 6/1) iron depletions and common medium distinct dark yellowish brown (10YR 4/4) iron masses; common pockets of loamy sand and sandy clay loam; slightly acid; gradual wavy boundary.  (0 to 15 inches thick)"
+      },
+      {
+        "name": "Cg1",
+        "top": 107,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "loamy fine sand",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Cg1--42 to 60 inches; gray (10YR 5/1) loamy fine sand; massive; very friable; common pockets of sand; neutral; clear smooth boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 152,
+        "bottom": 203,
+        "moist_hue": "5GY",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "loamy fine sand",
+        "pH_class": "neutral",
+        "narrative": "Cg2--60 to 80 inches; dark greenish gray (5GY 4/1) loamy fine sand; massive; very friable; common thin lenses of loam and clay loam; neutral."
+      }
+    ]
+  ]
 }

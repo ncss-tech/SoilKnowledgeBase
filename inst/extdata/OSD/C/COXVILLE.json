@@ -56,5 +56,113 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: There appears to be no significant difference in soil characteristics or properties of the Grady and Coxville soils that warrants separation at the series level. Each series was proposed before 1910 by the respective states (Georgia and North Carolina) and they have been maintained since.  They were separated on clay and silt content in the 1960s. However, Coxville have not been consistently correlated with less than 45 percent clay (or 30 percent silt) in the particle-size control section..\nDiagnostic horizons and features recognized in the typical pedon are:\nOchric epipedon--the zone from the surface to a depth of 11 inches (Ap and Eg horizons)\nAlbic horizon--the zone from 9 to 11 inches (Eg horizon)\nArgillic horizon--the zone between depths of 11 and 72 inches (BEg, Btg1, Btg2, Btg3, and Btg4 horizons)\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp  FrFr/Seas Precip  Elevation\nNC0045 COXVILLE    0-2    57-70    190-245   38-52   25-450\nSOI-5  FloodL FloodH Watertable Kind    Months   Bedrock Hardness\nNC0045 NONE            0-1.0  APPARENT  NOV-APR  >80\nSOI-5  Depth  Texture         3-Inch  No-10    Clay%   -CEC-\nNC0045  0-11  FSL SL L        0-0    100-100    5-27    2-7\nNC0045 11-72  CL SC C         0-0    100-100   35-60    4-7\nNC0045 72-80  VAR              -        -        -       -\nSOI-5  Depth    -pH-   O.M.      Salin  Permeab   Shnk-Swll\nNC0045  0-11  3.5-5.5  2.0-4.0   0-0   0.6-2.0    LOW\nNC0045 11-72  3.5-5.5  0.0-1.0   0-0   0.2-0.6    MODERATE\nNC0045 72-80  3.5-5.5  0.0-0.05  0-0   0.2-6.0    Low\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 9 inches; dark gray (10YR 4/1) fine sandy loam; weak fine granular structure; very friable; common fine roots; slightly acid; clear wavy boundary. (5 to 12 inches thick)"
+      },
+      {
+        "name": "Eg",
+        "top": 23,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Eg--9 to 11 inches; gray (10YR 6/1) fine sandy loam; weak fine granular structure; very friable; common fine roots; strongly acid; clear wavy boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "BEg",
+        "top": 28,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BEg--11 to 13 inches; grayish brown (10YR 5/2) sandy clay loam; weak medium subangular blocky structure; friable, slightly sticky, plastic; few fine roots; few fine distinct brownish yellow (10YR 6/8) masses of oxidized iron; very strongly acid; clear wavy boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 33,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg1--13 to 25 inches; gray (10YR 5/1) sandy clay; moderate medium subangular blocky structure; firm, sticky, plastic; common faint clay films on vertical faces of peds and in root channels; few fine roots; few root channels; few medium prominent yellowish brown (10YR 5/6) masses of oxidized iron; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 64,
+        "bottom": 102,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg2--25 to 40 inches; gray (10YR 5/1) sandy clay; weak medium subangular blocky structure; firm, sticky, plastic; few faint clay films on faces of peds; common medium prominent brownish yellow (10YR 6/6) and red (2.5YR 4/6) masses of oxidized iron; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btg3",
+        "top": 102,
+        "bottom": 132,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg3--40 to 52 inches; gray (10YR 6/1) sandy clay; weak subangular blocky structure; firm, sticky, plastic; few faint clay films on vertical faces of peds; few medium prominent red (2.5YR 4/6) and reddish yellow (7.5YR 6/6) masses of oxidized iron; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btg4",
+        "top": 132,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay",
+        "pH_class": "very strongly acid",
+        "narrative": "Btg4--52 to 72 inches; gray (10YR 6/1) sandy clay; weak medium subangular blocky structure; firm, sticky, plastic; pockets and lenses of clayey and sandy materials; common medium prominent reddish yellow (7.5YR 6/6) masses of oxidized iron; very strongly acid; gradual clear boundary. (combined thickness of the Btg horizon is 40 to more than 80 inches)"
+      },
+      {
+        "name": "Cg",
+        "top": 183,
+        "bottom": 203,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "narrative": "Cg--72 to 80 inches; stratified sand, silt, and clay; very strongly acid."
+      }
+    ]
+  ]
 }

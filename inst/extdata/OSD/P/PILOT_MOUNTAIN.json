@@ -56,5 +56,121 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The high content of rock fragments throughout the soil profile and increased clay in the lower Bt horizon restricts vertical water movement within these soils and increases lateral water movement. This results in the formation of masses of oxidized iron within the B and C horizons of most pedons. Although, this process results in the development of redoximorphic features, water is not present in the soil profile for a significant enough period to identify aquic conditions or a seasonal high water table.\nDiagnostic horizons and features recognized in the typical pedon are:\nOchric epipedon--the zone from the surface to 12 inches (A and E horizons)\nArgillic horizon--the zone from 12 to 30 inches (Bt horizon)\nOther soil features identified with this pedon:\nSeries control section--the zone from 0 to 60 inches\nADDITIONAL DATA:\nLaboratory Data: Series classification based on sample pedon S92NC-171-005 from the type location and data from several other pedons of the Pilot Mountain soils in Surry County, NC and Patrick County, VA.\nDatabase Information:\nTypical Pedon Data Mapunit ID--82722\nTABULAR SERIES DATA:\nSlope  Airtemp  FrFr/Seas  Precip  Elevation\n2-45   52-57    160-205    40-55   1100-2000\nFloodL FloodH Watertable Kind Months Bedrock Hardness\nNONE   -      >6.0       -    -      >60     -\nDepth Texture         3-inches  No-10  Clay%   -CEC-\n0-2   SPM MPM HPM     15-80     -      -      75-200\n2-12  FSL SL L        15-80     50-95   5-20   2-20\n12-22 FSL L SCL CL    35-70     50-95  18-40   3-10\n22-30 SCL CL SC C     35-70     50-95  20-50   4-15\n30-60 SCL FSL SL L    15-70     50-95  10-30   2-5\nDepth  -pH-     O.M.    Salin  Permeab  Shnk-Swll\n0-2    3.0-5.0  30-90   0-0    >20      -\n2-12   3.5-5.5  0.5-6   0-0    2.0-6.0  LOW\n12-22  3.5-5.5  0.3-.5  0-0    0.6-2.0  LOW\n22-30  3.5-5.5  0.3-.5  0-0    0.6-2.0  MODERATE\n30-60  3.5-5.5  0 0-.5  0-0    0.6-6.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 2 inch; slightly decomposed plant material; mostly hardwood litter; extremely acid; abrupt smooth boundary. (0 to 4 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "extremely cobbly",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--2 to 4 inches; dark brown (10YR 3/3) extremely cobbly fine sandy loam; moderate fine granular structure; very friable; many fine, medium, and coarse roots; common fine and medium tubular pores; 60 percent, by volume rounded metaquartzite gravel, cobbles, stones, and boulders; extremely acid; clear wavy boundary. (2 to 9 inches thick)"
+      },
+      {
+        "name": "AB",
+        "top": 10,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very cobbly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "AB--4 to 12 inches; dark yellowish brown (10YR 4/4) very cobbly fine sandy loam; weak fine granular structure; very friable; many fine, medium, and coarse roots; common fine tubular pores; 55 percent, by volume rounded metaquartzite gravel, cobbles, stones, and boulders; very strongly acid; clear wavy boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 30,
+        "bottom": 41,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very cobbly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--12 to 16 inches; strong brown (7.5YR 5/8) very cobbly fine sandy loam; weak fine subangular blocky structure; friable, slightly sticky, slightly plastic; common medium, few fine and coarse roots; few fine tubular pores; common medium distinct strong brown (7.5YR 5/6) masses of oxidized iron; 55 percent, by volume rounded metaquartzite gravel, cobbles, and stones; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 41,
+        "bottom": 56,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very cobbly",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--16 to 22 inches; yellowish red (5YR 5/8) very cobbly sandy clay loam; moderate medium subangular blocky structure; friable, moderately sticky, moderately plastic; few fine and medium roots; few fine and medium tubular pores; few faint clay films on faces of peds and in old root channels; common fine distinct reddish yellow (7.5YR 6/8) masses of oxidized iron; 50 percent, by volume rounded gravel, cobbles, and stones of metaquartzite; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 56,
+        "bottom": 76,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "cf_class": "very cobbly",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt3--22 to 30 inches; red (2.5YR 4/8) very cobbly clay; moderate medium subangular blocky structure; friable, very sticky, moderately plastic; few fine and medium roots; few fine and medium tubular pores; few faint clay films on faces of peds and in old root channels; few medium prominent brownish yellow (10YR 6/6) masses of oxidized iron; few fine flakes of mica; 40 percent, by volume rounded metaquartzite gravel, cobbles, and stones; strongly acid; gradual wavy boundary. (Combined thickness of the Bt horizon is 15 to 40 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 76,
+        "bottom": 112,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "fine sandy loam",
+        "cf_class": "extremely cobbly",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--30 to 44 inches; red (2.5YR 4/8) extremely cobbly fine sandy loam; weak coarse subangular blocky structure; friable, moderately sticky, slightly plastic; few medium roots; many coarse prominent yellowish brown (10YR 5/8) and common medium prominent dark red (10R 3/6) masses of oxidized iron; few fine flakes of mica; 65 percent, by volume rounded metaquartzite gravel, cobbles, and stones; strongly acid; gradual wavy boundary. (0 to 15 inches thick)"
+      },
+      {
+        "name": "C/B",
+        "top": 112,
+        "bottom": 152,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "fine sandy loam",
+        "cf_class": "extremely stony",
+        "pH_class": "strongly acid",
+        "narrative": "C/B--44 to 60 inches; 45 percent red (2.5YR 4/8) and 45 percent yellowish brown (10YR 5/8) extremely stony fine sandy loam (C part) and 10 percent red (2.5YR 4/8) sandy clay loam (B part); massive, very friable (C part); weak medium subangular blocky structure, friable, moderately sticky, slightly plastic (B part); few fine flakes of mica; 70 percent, by volume rounded metaquartzite gravel, cobbles, and stones; strongly acid."
+      }
+    ]
+  ]
 }

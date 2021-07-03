@@ -56,5 +56,58 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Although the upper 2 to 4 inches of the material\ndescribed as sandstone bedrock have some characteristics of a fragipan, the material as a whole is considered to be more\ngeologic in origin than pedogenic.  Geologist described the\ncondition as being sandstone rock with an overlay of fluvial materials.  The light (10YR 7/2) bodies will slake in water; the olive and dark gray (5Y 5/4 and 5Y 4/1) bodies will not.  Most of\nthe latter will slake in sodium hydroxide.  The most strongly cemented parts soften but do not slake in concentrated sodium hydroxide or concentrated hydrochloric acid.  The close relationship of darkening and cementation infers that illuvial material, possibly illuvial clay with organic matter and possible some silica contributes to the cementation.  The material designated as contributes to the cementation.  The material designated as sandstone bedrock may rest directly on the underlying granitic rocks, or it may be underlain by sandy and gravelly materials with granitic bedrock at 5 to 10 feet, or by cemented sands and gravels, or by clay with sand and gravel at about 6 feet.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0049 POUNCEY     0-  4   59- 62  185-220  38- 46   250- 500\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0049 RARE            0-  0  PERCHED  NOV-MAY  20-40   HARD\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0049  0-10  SL FSL LS               0-  0  90-100 10-20    -\nVA0049  0-10  L                       0-  0  90-100 10-25    -\nVA0049 10-25  CL C SC                 0-  0  90-100 35-55    -\nVA0049 25-35  UWB                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0049  0-10  4.5- 5.5  1.-5.  0- 0   .63- 2.0  LOW\nVA0049  0-10  4.5- 5.5  1.-5.  0- 0   .63- 2.0  LOW\nVA0049 10-25  4.5- 5.5  0.-.5  0- 0  0.00-0.06  HIGH\nVA0049 25-35     -        -     -    0.00- 0.2\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches, grayish brown (10YR 5/2) sandy loam; few fine distinct strong brown (7.5YR 5/6) mottles; moderate fine granular structure; very friable; common medium and fine roots; few rounded quartz gravel; very strongly acid; abrupt smooth boundary.  (0 to"
+      },
+      {
+        "name": "Eg",
+        "top": 15,
+        "bottom": 25,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "narrative": "Eg--6 to 10 inches, light brownish gray (2.5Y 6/2) sandy loam; few fine distinct brownish yellow (10YR 6/6) mottles; moderate medium granular structure; very friable; few medium and fine roots; few"
+      },
+      {
+        "name": "Btg",
+        "top": 25,
+        "bottom": 64,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "narrative": "Btg--10 to 25 inches, gray (5Y 5/1) clay loam; many medium prominent strong brown (7.5YR 5/8) mottles; weak very coarse"
+      },
+      {
+        "name": "2R",
+        "top": 64,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "narrative": "2R--25 inches, light gray (10YR 7/2, 70 percent) and olive (5Y 5/4) and dark gray (5Y 4/1, 30 percent) extremely hard; weakly cemented sandstone."
+      }
+    ]
+  ]
 }

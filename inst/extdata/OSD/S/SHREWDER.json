@@ -56,5 +56,107 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Soil Interpretation Record:  Series    OK0273.\nADDITIONAL DATA:  Oklahoma State University - Lab samples 80-OK-29-5-(1-6) and 80-OK-29-6-(1-4).\nThe assignment of the cation-exchange activity class is supported by laboratory data number 80-OK-29-5-(1-6) from Harmon county, OK.\nDiagnostic Horizons and features recognized in this soil are:\nOchric epipedon- the zone from the surface of the soil to a depth of 16 inches (A horizons).\nCambic horizon- the zone from 16 inches to a depth of 77 inches (Bw and BC horizons).\nDensic contact: The contact with noncemented sandstone bedrock at 77 inches.  (2Cd horizon)\nMoisture regime: Typic-Ustic.\nRange Site: 078XY073OK - Sandy Prairie, 078BY088TX - Sandy loam PE 25-36\nTaxonomic version:  Keys to Soil Taxonomy, Ninth Edition, 2004\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; reddish brown (5YR 5/4) fine sandy loam, reddish brown (5YR 4/4) moist; weak medium granular structure; slightly hard, very friable; few fine roots; slightly acid; abrupt smooth boundary.  (6 to 11 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 20,
+        "bottom": 41,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A--8 to 16 inches; reddish brown (5YR 5/4) fine sandy loam, reddish brown (5YR 4/4) moist; weak fine subangular blocky structure; slightly hard, friable; few fine roots; neutral; gradual smooth boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 41,
+        "bottom": 79,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw1--16 to 31 inches; red (2.5YR 4/6) loam, dark red (2.5YR 3/6) moist; weak coarse prismatic structure parting to weak medium subangular blocky; slightly hard, friable; few fine roots; neutral; gradual smooth boundary.  (13 to 42 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 79,
+        "bottom": 124,
+        "dry_hue": "2.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw2--31 to 49 inches; red (2.5YR 5/6) loam, red (2.5YR 4/6) moist; weak coarse prismatic structure parting to weak medium subangular blocky; slightly hard, very friable; few fine roots; slightly alkaline; gradual smooth boundary. (0 to 22 inches thick)"
+      },
+      {
+        "name": "2BCk",
+        "top": 124,
+        "bottom": 196,
+        "dry_hue": "2.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "2.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2BCk--49 to 77 inches; red (2.5YR 5/6) very fine sandy loam, red (2.5YR 5/6) moist; weak coarse prismatic structure; slightly hard, very friable; few fine roots; few fine and medium nodules and masses of calcium carbonate; few threads and films of calcium carbonate; strongly effervescent; moderately alkaline; gradual smooth boundary.  (0 to 37 inches thick)"
+      },
+      {
+        "name": "2Cd",
+        "top": 196,
+        "bottom": 203,
+        "dry_hue": "2.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "moderately alkaline",
+        "narrative": "2Cd--77 to 80 inches; red (2.5YR 5/6) noncemented sandstone bedrock; common films of calcium carbonate in seams; moderately alkaline."
+      }
+    ]
+  ]
 }

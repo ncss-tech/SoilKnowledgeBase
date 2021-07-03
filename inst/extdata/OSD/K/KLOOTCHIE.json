@@ -56,5 +56,96 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic features and horizons in this pedon include:\nUmbric epipedon - from 2 to 14 inches (A1 and A2 horizon).\nCambic horizon - from 14 to 27 inches (Bw horizon)\nAndic soil properties - from 2 to 45 inches (A1, A2, Bw, and BC horizons).\nDepths to diagnostic horizons and features are measured from the top of the first mineral layer.\nMore investigation is needed on this soil in regards to the silty clay loam and clay loam textures in the Bw horizon and whether andic properties are met based on a bulk density above or below 0.90 g/cc.\nADDITIONAL DATA:  Lincoln Laboratory Reference Samples 82T7108, 82T7109, and S81OR007.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "Oi--0 to 2 inches; partially decomposed leaves, twigs, moss and woody materials."
+      },
+      {
+        "name": "A1",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 4.6,
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A1--2 to 5 inches; dark reddish brown (5YR 3/2) medial silt loam, reddish brown (5YR 4/3) dry; moderate medium and fine granular structure; slightly hard, friable, slightly sticky, slightly plastic, and weakly smeary; many medium, fine and very fine roots; many very fine and fine irregular pores; about 5 percent gravel; very strongly acid (pH 4.6); gradual smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 13,
+        "bottom": 36,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--5 to 14 inches; dark reddish brown (5YR 3/3) medial silt loam, reddish brown (5YR 5/3) dry; moderate medium granular structure; slightly hard, friable, slightly sticky, slightly plastic, and weakly smeary; many medium fine and very fine roots; many fine and very fine irregular pores; about 10 percent gravel; very strongly acid (pH 4.8); clear wavy boundary.  (combined A horizon is 12 to 20 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 36,
+        "bottom": 69,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--14 to 27 inches; reddish brown (5YR 4/4) medial silt loam, reddish brown (5YR 5/4) dry; moderate medium subangular blocky structure parting to moderate fine subangular blocky; slightly hard, friable, slightly sticky, slightly plastic and weakly smeary; common fine roots; common fine and very fine tubular pores; about 10 percent gravel; very strongly acid (pH 4.8); clear wavy boundary.  (10 to 40 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 69,
+        "bottom": 114,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH": 4.6,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BC--27 to 45 inches; reddish brown (5YR 4/4) gravelly medial silt loam, reddish brown (5YR 5/4) dry; weak medium subangular blocky structure; slightly hard, friabe, slightly sticky, slightly plastic and weakly smeary; few very fine roots; few very fine tubular pores; about 30 percent gravel; very strongly acid (pH 4.6); clear wavy boundary.  (0 to 20 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 114,
+        "narrative": "Cr--45 inches; fractured partially weathered basalt breccia."
+      }
+    ]
+  ]
 }

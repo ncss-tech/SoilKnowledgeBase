@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are: ochric epipedon - the zone from 0 to 3 inches (A horizon); cambic horizon - the zone from 3 to 16 inches (Bw1 and Bw2 horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 3,
+        "bottom": 0,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "narrative": "Oe--1 to 0 inch; black (N 2/0) partially decomposed leaf forest litter; many very fine to medium roots.  (0 to 3 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "cf_class": "stony",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; very dark gray (10YR 3/1) stony fine sandy loam, dark gray (10YR 4/1) dry; moderate medium granular structure; very friable; many very fine to medium and common coarse roots; about 3 percent gravel, 15 percent cobbles, and 15 percent stones; slightly acid; abrupt wavy boundary.  (2 to 5 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 8,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "stony",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw1--3 to 10 inches; dark brown (10YR 3/3) stony silt loam; light yellowish brown (10YR 6/4) dry; moderate fine and medium subangular blocky structure; friable; common very fine to medium roots; about 5 percent gravel, 10 percent cobbles, and 15 percent stones; neutral; abrupt wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 25,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "very cobbly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--10 to 16 inches; brown (10YR 4/3) very cobbly silt loam; moderate fine and medium subangular blocky structure; friable; common very fine to medium roots; about 10 percent gravel and 30 percent cobbles; neutral; clear wavy boundary.  (Combined thickness of the Bw horizons is 10 to 20 inches.)"
+      },
+      {
+        "name": "C",
+        "top": 41,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very cobbly",
+        "pH_class": "moderately alkaline",
+        "narrative": "C--16 to 60 inches; brown (10YR 5/3) very cobbly fine sandy loam; massive; friable; few fine roots; about 30 percent gravel and 30 percent cobbles; violent effervescence; moderately alkaline."
+      }
+    ]
+  ]
 }

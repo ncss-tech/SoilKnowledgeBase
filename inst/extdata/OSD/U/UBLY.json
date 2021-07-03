@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:  ochric epipedon - the zone from the surface to a depth of 8 inches (Ap horizon); spodic horizon - the zone from 8 to 22 inches (Bs horizon); albic horizon - the zone from 22 to 27 inches (E horizon); argillic horizon - the zone from 27 to 39 inches (2B/E and 2Bt horizons); and a lithologic discontinuity from sandy loam materials to clay loam materials at 27 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; very dark grayish brown (10YR 3/2) sandy loam, grayish brown (10YR 3/3) dry; moderate medium granular structure; very friable; many fine roots; slightly acid; abrupt smooth boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "Bs",
+        "top": 20,
+        "bottom": 56,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bs--8 to 22 inches; dark brown (7.5YR 4/4) sandy loam; weak coarse granular structure; very friable; many fine roots; slightly acid; abrupt wavy boundary.  (6 to 17 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 56,
+        "bottom": 69,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "E--22 to 27 inches; pale brown (10YR 6/3) sandy loam; weak medium subangular blocky structure; very friable; many fine roots; moderately acid; gradual irregular boundary.  (0 to 7 inches thick)"
+      },
+      {
+        "name": "2B/E",
+        "top": 69,
+        "bottom": 81,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2B/E--27 to 32 inches; dark brown (7.5YR 4/4) clay loam (Bt); pale brown (10YR 6/3) sandy loam (E); E occurs as tongues, coatings on peds of Bt material and in root and worm channels; moderate medium subangular blocky structure; firm; common fine roots; about 5 percent gravel; moderately acid; gradual wavy boundary.  (3 to 11 inches thick)"
+      },
+      {
+        "name": "2Bt",
+        "top": 81,
+        "bottom": 99,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Bt--32 to 39 inches; dark brown (7.5YR 4/4) clay loam; moderate medium angular blocky structure; firm; few fine roots; thin to medium continuous clay films on ped faces; about 5 percent gravel; neutral; abrupt wavy boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 99,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "2C--39 to 60 inches; brown (10YR 5/3) clay loam; weak coarse angular blocky structure; firm; about 5 percent gravel; slight effervescence; slightly alkaline."
+      }
+    ]
+  ]
 }

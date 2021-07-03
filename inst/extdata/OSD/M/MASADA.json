@@ -56,5 +56,118 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\na. Ochric horizon: The zone between the surface and 10 inches (A and E horizons)\nb. Argillic horizon: The zone between 15 and 55 inches (Bt horizon)\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0028 MASADA      0- 25   59- 64  180-240  40- 48   100- 800\nVA0159 MASADA      0- 25   59- 64  190-215  40- 48   150- 700\nVA0340 MASADA      0- 25   59- 64  180-240  40- 48   100- 800\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0028 NONE          >6.0                -     >60\nVA0159 NONE          >6.0                -     >60\nVA0340 NONE          >6.0                -     >60\nSOI-5  Depth  Texture              3-Inch  No-10  Clay%   -CEC-\nVA0028  0-10  FSL L SL              0-  5  75- 98 10-27    -\nVA0028  0-10  LFS                   0-  5  70-100  3-15    -\nVA0028  0-10  SCL                   0-  5  70-100 20-35    -\nVA0028 10-55  CL C GR-C             0- 10  70-100 27-55    -\nVA0028 55-72  L CL GR-SCL           0- 10  70-100 25-40    -\nVA0159  0-10  GR-L GR-FSL           0-  5  50- 75  5-20   1- 12\nVA0159  0-10  GR-SCL                0-  5  50- 75 20-35   1- 12\nVA0159 10-55  GR-CL GR-C C          0- 10  50- 80 35-55   5- 20\nVA0159 55-72  GR-CL CB-CL CL        0- 10  50- 80 30-40   5- 17\nVA0340  0-10  CB-L CB-FSL          25- 40  50- 75  5-20    -\nVA0340 10-55  GR-CL GR-C C          5- 15  50- 80 35-55    -\nVA0340 55-72  GR-CL CB-CL CL        5- 15  50- 80 30-40    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0028  0-10  4.5- 5.5  1.-3.  0- 0   2.0- 6.0  LOW\nVA0028  0-10  4.5- 5.5  1.-3.  0- 0   6.0-  20  LOW\nVA0028  0-10  4.5- 5.5  1.-3.  0- 0   0.6- 2.0  MODERATE\nVA0028 10-55  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  MODERATE\nVA0028 55-72  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  MODERATE\nVA0159  0-10  4.5- 5.5  .5-2.  0- 0   2.0- 6.0  LOW\nVA0159  0-10  4.5- 5.5  .5-2.  0- 0   0.6- 2.0  LOW\nVA0159 10-55  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  MODERATE\nVA0159 55-72  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  MODERATE\nVA0340  0-10  4.5- 5.5  .5-2.  0- 0   2.0- 6.0  LOW\nVA0340 10-55  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  MODERATE\nVA0340 55-72  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  MODERATE\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 2 inches; dark gray (10YR 4/1) fine sandy loam; weak fine granular structure; very friable; many fine roots; 15 percent gravel up to 2 inches in diameter; strongly acid; abrupt wavy boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 25,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--2 to 10 inches; light yellowish brown (2.5Y 6/4) fine sandy loam; weak fine granular structure; very friable; many fine and medium roots; 15 percent gravel up to 1 inch in diameter; strongly acid; clear wavy boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 25,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BE--10 to 15 inches; yellowish brown (10YR 5/8) clay loam; weak fine subangular blocky structure; friable, slightly sticky, slightly plastic; few medium roots; 5 percent gravel up to 1 inch in diameter; very strongly acid; clear wavy boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 38,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--15 to 25 inches; brownish yellow (10YR 6/8) clay loam; many fine faint yellowish brown (10YR 5/8) mottles; moderate fine subangular blocky structure; firm, sticky, plastic; few medium roots; common thin clay films on faces of peds; 5 percent gravel up to 1 inch in diameter; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 64,
+        "bottom": 99,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--25 to 39 inches; yellowish red (5YR 5/6) clay; many medium distinct yellowish brown (10YR 5/6) mottles; moderate fine subangular blocky structure; firm, sticky, plastic; common thin clay films on faces of peds; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 99,
+        "bottom": 127,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt3--39 to 50 inches; yellowish brown (10YR 5/6) clay; many medium distinct red (2.5YR 4/6) mottles; moderate fine subangular blocky structure; firm sticky, plastic; common thin clay films on faces of 1peds; very strongly acid; gradual wavy boundary. (Combined thickness of the Bt horizon ranges from 10 to 55 inches thick.)"
+      },
+      {
+        "name": "BCt",
+        "top": 127,
+        "bottom": 140,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BCt--50 to 55 inches; yellowish brown (10YR 5/6) clay; many medium distinct red (2.5YR 4/6) mottles; weak fine subangular blocky structure; firm, sticky, plastic; few thin clay films on faces of peds; very strongly acid; gradual wavy boundary. (0 to 40 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 140,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "C--55 to 72 inches; mixed yellowish brown (10YR 5/6), red (2.5YR 4/6), and light yellowish brown (2.5Y 6/4) clay loam; massive firm, slightly sticky, slightly plastic; 5 percent gravel up to 2 inches in diameter; very strongly acid."
+      }
+    ]
+  ]
 }

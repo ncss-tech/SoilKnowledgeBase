@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon:  The zone from 0 to 13 inches.  (A horizon)\nParalithic feature:  shale bedrock at 18 inches.\nParticle size control section:  The zone from 10 to 18 inches.  (Part of the A horizon and the Bw horizon)\nKeys to Soil Taxonomy:  Classified according to the Eighth Edition, 1998\nActivity class is presumed based on general trend of other soils in the area.\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A--0 to 13 inches; very dark grayish brown (10YR 3/2) loam, very dark brown (10YR 2/2) moist; weak fine subangular blocky structure parting to moderate fine granular; soft, very friable; 5 percent black parachanners (shale chips) in the lower part; neutral (pH 6.8), gradual smooth boundary. (6 to 15 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 33,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw--13 to 18 inches; grayish brown (10YR 5/2) clay loam, dark grayish brown (10YR 4/2) moist; weak fine subangular blocky structure parting to moderate medium granular; hard, very friable; 10 percent dark gray parachanners (shale chips); neutral (pH 6.8); gradual smooth boundary.  (0 to 14 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 46,
+        "bottom": 56,
+        "narrative": "Cr--18 to 22 inches; dark gray noncalcareous shale."
+      }
+    ]
+  ]
 }

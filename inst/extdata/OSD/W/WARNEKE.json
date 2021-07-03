@@ -56,5 +56,57 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - from the soil surface to 7 inches mixed (A horizon)\nCalcic horizon - from 4 to 15 inches (Bk horizon)\nLithic contact - at a depth of 15 inches (R horizon)\nParticle-size control section - from 5 to 15 inches (Bk horizon)\nSoil interpretations record:  MT0278.\nWarneke soils have a frigid temperature regime and an ustic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 8.3,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 4 inches; brown (10YR 5/3) gravelly loam, dark brown (10YR 3/3) moist; moderate fine granular structure; soft, very friable, slightly sticky and slightly plastic; common fine and medium roots; 20 percent gravel, 5 percent cobbles; disseminated lime; strongly effervescent; moderately alkaline (pH 8.3); clear wavy boundary. (1 to 4 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 10,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bk--4 to 15 inches; very pale brown (10YR 7/3) very channery loam, pale brown (10YR 6/3) moist; moderate fine subangular blocky structure; hard, friable, moderately sticky and slightly plastic; few fine and medium roots; common fine and very fine pores; 25 percent channers; 15 percent flagstones; disseminated lime; continuous distinct lime casts on underside of fragments; violently effervescent; moderately alkaline (pH 8.4); clear wavy boundary. (9 to 18 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 38,
+        "narrative": "R--15 inches; limestone, with few fractures."
+      }
+    ]
+  ]
 }

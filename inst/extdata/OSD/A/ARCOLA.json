@@ -56,5 +56,73 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This soil was once classified similarly to the Penn series. Both are found on the same landscapes and the Penn series has slightly higher base saturation.\nDiagnostic Horizons and features recognized in this pedon are:\n1.  Ochric epipedon - the zone from the surface to 9 inches (Ap horizon).\n2.  Argillic horizon - the zone from 9 to 22 inches (Bt horizon).\n3.  Paralithic contact at 28 inches (Cr horizon).\n4.  Lithic contact at 48 inches (R horizon).\nSIR = VA0207, VA0208 (GRAVELLY)\nMLRA = 148, 149A\nREVISED = 8/03/94, MHC\nREVISED = 2/18/2004, MAV added active ce activity class and reclassified to original classification and moved type location back to Prince William County, Virginia. Former initials include RSW-JHE-DDR.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 9 inches; reddish brown (2.5YR 4/4) silt loam; moderate fine granular structure; very friable, many fine and medium roots; 8 percent partially weathered red (2.5YR 4/6) siltstone fragments; very strongly acid; abrupt smooth boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 23,
+        "bottom": 56,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt--9 to 22 inches; reddish brown (2.5YR 4/4) gravelly silt loam; weak fine subangular blocky structure; friable, slightly sticky, slightly plastic; common fine roots; many faint and distinct clay films on ped faces; few fine pores; 25 percent partially weathered red (2.5YR 4/6) siltstone fragments; very strongly acid; gradual smooth boundary. (10 to 30 inches thick)"
+      },
+      {
+        "name": "Ct",
+        "top": 56,
+        "bottom": 71,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "very gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ct--22 to 28 inches; reddish brown (2.5YR 4/4) very gravelly silt loam; common medium and coarse distinct red (10R 5/6) mottles; massive; friable; common fine roots; few distinct and prominent clay flows in rock crevices; 40 percent partially weathered red (2.5YR 4/6) siltstone fragments; very strongly acid; abrupt wavy boundary. (0 to 15 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 71,
+        "bottom": 122,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silt",
+        "narrative": "Cr--28 to 48 inches; red (2.5YR 4/6) weathered Triassic siltstone; compact and dense in place."
+      },
+      {
+        "name": "R",
+        "top": 122,
+        "texture_class": "silt",
+        "narrative": "R--48 inches; hard Triassic siltstone."
+      }
+    ]
+  ]
 }

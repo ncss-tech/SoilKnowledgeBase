@@ -56,5 +56,71 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 13 cm. (A and C horizons)\nParalithic contact - The boundary at 13 cm. (Cr layer)\nParticle-size control section - The zone of soil surface to 13 cm (A and C horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 8.6,
+        "pH_class": "strongly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 5 cm; light brownish gray (2.5Y 6/2) very gravelly sandy loam, dark grayish brown (2.5Y 4/2) moist; massive; soft, very friable, nonsticky and nonplastic; common very fine tubular pores; 45 percent gravel; violently effervescent; strongly alkaline (pH 8.6); clear smooth boundary.  (3 to 10 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 8.8,
+        "pH_class": "strongly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--5 to 13 cm; pale brown (10YR 6/3) extremely gravelly coarse sandy loam; dark grayish brown (10YR 4/2) moist; massive; soft, very friable, nonsticky and nonplastic; many very fine roots; common very fine tubular pores; 60 percent gravel; violently effervescent; strongly alkaline (pH 8.8); clear wavy boundary.  (0 to 33 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 13,
+        "bottom": 58,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cr--13 to 58 cm; light brownish gray (10YR 6/2) weathered granodiorite, dark grayish brown (10YR 4/2) moist, with white (10YR 8/1) silica seams and many very dark grayish brown (2.5Y 3/2) mica flakes; massive; hard, firm, nonsticky and nonplastic; few very fine roots in cleavage planes; clear wavy boundary.  (20 to 46 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 58,
+        "narrative": "R--58 cm; granodiorite."
+      }
+    ]
+  ]
 }

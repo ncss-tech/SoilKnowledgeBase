@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nThe surface is covered by 15 percent gravel, 25 percent channers, 5 percent flagstones and 3 percent stones.  Fragments are limestone.\nSeries control section:  The zone from 0 to 74 cm.\nParticle-size control section:  The zone from 25 to 74 cm.  (Bk1 and Bk2 horizons)\nMollic epipedon:  The zone from 0 to 18 cm.  (A horizon)\nCalcic horizon:  The zone from 18 to 74 cm.  (Bk1 and Bk2 horizons)\nLithic contact:  Limestone at 74 cm.  (R horizon)\nThe assignment of the cation-exchange activity class is inferred from lab data from similar soils in the surrounding area.  The upper 18cm of the soil after mixing is non-calcareous, which defaults the classification to Haplustolls, rather than Calciustolls.\nTaxonomic Version:  Classified according to Keys to Soil Taxonomy, Twelfth Edition, 2014.\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 18 cm; brown (10YR 4/3) very channery loam, very dark grayish brown (10YR 3/2) moist; moderate very fine granular structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine and fine, and few medium and coarse roots; common very fine tubular and interstitial pores; 10 percent gravel, 25 percent channers, 15 percent flagstones, 2 percent stones; slightly alkaline (pH 7.8); abrupt smooth boundary. (16 to 25 cm thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 18,
+        "bottom": 42,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "extremely channery",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bk1--18 to 42 cm; yellowish brown (10YR 5/4) extremely channery clay loam, brown (10YR 4/3) moist; moderate fine and medium subangular blocky structure; hard, firm, moderately sticky and moderately plastic; common very fine and fine, and few medium roots; common very fine and fine, and few medium tubular pores; common moderately thick (1-2mm) pale brown (10YR 6/3) calcium carbonate coats on the bottom of rock fragments; strongly effervescent (17 percent calcium carbonate equivalent); 10 percent sub-rounded gravel, 35 percent channers, 20 percent flagstones;  slightly alkaline (pH 7.8); clear wavy boundary."
+      },
+      {
+        "name": "Bk2",
+        "top": 42,
+        "bottom": 74,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "extremely channery",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bk2--42 to 74 cm; very pale brown (10YR 7/3) extremely channery clay loam, brown (10YR 5/3) moist; massive; hard, firm, moderately sticky and moderately plastic; few very fine and medium roots; common very fine and few fine tubular pores; many thin (<1mm) and moderately thick (1-2mm) very pale brown (10YR 7/3) calcium carbonate coats around rock fragments; violently effervescent (42 percent calcium carbonate equivalent); 50 percent channers, 30 percent flagstones; slightly alkaline (pH 7.8); abrupt wavy boundary. (The combined thickness of the Bk horizons is 25 to 56 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 74,
+        "narrative": "R--74 cm; hard fractured limestone bedrock."
+      }
+    ]
+  ]
 }

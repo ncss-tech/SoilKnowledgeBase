@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soils of the Alarka series were mapped as part of the Humaquepts map unit in the Haywood County Area, NC Soil Survey.  However, due to the small size and variability of the map units, no series were established.  Alarka soils are mainly mapped in a complex with the very poorly drained Wesser series.  Some soils may have a frigid temperature regime.  However, the small extent and unique properties of these soils do not warrant a separation of series based on temperature at this time.  This soil was sampled and analyzed by the National Soil Survey Laboratory in Lincoln, NE;  Sample number  S99NC-173-001.\nRevisions made 9/07(HCD) adjusted OSD to reflect Lab Data\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon  0 to 10 inches (Oe, Oa, and A horizons)\nArgillic horizon  10 to 21 inches (Btg and Bt horizons)\nAeric subgroup feature  13 to 21 inches (Bt horizon) the zone which has matrix chroma of more than 3 in one or more horizons between 10 inches from the mineral soil surface and 30 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 8,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Oe--0 to 3 inches; moderately decomposed plant material; many very fine to very coarse roots; extremely acid; clear wavy boundary."
+      },
+      {
+        "name": "Oa1",
+        "top": 8,
+        "bottom": 18,
+        "pH_class": "ultra acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Oa1--3 to 7 inches; highly decomposed plant material; many fine and coarse roots; ultra acid; clear irregular boundary."
+      },
+      {
+        "name": "Oa2",
+        "top": 18,
+        "bottom": 25,
+        "pH_class": "ultra acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Oa2--7 to 10 inches; highly decomposed plant material, common fine to coarse roots; ultra acid; clear irregular boundary. (combined thickness of the O horizon is 4 to 10 inches)"
+      },
+      {
+        "name": "Btg",
+        "top": 25,
+        "bottom": 33,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btg--10 to 13 inches; brown (7.5YR 5/2) loam; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; few medium and coarse roots; few faint clay films on ped faces; many medium and coarse prominent strong brown (7.5YR 5/8)  irregularly shaped soft masses of iron accumulations throughout; black (10YR 2/1) organic matter accumulations 1 to 5 cm thick in root channels throughout 10 percent of the horizon; few fine mica flakes throughout; extremely acid; clear wavy boundary."
+      },
+      {
+        "name": "Cg",
+        "top": 53,
+        "bottom": 91,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Cg--21 to 36 inches; light brownish gray (2.5Y 6/2) very fine sandy loam; massive; friable; common medium and coarse distinct dark yellowish brown (10YR 4/6) redoximorphic irregularly shaped soft masses of iron accumulations  lining pores; 5 percent gravel by volume; very strongly acid; abrupt wavy boundary. (0 to 16 inches.)"
+      },
+      {
+        "name": "2C",
+        "top": 91,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "cf_class": "very gravelly",
+        "pH_class": "very strongly acid",
+        "narrative": "2C--36 to 60 inches; yellowish brown (10YR 5/6), red (2.5YR 5/8), and strong brown (7.5YR 5/6) very gravelly loamy sand; massive; loose; 39 percent gravel, 5 percent cobbles, 15 percent stones by volume; very strongly acid ."
+      }
+    ]
+  ]
 }

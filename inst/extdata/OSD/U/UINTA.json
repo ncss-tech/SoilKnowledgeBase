@@ -56,5 +56,110 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nOchric epipedon - from 1 to .13 inches (A, E horizons)\nAlbic horizon - from 3 to 13 inches (E horizon)\nGlossic horizon - from 13 to 21 inches (E/B horizon)\nArgillic horizon - 21 to 53 inches (Bt1, Bt2 horizon). The upper boundary of the argillic is unclear in the original description. The required clay increase (using the composite clay content of E/B) is presumed to be met from the E/B horizon to the Bt1, and not from the E to the E/B.\nParticle-size control section: The zone from 21 to 41 inches (part of Bt1 horizon)\nClassification: Keys to Soil Taxonomy, Eighth Edition, 1998\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; partially decomposed needles, twigs, and bark."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--1 to 3 inches; dark gray (10YR 4/1) gravelly sandy loam, very dark gray (10YR 3/1) moist; moderate very fine granular structure; soft, very friable, nonsticky and nonplastic; 15 percent quartzite pebbles; neutral (pH 6.8); clear wavy boundary.  (0 to 3 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 33,
+        "moist_hue": "7.5YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "E--3 to 13 inches; pinkish gray (7.5YR 7/2) gravelly sandy loam, pinkish gray (7.5YR 6/2) moist; moderate thin platy structure parting to moderate very fine granular; soft, very friable, nonsticky and nonplastic; 25 percent quartzite pebbles and cobbles; neutral (pH 6.8); gradual irregular boundary.  (6 to 14 inches thick)"
+      },
+      {
+        "name": "E/B",
+        "top": 33,
+        "bottom": 53,
+        "moist_hue": "7.5YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "E/B--13 to 21 inches; pinkish gray (7.5YR 7/2), pinkish gray (7.5YR 6/2) moist (E part); reddish brown (5YR 5/3) gravelly sandy clay loam, reddish brown (5YR 4/3) moist (Bt part); moderate medium subangular blocky structure; slightly hard, very friable, moderately sticky and slightly plastic; few thin clay films on faces of some peds; 15 percent quartzite pebbles and cobbles; neutral (pH 6.8); gradual irregular boundary.  (6 to 12 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 53,
+        "bottom": 112,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--21 to 44 inches; reddish brown (5YR 5/3) gravelly sandy clay loam, reddish brown (5YR 4/3) moist; moderate medium subangular blocky structure; very hard, friable, moderately sticky and moderately plastic; continuous moderately thick clay films on faces of peds; 15 percent quartzite pebbles and cobbles; neutral (pH 6.8); gradual smooth boundary.  (8 to 25 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 112,
+        "bottom": 135,
+        "moist_hue": "5YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--44 to 53 inches; light reddish brown (5YR 6/4) gravelly sandy clay loam, reddish brown (5YR 4/4) moist; weak coarse subangular blocky structure; hard, friable, moderately sticky and moderately plastic; many thin clay films on faces of peds; 15 percent quartzite pebbles and cobbles; neutral (pH 6.6); gradual wavy boundary.  (6 to 15 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 135,
+        "bottom": 180,
+        "moist_hue": "5YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "narrative": "C--53 to 71 inches; light reddish brown (5YR 6/4) gravelly sandy clay loam, reddish brown (5YR 4/4) moist; massive; hard, friable, moderately sticky and slightly plastic; 30 percent quartzite pebbles and cobbles; neutral (pH 6.8)."
+      }
+    ]
+  ]
 }

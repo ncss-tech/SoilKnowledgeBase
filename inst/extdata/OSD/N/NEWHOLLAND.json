@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Newholland soils were previously included with the Johnston series.  Johnston soils have siliceous mineralogy and are on flood plains.\nDiagnostic horizons and features recognized in this pedon:\nUmbric epipedon - the zone from the surface to a depth of 27 inches.  (Ap, A, and AC horizons)\nAquic conditions - endosaturation and redoximorphic features including concretions, masses of iron accumulation, and iron depletions in the zone from 19 to 62 inches.  (AC, Cg1, Cg2, and Cg3 horizons)\nMLRA = 153B\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0273 NEWHOLLAND  0-  2   57- 70  215-250  46- 58     5-  25\nNC0274 NEWHOLLAND  0-  2   57- 70  215-250  46- 58     5-  25\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0273 NONE   RARE     0-1.0  APPARENT DEC-APR  60-60\nNC0274 FREQ            0-1.0  APPARENT DEC-APR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0273  0-19  MK-LS MK-SL MK-FSL      0-  0  95-100  2-20  15- 45\nNC0273  0-19  LS SL FSL               0-  0  95-100  2-20   5- 25\nNC0273 19-27  LS SL FSL               0-  0  95-100  2-20   5- 15\nNC0273 27-44  SL L SCL                0-  0  95-100 12-27   5- 15\nNC0273 44-62  S LS SL                 0-  0  95-100  1-18   5- 15\nNC0274  0-19  MK-LS MK-SL MK-FSL      0-  0  95-100  2-20  15- 45\nNC0274  0-19  LS SL FSL               0-  0  95-100  2-20   5- 25\nNC0274 19-27  LS SL FSL               0-  0  95-100  2-20   5- 15\nNC0274 27-44  SL L SCL                0-  0  95-100 12-27   5- 15\nNC0274 44-62  S LS SL                 0-  0  95-100  1-18   5- 15\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0273  0-19  3.5- 5.5  8.-18  0- 0   2.0- 6.0  LOW\nNC0273  0-19  3.5- 5.5  3.-8.  0- 0   2.0- 6.0  LOW\nNC0273 19-27  3.5- 5.5  3.-8.  0- 0   6.0-  20  LOW\nNC0273 27-44  3.5- 5.5  0.-.5  0- 0   6.0-  20  LOW\nNC0273 44-62  3.5- 5.5  0.-.5  0- 0   6.0-  20  LOW\nNC0274  0-19  3.5- 5.5  8.-18  0- 0   2.0- 6.0  LOW\nNC0274  0-19  3.5- 5.5  3.-8.  0- 0   2.0- 6.0  LOW\nNC0274 19-27  3.5- 5.5  3.-8.  0- 0   6.0-  20  LOW\nNC0274 27-44  3.5- 5.5  0.-.5  0- 0   6.0-  20  LOW\nNC0274 44-62  3.5- 5.5  0.-.5  0- 0   6.0-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; black (10YR 2/1) mucky loamy sand; moderate medium granular and weak medium subangular blocky structure; common fine and very fine roots; 15 percent clean sand grains; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 20,
+        "bottom": 48,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--8 to 19 inches; black (10YR 2/1) mucky loamy sand; weak medium granular structure; friable; common fine and very fine roots; many clean sand grains; common streaks and pockets of clean sand; extremely acid; clear wavy boundary."
+      },
+      {
+        "name": "AC",
+        "top": 48,
+        "bottom": 69,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "AC--19 to 27 inches; very dark brown (10YR 2/2) loamy sand; massive; friable; common fine partially decomposed roots; few iron concretions along root channels; extremely acid; clear wavy boundary.  (Combined thickness of the A horizon ranges from 24 to 36 inches)"
+      },
+      {
+        "name": "Cg1",
+        "top": 69,
+        "bottom": 102,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cg1--27 to 40 inches; grayish brown (10YR 5/2) sandy loam; massive; friable; few fine partially decomposed roots; few iron concretions along root channels; common coarse distinct brown (10YR 5/3) irregularly shaped masses of iron accumulation with clear boundaries in matrix; extremely acid; clear wavy boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 102,
+        "bottom": 112,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Cg2--40 to 44 inches; dark gray (5Y 4/1) sandy loam; massive; friable; few very fine partially decomposed roots; common medium distinct strong brown (7.5YR 4/6) irregularly shaped masses of iron accumulation with clear boundaries in matrix; common streaks of sandy loam material; extremely acid; abrupt wavy boundary."
+      },
+      {
+        "name": "Cg3",
+        "top": 112,
+        "bottom": 157,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "narrative": "Cg3--44 to 62 inches; grayish brown (10YR 5/2) loamy sand; massive; very friable; few very fine partially decomposed roots; common medium distinct light olive brown (2.5Y 5/4) and yellowish brown (10YR 5/8) irregularly shaped masses of iron accumulation with clear boundaries in matrix; very strongly acid."
+      }
+    ]
+  ]
 }

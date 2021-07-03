@@ -56,5 +56,57 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nOchric epipedon - the zone from 0 to 2 inches (Ap horizon).\nArgillic horizon - the zone from 2 to 13 inches (Bt horizon).\nParalithic contact - the contact at 13 inches (Cr horizon).\nLithic contact - the contact at 23 inches (R horizon).\nThis soil formed in the Mariquita Chert Formation (KJm).\nThe type location was moved to its present location in 2005. The classification was updated with the 11/2004 draft from Clayey, mixed, active, isohyperthermic Lithic Haplustalfs to Clayey, mixed, active, isohyperthermic, shallow Typic Haplustalfs based on the recognition of a paralithic contact.\nADDITIONAL DATA:  Characterization pedon - Cabo Rojo Municipality, Puerto Rico; S61PR-079-003.  Sample by NSSL, Lincoln, NE., 03/1961.\nGuayama soils are in MLRA 271.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "7.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 2 inches; very dark brown (7.5YR 2.5/2) gravelly clay loam; moderate fine and medium granular structure; soft, friable; slightly sticky, slightly plastic; many fine roots; common fine interstitial pores; about 25 percent, by volume, pebbles and 2 percent cobbles; moderately alkaline; noneffervescent; abrupt smooth boundary. (2 to 8 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 5,
+        "bottom": 33,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--2 to 13 inches; dark reddish brown (5YR 3/4) extremely paragravelly clay; massive, parting to weak fine subangular blocky structure; soft, friable; sticky, slightly plastic; few fine roots; common fine interstitial pores; few faint clay films on face of peds and pore linings; about 45 percent, by volume, paragravels and 20 percent paracobbles; slightly acid; noneffervescent; clear wavy boundary. (4 to 9 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 33,
+        "bottom": 58,
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Cr--13 to 23 inches; highly fractured unconsolidated chert; abrupt wavy boundary (4 to 10 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 58,
+        "narrative": "R--23 inches; hard consolidated chert bedrock."
+      }
+    ]
+  ]
 }

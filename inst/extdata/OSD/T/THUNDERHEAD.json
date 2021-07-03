@@ -56,5 +56,109 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from 0 to 7 inches mixed (A, upper part of Bt horizons)\nArgillic horizon - from 5 to 13 inches (Bt horizon)\nSecondary calcium carbonate accumulation - from 13 to 28 inches (Bk1, Bk2 horizons)\nCalcic horizon - from 22 to 28 inches (Bk2 horizon)\nParalithic contact - at 28 inches (Cr horizon)\nLithic contact - at 40 inches (R horizon)\nParticle size control section - from 5 to 13 inches (Bt horizon)\nThunderhead soils have a frigid temperature regime and an ustic moisture regime that borders on aridic.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 5 inches; light olive brown (2.5Y 5/3) gravelly loam, dark olive brown (2.5Y 3/3) moist; weak fine and medium subangular blocky structure parting to weak fine granular; soft, very friable, slightly sticky and slightly plastic; many very fine and few fine roots; 15 percent gravel; neutral (pH 7.0); clear smooth boundary. (5 to 7 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 13,
+        "bottom": 33,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--5 to 13 inches; light olive brown (2.5Y 5/3) clay loam, olive brown (2.5Y 4/3) moist; weak medium prismatic structure parting to weak fine granular; slightly hard, friable, moderately sticky and slightly plastic; many very fine and few fine roots; many distinct clay films on faces of peds and on surface of fragments; 10 percent gravel; neutral (pH 7.3); clear wavy boundary. (4 to 16 inches thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 33,
+        "bottom": 56,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 8.1,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bk1--13 to 22 inches; light gray (2.5Y 7/2) gravelly loam, light yellowish brown (2.5Y 6/3) moist; moderate fine and medium subangular blocky structure; slightly hard, friable, moderately sticky and slightly plastic; common very fine and few fine roots; 20 percent gravel and 5 percent cobbles; violently effervescent; finely disseminated calcium carbonate and common soft masses of calcium carbonate; moderately alkaline (pH 8.1); clear wavy boundary. (5 to 13 inches thick)"
+      },
+      {
+        "name": "Bk2",
+        "top": 56,
+        "bottom": 71,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "cf_class": "very gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk2--22 to 28 inches; pale yellow (2.5Y 7/3) very gravelly silty clay loam, light yellowish brown (2.5Y 6/3) moist; moderate fine and medium subangular blocky structure; slightly hard, friable, moderately sticky and slightly plastic; few fine roots; 30 percent gravel and 15 percent cobbles; finely disseminated calcium carbonate and common soft masses of calcium carbonate; violently effervescent; moderately alkaline (pH 8.2); clear smooth boundary. (5 to 10 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 71,
+        "bottom": 102,
+        "dry_hue": "5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH": 7.7,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Cr--28 to 40 inches; light olive gray (5Y 6/2) semiconsolidated sedimentary beds that crush to silt loam, dark gray (5Y 4/1) moist; strongly effervescent; slightly alkaline (pH 7.7); clear smooth boundary. (0 to 13 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 102,
+        "narrative": "R--40 inches; hard sedimentary rock."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This soil was formerly included in the Matapeake soil series.\nDiagnostic horizons and other diagnostic soil characteristics recognized in this pedon are:\nOchric epipedon--the zone from 0 to 16 inches (A and E horizon)\nArgillic horizon--the zone from 16 to 36 inches (Bt and 2 Bt horizons)\nAquic conditions--the zone from 48 inches to a depth of 80 inches is periodically saturated (endosaturation)\nSERIES INTERPRETATION RECORD(S): MD0168\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nMD0168 NASSAWANGO  0-  5   52- 58  190-210  38-48     0-40\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nMD0168 NONE          3.5-6.0  PERCHED  DEC-APR  >60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nMD0168  0-10  SIL FSL                 0-  0  70-100  5-15   5- 15\nMD0168 10-16  SIL                     0-  0 100-100  5-15   2- 10\nMD0168 16-36  SICL SIL                0-  0 100-100 18-30   2- 10\nMD0168 36-44  SIL L                   0-  0 100-100 10-20   2- 10\nMD0168 44-60  LS S                    0-  0  90-100  2-10   1-  3\nMD0168 60-72  FSL SL SIL              0-  0  70- 95  8-20   1-  3\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nMD0168  0-10  4.5- 6.5  1.-2.  0- 0   0.6- 2.0  LOW\nMD0168 10-16  4.5- 6.5  0.-.5  0- 0   0.6- 2.0  LOW\nMD0168 16-36  3.5- 5.5  0.-.5  0- 0   0.2- 0.6  LOW\nMD0168 36-44  3.5- 5.5  0.-.5  0- 0   0.6- 2.0  LOW\nMD0168 44-60  3.5- 5.5  0.-.5  0- 0   6.0-  20  LOW\nMD0168 60-72  3.5- 5.5  0.-.5  0- 0   0.2- 2.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 10 inches; dark brown (10YR 4/3) silt loam; weak fine granular structure; friable; slightly sticky, nonplastic; many fine and medium roots; very strongly acid; abrupt smooth boundary. (7 to 12 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 25,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--10 to 16 inches; light yellowish brown (10YR 6/4) silt loam; weak medium subangular blocky structure; friable; slightly sticky, nonplastic; many very fine and fine roots; strongly acid; clear smooth boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 41,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--16 to 36 inches; yellowish brown (10YR 5/6) silty clay loam; moderate medium subangular blocky structure; firm; moderately sticky, slightly plastic; common very fine and fine roots; distinct strong brown (7.5YR 5/8) clay films on faces of peds; very strongly acid; clear smooth boundary. (14 to 24 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 91,
+        "bottom": 112,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BC--36 to 44 inches; yellowish brown (10YR 5/6) silt loam; moderate medium subangular blocky structure; friable; slightly sticky, slightly plastic; few fine roots; extremely acid; clear smooth boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "2C1",
+        "top": 112,
+        "bottom": 122,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2C1--44 to 48 inches; light yellowish brown (10YR 6/4) loamy sand; massive; very friable; nonsticky, nonplastic; few very fine roots; few, fine distinct yellowish brown (10YR 5/6) iron accumulations; extremely acid; clear wavy boundary."
+      },
+      {
+        "name": "2C2",
+        "top": 122,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2C2--48 to 60 inches; light yellowish brown (10YR 6/4) sand; massive; very friable; nonsticky, nonplastic; few very fine roots; few medium prominent light gray (10YR 7/1) iron depletions; extremely acid; clear smooth boundary."
+      },
+      {
+        "name": "2Cg",
+        "top": 152,
+        "bottom": 183,
+        "moist_hue": "5Y",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "extremely acid",
+        "narrative": "2Cg--60 to 72 inches; light gray (5Y 7/1) fine sandy loam; massive; firm; nonsticky, nonplastic; few, coarse, prominent strong brown (7.5YR 5/8) iron accumulations; extremely acid."
+      }
+    ]
+  ]
 }

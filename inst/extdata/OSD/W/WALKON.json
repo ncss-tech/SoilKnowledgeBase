@@ -56,5 +56,86 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon:  0 to 4 inches.  (A horizon).  When colors meet the requirements of a mollic epipedon, the horizon is too thin.\nArgillic horizon:  4 to 24 inches.  (Bt horizons).\nLithic contact:  Sandstone at 31 inches (R horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; reddish brown (5YR 5/4) fine sandy loam, dark reddish brown (5YR 3/4) moist; moderate fine granular structure; soft, very friable, nonsticky and nonplastic; many fine and very fine roots; many fine interstitial pores; neutral; abrupt smooth boundary.  (4 to 7 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 10,
+        "bottom": 25,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt1--4 to 10 inches; reddish brown (5YR 4/4) clay loam, dark reddish brown (5YR 3/4) moist; moderate medium subangular blocky structure; hard, friable, slightly sticky and plastic; many fine roots; common fine tubular pores; common thin clay films on faces of peds and lining pores; neutral; abrupt wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 25,
+        "bottom": 61,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2--10 to 24 inches; reddish brown (5YR 5/4) clay loam, reddish brown (5YR 4/4) moist; moderate coarse prismatic structure parting to moderate medium subangular blocky; very hard, firm, sticky and plastic; few fine roots; many very fine and common fine tubular pores; many thin clay films on faces of peds and lining pores; slightly alkaline; abrupt wavy boundary.  (Combined thickness of Bt horizon is 15 to 33 inches)"
+      },
+      {
+        "name": "BC",
+        "top": 61,
+        "bottom": 79,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "BC--24 to 31 inches; light reddish brown (5YR 6/4) silt loam, reddish brown (5YR 5/4) moist; massive; very hard, friable, slightly sticky and slightly plastic; few fine roots; many fine tubular pores; strongly effervescent; moderately alkaline; abrupt smooth boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 79,
+        "texture_class": "sand",
+        "narrative": "R--31 inches; sandstone with calcium carbonate deposits on surface and in cracks."
+      }
+    ]
+  ]
 }

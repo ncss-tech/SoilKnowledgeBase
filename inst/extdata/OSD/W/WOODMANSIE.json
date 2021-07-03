@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and other diagnostic soil characteristics recognized in this pedon are:\nOchric epipedon--the zone from the soil surface to a depth of 17 inches (A, E, and BE horizons)\nAlbic horizon--the zone from 2 to 8 inches (E horizon)\nArgillic horizon--the zone from 17 to 30 inches (Bt horizon)\nSERIES INTERPRETATION RECORD(S): NJ0012, NJ0226 (FIRM SUBSTRATUNM), NJ0227 (LOAMY SUBSTRATUM)\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNJ0012 WOODMANSIE  0- 10     -        -       -         -\nNJ0226 WOODMANSIE  0-  5     -        -       -         -\nNJ0227 WOODMANSIE  0-  5   50- 55  160-190  40- 48      -\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNJ0012 NONE          6.0-6.0              -     >60\nNJ0226 NONE          6.0-6.0              -     >60\nNJ0227 NONE          6.0-6.0              -     >60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNJ0012  0-17  S LS                    0-  0  85-100  5-17    -\nNJ0012 17-30  SL GR-SL SCL            0-  0  60-100  5-17    -\nNJ0012 30-60  SR GR-S SCL             0-  0  40-100  1-25    -\nNJ0226  0-17  S LS                    0-  0  85-100  0- 5    -\nNJ0226 17-30  SL GR-SCL               0-  0  55-100 10-25    -\nNJ0226 30-60  SC GR-SCL               0-  0  50- 85 20-32    -\nNJ0227  0-17  S LS                    0-  0  85-100  2- 6   1-  6\nNJ0227 17-30  SL GR-SL SCL            0-  0  60-100 10-25   3-  8\nNJ0227 30-40  GRV-LS S SL             0-  2  40-100  2-10   1-  3\nNJ0227 40-60  SCL SC C                0-  0  85-100 25-45   8- 14\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNJ0012  0-17  3.6- 4.4    -    0- 0   6.0-  20  LOW\nNJ0012 17-30  3.6- 5.5    -    0- 0   0.6- 6.0  LOW\nNJ0012 30-60  3.6- 5.5    -    0- 0   0.6-  20  LOW\nNJ0226  0-17  3.6- 4.4  .5-1.  0- 0   6.0-  20  LOW\nNJ0226 17-30  3.6- 5.5    -    0- 0   2.0- 6.0  LOW\nNJ0226 30-60  3.6- 5.5    -    0- 0   0.2- 0.6  LOW\nNJ0227  0-17  3.6- 4.4  .5-2.  0- 0   6.0-  20  LOW\nNJ0227 17-30  3.6- 4.4  0.-.5  0- 0   2.0- 6.0  LOW\nNJ0227 30-40  3.6- 5.5  0.-.5  0- 0   2.0-  20  LOW\nNJ0227 40-60  3.6- 5.5  0.-.5  0- 0  0.06- 2.0  MODERATE\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {}
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "N",
+        "moist_value": 4,
+        "moist_chroma": 0,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; dark gray (N 4/0) sand; single grain; loose; less than 1 percent, by volume fine rounded quartz pebbles; very strongly acid; abrupt smooth boundary. (0 to 4 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--2 to 8 inches; gray (10YR 6/1) sand; single grain; loose; 1 percent fine rounded quartzose pebbles; very strongly acid; clear wavy boundary.  (6 to 12 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 20,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "BE--8 to 17 inches; light yellowish brown (10YR 6/4) sand; single grain; loose; 2 percent, by volume rounded quartzose pebbles; very strongly acid; abrupt smooth boundary. (3 to 13 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 43,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt--17 to 30 inches; yellowish brown (10YR 5/6) sandy loam; weak fine and medium subangular blocky structure; very friable; slightly sticky, nonplastic; common clay and silt bridging of sand grains; 3 percent, by volume fine and coarse rounded quartzose pebbles; very strongly acid; gradual smooth boundary. (10 to 20 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 76,
+        "bottom": 114,
+        "moist_hue": "2.5Y",
+        "moist_value": 8,
+        "moist_chroma": 6,
+        "texture_class": "coarse sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "C1--30 to 45 inches; yellow (2.5Y 8/6) coarse sand; single grain; loose; 10 percent, by volume fine pebbles; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "C2",
+        "top": 114,
+        "bottom": 152,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "coarse sandy loam",
+        "pH_class": "very strongly acid",
+        "narrative": "C2--45 to 60 inches; reddish yellow (7.5YR 6/6) coarse sandy loam; massive; friable; all grains coated and bridged with clay; very strongly acid."
+      }
+    ]
+  ]
 }

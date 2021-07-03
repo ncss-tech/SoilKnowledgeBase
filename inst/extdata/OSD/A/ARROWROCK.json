@@ -56,5 +56,74 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon:\nOchric epipedon - zone from the soil surface to 7 inches (A1 and A2 horizons)\nParalithic contact - at 12 inches (Cr horizon)\nLithic contact - at 15 inches (R)\nParticle-size control section - zone from the soil surface to 12 inches\nSoil moisture regime - aridic bordering on xeric\nThese soils are drier than other soils in the region under similar precipitation due to very low water holding capacity, early runoff and extended period of high evapotranspiration.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 2 inches; grayish brown (10YR 5/2) fine gravelly loamy sand, dark grayish brown (10YR 4/2) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; many very fine roots; many very fine irregular pores; 30 percent fine gravel; neutral (pH 6.8); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--2 to 7 inches; brown (10YR 5/3) fine gravelly loamy sand, brown (10YR 4/3) moist; weak fine and medium subangular blocky structure parting to single grain; soft, loose, nonsticky and nonplastic; many very fine roots; many very fine irregular pores; 20 percent fine gravel; neutral (pH 6.8); clear smooth boundary. (combined A horizon - 5 to 12 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 18,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "cf_class": "gravelly",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--7 to 12 inches; yellowish brown (10YR 5/4) fine gravelly loamy sand, brown (10YR 4/3) moist; single grain; loose, nonsticky and nonplastic; many very fine roots; many very fine irregular pores; 30 percent fine gravel; neutral (pH 6.7); clear wavy boundary. (3 to 8 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 30,
+        "bottom": 38,
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Cr--12 to 15 inches; weathered granodiorite; gradual wavy boundary. (2 to 6 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 38,
+        "narrative": "R--15 inches; unweathered granodiorite."
+      }
+    ]
+  ]
 }

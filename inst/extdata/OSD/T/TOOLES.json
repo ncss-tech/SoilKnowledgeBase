@@ -56,5 +56,86 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedons - the zone from the surface of the soil to a depth of approximately 5 inches (Ap horizon).\nAlbic horizon - the zone from approximately 9 to 17 inches (E horizon).\nArgillic horizon - the zone from approximately 32 inches to 46 inches (Btg horizon).  Limestone bedrock at approximately 46 inches (R layer).\nDepth to a seasonal high water table ranges between 0 and 12 inches for 6 to 10 months or is ponded.\nADDITIONAL DATA:  Characterization pedon - Jefferson County, Florida; S33-38-(1-5).  Additional data:  S65-3-(1-4) and S15-6-(1-4).  Samples by Soil Characterization Lab, IFAS, Univ. of Florida, Gainesville, FL.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "5Y",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 5 inches; black (5Y 2.5/1) fine sand; weak fine granular structure; very friable; many fine, medium, and coarse roots; very strongly acid; clear smooth boundary.  (2 to 8 inches thick)"
+      },
+      {
+        "name": "A/E",
+        "top": 13,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A/E--5 to 9 inches; mixed very dark gray (10YR 3/1) and gray (10YR 6/1) fine sand; single grained; loose; many medium and coarse roots; slightly acid; clear smooth boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 23,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--9 to 17 inches; light gray (10YR 7/1) fine sand; single grained; loose; common medium roots; many uncoated sand grains; common medium distinct brown (10YR 5/3) masses of iron accumulation; neutral; clear wavy boundary."
+      },
+      {
+        "name": "Bw",
+        "top": 43,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sand",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bw--17 to 32 inches; brown (10YR 5/3) fine sand; single grained; loose; few medium roots; most sand grains are coated; many medium distinct gray (10YR 6/1) iron depletions; neutral; abrupt irregular boundary.  (Combined thickness of the E, Eg, or Bw horizons is 18 to 38 inches.)"
+      },
+      {
+        "name": "Btg",
+        "top": 81,
+        "bottom": 117,
+        "moist_hue": "5GY",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Btg--32 to 46 inches; light greenish gray (5GY 7/1) sandy clay loam; moderate medium subangular blocky structure; many fine prominent yellowish red (5YR 5/8) masses of iron accumulation; slightly alkaline; abrupt irregular boundary.  (5 to 20 inches thick.)"
+      },
+      {
+        "name": "R",
+        "top": 117,
+        "narrative": "R--46 inches; fractured limestone bedrock."
+      }
+    ]
+  ]
 }

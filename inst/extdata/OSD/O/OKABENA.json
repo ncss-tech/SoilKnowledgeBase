@@ -56,5 +56,98 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 25 to 100 centimeters; series control section--the zone from the surface to a depth of 150 centimeters.\nDiagnostic horizon and features recognized in this pedon are:\nmollic epipedon--the zone from the surface of the soil to a depth of 38 centimeters (Ap and AB horizons);\ncambic horizon--the zone from a depth of 38 to 56 centimeters (Bw horizon); calcic horizon--the zone from a depth of 109 to 122 centimeters (Bkg horizon);.\nudic moisture regime.\nCation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomy version--Keys to Soil Taxonomy, tenth edition, 2006.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 25 centimeters; black (10YR 2/1) silty clay loam, very dark gray (10YR 3/1) dry; moderate fine subangular blocky structure; friable; slightly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "AB",
+        "top": 25,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "AB--25 to 38 centimeters; black (10YR 2/1) silty clay loam, very dark gray (10YR 3/1) dry; weak fine and very fine subangular blocky structure; friable; few dark brown (10YR 3/3) streaks on faces of peds; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bw",
+        "top": 38,
+        "bottom": 56,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--38 to 56 centimeters; olive brown (2.5Y 4/3) silty clay loam; weak fine subangular blocky structure; friable; few dark yellowish brown (10YR 4/4) streaks on faces of peds; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bkg",
+        "top": 56,
+        "bottom": 109,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bkg--56 to 109 centimeters; grayish brown (2.5Y 5/2) silt loam; weak fine subangular blocky structure; friable; common white (10YR 8/1) masses of carbonates; common fine prominent yellowish brown (10YR 5/6) iron concentrations; strongly effervescent; moderately alkaline; clear wavy boundary."
+      },
+      {
+        "name": "BCkg1",
+        "top": 109,
+        "bottom": 122,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BCkg1--109 to 122 centimeters; grayish brown (2.5Y 5/2) silt loam; massive; few thin seams of very fine sandy loam on faces of peds; few white (10YR 8/1) masses of carbonates; friable; common medium prominent strong brown (7.5YR 5/6) iron concentrations; strongly effervescent; slightly alkaline; gradual wavy boundary."
+      },
+      {
+        "name": "2BCkg2",
+        "top": 122,
+        "bottom": 203,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "2BCkg2--122 to 203 centimeters; olive gray (5Y 5/2) loam; massive; friable; few white (10YR 8/1) masses of carbonates; common fine prominent yellowish brown (10YR 5/6) iron concentrations; about 6 percent gravel; slightly effervescent; slightly alkaline."
+      }
+    ]
+  ]
 }

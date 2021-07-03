@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This revision reflects changes to the range in characteristics as well as general updating to metric units.\nDiagnostic horizons and features recognized in this pedon are:\n1) Ochric epipedon - the zone from the soil surface to a depth of 5 inches (13 centimeters) (A horizon).\n2) Cambic horizon - the zone from 5 to 14 inches (13 to 36 centimeters)  (Bw1 horizon).\n3) Sandy-skeletal feature - about 43 percent weighted average volume of rock fragments in the particle-size control section.\n4) Particle-size control section - the zone from 25 to 100 centimeters (Bw1, Bw2, and C horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oa",
+        "top": 0,
+        "bottom": 5,
+        "pH_class": "very strongly acid",
+        "narrative": "Oa -- 0 to 2 inch (0 to 5 centimeters); black (N 2/) highly decomposed plant material; many fine roots; very strongly acid."
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A -- 2 to 6 inches (5 to 15 centimeters); very dark grayish brown (10YR 3/2) sandy loam; weak fine and medium granular structure; very friable; many fine, medium and coarse roots; 10 percent gravel; very strongly acid; abrupt wavy boundary. (1 to 5 inches (3 to 13 centimeters) thick.)"
+      },
+      {
+        "name": "Bw",
+        "top": 15,
+        "bottom": 38,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw -- 6 to 15 inches (15 to 38 centimeters); strong brown (7.5YR 5/6) gravelly sandy loam; weak fine and medium granular structure; very friable; many fine, medium and coarse roots; 30 percent cobbles and gravel; strongly acid; clear wavy boundary. (6 to 13 inches (15 to 33 centimeters) thick.)"
+      },
+      {
+        "name": "Bw2",
+        "top": 38,
+        "bottom": 74,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "very gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2 -- 15 to 29 inches (38 to 74 centimeters); yellowish brown (10YR 5/6) very gravelly loamy coarse sand; very weak fine and medium granular structure; very friable; common fine and medium roots; 40 percent cobbles and gravel; strongly acid; clear wavy boundary. (Combined thickness of the Bw horizons is 11 to 28 inches (28 to 71 centimeters).)"
+      },
+      {
+        "name": "C",
+        "top": 74,
+        "bottom": 165,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "very gravelly",
+        "pH_class": "strongly acid",
+        "narrative": "C -- 29 to 65 inches (74 to 165 centimeters); light yellowish brown (2.5Y 6/4) very gravelly loamy coarse sand; massive; very friable; few fine and medium roots; 40 percent cobbles and gravel; strongly acid."
+      }
+    ]
+  ]
 }

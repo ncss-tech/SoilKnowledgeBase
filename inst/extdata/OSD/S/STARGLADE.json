@@ -56,5 +56,61 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizon and features recognized in this pedon are:\nMollic epipedon - from surface to 7 inches (A and Bw horizons)\nVitrandic feature - from the surface to 7 inches (A and Bw horizons)\nLithic contact at 7 inches\nParticle-size control section - 0 to 7 inches (A and Bw horizons)\nXeric moisture regime\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 2 inches; dark brown (10YR 3/3) very cobbly ashy loam, brown (10YR 5/3) dry; moderate fine and medium granular structure; slightly hard, very friable, slightly sticky and moderately plastic; common very fine roots; many fine irregular pores; 5 percent stones, 20 percent cobbles, and 20 percent gravel; neutral (pH 7.2); gradual wavy boundary.  (1 to 3 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 5,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--2 to 7 inches; dark brown (10YR 3/3) very cobbly ashy loam, yellowish brown (10YR 5/4) dry; moderate medium subangular blocky structure; slightly hard, very friable, slightly sticky and moderately plastic; common very fine and fine roots; common very fine tubular pores; 20 percent cobbles and 20 percent gravel; slightly alkaline (pH 7.8); abrupt wavy boundary.  (3 to 9 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 18,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "narrative": "2R--7 inches; fractured igneous rock; soil material and roots are found within the fractures; dark brown (7.5YR 3/4) clay films coat the fracture walls"
+      }
+    ]
+  ]
 }

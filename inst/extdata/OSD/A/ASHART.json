@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This revision changes particle-size class, mineralogy class, and subgroup to better reflect this series physical and climatic properties.  The assignment of the ashy substitute class and glassy mineralogy class is based on properties of associated soils and the vegetative community.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 18 cm (A and E horizons).\nAlbic horizon - The zone from 8 to 18 cm (E horizon).\nArgillic horizon - The zone from 18 to 38 cm (Bt1 and Bt2 horizons).\nParalithic contact - The boundary at 38 cm to underlying soft bedrock (Cr layer).\nParticle-size control section and substitute class with glassy mineralogy - The zone from 18 to 38 cm (Bt1 and Bt2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 8 cm; grayish brown (10YR 5/2) ashy sandy loam, very dark grayish brown (10YR 3/2) moist; weak medium platy structure; slightly hard, very friable, nonsticky and nonplastic; common very fine and fine roots; many very fine interstitial and few fine tubular pores; 5 percent gravel; slightly alkaline (pH 7.4); clear smooth boundary.  (5 to 10 cm thick)"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--8 to 18 cm; grayish brown (10YR 5/2) ashy loam, dark grayish brown (10YR 4/2) moist; weak medium platy structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine and fine roots; many very fine interstitial, few fine and medium tubular pores; common light brownish gray (10YR 6/2) uncoated sand grains on faces of peds; 5 percent gravel; slightly alkaline (pH 7.4); clear smooth boundary.  (5 to 13 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--18 to 28 cm; brown (10YR 5/3) ashy clay loam, brown (10YR 4/3) moist; moderate medium prismatic structure parting to moderate medium subangular blocky; slightly hard, very friable, moderately sticky and moderately plastic; common very fine and fine roots; common fine tubular pores; common faint clay films lining pores and coating mineral grains; many distinct light brownish gray (10YR 6/2) silt coats on tops of prisms; 5 percent gravel; slightly alkaline (pH 7.8); clear smooth boundary.  (10 to 15 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 28,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--28 to 38 cm; pale brown (10YR 6/3) ashy clay loam, brown (10YR 5/3) moist; weak medium prismatic structure parting to moderate medium subangular blocky; slightly hard, very friable, moderately sticky and moderately plastic; few very fine and fine roots; common fine tubular pores; many faint clay films on faces of peds and common prominent clay films lining pores; 5 percent gravel; slightly alkaline (pH 7.8); clear smooth boundary.  (0 to 15 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 38,
+        "bottom": 43,
+        "narrative": "Cr--38 to 43 cm; soft fractured vitric tuff; strong thick plates with fine coats of secondary carbonates along fractures; violently effervescent."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,107 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - 0 to 5 inches, mixed (A1, A2 horizons)\nCalcic horizon - from 5 to 32 inches (Bk1, Bk2, Bk3 horizons)\nLithic contact - at 32 inches (R horizon)\nParticle-size control section - from 10 to 32 inches (part of Bk1, Bk2, Bk3 horizons)\nHaxby soils have a frigid temperature regime and an ustic moisture regime bordering on aridic.\nADDITIONAL DATA: Soil interpretation record - MT1566.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 3 inches; brown (10YR 5/3) loam, very dark grayish brown (10YR 3/2) moist; moderate fine granular structure; soft, very friable, nonsticky and nonplastic; many very fine and fine roots; many very fine interstitial pores; neutral (pH 7.2); clear wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--3 to 5 inches; yellowish brown (10YR 5/4) loam, dark brown (10YR 3/3) moist; moderate medium prismatic structure parting to moderate medium subangular blocky; slightly hard, friable, slightly sticky and slightly plastic; many very fine and fine roots; common very fine and fine interstitial and tubular pores; slightly alkaline (pH 7.4); clear smooth boundary. (combined thickness of A1, A2 horizons - 4 to 9 inches)."
+      },
+      {
+        "name": "Bk1",
+        "top": 13,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 8.3,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk1--5 to 14 inches; light gray (10YR 7/2) loam, pale brown (10YR 6/3) moist; moderate medium prismatic structure parting to weak medium subangular blocky; slightly hard, very friable, nonsticky and nonplastic; common very fine and fine roots; many very fine interstitial and tubular pores; 5 percent gravel; finely disseminated calcium carbonate and common fine masses and threads of calcium carbonate; violently effervescent; moderately alkaline (pH 8.3); gradual wavy boundary."
+      },
+      {
+        "name": "Bk2",
+        "top": 36,
+        "bottom": 53,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk2--14 to 21 inches; pale yellow (2.5Y 7/4) sandy loam, light yellowish brown (2.5Y 6/4) moist; weak and medium coarse prismatic structure; slightly hard, very friable, nonsticky and nonplastic; common very fine and fine roots; few to common very fine interstitial and tubular pores; 5 percent gravel; finely disseminated calcium carbonate and common fine masses and threads of calcium carbonate; violently effervescent; moderately alkaline (pH 8.4); gradual wavy boundary. (combined thickness of Bk1, Bk2 horizons - 13 to 30 inches)."
+      },
+      {
+        "name": "Bk3",
+        "top": 53,
+        "bottom": 81,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk3--21 to 32 inches; light yellowish brown (10YR 6/4) gravelly sandy loam, yellowish brown (10YR 5/4) moist; weak coarse prismatic structure; slightly hard, friable, nonsticky and nonplastic; few very fine roots; few to common very fine and fine pores; 20 percent gravel; common distinct calcium carbonate coatings on fragments and common masses and threads of calcium carbonate; strongly effervescent; moderately alkaline (pH 8.4); clear smooth boundary. (0 to 12 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 81,
+        "narrative": "R--32 inches; hard fine grained igneous bedrock."
+      }
+    ]
+  ]
 }

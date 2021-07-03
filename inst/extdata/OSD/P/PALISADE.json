@@ -56,5 +56,113 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 7 inches (A horizon and part of the Bw horizon).\nCambic horizon - The zone from 6 to 12 inches (Bw horizon).\nCalcic horizon - The zone from 12 to 30 inches (Bk and Bkn horizons).\nSodic feature - The zone from 19 to 43 inches (Bkn and Cn1 horizons).\nParticle-size control section - The zone from 10 to 40 inches (Bk and Bkn horizons and parts of the Bw and Cn1 horizons).\nThe Palisade series was last reviewed in the field in 1965.  The type location was moved from Millard County to Box Elder County with the update of the series in 1998.  The revision of April 2005 updates the taxonomic class from Coarse-loamy, mixed, superactive, mesic Xeric Haplocalcids based on estimated soil properties for cation exchange capacity and sodium adsorption ratio in the NASIS database.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 6 inches; pale brown (10YR 6/3) silt loam, dark grayish brown (10YR 4/2) moist; weak thin platy structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine roots; many fine and medium pores; strongly effervescent; moderately alkaline (pH 8.4); clear smooth boundary.  (3 to 7 inches thick.)"
+      },
+      {
+        "name": "Bw",
+        "top": 15,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 8.5,
+        "pH_class": "strongly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--6 to 12 inches; very pale brown (10YR 7/3) silt loam, brown (10YR 5/3) moist; weak medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine roots; common very fine vesicular pores; strongly effervescent; strongly alkaline (pH 8.5); clear smooth boundary.  (6 to 9 inches thick.)"
+      },
+      {
+        "name": "Bk",
+        "top": 30,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 8.7,
+        "pH_class": "strongly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk--12 to 19 inches; very pale brown (10YR 7/3) silt loam, brown (10YR 5/3) moist; weak medium and coarse subangular blocky structure; hard, friable, slightly sticky and slightly plastic; few very fine roots; many very fine vesicular pores; violently effervescent; secondary carbonates are disseminated in the matrix; strongly alkaline (pH 8.7); gradual wavy boundary.  (5 to 8 inches thick.)"
+      },
+      {
+        "name": "Bkn",
+        "top": 48,
+        "bottom": 76,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 9.4,
+        "pH_class": "very strongly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bkn--19 to 30 inches; light gray (10YR 7/2) loam, brown (10YR 5/3) moist; weak medium and coarse subangular blocky structure; very hard, friable, nonsticky and nonplastic; few very fine roots; many very fine vesicular pores; violently effervescent; secondary carbonates are disseminated in the matrix; very strongly alkaline (pH 9.4); gradual smooth boundary.  (10 to 16 inches thick.)"
+      },
+      {
+        "name": "Cn1",
+        "top": 76,
+        "bottom": 109,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "very fine sandy loam",
+        "pH": 9.1,
+        "pH_class": "very strongly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Cn1--30 to 43 inches; pale brown (10YR 6/3) very fine sandy loam, brown (10YR 5/3) moist; massive; soft, friable, nonsticky and nonplastic; violently effervescent; very strongly alkaline (pH 9.1); gradual wavy boundary."
+      },
+      {
+        "name": "Cn2",
+        "top": 109,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "very fine sandy loam",
+        "pH": 9.2,
+        "pH_class": "very strongly alkaline",
+        "narrative": "Cn2--43 to 60 inches; pale brown (10YR6/3) very fine sandy loam, brown (10YR 4/3) moist; massive; soft, friable, nonsticky and nonplastic; violently effervescent; very strongly alkaline (pH 9.2)."
+      }
+    ]
+  ]
 }

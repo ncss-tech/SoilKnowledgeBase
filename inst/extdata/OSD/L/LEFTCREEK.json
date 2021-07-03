@@ -56,5 +56,57 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic properties and features recognized in this pedon include:\nOchric epipedon\nCambic horizon - 5 to 14 inches (Bw horizon)\nPSCS - zone from 0 to 14 inches (A and Bw horizons)\nLithic Contact - 14 inches\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "cobbly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 5 inches; light brownish gray (10YR 6/2) cobbly ashy sandy loam, dark grayish brown (10YR 4/2) moist; weak fine and medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; common fine and medium roots; common very fine and fine irregular pores; 15 percent pebbles, 10 percent cobbles, and 5 percent stones; slightly acid (pH 6.4); gradual wavy boundary. (2 to 8 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 13,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very cobbly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--5 to 14 inches; pale brown (10YR 6/3) very cobbly ashy sandy loam, dark grayish brown (10YR 4/2) moist; weak fine and medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; common fine and medium roots; common very fine and fine irregular pores; 20 percent pebbles, 15 percent cobbles, and 5 percent stones; slightly acid (pH 6.4); abrupt wavy boundary. (8 to 18 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 36,
+        "narrative": "2R--14 inches; granite."
+      }
+    ]
+  ]
 }

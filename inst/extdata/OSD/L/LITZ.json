@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The shale fragments in the C horizon easily crush to fine earth fractions.\nDiagnostic horizons and features recognized in this pedon are:\n1. Ochric epipedon-zone from the surface to 5 inches (Ap horizon)\n2. Cambic horizon-major part of the zone from 5 to 12 inches (Bw/Bt horizon)\n3. Argillic horizon-thin discontinuous part of the zone from 5 to 12 inches (Bw/Bt horizon)\nCation-exchange activity class assignment based on data from 3 pedons sampled by the Virginia Agricultural Experiment\nStation. Data is published in: Edmonds, W.J., D.D. Rector, N.O. Wilson, and T.L. Arnold. 1986. Properties,\nClassification, and Upland Oak Site Quality for Residual Soils Derived from Shales, Phyllites, Siltstones, and\nSandstones in Southwestern Virginia. VA Agri. Exp. Station Bulletin 86-5.\nSIR = VA0025, VA0338 (CHANNERY)\nMLRA = 120, 128, 147,\nREVISED = 11/14/94, MHC;\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 5 inches; brown (7.5YR 4/2) silt loam; weak fine granular structure; very friable, slightly sticky, slightly   plastic; common fine roots; 10 percent weathered shale channers; strongly acid; clear smooth boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bw/Bt",
+        "top": 13,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bw/Bt--5 to 12 inches; 60 percent yellowish brown (10YR 5/4) channery silt loam (Bw); 40 percent irregularly shaped areas of strong brown (7.5YR 5/6) silty clay loam (Bt); weak fine and medium subangular blocky structure; slightly hard, friable, slightly sticky, slightly plastic; few fine roots; many fine pores; 30 percent weathered shale channers; few thin patchy films of clay on faces of peds in the Bt part; strongly acid; clear irregular boundary. (6 to 25 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 30,
+        "bottom": 61,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "cf_class": "extremely channery",
+        "pH_class": "strongly acid",
+        "distinctness": "diffuse",
+        "topography": "irregular",
+        "narrative": "C--12 to 24 inches; olive gray (5Y 4/2), yellowish brown (10YR 5/6), and strong brown (7.5YR 5/6) extremely channery silt loam and silty clay loam; massive, rock controlled structure; few fine roots; 75 percent weathered shale channers and flagstones; strongly acid; diffuse irregular boundary. (0 to 25 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 61,
+        "bottom": 91,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "diffuse",
+        "topography": "irregular",
+        "narrative": "Cr--24 to 36 inches; olive gray (5Y 4/2), gray (10YR 5/1), and weak red (2.5YR 5/2) slightly weathered shale that crushes to silt loam; few thin lenses of strong brown (7.5YR 5/6) silt loam; strongly acid; diffuse irregular boundary. (0 to 25 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 91,
+        "narrative": "R--36 inches; Hard olive gray, gray, and weak red tilted shale bedrock."
+      }
+    ]
+  ]
 }

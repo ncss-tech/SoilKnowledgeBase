@@ -56,5 +56,101 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features and horizons recognized in this profile include:\nAlbic horizon: 0.5 to 2 inches. (E horizon)\nSpodic horizon: 2 to 7 inches. (2Bs horizon)\nSandy-skeletal particle size control section: 10 to 40 inches\nTemperature regime: cryic.\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "2.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "pH": 3.9,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 1 inches; very dusky red (2.5YR 2.5/2) slightly decomposed plant material; many very fine and fine and few medium roots; extremely acid (pH 3.9); abrupt smooth boundary."
+      },
+      {
+        "name": "E",
+        "top": 3,
+        "bottom": 5,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 4.6,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--1 to 2 inches; dark reddish brown (5YR 3/2) silt loam; very friable, nonsticky and nonplastic; many very fine and fine and few medium roots; 2 percent gravel; very strongly acid (pH 4.6); abrupt wavy boundary."
+      },
+      {
+        "name": "2Bs",
+        "top": 5,
+        "bottom": 18,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "gravelly",
+        "pH": 5.4,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bs--2 to 7 inches; dark reddish brown (2.5YR 3/4) and reddish brown (5YR 4/4) gravelly loamy coarse sand; loose, nonsticky and nonplastic; common very fine and fine roots; 15 percent gravel; strongly acid (pH 5.4); clear wavy boundary."
+      },
+      {
+        "name": "2BC",
+        "top": 18,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "coarse sand",
+        "cf_class": "very cobbly",
+        "pH": 5.4,
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2BC--7 to 18 inches; dark yellowish brown (10YR 4/4) very cobbly coarse sand; loose, nonsticky and nonplastic; common very fine and fine roots; 30 percent gravel, 20 percent cobbles; strongly acid (pH 5.4); gradual smooth boundary."
+      },
+      {
+        "name": "2C1",
+        "top": 46,
+        "bottom": 71,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "coarse sand",
+        "cf_class": "very cobbly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "2C1--18 to 28 inches; brown (10YR 4/3) very cobbly coarse sand; loose, nonsticky and nonplastic; few very fine and fine roots; 30 percent gravel, 20 percent cobbles; moderately acid (pH 5.8); diffuse smooth boundary."
+      },
+      {
+        "name": "2C2",
+        "top": 71,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "coarse sand",
+        "cf_class": "very cobbly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "narrative": "2C2--28 to 60 inches; brown (10YR 4/3) very cobbly coarse sand; loose, nonsticky and nonplastic; 30 percent gravel, 20 percent cobbles; moderately acid (pH 5.8)."
+      }
+    ]
+  ]
 }

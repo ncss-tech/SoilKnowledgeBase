@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from 2 to 14 inches (A1, A2 horizons)\nCambic horizon - from 14 to 27 inches (Bw horizon)\nRedox concentrations - from 14 to 27 inches (Bw horizon)\nLithologic discontinuity - at 27 inches (2C horizon)\nParticle-size control section - from 12 to 42 inches (part of A2, Bw, part of 2C horizons)\nWisdom soils have a cryic temperature regime, an ustic moisture regime, and an oxyaquic moisture subclass.\nAdditional Information: Oxyaquic condition is due to prolonged saturation from flood irrigation.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 2 inches; slightly decomposed matted roots; abrupt smooth boundary. (1 to 3 inches thick)"
+      },
+      {
+        "name": "A1",
+        "top": 5,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--2 to 7 inches; dark grayish brown (10YR 4/2) silt loam, very dark gray (10YR 3/1) moist; moderate fine and medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine and common fine roots; many very fine and fine dendritic tubular pores; neutral (pH 7.2); clear wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 18,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--7 to 14 inches; grayish brown (10YR 5/2) silt loam, very dark grayish brown (10YR 3/2) moist; weak fine and medium subangular blocky structure parting to weak very fine and fine granular; soft, very friable, slightly sticky and slightly plastic; many very fine and common fine roots; many very fine and fine dendritic tubular pores; neutral (pH 6.7); clear wavy boundary. (combined thickness of A1, A2 horizons - 7 to 15 inches)"
+      },
+      {
+        "name": "Bw",
+        "top": 36,
+        "bottom": 69,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--14 to 27 inches; pale brown (10YR 6/3) loam, brown (10YR 5/3) moist; common fine distinct yellowish brown (10YR 5/6) moist redox concentrations (due to prolonged saturation from flood irrigation); weak medium prismatic structure parting to moderate fine and medium subangular blocky; slightly hard, friable, moderately sticky and slightly plastic; common very fine and few fine roots; common very fine and few fine dendritic tubular pores; 5 percent gravel; neutral (pH 6.7); clear wavy boundary. (6 to 25 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 69,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "extremely gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "narrative": "2C--27 to 60 inches; light yellowish brown (10YR 6/4) extremely gravelly sand, yellowish brown (10YR 5/4) moist; single grain; loose, nonsticky and nonplastic; 45 percent gravel and 20 percent cobbles; neutral (pH 6.8)."
+      }
+    ]
+  ]
 }

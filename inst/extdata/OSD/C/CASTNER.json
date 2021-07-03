@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from 0 to 25 cm (A1 and A2 horizons)\nSecondary calcium carbonate accumulation - from 25 to 41 cm (BCk horizon)\nLithic contact - at 41 cm (R horizon)\nParticle-size control section - from 25 to 41 cm (BCk horizon)\nCastner soils have a frigid temperature regime and an ustic moisture regime.\nNote: The frost-free period ranging up to 135 days in Cascade County Area, Montana needs to be investigated.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "channery",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 5 cm; dark grayish brown (10YR 4/2) channery sandy loam, very dark grayish brown (10YR 3/2) moist; moderate medium granular structure; soft, very friable, slightly sticky and nonplastic; many fine roots; many fine and medium pores; 25 percent channers, 2 percent flagstones; neutral (pH 7.2); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely channery",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--5 to 25 cm; brown (10YR 4/3) extremely channery loam, very dark grayish brown (10YR 3/2) moist; moderate medium granular structure; slightly hard, very friable, slightly sticky and nonplastic; many fine and very fine roots; many fine and very fine pores; 50 percent channers, 10 percent flagstones; carbonate coats on bottom of some rock fragments; slightly effervescent; slightly alkaline (pH 7.6); clear smooth boundary. (combined thickness of A horizons is 18 to 38 cm)"
+      },
+      {
+        "name": "BCk",
+        "top": 25,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely channery",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "BCk--25 to 41 cm; pale brown (10YR 6/3) extremely channery loam, dark grayish brown (10YR 4/2) moist; massive; slightly hard, very friable, slightly sticky and slightly plastic; many fine and very fine roots with a root mat at lithic contact; 60 percent channers, 15 percent flagstones; common prominent carbonate coats and pendants; strongly effervescent; moderately alkaline (pH 8.4); abrupt wavy boundary."
+      },
+      {
+        "name": "R",
+        "top": 41,
+        "texture_class": "sand",
+        "narrative": "R--41 cm; layered, fractured calcareous sandstone with carbonate coats at contact of fractures."
+      }
+    ]
+  ]
 }

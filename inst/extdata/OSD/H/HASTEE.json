@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 43 cm (A1 and A2 horizons).\nParalithic contact - The boundary at 114 cm to underlying soft, weathered bedrock (2Cr layer).\nParticle-size control section - The zone from 25 to 100 cm (C1 horizon and parts of the A2 and C2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "extremely bouldery",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 15 cm; dark grayish brown (10YR 4/2) extremely bouldery coarse sandy loam, very dark brown (10YR 2/2) moist; moderate fine and medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; many very fine and many fine roots; many fine interstitial pores; 30 percent boulders and stones, 10 percent gravel; slightly acid (pH 6.3); clear wavy boundary.  (10 to 25 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 15,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "very stony",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--15 to 43 cm; dark grayish brown (10YR 4/2) very stony coarse sandy loam, very dark brown (10YR 2/2) moist; moderate fine and medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; many very fine and many fine roots; many fine interstitial pores; 40 percent stones, 5 percent cobbles, and 10 percent gravel; slightly acid (pH 6.3); clear wavy boundary.  (25 to 46 cm thick)"
+      },
+      {
+        "name": "C1",
+        "top": 43,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "very stony",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C1--43 to 56 cm; pale brown (10YR 6/3) very stony loamy coarse sand, brown (10YR 4/3) moist; massive; soft, very friable, nonsticky and nonplastic; common very fine, common fine, and common medium roots; common very fine and common fine interstitial pores; 40 percent stones, 5 percent cobbles, and 10 percent gravel; slightly acid (pH 6.4); clear wavy boundary.  (10 to 36 cm thick)"
+      },
+      {
+        "name": "C2",
+        "top": 56,
+        "bottom": 114,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "very stony",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C2--56 to 114 cm; pale brown (10YR 6/3) very stony loamy coarse sand, brown (10YR 4/3) moist; massive; slightly hard, very friable, nonsticky and nonplastic; few very fine, few fine, and few coarse roots; common very fine and common fine interstitial pores; 40 percent stones, 5 percent cobbles, and 10 percent gravel; neutral (pH 6.6); clear wavy boundary."
+      },
+      {
+        "name": "2Cr",
+        "top": 114,
+        "narrative": "2Cr--114 cm; weathered granitic rock."
+      }
+    ]
+  ]
 }

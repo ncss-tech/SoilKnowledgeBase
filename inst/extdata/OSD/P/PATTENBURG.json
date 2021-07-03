@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The Pattenburg soils were classified in the Gray-Brown Podzolic great soil group in the 1938 system.\nThe 12/2005 revision places the Pattenburg series in an active CEC activity class based on NASIS data and geographically associated soils. Competing series were also updated revised and other minor edits were completed.\nDiagnostic horizons and other features recognized in this pedon are:\n1. Ochric epipedon - the zone from the surface of the soil to a depth of 14 inches (Ap and BA horizons).\n2. Argillic horizon - the zone from 14 to 30 inches (Bt horizon).\n3. Lithic contact - at 60 inches (top of the R horizon).\n4. Loamy-skeletal family  35 percent or more rock fragments and less than 35 percent clay in the particle-size control section (Bt horizon)\nADDITIONAL DATA: No laboratory data are available.\nMLRA: 148\nREVISED: 04/81-CFE-JEW; 12/2005-RJE, DHK\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches, reddish brown (2.5YR 4/4) gravelly loam; moderate fine granular structure; friable; many fine and coarse roots; many medium pores; 15 percent quartzite gravel and cobbles; strongly acid; clear smooth boundary. (7 to 10 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 18,
+        "bottom": 36,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BA--7 to 14 inches, dark red (2.5YR 3/6) gravelly loam; moderate fine subangular blocky structure; friable; common fine roots; many medium pores; 20 percent rounded quartzite gravel and cobbles; strongly acid; gradual smooth boundary. (0 to 7 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 36,
+        "bottom": 76,
+        "moist_hue": "10R",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--14 to 30 inches, weak red (10R 4/4) very gravelly loam; strong fine subangular blocky structure; friable; few fine roots; common medium pores; continuous thin clay films on faces of peds; 40 percent rounded quartzite gravel and cobbles; strongly acid; clear wavy boundary. (15 to 23 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 76,
+        "bottom": 152,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "strongly acid",
+        "narrative": "C--30 to 60 inches, red (2.5YR 4/6) very gravelly sandy loam; massive; friable; few roots; many coarse and medium pores; 45 percent rounded quartzite gravel and cobbles, amount increases as depth increases; strongly acid. (15 to 40 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 152,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "narrative": "R--60 inches, dark reddish brown (5YR 3/4) sandy shale conglomerate containing much quartzite gravel and cobbles."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,83 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Cliffield soils were formerly included in the Talledega series.  However, Talledega soils have discontinuous argillic horizons and are underlain at depths of 10 to 40 inches by lower grade metamorphic rock such as phyllite, slate, and argillite.\nThe 12/97 revision places this soil in a loamy-skeletal, mixed, subactive, mesic Typic Hapludults family per 7th Edition of Keys to Soil Taxonomy (1996).  CEC activity class placement is based on the following sample pedons: S89-NC-149-004, -005 and 006, and S91-NC-171-001.  Two pedons are in subactive families, one is in a semiactive family, and one classifies as a Typic Kanhapludult.  Horizon depths and runoff class were also revised.\nDiagnostic features and horizons recognized in this pedon are:\nOchric Epipedon - The zone from 0 to 6 inches (Oi, A and E horizons).\nArgillic Horizon - The zone from 6 to 35 inches (Bt1 and Bt2 horizons).\nLoamy-skeletal feature - average content of more than 35 percent rock fragments by volume in the 6 to 26 inch control section (Bt1 and Bt2 horizons).\nLithic Contact - The occurrence of hard bedrock at 35 inches (the upper boundary of the R horizon).\nMLRA-130; SIR: NC0252\nRevised: 9/95-SCK,STE,AG; 12/97-DHK, 2/99-MKC\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "Oi--0 to 2 inches; slightly decomposed deciduous and coniferous litter."
+      },
+      {
+        "name": "A1",
+        "top": 5,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--2 to 4 inches; dark brown (10YR 3/3) cobbly loam; weak fine granular structure; very friable; many fine, medium, and coarse roots; 15 percent gravel and 10 percent cobbles by volume; fragments are randomly oriented; common fine and medium flakes of mica; very strongly acid; clear smooth boundary.  (2 to 5 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--4 to 6 inches; dark yellowish brown (10YR 4/6) cobbly loam; weak medium granular structure; very friable; many fine, medium, and coarse roots; 15 percent gravel and 10 percent cobbles by volume; fragments are randomly oriented;  common fine and medium flakes of mica; very strongly acid; clear smooth boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--6 to 18 inches; yellowish brown (10YR 5/6) very cobbly clay loam; weak medium subangular blocky structure; friable; slightly sticky, slightly plastic; common fine, medium, and coarse roots; 20 percent gravel, 20 percent cobbles, and 10 percent stones by volume; fragments are randomly oriented; common fine and medium flakes of mica; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 46,
+        "bottom": 89,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "loam",
+        "cf_class": "extremely cobbly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bt2--18 to 35 inches; strong brown (7.5YR 5/8) extremely cobbly loam; weak medium subangular blocky structure; friable; slightly sticky, slightly plastic; common fine, medium, and coarse roots;  30 percent stones, 20 percent gravel, and 20 percent cobbles by volume; fragments are horizontally oriented; common fine and medium flakes of mica; very strongly acid; clear irregular boundary.  (Combined thickness of the Bt horizon is 12 to 34 inches.)"
+      },
+      {
+        "name": "R",
+        "top": 89,
+        "narrative": "R--35 inches; hard, fractured sillimanite schist bedrock; few vertical and common horizontal fractures that decrease with depth; few tongues and thin coatings of Bt horizon material in fractures; few fine and medium roots in fractures; 10 percent thin, soft, partly consolidated bedrock interlayers."
+      }
+    ]
+  ]
 }

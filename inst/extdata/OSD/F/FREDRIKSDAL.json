@@ -56,5 +56,61 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The series is associated with the Louisenhoj geologic formation.\nDiagnostic horizons and features recognized in this pedon include:\nMollic epipedon - the zone from 0 to 7 inches (A horizon).\nCambic horizon - the zone from 7 to 12 inches (Bw horizon).\nParalithic contact - the contact at 12 inches (Cr horizon).\nLithic contact - the contact at 16 inches (R horizon).\nSkeletal feature - more than 35 percent weighted average rock fragments in the particle-size control section.\nMLRA:  271.\nSIR:  VI0007.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 7 inches; dark reddish brown (5YR 3/3) very gravelly clay loam; moderate medium and coarse granular structure; firm; many fine roots, common medium roots, and few coarse roots; common very fine and fine interstitial pores; about 40 percent, by volume, pebbles, cobbles, and stones; neutral; clear smooth boundary. (3 to 8 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 18,
+        "bottom": 30,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw--7 to 12 inches; reddish brown (5YR 4/3) very gravelly clay loam; moderate fine and medium subangular blocky structure; firm; common fine and medium roots; about 5 percent, by volume, flagstones; about 50 percent, by volume, pebbles; common medium faint reddish brown (5YR 4/4) masses of iron accumulation; neutral; gradual smooth boundary. (3 to 8 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 30,
+        "bottom": 41,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Cr--12 to 16 inches; yellowish red (5YR 4/6) weathered igneous bedrock; few fine roots; clear smooth boundary. (4 to 12 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 41,
+        "bottom": 152,
+        "narrative": "R--16 to 60 inches; unweathered igneous bedrock."
+      }
+    ]
+  ]
 }

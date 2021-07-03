@@ -56,5 +56,67 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features in this pedon include:\nParticle-size control section:  The zone from 10 to 26 inches.\nOchric epipedon:  The zone from 0 to 3 inches.  (A horizon)\nCambic horizon:  The zone from 3 to 26 inches.  (Bw and Bk horizons)\nSecondary calcium carbonate:  The zone from 14 to 26 inches.  (Bk horizon)\nLithic contact:  The contact with sandstone bedrock at 26 inches.  (R layer)\nThe cation exchange activity class was inferred from laboratory data from similar soils in the soil survey area.\nThe classification was changed from Typic Ustorthent to Typic Haplustept May 1999.\nTaxonomic version:  Tenth Edition, 2006.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely stony",
+        "pH": 8.6,
+        "pH_class": "strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; brown (10YR 5/3) extremely stony loam, dark grayish brown (10YR 4/2) moist; moderate medium subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; common very fine roots; few very fine pores; 5 percent angular gravel, 15 percent cobbles, 40 percent stones, and 5 percent boulders; strongly effervescent; carbonates are disseminated, (13 percent calcium carbonate equivalent); strongly alkaline (pH 8.6); abrupt smooth boundary. (2 to 7 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 8,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 8.8,
+        "pH_class": "strongly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--3 to 14 inches; pale brown (10YR 6/3) very cobbly loam, brown (10YR 5/3) moist; moderate medium subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; common very fine, few fine and medium roots; many very fine pores; 20 percent angular gravel, 15 percent cobbles, and 5 percent stones; strongly effervescent; carbonates are disseminated, (10 percent calcium carbonate equivalent); strongly alkaline (pH 8.8); clear smooth boundary. (3 to 21 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 36,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 8.8,
+        "pH_class": "strongly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk--14 to 26 inches; pale brown (10YR 6/3) very cobbly loam, brown (10YR 5/3) moist; moderate medium subangular blocky structure; soft, friable, slightly sticky, and slightly plastic; common very fine, few fine roots; few very fine pores; 20 percent gravel, 25 percent cobbles, and 5 percent stones; strongly effervescent; carbonates are disseminated and segregated as common thin coatings on lower sides of rock fragments, (12 percent calcium carbonate equivalent); strongly alkaline (pH 8.8); clear smooth boundary. (8 to 26 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 66,
+        "texture_class": "sand",
+        "narrative": "R--26 inches; sandstone."
+      }
+    ]
+  ]
 }

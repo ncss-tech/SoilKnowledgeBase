@@ -56,5 +56,64 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features in this pedon:\nOchric epipedon - the zone from 0 to 10 inches (A horizon).\nCambic horizon - the zone from 10 to 20 inches (Bg horizon).\nParalithic contact - 26 inches to soft to hard limestone bedrock (2 Cr horizon).\nThe water table is within 10 inches of the surface about 30 to 50 percent of the time with highest probably from June to November.\nMoist soil color would put this soil in an Aeric family, but the soil is too wet to be so classified.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 10 inches; dark grayish brown (2.5Y 4/2) silty clay loam; moderate medium granular structure; friable; common fine and medium roots; few medium distinct very dark grayish brown (2.5Y 3/2) masses of organic matter accumulation; strongly effervescent; moderately alkaline; gradual wavy boundary.  (4 to 12 inches thick)"
+      },
+      {
+        "name": "Bg",
+        "top": 25,
+        "bottom": 51,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bg--10 to 20 inches; light brownish gray (2.5Y 6/2) silt loam; weak coarse subangular blocky structure; slightly sticky; few fine roots; few fine fragments of shell; few small pockets very dark grayish brown (2.5Y 3/2) areas of organic matter accumulation; few fine and medium distinct light olive brown (2.5Y 5/6) masses of accumulation and few faint grayish brown (2.5Y 5/2) areas of depletions; strongly effervescent; moderately alkaline; clear smooth boundary.  (8 to 20 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 51,
+        "bottom": 66,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Cg--20 to 26 inches; very dark grayish brown (2.5Y 3/2) and dark grayish brown (2.5Y 4/2) silt; massive; slightly sticky; few small pockets and streaks of black (10YR 2/1) material; few to common fine fragments of shell and small white (10YR 8/1) calcium carbonate nodules; strongly effervescent; moderately alkaline; abrupt irregular boundary.  (5 to 10 inches thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 66,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "narrative": "2Cr--26 to 30 inches; soft to hard very pale brown (10YR 7/4) limestone; limestone fragments in a matrix of almost liquid calcium carbonates cover the rock surface."
+      }
+    ]
+  ]
 }

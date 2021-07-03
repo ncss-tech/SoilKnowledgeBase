@@ -56,5 +56,57 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 13 cm (A1 and A2 hoeizons).\nParalithic contact - The boundary at 13 cm (A1 and A2 horizons).\nParticle-size control section - The zone from the soil surface to 13 cm (A1 and A2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 8.3,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 5 cm; pale brown (10YR 6/3) very gravelly sandy loam, brown (10YR 4/3) moist; weak thin platy structure; soft, very friable, nonsticky and nonplastic; few very fine roots; many very fine and fine interstitial pores; 45 percent gravel; slightly effervescent; moderately alkaline (pH 8.3); clear smooth boundary. (3 to 8 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--5 to 13 cm; pale brown (10YR 6/3) very gravelly sandy loam, brown (10YR 4/3) moist; moderate medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; common very fine through coarse roots; common very fine and fine interstitial and few very fine tubular pores; 40 percent gravel; violently effervescent; moderately alkaline (pH 8.4); clear wavy boundary.  (5 to 18 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 13,
+        "narrative": "Cr--13 cm; highly weathered tuff; roots and calcium carbonate in fractures."
+      }
+    ]
+  ]
 }

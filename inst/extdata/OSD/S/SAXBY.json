@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and other features recognized in this pedon are:\nOchric epipedon - The zone from 0 to 25 cm (A horizon).\nCambic horizon - The zone from 10 to 30 cm (Bw horizon).\nCalcic horizon - The zone from 30 to 45 cm (Bk horizon).\nLithic contact - The zone at approximately 45 cm (R layer).\nParticle-size control section - The zone from 10 to 18 cm (part of the Bw horizon and the Bk horizon).\nThe series concept needs to be redefined. There appears to be a difference in the use of the soil in the ID708-UT601-UT602 areas and the use of the soil in UT608, UT634 and UT626. Clay contents in the control section are lower in the northern surveys than in the southern areas.\nThis soil was reclassified from Lithic Xerollic Calciorthids to Lithic Xeric Haplocalcids on 9/94.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "very stony",
+        "pH": 9,
+        "pH_class": "strongly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A--0 to 10 cm; light brownish gray (10YR 6/2) very stony silt loam, dark grayish brown (10YR 4/2) moist; weak fine granular structure; soft, very friable, slightly sticky and slightly plastic; few fine roots; common very fine pores; 40 percent basalt stones on the surface and in the horizon; strongly effervescent; strongly alkaline (pH 9.0); gradual smooth boundary. (8 to 15 cm thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 10,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "extremely cobbly",
+        "pH": 8.8,
+        "pH_class": "strongly alkaline",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "Bw--10 to 30 cm; very pale brown (10YR 7/3) extremely cobbly silt loam, brown (10YR 4/3) moist; weak fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; few fine and medium roots; common very fine pores; strongly effervescent; 60 percent coarse fragments; strongly alkaline (pH 8.8); gradual irregular boundary. (18 to 25 cm thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 30,
+        "bottom": 45,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "extremely cobbly",
+        "pH": 9.2,
+        "pH_class": "very strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bk--30 to 45 cm; very pale brown (10YR 7/3) extremely cobbly silt loam, brown (10YR 4/3) moist; massive; very hard, friable, moderately sticky and slightly plastic; few very fine roots; violently effervescent; 60 percent coarse fragments; very strongly alkaline (pH 9.2); abrupt irregular boundary. (10 to 20 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 45,
+        "narrative": "R--45 cm; fractured basalt with weakly cemented lime accumulations in voids and cracks."
+      }
+    ]
+  ]
 }

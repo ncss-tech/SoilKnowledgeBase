@@ -56,5 +56,106 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nmollic epipedon:  The zone from 0 to 8 inches.  (A and AB)\nargillic horizon:  The zone from 8 to 31 inches.  (Bt)\nparalithic contact:  The contact with soft bedrock at 31 inches.    (2Cr)\nparticle-size control section:  The zone from 8 to 28 inches. (Bt, Btk1, Btk2)\nSoil Taxonomy Second Edition, 1999\nThese soils are borderline mesic-frigid.  Future temperature studies are needed to resolve this issue.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; dark brown (7.5YR 4/4) very cobbly loam, dark brown (7.5YR 3/2) moist; strong thick platy vesicular crust overlying weak fine granular structure; soft, very friable, nonsticky and nonplastic; 25 percent gravel, 15 percent cobbles, and 10 percent stones; slightly alkaline (pH 7.5); clear wavy boundary.  (3 to 7 inches)"
+      },
+      {
+        "name": "AB",
+        "top": 8,
+        "bottom": 20,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "AB--3 to 8 inches; dark brown (7.5YR 4/4) clay loam, dark reddish brown (5YR 3/3) moist; moderate medium subangular blocky structure; slightly hard, friable, moderately sticky and moderately plastic; 2 percent gravel; slightly alkaline (pH 7.4); gradual wavy boundary.  (4 to 8 inches)"
+      },
+      {
+        "name": "Bt",
+        "top": 20,
+        "bottom": 41,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--8 to 16 inches; reddish brown (5YR 5/4) clay, reddish brown (5YR 4/4) moist; strong coarse prismatic structure parting to strong coarse angular blocky; very hard, very firm, very sticky and very plastic; many distinct clay films on the faces of peds; 2 percent gravel; slightly alkaline (pH 7.4); gradual wavy boundary.  (3 to 15 inches)"
+      },
+      {
+        "name": "Btk1",
+        "top": 41,
+        "bottom": 56,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "narrative": "Btk1--16 to 22 inches; light reddish brown (5YR 6/4) clay, reddish brown (5YR 5/3) moist; moderate coarse prismatic structure parting to moderate medium angular blocky; very hard, very firm, moderately sticky and very plastic; common distinct clay films on the faces of peds; 2 percent gravel; few fine soft irregular masses of calcium carbonate; slightly effervescent; moderately alkaline (pH 8.0); clear wavy.  (3 to 9 inches)"
+      },
+      {
+        "name": "Btk2",
+        "top": 56,
+        "bottom": 79,
+        "dry_hue": "5YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btk2--22 to 31 inches; pink (5YR 7/4) clay, pinkish gray (5YR 6/2) moist; massive; hard, friable, moderately sticky and moderately plastic; few faint clay films on the faces of peds; 2 percent gravel; many fine irregular soft masses of calcium carbonate; violently effervescent; moderately alkaline (pH 8.2); clear wavy boundary.  (6 to 12 inches)"
+      },
+      {
+        "name": "2Cr",
+        "top": 79,
+        "texture_class": "sand",
+        "narrative": "2Cr--31 inches; calcareous soft sandstone and shale."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,96 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nParticle-size control section: the zone from 7 to 23 inches. (Bt horizon)\nOchric epipedon: the zone from 1 to 3 inches. (A horizon)\nAlbic horizon: the zone from 3 to 7 inches (E horizon\nArgillic horizon: the zone from 7 to 23 inches. (Bt horizon)\nLithic contact: sandstone at 27 inches. (R horizon)\nPrevious classification changed from Typic Eutroboralfs to frigid Typic Haplustalfs.\nThe 11/2007 revision deletes Douglas-fir from the Use and Vegetation, which returns the vegetation to the original list.\nTaxonomic Version: Tenth Edition, 2006\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oe--0 to 1 inch; moderately decomposed forest litter from twigs and leaves."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 8,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--1 to 3 inches; brown (7.5YR 4/2) gravelly sandy loam, dark brown (7.5YR 3/2) moist; weak very fine granular structure; soft, very friable, nonsticky and nonplastic; 10 percent gravel, 5 percent cobbles, 1 percent stones, neutral; clear wavy boundary.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 18,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--3 to 7 inches; pinkish gray (7.5YR 6/2) gravelly sandy loam, brown (7.5YR 4/2) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; 20 percent gravel, 5 percent cobbles; neutral; clear wavy boundary.  (3 to 7 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 18,
+        "bottom": 58,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very gravelly",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--7 to 23 inches; brown (7.5YR 5/2) very gravelly sandy clay loam, brown (7.5YR 4/4) moist; weak fine subangular blocky structure; very hard, friable, moderately sticky and moderately plastic; few thin patchy clay films on faces of peds; 40 percent gravel; neutral; gradual wavy boundary.  (15 to 22 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 58,
+        "bottom": 69,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--23 to 27 inches; brown (7.5YR 5/4) very gravelly sandy loam, brown (7.5YR 4/4) moist; massive; very hard, firm, nonsticky, and nonplastic; 50 percent gravel; neutral; clear wavy boundary.  (1 to 7 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 69,
+        "texture_class": "sand",
+        "narrative": "R--27 inches; hard conglomeritic sandstone."
+      }
+    ]
+  ]
 }

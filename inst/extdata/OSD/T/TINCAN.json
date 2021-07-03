@@ -56,5 +56,57 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from 0 to 16 inches thick (A1, A2 horizons)\nParticle-size control section - from 10 to 16 inches (A2 horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 10 inches; brown (10YR 5/3) gravelly silt loam, dark brown (10YR 3/3) moist; weak medium platy structure parting to moderate medium subangular blocky; slightly hard, friable, nonsticky and slightly plastic; many very fine and fine, and common medium roots; many very fine and fine, and common medium irregular and tubular pores; 30 percent gravel; neutral (pH 6.7); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 25,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--10 to 16 inches; brown (10YR 5/3) gravelly silt loam, dark brown (10YR 3/3) moist; weak medium subangular blocky structure; slightly hard, friable, nonsticky and slightly plastic; common very fine, fine and medium roots; common very fine, fine and medium irregular and tubular pores; 25 percent gravel; neutral (pH 6.7); clear wavy boundary."
+      },
+      {
+        "name": "Cr",
+        "top": 41,
+        "narrative": "Cr--16 inches; diatomaceous earth."
+      }
+    ]
+  ]
 }

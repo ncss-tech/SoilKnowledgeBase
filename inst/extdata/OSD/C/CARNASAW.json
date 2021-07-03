@@ -56,5 +56,89 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  SOIL INTERPRETATION RECORD:  SERIES    OK0133\nCOBBLY    OK0379\nSTONY     OK0208\nVERY STONY  OK0378\nBOULDERY    OK0280\nGRAVELLY    OK0279\nCarnasaw soils formerly were included in the Enders series.\nDiagnostic horizons and features recognized in this Pedon are:\nOchic horizon - the zone from 0 to 9 inches\nArgillic horizon - the zone from 9 to 42 inches\nUltic horizon - base saturation < 35% at 100 cm.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; very dark grayish brown (10YR 3/2) loam; moderate medium and fine granular structure; very friable; many fine and medium roots; quartzite and sandstone fragments make up 6 percent by volume; moderately acid; clear wavy boundary.  (2 to 6 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--3 to 9 inches; yellowish brown (10YR 5/4) loam; weak medium and fine granular structure; very friable; many fine and medium roots; quartzite and sandstone fragments make up 12 percent by volume; strongly acid; clear wavy boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 23,
+        "bottom": 38,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--9 to 15 inches; yellowish red (5YR 5/8) silty clay loam; strong medium and fine subangular blocky structure; friable; common fine and medium roots; nearly continuous clay films on faces of peds; 5% fine fragments of shale; 5% fine fragments of sandstone; very strongly acid; gradual smooth boundary.  (5 to 21 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 38,
+        "bottom": 94,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "silty clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt2--15 to 37 inches; yellowish red (5YR 4/8) silty clay; strong medium subangular blocky structure; firm; common fine roots; nearly continuous clay films on faces of peds; many peds coated with red (2.5YR 4/6); 5% fine fragments of shale; very strongly acid; gradual smooth boundary.  (15 to 32 inches thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 94,
+        "bottom": 107,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "silty clay",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bt3--37 to 42 inches; yellowish red (5YR 4/8) gravelly silty clay; many fine and medium distinct strong brown (7.5YR 5/8) and red (2.5YR 4/6) mottles; moderate fine blocky structure; friable; common fine and few medium roots; patchy clay films on faces of peds; fragments of sandstone and shale make up 20 percent by volume; very strongly acid; clear irregular boundary. (5 to 20 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 107,
+        "bottom": 132,
+        "texture_class": "sand",
+        "narrative": "Cr--42 to 52 inches; fractured non paralithic shale bedrock laminated with layers of sandstone, tilted 30 degrees from  horizontal; brown and reddish coatings along cleavage planes."
+      }
+    ]
+  ]
 }

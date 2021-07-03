@@ -56,5 +56,67 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this profile include:\nDominantly hemic soil material in the subsurface tier 12 to 35 inches (Oe1 and Oe2).\nThickness of organic material less than 51 inches (130 cm).\nAssumed pH is greater than 4.5(in 0.01 M CaCl2) in one or more layers of organic soil materials within the control section.\nAssumed cryic temperature regime; freeze below a depth of 2 inches (5cm) from the surface.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi1",
+        "top": 0,
+        "bottom": 8,
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oi1--0 to 3 inches; dark brown (7.5YR 3/2 and 7.5YR 3/4, broken face, rubbed and pressed) peat; 95 percent fiber, 80 percent rubbed; dominantly moss fibers; many very fine, fine, and medium roots; 5 percent mineral content; very strongly acid (pH 5.0); clear smooth boundary. (2 to 7 inches thick)"
+      },
+      {
+        "name": "Oi2",
+        "top": 8,
+        "bottom": 23,
+        "pH": 5.2,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oi2--3 to 9 inches; strong brown (7.5YR 5/8, broken face) reddish yellow (7.5YR 6/6, rubbed and pressed) peat; 95 percent fiber, 80 percent rubbed; dominantly moss fibers; many very fine, fine, medium, and coarse roots; 5 percent mineral content; strongly acid (pH 5.2); clear smooth boundary. (6 to 8 inches thick)"
+      },
+      {
+        "name": "Oe1",
+        "top": 23,
+        "bottom": 66,
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oe1--9 to 26 inches; dark brown (7.5YR 3/2, broken face, rubbed) dark brown (7.5YR 4/4 pressed) mucky peat; 50 percent fiber, 30 percent rubbed; weak thick platy structure; admixture of sedge and moss fibers; many very fine and fine roots; 5 percent mineral content; very strongly acid (pH 5.0); clear smooth boundary."
+      },
+      {
+        "name": "Oe2",
+        "top": 66,
+        "bottom": 119,
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe2--26 to 47 inches; dark brown (7.5YR 3/3, broken face, rubbed and pressed) mucky peat; 75 percent fiber, 35 percent rubbed; weak thick platy structure; admixture of sedge and moss fibers; few very fine and fine roots; 5 percent mineral content; thin discontinuous strata of volcanic ash; very strongly acid (pH 5.0); abrupt smooth boundary."
+      },
+      {
+        "name": "C",
+        "top": 119,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "narrative": "C--47 to 60 inches; dark grayish brown (2.5Y 4/2) very gravelly loam; massive; friable, nonsticky, nonplastic; 35 percent gravel, 5 percent cobble."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,67 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features and horizons recognized in this profile include:\nDepth to permafrost: 7 to 60 inches. (Oef, Cf, and Oef2 horizons)\nHistic epipedon: 1 to 22 inches. (Oi and Oe horizons)\nReaction: less than 4.5 (in 0.01M CaCl2)\nTemperature regime: pergelic\nMoisture regime: aquic.\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "7.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 3,
+        "pH": 4,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 7 inches (0 to 18 cm); very dark brown (7.5YR 2.5/3) peat; many very fine and fine and few medium roots; extremely acid (pH 4.0); clear smooth boundary."
+      },
+      {
+        "name": "Oef1",
+        "top": 18,
+        "bottom": 56,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oef1--7 to 22 inches (18 to 56 cm); dark reddish brown (5YR 2.5/2) permanently frozen mucky peat; common very fine and fine roots; very strongly acid (pH 4.5); abrupt wavy boundary."
+      },
+      {
+        "name": "Cf",
+        "top": 56,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "pH": 4.6,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Cf--22 to 24 inches (56 to 61 cm); yellowish brown (10YR 5/6) permanently frozen silt loam; common very fine and fine roots; very strongly acid (pH 4.6); abrupt wavy boundary."
+      },
+      {
+        "name": "Oef2",
+        "top": 61,
+        "bottom": 152,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "pH": 4.6,
+        "pH_class": "very strongly acid",
+        "narrative": "Oef2--24 to 60 inches (61 to 152 cm); dark brown (7.5YR 3/3) and dark yellowish brown (10YR 4/6) permanently frozen mucky peat; common very fine and fine roots; very strongly acid (pH 4.6)."
+      }
+    ]
+  ]
 }

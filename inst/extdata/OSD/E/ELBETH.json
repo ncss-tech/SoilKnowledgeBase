@@ -56,5 +56,108 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon:  The zone from 0 to 8 inches.  (A and E horizons)\nAlbic horizon:  The zone from 4 to 8 inches.  (E horizon)\nCambic horizon:  The zone from 8 to 13 inches.  (Bw horizon)\nArgillic horizon:  The zone from 13 to 60 inches.  (Bt1, Bt2, and BCt horizons)\nThe particle-size control section extends from 13 to 33 inches.  (Bt1 and Bt2 horizons)\nTaxonomic version of the Keys to Soil Taxonomy:  Seventh Edition, 1996.\nThe original concept for this soil is in the Typic Ustic-Frigid zone in MLRA 49 near Colorado Springs, Colorado on hills and ridges that are in the transitional front range between the Rocky Mountains and the plains to the east.  The original parent material source is arkosic deposits, granite and schist.  The depth class has been redefined to very deep.  The Elbeth pedon in Larimer County, Colorado is deep to a paralithic contact, which puts it outside the current concept for Elbeth.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; dark gray (10YR 4/1) sandy loam, very dark brown (10YR 2/2) moist; weak fine granular structure; slightly hard, very friable; neutral; clear smooth boundary. (2 to 5 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--4 to 8 inches; light gray (10YR 7/1) loamy sand, grayish brown (10YR 5/2) moist; weak thin platy structure; soft, very friable; slightly acid; clear wavy boundary.  (1 to 12 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 20,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--8 to 13 inches; pale brown (10YR 6/3) sandy loam, yellowish brown (10YR 5/4) moist; weak medium subangular blocky structure; hard, very friable, slightly sticky; slightly acid; clear smooth boundary.  (3 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 33,
+        "bottom": 61,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--13 to 24 inches; yellowish brown (10YR 5/4) sandy clay loam, yellowish brown (10YR 5/4) moist; moderate medium prismatic structure parting to moderate coarse angular blocks; extremely hard, firm, sticky and plastic; many prominent very dark grayish brown (10YR 3/2 moist) clay films on faces of peds; moderately acid; gradual smooth boundary.  (3 to 20 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 61,
+        "bottom": 142,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "slightly acid",
+        "narrative": "Bt2--24 to 56 inches; light yellowish brown (10YR 6/4) sandy clay loam, yellowish brown (10YR 5/4) moist; weak coarse angular blocky structure; very hard, firm, sticky and slightly plastic; many distinct very dark grayish brown (10YR 3/2 moist) and grayish brown (10YR 5/2 moist) clay films on faces of peds; slightly acid; diffuse boundary.  (10 to 40 inches thick)"
+      },
+      {
+        "name": "BCt",
+        "top": 142,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "narrative": "BCt--56 to 60 inches; very pale brown (10YR 7/4) sandy loam, light yellowish brown (10YR 6/4) moist; weak coarse subangular blocky structure; hard, very friable, slightly sticky; few distinct clay films on faces of some peds; slightly acid."
+      }
+    ]
+  ]
 }

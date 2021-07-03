@@ -56,5 +56,73 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This revision establishes a more definitive range for the glauconite content of these soils and places them in a class containing moderate amounts of glauconite within the control section (10 to 20 percent). In addition, it assigns an active cation-exchange activity class to the series.\nDiagnostic horizons and other diagnostic soil characteristics recognized in this pedon are:\nOchric epipedon--the zone from the soil surface to a depth of 14 inches (Ap and Ag horizons)\nArgillic horizon--the zone from a depth of 14 to 32 inches (Btg horizon)\nAquic conditions--the zone from 0 to 60 inches is periodically saturated (endosaturation)\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNJ0030 SHREWSBURY  0-  2     -        -       -         -\nNJ0073 SHREWSBURY  0-  2   50- 55  170-190  40- 48      -\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNJ0030 NONE            0-1.0  APPARENT OCT-JUN  60-60\nNJ0073 NONE            0-1.0  APPARENT DEC-MAR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNJ0030  0-14  FSL SL L                0-  0  95-100  5-20    -\nNJ0030 14-32  SL SCL CL               0-  0  95-100 15-35    -\nNJ0030 32-60  SR LS SL                0-  0  90-100  5-15    -\nNJ0073  0-18  FSL L                   0-  0  85-100  8-20   8- 18\nNJ0073 18-24  IND                      -       -     0- 0    -\nNJ0073 24-60  SR L SL                 0-  0  85-100  5-15   3-  6\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNJ0030  0-14  3.6- 5.5  3.-5.  0- 0   0.6- 6.0  LOW\nNJ0030 14-32  3.6- 5.5    -    0- 0   0.2- 2.0  MODERATE\nNJ0030 32-60  3.6- 5.5    -    0- 0   2.0-  20  LOW\nNJ0073  0-18  3.6- 5.5  2.-4.  0- 0   0.6- 2.0  LOW\nNJ0073 18-24  3.6- 5.5    -    0- 0  0.06- 0.2  LOW\nNJ0073 24-60  3.6- 5.5  0.-.5  0- 0   2.0- 6.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Ap--0 to 10 inches, dark gray (10YR 4/1) fine sandy loam; weak, medium, granular structure; very friable; slightly sticky, slightly plastic; 5 percent, by volume glauconite; very strongly acid; abrupt, smooth boundary.  (8 to 12 inches thick)"
+      },
+      {
+        "name": "Ag",
+        "top": 25,
+        "bottom": 36,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Ag--10 to 14 inches, gray (5Y 6/1) fine sandy loam; weak, medium, subangular blocky structure; very friable, slightly sticky and slightly plastic; many, medium, prominent yellowish brown (10YR 5/6) and dark yellowish brown (10YR 4/4) iron concentrations; 5 percent, by volume glauconite; very strongly acid; clear, smooth boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 36,
+        "bottom": 61,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg1--14 to 24 inches, mixed gray (5Y 5/1), light olive gray (5Y 6/2), greenish gray (5GY 5/1), light gray 5Y 7/1) and dark gray (10YR 4/1) gray sandy clay loam; moderate coarse subangular blocky structure; friable, slightly sticky and plastic; many fine pores, many fine and medium prominent brownish yellow (10YR 6/8) iron concentrations; thin discontinuous clay films on peds and in root channels; 10 percent, by volume glauconite; very strongly acid, gradual wavy boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 61,
+        "bottom": 81,
+        "moist_hue": "5GY",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Btg2--24 to 32 inches, greenish gray (5GY 5/1) sandy clay loam; weak, coarse, subangular blocky structure; friable, slightly plastic; common medium, prominent yellowish brown (10YR 5/8) iron concentrations; dark greenish gray (5GY 4/1) and very dark gray (5Y 3/1) thin clay films on peds and in root channels; 10 percent, by volume glauconite; very strongly acid; abrupt, smooth boundary.  (Combined thickness of the Btg horizon is 15 to 25 inches thick.)"
+      },
+      {
+        "name": "Cg",
+        "top": 81,
+        "bottom": 152,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Cg--32 to 60 inches, alternating strata of olive gray (5Y 5/2) loamy sand and fine sandy loam and white (10YR 8/1) sand; loamy sand is single grain and loose; fine sandy loam is massive and very friable; many coarse prominent strong brown (7.5YR 5/6) and dark yellowish brown (10YR 4/4) iron concentrations; 20 percent, by volume glauconite; very strongly acid."
+      }
+    ]
+  ]
 }

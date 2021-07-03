@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to 4 inches (A horizon)\nArgillic horizon - the zone from 4 to 15 inches (Bt1 and Bt2 horizons)\nParticle-size control section - the zone between 4 and 15 inches (Bt1 and Bt2 horizons)\nParalithic contact - highly fractured, calcareous siltstone at 43 inches (Cr horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 7.7,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 4 inches; grayish brown (10YR 5/2) loam, dark grayish brown (10YR 4/2) moist; moderate fine granular structure; soft, friable, moderately sticky and moderately plastic; many very fine, fine and medium roots; many very fine irregular pores; strongly effervescent (21 percent calcium carbonate equivalent); 5 percent gravel; slightly alkaline (pH 7.7); clear wavy boundary.  (2 to 6 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 10,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--4 to 10 inches; pale brown (10YR 6/3) clay loam, brown (10YR 5/3) moist; strong medium subangular blocky structure; slightly hard, firm, very sticky and very plastic; many very fine and fine and common medium roots; common very fine tubular pores; common discontinuous distinct clay films in pores and on faces of peds; strongly effervescent (23 percent calcium carbonate equivalent); 5 percent gravel; slightly alkaline (pH 7.8); clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 25,
+        "bottom": 38,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH": 8.1,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--10 to 15 inches; light yellowish brown (2.5Y 6/4) gravelly clay loam, brown (10YR 4/3) moist; moderate medium subangular blocky structure; slightly hard, firm, moderately sticky and moderately plastic; common very fine and fine roots; common very fine and fine tubular and irregular pores; common patchy faint clay films in pores and on faces of peds; strongly effervescent (30 percent calcium carbonate equivalent); 20 percent gravel; moderately alkaline (pH 8.1); clear wavy boundary.  (Combined thickness of Bt horizons is 8 to 16 inches.)"
+      },
+      {
+        "name": "C1",
+        "top": 38,
+        "bottom": 71,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "very gravelly",
+        "pH": 8.1,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C1--15 to 28 inches; light gray (2.5Y 7/2) very gravelly silt loam, light yellowish brown (2.5Y 6/4) moist; weak fine subangular blocky structure; slightly hard, firm, moderately sticky and moderately plastic; common very fine and fine and few medium roots; common fine irregular pores; violently effervescent (40 percent calcium carbonate equivalent); 40 percent gravel; moderately alkaline (pH 8.1); clear wavy boundary."
+      },
+      {
+        "name": "C2",
+        "top": 71,
+        "bottom": 109,
+        "moist_hue": "2.5Y",
+        "moist_value": 8,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "very gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C2--28 to 43 inches; pale yellow (2.5Y 8/2) very gravelly silt loam, light yellowish brown (2.5Y 6/4) moist; weak fine subangular blocky structure; soft, friable, moderately sticky and moderately plastic; few very fine roots; common very fine tubular pores; violently effervescent (40 percent calcium carbonate equivalent); 50 percent gravel; moderately alkaline (pH 8.2); clear wavy boundary.  (Combined thickness of C horizons is 18 to 34 inches.)"
+      },
+      {
+        "name": "Cr",
+        "top": 109,
+        "texture_class": "silt",
+        "narrative": "Cr--43 inches; highly fractured calcareous siltstone."
+      }
+    ]
+  ]
 }

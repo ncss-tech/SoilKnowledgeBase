@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 25 cm (A1 and A2 horizons).\nParalithic contact - The boundary at 41 cm to underlying soft, weathered bedrock (Cr layer).\nParticle-size control section - The zone from 25 to 41 cm (C horizon).\nADDITIONAL DATA:  Several pedons have been sampled for the Soil Survey Laboratory (SSL), Lincoln, NE as soil survey sample numbers S79NV-031-005 (pedon # 79P0467) and S79NV-031-010 (pedon # 79P0472).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "coarse sand",
+        "cf_class": "gravelly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 5 cm; grayish brown (10YR 5/2) gravelly coarse sand, very dark brown (10YR 2/2) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; many fine and very fine roots; many fine and very fine interstitial pores; 25 percent fine gravel and 1 percent boulders; moderately acid (pH 6.0); clear wavy boundary.  (3 to 10 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--5 to 25 cm; grayish brown (10YR 5/2) gravelly loamy coarse sand, very dark grayish brown (10YR 3/2) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; many fine and very fine roots; few medium and coarse roots; many fine and very fine interstitial pores; 25 percent fine gravel; slightly acid (pH 6.4); abrupt wavy boundary.  (10 to 25 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 25,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "gravelly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--25 to 41 cm; pale brown (10YR 6/3) gravelly loamy coarse sand, dark grayish brown (10YR 4/2) moist; massive; soft, very friable, nonsticky and nonplastic; few fine through coarse roots; many very fine and fine interstitial pores; 30 percent gravel; moderately acid (pH 6.0); clear wavy boundary.  (8 to 20 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 41,
+        "narrative": "Cr--41 cm; weathered granodiorite."
+      }
+    ]
+  ]
 }

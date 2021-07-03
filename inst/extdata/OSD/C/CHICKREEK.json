@@ -56,5 +56,131 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOrganic surface - the zone from the surface to a depth of 7 inches (the Oi and Oa horizons)\nOchric epipedon - the zone from 7 to 14 inches (the Ag horizon)\nDiatomaceous earth - dominates the 7 to 31 inch depth.\nParticle-size control section - the zone from 10 to 40 inches (part of the Ag, the Cg1, Cg2, 2C3, and part of the 3C4 horizons)\nMoisture regime - aquic\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 4 inches; dark grayish brown (10YR 4/2) slightly decomposed fibric material; very dark brown (10YR 2/2) rubbed; about 80 percent fiber, 65 percent rubbed; massive; herbaceous fiber; about 5 percent mineral material; slightly acid (pH 6.2); clear smooth boundary. (1 to 6 inches thick)"
+      },
+      {
+        "name": "Oa",
+        "top": 10,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oa--4 to 7 inches; gray (10YR 5/1) highly decomposed sapric material, black (10YR 2/1) rubbed; about 25 percent fiber, 10 percent rubbed; massive; about 70 percent mineral matter; slightly acid (pH 6.5); abrupt smooth boundary. (0 to 3 inches thick)"
+      },
+      {
+        "name": "Ag",
+        "top": 18,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ag--7 to 14 inches; light gray (10YR 6/1) silty clay loam, dark gray (10YR 4/1) moist; moderate thick and very thick platy structure parting to moderate medium and coarse subangular blocky; hard, firm, slightly sticky and slightly plastic; common very fine, fine and medium roots; neutral (pH 6.8); clear smooth boundary. (5 to 13 inches thick)"
+      },
+      {
+        "name": "Cg1",
+        "top": 36,
+        "bottom": 56,
+        "dry_hue": "5Y",
+        "dry_value": 8,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Cg1--14 to 22 inches; white (5Y 8/1) silty clay loam, gray (10YR 5/1) moist; moderate thick and very thick platy structure parting to moderate medium and coarse subangular blocky; slightly hard, friable, slightly sticky and slightly plastic; few very fine, fine and medium roots; neutral (pH 6.8); clear smooth boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 56,
+        "bottom": 79,
+        "dry_hue": "2.5Y",
+        "dry_value": 8,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Cg2--22 to 31 inches; pale yellow (2.5Y 8/2) silty clay loam, light grayish brown (2.5Y 6/2) moist; massive; slightly hard, friable, sticky and plastic; neutral (pH 7.0) clear smooth boundary. (Combined thickness of the Cg horizon is 9 to 27 inches)"
+      },
+      {
+        "name": "2C3",
+        "top": 79,
+        "bottom": 86,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2C3--31 to 34 inches; light brownish gray (10YR 6/2) sandy loam, very dark grayish brown (10YR 3/2) moist; moderate medium and coarse subangular blocky structure; soft, friable, nonsticky and nonplastic; neutral (pH 6.8) clear smooth boundary. (0 to 3 inches thick)"
+      },
+      {
+        "name": "3C4",
+        "top": 86,
+        "bottom": 137,
+        "texture_class": "sand",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "3C4--34 to 54 inches; multicolored sand; single grain; loose; neutral (pH 7.0); gradual smooth boundary. (5 to 20 inches thick)"
+      },
+      {
+        "name": "3C5",
+        "top": 137,
+        "bottom": 170,
+        "texture_class": "sand",
+        "cf_class": "extremely gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "narrative": "3C5--54 to 67 inches; multicolored extremely gravelly sand; single grain; loose; neutral (pH 7.2)."
+      }
+    ]
+  ]
 }

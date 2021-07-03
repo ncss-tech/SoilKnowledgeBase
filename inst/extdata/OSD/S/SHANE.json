@@ -56,5 +56,86 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soil interpretations record:  MT0125, MT0128.  Diagnostic horizons and features recognized in this pedon are:  a mollic epipedon from the surface to 12 inches (Ap and Bt1 horizons); an argillic horizon from 7 to 18 inches with an abrupt textural increase (Bt1 and Bt2 horizons); accumulation of lime from 18 to 36 inches (Bk horizon); a paralithic contact at 36 inches (Cr horizon).  Surface horizons may become cloddy when plowed and have evidence of bleached sand grains.  Shane soils have a frigid temperature regime and an ustic moisture regime.\nAdditional Data:  Laboratory data, S71MT-013-6; S89MT-015-701.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 5.6,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; grayish brown (10YR 5/2) clay loam, very dark grayish brown (10YR 3/2) moist; strong fine granular structure; slightly hard, very friable, sticky and plastic; many fine and very fine roots; medium acid (pH 5.6); abrupt smooth boundary.  (4 to 7 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--7 to 12 inches; brown (10YR 5/3) clay, dark brown (10YR 3/3) moist; strong fine and medium subangular blocky structure; very hard, firm, very sticky and very plastic; many fine and very fine roots; few very fine tubular pores; many faint clay films on faces of peds; slightly acid (pH 6.1); clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 30,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH": 7.4,
+        "pH_class": "mildly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--12 to 18 inches; grayish brown (10YR 5/2) clay, dark grayish brown (10YR 4/2) moist; strong fine and medium subangular blocky structure; extremely hard, very firm, very sticky and very plastic; common fine and very fine roots; few very fine tubular pores; many faint clay films on faces of peds; mildly alkaline (pH 7.4); gradual wavy boundary.  (Combined thickness of the Bt horizons is 9 to 20 inches.)"
+      },
+      {
+        "name": "Bk",
+        "top": 46,
+        "bottom": 91,
+        "texture_class": "clay loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk--18 to 36 inches; grayish brown and yellowish brown (10YR 5/2 and 5/4) clay loam, dark gray to dark yellowish brown (10YR 4/1 to 4/6) moist; moderate medium platy structure; very hard, friable, sticky and plastic; few fine and very fine roots; common very fine tubular pores; many fine seams and soft masses of lime; violently effervescent; moderately alkaline (pH 8.2); gradual wavy boundary.  (7 to 20 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 91,
+        "bottom": 152,
+        "texture_class": "sand",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "narrative": "Cr--36 to 60 inches; gray and yellowish brown (10YR 5/1 and 5/4) semiconsolidated shale with thin lenses of sandstone, dark grayish brown and dark yellowish brown (10YR 4/2 and 4/4) moist; violently effervescent; moderately alkaline (pH 8.4)."
+      }
+    ]
+  ]
 }

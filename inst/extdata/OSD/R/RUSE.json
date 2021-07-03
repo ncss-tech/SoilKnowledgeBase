@@ -56,5 +56,63 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are: mollic epipedon - the zone from the surface to 7 inches (A horizon); aquic soil moisture regime - the zone from 7 to 11 inches (Bg horizon); cambic horizon - the zone from 7 to 15 inches (Bg and Bw horizons); lithic subgroup - lithic contact at 11 inches.\nADDITIONAL DATA: Soil Interpretation Record No.: MI0072; MI0510 - MUCKY SURFACE\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 7 inches; black (10YR 2/1) mucky loam, dark gray (10YR 4/1) dry; moderate medium granular structure; friable; many fine to coarse roots; neutral; abrupt smooth boundary (2 to 8 inches thick)"
+      },
+      {
+        "name": "Bg",
+        "top": 18,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bg--7 to 11 inches; grayish brown (10YR 5/2) sandy loam; weak medium subangular blocky structure; friable; many fine faint gray (10YR 6/1) iron depletions; common fine to coarse roots; slightly alkaline; abrupt smooth boundary. (2 to 5 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 28,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw--11 to 15 inches; pale brown (10YR 6/3) sandy loam; weak coarse platy structure; friable; common fine prominent  yellowish brown (7.5YR 5/6) iron accumulations and common fine distinct light brownish gray (2.5Y 6/2) iron depletions throughout; few fine roots; slightly alkaline; abrupt smooth boundary. (2 to 12 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 38,
+        "narrative": "2R--15 inches; fractured limestone bedrock."
+      }
+    ]
+  ]
 }

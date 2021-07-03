@@ -56,5 +56,47 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nParalithic contact - from 5 to 15 cm (Cr horizon)\nLithic contact - at 15 cm (R horizon)\nParticle-size control section - 0 to 5 cm (C horizon)\nNopemountain soils have a cryic temperature regime and an udic moisture regime.\nTaxonomic version: Twelfth Edition, 2014\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "C",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "cf_class": "very channery",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--0 to 5 cm; grayish brown (10YR 5/2) very channery loamy sand, very dark grayish brown (10YR 3/2) moist; single grain; soft; very friable; nonsticky and nonplastic; few very fine and fine roots; 45 percent channers; moderately acid (pH 5.8); abrupt wavy boundary. (2 to 22 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 5,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "narrative": "Cr--5 to 15 cm; grayish brown (10YR 5/2) paralithic shale bedrock; moderately acid (pH 6.0). (5 to 15 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 15,
+        "narrative": "R--15 cm; hard shale bedrock"
+      }
+    ]
+  ]
 }

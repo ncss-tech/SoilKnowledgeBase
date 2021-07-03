@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are: Mollic epipedon - the mixed zone from the surface of the soil to a depth of 7 inches (Ap horizon); Calcic horizon - the zone from about 6 to 24 inches (Bk horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "texture_class": "silt loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; dark brown (l0YR 4/3) silt loam, very dark grayish brown (l0YR 3/2) moist; weak medium and coarse subangular blocky structure; slightly hard, very friable; many very fine roots and pores; strong effervescence; slightly alkaline; abrupt smooth boundary. (4 to 8 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 15,
+        "bottom": 61,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bk--6 to 24 inches; light brownish gray (2.5Y 6/2) silt loam, dark grayish brown (2.5Y 4/2) moist; moderate medium and coarse subangular blocky structure; slightly hard, very friable; common fine roots and tubular pores; many fine accumulations of carbonates; violent effervescence; moderately alkaline; clear wavy boundary.  (l0 to 20 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 61,
+        "bottom": 152,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "C--24 to 60 inches; light brownish gray (2.5Y 6/2) silt loam, dark grayish brown (2.5Y 4/2) moist; massive; slightly hard, very friable; few fine accumulations of carbonates; violent effervescence; moderately alkaline."
+      }
+    ]
+  ]
 }

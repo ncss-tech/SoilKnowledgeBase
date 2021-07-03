@@ -56,5 +56,67 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizon and features recognized in this pedon are:\nMollic Epipedon - surface to a depth of 14 inches (A1 and A2)\nContrasting Textured Family - occurs 23 inches.\nCambic - at a depth of 14 to 23 inches.  Altered by permanent water\ntable.\nAquic Moisture Regime - A2, 7 to 14 inches has distinct or prominent\nmottles.\nNational Cooperative Soil Survey\nU. S. A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "texture_class": "loam",
+        "narrative": "A1--0 to 7 inches; grayish brown (10YR 5/2) loam, very dark grayish"
+      },
+      {
+        "name": "A2",
+        "top": 18,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "texture_class": "loam",
+        "narrative": "A2--7 to 14 inches; grayish brown (10YR 5/2) loam, very dark"
+      },
+      {
+        "name": "Bg",
+        "top": 36,
+        "bottom": 58,
+        "dry_hue": "N",
+        "dry_value": 6,
+        "dry_chroma": 0,
+        "moist_hue": "N",
+        "moist_value": 5,
+        "moist_chroma": 0,
+        "texture_class": "loam",
+        "narrative": "Bg--14 to 23 inches; light gray (N 6/0) loam, gray (N 5/0) moist;"
+      },
+      {
+        "name": "2Cg1",
+        "top": 58,
+        "bottom": 69,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "narrative": "2Cg1--23 to 27 inches; grayish brown (10YR 5/2) very gravelly loamy"
+      },
+      {
+        "name": "2Cg2",
+        "top": 69,
+        "bottom": 155,
+        "cf_class": "extremely gravelly",
+        "narrative": "2Cg2--27 to 61 inches; variagated color; extremely gravelly coarse"
+      }
+    ]
+  ]
 }

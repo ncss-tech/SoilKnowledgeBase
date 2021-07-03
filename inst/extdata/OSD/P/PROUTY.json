@@ -56,5 +56,101 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - 0 to 8 inches (Oa and A horizons)\nLoess and volcanic ash mantle - 1 to 14 inches (A and Bw horizons)\nCambic horizon - 8 to 18 inches (Bw and 2BC horizons)\nParalithic contact  -  29 inches (Cr horizon)\nThis description reflects a change in classification from Loamy-skeletal, isotic Andic Eutrocryepts to Loamy-skeletal, isotic Andic Dystrocryepts.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oa",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "narrative": "Oa--0 to 1 inch; very dark grayish brown (10YR 3/2) moist; decomposed organic litter composed of leaves, twigs, bark, and needles; moderately acid (pH 6.0). (1 to 2 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "bouldery",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--1 to 8 inches; yellowish brown (10YR 5/4) bouldery ashy silt loam, dark yellowish brown (10YR 3/4) moist; weak fine granular structure; soft, very friable, slightly sticky and nonplastic; weakly smeary; common fine and medium roots; common discontinuous pores; 10 percent gravel and 20 percent boulders; moderately acid (pH 5.6); clear wavy boundary. (3 to 10 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 20,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--8 to 14 inches; light yellowish brown (10YR 6/4) gravelly ashy silt loam, dark yellowish brown (10YR 4/4), moist; weak, fine and medium subangular blocky structure; soft, very friable, slightly sticky and nonplastic; common fine and medium roots; discontinuous irregular pores; 20 percent gravel; moderately acid (pH 5.6); abrupt wavy boundary. (3 to 10 inches thick)"
+      },
+      {
+        "name": "2BC",
+        "top": 36,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2BC--14 to 18 inches; very pale brown (10YR 7/4) gravelly sandy loam, yellowish brown (10YR 5/4) moist; weak fine and medium subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; few fine and medium roots; few discontinuous pores; 30 percent gravel; moderately acid (pH 5.6); clear wavy boundary. (3 to 14 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 46,
+        "bottom": 74,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2C--18 to 29 inches; very pale brown (10YR 7/4) very gravelly sandy loam, yellowish brown (10YR 5/4) moist; massive, slightly hard, friable, slightly sticky and nonplastic; few fine and medium roots; few discontinuous pores; 50 percent gravel; moderately acid (pH 5.6); clear wavy boundary. (8 to 20 inches thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 74,
+        "narrative": "2Cr--29 inches; yellow, white, and black weathered granite."
+      }
+    ]
+  ]
 }

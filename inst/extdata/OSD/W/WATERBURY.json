@@ -56,5 +56,77 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon:\nMollic epipedon - from 0 to 43 centimters (A and Bt horizons)\nParticle-size control section - from 23 to 43 centimeters (Bt horizons)\nLithologic Discontnuity - bedrock at 43 centimeters (2R contact)\n12/2012 - Type location moved from Grant Co, Oregon to Morrow Co, Oregon due to similarity between Gwinly and Waterbury.   Only Gwinly was mapped in Grant Co during the initial and update mapping.  Waterbury is no longer mapped in Grant Co.  As a result, the type location of Waterbury has been moved.  It is recommended that Waterbury eventually be made inactive and all Waterbury is correlated to Gwinly.\n________________________________________\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "cf_class": "extremely cobbly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 8 centimeters ; dark gray (10YR 4/1) extremely cobbly silt loam, black (10YR 2/1), moist; moderate fine subangular blocky structure; friable, hard, moderately sticky, moderately plastic;  very fine roots;  very fine irregular pores; 15 percent gravels, 40 percent cobbles, and 10 percent stones; neutral, (pH 6.6); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "cf_class": "very cobbly",
+        "narrative": "A2--8 to 23 centimeters; dark gray (10YR 4/1) very cobbly silt loam, black"
+      },
+      {
+        "name": "Bt1",
+        "top": 23,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "cf_class": "very cobbly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--23 to 38 centimeters; dark gray (10YR 4/1) very cobbly clay, black (10YR 2/1), moist; moderate medium subangular blocky structure; firm, very hard, moderately sticky, moderately plastic;  very fine roots;  very fine tubular pores; 30 percent gravels and 10 percent cobbles; neutral, (pH 6.8); clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 38,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "cf_class": "very cobbly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2--38 to 43 centimeters; dark grayish brown (10YR 4/2) very cobbly clay, dark brown (10YR 3/3), moist; moderate medium angular blocky structure; very firm, very hard, very sticky, very plastic;  very fine roots;  very fine tubular pores; 30 percent gravels15 percent cobbles; neutral, (pH 6.8); abrupt wavy boundary.  (The combined thickness of the Bt horizons is 10 to 36 centimeters thick)"
+      },
+      {
+        "name": "2R",
+        "top": 43,
+        "narrative": "2R--43 centimeters; Indurated Basalt ."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,94 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The hardness of the Cr horizon fluctuates with soil moisture. Excavation difficulty ranges from low to high.\nDiagnostic horizons and soil characteristics recognized in this pedon:\nOchric epipedon--the zone from 0 to 13 inches (A and BA horizon)\nArgillic horizon--the zone from 13 to 36 inches (Bt horizons)\nParalithic contact--the contact at a depth of 48 inches\nParalithic materials--the zone from 48 to 72 inches (Cr horizon)\nOther soil features identified with this pedon:\nSeries control section--the zone from 0 to 58 inches\nADDITIONAL DATA:\nLaboratory Data:\nNo laboratory data available.\nDatabase Information:\nTypical Pedon Data Mapunit ID--82249\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp  FrFr/Seas  Precip  Elevation\nNC0136 STONEVILLE  2-40   52-57    160-205    40-55   300-600\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0136 NONE          >6.0       -      -       40-60   SOFT\nSOI-5  Depth  Texture                3-Inch  No-10   Clay%   -CEC-\nNC0136  0-5   L SIL CL               0-8     90-100   7-30    2-8\nNC0136  5-13  CL SICL L              0-5     95-100   7-35    2-8\nNC0136 13-38  C CL SIC               0-5     95-100  35-60    7-13\nNC0136 38-48  CL SICL L              0-5     95-100  10-35    2-7\nNC0136 48-72  WB                      -        -       -       -\nSOI-5  Depth    -pH-     O.M.   Salin  Permeab   Shnk-Swll\nNC0136  0-5   4.5-6.0  0.5-2.0  0-0    0.6-2.0   LOW\nNC0136  5-13  4.5-6.0  0.5-1.0  0-0    0.6-2.0   LOW\nNC0136 13-38  4.5-6.0  0.0-0.5  0-0    0.6-2.0   MODERATE\nNC0136 38-48  4.5-6.0  0.0-0.5  0-0    0.6-2.0   LOW\nNC0136 48-72     -        -      -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 5 inches; dark reddish brown (5YR 3/3) loam, reddish brown (5YR 4/3), dry; moderate fine granular structure; friable; moderately sticky; slightly plastic; common fine to coarse roots; 2 percent, by volume siltstone fragments; strongly acid; clear smooth boundary. (1 to 10 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 13,
+        "bottom": 33,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BA--5 to 13 inches; dark reddish brown (5YR 3/3) loam, reddish brown (5YR 4/3), dry; weak fine subangular blocky structure; friable; moderately sticky, slightly plastic; few fine and medium roots; strongly acid; gradual wavy boundary. (0 to 12 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 33,
+        "bottom": 81,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--13 to 32 inches; dark reddish brown (2.5YR 3/4) clay, reddish brown (2.5YR 4/4), dry; moderate medium subangular blocky structure; firm, moderately sticky, moderately plastic; few fine and medium roots; thin continuous clay films on faces of peds; few fine flakes of mica; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 81,
+        "bottom": 97,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--32 to 38 inches; dark reddish brown (2.5YR 3/4) clay loam; reddish brown (2.5YR 4/4) dry; weak fine subangular blocky structure; friable, moderately sticky, slightly plastic; few fine roots; common fine flakes of mica; very strongly acid; gradual wavy boundary. (Combined thickness of the Bt horizon is 10 to 40 inches.)"
+      },
+      {
+        "name": "C",
+        "top": 97,
+        "bottom": 122,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C--38 to 48 inches; dark reddish brown (5YR 3/4) loam with few seams of clay loam; massive; friable; common flakes of mica; saprolite of siltstone and mudstone; very strongly acid; gradual wavy boundary. (5 to 15 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 122,
+        "bottom": 183,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "narrative": "Cr--48 to 72 inches; dark reddish brown (5YR 3/4) siltstone and mudstone; weakly cemented; high excavation difficulty; rock material crushes to loam."
+      }
+    ]
+  ]
 }

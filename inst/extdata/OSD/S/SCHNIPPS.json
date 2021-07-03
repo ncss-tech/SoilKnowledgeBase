@@ -56,5 +56,101 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 25 inches (A1, A2, and Bt1 horizons).\nPachic subgroup feature - A mollic epipedon that is 20 inches or more thick.\nArgillic horizon - The zone from 14 to 49 inches (Bt1 and Bt2 horizons).\nParalithic contact - The boundary at 49 inches to underlying soft, weathered bedrock (Crt layer).\nParticle-size control section - The zone from 14 to 34 inches (Bt1 horizon and part of the Bt2 horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 3 inches; grayish brown (10YR 5/2) cobbly loam, very dark grayish brown (10YR 3/2) moist; moderate medium granular structure; soft, very friable, slightly sticky and slightly plastic; common very fine and common fine roots; common very fine interstitial pores; 15 percent pebbles, 10 percent cobbles, and 5 percent stones; neutral (pH 6.6); clear smooth boundary.  (2 to 6 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--3 to 14 inches; grayish brown (10YR 5/2) cobbly loam, very dark grayish brown (10YR 3/2) moist; weak medium subangular blocky structure parting to moderate medium granular; soft, friable, slightly sticky and slightly plastic; common very fine, common fine, and common medium roots; many fine and many medium tubular pores; 15 percent pebbles, 10 percent cobbles, and 5 percent stones; neutral (pH 6.6); clear smooth boundary.  (5 to 14 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 36,
+        "bottom": 64,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "cobbly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--14 to 25 inches; brown (10YR 5/3) cobbly clay loam, dark brown (10YR 3/3) moist; moderate medium subangular blocky structure; hard, firm, moderately sticky and moderately plastic; few very fine, few fine, few medium, and few coarse roots; common fine and common medium tubular pores; common faint and few distinct clay films on faces of peds; 15 percent pebbles and 15 percent cobbles; neutral (pH 6.8); clear smooth boundary.  (6 to 15 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 64,
+        "bottom": 124,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--25 to 49 inches; brown (7.5YR 5/4) very cobbly clay loam, dark brown (7.5YR 3/4) moist; strong medium subangular blocky structure; hard, firm, moderately sticky and moderately plastic; few very fine, few fine, few medium, and few coarse roots; few very fine and few fine tubular pores; common distinct clay films on faces of peds; 20 percent pebbles, 15 percent cobbles, and 3 percent stones; neutral (pH 6.6); clear wavy boundary.  (8 to 25 inches thick)"
+      },
+      {
+        "name": "Crt",
+        "top": 124,
+        "bottom": 165,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "narrative": "Crt--49 to 65 inches; light brown (7.5YR 6/3), soft weathered vesicular basalt, brown (7.5YR 4/3) moist; common distinct clay films on pararock fragments."
+      }
+    ]
+  ]
 }

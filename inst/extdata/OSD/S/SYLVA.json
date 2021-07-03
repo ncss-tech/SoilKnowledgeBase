@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The soils now placed in the Sylva series were previously included in the Toxaway series.  However, Sylva soils lack the umbric epipedon, fine-loamy textures, and frequent flooding of the Toxaway soils.\nDiagnostic horizons and features in this pedon are:\nHumic Haplaquept feature - The presence of moist color value less than 3.5 in the 0 to 8 inch A horizon, and the 8 inch thickness is less than one-third the depth to the base of the Bg horizon or a minimum of 10 inches.\nOchric Epipedon - 0 to 8 inches (A Horizon)\nCambic Horizon - 8 to 37 inches (Bg1 and Bg2 Horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 5,
+        "bottom": 0,
+        "narrative": "Oe--2 to 0 inches, partially decomposed leaves, twigs, and roots."
+      },
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 4 inches, black (N 2/) loam; weak medium granular structure; very friable; many fine and medium and few coarse roots; few fine flakes of mica; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 20,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "A2--4 to 8 inches, very dark grayish brown (2.5Y 3/2) loam; common medium prominent dark yellowish brown (10YR 4/4) streaks, and common medium faint dark grayish brown (2.5Y 4/2) and very dark gray (10YR 3/1) streaks; weak medium subangular blocky structure; friable; common fine and medium roots; common fine flakes of mica; strongly acid; clear irregular boundary.  (Combined thickness of the A horizons is 6 to 10 inches.)"
+      },
+      {
+        "name": "Bg1",
+        "top": 20,
+        "bottom": 51,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bg1--8 to 20 inches, light gray (2.5Y 7/2) loam; weak medium subangular blocky structure; friable; few fine roots; common fine flakes of mica; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 51,
+        "bottom": 94,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bg2--20 to 37 inches, light gray (2.5Y 7/2) sandy loam; weak medium subangular blocky structure; friable; few medium roots; common fine flakes of mica; very strongly acid; gradual wavy boundary.  (Combined thickness of the Bg horizon is 14 to 30 inches)"
+      },
+      {
+        "name": "Cg",
+        "top": 94,
+        "bottom": 165,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Cg--37 to 65 inches, light brownish gray (2.5Y 6/2) loam; massive; friable; common fine flakes of mica; very strongly acid."
+      }
+    ]
+  ]
 }

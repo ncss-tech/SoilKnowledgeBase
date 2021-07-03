@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the surface to 60 cm (A1 and A2 horizons).\nArgillic Horizon - The zone from 60 to 120 cm (Bt horizon).\nVitrandic feature - 30 to 50 percent volcanic glass in the 0.02 to 2 mm fraction and averages 0.1 to 0.2 percent Al plus 1/2Fe, extracted by ammonium oxalate between 0 to 60 cm (A1 and A2 horizons).\nParticle-size control section - The zone from 60 to 110 cm (part of the Bt horizon).\nADDITIONAL DATA:\nUser pedon ID: 08NV613239-BKP\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 20 cm; dark grayish brown (10YR 4/2) very gravelly ashy loam, very dark brown (10YR 2/2) moist; moderate very coarse subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; common medium roots; common very fine interstitial pores; 35 percent gravel and 10 percent cobbles; slightly acid (pH 6.5); clear smooth boundary. (5 to 25 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 20,
+        "bottom": 60,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--20 to 60 cm; dark grayish brown (10YR 4/2) very gravelly ashy loam, very dark brown (7.5YR 2.5/2) moist; moderate medium angular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine through coarse roots; common very fine interstitial pores; 40 percent gravel and 15 percent cobbles; neutral (pH 6.6); clear smooth boundary. (15 to 40 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 60,
+        "bottom": 120,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay",
+        "cf_class": "very gravelly",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--60 to 120 cm; brown (7.5YR 5/4) very gravelly sandy clay, dark brown (7.5YR 3/4) moist; moderate medium angular blocky structure; moderately hard, friable, moderately sticky and moderately plastic; common very fine interstitial pores; faint clay films on all faces of peds and few distinct clay films on rock fragments; 40 percent gravel and 15 percent cobbles; neutral (pH 6.9); clear smooth boundary. (60 to 110 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 120,
+        "narrative": "R--120 cm; indurated welded tuff bedrock"
+      }
+    ]
+  ]
 }

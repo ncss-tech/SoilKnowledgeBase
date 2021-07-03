@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Dan River soils were previously mapped as Riverview or Congaree soils (thermic series). Due to the establishment of mesic regions in the Southern Piedmont, this soil will be the mesic counterpart of Riverview and possibly Congaree series.\nDiagnostic horizons and soil characteristics recognized in this pedon:\nOchric epipedon--the zone from the surface to a depth of 9 inches (A horizon)\nCambic horizon--the zone from 9 to 56 inches (Bw1, Bw2, Bw3, and Bw4 horizons)\nOther soil features identified with this pedon:\nOxyaquic feature--indications of extended periods of saturation by the presence of redoximorphic features (masses and/or depletions) within 40 inches of the soil surface (Bw3 horizon)\nSeries control section--the zone from 0 to 60 inches\nADDITIONAL DATA:\nLaboratory Data: No laboratory data available.\nDatabase Information:\nTypical Pedon Data Mapunit ID--103297\nTABULAR SERIES DATA:\nSoil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nDAN RIVER   0-3    52-57   160-205   40-55   300-500\nFloodL FloodH Watertable Kind      Months   Bedrock Hardness\nOCCAS  FREQ   2.5-3.3    APPARENT  DEC-MAR  >60     -\nDepth  Texture           3-Inch  No-10    Clay%  -CEC-\n0-9    SIL L VFSL        0-0     100-100 10-27   3-12\n0-9    LS LFS            0-0      90-100  3-10   2-6\n0-9    SL FSL            0-0      90-100  4-18   3-12\n9-56   SCL SICL L        0-0     100-100 18-35   4-10\n56-62  LFS SL S          0-0     100-100  4-18   2-6\nDepth    -pH-     O.M.   Salin  Permeab   Shnk-Swll\n0-9    4.5-6.5  0.5-2.0  0-0    0.6-2.0   LOW\n0-9    4.5-6.5  0.5-2.0  0-0    2.0-6.0   LOW\n0-9    4.5-6.5  0.5-2.0  0-0    0.6-2.0   LOW\n6-56   4.5-6.0  0.5-1.0  0-0    0.6-2.0   LOW\n56-72  4.5-6.0  0.5-1.0  0-0    2.0-6.0   LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 9 inches; dark yellowish brown (10YR 4/4) loam, yellowish brown (10YR 5/4), dry; weak fine subangular blocky structure; very friable, slightly sticky, slightly plastic; common very fine and fine roots; few fine tubular pores; slightly acid; clear smooth boundary. (3 to 10 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 23,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--9 to 25 inches; dark yellowish brown (10YR 4/4) loam; moderate fine subangular blocky structure; friable, slightly sticky, slightly plastic; common very fine and fine roots; few fine tubular pores; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 64,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw2--25 to 30 inches; dark yellowish brown (10YR 4/6) loam; weak fine and medium subangular blocky structure; friable, slightly sticky, slightly plastic; few fine roots; strongly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "Bw3",
+        "top": 76,
+        "bottom": 104,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw3--30 to 41 inches; yellowish brown (10YR 5/8) sandy clay loam; moderate fine and medium subangular blocky structure; firm, slightly sticky, slightly plastic; common medium distinct strong brown (7.5YR 5/8) masses of oxidized iron and common medium prominent pale brown (10YR 6/3) iron depletions; common fine black manganese nodules; strongly acid; gradual wavy boundary. (Combined thickness of the Bw horizon is 14 to 50 inches.)"
+      },
+      {
+        "name": "Bw4",
+        "top": 104,
+        "bottom": 142,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw4--41 to 56 inches; yellowish brown (10YR 5/8) sandy clay loam; weak fine and medium subangular blocky structure; firm, slightly sticky, slightly plastic; common medium distinct strong brown (7.5YR 5/8) masses of oxidized iron and common medium prominent light brownish gray (10YR 6/2) iron depletions; common fine black manganese nodules; few fine flakes of mica; very strongly acid; gradual wavy boundary. (Combined thickness of the Bw horizon is 14 to 50 inches.)"
+      },
+      {
+        "name": "C",
+        "top": 142,
+        "bottom": 157,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "narrative": "C--56 to 62 inches; yellowish brown (10YR 5/6) sandy loam; massive; very friable, nonsticky, nonplastic; common medium distinct strong brown (7.5YR 5/8) masses of oxidized iron and common medium prominent light brownish gray (10YR 6/2) iron depletions; common very fine flakes of mica; very strongly acid"
+      }
+    ]
+  ]
 }

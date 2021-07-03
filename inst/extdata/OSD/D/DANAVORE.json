@@ -56,5 +56,94 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizon recognized in this pedon is the\nOchric epipedon - the zone from 0 to 4 inches (A horizon);\nCambic horizon - the zone from 4 to 17 inches (Bw1 and 2Bw2 horizons);\nParalithic contact - the contact with sandstone at 22 inches. (2Cr layer)\nLast updated by the state 9/2003, previously updated 12/90. Classification changed from loamy-skeletal, mixed (calcareous) Typic Cryorthents to loamy-skeletal, mixed, superactive Ustic Eutrocryepts 9/2003.\nThe 01/2008 revision changes the subgroup classification from Ustic Eutrocryepts to Calcic Haplocryepts.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very stony",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; light yellowish brown (10YR 6/4) very stony sandy loam, dark yellowish brown (10YR 4/4) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; many fine and medium roots; 20 percent gravel, 30 percent cobbles, 10 percent stones; neutral (pH 7.2); abrupt smooth boundary. (3 to 6 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 10,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely stony",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw1--4 to 8 inches; light yellowish brown (10YR 6/4) extremely stony sandy loam, dark yellowish brown (10YR 4/4) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; common medium and coarse roots; 15 percent gravel, 20 percent cobbles, 40 percent stones; neutral (pH 7.2); abrupt smooth boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "2Bw2",
+        "top": 20,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely channery",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bw2--8 to 17 inches; light yellowish brown (10YR 6/4) extremely channery loam, yellowish brown (10YR 5/4) moist; massive, soft, friable, moderately sticky and moderately plastic; common medium and coarse roots; 70 percent channers; neutral (pH 7.0); gradual smooth boundary. (5 to 15 inches thick)"
+      },
+      {
+        "name": "2Bk",
+        "top": 43,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "extremely channery",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2Bk--17 to 22 inches; very pale brown (10YR 7/3) extremely channery clay loam, yellowish brown (10YR 5/4) moist; massive; soft, friable, moderately sticky and moderately plastic; few medium and coarse roots; 70 percent channers; calcium carbonate pendants on rock fragments, slightly effervescent; moderately alkaline (pH 8.2); gradual wavy boundary. (5 to 10 inches thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 56,
+        "texture_class": "sand",
+        "narrative": "2Cr--22 inches; soft sandstone."
+      }
+    ]
+  ]
 }

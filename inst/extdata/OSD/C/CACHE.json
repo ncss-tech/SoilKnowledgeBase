@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features in this pedon include:\nSalic horizon - from 0 to 39 inches (Az, Cz1 and Cz2 horizons).\nThe classification is based on the \"Keys to Soil Taxonomy, Eighth Edition, 1998\".  Prior to this review of the series the last time it was looked at was in 1971.  A number of properties related to soil wetness need to be established with additional field data.  Salic horizons need to be dry in some or all parts of the moisture control section in normal years.  The NASIS data lists a water table from May to October which may not allow for a period of dryness.  In the database the range of water table depths is 0 to 36 inches and the drainage class is poor with no ponding.  The current series range has a water table from 10 to 40 inches, includes poor and somewhat poorly drained classes, and includes ponding.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Az",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Az--0 to 4 inches; light brownish gray (10YR 6/2) silty clay, dark grayish brown (10YR 4/2) moist; mixed weak very fine subangular blocky and weak fine granular structure; soft, firm, sticky, plastic; strongly calcareous, slightly alkaline (pH 7.6); abrupt smooth boundary.  (3 to 5 inches thick)"
+      },
+      {
+        "name": "Cz1",
+        "top": 10,
+        "bottom": 64,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH": 7.7,
+        "pH_class": "slightly alkaline",
+        "narrative": "Cz1--4 to 25 inches; light gray (10YR 7/2) silty clay, grayish brown (10YR 5/2) moist; common medium distinct brown (7.5YR 4/4) mottles; massive; extremely hard, very firm, very sticky, very plastic; strongly calcareous, slightly alkaline (pH 7.7); distinct smooth boundary. (15 to 25 inches thick)"
+      },
+      {
+        "name": "Cz2",
+        "top": 64,
+        "bottom": 99,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silty clay",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Cz2--25 to 39 inches; very pale brown (10YR 7/3) silty clay, brown (10YR 5/3) moist; common medium distinct brown (7.5YR 4/4) mottles; massive; extremely hard, very firm, very sticky, very plastic; strongly calcareous, slightly alkaline (pH 7.5); abrupt wavy boundary.  (12 to 20 inches thick)"
+      },
+      {
+        "name": "Cz3",
+        "top": 99,
+        "bottom": 183,
+        "dry_hue": "5Y",
+        "dry_value": 8,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "narrative": "Cz3--39 to 72 inches; pale yellow (5Y 8/2) silty clay, light olive gray (5Y 6/2) and light brownish gray (10YR 6/2) moist; common medium distinct yellowish red (5YR 5/8) mottles; structureless, massive; extremely hard, very firm, very sticky, very plastic; strongly calcareous, slightly alkaline (pH 7.6)."
+      }
+    ]
+  ]
 }

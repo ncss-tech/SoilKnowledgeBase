@@ -56,5 +56,64 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in the profile are:\nOchric epipedon - 0 to 5 inches (A and Bt horizons).\nParalithic contact - 5 inches (Crt horizon).\nBedrock contact - 6 inches (R horizon).\nParticle-size control section - 0 to 5 inches (A and Bt horizons).\nThe Bt horizon does not have a sufficient increase in clay and/or is too thin to meet the requirements for an argillic horizon.\nResponsibility for this series was transferred from Davis to Phoenix 4/2015. The last revision to the series was 7/2006. ET\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; yellowish brown (10YR 5/6) extremely gravelly coarse sandy loam, dark yellowish brown (10YR 3/4) moist; weak fine and medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; common very fine roots; common very fine, few fine tubular pores; 65 percent pebbles, 5 percent cobbles and 3 percent stones; neutral (pH 7.2); clear smooth boundary. (1 to 4 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 10,
+        "bottom": 13,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--4 to 5 inches; strong brown (7.5YR 4/6) very gravelly coarse sandy loam, dark brown (7.5YR 3/4) moist; moderate medium subangular blocky structure; moderately hard, very friable, slightly sticky and slightly plastic; common very fine and few fine roots; few very fine and fine tubular pores; many discontinuous, distinct clay films on rock fragments, bridging sand grains and lining pores; 45 percent pebbles, 5 percent cobbles and 2 percent stones; neutral (pH 7.2); abrupt wavy boundary. (1 to 6 inches thick)"
+      },
+      {
+        "name": "Crt",
+        "top": 13,
+        "bottom": 15,
+        "texture_class": "clay",
+        "narrative": "Crt--5 to 6 inches; weathered gneiss bedrock, fractures 1 to 5 centimeters apart; 15 percent discontinuous, faint clay films on rock fragments. (1 to 4 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 15,
+        "narrative": "R--6 inches; hard gneiss bedrock, fractures 10 to 20 centimeters apart."
+      }
+    ]
+  ]
 }

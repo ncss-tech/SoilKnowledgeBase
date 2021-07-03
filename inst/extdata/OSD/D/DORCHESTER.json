@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 25 to 100 centimeters (C and Ab1 horizons);\nseries control section--the zone from the surface to a depth of 150 centimeters (Ap, C, Ab1 and Ab2 horizons).\nDiagnostic horizons and features recognized in this pedon include:\nochric epipedon - the zone from the soil surface to a depth of 20 centimeters (Ap horizon);\ncalcareous family class--carbonates present in all parts between depths of 25 to 50 centimeters;\nudic moisture regime.\nCation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomy version--Keys to Soil Taxonomy, ninth edition, 2003.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 20 centimeters; dark grayish brown (10YR 4/2) silt loam, light brownish gray (10YR 6/2) dry; massive but tending to be platy due to stratification; friable; slightly effervescent; slightly alkaline; clear smooth boundary. (13 to 24 centimeters thick)"
+      },
+      {
+        "name": "C",
+        "top": 20,
+        "bottom": 79,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--20 to 79 centimeters; stratified dark grayish brown (10YR 4/2), grayish brown (10YR 5/2) and brown (10YR 5/3) silt loam; massive with weak thin alluvial stratification; friable; common fine distinct brown (7.5YR 4/4) concretions (iron oxides); slightly effervescent; slightly alkaline; abrupt wavy boundary. (35 to 95 centimeters thick)"
+      },
+      {
+        "name": "Ab1",
+        "top": 79,
+        "bottom": 124,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Ab1--79 to 124 centimeters; black (10YR 2/1) silt loam; weak fine granular structure; friable; neutral; gradual smooth boundary."
+      },
+      {
+        "name": "Ab2",
+        "top": 124,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "narrative": "Ab2--124 to 152 centimeters; very dark brown (10YR 2/2) silt loam; black (10YR 2/1) coats on faces of peds; weak fine subangular blocky structure; friable; neutral."
+      }
+    ]
+  ]
 }

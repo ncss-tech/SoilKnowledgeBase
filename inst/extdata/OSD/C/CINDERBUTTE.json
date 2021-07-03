@@ -56,5 +56,108 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon: the zone from 0 to 33 cm (A1, A2 and AB horizons)\nCambic horizon:  the zone from 33 to 54 cm (Bw horizon)\nFragmental layer:  the zone below 69 cm (2C horizon)\nParticle-size control section:  The particle size control section is from a depth of 25 to 100 cm.  The upper part of the strongly contrasting particle size class is from a depth of 25 to 69 cm, averages 19 percent rock fragments (loamy) and the lower part from 69 to 100 cm is 100 percent rock fragments (fragmental; cindery).\nSoil temperature regime: Cryic\nSoil moisture regime: Xeric\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 5 cm; dark brown (10YR 3/3) loam, very dark brown (10YR 2/2) moist; weak thin platy structure parting to moderate fine granular; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and common fine roots; many very fine irregular pores; neutral (pH 7.0); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 18,
+        "dry_hue": "7.5YR",
+        "dry_value": 3,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--5 to 18 cm; dark brown (7.5YR 3/3) loam, very dark brown (7.5YR 2.5/2) moist; moderate fine and medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and common fine, medium, coarse and very coarse roots; many very fine and common fine tubular pores; neutral (pH 7.0); clear wavy boundary.  (Combined thickness of A horizons range from 5 to 18 cm)"
+      },
+      {
+        "name": "AB",
+        "top": 18,
+        "bottom": 33,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "AB--18 to 33 cm; brown (7.5YR 4/2) loam, dark brown (7.5YR 3/2) moist; moderate fine, medium and coarse subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and common fine, medium and coarse roots; many very fine and common fine tubular pores; neutral (pH 7.2); gradual wavy boundary.  (15 to 28 cm thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 33,
+        "bottom": 54,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--33 to 54 cm; brown (10YR 4/3) loam, dark yellowish brown (10YR 3/4) moist; weak coarse prismatic structure parting to moderate medium and coarse subangular blocky; hard, friable, slightly sticky and slightly plastic; many very fine and common fine, medium and coarse roots; many very fine and common fine tubular pores; slightly alkaline (pH 7.4); clear wavy boundary.  (15 to 22 cm thick)"
+      },
+      {
+        "name": "2BC",
+        "top": 54,
+        "bottom": 69,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2BC--54 to 69 cm; brown (10YR 4/3) very gravelly coarse sandy loam, dark yellowish brown (10YR 3/4) moist; weak very fine and fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine and fine roots; common very fine irregular pores; 45 percent gravel sized cinders and 10 percent cobble sized cinders; slightly alkaline (pH 7.6); abrupt wavy boundary.  (15 to 23 cm thick)"
+      },
+      {
+        "name": "2C",
+        "top": 69,
+        "bottom": 152,
+        "narrative": "2C--69 to 152 cm; fragmental material (50 percent gravel sized and 50 percent cobble sized cinders.)"
+      }
+    ]
+  ]
 }

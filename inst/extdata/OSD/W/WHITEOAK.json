@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The 7/90 revision of the series changed the subgroup classification from Humic Hapludults to Umbric Dystrochrepts.  National Soil Survey Laboratory data from the typical pedon (pedon 86P 938, samples 86P5658-5664) documents a cambic horizon instead of an argillic.  The Whiteoak series was formerly included with the Saunook series. However, Saunook soils formed in colluvial material derived primarily from igneous and metamorphic crystalline rocks, contain fragments of those rocks, and have an argillic horizon.\nThe 7/98 revision places Whiteoak soils in an isotic mineralogy class.  Laboratory data for the type location indicates a mixed, superactive family.  However, the pedon narrowly misses the 1500 kPa/clay ratio requirement of 0.6 or more for the isotic family.  Based on similar soils, this soil was placed in the isotic family.  Horizon depths and runoff class were also adjusted with this revision.\nUsing the 7th Edition of Keys to Soil Taxonomy (1996), Whiteoak soils would classify as fine-loamy, isotic, mesic Andic Dystrochrepts.  However, a proposal has been made to add an acid oxalate-extractable silicon requirement to Andic subgroups, which would exclude Whiteoak soils, which lack volcanic glass.  The 2/99 revision updates classification to the 8th Edition of Keys to Soil Taxonomy.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - 0 to 12 inches (Oe, Ap and BA horizons).\nCambic horizon - 9 to 62 inches (BA, Bw1, Bw2 and BC horizons)\nUmbric-like feature - color value of 3 in the 0 to 9 inch zone (Oe and Ap horizons)\nIsotic mineralogy class - within the PSCS the soil generally has high amorphous materials (high pH-dependent charge) and a high moisture retention (at 1500 kPa) to clay ratio.\nProperties that would place the soil in an Andic subgroup--a horizon or horizons with total thickness of 7 inches (18 cm) or more within 30 inches (75 cm) of the mineral soil surface with a fine-earth bulk density of 1.0 g/cm3 or less (at 33 kPa water retention) and ammonium oxalate extractable aluminum plus 1/2 iron percentages totaling more than 1.0.\nRevised:  7/90-LBH,STE,AG; 12/97-DHK; 2/99-MKC\n01-2011   Classification -- 11th Keys, update competing and associated series, MLRA clarification --  BPS\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oe--0 to 1 inches; partially decomposed deciduous leaves, twigs and roots."
+      },
+      {
+        "name": "Ap",
+        "top": 3,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--1 to 9 inches; very dark grayish brown (10YR 3/2) cobbly loam, brown (10YR 5/3) dry; weak medium granular structure; very friable; many very fine, fine, and medium roots, and common coarse roots; 20 percent cobblestones, 5 percent channers, and 2 percent stones by volume; very strongly acid; clear smooth boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 23,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BA--9 to 12 inches; brown (10YR 4/3) loam; weak fine subangular blocky structure; friable; common very fine and fine roots, and few medium and coarse roots; 5 percent channers and 1 percent flagstones by volume; very strongly acid; clear wavy boundary.  (0 to 4 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 30,
+        "bottom": 58,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1--12 to 23 inches; yellowish brown (10YR 5/4) loam; moderate fine and medium subangular blocky structure; friable; few very fine, fine, and medium roots; 5 percent channers, 1 percent flagstones, and 1 percent stones by volume; strongly acid; gradual wavy boundary.  (11 to 36 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 58,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw2--23 to 34 inches; yellowish brown (10YR 5/4) channery loam; moderate fine and medium subangular blocky structure; friable; few very fine, fine, and medium roots; 20 percent channers, 5 percent flagstones, and 2 percent stones by volume; strongly acid; gradual wavy boundary. (0 to 13 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 86,
+        "bottom": 157,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very flaggy",
+        "pH_class": "strongly acid",
+        "narrative": "BC--34 to 62 inches; yellowish brown (10YR 5/4) very flaggy loam; weak fine subangular blocky structure; very friable; few very fine and fine roots; 20 percent channers, 15 percent flagstones, and 5 percent stones by volume; strongly acid."
+      }
+    ]
+  ]
 }

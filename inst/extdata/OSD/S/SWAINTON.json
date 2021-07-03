@@ -56,5 +56,148 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Swainton soils were formerly included in the Sassafras and Downer gravelly series concepts in Cape May County, NJ. In Cape May County, NJ, most areas were mapped as gravelly substratum phases of the Downer series.\n02/2002 This revision modifies the range of gravel content to exclude previous Downer soils that contain more than 25 percent rock fragments. In addition, it modifies the gravel content of the individual horizons originally described within the Swainton typical pedon, some textures based on the review of original field notes, and defines the concept of Swainton further to allow for a lithologic discontinuity. Swainton soils formed in gravelly reworked alluvium or gravelly marine-alluvium deposits. Downer soils formed in marine or alluvial sediments, or reworked marine-alluvial sediments but typically containing much less gravel. In Downer soils, the distinction between the reworked materials and the underlying stable marine sediments as nonconforming parent materials is not evident, as it is in Swainton. Swainton soils at higher elevations, can have thick deposits of gravelly reworked material, and the underlying stable marine deposits are below 80 inches. At lower elevations, the gravelly reworked material is thinner, and stable marine sediments low in gravel are within 80 inches.\nDiagnostic horizons and other diagnostic soil characteristics recognized in this pedon are:\nOchric epipedon--the zone from the soil surface to 3 inches (Oe, A, and E\nhorizons)\nAlbic horizon--the zone from 2 to 3 inches (E horizon)\nArgillic horizon--the zone from 4 to 23 inches (Bt horizon)\nOther soil features identified with this pedon:\nLithologic Discontinuity-abrupt decrease in rock fragment content starting at 47 inches (2C1 and 2C2 horizons)\nSeries control section--the zone from 0 to 60 inches\nADDITIONAL DATA: None\nDatabase Information:\nOSD Data Mapunit ID: To be developed\nTypical Pedon Data Mapunit ID: 103005\nOSD User Pedon ID: Swainton-OSD\nTABULAR SERIES DATA:\nSOI-5  Soil Name  Slope  Air temp  FrFr/Seas  Precip  Elevation\nNJ0085 SWAINTON   0-5    50-58     180-220    42-48   15-170\nSOI-5  FloodL FloodH Watertable  Kind  Months  Bedrock Hardness\nNJ0085 NONE          6.0-6.0             -     >72     --\nSOI-5  Depth  Texture                3-Inch  No-10   Clay%   -CEC-\nNJ0085  0- 4  LS                      0-  0  90-100  3- 8    3-6\nNJ0085  0- 4  SL                      0-  0  90-100  5-10    5-10\nNJ0085  4-23  SL GR-SL                0-  0  60-100  10-18   4-8\nNJ0085 23-35  GR-LS GRV-LS            0-  0  35- 75  3- 8    2-4\nNJ0085 35-74  SR FS GRV-S             0-  0  35- 90  1- 5    1-2\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNJ0085  0-4   3.6-4.4   .5-2.  0-0    6.0-20    LOW\nNJ0085  0-4   3.6-4.4   1.-3.  0-0    2.0- 6.0  LOW\nNJ0085  4-23  4.5-5.5   0.5-1. 0-0    2.0- 6.0  LOW\nNJ0085 23-35  4.5-5.5   0.-.5  0-0    6.0-20    LOW\nNJ0085 35-74  4.5-5.5   0.-.5  0-0    6.0-20    LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--0 to 1 inches; dark reddish brown (5YR 3/2), dark reddish gray (5YR 4/2) dry; moderately decomposed plant materials; many very fine roots, many fine roots, and few medium roots; extremely acid; abrupt smooth boundary. (0 to 3 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--1 to 2 inches; very dark grayish brown (10YR 3/2) sandy loam; moderate fine granular structure; friable, nonsticky, nonplastic; many very fine roots, many fine roots, and few medium roots; many fine vesicular pores; 5 percent rounded quartzite gravel; extremely acid; abrupt smooth boundary. (0 to 2 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "E--2 to 3 inches; light brownish gray (10YR 6/2) sandy loam; weak fine granular structure; friable; nonsticky, nonplastic; common fine roots and few medium roots; many fine vesicular pores; 5 percent rounded quartzite gravel; extremely acid; abrupt smooth boundary. (0 to 2 inches thick, 0 to 6 inches if not part of the micro-podzol)"
+      },
+      {
+        "name": "Bh",
+        "top": 8,
+        "bottom": 10,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bh--3 to 4 inches; yellowish red (5YR 5/6) sandy loam; massive; friable; nonsticky, nonplastic, extremely weakly cemented in places; common fine roots and few medium roots; common fine vesicular pores; 5 percent rounded quartzite gravel; extremely acid; abrupt smooth boundary. (0 to 1 inch thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 10,
+        "bottom": 30,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--4 to 12 inches; strong brown (7.5YR 5/6) sandy loam; moderate medium subangular blocky structure; friable, slightly sticky, slightly plastic; common fine roots and common medium roots; common clay bridging between sand grains; common fine vesicular pores; 5 percent rounded quartzite gravel; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 30,
+        "bottom": 58,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--12 to 23 inches; yellowish brown (10YR 5/6) sandy loam; moderate medium and coarse subangular blocky structure; friable, slightly sticky, slightly plastic; common fine roots and common medium roots; common fine vesicular pores; common clay bridging between sand grains; 15 percent rounded quartzite gravel; very strongly acid; clear smooth boundary. (Combined thickness of the Bt horizon is 15 to 30 inches.)"
+      },
+      {
+        "name": "C1",
+        "top": 58,
+        "bottom": 89,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C1--23 to 35 inches; yellowish red (5YR 5/6) gravelly loamy sand; single grain; loose; nonsticky, nonplastic; few fine and medium roots; 20 percent rounded quartzite gravel; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "C2",
+        "top": 89,
+        "bottom": 119,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C2--35 to 47 inches; yellowish red (5YR 5/6) very gravelly sand; single grain; loose; nonsticky, nonplastic; few fine roots and few medium roots; 40 percent, by volume rounded quartzite gravel; very strongly acid; abrupt smooth boundary. (combined thickness of the C horizon is 0 to greater than 65 inches thick)"
+      },
+      {
+        "name": "2C1",
+        "top": 119,
+        "bottom": 147,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2C1--47 to 58 inches; yellow (10YR 7/6) and strong brown (7.5YR 5/6) stratified loamy sand to sand; sand part is single grain; loose; nonsticky, nonplastic; loamy sand part is massive; very friable; slightly sticky, slightly plastic; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "2C2",
+        "top": 147,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 4,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "narrative": "2C2--58 to 80 inches; very pale brown (10YR 8/4) fine sand; single grain; loose; nonsticky, nonplastic; very strongly acid. (Combined thickness of the 2C horizon is 0 to greater than 65 inches thick.)"
+      }
+    ]
+  ]
 }

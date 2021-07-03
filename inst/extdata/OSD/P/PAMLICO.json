@@ -56,5 +56,63 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Pamlico muck, as mapped in the past, included a very wide range of conditions.  The concept expressed in this description is restricted in thickness, degree of decomposition and nature of underlying materials.\nDiagnostic horizons and features recognized in the typical pedon are:\nOrganic materials (terric) - the zone from the surface to a depth of 30 inches (the Oi, Oa1, and Oa2 horizons)\nSandy particle-size class - mineral material within a depth of 51 inches that has weighted average of the sandy particle-size class in the upper 12 inches of the mineral material or within the control section (51 inches), whichever is thicker (the Cg horizon)\nMLRA(S): 152A, 153A, 153B, 133A\nSIR(S): NC0050, NC0154 (LOAMY SUBSTRATUM), NC0155 (PONDED),\nNC0159 (FLOODED), NC0270 (PONDED, LOAMY SUBSTRATUM)\nREVISED=6/10/96, MHC\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0050 PAMLICO     0-  1   62- 70  240-310  45- 60    30- 150\nNC0154 PAMLICO     0-  1   62- 70  240-310  45- 60    30- 150\nNC0155 PAMLICO     0-  1   62- 70  240-310  45- 60    25- 150\nNC0159 PAMLICO     0-  1   62- 70  240-310  45- 60    30- 150\nNC0270 PAMLICO     0-  1   62- 70  240-310  45- 60    30- 150\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0050 RARE            0-1.0  APPARENT DEC-MAY  60-60\nNC0154 RARE            0-1.0  APPARENT JAN-DEC  60-60\nNC0155 RARE             -     APPARENT    -     60-60\nNC0159 FREQ             -     APPARENT    -     60-60\nNC0270 RARE             -     APPARENT    -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0050  0-30  MUCK                    0-  0    -     0- 0 100-230\nNC0050 30-60  LS S LFS                0-  0 100-100  5-10   1-  5\nNC0154  0-24  MUCK                    0-  0    -      -   100-230\nNC0154 24-48  FS LFS                  0-  0 100-100  5-10   1-  5\nNC0154 48-72  FSL SCL                 0-  0 100-100 15-35   5- 15\nNC0155  0-30  MUCK                    0-  0    -     0- 0 100-230\nNC0155 30-60  S FS LS                 0-  0 100-100  5-10   1-  5\nNC0159  0-30  MUCK                    0-  0    -     0- 0 100-230\nNC0159 30-60  LS S LFS                0-  0 100-100  5-10   1-  5\nNC0270  0-24  MUCK                    0-  0    -      -    20-230\nNC0270 24-48  FS LFS                  0-  0 100-100  5-10   1-  5\nNC0270 48-72  FSL SCL                 0-  0 100-100 15-35   5- 15\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0050  0-30  3.5- 4.4  20-80  0- 0   0.6- 6.0  LOW\nNC0050 30-60  3.5- 5.5  .5-5.  0- 0   6.0-  20  LOW\nNC0154  0-24  3.5- 4.4  20-80  0- 0   0.6- 6.0  LOW\nNC0154 24-48  3.5- 5.5  .5-5.  0- 0   6.0-  20  LOW\nNC0154 48-72  3.5- 5.5  .5-1.  0- 0  0.06- 0.2  LOW\nNC0155  0-30  3.5- 5.5  20-80  0- 0   0.6- 6.0  LOW\nNC0155 30-60  3.5- 5.5  .5-5.  0- 0   6.0-  20  LOW\nNC0159  0-30  3.5- 5.5  20-80  0- 0   0.6- 6.0  LOW\nNC0159 30-60  3.5- 5.5  .5-5.  0- 0   6.0-  20  LOW\nNC0270  0-24  3.5- 4.4  20-80  0- 0   0.6- 6.0  LOW\nNC0270 24-48  3.5- 5.5  .5-5.  0- 0   6.0-  20  LOW\nNC0270 48-72  3.5- 5.5  .5-1.  0- 0  0.06- 0.2  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Oi--0 to 3 inches; very dark brown (10YR 2/2) fibric material; 75 percent fiber content after rubbing; friable; fibers are of moss, leaves, twigs, and roots; extremely acid; gradual wavy boundary.  (0 to 4 inches thick)"
+      },
+      {
+        "name": "Oa1",
+        "top": 8,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Oa1--3 to 14 inches; black (10YR 2/1) sapric material; 10 percent fiber; weak coarse granular structure; friable; slightly sticky; common roots; sodium pyrophosphate extract is yellowish brown (10YR 5/4); extremely acid; gradual wavy boundary."
+      },
+      {
+        "name": "Oa2",
+        "top": 36,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Oa2--14 to 30 inches; very dark grayish brown (10YR 3/2) sapric material; 20 percent fiber; less than 10 percent rubbed; massive; friable; slightly sticky; few roots; sodium pyrophosphate extract is light yellowish brown (10YR 6/4); extremely acid; gradual wavy boundary.   (combined thickness of Oa horizon is 16 to 51 inches)"
+      },
+      {
+        "name": "Cg",
+        "top": 76,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "extremely acid",
+        "narrative": "Cg--30 to 60 inches; very dark grayish brown (10YR 3/2) loamy sand; single grained; loose; extremely acid."
+      }
+    ]
+  ]
 }

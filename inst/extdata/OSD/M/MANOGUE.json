@@ -56,5 +56,108 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 18 cm (A horizon and part of the Bss horizon).\nCambic horizon - The zone from 8 to 38 cm (Bss horizon).\nSlickensides - The zone from 8 to 145 cm (Bss, Bkss1, and Bkss2 horizons).\nParalithic contact - The boundary at 160 to underlying soft, weathered bedrock (2Cr layer).\nParticle-size control section - The zone from 25 to 100 cm (parts of the Bss and Bkss1 horizons).\nADDITIONAL DATA:  A pedon of Manogue near the series type location has full characterization data by the Soil Survey Laboratory (SSL), Lincoln, NE, as soil survey sample number S75NV-031-016 (pedon # 40A3430).\nUser Pedon ID: 2006NV031075.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "cf_class": "cobbly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 8 cm; dark brown (10YR 3/3) cobbly clay, dark brown (10YR 3/3) moist; moderate very fine granular structure; soft, very friable, very sticky and very plastic; very few roots; many very fine interstitial pores; 15 percent cobbles; neutral (pH 7.2); abrupt smooth boundary.  (3 to 10 cm thick)"
+      },
+      {
+        "name": "Bss",
+        "top": 8,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bss--8 to 38 cm; brown (10YR 4/3) clay, dark yellowish brown (10YR 4/4) moist; strong medium and coarse prismatic structure; very hard, very firm, very sticky and very plastic; very few roots; few very fine tubular pores; common slickensides; moderately alkaline (pH 8.4); abrupt smooth boundary.  (20 to 40 cm thick)"
+      },
+      {
+        "name": "Bkss1",
+        "top": 38,
+        "bottom": 104,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bkss1--38 to 104 cm; brown (10YR 4/3) clay, dark yellowish brown (10YR 4/4) moist; strong coarse prismatic structure; very hard, very firm, very sticky and very plastic; very few roots; few fine tubular pores; 5 percent gravel; common slickensides; strongly effervescent; moderately alkaline (pH 8.4); clear smooth boundary.  (33 to 80 cm thick)"
+      },
+      {
+        "name": "Bkss2",
+        "top": 104,
+        "bottom": 145,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bkss2--104 to 145 cm; brown (10YR 4/3) clay, dark yellowish brown (10YR 4/4) moist; weak very coarse prismatic structure; very hard, very firm, very sticky and very plastic; very few roots; very few fine tubular pores; 5 percent gravel; common slickensides; strongly effervescent; moderately alkaline (pH 8.4); abrupt wavy boundary.  (20 to 50 cm thick)"
+      },
+      {
+        "name": "2Bk",
+        "top": 145,
+        "bottom": 160,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Bk--145 to 160 cm; pale brown (10YR 6/3) gravelly clay loam, dark yellowish brown (10YR 4/4) moist; weak medium angular blocky structure; hard, firm, moderately sticky and moderately plastic; very few fine tubular pores; 15 percent gravel; strongly effervescent; moderately alkaline (pH 8.4); abrupt wavy boundary.  (0 to 38 cm thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 160,
+        "narrative": "2Cr--160 cm; highly weathered andesite."
+      }
+    ]
+  ]
 }

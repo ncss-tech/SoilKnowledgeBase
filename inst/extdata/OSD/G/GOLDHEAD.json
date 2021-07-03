@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  With this update, the classification is changed from great group of Ochraqualfs to Endoaqualfs.  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon and arenic properties--The zone from the soil surface to a depth of 38 inches (A, Egl, Eg2 horizons).\nAlbic horizon--the zone from about 6 to 38 inches (Eg1, Eg2 horizons).\nArgillic horizon--The zone from about 38 to 51 inches (Btgl, Btg2 horizons)\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nFL0485 GOLDHEAD    0-  5     -        -       -         -\nFL0517 GOLDHEAD    0-  2     -        -       -         -\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nFL0485 NONE            0-1.0  APPARENT JUL-MAR  60-60\nFL0517 NONE             -     APPARENT    -       -\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nFL0485  0- 6  S FS                    0-  0 100-100  1- 5    -\nFL0485  6-38  S FS                    0-  0  90-100  1- 5    -\nFL0485 38-51  SL GR-SL SCL            0-  3  65-100 13-34    -\nFL0485 51-80  VAR                      -       -      -      -\nFL0517  0- 6  S FS                    0-  0 100-100  1- 5    -\nFL0517  6-38  S FS                    0-  0  90-100  1- 5    -\nFL0517 38-51  SL GR-SL SCL            0-  3  65- 98 13-34    -\nFL0517 51-80  VAR                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nFL0485  0- 6  4.5- 7.8  1.-4.  0- 0   6.0-  20  LOW\nFL0485  6-38  4.5- 7.8    -    0- 0   6.0-  20  LOW\nFL0485 38-51  4.5- 8.4    -    0- 0   0.6- 2.0  LOW\nFL0485 51-80     -        -     -     2.0-20.0\nFL0517  0- 6  4.5- 7.8  2.-4.  0- 0   6.0-  20  LOW\nFL0517  6-38  4.5- 7.8    -    0- 0   6.0-  20  LOW\nFL0517 38-51  4.5- 8.4    -    0- 0   0.2- 2.0  LOW\nFL0517 51-80     -        -    0- 0   2.0-20.0\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 6 inches; black (10YR 2/1) fine sand; weak fine granular structure; very friable; many fine and medium roots; strongly acid; gradual wavy boundary.  (4 to 9 inches thick)"
+      },
+      {
+        "name": "Eg1",
+        "top": 15,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Eg1--6 to 12 inches; dark gray (10YR 4/1) fine sand; single grained; loose; few fine and medium roots; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Eg2",
+        "top": 30,
+        "bottom": 97,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Eg2--12 to  38 inches; grayish brown (10YR 5/2) fine sand; single grained; loose; slightly acid; clear wavy boundary.  (Combined thickness of the Eg horizons is 14 to 32 inches)"
+      },
+      {
+        "name": "Btg1",
+        "top": 97,
+        "bottom": 114,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg1--38 to 45 inches; light brownish gray (10YR 6/2) sandy clay loam; weak medium subangular blocky structure; friable; many medium prominent strong brown (7.5YR 5/8) soft masses of iron accumulation; neutral; gradual wavy boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 114,
+        "bottom": 130,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "mildly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btg2--45 to 51 inches; gray (10YR 6/1) fine sandy loam;   weak medium granular structure; very friable; few medium prominent strong brown (7.5YR 5/8) and few fine distinct dark brown (10YR 4/3) soft masses of iron and manganese accumulation; mildly alkaline; clear wavy boundary.  (Combined thickness of the Btg horizons is 12 to 60 inches)"
+      },
+      {
+        "name": "Cg1",
+        "top": 130,
+        "bottom": 180,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "mildly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Cg1--51 to 71 inches; gray (10YR 6/1) fine sand; single grained; loose; small pockets of light gray (10YR 7/2) fine sandy loam; mildly alkaline; gradual wavy boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 180,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "mildly alkaline",
+        "narrative": "Cg2--71 to 80 inches; gray (10YR 5/1) fine sand; single grained; loose; small pockets of greenish gray (5GY 5/1) fine sandy loam; single grained; loose; mildly alkaline."
+      }
+    ]
+  ]
 }

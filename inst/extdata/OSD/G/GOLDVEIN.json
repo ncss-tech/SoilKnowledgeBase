@@ -56,5 +56,141 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This series was updated 2/82.  This series was last updated by RLV in 08/2003 when it was transferred from MO14 to MO13. The 02/2004 revision converted much of this series back to English units.\nADDITIONAL DATA: NONE\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0045 GOLDVEIN    0- 15   47- 58  165-200  35- 45   250- 900\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0045 NONE          1.0-2.0  PERCHED  NOV-MAY  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0045  0-19  GRF-FSL GRV-SIL         0-  0  65- 75  5-25    -\nVA0045  0-19  GRF-SIL                 0-  0  65- 75  5-25    -\nVA0045 19-43  GRF-CL GRF-SCL GRV-CL   0-  0  35- 60 20-35    -\nVA0045 43-53  GRF-CL GRF-SCL          0-  5  65- 75 15-35    -\nVA0045 53-80  GRF-SL GRF-CL           0-  5  45- 70 10-35    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0045  0-19  3.6- 5.0  .5-2.  0- 0   0.6- 2.0  LOW\nVA0045  0-19  3.6- 5.0  .5-2.  0- 0   0.6- 2.0  LOW\nVA0045 19-43  3.6- 5.0  0.-.5  0- 0  0.06- 0.6  LOW\nVA0045 43-53  3.6- 5.0  0.-.5  0- 0  0.06- 0.6  LOW\nVA0045 53-80  3.6- 5.0  0.-.5  0- 0   0.6- 2.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "0i--0 to 1 inch, slightly decomposed and fresh oak leaves, pine needles and twigs."
+      },
+      {
+        "name": "0e",
+        "top": 3,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "narrative": "0e--1 to 2 inch, very dark gray (10YR 3/1) intermediately decomposed organic matter."
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 8,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--2 to 3 inch, dark gray (5YR 4/1) fine gravelly silt loam; weak fine and very fine granular structure; very friable; common fine roots; 20 percent angular quartz fragments 2 to 5 mm in diameter; extremely acid; abrupt smooth boundary.  (0 to 3 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 23,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--3 to 9 inches, light olive brown (2.5Y 5/4) fine gravelly silt loam; weak fine granular structure; friable; many fine medium and large roots; 20 percent angular quartz fragments 2 to 5 mm in diameter; extremely acid; clear smooth boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "EB",
+        "top": 23,
+        "bottom": 30,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "EB--9 to 12 inches, light yellowish brown (2.5Y 6/4) fine gravelly silt loam; moderate fine granular structure; friable; common fine and medium roots; 20 percent angular quartz fragments 2 to 5 mm in diameter; very strongly acid; abrupt smooth boundary.  (0 to 5 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 30,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "cf_class": "very gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BE--12 to 22 inches, yellowish brown (10YR 5/6) very gravelly silt loam; common fine faint light gray (2.5Y 7/2), light yellowish brown (2.5Y 6/4) and pale brown (10YR 6/3) mottles; weak medium platy structure parting to weak fine and very fine subangular blocky; hard, firm; slightly brittle; few fine and medium roots; few fine pores; 45 percent angular quartz fragments 2 to 5 mm in diameter; very strongly acid; gradual wavy boundary.  (15 to 25 cm thick)"
+      },
+      {
+        "name": "Btx1",
+        "top": 56,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btx1--22 to 34 inches, yellowish brown (10YR 5/6) very gravelly clay loam; common fine faint light yellowish brown (10YR 6/4) and common fine distinct strong brown (7.5YR 5/8) and few grayish brown (10YR 5/2) mottles; weak coarse platy structure parting to weak fine and very fine angular blocky; hard, firm, slightly sticky; brittle; few medium roots; common fine and medium vesicular pores; 40 percent angular quartz fragments 2 to 5 mm in diameter; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btx2",
+        "top": 86,
+        "bottom": 114,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btx2--34 to 45 inches, yellowish brown (10YR 5/8) fine gravelly clay loam; common medium distinct strong brown (7.5YR 5/8) and yellowish red (5YR 5/6) mottles; weak coarse angular blocky and weak medium subangular blocky structure; firm; brittle, slightly sticky, slightly plastic; few fine roots; few fine pores; common thin patchy films of clay; 20 percent angular quartz fragments 2 to 5 mm in diameter; very strongly acid; gradual wavy boundary.  (combined thickness of the Btx is 10 to 40 inches)"
+      },
+      {
+        "name": "BCt",
+        "top": 114,
+        "bottom": 142,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BCt--45 to 56 inches, yellowish brown (10YR 5/6) fine gravelly clay loam; common medium faint brown (10YR 5/3), pale brown (10YR 6/3) and common medium prominent white (N8/) mottles and streaks, weak fine angular and subangular blocky structure; friable, slightly sticky, slightly plastic; few thin patchy films of clay; 20 percent angular quartz fragments 2 to 5 mm in diameter; very strongly acid; gradual wavy boundary.  (7 to 13 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 142,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "narrative": "C--56 to 80 inches, mottled yellowish brown (10YR 5/6), grayish brown (2.5Y 5/2), white (N8/) and yellowish red (5YR 5/6) fine gravelly clay loam; massive; firm plastic, sticky; 25 percent angular quartz fragments 2 to 5 mm in diameter; very strongly acid."
+      }
+    ]
+  ]
 }

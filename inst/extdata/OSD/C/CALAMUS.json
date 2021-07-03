@@ -56,5 +56,111 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and other features recognized in this pedon;\nOchric epipedon, 0 to 13 centimeters (5 inches) (A horizon)\nAquic soil conditions: 76 to 203 centimeters (30 and 80 inches)\nA channeled phase and a calcareous phase are recognized\nOSD Modification\n5/2002 RRZ: moved redox section, added concentration and depletion statement; Added 7.5 YR color to concentrations; added depletion of 2.5Y and reduced matrix statement; increased range of redox concentration and depletions from 20 to 40 to 80 inches; added competing series of Yaggy soils; Moved Ipage and Saxman to geographic associated soils; Sandy loam added to the A horizon; Fine sand texture added to C horizon.\n12/2003 WAW: added fine sandy loam as texture in A horizon based on Roger Hammer's project Revision of Interdunal soils mapped on flood plains. Revised Geographically Associated Soils section.\n10/12/2006 RRH: TYPICAL PEDON: Changed C3 and C4 horizons to Cg1 and Cg2; RANGE IN CHARACTERISTICS: AC horizon added loamy sand; C and Cg horizons added 2.5Y hue, added loamy fine sand and loamy sand and gravelly coarse sand to matrix, and following strata added of finer textured material including mucky mineral and organic layers; COMPETING SERIES: revised. GEOGRAPHICALLY ASSOCIATED SOILS: revised and deleted Blackloup (associated with Boel & Barney), Loup, (interdunes of sandhills) Platte, Wann, Saxton (not associated with at type location) and added Fluvaquents, sandy (associated with at type location). DRAINAGE: corrected. USE AND VEGETATION: corrected.\nADDITIONAL DATA: Pedons sampled for National Soil Survey Laboratory S84NE-9-2 and S89NE-57-105.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "loamy fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 13 centimeters (0 to 5 inches); grayish brown (10YR 5/2) loamy fine sand, very dark gray (10YR 3/1) moist; weak medium and fine granular structure; soft, very friable; slightly acid; clear smooth boundary. (8 to 23 centimeters (3 to 9 inches) thick)"
+      },
+      {
+        "name": "AC",
+        "top": 13,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "AC--13 to 36 centimeters (5 to 14 inches); light brownish gray (10YR 6/2) fine sand, dark grayish brown (10YR 4/2) moist; weak medium granular structure; soft, very friable; slightly acid; clear smooth boundary. (0 to 36 centimeters (0 to 14 inches) thick)"
+      },
+      {
+        "name": "C1",
+        "top": 36,
+        "bottom": 53,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C1--36 to 53 centimeters (14 to 21 inches); light gray (10YR 7/2) sand, light brownish gray (10YR 6/2) moist; single grain; loose; few thin strata of fine sandy loam and coarse sand; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "C2",
+        "top": 53,
+        "bottom": 76,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C2--53 to 76 centimeters (21 to 30 inches); light gray (10YR 7/2) sand, light brownish gray (10YR 6/2) moist; single grain; loose; few thin strata of fine sandy loam and coarse sand; about 3 percent gravel by volume; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "Cg1",
+        "top": 76,
+        "bottom": 140,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "coarse sand",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Cg1--76 to 140 centimeters (30 to 55 inches); light gray (10YR 7/2) stratified fine sand, sand and coarse sand, light brownish gray (10YR 6/2) moist; few medium distinct yellowish brown (10YR 5/6) iron masses in soil matrix; single grain; loose; about 10 percent gravel by volume; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 140,
+        "bottom": 203,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "coarse sand",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "narrative": "Cg2--140 to 203 centimeters (55 to 80 inches); light gray (10YR 7/2) gravelly coarse sand, light brownish gray (10YR 6/2) moist; few medium distinct yellowish brown (10YR 5/6) iron masses in soil matrix; single grain; loose; about 18 percent gravel by volume; slightly acid."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 5 cm (A horizon).\nArgillic horizon - The zone from 5 to 56 cm (Bt1 and Bt2 horizons).\nVertic subgroup feature - A linear extensibility of 6 cm or more between the soil surface and the paralithic contact.\nPaleargid great group feature - There is an abrupt textural change at 5 cm with a clay increase of 20 percent or more (absolute) within 2.5 cm at the upper boundary of the argillic horizon (between the A and Bt1 horizons).\nParalithic contact - The boundary at 74 cm to underlying weathered bedrock (2Cr layer).\nParticle-size control section - The zone from 5 to 55 cm (Bt1 and part of the Bt2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very stony",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 5 cm; pale brown (10YR 6/3) very stony sandy loam, brown (10YR 4/3) moist; weak medium platy structure; soft, very friable, slightly sticky and slightly plastic; few fine tubular pores, common medium vesicular pores; 15 percent gravel, 15 percent cobbles, and 15 percent stones; slightly acid (pH 6.4); abrupt smooth boundary.  (3 to 13 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 5,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--5 to 38 cm; light yellowish brown (10YR 6/4) clay, yellowish brown (10YR 5/4) moist; strong medium prismatic structure, extremely hard, very firm, very sticky and very plastic; common fine and very fine and few medium roots; few fine tubular pores; common prominent clay films or pressure cutans on faces of peds; 5 percent gravel and 5 percent cobbles; neutral (pH 6.6); clear wavy boundary.  (23 to 40 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 38,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--38 to 56 cm; light yellowish brown (10YR 6/4) clay, yellowish brown (10YR 5/4) moist; weak coarse prismatic structure; very hard, very firm, moderately sticky and moderately plastic; few fine and common medium roots; few fine tubular pores; common prominent clay films on faces of peds; 10 percent gravel; neutral (pH 7.0); gradual wavy boundary.  (10 to 25 cm thick)"
+      },
+      {
+        "name": "2C",
+        "top": 56,
+        "bottom": 74,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2C--56 to 74 cm; light yellowish brown (10YR 6/4) gravelly clay, yellowish brown (10YR 5/4) moist; massive; very hard, very firm, moderately sticky and moderately plastic; few fine and medium roots; few fine tubular pores; 25 percent gravel; slightly alkaline (pH 7.5); gradual wavy boundary.  (0 to 36 cm thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 74,
+        "narrative": "2Cr--74 cm; highly fractured, water-laid tuff with some carbonates and silica in fractures."
+      }
+    ]
+  ]
 }

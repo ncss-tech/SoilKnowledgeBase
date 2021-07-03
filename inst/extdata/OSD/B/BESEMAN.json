@@ -56,5 +56,51 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized are:  Sapric soil materials from the surface to 36 inches (Oa1 and Oa2 horizons); terric subgroup with mineral material at 36 inches plus (Cg horizon); aquic soil moisture regime with low chroma matrix in the mineral material (Cg horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oa1",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oa1--0 to 8 inches; dark reddish brown (5YR 3/3) muck; broken face (sapric material), dark reddish brown (5YR 3/2) rubbed; about 40 percent fiber, about 10 percent rubbed; massive in parts with weak very coarse platy structure in other parts; nonsticky; herbaceous fiber; about 15 percent mineral material; extremely acid; abrupt smooth boundary."
+      },
+      {
+        "name": "Oa2",
+        "top": 20,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oa2--8 to 36 inches; black (10YR 2/1) muck; broken face and rubbed (sapric material); about 5 percent fiber, trace rubbed; massive in parts with weak thick platy structure in other parts; nonsticky; herbaceous fiber; about 20 percent mineral material; extremely acid; abrupt smooth boundary."
+      },
+      {
+        "name": "Cg",
+        "top": 91,
+        "bottom": 152,
+        "moist_hue": "5YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Cg--36 to 60 inches; gray (5YR 6/1) loam; massive; friable; about 5 percent gravel; very strongly acid."
+      }
+    ]
+  ]
 }

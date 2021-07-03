@@ -56,5 +56,70 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Cation exchange activity class determined from a review of available data.\nDiagnostic horizons and features recognized in this pedon are:\n1.  Ochric epipedon - the zone from 0 to 8 cm (Oe and A horizons).\n2.  Cambic horizon - the zone from 8 to 46 cm (Bw horizons).\n3.  Lithic contact - hard bedrock at 46 cm.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "narrative": "Oe--0 to 1 cm; black (10YR 2/1) moderately decomposed plant material.  (0 to 3 cm thick)"
+      },
+      {
+        "name": "A",
+        "top": 1,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--1 to 8 cm; dark brown (10YR 3/3) silt loam; weak medium granular structure; very friable; many fine roots; 10 percent angular gravel; very strongly acid; abrupt wavy boundary.  (1 to 10 cm thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 8,
+        "bottom": 20,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--8 to 20 cm; brown (7.5YR 4/4) silt loam; weak coarse granular structure; very friable; many fine roots; 10 percent gravel; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 20,
+        "bottom": 46,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw2--20 to 46 cm; yellowish red (5YR 4/6) gravelly silt loam; weak medium subangular blocky structure; friable; common fine roots; 15 percent gravel; very strongly acid; abrupt wavy boundary.  (Combined thickness of the Bw horizons is 20 to 48 cm.)"
+      },
+      {
+        "name": "2R",
+        "top": 46,
+        "narrative": "2R--46 cm; basalt bedrock."
+      }
+    ]
+  ]
 }

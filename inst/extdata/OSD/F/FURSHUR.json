@@ -56,5 +56,72 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this series\nare:\nOchric epipedon - occurs from the soil surface to approximately 5\ninches (A and BA horizons)\nArgillic horizon - the zone from approximately 5 to 15 inches (Bt and\nBtq horizons)\nDuripan - the zone from 15 to 20 inches (Bqkm horizon)\nNational Cooperative Soil Survey\nU. S. A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "narrative": "A--0 to 2 inches; dark grayish brown (10YR 4/2) very channery loam,"
+      },
+      {
+        "name": "BA",
+        "top": 5,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "narrative": "BA--2 to 5 inches; brown (10YR 5/3) clay loam, dark brown (10YR"
+      },
+      {
+        "name": "Bt",
+        "top": 13,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "narrative": "Bt--5 to 13 inches; yellowish brown (10YR 5/4) clay, dark yellowish"
+      },
+      {
+        "name": "Btq",
+        "top": 33,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "narrative": "Btq--13 to 15 inches; brownish yellow (10YR 6/6) gravelly clay,"
+      },
+      {
+        "name": "Bqkm",
+        "top": 38,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 3,
+        "narrative": "Bqkm--15 to 20 inches; very pale brown (10YR 8/3) silica and"
+      },
+      {
+        "name": "R",
+        "top": 51,
+        "narrative": "R--20 inches; fractured layered rhyolitic bedrock with calcium"
+      }
+    ]
+  ]
 }

@@ -56,5 +56,106 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons in this pedon are:\nOchric epipedon--The zone from the soil surface to a depth of about 24 inches.  (Ap, AE and E horizons)\nArgillic horizon--The zone from about 24 to 69 inches.  (BE, Btgl and Btg2 horizons)\nDATA:  Soil Characterization Lab., IFAS, UOF\nS63-7-(1-7), S63-10-(1-6)\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nFL0496 WAMPEE      0- 15     -        -       -         -\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nFL0496 NONE   RARE   1.0-3.0  APPARENT JUN-DEC  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nFL0496  0- 6  FS S                    0-  3  80-100  2-10    -\nFL0496  0- 6  LFS LS                  0-  3  80-100  4-15    -\nFL0496  6-29  LFS GR-FS LS            0-  3  68- 98  2-15    -\nFL0496 29-50  SCL GR-SCL SL           0-  3  68- 98 10-30    -\nFL0496 50-69  SC SL SCL               0-  0  90-100 18-45    -\nFL0496 69-80  VAR                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nFL0496  0- 6  4.5- 7.3  1.-4.  0- 0   2.0-  20  LOW\nFL0496  0- 6  4.5- 7.3  1.-4.  0- 0   2.0-  20  LOW\nFL0496  6-29  4.5- 6.5    -    0- 0   2.0-  20  LOW\nFL0496 29-50  4.5- 6.5    -    0- 0   0.6- 2.0  LOW\nFL0496 50-69  4.5- 6.5    -    0- 0   0.2- 0.6  LOW\nFL0496 69-80     -        -     -     2.0-20.0\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 6 inches; very dark grayish brown (10YR 3/2) loamy fine sand; weak fine granular structure; very friable; many fine and medium roots; about 1 percent by volume ironstone nodules and weathered, phosphatic limestone fragments; slightly acid; clear wavy boundary.  (3 to 7 inches thick)"
+      },
+      {
+        "name": "AE",
+        "top": 15,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "AE--6 to 13 inches; dark brown (10YR 4/3) loamy fine sand; single grained; loose; common fine roots; about 1 percent by volume ironstone nodules and weathered phosphatic limestone fragments; slightly acid; gradual wavy boundary.  (0 to 7 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 33,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E--13 to 24 inches; pale brown (10YR 6/3) fine sand; single grained; loose; few fine roots; about 5 percent by volume ironstone nodules and weathered phosphatic limestone fragments; slightly acid; gradual wavy boundary.  (Combined thickness of the A, A/E, and E horizons is 21 to 36 inches)"
+      },
+      {
+        "name": "BE",
+        "top": 61,
+        "bottom": 74,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BE--24 to 29 inches; light gray (10YR 7/2) loamy fine sand; weak fine granular structure; very friable; few fine roots; few medium prominent brownish yellow (10YR 6/6) masses of iron accumulation; about 10 percent by volume ironstone nodules and weathered phosphatic limestone fragments; slightly acid; clear wavy boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 74,
+        "bottom": 127,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg1--29 to 50 inches; light gray (10YR 7/2) gravelly sandy clay loam; weak coarse subangular blocky structure; friable; few fine roots; few coarse prominent yellow (10YR 7/6) and few fine prominent strong brown (7.5YR 5/6) masses of iron accumulation; about 15 percent by volume ironstone nodules and weathered phosphatic limestone fragments; moderately acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 127,
+        "bottom": 175,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg2--50 to 69 inches; light gray (10YR 7/1) sandy clay; moderate coarse subangular blocky structure; friable; few fine roots; very strongly acid; gradual wavy boundary.  (Combined thickness of the Btg horizon is 15 to 50 inches)"
+      },
+      {
+        "name": "Cg",
+        "top": 175,
+        "bottom": 203,
+        "moist_hue": "5Y",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "narrative": "Cg--69 to 80 inches; light gray (5Y 7/1) clay; massive; few fine roots; common medium faint pale yellow (5YR 7/4) and common medium distinct yellow (2.5YR 7/6) masses of iron accumulation; strongly acid."
+      }
+    ]
+  ]
 }

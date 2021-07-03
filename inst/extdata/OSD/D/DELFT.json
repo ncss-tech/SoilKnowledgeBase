@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons are: mollic epipedon from 0 to 29 inches (Ap and A horizons); cambic horizon from 29 to 46 inches (Bg1 and Bg2 horizons).  Other features are the aquic moisture regime and low chroma below the mollic epipedon.  A somewhat poorly drained overwash phase is recognized that has 8 to 20 inches of colluvium overlying the original dark colored surface layer. 1/21/2011-TYPE LOCATION error was corrected.\nADDITIONAL DATA:  For results of some laboratory analysis, refer to MN.  Agr. Exp. Sta. Central File Code Nos. 2093 for some data on the typical pedon and to 2092 and 2091 for data on two additional pedons.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 2,
+        "dry_chroma": 1,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "clay loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 12 inches; black (N 2/0) clay loam; black (10YR 2/1) dry; weak fine subangular blocky structure; friable; about 2 percent gravel; slightly alkaline; abrupt smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 30,
+        "bottom": 74,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--12 to 29 inches; black (N 2/0) loam, very dark gray (10YR 3/1) dry; weak fine subangular blocky structure; friable; about 10 percent gravel; slightly alkaline; clear wavy boundary.  (Combined thickness of A horizons is 24 to 60 inches.)"
+      },
+      {
+        "name": "Bg1",
+        "top": 74,
+        "bottom": 86,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg1--29 to 34 inches; dark gray (5Y 4/1) silt loam; weak fine prismatic structure parting to weak fine subangular blocky; friable; common black (5Y 2/1) worm casts; about 5 percent gravel; slightly alkaline; clear wavy boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 86,
+        "bottom": 117,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg2--34 to 46 inches; olive gray (5Y 5/2) clay loam; weak coarse prismatic structure parting to weak fine subangular blocky; friable; about 5 percent gravel;  many fine prominent light olive brown (2.5Y 5/4) and few coarse prominent brown (7.5YR 4/4) Fe concentrations; slightly effervescent; slightly alkaline; clear wavy boundary.  (Combined thickness of Bg horizons is 0 to 24 inches.)"
+      },
+      {
+        "name": "Cg",
+        "top": 117,
+        "bottom": 152,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "Cg--46 to 60 inches; olive gray (5Y 5/2) loam; massive; friable; about 2 percent gravel; about 8 percent carbonates disseminated throughout; many coarse prominent yellowish brown (10YR 5/6) Fe concentrations; strongly effervescent; slightly alkaline."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are: a surface layer of moderately decomposed plant material from 0 to 5 inches (Oe horizon); a mollic epipedon from 5 to 43 inches (Ag, Bg horizons); coarse sand and gravel substrates below 43 inches (2C horizon); a particle-size control section from 15 to 45 inches (Ag, Cg, and 2C horizons). Moosejaw soils have a cryic temperature regime and an aquic moisture regime.  Gravels throughout the profile are primarily fine pea gravel less than 7 mm in diameter.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "narrative": "Oe--0 to 5 inches; dark brown (10YR 3/3) mucky peat, brown (10YR 4/3) dry; moderately decomposed herbaceous material and trapped sediment; soft, very friable, non-sticky and non-plastic; many very fine and fine and common medium roots; moderately acid (pH 5.8); clear, smooth boundary. (2 to 6 inches thick)"
+      },
+      {
+        "name": "Ag",
+        "top": 13,
+        "bottom": 61,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "texture_class": "silt loam",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "narrative": "Ag--5 to 24 inches; black (N 2.5/ ) silt loam, very dark gray (10YR 3/1) dry; moderate, medium and coarse granular structure; slightly hard, friable, moderately sticky and slightly plastic; many very fine and fine, common medium,  and few coarse roots; few very fine and fine tubular pores; 2 percent subrounded gravel; slightly acid (pH 6.3); clear, smooth boundary. (16 to 30 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 61,
+        "bottom": 109,
+        "dry_hue": "5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "5Y",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Cg--24 to 43 inches; black (5Y 2.5/1) stratified loam, silt loam and sandy loam, olive gray (5Y 5/2) dry; weak coarse subangular blocky structure; soft, very friable; slightly sticky and slightly plastic; common fine and very fine and few medium and coarse roots; 2 percent subrounded gravel; neutral (pH 6.6); abrupt smooth boundary. (14 to 42 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 109,
+        "bottom": 183,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "narrative": "2C--43 to 72 inches; olive (5Y 4/4) gravelly loamy coarse sand, light yellowish brown (2.5Y 6/4) dry; single grain; loose, non-sticky and non-plastic; few very fine roots; abundant interstitial pores; 30 percent subangular fine gravel; few medium distinct dark gray (5Y 4/1) redoximorphic depletions; neutral (pH 7.2)."
+      }
+    ]
+  ]
 }

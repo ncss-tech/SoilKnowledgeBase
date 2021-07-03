@@ -56,5 +56,74 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soil interpretation record:  MT1462.\nDiagnostic horizons and features recognized in this pedon are:  mollic epipedon - after mixing the top 7 inches (A, part of Bt horizon); argillic horizon - from 3 to 12 inches (Bt1 and Bt2 horizons); particle-size control section - from the surface to 12 inches (A, Bt1, Bt2 horizons); lithic contact - at a depth of 12 inches (R horizon).  Hinterland soils have a frigid temperature regime and an ustic moisture regime that borders on aridic.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; brown (10YR 5/3) loam, dark brown (10YR 3/3) moist; weak fine granular structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine roots; many fine and very fine pores; neutral (pH 6.8); clear smooth boundary. (2 to 7 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 8,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--3 to 6 inches; brown (10YR 4/3) clay loam, dark brown (10YR 3/3) moist; moderate medium subangular blocky structure parting to moderate fine subangular blocky; hard, firm, sticky and plastic; many very fine roots; many fine and very fine pores; many distinct clay films on faces of peds; neutral (pH 6.6); clear smooth boundary. (1 to 4 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 15,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "channery",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--6 to 12 inches; brown (10YR 4/3) channery clay loam, dark brown (10YR 3/3) moist; moderate medium subangular blocky structure parting to moderate fine subangular blocky; hard, firm, sticky and plastic; many very fine roots; many very fine pores; many distinct clay films of faces of peds; 20 percent sandstone channers; neutral (pH 6.6); clear smooth boundary. (3 to 10 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 30,
+        "texture_class": "sand",
+        "narrative": "R--12 inches; hard fractured sandstone with thin clay skins on surface of rock fragments in the upper 6 inches."
+      }
+    ]
+  ]
 }

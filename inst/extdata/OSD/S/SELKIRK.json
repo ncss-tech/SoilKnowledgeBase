@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon: from the surface to a depth of 18 cm (7 inches) (Ap horizon).\nAlbic horizon: from a depth of 18 to 41 cm (7 to 16 inches) (E horizon and E part of the E/B horizon).\nArgillic horizon: from a depth of 41 to 56 cm (16 to 22 inches) (Bt horizon).\nAquic conditions: reduced matrix color or redoximorphic features in all horizons below a depth of 18 cm (7 inches).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 18 cm (7 inches); dark gray (10YR 4/1) silt loam, light brownish gray (10YR 6/2) dry; weak fine granular structure; friable; many fine roots; slightly acid; abrupt smooth boundary. [15 to 20 cm (6 to 8 inches) thick]"
+      },
+      {
+        "name": "E",
+        "top": 18,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "E--18 to 30 cm (7 to 12 inches); light brownish gray (10YR 6/2) silt loam; weak medium platy structure; friable; many fine roots; few medium prominent yellowish brown (10YR 5/6) masses of oxidized iron; slightly acid; abrupt irregular boundary. [8 to 18 cm (3 to 7 inches) thick]"
+      },
+      {
+        "name": "E/B",
+        "top": 30,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "E/B--30 to 41 cm (12 to 16 inches); light brownish gray (10YR 6/2) silt loam (E); weak medium subangular blocky structure; friable; reddish brown (5YR 5/3) clay (Bt); strong medium subangular blocky structure; very firm; few fine roots; moderately acid; clear irregular boundary. [0 to 20 cm (8 inches) thick]"
+      },
+      {
+        "name": "Bt",
+        "top": 41,
+        "bottom": 56,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--41 to 56 cm (16 to 22 inches); reddish brown (5YR 5/3) clay; interfingering and ped coatings of light brownish gray (10YR 6/2) silt loam; strong medium angular blocky structure; very firm; few fine roots along ped faces; many medium faint olive gray (5Y 4/2) iron depletions; many medium prominent yellowish brown (10YR 5/6) masses of oxidized iron; moderately acid; abrupt wavy boundary. [15 to 41 cm (6 to 16 inches) thick]"
+      },
+      {
+        "name": "C",
+        "top": 56,
+        "bottom": 152,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "moderately alkaline",
+        "narrative": "C--56 to 152 cm (22 to 60 inches); reddish brown (5YR 5/3) clay; moderate medium angular blocky fragments; very firm; many coarse prominent olive (5Y 5/3) iron depletions; slightly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

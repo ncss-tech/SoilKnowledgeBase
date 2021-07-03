@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Leagueville soils would be classified as Aeric Arenic Paleaquults if provisions were made for those groupings in Soil Taxonomy.  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The A and E horizons from 0 to 29 inches.\nAlbic horizon - 13 to 29 inches.\nArenic feature - thickness of fine sand is 29 inches.\nArgillic horizon - the Bt horizons.\nGlossic horizon - 51 to 80 inches.\nAeric feature - the E horizon has a chroma of 3.\nPale feature - the E/Btg horizon contains less clay than the Btg horizon, but has skeletans on the ped faces.\nRedoximorphic features below 13 inches.\nADDITIONAL DATA:  Base saturation at 72 inches for 2 pedons was 25 and 33 percent.  Data by Hach Kit.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 3 inches; very dark gray (10YR 3/1) fine sand; weak fine and medium subangular blocky structure; soft, very friable; many fine and medium roots; strongly acid; clear wavy boundary. (3 to 6 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--3 to 13 inches; dark grayish brown (10YR 4/2) fine sand with few fine brownish stains along root channels; weak coarse subangular blocky structure; soft, very friable; common fine and medium roots; moderately acid; clear wavy boundary.  (3 to 17 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 33,
+        "bottom": 74,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--13 to 29 inches; very pale brown (10YR 7/3) fine sand; common fine distinct yellowish redox concentrations; single grained; soft, very friable; common fine and medium roots; moderately acid; clear wavy boundary.  (9 to 30 inches thick)"
+      },
+      {
+        "name": "Btg",
+        "top": 74,
+        "bottom": 130,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "extremely acid",
+        "distinctness": "diffuse",
+        "topography": "wavy",
+        "narrative": "Btg--29 to 51 inches; gray (10YR 5/1) sandy clay loam; many medium and coarse distinct yellowish brown (10YR 5/6) and brown (7.5YR 4/4) redox concentrations; weak coarse subangular blocky structure; hard, friable; common fine and medium roots; extremely acid; diffuse wavy boundary.  (14 to 30 inches thick)"
+      },
+      {
+        "name": "E/Btg",
+        "top": 130,
+        "bottom": 203,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "E/Btg--51 to 80 inches; light gray (10YR 6/1, 7/1) uncoated fine sand (E), with vertically oriented pockets and streaks of strong brown (7.5YR 5/6), gray (10YR 6/1), yellowish brown (10YR 5/6), and light yellowish brown (2.5Y 6/4) sandy clay loam and sandy loam (Btg); weak coarse subangular blocky structure; slightly hard; friable; few fine roots; very strongly acid."
+      }
+    ]
+  ]
 }

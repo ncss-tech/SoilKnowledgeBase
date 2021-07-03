@@ -56,5 +56,55 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features and horizons recognized in this profile include:\nDepth to permafrost: 25 to 60 inches. (2Cf horizon)\nHistic epipedon: 0 to 10 inches. (Oi horizon)\nRedoximorphic concentrations: 13 to 25 inches. (2C horizon)\nCoarse-loamy particle size control section: 10 to 40 inches below the mineral soil surface\nTemperature regime: pergelic\nMoisture regime: aquic.\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "pH": 4.4,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Oi--0 to 10 inches (0 to 25 cm); reddish yellow (7.5YR 6/6) peat; many very fine and fine roots; extremely acid (pH 4.4); clear wavy boundary."
+      },
+      {
+        "name": "2C",
+        "top": 33,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sand",
+        "pH": 4.6,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2C--13 to 25 inches (33 to 64 cm); brown (10YR 5/3) stratified fine sand to silt; massive; very friable, nonsticky and nonplastic; few very fine and fine roots; 5 mm dark yellowish brown (10YR 4/4) high chroma redox concentrations (approximately 15 percent of horizon); very strongly acid (pH 4.6); clear wavy boundary."
+      },
+      {
+        "name": "2Cf",
+        "top": 64,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sand",
+        "pH": 4.6,
+        "pH_class": "very strongly acid",
+        "narrative": "2Cf--25 to 60 inches (64 to 152 cm); brown (10YR 5/3) permanently frozen stratified fine sand to silt; very strongly acid (pH 4.6)."
+      }
+    ]
+  ]
 }

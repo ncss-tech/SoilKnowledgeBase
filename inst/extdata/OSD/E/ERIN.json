@@ -56,5 +56,115 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized are:  Ochric epipedon-the zone from the surface of the soil to a depth of 13 inches (A horizons); Albic horizon - the zone from 3 to 12 inches (E1 and E2 horizons); argillic horizon-the zone from 12 inches to 57 inches (B/E, Bt1, Bt2, and Bt3 horizons); Glossoboric subgroup based on interfingering of E into Bt horizon.\nADDITIONAL DATA:  Refer to S60 MINN-66-2 for data on the typifying pedon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; very dark gray (10YR 3/1) silt loam; gray (10YR 5/1) dry; weak fine granular structure; very friable; slightly acid; abrupt smooth boundary.  (2 to 5 inches)"
+      },
+      {
+        "name": "E1",
+        "top": 8,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "E1--3 to 9 inches; dark grayish brown (10YR 4/2) silt loam; light brownish gray (10YR 6/2) dry; weak and moderate medium platy structure; very friable; medium acid; abrupt smooth boundary."
+      },
+      {
+        "name": "E2",
+        "top": 23,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "narrative": "E2--9 to 12 inches; dark gray (10YR 4/1) silt loam; light gray"
+      },
+      {
+        "name": "B/E",
+        "top": 30,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "narrative": "B/E--12 to 22 inches; dark grayish brown (10YR 4/2) clay loam (Bt); light brownish gray (10YR 6/2) silt coatings on peds (E); moderate and strong fine and medium subangular structure; about 3 percent coarse"
+      },
+      {
+        "name": "Bt1",
+        "top": 56,
+        "bottom": 84,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "narrative": "Bt1--22 to 33 inches; olive brown (2.5Y 4/4) clay; few fine"
+      },
+      {
+        "name": "Bt2",
+        "top": 84,
+        "bottom": 112,
+        "texture_class": "clay",
+        "narrative": "Bt2--33 to 44 inches; light olive brown (2.5Y 5/4 and 5/6) clay"
+      },
+      {
+        "name": "Bt3",
+        "top": 112,
+        "bottom": 145,
+        "texture_class": "clay",
+        "narrative": "Bt3--44 to 57 inches; light olive brown (2.5Y 5/4 and 5/6) clay"
+      },
+      {
+        "name": "BC",
+        "top": 145,
+        "bottom": 165,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BC--57 to 65 inches; light olive brown (2.5Y 5/4) clay loam; common medium distinct light brownish gray (2.5Y 6/2) and few fine prominent reddish brown (5YR 4/4) mottles; massive, some vertical fractures; firm; few distinct very dark brown (10YR 2/2) and dark grayish brown (10YR 4/2) clay films on faces of vertical fractures; about 3 percent coarse fragments, mostly shale; few iron and manganese oxide concretions; common old root channel fillings of black clayey-organic material; neutral; clear wavy boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 165,
+        "bottom": 180,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "mildly alkaline",
+        "narrative": "C--65 to 71 inches; light olive brown (2.5Y 5/4) clay loam; common fine faint light olive brown (2.5Y 5/6) and few fine prominent reddish brown (5YR 4/4) mottles; massive; some vertical fractures; firm; about 4 percent fragments, mostly shale; slightly effervescent; mildly alkaline."
+      }
+    ]
+  ]
 }

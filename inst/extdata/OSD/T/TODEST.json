@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 1 inch (A horizon)\nArgillic horizon - the zone from 1 to 18 inches (Bt, Btk1 and Btk2 horizons)\nCalcic horizon - the zone from 10 to 25 inches (Btk2 and Bk horizons)\nLithic contact - the boundary at 25 inches (R horizon)\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Tenth Edition, 2006.\nUpdate and revision for the competing series section  2/08  DWD\nUpdate competing series section  8 Dec 2008  CEM\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 1 inch; brown (7.5YR 5/4) fine sandy loam, dark brown (7.5YR 3/3) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; many very fine and fine roots; few fine irregular pores; carbonates are disseminated; very slightly effervescent, 6 percent calcium carbonate equivalent; slightly alkaline; abrupt smooth boundary. (1 to 2 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 3,
+        "bottom": 8,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt--1 to 3 inches; brown (7.5YR 4/4) fine sandy loam, dark brown (7.5YR 3/4) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; many very fine and fine roots; few fine irregular pores; few faint clay films bridging sand grains; slightly alkaline (pH 7.6); abrupt smooth boundary. (0 to 3 inches thick)"
+      },
+      {
+        "name": "Btk1",
+        "top": 8,
+        "bottom": 25,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btk1--3 to 10 inches; brown (7.5YR 4/4) sandy clay loam, dark brown (7.5YR 3/4) moist; moderate fine and medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine and fine and few medium roots; common fine irregular pores; many distinct clay films coating faces of peds and bridging sand grains; carbonates are disseminated and segregated in few very fine and fine masses; strongly effervescent, 5 percent calcium carbonate equivalent; slightly alkaline (pH 7.8); clear smooth boundary."
+      },
+      {
+        "name": "Btk2",
+        "top": 25,
+        "bottom": 46,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btk2--10 to 18 inches; pinkish gray (7.5YR 7/2) sandy clay loam, brown (7.5YR 5/3) moist; moderate fine and medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine and fine and few medium and coarse roots; common fine irregular pores; many distinct clay films coating faces of peds; common fine calcium carbonate concretions; calcium carbonate is disseminated and segregated in many fine masses; violently effervescent, 23 percent calcium carbonate equivalent; moderately alkaline (pH 8.0); clear smooth boundary. (The combined thickness of the Btk horizons is 11 to 17 inches.)"
+      },
+      {
+        "name": "Bk",
+        "top": 46,
+        "bottom": 64,
+        "dry_hue": "7.5YR",
+        "dry_value": 8,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bk--18 to 25 inches; pinkish white (7.5YR 8/2) loam, light brown (7.5YR 6/3) moist; weak fine and medium subangular blocky structure; common very fine and fine and few medium and coarse roots; common fine irregular pores; common fine calcium carbonate concretions; calcium carbonate is disseminated and segregated in many fine masses and coating rock fragments; violently effervescent, 48 percent calcium carbonate equivalent; 5 percent limestone gravel; moderately alkaline (pH 8.2); abrupt smooth boundary. (6 to 11 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 64,
+        "narrative": "R--25 inches; limestone."
+      }
+    ]
+  ]
 }

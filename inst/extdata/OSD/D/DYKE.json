@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are: 1. Ochric epipedon-zone from 0 to 8 inches (Ap horizon)\n2. Argillic horizon-zone from 8 to 48 inches (bt horizon)\n3. Rhodic feature=dark red throughout\nSIR=VA0014\nMLRA=148\nREVISED=6/18/96, MHC\nOSD/SIR REPORT\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0014 DYKE        0- 35   50- 59  183-192  37- 44   400-1000\nVA0098 DYKE        0- 35   50- 59  183-192  37- 44   500-1200\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness VA0014 NONE          6.0-6.0              -     60-60\nVA0098 NONE          6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC- VA0014  0- 8  SIL L                   0-  5  75-100 10-27    -\nVA0014  0- 8  CL SICL                 0-  5  75-100 27-40    -\nVA0014  8-48  C SIC CL                0- 15  75-100 35-70    -\nVA0014 48-80  CB-CL CBV-CL           35- 70  55- 75 27-40    -\nVA0098  0- 8  STV-SIL STV-L           5- 25  75-100 10-27    -\nVA0098  0- 8  CB-SIL CB-L            25- 35  60- 85 10-27    -\nVA0098  8-48  C SIC SICL              0- 15  75-100 35-70    -\nVA0098 48-80  CB-CL CBV-CL           35- 70  55- 75 27-40    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0014  0- 8  4.5- 5.5  .1-2.  0- 0   0.6- 6.0  LOW\nVA0014  0- 8  4.5- 5.5  .1-1.  0- 0   0.6- 2.0  MODERATE\nVA0014  8-48  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  MODERATE\nVA0014 48-80  4.5- 6.0  0.-.5  0- 0   0.6- 2.0  MODERATE\nVA0098  0- 8  4.5- 5.5  .1-2.  0- 0   0.6- 6.0  LOW\nVA0098  0- 8  4.5- 5.5  .1-2.  0- 0   0.6- 6.0  LOW\nVA0098  8-48  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  MODERATE\nVA0098 48-80  4.5- 6.0  0.-.5  0- 0   0.6- 2.0  MODERATE\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; dark reddish brown (5YR 3/4) loam; moderate very fine and fine granular structure; friable; many fine roots; 2 percent fine angular quartz gravel; strongly acid; abrupt smooth boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "Btl",
+        "top": 20,
+        "bottom": 36,
+        "moist_hue": "10R",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btl--8 to 14 inches; dark red (10R 3/6) clay; weak fine and medium subangular blocky structure; firm, sticky and plastic; few fine roots; 5 percent gravel of granodiorite, greenstone and 2 percent angular quartz gravel; thin patchy clay films; strongly acid; gradual smooth boundary.  (6 to 16 inches thick)."
+      },
+      {
+        "name": "Bt2",
+        "top": 36,
+        "bottom": 91,
+        "moist_hue": "10R",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt2--14 to 36 inches; dark red (10R 3/6) clay; moderate fine and medium subangular blocky structure; firm, sticky and plastic; few fine roots; 2 percent gravel of granodiorite and greenstone; thin patchy clay films; strongly acid; gradual smooth boundary.  (10 to 30 inches thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 91,
+        "bottom": 122,
+        "moist_hue": "10R",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt3--36 to 48 inches; dark red (10R 3/6) clay, many medium faint red (10R 4/6) mottles; weak medium subangular blocky structure; firm, slightly sticky, slightly plastic; thin patchy clay films; 15 percent gravel of granodiorite and greenstone; moderately acid; gradual smooth boundary.  (5 to 12 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 122,
+        "bottom": 203,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "cf_class": "cobbly",
+        "pH_class": "strongly acid",
+        "narrative": "2C--48 to 80 inches; red (2.5YR 4/6), dark red (10R 3/6), and strong brown (7.5YR 5/6) cobbly clay loam; 20 percent weathered yellowish brown and strong brown greenstone and granoditorite cobblestones and stones; 2 percent gravel of quartz; strongly acid."
+      }
+    ]
+  ]
 }

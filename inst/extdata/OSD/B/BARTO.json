@@ -56,5 +56,52 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this soil are: ochric horizon - from the surface to a depth of 5 cm (A horizon); cambic horizon - the zone from 5 cm to 33 cm (Bw horizon); great group class based on base saturation above 60 percent in a layer between 25 and 75 cm from the soil surface.\nThe initial review draft (DHP-HRF, 6/70) of this series had a placement of Lithic Haplorthods. Subsequent laboratory analyses indicate that the upper part of the B horizon of these soils meet all of the requirements for a spodic horizon except for item 3.a. of chapter 3, page 32 of Soil Taxonomy. However, this series is challenged for Haplorthods because the B horizon is marginal to a spodic horizon. For clarity, a new type location was chosen.\nADDITIONAL DATA: Refer to Minnesota Agricultural Experiment Station Central File Code No. 572 for results and some laboratory analysis of the typical pedon and to No. 592 and 909 for results of analyses of two additional pedons.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A-- 0 to 5 cm; black (10YR 2/1) gravelly sandy loam, dark gray (10YR 4/1) dry; weak medium granular structure; friable; many fine and medium and few coarse roots; 15 percent gravel and 5 percent cobbles; strongly acid; abrupt wavy boundary. (0 to 10 cm thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 5,
+        "bottom": 33,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw-- 5 to 33 cm; brown (7.5YR 4/3) gravelly sandy loam; weak fine and medium subangular blocky structure; friable; many fine and medium and few coarse roots; 15 percent gravel and 5 percent cobbles; moderately acid; abrupt wavy boundary. (41 to 51 cm thick)"
+      },
+      {
+        "name": "2R",
+        "top": 33,
+        "narrative": "2R--33 cm; unweathered bedrock"
+      }
+    ]
+  ]
 }

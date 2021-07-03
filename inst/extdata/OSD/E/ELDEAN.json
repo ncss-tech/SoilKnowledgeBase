@@ -56,5 +56,97 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: There is evidence that the BC transition horizon contains enough clay to qualify for the fine-loamy particle-size class. If true, a clayey over sandy or sandy-skeletal particle-size family might be more appropriate.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon: from the surface to a depth of 30 cm (Ap, BA horizons).\nArgillic horizon: from a depth of 30 to 58 cm (Bt horizon).\nCalcareous sandy and gravelly material: at 76 cm (top of the C horizon).\nADDITIONAL DATA: Laboratory characterization data from The Ohio State University Soil Characterization Laboratory are available for pedons BR-5, CL-5, CH-13, LG-35, MA-14, and UN-27.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 23 cm (0 to 9 inches); brown (7.5YR 4/2) loam, light yellowish brown (10YR 6/4) dry; weak fine subangular blocky structure; friable; few roots; 5 percent gravel; neutral; abrupt smooth boundary. [15 to 30 cm (6 to 12 inches) thick]"
+      },
+      {
+        "name": "BA",
+        "top": 23,
+        "bottom": 30,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BA--23 to 30 cm (9 to 12 inches); brown (7.5YR 4/4) loam; moderate medium subangular blocky structure; friable; few roots; 5 percent gravel; slightly acid; clear wavy boundary. [0 to 20 cm (8 inches) thick]"
+      },
+      {
+        "name": "Bt1",
+        "top": 30,
+        "bottom": 46,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--30 to 46 cm (12 to 18 inches); dark reddish brown (5YR 3/4) clay; moderate medium subangular blocky and angular blocky structure; firm; moderately sticky; few roots; common faint clay films on faces of peds; 5 percent gravel; slightly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 46,
+        "bottom": 58,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt2--46 to 58 cm (18 to 23 inches); reddish brown (5YR 4/4) clay; moderate fine and medium subangular blocky structure; firm; moderately sticky; few roots; many distinct clay films on faces of peds; a 1 inch dark reddish brown (5YR 3/2) clay \"Beta\" horizon is at contact with the BC horizon; 10 percent gravel; neutral, grading to slightly alkaline in the lower part; abrupt smooth boundary. [Combined thickness of the Bt horizon is 15 to 76 cm (6 to 30 inches).]"
+      },
+      {
+        "name": "BC",
+        "top": 58,
+        "bottom": 76,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "BC--58 to 76 cm (23 to 30 inches); dark brown (7.5YR 3/2) very gravelly clay loam; weak coarse subangular blocky structure; friable; few faint clay films on faces of peds; light gray (10YR 7/2) masses of calcium carbonate accumulation; 40 percent gravel, common limestone fragments; strongly effervescent; moderately alkaline; clear irregular boundary. [13 to 41 cm (5 to 16 inches) thick]"
+      },
+      {
+        "name": "C",
+        "top": 76,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately alkaline",
+        "narrative": "C--76 to 152 cm (30 to 60 inches); yellowish brown (10YR 5/4) stratified sand and very gravelly sand; single grain; loose; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,64 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The Mt. Airy series consists of that part of the soils formerly included in the Manor series that contains more than 35 per- cent coarse fragments and has bedrock at depths of 20 to 40 inches.  The name, Manor, is to be applied to soils that contain les than 35 percent coarse fragments and are more than 40 inches deep to bedrock.  These latter kinds of soils were formerly commonly referred to in Maryland as \"micaceous Manor\" soils.\nDiagnostic horizons and features recognized in this pedon are:\nochric epipedon - the zone from approximately 0 to 6 inches (A1, A2 horizons)\nCambic horizon - the zone from approximately 6 to 18 inches (Bw hori- zon)\nTypic Ochrepts feature - no sulfidic material within 20 inches of the mineral soil surface; on ochric epipedon, and a mesic or warmer soil temperature regime.\nAdditional Data:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "narrative": "A1 -- 0 to 2 inches; very dark gray (10YR 3/1) channery silt loam;"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "silt",
+        "cf_class": "channery",
+        "narrative": "A2 -- 2 to 6 inches; light yellowish-brown (10YR 6/4) channery silt"
+      },
+      {
+        "name": "Bw",
+        "top": 15,
+        "bottom": 46,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt",
+        "cf_class": "very channery",
+        "narrative": "Bw -- 6 to 18 inches; strong brown (7.5YR 5/6) very channery silt"
+      },
+      {
+        "name": "C",
+        "top": 46,
+        "bottom": 84,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "cf_class": "extremely channery",
+        "narrative": "C -- 18 to 33 inches; brownish yellow (10YR 6/6) extremely channery"
+      },
+      {
+        "name": "R",
+        "top": 84,
+        "narrative": "R -- 33 inches; bedrock of hard mica schist; irregularly fragmented"
+      }
+    ]
+  ]
 }

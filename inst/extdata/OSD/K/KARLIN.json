@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are: albic horizon - the zone from the mineral surface to 3 inches (E horizon); spodic horizon - the zone from 3 to 25 inches (Bs1 and Bs2 horizons).\nThe Noseum series is set up for the moderately well drained phases.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--0 to 1 inch; black (10YR 2/1) partially decomposed leaf litter and roots with grains of E material; weak fine granular structure; loose; strongly acid; abrupt smooth boundary.  (0 to 2 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 3,
+        "bottom": 10,
+        "moist_hue": "5YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "loamy fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "E--1 to 4 inches; gray (5YR 6/1) loamy fine sand; weak fine granular structure; loose; few fine roots; very strongly acid; abrupt irregular boundary.  (0 to 5 inches thick)"
+      },
+      {
+        "name": "Bs1",
+        "top": 10,
+        "bottom": 41,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loamy fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs1--4 to 16 inches; dark reddish brown (5YR 3/4) loamy fine sand; weak medium subangular blocky structure; very friable; slightly hard when dry; common fine roots; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bs2",
+        "top": 41,
+        "bottom": 66,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs2--16 to 26 inches; brown (7.5YR 4/4) loamy fine sand; weak medium granular structure; very friable; slightly hard when dry; few fine roots; very strongly acid; clear wavy boundary.  (Combined thickness of the Bs horizons is 8 to 29 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 66,
+        "bottom": 79,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BC--26 to 31 inches; brown (7.5YR 5/4) loamy sand; weak fine granular structure; loose; strongly acid; clear wavy boundary.  (0 to 17 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 79,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "narrative": "C--31 to 60 inches; light yellowish brown (10YR 6/4) sand; single grain; loose; slightly acid."
+      }
+    ]
+  ]
 }

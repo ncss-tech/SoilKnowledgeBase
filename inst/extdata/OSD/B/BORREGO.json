@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 1 to 4 inches (E horizon)\nArgillic horizon - the zone from 4 to 14 inches (Bt horizons)\nLithic contact - The boundary at 19 inches (R horizon)\nClassified according to Keys to Soil Taxonomy Ninth Edition, 2003.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "O2",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "O1&O2--0 to 1 inch; undecomposed and decomposed needles, twigs, cones, etc."
+      },
+      {
+        "name": "E",
+        "top": 3,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "E--1 to 4 inches; grayish brown (10YR 5/2) sandy loam, dark brown (10YR 3/3) moist; weak thin platy structure that parts to moderate fine crumb structure; loose, friable, nonsticky, nonplastic; many fine and very fine roots; many fine interstitial pores; neutral (pH 6.8); abrupt smooth boundary. (2 to 4 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 10,
+        "bottom": 18,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--4 to 7 inches; brown (7.5YR 5/4) clay loam, brown (7.5YR 4/4) moist; moderate fine and medium angular blocky structure; extremely hard, firm, sticky, plastic; many fine and medium roots; few fine pores; few thin clay films on ped faces; neutral (pH 7.2); clear smooth boundary. (3 to 6 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 18,
+        "bottom": 36,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--7 to 14 inches; brown (7.5YR 5/4) gravelly clay, brown (7.5YR 4/4) moist; strong fine and medium angular blocky structure; extremely hard, firm, very sticky, very plastic; few medium roots; few fine pores; few thin clay films on ped faces; about 15 percent by volume fine granitic gravel; neutral (pH 7.2); clear smooth boundary.  (5 to 9 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 36,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "narrative": "BC--14 to 19 inches; light yellowish brown (10YR 6/4) gravelly sandy clay loam; strong brown (7.5YR 5/6) moist; weak fine and medium angular blocky structure; very hard, firm, sticky, plastic; few roots; few very fine pores; about 20 percent by volume fine granitic gravel; neutral (pH 6.8); clear boundary. (3 to 6 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 48,
+        "narrative": "R--19 inches; granite bedrock."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,107 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon include:\nUmbric epipedon - from 0 to 12 inches. (Ap horizon)\nArgillic horizon - from of 12 to 52 inches. (Bt1, Bt2, Bt3 horizons)\nAquults feature - soil is saturated and has chroma moist of 1 below the Ap horizon which has a moist value of 2.  The Bt1 horizon has moist chroma of 2 with associated redox concentrations.\nAssume a base saturation of less than 35 percent at 125 cm below the top of the argillic horizon.\nADDITIONAL DATA:  Reference samples with partial data from pedon 85T63, samples 857395-857397 from Curry County, Oregon sampled by NSSL @ Lincoln, NE 8/85.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH": 5.4,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 12 inches; black (10YR 2/1) silty clay loam, dark gray (10YR 4/1) dry, moderate medium subangular blocky structure; hard, firm, sticky and plastic; many fine and very fine roots; many fine tubular pores; few fine prominent dark yellowish brown (10YR 4/4) masses of iron accumulation; strongly acid (pH 5.4); clear smooth boundary.  (10 to 20 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 30,
+        "bottom": 74,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH": 5.2,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--12 to 29 inches; very dark grayish brown (2.5Y 3/2) silty clay loam, light brownish gray (2.5Y 6/2) dry, moderate coarse prismatic structure parting to moderate coarse subangular blocky; hard, firm, sticky and plastic; many fine and very fine roots; many fine tubular pores; common distinct clay films on ped faces and in pores; many fine prominent strong brown (7.5YR 5/6) masses of iron accumulation; strongly acid (pH 5.2); clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 74,
+        "bottom": 104,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--29 to 41 inches; gray (5Y 5/1) silty clay loam, light gray (2.5Y 7/2) dry, moderate fine subangular blocky structure; hard, firm, sticky and plastic; common very fine roots; many fine tubular pores; few few distinct clay films on ped faces and in pores; many fine prominent strong brown (7.5YR 5/6) masses of iron accumulation; 5 percent gravel; very strongly acid (pH 4.8); gradual wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 104,
+        "bottom": 132,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt3--41 to 52 inches; gray (5Y 5/1) clay loam, light gray (2.5Y 7/2) dry, weak fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common fine and very fine roots; many fine tubular pores; few faint clay films on ped faces and in pores; many fine prominent yellowish brown (10YR 5/6) masses of iron accumulation; 10 percent gravel; very strongly acid (pH 4.8); gradual wavy boundary.  (Combined thickness of the Bt horizon ranges from 20 to 40 inches)"
+      },
+      {
+        "name": "2C",
+        "top": 132,
+        "bottom": 165,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2C--52 to 65 inches; grayish brown (2.5Y 5/2) loam, light gray (2.5Y 7/2) dry, massive; very hard, very firm, slightly sticky and slightly plastic; few fine roots; common fine tubular pores; many fine prominent brown (7.5YR 4/4) and yellowish brown (10YR 5/6) masses of iron accumulation; 5 percent gravel; very strongly acid (pH 4.8); gradual wavy boundary.  (10 to 15 inches thick)"
+      },
+      {
+        "name": "3Cd",
+        "top": 165,
+        "cf_class": "gravelly",
+        "narrative": "3Cd--65 inches; consolidated gravelly material."
+      }
+    ]
+  ]
 }

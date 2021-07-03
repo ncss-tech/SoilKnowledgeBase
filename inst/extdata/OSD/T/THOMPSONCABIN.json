@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 8 cm (An horizon).\nNatric horizon - The zone from 8 to 36 cm (Btnk1, Btkn2, and Btkn3 horizons).\nIdentifiable secondary carbonates - The zone from 8 to 36 cm (Btnk1, Btkn2, and Btkn3 horizons).\nLithic contact - The boundary at 36 cm to underlying hard, unweathered bedrock (R layer).\nParticle-size control section - The zone from the soil surface to 36 cm (An, Btkn1, Btkn2, and Btkn3 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "An",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely stony",
+        "pH": 9.4,
+        "pH_class": "very strongly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "An--0 to 8 cm; pale brown (10YR 6/3) extremely stony sandy loam, dark grayish brown (10YR 4/2) moist; moderate medium granular structure; soft, friable, nonsticky and nonplastic; few very fine and fine roots; common fine and medium interstitial and tubular pores; 30 percent gravel, 20 percent cobbles, 20 percent stones, and 5 percent boulders; strongly effervescent; very strongly alkaline (pH 9.4); clear smooth boundary. (5 to 10 cm thick)"
+      },
+      {
+        "name": "Btkn1",
+        "top": 8,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "cf_class": "extremely cobbly",
+        "pH": 9.6,
+        "pH_class": "very strongly alkaline",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Btkn1--8 to 18 cm; pale brown (10YR 6/3) extremely cobbly sandy clay loam; brown (10YR 4/3) moist; moderate fine columnar structure parting to weak fine subangular blocky; slightly hard, friable, slightly sticky and slightly plastic; common very fine and few fine and medium roots; common fine and medium interstitial and tubular pores; common faint clay films on faces of peds; 30 percent gravel, 20 percent cobbles, and 10 percent stones; secondary carbonates segregated as few fine coats on bottoms of gravel; strongly effervescent; very strongly alkaline (pH 9.6); clear irregular boundary."
+      },
+      {
+        "name": "Btkn2",
+        "top": 18,
+        "bottom": 25,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "extremely cobbly",
+        "pH": 9.6,
+        "pH_class": "very strongly alkaline",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Btkn2--18 to 25 cm; light brown (7.5YR 6/3) extremely cobbly clay loam, brown (7.5YR 4/3) moist; moderate fine subangular blocky structure; slightly hard, friable, moderately sticky and moderately plastic; common very fine and few fine and medium roots; common fine and medium interstitial and tubular pores; common distinct clay films on faces of peds; 35 percent gravel, 30 percent cobbles, and 10 percent stones; secondary carbonates segregated as few fine coats on faces of peds and bottoms of gravel; violently effervescent; very strongly alkaline (pH 9.6); clear irregular boundary."
+      },
+      {
+        "name": "Btkn3",
+        "top": 25,
+        "bottom": 36,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "extremely cobbly",
+        "pH": 9.6,
+        "pH_class": "very strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Btkn3--25 to 36 cm; light brown (7.5YR 6/4) extremely cobbly clay loam, brown (7.5YR 4/4) moist; moderate fine subangular blocky structure; hard, firm, moderately sticky and moderately plastic; few very fine and fine roots; common distinct clay films on faces of peds; 35 percent gravel, 30 percent cobbles, and 10 percent stones; secondary carbonates segregated as few fine coats on faces of peds and bottoms of gravel; violently effervescent; very strongly alkaline (pH 9.6); abrupt smooth boundary. (Combined thickness of the Btkn horizons is 20 to 46 cm)"
+      },
+      {
+        "name": "R",
+        "top": 36,
+        "narrative": "R--36 cm; fractured basalt."
+      }
+    ]
+  ]
 }

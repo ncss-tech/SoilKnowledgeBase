@@ -56,5 +56,104 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Gullrock soils were previously mapped as coarse-silty inclusions with the Conaby series.\nDiagnostic horizons and features recognized in this pedon:\nHistic epipedon - the zone from the surface to a depth of 13 inches.  (Oap and Oa horizons)\nAquic conditions - endosaturation and redoximorphic features including masses of iron accumulation and iron depletions in the zone from 16 to 64 inches.  (A, AC, and Cg horizons)\nMLRA = 153B\nADDITIONAL DATA:  Characterization data is available from the National Soil Survey Laboratory, Lincoln, NE for the following pedons: S89NC-095-013 (OSD)\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0271 GULLROCK    0-  2   57- 70  215-250  46- 58     5-  25\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0271 NONE   RARE     0-1.0  APPARENT DEC-MAY  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0271  0-13  MUCK                    0-  0    -      -    20- 60\nNC0271 13-33  LVFS VFSL SIL           0-  0  95-100  2-10   5- 20\nNC0271 33-70  LVFS SIL SI             0-  0  95-100  0- 5   2- 10\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0271  0-13  3.5- 6.0  20-60  0- 0   0.2- 2.0  LOW\nNC0271 13-33  3.5- 6.0  4.-10  0- 0   2.0- 6.0  LOW\nNC0271 33-70  3.5- 7.8  .5-3.  0- 0   2.0- 6.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oap--0 to 6 inches; black (10YR 2/1) broken face and rubbed, muck; about 15 percent fiber, less than 5 percent rubbed; weak medium granular structure; very friable; nonfluid; common very fine and fine roots; very strongly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "Oa",
+        "top": 15,
+        "bottom": 33,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Oa--6 to 13 inches; dark reddish brown (5YR 3/2) broken face and rubbed, muck; about 10 percent fiber, less than 2 percent rubbed; moderate coarse subangular blocky structure; friable, with some peds being firm; nonfluid; few very fine and fine roots; few very fine quartz sand grains; few medium fragments of charcoal; the upper part of the horizon is a 2 inch thick layer of strong brown (7.5YR 5/6) wood ash; extremely acid; clear wavy boundary.  (Combined thickness of the O horizon is 8 to 16 inches.)"
+      },
+      {
+        "name": "A",
+        "top": 33,
+        "bottom": 46,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loamy very fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--13 to 18 inches; dark brown (7.5YR 3/4) loamy very fine sand; weak medium subangular blocky structure; friable; few fine roots; common fine and very fine tubular pores; common medium faint dark brown (7.5YR 3/2) and common medium distinct very dark brown (7.5YR 2/2) irregularly shaped masses of iron accumulation with clear boundaries in matrix; few fine opaque minerals; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "AC",
+        "top": 46,
+        "bottom": 84,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy very fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "AC--18 to 33 inches; brown (10YR 4/3) loamy very fine sand; massive; friable; few fine roots; few fine tubular pores; common medium faint yellowish brown (10YR 5/4) irregularly shaped masses of iron accumulation with clear boundaries in matrix; few fine flakes of mica; very strongly acid; clear wavy boundary.  (Combined thickness of the A horizon is 0 to 24 inches.)"
+      },
+      {
+        "name": "Cg1",
+        "top": 84,
+        "bottom": 127,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loamy very fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cg1--33 to 50 inches; dark grayish brown (2.5Y 4/2) loamy very fine sand; massive; very friable; few fine partially decomposed roots; few fine tubular pores; common medium distinct dark yellowish brown (10YR 3/6) irregularly shaped masses of iron accumulation with clear boundaries in matrix; few fine flakes of mica; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 127,
+        "bottom": 163,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy very fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Cg2--50 to 64 inches; grayish brown (2.5Y 5/2) loamy very fine sand; massive; very friable; few fine distinct dark yellowish brown (10YR 4/6) irregularly shaped masses of iron accumulation with clear boundaries in matrix; few fine flakes of mica; few fine opaque minerals; very strongly acid; abrupt wavy boundary."
+      },
+      {
+        "name": "Ab",
+        "top": 163,
+        "bottom": 178,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loamy very fine sand",
+        "pH_class": "very strongly acid",
+        "narrative": "Ab--64 to 70 inches; dark brown (10YR 3/3) loamy very fine sand; massive; very friable; few fine flakes of mica; few fine opaque minerals; very strongly acid."
+      }
+    ]
+  ]
 }

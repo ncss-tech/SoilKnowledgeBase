@@ -56,5 +56,88 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nochric epipedon:  1 to 6 inches;   A horizon\ncambic horizon:  6 to 45 inches;   Bw, BC horizons\nash layerandic soil properties:  1 to 61 inches;   A, Bw, BC, C horizons\nparticle-size control section:  1 to 41 inches;   A, Bw, BC horizons\namorphic part: 1 to 25 inches;  A, Bw horizons\nglassy part: 25 to 41 inches;  BC horizon\nUSFS Ecological site:  ABGR/SPBE; may include: ABGR/VASC, ABGR/VAME, PSME/SYAL\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inches; needles, twigs, branches."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--1 to 6 inches; dark brown (10YR 3/3) ashy silt loam, pale brown (10YR 6/3) dry; weak medium subangular blocky structure parting to weak fine and very fine subangular blocky; soft, very friable, nonsticky and nonplastic; weakly smeary; many very fine, fine and few medium roots; common very fine and few fine irregular pores; slightly acid (pH 6.2); clear wavy boundary.  (4 to 8 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 15,
+        "bottom": 64,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--6 to 25 inches; brown (10YR 4/3) ashy silt loam, very pale brown (10YR 7/3) dry; weak medium, subangular blocky structure parting to weak fine and very fine subangular blocky; soft, very friable, nonsticky and nonplastic; weakly smeary; common very fine, fine, medium and coarse roots; few fine tubular pores; slightly acid (pH 6.2); clear wavy boundary.  (13 to 26 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 64,
+        "bottom": 114,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BC--25 to 45 inches; light gray (10YR 7/2) ashy sandy loam, very pale brown (10YR 8/2) dry; massive; soft, friable, nonsticky and nonplastic; weakly smeary; few very fine and fine roots; few very fine and fine tubular pores; slightly acid (pH 6.5); gradual smooth boundary. (15 to 23 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 114,
+        "bottom": 155,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "narrative": "C--45 to 61 inches; light gray (10YR 7/2) ashy sandy loam, white (10YR 8/1) dry; massive; soft, friable, nonsticky and nonplastic; weakly smeary; few very fine and few fine roots; few fine tubular pores; neutral (pH 7.0)"
+      }
+    ]
+  ]
 }

@@ -56,5 +56,118 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Hornsboro soils were formerly included with the Wahee series. Wahee soils do not have less than 35 percent base saturation at 50 inches below the upper boundary of the Bt horizon and also lack the presence of soluble salts.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the soil surface to a depth of 10 inches. (Ap and E horizons)\nArgillic horizon - the zone from 10 to 62 inches below the surface. (Btg, Bt1, Bt2, and B'tg horizons)\nNatric horizon - the zone from 10 to 62 inches below the surface. (Btg, Bt1, Bt2, and B'tg horizons)\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0250 HORNSBORO   0 - 3   57- 61  152-218  43- 48   180- 850\nSOI-5  FloodL  FloodH   Watertable   Kind    Months  Bedrock Hardness\nNC0250 NONE    RARE      1.0-1.5    APPARENT NOV-MAY  >60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0250  0-10  SL FSL                  0-  0  93-100  8-20   5- 20\nNC0250  0-10  L SIL VFSL              0-  0  93-100  8-20   5- 20\nNC0250 10-62  C SIC SICL              0-  0  93-100 35-60  15- 40\nNC0250 62-70  SCL CL GR-SCL           0-  0  57-100 22-40  10- 25\nNC0250 70-80  VAR                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0250  0-10  4.5- 7.8  1.-4.  0- 0   2.0- 6.0  LOW\nNC0250  0-10  4.5- 7.8  1.-4.  0- 0   0.6- 2.0  LOW\nNC0250 10-62  4.5- 8.4  .5-1.  0- 0  0.06- 0.2  HIGH\nNC0250 62-70  6.1- 8.4  0.-.5  0- 0   0.2- 0.6  MODERATE\nNC0250 70-80     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; dark yellowish brown (10YR 4/4) silt loam; weak medium granular structure; friable; common very fine and few medium roots; neutral; abrupt smooth boundary. (3 to 10 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 15,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--6 to 10 inches; yellowish brown (10YR 5/4) loam; weak medium subangular blocky structure; friable; few fine roots; few fine distinct light brownish gray (10YR 6/2) iron depletions; slightly alkaline; clear smooth boundary. (0 to 5 inches thick)"
+      },
+      {
+        "name": "Btg",
+        "top": 25,
+        "bottom": 61,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg--10 to 24 inches; light brownish gray (2.5Y 6/2) clay; weak medium prismatic parting to moderate medium subangular blocky structure; firm; sticky, plastic; common fine roots; common distinct clay films on faces of peds; many medium prominent yellowish brown (10YR 5/6) masses of iron accumulation; moderately alkaline; gradual smooth boundary. (10 to 56 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 61,
+        "bottom": 94,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--24 to 37 inches; yellowish brown (10YR 5/4), yellowish brown (10YR 5/6), and gray (N 6/0) clay; weak medium prismatic parting to moderate medium subangular blocky structure; firm; sticky, plastic; few fine roots; common distinct clay films on faces of peds; the areas with gray colors are iron depletions and the areas with brown colors are iron accumulations; moderately alkaline; gradual smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 94,
+        "bottom": 132,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt2--37 to 52 inches; yellowish brown (10YR 5/4) clay; moderate medium prismatic parting to moderate medium subangular blocky structure; firm; sticky, very plastic; few fine roots; common distinct clay films on faces of peds; few fine rounded manganese concretions; few calcium carbonate concretions 0.25 to 1 inch in diameter; common medium distinct gray (10YR 6/1) iron depletions and common medium faint brownish yellow (10YR 6/8) masses of iron accumulation; moderately alkaline; gradual smooth boundary. (Combined thickness of the Bt horizon is 4 to 50 inches)"
+      },
+      {
+        "name": "B'tg",
+        "top": 132,
+        "bottom": 157,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "B'tg--52 to 62 inches; gray (10YR 6/1) clay; weak medium subangular blocky structure; firm; sticky, very plastic; few fine roots; common distinct clay films on faces of peds; few calcium carbonate concretions 0.25 to 1 inch in diameter; few rounded quartz gravel; common fine prominent yellowish brown (10YR 5/8) masses of iron accumulation; moderately alkaline; gradual smooth boundary. (0 to 30 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 157,
+        "bottom": 178,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BC--62 to 70 inches; gray (10YR 6/1) and yellowish brown (10YR 5/6) sandy clay loam; weak medium subangular blocky structure; friable; slightly sticky, slightly plastic; 5 percent by volume rounded quartz gravel; the areas with gray colors are iron depletions and the areas with brown colors are iron accumulations; moderately alkaline; gradual smooth boundary. (0 to 26 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 178,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "neutral",
+        "narrative": "2C--70 to 80 inches; light gray (10YR 7/1), yellowish brown (10YR 5/8), and brown (7.5YR 4/4) fine sandy loam; massive; friable; the areas with gray colors are iron depletions and the areas with brown colors are iron accumulations; neutral."
+      }
+    ]
+  ]
 }

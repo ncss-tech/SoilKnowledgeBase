@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nSeries control section:  The zone from 0 to 30 cm.\nParticle-size control section:  The zone from 10 to 30 cm.  (the argillic horizon)\nOchric epipedon:  The zone from 0 to 10 cm.  (A horizon)\nArgillic horizon:  The zone from 10 to 30 cm.  (Bt horizon)\nLithic contact:  The contact with sandstone at 30 cm.  (R layer)\nThe assignment of the cation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomic Version:  Classified according to Keys to Soil Taxonomy, 11th Edition, 2010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 10 cm (0 to 4 inches); reddish brown (5YR 4/3) sandy loam, dark reddish brown (5YR 3/2) moist; weak fine granular structure; soft, very friable, slightly sticky and slightly plastic; 10 percent gravel; slightly acid (6.1); clear smooth boundary. (10 to 15 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 10,
+        "bottom": 30,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--10 to 30 cm (4 to 12 inches); reddish brown (2.5YR 4/4) gravelly sandy clay loam, dark reddish brown (2.5YR 3/4) moist; moderate medium subangular blocky structure; hard, friable, moderately sticky and, moderately sticky and moderately plastic; many distinct clay films on faces of peds; 20 percent gravel; neutral (6.8); clear smooth boundary. (15 to 30 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 30,
+        "bottom": 152,
+        "texture_class": "sand",
+        "narrative": "R--30 to 152 cm (12 to 60 inches); sandstone."
+      }
+    ]
+  ]
 }

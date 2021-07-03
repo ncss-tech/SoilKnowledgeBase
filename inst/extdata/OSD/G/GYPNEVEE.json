@@ -56,5 +56,84 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nSoil moisture:  Aridic-ustic\nOchric epipedon - 0 to 13 cm (A horizon)\nStrongly contrasting particle -size adn mineralogy control section: loamy over fine-gypseous and mixed over hypergypsic\nHypergypsic mineralogy - over 40 percent gypsum in C horizons\nParalithic contact - 117 cm (Cr horizon)\nTaxonomy Version:  Keys to Soil Taxonomy, Eleventh Edition, 2010\nThe series soil moisture regime is revised to aridic-ustic to reflect more current precipitation data and better understanding of soil moisture characteristics within the series domain.  Depth to bedrock is revised to include very deep components of the same soil\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 13 cm; reddish brown (5YR 5/4) silt loam, dark reddish brown (5YR 3/4) moist; weak fine granular structure; soft, very friable, slightly sticky and slightly plastic; few fine roots; strongly effervescent; moderately alkaline; clear smooth boundary. (10 to 20 cm thick)"
+      },
+      {
+        "name": "AC",
+        "top": 13,
+        "bottom": 41,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "AC--13 to 41 cm; light reddish brown (5YR 6/4) silt loam, yellowish red (5YR 4/6) moist; weak fine subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; few very fine and fine roots; strongly effervescent; moderately alkaline; clear smooth boundary. (15 to 30 cm thick)"
+      },
+      {
+        "name": "C1",
+        "top": 41,
+        "bottom": 51,
+        "dry_hue": "5YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C1--41 to 51 cm; pink (5YR 7/4) silt loam, yellowish red (5YR 4/6) moist; weak coarse subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; strongly effervescent; 50 percent gypsum and calcium carbonate, mainly disseminated, throughout; slightly alkaline; clear smooth boundary."
+      },
+      {
+        "name": "C2",
+        "top": 51,
+        "bottom": 117,
+        "dry_hue": "5YR",
+        "dry_value": 7,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "C2--51 to 117 cm; reddish yellow (5YR 7/6) silt loam, yellowish red (5YR 5/6) moist; massive; soft, very friable, slightly sticky and slightly plastic; strongly effervescent, 60 percent gypsum and calcium carbonate in soft rounded masses, threads and seams; slightly alkaline.  (Combined thickness of the C horizon is 63 to 110 cm)"
+      },
+      {
+        "name": "Cr",
+        "top": 117,
+        "bottom": 152,
+        "narrative": "Cr--117 to 152 cm; reddish brown gypsum."
+      }
+    ]
+  ]
 }

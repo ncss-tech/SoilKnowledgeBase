@@ -56,5 +56,72 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon:\nParticle size control section: The zone from 10 to 32 inches (Bt and BCt  horizons)\nMollic epipedon: the zone from 0 to 10 inches (A horizon).\nArgillic horizon: the zone from 10 to 32 inches (Bt and BCt horizon).\nParalithic contact at a depth of 32 inches.\nVertic features: large cracks in the surface and argillic horizons, often extending down to the bedrock.\nLast update by the state 5/89.\nTaxonomic Version: Eighth Edition, 1998\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 10 inches;  dark gray (10YR 4/1) clay loam, very dark grayish brown (10YR 3/2) moist; moderate fine granular structure; slightly hard, friable, sticky and plastic; slightly acid (pH 6.4); clear wavy boundary (5 to 15 inches)."
+      },
+      {
+        "name": "Bt",
+        "top": 25,
+        "bottom": 66,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt--10 to 26 inches; grayish brown (10YR 5/2) clay, dark grayish brown (10YR 4/2) moist and crushed; common very fine faint light olive brown (2.5Y 5/6) mottles; strong coarse prismatic structure parting to strong medium subangular blocky; very hard, very firm, very sticky and very plastic; many thin clay films on ped faces; slightly acid (pH 6.2); gradual smooth boundary (10 to 20 inches)."
+      },
+      {
+        "name": "BCt",
+        "top": 66,
+        "bottom": 81,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BCt--26 to 32 inches; grayish brown (2.5Y 5/2) clay, dark grayish brown (2.5Y 4/2) moist and crushed; common fine faint light olive brown (2.5Y 5/6) mottles; moderate fine and medium subangular blocky structure; very hard, very firm, very sticky and very plastic; few thin clay films on ped faces; 5 percent stable shale fragments; neutral (pH 6.6); clear wavy boundary (5 to 10 inches)."
+      },
+      {
+        "name": "Cr",
+        "top": 81,
+        "narrative": "Cr--32 inches; soft gray shale."
+      }
+    ]
+  ]
 }

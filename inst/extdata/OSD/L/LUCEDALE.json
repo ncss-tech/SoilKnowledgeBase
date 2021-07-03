@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to a depth of about 8 inches (Ap horizon).\nArgillic horizon - the zone from approximately 8 to 60 inches (Bt1, Bt2, Bt3 horizons).\nRhodic feature - Moist color value of less than 4 throughout the argillic horizon.\nADDITIONAL DATA:  Mineralogical data are available in Mississippi Experiment Station Publication No. 1141.\nNational Cooperative Soil Survey\nU. S. A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 8 inches; dark reddish brown (5YR 3/2) loam; weak fine granular structure; friable; many fine roots; strongly acid; abrupt wavy boundary.  (6 to 8 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 38,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--8 to 15 inches; dark reddish brown (2.5YR 3/4) sandy clay loam; weak medium subangular blocky structure; friable; many fine roots; patchy clay films on faces of peds; strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 38,
+        "bottom": 102,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt2--15 to 40 inches; dark red (2.5YR 3/6) clay loam; moderate medium subangular blocky structure; friable; few fine roots; clay films on faces of peds; strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 102,
+        "bottom": 203,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "narrative": "Bt3--40 to 80 inches; dark red (2.5YR 3/6) sandy clay loam; weak medium subangular blocky structure; friable; clay films on surfaces of peds; strongly acid. (Combined thickness of the Bt subhorizons is more than 60 inches.)"
+      }
+    ]
+  ]
 }

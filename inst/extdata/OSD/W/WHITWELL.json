@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The 7/00 revision places this series in the semiactive CEC activity class.\nDiagnostic horizons and featured recognized in the pedon are:\nOchric epipedon: 0 to 9 inches (Ap horizon)\nArgillic horizon: 14 to 40 inches (Bt horizon)\nAquic feature: mottles with chroma of 2 or less within a depth of 30 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 9 inches; brown (10YR 4/3) loam; weak fine granular structure; friable; common very fine and fine roots; common very fine and fine tubular pores; neutral; abrupt smooth boundary.  (4 to 12 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 23,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BE--9 to 14 inches; yellowish brown (10YR 5/6) loam, weak fine subangular blocky structure; friable; few very fine and fine roots; many very fine and fine tubular pores; medium acid; gradual smooth boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 36,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--14 to 24 inches; yellowish brown (10YR 5/6) loam; moderate fine subangular blocky structure; friable; few very fine and fine roots; common very fine and fine tubular pores; few faint clay films on faces of peds and in pores; strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 61,
+        "bottom": 102,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--24 to 40 inches; yellowish brown (10YR 5/4) clay loam; common fine and medium distinct light brownish gray (2.5Y 6/2) and few fine distinct brownish yellow (10YR 6/8) mottles; moderate fine subangular blocky structure; friable; common very fine and fine pores; few faint clay films on faces of peds and in pores; strongly acid; clear wavy boundary.  (Thickness of the Bt horizon ranges from 15 to 40 inches)"
+      },
+      {
+        "name": "CB",
+        "top": 102,
+        "bottom": 132,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "CB--40 to 52 inches; light brownish gray (10YR 6/2) loam; common fine prominent brownish yellow (10YR 6/6) and few fine distinct gray (N 5/) mottles; weak coarse platy structure; firm; few fine pores; very strongly acid; gradual smooth boundary.  (0 to 15 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 132,
+        "bottom": 178,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "narrative": "C--52 to 70 inches; light brownish gray (10YR 6/2) loam stratified with thin seams of sandy loam and loamy sand; few  fine prominent brownish yellow (10YR 6/6) and few fine distinct gray (N 5/) mottles; massive; friable; 5 percent gravel up to 1.5 inches in diameter; very strongly acid.  (5 to 30 inches thick.)"
+      }
+    ]
+  ]
 }

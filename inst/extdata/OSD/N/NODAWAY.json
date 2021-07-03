@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 25 to 100 centimeters (C1 and C2 horizons);\nseries control section--the zone from the surface to a depth of 150 centimeters (Ap, C1, C2 and C3 horizons).\nDiagnostic horizons and features recognized in this pedon include:\nochric epipedon--the zone from the surface to a depth of 18 centimeters (Ap horizon);\nredoximorphic concentrations--in the zone below a depth of 79 centimeters (C2 and C3 horizons);\nudic moisture regime.\nCation-exchange activity class is supported by lab data from Kellogg Soil Survey Laboratory, Lincoln, Nebraska, pedon number S1997IA047012.\nTaxonomy version--Keys to Soil Taxonomy, twelfth edition, 2014.\nADDITIONAL DATA:\nLaboratory data--Kellogg Soil Survey Laboratory, Lincoln, Nebraska, pedon number S1997IA047012.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 18 centimeters; very dark grayish brown (10YR 3/2) silt loam, grayish brown (10YR 5/2) dry; weak fine granular structure; friable; many roots; neutral; clear smooth boundary. (15 to 25 centimeters thick)"
+      },
+      {
+        "name": "C1",
+        "top": 18,
+        "bottom": 79,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C1--18 to 79 centimeters; stratified dark grayish brown (10YR 4/2), grayish brown (10YR 5/2) and very dark grayish brown (10YR 3/2) silt loam; massive with weak thin alluvial stratification; friable; neutral; clear wavy boundary."
+      },
+      {
+        "name": "C2",
+        "top": 79,
+        "bottom": 107,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C2--79 to 107 centimeters; stratified very dark grayish brown (10YR 3/2) and dark grayish brown (10YR 4/2) silty clay loam; massive with weak thin alluvial stratification; friable; few very thin strata of silt loam; few fine distinct yellowish brown (10YR 5/6) redoximorphic concentrations; neutral; gradual wavy boundary."
+      },
+      {
+        "name": "C3",
+        "top": 107,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "narrative": "C3--107 to 203 centimeters; stratified dark grayish brown (10YR 4/2), grayish brown (10YR 5/2) and very dark grayish brown (10YR 3/2) silt loam; massive with weak thin alluvial stratification; friable; few fine distinct yellowish brown (10YR 5/6) redoximorphic concentrations; neutral."
+      }
+    ]
+  ]
 }

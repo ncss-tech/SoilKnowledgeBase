@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon -- zone from the surface of the soil to a depth of approximately 9 inches (Ap horizon)\nb. Argillic horizon -- the zone from approximately 14 to 32 inches (Btg and 2Btg2 horizons).\nc. Typic aquults feature -- colors with chroma of less than or equal to 1 in the zone from 9 to 32 inches and very strongly acid reaction in the zone from 32 to 60 inches.\nFeb. 2008 update was for minor description and range in characteristics changes as well as competing and geographically associated soils.  Revision 6/2001 - WDC\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 9 inches, dark gray (10YR 4/1) silt loam; moderate fine and medium granular structure; friable, slightly sticky, slightly plastic; many roots; slightly acid (limed); clear smooth boundary. (8 to 10 inches thick)"
+      },
+      {
+        "name": "Bg",
+        "top": 23,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg--9 to 14 inches, gray (10YR 5/1) silty clay loam; weak fine and medium subangular blocky structure, slight tendency toward thin platiness; firm, sticky, slightly plastic; common roots; common medium distinct yellowish brown (10YR 5/6) masses of oxidized iron; slightly acid; clear wavy boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 36,
+        "bottom": 56,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "Btg1--14 to 22 inches, gray (5Y 5/1) silty clay loam; weak medium and coarse subangular blocky structure; firm, sticky, plastic; few roots; few clay films; many medium and coarse prominent yellowish red (5YR 4/6) and brown (7.5YR 4/4) masses of oxidized iron; few fine dark concretions; strongly acid; gradual irregular boundary."
+      },
+      {
+        "name": "2Btg2",
+        "top": 56,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "2Btg2--22 to 32 inches, gray (N5/0) silty clay loam; very weak thin platy structure; firm, sticky, plastic; few clay films; many medium and coarse prominent brownish yellow (10YR 6/8) and strong brown (7.5YR 5/6) masses of oxidized iron;  many mica flakes; higher in sand in lower portion; very strongly acid; abrupt smooth boundary. (combined thickness of the Bt is 17 to 30 inches)"
+      },
+      {
+        "name": "2Cg",
+        "top": 81,
+        "bottom": 165,
+        "moist_hue": "5B",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "narrative": "2Cg--32 to 65 inches, bluish gray (5B 6/1) loam, grading toward sandy loam with depth; massive; friable, slightly sticky, plastic; highly micaceous; strongly acid."
+      }
+    ]
+  ]
 }

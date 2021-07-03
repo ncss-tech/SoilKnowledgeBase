@@ -56,5 +56,64 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nChestnut soils were previously mapped with the Ashe series. Field studies indicate that Chestnut soils have significantly higher forest productivity than Ashe soils.\nThe 12/97 revision changes the family placement to coarse-loamy, mixed, active, mesic Typic Dystrochrepts per the 7th Edition of Keys to Soil Taxonomy (1996). The CEC activity class placement is based on three pedons; S88-NC-121-005; S91-NC-111-002; and S77-TN-171-004. All three pedons have control section clay contents over 18%. Two of the three are in the active family while one is in the semiactive family. Since these soils may best fit Pigeonroost, additional future lab data may place Chestnut soils in a semiactive family. Horizon depths and runoff class were also revised at this time. The 2/99 revision updates classification to 8th Edition of Keys to Soil Taxonomy.\nDiagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon--the zone from 0 to 20 cm, 0 to 8 inches (Oe and A horizons)\nb. Cambic horizon--the zone from 20 to 81 cm, 8 to 32 inches (Bw horizons)\nc. Paralithic contact - the contact with weathered rock at 81 cm, 32 inches (upper boundary of the Cr horizon).\nd. Series control section--the zone from 25 to 102 cm, 10 to 40 inches\nADDITIONAL DATA:\nSoil Characterization Data is available from the Kellogg Soil Survey Laboratory (KSSL) website: http://ncsslabdatamart.sc.egov.usda.gov/querypage.aspx\nSIR(s) (obsolete): NC0166, NC0242 (Stony)\nRevised: 10/92-JMO, AG; 12/97-DHK; 2/99, 6/00, 8/01-MKC; 5/13-Semi tab format and minor changes to Range in Characteristics, MLRA 130B.\n________________________________________\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {}
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 5,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--0 to 5 cm (0 to 2 inch); moderately decomposed leaves, twigs, and root mat; abrupt smooth boundary"
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--5 to 20 cm (2 to 8 inches); dark yellowish brown (10YR 4/4) gravelly loam; weak medium granular structure; very friable; many fine and medium roots; few fine flakes of mica; 20 percent granite gneiss gravel by volume; very strongly acid; clear wavy boundary. (3 to 25 cm, 1 to 10 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 20,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--20 to 81 cm (8 to 32) inches; yellowish brown (10YR 5/6) gravelly loam; weak medium subangular blocky structure; very friable; common fine roots; few fine flakes of mica; 20 percent granite gneiss gravel by volume; very strongly acid; clear wavy boundary. (25 to 76 cm, 10 to 30 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 81,
+        "bottom": 188,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Cr--81 to 188 cm (32 to 74 inches); weathered, multicolored granite gneiss; rock structure; partly consolidated in place; excavation difficulty is high with hand tools;  few fine roots in cracks; cracks are more than 10 cm (4 inches) apart; few fine flakes of mica; very strongly acid; abrupt wavy boundary. (25 to127 cm, 10 to 50 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 188,
+        "narrative": "R--188 cm (74 inches); unweathered, hard granite gneiss."
+      }
+    ]
+  ]
 }

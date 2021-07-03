@@ -56,5 +56,121 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Alloway soils were formally mapped as Keyport in Salem County, New Jersey. However, Keyport soils are Hapludults. 06/97--Revisions to the series description and classification were to update the particle-size class to fine and the cation-exchange activity class to semiactive. 02/02--Revisions to expand the color and textural RIC required for MLRA update projects in NJ, MD, and DE.\nDiagnostic horizons and other soil characteristics recognized in this pedon are:\nOchric epipedon--the zone from the soil surface to a depth of 11 inches (Ap horizon)\nArgillic horizon--the zone from 11 to 49 inches (Bt horizons).\nAquic conditions--the zone from about 24 inches to a depth of 80 inches is periodically saturated (endosaturation)\nOther soil features identified with this pedon:\nPaleudult feature--the zone from 0 to 60 inches (Ap, Bt horizons, and C horizon) does not have a decrease in clay content of 20 percent or more from the maximum clay content within this zone.\nADDITIONAL DATA: Characterization data is available from the Soil Survey Laboratory, Lincoln, NE, pedons: S92NJ-033-010; S92NJ-033-014\nDatabase Information:\nOSD Data Mapunit ID: To be developed\nTypical Pedon Data Mapunit ID: 100018\nOSD User Pedon ID: To be developed\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNJ0222 ALLOWAY     0- 15  50-57   180-215   42-48   25-150\nSOI-5  FloodL FloodH Watertable Kind     Months   Bedrock Hardness\nNJ0222 NONE          1.5-3.5    APPARENT JAN-APR  >72     ---\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNJ0222  0-11  SL                      0-  0  85-100  5-20   0-  8\nNJ0222  0-11  L                       0-  0  85-100 10-26   0-  8\nNJ0222  0-11  SIL                     0-  0  85-100 15-26   0-  8\nNJ0222 11-72  SICL SCL C              0-  0  85-100 25-70   0- 28\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNJ0222  0-11  3.5- 5.5  0.-1.  0- 2   2.0- 6.0  LOW\nNJ0222  0-11  3.5- 5.5  0.-1.  0- 2   0.2- 2.0  LOW\nNJ0222  0-11  3.5- 5.5  0.-1.  0- 2  0.06- 0.6  LOW\nNJ0222 11-72  3.5- 5.5  0.-0.  0- 2  0.06- 0.2  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 11 inches; dark yellowish brown (10YR 4/4) silt loam, yellowish brown (10YR 5/4) dry; strong medium and coarse granular structure; friable; moderately sticky, moderately plastic; few medium and fine roots; slightly acid; abrupt smooth boundary. (6 to 12 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 28,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--11 to 18 inches; yellowish brown (10YR 5/6) silty clay loam; strong coarse subangular blocky structure parting to strong medium subangular blocky; firm; very sticky, very plastic; few fine and very fine roots; common faint clay films; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 46,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--18 to 24 inches; yellowish brown (10YR 5/8) silty clay loam; strong medium and fine subangular blocky structure; firm; very sticky, very plastic; few fine and very fine roots; common faint clay films; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 61,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt3--24 to 32 inches; yellowish brown (10YR 5/6) clay loam; strong coarse and medium subangular blocky structure; friable; moderately sticky, moderately plastic; few fine and very fine roots; common faint clay films; few fine distinct light gray (10YR 7/1) irregularly shaped iron depletions with clear boundaries and few fine faint strong brown (7.5YR 5/8) irregularly shaped masses of oxidized iron with diffuse boundaries throughout; 10 percent, by volume, round quartzite gravel; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt4",
+        "top": 81,
+        "bottom": 99,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "texture_class": "clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt4--32 to 39 inches; reddish yellow (7.5YR 6/8) clay loam; strong coarse and medium subangular blocky structure; friable; moderately sticky, moderately plastic; few fine and very fine roots; common faint clay films; common fine distinct light gray (10YR 7/1) irregularly shaped iron depletions with clear boundaries throughout; 5 percent, by volume, round quartzite gravel; moderately acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt5",
+        "top": 99,
+        "bottom": 124,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "texture_class": "clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt5--39 to 49 inches; reddish yellow (7.5YR 6/8) clay loam; strong coarse and medium subangular blocky structure; friable; very sticky, very plastic; few fine and very fine roots; common faint clay films; common fine distinct pinkish gray (7.5YR 7/2) irregularly shaped iron depletions with clear boundaries throughout; moderately acid; clear smooth boundary. (Combined thickness of the Bt is 40 to greater than 60 inches.)"
+      },
+      {
+        "name": "C",
+        "top": 124,
+        "bottom": 168,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C--49 to 66 inches; reddish yellow (7.5YR 6/8) clay; massive; friable; very sticky, very plastic; few fine and very fine roots; common faint clay films; common fine distinct pinkish gray (7.5YR 7/2) irregularly shaped iron depletions with clear boundaries throughout; moderately acid, clear smooth boundary."
+      },
+      {
+        "name": "Cg",
+        "top": 168,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "narrative": "Cg--66 to 80 inches; light gray (10YR 7/2) clay; massive; friable; very sticky, very plastic; few fine and very fine roots; common faint clay films; common fine distinct yellowish red (5YR 5/6) irregularly shaped masses of oxidized iron with diffuse boundaries throughout; moderately acid."
+      }
+    ]
+  ]
 }

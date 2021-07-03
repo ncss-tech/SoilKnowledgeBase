@@ -56,5 +56,94 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nochric epipedon: 1 to 6 inches  A\ncambic horizon: 6 to 39 inches  Bw, 2Bwb\nandic soil properties:  1 to 19 inches  A, Bw\nparticle-size control section:   1 to 41 inches   A, Bw, 2Bwb, 2BCb\nashy part: 1 to 19 inches  A, Bw\nloamy-skeletal part: 19 to 41 inches  2Bwb, 2BCb\nlithic contact   49 inches   2R\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inches; needles and twigs."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A--1 to 6 inches; dark brown (10YR 3/3) ashy sandy loam, yellowish brown (10YR 5/4) dry; weak fine granular structure; soft, very friable, nonsticky, nonplastic and weakly smeary; many fine and few medium and coarse roots; common fine and medium irregular pores; 10 percent gravel; slightly acid (pH 6.2); gradual smooth boundary. (4 to 7 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 15,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "stony",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--6 to 19 inches; dark yellowish brown (10YR 3/4) stony ashy silt loam, yellowish brown (10YR 5/4) dry; weak fine and medium subangular blocky structure; soft, very friable, nonsticky, nonplastic and weakly smeary; common fine and few medium and coarse roots; few fine tubular pores; 5 percent gravel and 15 percent stones; moderately acid (pH 6.0); clear smooth boundary. (8 to 15 inches thick)"
+      },
+      {
+        "name": "2Bwb",
+        "top": 48,
+        "bottom": 99,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very stony",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "narrative": "2Bwb--19 to 39 inches; brown (10YR 5/3) very stony sandy loam, light yellowish brown (10YR 6/4) dry; weak medium subangular blocky structure; soft, firm, nonsticky and nonplastic; few fine and medium roots; few fine tubular pores; 20 percent gravel, 5 percent cobbles and 25 percent stones; moderately acid (pH 5.8); clear smooth to irregular boundary. (7 to 26 inches thick)"
+      },
+      {
+        "name": "2BCb",
+        "top": 99,
+        "bottom": 124,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely stony",
+        "pH": 5.5,
+        "pH_class": "strongly acid",
+        "narrative": "2BCb--39 to 49 inches; brown (10YR 5/3) extremely stony sandy loam, light yellowish brown (10YR 6/4) dry; single grain; loose, friable, nonsticky and nonplastic; few fine roots; 25 percent gravel, 15 percent cobbles and 35 percent stones; strongly acid (pH 5.5).  (0 to 32 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 124,
+        "narrative": "2R--49 inches; granodiorite bedrock."
+      }
+    ]
+  ]
 }

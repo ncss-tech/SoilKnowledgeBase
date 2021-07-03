@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The April 1993 revision places the Lumbee series in fine-loamy over sandy or sandy-skeletal, siliceous, thermic Typic Endoaquults. Diagnostic horizons and features recognized in the typical pedon are:\nOchric epipedon--the zone from the surface to a depth of 14 inches (the A and Eg horizons).\nArgillic horizon--the zone from a depth of 14 to 36 inches (the Btg1 and Btg2 horizons).\nContrasting particle size within 40 inches of the soil surface--at 36 inches (2Cg)\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp  FrFr/Seas  Precip  Elevation\nNC0076 LUMBEE      0-2   57-70     190-245    38-52   25-170\nVA0141 LUMBEE      0-2   57-70     190-245    38-52   25-250\nSOI-5  FloodL FloodH   Watertable  Kind      Months   Bedrock Hardness\nNC0076 RARE   COMMON   0-1.0       APPARENT  NOV-APR  >80      -\nVA0141 RARE            0-0.5       APPARENT  DEC-APR  >80      -\nSOI-5   Depth  Texture     3-Inch  No-10    Clay%   -CEC-\nNC0076   0-14  LS SL FSL   0-0     85-100    4-18   2-8\nNC0076   0-14  L SIL       0-0     80-100   10-27   4-9\nNC0076  14-36  SCL SL CL   0-0     90-100   18-35   3-8\nNC0076  36-60  LS S FS     0-0     85-100    1-10   0-2\nVA0141   0-8   SL          0-0     95-100   15-20    -\nVA0141   8-30  SL          0-0     95-100   15-20    -\nVA0141  30-60  FS LS       0-0     85-100    5-10    -\nSOI-5    Depth    -pH-    O.M.     Salin  Permeab   Shnk-Swll\nNC0076    0-14   4.5-5.5  2.0-4.0  0-0    2.0-6.0   LOW\nNC0076    0-14   4.5-5.5  2.0-4.0  0-0    2.0-6.0   LOW\nNC0076   14-36   4.5-5.5  0.0-1.0  0-0    0.6-2.0   LOW\nNC0076   36-60   4.5-5.5  0.0-0.5  0-0    6.0-20    LOW\nVA0141    0-8    4.5-5.0  0.5-1.0  0-0    2.0-6.0   LOW\nVA0141    8-30   4.5-5.0  0.0-0.5  0-0    2.0-6.0   LOW\nVA0141   30-60   4.5-5.0  0.0-0.5  0-0    6.0-20    LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 6 inches; dark gray (10YR 4/1) fine sandy loam; weak fine granular structure; very friable; many fine and coarse roots; very strongly acid; clear wavy boundary. (6 to 10 inches thick)"
+      },
+      {
+        "name": "Eg",
+        "top": 15,
+        "bottom": 36,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Eg--6 to 14 inches; light brownish gray (2.5Y 6/2) loamy sand; weak fine granular structure; very friable; common fine and medium roots; very strongly acid; clear wavy boundary. (0 to 12 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 36,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "Btg1--14 to 30 inches; light gray (10YR 7/1) sandy clay loam; common fine and medium brownish yellow (10YR 6/6) masses of oxidized iron; weak medium and coarse subangular blocky structure; few clay films in pores; 2 percent, by volume quartz pebbles; few fine and medium pores; very strongly acid; gradual irregular boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 76,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "Btg2--30 to 36 inches; light gray (10YR 7/1) sandy clay loam; weak medium subangular blocky structure; friable; 2 percent, by volume quartz pebbles; very strongly acid; gradual irregular boundary. (Combined thickness of the Btg horizons is 14 to 32 inches.)"
+      },
+      {
+        "name": "2Cg",
+        "top": 91,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "narrative": "2Cg--36 to 60 inches; light gray (10YR 7/1) loamy sand; common medium distinct very pale brown (10YR 7/4) and brownish yellow (10YR 6/6) masses of oxidized iron; 10 percent, by volume fine quartz pebbles; very strongly acid."
+      }
+    ]
+  ]
 }

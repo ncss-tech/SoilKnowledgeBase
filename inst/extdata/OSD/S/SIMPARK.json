@@ -56,5 +56,89 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 33 cm (A and BA horizons).\nArgillic horizon - The zone from 33 to 46 cm (Btq horizon).\nDuripan - The zone from 46 to 56 cm (Bqkm horizon).\nLithic contact - The boundary at 56 cm to underlying hard bedrock (R layer).\nParticle size control section - The zone from 33 to 46 cm (Btq horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 8 cm; pale brown (10YR 6/3) very cobbly loam, dark brown (10YR 3/3) moist; moderate medium platy structure; slightly hard, very friable, slightly sticky and slightly plastic; common fine and medium roots; many very fine, fine, and medium vesicular pores; 10 percent gravel and 25 percent cobbles; slightly alkaline (pH 7.8); clear wavy boundary.  (8 to 18 cm thick)"
+      },
+      {
+        "name": "BA",
+        "top": 8,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BA--8 to 33 cm; pale brown (10YR 6/3) gravelly loam, brown (10YR 4/3) moist; moderate fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine and fine roots; common fine tubular pores; l5 percent gravel and 5 percent cobbles; slightly alkaline (pH 7.8); clear wavy boundary.  (0 to 28 cm thick)"
+      },
+      {
+        "name": "Btq",
+        "top": 33,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "cf_class": "very cobbly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btq--33 to 46 cm; pale brown (10YR 6/3) very cobbly loam, brown (10YR 4/3) moist; moderate fine and medium subangular blocky structure; slightly hard, very friable, moderately sticky and moderately plastic; few fine and few medium roots; few fine tubular pores; common distinct clay films on faces of peds and bridging sand grains; 20 percent gravel and 15 percent cobbles; few fine coats of silica on bottoms of rock fragments; moderately alkaline (pH 8.2); clear wavy boundary. (8 to 38 cm thick)"
+      },
+      {
+        "name": "Bqkm",
+        "top": 46,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bqkm--46 to 56 cm; very pale brown (10YR 7/3) duripan, brown (10YR 5/3) moist; massive; extremely hard and extremely firm; indurated by secondary silica with 1.25 cm thick continuous laminar cap of opal and secondary carbonates; violently effervescent; clear wavy boundary.  (5 to 28 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 56,
+        "narrative": "R--56 cm; andesite."
+      }
+    ]
+  ]
 }

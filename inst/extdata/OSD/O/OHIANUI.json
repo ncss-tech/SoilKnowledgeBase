@@ -56,5 +56,61 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Soil moisture - usually moist, but dry for short intermittent periods totaling 90 or more days in most years. (Ustic moisture regime).\nDiagnostic horizons and features recognized in this pedon include:\nOchric epipedon - from 0 to 8 centimeters (0 to 3 inches) (A1 horizon).\nLithic contact - at 61 centimeters (24 inches) (2R horizon).\nAndic soil properties - from 0 to 61 centimeters (0 to 24 inches) (A1, A2, and 2C horizons).\nLithologic discontinuity identified at 20 and 61 centimeters.\nADDITIONAL DATA: NASIS User Pedon ID 01HI601023.\nEdit log: 4/09 MRK. Andic textural modifiers added. 02/2012 KP Lithologic discontinuity added.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "cf_class": "extremely gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--8 to 20 centimeters (3 to 8 inches); dark yellowish brown (10YR 3/4) extremely gravelly ashy loamy sand; very dark brown (10YR 2/2) moist; single grain; loose when dry or moist, nonsmeary, nonsticky and nonplastic; many very fine, common fine, and few medium roots; many very fine interstitial pores; 70 percent gravel-size cinders; neutral (pH 6.8); abrupt wavy boundary.  (10 to 15 centimeters {4 to 6 inches} thick)"
+      },
+      {
+        "name": "2C1",
+        "top": 20,
+        "bottom": 46,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2C1--20 to 46 centimeters (8 to 18 inches); black (N 2.5/) and dark gray (5YR 4/1) gravels; few very fine and fine roots; many fine and medium interstitial pores; 95 percent gravel from cinders; abrupt wavy boundary.  (23 to 28 centimeters {9 to 11 inches} thick)"
+      },
+      {
+        "name": "2C2",
+        "top": 46,
+        "bottom": 61,
+        "dry_hue": "5YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2C2--46 to 61 centimeters (18 to 24 inches); dark reddish brown (5YR 3/2) gravels; few very fine roots; many fine and medium interstitial pores; 60 percent gravel from cinders, 35 percent cobbles; abrupt wavy boundary.  (13 to 18 centimeters {5 to 7 inches} thick)"
+      },
+      {
+        "name": "3R",
+        "top": 61,
+        "narrative": "3R--61 centimeters (24 inches); hard pahoehoe bedrock."
+      }
+    ]
+  ]
 }

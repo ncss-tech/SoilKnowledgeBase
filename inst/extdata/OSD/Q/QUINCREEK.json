@@ -56,5 +56,96 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from the surface to 9 inches (A, Bt horizons)\nArgillic horizon - from 3 to 9 inches (Bt horizon)\nParticle-size control section - from 3 to 27 inches (Bt, Bk1, Bk2 horizons)\nCalcic horizon - from 9 to 19 inches (Bk1 horizon)\nLithic contact - fractured hard red shale bedrock at 27 inches (R horizon).\nSoil interpretation record: MT1580.\nQuincreek soils have a frigid temperature regime and an ustic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; brown (7.5YR 5/2) channery loam, dark brown (7.5YR 3/2) moist; moderate medium granular structure; soft, very friable, slightly sticky and nonplastic; common very fine and fine roots; common fine and very fine interstitial pores; 20 percent channers; neutral (pH 7.3);  clear wavy boundary. (3 to 7 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 8,
+        "bottom": 23,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "channery",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--3 to 9 inches; brown (7.5YR 4/2) channery clay loam, dark brown (7.5YR 3/2) moist; strong medium prismatic structure parting to moderate medium subangular blocky; hard, firm, moderately sticky and slightly plastic; many very fine and fine roots; common fine and very fine interstitial and tubular pores; common distinct brown (7.5YR 4/2) clay films on faces of peds; 20 percent channers; slightly alkaline (pH 7.4); gradual wavy boundary. (6 to 10 inches thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 23,
+        "bottom": 48,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk1--9 to 19 inches; pinkish gray (7.5YR 6/2) very channery loam, brown (7.5YR 5/2) moist; moderate medium and coarse prismatic structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine and fine roots; common very fine interstitial and tubular pores; 40 percent channers; disseminated lime, common fine masses and threads of lime; common distinct lime coatings on fragments; violently effervescent; moderately alkaline (pH 8.2); gradual wavy boundary. (7 to 15 inches)"
+      },
+      {
+        "name": "Bk2",
+        "top": 48,
+        "bottom": 69,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bk2--19 to 27 inches; brown (7.5YR 5/2) very channery loam, brown (7.5YR 4/2) moist; weak coarse prismatic structure; slightly hard, very friable, slightly sticky and nonplastic; few very fine roots; common very fine interstitial and tubular pores; 55 percent channers; disseminated lime, common fine masses of lime, common faint lime coatings on fragments; violently effervescent; moderately alkaline (pH 8.0); abrupt smooth boundary. (5 to 10 inches thick))"
+      },
+      {
+        "name": "R",
+        "top": 69,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "narrative": "R--27 inches; reddish brown (5YR 4/3) hard fractured shale."
+      }
+    ]
+  ]
 }

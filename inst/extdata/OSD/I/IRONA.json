@@ -56,5 +56,67 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This represents a partial update of the series to Established. Not all items were reviewed at this time.\nDiagnostic horizons and other features recognized in the typical pedon are:\n1) Ochric epipedon - from 0 to 5 inches (Ap horizon).\n2) Cambic horizon - from 5 to 13 inches (Bw horizon).\n3) Lithic subgroup - bedrock contact at 18 inch depth.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 5 inches, dark brown (10YR 3/3) fine sandy loam, pale brown (10YR 6/3) dry; moderate fine granular structure; very friable; many fine and very fine roots; 5 percent rock fragments; strongly acid; clear smooth boundary. (4 to 10 inches thick)."
+      },
+      {
+        "name": "Bw",
+        "top": 13,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw -- 5 to 13 inches, dark yellowish brown (10YR 3/4) fine sandy loam; weak medium and fine subangular blocky structure parting to moderate fine granular; very friable; common fine and very fine roots; few very fine tubular and many fine vesicular pores; 10 percent rock fragments; slightly acid; clear smooth boundary. (6 to 16 inches thick)."
+      },
+      {
+        "name": "2C",
+        "top": 33,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "2C -- 13 to 18 inches, yellowish brown (10YR 5/4) sandy loam; weak medium and thick platy structure; friable (40 percent firm lenses); few fine roots; few very fine tubular and many fine vesicular pores; 10 percent rock fragments; moderately acid; abrupt smooth boundary. (0 to 8 inches thick)."
+      },
+      {
+        "name": "2R",
+        "top": 46,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "narrative": "2R -- 18 inches, light gray (10YR 7/2) unweathered, massive sandstone bedrock."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,51 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 1 inch (0 to 3 cm) (A horizon)\nSecondary carbonates - the zone from 1 to12 inches (3 to 30 cm) (ACk horizon)\nLithic contact - the boundary at 12 inches (30 cm) (2R horizon)\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, 12th , 2014.\nRevised for the correlation of AZ661, 2/2009, WWJ\nRevised for the correlation of AZ675, 5/2009, WWJ\nRevised for the correlation the SDJR - MLRA 38 - Mabray-Rock outcrop complex, 20 to 75 percent slopes project, July 2014, LJG2\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 1 inch (0 to 3 cm); dark grayish brown (10YR 4/2) very gravelly loam, very dark grayish brown (10YR 3/2) moist; weak fine and medium granular structure; slightly hard, friable, slightly sticky and slightly plastic; many fine and few medium roots; common fine and very fine irregular pores; 35 percent gravel and 15 percent cobble; violently effervescent; moderately alkaline (pH 8.0); abrupt smooth boundary. (1 to 3 inches thick)"
+      },
+      {
+        "name": "ACk",
+        "top": 3,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely cobbly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "ACk--1 to 12 inches (3 to 30 cm); dark grayish brown (10YR 4/2) extremely cobbly loam, very dark grayish brown (10YR 3/2) moist; moderate fine and medium granular structure; slightly hard, friable, slightly sticky and slightly plastic; common fine and few medium roots; common fine and very fine tubular pores; 30 percent gravel and 45 percent cobble; violently effervescent; common light gray (10YR 7/2) calcium carbonate coatings on underside of gravel and cobble; moderately alkaline (pH 8.2); abrupt irregular boundary. (3 to 17 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 30,
+        "narrative": "2R--12 inches (30 cm); extremely hard, fractured limestone; common fine roots along fractures."
+      }
+    ]
+  ]
 }

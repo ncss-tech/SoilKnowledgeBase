@@ -56,5 +56,65 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features and horizons recognized in this profile include:\nMollic epipedon: 1 to 11 inches. (A horizon)\nLithic contact: 17 inches. (R horizon)\nLoamy-skeletal particle size control section: 10 to 17 inches\nTemperature regime: cryic\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH": 7.1,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oi--0 to 1 inch; very dark brown (10YR 2/2) slightly decomposed plant material; many very fine and fine and few medium roots; 20 percent channers; neutral (pH 7.1); abrupt wavy boundary."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--1 to 11 inches; dark brown (10YR 3/3) very channery loam; friable, nonsticky and nonplastic; common very fine and fine and few medium roots; slightly effervescent; 30 percent channers; 5 percent flags; 2 percent boulders; slightly alkaline (pH 7.6); gradual wavy boundary."
+      },
+      {
+        "name": "C",
+        "top": 28,
+        "bottom": 43,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH": 7.7,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--11 to 17 inches; very dark grayish brown (2.5Y 3/2) very channery loam; friable, nonsticky and nonplastic; few very fine and fine roots; slightly effervescent; 45 percent channers; 10 percent flags; 2 percent boulders; slightly alkaline (pH 7.7); abrupt wavy boundary."
+      },
+      {
+        "name": "R",
+        "top": 43,
+        "bottom": 152,
+        "narrative": "R--17 to 60 inches; fractured bedrock."
+      }
+    ]
+  ]
 }

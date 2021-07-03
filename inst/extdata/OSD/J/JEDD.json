@@ -56,5 +56,77 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - 0 to 17 inches.  (A and E horizons).\nArgillic horizon - 17 to 28 inches.  (Bt horizon).\nUltic feature - base saturation of 45 to 75 percent throughout the argillic horizon.\nPale feature - abrupt textural change at a depth of 17 inches.\nParalithic Contact - at a depth of 28 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 12 inches, brown (7.5YR 5/4) very gravelly sandy loam, dark brown (7.5YR 4/4) moist; weak fine granular structure; slightly hard, very friable; common fine roots; about 40 percent by volume of angular ironstone and sandstone pebbles and 25 percent coverage of surface with stone size fragments of sandstone; slightly acid; abrupt smooth boundary.  (3 to 15 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 30,
+        "bottom": 43,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--12 to 17 inches, light brown (7.5YR 6/4) very gravelly sandy loam, light brown (7.5YR 6/4) moist; weak granular structure; slightly hard, very friable; common fine roots; about 60 percent by volume of angular ironstone and sandstone pebbles; slightly acid; abrupt wavy boundary.  (3 to 12 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 43,
+        "bottom": 71,
+        "dry_hue": "2.5YR",
+        "dry_value": 5,
+        "dry_chroma": 8,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--17 to 28 inches, red (2.5YR 5/8) clay, red (2.5YR 4/8) moist; few fine distinct yellowish brown (10YR 5/8), and few fine faint yellowish red (5YR 5/8) redox concentrations; moderate medium subangular blocky structure; very hard, firm; common fine roots; clay films on surface of peds; few sandstone fragments; strongly acid; abrupt wavy boundary.  (6 to 26 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 71,
+        "bottom": 152,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 8,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "narrative": "Cr--28 to 60 inches, reddish yellow (5YR 6/8) weakly cemented sandstone that contains about 40 percent thin brownish yellow (10YR 6/8) strata; very strongly acid."
+      }
+    ]
+  ]
 }

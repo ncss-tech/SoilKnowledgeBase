@@ -56,5 +56,116 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nParticle-size control section:  The zone from 19 to 43 inches.  (Bt and BCt horizons)\nOchric epipedon:  The zone from 3 to 11 inches.  (E horizon)\nAlbic horizon:  The zone from 3 to 11 inches.  (E horizon)\nGlossic horizon:  The zone from 11 to 19 inches.  (E/B horizon)\nArgillic horizon:  The zone from 11 to 43 inches.  (E/B, Bt, and BCt horizons)\nThe series concept was narrowed to better reflect the original concept for the soil.  The series is now defined as having an ustic soil moisture regime; having formed in slope alluvium and colluvium derived from granite and granitic-gneiss on mountain slopes; and having paramicaceous mineralogy.  The horizon depths were also corrected to recognize the top of the soil surface starting at the Oi horizon.\nClassification changed from Typic Cryoboralf to Glossic Cryoboralfs 1997.\nClassification changed from mixed Glossic Cryoboralfs to paramicaceous Ustic Glossocryalfs 1998.  In 1999 the paramicaceous mineralogy was changed to mixed, superactive.\nTaxonomic version:  Eighth Edition, 1998.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "Oi--0 to 2 inches; undecomposed organic material consisting mainly of needles, bark, and twigs."
+      },
+      {
+        "name": "Oe",
+        "top": 5,
+        "bottom": 8,
+        "narrative": "Oe--2 to 3 inches; partially decomposed organic material like that of the horizon above."
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E--3 to 11 inches; light brownish gray (10YR 6/2) gravelly coarse sandy loam, grayish brown (10YR 5/2) moist; weak thin platy structure parting to weak fine granular; soft, very friable, nonsticky and nonplastic; 15 percent pebbles, mostly fine angular granite fragments; slightly acid (pH 6.2); gradual wavy boundary.  (4 to 16 inches thick)"
+      },
+      {
+        "name": "E/B",
+        "top": 28,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E/B--11 to 19 inches; (E part) light brownish gray (10YR 6/2) gravelly coarse sandy loam, grayish brown (10YR 5/2) moist; (B part) brown (7.5YR 5/4) gravelly coarse sandy clay loam, brown (7.5YR 4/4) moist; weak fine subangular blocky structure parting to weak medium granular; slightly hard, very friable, nonsticky and nonplastic; clay films on some faces of peds and in some root channels and pores; the horizon consists of seams and nodules of material like that of the underlying horizon embedded in a lighter colored matrix like that of the overlying horizon; 15 percent fine angular granite pebbles, slightly acid (pH 6.4); gradual wavy boundary.  (4 to 12 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 48,
+        "bottom": 89,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--19 to 35 inches; brown (7.5YR 5/4) gravelly coarse sandy clay loam, brown (7.5YR 4/4) moist; moderate fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; nearly continuous clay films on faces of peds and fillings in root channels and pores; 25 percent fine angular pebbles; slightly acid (pH 6.4); gradual wavy boundary.  (8 to 28 inches thick)"
+      },
+      {
+        "name": "BCt",
+        "top": 89,
+        "bottom": 109,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BCt--35 to 43 inches; brown (7.5YR 5/4) gravelly coarse sandy loam, brown (7.5YR 5/4) moist; weak medium subangular blocky structure; slightly hard, very friable, nonsticky and nonplastic; peds are extremely hard, very friable; few faint clay films on some faces of peds and in some root channels and pores; 25 percent fine angular granite pebbles; slightly acid (pH 6.4); gradual wavy boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 109,
+        "bottom": 160,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "narrative": "C--43 to 63 inches; light brown (7.5YR 6/4) gravelly coarse sandy loam, brown (7.5YR 5/4) moist; massive; extremely hard, very friable, nonsticky and nonplastic; 25 percent angular granite pebbles; neutral (pH 6.6)."
+      }
+    ]
+  ]
 }

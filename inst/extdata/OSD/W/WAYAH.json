@@ -56,5 +56,100 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The Wayah series was formerly included with the Burton and Porters series. However, Burton soils have bedrock at depths of 20 to 40 inches below the surface, and Porters soils are mesic.\nThe 1/97 revision placed Wayah soils in a fine-loamy family. This series was previously placed in a coarse-loamy family. Laboratory PSA (pipette method) and corresponding field texture estimates (feel method) indicate control section clay contents of generally 12 to 24 percent, with most pedons marginally coarse-loamy. Fine-loamy particle-size class placement is based on the presence of amorphous (non-crystalline) clay-size material associated with the relatively high organic matter content found in these soils. Although field estimates, laboratory measurements, and calculated values may vary, clay content in the particle-size control section is generally less than 25 percent. Although Wayah soils may exhibit some of the characteristics of andic soil properties, they lack the volcanic glass found in soils of similar taxa in the Western United States.\nThe Wayah series has the following diagnostic horizons and features:\nUmbric epipedon - The zone from the mineral soil surface to a depth of 18 inches having value of 3 or less, moist, and 5 or less, dry (A1 and A2 horizons).\nCambic horizon - The zone from 18 to 44 inches below the surface (Bw horizon).\nIsotic mineralogy class - In more than one-half of the control section, a 1500 kPa water to clay ratio of 0.6 or more and a pH in NaF solution of more than 8.4.\nRevised: 10/92-DJT,SAB,AG; 1/97-DHK, 12/97-DHK; 3/03-MKC\n02/11-BPS: Taxonomic Classification -- 11th Keys, update competing and associated series, MLRA clarification\nADDITIONAL DATA: Characterization data is available from the National Soil Survey Laboratory, Lincoln, NE for the following pedons: S85NC-099-001, S88NC-121-009, S88NC-121-010, S88NC-199-009, S91NC-021-005, S91NC-121-005A and S91NC-021-006.\nNASIS Data Map Unit ID: NASIS data for the typical pedon in Jackson County, NC are represented by DMU # 369469.\nMLRA: 130B SIR(s): NC0188, NC0187 (STONY)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "Oi--0 to 2 inches; slightly decomposed leaves and twigs."
+      },
+      {
+        "name": "Oe",
+        "top": 5,
+        "bottom": 10,
+        "narrative": "Oe--2 to 4 inches; partially decomposed organic litter and root mat."
+      },
+      {
+        "name": "A1",
+        "top": 10,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--4 to 14 inches; black (10YR 2/1) sandy clay loam, very dark gray (10YR 3/1) dry; weak fine granular structure; very friable; common fine and medium roots; 2 percent gravel by volume; few fine flakes of mica; 18 percent organic matter; extremely acid; clear wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 36,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--14 to 18 inches; very dark grayish brown (10YR 3/2) sandy clay loam, dark grayish brown (10YR 4/2) dry; weak medium granular structure; very friable; common fine and medium roots; 2 percent gravel by volume; few fine flakes of mica; very strongly acid; clear wavy boundary. (Combined thickness of the A horizon is 10 to 20 inches.)"
+      },
+      {
+        "name": "Bw",
+        "top": 46,
+        "bottom": 112,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--18 to 44 inches; dark yellowish brown (10YR 4/6) gravelly sandy clay loam; weak medium subangular blocky structure; very friable; few fine roots; 33 percent gravel by volume; few fine flakes of mica; very strongly acid; gradual wavy boundary. (12 to 30 inches thick.)"
+      },
+      {
+        "name": "C1",
+        "top": 112,
+        "bottom": 127,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C1--44 to 50 inches; pale brown (10YR 6/3) gneiss saprolite that is gravelly sandy loam; few medium faint light gray (10YR 7/2) and very pale brown(10YR 8/2) mottles; massive rock controlled structure; very friable; 16 percent gravel by volume; few fine flakes of mica; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "C2",
+        "top": 127,
+        "bottom": 175,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "narrative": "C2--50 to 69 inches; mottled yellowish brown (10YR 5/8), yellowish red (5YR 5/6), very pale brown(10YR 8/2) and dark yellowish brown (10YR 4/6) gneiss saprolite that is gravelly sandy loam; massive rock controlled structure; very friable; 17 percent gravel by volume; few fine flakes of mica; very strongly acid."
+      }
+    ]
+  ]
 }

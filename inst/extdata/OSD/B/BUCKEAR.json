@@ -56,5 +56,59 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from 0 to 7 inches (A horizons)\nUstic feature -  This soil has an aridic moisture regime that borders on the Ustic regime.  The soil is dry in the moisture control section less than three-fourths the time during the growing season.\nParalithic contact - The boundary at 7 inches (Cr horizon)\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Eleventh Edition, 2010\nUpdate and revisions for Recorrelation of Brewster County, TX, Main Part, 2/8/08, CEM\nRevised for the correlation of Presidio County, Texas ; Oct, 2012, WWJ\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 2 inches; brown (10YR 5/3) very gravelly fine sandy loam, brown (10YR 4/3) moist; weak fine granular structure; slightly hard, friable; common very fine and fine roots; common fine tubular pores; 50 percent sandstone gravel, 2 percent sandstone cobbles; very slightly effervescent; slightly alkaline; abrupt smooth boundary (1 to 6 inches thick)."
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--2 to 7 inches; yellowish brown (10YR 5/4) extremely gravelly fine sandy loam, dark yellowish brown (10YR 4/4) moist; weak fine subangular blocky structure; slightly hard, friable; common very fine and fine roots; 70 percent sandstone gravel, 3 percent sandstone cobbles; very slightly effervescent; slightly alkaline; abrupt wavy boundary (3 to 14 inches thick)."
+      },
+      {
+        "name": "Cr",
+        "top": 18,
+        "bottom": 152,
+        "dry_hue": "5Y",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "narrative": "Cr--7 to 60 inches; olive (5Y 4/3) weathered shale bedrock."
+      }
+    ]
+  ]
 }

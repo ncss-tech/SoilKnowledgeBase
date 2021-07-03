@@ -56,5 +56,52 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": null
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "narrative": "A1--0 to 7 inches; very dark brown (10YR 2/2) clay, dark"
+      },
+      {
+        "name": "A2",
+        "top": 18,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "narrative": "A2--7 to 15 inches; very dark grayish brown (10YR 3/2) clay,"
+      },
+      {
+        "name": "Bw",
+        "top": 38,
+        "bottom": 61,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "narrative": "Bw--15 to 24 inches; dark brown (7.5YR 3/4) gravelly clay,"
+      },
+      {
+        "name": "Cr",
+        "top": 61,
+        "narrative": "Cr--24 inches; Saprolitic tuff."
+      }
+    ]
+  ]
 }

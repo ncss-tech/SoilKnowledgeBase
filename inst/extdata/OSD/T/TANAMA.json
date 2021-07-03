@@ -56,5 +56,58 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The classification was updated with the 4/91 draft from Clayey, mixed, isohyperthermic Lithic Tropudalfs to Clayey, mixed, isohyperthermic Lithic Hapludalfs.  The previous OSED date was 11/75.\nDiagnostic horizons and features recognized in this pedon:\nOchric epipedon - zone from 0 to 4 inches (Ap horizon)\nArgillic horizon - zone from 4 to 16 inches (Bt horizons)\nLithic contact - zone at 16 inches (R layer)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 4 inches; dark reddish brown (5YR 3/4) clay; moderate fine and medium granular structure; firm, slightly sticky, plastic; many fine roots; common fine and medium limestone fragments; slightly acid; clear smooth boundary.  (3 to 5 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 10,
+        "bottom": 28,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt1--4 to 11 inches; reddish brown (5YR 4/4) clay; moderate medium subangular blocky structure; firm, slightly sticky, plastic; common fine roots; few faint clay films; slightly acid; abrupt wavy boundary.  (5 to 9 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 28,
+        "bottom": 41,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "narrative": "Bt2--11 to 16 inches; reddish brown (5YR 5/4) clay with reddish brown (5YR 4/4) coatings in exterior of peds; moderate medium subangular blocky structure; firm, slightly sticky, plastic; common fine roots; few faint clay films; slightly acid.  (4 to 6 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 41,
+        "narrative": "R--16 inches; hard limestone."
+      }
+    ]
+  ]
 }

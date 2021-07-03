@@ -56,5 +56,86 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\na.  Ochric epipedon - the zone from 0 to 7 inches (Ap horizon).\nb.  Argillic horizon - the zone from 7 to 57 inches (Bt horizon).\nc.  Vertic properties - high shrink-swell from 7 to 57 inches.\nThe 10/2005 revision updates this soil to the 9th Edition of the Keys to Soil Taxonomy (2003). CEC class and shrink-swell based on NASIS data from Rockingham County, Virginia. Class placement may be revised in the future when laboratory data are reviewed or become available. Competing series, pedon description (including horizon nomenclature and/or descriptive terms), and other sections on the OSD were not revised.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; dark yellowish brown (10YR 4/4) silt loam; moderate medium granular structure; friable; common fine and very fine roots; many fine pores; common worm channels and casts; 2 percent fragments of chert up to 1 inch in diameter; slightly acid; abrupt smooth boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 41,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--7 to 16 inches; strong brown (7.5YR 5/6) clay; moderate medium subangular blocky structure; firm, sticky, plastic; few fine and very fine roots; few fine pores; common distinct clay films on faces of peds; manganese oxide concretions up to 2 mm.; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 41,
+        "bottom": 66,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--16 to 26 inches; strong brown (7.5YR 5/8) clay; moderate medium subangular blocky structure; firm, sticky, plastic; few fine roots; few fine pores; common distinct clay films on faces of peds; 1 percent manganese oxide concretions up to 2 mm. in size; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 66,
+        "bottom": 112,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt3--26 to 44 inches; yellowish brown (10YR 5/8) clay; few fine distinct pale brown (10YR 6/3), strong brown (7.5YR 5/6), and yellowish red (5YR 5/8) mottles; moderate coarse angular blocky structure parting to moderate medium subangular blocky; firm, very sticky, very plastic; few fine roots; few fine pores; common distinct clay films on faces of peds; few slickensides; 3 percent manganese oxide concretions up to 2 mm. and 7 percent manganese stains; neutral; gradual wavy boundary."
+      },
+      {
+        "name": "Bt4",
+        "top": 112,
+        "bottom": 145,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt4--44 to 57 inches; yellowish brown (10YR 5/6) clay; many coarse distinct yellowish red (5YR 5/8), strong brown (7.5YR 5/6), and reddish yellow (5YR 6/8) mottles; moderate coarse subangular blocky structure; firm, sticky, very plastic; common distinct clay films on faces of peds; few slickensides; 5 percent manganese stains; neutral; abrupt wavy boundary.  (Combined thickness of the Bt horizon is 30 to 58 inches thick.)"
+      },
+      {
+        "name": "R",
+        "top": 145,
+        "narrative": "R--57 inches; limestone bedrock."
+      }
+    ]
+  ]
 }

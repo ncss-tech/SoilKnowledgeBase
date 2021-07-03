@@ -56,5 +56,127 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  In the past Valhalla soils have been included with Conetoe soils.  The sandy loam Bt horizon is more significant than the darker colored (2Bhb) sandy horizon beneath it.\nDiagnostic horizons and features recognized in this pedon are:\nArgillic horizon - the zone from 21 to 40 inches.\nSpodic horizons - the zones from 60 to 70 inches and from 75 to 90 inches.\nThe lower sequum (40 to 99 inches) is believed to be a buried soil; therefore, the classification of this soil is based on the upper sequum.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0149 VALHALLA    0-  6   60- 70  210-280  45- 55    10- 100\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0149 NONE          4.0-4.0  APPARENT NOV-MAR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0149  0-21  LFS LS                  0-  0 100-100  2- 8   1-  3\nNC0149  0-21  FS S                    0-  0  95-100  2- 8   1-  3\nNC0149 21-30  FSL SL SCL              0-  0  95-100 10-20   2-  4\nNC0149 30-99  FS S                    0-  0  95-100  2- 8   0-  2\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0149  0-21  3.5- 6.0  .5-1.  0- 0   2.0- 6.0  LOW\nNC0149  0-21  3.5- 6.0  .5-1.  0- 0   2.0- 6.0  LOW\nNC0149 21-30  3.5- 6.0  0.-.5  0- 0   2.0- 6.0  LOW\nNC0149 30-99  3.5- 6.0  0.-.5  0- 0   6.0-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sand",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 10 inches; brown (10YR 5/3) fine sand; weak fine granular structure; very friable; common fine and medium roots; medium acid; abrupt smooth boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 25,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 6,
+        "texture_class": "fine sand",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--10 to 21 inches; yellow (10YR 7/6) fine sand; weak fine granular structure; very friable; few fine roots; many fine dark opaque minerals; medium acid; clear smooth boundary.  (8 to 30 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 53,
+        "bottom": 76,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--21 to 30 inches; strong brown (7.5YR 5/8) fine sandy loam; weak fine subangular blocky structure; friable; sand grains are bridged and coated with clay; many fine dark opaque minerals; strongly acid; gradual wavy boundary.  (7 to 25 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 76,
+        "bottom": 102,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "loamy fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--30 to 40 inches; yellowish brown (10YR 5/8) loamy fine sand; weak fine granular structure; very friable; many fine dark opaque minerals; strongly acid; gradual wavy boundary.  (4 to 12 inches thick)"
+      },
+      {
+        "name": "2Eb1",
+        "top": 102,
+        "bottom": 127,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 8,
+        "texture_class": "fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Eb1--40 to 50 inches; yellow (10YR 7/8) fine sand; single grained; loose; many fine dark opaque minerals; strongly acid; clear wavy boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "2Eb2",
+        "top": 127,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 4,
+        "texture_class": "fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Eb2--50 to 60 inches; very pale brown (10YR 8/4) fine sand; common medium faint yellow (10YR 7/6) mottles; single grained; loose; many fine dark opaque minerals; strongly acid; clear wavy boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "2Bhb",
+        "top": 152,
+        "bottom": 178,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2Bhb--60 to 70 inches; very dark grayish brown (10YR 3/2) fine sand; single grained; loose; sand grains coated with organic matter; very strongly acid; clear smooth boundary.  (4 to 12 inches thick)"
+      },
+      {
+        "name": "2E'b",
+        "top": 178,
+        "bottom": 190,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "narrative": "2E'b--70 to 75 inches; light gray (10YR 6/1) fine sand; single grained; loose; many fine dark opaque minerals; very strongly acid.  (0 to 15 inches thick)"
+      },
+      {
+        "name": "2B'hb",
+        "top": 190,
+        "bottom": 251,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "narrative": "2B'hb--75 to 99 inches; black (10YR 2/1) fine sand; single grained; loose; sand grains coated with organic matter; very strongly acid."
+      }
+    ]
+  ]
 }

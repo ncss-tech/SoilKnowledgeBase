@@ -56,5 +56,78 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features in this pedon include:\nUmbric epipedon - from 1 to 17 inches (A and Bw horizon).\nAndic soil properties - from 1 to 42 inches (A, Bw, and C horizons).\nMedial-skeletal feature - from 1 to 42 inches dominated by andic soil properties and containing 48 percent (wt. average) rock fragments by volume.\nParticle-size control section - from 1 to 41 inches (A, Bw, and 20 inches of C horizon).\nClassification revised 8/2001 from medial-skeletal, ferrihydritic, frigid Alic Fulvudands to medial-skeletal, ferrihydritic, frigid Alic Hapludands.\nDepth to diagnostic horizons and features are measured from the top of the first mineral horizon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; leaves, twigs, decaying wood and moss."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 13,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--1 to 5 inches; dark reddish brown (5YR 3/2) gravelly medial silt loam, brown (7.5YR 5/4) dry; weak very fine subangular blocky structure; slightly hard, friable, nonsticky and nonplastic; weakly smeary; many fine and very fine roots, many very fine irregular pores; 10 percent 2 to 5 millimeter soft concretions; 18 percent basalt gravel; slightly acid; clear smooth boundary. (4 to 17 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 13,
+        "bottom": 43,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--5 to 17 inches; dark reddish brown (5YR 3/3) gravelly medial silt loam, reddish brown (5YR 5/4) dry; moderate very fine subangular blocky structure; slightly hard, friable, nonsticky and nonplastic; weakly smeary; common medium and fine roots; many very fine tubular pores; 10 percent 2 to 5 millimeter soft concretions; 25 percent basalt gravel; moderately acid; gradual wavy boundary. (12 to 19 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 43,
+        "bottom": 107,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "extremely gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--17 to 42 inches; reddish brown (5YR 4/4) extremely gravelly medial silt loam, reddish brown (5YR 5/4) dry; massive; slightly hard, friable, slightly sticky and slightly plastic; weakly smeary; 45 percent basalt gravel, 20 percent basalt cobbles; moderately acid; clear wavy boundary. (18 to 32 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 107,
+        "narrative": "R--42 inches; fractured, slightly weathered basalt."
+      }
+    ]
+  ]
 }

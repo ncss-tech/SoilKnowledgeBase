@@ -56,5 +56,94 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 18 cm (A1, A2, and A3 horizons and part of the Bt horizon).\nArgillic horizon - The zone from 15 to 25 cm (Bt horizon).\nParalithic contact - The boundary at 25 cm to underlying soft, weathered bedrock (Crt layer).\nParticle-size control section - The zone from the soil surface to 25 cm (A1, A2, A3, and Bt horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "coarse sand",
+        "cf_class": "extremely gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A1--0 to 3 cm; brown (10YR 5/3) extremely gravelly coarse sand, very dark brown (10YR 2/2) moist; massive; soft, very friable, nonsticky and nonplastic; few very fine interstitial pores; 50 percent fine gravel, 5 percent cobbles, and 5 percent stones; slightly acid (pH 6.4); abrupt wavy boundary.  (3 to 5 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 3,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--3 to 8 cm; brown (10YR 5/3) gravelly loam, dark brown (7.5YR 3/2) moist; massive; slightly hard, very friable, slightly sticky and slightly plastic; many very fine roots; few very fine and fine vesicular pores; 15 percent gravel; slightly acid (pH 6.4); clear wavy boundary.  (5 to 13 cm thick)"
+      },
+      {
+        "name": "A3",
+        "top": 8,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A3--8 to 15 cm; brown (10YR 5/3) gravelly coarse sandy loam, dark brown (7.5YR 3/2) moist; massive; slightly hard, very friable, slightly sticky and slightly plastic; common very fine roots; few very fine interstitial pores; common faint clay films coating and bridging mineral grains; 15 percent gravel; neutral (pH 7.2); clear wavy boundary.  (0 to 13 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 15,
+        "bottom": 25,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--15 to 25 cm; reddish brown (5YR 4/4) very gravelly sandy clay loam, yellowish red (5YR 4/6) moist; massive; hard, friable, moderately sticky and moderately plastic; common very fine roots; common very fine interstitial pores; few distinct clay films coating and bridging mineral grains and few clay films lining pores; 50 percent gravel; neutral (pH 7.2); abrupt wavy boundary.  (8 to 23 cm thick)"
+      },
+      {
+        "name": "Crt",
+        "top": 25,
+        "texture_class": "clay",
+        "narrative": "Crt--25 cm; weathered granodiorite; fractures and joints are plugged with clay; can be dug with hand tools, but occasionally contains hard masses of rock, which are boulder size."
+      }
+    ]
+  ]
 }

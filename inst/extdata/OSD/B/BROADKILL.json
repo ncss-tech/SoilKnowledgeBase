@@ -56,5 +56,83 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Broadkill soils were formerly mapped as Tidal Marsh miscellaneous areas. They become extremely acid when drained.\nDiagnostic horizons and other diagnostic soil characteristics recognized in this pedon are:\nHemic soil materials--the zone from 0 to 6 inches has a fiber content, after rubbing, that is one-sixth to two-fifths of the soil volume\nOchric epipedon--the zone from the soil surface to a depth of 13 inches (Oe and Ag horizons)\nPeraquic conditions--the zone from the soil surface to a depth of 80 inches is continuously saturated (endosaturation).\nHigh n-value--the zone from the surface to 80 inches has n-value greater than 0.7 typically greater than 1.0.\nSulfidic materials--incubated samples, to a depth of 80 inches, show a drop in pH of 0.5 or more units to a pH value of 4.0 or less within 8 weeks\nSERIES INTERPRETATION RECORDS(S): DE0010\nADDITIONAL DATA: None\nTABULAR SERIES DATA:\nSOI5   Soil Name    Slope  Airtemp FrFr/Seas Precip  Elevation\nDE0010 BROADKILL    0-2    52- 58  175-200   36-55   0-2\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nDE0010 FREQ          +1.0-0.0 APPARENT JAN-DEC  >60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nDE0010  0- 6  MPT PEAT                0-  0    -     0- 0 250-420\nDE0010  0- 6  MK-SIL                  0-  0 100-100 14-18 250-420\nDE0010  0- 6  SICL MK-SICL SIC        0-  0 100-100 30-40 250-580\nDE0010  6-38  SIL SICL                0-  0 100-100 25-35 130-260\nDE0010 38-72  SR SICL S               0-  0  75-100  5-30  20-200\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nDE0010  0- 6  6.1- 7.8  20-40 16-32   2.0-  20  LOW\nDE0010  0- 6  6.1- 7.8  5.-15 16-32   0.6- 2.0  LOW\nDE0010  0- 6  6.1- 7.8  3.-18 16-32   0.2- 2.0  MODERATE\nDE0010  6-38  6.1- 7.8  2.-10 16-32   0.2- 2.0  MODERATE\nDE0010 38-72  6.1- 7.8  .5-20 16-32   0.2-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "pH": 6.6,
+        "pH_class": "ultra acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oe--0 to 6 inches; very dark grayish brown (2.5Y 3/2) mucky peat (hemic soil materials); 60 percent herbaceous fibers, 25 percent rubbed; 34 percent organic material; many very fine, fine, and medium and common coarse roots (70 percent of volume is a dense mat of live roots and stems); electrical conductivity 26.2 mmhos/cm; neutral (pH 6.6), ultra acid (pH 2.9) after moist incubation; clear smooth boundary. (0 to 7 inches thick)."
+      },
+      {
+        "name": "Ag",
+        "top": 15,
+        "bottom": 33,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH": 6.8,
+        "pH_class": "ultra acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Ag--6 to 13 inches; dark gray (5Y 4/1) and very dark gray (5Y 3/1) silty clay loam; massive; friable; slightly sticky, slightly plastic; many fine or medium and common coarse roots; electrical conductivity 27.3 mmhos/cm; n-value greater than 1.0, material flows easily between the fingers when squeezed; neutral (pH 6.8), ultra acid (pH 3.4) after moist incubation; gradual smooth boundary. (0 to 12 inches thick)"
+      },
+      {
+        "name": "Cg1",
+        "top": 33,
+        "bottom": 81,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH": 6.8,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Cg1--13 to 32 inches; dark gray (5Y 4/1) and dark olive gray (5Y 3/2) silty clay loam; massive; friable; slightly sticky, slightly plastic; common very fine and fine and few medium roots; electrical conductivity 26.7 mmhos/cm; n-value greater than 1.0, material flows easily between the fingers when squeezed; neutral (pH 6.8), extremely acid (pH 4.3) after moist incubation; clear smooth boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 81,
+        "bottom": 97,
+        "moist_hue": "5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 6.6,
+        "pH_class": "strongly acid",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "Cg2--32 to 38 inches; dark olive gray (5Y 3/2) silt loam; massive; friable; slightly sticky, slightly plastic; common fine and few medium roots; electrical conductivity 29.5 mmhos/cm; n-value greater than 1.0, material flows easily between the fingers when squeezed; neutral (pH 6.6), strongly acid (pH 5.2) after moist incubation; diffuse smooth boundary."
+      },
+      {
+        "name": "Cg3",
+        "top": 97,
+        "bottom": 203,
+        "moist_hue": "5Y",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH": 6.7,
+        "pH_class": "moderately acid",
+        "narrative": "Cg3--38 to 80 inches; very dark gray (5Y 3/1) silt loam; massive; friable; slightly sticky, slightly plastic; few fine and medium roots; electrical conductivity 32.7 mmhos/cm; n-value greater than 1.0, material flows easily between the fingers when squeezed; neutral (pH 6.7), moderately acid (pH 5.6) after moist incubation."
+      }
+    ]
+  ]
 }

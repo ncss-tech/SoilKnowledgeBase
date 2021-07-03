@@ -56,5 +56,62 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon: 0 to 56 centimeters (0 to 22 inches)(A horizon)\nGravelly substratum phase recognized\nKeys to soil Taxonomy: Eleventh edition, 2010\nModified format by LRM in 10/2006 to include metric conversion and change permeability to saturated hydraulic conductivity.\n7/2011 JLG\nAdded soil moisture regime, soil temperature regime, mean annual soil temperature, particle size clay and sand content , depth to redoximorphic features in RIC. Added clay and sand content and reaction to horizon data in RIC. Updated competing series, changed mean annual air temperature to 10 to 13 degrees C from 11 to 14 degrees C, and added frost free days based on climate data. Updated geographically associated soils. Changed precipitation values from centimeters to millimeters.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 56 centimeters (0 to 22 inches); dark grayish brown (10YR 4/2) clay loam, very dark grayish brown (10YR 3/2) moist; moderate medium granular structure; slightly hard, friable; few fine roots; many worm casts; slight effervescence; moderately alkaline; gradual smooth boundary.  (51 to 76 centimeters (20 to 30 inches) thick)"
+      },
+      {
+        "name": "AC",
+        "top": 56,
+        "bottom": 76,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "AC--56 to 76 centimeters (22 to 30 inches); grayish brown (10YR 5/2) clay loam, very dark grayish brown (10YR 3/2) moist; weak fine subangular blocky structure; slightly hard, friable; thin strata of slightly less clayey layers; slight effervescence; moderately alkaline; gradual smooth boundary.  (0 to 46 centimeters (0 to 18 inches) thick)"
+      },
+      {
+        "name": "C",
+        "top": 76,
+        "bottom": 200,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "C--76 to 200 centimeters (30 to 79 inches); light brownish gray (10YR 6/2) clay loam, dark grayish brown (10YR 4/2) moist; massive; slightly hard, friable; thin strata of more clayey and less clayey layers; slight effervescence; moderately alkaline."
+      }
+    ]
+  ]
 }

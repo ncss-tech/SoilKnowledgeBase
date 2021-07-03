@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 43 cm (A1 and A2 horizons).\nVitrandic intergrade feature - The zone from the soil surface to 43 cm (A1 and A2 horizons).\nArgillic horizon - The zone from 43 to 107 cm (2Bt1 and 2Bt2 horizons).\nLithic contact - The boundary at 107 cm (2R layer).\nParticle-size control section - The zone from 43 to 93 cm (2Bt1 horizon and part of the 2Bt2 horizon).\nADDITIONAL DATA: During MLRA updates samples of the A and Bt horizons should be checked for volcanic ash and glass. Soils mapped with the Tusel series with volcanic and conglomerate parent material should be checked for glass in the argillic and probably correlated to another series.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A1--0 to 23 cm; dark grayish brown (10YR 4/2) very gravelly ashy loam, very dark grayish brown (10YR 3/2) moist; strong very fine and fine granular structure; soft, very friable, nonsticky and nonplastic; common very fine, fine and medium roots; many very fine interstitial pores; 40 percent gravel; neutral (pH 6.6); gradual wavy boundary.  (5 to 25 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 23,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--23 to 43 cm; dark grayish brown (10YR 4/2) very gravelly ashy loam, dark brown (10YR 3/3) moist; weak medium subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; many very fine and fine, and few medium roots; many very fine interstitial, and common fine tubular pores; 35 percent gravel; neutral (pH 6.7); clear wavy boundary.  (18 to 38 cm thick)"
+      },
+      {
+        "name": "2Bt1",
+        "top": 43,
+        "bottom": 69,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "extremely gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bt1--43 to 69 cm; brown (10YR 5/3) extremely gravelly clay loam, dark yellowish brown (10YR 4/4) moist; weak medium subangular blocky structure; slightly hard, friable, moderately sticky and moderately plastic; few very fine, fine, and medium roots; many very fine interstitial, and few very fine and fine tubular pores; few faint clay films lining pores and on faces of peds; 55 percent gravel and 20 percent cobbles; neutral (pH 7.0); clear wavy boundary.  (0 to 30 cm thick)"
+      },
+      {
+        "name": "2Bt2",
+        "top": 69,
+        "bottom": 107,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "extremely gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "2Bt2--69 to 107 cm; pale brown (10YR 6/3) extremely gravelly sandy clay loam, yellowish brown (10YR 5/4) moist; moderate fine subangular blocky structure; hard, friable, moderately sticky and moderately plastic; few very fine, fine, and medium roots; many very fine interstitial, and few very fine and fine tubular pores; few distinct clay films lining pores and on faces of peds; 55 percent gravel and 20 percent cobbles; neutral (pH 7.0); abrupt irregular boundary.  (30 to more than 64 cm thick)"
+      },
+      {
+        "name": "2R",
+        "top": 107,
+        "narrative": "2R--107 cm; quartzite."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,117 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  1.  These soils have been included with the Orange series in the past.\n2.  Diagnostic horizons and features recognized in this pedon are:\na.  Ochric epipedon - the zone from 0 to 12 inches (the A, E, and BE horizons).\nb.  Argillic horizon - the zone from 12 to 30 inches (the Bt horizon).\nc.  Albaquic feature - there is an abrupt texture change between the eluvial horizon (E) and the argillic horizon (Bt1) and there are low chroma mottles in the upper 10 inches of the argillic horizon.\nADDITIONAL DATA:  Partial size, chemical, and clay mineralogy data is available from the site location by Virginia Polytechnic Institute and State University.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0220 TRENHOLM    0- 15   59- 62  180-240  40- 45   250- 900\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0220 NONE          1.0-3.0  PERCHED  DEC-MAY  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0220  0- 9  FSL SL                  0-  0  80- 95  8-18    -\nVA0220  9-12  SL CL SCL               0-  0  80- 90 12-35    -\nVA0220 12-30  C SC                    0-  0  85- 95 35-60    -\nVA0220 30-36  CL SCL C                0-  0  85- 95 20-40    -\nVA0220 36-62  SL FSL SCL              0-  2  85- 90 12-25    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0220  0- 9  4.5- 5.5  .5-2.  0- 0   2.0- 6.0  LOW\nVA0220  9-12  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  LOW\nVA0220 12-30  4.5- 6.0  0.-.5  0- 0  0.00-0.06  HIGH\nVA0220 30-36  4.5- 6.5  0.-.5  0- 0   0.2- 0.6  MODERATE\nVA0220 36-62  4.5- 6.5  0.-.5  0- 0   0.2- 0.6  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--O to 2 inches; very dark gray (10YR 3/1) sandy loam; weak medium granular structure; very friable, nonsticky, nonplastic; many fine medium and common coarse roots; 3 percent fine quartz gravel; strongly acid; clear smooth boundary.  (2 to 5 inches thick)."
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--2 to 9 inches; yellowish brown (10YR 5/4) sandy loam; moderate coarse granular structure; very friable, nonsticky, nonplastic; common fine medium and coarse roots; 2 percent fine quartz gravel; few manganese concretions; strongly acid; clear smooth boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 23,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "BE--9 to 12 inches; mottled yellowish brown (10YR 5/6), pale brown (10YR 6/3), and light brownish gray (2.5Y 6/2) sandy loam; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; common fine medium and coarse roots; 2 percent fine quartz gravel; few manganese concretions; strongly acid; abrupt wavy boundary.  (0 to 3 inches thick)"
+      },
+      {
+        "name": "Btl",
+        "top": 30,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btl--12 to 20 inches; yellowish brown (10YR 5/6) clay; common distinct light brownish gray (2.5Y 6/2) mottles and few distinct yellowish red (5YR 5/6) mottles; moderate coarse subangular blocky structure; very firm, very sticky, very plastic; few medium and coarse roots; many distinct clay films on faces of peds; few slickensides; strongly acid; 2 percent fine quartz gravel; few coarse grains of feldspar; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 51,
+        "bottom": 76,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--20 to 30 inches light olive brown (2.5Y 5/4) clay; few fine distinct pale brown (10YR 6/3) and light brownish gray (2.5Y 6/2) mottles; moderate coarse subangular blocky structure; very firm, very sticky, very plastic; few medium and coarse roots; many distinct clay films on faces of peds; few slickensides; 2 percent fine angular quartz gravel; few coarse grains of feldspar; strongly acid; gradual wavy boundary.  (Combined thickness of the Bt horizon is 13 to 26 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 76,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--30 to 36 inches; yellowish brown (10YR 5/8) sandy clay loam; common fine distinct pale yellow (5Y 7/3) and reddish yellow (7.5YR 6/8) mottles; moderate coarse subangular blocky structure; friable, slightly sticky, nonplastic; few medium and coarse roots; few faint clay films on faces of peds; few coarse grains of feldspar; 2 percent weather hornblende gneiss fragments; very strongly acid; gradual wavy boundary.  (0 to 12 inches thick.)"
+      },
+      {
+        "name": "Cl",
+        "top": 91,
+        "bottom": 114,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Cl--36 to 45 inches; yellowish brown (10YR 5/8) sandy loam; massive; friable, slightly sticky, nonplastic; common fine roots along rock structure faces; few faint clay films on horizontal rock structure faces; coarse grains of feldspar; common streaks, specks, and patches of green, black, and white hornblende gneiss; very strongly acid; gradual wavy boundary. (6 to 18 inches thick.)"
+      },
+      {
+        "name": "C2",
+        "top": 114,
+        "bottom": 157,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "narrative": "C2--45 to 62 inches; yellowish brown (10YR 5/8) sandy loam; massive; very friable; slightly sticky, nonplastic; few fine and medium roots; common coarse grains of feldspar; few highly weathered fragments of hornblende gneiss; strongly acid."
+      }
+    ]
+  ]
 }

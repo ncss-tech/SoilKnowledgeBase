@@ -56,5 +56,77 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - from 0 to 12 cm (A horizon)\nArgillic horizon - from 12 to 56 cm (Bt1 and Bt2 horizons)\nLithic contact - at 56 cm (R horizon)\nParticle-size control section - from 12 to 56 cm (Bt1 and Bt2 horizons)\nSignalhill soils have a mesic temperature regime and an ustic moisture regime bordering on aridic.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 12,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 12 cm; dark grayish brown (10YR 4/2) gravelly fine sandy loam, very dark grayish brown (10YR 3/2) moist; weak fine granular structure; soft, very friable, slightly sticky and slightly plastic; many very fine, fine, medium, and coarse roots; 15 percent gravel and 10 percent cobbles; neutral (pH 7.2); clear wavy boundary. (5 to 13 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 12,
+        "bottom": 32,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--12 to 32 cm; brown (7.5YR 5/3) very gravelly sandy clay loam, brown (7.5YR 4/3) moist; weak coarse subangular blocky structure parting to weak fine and medium subangular blocky; slightly hard, friable, moderately sticky and moderately plastic; many fine and very fine, and common medium and coarse roots; few fine dendritic tubular pores; 65 percent distinct clay films on all ped faces; 25 percent gravel and 12 percent cobbles; neutral (pH 7.0); clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 32,
+        "bottom": 56,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--32 to 56 cm; reddish brown (5YR 5/4) very gravelly sandy clay loam, reddish brown (5YR 4/4) moist; weak medium and coarse subangular blocky structure; hard, friable, moderately sticky and moderately plastic; common very fine, fine, medium and coarse roots; 55 percent distinct clay films on all ped faces; 35 percent gravel and 15 percent cobbles; slightly alkaline (pH 7.6); clear wavy boundary. (Combined thickness of Bt horizons is 46 to 78 cm)"
+      },
+      {
+        "name": "R",
+        "top": 56,
+        "bottom": 152,
+        "texture_class": "sand",
+        "narrative": "R--56 to 152 cm; hard sandstone bedrock."
+      }
+    ]
+  ]
 }

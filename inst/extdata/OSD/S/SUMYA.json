@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 18 cm (A1,  A2 and part of the C horizons).\nLithic contact - The boundary at 23 cm (2R layer).\nXeric feature - Aridic soil moisture regime bordering on xeric.\nParticle-size control section - The zone from the soil surface to 23 cm (A1, A2 and C horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 5 cm; pale brown (10YR 6/3) very cobbly clay loam, dark brown (10YR 3/3) moist; moderate very thin platy structure; slightly hard, friable, moderately sticky and moderately plastic; common very fine and fine roots; many fine and very fine vesicular pores; 20 percent gravel, 15 percent cobbles and 3 percent stones; neutral (pH 7.2); clear smooth boundary. (3 to 13 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--5 to 10 cm; pale brown (10YR 6/3) very gravelly clay loam, dark brown (10YR 3/3) moist; moderate very thin platy structure; slightly hard, friable, moderately sticky and moderately plastic; common very fine and fine, few coarse roots; common fine tubular pores; 35 percent gravel and 5 percent cobbles; neutral (pH 7.2); clear smooth boundary. (5 to 13 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 10,
+        "bottom": 23,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C--10 to 23 cm; light brown (7.5YR 6/4) very gravelly clay loam,  brown (7.5YR 4/4) moist; massive; slightly hard, firm, moderately sticky and moderately plastic; common very fine, few fine through coarse roots; common fine tubular pores; 35 percent gravel and 5 percent cobbles; slightly alkaline (pH 7.4); abrupt smooth boundary. (10 to 20 thick)"
+      },
+      {
+        "name": "2R",
+        "top": 23,
+        "narrative": "2R--23 cm; andesite."
+      }
+    ]
+  ]
 }

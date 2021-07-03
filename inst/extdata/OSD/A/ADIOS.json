@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this soil are:\nMollic epipedon - the zone from the surface of the soil to a depth of\napproximately 8 inches (A1, A2, and Bt1 horizons)\nArgillic horizon - the zone from approximately 5 to 23 inches (Bt1,\nBt2, Bt3, and Btk horizons)\nDuripan - the zone from approximately 23 to 27 inches (Bqkm horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "stony",
+        "narrative": "A1--0 to 2 inches; brown (10YR 5/3) stony loam, dark brown (10YR"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "stony",
+        "narrative": "A2--2 to 5 inches; brown (10YR 5/3) stony loam, dark brown (10YR"
+      },
+      {
+        "name": "Bt1",
+        "top": 13,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "narrative": "Bt1--5 to 8 inches; yellowish brown (10YR 5/4) clay loam, dark"
+      },
+      {
+        "name": "Bt2",
+        "top": 20,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "narrative": "Bt2--8 to 16 inches; yellowish brown (10YR 5/4) clay, dark"
+      },
+      {
+        "name": "Bt3",
+        "top": 41,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "narrative": "Bt3--16 to 20 inches; light yellowish brown (10YR 6/4) clay,"
+      },
+      {
+        "name": "Btk",
+        "top": 51,
+        "bottom": 58,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "narrative": "Btk--20 to 23 inches; very pale brown (10YR 7/4) clay loam, light"
+      },
+      {
+        "name": "Bqkm",
+        "top": 58,
+        "bottom": 69,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 2,
+        "narrative": "Bqkm--23 to 27 inches; white (10YR 8/2) indurated duripan, pale"
+      },
+      {
+        "name": "R",
+        "top": 69,
+        "narrative": "R--27 inches; fractured rhyolite with silica and calcium carbonate"
+      }
+    ]
+  ]
 }

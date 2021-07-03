@@ -56,5 +56,74 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to 8 inches (A horizon)\nLithic contact - the boundary at about 18 inches (R horizon)\nParticle-size control section - the zone from 10 to 18 inches (part of the BC horizon and the C horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very stony",
+        "pH": 7.8,
+        "pH_class": "mildly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 8 inches; pale brown (10YR 6/3) very stony loam, dark grayish brown (10YR 4/2) moist; weak fine and medium subangular blocky structure parting to weak fine granular; slightly hard, friable, and slightly plastic; many fine and few medium and large roots; many fine and medium interstitial pores; very strongly calcareous; mildly alkaline (pH 7.8); clear wavy boundary.  (3 to 9 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 20,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH": 7.6,
+        "pH_class": "mildly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--8 to 13 inches; brown (10YR 5/3) cobbly loam, dark brown (10YR 4/3) moist; weak fine and medium subangular blocky structure parting to weak fine granular; slightly hard, friable, and slightly plastic; many fine and few medium roots; many fine pores; very strongly calcareous; mildly alkaline (pH 7.6); gradual wavy boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 33,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 7.7,
+        "pH_class": "mildly alkaline",
+        "narrative": "C--13 to 18 inches; pale brown (10YR 6/3) very cobbly loam, brown (10YR 5/3) moist; massive; slightly hard, friable, and slightly plastic; many fine and few medium roots; very strongly calcareous; mildly alkaline (pH 7.7)."
+      },
+      {
+        "name": "R",
+        "top": 46,
+        "bottom": 51,
+        "narrative": "R--18 to 20 inches; fractured limestone bedrock."
+      }
+    ]
+  ]
 }

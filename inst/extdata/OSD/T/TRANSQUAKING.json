@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Transquaking soil were previously mapped as Tidal Marsh miscellaneous area. These soils become ultra acid when drained.\nDiagnostic horizons and other diagnostic soil characteristics recognized in this pedon are:\nFibric material--the zone from 0 to 9 inches has a fiber content after rubbing that is three-fourths or more of the soil volume (Oi horizon)\nHemic material--the zone from 9 to 46 inches has a fiber content after rubbing that is between one-third and three-forths of the soil volume (Oe horizons)\nSapric material--the zone from 46 to 65 inches has a fiber content after rubbing that is less than one-sixth of the soil volume (Oa horizon)\nAquic conditions--the zone from the soil surface to a depth of 80 inches is continuously saturated (endosaturation).\nSulfidic materials--incubated samples, to a depth of 80 inches, show a drop in pH of 0.5 or more units to a pH value of 4.0 or less within 8 weeks\nHigh n-value--the zone from 65 to 80 inches has an n-value greater than 1.0, the material flows easily between the fingers (Cg horizon)\nADDITIONAL DATA: Refer to publication \"Tidal Marsh Soils of Maryland\", Darmody, R.G. and Foss, J.E., Maryland Agricultural Experiment Station Publication MP 930, October 1978.\nTABULAR SERIES DATA:\nSOI-5  Soil Name    Slope  Airtemp FrFr/Seas Precip  Elevation\nMD0137 TRANSQUAKING 0-  1   54- 58  190-210  42- 48     0-   1\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nMD0137 FREQ            0-  0  APPARENT JAN-DEC  >60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nMD0137  0- 9  PEAT MPT                0-  0    -     0- 0  40- 90\nMD0137  9-46  MPT MUCK                0-  0    -     0- 0  80-100\nMD0137 46-65  MUCK MPT                0-  0    -     0- 0  20- 70\nMD0137 65-80  SIC SICL                0-  0 100-100 30-40  20- 40\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nMD0137  0- 9  6.1- 7.3  30-80  8-32   2.0-  20  LOW\nMD0137  9-46  6.1- 7.3  60-80  8-32   2.0-  20  LOW\nMD0137 46-65  6.1- 7.3  25-80  8-32   2.0-  20  LOW\nMD0137 65-80  6.1- 7.3  .5-20  8-32  0.06- 0.2  MODERATE\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 9 inches; very dark brown (10YR 2/2) peat (fibric soil material); fiber content is three-fourths of the soil volume after rubbing; 50 percent, by weight, mineral soil material; many fine, medium, and coarse live roots; neutral; gradual smooth boundary. (0 to 12 inches thick)"
+      },
+      {
+        "name": "Oe1",
+        "top": 23,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oe1--9 to 22 inches; black (10YR 2/1) mucky peat (hemic soil material); fiber content is about one-third of the soil volume after rubbing; 30 percent, by weight, mineral soil material; common fine and medium live roots; neutral; clear smooth boundary."
+      },
+      {
+        "name": "Oe2",
+        "top": 56,
+        "bottom": 117,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oe2--22 to 46 inches; very dark gray (10YR 3/1) mucky peat (hemic soil material); fiber content is about one-forth of the soil volume after rubbing; 30 percent, by weight, mineral soil material; neutral; clear smooth boundary. (Combined thickness of the Oe horizon is 12 to 51 inches)"
+      },
+      {
+        "name": "Oa",
+        "top": 117,
+        "bottom": 165,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Oa--46 to 65 inches; very dark gray (10YR 3/1) muck (sapric soil material); fiber content is one-tenth of the soil volume after rubbing; 40 percent, by weight, mineral soil material; neutral; gradual smooth boundary. (0 to 13 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 165,
+        "bottom": 203,
+        "moist_hue": "5Y",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "neutral",
+        "narrative": "Cg--65 to 80 inches; very dark gray (5Y 3/1) silty clay; massive; friable; sticky, plastic; n value greater than 1.0, material flows easily between the fingers when squeezed; 10 percent organic matter; neutral."
+      }
+    ]
+  ]
 }

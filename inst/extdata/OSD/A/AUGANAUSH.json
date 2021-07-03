@@ -56,5 +56,98 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:   Diagnostic horizons and features recognized in this pedon are:  ochric epipedon - the zone from the surface to a depth of 9 inches (A and E horizon); albic horizon - the zone from 4 to 9 inches (E horizon); abrupt textural change at the contact of the albic and argillic (fine sandy loam to clay); argillic horizon - the zone from 9 to 25 inches (Btg horizons); aquic moisture regime based on the low chroma and mottles below the A horizon.\nThis soil could be challenged for a Vertic Albaqualf.  Representative values for textures and clay content were used for correlation.\nADDITIONAL DATA:  Refer to MAES Central File Code number 4328 for lab results of the typical pedon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; black (10YR 2/1) loam; very dark gray (10YR 3/1) dry; weak fine granular structure; friable; many fine roots; 2 percent gravel; neutral; abrupt smooth boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 23,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--4 to 9 inches; light brownish gray (2.5Y 6/2) fine sandy loam; light gray (2.5Y 7/2) dry; moderate fine subangular blocky structure; very friable; few fine prominent olive yellow (2.5Y 6/6) Fe concentrations; many fine roots; 2 percent gravel; neutral; clear smooth boundary.  (1 to 8 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 23,
+        "bottom": 46,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btg1--9 to 18 inches; olive gray (5Y 4/2) clay; weak medium prismatic structure parting to moderate medium angular blocky; firm; common medium roots; many faint dark olive gray (5Y 3/2) clay films on faces of peds and in pores; 2 percent gravel;  common medium prominent light olive brown (2.5Y 5/6) Fe concentrations; neutral; clear smooth boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 46,
+        "bottom": 64,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btg2--18 to 25 inches; olive gray (5Y 4/2) clay; strong medium angular blocky structure; very firm; many medium roots; many faint dark olive gray (5Y 3/2) clay films on faces of peds and in pores; 2 percent gravel; common medium prominent light olive brown (2.5Y 5/6) Fe concentrations; neutral; clear wavy boundary.  (Combined thickness of the Btg horizons is 6 to 30 inches)"
+      },
+      {
+        "name": "Btkg",
+        "top": 64,
+        "bottom": 81,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btkg--25 to 32 inches; olive gray (5Y 5/2) clay loam; weak medium subangular blocky structure; firm; many medium roots; few faint dark olive gray (5Y 3/2) clay films in old root channels; common medium irregularly shaped carbonates in seams and masses; 4 percent gravel; common medium prominent yellowish brown (10YR 5/6) and olive yellow (5Y 6/6) Fe concentrations; slightly effervescent; slightly alkaline; gradual wavy boundary.  (0 to 15 inches thick)"
+      },
+      {
+        "name": "BCkg",
+        "top": 81,
+        "bottom": 152,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "BCkg--32 to 60 inches; light olive gray (5Y 6/2) clay loam; weak medium subangular blocky structure; firm; common medium irregularly shaped carbonates in seams and masses; 6 percent gravel; common medium prominent yellowish brown (10YR 5/6) and olive yellow (5Y 6/6) Fe concentrations;  strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon:  the zone from 0 to 9 inches (A and Bk horizons)\nCalcic horizon: the zone from 2 to 9 inches (Bk horizon)\nLithic contact: the boundary at 9 inches (R horizon)\nClassified according to Soil Taxonomy Second Edition, 1999; Keys to Soil Taxonomy, Twelfth Edition, 2014.\nThese soils were formerly included in the Altuda series.  The epipedon meets all requirements for a mollic epipedon except the soil is not moist for 3 months or more (cumulative) during the growing season.\nUpdate and revisions for the Recorrelation of Brewster County, Texas, Main Part, 2/7/08, CEM.\nRevised for the correlation of Big Bend National Park, TX, Oct. 2010, CEM\nRevised for the correlation of Hudspeth County, Texas (Main Part) and Culberson County, Texas (Main Part); July, 2012, NMS\nRevised for the correlation of Black Hills-Sedona, AZ, August 2012, CEM\nRevised for the correlation of Presidio County, Texas ; Oct, 2012, WWJ\nRevised for the correlation of White Sands Missile Range, New Mexico; October, 2014, NMS\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 2 inches; grayish brown (10YR 5/2) very gravelly loam; very dark grayish brown (10YR 3/2) moist; weak medium granular structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine and fine roots, few medium roots; common prominent discontinuous calcium carbonate coatings on rock fragments; 35 percent limestone gravel; strongly effervescent; moderately alkaline; clear wavy boundary (1 to 5 inches thick)."
+      },
+      {
+        "name": "Bk",
+        "top": 5,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bk--2 to 9 inches; grayish brown (10YR 5/2) very gravelly loam; very dark grayish brown (10YR 3/2) moist; weak medium granular structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine and fine roots; many prominent continuous calcium carbonate coatings on rock fragments; 45 percent limestone gravel; strongly effervescent; moderately alkaline; abrupt wavy boundary (6 to 14 inches thick)."
+      },
+      {
+        "name": "R",
+        "top": 23,
+        "bottom": 152,
+        "narrative": "R--9 to 60 inches; hard, tightly fractured limestone bedrock."
+      }
+    ]
+  ]
 }

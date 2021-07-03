@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nParticle-size control section:  the zone from 36 to 86 cm (BAt, Btk1 and upper Btk2 horizons).\nMollic epipedon:  from 0 to 79 cm (A, BAt, and Btk1 horizons).\nArgillic horizon:  from 36 to 104 cm (BAt and Btk horizons).\nSecondary carbonate accumulation:  from 56 to 104 cm (Btk horizons).\n(Carbonates do not meet the requirements for a calcic horizon)\nParalithic contact:  soft fractured, interbedded sandstone and shale at 104 cm (Cr horizon)\nTaxonomic Version:  Classified according to Keys to Soil Taxonomy, 12th Edition, 2014.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 36,
+        "dry_hue": "7.5YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 36 cm; dark brown (7.5YR 3/2) loam, black (7.5YR 2.5/1) moist; weak medium subangular blocky structure that parts to moderate fine and very fine granular; soft, very friable, slightly sticky and nonplastic; many very fine and few fine, medium and coarse roots; many very fine and common fine pores; 5 percent gravel and 5 percent flagstones; slightly alkaline (pH 7.6); clear wavy boundary.  (18 to 36 cm thick)"
+      },
+      {
+        "name": "BAt",
+        "top": 36,
+        "bottom": 56,
+        "dry_hue": "7.5YR",
+        "dry_value": 3,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BAt--36 to 56 cm; dark brown (7.5YR 3/3) loam, very dark brown (7.5YR 2.5/2) moist; moderate medium subangular blocky structure that parts to moderate fine and very fine granular; slightly hard, friable, slightly sticky and slightly plastic; many very fine and few fine, medium and coarse roots; many very fine and few fine pores; 5 percent gravel and 5 percent flagstones; few thin patchy clay films on faces of peds; slightly alkaline (pH 7.6); clear wavy boundary.  (20 to 33 cm thick)"
+      },
+      {
+        "name": "Btk1",
+        "top": 56,
+        "bottom": 79,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "flaggy",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btk1--56 to 79 cm; brown (7.5YR 4/3) flaggy loam, dark brown (7.5YR 3/3) moist; moderate medium subangular blocky structure that parts to moderate fine and very fine granular; hard, friable, slightly sticky and slightly plastic; common very fine and few fine and medium roots; common very fine pores; 5 percent gravel and 20 percent flagstones; few continuous fine clay films on faces of peds; few fine soft irregular calcium carbonate masses in the matrix and few thin (1-2mm thick) calcium carbonate coats on the bottom of rock fragments; slightly effervescent, slightly alkaline (pH 7.6), gradual wavy boundary."
+      },
+      {
+        "name": "Btk2",
+        "top": 79,
+        "bottom": 104,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "flaggy",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btk2--79 to 104 cm; brown (7.5YR 5/3) flaggy loam, brown (7.5YR 4/3) moist; weak fine and medium subangular blocky structure; hard, friable, slightly sticky and slightly plastic; few very fine roots; few very fine pores; 5 percent gravel and 20 percent flagstones; few continuous fine clay films on faces of peds; few fine soft irregular calcium carbonate masses in the matrix and few thin (1-2mm thick) calcium carbonate coats on the bottom of rock fragments;  strongly effervescent, moderately alkaline (pH 8.0); gradual wavy boundary.  (Btk horizons 48 to 61 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 104,
+        "texture_class": "sand",
+        "narrative": "Cr--104 cm; interbedded soft fractured shale and fine-grained sandstone bedrock."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon include:\n1. Ochric epipedon - the zone from 0 to 10 cm (Oe and A horizons).\n2. Cambic horizon - the zone from 10 to 69 cm (Bw1, Bw2, and Bw3 horizons).\n3. Particle-size class - coarse-loamy in the control section from 29 to 109 cm.\nADDITIONAL DATA: M.S. Thesis work by Shawn McVey, University of Connecticut, 2006. Full characterization data for sample numbers S1999NY005001 and S1999CT013003. Pedons analyzed by the KSSL, Lincoln, NE.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 4,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "narrative": "Oe -- 0 to 4 cm; black (10YR 2/1) moderately decomposed forest plant material. (0 to 5 cm thick.)"
+      },
+      {
+        "name": "A",
+        "top": 4,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A -- 4 to 10 cm; dark brown (10YR 3/3) fine sandy loam; weak fine granular structure; very friable; many fine roots; 5 percent gravel; very strongly acid; abrupt smooth boundary. (2 to 15 cm thick.)"
+      },
+      {
+        "name": "Bw1",
+        "top": 10,
+        "bottom": 18,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1 -- 10 to 18 cm; brown (7.5YR 4/4) fine sandy loam; weak coarse granular structure; very friable; many fine and medium roots; 5 percent gravel; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 18,
+        "bottom": 48,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2 -- 18 to 48 cm; yellowish brown (10YR 5/6) fine sandy loam; weak medium subangular blocky structure; very friable; common fine and medium roots; 10 percent gravel and cobbles; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw3",
+        "top": 48,
+        "bottom": 69,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw3 -- 48 to 69 cm; light olive brown (2.5Y 5/4) gravelly fine sandy loam; massive; very friable; few medium roots; 15 percent gravel and cobbles; very strongly acid; abrupt wavy boundary. (Combined thickness of the Bw horizons is 35 to 91 cm.)"
+      },
+      {
+        "name": "C",
+        "top": 69,
+        "bottom": 165,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "narrative": "C -- 69 to 165 cm; grayish brown (2.5Y 5/2) gravelly fine sandy loam with thin lenses of loamy sand; massive; friable, some lenses firm; few medium roots; 25 percent gravel and cobbles; strongly acid."
+      }
+    ]
+  ]
 }

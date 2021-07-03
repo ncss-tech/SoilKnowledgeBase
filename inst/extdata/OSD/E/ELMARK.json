@@ -56,5 +56,107 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soil interpretation record: MT1526, MT3003, MT3027. Diagnostic horizons and features recognized in this pedon are:  a layer of partially decomposed needles, leaves, and twigs from 2 to 0 inches (Oi horizon); an ochric epipedon from the soil surface to 7 inches, mixed (A, E horizons); an argillic horizon from 7 to 19 inches (Bt horizon); a particle-size control section from 7 to 19 inches (Bt horizon); a layer of decomposed granite bedrock (grus) between 30 and 57 inches (Cr horizon); hard granite bedrock at 57 inches (R horizon). Elmark soils have a frigid temperature regime and an ustic moisture regime.\nClassification changed from Eutroboralfs in 1997.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 5,
+        "bottom": 0,
+        "narrative": "Oi--2 to 0 inches; partially decomposed needles, twigs, and leaves. (1/2 to 2 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; dark grayish brown (10YR 4/2) sandy clay loam, very dark grayish brown (10YR 3/2) moist; weak medium and fine subangular blocky structure parting to weak fine and very fine granular; soft, very friable, slightly sticky and slightly plastic; many very fine, few fine and few medium roots; many very fine and fine, and few medium pores; 5 percent pebbles; neutral (pH 7.0); clear smooth boundary. (0 to 5 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 18,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--3 to 7 inches; light brownish gray (2.5Y 6/2) sandy clay loam, dark grayish brown (2.5Y 4/2) moist; weak medium and fine subangular blocky structure parting to weak fine and very fine granular; soft, very friable, slightly sticky and slightly plastic; many very fine, few fine and few medium roots; many very fine and few fine tubular and interstitial pores; 5 percent pebbles; slightly acid (pH 6.2); clear wavy boundary. (2 to 8 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 18,
+        "bottom": 48,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--7 to 19 inches; light yellowish brown (2.5Y 6/4) gravelly sandy clay loam, olive brown (2.5Y 4/4) moist; weak medium prismatic structure parting to moderate medium and fine subangular blocky; slightly hard, friable, sticky and slightly plastic; many very fine, few fine and few medium roots; many very fine and few fine tubular and interstitial pores; many faint clay films bridging sand grains and ped faces; 20 percent pebbles; slightly acid (pH 6.2); gradual wavy boundary. (7 to 23 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 48,
+        "bottom": 76,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "BC--19 to 30 inches; light olive brown (2.5Y 5/4) gravelly sandy loam, dark grayish brown (2.5Y 4/2), moist; weak medium and fine subangular blocky structure; soft, very friable, slightly sticky and nonplastic; common very fine and few fine roots; many very fine tubular and interstitial pores; 30 percent pebbles; slightly acid (pH 6.1); clear irregular boundary. (0 to 20 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 76,
+        "bottom": 145,
+        "dry_hue": "5Y",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "very gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Cr--30 to 57 inches; olive (5Y 5/3) decomposed granite bedrock (grus) which crushes to very gravelly loamy coarse sand or gravelly coarse sand, olive gray (5Y 4/2) moist; massive; nonsticky and nonplastic; few very fine roots in upper 1 to 2 inches of horizon; neutral (pH 7.0); gradual smooth boundary. (15 to 30 inches thick)"
+      }
+    ]
+  ]
 }

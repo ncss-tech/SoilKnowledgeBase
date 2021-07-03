@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soils now within the range of the Drypond series were correlated in Ramsey and Weikert in several published soil surveys.  Diagnostic horizons and features recognized in this pedon are:\n1.  Ochric epipedon - the zone from 0 to 2 inches (A horizon).\n2.  Cambic horizon - the zone from 2 to 14 inches (Bw horizon).\n3.  Lithic contact - shallow depth to quartzite bedrock (18 inches).\nMLRA=128, 147\nSIR=VA0276, VA0335 (Very gravelly)\nREVISED=4/2/93, MHC\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 10,
+        "bottom": 0,
+        "narrative": "Oi--4 to 0 inches; partially decomposed leaves and twigs."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 2 inches; very dark grayish brown (10YR 3/2) very gravelly sandy loam; weak fine granular structure; friable, slightly sticky, slightly plastic; 45 percent rock fragments; extremely acid; abrupt wavy boundary. (1 to 4 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 5,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--2 to 14 inches; yellowish brown (10YR 5/4) very gravelly sandy loam; weak fine subangular blocky structure; friable, slightly sticky, slightly plastic; 40 percent rock fragments; extremely acid; gradual wavy boundary.  (6 to 14 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 36,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--14 to 18 inches; brown (10YR 5/3) very gravelly sandy loam; weak fine granular structure; friable, slightly sticky, slightly plastic; 50 percent rock fragments; extremely acid; clear wavy boundary. (2 to 6 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 46,
+        "narrative": "R--18 inches; quartzite bedrock."
+      }
+    ]
+  ]
 }

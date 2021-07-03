@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nSeries control section:  The zone from 0 to 38 inches.\nParticle-size control section:  The zone from 10 to 28 inches.  (By1, By2 horizons)\nOchric epipedon:  The zone from 0 to 3 inches.  (A horizons)\nCalcic horizon:  The zone from 3 to 9 inches.  (Bk horizons)\nGypsic horizon:  The zone from 9 to 28 inches.  (By1, By2 horizons)\nParalithic contact:  The contact with shale bedrock at 28 inches.  (Cr horizons)\nADDITIONAL DATA:  National Soil Survey Laboratory sample S99CO-083-07\nClassified according to Keys to Soil Taxonomy Ninth Edition, 2003\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH": 8.3,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; light yellowish brown (10YR 6/4) sandy clay loam, dark yellowish brown (10YR 4/4) moist; strong very fine granular structure; soft, very friable, slightly sticky and nonplastic; common very fine and fine roots throughout; 13 percent calcium carbonate; violently effervescent; moderately alkaline (pH 8.3); abrupt smooth boundary. (1 to 5 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 8,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bk--3 to 9 inches; light brownish gray (10YR 6/2) clay loam, yellowish brown (10YR 5/4) moist; moderate thick platy structure; moderately hard, friable, moderately sticky and moderately plastic; common fine and medium roots throughout; common fine irregular calcium carbonate masses; 17 percent calcium carbonate; violently effervescent; moderately alkaline (pH 8.2); abrupt smooth boundary. (6 to 14 inches thick)"
+      },
+      {
+        "name": "By1",
+        "top": 23,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "By1--9 to 17 inches; very pale brown (10YR 7/3) gypsiferous loam, light olive brown (2.5Y 5/4) moist; massive; soft, very friable, slightly sticky and nonplastic; common very fine and fine roots throughout; common fine gypsum crystals, 26 percent gypsum; 11 percent calcium carbonate; 5 percent parachanners; violently effervescent;  moderately alkaline (pH 8.0); clear wavy boundary. (12 to 25 inches thick By horizons)"
+      },
+      {
+        "name": "By2",
+        "top": 43,
+        "bottom": 71,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "By2--17 to 28 inches; very pale brown (10YR 7/4) gypsiferous loam,  light olive brown (2.5Y 5/4) moist; massive; soft, very friable, slightly sticky and slightly plastic; few very fine roots matted around shale fragments and between peds; few very fine discontinuous tubular pores; common fine irregular masses of gypsum between peds, 22 percent gypsum; 21 percent calcium carbonate; 10 percent parachanners; violently effervescent; moderately alkaline (pH 8.0); gradual smooth boundary."
+      },
+      {
+        "name": "Cr",
+        "top": 71,
+        "bottom": 117,
+        "narrative": "Cr--28 to 46 inches; soft Mancos Shale."
+      }
+    ]
+  ]
 }

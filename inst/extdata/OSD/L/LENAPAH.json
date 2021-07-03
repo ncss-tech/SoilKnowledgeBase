@@ -56,5 +56,70 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  These soils formerly were mapped in the Sogn series in Oklahoma.\nDiagnostic horizons and features in this pedon are:\nMollic epipedon: from the surface to a depth of about 46 cm (18 inches).  (Ap, BA, Bt horizons)\nArgillic horizon: from a depth of 30 to 46 cm (12 to 18 inches).  (Bt horizon)\nLithic contact: depth to hard limestone bedrock is less than 51 cm (20 inches).  (R layer)\nVertic feature: have cracks at some period in most years that are 1 cm or more wide at a depth of 51 cm (20 inches), that are at least 30 cm (12 inches) long in some part, and extend upward to the surface or to the base of an Ap horizon; have a COLE of 0.07 or more and a potential linear extensibility of 6 cm or more in the whole soil; and have 35 percent or more clay content throughout the soil.\nArgiustolls - soils that have an ustic moisture regime, mollic epipedon, and argillic horizon.\nNASIS data mapunit ID 699771 represents Leanaph silty clay loam, 0 to 3 percent slopes.\nUser Pedon ID 1968OK035013 represents the typical pedon.\nModified format by RGC in 2015 to include metric conversion and to update series RIC.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 18 cm (0 to 7 inches); very dark gray (10YR 3/1) silty clay loam, black (10YR 2/1) moist; moderate medium granular structure; very hard, friable; slightly acid; gradual smooth boundary.  [15 to 25 cm (6 to 10 inches) thick]"
+      },
+      {
+        "name": "BA",
+        "top": 18,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BA--18 to 30 cm (7 to 12 inches); dark gray (10YR 4/1) silty clay loam, very dark gray (10YR 3/1) moist; strong medium granular structure; very hard, firm; slightly acid; gradual smooth boundary.  [0 to 18 cm (0 to 7 inches) thick]"
+      },
+      {
+        "name": "Bt",
+        "top": 30,
+        "bottom": 46,
+        "dry_hue": "2.5Y",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--30 to 46 cm (12 to 18 inches); dark grayish brown (2.5Y 4/2) clay, very dark grayish brown (2.5Y 3/2) moist; moderate medium blocky structure; very hard, very firm; clay films on faces of peds; a few vertical cracks filled with material from horizons above; few fine calcium carbonate fragments; few fine prominent mottles of olive brown (2.5Y 4/4) and reddish brown (5YR4/4) redoximorphic concentrations; few fine black concretions; neutral; abrupt wavy boundary.  [10 to 36 cm (4 to 14 inches) thick]"
+      },
+      {
+        "name": "R",
+        "top": 46,
+        "bottom": 51,
+        "narrative": "R--46 to 51 cm (18 to 20 inches); hard limestone bedrock."
+      }
+    ]
+  ]
 }

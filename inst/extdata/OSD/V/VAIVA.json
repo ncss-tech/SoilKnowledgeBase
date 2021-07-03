@@ -56,5 +56,84 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from 0 to 1 inch (A horizon)\nArgillic horizon - The zone from 1 to 11 inches (Bt1, Bt2 horizons)\nParalithic contact - The boundary at 11 inches (2Cr horizon)\nLithic contact - The boundary at 17 inches (2R horizon)\nClassified according to Soil Taxonomy Second Edition, 1999; Keys to Soil Taxonomy Tenth Edition, 2006.\nSoils with Cr materials ranging to 3 inches thick over an R are placed in a lithic subgroup in Arizona.  The type location for this series will be relocated to meet this criteria and maintain the present classification.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 1 inch; brown (7.5YR 5/4) very gravelly loam, reddish brown (5YR 4/3) moist; weak fine granular structure; soft, very friable, slightly sticky and slightly plastic; common very fine roots; common very fine irregular pores; 50 percent gravel; noneffervescent; moderately alkaline (pH 8.2); abrupt smooth boundary.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 3,
+        "bottom": 8,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--1 to 3 inches; yellowish red (5YR 4/6) very gravelly loam, reddish brown (5YR 4/4) moist; weak fine granular structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine roots; common very fine irregular pores; few faint clay films on faces of peds; 55 percent gravel; slightly effervescent in spots; moderately alkaline (pH 8.2); clear wavy boundary.  (1 to 3 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 8,
+        "bottom": 28,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--3 to 11 inches; red (2.5YR 4/6) very gravelly sandy clay loam, reddish brown (2.5YR 4/4) moist; weak very fine subangular blocky structure; hard, friable, moderately sticky and moderately plastic; common very fine roots; few very fine tubular pores; common distinct clay films on faces of peds; 55 percent gravel; noneffervescent; moderately alkaline (pH 8.0); gradual wavy boundary.  (5 to 10 inches thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 28,
+        "bottom": 43,
+        "texture_class": "clay",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Cr--11 to 17 inches; highly fractured granitic rock; few very fine roots; common distinct clay films coating bedrock and in fractures; few patchy calcium carbonate coatings in fractures; clear wavy boundary. (1 to 3 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 43,
+        "narrative": "2R--17 inches; granite."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,116 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - 0 to 7 inches (Oi, Oe, E horizons);\nAlbic horizon - 7 to 14 inches (EB horizon);\nCambic horizon - 7 to 25 inches (EB and Bw horizon);\nHorizon of carbonate accumulation - (Bk1 and Bk2 horizons);\nParticle-size control section - 10 to 40 inches (EB, Bw, Bk1, and Bk2 horizons).\nKingspoint soils have a frigid temperature regime and an ustic moisture regime.\nSoil interpretation record:  MT0802.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; undecomposed needles and twigs."
+      },
+      {
+        "name": "Oe",
+        "top": 3,
+        "bottom": 8,
+        "narrative": "Oe--1 to 3 inches; partially decomposed forest litter."
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--3 to 7 inches; light gray (10YR 7/2) very gravelly loam, grayish brown (10YR 5/2) moist; weak medium granular structure; soft, very friable, slightly sticky and slightly plastic; many very fine and fine roots; common medium and coarse roots; 35 percent gravel; neutral (pH 7.2); abrupt wavy boundary."
+      },
+      {
+        "name": "EB",
+        "top": 18,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "EB--7 to 14 inches; light gray (10YR 7/2) very gravelly loam, grayish brown (10YR 5/2) moist; weak medium subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; common roots; common fine and medium tubular pores; 40 percent gravel; neutral (pH 7.2); clear wavy boundary. (0 to 10 inches thick.)"
+      },
+      {
+        "name": "Bw",
+        "top": 36,
+        "bottom": 64,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--14 to 25 inches; light brownish gray (10YR 6/2) very gravelly loam, grayish brown (10YR 5/2) moist; weak medium subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; common very fine, fine, and medium roots and few coarse roots; common fine pores and few medium pores; 10 percent cobbles and 40 percent gravel; neutral (pH 7.2); clear wavy boundary. (5 to 15 inches thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 64,
+        "bottom": 86,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bk1--25 to 34 inches; light gray (10YR 7/2) very gravelly loam, pale brown (10YR 6/3) moist; massive; soft, very friable, slightly sticky and slightly plastic; common fine and medium roots and few coarse roots; few fine and medium pores; 5 percent stones, 5 percent cobbles, and 40 percent gravel; disseminated lime; strongly effervescent; slightly alkaline (pH 7.8); clear wavy boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bk2",
+        "top": 86,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "narrative": "Bk2--34 to 60 inches; light gray (10YR 7/2) very gravelly loam, grayish brown (10YR 5/2) moist; massive; soft, very friable, slightly sticky and slightly plastic; common fine and medium roots; few fine pores; 5 percent cobbles and 35 percent gravel; disseminated lime; violently effervescent; moderately alkaline (pH 8.4)."
+      }
+    ]
+  ]
 }

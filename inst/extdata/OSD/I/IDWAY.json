@@ -56,5 +56,111 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 18 cm (A and Bw1 horizons).\nCambic horizon - The zone from 10 to 30 cm (Bw1 and Bw2 horizons).\nCalcic horizon - The zone from 30 to 69 cm (Bqk1 and Bqk2 horizons).\nDurinodes - The zone from 30 to 69 cm (Bqk1 and Bqk2 horizons).\nMajor lithologic discontinuity - The abrupt change to sandy material at 69 cm (2Cqk horizon).\nParticle-size control section - The zone from 25 to 100 cm (Bqk1, Bqk2, parts of the Bw2 and 2Cqk horizons).\nADDITIONAL DATA: Previous authors and editors include: LJL-PWB-RLB.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 10 cm; light gray (10YR 7/2) loamy sand, brown (10YR 5/3) moist; strong thick platy structure parting to strong thin platy; slightly hard, very friable, nonsticky and nonplastic; few very fine and fine roots; many very fine and fine tubular pores; 5 percent gravel; strongly effervescent; moderately alkaline (pH 8.4); abrupt smooth boundary.  (5 to 15 cm thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 10,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw1--10 to 18 cm; light gray (10YR 7/2) sandy loam, yellowish brown (10YR 5/4) moist; moderate thick platy structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine and fine roots; many very fine interstitial pores and few tubular; 5 percent gravel; strongly effervescent; moderately alkaline (pH 8.2); abrupt smooth boundary.  (8 to 28 cm thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 18,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--18 to 30 cm; very pale brown (10YR 7/3) sandy loam, yellowish brown (10YR 5/4) moist; weak coarse subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine and fine roots; many very fine interstitial pores and few very fine tubular; 5 percent gravel; strongly effervescent; moderately alkaline (pH 8.4); clear wavy boundary.  (0 to 15 cm thick)"
+      },
+      {
+        "name": "Bqk1",
+        "top": 30,
+        "bottom": 50,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 8.8,
+        "pH_class": "strongly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bqk1--30 to 50 cm; light gray (10YR 7/2) loam, pale brown (10YR 6/3) moist; massive; soft, very friable, nonsticky and nonplastic; few very fine roots; many very fine interstitial pores and few very fine tubular; 30 percent cylindrical durinodes 0.6 to 1.2 cm in diameter and 2.5 to 7.5 cm platy durinodes; 5 percent gravel; strongly effervescent; strongly alkaline (pH 8.8); clear wavy boundary.  (18 to 41 cm thick)"
+      },
+      {
+        "name": "Bqk2",
+        "top": 50,
+        "bottom": 69,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "pH": 9.4,
+        "pH_class": "very strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bqk2--50 to 69 cm; light gray (10YR 7/2) loam, brown (10YR 5/3) moist; strong thick platy structure parting to strong thin platy; hard, firm and brittle, slightly sticky and slightly plastic; common very fine roots in pockets and few in matrix; many very fine interstitial pores and few very fine tubular; light brown (7.5YR 6/4) organic stains on plate surfaces, root mats, and along root channels; 60 percent strongly cemented matrix, 30 percent weak and 10 percent noncemented pockets of loamy sand; 5 percent gravel; strongly effervescent; very strongly alkaline (pH 9.4); abrupt wavy boundary.  (0 to 20 cm thick)"
+      },
+      {
+        "name": "2Cqk",
+        "top": 69,
+        "bottom": 152,
+        "texture_class": "coarse sand",
+        "cf_class": "gravelly",
+        "pH": 9.6,
+        "pH_class": "very strongly alkaline",
+        "narrative": "2Cqk--69 to 152 cm; variegated stratified gravelly coarse sand to sand; massive; soft, very friable, nonsticky and nonplastic; few very fine roots; many very fine interstitial pores; 10 percent 2.5 to 7.5 cm thick discontinuous cemented lenses; 30 percent gravel; few carbonate and silica pendants on bottoms of rock fragments; slightly effervescent; very strongly alkaline (pH 9.6)."
+      }
+    ]
+  ]
 }

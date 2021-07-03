@@ -56,5 +56,118 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\n12/2012 Revision updates the format and added latitude and longitude.\n8/1991 Revision changed depth to bedrock from \"more than 48 inches to more than 60 inches\" to be consistent with one depth to bedrock class as shown on the Soil Interpretation Records for Helena.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon--the zone from the surface to 12 inches (Ap and E horizons)\nArgillic horizon--the zone from 12 to 46 inches (BE, Bt1, Bt2, Bt3 and BCg horizons)\nAquic conditions--periodic episaturation and reduction in a zone within the upper 24 inches of the argillic horizon\nMLRA = 136\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5   Soil Name   Slope     Airtemp   FrFr/Seas    Precip    Elevation\nNC0058  HELENA      0-15      58-65     185-240       37-55    350-900\nNC0176  HELENA      0-15      58-65     185-240       37-55    350-900\nNC0266  HELENA      0-15      58-65     185-240       37-55    350-900\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0058 NONE          1.5-2.5  PERCHED  JAN-APR  >60\nNC0176 NONE          1.5-2.5  PERCHED  JAN-APR  >60\nNC0266 NONE          1.5-2.5  PERCHED  JAN-APR  >60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0058  0-12  SL FSL L                0-5  90-100  5-20     1- 6\nNC0058  0-12  SCL CL                  0-5  95-100 20-35     4- 8\nNC0058 12-19  SCL CL                  0-5  95-100 20-35     4- 7\nNC0058 19-43  CL SC C                 0-5  95-100 35-60     7-13\nNC0058 43-60  VAR                      -     -      -        -\nNC0176  0-12  GR-FSL GR-L GR-COSL     0-5  50- 75  5-20     1- 6\nNC0176  0-12  GR-LCOS GR-LS GR-S      0-5  50- 75  3-12     1- 4\nNC0176  0-12  GR-CL GR-SCL            0-5  50- 75 20-35     4- 8\nNC0176 12-19  SCL CL SL               0-5  95-100 20-35     4- 7\nNC0176 19-43  CL SC C                 0-5  95-100 35-60     7-13\nNC0176 43-60  VAR                      -     -      -        -\nNC0266  0-12  LS LCOS                 0-5  90-100  3-12     1- 4\nNC0266 12-19  SCL CL                  0-5  95-100 20-35     4- 7\nNC0266 19-43  CL SC C                 0-5  95-100 35-60     7-13\nNC0266 43-60  VAR                      -     -      -        -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0058  0-12  3.5-6.5   .5-2.  0-0    2.0-6.0    LOW\nNC0058  0-12  3.5-6.5   .5-1.  0-0    0.2-0.6    LOW\nNC0058 12-19  3.5-5.5   0.-.5  0-0    0.2-0.6    MODERATE\nNC0058 19-43  3.5-5.5   0.-.5  0-0   0.06-0.2    HIGH\nNC0058 43-60     -        -     -        -\nNC0176  0-12  4.5-6.5   .5-2.  0-0    2.0-6.0    LOW\nNC0176  0-12  4.5-6.5   .5-2.  0-0    6.0- 20    LOW\nNC0176  0-12  4.5-6.5   .5-1.  0-0    0.2-0.6    LOW\nNC0176 12-19  4.5-5.5   0.-.5  0-0    0.2-0.6    MODERATE\nNC0176 19-43  4.5-5.5   0.-.5  0-0   0.06-0.2    HIGH\nNC0176 43-60     -        -     -        -\nNC0266  0-12  3.5-6.5   .5-2.  0-0    6.0- 20    LOW\nNC0266 12-19  3.5-5.5   0.-.5  0-0    0.2-0.6    MODERATE\nNC0266 19-43  3.5-5.5   0.-.5  0-0   0.06-0.2    HIGH\nNC0266 43-60     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; grayish brown (10YR 5/2) sandy loam; weak, medium, and coarse granular structure; very friable; many fine roots; moderately acid; abrupt smooth boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 20,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--8 to 12 inches; light yellowish brown (10YR 6/4) sandy loam; weak medium granular structure; very friable; few fine roots; few fine black concretions; strongly acid; clear wavy boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 30,
+        "bottom": 48,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BE--12 to 19 inches; brownish yellow (10YR 6/6) sandy clay loam; moderate medium prismatic structure that parts to moderate medium angular blocky; friable; sticky, plastic; few fine roots; few fine pores; few faint clay films on faces of peds; few medium quartz gravel; common fine faint pale brown (10YR 6/3) iron depletions; very strongly acid; clear wavy boundary. (0 to 7 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 48,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--19 to 24 inches; yellowish brown (10YR 5/8) clay; weak coarse angular blocky structure; firm; sticky, plastic; few fine roots; few fine pores; few faint clay films on faces of peds; few fine prominent light brownish gray (10YR 6/2) iron depletions; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 61,
+        "bottom": 99,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--24 to 39 inches; yellowish brown (10YR 5/8) clay; weak coarse subangular blocky and angular blocky structure; very firm, sticky, very plastic; few fine roots; few fine pores; common distinct clay films on faces of peds; many medium prominent gray (10YR 6/1) iron depletions; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 99,
+        "bottom": 109,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt3--39 to 43 inches; light yellowish brown (10YR 6/4) clay loam; weak medium subangular blocky structure; extremely firm, sticky, very plastic; common distinct clay films on faces of peds; few brown concretions; common medium distinct light gray (10YR 7/1) iron depletions; very strongly acid; clear wavy boundary. (Combined thickness of the Bt horizons is 17 to 42 inches.)"
+      },
+      {
+        "name": "BCg",
+        "top": 109,
+        "bottom": 117,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BCg--43 to 46 inches; light gray (10YR 7/1) clay loam; weak coarse subangular blocky structure; friable, sticky, plastic; many coarse prominent strong brown (7.5YR 5/6) soft masses of iron accumulation; very strongly acid; clear wavy boundary. (0 to 14 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 117,
+        "bottom": 152,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "narrative": "C--46 to 60 inches; strong brown (7.5YR 5/8) sandy loam saprolite; many coarse prominent light gray (10YR 7/1) streaks; massive; friable; few coarse veins of gray clay; common fragments of granitic rock; very strongly acid."
+      }
+    ]
+  ]
 }

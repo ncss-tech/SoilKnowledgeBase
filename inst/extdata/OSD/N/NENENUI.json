@@ -56,5 +56,50 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon include:\nOchric epipedon - from 0 to 3 centimeters (0 to 1 inch) (C1/A horizon).\nAndic soil properties - from 0 to 15 centimeters (0 to 6 inches) (C1/A and C2 horizons).\nLithic contact - at 15 centimeters (6 inches) (2R horizon).\nSoil moisture - usually moist, but dry for short intermittent periods totaling 90 or more days throughout the year in most years (Ustic moisture regime).\nADDITIONAL DATA: NASIS User Pedon ID 01HI601021.\nEdit log: 2/08 MRK. Andic textural modifiers added.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "C1/A",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "7.5YR",
+        "dry_value": 3,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "cf_class": "extremely gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C1/A--0 to 3 centimeters (0 to 1 inch); dark brown (7.5YR 3/3) extremely gravelly ashy loamy sand, dark brown (7.5YR 3/2) moist; weak very fine and fine subangular blocky structure; soft, very friable, nonsticky, nonplastic, and nonsmeary; few very fine roots; many fine interstitial pores; 70 percent gravel-size cinders and 5 percent pahoehoe stones; surface covered by 100 percent gravel-size cinders; C materials consist of cinders and unconsolidated pahoehoe lava fragments; neutral (pH 6.8); abrupt smooth boundary."
+      },
+      {
+        "name": "C2",
+        "top": 3,
+        "bottom": 15,
+        "dry_hue": "N",
+        "dry_value": 2,
+        "dry_chroma": 0,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C2--3 to 15 centimeters (1 to 6 inches); black (N 2/0) cinders; single grain; loose when dry or moist, nonsticky and nonplastic; few very fine roots; many fine and medium interstitial pores; abrupt smooth boundary."
+      },
+      {
+        "name": "2R",
+        "top": 15,
+        "narrative": "2R--15 centimeters (6 inches); hard pahoehoe lava."
+      }
+    ]
+  ]
 }

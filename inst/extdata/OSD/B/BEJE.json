@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from 0 to 18 cm (A and part of the Bt horizon)\nArgillic horizon - from 15 to 36 cm (Bt horizon)\nLithic contact - at 36 cm (R horizon)\nParticle-size control section - from 0 to 36 cm (A and Bt horizons)\nBeje soils have a frigid temperature regime and an ustic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 15 cm; brown (10YR 4/3) loam, dark brown (10YR 3/3) moist; weak fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine and fine roots; common very fine, fine, and medium pores; slightly alkaline (pH 7.6); abrupt smooth boundary. (5 to 15 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 15,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt--15 to 36 cm; brown (10YR 4/3) clay loam, dark brown (10YR 3/3) moist; strong medium subangular blocky structure; hard, firm, moderately sticky and moderately plastic; common very fine, fine, and medium roots; common very fine and fine pores; few faint clay films on faces of peds; slightly alkaline (pH 7.6); abrupt smooth boundary. (15 to 46 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 36,
+        "texture_class": "sand",
+        "narrative": "R--36 cm; sandstone bedrock."
+      }
+    ]
+  ]
 }

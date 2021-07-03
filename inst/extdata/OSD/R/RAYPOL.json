@@ -56,5 +56,108 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This revision reflects change in taxonomy from Aeric Haplaquepts and general updating.  Cation exchange activity class placement determined from a review of limited lab data and similar or associated soils.\nThe horizons and features diagnostic for the typical pedon are:\n1. Ochric epipedon from 0 to 8 inches (Ap horizon).\n2. Cambic horizon from 8 to 29 inches (Bg and Bw horizons).\n3. Aquic moisture regime as indicated by dominant chroma of 2 in the Bg horizon but with chroma too high within 30 inches (chroma 4 in the Bw horizon) to qualify for Typic Endoaquepts.\n4. Endoaquepts subgroup based on saturation in all layers from the upper boundary of saturation to a depth of 200 cm. from the mineral soil surface.\n5. Aeric great group based on matrix color and chroma of 3 or more in one subhorizon between the Ap and 75 cm. (Bw2).\n6. Particle-size  class: control section from 10 to 40 inches that is coarse-loamy from 10 to 29 inches and contrasting sandy or sandy-skeletal from 29 to 60 inches.\n7. Acid reaction class and mesic temperature regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; very dark brown (10YR 2/2) silt loam, pale brown (10YR 6/3) dry; weak medium granular structure; friable; common very fine, fine and medium roots; strongly acid; clear smooth boundary (6 to 10 inches thick)"
+      },
+      {
+        "name": "Bg1",
+        "top": 20,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg1--8 to 12 inches; grayish brown (10YR 5/2) very fine sandy loam; weak medium subangular blocky structure; friable; common very fine, fine and medium roots; common medium prominent yellowish brown (10YR 5/8) masses of iron accumulation; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 30,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg2--12 to 20 inches; grayish brown (10YR 5/2) silt loam; weak medium subangular blocky structure; friable; common fine and medium roots; common medium prominent yellowish brown (10YR 5/8) masses of iron accumulation; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw1",
+        "top": 51,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1--20 to 26 inches; dark yellowish brown (10YR 4/4) silt loam; weak medium subangular blocky structure; friable; few fine roots; common medium prominent yellowish brown (10YR 5/8) and common medium distinct light brownish gray (10YR 6/2) masses of iron accumulation; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 66,
+        "bottom": 74,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--26 to 29 inches; olive brown (2.5Y 4/4) very fine sandy loam; massive; friable; 5 percent gravel; common medium prominent yellowish brown (10YR 5/8) masses of iron accumulation and common medium distinct light brownish gray (10YR 6/2) iron depletions; strongly acid; clear wavy boundary.  (Combined thickness of the B horizons is 12 to 32 inches)"
+      },
+      {
+        "name": "2C1",
+        "top": 74,
+        "bottom": 132,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "narrative": "2C1--29 to 52 inches; light olive brown (2.5Y 5/4) gravelly sand; single grain; loose; 25 percent gravel; few medium prominent yellowish brown (10YR 5/8) masses of iron accumulation; strongly acid."
+      },
+      {
+        "name": "2C2",
+        "top": 132,
+        "bottom": 165,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH_class": "strongly acid",
+        "narrative": "2C2--52 to 65 inches; dark grayish brown (2.5Y 4/2) very gravelly sand; single grain; loose; 35 percent gravel and 5 percent cobbles; few medium prominent yellowish brown (10YR                    5/6) masses of iron accumulation; strongly acid."
+      }
+    ]
+  ]
 }

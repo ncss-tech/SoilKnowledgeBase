@@ -56,5 +56,86 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this soil are:\nMollic epipedon - the zone from 0 to 28 inches (the A1, and A2 horizons)\nArgillic horizon - the zone from 28 to 60 inches (the Bt1 & Bt2 horizons)\nPale feature - argillic horizon upper boundary at 28 inches\nCryic soil temperature regime\nXeric soil moisture regime\nParticle-size control section - the zone from 28 to 48 inches (the Bt1 and upper part of Bt2 horizon) averages 30 percent clay and 64 percent rock fragments.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1 -- 0 to 8 inches; dark grayish brown (10YR 4/2) gravelly loam, very dark brown (10YR 2/2) moist; moderate fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and few roots; 30 percent angular gravel and 1 percent angular cobbles; neutral (pH 6.6); clear wavy boundary.  (5 to 12 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 20,
+        "bottom": 71,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very flaggy",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2 -- 8 to 28 inches; brown (10YR 5/3) very flaggy loam, very dark brown (10YR 2/2) moist; weak fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine, fine and medium roots; commmon very fine tubular pores; 15 percent angular gravel and 30 percent flags; neutral (pH 6.8); clear wavy boundary.  (14 to 25 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 71,
+        "bottom": 109,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "extremely flaggy",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1 -- 28 to 43 inches; yellowish brown (10YR 5/4) extremely flaggy clay loam, dark yellowish brown (10YR 3/4) moist; common fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine, and fine roots; common very fine tubular pores; common faint clay films on surfaces of peds; 15 percent angular gravel and 45 percent angular flags; neutral (pH 6.8); clear wavy boundary.  (10 to 12 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 109,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "extremely flaggy",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "narrative": "Bt2 -- 43 to 60 inches; pale brown (10YR 6/3) extremely flaggy clay loam, dark yellowish brown (10YR 4/4) moist; common fine subangular blocky structure; slightly hard, very friable, slightly sticky and plastic; few very fine roots; common very fine tubular pores; few faint clay films on surfaces of peds; 20 percent angular gravel and 45 percent angular flags; slightly alkaline (pH 7.6)."
+      }
+    ]
+  ]
 }

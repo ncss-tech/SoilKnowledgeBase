@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nochric epipedon-the zone from the surface to a depth of about 13 inches (Ap, BE horizons);\nargillic horizon--the zone from about 13 to 30 inches (Bt1, Bt2 horizons);\nlithic contact--at a depth of 38 inches.\nADDITIONAL DATA: Characterization data for the Loudonville series include profiles CO-66 (typical pedon), DL-46, GA-S15, PY-11, RC-12, RO-63, WN-S7, WN-S22, and WN-S24.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 8 inches; brown (10YR 4/3) silt loam; weak fine granular structure; friable; common rock fragments; very strongly acid; abrupt smooth boundary. (6 to 10 inches thick.)"
+      },
+      {
+        "name": "BE",
+        "top": 20,
+        "bottom": 33,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BE -- 8 to 13 inches; brown (7.5YR 4/4) silt loam; moderate medium subangular blocky structure; friable; 2 percent rock fragments; very strongly acid; clear smooth boundary. (0 to 8 inches thick.)"
+      },
+      {
+        "name": "Bt1",
+        "top": 33,
+        "bottom": 64,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1 -- 13 to 25 inches; brown (7.5YR 4/4) loam; moderate medium subangular blocky structure; friable; many faint brown (7.5YR 4/3) clay films on vertical faces of peds, and common faint on other surfaces; 5 percent rock fragments; strongly acid; gradual smooth boundary. (6 to 14 inches thick.)"
+      },
+      {
+        "name": "Bt2",
+        "top": 64,
+        "bottom": 76,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2 -- 25 to 30 inches; brown (7.5YR 4/4) loam; weak medium subangular blocky structure; firm; common faint brown (7.5YR 4/3) clay films on faces of peds; few black stains (iron and manganese oxides) on faces of peds; 5 percent pebbles; strongly acid; abrupt wavy boundary. (4 to 16 inches thick.)"
+      },
+      {
+        "name": "2BC",
+        "top": 76,
+        "bottom": 97,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "2BC -- 30 to 38 inches; dark yellowish brown (10YR 4/4) channery loam; weak medium subangular blocky structure; friable; few faint brown (7.5YR 4/4) clay films on vertical faces of peds; 25 percent rock fragments, mostly sandstone; strongly acid; abrupt irregular boundary. (0 to 18 inches thick.)"
+      },
+      {
+        "name": "2R",
+        "top": 97,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt",
+        "narrative": "2R -- 38 inches; olive (5Y 4/3) siltstone bedrock."
+      }
+    ]
+  ]
 }

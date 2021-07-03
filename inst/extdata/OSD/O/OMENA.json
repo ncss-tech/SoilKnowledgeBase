@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon: from the surface to a depth of 15 cm (6 inches) (Ap horizon).\nAlbic horizon: from a depth of 15 to 20 cm (6 to 8 inches) (E horizon).\nArgillic horizon: from a depth of 28 to 41 cm (11 to 16 inches).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 15 cm (6 inches); brown (7.5YR 4/2) sandy loam, grayish brown (10YR 5/2) dry; weak medium granular structure; friable; many fine roots; neutral; abrupt smooth boundary. [13 to 20 cm (5 to 8 inches) thick]"
+      },
+      {
+        "name": "E",
+        "top": 15,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "E--15 to 20 cm (6 to 8 inches); grayish brown (10YR 5/2) sandy loam; weak coarse granular structure; friable; many fine roots; slightly alkaline; abrupt irregular boundary. [0 to 13 cm (5 inches) thick]"
+      },
+      {
+        "name": "B/E",
+        "top": 20,
+        "bottom": 28,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "B/E--20 to 28 cm (8 to 11 inches); brown (7.5YR 4/4) sandy loam (Bt); occupies about 85 percent of the horizon surrounded by gray (10YR 5/1) sandy loam (E); weak medium subangular blocky structure; firm; many fine roots; slightly alkaline; clear wavy boundary. [5 to 10 cm (2 to 4 inches) thick]"
+      },
+      {
+        "name": "Bt",
+        "top": 28,
+        "bottom": 41,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt--28 to 41 cm (11 to 16 inches); brown (7.5YR 4/4) sandy loam; moderate medium subangular blocky structure; firm; few fine roots; few distinct dark reddish brown (5YR 3/3) clay films on faces of peds; about 4 percent gravel; slightly alkaline; abrupt irregular boundary. [5 to 18 cm (2 to 7 inches) thick]"
+      },
+      {
+        "name": "C",
+        "top": 41,
+        "bottom": 152,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "C--41 to 152 cm (16 to 60 inches); brown (7.5YR 5/4) sandy loam; weak coarse subangular blocky fragments; friable; few fine roots; about 10 percent gravel and cobbles; slightly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

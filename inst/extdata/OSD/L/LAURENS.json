@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface of the soil to 6 inches (A and E horizons)\nArgillic horizon - the zone from 6 to 28 inches (Bt1 and Bt2 horizons)\nMLRA = 136\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name    Slope Airtemp  FrFr/Seas Precip Elevation\nSC     LAURENS      2-50   59-66    190-225   37-60  300-1100\nSC     LAURENS      2-50   59-66    190-225   37-60  300-1100\nSOI-5  FloodL FloodH Watertable Kind  Months Bedrock Hardness\nSC     NONE          6.0-6.0            -    60-60\nSC     NONE          6.0-6.0            -    60-60\nSOI-5  Depth  Texture              3-Inch  No-10    Clay%   -CEC-\nSC     0- 6   L VFSL SIL           0- 2    90-100    5-27    8-16\nSC     0- 6   SICL CL              0- 2    90-100   27-35    8-16\nSC     6-10   SICL CL              0- 1    90-100   27-35    6-10\nSC    10-28   C SIC SICL           0- 1    95-100   35-65    9-15\nSC    28-53   SICL CL SIL          0- 5    90-100   15-35    7-15\nSC    53-63   L VFSL SIL           0- 5    90-100   10-27    7-15\nSC     0- 6   GR-L GR-SIL GR-VFSL  0-10    55- 75    5-27    8-16\nSC     0- 6   SY-SIL SY-L SY-VFSL  0- 5    70- 80    5-27    8-16\nSC     6-10   SICL CL              0- 1    90-100   27-35    6-10\nSC    10-28   C SIC SICL           0- 1    95-100   35-65    9-15\nSC    28-53   SICL L SIL           0- 5    90-100   15-35    7-15\nSC    53-63   L VFSL SIL           0- 5    90-100   10-27    7-15\nSOI-5  Depth    -pH-       O.M.   Salin   Permeab    Shnk-Swll\nSC     0- 6   4.5- 7.3    .5-2.   0- 0    0.6- 2.0      LOW\nSC     0- 6   4.5- 7.3    0.-.5   0- 0    0.6- 2.0      LOW\nSC     6-10   4.5- 5.5    0.-.5   0- 0    0.6- 2.0      LOW\nSC    10-28   4.5- 5.5    0.-.5   0- 0    0.6- 2.0      LOW\nSC    28-53   4.5- 5.5    0.-.5   0- 0    0.6- 2.0      LOW\nSC    53-63   4.5- 5.5    0.-.5   0- 0    0.6- 2.0      LOW\nSC     0- 6   4.5- 7.3    .5-2.   0- 0    0.6- 2.0      LOW\nSC     0- 6   4.5- 7.3    .5-2.   0- 0    0.6- 2.0      LOW\nSC     6-10   4.5- 5.5    0.-.5   0- 0    0.6- 2.0      LOW\nSC    10-28   4.5- 5.5    0.-.5   0- 0    0.6- 2.0      LOW\nSC    28-53   4.5- 5.5    0.-.5   0- 0    0.6- 2.0      LOW\nSC    53-63   4.5- 5.5    0.-.5   0- 0    0.6- 2.0      LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; dark yellowish brown (10YR 4/4) silt loam; weak medium subangular blocky structure; friable; many fine and common medium roots; strongly acid; abrupt smooth boundary.  (2 to 9 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "broken",
+        "narrative": "E--4 to 6 inches; yellowish brown (10YR 5/4) silt loam; weak medium subangular blocky structure; friable; many fine and medium roots; strongly acid; abrupt broken boundary.  (0 to 5 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 25,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--6 to 10 inches; yellowish red (5YR 5/6) silt clay loam; weak fine subangular blocky structure; friable; common fine and few medium roots; few distinct clay films on faces of peds; common fine pores; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 25,
+        "bottom": 71,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--10 to 28 inches; red (2.5YR 4/8) clay; moderate fine subangular blocky structure; friable; few fine and medium roots; common distinct clay films on faces of peds; common fine pores; strongly acid; clear smooth boundary.  (Combined thickness of the Bt horizon ranges from 10 to 25 inches)"
+      },
+      {
+        "name": "BC1",
+        "top": 71,
+        "bottom": 104,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BC1--28 to 41 inches; red (2.5YR 4/6) clay loam with few fine prominent strong brown (7.5YR 5/8) mottles; moderate fine and medium subangular blocky structure; friable; common distinct clay films on faces of peds; few fine pores; strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "BC2",
+        "top": 104,
+        "bottom": 135,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BC2--41 to 53 inches; red (2.5YR 4/6) silty clay loam with few fine prominent yellowish brown (10YR 5/6) and  brownish yellow (10YR 6/8) mottles; moderate coarse subangular blocky structure; friable; few fine roots; common distinct clay films on faces of peds; few fine pores; few fine flakes of mica; strongly acid; gradual smooth boundary.  (Combined thickness of the BC horizon ranges from 5 to 25 inches)"
+      },
+      {
+        "name": "C",
+        "top": 135,
+        "bottom": 160,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "strongly acid",
+        "narrative": "C--53 to 63 inches; red (2.5YR 4/6) silty clay loam saprolite with common fine and medium prominent reddish yellow (7.5YR 6/8) and few fine distinct dark yellowish brown (10YR 4/6) mottles; weak coarse and very coarse subangular blocky structure; friable; few fine roots; few faint clay films on faces of peds; few fine flakes of mica; strongly acid."
+      }
+    ]
+  ]
 }

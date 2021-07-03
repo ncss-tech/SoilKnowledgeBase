@@ -56,5 +56,88 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are: a mollic epipedon from the surface to 28 inches (A and Bw horizons); a paralithic contact at 36 inches (Cr horizon); a particle-size control section from 10 to 36 inches (part of the Bw1, the Bw2, and the BC horizons). Shooksoils have an ustic moisture regime and a cryic temperature regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "coarse sandy loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--O to 8 inches, very dark grayish brown (10YR 3/2) coarse sandy loam, black (10YR 2/1) moist; moderate medium granular structure; slightly hard, very friable, nonsticky and nonplastic; common fine and very fine roots; slightly acid (pH 6.4); clear smooth boundary. (6 to 12 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 20,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "coarse sandy loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw1--8 to 16 inches, brown (10YR 4/3) coarse sandy loam, dark brown (10YR 3/3) moist; moderate medium and coarse subangular blocky structure; hard, friable, slightly sticky and nonplastic; common fine and very fine roots; neutral (pH 6.6); gradual smooth boundary. (5 to 9 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 41,
+        "bottom": 71,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "coarse sandy loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw2--16 to 28 inches, brown (10YR 4/3) coarse sandy loam, dark brown (10YR 3/3) moist; weak coarse subangular blocky structure; slightly hard, friable, slightly sticky and nonplastic; common fine and very fine roots; 10 percent pebbles; neutral (pH 6.8); gradual smooth boundary. (10 to 17 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 71,
+        "bottom": 91,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "narrative": "BC--28 to 36 inches, brown (10YR 5/3) very gravelly coarse sandy loam, brown (10YR 4/3) moist; weak fine subangular blocky; few fine and very fine roots; 50 percent pebbles; neutral (pH 6.8)."
+      },
+      {
+        "name": "Cr",
+        "top": 91,
+        "bottom": 152,
+        "narrative": "Cr--36 to 60 inches; decomposing granite bedrock (grus)."
+      }
+    ]
+  ]
 }

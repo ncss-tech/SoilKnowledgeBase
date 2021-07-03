@@ -56,5 +56,51 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and other features in this pedon\n*Histic epipedon--zone from the surface to a depth of 50 cm\n*Fibric soil material--zone from the surface to a depth of 20 cm\n*Aquic conditions--zone from the surface to a depth of 50 cm\n*Hemic soil material--zone from 20 to 40 cm\n*Sapric material--zone from 40 to 50 cm\n*Depth to lithic bedrock--50 cm\n*Depth to lithologic discontinuity--50 cm\n*Particle-size control section--zone from the surface to a depth of 50 cm\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 20,
+        "pH": 4,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 20 cm; peat; extremely acid (pH 4.0); clear smooth boundary"
+      },
+      {
+        "name": "Oe",
+        "top": 20,
+        "bottom": 40,
+        "pH": 4.3,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oe--20 to 40 cm; mucky peat; extremely acid (pH 4.3); clear smooth boundary"
+      },
+      {
+        "name": "Oa",
+        "top": 40,
+        "bottom": 50,
+        "pH": 4.6,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oa--40 to 50 cm; muck; very strongly acid (pH 4.6); abrupt wavy boundary"
+      },
+      {
+        "name": "2R",
+        "top": 50,
+        "narrative": "2R--50 cm; bedrock"
+      }
+    ]
+  ]
 }

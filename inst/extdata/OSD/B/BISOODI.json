@@ -56,5 +56,103 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from 0 to 4 inches (A1, A2 horizons)\nCalcic horizon - The zone from 4 and 14 inches (Bk1, Bk2 horizons)\nParalithic horizon - The boundary at 14 inches (2Cr horizon)\nLithic contact - The boundary at 18 inches (3R horizon)\nClassified according to Soil Taxonomy Second Edition, 1999.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 1 inch; light brown (7.5YR 6/4) fine sandy loam, strong brown (7.5YR 5/6) moist; weak thin platy structure parting to single grain; soft, very friable, nonsticky and nonplastic; common very fine roots; common fine vesicular pores; 5 percent gravel and 5 percent channers; strongly effervescent; moderately alkaline (pH 8.0); abrupt smooth boundary. (1 to 4 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 3,
+        "bottom": 10,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--1 to 4 inches; reddish yellow (7.5YR 6/6) loam, strong brown (7.5YR 5/6) moist; massive; slightly hard, very friable, slightly sticky and slightly plastic; many fine roots; common fine tubular pores; 5 percent gravel and 5 percent channers; strongly effervescent, 11 percent calcium carbonate equivalent; moderately alkaline (pH 8.0); abrupt wavy boundary. (2 to 4 inches thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 10,
+        "bottom": 25,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bk1--4 to 10 inches; pink (7.5YR 7/4) gravelly loam, brown (7.5YR 5/4) moist; massive; slightly hard, very friable, slightly sticky and slightly plastic; many fine roots; common fine tubular pores; 5 percent calcium carbonate coated gravel and 5 percent coated channers; violently effervescent, 17 percent calcium carbonate equivalent; moderately alkaline (pH 8.2); abrupt wavy boundary. (4 to 7 inches thick)"
+      },
+      {
+        "name": "Bk2",
+        "top": 25,
+        "bottom": 36,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bk2--10 to 14 inches; pink (7.5YR 7/4) loam, brown (7.5YR 5/4) moist; massive; weakly calcium carbonate cemented; massive; hard, friable, slightly sticky and slightly plastic; many fine and very fine roots; common fine and very fine tubular pores; 10 percent calcium carbonate coated channers; violently effervescent, 17 percent calcium carbonate equivalent; moderately alkaline (pH 8.4); abrupt wavy boundary. (2 to 5 inches thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 36,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "texture_class": "sand",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Cr--14 to 18 inches; very pale brown (10YR 7/4) weathered, calcareous sandstone; discontinuous thin calcium carbonate coatings on the undersides of channers and in joints; many very fine roots matted in between channers and in joints; abrupt wavy boundary. (0 to 15 inches thick)"
+      },
+      {
+        "name": "3R",
+        "top": 46,
+        "texture_class": "sand",
+        "narrative": "3R--18 inches; sandstone capped by a thin discontinuous layer of calcium carbonate."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,67 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nOchric epipedon: from 2 to 9 inches (E horizon).\nCambic horizon: from 9 to 24 inches (Bw horizon).\nParticle-size control section: the zone from 12 to 24 inches (part of the Bw horizon).\nLithic contact: at 22 inches (R layer).\nKeys to Soil Taxonomy:  Series classified according to Seventh Edition, 1996\nThe superactive CEC activity class is presumed for this series based on the general trend indicated by lab data throughout this region.\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; undecomposed organic material, principally needles, bark, twigs, and leaves."
+      },
+      {
+        "name": "Oe",
+        "top": 3,
+        "bottom": 5,
+        "narrative": "Oe--1 to 2 inches; partially decomposed organic material like that of the horizon above."
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very stony",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--2 to 9 inches; pale brown (10YR 6/3) very stony loam, brown (10YR 5/3) moist; moderate thick platy structure parting to moderate medium granular; soft, friable, nonsticky and nonplastic; 10 percent gravel, 40 percent stones; extremely acid; clear smooth boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 23,
+        "bottom": 61,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very stony",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--9 to 24 inches; reddish brown (5YR 5/4) very stony loam, reddish brown (5YR 4/4) moist; weak medium subangular blocky structure; extremely hard, friable, slightly sticky and slightly plastic; 10 percent gravel, 40 percent stones; very strongly acid; abrupt wavy boundary.  (10 to 36 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 61,
+        "narrative": "R--24 inches; granite bedrock."
+      }
+    ]
+  ]
 }

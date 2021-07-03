@@ -56,5 +56,88 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon include: an albic horizon from 0 to 1 inch;  a spodic horizon from 1 to 14 inches;  cryic temperature regime; assumed organic carbon content of greater than 6 percent in the upper 4 inches of the spodic horizon; coarse-loamy particle size from 10 to 26 inches.\nThis series could classify as a Typic Cryaquod under the 1991 revised Spodosol criteria.  This soil, however, does not exhibit the saturated conditions typical of an Aquod which is reflected in terms of forest productivity.  Redoximorphic features are present lower in the spodic horizon and the soil exhibits characteristics of somewhat poor drainage.   It is assumed the soil is not saturated to the surface nor does the capillary fringe extend to the surface during the year.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 10,
+        "bottom": 8,
+        "pH": 4,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oi -- 4 to 3 inches; forest litter and living mosses; many fine, medium and coarse roots; extremely acid (pH 4.0); clear smooth boundary."
+      },
+      {
+        "name": "Oa",
+        "top": 8,
+        "bottom": 0,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "pH": 4,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oa -- 3 to 0 inches; black (5YR 2.5/2) muck; many fine, medium and coarse roots; extremely acid (pH 4.0); abrupt smooth boundary."
+      },
+      {
+        "name": "E",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 4,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "E -- 0 to 1 inch; brown (7.5YR 4/2) silt loam; weak fine subangular blocky structure; slightly sticky and slightly plastic; many fine and medium, few coarse roots; extremely acid (pH 4.0); abrupt smooth boundary.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "Bhs",
+        "top": 3,
+        "bottom": 36,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bhs -- 1 to 14 inches; dark reddish brown (5YR 2.5/3) gravelly silt loam; weak fine subangular blocky structure; slightly sticky and slightly plastic; many fine and medium, few coarse roots; many medium distinct dark yellowish brown (10YR 4/4) mottles near base of horizon; 20 percent gravel, 10 percent cobbles; very strongly acid (pH 4.5); gradual smooth boundary.  (1 to 13 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 36,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "cobbly",
+        "pH": 5.5,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "C -- 14 to 26 inches; very dark grayish brown (10YR 3/2) cobbly silt loam;  massive; 10 percent gravel, 20 percent cobbles; common medium faint dark brown (10YR 3/3) mottles; moderately acid (pH 5.5); gradual irregular boundary.  (0 to 27 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 66,
+        "narrative": "R -- 26 inches; consolidated schist bedrock"
+      }
+    ]
+  ]
 }

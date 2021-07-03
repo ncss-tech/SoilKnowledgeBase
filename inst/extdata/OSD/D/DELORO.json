@@ -56,5 +56,62 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 2 inches (A horizon)\nArgillic horizon - the zone from 2 to 11 inches (Bt horizon)\nParalithic contact - the boundary at 11 inches (2Crt)\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Eleventh Edition, 2010\nRevised for the correlation of AZ661, 12/2008, WWJ\nRevised for the correlation of Graham County, AZ, Southwestern Part; March, 2011, WWJ\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely channery",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 2 inches; brown (7.5YR 5/4) extremely channery loam, dark reddish brown (5YR 3/4) moist; moderate fine granular structure; slightly hard, very friable, slightly sticky and slightly plastic; many fine and very fine roots; many interstitial pores; 65 percent channers; noneffervescent; neutral (pH 7.3); clear wavy boundary.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 5,
+        "bottom": 28,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "extremely channery",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--2 to 11 inches; reddish brown (5YR 4/3) extremely channery clay, dark reddish brown (5YR 3/4) moist; moderate fine granular structure; hard, friable, moderately sticky and moderately plastic; many very fine roots; many interstitial pores; common faint clay films lining pores and coating channers; 75 percent channers; noneffervescent; neutral (pH 7.2); abrupt wavy boundary.  (9 to 16 inches thick)"
+      },
+      {
+        "name": "2Crt",
+        "top": 28,
+        "bottom": 152,
+        "dry_hue": "10R",
+        "dry_value": 3,
+        "dry_chroma": 6,
+        "texture_class": "clay",
+        "narrative": "2Crt--11 to 60 inches; highly fractured, weathered phyllite; dark red (10R 3/6) clay coatings and common very fine roots in fractures."
+      }
+    ]
+  ]
 }

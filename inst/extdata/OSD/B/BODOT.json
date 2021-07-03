@@ -56,5 +56,73 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nCracks 5 to 10 mm wide: from 8 to 84 cm (AB, Bkss horizons)\nParticle size control section: The zone from 25 to 84 cm. (Bkss horizon)\nSeries control section: 0 to 109 cm (all horizons and upper 25 cm of the Cr layer)\nCracks seldom reach the surface and slickensides do not intersect.\nBodot soils have a mesic soil temperature regime and are in an ustic soil moisture regime bordering on aridic.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH": 8.3,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 8 cm; gray (5YR 5/1) clay, dark gray (5YR 4/1) moist; strong fine granular structure; hard, firm, very sticky and very plastic; slightly effervescent; moderately alkaline (pH 8.3); abrupt smooth boundary.  (5 to 13 cm thick)"
+      },
+      {
+        "name": "AB",
+        "top": 8,
+        "bottom": 15,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH": 8.3,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "AB--8 to 15 cm; gray (5YR 5/1) clay, dark gray (5YR 4/1) moist; moderate medium and coarse subangular blocky structure; very hard, very firm, very sticky and very plastic; slightly effervescent; moderately alkaline (pH 8.3); cracks 5 to 10 mm wide common; gradual smooth boundary.  (8 to 30 inches thick)"
+      },
+      {
+        "name": "Bkss",
+        "top": 15,
+        "bottom": 84,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH": 8.3,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bkss--15 to 84 cm; gray (5YR 5/1) clay, dark gray (5YR 4/1) moist; strong coarse angular blocky structure; very hard, very firm, very sticky and very plastic; strongly effervescent; moderately alkaline (pH 8.3); cracks 5 to 10 mm wide; common distinct pressure faces; gradual wavy boundary.  (25 to 75 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 84,
+        "bottom": 109,
+        "narrative": "Cr--84 to 109 cm; soft shale."
+      }
+    ]
+  ]
 }

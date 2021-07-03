@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  1.  This revision reflects a change in classification from fine-loamy, mixed, frigid Dystric Eutrochrepts to fine-loamy, mixed, superactive, frigid Dystric Eutrochrepts.  2.  The series is borderline between fine-loamy and coarse-loamy, but the majority of pedons sampled are fine-loamy.  3.  Field estimates of rock fragments are lower than expected because many fragments break down easily upon rubbing.  4.  Cultivation and erosion have destroyed most of the spodic features which were present.  5.  Additional study is needed to determine the extent of these soils that are less than 20 inches to bedrock.  6.  Diagnostic horizons and features recognized in this pedon are:\na.  Ochric Epipedon - 0 to 14 inches (Ap horizon)\nb.  Cambic horizon - 14 to 24 inches (Bw horizon)\nc.  Lithic contact - hard bedrock at 37 inches\nADDITIONAL DATA:  Source of data used in established the taxonomic class and the range in characteristics are unpublished data from the Maine Agricultural and Forest Experiment Station, and composite data from the Field Appraisal of Resource Management Systems compiled by Dr. Paul Hepler, Department of Plant and Soil Sciences, University of Maine, Orono, Maine.\nSoil Interpretation Record numbers for the Mapleton series are Mapleton, ME0025; and Mapleton, stony, ME0111.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 14 inches; dark brown (10YR 4/3) channery loam; light yellowish brown (10YR 6/4) dry; weak very fine granular structure; friable; common very fine and fine roots; 15 percent channers and 5 percent flagstones; slightly acid; clear wavy boundary.  (6 to 15 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 36,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--14 to 24 inches; yellowish brown (10YR 5/4) channery loam; weak very fine subangular blocky structure; friable; 20 percent channers; slightly alkaline; clear wavy boundary.  (7 to 18 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 61,
+        "bottom": 94,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "BC--24 to 37 inches; light olive brown (2.5Y 5/4) channery loam; weak very fine subangular blocky structure; friable; 30 percent channers; moderately alkaline; abrupt irregular boundary.  (0 to 14 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 94,
+        "narrative": "R-37 inches; hard bedrock."
+      }
+    ]
+  ]
 }

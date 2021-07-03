@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth 25 to 100 centimeters (A1, A2 horizons);\nseries control section--the zone from the surface to a depth of 150 centimeters (Ap, A1, A2, Bg, and 2Cg horizons).\nDiagnostic horizons and features recognized in this pedon:\nmollic epipedon--the zone from the surface to a depth 109 centimeters (Ap, A1, A2, and Bg horizons);\naquic moisture regime.\nVertic subgroup based on linear extensibility greater than 6.0 centimeters between the surface and a depth of 100 centimeters.\nTaxonomy version--Keys to Soil Taxonomy, 10th edition, 2006.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 25 centimeters; black (10YR 2/1) silty clay loam, very dark gray (10YR 3/1) dry; weak fine granular and weak fine subangular blocky structure; friable; many very fine roots; neutral; abrupt smooth boundary."
+      },
+      {
+        "name": "A1",
+        "top": 25,
+        "bottom": 69,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "2.5Y",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A1--25 to 69 centimeters; black (2.5Y 2.5/1) silty clay, very dark gray (10YR 3/1) dry; moderate very fine subangular blocky structure; firm; few very fine roots; common fine prominent dark reddish brown (5YR 3/4) iron concentrations; neutral; gradual smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 69,
+        "bottom": 102,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "2.5Y",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A2--69 to 102 centimeters; black (2.5Y 2/1) silty clay, very dark gray (10YR 3/1) dry; moderate medium subangular blocky structure; firm; sheen on faces of peds; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bg",
+        "top": 102,
+        "bottom": 109,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bg--102 to 109 centimeters; very dark gray (2.5Y 3/1) sandy clay loam, dark grayish brown (10YR 4/2) dry; weak medium subangular blocky structure; friable; about 2 percent gravel; neutral; gradual wavy boundary."
+      },
+      {
+        "name": "2Cg",
+        "top": 109,
+        "bottom": 203,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "coarse sand",
+        "pH_class": "slightly alkaline",
+        "narrative": "2Cg--109 to 203 centimeters; dark gray (5Y 4/1) coarse sand; single grain; loose; about 10 percent gravel; slightly effervescent; slightly alkaline."
+      }
+    ]
+  ]
 }

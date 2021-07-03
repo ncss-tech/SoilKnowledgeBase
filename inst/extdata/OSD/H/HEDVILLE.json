@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nParticle-size control section: The zone from 10 to 16 inches.  (A horizons)\nMollic epipedon: The zone from 0 to 16 inches.  (A1, A2 horizons)\nLithic contact: The contact with sandstone at 16 inches.  (R horizons)\n3/2012 JGA Updated intro paragraph, changed English measurements to metric measurements, added quadrangle and lat/long to type location, updated soil moisture regime to MO5 requirements, added mean annual soil temperature, added cobbly and stony textures to horizons, added sand content to horizon range of characteristics, changed slopes to 40 percent from 30 percent because of the 3366 15-40 percent map unit, updated mean annual precipitation, temperature, and frost free days to reflect values from 1971-2000 and\nMLRA 74, added precipitation pattern, updated geographically associated soils and distribution and extent sections to meet MO5 requirements, changed permeability to saturated hydraulic conductivity\nAdded Soil Interpretation Record clay content and sand content to \"Range In Characteristics\".\n3/2016 BKN Added south facing, linear slope and elevation of 455 meters (1,492 feet) to typical pedon. Changed datum to WGS84. Added stickiness and plasticity to horizon descriptions. Added lab data to additional data.\nKeys to Soil Taxonomy: Twelfth Edition, 2014.\nAdditional data: Kellogg Soil Survey Laboratory data is available for Pedon IDs 79KS143003 and 99KS169001.\n________________________________________\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "cf_class": "cobbly",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A1--0 to 30 centimeters (0 to 12 inches); dark grayish brown (10YR 4/2) cobbly loam, very dark brown (10YR 2/2) moist; moderate fine granular structure, upper 1 inch is very fine granular; slightly hard, very friable, nonsticky and nonplastic; many fine roots; many insect burrows and pores; 20 percent pebbles and angular cobbles of sandstone; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 30,
+        "bottom": 41,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "cf_class": "cobbly",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "A2--30 to 41 centimeters (12 to 16 inches); brown (7.5YR 4/2) cobbly loam, dark brown (7.5YR 3/2) moist; weak fine granular structure; slightly hard, very friable, nonsticky and nonplastic; many fine roots; many insect burrows; pebbles and angular cobblestones of weathered sandstone comprise 20 percent of soil mass; moderately acid; clear irregular boundary extending into cracks and pockets weathered into sandstone bedrock.  (Combined thickness of the A horizon ranges from 10 to 49 centimeters (4 to 19 inches).)"
+      },
+      {
+        "name": "R",
+        "top": 41,
+        "texture_class": "sand",
+        "narrative": "R--41 centimeters (16 inches); brown sandstone."
+      }
+    ]
+  ]
 }

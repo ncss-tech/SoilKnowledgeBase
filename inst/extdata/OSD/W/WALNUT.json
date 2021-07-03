@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Characterization data is available for the typical pedon -NSSL Pedon 91P0225. A dominance of the soils mapped Walnut have a cambic horizon and have more than 60 percent base saturation by NH4OAc in some horizon between 10 inches and paralithic contact or a maximum of 30 inches. The 8/01 revision updates classification and places this series in a superactive CEC activity class based upon NSSL Pedon 91P0225.\nDiagnostic horizons and diagnostic soil characteristics recognized in the typical pedon are:\nOchric epipedon - the zone from the surface to a depth of 9 inches (Ap1 and Ap2 horizons)\nCambic horizon - the zone from 9 to 27 inches below the surface (Bw and BC horizons)\nParalithic contact - the contact with weathered bedrock at a depth of 27 inches (upper boundary of the Cr horizon)\nADDITIONAL DATA:\nSelected NSSL data: NH4Oac\nHorizon Depth(in) Sand Silt Clay pH 1:1 H2O Base Sat.\n------- --------- ---- ---- ---- ---------- --------\nBw 9 - 21 51.8 31.9 16.3 6.2 88\nBC 21 - 27 69.0 21.9 9.1 6.1 98\nMLRA: 130 SIR: NC0289\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap1",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap1--0 to 2 inches; brown (10YR 4/3) fine sandy loam; moderate fine granular structure; very friable; common very fine roots; few fine and medium interstitial pores; few fine flakes of mica; 5 percent by volume migmatitic gneiss gravel; strongly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "Ap2",
+        "top": 5,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap2--2 to 9 inches; dark yellowish brown (10YR 4/4) fine sandy loam; common medium distinct strong brown (7.5YR 4/6) mottles in interior of peds; weak coarse granular structure; very friable; few very fine roots; few fine and medium interstitial pores and few fine and very fine tubular pores; few fine flakes of mica; 4 percent by volume migmatitic gneiss gravel; moderately acid; abrupt smooth boundary. (combined thickness of the A horizon is 2 to 10 inches.)"
+      },
+      {
+        "name": "Bw",
+        "top": 23,
+        "bottom": 53,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--9 to 21 inches; strong brown (7.5YR 4/6) loam; weak fine subangular blocky structure; very friable; few very fine roots; few fine and medium interstitial pores and few very fine and fine tubular pores; common fine flakes of mica; 1 percent by volume migmatitic gneiss gravel; slightly acid; gradual wavy boundary. (8 to 24 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 53,
+        "bottom": 69,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "BC--21 to 27 inches; strong brown (7.5YR 4/6) gravelly fine sandy loam; weak fine subangular blocky structure; very friable; few very fine roots; few fine and medium interstitial pores and few very fine and fine tubular pores; common fine flakes of mica; 28 percent by volume migmatitic gneiss gravel; slightly acid; gradual irregular boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 69,
+        "bottom": 107,
+        "narrative": "Cr--27 to 42 inches; multicolored, weathered migmatitic gneiss bedrock; partially consolidated but can be dug with difficulty with a spade."
+      }
+    ]
+  ]
 }

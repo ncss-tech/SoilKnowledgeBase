@@ -56,5 +56,61 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 2 inches (0 to 5 cm) (A horizon)\nArgillic horizon - the zone from 2 to 8 inches (5 to 20 cm) (Bt horizon)\nParalithic contact - the boundary at 8 inches (20 cm) (2Crt horizon)\nLithic contact - the boundary at 12 inches (30 cm) (2R horizon)\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, 11th  Edition, 2010\nRevised for the correlation of AZ661, 11/08, PDC\nRevised for the correlation the SDJR - MLRA 41 - Brunkcow-Chiricahua-Andrada complex, 3 to 20 percent slopes project, September 2013, LJG2\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "coarse sandy loam",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches (0 to 5 cm); brown (7.5YR 4/4) coarse sandy loam, dark brown (7.5YR 3/4) moist; moderate thick platy structure; soft, very friable, nonsticky and nonplastic; common very fine and fine roots; common fine irregular pores; noneffervescent; moderately acid (pH 6.0); abrupt smooth boundary. (1 to 3 inches and 3 to 8 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 5,
+        "bottom": 20,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "narrative": "Bt--2 to 8 inches (5 to 20 cm); reddish brown (5YR 4/4) sandy clay loam, dark reddish brown (5YR 3/4) moist; moderate medium subangular blocky structure; soft, friable, moderately sticky and moderately plastic; common very fine and fine roots; common fine irregular and tubular pores; common distinct clay films on ped faces and bridging sand grains; noneffervescent; slightly acid (pH 6.2); abrupt wavy boundar. (1 to 12 inches and 3 to 30 thick)"
+      },
+      {
+        "name": "2Crt",
+        "top": 20,
+        "bottom": 30,
+        "texture_class": "sand",
+        "narrative": "2Crt--8 to 12 inches (20 to 30 cm); partially weathered granite (grus), common distinct clay films coating the sand grains; common distinct organic stains on sand grains. (3 to 5 inches and 8 to 13 cm thick)"
+      },
+      {
+        "name": "2R",
+        "top": 30,
+        "bottom": 152,
+        "narrative": "2R--12 to 60 inches (30 to 152 cm); granite."
+      }
+    ]
+  ]
 }

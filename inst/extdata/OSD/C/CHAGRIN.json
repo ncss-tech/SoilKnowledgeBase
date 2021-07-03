@@ -56,5 +56,53 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 10 inches (Ap horizon).\nCambic horizon - the zone from 10 to 44 inches (Bw horizon).  The organic carbon content decrease irregularly with depth.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 10 inches; dark grayish brown (10YR 4/2) silt loam, light brownish gray (10YR 6/2) dry; weak fine and medium granular structure; friable; medium acid; abrupt smooth boundary.  (6 to 12 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 25,
+        "bottom": 112,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw--10 to 44 inches; yellowish brown (10YR 5/4) silt loam; weak medium subangular blocky structure that becomes coarser and less well defined with depth; friable; brown (10YR 4/3) organic stains on faces of peds and very dark grayish brown (10YR 3/2) organic stains in root channels; medium acid; gradual smooth boundary.  (14 to 40 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 112,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "narrative": "C--44 to 60 inches; brown (10YR 5/3) silt loam; massive; friable; medium acid."
+      }
+    ]
+  ]
 }

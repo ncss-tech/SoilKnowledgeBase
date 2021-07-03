@@ -56,5 +56,54 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this profile include: Permafrost at 36 inches with saturated conditions above; weighted average particle-size of coarse-loamy from 10 to 36 inches; pH greater than 5.5 (1:1,H20) from 0 to 36 inches.\nAny impact to the organic mat such as burning or clearing will alter the thermal regime of the soil. In such cases the permafrost and the water table may drop below the series control section.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt",
+        "pH_class": "moderately acid",
+        "narrative": "Oi--0 to 4 inches; black (5YR 2/1) mat of roots, slightly decomposed organic materials and charcoal; slight admixture of silt; moderately acid.  (2 to 5 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 10,
+        "bottom": 15,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--4 to 6 inches; black (5YR 2/1) mucky silt loam; weak fine granular structure; very friable, nonsticky and nonplastic; common fine roots; slightly acid; abrupt wavy boundary.  (1 to 3 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 15,
+        "bottom": 102,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "mildly alkaline",
+        "narrative": "Cg--6 to 40 inches; dark gray (N 4/ ) very fine sandy loam; weak thin platy structure; very friable, nonsticky and nonplastic; many large prominent mottles of dark brown; thin lenses of silt loam and fine sand, mostly below 24 inches; few roots; mildly alkaline.  (23 to 37 inches thick)"
+      },
+      {
+        "name": "Cf",
+        "top": 102,
+        "bottom": 152,
+        "narrative": "Cf--40 to 60 inches; permafrost (frozen at 36 inches on 8/30/59)."
+      }
+    ]
+  ]
 }

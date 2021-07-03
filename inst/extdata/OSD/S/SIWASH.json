@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic features and horizons recognized in this profile include: albic horizons from 4 to 5 inches and intermittently from 9 to 13 inches; spodic horizon from 5 to 15 inches; more than 6 percent organic carbon in the upper 4 inches of the spodic; amorphous material dominant from 4 to 15 inches; consolidated bedrock at 17 inches below the mineral surface.\nThis soil was originally defined as shallow to bedrock; the O horizon was 4 to 0 inches, and bedrock at 17 inches. When soil depth was defined as starting at the top of O horizons (when present) that changed the depth of the soil to moderately deep. This changes the description class but not the Taxonomic Class. Eight Edition of Soil Taxonomy defines Lithic subgroups in this classification starting from the top of the mineral soil surface (page 708).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "2.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 3,
+        "pH": 4.6,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi-0 to 4 inches; dark reddish brown (2.5YR 2.5/3) slightly decomposed plant material; very strongly acid (pH 4.6); abrupt smooth boundary (3 to 9 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 4,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "broken",
+        "narrative": "E--4 to 5 inch; light grayish brown (10YR 5/2) silt loam with occasional patches of very dusky red (2.5YR 2.5/2) Bhs material; weak fine subangular blocky and weak fine platy structure; very friable, nonsticky and nonplastic; common very fine, fine and medium and few coarse roots; extremely acid (pH 4.0); abrupt broken boundary.  (1 to 3 inches thick)"
+      },
+      {
+        "name": "Bhs",
+        "top": 13,
+        "bottom": 23,
+        "moist_hue": "2.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "texture_class": "very fine sandy loam",
+        "pH": 4,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bhs--5 to 9 inches; very dusky red (2.5YR 2.5/2) very fine sandy loam with occasional patches of reddish brown (5YR 4/4); moderate medium subangular blocky structure parting to strong very fine granular; friable with firm lenses and pockets, nonsticky and nonplastic; common very fine and fine roots; extremely acid (pH 4.0); abrupt irregular boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "Bs/Eb",
+        "top": 23,
+        "bottom": 33,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "pH": 4.2,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bs/Eb--9 to 13 inches; 75 percent yellowish red (5YR 4/6) and 25 percent brown (7.5YR 5/4) silt loam; moderate medium subangular blocky structure parting to strong very fine granular; friable with firm lenses and pockets, nonsticky and nonplastic; few very fine and fine roots; extremely acid (pH 4.2); abrupt wavy boundary.  (4 to 8 inches thick)"
+      },
+      {
+        "name": "Bhsb",
+        "top": 33,
+        "bottom": 38,
+        "moist_hue": "2.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bhsb--13 to 15 inches; very dusky red (2.5YR 2.5/2) sandy loam; weak medium subangular blocky structure; friable with very firm pockets and lenses, nonsticky and nonplastic; very strongly acid (pH 4.8); clear wavy boundary.  (0 to 5 inches thick)"
+      },
+      {
+        "name": "2BC",
+        "top": 38,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2BC--15 to 21 inches; dark yellowish brown (10YR 3/4) very gravelly sandy loam; weak coarse subangular blocky structure; friable, nonsticky and nonplastic; 35 percent subrounded and angular gravel and 15 percent angular cobble; moderately acid (pH 5.8); abrupt wavy boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "3R",
+        "top": 53,
+        "narrative": "3R--21 inches; hard granite bedrock."
+      }
+    ]
+  ]
 }

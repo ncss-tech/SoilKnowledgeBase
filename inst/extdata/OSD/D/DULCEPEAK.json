@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nParticle-size control section:  13 to 63 cm (Bt1, Bt2, Bt3 horizons)\nArgillic horizon:  13 to 66 cm (Bt1, Bt2, Bt3 horizons)\nLithic contact:  66 cm to sandstone bedrock (R layer)\nAbrupt textural change:  13 cm (the upper boundary of the argillic horizon)\nVertic feature:  based on estimated linear extensibility\nOther Features:  Thin Oi horizons are present in some pedons.  Rock fragments generally decrease with depth.\nDulcepeak soils have a frigid temperature regime and are in an ustic soil moisture regime with a typic subclass.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "7.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "cf_class": "very cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 13 cm; dark gray (7.5YR 4/1) very cobbly loam, black (7.5YR 2.5/1) moist; weak fine granular structure; soft very friable, nonsticky and nonplastic, many very fine roots; 20 percent subangular sandstone gravel, 20 percent angular sandstone cobbles, and 1 percent stones; neutral (pH 7.0); abrupt smooth boundary (3 to 30 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 13,
+        "bottom": 33,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--13 to 33 cm; brown (7.5YR 5/3) clay, brown (7.5YR 4/3) moist; strong fine angular block structure; hard,  firm, moderately sticky and moderately plastic; common very fine, fine and medium roots; few very fine tubular pores; many prominent clay films on ped faces; 10 percent angular sandstone cobbles; neutral (pH 6.8); clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 33,
+        "bottom": 51,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--33 to 51 cm; strong brown (7.5YR 5/6) clay, strong brown (7.5YR 4/6) moist; moderate medium and fine angular blocky structure; very hard, very firm, moderately sticky and moderately plastic; common medium and coarse roots; few very fine tubular pores; many prominent clay films on ped faces; neutral (pH 6.8); clear smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 51,
+        "bottom": 66,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt3--51 to 66 cm; brown (7.5YR 5/4) gravelly clay loam, strong brown (7.5YR 4/6) moist; moderate medium angular blocky structure; very hard,  firm, moderately sticky and moderately plastic; few medium and coarse roots; few very fine tubular pores; common distinct clay films on ped faces; 16 percent subangular sandstone gravel; neutral (pH 6.8); clear smooth boundary. (combined thickness of Bt1, Bt2, Bt3 - 23 to 83 cm)"
+      },
+      {
+        "name": "R",
+        "top": 66,
+        "texture_class": "sand",
+        "narrative": "R--66 cm; hard sandstone bedrock"
+      }
+    ]
+  ]
 }

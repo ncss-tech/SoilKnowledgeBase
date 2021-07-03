@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nParticle-size control section: The zone from 25 to 48 centimeters (10 to 19 inches).  (AC, C horizons)\nMollic epipedon: The zone from 0 to 20 centimeters (0 to 8 inches).  (A horizon)\nParalithic contact: The contact with shale bedrock at 19 inches.  (Cr horizon)\nlrr=h\nChanged \"C1\" to \"C\".\nEdited the first paragraph in the \"Range in Characteristics\".\nRemoved all soils that was not in the same family as Kipson.\nMinor edit to the \"Geographically Associated Soil\" paragraph.\nFrom the Soils Interpretation Record added, \"Frost-Free period\", \"Clay Content\" and \"Sand Content\" to the Range in Characteristics.\n06/2020 DJK\nUpdated depths to metric; updated introduction paragraph; added in lat/long for type location; added sand content, rock fragments, and CCE to RIC; added AC horizon to RIC; added precipitation pattern; updated runoff and Ksat; updated distribution and extent.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 20 centimeters (0 to 8 inches); dark gray (10YR 4/1) silty clay loam, very dark gray (10YR 3/1) moist; moderate medium and fine granular structure; slightly hard, friable; many fine and very fine roots; strong effervescence; moderately alkaline; clear smooth boundary.  (6 to 12 inches thick)"
+      },
+      {
+        "name": "AC",
+        "top": 20,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "AC--20 to 33 centimeters (8 to 13 inches); brown (10YR 5/3) silty clay loam, brown (10YR 4/3) moist; weak fine subangular blocky structure; slightly hard, friable; common fine and very fine roots; 10 percent gravel, mostly shale; violent effervescence; moderately alkaline; clear wavy boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 33,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 6,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "cf_class": "channery",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C--33 to 48 centimeters (13 to 19 inches); yellow (10YR 7/6) and very pale brown (10YR 7/3) channery silty clay loam, brownish yellow (10YR 6/6) and pale brown (10YR 6/3) moist; massive; slightly hard, friable; few fine and very fine roots; roots spread horizontally on contact with Cr horizon; 30 percent gravel, mostly shale; violent effervescence; moderately alkaline; clear smooth boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 48,
+        "bottom": 76,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "pH_class": "moderately alkaline",
+        "narrative": "Cr--48 to 76 centimeters (19 to 30 inches); very pale brown (10YR 7/4) and yellow (10YR 7/6) shale and chalky limestone; moderately alkaline."
+      }
+    ]
+  ]
 }

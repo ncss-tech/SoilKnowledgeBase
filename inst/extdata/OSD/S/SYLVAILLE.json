@@ -56,5 +56,96 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are\nMollic epipedon - 0 to 33 cm (A and 2Bt horizons)\nArgillic horizon - 13 to 33 cm (2Bt horizon)\nVitrandic properties - 0 to 13 cm (A horizon).  Satisfies all requirements for a vitrandic epipedon but lacks the necessary thickness\nParticle-size control section - 0 to 33 cm (A and 2Bt horizons)\nDensic layers - 33 to 127 cm (3Cd1, 3Cd2, and 3Cd3 horizons)\nSoil moisture regime: Xeric\n03/13:  The Loganvalley OSD was originally set up in Logan Valley, Grant County, Oregon in 2001.  The original classification of Loganvalley was Loamy-skeletal, mixed, superactive, frigid Vitrandic Argixerolls.  Minimal data was collected at the time Loganvalley was proposed and it was given a depth class of very deep.  Subsequently, during the summers 2010 and 2011, significantly more data was collected using a backhoe on Loganvalley soils in Bear Valley, Grant County, Oregon.  The additional data dictated the need to move the Loganvalley type location to Bear Valley, rename the series to Sylvaille, and reclassify the series to Loamy, mixed, superactive, frigid, shallow Typic Argixerolls.  No till was recognized in the original Logavalley OSD, but numerous backhoe excavations and geologic analysis showed till was present and needed to be recognized as Cd horizons.\nThe pronunciation of the Sylvaille series name is \"sil-vay\" - French pronunciation based on a historic French trapper.\nFrequently the soil surface this soil is littered with sub-rounded, gravel-sized fragments of shale, tuff, limestone, serpentine, and occasionally obsidian\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 5 inches (0 to 13 cm); dark brown (10YR 3/3) ashy loam, brown (10YR 5/3) dry; moderate medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; few fine and very fine roots; few fine and common very fine tubular pores; neutral (pH 7.0); clear smooth boundary.  (5 to 17 centimeters thick)"
+      },
+      {
+        "name": "2Bt",
+        "top": 13,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Bt--5 to 13 inches (13 to 33 cm); dark brown (10YR 3/3) clay loam, brown (10YR 4/3) dry; moderate medium subangular blocky structure; moderately hard, firm, moderately sticky and moderately plastic; few very fine roots; few fine and very fine tubular pores; many faint clay films on ped faces; neutral (pH 7.0); abrupt wavy boundary.  (20 to 46 centimeters thick)"
+      },
+      {
+        "name": "3Cd1",
+        "top": 33,
+        "bottom": 81,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "cf_class": "extremely gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "3Cd1--13 to 32 inches (33 to 81 cm); dark brown (10YR 3/3) dense glacial till that crushes to extremely gravelly loamy sand, brown (10YR 5/3) dry; massive; extremely hard, slightly rigid, nonsticky and nonplastic; 5 percent cobbles and 65 percent sub-rounded gravel; slightly alkaline (pH 7.6); clear wavy boundary."
+      },
+      {
+        "name": "3Cd2",
+        "top": 81,
+        "bottom": 112,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "very gravelly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "3Cd2--32 to 44 inches (81 to 112 cm); dark brown (10YR 3/3) dense glacial till that crushes to very gravelly loamy coarse sand, brown (10YR 4/3) dry; massive; very hard, extremely firm, nonsticky and nonplastic; 55 percent sub-rounded gravel; slightly alkaline (pH 7.4); clear wavy boundary."
+      },
+      {
+        "name": "3Cd3",
+        "top": 112,
+        "bottom": 127,
+        "texture_class": "coarse sand",
+        "cf_class": "very gravelly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "narrative": "3Cd3--44 to 50 inches (112 to 127 cm); variegated dense glacial till that crushes very gravelly coarse sand; massive; moderately hard, firm, nonsticky and nonplastic; 15 percent coarse gravel and 30 percent fine sub-rounded gravel; slightly alkaline (pH 7.4)."
+      }
+    ]
+  ]
 }

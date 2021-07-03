@@ -56,5 +56,44 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to a depth of 2 inches (the A horizon).\nLow chromas are not due to wetness.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0089 NEWHAN      0- 30   58- 70  200-270  47- 58     5-  75\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0089 NONE   RARE   6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0089  0-64  FS S                    0-  0  95-100  0- 0   0-  0\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0089  0-64  3.5- 7.8  0.-.5  4-16    20-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "texture_class": "fine sand",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 2 inches; grayish brown (l0YR 5/2) fine sand; single grained; loose; few fine roots; slightly alkaline; clear wavy boundary.  (0 to 3 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 5,
+        "bottom": 127,
+        "texture_class": "fine sand",
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C1--2 to 50 inches; light gray (l0YR 7/2) fine sand; single grained; loose; few fine roots in upper part of horizon; common small fragments of colored marine shells; 5 percent of the sand grains are black and dark brown; slightly alkaline; gradual wavy boundary."
+      },
+      {
+        "name": "C2",
+        "top": 127,
+        "bottom": 183,
+        "texture_class": "sand",
+        "pH_class": "slightly alkaline",
+        "narrative": "C2--50 to 72 inches; light gray (l0YR 7/2) sand; single grained; loose; about 5 percent of the grains are black and dark brown; common small, medium and large fragments of marine shells; few whole shells; slightly alkaline."
+      }
+    ]
+  ]
 }

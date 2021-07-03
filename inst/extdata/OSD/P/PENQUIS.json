@@ -56,5 +56,98 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\n1. Ochric epipedon - the zone from 0 to 20 cm (Oe and Ap horizons).\n2. Spodic horizon - the zone from 20 to 30 cm (Bs1 horizon).\n3. Lithic contact - bedrock at 84 cm.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "pH_class": "strongly acid",
+        "narrative": "Oe--0 to 3 cm; moderately decomposed needles; many very fine and fine roots; strongly acid. (0 to 3 cm thick)"
+      },
+      {
+        "name": "Ap",
+        "top": 3,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--3 to 20 cm; brown (10YR 4/3) silt loam, light yellowish brown (10YR 6/4) dry; moderate very fine and fine granular structure; very friable; many very fine common fine and medium and few coarse roots; 5 percent channers; strongly acid; abrupt smooth boundary. (0 to 30 cm thick)"
+      },
+      {
+        "name": "Bs1",
+        "top": 20,
+        "bottom": 30,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "broken",
+        "narrative": "Bs1--20 to 30 cm; yellowish red (5YR 4/6) silt loam; weak very fine granular structure; very friable; common very fine and fine and few medium and coarse roots; 10 percent channers; strongly acid; abrupt broken boundary."
+      },
+      {
+        "name": "Bs2",
+        "top": 30,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs2--30 to 38 cm; dark yellowish brown (10YR 4/4) silt loam; weak very fine granular structure; very friable; common very fine and medium and few fine roots; 10 percent channers; strongly acid; clear wavy boundary. (Combined thickness of the Bs horizon is 10 to 30 cm.)"
+      },
+      {
+        "name": "BC",
+        "top": 38,
+        "bottom": 66,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "very fine sand",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--38 to 66 cm; olive brown (2.5Y 4/4) channery silt loam; weak very fine subangular blocky structure; friable; few fine and medium and common very fine roots; 20 percent channers; some rock fragments can be crushed to very fine sand and silt; strongly acid; gradual wavy boundary. (0 to 33 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 66,
+        "bottom": 84,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "very fine sand",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--66 to 84 cm; olive (5Y 5/4) channery silt loam; weak thin platy structure; friable; few very fine and medium roots; 20 percent channers, 5 percent cobbles; some rock fragments can be crushed to very fine sand and silt; few weathered rock fragments of olive (5Y 5/3); strongly acid; abrupt wavy boundary. (0 to 43 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 84,
+        "narrative": "R--84 cm; hard bedrock."
+      }
+    ]
+  ]
 }

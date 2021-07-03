@@ -56,5 +56,135 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon:  The zone from 1 to 11 inches.  (A1 and A2 horizons)\nArgillic horizon:  The zone from 21 to 41 inches.  (Bt1 and Bt2 horizons)\nAlfic feature: a horizon above the argillic horizon with value too high for a mollic epipedon and chroma too high for an albic horizon (E horizon)\nParticle size control section:  The zone from 16 to 36 inches.  (B/E horizon and part of the Bt1 horizon)\nKeys to Soil Taxonomy:  Classified according to the Eighth Edition, 1998\nActivity class presumed from the general trend of other soils in the area.\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; undecomposed needles and twigs."
+      },
+      {
+        "name": "A1",
+        "top": 3,
+        "bottom": 18,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--1 to 7 inches; brown (7.5YR 5/2) loam, dark brown (7.5YR 3/2) moist; weak fine granular structure; soft, very friable; neutral; clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 18,
+        "bottom": 28,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--7 to 11 inches; brown (7.5YR 5/2) loam, dark brown (7.5YR 3/2) moist; weak medium subangular blocky structure that parts to moderate medium granular; slightly hard, very friable, neutral; clear smooth boundary.  (Combined thickness of the A horizons is 7 to 16 inches)"
+      },
+      {
+        "name": "E",
+        "top": 28,
+        "bottom": 41,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--11 to 16 inches; pinkish gray (7.5YR 6/2) loam, brown (7.5YR 4/4) moist; weak medium platy structure that parts to moderate medium granular; slightly hard, very friable; neutral; clear wavy boundary.  (3 to 7 inches thick)"
+      },
+      {
+        "name": "B/E",
+        "top": 41,
+        "bottom": 53,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "B/E--16 to 21 inches; light yellowish brown (10YR 6/4) clay loam, yellowish brown (10YR 5/4) moist; moderate medium subangular blocky structure; hard, friable, slightly sticky and slightly plastic; few faint clay films on faces of peds; about 20 percent of horizon is composed of diffuse tongues of material like that described in the E horizon; slightly acid; clear wavy boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 53,
+        "bottom": 104,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "cobbly",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--21 to 41 inches; light yellowish brown (10YR 6/4) cobbly clay loam, yellowish brown (10YR 5/4) moist; strong medium subangular blocky structure; hard, firm, slightly sticky and slightly plastic; many distinct clay films on faces of peds; 15 percent cobbles and stones; slightly acid; gradual wavy boundary.  (8 to 25 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 104,
+        "bottom": 124,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "cobbly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--41 to 49 inches; light yellowish brown (10YR 6/4) cobbly clay loam, yellowish brown (10YR 5/4) moist; moderate coarse subangular blocky structure; hard, friable, slightly sticky and slightly plastic; common distinct clay films on faces of peds; 25 percent cobbles and stones; slightly acid; clear wavy boundary.  (Combined thickness of the Bt horizons is 15 to 40 inches)"
+      },
+      {
+        "name": "C",
+        "top": 124,
+        "bottom": 155,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "cobbly",
+        "pH_class": "neutral",
+        "narrative": "C--49 to 61 inches; light yellowish brown (10YR 6/4) cobbly clay loam, yellowish brown (10YR 5/4) moist; massive; slightly hard, friable, slightly sticky and slightly plastic; 35 percent cobbles and stones; neutral."
+      }
+    ]
+  ]
 }

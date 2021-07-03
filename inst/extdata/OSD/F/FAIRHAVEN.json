@@ -56,5 +56,99 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 25 to 100 centimeters (A, Bw1, Bw2, and 2BC horizons);\nseries control section--the zone from the surface to a depth of 150 centimeters (Ap, A, Bw1, Bw2, 2BC, and 2C horizons).\nDiagnostic horizons and other features recognized in this pedon include:\nmollic epipedon--the zone from the surface to a depth of 38 centimeters (Ap and A horizons);\ncambic horizon--the zone from a depth of 38 to 75 centimeters (Bw horizons);\nudic moisture regime.\nCation-exchange class is inferred from lab data for similar soils in the surrounding area.\nTaxonomy version--Keys to Soil Taxonomy, ninth edition, 2003.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 23 centimeters; very dark brown (10YR 2/2) silt loam, dark brown (10YR 3/3) dry; weak fine granular structure; friable; slightly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 23,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--23 to 38 centimeters; very dark brown (10YR 2/2) silt loam, dark brown (10YR 3/3) dry; mixing of very dark grayish brown (10YR 3/2); moderate fine granular structure; friable; moderately acid; abrupt wavy boundary. (Combined thickness of the A horizon is 25 to 49 centimeters.)"
+      },
+      {
+        "name": "Bw1",
+        "top": 38,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw1--38 to 64 centimeters; brown (10YR 4/3) silt loam; weak fine and medium subangular blocky structure; friable; moderately acid; abrupt wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 64,
+        "bottom": 75,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--64 to 75 centimeters; brown (10YR 4/3) loam; weak coarse subangular blocky structure; friable; about 3 percent gravel; moderately acid; clear wavy boundary. (Combined thickness of the Bw horizon is 20 to 57 centimeters.)"
+      },
+      {
+        "name": "2BC",
+        "top": 75,
+        "bottom": 88,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2BC--75 to 88 centimeters; brown (10YR 4/3) loamy sand; single grain; loose; about 10 percent gravel; slightly acid; abrupt wavy boundary. (0 to 20 centimeters thick)"
+      },
+      {
+        "name": "2C",
+        "top": 88,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "coarse sand",
+        "cf_class": "gravelly",
+        "pH_class": "slightly alkaline",
+        "narrative": "2C--88 to 152 centimeters; brown (10YR 5/3) gravelly coarse sand; single grain; loose; about 15 percent gravel; slightly effervescent; slightly alkaline."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 4 inches (A horizon)\nCalcic horizon - the zone from 4 to 10 inches (Btk horizon)\nArgillic horizon - the zone from 4 to 10 inches (Btk horizon)\nLithic contact  the boundary at 10 inches (R horizon)\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Tenth Edition, 2006.\nUpdates and revisions for MLRA consistency, February 26, 2008, DWD.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "2.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; reddish brown (2.5YR 5/4) gravelly loam,  reddish brown (2.5YR 4/4) moist; weak fine and medium platy parting to moderate fine granular structure; slightly hard, very friable, slightly sticky and slightly plastic; few very fine interstitial pores; 14 percent gravel, 4 percent cobbles, and 4 percent stones; moderately effervescent; moderately alkaline (pH 8.2); clear smooth boundary. (1 to 4 inches thick)"
+      },
+      {
+        "name": "Btk",
+        "top": 10,
+        "bottom": 25,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Btk--4 to 10 inches; reddish brown (2.5YR 4/4) clay loam, dark reddish brown (2.5YR 3/4) moist; strong fine subangular blocky structure; hard, friable, moderately sticky and moderately plastic; few very fine and fine roots; common distinct thin clay films on faces of peds; carbonates segregated in common fine soft masses; strongly effervescent; moderately alkaline (pH 8.4); abrupt smooth boundary. (3 to 15 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 25,
+        "narrative": "R--10 inches; Chinle shale."
+      }
+    ]
+  ]
 }

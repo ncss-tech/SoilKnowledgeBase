@@ -56,5 +56,89 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This revision of December 2004 updates the taxonomic class from Fine, smectitic, frigid Vertic Paleargids based on lack of vertic features in the typical pedon and calculated linear extensibility for the typical pedon that is less than 6.0 centimeters between the soil surface and the lithic contact.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 7 inches (A1 and A2 horizons).\nPaleargids great group feature - The abrupt clay content increase of more than 15 percent at 7 inches (between the A2 and Bt1 horizons).\nArgillic horizon - The zone from 7 to 22 inches (Bt1 and Bt2 horizons).\nLithic contact - The boundary at 22 inches to underlying hard, unweathered bedrock (2R layer).\nParticle-size control section - The zone from 7 to 22 inches (Bt1 and Bt2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 2 inches; gray (10YR 6/1) clay loam, very dark grayish brown (10YR 3/2) moist; weak medium platy structure parting to weak medium subangular blocky; slightly hard, friable, slightly sticky and slightly plastic; common very fine, fine, and medium roots; many very fine and fine tubular and vesicular pores; 2 percent cobbles and 10 percent gravel; neutral (pH 7.0); clear wavy boundary.  (2 to 5 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--2 to 7 inches; light brownish gray (10YR 6/2) clay loam, very dark grayish brown (10YR 3/2) moist; moderate fine subangular blocky structure; hard, friable, moderately sticky and moderately plastic; common very fine, fine, and medium roots; many very fine and fine tubular and irregular pores; 10 percent gravel; neutral (pH 7.0); abrupt wavy boundary.  (5 to 9 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt1-- 7 to 14 inches; dark yellowish brown (10YR 4/4) clay, dark yellowish brown (10YR 4/4) moist; strong medium subangular blocky structure; very hard, very firm, very sticky and very plastic; common very fine, fine, and medium roots; many very fine and fine tubular and irregular pores; many prominent clay films on faces of peds; 10 percent gravel; neutral (pH 7.2); abrupt wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 36,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--14 to 22 inches; yellowish brown (10YR 5/6) clay, yellowish brown (10YR 5/4) moist; moderate medium subangular blocky structure; very hard, very firm, very sticky and very plastic; few very fine and fine roots; many very fine irregular pores; common prominent clay films on faces of peds; 10 percent gravel; neutral (pH 7.3); gradual wavy boundary.  (Combined thickness of the Bt horizons is 13 to 29 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 56,
+        "narrative": "2R--22 inches; volcanic rock."
+      }
+    ]
+  ]
 }

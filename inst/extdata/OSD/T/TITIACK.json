@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This revision of January 2003 updates the taxonomic class from Cindery, mesic Vitrandic Torriorthents.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 18 cm (A1, and part of A2 horizons).\nIdentifiable secondary carbonates - The zone from 25 to 38 cm (Bqk horizon).\nVitrandic intergrade properties - The zone from 38 to 76 cm (part of the 2C horizon).\nMajor lithologic discontinuity - The change to cindery material at 38 cm (2C horizon).\nParticle-size control section - The zone from 25 to 100 cm (Bqk horizon and part of the 2C horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 5 cm; grayish brown (10YR 5/2) very gravelly sandy loam, brown (7.5YR 4/4) moist; massive; soft, very friable, nonsticky and nonplastic; few very fine roots; many very fine, many fine, and common medium interstitial pores; 40 percent gravel and 5 percent cobbles; moderately alkaline (pH 8.4); clear smooth boundary.  (5 to 13 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 8.6,
+        "pH_class": "strongly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--5 to 25 cm; brown (10YR 5/3) very gravelly sandy loam, brown (10YR 4/3) moist; massive; soft, very friable, nonsticky and nonplastic; few very fine roots; common very fine, common fine, and few medium tubular pores; 45 percent gravel and 1 percent cobbles; strongly effervescent; strongly alkaline (pH 8.6); clear wavy boundary.  (10 to 25 cm thick)"
+      },
+      {
+        "name": "Bqk",
+        "top": 25,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 9.4,
+        "pH_class": "very strongly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bqk--25 to 38 cm; very pale brown (10YR 7/3) very gravelly sandy loam, yellowish brown (10YR 5/4) moist; massive; hard, firm, nonsticky and nonplastic; few very fine, few fine, and few medium roots; very few fine tubular pores and many very fine, many fine, common medium, and few coarse interstitial pores; 35 percent gravel and 20 percent cobbles; 20 percent weakly cemented durinodes; violently effervescent; secondary carbonates and opaline silica segregated as coats on rock fragments; very strongly alkaline (pH 9.4); gradual wavy boundary.  (3 to 13 cm thick)"
+      },
+      {
+        "name": "2C",
+        "top": 38,
+        "bottom": 152,
+        "dry_hue": "2.5YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "narrative": "2C--38 to 152 cm; weak red (2.5YR 5/2) gravel; about 90 percent gravel-size basaltic cinders and some cobbles; hard, firm."
+      }
+    ]
+  ]
 }

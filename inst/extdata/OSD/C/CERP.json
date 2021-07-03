@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOrganic soil material - The zone from the soil surface to 0.5 inches (Oi horizon).\nOchric epipedon - The zone from the soil surface to 8 inches (Oi, A, and BAt horizons).\nArgillic horizon - The zone from 8 to 27 inches (Bt1 and Bt2 horizons).\nLithic contact - The boundary at 27 inches to underlying hard, unweathered bedrock (R layer).\nParticle-size control section - The zone from 8 to 27 inches (Bt1 and Bt2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 1,
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oi--0 to 0.5 inches; slightly decomposed plant material composed of needles, cones, twigs, and bark; abrupt wavy boundary."
+      },
+      {
+        "name": "A",
+        "top": 1,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very stony",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0.5 to 3 inches; grayish brown (10YR 5/2) very stony sandy loam, very dark grayish brown (10YR 3/2) moist; moderate very fine and medium subangular blocky structure; hard, very friable, slightly sticky and slightly plastic; many very fine and fine roots; many very fine interstitial pores; 20 percent stones, 20 percent cobbles, and 20 percent gravel; rock fragments are serpentine, metavolcanic and quartzite; slightly acid (pH 6.5); clear wavy boundary.  (2 to 5 inches thick)"
+      },
+      {
+        "name": "BAt",
+        "top": 8,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BAt--3 to 8 inches; yellowish brown (10YR 5/4) very gravelly loam, brown (10YR 4/3) moist; moderate medium and coarse subangular blocky structure; hard, very friable, moderately sticky and slightly plastic; many very fine and fine and common medium and coarse roots; many very fine tubular pores; common faint clay films on faces of peds and lining pores; 10 percent cobbles and 50 percent gravel; rock fragments are serpentine, metavolcanic and quartzite; slightly acid (pH 6.1); clear wavy boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--8 to 22 inches; light yellowish brown (10YR 6/4) very gravelly clay loam, brown (10YR 4/3) moist; moderate coarse subangular blocky structure; hard, friable, moderately sticky and moderately plastic; many very fine, common fine and medium and few a coarse roots; many very fine interstitial and common very fine tubular pores; common faint and distinct clay films on faces of peds and lining pores; 10 percent serpentine cobbles and 40 percent serpentine gravel; slightly acid (pH 6.1); clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 56,
+        "bottom": 69,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very gravelly",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bt2--22 to 27 inches; very pale brown (10YR 7/4) very gravelly sandy clay loam, dark yellowish brown (10YR 4/4) moist, light olive brown (2.5Y 5/4) rubbed; weak medium and coarse subangular blocky structure; slightly hard, very friable, sticky and plastic; common very fine, fine and  medium roots; many very fine interstitial pores; many distinct clay films on faces of peds and lining pores; 50 percent serpentine gravel; slightly acid (pH 6.1); clear irregular boundary.  (Combined thickness of the Bt horizons is 16 to 30 inches)"
+      },
+      {
+        "name": "R",
+        "top": 69,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "narrative": "R--27 inches; hard, nearly massive serpentine; few fractures; some weathered softer pockets with few very fine and fine roots only in pockets; greenish (5G); yellowish brown (10YR 5/6) moist soil and clay films in fractures."
+      }
+    ]
+  ]
 }

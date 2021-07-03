@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nSoil is permanently submerged with brackish or salt water. The presence of sulfidic material within 50 cm of the soil surface puts these soils at risk for acid sulfate drainage if they are dredged and exposed to the air.\nDiagnostic horizons and features recognized in this pedon are:\nPeraquic feature - Positive soil water potential (permanently submerged) at the soil surface. (Under 185 cm of salt water)\nSulfidic materials - within 50 cm of the soil surface (the Oese1 and Oese2 horizons).\nHistosol - organic horizons consisting of hemic materials greater than 40 cm thick within the upper 40 cm of the soil surface.\nADDITIONAL DATA:\nNASIS Site and Pedon ID:  2013NJ029106\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "subaqueous"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oese1",
+        "top": 0,
+        "bottom": 26,
+        "moist_hue": "7.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "pH_class": "slightly alkaline",
+        "narrative": "Oese1--0 to 26 cm; black (7.5YR 2.5/1) mucky peat; 40 percent unrubbed fibers, 25 percent rubbed; strong sulfurous odor; slightly alkaline; gradual boundary."
+      },
+      {
+        "name": "Oese2",
+        "top": 26,
+        "bottom": 60,
+        "moist_hue": "2.5Y",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "pH_class": "neutral",
+        "narrative": "Oese2--26 to 60 cm; black (2.5Y 2.5/1) mucky peat; 55 percent unrubbed fibers, 20 percent rubbed; strong sulfurous odor; neutral; clear boundary."
+      },
+      {
+        "name": "Oase",
+        "top": 60,
+        "bottom": 82,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "pH_class": "neutral",
+        "narrative": "Oase--60 to 82 cm; very dark gray (2.5Y 3/1) muck; 35 percent unrubbed fibers, 15 percent rubbed; strong sulfurous odor; neutral; clear boundary."
+      },
+      {
+        "name": "Oese3",
+        "top": 82,
+        "bottom": 175,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "neutral",
+        "narrative": "Oese3--82 to 175 cm; black (10YR 2/1) mucky peat; 75 percent unrubbed fibers, 30 percent rubbed; strong sulfurous odor; neutral."
+      }
+    ]
+  ]
 }

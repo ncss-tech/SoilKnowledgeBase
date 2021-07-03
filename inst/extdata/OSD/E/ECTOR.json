@@ -56,5 +56,65 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nEdited 01/2016 (RFG-THW): Changed to tabular format. Added metric measurements. Updated competing series, geographic setting, and associated soils sections.\nDiagnostic horizons and features recognized in this pedon are:\nParticle size control section: 0 to 38 cm (0 to 15 in)\nMollic epipedon: 0 to 38 cm (0 to 15 in)  (A and Bk horizons)\nCalcic horizon: 10 to 38 cm (4 to 15 in)  (Bk and Bk portion of Rk/Bk layer)\nLithic contact: 38 cm (15 in)  (top of the R horizon)\nADDITIONAL DATA:\nThe data is supported by three KSSL pedons: 91TX043001 and 92TX043013 from Brewster County, Texas and 92TX137001 from Edwards County, Texas\nTaxonomic Version: Keys to Soil Taxonomy, Twelfth Edition, 2014\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 10 cm (0 to 4 in); dark grayish brown (10YR 4/2) very gravelly loam; very dark grayish brown (10YR 3/2) moist; moderate fine granular structure; slightly hard, friable, nonsticky and nonplastic; common fine roots; 25 percent limestone gravel, 5 percent limestone cobbles; violently effervescent; moderately alkaline; clear wavy boundary. Thickness is 5 to 38 cm (2 to 15 in)"
+      },
+      {
+        "name": "Bk",
+        "top": 10,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bk--10 to 20 cm (4 to 8 in); dark grayish brown (10YR 4/2) very gravelly loam, very dark grayish brown (10YR 3/2) moist; moderate fine and medium granular and subangular blocky structure; slightly hard, friable, nonsticky and nonplastic; 40 percent limestone gravel 15 percent limestone cobbles; the fragments of limestone are coated with secondary carbonates on the lower side; violently effervescent; moderately alkaline; abrupt irregular boundary. Thickness is 5 to 38 cm (2 to 15 in)"
+      },
+      {
+        "name": "Rk/Bk",
+        "top": 20,
+        "bottom": 38,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Rk/Bk--20 to 38 cm (8 to 15 in); fractured hard limestone with fractures less than 4 inches apart; coatings of calcium carbonate on surface of fragments; cracks and fractures are filled and partially sealed with calcium carbonate in the upper 4 inches; in some cracks a thin seam of dark earth 3 mm thick is present; moderately alkaline; gradual wavy boundary. Thickness is 0 to 30 cm (0 to 12 in)"
+      },
+      {
+        "name": "R",
+        "top": 38,
+        "bottom": 102,
+        "narrative": "R--38 to 102 cm (15 to 40 in); fractured limestone bedrock; few seams of calcium carbonate in fractures in the upper part."
+      }
+    ]
+  ]
 }

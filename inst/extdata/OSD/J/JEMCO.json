@@ -56,5 +56,124 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon:  The zone from 0 to 7 inches.  (A1 and A2 horizons)  The soil is dark enough but not thick enough for a mollic epipedon.\nArgillic horizon:  The zone from 14 to 39 inches.  (Bt1, Bt2, and 2Bt3 horizons)\nLithic contact:  Hard fractured sandstone bedrock at 39 inches.\nParticle-size control section:  The zone from 14 to 34 inches.  (Bt1 and Bt2 horizons)\nKeys to Soil Taxonomy:  Classified according to the Eighth Edition, 1998\nActivity class is presumed based on general trend of other soils in the area.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 2 inches; brown (10YR 5/3) silt loam, dark brown (7.5YR 3/2) moist; weak fine granular structure; soft, friable, nonsticky and nonplastic; neutral (pH 6.6); clear smooth boundary. (2 to 6 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 18,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--2 to 7 inches; brown (7.5YR 5/2) silt loam, dark brown (7.5YR 3/2) moist; weak medium subangular blocky structure that parts to weak fine granular; slightly hard, very friable, slightly sticky and non plastic;  slightly acid (pH 6.4); clear wavy boundary. (0 to 5 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 18,
+        "bottom": 36,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BE--7 to 14 inches; light reddish brown (5YR 6/4) loam, reddish brown (5YR 4/3) moist; weak medium subangular blocky structure; hard, very friable, slightly sticky and non plastic; slightly acid (pH 6.2); gradual wavy boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 36,
+        "bottom": 56,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--14 to 22 inches; brown (7.5YR 5/4) loam, reddish brown (5YR 4/3) moist; weak medium subangular blocky structure; hard, friable, moderately sticky and moderately plastic; few distinct clay films on faces of peds and in root channels and pores; slightly acid (pH 6.2); gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 56,
+        "bottom": 89,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--22 to 35 inches; reddish brown (5YR 5/4) clay loam, dark reddish brown (5YR 3/4) moist; moderate medium subangular blocky structure; hard, friable, very sticky and moderately plastic; few distinct clay films on faces of peds; slightly acid (pH 6.2); gradual wavy boundary."
+      },
+      {
+        "name": "2Bt3",
+        "top": 89,
+        "bottom": 99,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Bt3--35 to 39 inches; yellowish red (5YR 4/6) clay loam, yellowish red (5YR 4/6) moist; moderate medium angular blocky structure; very hard, friable, very sticky and moderately plastic; few prominent clay films on faces of peds and in pores; slightly acid (pH 6.1); abrupt wavy boundary. (combined thickness of the Bt horizons is 14 to 34 inches)"
+      },
+      {
+        "name": "2R",
+        "top": 99,
+        "texture_class": "sand",
+        "narrative": "2R--39 inches; hard fractured sandstone bedrock, weathered in upper inch."
+      }
+    ]
+  ]
 }

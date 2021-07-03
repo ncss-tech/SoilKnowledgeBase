@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from the surface to 23 inches (A, 2Bt1, and 2Bt2 horizons)\nArgillic horizon - 3 to 23 inches (2Bt1 and 2Bt2 horizons)\nSecondary carbonates - 23 to 38 inches (2Bk horizon)\nPale feature - clay increase of 23 percent between the A and the 2Bt1 horizons)\nAridic moisture regime\nParticle-size control section - 3 to 23 inches (2Bt1 and 2Bt2 horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; very dark brown (10YR 2/2) cobbly loam, dark grayish brown (10YR 4/2) dry; weak fine and medium subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; few fine and common very fine roots; few fine and common very fine tubular pores; 10 percent cobbles and 10 percent gravel; slightly alkaline (pH 7.4); abrupt smooth boundary.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "2Bt1",
+        "top": 8,
+        "bottom": 28,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "cobbly",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bt1--3 to 11 inches; dark brown (7.5YR 3/3) cobbly clay loam, brown (7.5YR 4/3) dry; moderate medium subangular blocky structure; slightly hard, friable, moderately sticky and moderately plastic; few medium, fine, and very fine roots; common very fine tubular pores; many distinct clay films on ped faces; 20 percent cobbles and 10 percent gravel; slightly alkaline (pH 7.5); clear wavy boundary."
+      },
+      {
+        "name": "2Bt2",
+        "top": 28,
+        "bottom": 58,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bt2--11 to 23 inches; dark brown (7.5YR 3/3) gravelly clay loam, brown (7.5YR 5/3) dry; moderate fine and medium subangular blocky structure; hard, firm, moderately sticky and moderately plastic; few coarse, medium, fine, and very fine roots; few fine and common very fine tubular pores; many faint clay films on ped faces; 10 percent cobbles and 15 percent gravel; slightly alkaline (pH 7.8); clear wavy boundary.  (Combined thickness of the 2Bt horizons is 12 to 25 inches)"
+      },
+      {
+        "name": "2Bk",
+        "top": 58,
+        "bottom": 97,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "cf_class": "very cobbly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Bk--23 to 38 inches; brown (10YR 4/3) very cobbly silty clay loam, pale brown (10YR 6/3) dry; moderate medium and coarse subangular blocky structure; slightly hard, friable, very sticky and moderately plastic; few very fine roots; few fine and common very fine tubular pores; strongly effervescent; lime coating all rock fragments; 35 percent cobbles and 15 percent gravel; moderately alkaline (pH 8.0); abrupt wavy boundary.  (5 to 17 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 97,
+        "narrative": "2R--38 inches; andesite"
+      }
+    ]
+  ]
 }

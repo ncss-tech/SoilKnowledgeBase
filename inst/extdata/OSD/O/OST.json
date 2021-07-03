@@ -56,5 +56,111 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon: 0 to 30 centimeters (0 to 12 inches) (Ap, Bt1)\nargillic horizon: 20 to 46 centimeters (8 to 18 inches) (Bt1, Bt2)\ncalcic horizon: 46 to 137 centimeters (18 to 54 inches) (Bk1, Bk2, BCk)\nKeys to Soil Taxonomy: Eleventh edition, 2010\nADDITIONAL DATA: Laboratory data S85KS155004 at the following site:\nhttp://ssldata.sc.egov.usda.gov/rptExecute.asp?p=12475&r=1&submit1=Get+Report\nOST SERIES\nLRR=H\n5/22/90\n1. Added \"very deep\" to the first sentence in paragraph 1.\n2. Added wet consistence to typical pedon.\n3. Added \"clay films\" to the Bt horizons.\n4. Added \"calcium carbonate equivalent to the Bt and Bk horizons.\n5. Changed \"C\" horizon to BCk horizon.\n6. Removed solum thickness from the range in characteristic.\n7. Removed non-competing series from competing paragraph.\nModified format by LRM in 2/2006 to include metric and English conversion and change permeability to saturated hydraulic conductivity.\nChanged format in competing series. Changed depths from 203 to 200 cm., changed the precipitation to mm from cm JCW 05/2011.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 20 centimeters (0 to 8 inches); dark grayish brown (10YR 4/2), interior, loam, very dark grayish brown (10YR 3/2), interior, moist; weak fine granular structure; hard, friable, slightly sticky and slightly plastic; common fine roots throughout; 21.0 percent clay; noneffervescent throughout (HCl, 1 normal); 1 percent subrounded mixed gravel; moderately alkaline; abrupt smooth boundary. (13 to 30 centimeters (5 to 12 inches) thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--20 to 30 centimeters (8 to 12 inches); brown (7.5YR 4/2), interior, loam, dark brown (7.5YR 3/2), interior, moist; weak coarse prismatic structure parting to moderate fine subangular blocky structure parting to moderate very fine subangular blocky; hard, firm, sticky and plastic; common fine roots throughout; 26.0 percent clay; few distinct continuous clay films on vertical and horizontal faces of peds; noneffervescent throughout (HCl, 1 normal); 1 percent subrounded mixed gravel; slightly alkaline; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 30,
+        "bottom": 46,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--30 to 46 centimeters (12 to 18 inches); reddish brown (5YR 5/3), interior, loam, reddish brown (5YR 4/4), interior, moist; weak coarse prismatic structure parting to moderate fine subangular blocky structure parting to moderate very fine subangular blocky; hard, firm, sticky and plastic; common fine roots throughout; 26.0 percent clay; few distinct continuous clay films on vertical and horizontal faces of peds and very few faint patchy skeletans on faces of peds and in pores; slightly effervescent throughout (HCl, 1 normal); 1 percent subrounded mixed gravel; moderately alkaline; clear wavy boundary. (Combined thickness of Bt horizons 10 to 41 centimeters (4 to 16 inches) thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 46,
+        "bottom": 58,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk1--46 to 58 centimeters (18 to 23 inches); light brown (7.5YR 6/4), interior, clay loam, reddish brown (5YR 4/4), interior, moist; weak coarse prismatic structure parting to moderate fine subangular blocky structure parting to moderate very fine subangular blocky; hard, firm, sticky and plastic; common fine roots throughout; 29.0 percent clay; common coarse irregular carbonate masses and common coarse irregular carbonate concretions; violently effervescent throughout (HCl, 1 normal); 1 percent subrounded mixed gravel; moderately alkaline; gradual wavy boundary."
+      },
+      {
+        "name": "Bk2",
+        "top": 58,
+        "bottom": 97,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk2--58 to 97 centimeters (23 to 38 inches); light brown (7.5YR 6/4), interior, clay loam, light brown (7.5YR 6/4), interior, moist; weak coarse prismatic structure parting to weak medium subangular blocky; hard, firm, sticky and plastic; common fine roots throughout; 27.0 percent clay; many coarse irregular carbonate masses throughout and many coarse irregular carbonate concretions throughout; violently effervescent throughout (HCl, 1 normal); 1 percent subrounded mixed gravel; moderately alkaline; gradual wavy boundary. (Combined thickness of Bk horizons 0 to 61 centimeters (0 to 24 inches) thick)"
+      },
+      {
+        "name": "BCk",
+        "top": 97,
+        "bottom": 137,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BCk--97 to 137 centimeters (38 to 54 inches); 50 percent pink (7.5YR 7/4), interior, and 50 percent light reddish brown (5YR 6/4), interior, loam, 50 percent light brown (7.5YR 6/4), interior, and 50 percent reddish brown (5YR 5/4), interior, moist; few fine prominent yellowish brown (10YR 5/6) moist irregular redoximorphic concentrations throughout; weak medium prismatic structure parting to moderate medium subangular blocky; hard, firm, slightly sticky and slightly plastic; 23.0 percent clay; many coarse irregular carbonate masses throughout; violently effervescent throughout (HCl, 1 normal); 1 percent subrounded mixed gravel; moderately alkaline; gradual wavy boundary. (0 to 76 centimeters (0 to 30 inches) thick)"
+      },
+      {
+        "name": "C",
+        "top": 137,
+        "bottom": 200,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "C--137 to 200 centimeters (54 to 80 inches); light gray (2.5Y 7/2), interior, loam, light brownish gray (2.5Y 6/2), interior, moist; few fine prominent yellowish brown (10YR 5/6) moist irregular redoximorphic concentrations throughout; massive; hard, friable, slightly sticky and slightly plastic; 21.0 percent clay; many coarse irregular carbonate masses throughout and many coarse irregular carbonate concretions throughout; violently effervescent throughout (HCl, 1 normal); 2 percent subrounded mixed gravel; moderately alkaline."
+      }
+    ]
+  ]
 }

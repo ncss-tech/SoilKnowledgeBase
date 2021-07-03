@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons recognized in this series are:\nOchric epipedon - the zone from the surface to approximately 6 inches (Ap, BA horizon)\nArgillic horizon - the zone from approximately 6 to 35 inches (Bt1, Bt2, and Bt3)\nKandic horizon - the zone from approximately 6 to 35 inches with low activity clay in most of the zone (Bt1, Bt2, and Bt3 horizons)\n05/06 revision was to  clean up terminolgy and insert ommissions\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; dark reddish brown (5YR 3/4) gravelly loam; weak fine granular structure; very friable; many fine and medium roots; 25 percent angular gravel; many fine pores; slightly acid; gradual wavy boundary. (2 to 6 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 8,
+        "bottom": 15,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BA--3 to 6 inches; dark reddish brown (2.5YR3/4) very gravelly loam; weak fine granular structure; very friable; common fine and few coarse roots; 40 percent quartz gravel and 10 percent quartz cobbles; very strongly acid; clear wavy boundary. (0 to 21 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 33,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--6 to 13 inches; dark red (2.5YR 3/6) clay loam; weak fine subangular blocky structure; firm; common fine and medium roots; 10 percent angular gravel; 2 percent cobbles; few distinct clay films on faces of peds; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 33,
+        "bottom": 61,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--13 to 24 inches; dark red (2.5YR 3/6) clay; moderate medium subangular blocky structure; firm; common fine and medium roots; common distinct clay films on faces of peds; few fine flakes of mica; moderately acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 61,
+        "bottom": 89,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bt3--24 to 35 inches; red (2.5YR 4/6) clay loam; moderate medium subangular blocky structure; firm; few fine roots; common distinct clay films on faces of peds; few fine flakes of mica; moderately acid; clear irregular boundary (Combined thickness of the Bt horizon is 14 to 24 inches)"
+      },
+      {
+        "name": "Cr",
+        "top": 89,
+        "bottom": 203,
+        "narrative": "Cr--35 to 80 inches; highly weathered tilted fractures amphibolite, platy rock structure, digs out easily."
+      }
+    ]
+  ]
 }

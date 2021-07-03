@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\n1. In the past Munden soils have been included with the Altavista, Bertie, Dragston, and Tetotum soils.  The May 2007 revision removes MLRA regions 133A, 152A, and 153C.\n2. Diagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon -the zone from 0 to 8 inches (Ap horizon).\nb. Argillic horizon -the zone between 8 and 32 inches (Bt horizon).\nc. Aquic feature -low chroma Fe depletions in the upper 24 inches of the\nargillic horizon (Bt3 horizon).\nSIR = VA0162\nMLRA = 153A, 153B\nREVISED = 2/7/96, MHC; 5/07, DTA\nADDITIONAL DATA: Virginia Polytechnic Institute and State University soil survey lab data shows the typical pedon of the Munden series to have a base saturation of 19.48 percent at a depth of 50 inches below the top of the argillic horizon.\nThe particle-size control section has 15.6 percent clay and 29.8 percent silt as a weighted average. Pedon sample numbers are: S74VA76-18(1-9), S76VA76-31(1-9), S77VA76-40(1-8), S77VA76-41(1-6).\nTABULAR SERIES DATA:\nSOI-5   Soil Name   Slope  Airtemp   FrFr/Seas   Precip   Elevation\nVA0162   MUNDEN      0-8    59-64     190-240    40-49      5-100\nSOI-5   FloodL FloodH   Watertable     Kind     Months   Bedrock\nVA0162   NONE   RARE     1.5-2.5     APPARENT  DEC-APR    >60\nSOI-5    Depth   Texture         3-Inch   No-10   Clay%   -CEC-\nVA0162    0-8    LS LFS           0-0    90-100   3-10      -\nVA0162    0-8    SL FSL L         0-0    90-100   4-16      -\nVA0162    8-32   SL L FSL         0-0    90-100   8-18      -\nVA0162   32-62   FSL LS S         0-0    90-100   2-12      -\nSOI-5   Depth    -pH-      O.M.   Salin   Permeab   Shnk-Swll\nVA0162   0-8    4.5-6.0   .5-1.    0-0    2.0-6.0      LOW\nVA0162   0-8    4.5-6.0   1.-2.    0-0    2.0-6.0      LOW\nVA0162   8-32   4.5-6.0   .5-1.    0-0    0.6-6.0      LOW\nVA0162  32-62   4.5-6.0   0.-.5    0-0    2.0-20       LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; dark grayish brown (10YR 4/2) fine sandy loam; weak fine granular structure; very friable; common fine roots; slightly acid; abrupt smooth boundary. (5 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--8 to 15 inches; yellowish brown (10YR 5/6) sandy loam; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; few fine roots; few faint clay films on faces of peds; many sand grains coated and bridged with clay; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 38,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--15 to 25 inches; yellowish brown (10YR 5/6) loam; moderate medium subangular blocky structure; friable, slightly sticky, slightly plastic; few fine roots; common distinct clay films on faces of peds; many sand grains coated and bridged with clay; common medium faint light brown (7.5YR 6/4) soft masses of iron accumulation; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 64,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt3--25 to 32 inches; brown (10YR 5/3) and yellowish brown (10YR 5/8) sandy loam; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; few fine roots; common fine distinct light brownish gray (10YR 6/2) iron depletions; few faint clay films on faces of peds; many sand grains coated and bridged with clay; few small pockets of sand up to 1 1/2 inches in diameter; very strongly acid; clear smooth boundary. (Combined thickness of the Bt horizons ranges from 15 to 35 inches)"
+      },
+      {
+        "name": "C",
+        "top": 81,
+        "bottom": 157,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "narrative": "C--32 to 62 inches; yellowish brown (10YR 5/8), light brownish gray (10YR 6/2), and yellowish red (5YR 5/6) sand; single grain; loose; many stained sand grains; strongly acid."
+      }
+    ]
+  ]
 }

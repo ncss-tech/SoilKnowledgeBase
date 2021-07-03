@@ -56,5 +56,72 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Soils now included with the Lauada series were previously mapped with the Fannin series. Fannin soils are greater than 60 inches to bedrock.\nRevisions made 9/07(HCD) adjusted OSD to reflect Lab Data.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to 8 inches (Oe and A horizons)\nArgillic horizon - the zone from 8 to 34 inches (Bt1 and Bt2 horizons)\nParalithic contact  contact with weathered bedrock at 34 inches (Cr horizon)\nADDITIONAL DATA: Characterization data are available from the National Soil Survey Laboratory, Lincoln, NE for the following pedons: S02NC-173-001, S02NC-173-002, S02NC173-003, S02NC-173-008 (Typical Pedon).\nNASIS Data Map Unit ID: 486597.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oe--0 to 1 inch; partially decomposed leaves, twigs, roots, and other deciduous and coniferous plant material."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--1 to 8 inches; dark yellowish brown (10YR 4/6) sandy loam; moderate medium to very coarse granular structure; very friable; common very fine to coarse roots throughout;  7 percent gravel by volume; 25 percent aerial coverage of fine and medium flakes of mica; very strongly acid; clear wavy boundary. (1 to 8 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 64,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--8 to 25 inches; red (2.5YR 4/8) sandy clay loam; moderate medium and coarse subangular blocky structure; friable; slightly sticky, slightly plastic; few distinct clay films on faces of peds; few medium and fine roots throughout;   3 percent gravel by volume; 35 to 40 percent aerial coverage of fine flakes of mica; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 64,
+        "bottom": 86,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2--25 to 34 inches; yellowish red (5YR 4/6) fine sandy loam, weak medium subangular blocky structure; friable; slightly sticky, slightly plastic; few faint clay films on faces of peds;  13 percent gravel by volume; 45 to 50 percent aerial coverage of fine and medium flakes of mica; strongly acid; abrupt wavy boundary. (Combined thickness of the Bt horizon is 12 to 30 inches)"
+      },
+      {
+        "name": "Cr",
+        "top": 86,
+        "bottom": 157,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "narrative": "Cr--34 to 62 inches; multicolored weathered mica schist bedrock with fracture intervals greater than 4 inches; moderately cemented, high excavation difficulty; common black (10YR 2/1) manganese coatings along fractures; few seams of red (2.5YR 4/6) loam along cleavage planes, strongly acid."
+      }
+    ]
+  ]
 }

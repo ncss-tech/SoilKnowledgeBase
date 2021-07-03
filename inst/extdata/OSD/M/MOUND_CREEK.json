@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 25 to 71 centimeters; series control section--the zone from the surface to a depth of 71 centimeters.\nDiagnostic horizons and features recognized in this pedon are:\nmollic epipedon--the zone from the surface to a depth of 56 centimeters (Ap and A horizon);\ncambic horizon--the zone from a depth of 56 to 71 centimeters (Bg horizon);\naquic moisture regime.\nPreviously mapped as Webster Variant.\nCation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomy versionKeys to Soil Taxonomy, tenth edition, 2006.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 25 centimeters; black (10YR 2/1) clay loam, very dark gray (10YR 3/1) dry; moderate and medium subangular blocky structure; friable; slightly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 25,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--25 to 56 centimeters; very dark gray (10YR 3/1) clay loam; dark gray (10YR 4/1) dry; moderate medium subangular blocky structure; friable; slightly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bg",
+        "top": 56,
+        "bottom": 71,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg--56 to 71 centimeters; grayish brown (2.5Y 5/2) clay loam; moderate medium subangular blocky structure; friable; common medium distinct yellowish brown (10YR 5/6) redoximorphic features; slightly acid; clear wavy boundary."
+      },
+      {
+        "name": "R",
+        "top": 71,
+        "narrative": "R--71 centimeters; pinkish red, hard quartzite bedrock."
+      }
+    ]
+  ]
 }

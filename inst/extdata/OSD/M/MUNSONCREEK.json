@@ -56,5 +56,117 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon include:\nUmbric epipedon - from 1 to 18 inches (A and AB horizons).\nCambic horizon - from 18 to 58 inches (Bw1, Bw2, and Bw3 horizons)\nAndic feature - from 1 to 10 inches (A horizon) having andic soil properties.\nParticle size control section - from 11 inches to 41 inches.\nMore than 12kg per square meter of organic carbon from 1 to 41 inches (assumed based on soil color and sampling of similar soils).\nDepths to diagnostic horizons and features are measured from the top of the first mineral layer.\nA proposal was submitted to NSSC (2000) to revise the definition of medial to also include those soil properties qualifying for the Andic subgroup under criteria #1 for andic soil properties. If accepted, medial modifiers would be used for those horizons meeting the andic subgroup criteria although not always meeting andic soil properties.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; slightly decomposed needles, leaves, twigs, roots and moss."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--1 to 10 inches; dark brown (10YR 3/3) medial silt loam, brown (10YR 4/3) dry; moderate very fine and fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine, fine, medium and coarse roots; few very fine irregular pores; 5 percent paragravel; very strongly acid (pH 4.8); clear smooth boundary. (Thickness of the A horizon is 5 to 12 inches)"
+      },
+      {
+        "name": "AB",
+        "top": 25,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "AB--10 to 18 inches; dark brown (10YR 3/3) silty clay loam, dark yellowish brown (10YR 4/4) dry; moderate fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine, fine, medium and common coarse roots; few very fine, fine and common coarse tubular pores; 5 percent paragravel; very strongly acid (pH 4.8); gradual smooth boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 46,
+        "bottom": 71,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "broken",
+        "narrative": "Bw1--18 to 28 inches; dark yellowish brown (10YR 3/4) silty clay loam, dark yellowish brown (10YR 4/4) dry; moderate fine subangular blocky structure; hard, friable, slightly sticky and moderately plastic; many very fine, fine, medium and common coarse roots; few very fine, fine and common coarse tubular pores; 5 percent paragravel; very strongly acid (pH 4.8); clear broken boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 71,
+        "bottom": 104,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH": 4.6,
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw2--28 to 41 inches; dark yellowish brown (10YR 4/4) silty clay loam, yellowish brown (10YR 5/4) dry; moderate fine and very fine subangular blocky structure; hard, friable, moderately sticky and moderately plastic; common very fine, fine, medium and few coarse roots; common fine and coarse tubular pores; 10 percent paragravel; very strongly acid (pH 4.6); gradual smooth boundary."
+      },
+      {
+        "name": "Bw3",
+        "top": 104,
+        "bottom": 147,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "cf_class": "gravelly",
+        "pH": 4.6,
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw3--41 to 58 inches; dark yellowish brown (10YR 4/6) extremely paragravelly silty clay loam, yellowish brown (10YR 5/6) dry; moderate fine and very fine subangular blocky structure; hard, friable, moderately sticky and moderately plastic; few very fine irregular pores; 55 percent paragravel and 10 percent paracobbles; very strongly acid (pH 4.6); gradual smooth boundary. (Combined thickness of the Bw horizon is 28 to 45 inches)"
+      },
+      {
+        "name": "Cr",
+        "top": 147,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt",
+        "narrative": "Cr--58 inches; light olive brown (2.5Y 5/6) fractured soft siltstone."
+      }
+    ]
+  ]
 }

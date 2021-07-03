@@ -56,5 +56,73 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nUmbric epipedon - the zone from 0 to 12 inches (A1, A2, Bt)\nAndic properties data definitions:\nP-ret: phosphate retention of the less than 2mm fraction.\nB.D.: bulk density of the less than 2mm fraction on an oven dry basis.\npH NaF: pH of soil mixed with saturated sodium floride solution.\nGlass: percent volcanic glass.\nAlo: acid-oxalate-extractable aluminum of the less than 2mm fraction.\nFeo: acid-oxalate-extractable iron of the less than 2mm fraction.\n15 bar H20: dried 1500 kPa water retention as a percent.\nData elements with a * are estimated.\nNC: not calculated.\nND: not done.\nADDITIONAL DATA:  This pedon was characterized by UC Davis in 1986, UCD Pedon #1646.  Sample number 86-049-5-1 unpublished.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "extremely cobbly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 2 inches; brown (10YR 5/3) extremely cobbly fine sandy loam, very dark grayish brown (10YR 3/2) moist; weak very fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; few very fine roots; few very fine interstitial pores; 70 percent cobbles; NaF pH 10.5; moderately acid (pH 6.0); abrupt smooth boundary.  (2 to 4 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A2--2 to 6 inches; brown (10YR 5/3) fine sandy loam, dark brown (7.5YR 3/2) moist; weak very fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; common very fine roots; few very fine interstitial pores; 10 percent gravel; NaF pH 11.0; slightly acid (pH 6.5); abrupt smooth boundary.  (2 to 6 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 15,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw--6 to 12 inches; yellowish brown (10YR 5/4) loam, dark brown (10YR 3/3) moist; moderate fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; few very fine roots; few very fine interstitial pores; 10 percent gravel; NaF pH 11.5; slightly acid (pH 6.5); abrupt smooth boundary.  (6 to 8 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 30,
+        "narrative": "2R--12 inches; hard basalt."
+      }
+    ]
+  ]
 }

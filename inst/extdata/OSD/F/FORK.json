@@ -56,5 +56,120 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The Fork soils had previously been included in mapping with the Augusta soils.\nDiagnostic horizons and features recognized in this pedon are: 1. Ochric epipedon-the zone from 0 to 9 inches (A and E horizons) 2. Argillic Horizon-the zone from 18 to 38 inches (Btg horizons) 3.  Base saturation greater than 60 percent.\nMLRA = 133A, 136, 153A, 153B\nADDITIONAL DATA:  Chemical analysis for samples from typical pedon in Louisa County, Virginia, (V.P.I. Soil Survey Laboratory Sample Nos.  534-540, 1971).  Chemical analysis of samples of one pedon in Orange County, Virginia, (V.P.I. Soil Survey Laboratory, 1970).\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0078 FORK        0-  7   57- 62  185-225  38- 42    25- 250\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0078 NONE   OCCAS  1.0-2.0  APPARENT DEC-MAR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0078  0- 9  FSL L SIL               0-  0  90-100 10-27    -\nVA0078  0- 9  LS LFS                  0-  0  90-100  2- 8    -\nVA0078  9-52  CL SCL L                0-  0  90-100 18-35    -\nVA0078 52-64  LFS SL SICL             0-  0  70-100  2-35    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0078  0- 9  4.5- 6.0  1.-3.  0- 0   2.0- 6.0  LOW\nVA0078  0- 9  4.5- 6.0  1.-3.  0- 0   6.0-  20  LOW\nVA0078  9-52  4.5- 7.3  .5-1.  0- 0   0.6- 2.0  LOW\nVA0078 52-64  6.1- 7.3  .5-1.  0- 0   0.6-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 4,
+        "bottom": 1,
+        "narrative": "0i--1.5 to 0.5 inches; undecomposed forest litter of leaves and twigs."
+      },
+      {
+        "name": "0e",
+        "top": 1,
+        "bottom": 0,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "narrative": "0e--0.5 to 0 inches; very dark grayish brown (10YR 3/2) decomposed organic matter."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 1 inch; dark grayish brown (2.5Y 4/2) fine sandy loam; weak fine granular structure; very friable; many fine roots; very strongly acid; clear smooth boundary.  (0 to 3 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 3,
+        "bottom": 23,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--1 to 9 inches; grayish brown (2.5Y 5/2) fine sandy loam; few fine faint brown (10YR 5/3) mottles; weak fine granular structure; very friable; many fine and medium roots; very strongly acid; clear smooth boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 23,
+        "bottom": 46,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BE--9 to 18 inches; light olive brown (2.5Y 5/6) clay loam; many medium distinct light brownish gray (2.5Y 6/2) mottles; moderate fine subangular blocky structure; friable; many fine and medium roots; many fine and medium pores; very strongly acid; gradual smooth boundary. (6 to 12 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 46,
+        "bottom": 76,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg1--18 to 30 inches; grayish brown (2.5Y 5/2) clay loam; many medium distinct yellowish brown (10YR 5/4) mottles; moderate medium subangular blocky structure; slightly hard, friable, slightly plastic, sticky; common fine roots; few thin patchy clay films on faces of peds; strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 76,
+        "bottom": 97,
+        "moist_hue": "N",
+        "moist_value": 6,
+        "moist_chroma": 0,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg2--30 to 38 inches; gray (N 6/0) clay loam; common medium prominent brownish yellow (10YR 6/6) mottles; moderate medium subangular blocky structure; hard, firm, sticky, plastic; thin continuous clay films on faces of peds; slightly acid; gradual smooth boundary.  (combined thickness of Btg horizon is 12 to 30 inches)"
+      },
+      {
+        "name": "BCg",
+        "top": 97,
+        "bottom": 132,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BCg--38 to 52 inches; gray (5Y 6/1) silty clay loam; common medium distinct yellowish brown (10YR 5/6) mottles; weak medium subangular blocky structure; hard, friable, slightly sticky, slightly plastic; few thin clay films on faces of peds; few bodies of clay; neutral; gradual smooth boundary.  (0 to 15 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 132,
+        "bottom": 163,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "narrative": "Cg--52 to 64 inches; gray (5Y 6/1) silty clay loam; common medium distinct light yellowish brown (10YR 6/4) and olive brown (2.5Y 4/4) mottles; massive; common fine rounded pebbles of quartz; few fine flakes of mica; neutral."
+      }
+    ]
+  ]
 }

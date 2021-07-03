@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon  are:\nOchric epipedon -\nCalcic horizon - the zone from 2 to 21 inches (the Bk, Bkq1 and Bkq2  horizons)\nLithic contact - The contact with hard bedrock at 21 inches (2R  horizon)\nParticle size control section - the zone from 10 to 21 inches (part of  the Bkq1 and the Bkq2 horizons); total clay content minus carbonate clay is less than 18 percent.\nThis soil is mapped with Atom and Coffee soils that have high SAR (13-30) in the B horizon.  This series needs to be sampled for pH and SAR for Sodic properities.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; light brownish gray (10YR 6/2) silt loam, dark brown (10YR 3/3) moist; weak thin platy structure; slightly hard, very friable, slightly sticky and slightly plastic; few very fine roots; common very fine vesicular pores; slightly effervescent (10 percent calcium carbonate equivalent); 2 percent basalt gravel, 2 percent basalt  cobbles and 2 percent basalt stones; slightly alkaline (pH 7.6); clear smooth boundary. (1 to 10 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 5,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk--2 to 7 inches; pale brown (10YR 6/3) clay loam, dark brown (10YR 4/3) moist; weak medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common fine and few very fine and medium roots; common very fine tubular pores; strongly  effervescent (20 percent calcium carbonate equivalent); 1 percent basalt gravel and 2 percent basalt cobbles; slightly alkaline (pH 7.8); clear smooth boundary. (1 to 7 inches thick)"
+      },
+      {
+        "name": "Bkq1",
+        "top": 18,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bkq1--7 to 11 inches; pale brown (10YR 6/3) loam, brown (10YR 5/3) moist; common fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine, fine and medium roots; few very fine tubular pores; common hard medium and coarse nodules or cicada krotovinas; violently effervescent (25 percent  calcium carbonate equivalent); 1 mm thick lime and silica coats on undersides of rock fragments; 2 percent basalt gravel and 5 percent basalt cobbles; slightly alkaline (pH 7.8); clear wavy boundary."
+      },
+      {
+        "name": "Bkq2",
+        "top": 28,
+        "bottom": 53,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "stony",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bkq2--11 to 21 inches; very pale brown (10YR 8/3) stony loam, pale brown (10YR 6/3) moist; massive; slightly hard, very friable, slightly sticky and slightly plastic; few very fine, fine and medium roots; common very fine tubular pores; few hard medium and coarse nodules, or cicada krotovinas; violently effervescent (25 percent calcium carbonate  equivalent); 1 mm thick lime and silica coats on undersides of rock fragments; 5 percent basalt gravel, 5 percent basalt cobbles and 10 percent basalt stones; moderately alkaline (pH 8.4); abrupt irregular boundary. (combined thickness of the Bkq horizons is 10 to 25 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 53,
+        "narrative": "2R --21 inches; fractured basalt. (4 to 20 inches between fractures)"
+      }
+    ]
+  ]
 }

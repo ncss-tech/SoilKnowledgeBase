@@ -56,5 +56,109 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon -- from 0 to 16 cm (Oi, Oe, E horizons)\nAndic soil properties -- 12 to 38 cm (E, Bw1, Bw2 horizons)\nCambic horizon -- from 16 to 38 cm (Bw1, Bw2 horizons)\nParticle-size control section -- from 37 to 112 cm (part of the Bw2, 2C1, part of the 2C2 horizons)\nSunroad soils have a frigid temperature regime and an udic moisture regime.\nTaxonomic version: Twelfth Edition, 2014\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 4,
+        "narrative": "Oi--0 to 4 cm; slightly decomposed forest litter"
+      },
+      {
+        "name": "Oe",
+        "top": 4,
+        "bottom": 12,
+        "narrative": "Oe--4 to 12 cm; moderately decomposed forest litter"
+      },
+      {
+        "name": "E",
+        "top": 12,
+        "bottom": 16,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--12 to 16 cm; very pale brown (10YR 7/3) medial sandy loam, brown (10YR 5/3) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; common very fine, fine and medium roots; common very fine irregular pores; moderately acid (pH 5.8); clear smooth boundary."
+      },
+      {
+        "name": "Bw1",
+        "top": 16,
+        "bottom": 24,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--16 to 24 cm; yellowish brown (10YR 5/4) medial sandy loam, dark yellowish brown (10YR 3/4) moist; weak fine subangular blocky structure; soft, friable, nonsticky and nonplastic; common very fine, fine and medium roots; common very fine and fine irregular pores; moderately acid (pH 6.0); clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 24,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw2--24 to 38 cm; light yellowish brown (10YR 6/4) medial sandy loam, dark yellowish brown (10YR 4/4) moist; weak fine subangular blocky structure; slightly hard, friable, nonsticky and nonplastic; common very fine, fine and medium roots; common very fine and fine irregular pores; slightly acid (pH 6.2); gradual smooth boundary."
+      },
+      {
+        "name": "2C1",
+        "top": 38,
+        "bottom": 59,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "narrative": "2C1--38 to 59 cm; very pale brown (10YR 7/3) sandy loam, brown (10YR 5/3) moist; massive; soft, very friable, nonsticky and nonplastic; common very fine roots; common very fine interstitial pores; slightly acid (pH 6.3)."
+      },
+      {
+        "name": "2C2",
+        "top": 59,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "narrative": "2C2--59 to 152 cm; very pale brown (10YR 7/3) fine sandy loam, brown (10YR 5/3) moist; soft, very friable, nonsticky and nonplastic; common very fine roots; common very fine interstitial pores; slightly acid (pH 6.4)."
+      }
+    ]
+  ]
 }

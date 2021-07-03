@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features in this pedon\nare:\nMollic epipedon - the zone from the surface of the soil to a\ndepth of 34 inches (A1, A2, Bw1, Bw2 horizons).\n\"Pachic\" feature - mollic epipedon to a depth of 34 inches.\nNATIONAL COOPERATIVE SOIL SURVEY\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "narrative": "A1--0 to 4 inches; black (10YR 2/1) loam, very dark"
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "narrative": "A2--4 to 13 inches; black (10YR 2/1) loam, very dark"
+      },
+      {
+        "name": "Bw1",
+        "top": 33,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "narrative": "Bw1--13 to 25 inches; very dark brown (10YR 2/2) loam,"
+      },
+      {
+        "name": "Bw2",
+        "top": 64,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "narrative": "Bw2--25 to 34 inches; very dark grayish brown (10YR 3/2)"
+      },
+      {
+        "name": "C1",
+        "top": 86,
+        "bottom": 104,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "cf_class": "gravelly",
+        "narrative": "C1--34 to 41 inches; dark brown (10YR 3/3) gravelly"
+      },
+      {
+        "name": "C2",
+        "top": 104,
+        "bottom": 124,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "cf_class": "gravelly",
+        "narrative": "C2--41 to 49 inches; brown (10YR 4/3) gravelly sandy"
+      },
+      {
+        "name": "Cr",
+        "top": 124,
+        "narrative": "Cr--49 inches; highly weathered quartz diorite."
+      }
+    ]
+  ]
 }

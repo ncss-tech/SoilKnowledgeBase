@@ -56,5 +56,118 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This series was formerly included with Zion, Orange, and Wynott soils. Zion soils are well drained and have a lithic contact at a depth of 20 to 40 inches. Orange soils have redoximorphic features in the upper 10 inches of the argillic horizon and have a paralithic contact at a depth of 40 to 60 inches. Wynott soils are well drained.\nDiagnostic horizons and soil characteristics recognized in this pedon are:\nOchric epipedon--the zone from the surface of the soil to a depth of 9 inches (A1 and A2 horizons)\nArgillic horizon--the zone between depths of 16 and 38 inches (Btss, BCt, and Ct horizons)\nParalithic contact--the occurrence of weathered bedrock at a depth of 38 inches (upper boundary of the Cr horizon)\nLithic contact--the occurance of unweathered bedrock at a depth of 43 inches (upper boundary of the R horizon)\nADDITIONAL DATA: Characterization data will be available from the Soil Survey Laboratory, Lincoln, Nebraska; pedon number S98NC-037-00?\nSOI-5 Soil Name  Slope  Airtemp  FrFr/Seas Precip  Elevation\nNC    PITTSBORO  2-15   57-65    170-200   41-53   200-850\nNC    PITTSBORO  2-15   57-65    170-200   41-53   200-850\nSOI-5 FloodL FloodH Watertble  Kind    Months  Bedrock Hardness\nNC    NONE          1.0-2.0    PERCH   NOV-APR 20-40   SOFT\nNC    NONE          1.0-2.0    PERCH   NOV-APR 20-40   SOFT\nSOI-5 Depth Texture             3-Inch No-10    Clay%   -CEC-\nNC    0-9   GR-L GR-SL GR-FSL   0-5    55- 90   5-20     5-15\nNC    0-9   ST-L ST-SL ST-FSL  10-25   55- 90   5-20     5-15\nNC    9-16  CL SICL L           0-10   85-100  20-35    20-40\nNC   16-33  C CL SIC            0-10   85-100  35-65    20-40\nNC   33-38  CL SICL L           0-10   85-100  18-28    20-40\nNC   38-60  WB                   -       -       -        -\nNC    0-9   SL L FSL            0-5    85-100   5-20     5-15\nNC    0-9   L SIL               0-5    90-100  10-27     5-15\nNC    0-9   CL SCL              0-5    85-100  20-35     5-15\nNC    9-16  CL SICL L           0-5    85-100  35-65    20-40\nNC   16-33  SC SCL CL           0-5    85-100  20-45    10-25\nNC   33-38  CL SICL L           0-5    85-100  18-28    20-40\nNC   38-60  WB                   -       -       -        -\nSOI-5 Depth  -pH-     -O.M.-   Salin   Permeab   Shnk-Swll\nNC    0-9   4.5-7.8  0.5-2.0   0-0     2.0-6.0   LOW\nNC    0-9   4.5-7.8  0.5-2.0   0-0     2.0-6.0   LOW\nNC    9-16  4.5-7.8    0-0.5   0-0    0.20-0.6   MODERATE\nNC   16-33  4.5-7.8    0-0.2   0-0    0.06-0.6   HIGH\nNC   33-38  5.0-8.2    0-0.2   0-0    0.20-0.6   MODERATE\nNC   38-60     -        -       -         -       -\nNC    0-9   4.5-7.8  0.5-2.0   0-0     2.0-6.0   LOW\nNC    0-9   4.5-7.8  0.5-2.0   0-0     2.0-6.0   LOW\nNC    9-16  4.5-7.8  0-0.5     0-0    0.20-0.6   MODERATE\nNC   16-33  4.5-7.8  0-0.2     0-0    0.06-0.6   HIGH\nNC   33-38  5.0-8.2  0-0.2     0-0    0.20-0.6   MODERATE\nNC   38-60     -      -         -         -       -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 5 inches; brown (10YR 4/3) gravelly sandy loam; moderate fine granular structure; friable; slightly sticky, non-plastic; many fine roots; slightly acid; abrupt smooth boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 13,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--5 to 9 inches; dark yellowish brown (10YR 4/4) gravelly loam; weak coarse granular structure; friable; slightly sticky, non-plastic; common fine roots; slightly acid; clear smooth boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 23,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BE--9 to 16 inches; yellowish brown (10YR 5/6) loam; moderate medium subangular blocky structure; friable; moderately sticky, moderately plastic; common fine roots; few distinct clay films on faces of peds; slightly acid; gradual wavy boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Btss1",
+        "top": 41,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btss1--16 to 24 inches; yellowish brown (10YR 5/6) clay; moderate medium angular blocky structure; firm; very sticky, very plastic; common fine roots; common distinct clay films on faces of peds; common distinct nonintersecting slickensides; slightly acid; clear wavy boundary."
+      },
+      {
+        "name": "Btss2",
+        "top": 61,
+        "bottom": 84,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btss2--24 to 33 inches; yellowish brown (10YR 5/6) clay; moderate medium angular blocky structure; very firm; very sticky, very plastic; common fine roots; common fine prominent black (10YR 2/1) soft masses of manganese accumulation; common distinct clay films on faces of peds; common distinct nonintersecting slickensides; neutral; clear wavy boundary. (Combined thickness of the Btss horizons is 0 to 20 inches)"
+      },
+      {
+        "name": "BCt",
+        "top": 84,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "narrative": "BCt--33 to 36 inches; yellowish brown (10YR 5/6) clay loam; weak coarse angular blocky structure; very firm; very sticky, very plastic; few fine roots; common medium prominent light gray (10YR 7/1) iron depletions in the matrix and common medium distinct grayish brown (10YR 5/2) iron depletions lining old root channels; neutral; wavy boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 91,
+        "bottom": 97,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--36 to 38 inches; yellowish brown (10YR 5/6) clay loam; massive; firm; very sticky, moderately plastic; few fine roots; neutral; abrupt wavy boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 97,
+        "bottom": 109,
+        "narrative": "Cr--38 to 43 inches; weathered moderately fractured meta-basalt."
+      },
+      {
+        "name": "R",
+        "top": 109,
+        "narrative": "R--43 inches; unweathered slightly fractured meta-basalt"
+      }
+    ]
+  ]
 }

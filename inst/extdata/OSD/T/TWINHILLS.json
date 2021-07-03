@@ -56,5 +56,83 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and other features in this pedon\n*Particle-size control section--zone from 20 to 60 cm\n*Folistic epipedon--Oe and Oa horizons\n*Andic soil properties--zone from 20 to 60 cm\n*Cambic horizon--zone from 45 to 60 cm\n*Depth to paralithic contact--60 cm\n*Depth to lithic contact--130 cm\nSee laboratory pedon number 13N0047, layer 13N00122, for a Bw horizon that has andic soil properties and amorphic mineralogy.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 7,
+        "pH": 3.8,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oe--0 to 7 cm; moderately decomposed plant material; many very fine to medium and common coarse roots; extremely acid (pH 3.8) clear smooth boundary"
+      },
+      {
+        "name": "Oa",
+        "top": 7,
+        "bottom": 20,
+        "pH": 4.7,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oa--7 to 20 cm; highly decomposed plant material; common very fine to coarse roots; very strongly acid (pH 4.7) clear smooth boundary"
+      },
+      {
+        "name": "A/B",
+        "top": 20,
+        "bottom": 45,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "very gravelly",
+        "pH": 4.1,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A/B--20 to 45 cm; very gravelly medial silt loam, matrix color 60 percent brown (7.5YR 4/2) dry, very dark brown (7.5YR 2.5/2) moist, and 40 percent brown (10YR 5/3) dry, dark brown (10YR 3/3) moist; moderate medium granular structure; slightly hard, friable, nonsticky and slightly plastic; common very fine to medium roots; 35 percent gravel and 5 percent cobbles; extremely acid (pH 4.1) clear smooth boundary"
+      },
+      {
+        "name": "Bw",
+        "top": 45,
+        "bottom": 60,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "very gravelly",
+        "pH": 3.6,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--45 to 60 cm; very gravelly medial silt loam, matrix color 70 percent brown (10YR 5/3) dry, dark brown (10YR 3/3) moist, and 30 percent yellowish brown (10YR 5/4) dry, dark yellowish brown (10YR 3/4) moist; weak fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine and fine roots; 45 percent gravel and 5 percent cobbles; extremely acid (pH 3.6) clear smooth boundary"
+      },
+      {
+        "name": "2Cr",
+        "top": 60,
+        "bottom": 130,
+        "narrative": "2Cr--60 to 130 cm; paralithic bedrock; irregular very abrupt boundary"
+      },
+      {
+        "name": "2R",
+        "top": 130,
+        "narrative": "2R--130 cm; bedrock"
+      }
+    ]
+  ]
 }

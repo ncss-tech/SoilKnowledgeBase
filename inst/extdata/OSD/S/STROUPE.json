@@ -56,5 +56,84 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nParticle size control section: 7 to 20 inches.  (Bt horizon)\nMollic epipedon: 0 to 7 inches.  (A and Bw horizons)\nArgillic horizon: 7 to 20 inches.  (Bt horizon)\nLithic contact: The contact with igneous bedrock at 30 inches\nThe assignment of the cation-exchange activity class is inferred from lab data from soil survey areas in the surrounding regions.\nAdditional data: none\nTaxonomic version: Second Edition, 1999\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "stony",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; dark brown (7.5YR 4/3) stony loam, dark brown (7.5YR 3/3) moist; moderate very fine granular structure; soft, very friable; about 60 percent cobbles, stones and gravel; neutral; clear smooth boundary. (3 to 7 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 10,
+        "bottom": 18,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very stony",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--4 to 7 inches; dark brown (7.5YR 4/3) very stony loam, dark brown (7.5YR 3/3) moist; moderate, fine subangular blocky structure; hard, very friable; few thin clay films on surfaces of peds; about 35 percent cobbles, stones and gravel; slightly alkaline; clear smooth boundary. (3 to 7 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 30,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "stony",
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--7 to 12 inches; brown (7.5YR 5/4) stony clay, brown (7.5YR 4/4) moist; weak fine prismatic structure parting to moderate, fine subangular blocky; hard, firm, sticky, and plastic; many prominent clay films on surfaces of peds; about 30 percent cobbles, stones and gravel; slightly alkaline; gradual wavy boundary. (4 to 8 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 30,
+        "bottom": 51,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "extremely stony",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--12 to 20 inches; brown (7.5YR 5/4) extremely stony clay, brown (7.5YR 4/4) moist; moderate fine subangular blocky structure; hard, slightly sticky and plastic; few small concretions and films of calcium carbonate on surfaces of peds; common distinct clay films on surfaces of peds and on rock fragments; about 70 percent stones, cobbles, and gravel; strongly effervescent; moderately alkaline; gradual wavy boundary. (6 to 12 inches thick)"
+      },
+      {
+        "name": "C/Cr",
+        "top": 51,
+        "bottom": 76,
+        "pH_class": "slightly alkaline",
+        "narrative": "C/Cr--20 to 30 inches; fractured igneous bedrock with material similar to horizon above in the cracks; slightly alkaline. (0 to 12 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 76,
+        "narrative": "R--30 inches; hard igneous bedrock."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,124 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This soil was formerly included in the Fallsington series. Laboratory data indicate a base saturation (by sum of cations) greater than 35 percent, on cropland areas, and a base saturation of less than 35 percent in woodland areas.  Scientists believe the high base saturation in this soil has been caused by long-time cropping practices (liming), and the soil would revert to a lower base saturation if the cropland areas were converted back to woodland.\nDiagnostic horizons and other diagnostic soil characteristics recognized in this pedon are:\nOchric epipedon--the zone from 3 to 6 inches (A horizon).\nAlbic horizon--the zone form 6 to 13 inches (Eg horizon)\nArgillic horizon--the zone from 13 to 25 inches (Btg horizon)\nAquic conditions--the zone from 6 inches to a depth of 80 inches is periodically saturated (endosaturation)\nSERIES INTERPRETATION RECORD(S): MD0148\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nMD0148 HURLOCK     0-  2   52- 58  190-210  42- 48     5-  80\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nMD0148 NONE            0-1.0  APPARENT DEC-MAY >-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nMD0148  0- 3  SL                      0-  0  90-100  5-12   3- 10\nMD0148  0- 3  LS                      0-  0  90-100  3- 8   3-  5\nMD0148  3-22  SL                      0-  0  90- 95  8-18   1-  5\nMD0148 22-60  S LS                    0-  0  75-100  3- 8   1-  5\nMD0148 60-66  SR VFSL SICL            0-  0  75- 95 15-30   1-  5\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nMD0148  0- 3  3.6- 5.5  .5-4.  0- 0   2.0- 6.0  LOW\nMD0148  0- 3  3.6- 5.5  .5-3.  0- 0   6.0-  20  LOW\nMD0148  3-22  3.6- 5.5  0.-.5  0- 0   2.0- 6.0  LOW\nMD0148 22-60  3.6- 5.5  0.-.5  0- 0   2.0-  20  LOW\nMD0148 60-66  3.6- 5.5  0.-.5  0- 0  0.06- 0.6  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {}
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 8,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--0 to 3 inches; moderately decomposed to slightly decomposed leaves, needles, and twigs; abrupt smooth boundary. (0 to 4 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 8,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--3 to 6 inches; black (10YR 2/1) sandy loam; weak fine granular structure; very friable; slightly sticky, slightly plastic; many very fine, fine, and medium roots; common very fine and fine irregular pores; very strongly acid; abrupt smooth boundary. (2 to 8 inches thick)"
+      },
+      {
+        "name": "Eg",
+        "top": 15,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Eg--6 to 13 inches; gray (10YR 6/1) sandy loam; weak fine subangular blocky structure; very friable; slightly sticky, slightly plastic; many fine and very fine, and few coarse and medium roots; many very fine, and common fine tubular pores; strongly acid; gradual smooth boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Btg",
+        "top": 33,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg--13 to 25 inches; gray (10YR 6/1) sandy loam; moderate medium subangular blocky structure; friable; slightly sticky, slightly plastic; common very fine and fine, and few medium roots; many very fine and common fine tubular pores; common faint and distinct clay films on faces of peds and clay bridging between sand grains; common medium prominent strong brown (7.5YR 5/8) irregularly shaped soft iron accumulations; very strongly acid; gradual wavy boundary. (10 to 28 inches thick)"
+      },
+      {
+        "name": "BCg",
+        "top": 64,
+        "bottom": 71,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BCg--25 to 28 inches; light brownish gray (10YR 6/2) loamy sand; weak medium subangular blocky structure; very friable; slightly sticky; common very fine, and few medium and fine roots; many very fine irregular pores; faint clay bridging between sand grains; common medium prominent strong brown (7.5YR 5/8) irregularly shaped soft iron accumulations; very strongly acid; clear smooth boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "Cg1",
+        "top": 71,
+        "bottom": 104,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cg1--28 to 41 inches; light brownish gray (10YR 6/2) sand; single grain; loose; few very fine and fine roots; few medium prominent strong brown (7.5YR 5/8) soft iron accumulations; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 104,
+        "bottom": 135,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cg2--41 to 53 inches; light gray (10YR 7/1) sand; single grain; loose; few very fine roots; extremely acid; clear wavy boundary."
+      },
+      {
+        "name": "Cg3",
+        "top": 135,
+        "bottom": 160,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Cg3--53 to 63 inches; gray (10YR 5/1) loamy sand; massive; very friable; many coarse prominent strong brown (7.5YR 5/8) soft iron accumulations and common medium distinct light gray (10YR 7/1) iron depletions; very strongly acid; abrupt wavy boundary. (combined thickness of the Cg horizons is 20 to 40 inches thick)"
+      },
+      {
+        "name": "2Cg4",
+        "top": 160,
+        "bottom": 175,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "very strongly acid",
+        "narrative": "2Cg4--63 to 69 inches; gray (5Y 6/1) stratified silt loam and very fine sandy loam; massive; friable; slightly sticky, slightly plastic; common fine prominent strong brown (7.5YR 5/6) soft masses of iron accumulation; very strongly acid."
+      }
+    ]
+  ]
 }

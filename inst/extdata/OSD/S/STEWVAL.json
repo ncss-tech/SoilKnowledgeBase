@@ -56,5 +56,59 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 3 cm (A horizon).\nArgillic horizon - The zone from 3 to 11 cm (Bt horizon).\nLithic contact - The boundary at 11 cm (R layer).\nParticle-size control section - The zone from the surface to 11 cm (A and Bt horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 7.7,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 cm; brown (10YR 5/3) very gravelly fine sandy loam, dark brown (10YR 3/3) moist; moderate medium platy structure; slightly hard, very friable, slightly sticky and slightly plastic; few very fine roots; common very fine vesicular and many very fine and fine interstitial pores; 45 percent gravel; slightly effervescent; slightly alkaline (pH 7.7); abrupt smooth boundary. (3 to 13 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 3,
+        "bottom": 11,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 7.7,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt--3 to 11 cm; brown (7.5YR 5/4) extremely gravelly loam, brown (7.5YR 4/4) moist; weak fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and common fine roots; many very fine interstitial pores; few faint clay films lining pores; 70 percent gravel; strongly effervescent; slightly alkaline (pH 7.7); abrupt irregular boundary. (8 to 23 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 11,
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "R--11 cm; highly fractured, hard rhyolite; few very fine and fine roots in cracks; strongly effervescent; fine discontinuous secondary silica and secondary calcium carbonate masses in cracks; clear wavy boundary."
+      }
+    ]
+  ]
 }

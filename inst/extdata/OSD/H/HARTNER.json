@@ -56,5 +56,52 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The series type location was moved to better reflect the concept. The classification is changed from Argixerolls to Torriorthents, which better represents the thin, unstable soils of the area.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 4 inches (A and C horizons).\nParalithic contact - The boundary at 4 inches to underlying soft bedrock (Cr layer).\nVitrandic intergrade feature - High volcanic glass content in the .02 to 2mm fraction from the mineral soil surface to 25 inches (A and C horizons).\nParticle-size control section - The zone from about 0 to 4 inches (A and C horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 1 inches; brown (10YR 5/3) crushed very gravelly ashy sandy loam, brown (10YR 4/3) crushed moist; weak thin platy structure; soft, very friable, nonsticky, nonplastic; few very fine roots; many very fine interstitial pores; 40 percent pebbles; neutral, (pH 7.0); clear smooth boundary. (1 to 4 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 3,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--1 to 4 inches; grayish brown (10YR 5/2) crushed gravelly ashy sandy loam, very dark grayish brown (10YR 3/2) crushed moist; massive; soft, very friable, nonsticky, nonplastic; common very fine roots; many very fine interstitial pores; 10 percent paragravel and 25 percent pebbles; neutral, (pH 7.0); clear wavy boundary. (2 to 8 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 10,
+        "bottom": 20,
+        "narrative": "Cr--4 to 8 inches; weathered and fractured tuff-breccia;"
+      }
+    ]
+  ]
 }

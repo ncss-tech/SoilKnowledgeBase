@@ -56,5 +56,109 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This revision (6/95) changes the classification from Xerollic Durargids to Xeric Argidurids according to the 1994 edition of Keys to Soil Taxonomy.  The remainder of the OSD has not been updated since 4/91.\nDiagnostic horizons and other features recognized in this pedon:\nOchric epipedon - zone 0 to 28 cm (A1 A2 and AB horizons).\nAbrupt texture change - at 28 cm; est. 16 % clay increase within 1 inch (upper boundary of Bt horizon)\nArgillic horizon and particle-size control section - zone 28 to 53 cm (Bt and Btk horizons).\nDuripan - zone 53 to 56 cm (Bkqm horizon).\nLithic contact - The boundary at 56 cm (R boundary).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "stony",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 3 cm; pale brown (10YR 6/3) stony silt loam, dark brown (10YR 3/3) moist; strong thick platy structure; slightly hard, very friable, moderately sticky and slightly plastic; common fine and medium roots; many very fine and fine, few medium tubular and vesicular pores; 10 percent gravel, 10 percent stones; neutral (pH 7.3); abrupt smooth boundary.  (3 to 10 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 3,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "stony",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--3 to 15 cm; brown (10YR 5/3) stony silt loam, dark brown (10YR 4/3) moist; weak medium and coarse subangular blocky structure; slightly hard, very friable, moderately sticky and slightly plastic; common very fine and fine, few medium roots; many very fine irregular and tubular pores; 10 percent cobbles, 10 percent stones; neutral (pH 7.2); clear smooth boundary.  (0 to 13 cm thick)"
+      },
+      {
+        "name": "AB",
+        "top": 15,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "cobbly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "AB--15 to 28 cm; pale brown (10YR 6/3) cobbly silt loam, dark brown (10YR 4/3) moist; weak medium and coarse subangular blocky structure; slightly hard, very friable, moderately sticky and slightly plastic; common very fine and fine, few medium roots; common very fine irregular and vesicular pores; 20 percent cobbles, 10 percent stones; neutral (pH 7.2); abrupt smooth boundary.  (0 to 13 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 28,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "extremely stony",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--28 to 46 cm; brown (10YR 5/4) extremely stony clay, brown (7.5YR 4/4) moist; strong fine and medium angular blocky structure; very hard, firm, moderately sticky and moderately plastic; common fine, few medium roots; common very fine and fine tubular pores; continuous prominent clay films on faces of peds and in pores; 20 percent cobbles, 50 percent stones; slightly alkaline (pH 7.4); gradual wavy boundary.  (15 to 30 cm thick)"
+      },
+      {
+        "name": "Btk",
+        "top": 46,
+        "bottom": 53,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "extremely stony",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Btk--46 to 53 cm; brown (7.5YR 5/4) extremely stony clay loam, brown (7.5YR 4/4) moist; strong fine subangular blocky structure; very hard, firm, moderately sticky and moderately plastic; few fine and medium roots; common distinct clay films on faces of peds; 20 percent cobbles, 50 percent stones; slightly effervescent; slightly alkaline (pH 7.5); abrupt wavy boundary.  (8 to 30 cm thick)"
+      },
+      {
+        "name": "Bkqm",
+        "top": 53,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 2,
+        "pH": 7.9,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bkqm--53 to 56 cm; white (10YR 8/2) continuous, indurated duripan; platy; extremely hard, very firm, brittle; moderately effervescent; slightly alkaline (pH 7.9); abrupt irregular boundary.  (1/4 to 4 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 56,
+        "narrative": "2R--56 cm; basalt."
+      }
+    ]
+  ]
 }

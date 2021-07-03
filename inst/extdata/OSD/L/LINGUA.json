@@ -56,5 +56,39 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 8 inches (A horizon).  The soil meets all requirements for the mollic epipedon, except some part of the epidpedon is moist for less than 90 days cummulative in normal years during times when the soil temperature at a depth of 20 inches is 41 degrees F.\nLithic contact - the boundary at 8 inches (R horizon)\nUstic feature -  the soil has an aridic moisture regime that borders on the ustic moisture regime.\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Eleventh Edition, 2010\nUpdate and revisions for the recorrelation of Brewster County, TX, Main Part; series updated to clarify differences between competing series June 2008, Marfa MSSL.\nRevised for the correlation of Big Bend National Park, TX, Oct. 2010, CEM\nRevised for the correlation of Presidio County, Texas ; Oct, 2012, WWJ\nADDITIONAL DATA: NSSL S94TX-43-001\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very gravelly",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 8 inches; brown (7.5YR 4/3) very gravelly sandy clay loam, dark brown (7.5YR 3/3) moist; moderate fine and medium subangular blocky structure parting to moderate fine granular; slightly hard, friable; many very fine and fine roots; 50 percent subrounded basalt gravel; noneffervescent; slightly alkaline; abrupt smooth boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 20,
+        "bottom": 152,
+        "narrative": "R-- 8 to 60 inches; unweathered basalt bedrock, noneffervescent."
+      }
+    ]
+  ]
 }

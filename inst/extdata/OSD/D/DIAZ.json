@@ -56,5 +56,108 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 3 inches (A horizon).\nArgillic horizon - The zone from 3 to 25 inches (BAt, Bt1, Bt2, and Bt3 horizons).\nLithic contact - The boundary at 25 inches to underlying hard bedrock (R layer).\nParticle-size control section - The zone from 3 to 23 inches (BAt, Bt1, and Bt2 horizons and part of the Bt3 horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "very cobbly",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; light brownish gray (10YR 6/2) very cobbly silt loam, dark grayish brown (10YR 4/2) moist; moderate medium platy structure; slightly hard, friable, slightly sticky and slightly plastic; few very fine roots; many very fine interstitial pores; 20 percent cobbles and 20 percent gravel; slightly alkaline (pH 7.5); abrupt smooth boundary.  (2 to 5 inches thick)"
+      },
+      {
+        "name": "BAt",
+        "top": 8,
+        "bottom": 18,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BAt--3 to 7 inches; brown (7.5YR 5/2) silty clay loam, brown (7.5YR 4/2) moist; moderate medium subangular blocky structure parting to strong very fine granular; slightly hard, friable, moderately sticky and moderately plastic; common very fine and fine roots; many very fine interstitial pores; few faint films on faces of peds and lining pores; slightly alkaline (pH 7.5); clear smooth boundary.  (2 to 4 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 41,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--7 to 16 inches; pinkish gray (7.5YR 6/2) silty clay, brown (7.5YR 4/2) moist; moderate coarse prismatic structure parting to moderate medium subangular blocky; very hard, firm, moderately sticky and moderately plastic; common fine and medium roots; many very fine tubular pores; many faint clay films on faces of peds and lining pores; many pressure faces; slightly effervescent; moderately alkaline (pH 8.0); clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 41,
+        "bottom": 53,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--16 to 21 inches; light brown (7.5YR 6/4) silty clay, brown (7.5YR 4/4) moist; weak fine and medium prismatic structure parting to moderate medium and coarse angular blocky; very hard, firm, very sticky and very plastic; common fine and medium roots; many very fine tubular pores; common faint and distinct clay films on faces of peds and lining pores; slightly effervescent; moderately alkaline (pH 8.0); clear smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 53,
+        "bottom": 64,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt3--21 to 25 inches; brown (7.5YR 5/4) silty clay, brown (7.5YR 4/4) moist; weak fine and medium prismatic structure parting to moderate medium and coarse angular blocky; very hard, firm, very sticky and very plastic; common very fine roots; common very fine tubular pores; common faint and distinct clay films on faces of peds and lining pores; strongly effervescent; moderately alkaline (pH 8.2); clear wavy boundary.  (Combined thickness of the Bt horizons is 18 to 36 inches.)"
+      },
+      {
+        "name": "R",
+        "top": 64,
+        "texture_class": "clay",
+        "narrative": "R--25 inches; hard platy basalt; upper 3 inches are slightly weathered and with some horizontal fractures; many discontinuous coats of opaline silica and secondary carbonates; clay films coat some horizontal fractures."
+      }
+    ]
+  ]
 }

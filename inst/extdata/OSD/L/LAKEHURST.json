@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The Lakehurst series was previously classified as Entic Haplorthods. These soils typically have a Bh horizon less than 4 inches thick or if the horizon is more than 4 inches, it fails either the physical or chemical properties defined for spodic materials.\nDiagnostic horizons and other diagnostic soil characteristics recognized in this pedon are:\nOchric epipedon--the zone from the soil surface to a depth of 3 inches (A horizon)\nAlbic horizon--the zone from 3 to 15 inches (E horizon)\nSpodic horizon--the zone from 15 to 18 inches (Bh horizon)\nAquic conditions--the zone from 18 inches to a depth of 80 inches is periodically saturated (endosaturation)\nADDITIONAL DATA:  Characterization samples; S73NJ-003-001, S73NJ-015-004, S73NJ-015-080, S94NJ-001-003, S94NJ-001-004, S94NJ-001-007, and S94NJ-001-008.\nSeries Interpretation Records: NJ0011, NJ0087, VA0200\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNJ0011 LAKEHURST   0-  5     -        -       -         -\nNJ0087 LAKEHURST   0-  5     -        -       -         -\nVA0200 LAKEHURST   0-  4   59- 66  200-240  40- 52     2-  20\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNJ0011 NONE          1.5-3.5  APPARENT JAN-APR  >60\nNJ0087 NONE          1.5-2.5  PERCHED  JAN-APR  >60\nVA0200 NONE          1.5-3.0  APPARENT NOV-MAY  >60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNJ0011  0-15  S FS                    0-  0  95-100  1- 4    -\nNJ0011 15-36  S FS LS                 0-  0  95-100  1-10    -\nNJ0011 36-60  S GR-S SL               0-  0  70-100  2-10    -\nNJ0087  0-15  S FS                    0-  0  95-100  0- 4    -\nNJ0087 15-40  S FS LS                 0-  0  95-100  0-10    -\nNJ0087 40-60  SCL SC                  0-  0  85-100 20-40    -\nVA0200  0- 4  S FS                    0-  0 100-100  0- 2    -\nVA0200  4-72  S FS                    0-  0 100-100  0- 4    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNJ0011  0-15  3.6- 5.0    -    0- 0   6.0-  20  LOW\nNJ0011 15-36  3.6- 5.0    -    0- 0   6.0-  20  LOW\nNJ0011 36-60  3.6- 5.0    -    0- 0   6.0-  20  LOW\nNJ0087  0-15  3.6- 5.0  1.-3.  0- 0   6.0-  20  LOW\nNJ0087 15-40  3.6- 5.0    -    0- 0   6.0-  20  LOW\nNJ0087 40-60  3.6- 5.0    -    0- 0   0.0- 0.2  MODERATE\nVA0200  0- 4  3.6- 5.0  .5-2.  0- 0    20-  20  LOW\nVA0200  4-72  3.6- 5.0  0.-.5  0- 0    20-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {}
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "narrative": "A--0 to 3 inches; dark gray (10YR 4/1) sand; single grain; loose; many fine roots; very strongly acid; clear boundary. (0 to 4 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "E--3 to 15 inches; gray (10YR 6/1) sand; single grain; loose; few quartzose pebbles; very strongly acid; abrupt irregular boundary. (6 to 24 inches thick)"
+      },
+      {
+        "name": "Bh",
+        "top": 38,
+        "bottom": 46,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bh--15 to 18 inches; dark brown (7.5YR 3/4) loamy sand; single grain; loose; 5 percent, by volume, firm irregular nodules up to 2 inches in diameter; very strongly acid; clear irregular boundary roughly concentric with the overlying boundary. (1 to 10 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 46,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BC--18 to 36 inches; yellowish brown (10YR 5/6) sand; single grain; loose; few firm nodules; common medium faint grayish brown (10YR 5/2) iron depletions in lower part; very strongly acid; gradual smooth boundary. (0 to 24 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 91,
+        "bottom": 165,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "narrative": "C--36 to 65 inches; pale brown (10YR 6/3) sand; single grain; loose; very strongly acid."
+      }
+    ]
+  ]
 }

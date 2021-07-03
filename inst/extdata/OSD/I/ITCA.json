@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 23 cm (A1 and A2 horizons).\nArgillic horizon - The zone from 23 to 43 cm (Bt1 and Bt2 horizons).\nLithic contact - The boundary at 43 cm to underlying hard bedrock (R layer).\nParticle-size control section - The zone from 23 to 43 cm (Bt1 and Bt2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely stony",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 15 cm; grayish brown (10YR 5/2) extremely stony loam, very dark grayish brown (10YR 3/2) moist; weak thick platy structure parting to weak very fine granular; slightly hard, very friable, slightly sticky and nonplastic; many very fine and few fine roots; many fine interstitial pores; 30 percent gravel, 15 percent cobbles, and 15 percent stones; neutral (pH 7.2); clear wavy boundary. (3 to 18 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 15,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--15 to 23 cm; brown (10YR 5/3) gravelly sandy loam, dark brown (10YR 3/3) moist; moderate medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common fine and medium roots; common fine interstitial pores; 20 percent gravel and 5 percent cobbles; slightly alkaline (pH 7.4); abrupt wavy boundary. (0 to 15 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 23,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bt1--23 to 33 cm; pale brown (10YR 6/3) very gravelly clay loam, brown (10YR 4/3) moist; weak medium prismatic structure parting to moderate medium subangular blocky; slightly hard, friable, very sticky and very plastic; common fine and few medium and coarse roots; common fine interstitial pores; many faint clay films lining pores and on faces of peds; 25 percent gravel and 15 percent cobbles; slightly alkaline (pH 7.4); clear irregular boundary. (8 to 23 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 33,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "very cobbly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "broken",
+        "narrative": "Bt2--33 to 43 cm; light yellowish brown (10YR 6/4) very cobbly clay, dark yellowish brown (10YR 4/4) moist; moderate medium prismatic structure; hard, firm, very sticky and very plastic; few fine, medium and coarse roots; few fine tubular pores; common distinct clay films lining pores and on faces of peds; 20 percent gravel, 20 percent cobbles, and 10 percent stones; slightly alkaline (pH 7.4); abrupt broken boundary. (8 to 25 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 43,
+        "narrative": "R--43 cm; hard, fractured andesite."
+      }
+    ]
+  ]
 }

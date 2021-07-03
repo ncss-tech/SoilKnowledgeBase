@@ -56,5 +56,78 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon - the zone from 0 to 9 inches (Ap and E horizons).\nb. Cambic horizon - the zone from 9 to 18 inches (Bw horizon).\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name  Slope  Airtemp  FrFr/Seas  Precip  Elevation\nVA0008 ASHLAR     0-70   57-62    185-210    38-48   300-1200\nVA0123 ASHLAR     0-45   57-62    180-210    38-48   250- 900\nVA0230 ASHLAR     0-70   57-62    185-210    38-48   300-1200\nVA0237 ASHLAR     0-45   57-62    185-210    38-48   300-1200\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0008 NONE          >6.0                -     20-40   HARD\nVA0123 NONE          >6.0                -     22-40   HARD\nVA0230 NONE          >6.0                -     20-40   HARD\nVA0237 NONE          >6.0                -     20-40   HARD\nSOI-5  Depth  Texture             3-Inch  No-10    Clay%   -CEC-\nVA0008  0-18  SL FSL               0- 2   75-100   5-15     -\nVA0008 18-34  SL FSL GR-SL         0- 8   50-100   5-15     -\nVA0008 34-38  UWB                   -       -       -       -\nVA0123  0-18  ST-SL ST-FSL         0- 5   65- 95   5-15     -\nVA0123 18-34  SL FSL GR-SL         0-10   50- 90   5-15     -\nVA0123 34-44  UWB                   -       -       -       -\nVA0230  0-18  GR-SL GR-FSL         0- 2   50- 75   5-15     -\nVA0230  0-18  GR-COS GR-LCOS       0- 2   50- 75   2-10     -\nVA0230 18-34  SL FSL GR-SL         0- 8   50-100   5-15     -\nVA0230 34-44  UWB                   -       -       -       -\nVA0237  0-18  LCOS COS             0- 2   75- 95   5-15     -\nVA0237 18-34  SL FSL GR-SL         2- 8   50- 90   5-15     -\nVA0237 34-44  UWB                   -       -       -       -\nSOI-5  Depth     -pH-     O.M    Salin  Permeab    Shnk-Swll\nVA0008  0-18   4.5-6.0   .5-1.   0-0    2.0- 6.0    LOW\nVA0008 18-34   4.5-5.5   0.-.5   0-0    2.0- 6.0    LOW\nVA0008 34-38      -        -      -        -\nVA0123  0-18   4.5-6.0   .5-1.   0-0    2.0- 6.0    LOW\nVA0123 18-34   4.5-5.5   0.-.5   0-0    2.0- 6.0    LOW\nVA0123 34-44      -        -      -    0.00-0.01\nVA0230  0-18   4.5-6.0   .5-1.   0-0    2.0- 6.0    LOW\nVA0230  0-18   4.5-6.0   .5-1.   0-0    2.0- 6.0    LOW\nVA0230 18-34   4.5-5.5   0.-.5   0-0    2.0- 6.0    LOW\nVA0230 34-44      -        -      -        -\nVA0237  0-18   4.5-6.0   .5-1.   0-0    2.0- 6.0    LOW\nVA0237 18-34   4.5-5.5   0.-.5   0-0    2.0- 6.0    LOW\nVA0237 34-44      -        -      -     0.0-0.01\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 5,
+        "bottom": 0,
+        "narrative": "Oi--2 to 0 inches; partially decomposed organic material."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; very dark grayish brown (l0YR3/2) sandy loam; weak very fine granular structure; very friable; many fine roots; few fine flakes of mica; moderately acid; clear smooth boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 23,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--3 to 9 inches; grayish brown (l0YR5/2) sandy loam; weak fine granular structure; very friable; many fine roots; common fine and medium pores; 2 percent angular quartz gravel; few fine flakes of mica; moderately acid; abrupt wavy boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 23,
+        "bottom": 46,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--9 to 18 inches; yellowish brown (l0YR5/4) sandy loam; weak fine and medium subangular blocky structure parting to moderate fine granular; very friable; many fine and medium roots; few fine and medium pores; few fine flakes of mica; strongly acid; gradual wavy boundary. (8 to 23 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 46,
+        "bottom": 66,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C--18 to 26 inches; brown (l0YR5/3) sandy loam; common medium distinct light brown (7.5YR6/4) mottles; massive; firm in place, very friable when dug out; few hard fragments of rock; few fine flakes of mica; very strongly acid; gradual wavy boundary. (0 to 12 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 66,
+        "bottom": 86,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "diffuse",
+        "topography": "wavy",
+        "narrative": "Cr--26 to 34 inches; multicolored in shades of brown, yellow, white and black strongly weathered granite easily crushed to gravelly sandy loam; firm in place; few fine flakes of mica; very strongly acid; diffuse wavy boundary. (0 to 12 inches)"
+      },
+      {
+        "name": "R",
+        "top": 86,
+        "narrative": "R--34 inches; hard granitic gneiss."
+      }
+    ]
+  ]
 }

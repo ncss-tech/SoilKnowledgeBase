@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Davie series was formerly included with the Sedgefield series but was established to cover those soils now considered a mesic temperature regime.\nDiagnostic horizons recognized in this pedon are:\nOchric epipedon - the zone from the soil surface to a depth of 9 inches.\nArgillic horizon - the zone from 9 to 34 inches below the surface.\nAquultic features - gray redox depletions in the upper 10 inches of the argillic horizon (Bt1).\nSIR = NC0099 MLRA = 136\nADDITIONAL DATA:\nDatabase Information:\nTypical Pedon Data Mapunit ID--546049\nBenchmark Status: No\nTABULAR SERIES DATA:\nSOI-5......Soil Name . Slope . Airtemp . FrFr/Seas . Precip  .Elevation\nNC0099...Davie......... .0-10.....58-66.....180-225. . ...40-60.. ..400-800\nSOI-5........FloodL . FloodH . Watertable  . .Kind...........Months......Bedrock . Hardness\nNC0099.....NONE........... . . ..1.0-1.5... . ..PERCHED   JAN-MAR   >60\nSOI-5   Depth  Texture         3-Inch  No-10    Clay%   -CEC-\nNC0099  0-13   LS              0-5     85-100   3-10    2-10\nNC0099  0-13   FSL SL L        0-5     85-100   8-20    4-15\nNC0099  0-13   SCL             0-5     85-100  20-35   10-25\nNC0099 13-33   SC CL C         0-5     95-100  35-60   15-35\nNC0099 33-37   SL SCL CL       0-5     90-100  10-35    4-20\nNC0099 37-65   VAR              -        -       -       -\nSOI-5   Depth    -pH-     O.M.   Salin  Permeab   Shnk-Swll\nNC0099  0-13   4.5-6.5   .5-2.   0-0    2.0-6.0   LOW\nNC0099  0-13   4.5-6.5   .5-2.   0-0    2.0-6.0   LOW\nNC0099  0-13   4.5-6.5   .5-2.   0-0    0.6-2.0   LOW\nNC0099 13-33   4.5-6.5   0.-.5   0-0   0.06-0.2   HIGH\nNC0099 33-37   5.6-8.4   0.-.5   0-0    0.6-2.0   MODERATE\nNC0099 37-65      -        -      -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 9 inches; brown (10YR 4/3) sandy loam; weak fine granular structure; very friable; many fine and medium roots; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt1",
+        "top": 23,
+        "bottom": 48,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--9 to 19 inches; strong brown (7.5YR 5/8) clay; weak medium subangular blocky structure; firm; sticky, plastic; common fine and medium roots; few distinct clay films on faces of peds; few medium prominent light brownish gray (10YR 6/2) iron depletions; common fine and medium and few coarse black concretions; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 48,
+        "bottom": 74,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--19 to 29 inches; strong brown (7.5YR 5/8) clay; moderate medium subangular blocky structure; very firm; very sticky, very plastic; common fine and few medium roots; few distinct clay films on faces of peds; common coarse prominent olive gray (5Y 5/2) iron depletions; common fine and medium and few coarse black concretions; neutral; clear smooth boundary."
+      },
+      {
+        "name": "BC",
+        "top": 74,
+        "bottom": 86,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BC--29 to 34 inches; strong brown (7.5YR 5/8) clay loam; weak fine subangular blocky structure; firm; slightly sticky, slightly plastic; common medium prominent gray (10YR 6/1) iron depletions; common fine and medium black concretions; neutral; clear smooth boundary."
+      },
+      {
+        "name": "C",
+        "top": 86,
+        "bottom": 152,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "neutral",
+        "narrative": "C--34 to 60 inches; mottled strong brown (7.5YR 5/8), pale brown (10YR 6/3) and gray (10YR 6/1) sandy clay loam saprolite; massive; friable; few fine black concretions; neutral."
+      }
+    ]
+  ]
 }

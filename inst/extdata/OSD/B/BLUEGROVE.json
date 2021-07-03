@@ -56,5 +56,74 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Changed to tabular format and included metric values (RFG-10/2013)\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 20 cm (0 to 8 in). (A horizon)\nArgillic horizon - the zone from 20 to 86 cm (8 to 34 in). (Bt1 and Bt2 horizons)\nParalithic contact: 86 cm (34 in).  (Top of Cr horizon)\nParalithic material at 86 to 163 cm (34 to 64 in). (Cr horizon)\nThe increase in clay from the A to the Bt horizons is insufficient for an abrupt textural change.\nADDITIONAL DATA: NSSL characterization data from Young County, Texas; S92TX-503-007.\nTaxanomic version: Keys to Soil Taxonomy, Eleventh Edition, 2010\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 20 cm (0 to 8 in); brown (7.5YR 5/4) loam, brown (7.5YR 4/4) moist; weak medium granular structure; slightly hard, very friable; common very fine and fine roots; common fine irregular pores; slightly acid; abrupt smooth boundary. 10 to 30 cm (4 to 12 in) thick"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 61,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "Bt1--20 to 61 cm (8 to 24 in); reddish brown (5YR 4/4) clay loam, dark reddish brown (5YR 3/4) moist; moderate fine and medium subangular blocky structure; hard, firm; common very fine and fine roots; many very fine pores; common iron-manganese concretions; few wormcasts; thin continuous clay films on surface of peds; slightly acid; gradual irregular boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 61,
+        "bottom": 86,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bt2--61 to 86 cm (24 to 34 in); reddish brown (5YR 5/4) clay loam, reddish brown (5YR 4/4) moist; few distinct yellowish brown (10YR 5/4) iron accumulations with sharp boundaries in the matrix; moderate fine and medium subangular blocky structure; hard, firm; common fine pores; common fine iron-manganese concretions; few wormcasts; thin patchy clay films on surfaces of peds; few fine fragments of sandstone; neutral; clear irregular boundary. Combined thickness of the Bt horizons is 30 to 91 cm (12 to 36 in)."
+      },
+      {
+        "name": "Cr",
+        "top": 86,
+        "bottom": 163,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "texture_class": "sand",
+        "narrative": "Cr--86 to 163 cm (34 to 64 in); light gray (2.5Y 7/2) weakly cemented sandstone."
+      }
+    ]
+  ]
 }

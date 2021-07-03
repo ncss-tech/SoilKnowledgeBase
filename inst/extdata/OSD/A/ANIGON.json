@@ -56,5 +56,115 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons recognized in this pedon are:\nParticle size control section - the zone from 14 to 40 inches.\nOchric epipedon - the zone from 0 to 14 inches (Ap, E).\nAlbic horizon - the sone from 10 to 14 inches (E).\nGlossic horizon - the zone from 14 to 20 inches (B/E).\nArgillic horizon - the zone from 14 to 34 inches (B/E, Bt1, 2Bt2).\nTransition zone - the zone between the silty mantle and sandy outwash from 30 to 34 inches (2Bt2).\nLithologic discontinuity - at the upper boundary of the 2Bt2 horizon at 30 inches and at the upper boundary of the 3C1 horizon at 34 inches.\nADDITIONAL DATA:  Former Soil Interpretation Record - WI0495.  Refer to soil survey sample number S75WI-095-5 for NSSL data on the typical pedon or see SSI Report No. 34. (Sampled in 1975 as Antigo series - Correlated to Anigon in 1991.)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 10 inches; very dark grayish brown (10YR 3/2) silt loam, light brownish gray (10YR 6/2) dry; weak fine subangular blocky structure parting to moderate fine granular; friable; many fine roots; moderately acid; abrupt smooth boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 25,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--10 to 14 inches; brown (10YR 5/3) silt loam, very pale brown (10YR 7/3) dry; moderate thin platy structure; friable; many fine roots; moderately acid; clear wavy boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "B/E",
+        "top": 36,
+        "bottom": 51,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "B/E--14 to 20 inches; about 70 percent dark yellowish brown (10YR 4/4) silt loam (Bt); moderate fine subangular blocky structure; friable; few faint clay films on some faces of peds; penetrated by brown (10YR 5/3) silt loam (E), very pale brown (10YR 7/3) dry; moderate thin platy structure; friable; many fine roots; strongly acid; clear wavy boundary.   (glossic horizon - 4 to 20 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 51,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--20 to 30 inches; dark yellowish brown (10YR 4/4) silt loam; moderate medium subangular blocky structure; friable; common faint clay films on faces of peds; many fine roots; very strongly acid; clear wavy boundary.  (0 to 20 inches thick)"
+      },
+      {
+        "name": "2Bt2",
+        "top": 76,
+        "bottom": 86,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Bt2--30 to 34 inches; brown (7.5YR 4/4) sandy loam; moderate medium subangular blocky structure; friable; few faint clay films on faces of peds; about 3 percent cobbles and 3 percent gravel; many fine roots; very strongly acid; abrupt wavy boundary.  (0 to 4 inches thick)"
+      },
+      {
+        "name": "3C1",
+        "top": 86,
+        "bottom": 119,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "coarse sand",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "3C1--34 to 47 inches; stratified brown (7.5YR 4/4) coarse sand and reddish brown (5YR 4/4) coarse sand; single grain; loose; about 10 percent gravel and 1 percent cobbles; few fine roots; strongly acid; abrupt wavy boundary."
+      },
+      {
+        "name": "3C2",
+        "top": 119,
+        "bottom": 152,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "coarse sand",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "narrative": "3C2--47 to 60 inches; brown (7.5YR 4/4) stratified gravelly coarse sand and very gravelly coarse sand; single grain; loose; 35 percent gravel and about 4 percent cobbles; few fine roots; moderately acid."
+      }
+    ]
+  ]
 }

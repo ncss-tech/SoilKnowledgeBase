@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons recognized in this pedon:\nOchric epipedon - 0 to 8 inches (Ap);\nArgillic horizon - 8 to 29 inches (Bt1, Bt2);\nPsammentic feature - texture of loamy fine sand or coarser throughout the argillic horizon.\nThe former typical pedon was in Richland County but the Gotham series was not correlated there during the update so a new typical pedon is used from Green Lake County.\nField and possibly lab analysis are needed to determine if this soil has an argillic horizon.\nField checking is needed to determine if lamellae are typical in this series. The taxonomic unit descriptions from Marquette and Eau Claire Counties describe sandy loam bands in the C horizon. The field description for this Green Lake County Wisconsin pedon also indicates argillic bands in the C horizon.\nThere are 15,830 acres are correlated in Marquette County as a loamy substratum phase (13,390 acres with loamy fine sand surface and 2442 acres with fine sandy loam surface).\nThere are 500 acres correlated in Green Lake County as a sandstone substratum phase (20-40 inches to sandstone) and 1380 acres in Eau Claire County (40-60 inches to sandstone).\nThere are 580 acres are correlated in Rock County as a bedrock variant (20-40 inches to dolomite).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loamy fine sand",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; dark brown (10YR 3/3) loamy fine sand, light brownish gray (10YR 6/2) dry; weak fine granular structure; very friable;  few roots; common pores; neutral; abrupt smooth boundary.  (6 to 9 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 58,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy fine sand",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--8 to 23 inches; brown (7.5YR 4/4) loamy fine sand; weak medium subangular blocky structure; very friable; few roots; common pores; clay bridging between sand grains; neutral; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 58,
+        "bottom": 74,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loamy fine sand",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--23 to 29 inches; strong brown (7.5YR 5/6) loamy fine sand; very weak fine subangular blocky structure; very friable; few roots;few pores; clay bridging between sand grains; neutral; clear smooth boundary. (Combined thickness of Bt horizon ranges from 6 to 21 inches.)"
+      },
+      {
+        "name": "Bw",
+        "top": 74,
+        "bottom": 86,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--29 to 34 inches; strong brown (7.5YR 5/6) sand; very weak fine subangular blocky structure in place, single grained where disturbed; loose; few roots; neutral; clear smooth boundary.  (6 to 21 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 86,
+        "bottom": 99,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C1--34 to 39 inches; strong brown (7.5YR 5/6) sand; single grained; loose; few roots; neutral; clear smooth boundary.  (5 to 8 inches thick)"
+      },
+      {
+        "name": "C2",
+        "top": 99,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "narrative": "C2--39 to 60 inches; yellowish brown (10YR 5/4) sand; single grain; loose; neutral."
+      }
+    ]
+  ]
 }

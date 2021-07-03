@@ -56,5 +56,72 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - 0 to 27 cm (A1, A2 horizons)\nCambic horizon - 27 to 150 cm (Bw, BC horizons)\nParticle-size control section - 25 to 100 cm (part of A2, Bw, part of BC horizons)\nBrushfire soils have a cryic temperature regime and an ustic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 12,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "texture_class": "loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 12 cm; brown (7.5YR 4/3) loam, very dark brown (7.5YR 2.5/2), moist; weak medium subangular blocky structure parting to weak fine subangular blocky; soft, very friable, slightly sticky and slightly plastic; many very fine, and common fine and medium roots; many fine interstitial pores; 5 percent gravel; neutral (pH 7.0); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 12,
+        "bottom": 27,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "texture_class": "loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--12 to 27 cm; brown (7.5YR 4/3) loam, very dark brown (7.5YR 2.5/3), moist; weak medium subangular blocky; soft, very friable, slightly sticky and slightly plastic; many very fine, and common fine and medium roots; common fine tubular pores; 10 percent gravel; neutral (pH 7.0); clear smooth boundary. (combined thickness of the A1 & A2 horizons -- 18 to 30 cm)"
+      },
+      {
+        "name": "Bw",
+        "top": 27,
+        "bottom": 75,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--27 to 75 cm; strong brown (7.5YR 4/6) very gravelly sandy clay loam, brown (7.5YR 4/4), moist; moderate coarse subangular blocky structure parting to moderate medium subangular blocky; slightly hard, friable, slightly sticky and slightly plastic; common very fine and fine roots; many fine tubular pores; 30 percent gravel, 10 percent cobbles; neutral (pH 7.0); clear smooth boundary. (40 to 60 cm thick)"
+      },
+      {
+        "name": "BC",
+        "top": 75,
+        "bottom": 150,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 8,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "narrative": "BC--75 to 150 cm; strong brown (7.5YR 5/8) very gravelly sandy loam, strong brown (7.5YR 4/6), moist; weak medium subangular blocky structure parting to weak fine subangular blocky; soft, very friable, non-sticky and non-plastic; few very fine and fine roots; common fine interstitial pores; 40 percent gravel, 10 percent cobbles; neutral (pH 7.2)."
+      }
+    ]
+  ]
 }

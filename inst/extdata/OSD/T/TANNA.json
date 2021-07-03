@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soil interpretation records:  MT0128.\nDiagnostic horizons and features recognized in this pedon are:  mollic epipedon - the zone from the surface of the soil to a depth of 7 inches (after mixing) (Ap and Bt horizons); argillic horizon - the zone from 6 to 17 inches (Bt horizon); lime accumulation - the zone from 17 inches to the paralithic contact (Bk1 and Bk2 horizons); particle-size control section - the zone from 7 to 17 inches (Bt horizon); paralithic contact - at a depth of 31 inches (Cr horizon).  Tanna soils have a frigid temperature regime and an ustic moisture regime bordering on aridic.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 6 inches; grayish brown (10YR 5/2) clay loam, very dark grayish brown (10YR 3/2) moist; moderate fine granular structure; hard, very friable, sticky and plastic; many fine and very fine roots; neutral (pH 7.0); abrupt wavy boundary. (3 to 8 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 15,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--6 to 17 inches; brown (10YR 5/3) clay loam, dark brown (10YR 4/3) moist; moderate medium prismatic structure parting to strong fine and medium blocky; very hard, friable, sticky and plastic; many fine and very fine roots; many fine and very fine pores; many distinct clay films on faces of peds; 5 percent channers; slightly alkaline (pH 7.8); clear wavy boundary. (5 to 16 inches thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 43,
+        "bottom": 69,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk1--17 to 27 inches; light brownish gray (2.5Y 6/2) clay loam, dark grayish brown (2.5Y 4/2) moist; moderate medium and coarse prismatic structure; very hard, friable, sticky and plastic; common fine and very fine roots; many fine and very fine pores; 5 percent channers; continuous distinct lime coating on channers; common fine masses of segregated lime; strongly effervescent; moderately alkaline (pH 8.4); gradual wavy boundary. (9 to 15 inches thick)"
+      },
+      {
+        "name": "Bk2",
+        "top": 69,
+        "bottom": 79,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk2--27 to 31 inches; pale brown (10YR 6/3) very channery loam, brown (10YR 4/3) moist; massive; hard, very friable, slightly sticky and nonplastic; common fine and very fine roots; many fine and very fine pores; 55 percent channers; continuous distinct lime coating on channers; disseminated lime, few fine masses of lime; strongly effervescent; moderately alkaline (pH 8.2); gradual wavy boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 79,
+        "bottom": 152,
+        "texture_class": "sand",
+        "narrative": "Cr--31 to 60 inches; semiconsolidated shale and mudstone interbedded with layers of hard sandstone."
+      }
+    ]
+  ]
 }

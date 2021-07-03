@@ -56,5 +56,103 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon: from the surface to a depth of 15 cm (Ap horizon).\nCambic horizon: from a depth of 15 cm to 76 cm (Bg horizon).\nAquic conditions: redox concentrations or matrix color with chroma of 0 or 1 in all horizons below a depth of 15 cm.\nADDITIONAL DATA: The following reference has information applicable to the Paulding series: Baker, F. J., Schafer, G.M., and Holowaychuk, N. 1960. Surficial materials and soils of Paulding County, Ohio. Ohio Jour. Sci. 60:365-377.\nCharacterization data are available for about 12 Paulding profiles including PD-S8 (the typical pedon), and PD-S32 published in the Paulding County, Ohio Soil Survey Report.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 15 cm (0 to 6 inches); dark gray (N 4/) clay, gray (10YR 6/1) dry; weak coarse granular structure; firm; neutral; abrupt smooth boundary. [13 to 25 cm (5 to 10 inches) thick]"
+      },
+      {
+        "name": "Bg1",
+        "top": 15,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bg1--15 to 23 cm (6 to 9 inches); gray (N 5/) clay; weak medium prismatic structure parting to weak fine angular blocky; firm; many fine prominent yellowish brown (10YR 5/8) masses of iron accumulation; slightly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 23,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bg2--23 to 56 cm (9 to 22 inches); gray (N 5/) clay; moderate coarse prismatic structure parting to strong medium angular blocky; firm; common coarse prominent yellowish brown (10YR 5/8) masses of iron accumulation; neutral; gradual smooth boundary."
+      },
+      {
+        "name": "Bg3",
+        "top": 56,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bg3--56 to 76 cm (22 to 30 inches); gray (N 5/) clay; weak very coarse prismatic structure parting to weak coarse angular blocky; very firm; many fine prominent yellowish brown (10YR 5/6) masses of iron accumulation; neutral; gradual smooth boundary. [Combined thickness of the Bg horizon is 41 to 107 cm (16 to 42 inches).]"
+      },
+      {
+        "name": "BCg",
+        "top": 76,
+        "bottom": 122,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BCg--76 to 122 cm (30 to 48 inches); gray (5Y 5/1) clay; weak very coarse prismatic structure in upper part and massive in lower part; very firm; many fine prominent yellowish brown (10YR 5/6) masses of iron accumulation; slightly alkaline; clear wavy boundary. [0 to 51 cm (20 inches) thick]"
+      },
+      {
+        "name": "Cdg",
+        "top": 122,
+        "bottom": 160,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "moderately alkaline",
+        "narrative": "Cdg--122 to 160 cm (48 to 63 inches); gray (5Y 5/1) clay; massive; very firm; many coarse prominent dark yellowish brown (10YR 4/4) masses of iron accumulation; coarse light gray (10YR 7/2) calcareous spots; strongly effervescent; moderately alkaline. [0 to 46 cm (18 inches) thick]"
+      },
+      {
+        "name": "Cd",
+        "top": 160,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "moderately alkaline",
+        "narrative": "Cd--160 to 203 cm (63 to 80 inches); dark yellowish brown (10YR 4/4) clay; weakly laminated; firm; many medium prominent gray (N 5/) iron depletions; thin patchy gray calcium carbonate coatings on laminae; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

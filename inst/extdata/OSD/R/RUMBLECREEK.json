@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - 0 to 22 inches (Oi, E1, E2 horizons);\nAlbic horizon - 2 to 22 inches (E1, E2 horizons);\nGlossic horizon - 22 to 34 inches (Bt/E horizon);\nArgillic horizon - 22 to 60 inches (Bt/E, Bt horizons); and\nParticle-size control section - the upper 20 inches of the argillic horizon from 22 to 42 inches (Bt/E, Bt horizons).\nRumblecreek soils have a frigid temperature regime and a udic moisture regime.\nADDITIONAL DATA: Soil interpretations record MT0565.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "Oi--0 to 2 inches; undecomposed and slightly decomposed forest litter. (1 to 2 inches thick)"
+      },
+      {
+        "name": "E1",
+        "top": 5,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E1--2 to 10 inches; pale brown (10YR 6/3) gravelly loam, dark grayish brown (10YR 4/2) moist; weak fine granular structure; soft, friable, nonsticky and nonplastic, many fine medium and coarse roots; many fine pores; 25 percent gravel; moderately acid (pH 6.0); clear wavy boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "E2",
+        "top": 25,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E2--10 to 22 inches; light gray (10YR 7/2) gravelly loam, grayish brown (10YR 5/2) moist; weak medium subangular blocky structure; slightly hard, friable, nonsticky and nonplastic; many fine and medium roots; many fine pores; 30 percent gravel; moderately acid (pH 6.0); gradual wavy boundary. (6 to 12 inches thick)"
+      },
+      {
+        "name": "Bt/E",
+        "top": 56,
+        "bottom": 86,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt/E--22 to 34 inches; B part (60 percent) is yellowish brown (10YR 5/6) very gravelly clay loam, dark yellowish brown (10YR 4/4) moist; E part (40 percent) light gray (10YR 7/2) very gravelly loam, grayish brown (10YR 5/2) moist that tongues into the B part; texture mixed is very gravelly clay loam; moderate coarse subangular blocky structure; very hard, friable, slightly sticky and slightly plastic; common fine roots; common fine pores; 35 percent gravel, 5 percent cobbles; common faint clay films on faces of peds; slightly acid (pH 6.2); gradual wavy boundary. (8 to 16 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 86,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "narrative": "Bt--34 to 60 inches; light yellowish brown (10YR 6/4) very gravelly clay loam, brown (10YR 4/3) moist; moderate medium coarse subangular blocky structure; very hard, friable, moderately sticky and moderately plastic; few fine roots; common fine pores; 40 percent gravel and 5 percent cobbles; common distinct clay films on faces of peds and surfaces of gravel; slightly acid (pH 6.2)."
+      }
+    ]
+  ]
 }

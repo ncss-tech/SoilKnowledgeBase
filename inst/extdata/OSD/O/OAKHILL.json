@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This soil has previously been included with Legore soils.  The Legore soils are fine loamy and more than 60 inches to bedrock.  Lab data from VPI & SU Lab.\nREVISED = 2/18/2004, MAV added active ce activity class.\n1/2005 - revised OSD to show R at 34\" rather than 45\" since this material was dug with a backhoe.\nDiagnostic horizons and features recognized in this pedon are:\na) Ochric epipedon - the zone from the surface down to 8 inches (Ap horizon).\nb) Argillic horizon - the zone from 8 to 25 inches (Bt horizon)\nc) Lithic contact - at 34 inches (R horizon).\nSIR#s VA0055, VA0234\nMLRA 148\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; brown (10YR 4/3) gravelly silt loam; moderate fine and medium granular structure; very friable; many fine, medium and coarse roots; 25 percent angular basalt gravel; strongly acid; clear smooth boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 20,
+        "bottom": 64,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt--8 to 25 inches; strong brown (7.5YR 5/8) very gravelly loam; weak fine subangular blocky structure; friable; slightly plastic, sticky; many fine and medium roots; common thin clay films on faces of peds; 45 percent angular basalt gravel; 2 percent cobbles; moderately acid; gradual smooth boundary.  (10 to 35 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 64,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C--25 to 34 inches; variegated with yellowish brown (10YR 5/6), dark yellowish brown (10YR 3/4), pale yellow (5Y 8/2) and olive (5Y 5/3) very gravelly sandy loam; massive; friable; common fine and medium roots; common Fe-Mn coatings and fine concretions; 55 percent basalt gravel; slightly acid; clear smooth boundary.  (0 to 20 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 86,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "narrative": "R--34 inches; olive yellow (5Y 6/8) basalt bedrock; difficult to dig with backhoe at 45 inches."
+      }
+    ]
+  ]
 }

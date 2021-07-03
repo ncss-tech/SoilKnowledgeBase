@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The July 2009 revision corrects the error on flooding duration.  Flooding for this soil has always been very brief to very long.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon--the zone from the surface of the soil to 5 inches (A horizon)\nAquic conditions--the zone from 5 inches to a depth of 80 inches is periodically saturated (endosaturation)\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nSC0035 CHASTAIN    0-2    57-70   190-245   38-52   10-90\nSC0152 CHASTAIN    0-2    57-70   190-245   38-52   10-90\nSOI-5  FloodL FloodH Watertable Kind      Months   Bedrock  Hardness\nSC0035 COMMON         0-1.0     APPARENT  NOV-MAY  >80      -\nSC0152 COMMON         0-1.0     APPARENT  NOV-MAY  >80      -\nSOI-5   Depth   Texture     3-Inch  No-10    Clay%   -CEC-\nSC0035   0-5    SICL SIL L  0-0    100-100   15-35   10-25\nSC0035   0-5    SIC CL C    0-0    100-100   27-50   15-30\nSC0035   5-52   SICL CL C   0-0    100-100   35-60    7-45\nSC0035  52-72   LS S FS     0-0     85-100    2-10    1-5\nSC0152   0-5    SICL SIL L  0-0    100-100   15-35   10-25\nSC0152   0-5    SIC CL C    0-0    100-100   27-50   15-30\nSC0152   5-52   SICL CL C   0-0    100-100   35-60    7-45\nSC0152  52-72   LS S FS     0-0     85-100    2-10    1-5\nSOI-5  Depth     -pH-     O.M.    Salin  Permeab  Shnk-Swll\nSC0035   0-5    3.5-6.0  1.0-6.0   0-0   0.2-0.6   MODERATE\nSC0035   0-5    3.5-6.0  1.0-6.0   0-0  0.06-0.2   MODERATE\nSC0035   5-52   3.5-6.0  0.2-3.0   0-0  0.06-0.2   MODERATE\nSC0035  52-72   3.5-6.0  0.2-3.0   0-0   6.0-20    LOW\nSC0152   0-5    3.5-6.0  1.0-6.0   0-0   0.2-0.6   MODERATE\nSC0152   0-5    3.5-6.0  1.0-6.0   0-0  0.06-0.2   MODERATE\nSC0152   5-52   3.5-6.0  0.2-3.0   0-0  0.06-0.2   MODERATE\nSC0152  52-72   3.5-6.0  0.2-3.0   0-0   6.0-20    LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 5 inches; dark grayish brown (10YR 4/2) loam; weak fine granular structure; very friable; many fine and medium roots; common fine and medium pores; strongly acid; clear smooth boundary. (2 to 12 inches thick)"
+      },
+      {
+        "name": "Bg1",
+        "top": 13,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bg1--5 to 10 inches; light brownish gray (10YR 6/2) clay loam; weak medium subangular blocky structure; friable; few fine roots; common fine pores; few coarse distinct brownish yellow (10YR 6/6) masses of oxidized iron and few medium distinct dark grayish brown (10YR 4/2) iron deletions; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 25,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bg2--10 to 30 inches; gray (10YR 5/1) clay; moderate medium subangular blocky structure; very firm; few fine roots; thin strata of fine sand; common medium distinct yellowish brown (10YR 5/8) masses of oxidized iron and few fine distinct light gray (10YR 7/1) iron depletions; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bg3",
+        "top": 76,
+        "bottom": 132,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bg3--30 to 52 inches; gray (10YR 5/1) clay; moderate medium subangular blocky structure; very firm; thin strata of fine sand; few fine distinct yellowish brown (10YR 5/8) masses of oxidized iron and few fine distinct light gray (10YR 7/1) iron depletions; very strongly acid; gradual wavy boundary. (Combined thickness of Bg horizon is 20 to more than 60 inches.)"
+      },
+      {
+        "name": "2Cg",
+        "top": 132,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "narrative": "2Cg--52 to 72 inches; gray (10YR 6/1) and gray (10YR 5/1) sand; single grained; loose; few flakes of mica; very strongly acid."
+      }
+    ]
+  ]
 }

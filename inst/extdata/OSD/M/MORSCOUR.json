@@ -56,5 +56,61 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 7 inches (A1 and A2 horizons).\nParalithic contact - The boundary at 7 inches to underlying soft bedrock (Cr layer).\nParticle-size control section - The zone from the soil surface to 7 inches (A1 and A2 horizons).\nThe revision of October 2003 updated the taxonomic class from Loamy-skeletal, isotic, shallow Xeric Haplocryolls.  The isotic mineralogy class was based solely on the field determined values for sodium fluoride pH.  Laboratory data on 15 bar water to clay ratio does not exist to verify the isotic mineralogy class.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 2 inches; grayish brown (10YR 5/2) extremely gravelly sandy loam, very dark grayish brown (10YR 3/2) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; common very fine roots; common very fine interstitial and tubular pores; 50 percent gravel, 5 percent cobbles, and 5 percent stones; slightly acid; clear wavy boundary. (2 to 4 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "A2--2 to 7 inches; brown (10YR 5/3) very gravelly sandy loam, dark brown (10YR 3/3) moist; weak fine subangular blocky structure; soft, very friable, slightly sticky and nonplastic; common very fine and common fine roots; common very fine interstitial and tubular pores; 50 percent gravel and 5 percent cobbles; 20 percent paragravel; slightly acid; clear irregular boundary. (2 to 6 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 18,
+        "bottom": 36,
+        "narrative": "Cr--7 to 14 inches; weathered fractured tuff."
+      },
+      {
+        "name": "R",
+        "top": 36,
+        "narrative": "R--14 inches; hard tuff."
+      }
+    ]
+  ]
 }

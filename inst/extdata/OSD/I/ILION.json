@@ -56,5 +56,72 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Previously, the RIC of the Eg allowed for a B1g, or what would now probably be a Bg, to be present above the Bt. This needs to be investigated during the MLRA update process. This could impact classification. Further investigation indicates that pedons with a B1g horizon are of minor extent and will be considered to be an inclusion within the Ilion series.\nDiagnostic horizons and features recognized in this profile are:\n1. ochric epipedon - 0 to 14 inches. (Ap).\n2. albic horizon - 9 to 14 inches. (E)\n3. argillic horizon - 14 to 33 inches. (Bt1 and Bt2)\n4. aquic conditions - 9 to 60 inches. (E, Bt1, Bt2, and C)\n5. mollic subgroup - has colors of mollic epipedon, but is too thin, only 9 inches. (Ap)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "narrative": "Ap -- 0 to 9 inches; very dark gray (10YR 3/1) silt loam; moderate fine and medium, granular structure; friable; many fine roots; 5 percent shale fragments; neutral; abrupt, smooth boundary. (6 to 9 inches thick.)"
+      },
+      {
+        "name": "Eg",
+        "top": 23,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "narrative": "Eg -- 9 to 14 inches; light-gray to gray (10YR 6/1) silt loam; very weak, fine subangular blocky structure; friable; few fine roots; common fine pores; 5 percent rock fragments; common medium prominent light olive brown (2.5Y 5/6) masses of iron accumulation; neutral; clear, wavy boundary. (0 to 9 inches thick.)"
+      },
+      {
+        "name": "Btg1",
+        "top": 36,
+        "bottom": 58,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "narrative": "Btg1 -- 14 to 23 inches; dark grayish brown (2.5Y 4/2) silty clay loam; dark gray (5Y 4/1) faces of peds; moderate medium subangular blocky structure; firm; few fine roots in upper part; clay skins in most pores, patchy on ped faces; 10 percent rock fragments; many medium distinct yellowish brown (10YR 5/4) masses of iron accumulation and common faint olive gray (5Y 4/2) iron depletions; neutral; clear, smooth boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 58,
+        "bottom": 84,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "Btg2 -- 23 to 33 inches, dark grayish brown (2.5Y 4/2) silty clay loam; moderate medium and coarse subangular blocky structure; firm, slightly plastic; few fine pores; thin clay skins on most faces of peds and lining pores; 10 percent rock fragments; common medium distinct yellowish brown (10YR 5/4) masses of iron accumulation; slightly alkaline; gradual, smooth boundary. (Combined thickness of the Btg horizons is 10 to 26 inches thick.)"
+      },
+      {
+        "name": "C",
+        "top": 84,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "moderately alkaline",
+        "narrative": "C -- 33 to 60 inches, very dark grayish brown (2.5Y 3/2) channery silt loam; weak thick plate-like divisions; firm; few fine pores; 20 percent rock fragments; many medium distinct olive (5Y 4/4) and prominent light olive brown (2.5Y 5/6) masses of iron accumulation in linear streaks; slightly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

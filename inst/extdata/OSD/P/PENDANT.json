@@ -56,5 +56,51 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic features and horizons recognized in this soil:\nMollic epipedon: from 0 to 11 inches (A1 and A2 horizons).\nLithic contact: at 11 inches (upper boundary of R layer).\nParticle-size control section:  The zone from 0 to 11 inches (all horizons)\nSeries control section:  The zone from 0 to 11 inches.\nWhen established the classification was Loamy-skeletal, mixed Lithic Haploborolls. The 02/2010 revision removes very shallow depths and changes the classification from Loamy-skeletal, mixed, superactive, frigid Lithic Haplustolls to Loamy-skeletal, carbonatic Aridic Lithic Haplustolls. Vegetation of ponderosa pine and Douglas-fir forest has been deleted from the series concept.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 4 inches; brown (7.5YR 4/2) extremely gravelly loam, dark brown (7.5YR 3/2) moist; moderate fine granular structure; soft, very friable, slightly sticky and nonplastic; 45 percent gravel, 20 percent cobbles, 10 percent stones; strongly effervescent; 28 percent calcium carbonate equivalent (fine earth fraction); moderately alkaline (pH 8.0); clear smooth boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 28,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--4 to 11 inches; brown (7.5YR 4/2) extremely gravelly loam, dark brown (7.5YR 3/2) moist; weak fine granular structure; soft, very friable, slightly sticky and nonplastic; 45 percent gravel and 20 percent cobbles; strongly effervescent; 35 percent calcium carbonate equivalent (fine earth fraction); moderately alkaline (pH 8.0); abrupt wavy boundary.  (4 to 12 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 28,
+        "narrative": "R--11 inches; indurated, fractured limestone."
+      }
+    ]
+  ]
 }

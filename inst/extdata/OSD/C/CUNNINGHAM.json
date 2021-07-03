@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The 8/01 revision assigns a semiactive CEC activity class to the series.\nDiagnostic horizons recognized in this pedon are:\nOchric horizon - the zone from the soil surface to a depth of 5 inches (Ap horizon).\nArgillic horizon - the zone from 5 to 36 inches (Bt1, Bt2, and BC horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 5 inches; brown (7.5YR 5/4) loam; weak fine granular structure; friable; common fine roots; few fine worm holes; very strongly acid; abrupt smooth boundary. (4 to 9 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 13,
+        "bottom": 43,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--5 to 17 inches; yellowish red (5YR 5/8) clay; moderate medium angular blocky structure; firm; few fine roots and worm holes; common prominent clay films on faces of peds; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 43,
+        "bottom": 76,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--17 to 30 inches; yellowish red (5YR 4/6) clay loam; many medium distinct dark red (2.5YR 3/6) and strong brown (7.5YR 5/6) mottles; moderate medium subangular and angular blocky structure; firm; few fine roots and worm holes; common prominent clay films on faces of peds; few shale fragments; very strongly acid; clear wavy boundary. (Combined thickness of the Bt is 18 to 37 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 76,
+        "bottom": 91,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "BC--30 to 36 inches; mottled yellowish red (5YR 4/6), dark red (2.5YR 3/6) and strong brown (7.5YR 5/6) clay loam; weak medium subangular blocky structure; firm; common shale fragments and gravel; extremely acid; abrupt irregular boundary. (0 to 18 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 91,
+        "bottom": 117,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "C--36 to 46 inches; olive brown (2.5Y 4/4) weathered shale; crushes to a loam texture; very strongly acid; abrupt irregular boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 117,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "narrative": "Cr--46 to 60 inches; olive brown (2.5Y 4/4) consolidated shale bedrock."
+      }
+    ]
+  ]
 }

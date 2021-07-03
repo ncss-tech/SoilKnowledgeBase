@@ -56,5 +56,84 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - from 0 to 3 cm (A horizon)\nArgillic horizon - from 3 to 69 cm (Btk1, Btk2, Btk3 horizons)\nCalcic horizon - from 31 to 150 cm (Btk3, Bk horizons)\nVertic features estimated linear extensibility greater than 6.0 cm - from 0 to 100 cm (A, Btk1, Btk2, Btk3, part of Bk horizons)\nParticle-size horizon control section - from 3 to 53 cm (Btk1, Btk2, and part of Btk3 horizons)\nConwaycreek soils have a cryic temperature regime and an ustic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 cm; brown (7.5YR 5/4) clay loam, dark brown (7.5YR 3/3), moist; weak coarse platy structure; friable, slightly hard, moderately sticky, moderately plastic; many very fine and fine roots; many fine tubular pores; 5 percent gravel; violently effervescent; slightly alkaline (pH 7.8); clear smooth boundary. (3 to 25 cm thick)."
+      },
+      {
+        "name": "Btk1",
+        "top": 3,
+        "bottom": 10,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btk1--3 to 10 cm; brown (7.5YR 5/3) clay loam, dark brown (7.5YR 3/4), moist; weak medium subangular blocky structure; friable, slightly hard, very sticky, very plastic; many very fine and fine roots; many fine tubular pores; 5 percent distinct clay films on all faces of peds; 5 percent gravel; violently effervescent; slightly alkaline (pH 7.8); clear smooth boundary. (5 to 15 cm thick)"
+      },
+      {
+        "name": "Btk2",
+        "top": 10,
+        "bottom": 31,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "texture_class": "clay",
+        "pH": 7.9,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btk2--10 to 31 cm; reddish brown (5YR 5/4) clay, reddish brown (5YR 4/4), moist; moderate coarse angular blocky structure; very firm, hard, very sticky, very plastic; common very fine and fine roots; many fine tubular pores; 15 percent distinct clay films on all faces of peds; 2 percent fine irregular carbonate masses in matrix; 5 percent gravel; violently effervescent; moderately alkaline (pH 7.9); clear smooth boundary. (11 to 22 cm thick)."
+      },
+      {
+        "name": "Btk3",
+        "top": 31,
+        "bottom": 69,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "texture_class": "clay",
+        "pH": 7.9,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btk3--31 to 69 cm; reddish brown (5YR 5/4) clay, reddish brown (5YR 4/4), moist; moderate very coarse angular blocky structure; extremely firm, very hard, very sticky, very plastic; common very fine and fine roots; many fine tubular pores; 25 percent distinct clay films on all faces of peds; 5 percent fine irregular carbonate masses in matrix; 5 percent gravel; violently effervescent; moderately alkaline (pH 7.9); gradual smooth boundary. (30 to 50 cm thick)."
+      },
+      {
+        "name": "Bk",
+        "top": 69,
+        "bottom": 150,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "texture_class": "clay",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "narrative": "Bk--69 to 150 cm; light reddish brown (5YR 6/4) clay, yellowish red (5YR 4/6), moist; moderate coarse angular blocky structure; very firm, hard, very sticky, very plastic; few very fine and fine roots; many fine tubular pores; 7 percent fine irregular carbonate masses in matrix; 5 percent gravel; violently effervescent; moderately alkaline (pH 8.0)."
+      }
+    ]
+  ]
 }

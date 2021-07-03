@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nSeries control section:  The zone from 0 to 74 cm.\nParticle-size control section:  The zone from 25 to 48 cm.  (Bk1, Bk2 horizons)\nMollic epipedon:  from 0 to 18 cm.  (A1, A2 horizons)\nCalcic horizon:  from 18 to 48 cm.  (Bk1, Bk2 horizons)\nParalithic contact:  The contact with limestone at 48 cm.  (Cr layer)\nThe assignment of the cation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomic Version:  Classified according to Keys to Soil Taxonomy, 11th Edition, 2010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 8 cm (0 to 3 inches); brown (10YR 5/3) loam, dark brown (10YR 3/3) moist; weak fine granular structure; soft, very friable, slightly sticky, and slightly plastic; 10 percent parachanners; slightly alkaline (pH 7.4); abrupt smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A2--8 to 18 cm (3 to 7 inches); brown (10YR 5/3) very parachannery loam, dark brown (10YR 3/3) moist; weak medium subangular blocky structure; soft, very friable, slightly sticky, and slightly plastic; 45 percent parachanners; 5 percent calcium carbonate equivalent; slightly alkaline (pH 7.6); abrupt smooth boundary. (combined thickness of the A horizons is 18 to 25 cm)"
+      },
+      {
+        "name": "Bk1",
+        "top": 18,
+        "bottom": 30,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bk1--18 to 30 cm (7 to 12 inches); light brownish gray (2.5Y 6/2) very parachannery loam, dark grayish brown (2.5Y 4/2) moist; weak medium subangular blocky structure; hard, very friable, slightly sticky, and slightly plastic; 50 percent parachanners; strongly effervescent; common fine carbonate masses in the matrix; 23 percent calcium carbonate equivalent; moderately alkaline (pH 8.2); clear wavy boundary."
+      },
+      {
+        "name": "Bk2",
+        "top": 30,
+        "bottom": 48,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bk2--30 to 48 cm (12 to 19 inches); light gray (2.5Y 7/2) extremely parachannery loam, grayish brown (2.5Y 5/2) moist; massive; hard, very friable, slightly sticky, and slightly plastic; 70 percent parachanners; strongly effervescent; common fine carbonate masses in the matrix; 15 percent calcium carbonate equivalent; moderately alkaline (pH 8.0); clear wavy boundary. (combined thickness of the Bk horizons is 15 to 30 cm)"
+      },
+      {
+        "name": "Cr",
+        "top": 48,
+        "bottom": 74,
+        "narrative": "Cr--48 to 74 cm (19 to 29 inches); moderately cemented limestone"
+      }
+    ]
+  ]
 }

@@ -56,5 +56,65 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This revision (2/95) changes the classification from Paralithic Vertic Eutrochrepts to Leptic Hapluderts in accordance with amendment to Soil Taxonomy 615.90.  This soil will be in a shallow family (and clayey particle-size class) when provided for in the Vertisol order.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon: 0 to 3 inches (Ap)\nCambic horizon: 3 to 16 inches (Bss1 and Bss2)\nHapluderts features: slickensides close enough to intersect; weighted average of 30 percent or more clay throughout; open cracks in most years; pH value of 5.0 or more in 1:1 water in more than 50 percent of the soil volume.  3 to 16 inches (Bss1, Bss2)\nLeptic feature: a paralithic contact within 100 cm of the surface; chalk bedrock at 16 inches (2Cr)\nSIR = AL0068\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 3 inches; dark yellowish brown (10YR 4/4) clay; weak coarse subangular blocky structure; firm; many fine and very fine roots; moderately acid; abrupt smooth boundary.  (1 to 5 inches thick)"
+      },
+      {
+        "name": "Bss1",
+        "top": 8,
+        "bottom": 25,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bss1--3 to 10 inches; yellowish red (5YR 5/6) clay; common medium distinct yellowish brown (10YR 5/6) mottles; weak coarse angular blocky which parts to moderate medium subangular and angular blocky structure; very firm; common fine and very fine roots; common large slickensides with distinct polished and grooved faces; moderately acid; clear wavy boundary.  (5 to 15 inches thick)"
+      },
+      {
+        "name": "Bss2",
+        "top": 25,
+        "bottom": 41,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bss2--10 to 16 inches; light olive brown (2.5Y 5/6) clay; few medium distinct yellowish red (5YR 5/6) mottles; moderate coarse angular blocky structure; very firm; few fine and very fine roots; common large intersecting slickensides with distinct polished and grooved faces; common soft black masses; common soft masses of calcium carbonate at the contact with chalk bedrock; neutral; abrupt wavy boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 41,
+        "bottom": 203,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "pH_class": "moderately alkaline",
+        "narrative": "2Cr--16 to 80 inches; light gray (2.5Y 7/2) chalk bedrock; strong medium and thick platy structure; can be cut with hand tools and is rippable by light machinery; violently effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

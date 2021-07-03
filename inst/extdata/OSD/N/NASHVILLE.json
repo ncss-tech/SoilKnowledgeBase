@@ -56,5 +56,58 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from the surface of the soil to a depth of about 12 inches (A horizon)\nCambic horizon - the zone from about 12 to 30 inches (Bw horizon).\nThe Nashville series comprises the fine- silty portion of the previous concept of the Nash series.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 12 inches; brown (7.5YR 4/2) silt loam, dark brown (7.5YR 3/2) moist; weak fine granular structure; soft, friable; slightly acid; gradual smooth boundary.  (7 to 20 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 30,
+        "bottom": 76,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--12 to 30 inches; reddish brown (5YR 5/4) silt loam, reddish brown (5YR 4/3) moist, and reddish brown (5YR 4/4) crushed; moderate fine granular structure; soft, friable; few soft siltstone fragments in lower 4 inches; neutral; clear smooth boundary.  (10 to 28 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 76,
+        "dry_hue": "2.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "texture_class": "silt",
+        "pH_class": "neutral",
+        "narrative": "Cr--30 inches; red (2.5YR 5/6) soft, neutral siltstone."
+      }
+    ]
+  ]
 }

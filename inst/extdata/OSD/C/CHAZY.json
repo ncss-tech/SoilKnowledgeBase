@@ -56,5 +56,67 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This represents a partial update of the series to Established. Not all items were reviewed at this time. CEC activity class is added as active based on data from associated soils in similar parent materials.\nDiagnostic horizons and other features recognized in the typical pedon are:\n1) Ochric epipedon - from 0 to 10 inches (Ap horizon).\n2) Cambic horizon - from 10 to 28 inches (Bw and Bg\nhorizons).\n3) Aeric subgroup - color value and chroma of 3 or more\nin a horizon between the Ap and 30 inches.\n4) Redoximorphic Features - Fe and clay depletions, and\nFe concentrations (Bw and Bg horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 10 inches; very dark grayish brown (10YR 3/2) loam, pale brown (10YR 6/3) dry; weak medium subangular blocky structure parting to weak medium and fine granular; very friable; many very fine roots; many fine and very fine pores; 10 percent rock fragments; slightly acid; abrupt smooth boundary. (4 to 12 inches thick)."
+      },
+      {
+        "name": "Bw",
+        "top": 25,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw -- 10 to 16 inches; brown (10YR 4/3) fine sandy loam; weak medium subangular blocky structure; friable; common very fine roots; many fine and very fine pores; common fine and medium distinct grayish brown (10YR 5/2) iron depletions on faces of peds and along root channels, and few fine and medium faint dark yellowish brown (10YR 4/4) Fe masses; 10 percent rock fragments; slightly acid; clear smooth boundary (4 to 22 inches thick)."
+      },
+      {
+        "name": "Bg",
+        "top": 41,
+        "bottom": 71,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bg -- 16 to 28 inches; grayish brown (10YR 5/2) fine sandy loam; weak medium subangular blocky structure; friable; few very fine roots; common fine and very fine pores; few fine distinct yellowish brown (10YR 5/4), and common medium and coarse distinct yellowish brown (10YR 5/6) Fe masses; 14 percent rock fragments; neutral; abrupt smooth boundary. (2 to 20 inches thick)."
+      },
+      {
+        "name": "2R",
+        "top": 71,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "narrative": "2R -- 28 inches; massive light gray (10YR 7/2) sandstone bedrock."
+      }
+    ]
+  ]
 }

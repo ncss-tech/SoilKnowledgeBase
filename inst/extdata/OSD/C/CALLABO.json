@@ -56,5 +56,70 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nOchric epipedon - the zone from 0 to 5 inches (Ap horizon).\nCambic horizon - the zone from 5 to 19 inches (Bw1 and Bw2 horizons).\nModerately deep feature - Consolidated bed rock at 27 inches (R horizon).\nThese soils were formerly included in the Descalabrado series.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 5 inches; very dark grayish brown (10YR 3/2) silty clay loam; moderate medium granular structure; friable; slightly sticky, slightly plastic; many fine roots; about 10 percent, by volume, angular volcanic fragments; few wormholes; slightly acid; clear smooth boundary.  (4 to 5 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 13,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--5 to 13 inches; brown (10YR 4/3) silty clay loam; weak medium and coarse subangular blocky structure; firm; slightly sticky, slightly plastic; common fine roots; about 10 percent, by volume, angular volcanic fragments; few wormholes; many medium distinct very dark grayish brown (10YR 3/2) areas of Ap material; neutral; clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 33,
+        "bottom": 48,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--13 to 19 inches; dark yellowish brown (10YR 4/4) clay loam; weak coarse subangular blocky structure; friable; slightly sticky, slightly plastic; few fine roots; about 15 percent, by volume, angular volcanic fragments; neutral; clear wavy boundary.  (Combined thickness of the Bw horizons range from 10 to 18 inches)"
+      },
+      {
+        "name": "C",
+        "top": 48,
+        "bottom": 69,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--19 to 27 inches; highly weathered volcanic rock; few stringers and tonguing of Bw horizon material; neutral; clear wavy boundary.  (6 to 12 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 69,
+        "bottom": 102,
+        "narrative": "R--27 to 40 inches; hard, semiconsolidated volcanic rock."
+      }
+    ]
+  ]
 }

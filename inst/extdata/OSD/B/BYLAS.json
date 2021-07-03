@@ -56,5 +56,61 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to .5 inch (A horizon)\nDuripan - the zone from 6 to 8 inches (Bkqm horizon)\nLithic contact - the boundary at 8 inches (R horizon)\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Tenth Edition, 2006.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 1,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH_class": "strongly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 0.5 inches; pale brown (10YR 6/3) very gravelly loam, brown (10YR 4/3) moist; strong thin and medium platy structure; soft, loose, nonsticky, and nonplastic; many very fine roots; many very fine and fine pores; 40 percent gravel, 5 percent cobbles; violent effervescent; 30 percent calcium carbonate equivalent; strongly alkaline, pH 8.6; clear wavy boundary. (.5 to 2 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 1,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very flaggy",
+        "pH_class": "strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bk--0.5 to 6 inches; very pale brown (10YR 7/3) very flaggy loam, brown (7.5YR 5/4) moist; moderate medium and fine subangular blocky structure; soft, loose, nonsticky and nonplastic; common very fine and medium and few coarse roots; common very fine pores; 15 percent gravel, 40 percent calcrete flagstones; violent effervescent, 32 percent calcium carbonate equivalent; strongly alkaline, pH 8.6; abrupt wavy boundary. (6 to 13 inches thick)"
+      },
+      {
+        "name": "Bkqm",
+        "top": 15,
+        "bottom": 20,
+        "narrative": "Bkqm--6 to 8 inches; cemented material, duripan."
+      },
+      {
+        "name": "R",
+        "top": 20,
+        "narrative": "R--8 inches; lacustrine limestone bedrock."
+      }
+    ]
+  ]
 }

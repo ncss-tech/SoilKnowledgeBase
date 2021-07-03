@@ -56,5 +56,89 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - from 0 to 11 inches (Oi, E horizons)\nArgillic horizon - from 11 to 33 inches (Bt1, Bt2 horizons)\nParalithic contact - at 33 inches (Cr horizon)\nLithic contact - at 38 inches (R horizon)\nParticle-size control section - from 11 to 31 inches (Bt1, part of Bt2 horizons)\nLonniebee soils have a cryic temperature regime and an udic moisture regime.\nADDITIONAL DATA: Soil interpretation record - MT1459.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; slightly decomposed needles, twigs and leaves. (1 to 2 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 3,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "E--1 to 11 inches; light brownish gray (10YR 6/2) channery loam, dark grayish brown (10YR 4/2) moist; moderate very fine and fine granular structure; soft, very friable, slightly sticky and slightly plastic; common very fine, fine and medium roots; common fine and few medium pores; 20 percent channers, 5 percent flagstones, 5 percent angular stones; slightly acid (pH 6.2) gradual smooth boundary. (7 to 16 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 28,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "very flaggy",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--11 to 19 inches; brown (10YR 5/3) very flaggy clay loam, dark grayish brown (10YR 4/2) moist; weak medium subangular blocky structure parting to moderate fine granular; slightly hard, friable, moderately sticky and moderately plastic; common very fine and fine, and few medium roots; common very fine, and few fine and medium pores; common faint clay films on faces of peds and channer surfaces; 25 percent channers, 25 percent flagstones; moderately acid (pH 5.8); clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 48,
+        "bottom": 84,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very flaggy",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--19 to 33 inches; light yellowish brown (10YR 6/4) very flaggy clay loam, brown (10YR 5/3) moist; moderate medium subangular blocky structure; slightly hard, firm, moderately sticky and moderately plastic; common very fine and fine, and few medium roots; common very fine, and few fine and medium pores; common distinct clay films on faces of peds and channer surfaces; 25 percent channers, 30 percent flagstones; moderately acid (pH 5.6); gradual wavy boundary. (combined thickness of Bt1, Bt2 horizons - 13 to 24 inches)"
+      },
+      {
+        "name": "Cr",
+        "top": 84,
+        "bottom": 97,
+        "texture_class": "sand",
+        "narrative": "Cr--33 to 38 inches; weathered and fractured sandstone bedrock."
+      },
+      {
+        "name": "R",
+        "top": 97,
+        "texture_class": "sand",
+        "narrative": "R--38 inches; hard sandstone bedrock."
+      }
+    ]
+  ]
 }

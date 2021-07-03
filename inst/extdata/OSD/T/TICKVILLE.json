@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon: from 0 to 11 inches.  (A1 and A2 horizons)\nArgillic horizon: from 11 to 29 inches.  (Bt horizon)\nLithic contact:  Andesite bedrock at 29 inches.  (R horizon)\nKeys to Soil Taxonomy:  Eighth Edition 1998\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely cobbly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 4 inches; dark grayish brown (10YR 4/2) extremely cobbly loam, very dark grayish brown (10YR 3/2) moist; moderate fine and very fine granular structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine, common fine and medium roots; many very fine, common fine tubular and interstitial pores; 5 percent gravel, 25 percent cobbles, 10 percent stones; neutral (pH 7.2); clear wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--4 to 11 inches; dark grayish brown (10YR 4/2) very cobbly loam, very dark grayish brown (10YR 3/2) moist; weak medium subangular blocky structure parting to moderate fine and very fine granular; hard, firm, slightly sticky and moderately plastic; many very fine, few fine and medium roots; many very fine, few fine tubular pores; 5 percent gravel, 25 percent cobbles, 10 percent stones; slightly alkaline (pH 7.4); clear wavy boundary.  (total thickness of A horizons - 10 to 15 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 28,
+        "bottom": 74,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "cf_class": "extremely stony",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--11 to 29 inches; yellowish brown (10YR 5/4) extremely stony silty clay loam, brown (10YR 4/3) moist; moderate medium subangular blocky structure parting to moderate fine and very fine subangular blocky; very hard, very firm, very sticky and very plastic; common very fine, few fine and medium roots; common very fine tubular pores; common discontinuous prominent clay skins on faces of peds; 10 percent gravel, 25 percent cobbles, 30 percent stones; slightly alkaline (pH 7.4); gradual wavy boundary.  (12 to 36 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 74,
+        "narrative": "R--29 inches; fractured andesite bedrock."
+      }
+    ]
+  ]
 }

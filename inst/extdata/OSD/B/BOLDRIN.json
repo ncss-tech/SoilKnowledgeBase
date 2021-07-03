@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features and horizons recognized in this profile include:\nHistic epipedon: 0 to 15 inches. (Oi, Oe, and Oa horizons)\nGleyed colors: 15 to 60 inches. (Cg and Cgf horizons)\nCoarse-loamy particle size control section 10 to 40 inches below the mineral soil surface\nDepth to permafrost: 30 to 60 inches. (2Cf horizon)\nTemperature regime: pergelic\nMoisture regime: aquic.\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oi--0 to 2 inches; dark reddish brown (5YR 3/3) slightly decomposed plant material; many very fine and fine and common medium roots; moderately acid (pH 6.0); abrupt wavy boundary."
+      },
+      {
+        "name": "Oe",
+        "top": 5,
+        "bottom": 20,
+        "moist_hue": "7.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 3,
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Oe--2 to 8 inches; very dark brown (7.5YR 2.5/3) mucky peat; many very fine and fine and common medium roots; moderately acid (pH 6.0); clear wavy boundary."
+      },
+      {
+        "name": "Oa",
+        "top": 20,
+        "bottom": 38,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oa--8 to 15 inches; dark brown (7.5YR 3/3) muck; many very fine and fine and few medium roots; slightly acid (6.1); abrupt wavy boundary."
+      },
+      {
+        "name": "Cg",
+        "top": 38,
+        "bottom": 76,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cg--15 to 30 inches; dark gray (5Y 4/1) gravelly loam; friable, nonsticky and nonplastic; 20 percent gravel; slightly acid (pH 6.4); clear wavy boundary."
+      },
+      {
+        "name": "Cgf",
+        "top": 76,
+        "bottom": 152,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "narrative": "Cgf--30 to 60 inches; dark gray (5Y 4/1) permanently frozen gravelly loam; 20 percent gravel; slightly acid (pH 6.4)."
+      }
+    ]
+  ]
 }

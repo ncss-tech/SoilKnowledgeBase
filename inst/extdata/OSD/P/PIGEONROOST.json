@@ -56,5 +56,83 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Soils now included with the Pigeonroost series were previously mapped with Cowee or Edneytown soils. Cowee soils have hue of 5YR or redder in the subsoil, and Edneytown soils are very deep to bedrock. The clay content of the particle-size control section for Pigeonroost soils averages about 18 percent. The total silt content ranges from about 30 to 50 percent. The fine silt fraction averages about 35 percent and ranges from about 20 to 40 percent. According to engineering index data, a large portion of the silt content is very fine silt.\nThe 12/97 revision places the Pigeonroost series in the fine-loamy, mixed, active, mesic Typic Hapludults family per the 7th Edition of Keys to Soil Taxonomy (1996). The CEC activity class placement is based on sample pedons S90-NC-121-006 and S91-NC-171-002 and placement of similar soils such as Edneytown. Sample pedon S91-NC-171-002 classifies as semiactive, but the active class is consistent with similar series. Horizon depths and runoff class were also revised at this time.\nDiagnostic horizons and soil characteristics recognized in this pedon are:\nOchric epipedon - the zone from the soil surface to a depth of 5 inches (Oe and A horizons)\nArgillic horizon - the zone from 5 to 28 inches (Bt horizon)\nParalithic contact - weathered bedrock contact at 39 inches (upper boundary of the Cr horizon)\nADDITIONAL DATA: Characterization data is available from the National Soil Survey Laboratory, Lincoln, NE; pedon number S90NC-121-006 and S91NC-171-002 (sampled as Chestnut).\nMLRA: 130 SIR(s): NC0247\nRevised: 4/94-JBA-RHR-JAK; 1/98-DHK; 2/02-MKC\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "Oe--0 to 2 inches; matted roots and moderately decomposed oak-pine leaf litter. (2 to 0 inches thick.)"
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--2 to 5 inches; dark yellowish brown (10YR 4/4) loam, brown (10YR 5/3) dry; moderate fine granular structure; friable; common very fine or fine and few medium or coarse roots; common fine or medium interstitial pores; 5 percent by volume gravel; very strongly acid; abrupt smooth boundary. (1 to 8 inches thick.)"
+      },
+      {
+        "name": "Bt1",
+        "top": 13,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--5 to 14 inches; brownish yellow (10YR 6/6) loam; moderate medium subangular blocky structure; friable; few medium and coarse roots and many very fine or fine roots; few fine or medium and few medium or coarse tubular pores; common faint clay films on faces of peds; 5 percent by volume gravel; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 36,
+        "bottom": 69,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--14 to 27 inches; brownish yellow (10YR 6/8) loam; moderate medium subangular blocky structure; friable; common very fine or fine and common medium or coarse roots; common very fine or fine and few medium or coarse tubular pores; few faint clay films on faces of peds; 5 percent by volume gravel; very strongly acid; gradual wavy boundary. (Combined thickness of the Bt horizon is 10 to 35 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 69,
+        "bottom": 99,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "BC--27 to 39 inches; yellowish brown (10YR 5/8) sandy loam; weak coarse subangular blocky structure; friable; few very fine to coarse roots; common very fine or fine and few medium or coarse tubular pores; few pockets of multicolored sandy loam saprolite; 5 percent by volume gravel; very strongly acid; abrupt smooth boundary. (0 to 10 inches thick.)"
+      },
+      {
+        "name": "Cr",
+        "top": 99,
+        "bottom": 206,
+        "narrative": "Cr--39 to 81 inches; weathered, multicolored, partially consolidated granodioritic gneiss that can be dug with difficulty with hand tools  few fine and medium roots in cracks that are spaced more than 4 inches apart."
+      }
+    ]
+  ]
 }

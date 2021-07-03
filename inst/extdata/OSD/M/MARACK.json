@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features in this pedon\nare:\nMollic epipedon - the zone from the surface of the soil to a\ndepth of 12 inches (A1, A2 horizons).\nArgillic horizon - the zone from 12 inches to 25 inches (Bt,\nBtk horizons).\nCalcic horizon - the zone from 17 to 47 inches (Btk, Bk1,\n2Bk2 horizons).\nNATIONAL COOPERATIVE SOIL SURVEY\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "cf_class": "gravelly",
+        "narrative": "A1--0 to 2 inches; grayish brown (10YR 5/2) gravelly"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "cf_class": "gravelly",
+        "narrative": "A2--2 to 12 inches; grayish brown (10YR 5/2) gravelly"
+      },
+      {
+        "name": "Bt",
+        "top": 30,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "clay",
+        "narrative": "Bt--12 to 17 inches; brown (10YR 5/3) clay, dark brown"
+      },
+      {
+        "name": "Btk",
+        "top": 43,
+        "bottom": 64,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "texture_class": "silt",
+        "narrative": "Btk--17 to 25 inches; yellowish brown (10YR 5/4) silty"
+      },
+      {
+        "name": "Bk",
+        "top": 64,
+        "bottom": 86,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "narrative": "Bk--25 to 34 inches; light yellowish brown (10YR 6/4)"
+      },
+      {
+        "name": "2Bk2",
+        "top": 86,
+        "bottom": 119,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "narrative": "2Bk2--34 to 47 inches; very pale brown (10YR 7/3) very"
+      },
+      {
+        "name": "3Crk",
+        "top": 119,
+        "bottom": 152,
+        "narrative": "3Crk--47 to 60 inches; consolidated tuffaceous"
+      }
+    ]
+  ]
 }

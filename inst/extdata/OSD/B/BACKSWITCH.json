@@ -56,5 +56,94 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This OSD is written to include the Switchback soils as mapped and correlated in Elmore County Area, Idaho (1985). These soils are not Vitrandic as the Switchback soils have since been classified.\nDiagnostic horizons and features recognized in this pedon:\nOchric epipedon - zone from 2 to 8 inches (A horizon)\nCambic horizon - zone from 8 to 25 inches (Bw1 and Bw2 horizons)\nParticle-size control section - zone from 10 to 35 inches\nParalithic contact - at 35 inches (Cr)\nLithic contact - at 38 inches (R)\nSoil moisture regime - xeric\nBase saturation is assumed to be greater than 60 percent (NH4Oac) in some horizon between 10 and 30 inches and is based on lab data from the associated Stavely soil in Elmore County, ID.\nAll depths to diagnostic horizons and features within the range of characteristics are measured from the top of the first mineral horizon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "Oi--0 to 2 inch; slightly decomposed forest litter."
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "pH": 5.7,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--2 to 8 inches; grayish brown (10YR 5/2) coarse sandy loam, very dark grayish brown (10YR 3/2) moist; weak fine and medium subangular blocky structure parting to weak fine granular; soft, very friable, nonsticky and nonplastic; common very fine and fine, few medium roots; many very fine and fine, few medium irregular pores; 10 percent fine gravel; moderately acid (pH 5.7); clear wavy boundary. (2 to 7 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 20,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--8 to 14 inches; pale brown (10YR 6/3) fine gravelly coarse sandy loam, brown (10YR 4/3) moist; moderate fine and medium subangular blocky structure; slightly hard, very friable, nonsticky and nonplastic; few very fine, fine, medium and coarse roots; few very fine and fine irregular and tubular pores; 20 percent fine gravel; moderately acid (pH 6.0); clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 36,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw2--14 to 25 inches; light yellowish brown (10YR 6/4) fine gravelly coarse sandy loam, dark yellowish brown (10YR 4/4) moist; weak fine and medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; few very fine, fine and medium roots; few very fine and fine irregular and tubular pores; 20 percent fine gravel; slightly acid (pH 6.2); clear smooth boundary. (combined Bw horizon - 12 to 25 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 64,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "very gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--25 to 35 inches; very pale brown (10YR 7/4) very gravelly loamy coarse sand, yellowish brown (10YR 5/4) moist; massive; soft, very friable, nonsticky and nonplastic; few very fine and fine roots; few very fine and fine irregular pores; 40 percent fine gravel; neutral (pH 6.6); abrupt wavy boundary. (4 to 15 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 89,
+        "bottom": 97,
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Cr--35 to 38 inches; highly fractured and moderately weathered granodiorite; clear smooth boundary. (2 to 10 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 97,
+        "narrative": "R--38 inches; slightly weathered granodiorite."
+      }
+    ]
+  ]
 }

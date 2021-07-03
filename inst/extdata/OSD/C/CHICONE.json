@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This soil was previously included in the swamp miscellaneous areas or as an inclusion in the Johnston series.\nDiagnostic horizons and other diagnostic soil characteristics recognized in this pedon are:\nOchric epipedon--the zone from the soil surface to a depth of 3 inches (A horizon)\nSapric soil material--the zone from 24 to 65 inches (Oa horizon)\nSERIES INTERPRETATION RECORDS: MD0142\nOSD-SIR REPORT:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nMD0142 CHICONE     0-  2   52- 58  190-210  42- 48     0-  20\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nMD0142 COMMON       +1.0-0.5 APPARENT  NOV-JUN  >60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nMD0142  0- 3  MK-SIL                  0-  0 100-100  8-15  30- 50\nMD0142  3-15  SIL                     0-  0 100-100  8-15   5- 15\nMD0142 15-24  SIL                     0-  0 100-100  8-18   5- 15\nMD0142 24-65  MUCK MPT                0-  0    -     0- 0  20- 50\nMD0142 65-72  S LS                    0-  0  70-100  3- 8   1-  5\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nMD0142  0- 3  3.5- 5.5  10-20  0- 0   0.6- 2.0  LOW\nMD0142  3-15  3.5- 5.5  .5-3.  0- 0   0.6- 6.0  LOW\nMD0142 15-24  3.5- 5.5  .5-3.  0- 0   0.6- 6.0  LOW\nMD0142 24-65  3.5- 5.5  60-80  0- 0   6.0-  20  LOW\nMD0142 65-72  3.5- 5.5  .5-1.  0- 0   2.0-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {}
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; very dark brown (10YR 2/2) mucky silt loam; weak fine granular structure; friable; slightly sticky, nonplastic; many very fine and fine and common medium roots; common very fine and fine pores; strongly acid; clear wavy boundary. (2 to 40 inches thick)"
+      },
+      {
+        "name": "Cg1",
+        "top": 8,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Cg1--3 to 15 inches; dark brown (7.5YR 3/2) silt loam, gray (10YR 6/2) dry; massive; friable; slightly sticky, nonplastic; common very fine and fine roots; few very fine and fine pores; common fine prominent strong brown (7.5YR 4/6) iron accumulations; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 38,
+        "bottom": 61,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cg2--15 to 24 inches; black (N 2/0) silt loam; massive; firm; slightly sticky, slightly plastic; common very fine roots; few very fine pores; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Oa",
+        "top": 61,
+        "bottom": 165,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oa--24 to 65 inches; black (10YR 2/1) muck, sapric soil material; fiber content is 10 percent of the soil volume after rubbing; 20 percent, by weight, mineral soil material; strongly acid; clear smooth boundary. (16 to 45 inches thick)"
+      },
+      {
+        "name": "C'g",
+        "top": 165,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "narrative": "C'g--65 to 72 inches; gray (10YR 6/1) sand; single grain; loose; strongly acid."
+      }
+    ]
+  ]
 }

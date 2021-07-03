@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Previously mapped Manor soils.\nDiagnostic horizons and feature recognized in this pedon are:\na: Ochric epipedon-from the surface to a depth of 7 inches (Ap).\nb: Argillic horizon-between 7 and 15 inches (Bt).\nc. Base saturation is 35 percent or less.\nADDITIONAL DATA:  The Gaila Soils are extremely low in calcium and magnesium content.  The series has been held to soils that developed in residuum from quartz muscovite schist.  The substratum consists of soft saprolite with a high content of muscovite mica.  Silt content is low but the mica content causes the soil to feel slick or silty.  Mica content by grain count is commonly more than 40 percent in the C horizon.\nRevisions made 2/2008 to update competing and geographically associated soils as well as geographic setting and terminology.\nPrevious revision:  JHE-DDR-EPE 07/2001\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "Oi--0 to 2 inches, partially decomposed hardwood leaves and twigs."
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 23,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--2 to 9 inches, brown (7.5YR 4/4) sandy loam; moderate fine granular structure; very friable; many fine, medium and coarse roots; 1 percent angular vein quartz gravel; many fine mica flakes; extremely acid; clear smooth boundary.  (2 to 10 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 23,
+        "bottom": 43,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt--9 to 17 inches, strong brown (7.5YR 5/8) sandy clay loam; weak fine and medium subangular blocky structure; friable; many fine and medium roots; few coarse roots, common distinct clay films on faces of peds; 1 percent angular vein quartz gravel; many fine mica flakes; very strongly acid; gradual smooth boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 43,
+        "bottom": 114,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "C1--17 to 45 inches, variegated yellow, brown, red and white; sandy loam; massive; very friable; 1 percent angular vein quartz; many fine mica flakes; few fine roots; very strongly acid; gradual smooth boundary.  (0 to 40 inches thick)"
+      },
+      {
+        "name": "C2",
+        "top": 114,
+        "bottom": 188,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "narrative": "C2--45 to 74 inches, variegated yellow, red, brown and white; loamy sand; massive; very friable; 1 percent thin vein quartz stringers; very micaceous, 5 percent partially weathered mica schist fragments; very strongly acid."
+      }
+    ]
+  ]
 }

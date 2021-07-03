@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  NewGlarus soils were at one time included with the Dubuque soils.\nDiagnostic horizons and features recognized in this pedon are:  ochric epipedon - the zone from the surface of the soil to a depth of 9 inches (Ap horizon); argillic horizon - zone from 13 to 45 inches (Bt1, 2Bt2, 3Bt3 horizons); other features - strongly contrasting particle-size class (absolute difference of 25 percent clay).\nProfiles that have the thicker loess deposits may classify as fine-silty instead of fine-silty over clayey.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 9 inches; very dark grayish brown (10YR 3/2) silt loam, light brownish gray (10YR 6/2) dry; moderate very fine subangular blocky structure; friable; many fine roots; neutral; abrupt smooth boundary.  (3 to 5 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 23,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BE--9 to 13 inches; yellowish brown (10YR 5/4) silt loam; moderate fine subangular blocky structure; friable; common fine roots; slightly acid; clear smooth boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 33,
+        "bottom": 58,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--13 to 23 inches; yellowish brown (10YR 5/4) silty clay loam; moderate fine angular and subangular blocky structure; very firm; few fine roots; faint continuous clay films on all faces of peds; slightly acid; clear smooth boundary.  (8 to 20 inches thick)"
+      },
+      {
+        "name": "2Bt2",
+        "top": 58,
+        "bottom": 89,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "2Bt2--23 to 35 inches; dark reddish brown (2.5YR 3/4) clay; moderate fine angular and subangular blocky structure; very firm; few fine roots; faint continuous clay films on all faces of peds; about 7 percent chert gravel; slightly acid; abrupt smooth boundary.  (6 to 20 inches thick)"
+      },
+      {
+        "name": "3Bt3",
+        "top": 89,
+        "bottom": 114,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "3Bt3--35 to 45 inches; dark yellowish brown (10YR 4/4) very channery loam; moderate medium subangular blocky structure; friable; common faint brown (10YR 4/3) clay films on the faces of peds and in pores; thin residual layers of very dark grayish brown (10YR 3/2) clay occur around the dolostone fragments; about 35 percent dolostone channers; about 10 percent dolostone flagstones; neutral; abrupt irregular boundary."
+      },
+      {
+        "name": "3Rt",
+        "top": 114,
+        "texture_class": "clay",
+        "narrative": "3Rt--45 inches; fractured dolomite that is shattered in the upper part and has clay in the narrow and widely spaced fractures."
+      }
+    ]
+  ]
 }

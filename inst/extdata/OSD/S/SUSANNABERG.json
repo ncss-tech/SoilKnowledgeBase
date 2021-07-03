@@ -56,5 +56,74 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  These soils were formerly included in the Cramer series.\nDiagnostic horizons and other features recognized in this pedon include:\nMollic epipedon - zone from 0 to 9 inches (A and Bw horizons).\nCambic horizon - zone from 2 to 15 inches (Bw and BC horizons).\nParalithic contact - the contact at 15 inches (Cr horizon).\nADDITIONAL DATA:  Characterization pedon - St. John Island, U.S. Virgin Islands; S91VI-20-8.  Addtional characterization data - St. John Island; S91VI-20-14.\nMLRA:  271.\nSIR:  VI0022.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; very dark brown (10YR 2/2) clay loam; moderate medium and coarse granular structure; friable; common fine and medium roots, few coarse roots; common fine and medium interstitial pores; few medium wormcasts; about 10 percent, by volume, pebbles, cobbles, and stones; neutral; clear smooth boundary. (3 to 10 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 5,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--2 to 9 inches; very dark brown (10YR 2/2) clay; moderate fine and medium subangular blocky structure; firm; common fine and medium roots, few coarse roots; common fine and medium tubular pores; few medium wormcasts; about 10 percent, by volume, pebbles; many fine soft masses of iron and manganese; neutral; clear wavy boundary. (3 to 8 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 23,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "BC--9 to 15 inches; dark brown (10YR 3/3) very gravelly clay loam; moderate fine and medium subangular blocky structure; friable; few fine, medium, and coarse roots; common fine tubular pores; many fine and medium wormcasts; about 30 percent, by volume, pebbles; common medium and coarse soft masses of iron and manganese; neutral; abrupt smooth boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 38,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "narrative": "Cr--15 to 21 inches; yellowish brown (10YR 5/4) and dark yellowish brown (10YR 4/5) weathered igneous bedrock."
+      },
+      {
+        "name": "R",
+        "top": 53,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "narrative": "R--21 to 60 inches; yellowish brown (10YR 5/4) unweathered igneous bedrock."
+      }
+    ]
+  ]
 }

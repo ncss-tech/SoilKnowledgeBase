@@ -56,5 +56,54 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and other features in this pedon\n*Particle-size control section--zone from 0 to 100 cm\n*Histic epipedon--zone from 0 to 40 cm\n*Permafrost--Oef horizon\n*Aquic conditions--zone from 25 to 100 cm\nSoils are dominantly derived from sphagnum moss, but may contain sedge materials overlying mineral horizons at greater than 100 cm depth.\nSome pedons have mineral horizons that occur below 100 cm.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe1",
+        "top": 0,
+        "bottom": 15,
+        "pH": 4,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oe1--0 to 15 cm; mucky peat; many very fine roots, common fine and medium roots; extremely acid (pH 4.0); abrupt wavy boundary"
+      },
+      {
+        "name": "Oa1/Oe2",
+        "top": 15,
+        "bottom": 34,
+        "pH": 3.8,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Oa1/Oe2--15 to 34 cm; mucky peat and muck; common very fine and fine roots; extremely acid (pH 3.8); clear wavy boundary"
+      },
+      {
+        "name": "Oa2",
+        "top": 34,
+        "bottom": 60,
+        "pH": 3.5,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Oa2--34 to 60 cm; muck; extremely acid (pH 3.5); clear wavy boundary"
+      },
+      {
+        "name": "Oef",
+        "top": 60,
+        "bottom": 100,
+        "pH": 4.3,
+        "pH_class": "extremely acid",
+        "narrative": "Oef--60 to 100 cm; permanently frozen mucky peat; very firm; extremely acid (pH 4.3)"
+      }
+    ]
+  ]
 }

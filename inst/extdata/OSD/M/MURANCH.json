@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon:  Zone from the surface to a depth of 15 inches(A1,A2).\nCambic horizon:  Zone from about 15 inches to 36 inches (B).  Horizon has stronger chroma than the A and R horizons.\nLithic contact:  A contact of hard basalt is at 36 inches (R).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 7.5,
+        "pH_class": "mildly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 3 inches; brown (10YR 5/3) loam, dark brown (10YR 3/3) moist; moderate fine subangular blocky structure; slightly hard, friable, sticky and plastic; common very fine roots; few very fine tubular and common very fine interstitial pores; mildly alkaline (pH 7.5); clear smooth boundary.  (3 to 7 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 7.5,
+        "pH_class": "mildly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A2--3 to 15 inches; brown (10YR 5/3) loam, dark brown (10YR 3/3) moist; weak medium subangular blocky structure; slightly hard, friable, sticky and plastic; few very fine and fine roots; common very fine and fine interstitial and common medium tubular pores; 5 percent pebbles; mildly alkaline (pH 7.5); gradual wavy boundary.  (7 to 12 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 38,
+        "bottom": 91,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--15 to 36 inches; light yellowish brown (10YR 6/4) very gravelly loam, dark yellowish brown (10YR 3/4) moist; massive; slightly hard, friable, sticky and plastic; few very fine and fine and common medium roots; few very fine tubular and interstitial pores; 40 percent pebbles and 20 percent cobbles; moderately alkaline (pH 8.0); gradual wavy boundary.  (10 to 21 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 91,
+        "bottom": 102,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "narrative": "R--36 to 40 inches; very dark gray (10YR 3/1) hard fractured basalt, black (10YR 2/1) moist."
+      }
+    ]
+  ]
 }

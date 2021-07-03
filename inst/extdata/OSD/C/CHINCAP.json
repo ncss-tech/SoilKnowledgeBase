@@ -56,5 +56,71 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - zone from the surface of the soil to a depth of 9 inches (A horizon);\nCambic horizon - zone from 9 to 23 inches (Bw horizon).\nLithic contact - top of the R horizon at 23 inches.\nUstic moisture regime\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 1 inch; dark gray (10YR 4/1) fine sandy loam, very dark gray (10YR 3/1) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; many fine and medium roots; neutral (pH 7.2); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 3,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--1 to 9 inches; dark grayish brown (10YR 4/2) sandy loam, very dark grayish brown (10YR 3/2) moist; weak medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many fine and medium roots; slightly alkaline (pH 7.4); clear smooth boundary. (Combined thickness of the A horizon is 7 to 12 inches)"
+      },
+      {
+        "name": "Bw",
+        "top": 23,
+        "bottom": 58,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "narrative": "Bw--9 to 23 inches; brown (10YR 5/3) sandy loam, brown (10YR 4/3) moist; weak coarse subangular blocky structure; soft, very friable, nonsticky and nonplastic; few medium and common coarse roots; 10 percent angular sandstone gravel; slightly alkaline (pH 7.4). (12 to 30 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 58,
+        "texture_class": "sand",
+        "narrative": "R--23 inches; hard, noncalcareous sandstone."
+      }
+    ]
+  ]
 }

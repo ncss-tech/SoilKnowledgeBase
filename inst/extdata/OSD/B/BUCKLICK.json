@@ -56,5 +56,103 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Bucklick soils were formerly mapped as Hagerstown soils in Missouri. Yield data for the Bucklick series is approximately half of what is obtained on the Hagerstown soils.  The forest ordination for Hagerstown series is 1, and for the Bucklick series, it is 3.  The principal reason for the difference is climate.  Missouri is midcontinental; hot summers and cold winters.  Hagerstown is temperate.  The annual temperature and precipitation is similar for both series, but the pattern of distribution is different.  Missouri has less rainfall and warmer temperatures in July and August.\nDiagnostic horizons and features recognized in this series are:\nochric epipedon - the zone from the surface to about 6 inches (Ap horizon);\nargillic horizon - the zone from approximately 6 inches to 50 inches (2Bt1, 2Bt2, 2Bt3, 2Bt4, and 2Bt5 horizons); lithic contact - 50 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; dark yellowish brown (10YR 4/4) silt loam, light yellowish brown (10YR 6/4) dry; moderate very fine granular structure; friable; many fine roots; slightly acid; clear smooth boundary.  (4 to 9 inches thick)"
+      },
+      {
+        "name": "2Bt1",
+        "top": 15,
+        "bottom": 41,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "2Bt1--6 to 16 inches; yellowish red (5YR 4/6) silty clay loam; moderate very fine subangular blocky structure; firm; common fine roots; few faint reddish brown clay films on faces of peds; few coarse sand grains; strongly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "2Bt2",
+        "top": 41,
+        "bottom": 71,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "coarse sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bt2--16 to 28 inches; yellowish red (5YR 5/6) silty clay; moderate very fine subangular blocky structure; firm; few fine roots; common distinct reddish brown clay films on faces of peds; few coarse sand grains; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "2Bt3",
+        "top": 71,
+        "bottom": 86,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "coarse sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bt3--28 to 34 inches; yellowish red (5YR 4/6), brown (10YR 5/3) and strong brown (7.5YR 5/6) silty clay; moderate very fine subangular blocky structure; firm; few fine roots; common distinct reddish brown clay films on faces of peds; 5 percent angular cherty gravel; few fine black stains; few coarse sand grains; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "2Bt4",
+        "top": 86,
+        "bottom": 107,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silty clay",
+        "cf_class": "very gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2Bt4--34 to 42 inches; yellowish red (5YR 4/6), yellowish brown (10YR 5/6) and distinct brown (7.5YR 5/4) very gravelly silty clay; moderate very fine subangular blocky structure; firm; common faint reddish brown clay films on faces of peds; few fine black stains; 35 percent angular cherty gravel; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "2Bt5",
+        "top": 107,
+        "bottom": 127,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2Bt5--42 to 50 inches; brown (7.5YR 4/4) silty clay; weak fine subangular blocky structure; firm; few faint reddish brown clay films on faces of peds; common fine black stains; common fine black iron and manganese concretions; 10 percent angular cherty gravel; slightly acid; clear smooth boundary. (Combined thickness of the Bt horizons is 36 to 72 inches.)"
+      },
+      {
+        "name": "3R",
+        "top": 127,
+        "narrative": "3R--50 inches; dolomite."
+      }
+    ]
+  ]
 }

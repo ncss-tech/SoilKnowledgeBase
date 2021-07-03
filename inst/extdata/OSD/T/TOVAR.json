@@ -56,5 +56,111 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from 0 to 3 inches (A horizon)\nArgillic horizon - The zone from 8 to 35 inches (2Bt1, 2Bt2, and 2Bt3 horizons)\nLithic contact - The boundary at 35 inches (3R horizon)\nVertic subgroup - Linear extensibility of 6.0 cm or more to bedrock\nClassified according to Soil Taxonomy Second Edition, 1999; Keys to Soil Taxonomy Tenth Edition, 2006.\nADDITIONAL DATA: NSSL S77AZ-5-5\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; brown (7.5YR 5/4) fine sandy loam, reddish brown (5YR 4/3) moist; weak thick platy structure parting to moderate fine granular; soft, very friable, nonsticky and nonplastic; few fine and very fine roots; common fine and very fine vesicular pores; 10 percent channers; neutral (pH 7.0); clear smooth boundary. (2 to 5 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 8,
+        "bottom": 20,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "flaggy",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--3 to 8 inches; brown (7.5YR 4/4) flaggy fine sandy loam, dark reddish brown (5YR 3/4) moist; weak fine subangular blocky structure; hard, friable, slightly sticky and slightly plastic; common fine roots; common fine discontinuous irregular pores; 20 percent flagstones and 10 percent channers; neutral (pH 7.2); clear smooth boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "2Bt1",
+        "top": 20,
+        "bottom": 41,
+        "dry_hue": "5YR",
+        "dry_value": 3,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "flaggy",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2Bt1--8 to 16 inches; dark reddish brown (5YR 3/4) flaggy clay, dark reddish brown (5YR 3/4) moist; strong medium and coarse prismatic structure; very hard, very firm, sticky and very plastic; common very fine roots; few very fine discontinuous irregular pores; 20 percent flagstones and 10 percent channers; continuous distinct clay films on faces of peds; slightly alkaline (pH 7.4); clear smooth boundary. (6 to 9 inches thick)"
+      },
+      {
+        "name": "2Bt2",
+        "top": 41,
+        "bottom": 64,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "flaggy",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bt2--16 to 25 inches; reddish brown (5YR 4/4) flaggy clay, reddish brown (5YR 4/4) moist; strong medium subangular blocky structure; very hard, very firm, sticky and very plastic; common very fine roots; few very fine discontinuous irregular pores; 20 percent flagstones and 10 percent channers; continuous distinct clay films on faces of peds; slightly alkaline (pH 7.4); gradual smooth boundary. (8 to 10 inches thick)"
+      },
+      {
+        "name": "2Bt3",
+        "top": 64,
+        "bottom": 89,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "flaggy",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "2Bt3--25 to 35 inches; yellowish red (5YR 4/6) flaggy clay, reddish brown (5YR 4/4) moist; moderate fine and medium subangular blocky structure; very hard, very firm, sticky and plastic; few very fine roots; few very fine discontinuous irregular pores; 30 percent flagstones; many distinct clay films on faces of peds; slightly alkaline (pH 7.6); abrupt smooth boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "3R",
+        "top": 89,
+        "texture_class": "sand",
+        "narrative": "3R--35 inches; thin-bedded hard sandstone; few thin calcium carbonate coatings in fractures."
+      }
+    ]
+  ]
 }

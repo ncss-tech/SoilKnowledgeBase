@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nOchric epipedon - the zone from 0 to 54 inches (A, E1, and E2 horizons).\nCoated control section - the zone from 10 to 40 inches (E1 and E2 horizons).\nLamellae - occurring between depths of 54 to more than 80 inches (E&Bt1, E&Bt2).\nThese soils were formerly mapped in the Lakeland series.  This concept provides for sandy soils that have lamellae that total less than 6 inches thick within depths of 80 inches.\nDepth to seasonal water table is more than 80 inches.  Some low terraces flood occasionally for brief periods.\nADDITIONAL DATA:  Soil Characterization Data - S12-5-(1-6), S16-20-(1-6), S33-9-(1-5), S37-23-(1-5), S40-10-(1-5), S65-12-(1-5).  Samples by Soil Characterization Lab, IFAS, University of Florida, Gainesville, FL\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; dark gray (10YR 4/1) fine sand; single grained; loose; common fine and medium roots; very strongly acid; clear smooth boundary.  (3 to 10 inches thick)"
+      },
+      {
+        "name": "E1",
+        "top": 8,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E1--3 to 34 inches; light yellowish brown (10YR 6/4) fine sand; single grained; loose; few fine roots; few clean sand grains; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "E2",
+        "top": 86,
+        "bottom": 137,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E2--34 to 54 inches; very pale brown (10YR 7/4) fine sand; single grained; loose; common clean sand grains; strongly acid; gradual wavy boundary.  (Combined thickness of the E horizon range from 37 to 75 inches.)"
+      },
+      {
+        "name": "Bt1",
+        "top": 137,
+        "bottom": 178,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 3,
+        "texture_class": "loamy fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E&Bt1--54 to 70 inches; very pale brown (10YR 8/3) (E) fine sand; single grained; loose; many uncoated sand grains; few yellowish brown (10YR 5/8) loamy fine sand lamellae (Bt) about 3 mm thick; sand grains in lamellae are coated and weakly bridged with clay; individual lamellae are discontinuous in length within the pedon; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 178,
+        "bottom": 229,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E&Bt2--70 to 90 inches; very pale brown (10YR 8/2) (E) fine sand; single grained; loose; sand grains are uncoated; common yellowish brown (10YR 5/8) loamy fine sand lamellae (Bt) about 3 mm thick; sand grains in lamellae are coated; individual lamellae are discontinuous in length; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 229,
+        "bottom": 361,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 3,
+        "texture_class": "fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E&Bt3--90 to 142 inches; very pale brown (10YR 8/3) (E) fine sand; single grained, loose; sand grains are uncoated; very few yellowish brown (10YR 5/8) lamellae (Bt) 1 mm thick; sand grains in lamellae are coated; individual lamellae are discontinuous in length; number of lamellae decreases by about 50 percent of the amount in the layer above; strongly acid; clear wavy boundary.  (Combined thickness of the E&B horizons total more than 5 inches.)"
+      },
+      {
+        "name": "Bt",
+        "top": 361,
+        "bottom": 376,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "narrative": "Bt--142 to 148 inches; very pale brown (10YR 7/4) fine sandy loam; moderate medium granular structure; friable; sand grains are coated and bridged with clay; strongly acid."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,110 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  1.  In West Virginia, these soils have formed on bedrock from the Kanawha and New River groups of the Pottsville Formation.  2. These soils were previously considered Leetonia (mesic) or included with Dekalb.  3.  Diagnostic horizons and features recognized in the typical pedon are:\na.  Ochric epipedon - the zone from 3 to 9 inches (A and E horizons).\nb.  Spodic horizon - the zone from 9 to 23 inches (Bhs and Bs horizons).\nc.  Skeletal feature - approximately 56 percent (by volume) weighted average rock fragment in the 10 to 35 inch control section.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 8,
+        "bottom": 0,
+        "narrative": "Oi--3 to 0 inches; fibric material consisting of red spruce, mountain laurel, and clubmoss litter."
+      },
+      {
+        "name": "Oa",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "narrative": "Oa--0 to 3 inches; black (5YR 2/1) sapric material.  (Combined thickness of the O horizons is 1 to 8 inches.)"
+      },
+      {
+        "name": "A",
+        "top": 8,
+        "bottom": 13,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "sandy loam",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--3 to 5 inches; black (N 2/0) channery sandy loam; weak fine and medium granular structure; friable; many fine, medium, and coarse roots; 30 percent rock fragments; very strongly acid; abrupt wavy boundary.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 13,
+        "bottom": 23,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--5 to 9 inches; brown (7.5YR 5/2) very channery sandy loam; weak fine and medium granular structure; firm; few fine medium and coarse roots; 40 percent rock fragments; very strongly acid; clear wavy boundary.  (2 to 12 inches thick)"
+      },
+      {
+        "name": "Bhs",
+        "top": 23,
+        "bottom": 30,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bhs--9 to 12 inches; dark reddish brown (5YR 3/2) very channery sandy loam; weak medium subangular blocky structure; firm; moderately smeary; few fine medium and coarse roots; 40 percent rock fragments; very strongly acid; clear wavy boundary.  (3 to 10 inches thick)"
+      },
+      {
+        "name": "Bs",
+        "top": 30,
+        "bottom": 58,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bs--12 to 23 inches; strong brown (7.5YR 5/6) very channery loam; weak fine and medium subangular blocky structure; friable; weakly smeary; 40 percent rock fragments; very strongly acid; gradual wavy boundary.  (8 to 24 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 58,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "extremely channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--23 to 35 inches; yellowish brown (10YR 5/6) extremely channery loam; massive; friable; 70 percent rock fragments; very strongly acid; abrupt wavy boundary."
+      },
+      {
+        "name": "R",
+        "top": 89,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "narrative": "R--35 inches; olive gray (5Y 4/2) sandstone bedrock."
+      }
+    ]
+  ]
 }

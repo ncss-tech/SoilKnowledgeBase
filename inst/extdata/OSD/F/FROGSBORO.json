@@ -56,5 +56,146 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This series was formerly included with Iredell soils.  Iredell soils are moderately well drained and have mixed mineralogy.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface of the soil to 10 inches (A and EB horizon)\nArgillic horizon - the zone from 10 to 42 inches (Btss horizons)\nAquic conditions -  the zone from 4 to 23 inches (BE, Btss1, and Btss2 horizons)\nAeric feature - the zone from 10 to 30 inches (Btss1, Btss2, Btss3 horizons)\nVertic feature - linear extensibility of 6 cm or more (Btss horizons)\nMLRA = 136\nADDITIONAL DATA:\nDatabase Information:\nTypical Pedon Data Mapunit ID--670252\nBenchmark Status: No\nLab data:  S08NC-033-001-01-011\nTABULAR SERIES DATA:\nSOI-5     Soil Name   Slope   Airtemp    FrFr/Seas     Precip     Elevation\nNC        Frogsboro   0-15     58-66      180-225      40-60      400-800\nSOI-5    FloodL   FloodH  Watertable     Kind            Months       Bedrock     Hardness\nNC        NONE              1.0-1.5      PERCHED         JAN-MAR       >60\nSOI-5   Depth  Texture      3-Inch   No-10      Clay%    -CEC-\nNC      0-10     FSL SL L   0-5      85-100     8-20      4-15\nNC      0-10     SCL        0-5      85-100    20-35     10-25\nNC     10-42     SC CL C    0-5      95-100    35-60     15-35\nNC     42-46     L SCL CL   0-5      90-100    10-35      4-20\nNC     46-80     VAR         -         -          -          -\nSOI-5   Depth      -pH-      O.M.     Salin      Permeab    Shnk-Swll\nNC       0-10    4.5-6.5    .5-2.     0-0       2.0-6.0       LOW\nNC       0-10    4.5-6.5    .5-2.     0-0       0.6-2.0       LOW\nNC      10-42    4.5-6.5    0.-.5     0-0      0.06-0.2       VERY HIGH\nNC      42-46    5.6-8.4    0.-.5     0-0       0.6-2.0       MODERATE\nNC      46-80       -         -        -           -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 4 inches; dark brown (10YR 3/3) fine sandy loam; moderate fine granular structure; friable, slightly sticky, slightly plastic; many fine, medium, and coarse roots; few fine tubular pores; 5 percent medium prominent strong brown (7.5YR 4/6) masses of oxidized iron; and 15 percent medium distinct dark gray (10YR 4/1) mottles, throughout; moderately acid, pH 6.0; clear wavy boundary."
+      },
+      {
+        "name": "EB",
+        "top": 10,
+        "bottom": 25,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "EB--4 to 10 inches; grayish brown (2.5Y 5/2) fine sandy loam; weak coarse granular structure; friable, slightly sticky, slightly plastic; many fine, medium, and coarse roots; few fine tubular pores; 15 percent medium prominent strong brown (7.5YR 5/6) masses of oxidized iron; 1 percent basalt fragments; moderately acid, pH 6.0; clear wavy boundary."
+      },
+      {
+        "name": "Btss1",
+        "top": 25,
+        "bottom": 36,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btss1--10 to 14 inches; strong brown (7.5YR 5/6) clay; strong coarse prismatic parts to strong medium angular blocky structure; very firm, very sticky, very plastic; many fine, medium, and coarse roots; common medium tubular pores; 15 percent discontinuous distinct light brownish gray (10YR 6/2) and dark yellowish brown (10YR 4/4) pressure faces on vertical faces of peds and 20 percent distinct light brownish gray (10YR 6/2) and dark yellowish brown (10YR 4/4) clay films on all faces of peds; 10 percent faint slickensides on vertical faces of peds; 10 percent medium prominent light brownish gray (10YR 6/2) iron depletions and 20 percent coarse prominent greenish gray (5GY 5/1) iron depletions; strongly acid, pH 5.5; gradual wavy boundary."
+      },
+      {
+        "name": "Btss2",
+        "top": 36,
+        "bottom": 58,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btss2--14 to 23 inches; yellowish brown (10YR 5/6) clay; strong coarse prismatic parts to strong very coarse angular blocky structure; very firm, very sticky, very plastic; common fine, medium, and coarse roots; few medium tubular pores; 35 percent discontinuous distinct light brownish gray (10YR 6/2) pressure faces on vertical faces of peds and 40 percent distinct light brownish gray (10YR 6/2) and yellowish brown (10YR 5/4) clay films on all faces of peds; 10 percent faint slickensides on vertical faces of peds; 10 percent medium faint strong brown (7.5YR 5/6) masses of oxidized iron and 10 percent coarse prominent greenish gray (5GY 5/1) iron depletions and 15 percent fine prominent light brownish gray (10YR 6/2) iron depletions; strongly acid, pH 5.5; gradual wavy boundary."
+      },
+      {
+        "name": "Btss3",
+        "top": 58,
+        "bottom": 79,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btss3--23 to 31 inches; yellowish brown (10YR 5/6) clay; strong coarse prismatic parts to strong very coarse angular blocky structure; very firm, very sticky, very plastic; common fine, medium, and coarse roots; 15 percent discontinuous distinct light brownish gray (10YR 6/2) and yellowish brown (10YR 5/4) pressure faces on vertical faces of peds and 20 percent distinct yellowish brown (10YR 5/4) and light grayish olive (10Y 6/2) clay films on all faces of peds; 10 percent faint slickensides on vertical faces of peds; 5 percent medium faint yellowish brown (10YR 5/4) clay depletions and 10 percent medium prominent light brownish gray (10YR 6/2) iron depletions; strongly acid, pH 5.5; gradual wavy boundary."
+      },
+      {
+        "name": "Btss4",
+        "top": 79,
+        "bottom": 107,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btss4--31 to 42 inches; yellowish brown (10YR 5/6) clay; strong coarse prismatic parts to strong very coarse angular blocky structure; very firm, very sticky, very plastic; common fine, medium, and coarse roots; 20 percent distinct yellowish brown (10YR 5/4) clay films on vertical faces of peds; 10 percent faint slickensides on vertical faces of peds; 2 percent medium faint light brownish gray (10YR 6/2) iron depletions and 5 percent medium prominent yellowish brown (10YR 5/4) clay depletions; moderately acid, pH 6.0; gradual wavy boundary."
+      },
+      {
+        "name": "BC",
+        "top": 107,
+        "bottom": 117,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BC--42 to 46 inches; yellowish brown (10YR 5/8) loam; weak coarse angular blocky structure; friable, slightly sticky, slightly plastic; very few fine and medium roots; 2 percent basalt fragments; moderately acid, pH 6.0; clear smooth boundary."
+      },
+      {
+        "name": "C1",
+        "top": 117,
+        "bottom": 150,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C1--46 to 59 inches; yellowish brown (10YR 5/8) gravelly sandy loam; massive; friable, slightly sticky, slightly plastic; very few fine and medium roots; 25 percent basalt fragments; neutral, pH 7.0; clear smooth boundary."
+      },
+      {
+        "name": "C2",
+        "top": 150,
+        "bottom": 190,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C2--59 to 75 inches; light olive brown (2.5Y 5/4) sandy loam; massive; friable, slightly sticky, slightly plastic; 5 percent basalt fragments; neutral, pH 7.0; clear smooth boundary."
+      },
+      {
+        "name": "C3",
+        "top": 190,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately alkaline",
+        "narrative": "C3--75 to 80 inches; yellowish brown (10YR 5/6) gravelly fine sandy loam; massive; very friable, nonsticky, nonplastic; 10 percent basalt fragments; moderately alkaline, pH 8.0."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,108 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and other features recognized in this\npedon are:\nMollic epipedon - the zone from 0 to 20 inches (Ap, A, and Bt1\nhorizons)\nArgillic horizon - the zone from 14 to 33 inches (Bt horizons)\nParticle-size control section - the zone from 14 to 33 inches (the\nargillic horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "texture_class": "loam",
+        "narrative": "Ap--0 to 8 inches; dark gray (10YR 4/1) loam, black (10YR 2/1)"
+      },
+      {
+        "name": "A",
+        "top": 20,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "texture_class": "loam",
+        "narrative": "A--8 to 14 inches; dark gray (10YR 4/1) loam, very dark brown (10YR"
+      },
+      {
+        "name": "Bt1",
+        "top": 36,
+        "bottom": 51,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "narrative": "Bt1--14 to 20 inches; gray (10YR 5/1) gravelly loam, very dark"
+      },
+      {
+        "name": "Bt2",
+        "top": 51,
+        "bottom": 58,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "narrative": "Bt2--20 to 23 inches; pale brown (10YR 6/3) sandy clay loam, brown"
+      },
+      {
+        "name": "Bt3",
+        "top": 58,
+        "bottom": 84,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "texture_class": "clay loam",
+        "narrative": "Bt3--23 to 33 inches; pale brown (10YR 6/3) clay loam, brown (7.5YR"
+      },
+      {
+        "name": "C1",
+        "top": 84,
+        "bottom": 102,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "texture_class": "coarse sandy loam",
+        "narrative": "C1--33 to 40 inches; light brown (7.5YR 6/4) coarse sandy loam,"
+      },
+      {
+        "name": "C2",
+        "top": 102,
+        "bottom": 124,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "texture_class": "coarse sand",
+        "cf_class": "gravelly",
+        "narrative": "C2--40 to 49 inches; light brown (7.5YR 6/4) gravelly coarse sand,"
+      },
+      {
+        "name": "C3",
+        "top": 124,
+        "bottom": 132,
+        "dry_hue": "2.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "cf_class": "gravelly",
+        "narrative": "C3--49 to 52 inches; reddish brown (2.5YR 5/4) gravelly coarse"
+      },
+      {
+        "name": "C4",
+        "top": 132,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "cf_class": "gravelly",
+        "narrative": "C4--52 to 60 inches; very pale brown (10YR 7/4) gravelly coarse"
+      }
+    ]
+  ]
 }

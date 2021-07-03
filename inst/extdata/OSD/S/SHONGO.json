@@ -56,5 +56,107 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Complete characterization data available S90NY-009-007.  Reference Soil Interpretation Record:  NY0587.\nDiagnostic horizons and features recognized in this pedon are:\na.  Ochric epipedon - the zone from the soil surface to 14\t inches (Ap and BE horizons).\nb.  Argillic horizon - the zone from 14 to 56 inches (Bt and Btx horizons).\nc.  Fragipan - the zone from 24 to 56 inches (Btx horizon).\nd.  Aqualfs suborder - aquic moisture regime, and evidence of wetness that includes redoximorphic features, 2 chroma ped face colors in the zone from 14 to 24 inches (Bt horizon), and iron depletions immediately below the Ap\nhorizon (BE horizon).\ne.  Aeric subgroup - as evidenced by the dominant high chroma (>2) zone at a depth of 6 to 14 inches (BE horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; dark grayish brown (10YR 4/2) silt loam; moderate fine and medium granular structure; friable; many fine roots; 5 percent rock fragments; very strongly acid; abrupt smooth boundary.  (4 to 9 inches thick)."
+      },
+      {
+        "name": "BE",
+        "top": 15,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BE--6 to 14 inches; yellowish brown (10YR 5/4) silt loam; moderate medium and fine subangular blocky structure; friable; many fine roots; few fine pores; common medium distinct strong brown (7.5YR 5/8) masses ofiron accumulation and common medium distinct light brownish gray (10YR 6/2) iron depletions in the matrix; 5 percent rock fragments; very strongly acid; clear wavy boundary.  (4 to 10 inches thick)."
+      },
+      {
+        "name": "Bt",
+        "top": 36,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--14 to 24 inches; brown (10YR 5/3) silty clay loam; moderate medium subangular blocky structure; friable; few fine roots; common fine pores; common distinct clay films on ped faces and in pores; common medium distinct light brownish gray (10YR 6/2) iron depletions on all ped faces and in the matrix; common medium distinct strong brown (7.5YR 5/8) masses of iron accumulation in the matrix; 10 percent rock fragments; strongly acid; clear wavy boundary.  (8 to 14 inches thick)."
+      },
+      {
+        "name": "Btx1",
+        "top": 61,
+        "bottom": 114,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btx1--24 to 45 inches; grayish brown (2.5Y 5/2) channery silty clay loam; weak very coarse prismatic structure, parting to weak medium subangular blocky; firm, slightly brittle; few fine roots along prism faces;common pores; prism faces are 1/8 inch thick and have light brownish gray (10YR 6/2) exteriors with strong brown (7.5YR 5/8) rinds; common distinct clay films on ped faces and in pores; common manganese concretions; common medium prominent yellowish brown (10YR 5/6) masses of iron accumulation and common medium distinct light brownish gray (10YR 6/2) iron depletions on ped faces and in the matrix; 30 percent rock fragments; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Btx2",
+        "top": 114,
+        "bottom": 142,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btx2--45 to 56 inches;  light olive brown (2.5Y 5/4) channery silty clay loam; weak very coarse prismatic structure parting to weak medium subangular blocky; firm, slightly brittle; common pores; prism faces are 1/8 inch thick and have gray (10YR 6/1) exteriors and strong brown (7.5YR 5/6) rinds; common distinct clay films on ped faces and in pores; common manganese concretions; common medium distinct yellowish brown (10YR 5/6) masses of iron accumulation and gray (2.5Y 6/1) iron depletions on ped faces and in the matrix; 30 percent rock fragments; strongly acid; clear wavy boundary. (Combined thickness of the Btx horizon is 20 to 50 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 142,
+        "bottom": 183,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "cf_class": "channery",
+        "pH_class": "moderately acid",
+        "narrative": "BC--56 to 72 inches; light olive brown (2.5Y 5/4) channery silty clay loam; moderate coarse platy structure; firm; common manganese stains; 35 percent rock fragments; moderately acid. (0 to 20 inches thick)."
+      },
+      {
+        "name": "C",
+        "top": 183,
+        "bottom": 203,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "cf_class": "channery",
+        "pH_class": "moderately acid",
+        "narrative": "C--72 to 80 inches; light olive brown (2.5Y 5/4) channery silty clay loam; massive, common manganese stains; 45 percent rock fragments; moderately acid."
+      }
+    ]
+  ]
 }

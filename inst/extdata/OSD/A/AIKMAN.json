@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This revision (6/95) changes the classification from Typic Chromoxererts to Leptic Haploxererts according to the 1994 edition of Keys to Soil Taxonomy.  The remainder of the OSD has not been updated since 9/76.\nDiagnostic horizons and other features recognized in this pedon:\nMollic epipedon - zone from the soil surface to 18 inches (A, Bss1, and Bss2 horizons)\nCracks and Slickensides - zone 1 to 24 inches (Bss1, Bss2, Bkss horizons)\nParticle-size control section - zone 10 to 30 inches (part of the Bss2, the Bkss, and the Bk horizons)\nLithic contact - hard bedrock at 30 inches (R horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "cf_class": "stony",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 1 inch; dark reddish gray (5YR 4/2) stony clay, dark reddish brown (5YR 3/2) moist; moderate fine granular structure; very hard, very firm, very sticky and very plastic; common fine roots; many very fine irregular pores; vertical cracks when dry, 1 to 3.5 cm wide and 6 to 12 inches apart; 10 percent fine gravel, 15 percent stones and cobbles; neutral (pH 6.6); abrupt wavy boundary."
+      },
+      {
+        "name": "Bss1",
+        "top": 3,
+        "bottom": 20,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "cf_class": "stony",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bss1--1 to 8 inches; weak red (2.5YR 4/2) stony clay, dark reddish brown (2.5YR 3/3) moist; moderate coarse and very coarse prismatic structure parting to moderate fine and medium angular blocky; extremely hard, very firm, very sticky and very plastic; common fine roots; few very fine pores; vertical cracks when dry, as described above; slickensides; 10 percent fine gravel, 15 percent stones and cobbles; neutral (pH 6.8); clear irregular boundary."
+      },
+      {
+        "name": "Bss2",
+        "top": 20,
+        "bottom": 46,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "cf_class": "stony",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bss2--8 to 18 inches; weak red (2.5YR 4/2) stony clay, dark reddish brown (2.5YR 3/3) moist; moderate medium and coarse prismatic structure parting to moderate medium angular blocky; extremely hard, very firm, very sticky and very plastic; few fine roots; few very fine pores; vertical cracks when dry, as described for A1 but less than 2 cm wide; slickensides; few faint clay films; 10 percent fine gravel, 20 percent stones and cobbles; neutral (pH 6.9) abrupt irregular boundary.  (5 to 12 inches thick)"
+      },
+      {
+        "name": "Bkss",
+        "top": 46,
+        "bottom": 61,
+        "moist_hue": "2.5YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "cf_class": "stony",
+        "pH": 7.4,
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bkss--18 to 24 inches; pale red (2.5YR 6/2) and light red (2.5YR 6/6) stony clay, reddish brown (2.5YR 5/4) and red (2.5YR 5/4) moist; massive; very hard, very firm, very sticky and very plastic; few fine roots; few very fine pores; slickensides; vertical cracks when dry, as described above; 5 percent gravel, 25 percent stones and cobbles; slightly effervescent, calcium carbonate segregated in common fine filaments and soft masses; sligtly alkaline (pH 7.4); gradual wavy boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 61,
+        "bottom": 76,
+        "moist_hue": "5YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "cf_class": "stony",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bk--24 to 30 inches; reddish yellow (5YR 6/6) stony clay, yellowish red (5YR 5/6) moist; massive; very hard, very firm, very sticky and very plastic; few fine roots; few very fine pores; 5 percent gravel, 25 percent stones and cobbles; strongly effervescent, calcium carbonate segregated in many fine and medium filaments, seams and soft masses; slightly alkaline (pH 7.6); abrupt irregular boundary."
+      },
+      {
+        "name": "R",
+        "top": 76,
+        "narrative": "R--30 inches; fractured rhyolite or rhyolitic tuff; some calcium carbonate in fractures."
+      }
+    ]
+  ]
 }

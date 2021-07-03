@@ -56,5 +56,101 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in the profile are:\n1. Ochric epipedon: 0 to 18 centimeters (A horizon)\n2. Cambic horizon: 18 to 112 centimeters (Bw1, Bw2 and Bw3 horizons)\n3. Particle-size control section: 25 to 100 centimeters (Bw1, Bw2 and Bw3 horizons)\n4. Paralithic contact: 112 to 152 centimeters (Cr horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "cf_class": "very cobbly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A -- 0 to 18 centimeters, (0 to 7 inches); dark grayish brown (10YR 4/2) very cobbly sandy loam, very dark gray (10YR 3/1) moist; weak fine and medium granular structure; slightly hard, friable, nonsticky, nonplastic; many fine and medium roots throughout; 20 percent gravel and 40 percent cobbles; neutral (pH 6.6); clear smooth boundary. (12 to 20 centimeters)"
+      },
+      {
+        "name": "Bw1",
+        "top": 18,
+        "bottom": 50,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very cobbly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1 -- 18 to 50 centimeters, (7 to 20 inches); brown (7.5YR 5/4) very cobbly sandy loam, brown (7.5YR 4/4) moist; weak fine and medium granular structure; slightly hard, friable, nonsticky, nonplastic; common fine and medium roots throughout; 10 percent gravel and 40 percent cobbles; slightly acid (pH 6.4); gradual wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 50,
+        "bottom": 64,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very cobbly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw2 -- 50 to 64 centimeters, (20 to 25 inches); light yellowish brown (10YR 6/4) very cobbly sandy loam, 50 percent brown (10YR 4/3) and 50 percent light yellowish brown (10YR 6/4) moist; weak medium subangular blocky structure; slightly hard, friable, nonsticky, nonplastic; common fine and medium roots throughout; 10 percent gravel and 40 percent cobbles; neutral (pH 6.6); gradual wavy boundary."
+      },
+      {
+        "name": "Bw3",
+        "top": 64,
+        "bottom": 112,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw3 -- 64 to 112 centimeters, (25 to 44 inches); light yellowish brown (10YR 6/4) gravelly sandy loam, 50 percent light yellowish brown (10YR 6/4) and 50 percent dark yellowish brown (10YR 4/4) moist; weak medium subangular blocky structure parting to massive; slightly hard, friable, nonsticky, nonplastic; few fine and medium roots throughout; 5 percent gravel and 20 percent cobbles; moderately acid (pH 5.6); clear wavy boundary. (Combined thickness of the Bw horizon is 80 to 120 centimeters)"
+      },
+      {
+        "name": "Cr",
+        "top": 112,
+        "bottom": 152,
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "narrative": "Cr -- 112 to 152 centimeters, (44 to 60 inches); highly to slightly weathered gneissic bedrock; very few medium roots in cracks; moderately acid (pH 5.6)."
+      },
+      {
+        "name": "R",
+        "top": 152,
+        "narrative": "R -- 152 centimeters, (60 inches); unweathered gneissic bedrock."
+      }
+    ]
+  ]
 }

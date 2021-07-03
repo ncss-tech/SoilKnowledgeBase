@@ -56,5 +56,53 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nSeries control section:  The zone from 0 to 20 cm.\nParticle-size control section:  The zone from 0 to 20 cm.  (A and C horizons)\nOchric epipedon:  The zone from 0 to 8 cm.  (A horizon)\nLithic contact:  The contact with calcareous sandstone at 20 cm.  (R horizon)\nThe assignment of the cation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomic Version:  Classified according to Keys to Soil Taxonomy, Eleventh Edition, 2010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "cobbly",
+        "pH": 8.1,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 8 cm; light reddish brown (5YR 6/4) cobbly fine sandy loam, reddish brown (5YR 4/4), moist; weak fine granular structure; soft, very friable, slightly sticky, slightly plastic; common medium, fine and very fine roots; 1 percent stones, 10 percent cobbles, 15 percent gravel; very slightly effervescent (6 percent calcium carbonate equivalent), carbonates are finely disseminated; moderately alkaline (pH 8.1); clear wavy boundary.  (4 to 10 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 8,
+        "bottom": 20,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "cf_class": "channery",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C--8 to 20 cm; reddish yellow (5YR 6/6) channery fine sandy loam, reddish brown (5YR 5/4), moist; weak fine subangular blocky structure; soft, very friable, slightly sticky, slightly plastic; common medium, fine and very fine roots; 2 percent cobbles, 15 percent channers; strongly effervescent (10 percent calcium carbonate equivalent), carbonates are finely disseminated; moderately alkaline (pH 8.4); abrupt smooth boundary."
+      },
+      {
+        "name": "R",
+        "top": 20,
+        "bottom": 30,
+        "texture_class": "sand",
+        "narrative": "R--20 to 30 cm; indurated calcareous sandstone bedrock."
+      }
+    ]
+  ]
 }

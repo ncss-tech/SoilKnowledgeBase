@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic Features:\nAlbic horizon from 2 to 8 inches\nGlossic horizon from 8 to 14 inches\nArgillic horizon from 14 to 20 inches\nLithic contact at 20 inches\nIn the 4/2000 OSD update the layer depths were adjusted with the surface, 0 inches, at the top of the Oi horizon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "stony",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--2 to 8 inches; gray (10YR 6/1) stony sandy loam, dark grayish brown (10YR 4/2) moist; moderate medium granular structure; slightly hard, very friable; common medium and very fine roots; about 20 percent angular granitic pebbles and 10 percent stones; neutral (pH 6.6); clear smooth boundary.  (2 to 8 inches thick)"
+      },
+      {
+        "name": "E/B",
+        "top": 20,
+        "bottom": 36,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "stony",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E/B--8 to 14 inches; pinkish gray (5YR 6/2) stony coarse sandy loam, dark reddish gray (5YR 4/2) moist; moderate medium granular structure; slightly hard, very friable; few nodules of sandy clay loam; common; medium and very fine roots; about 25 percent angular pebbles and 10 percent stones, slightly acid (pH 6.2); clear wavy boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 36,
+        "bottom": 51,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "very stony",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--14 to 20 inches; light reddish brown (5YR 6/4) very stony coarse sandy loam, reddish brown (5YR 4/3) moist; moderate fine angular blocky structure; hard, friable, slightly sticky and slightly plastic; this horizon consists of lamellae and nodules that are heavy coarse sandy loam embedded in a matrix of loamy coarse sand; 40 percent angular pebbles and 20 percent stones; slightly acid (pH 6.2); clear smooth boundary.  (3 to 10 inches thick)"
+      },
+      {
+        "name": "Oi",
+        "top": 0,
+        "narrative": "Oi--0 inches to 2; needles, leaves, twigs and decaying organic material."
+      },
+      {
+        "name": "R",
+        "top": 51,
+        "narrative": "R--20 inches; granite."
+      }
+    ]
+  ]
 }

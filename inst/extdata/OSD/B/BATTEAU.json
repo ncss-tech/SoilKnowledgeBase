@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This soil has been previously mapped as Chewacla, Codorus, Monacan, and Rowland soils.\nDiagnostic horizons and features recognized in this pedon are:\n1. Mollic epipedon-the zone from 0 to 13 inches (Ap horizon).\n2. Cambic horizon-the zone from 13 to 62 inches (Bw horizon).\nSIR=VA0380\nMLRA=136\nREVISED=5/27/92, MHC\nADDITIONAL DATA: Lab data for 25 pedons of this and related soils from study of flood plains of the James River available from Virginia Polytechnic Institute and State University and available in draft manuscript currently titled \"Western Virginia Holocene-Alluvial Soil Classification\", Document number VAES Bulletin 91-x, September 4, 1991, W. J. Edmonds and M. Crouch.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0380 BATTEAU     0-  5   57- 62  175-215  35- 45   100- 600\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0380 RARE   COMMON 1.0-2.5  APPARENT NOV-MAR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0380  0-13  SL FSL                  0-  0  75-100  5-20   2- 15\nVA0380  0-13  L SIL                   0-  0  75-100  7-27   2- 15\nVA0380 13-62  SL CL L                 0-  0  75-100  7-35   2- 15\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0380  0-13  5.6- 7.8  1.-4.  0- 0   0.6- 2.0  LOW\nVA0380  0-13  5.6- 7.8  1.-4.  0- 0   0.6- 2.0  LOW\nVA0380 13-62  5.6- 7.8  0.-2.  0- 0   0.6- 2.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 33,
+        "dry_hue": "01YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 13 inches; dark brown (10YR 3/3) loam; dark yellowish brown (01YR 4/4) dry; weak fine granular structure; friable, slightly sticky, slightly plastic; common fine and medium roots; common fine discontinuous pores; few fine flakes of mica; neutral; clear smooth boundary.  (Ap and A horizons are 10 to 24 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 33,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--13 to 18 inches; dark yellowish brown (10YR 4/4) loam; common fine faint yellowish brown (10YR 5/4) mottles; weak fine subangular blocky structure; friable, slightly sticky, slightly plastic; common fine roots; common fine discontinuous pores; few fine flakes of mica; neutral; clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 46,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw2--18 to 32 inches; dark yellowish brown (10YR 4/4) loam; common medium distinct grayish brown (10YR 5/2) and common medium faint yellowish brown (10YR 5/6) mottles; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; common fine discontinuous pores; few fine flakes of mica; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bw3",
+        "top": 81,
+        "bottom": 122,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw3--32 to 48 inches; dark brown (10YR 4/3) loam; few fine faint dark grayish brown (10YR 4/2) and common medium distinct dark yellowish brown (10YR 4/6) mottles; weak fine subangular blocky structure; friable, slightly sticky, slightly plastic; common fine and medium discontinuous pores; few fine flakes of mica; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bw4",
+        "top": 122,
+        "bottom": 157,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "narrative": "Bw4--48 to 62 inches; mottled dark yellowish brown (10YR 4/4) and grayish brown (10YR 5/2) loam; weak fine subangular blocky structure; friable; slightly sticky, slightly plastic; common fine and medium discontinuous pores; few fine flakes of mica; slightly acid.  (Combined thickness of Bw horizon is 20 to 60 inches or more)"
+      }
+    ]
+  ]
 }

@@ -56,5 +56,103 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 8 cm (A horizon).\nAbrupt textural change - The abrupt clay increase of more than 35 percent at 8 cm (between the A and Btss1 horizons).\nArgillic horizon - The zone from 8 to 89 cm (Btss1, Btss2, and Btk horizons).\nSlickensides and other vertic features - The zone from 8 to 46 cm (Btss1 and Btss2 horizons).\nIdentifiable secondary carbonates - The zone from 46 to 152 cm (Btk, Bqkm1, and Bqkm2 horizons).\nDuripan - The zone from 89 to 152 cm (Bqkm1 and Bqkm2 horizons).\nParticle-size control section - The zone from 8 to 58 cm (Btss1, Btss2 and part of the Btk horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 8 cm; light brownish gray (10YR 6/2) very gravelly fine sandy loam, dark grayish brown (10YR 4/2) moist; strong thick platy structure; hard, friable, nonsticky and nonplastic; few very fine roots; many very fine and fine vesicular pores; 5 percent cobbles and 45 percent gravel; neutral (pH 7.2); abrupt wavy boundary.  (5 to 13 cm thick)"
+      },
+      {
+        "name": "Btss1",
+        "top": 8,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btss1--8 to 30 cm; light brown (7.5YR 6/4) clay, dark reddish brown (5YR 3/4) moist; strong fine prismatic structure parting to strong fine angular blocky; very hard, friable, very sticky and very plastic; common very fine and few medium exped roots; common very fine tubular pores; many distinct clay films on faces of peds and lining pores; vertical cracks 8 millimeters to 1 cm wide and 8 to 10 cm apart extend through the horizon; common slickensides; few wedge-shaped aggregates tilted 30 degrees from horizontal; neutral (pH 7.3); clear wavy boundary.  (20 to 38 cm thick)"
+      },
+      {
+        "name": "Btss2",
+        "top": 30,
+        "bottom": 46,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btss2--30 to 46 cm; reddish brown (5YR 5/4) clay, yellowish red (5YR 4/6) moist; strong fine prismatic structure parting to strong fine angular blocky; very hard, friable, very sticky and very plastic; few very fine roots; common very fine tubular pores; many faint and distinct clay films on faces of peds and lining pores; vertical cracks are present that are 8 millimeters to 1 cm wide and 10 to 15 cm apart; few slickensides; few wedge-shaped aggregates tilted 30 degrees from horizontal; slightly alkaline (pH 7.5); clear wavy boundary.  (15 to 36 cm thick)"
+      },
+      {
+        "name": "Btk",
+        "top": 46,
+        "bottom": 89,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Btk--46 to 89 cm; light brown (7.5YR 6/4) clay loam, brown (7.5YR 4/4) moist; strong fine and medium angular blocky structure; very hard, friable, moderately sticky and moderately plastic; few very fine roots; common very fine tubular pores; many distinct clay films on faces of peds and lining pores; secondary carbonates segregated in common fine threads (filaments); moderately alkaline (pH 8.0); abrupt wavy boundary.  (15 to 46 cm thick)"
+      },
+      {
+        "name": "Bqkm1",
+        "top": 89,
+        "bottom": 104,
+        "pH": 8.3,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bqkm1--89 to 104 cm; cemented material; strong thin and medium platy structure; extremely hard, extremely firm; cemented by silica and secondary carbonates; alternating strongly cemented medium plates and discontinuous thin indurated laminae cap; horizontal root mat at upper boundary with many very fine, fine and few medium roots; 5 percent cobbles and 15 percent gravel; violently effervescent; moderately alkaline (pH 8.3); gradual smooth boundary.  (10 to 30 cm thick)"
+      },
+      {
+        "name": "Bqkm2",
+        "top": 104,
+        "bottom": 150,
+        "pH": 8.3,
+        "pH_class": "moderately alkaline",
+        "narrative": "Bqkm2--104 to 150 cm; cemented material; massive; extremely hard and hard, extremely firm and firm; cemented by silica and secondary carbonates; alternating layers of strongly and weakly cemented material; 5 percent cobbles and 15 percent gravel; violently effervescent; moderately alkaline (pH 8.3)."
+      }
+    ]
+  ]
 }

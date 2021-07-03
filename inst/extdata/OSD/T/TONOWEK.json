@@ -56,5 +56,60 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic features recognized in this soil are: an ochric epipedon; lack of a diagnostic subsoil horizon; a pH of 5.5 (1:1,H20) or greater in some part of the control section; an irregular decrease  in organic carbon content with depth; coarse-loamy material from 10 to 17 inches and sandy, or sandy-skeletal material from 17 to 40 inches. The Tonowek series is proposed as a benchmark soil series.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "Oi--1 to 0 inch; undecomposed forest litter. (0 to 3 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 2 inches; dark reddish brown (5YR 2.5/2) very fine sandy loam;  weak fine subangular blocky structure parting to weak fine granular; very friable, nonsticky and slightly plastic; many roots; moderately acid; clear wavy boundary.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 5,
+        "bottom": 43,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C1--2 to 17 inches; dark brown (7.5YR 3/2) very fine sandy loam; weak fine subangular blocky structure parting to weak fine granular; very friable, nonsticky and nonplastic; common roots; moderately acid; abrupt wavy boundary.  (12 to 27 inches thick)"
+      },
+      {
+        "name": "C2",
+        "top": 43,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately acid",
+        "narrative": "C2--17 to 60 inches; very dark grayish brown (2.5Y 3/2) very gravelly sand; single grain; loose; 50 percent gravel, 10 percent cobble; moderately acid."
+      }
+    ]
+  ]
 }

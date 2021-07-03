@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The classification was updated with the 4/91 draft from Clayey, mixed, isohyperthermic Typic Tropohumults to Clayey, mixed, isohyperthermic Typic Haplohumults.  The previous OSED was dated 4/87.\nDiagnostic horizons and features recognized in this pedon are:\nUmbric epipedon - zone from 0 to 8 inches (A horizon)\nArgillic horizon - zone from 8 to 21 inches (Bt horizons)\nParalithic contact at 21 inches (Cr layer)\nLithic contact - at 34 inches (R layer)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 8 inches; very dark gray (10YR 3/1) clay; weak fine granular structure; very firm, slightly sticky, plastic; strongly acid; gradual wavy boundary.  (4 to 12 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--8 to 13 inches; dark yellowish brown (10YR 4/4) clay; weak coarse subangular blocky structure; firm, slightly sticky, slightly plastic; thin discontinuous clay films; strongly acid; gradual wavy boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 33,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--13 to 21 inches; yellowish brown (10YR 5/4) clay; moderate coarse subangular blocky structure; firm; slightly sticky, slightly plastic; clay films on vertical ped faces, few clay films on horizontal ped faces; few partly weathered hornblende crystals; few pressure faces and small slickensides; strongly acid; clear wavy boundary.  (6 to 12 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 53,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "narrative": "Cr--21 to 34 inches; yellowish brown (10YR 5/6), yellowish red (5YR 4/6), and dark greenish gray (5GY 4/1) saprolite; many hornblende crystals."
+      },
+      {
+        "name": "R",
+        "top": 86,
+        "narrative": "R--34 inches plus; dark greenish consolidated acid volcanic rock."
+      }
+    ]
+  ]
 }

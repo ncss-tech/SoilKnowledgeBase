@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The Ashby, Kistler and Trexler soils, which were moderately shallow in some Pennsylvania published surveys are now included in the Berks Series.\nDiagnostic horizons recognized in this pedon are:\nOchric epipedon - from a depth of 0 to 10 inches (Ap horizon).\nCambic horizon - from a depth of 10 to 21 inches (Bw, Bt horizons).\nLithic contact - at a depth of 33 inches (R horizon).\nCEC class - active, but includes semiactive and subactive\nR - some pedons have very few thin clay films and silt coats on upper surfaces of rock fragments.\nADDITIONAL DATA: Laboratory data is available for this pedon,\nS59-PA-039-7(1-5), and for pedon S59-PA-039-2(1-4).  Other pedons from areas mapped Berks are available that show weak argillic horizons:\nS65-PA-028-5(1-4), S65-PA-028-7(1-3), S62-PA-029-17(1-4),\nS62-PA-020-18(1-4).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 10 inches; brown (10YR 4/3) channery loam; weak fine granular structure; friable; 30 percent rock fragments; moderately acid; abrupt smooth boundary (6 to 12 inches thick)."
+      },
+      {
+        "name": "Bw1",
+        "top": 25,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "narrative": "Bw1--10 to 17 inches; yellowish brown (10YR 5/6) very channery loam; weak fine subangular blocky structure; friable, slightly sticky and"
+      },
+      {
+        "name": "Bw2",
+        "top": 43,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "cf_class": "very channery",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw2--17 to 21 inches; yellowish brown (10YR 5/6) very channery silt loam; weak fine subangular blocky structure modified by rock fragments; slightly sticky and nonplastic; very few faint clay films on rock fragments; 50 percent rock fragments; slightly acid; abrupt wavy boundary (2 to 10 inches thick)."
+      },
+      {
+        "name": "CB",
+        "top": 53,
+        "bottom": 66,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "extremely channery",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "CB--21 to 26 inches; strong brown (7.5YR 5/6) extremely channery loam; structure obscured by rock fragments; friable; 60 percent rock fragments; slightly acid; clear irregular boundary (0 to 10 inches thick)."
+      },
+      {
+        "name": "C",
+        "top": 66,
+        "bottom": 84,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "extremely channery",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--26 to 33 inches; yellowish brown (10YR 5/6) extremely channery loam; fines are concentrated in pockets between and as coatings on rock fragments; massive; friable; 75 percent rock fragments; moderately acid; clear wavy boundary (0 to 14 inches thick)."
+      },
+      {
+        "name": "R",
+        "top": 84,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "narrative": "R-- 33 inches; very dark grayish brown (10YR 3/2) and light olive brown (2.5Y 5/6) fractured shale bedrock."
+      }
+    ]
+  ]
 }

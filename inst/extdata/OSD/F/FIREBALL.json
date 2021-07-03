@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the surface to 25 cm (A and BA horizons).\nArgillic horizon - The zone from 25 to 61 cm (Btk horizon).\nLithic contact - The boundary at 119 cm (R layer).\nParticle-size control section - The zone from 25 to 61 cm (Btk horizon).\nNote - The soil has the chemical properties required for a natric horizon, but due to content of rock fragments, the soil lacks prismatic or columnar structure of a natric horizon.\nADDITIONAL DATA: User pedon ID: 2006NV031005.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very stony",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 8 cm; light brownish gray (10YR 6/2) very stony fine sandy loam, brown (10YR 4/3) moist; weak medium subangular blocky structure; soft, very friable slightly sticky and slightly plastic; few very fine and fine roots; few very fine and fine tubular pores; 20 percent stones, 10 percent cobbles and 10 percent gravel; moderately alkaline (pH 8.4); strongly effervescent; clear wavy boundary. (3 to 13 cm thick)"
+      },
+      {
+        "name": "BA",
+        "top": 8,
+        "bottom": 25,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very cobbly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BA--8 to 25 cm; light yellowish brown (2.5Y 6/4) very cobbly fine sandy loam, olive brown (2.5Y 4/4) moist; moderate medium subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; many very fine, fine and medium roots; many very fine and fine tubular pores; 5 percent stones, 20 percent cobbles and 15 percent gravel; few thin clay films coating rock fragments; moderately alkaline (pH 8.4); slightly effervescent; gradual wavy boundary. (0 to 25 cm thick)"
+      },
+      {
+        "name": "Btk",
+        "top": 25,
+        "bottom": 61,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 9.5,
+        "pH_class": "very strongly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btk--25 to 61 cm; light yellowish brown (2.5Y 6/4) very gravelly loam, olive brown (2.5Y 4/4) moist; moderate medium subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; many very fine, fine and medium roots; many very fine and fine tubular pores; 10 percent cobbles and 30 percent gravel; few thin clay films on the faces of peds, in the pores and coating rock fragments; very strongly alkaline (pH 9.5); strongly effervescent; clear wavy boundary.  (25 to 50 cm thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 61,
+        "bottom": 119,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely cobbly",
+        "pH": 9.6,
+        "pH_class": "very strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bk--61 to 119 cm; very pale brown (10YR 8/2) extremely cobbly loam, light brownish gray (10YR 6/2) moist; massive; slightly hard, very friable, slightly sticky and slightly plastic; few fine and medium roots; very few fine tubular pores; 10 percent stones, 25 percent cobbles, 25 percent gravel; very strongly alkaline (pH 9.6); violently effervescent; abrupt wavy boundary. (46 to 76 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 119,
+        "narrative": "R--119 cm; hard unweathered basalt."
+      }
+    ]
+  ]
 }

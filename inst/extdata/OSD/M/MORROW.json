@@ -56,5 +56,89 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features in this pedon include:\nMollic epipedon - from the surface to 14 inches (Ap and 2Bt horizons).\nArgillic horizon - from 9 to 19 inches (2Bt and 2Btk horizons).\nCalcic horizon - from 14 to 26 inches (2Btk and 2Bk horizons); assume to have over 15 percent equivalent. The amount of calcium carbonate equivalent needs to be determined to verify if this series has over 15 percent calcium carbonate, or if it only has identifiable secondary carbonates.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 9 inches; very dark brown (10YR 2/2) silt loam, grayish brown (10YR 5/2) dry; weak fine granular structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine roots; many very fine irregular pores; surface 1/4 to 1/2 inch crusted and vesicular; neutral (pH 6.8); abrupt smooth boundary. (6 to 15 inches thick)"
+      },
+      {
+        "name": "2Bt",
+        "top": 23,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2Bt--9 to 14 inches; dark brown (10YR 3/3) silty clay loam, brown (10YR 5/3) dry; very dark grayish brown (10YR 3/2) coatings on peds; weak fine prismatic structure parting to moderate medium angular blocky; very hard, firm, moderately sticky and moderately plastic; common very fine roots; many very fine tubular pores; many distinct clay films; neutral (pH 7.0); clear smooth boundary. (4 to 16 inches thick)"
+      },
+      {
+        "name": "2Btk",
+        "top": 36,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "2Btk--14 to 19 inches; dark brown (10YR 3/3) heavy silt loam, pale brown (10YR 6/3) dry; moderate fine subangular blocky structure; hard, firm, slightly sticky and slightly plastic; few very fine roots; many very fine tubular pores; few faint clay films; common light gray (10YR 7/2) lime seams; strongly effervescent; moderately alkaline (pH 8.0); abrupt smooth boundary. (0 to 12 inches thick)"
+      },
+      {
+        "name": "2Bk",
+        "top": 48,
+        "bottom": 66,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 8.3,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Bk--19 to 26 inches; brown (10YR 4/3) silt loam, light brownish gray (10YR 6/2) dry; massive; hard, friable, slightly sticky and slightly plastic; many very fine tubular pores; violently effervescent seams of light brownish gray (10YR 6/2) soft segregated lime; moderately alkaline (pH 8.3); abrupt wavy boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "3R",
+        "top": 66,
+        "narrative": "3R--26 inches; fractured basalt with coatings of carbonates on rock surfaces."
+      }
+    ]
+  ]
 }

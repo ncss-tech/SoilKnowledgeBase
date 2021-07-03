@@ -56,5 +56,89 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nUmbric epipedon - The zone from the soil surface to 13 inches (A1, A2, and A3 horizons).\nCambic horizon - The zone from 13 to 35 inches (Bw horizon).\nLithic contact - The boundary at 35 inches to underlying hard bedrock (R layer).\nParticle-size control section - The zone from 10 to 35 inches (Bw horizon and part of the A3 horizon).\nThe revision of December 2006 updated the taxonomic class from Xeric Dystrocryepts based on the tenth edition of the Keys to Soil Taxonomy, 2006.  The isotic mineralogy class is based on the field determined values for sodium fluoride pH and on laboratory data for the associated Florand and Lostridge soils.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A1--0 to 1 inch; dark grayish brown (10YR 4/2) very gravelly peaty coarse sandy loam, very dark brown (10YR 2/2) moist; moderate medium platy structure; soft, very friable, slightly sticky and nonplastic; common fine interstitial pores; 35 percent gravel and 5 percent cobbles; common very fine and fine roots; very strongly acid; abrupt wavy boundary. (0 to 2 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 3,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--1 to 9 inches; brown (10YR 5/3) very gravelly coarse sandy loam, dark brown (10YR 3/3) moist; weak fine and medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; common very fine and fine roots and many medium and coarse; common very fine interstitial and tubular pores; 45 percent gravel; very strongly acid; clear wavy boundary. (5 to 10 inches thick)"
+      },
+      {
+        "name": "A3",
+        "top": 23,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A3--9 to 13 inches; brown (10YR 5/3) extremely gravelly coarse sandy loam, dark brown (10YR 3/3) moist; weak fine and medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; common very fine roots and many medium and coarse; common very fine interstitial and tubular pores; 50 percent gravel and 15 percent cobbles; very strongly acid; clear wavy boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 33,
+        "bottom": 89,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "extremely cobbly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--13 to 35 inches; brown (10YR 5/3) extremely cobbly coarse sandy loam, dark yellowish brown (10YR 4/4) moist; weak fine and medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; common very fine roots and many fine to coarse; common very fine interstitial and tubular pores; 45 percent gravel and 40 percent cobbles; strongly acid; clear wavy boundary. (10 to 22 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 89,
+        "narrative": "R--35 inches; hard andesite."
+      }
+    ]
+  ]
 }

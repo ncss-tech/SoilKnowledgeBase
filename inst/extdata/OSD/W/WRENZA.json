@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nUmbric epipedon - The zone from the soil surface to 85 cm (A1, A2, and AB horizons).\nLithic contact - The boundary at 85 cm (R layer).\nParticle-size control section - The zone from 25 to 85 cm (lower part of A2 horizon and AB horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 10 cm; brown (10YR 4/3) extremely gravelly sandy loam, very dark brown (10YR 2/2) moist; weak coarse subangular blocky structure; slightly hard, very friable, nonsticky and nonplastic; 65 percent gravel; slightly acid (pH 6.4); clear smooth boundary.  (5 to 10 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--10 to 30 cm; brown (10YR 5/3) very gravelly fine sandy loam, very dark brown (10YR 2/2) moist; weak coarse subangular blocky structure; soft, very friable, nonsticky and nonplastic; 35 percent gravel; moderately acid (pH 5.6); clear smooth boundary.  (20 to 65 cm thick)"
+      },
+      {
+        "name": "AB",
+        "top": 30,
+        "bottom": 85,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "very fine sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "AB--30 to 85 cm; brown (10YR 5/3) very gravelly very fine sandy loam, very dark brown (10YR 2/2) moist; moderate medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; 33 percent gravel and 5 percent cobbles; moderately acid (pH 6.0); abrupt irregular boundary.  (50 to 75 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 85,
+        "narrative": "R--85 cm; indurated slightly fractured metamorphic rock."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The taxonomic classification was changed from Argic Udipsamments to Lamellic Udipsamments due to updates contained in the 8th Edition of Keys to Soil Taxonomy.\nAdditional study is needed to provide more definitive differentiation from the Lakin and Chelsea series. Presently, these series are geographically separated. Continuing this approach is practical for now.\nDiagnostic horizons and other features recognized in the typical pedon are:\n1. Ochric epipedon - the zone from 0 to 8 inches (Ap horizon).\n2. Lamellic Subgroup - as evidenced by lamellae within 200 cm of the mineral soil surface (E and Bt1, and E and Bt2 horizons).\nNew surface runoff class names are not comparable to or the same definitions as the old names.\nADDITIONAL DATA: Characterization data available from NSSL for pedon sample numbers - S61NY37 9, S61NY37-4, and S57NY28-1. Also data from pedon AB-110, sample numbers 11845 to 11856, and pedon AB-117, sample numbers 15278 to 15289 from Ashtabula County, Ohio, and pedon LK-7, sample numbers 19567 to 19572 from Lake County, Ohio, analysis by the Ohio State University Soil Characterization Laboratory, Columbus, Ohio.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 8 inches; dark grayish brown (10YR 4/2) loamy fine sand, light brownish gray (10YR 6/2) dry; weak fine and very fine granular structure; very friable; many fine roots; slightly acid (limed); abrupt smooth boundary. (6 to 12 inches thick.)"
+      },
+      {
+        "name": "E1",
+        "top": 20,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loamy fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E1 -- 8 to 16 inches; yellowish brown (10YR 5/4) loamy fine sand; very weak very fine granular structure; very friable; many fine roots; moderately acid; gradual wavy boundary."
+      },
+      {
+        "name": "E2",
+        "top": 41,
+        "bottom": 71,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E2 -- 16 to 28 inches; yellowish brown (10YR 5/4) fine sand; single grain; loose; few fine roots; strongly acid; abrupt wavy boundary. (The combined thickness of the E horizon is 0 to 33 inches.)"
+      },
+      {
+        "name": "Bt1",
+        "top": 71,
+        "bottom": 112,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E and Bt1 -- 28 to 44 inches; brown (10YR 5/3) fine sand; single grain; loose; very few fine roots; contains 3 wavy lamellae that range from 1/4 to 1/2 inch thick that are brown (7.5YR 4/4) fine sand, massive, friable, clay bridging sand grains; strongly acid; abrupt wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 112,
+        "bottom": 160,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E and Bt2 -- 44 to 63 inches; brown (7.5YR 5/2) fine sand; single grain; loose; contains 2 wavy 1/4 to 1/2 inch thick lamellae and 5 very thin branching lamellae 1/32 inch thick that are brown (7.5YR 4/4) sand and brown (7.5YR 5/3) fine sand, massive, friable, clay bridging sand grains; moderately acid; gradual wavy boundary. (Combined thickness of the E and Bt horizons is 8 to 65 inches.)"
+      },
+      {
+        "name": "C",
+        "top": 160,
+        "bottom": 203,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "moderately acid",
+        "narrative": "C -- 63 to 80 inches; brown (7.5YR 5/2) fine sand; single grain; loose; few medium prominent strong brown (7.5YR 5/6) areas of iron accumulation; moderately acid."
+      }
+    ]
+  ]
 }

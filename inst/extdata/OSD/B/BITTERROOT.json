@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from the soil surface to 32 cm (A horizon)\nArgillic horizon - from 32 to 47 cm (Bt horizon)\nCalcic horizon - from 47 to 79 cm (Bk horizon)\nParalithic contact - at 79 cm (Cr horizon)\nParticle-size control section - from 32 to 47 cm (Bt horizon)\nBitterroot soils have a frigid temperature regime and an ustic moisture regime.\nThis description reflects an update in classification from Coarse-loamy, mixed, frigid Typic Haplustolls to Fine-loamy, mixed, frigid Typic Argiustolls. The type location has been moved and redescribed to current description standards.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 32,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 32 cm; grayish brown (10YR 5/2) gravelly loam, very dark grayish brown (10YR 3/2) moist; weak fine granular structure; slightly hard, friable, slightly sticky and slightly plastic; many fine roots; many fine tubular pores; 15 percent gravel; slightly alkaline (pH 7.6); abrupt smooth boundary. (18 to 38 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 32,
+        "bottom": 47,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--32 to 47 cm; light yellowish brown (10YR 6/4) gravelly loam, brown (10YR 4/3) moist; moderate medium subangular blocky structure; moderately hard, friable, slightly sticky and slightly plastic; common fine roots; common fine tubular pores; 10 percent distinct clay films on all faces of peds; 15 percent gravel; slightly alkaline (pH 7.8); clear smooth boundary. (15 to 52 cm thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 47,
+        "bottom": 79,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 8.1,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk--47 to 79 cm; very pale brown (10YR 7/4) gravelly loam, dark yellowish brown (10YR 4/4) moist; weak fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; few fine roots; common fine irregular pores; 15 percent gravel; finely disseminated carbonates and 10 percent prominent carbonate coats on rock fragments; violently effervescent; moderately alkaline (pH 8.1); clear smooth boundary. (17 to 64 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 79,
+        "bottom": 152,
+        "narrative": "Cr--79 to 152 cm; moderately cemented lithified earthflow deposit."
+      }
+    ]
+  ]
 }

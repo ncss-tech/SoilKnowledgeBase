@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and other features recognized in this pedon:\nMollic epipedon - zone from the soil surface to 19 inches (A, AB and Bt horizons)\nArgillic horizon - zone from 11 to 19 inches (Bt horizon)\nLithic contact - at 19 inches (R)\nParticle-size control section - zone from 11 to 19 inches\nSoil moisture regime - xeric\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 6 inches; dark brown (7.5YR 3/3) gravelly ashy loam, very dark brown (7.5YR 2.5/2) moist; moderate fine granular structure; soft, very friable, nonsticky and slightly plastic; many very fine, fine, medium and coarse roots; many very fine, fine and medium irregular pores; 25 percent gravel; neutral (pH 6.9); clear wavy boundary. (3 to 7 inches thick)"
+      },
+      {
+        "name": "AB",
+        "top": 15,
+        "bottom": 28,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "AB--6 to 11 inches; brown (7.5YR 4/3) very gravelly ashy loam, very dark brown (7.5YR 2.5/3) moist; weak fine and medium subangular blocky structure; soft, very friable, slightly sticky and moderately plastic; many very fine, fine, medium and coarse roots; many very fine, fine and medium irregular pores; 40 percent gravel and 10 percent cobbles; slightly acid (pH 6.1); clear wavy boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 28,
+        "bottom": 48,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "extremely cobbly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--11 to 19 inches; brown (7.5YR 4/3) extremely cobbly ashy clay loam, dark brown (7.5YR 3/3) moist; moderate fine and medium subangular blocky structure; slightly hard, very friable, moderately sticky and moderately plastic; many very fine and fine, common medium and coarse roots; common very fine, fine and medium tubular and irregular pores; common faint clay films on faces of peds and in pores; 35 percent gravel and 40 percent cobbles; slightly acid (pH 6.2); clear wavy boundary. (3 to 10 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 48,
+        "narrative": "R--19 inches; fractured basalt."
+      }
+    ]
+  ]
 }

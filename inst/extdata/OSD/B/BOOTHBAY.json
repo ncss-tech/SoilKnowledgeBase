@@ -56,5 +56,101 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: In the previous revision, drainage class was narrowed by eliminating somewhat poorly. The type location is changed with this revision to better represent the single drainage class of moderately well. The classification at the Great Group level, Eutrudepts, is based on lab-determined base saturation of similar soils in the area.\nDiagnostic horizons and features in this pedon include:\nOchric epipedon - from a depth of 0 to 15 cm (Ap horizon)\nCambic horizon - the zone from 15 to 56 cm (Bw and BC horizons)\nAquic feature - redox depletions with a chroma of 2 or less within 61 cm of the soil surface\nEpisaturation - a perched water table above the C horizon\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 15 cm; dark yellowish brown (10YR 4/4) silt loam; pale brown (10YR 6/3) dry; moderate medium granular structure; very friable, slightly sticky, slightly plastic; many fine and very fine roots throughout; moderately acid (pH 5.6); clear smooth boundary (10 to 25 cm thick)."
+      },
+      {
+        "name": "Bw1",
+        "top": 15,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 5.5,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1 -- 15 to 25 cm; yellowish brown (10YR 5/4) silt loam; weak medium subangular blocky structure; very friable, slightly sticky, slightly plastic; common fine and very fine roots throughout; common very fine tubular pores; strongly acid (pH 5.5); clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 25,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 5.2,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw2 -- 25 to 46 cm; yellowish brown (10YR 5/4) silt loam; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; common fine and very fine roots throughout; common very fine tubular pores; strongly acid (pH 5.2); clear smooth boundary.  (Combined thickness of the Bw horizons ranges from 15 to 71 cm.)"
+      },
+      {
+        "name": "BC",
+        "top": 46,
+        "bottom": 56,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 5.1,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BC -- 46 to 56 cm; light olive brown (2.5Y 5/4) silt loam; moderate medium subangular blocky structure; friable, slightly sticky, moderately plastic; common fine and very fine roots throughout; common medium tubular pores; few medium prominent yellowish red (5YR 4/6) masses of iron accumulation in matrix surrounding few medium distinct grayish brown (2.5Y 5/2) areas of iron depletion; strongly acid (pH 5.1); clear smooth boundary (10 to 41 cm thick)."
+      },
+      {
+        "name": "C1",
+        "top": 56,
+        "bottom": 71,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 5.1,
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C1 -- 56 to 71 cm; light olive brown (2.5Y 5/4) silt loam; firm, slightly sticky, moderately plastic; common medium prominent yellowish red (5YR 4/6) masses of iron accumulation in matrix surrounding common medium distinct grayish brown (2.5Y 5/2) areas of iron depletion; moderate medium plates; strongly acid (pH 5.1); abrupt smooth boundary."
+      },
+      {
+        "name": "C2",
+        "top": 71,
+        "bottom": 165,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH": 5.1,
+        "pH_class": "strongly acid",
+        "narrative": "C2 -- 71 to 165 cm; dark grayish brown (2.5Y 4/2) silty clay loam; firm, moderately sticky, moderately plastic; common medium prominent yellowish red (5YR 4/6) masses of oxidized iron in matrix surrounding common medium faint grayish brown (2.5Y 5/2) areas of iron depletion; many coarse faint very dark gray (10YR 3/1) masses of iron-manganese on faces of plates; moderate thick plates; strongly acid (pH 5.1)."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,53 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nRevisions made 9/07(HCD) adjusted OSD to reflect Lab Data.\nDiagnostic horizons and other features recognized in this soil are:\nOchric epipedon - the zone from the surface to 10 inches (A and BA horizons)\nArgillic horizon - the zone from 10 to 27 inches (Bt horizon)\nLithologic discontinuity - abrupt change in particle-size distribution at 27 inches\nADDITIONAL DATA: Characterization data from the National Soil Survey Laboratory: S00TN-009-006; S00TN-009-007.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "narrative": "A--0 to 4 inches; dark yellowish brown (10YR4/4) silt loam, weak fine granular and moderate medium and coarse subangular blocky structure; friable; common fine and very fine roots; 12 percent by volume fragments up to 1 inch across; strongly acid; clear smooth  boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 10,
+        "bottom": 25,
+        "texture_class": "silty clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BA--4 to 10 inches; dark yellowish brown (10YR4/6) silty clay loam, moderate medium and coarse subangular blocky structure; friable; common fine and very fine roots; 12 percent by volume fragments up to 1 inch across; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt",
+        "top": 25,
+        "bottom": 69,
+        "texture_class": "silty clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--10 to 27 inches; strong brown (7.5YR4/6) silty clay loam; moderate medium to very course subangular blocky structure; friable; few clay films on ped faces; few fine and very fine roots; 10 percent by volume rock fragments which are mainly channers; strongly acid; abrupt wavy boundary. (Combined thickness of the Bt horizon is 14 to 36 inches)"
+      },
+      {
+        "name": "2C",
+        "top": 69,
+        "bottom": 183,
+        "texture_class": "sandy clay loam",
+        "cf_class": "extremely channery",
+        "pH_class": "strongly acid",
+        "narrative": "2C--27 to 72 inches; strong brown (7.5YR5/8) extremely channery sandy clay loam; massive; 75 percent by volume fragments up to 7 inches across; strongly acid."
+      }
+    ]
+  ]
 }

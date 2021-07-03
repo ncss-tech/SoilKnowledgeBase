@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 5 cm (A horizon).\nAbrupt textural change - The abrupt clay increase of more than 15 percent at 5 cm (between the A and Btn1 horizons).\nNatric horizon - The zone from 5 to 41 cm (Btn1, Btn2, and Btnk horizons).\nIdentifiable secondary carbonates - The zone from 23 to 41 cm (Btnk horizon).\nLithic contact - The boundary at 41 cm to underlying hard bedrock (R layer).\nParticle-size control section - The zone from 5 to 41 cm (Btn1, Btn2, and Btnk horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "extremely stony",
+        "pH": 8.6,
+        "pH_class": "strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 5 cm; light brownish gray (10YR 6/2) extremely stony fine sandy loam, dark grayish brown (10YR 4/2) moist; moderate medium platy structure parting to weak fine granular; slightly hard, friable, slightly sticky and slightly plastic; few fine roots; common very fine and fine tubular pores; 10 percent gravel, 25 percent cobbles, and 30 percent stones; strongly alkaline (pH 8.6); abrupt smooth boundary. (5 or 8 cm thick)"
+      },
+      {
+        "name": "Btn1",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH": 8.8,
+        "pH_class": "strongly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btn1--5 to 13 cm; brown (10YR 5/3) clay, brown (10YR 4/3) moist; strong fine prismatic structure; very hard, firm, moderately sticky and moderately plastic; common fine roots; common very fine tubular pores; 5 percent gravel; few faint clay films on faces of peds; strongly alkaline (pH 8.8); clear smooth boundary. (5 to 15 cm thick)"
+      },
+      {
+        "name": "Btn2",
+        "top": 13,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "pH": 9,
+        "pH_class": "strongly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btn2--13 to 23 cm; light yellowish brown (10YR 6/4) sandy clay loam, brown (10YR 4/3) moist; moderate fine subangular blocky structure; hard, friable, moderately sticky and moderately plastic; common very fine tubular pores; 5 percent gravel; common faint and few distinct clay films on faces of peds; strongly alkaline (pH 9.0); gradual smooth boundary. (10 to 20 cm thick)"
+      },
+      {
+        "name": "Btnk",
+        "top": 23,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 9.4,
+        "pH_class": "very strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Btnk--23 to 41 cm; light yellowish brown (10YR 6/4) clay loam, brown (10YR 4/3) moist; moderate medium subangular blocky structure; very hard, firm, moderately sticky and moderately plastic; common fine roots; common very fine tubular pores; few faint clay films on faces of peds; secondary carbonates segregated as common fine masses in the matrix; strongly effervescent; very strongly alkaline (pH 9.4); abrupt wavy boundary. (5 to 18 cm thick)"
+      },
+      {
+        "name": "2R",
+        "top": 41,
+        "narrative": "2R--41 cm; hard fractured basalt."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,65 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from 2 to 13 inches (4 to 34 centimeters) (A1 and A2 horizons)\nLithic Contatc  The zone at 21 inches (53 centimeters) (R horizon)\nADDITIONAL DATA:\nPedon information for this type location only:\nPedon Type:   typical pedon for series            Lab Source ID:  NSSL\nPedon Purpose:   research site                      Lab Pedon #: 06N0206\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Oi--0 to 2 inches (0 to 4 centimeters); slightly decomposed plant material consisting of leaves and twigs; clear wavy boundary. (0 to 4 inches, 0 to 10 centimeters thick)"
+      },
+      {
+        "name": "A1",
+        "top": 5,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 5.9,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--2 to 5 inches (4 to 12 centimeters); dark gray (10YR 4/1), gravelly sandy loam, black (10YR 2/1) moist; weak fine subangular blocky structure; very friable, slightly sticky and nonplastic; many very fine roots; many very fine irregular pores; 30 percent gravel; moderately acid (pH 5.9); clear wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 13,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--5 to 13 inches (12 to 34 centimeters); dark gray (10YR 4/1), very gravelly sandy loam, black (10YR 2/1) moist; weak fine subangular blocky structure; friable, slightly sticky and nonplastic; common very fine and fine roots; many very fine irregular pores; 40 percent gravel; slightly acid (pH 6.4); clear wavy boundary. (Combined thickness of A horizons is 7 to 20 inches, 18 to 50 centimeters)"
+      },
+      {
+        "name": "Cr",
+        "top": 33,
+        "bottom": 53,
+        "narrative": "Cr--13 to 21 inches (34 to 53 centimeters); Hard fractured andesite. (0 to 20 centimeters thick)"
+      },
+      {
+        "name": "R",
+        "top": 53,
+        "narrative": "R--21 inches (53 centimeters); Massive andesite."
+      }
+    ]
+  ]
 }

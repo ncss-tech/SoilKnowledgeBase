@@ -56,5 +56,51 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are;\nMollic epipedon: 0 to 18 centimeters (0 to 7 inches) after mixing (A and Bk horizons)\nCalcic horizon: the zone of secondary carbonate accumulation 3 to 11 inches. (Bk horizon)\nLithic contact: hard bedrock at 28 centimeters (11 inches) (R horizon)\nFrigid temperature regime: the annual soil temperature at 51 centimeters (20 inches) is 7 to 8 degrees C. (44 to 47 degrees F.)\nUpdated the classification, competing series and placed in semitab format.  LRM 03/01\nModified format by LRM in 3/2006 to include metric conversion and change permeability to saturated hydraulic conductivity.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely channery",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 8 centimeters (0 to 3 inches); dark grayish brown (10YR 4/2) extremely channery loam, very dark grayish brown (10YR 3/2) moist; moderate very fine granular structure; soft very friable, slightly sticky and slightly plastic; few medium common fine, and many very fine roots; few medium, common fine and many very fine tubular pores; 60 percent channery fragments and 10 percent gravel; slightly effervescent; moderately alkaline (pH8.0); clear smooth boundary.  (8 to 20 centimeters (3 to 8 inches) thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 8,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely channery",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk--8 to 28 centimeters (3 to 11 inches); brown (10YR 4/3) extremely channery loam, dark brown (10YR 3/3) moist; weak fine subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; few medium, common fine, and many very fine roots; few medium, common fine and many fine tubular pores; 60 percent channery fragments and 10 percent gravel; violently effervescent, carbonates are disseminated and occur as pendants of rock fragments, 27 percent calcium carbonate equivalent; moderately alkaline (pH 8.4); clear smooth boundary. (20 to 30 centimeters (8 to 12 inches) thick)"
+      },
+      {
+        "name": "R",
+        "top": 28,
+        "narrative": "R--28 centimeters (11 inches); hard limestone."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,64 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - 0 to 2 inches (A horizon).\nArgillic horizon - 2 to 6 inches (Bt horizon).\nLithic contact - 15 inches (R horizon).\nParticle-size control section - 2 to 15 inches (Bt and 2C horizons).\nResponsibility for this series was transferred from Davis to Phoenix 12/2015. The last revision to the series was 7/2006. ET\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; yellowish brown (10YR 5/4) very gravelly loam, dark yellowish brown (10YR 4/4) moist; weak fine subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; few very fine and fine roots; common very fine and few fine interstitial pores; 50 percent pebbles and 5 percent cobbles; slightly alkaline (pH 7.6); abrupt smooth boundary. (1 to 3 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 5,
+        "bottom": 15,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--2 to 6 inches; brown (7.5YR 4/4) very gravelly sandy clay loam, brown (7.5YR 4/4) moist; moderate fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine and few fine and medium roots; common very fine interstitial and few very fine and fine tubular pores; many moderately thick clay films on faces of peds and lining pores; 40 percent pebbles and 5 percent cobbles; slightly alkaline (pH 7.6); abrupt wavy boundary. (4 to 7 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 15,
+        "bottom": 38,
+        "texture_class": "clay",
+        "narrative": "2C--6 to 15 inches; gravel; retains rock structure; few very fine and fine roots; few faint clay films coating rock fragments; 95 percent angular pebbles. (5 to 14 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 38,
+        "narrative": "2R--15 inches; slightly fractured hard metamorphic bedrock."
+      }
+    ]
+  ]
 }

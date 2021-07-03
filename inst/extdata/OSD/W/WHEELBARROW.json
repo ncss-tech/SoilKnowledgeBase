@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from 0 to 36 cm (A1 and A2 horizons)\nParalithic contact - at 79 cm (Cr horizon)\nLithic contact - at 97 cm (R horizon)\nParticle-size control section - from 25 to 79 cm (part of A2 and C horizons)\nAdditional information: 5/1/2013 - Based on the profile description, the Wheelbarrow series was re-classified from Typic Haplustolls to Entic Haplustolls.\nWheelbarrow soils have a frigid temperature regime and an ustic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A1--0 to 18 cm; dark grayish brown (10YR 4/2) coarse sandy loam, very dark brown (10YR 2/2) moist; weak medium granular structure; very friable, soft, nonsticky and nonplastic; many fine and few medium roots; many fine irregular and interstitial pores; 10 percent gravel; moderately acid (pH 6.0); gradual smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 18,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "gravelly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A2--18 to 36 cm; grayish brown (10YR 5/2) gravelly loamy coarse sand, very dark grayish brown (10YR 3/2) moist; weak fine subangular blocky structure; very friable, soft, nonsticky and nonplastic; many fine and few medium roots; many fine interstitial pores; 20 percent gravel; moderately acid (pH 5.8); gradual smooth boundary. (combined thickness of A horizons is 25 to 38 cm)"
+      },
+      {
+        "name": "C",
+        "top": 36,
+        "bottom": 79,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "coarse sand",
+        "cf_class": "very gravelly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C--36 to 79 cm; light yellowish brown (10YR 6/4) very gravelly coarse sand, dark yellowish brown (10YR 4/4) moist; single grain; loose, nonsticky and nonplastic; few fine roots; common fine interstitial pores; 40 percent gravel; moderately acid (pH 5.8); gradual wavy boundary."
+      },
+      {
+        "name": "Cr",
+        "top": 79,
+        "bottom": 97,
+        "texture_class": "coarse sand",
+        "cf_class": "very gravelly",
+        "narrative": "Cr--79 to 97 cm; disintegrated granite bedrock (grus) that crushes to very gravelly coarse sand."
+      },
+      {
+        "name": "R",
+        "top": 97,
+        "narrative": "R--97 cm; indurated granite bedrock."
+      }
+    ]
+  ]
 }

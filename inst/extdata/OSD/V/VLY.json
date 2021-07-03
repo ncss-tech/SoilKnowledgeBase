@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and other features recognized in the typical pedon are;\na). Ochric epipedon - the zone from 0 to 2 inches (A horizon).\nb). Cambic horizon - the zone from 2 to 28 inches (The Bw horizons).\nSoil Interpretation Records: NY0305, NY0306\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A -- 0 to 2 inches; dusky red (2.5YR 3/2) channery silt loam; weak fine granular structure; very friable; many medium and fine roots; 25 percent rock fragments; strongly acid; abrupt smooth boundary. (1 to 4 inches thick.)"
+      },
+      {
+        "name": "Bw1",
+        "top": 5,
+        "bottom": 28,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw1 -- 2 to 11 inches; reddish brown (2.5YR 4/4) very channery loam; weak fine granular structure; very friable; common medium and fine roots; many medium tubular pores; 35 percent rock fragments; strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 28,
+        "bottom": 53,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw2 -- 11 to 21 inches; reddish brown (5YR 4/3) very channery loam; weak fine subangular blocky structure; friable; few fine and medium roots; few medium tubular pores; 60 percent rock fragments; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bw3",
+        "top": 53,
+        "bottom": 71,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw3 -- 21 to 28 inches; reddish brown (2.5YR 4/4) very channery loam; weak fine subangular blocky structure; few fine and medium roots; few fine tubular pores; 60 percent rock fragments; few fine yellowish red (5YR 5/6) redoximorphic concentrations just above the bedrock; strongly acid; abrupt smooth boundary. (Combined thickness of Bw horizons 18 to 38 inches.)"
+      },
+      {
+        "name": "2R",
+        "top": 71,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "narrative": "2R -- 28 inches, dark reddish brown (2.5YR 3/4) thinly bedded sandstone."
+      }
+    ]
+  ]
 }

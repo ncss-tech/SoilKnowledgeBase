@@ -56,5 +56,89 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Fairystone soils were previously mapped as inclusions in Littlejoe, Buffstat, and Bugley soils. These soils have relatively thin argillic horizons, many less than 10 inches thick. They are tentatively classified as Typic Hapludults; however, the type location is borderline to Inceptic Hapludults. Additional investigation is needed to accurately determine the predominance of the argillic horizon thickness and a new type location may be needed. Levels of total carbon are high due to the influence of graphitic parent materials; however organic matter from plant residue is thought to be similar to adjacent soils. Where Cr layers are present, fracture intervals are too close to qualify for paralithic contact.\nDiagnostic horizons and soil characteristics recognized in this pedon are:\nOchric epipedon--the zone from 0 to 5 inches (A horizon)\nArgillic horizon--the zone from about 7 to 17 inches (Mid and lower BAt horizon and Bt horizon)\nLithic contact--hard bedrock contact at 31 inches (R horizon)\nSeries control section--the zone from 0 to 31 inches\nADDITIONAL DATA: Characterization data are available from NRCS-Soil Survey Laboratory, Lincoln, NE (Lab Pedon Number: 99P0441; User Pedon ID: 99VA141004). Additional data: (Lab Pedon Number: 99P0440; User Pedon ID: 99VA141003)\nData Map Unit ID: 533842\nPedon Record ID: 263696\nUser Pedon ID: VA141_Fairystone_OSD_cnl\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 5 inches; brown (7.5YR 4/4) channery loam; brown (7.5YR 5/4) dry; weak medium granular structure; friable, slightly sticky, slightly plastic; many fine, medium, and coarse roots; 15 percent channers, 5 percent fine gravel; few fine mica flakes; strongly acid; clear wavy boundary. (2 to 9 inches thick)"
+      },
+      {
+        "name": "BAt",
+        "top": 13,
+        "bottom": 23,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BAt--5 to 9 inches; yellowish red (5YR 4/6) channery loam; common medium distinct red (2.5YR 4/6) mottles; moderate fine subangular blocky structure; friable, moderately sticky, slightly plastic; many fine, medium, and coarse roots; 30 percent channers; few fine mica flakes; most sand grains coated and bridged with clay; strongly acid; gradual wavy boundary. (0 to 9 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 23,
+        "bottom": 43,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "cf_class": "very channery",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "Bt--9 to 17 inches; red (2.5YR 4/8) very channery clay; moderate medium subangular blocky structure; friable, moderately sticky, moderately plastic; many fine, medium, and coarse roots; 45 percent channers; common fine mica flakes; few faint clay films on vertical and horizontal faces of peds; strongly acid; gradual irregular boundary. (10 to 30 inches thick)"
+      },
+      {
+        "name": "Ct",
+        "top": 43,
+        "bottom": 61,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "cf_class": "extremely channery",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Ct--17 to 24 inches; red (2.5YR 4/6) extremely channery clay loam; massive; friable, moderately sticky, moderately plastic; few fine through coarse roots; common fine mica flakes; 75 percent channers and 10 percent flagstones; strongly acid; abrupt irregular boundary. (0 to 10 inches thick.)"
+      },
+      {
+        "name": "Cr",
+        "top": 61,
+        "bottom": 79,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Cr--24 to 31 inches; soft, dark gray felsic schist bedrock; fractured at interval less than 4 inches apart along nearly vertical structural or bedding planes; moderately cemented; moderate excavation difficulty; abrupt smooth boundary. (0 to 10 inches thick.)"
+      },
+      {
+        "name": "R",
+        "top": 79,
+        "bottom": 203,
+        "narrative": "R--31 to 80 inches; hard, dark gray felsic schist bedrock; indurated; very high excavation difficulty."
+      }
+    ]
+  ]
 }

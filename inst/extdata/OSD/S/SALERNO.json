@@ -56,5 +56,103 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nOchric epipedon - the zone from the surface to a depth of 46 inches (A1, A2, Eg1 and Eg2 horizons).\nAlbic horizon - the zone from 9 to 46 inches (Eg1 and Eg2 horizons).\nCambic horizon - the zone from 46 to 61 inches (Bw horizon).\nSpodic horizon - the zone from 61 to 100 inches (Bh horizon and the Bh part of the Bw/Bh horizon).\nSalerno soils were formerly included in the Immokalee series.   Hydraulic conductivity studies show these soils to have Bh horizons that severely restrict the downward movement of water and that have the characteristics of ortstein.\nAquic condition - episaturation - all layers above the cemented layers can be saturated during wet periods.  Depending on water table conditions, lower layers can also be saturated.\nThe water table is within depths of 6 to 18 inches for 2 to 4 months during the wet season in most years and recedes to depths of more than 40 inches for 1 to 4 months in the dry season.  The water table is perched above the Bh horizon early in the summer rainy season and following heavy rainfall in other seasons.\nADDITIONAL DATA:  Soil Characterization Lab., IFAS, UF S43-4-(1-7).  University of Florida, Gainesville, FL.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "sand",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 4 inches; black (N 2/0) rubbed, sand; weak fine granular structure; very friable; many fine and medium roots; extremely acid; clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 23,
+        "moist_hue": "N",
+        "moist_value": 3,
+        "moist_chroma": 0,
+        "texture_class": "sand",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--4 to 9 inches; very dark gray (N 3/0) sand; single grained; loose; many fine and medium roots, few coarse roots; many uncoated sand grains; extremely acid; clear smooth boundary.  (Combined thickness of the A horizons range from 4 to 14 inches)"
+      },
+      {
+        "name": "Eg1",
+        "top": 23,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "narrative": "Eg1--9 to 17 inches; dark gray (10YR 4/1) sand; single grained; loose; common fine and medium roots; common very dark grayish brown (10YR 3/2) streaks in old root channels; very strongly acid; gradual diffuse boundary."
+      },
+      {
+        "name": "Eg2",
+        "top": 43,
+        "bottom": 117,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Eg2--17 to 46 inches; light brownish gray (10YR 6/2) fine sand; single grained; loose; few fine and medium roots; few dark grayish brown (10YR 4/2) streaks in old root channels; very strongly acid; clear wavy boundary.  (Combined thickness of the Eg horizons range from 24 to 51 inches)"
+      },
+      {
+        "name": "Bw",
+        "top": 117,
+        "bottom": 155,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--46 to 61 inches; brown (10YR 5/3) fine sand; single grained; loose; few fine and medium roots; common very dark grayish brown (10YR 3/2) and dark grayish brown (10YR 4/2) streaks and pockets; very strongly acid; abrupt wavy boundary.  (0 to 28 inches thick)"
+      },
+      {
+        "name": "Bh",
+        "top": 155,
+        "bottom": 193,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "fine sand",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bh--61 to 76 inches; black (N 2/0) fine sand; massive; firm; weakly cemented ortstein consists of 60 to 85 percent of pedon; few fine and medium roots; sand grains well coated with colloidal organic matter; few pockets of dark reddish brown (5YR 2/2) areas with less organic matter than the matrix; extremely acid; clear irregular boundary.  (10 to 20 inches thick)"
+      },
+      {
+        "name": "Bw/Bh",
+        "top": 193,
+        "bottom": 254,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sand",
+        "pH_class": "extremely acid",
+        "narrative": "Bw/Bh--76 to 100 inches; dark reddish brown (5YR 3/4) fine sand (Bw); single grained; loose; noncemented; few weakly cemented dark reddish brown (5YR 3/3) spodic fragments (Bh); few fine roots; extremely acid."
+      }
+    ]
+  ]
 }

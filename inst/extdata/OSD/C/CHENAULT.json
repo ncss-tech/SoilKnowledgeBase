@@ -56,5 +56,68 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in the typical pedon are:\nOchric epipedon - the zone from 0 to 11 inches (Ap).\nArgillic horizon - the zone from 11 to 49 inches (Bt1, Bt2, 2Bt3).\nLithic contact - at 49 inches (2R).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 28,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 11 inches; brown (1OYR 4/3) gravelly silt loam; weak fine granular structure; very friable; common fine roots; 15 percent pebbles and subrounded chert; strongly acid; abrupt smooth boundary.  (6 to 12 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 28,
+        "bottom": 58,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "cf_class": "gravelly",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--11 to 23 inches; brown (7.5YR 4/4) gravelly silty clay loam; moderate fine and medium subangular blocky structure; friable; few fine roots; common clay films on faces of peds; 30 percent pebbles and subrounded chert; medium acid; gradual smooth boundary.  (11 to 26 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 58,
+        "bottom": 104,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "cf_class": "gravelly",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--23 to 41 inches; brown (7.5YR 4/4) gravelly silty clay loam, few medium distinct yellowish brown (1OYR 5/6) mottles; moderate fine and medium subangular blocky structure; firm; few fine roots; common clay films on faces of peds; many fine black concretions; 15 percent pebbles and subrounded chert; medium acid; clear smooth boundary.  (5 to 19 inches thick)"
+      },
+      {
+        "name": "2Bt3",
+        "top": 104,
+        "bottom": 124,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "2Bt3--41 to 49 inches; dark yellowish brown (1OYR 4/4) gravelly clay; many fine and medium distinct very dark gray (IOYR 3/1) mottles; weak fine and medium subangular blocky structure; very firm; few fine roots; few clay films on faces of peds; 30 percent pebbles and subrounded chert; medium acid; abrupt smooth boundary.  (0 to 13 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 124,
+        "narrative": "2R--49 inches; hard gray limestone."
+      }
+    ]
+  ]
 }

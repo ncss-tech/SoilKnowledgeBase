@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Portsmouth series was formerly classified as fine-loamy, mixed, thermic Typic Umbraquults. This revision changes the classification to fine-loamy over sandy or sandy-skeletal and moves the type location from Virginia to North Carolina.\nDiagnostic horizons and features recognized in this pedon are:\nUmbric epipedon - the zone from the surface to a depth of 12 inches (the Ap horizon)\nArgillic horizon - the zone from a depth of 23 to a depth of 35 inches. (the Btg horizon)\nAquic moisture regime\nStrongly contrasting particle-size class - below a depth of 38 inches.\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5   Soil Name   Slope  Airtemp  FrFr/Seas   Precip  Elevation\nNC0128  PORTSMOUTH  0-2    58-70     200-260    42-56    5-100\nSOI-5    FloodL  FloodH   Watertable   Kind      Months    Bedrock\nNC0128    NONE    RARE      0-1.0     APPARENT   NOV-MAY    >60\nSOI-5   Depth   Texture              3-Inch  No-10   Clay%   -CEC-\nNC0128   0-19   MK-SL MK-FSL MK-L     0-0    98-100  10-25   10-20\nNC0128   0-19   SL FSL L              0-0    98-100   5-25    4-13\nNC0128   0-19   SIL MK-SIL            0-0    90-100  20-27    7-20\nNC0128  19-35   L SCL CL              0-0    98-100  20-35    5-9\nNC0128  35-38   LS SL                 0-0    98-100   8-18    1-4\nNC0128  38-72   SR COS LS             0-0    98-100   2-10    0-3\nSOI-5     Depth    -pH-      O.M.      Permeab    Shnk-Swll\nNC0128    0-19   3.5- 5.5   8.-15       2.0-6.0     LOW\nNC0128    0-19   3.5- 5.5   3.-8.       0.6-6.0     LOW\nNC0128    0-19   3.5- 5.5   3.-15       0.6-2.0     LOW\nNC0128   19-35   3.5- 5.5   .5-2.       0.6-2.0     LOW\nNC0128   35-38   3.5- 5.5   0.-.5       2.0-6.0     LOW\nNC0128   38-72   3.5- 6.0   0.-.5       6.0-20      LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 12 inches; black (10YR 2/1) fine sandy loam; weak medium granular structure; very friable; many fine roots; moderately acid; gradual wavy boundary. (10 to 20 inches thick)"
+      },
+      {
+        "name": "Eg",
+        "top": 30,
+        "bottom": 48,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Eg--12 to 19 inches; gray (10YR 5/1) fine sandy loam; weak medium granular structure; very friable; few fine and medium roots; moderately acid; gradual wavy boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "BEg",
+        "top": 48,
+        "bottom": 58,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BEg--19 to 23 inches; gray (10YR 5/1) and dark gray (10YR 4/1) fine sandy loam; weak medium subangular blocky structure; friable; slightly sticky, slightly plastic; common fine pores and old root channels; common medium prominent brownish yellow (10YR 6/8) and yellow (10YR 7/8) iron masses; common medium flakes of mica; strongly acid; gradual wavy boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "Btg",
+        "top": 58,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btg--23 to 35 inches; gray (10YR 5/1) and dark gray (10YR 4/1) sandy clay loam with pockets and lenses of sandy clay and sandy loam; weak medium subangular blocky structure; friable; moderately sticky; moderately plastic; common fine pores and old root channels; common medium prominent yellowish brown (10YR 5/8), brownish yellow (10YR 6/8), and yellowish red (5YR 5/8) iron masses; common thin patchy clay films on faces of peds; common medium flakes of mica; few medium grains of feldspar minerals; very strongly acid; clear wavy boundary. (10 to 26 inches thick)"
+      },
+      {
+        "name": "BCg",
+        "top": 89,
+        "bottom": 97,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BCg--35 to 38 inches; gray (10YR 5/1), brownish yellow (10YR 6/8) and reddish yellow (5YR 6/8) sandy loam; weak medium subangular blocky structure; very friable; common medium flakes of mica; few medium grains of feldspar minerals; very strongly acid; clear smooth boundary. (0 to 5 inches thick)"
+      },
+      {
+        "name": "2Cg1",
+        "top": 97,
+        "bottom": 122,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "2Cg1--38 to 48 inches; gray (10YR 6/1) sand with few small bodies of sandy clay loam; single grained; loose; common medium flakes of mica; few medium grains of feldspar minerals; very strongly acid; abrupt smooth boundary. (3 to 15 inches thick)"
+      },
+      {
+        "name": "2Cg2",
+        "top": 122,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "coarse sand",
+        "pH_class": "strongly acid",
+        "narrative": "2Cg2--48 to 72 inches; gray (10YR 6/1) and light gray (10YR 7/1) coarse sand; single grained; loose; common medium flakes of mica; few small to large pebbles; strongly acid."
+      }
+    ]
+  ]
 }

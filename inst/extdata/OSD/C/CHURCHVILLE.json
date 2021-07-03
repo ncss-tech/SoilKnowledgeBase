@@ -56,5 +56,83 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and other features recognized in the typical pedon are:\na. Ochric epipedon - the zone from 0 to 11 inches (Ap and E horizons).\nb. Argillic horizon - the zone of illuviated clay from 11 to 26 inches (B/E and Bt horizons).\nc. Aeric subgroup - as evidenced by dominant matrix chroma greater than 2 in the zone from 11 to 26 inches (B/E and Bt horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 9 inches; very dark grayish brown (10YR 3/2) silt loam, light brownish gray (10YR 6/2) dry; moderate fine and medium granular structure; friable; many fine roots; many pores; neutral; abrupt smooth boundary. (6 to 11 inches thick.)"
+      },
+      {
+        "name": "E",
+        "top": 23,
+        "bottom": 28,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E -- 9 to 11 inches; pinkish gray (7.5YR 6/2) silt loam; weak medium subangular blocky structure; friable; common fine roots; many fine pores; common medium prominent strong brown (7.5YR 5/6) masses of iron accumulation and common fine faint gray (10YR 5/1) areas of iron depletion; slightly acid; clear smooth boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "B/E",
+        "top": 28,
+        "bottom": 38,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "B/E -- 11 to 15 inches; reddish brown (5YR 4/4) silty clay loam with light brownish gray (10YR 6/2) silt loam that interfingers along ped faces and occurs as thin horizontal lamellae comprising 12 percent of the cross section; moderate medium subangular blocky structure; firm; few fine roots; common fine pores; pores inside peds have distinct clay linings; neutral; clear wavy boundary. (0 to 6 inches thick.)"
+      },
+      {
+        "name": "Bt",
+        "top": 38,
+        "bottom": 66,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt -- 15 to 26 inches; reddish brown (5YR 4/3) silty clay; ped faces are dark reddish gray (5YR 4/2); moderate medium blocky structure; firm, sticky; few fine roots in upper part; common fine pores; many distinct continuous clay films on all faces of peds and on surfaces along pores; common medium distinct yellowish red (5YR 5/6) masses of iron accumulation and common medium prominent gray (10YR 6/1) areas of iron depletion; slightly alkaline; clear smooth boundary. (9 to 23 inches thick.)"
+      },
+      {
+        "name": "2C",
+        "top": 66,
+        "bottom": 203,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately alkaline",
+        "narrative": "2C -- 26 to 80 inches; reddish gray (5YR 5/2) gravelly loam; moderate coarse platy structure; very firm; few fine pores; 25 percent rock fragments; few medium distinct brown (7.5YR 5/4) masses of iron accumulation; strongly effervescent, moderately alkaline."
+      }
+    ]
+  ]
 }

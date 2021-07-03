@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Characterization data by the University of Florida, IFAS, Soil Science Department, shows the A1 horizon to have base saturation of 39 percent and the Bt horizon 67 to 73 percent base saturation.  Organic carbon content of Btg1 is 0.31 percent (10YR 3/1).  Additional base saturation tests of A1 horizons of other pedons using a field test kit indicate base saturation of less than 50 percent.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nFL0202 STOCKADE    0-  2     -        -       -         -\nFL0452 STOCKADE    0-  2     -        -       -         -\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nFL0202 NONE   RARE     0-1.0  APPARENT JUN-MAR  60-60\nFL0452 FREQ            0-1.0  APPARENT JUN-MAR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nFL0202  0-12  FSL L                   0-  0 100-100 10-15    -\nFL0202  0-12  LFS FS                  0-  0 100-100  6-12    -\nFL0202  0-12  MK-L MK-FSL MK-SL       0-  0 100-100 10-15    -\nFL0202 12-46  SCL FSL                 0-  0 100-100 18-30    -\nFL0202 46-65  VAR                      -       -      -      -\nFL0452  0-12  FSL L                   0-  0 100-100 10-15    -\nFL0452  0-12  LFS FS                  0-  0 100-100  6-12    -\nFL0452  0-12  MK-L MK-FSL MK-SL       0-  0 100-100 10-15    -\nFL0452 12-46  SCL FSL                 0-  0 100-100 18-30    -\nFL0452 46-65  VAR                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nFL0202  0-12  4.5- 6.5  3.-6.  0- 0   0.6- 2.0  LOW\nFL0202  0-12  4.5- 6.5  3.-6.  0- 0   2.0- 6.0  LOW\nFL0202  0-12  5.6- 8.4  6.-15  0- 0   0.6- 2.0  LOW\nFL0202 12-46  4.5- 8.4    -    0- 0  0.06- 0.6  LOW\nFL0202 46-65     -        -     -     2.0-  20\nFL0452  0-12  4.5- 6.5  3.-6.  0- 0   0.6- 2.0  LOW\nFL0452  0-12  4.5- 6.5  3.-6.  0- 0   2.0- 6.0  LOW\nFL0452  0-12  4.5- 6.5  6.-15  0- 0   0.6- 2.0  LOW\nFL0452 12-46  4.5- 8.4    -    0- 0  0.06- 0.6  LOW\nFL0452 46-65  5.6- 8.4    -     -     2.0-20.0\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 30,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 12 inches; black (N 2/0) fine sandy loam; weak fine subangular blocky structure; very friable; common fine roots; strongly acid; gradual wavy boundary.  (10 to 20 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 30,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg1--12 to 26 inches; very dark gray (10YR 3/1) sandy clay loam; few fine distinct yellowish brown and few fine faint dark grayish brown mottles; weak medium subangular blocky structure; friable; slightly acid; gradual smooth boundary.  (8 to 17 inches thick)"
+      },
+      {
+        "name": "Btg2",
+        "top": 66,
+        "bottom": 117,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btg2--26 to 46 inches; dark gray (10YR 4/1) sandy clay loam; weak medium subangular blocky structure; few fine brown sand streaks; neutral; friable; clear wavy boundary.  (14 to 29 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 117,
+        "bottom": 165,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "neutral",
+        "narrative": "C--46 to 65 inches; dark grayish brown (10YR 4/2) light brownish gray (10YR 6/2) fine sand; moderate medium crumb structure; very friable; neutral."
+      }
+    ]
+  ]
 }

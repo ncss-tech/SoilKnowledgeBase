@@ -56,5 +56,51 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: These soils were formerly mapped as tidal marsh and/or sulfihemists.\nDiagnostic horizons and features recognized in this pedon include:\n1. Fibric material - the zone from 0 to 40 cm has rubbed fiber content greater than or equal to 40 percent (Oi horizon).\n2. Hemic material - the zone from 40 to 90 cm has a rubbed fiber content between 17 and 40 percent (Oe horizons).\n3. Sulfihemists great group - sulfidic materials within a depth of 100 cm.\n4. Reaction (pH value) is more than 4.5 throughout the control section.\nADDITIONAL DATA: This pedon is entered as 2017ME023001 in the National Soils Information System.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 40,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 40 cm; dark brown (7.5YR 3/2) peat (fibric material); 65 percent fiber, 55 percent rubbed; dense mat of roots, stems and leaves; massive; many very fine and fine and common medium roots; very friable; 5 percent shell fragments; neutral; gradual smooth boundary."
+      },
+      {
+        "name": "Oe",
+        "top": 40,
+        "bottom": 90,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--40 to 90 cm; very dark grayish brown (2.5Y 3/2) mucky peat (hemic material); 55 percent fiber, 35 percent rubbed; massive; many very fine and fine and common medium roots; very friable; 2 percent shell fragments; neutral; abrupt smooth boundary. (Combined thickness of the organic horizons is 40 to 130 cm thick with over 50 percent comprised of hemic material.)"
+      },
+      {
+        "name": "Cseg",
+        "top": 90,
+        "bottom": 165,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "slightly alkaline",
+        "narrative": "Cseg--90 to 165 cm; gray (5Y 5/1) in place, gray (5Y 6/1) reduced, sand; single grain; loose; slightly alkaline."
+      }
+    ]
+  ]
 }

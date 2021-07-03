@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Particle size analysis is on hand for this pedon and Engineering Test Data is on hand for 4 pedons.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nSC0093 GILLS       0- 10   60- 62  200-215  45- 49   400- 900\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nSC0093 NONE          2.0-3.0  PERCHED  DEC-MAY  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nSC0093  0-15  SIL L SICL              0-  2  80-100  5-35   3-  8\nSC0093 15-31  C SIC CL                0-  2  95-100 35-60   6- 15\nSC0093 31-60  SIL SICL FSL            0-  2  95-100 15-35   4- 10\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nSC0093  0-15  4.5- 6.0  .5-2.  0- 0   0.6- 2.0  LOW\nSC0093 15-31  4.5- 5.5    -    0- 0   0.2- 0.6  MODERATE\nSC0093 31-60  4.5- 5.5    -    0- 0  0.06- 0.2  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "O1",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "O1--1 to 0 inches; decaying litter from mostly oak leaves and twigs."
+      },
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "narrative": "A1--0 to 1 inch; dark grayish brown (10YR 4/2) silt loam;"
+      },
+      {
+        "name": "A2",
+        "top": 3,
+        "bottom": 30,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--1 to 12 inches; pale yellow (2.5Y 7/4) silt loam; weak medium granular structure; few weak medium subangular blocky peds; very friable; many fine roots; very strongly acid; clear smooth boundary.  (5 to 12 inches thick)"
+      },
+      {
+        "name": "B1",
+        "top": 30,
+        "bottom": 38,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "narrative": "B1--12 to 15 inches; pale yellow (2.5Y 7/4) silt loam; weak medium subangular blocky structure; friable; common fine roots;"
+      },
+      {
+        "name": "B21t",
+        "top": 38,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "narrative": "B21t--15 to 21 inches; pale brown (10YR 6/3) clay; ped faces"
+      },
+      {
+        "name": "B22t",
+        "top": 53,
+        "bottom": 79,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "narrative": "B22t--21 to 31 inches; pale brown (10YR 6/3) clay; many"
+      },
+      {
+        "name": "Bx",
+        "top": 79,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "narrative": "Bx--31 to 60 inches; coarsely mottled light gray (10YR 7/2), white (10YR 8/1), and yellowish brown (10YR 5/6) loam, silt loam,"
+      }
+    ]
+  ]
 }

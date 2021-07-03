@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The name is coined.\nDiagnostic horizons and features recognized in this pedon include:\nUmbric epipedon - The zone from the mineral soil surface to 20 inches (Oe, A and the Bt1 horizons).\nAndic soil properties - The soil material with high volcanic glass content and acid oxalate extractable Al and Fe more than 0.4 extends from the mineral surface to 40 inches (A, Bt1 and Bt2).\nVitrandic intergrade feature -- High volcanic glass content in the .02 to 2mm fraction from the mineral soil surface to 31 inches (Oe, A, Bt1, and the Bt2 horizons).\nArgillic horizon - The zone from 7 to 40 inches (Bt1 and Bt2 horizons).\nParalithic contact - The boundary at 40 inches to underlying soft, weathered bedrock (Cr layer).\nParticle-size control section - The zone from 7 to 27 inches (Bt1 and part of the Bt2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "cf_class": "gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oe--0 to 1 inch; dark grayish brown (10YR 4/2),  gravelly moderately decomposed organic matter, very dark brown (10YR 2/2), moist; weak fine granular structure; soft, very friable, nonsticky, nonplastic; common very fine roots; many very fine interstitial pores; 25 percent pebbles; slightly acid (pH 6.2); clear smooth boundary. (1 to 4 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--1 to 7 inches; brown (10YR 5/3), very gravelly ashy sandy loam, dark brown (10YR 3/3), moist; weak fine and medium subangular blocky structure; soft, very friable, nonsticky, nonplastic; many very fine to very coarse roots; many very fine interstitial and common very fine tubular pores; 40 percent pebbles, 5 percent cobbles; slightly acid (pH 6.1); clear wavy boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 51,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--7 to 20 inches; brown (10YR 5/3), very gravelly ashy loam, dark brown (10YR 3/3), moist; moderate fine and medium subangular blocky structure; slightly hard, very friable, slightly sticky, slightly plastic; many fine to very coarse roots and common very fine roots; common very fine interstitial and tubular pores; 15 percent faint clay bridges between sand grains; 45 percent pebbles, 10 percent cobbles; moderately acid (pH 5.8); clear wavy boundary. (10 to 18 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 51,
+        "bottom": 102,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely cobbly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bt2--20 to 40 inches; light yellowish brown (10YR 6/4), extremely cobbly ashy loam, dark yellowish brown (10YR 4/4), moist; moderate fine and medium subangular blocky structure; slightly hard, very friable, moderately sticky, slightly plastic; many fine to very coarse roots and common very fine roots; common very fine interstitial and tubular pores; 15 percent faint clay films on all faces of peds and 15 percent faint clay films on surfaces along pores; 40 percent pebbles, 30 percent cobbles; moderately acid (pH 5.8); clear irregular boundary. (10 to 30 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 102,
+        "narrative": "Cr--40 inches; weathered and highly fractured andesitic tuff."
+      }
+    ]
+  ]
 }

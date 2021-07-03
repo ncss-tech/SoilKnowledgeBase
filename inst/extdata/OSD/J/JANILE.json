@@ -56,5 +56,71 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this\npedon are:\nOchric epipedon:  Zone from 0 to 13 inches (A1, A2).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 5,
+        "bottom": 0,
+        "narrative": "Oi--2 to 0 inches; litter of needles, leaves, twigs and cones;"
+      },
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "bouldery",
+        "narrative": "A1--0 to 4 inches; pale brown (10YR 6/3) bouldery loamy coarse"
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "cf_class": "very gravelly",
+        "narrative": "A2--4 to 13 inches; light gray (10YR 7/2) very gravelly"
+      },
+      {
+        "name": "C1",
+        "top": 33,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "narrative": "C1--13 to 19 inches; light yellowish brown (10YR 6/4) very"
+      },
+      {
+        "name": "C2",
+        "top": 48,
+        "bottom": 61,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "extremely gravelly",
+        "narrative": "C2--19 to 24 inches; light brownish gray (2.5Y 6/2) extremely gravelly loamy coarse sand, dark grayish brown (2.5Y 4/2) moist; single grain; loose, nonsticky and nonplastic; few very fine,"
+      },
+      {
+        "name": "Cr",
+        "top": 61,
+        "narrative": "Cr--24 inches; weathered granite."
+      }
+    ]
+  ]
 }

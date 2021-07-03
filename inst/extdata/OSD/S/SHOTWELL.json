@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features that are recognized in this pedon are:\nOchric epipedon - the zone from the surface of the soil to 3 inches. (A horizon)\nLithic contact - bedrock contact at 12 inches. (R horizon)\nThe classification is based on the \"Keys to Soil Taxonomy, Eighth Edition, 1998\".\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 8.3,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; light brownish gray (10YR 6/2) very cobbly loam, dark grayish brown (10YR 4/2) moist; weak thin platy structure that parts to weak fine granules; slightly hard, friable, slightly sticky, slightly plastic; few fine roots; many fine and few medium tubular pores; moderately calcareous; moderately alkaline (pH 8.3); abrupt smooth boundary. (2 to 4 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 8,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 8.3,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "Bw--3 to 12 inches; pale brown (10YR 6/3) loam, brown (10YR 4/3) moist; weak medium subangular blocky structure; slightly hard, friable, slightly sticky, slightly plastic; few fine, medium and coarse roots; few fine tubular pores; strongly calcareous; moderately alkaline (pH 8.3); gradual irregular boundary. (8 to 16 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 30,
+        "narrative": "R--12 inches; igneous bedrock."
+      }
+    ]
+  ]
 }

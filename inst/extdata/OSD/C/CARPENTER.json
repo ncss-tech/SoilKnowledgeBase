@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in the typical pedon are:\nOchric horizon - the zone from 0 to 13 inches (Ap and AB horizon).\nArgillic horizon - the zone from 13 to 43 inches (Bt).\nParalithic contact - at 58 inches (Cr).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; brown (10YR 4/3) gravelly silt loam; weak fine granular structure; very friable; many medium and coarse roots; 15 percent subrounded fragments of siltstone and shale., strongly acid; clear smooth boundary.  (5 to 10 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 15,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BA--6 to 13 inches; brown (10YR 5/3) silt loam; weak fine and medium subangular blocky structure; friable; many medium roots; common fine pores; 10 percent subrounded fragments of siltstone and shale; strongly acid; clear smooth boundary.  (0 to 18 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 33,
+        "bottom": 109,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--13 to 43 inches; light olive brown (2.5Y 5/4) gravelly silty clay loam; moderate medium prismatic structure parting to moderate medium subangular blocky; firm; common medium roots; few fine pores, common clay films on faces of peds; 15 percent subrounded fragments of siltstone and shale; strongly acid; clear smooth boundary.  (17 to 55 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 109,
+        "bottom": 147,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "silty clay",
+        "cf_class": "channery",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2C--43 to 58 inches; mottled yellowish.brown (10YR 5/8), light yellowish brown (2.5Y 6/4), and light brownish gray (2.5Y 6/2) channery silty clay; massive; very firm; 20 percent fragments of siltstone and shale; medium acid; clear smooth boundary. (0 to 40 inches thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 147,
+        "narrative": "2Cr--58 inches; soft gray shale."
+      }
+    ]
+  ]
 }

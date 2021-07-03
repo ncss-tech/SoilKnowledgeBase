@@ -56,5 +56,51 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from the soil surface to 15 inches (A and AC horizons)\nParticle-size control section - the zone from 10 to 15 inches (part of the AC horizon) or from 0 to 14 inches when bedrock is at 14 inches or less\nBedrock - at 15 inches (R horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 8 inches: brown (7.5YR 4/3) gravelly loam, dark brown (7.5YR 3/2) moist; moderate fine granular structure; soft, very friable, slightly sticky and slightly plastic; many very fine, fine and medium roots; many very fine, fine and medium irregular pores; 30 percent gravel; neutral (pH 7.3); clear wavy boundary. (5 to 10 inches thick)"
+      },
+      {
+        "name": "AC",
+        "top": 20,
+        "bottom": 38,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "AC-- 8 to 15 inches; brown (7.5YR 4/4) extremely gravelly loam, dark brown (7.5YR 3/2) moist; weak fine subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; many very fine, fine and medium roots; many very fine, fine and medium irregular pores; 65 percent gravel and 10 percent cobbles; neutral (pH 6.6); gradual wavy boundary. (3 to 8 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 38,
+        "narrative": "R--15 inches; fractured basalt."
+      }
+    ]
+  ]
 }

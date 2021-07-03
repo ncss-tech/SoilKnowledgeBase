@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 8 inches (A horizon).\nCambic horizon - The zone from 8 to 47 inches (Bss1 and Bss2 horizons).\nSlickensides - The zone from 8 to 60 inches (Bss1, Bss2, and Bkss horizons).\nIdentifiable secondary carbonates - The zone from 47 to 60 inches (Bkss horizon).\nEndosaturation feature - The condition of ground water with an upper boundary between the soil surface and 72 inches at certain times during normal years (parts of the A, Bss1, Bss2, and Bkss horizons).\nParticle-size control section - The zone from 10 to 40 inches (parts of the Bss1 and Bss2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 8 inches; grayish brown (2.5Y 5/2) silt loam, dark grayish brown (2.5Y 4/2) moist; moderate thin platy structure; slightly hard, very friable, moderately sticky and slightly plastic; common very fine and fine roots; common very fine and few fine vesicular pores; 5 percent gravel; slightly alkaline (pH 7.6); clear smooth boundary.  (5 to 10 inches thick)."
+      },
+      {
+        "name": "Bss1",
+        "top": 20,
+        "bottom": 81,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bss1--8 to 32 inches; light brownish gray (2.5Y 6/2) silty clay, dark grayish brown (2.5Y 4/2) moist; strong medium prismatic structure; hard, firm, moderately sticky and moderately plastic; common very fine roots; few very fine tubular pores; few slickensides; slightly alkaline (pH 7.6); clear smooth boundary.  (8 to 20 inches thick)"
+      },
+      {
+        "name": "Bss2",
+        "top": 81,
+        "bottom": 119,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bss2--32 to 47 inches; light brownish gray (2.5Y 6/2) silty clay, dark grayish brown (2.5Y 4/2) moist; strong medium prismatic and strong medium subangular blocky structure; hard, firm, moderately sticky and moderately plastic; common very fine roots; few very fine tubular pores; few fine prominent dark reddish brown (5YR 3/3) masses of iron accumulation; common slickensides; slightly alkaline (pH 7.6); gradual smooth boundary.  (5 to 20 inches thick)."
+      },
+      {
+        "name": "Bkss",
+        "top": 119,
+        "bottom": 152,
+        "dry_hue": "5Y",
+        "dry_value": 7,
+        "dry_chroma": 1,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "narrative": "Bkss--47 to 60 inches; light gray (5Y 7/1) silty clay, olive (5Y 4/3) moist; moderate medium prismatic and strong medium subangular blocky structure; hard, firm, moderately sticky and moderately plastic; few very fine tubular pores; many slickensides; strongly effervescent, secondary carbonates segregated in common medium rounded masses; slightly alkaline (pH 7.8)."
+      }
+    ]
+  ]
 }

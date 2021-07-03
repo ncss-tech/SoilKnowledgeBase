@@ -56,5 +56,88 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Moderately well drained was removed from the series, and areas that are moderately well drained will be considered as inclusions, unless there is a significant acreage to establish a new series.\nSince this soil is till over sedimentary bedrock, the designation of the bedrock horizon should be 2R. R is retained at this time because of past use.\nDiagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon - the zone from 0 to 14 inches (Ap, E, and B/E horizons).\nb. Argillic horizon - the zone from 14 to 23 inches (Bt horizon).\nc. Glossoboric subgroup - interfingering of E horizon material 2 mm or more thick around peds of Bt horizon material in the\nzone from 10 to 14 inches (B/E horizon).\nd. Lithic contact at 28 inches (R horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 9 inches; dark grayish brown (10YR 4/2) silt loam, very dark grayish brown (10YR 3/2) coatings on peds; moderate medium granular structure; friable, slightly plastic; many fine roots; 10 percent gravel and 2 percent cobbles; neutral; abrupt smooth boundary. (6 to 10 inches thick.)"
+      },
+      {
+        "name": "E",
+        "top": 23,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E -- 9 to 10 inches; grayish brown (10YR 5/2) loam; weak fine platy structure; friable, nonplastic; common fine roots; common fine cylindrical vertical pores; 10 percent gravel and 2 percent cobbles; neutral; abrupt wavy boundary. (0 to 6 inches thick.)"
+      },
+      {
+        "name": "B/E",
+        "top": 25,
+        "bottom": 36,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "B/E -- 10 to 14 inches; brown (7.5YR 4/4) silt loam; moderate medium subangular blocky structure; firm, slightly plastic; common fine roots; many fine cylindrical and spherical pores; 2 mm thick fingers of pale brown (10YR 6/3) loam extend from the E horizon along ped faces; few clay coats in pores; 10 percent gravel and 3 percent cobbles; slightly acid; clear wavy boundary. (2 to 8 inches thick.)"
+      },
+      {
+        "name": "Bt",
+        "top": 36,
+        "bottom": 58,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt -- 14 to 23 inches; brown (7.5YR 4/4) gravelly silt loam; moderate medium subangular blocky structure; firm, plastic; few fine roots; common fine pores; brown to brown (10YR 4/3) clay coats on 50 percent of faces of peds and in most pores; 15 percent gravel and 5 percent cobbles; neutral; clear wavy boundary. (6 to 20 inches thick.)"
+      },
+      {
+        "name": "C",
+        "top": 58,
+        "bottom": 71,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C -- 23 to 28 inches; brown (7.5YR 5/2) gravelly loam; weak medium platy structure; firm, slightly plastic; few fine roots; few pores; 20 percent gravel and 5 percent cobbles; slightly alkaline, slightly effervescent; abrupt smooth boundary. (0 to 12 inches thick.)"
+      },
+      {
+        "name": "R",
+        "top": 71,
+        "narrative": "R -- 28 inches; gray hard limestone."
+      }
+    ]
+  ]
 }

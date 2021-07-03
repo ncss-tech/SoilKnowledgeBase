@@ -56,5 +56,84 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from the surface to 20 inches (Ap and Bt1 horizons)\nArgillic horizon - clay 35 to 60 percent (Bt2 and Bt3 horizons)\nClay - dominant clay montmorillonite\nStrongly contrasting particle-size class - sand or sand and pebbles at 24 to 40 inches\nMoisture regime - xeric\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; dark grayish brown (10YR 4/2) loam, very dark brown (10YR 2/2) moist; moderate fine granular structure; upper part may be moderate medium and thick platy; slightly hard, friable, slightly sticky and slightly plastic; many fine roots; many very fine pores; slightly acid (pH 6.4); abrupt smooth boundary.  (6 to 14 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 51,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--8 to 20 inches; brown (7.5YR 4/3) light sandy clay, dark brown (7.5YR 3/3) moist; weak to moderate medium prismatic and moderate medium angular and subangular blocky structure; extremely hard, firm, very sticky and very plastic; few fine roots; common very fine pores; continuous moderately thick clay films on peds; slightly acid (pH 6.4); clear wavy boundary.  (6 to 12 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 51,
+        "bottom": 66,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "texture_class": "clay",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt2--20 to 26 inches; similar to Bt1 except; dark reddish brown (5YR 4/3) moderate to strong medium prismatic and angular blocky structure; continuous thick clay films on peds; abrupt smooth boundary.  (6 to 15 inches thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 66,
+        "bottom": 81,
+        "texture_class": "sandy clay loam",
+        "narrative": "Bt3--26 to 32 inches; similar to Bt2 except coarse sandy clay loam.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 81,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "narrative": "2C--32 to 60 inches; brown (10YR 5/3) stratified loamy sand and sand, dark brown (7.5YR 4/3) moist; massive or single grain; very friable, loose; slightly acid (pH 6.2)."
+      }
+    ]
+  ]
 }

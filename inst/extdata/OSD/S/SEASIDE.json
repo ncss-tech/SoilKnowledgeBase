@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in the pedon are:\nOchric epipedon -- the zone from 0 to 7 inches (A, Bw)\nLithic contact -- the boundary at 7 inches (R)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH": 4.4,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 1 inch; very pale brown (10YR 7/3) loamy sand, yellowish brown (10YR 5/4) moist; weak fine and medium subangular blocky structure; loose, nonsticky and nonplastic; common very fine and fine roots; many very fine and fine interstitial pores; 5 percent hard subrounded sandstone pebbles (2-75mm) and 5 percent hard subrounded sandstone cobbles (75-100mm); extremely acid (pH 4.4); abrupt smooth boundary.  (1 to 3 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 3,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 4.9,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bw--1 to 7 inches; pale brown (10YR 6/3) sandy loam, yellowish brown (10YR 5/4) moist; weak very fine and fine subangular blocky structure; loose, very friable, nonsticky and nonplastic; many very fine and fine and common medium and coarse roots; few very fine and fine and common medium and coarse roots; few very fine tubular and many very fine and fine interstitial pores; very strongly acid (pH 4.9); abrupt irregular boundary.  (4 to 9 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 18,
+        "texture_class": "sand",
+        "narrative": "R--7 inches; hard, fractured, coarse grained sandstone; fracture pattern is highly variable; few very fine, fine and medium roots along fractures."
+      }
+    ]
+  ]
 }

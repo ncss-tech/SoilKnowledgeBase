@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The Murville soils were formerly included in the Ridgeland series.  However, Ridgeland soils are in a mixed mineralogy family.  The April 1993 revision of this series changed the subgroup classification from Typic Haplaquods to Umbric Endoaquods.\nDiagnostic horizons and soil properties recognized in the typical pedon are:\nUmbric epipedon - the zone from the surface of the soil to a depth of 45 inches (A and Bh horizons)\nSpodic horizon - the zone from 8 to 45 inches (Bh horizon)\nMLRA(S): 153A, 153B            SIR: NC0085\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0085 MURVILLE    0-  2   59- 70  190-290  45- 60    10-  90\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0085 NONE   RARE      -     APPARENT    -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0085  0- 8  FS S LFS                0-  0 100-100  2- 8   2- 11\nNC0085  0- 8  MK-S MK-LS MK-LFS       0-  0 100-100  2- 8   9- 22\nNC0085  8-45  FS S LFS                0-  0 100-100  2- 8   2- 10\nNC0085 45-56  FS S                    0-  0 100-100  2- 8   0-  4\nNC0085 56-70  VAR                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0085  0- 8  3.5- 5.5  2.-9.  0- 0   6.0-  20  LOW\nNC0085  0- 8  3.5- 5.5  9.-15  0- 0   6.0-  20  LOW\nNC0085  8-45  3.5- 5.5  2.-8.  0- 0   2.0- 6.0  LOW\nNC0085 45-56  3.5- 5.5  0.-2.  0- 0   6.0-  20  LOW\nNC0085 56-70     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 5,
+        "bottom": 0,
+        "narrative": "Oe--2 to 0 inches; partially decayed leaves, moss, and twigs."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 8 inches; black (N 2/) fine sand; weak fine granular structure; very friable; many roots; many clean quartz grains; loamy feel and appearance from organic matter; very strongly acid; clear wavy boundary.  (6 to 11 inches thick)"
+      },
+      {
+        "name": "Bh",
+        "top": 20,
+        "bottom": 114,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bh--8 to 45 inches; black (10YR 2/1) fine sand; massive; very friable; few roots in upper portion; sand grains mostly have dark films or coatings; few clean quartz grains; loamy feel and appearance from organic matter; very strongly acid; gradual wavy boundary.  (24 to 45 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 114,
+        "bottom": 178,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "C--45 to 70 inches; pale brown (10YR 6/3) fine sand with thin strata of sandy loam and sandy clay loam;  single grained; loose; streaks of light gray (10YR 7/1); few old root channels; very strongly acid."
+      }
+    ]
+  ]
 }

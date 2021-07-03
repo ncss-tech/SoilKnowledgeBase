@@ -56,5 +56,98 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Total salt content originally reported as generally more than 10,000 ppm; method unknown.\nDiagnostic horizons and features recognized in this pedon include:\n1. Ochric epipedon - the zone from 0 to 11 cm (Oe horizon)\n2. Hemic soil materials - the zone from 0 to 11 cm (Oe horizon)\n3.Sulfidic materials - the zones from 11 to 20 cm, and 28 to 100cm (Cse, C'se1, and C'se2 horizons)\n4. Reduced matrix - the zone from 11 to 150 cm (Cse, Ab, C'se1, C'se2, C'g, and A'b horizons)\n5. Particle-size control section - the zone from 25 to 100 cm (Ab, C'se1, and C'se2 horizons)\n6. Aquic conditions - the zone from 0 to 150 cm (Oe, Cse, Ab, C'se1, C'se2, Cg, and A'b horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 11,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oe -- 0 to 11 cm; dark brown (7.5YR 3/2) mucky peat; nonfluid; many very fine to medium roots throughout; moderately acid (pH 5.6), strongly acid (pH 5.5) oxidized; clear smooth boundary (0 to 20 cm thick.)"
+      },
+      {
+        "name": "Cse",
+        "top": 11,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "narrative": "Cse -- 11 to 20 cm; dark grayish brown (10YR 4/2) sand; single grain; nonfluid; many very fine to medium roots throughout; moderately acid (pH 5.8), extremely acid(pH 4.0) oxidized; clear boundary."
+      },
+      {
+        "name": "Ab",
+        "top": 20,
+        "bottom": 28,
+        "moist_hue": "7.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH": 6.4,
+        "pH_class": "extremely acid",
+        "narrative": "Ab -- 20 to 28 cm; black (7.5YR 2.5/1) mucky sand; single grain; nonfluid; many very fine to medium roots throughout; slightly acid (pH 6.4), extremely acid (pH 4.1) oxidized; clear boundary."
+      },
+      {
+        "name": "C'se1",
+        "top": 28,
+        "bottom": 67,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "coarse sand",
+        "pH": 6.8,
+        "pH_class": "extremely acid",
+        "narrative": "C'se1 -- 28 to 67 cm; very dark grayish brown (10YR 3/2) coarse sand; single grain; nonfluid; common very fine and fine roots throughout; 8 percent gravel; neutral (pH 6.8), extremely acid (pH 3.9) oxidized; clear boundary."
+      },
+      {
+        "name": "C'se2",
+        "top": 67,
+        "bottom": 100,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "coarse sand",
+        "pH": 7,
+        "pH_class": "extremely acid",
+        "narrative": "C'se2 -- 67 to 100 cm; very dark gray (10YR 3/1) coarse sand; single grain; nonfluid; few very fine and fine roots throughout; 8 percent gravel; neutral (pH 7.0), extremely acid (pH 3.6) oxidized; clear boundary."
+      },
+      {
+        "name": "Cg",
+        "top": 100,
+        "bottom": 130,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "coarse sand",
+        "pH": 6.9,
+        "pH_class": "extremely acid",
+        "narrative": "Cg -- 100 to 130 cm; gray (2.5Y 5/1) coarse sand; single grain; nonfluid; 5 percent gravel; neutral (pH 6.9), extremely acid (pH 4.4) oxidized; clear boundary."
+      },
+      {
+        "name": "A'b",
+        "top": 130,
+        "bottom": 150,
+        "texture_class": "sand",
+        "pH": 6.2,
+        "pH_class": "extremely acid",
+        "narrative": "A'b -- 130 to 150 cm; black (N 2.5/) sand; single grain; nonfluid; slightly acid (pH 6.2), extremely acid (pH 4.2) oxidized."
+      }
+    ]
+  ]
 }

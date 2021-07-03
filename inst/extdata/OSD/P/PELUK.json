@@ -56,5 +56,54 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features and horizons recognized in this profile include:\nDepth to permafrost: 16 to 60 inches. (Cg/Oejjf horizon)\nHistic epipedon: 0 to 16 inches. (Oi and Oe horizons)\nSoil reaction class of pH 4.5 (0.01MCaCl2)\nTemperature regime: pergelic\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Oi--0 to 5 inches; dark reddish brown (5YR 3/3) peat; many very fine and fine, common medium and few coarse roots; very strongly acid (pH 4.8); clear wavy boundary."
+      },
+      {
+        "name": "Oe",
+        "top": 13,
+        "bottom": 41,
+        "moist_hue": "7.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 3,
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--5 to 16 inches; very dark brown (7.5YR 2.5/3) mucky peat; many very fine and fine and few medium roots; very strongly acid (pH 4.8); abrupt smooth boundary."
+      },
+      {
+        "name": "Cgf/Oejjf",
+        "top": 41,
+        "bottom": 152,
+        "moist_hue": "5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "narrative": "Cgf/Oejjf--16 to 60 inches; 80 percent dark olive gray (5Y 3/2) and 20 percent very dark brown (7.5YR 2.5/3) permanently frozen loam; 10 percent gravel; moderately acid (pH 5.6)."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 25 cm (A1 and A2 horizons).\nArgillic horizon - The zone from 25 to 33 cm (Bt horizon).\nLithic contact - The boundary at 33 cm to hard bedrock (R layer).\nParticle-size control section - The zone from the soil surface to 33 cm (A1, A2, and Bt horizons).\nClassification was updated to 11th edition on 07/2011 changed Lithic Argixerolls to Aridic Lithic Argixerolls.\nADDITIONAL DATA: User Pedon ID: 2006NV005019.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 13 cm; grayish brown (10YR 5/2) extremely gravelly sandy loam, very dark grayish brown (10YR 3/2) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; few very fine roots; many fine and medium interstitial pores; 85 percent gravel and 5 percent cobbles; slightly acid (pH 6.2); clear wavy boundary.  (5 to 13 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 13,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--13 to 25 cm; brown (10YR 5/3) extremely gravelly loam, dark brown (10YR 3/3) moist; weak fine and medium subangular blocky structure; slightly hard, very friable, slightly sticky and nonplastic; common very fine and fine roots; common very fine and fine interstitial and common very fine tubular pores; 60 percent gravel; slightly acid (pH 6.5); clear wavy boundary.  (5 to 13 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 25,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bt--25 to 33 cm; pale brown (10YR 6/3) extremely gravelly sandy loam, brown (10YR 4/3) moist; weak medium subangular blocky structure; very hard, friable, slightly sticky and slightly plastic; few very fine through coarse roots; common very fine tubular and interstitial pores; 60 percent gravel; common faint clay films on faces of peds; slightly acid (pH 6.2); clear irregular boundary.  (7 to 15 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 33,
+        "narrative": "R--33 cm; hard fractured altered volcanic rock; fractured in the upper 10 cm."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nADDITIONAL DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0149 TODDSTAV    0-  7   59- 63  180-200  35- 45   250- 800\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0149 FREQ             -     APPARENT    -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0149  0- 7  L SIL                   0-  0  95-100  7-20    -\nVA0149  7-55  L SIL CL                0-  0  95-100 18-35    -\nVA0149 55-70  L SIL SL                0-  0  95-100  7-27    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0149  0- 7  3.6- 5.5  1.-3.  0- 0   0.6- 2.0  LOW\nVA0149  7-55  3.6- 5.5  .5-1.  0- 0  0.06- 0.6  MODERATE\nVA0149 55-70  3.6- 5.5  .5-1.  0- 0   0.6- 2.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; very dark grayish brown (10YR 3/2) silt loam; moderate fine granular structure; friable; many fine and medium roots; extremely acid; clear smooth boundary.  (0 to 4 inches thick)"
+      },
+      {
+        "name": "Eg",
+        "top": 8,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Eg--3 to 7 inches; gray (10YR 6/1) silt loam; moderate fine granular structure; friable; many fine and medium roots; few fine distinct brownish yellow (10YR 6/6) masses of iron accumulation; extremely acid; clear smooth boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 18,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btg1--7 to 13 inches; light gray (10YR 7/1) silt loam; weak fine subangular blocky structure; friable, slightly plastic, slightly sticky; many fine roots; common thin clay films and silt coatings on faces of peds; common very fine mica flakes; common medium and fine distinct brownish yellow (10YR 6/6) masses of iron accumulations; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 33,
+        "bottom": 114,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btg2--13 to 45 inches; gray (10YR 5/1) loam; moderate fine and medium subangular blocky structure; friable, slightly sticky, slightly plastic; common fine roots; many thin patchy clay films and silt coatings on faces of peds; common very fine mica flakes; 1 percent angular quartz pebbles; many medium distinct brownish yellow (10YR 6/6) masses of iron accumulations; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Btg3",
+        "top": 114,
+        "bottom": 142,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg3--45 to 56 inches; light gray (10YR 7/2) silty clay loam; moderate coarse and medium prismatic structure; firm, slightly sticky, slightly plastic; few fine roots; continuous thin clay films and silt coatings on faces of peds; 2 percent angular quartz pebbles; many very fine mica flakes; few medium distinct olive yellow (2.5Y 6/6) masses of iron accumulations; very strongly acid; gradual smooth boundary.  (Combined thickness of the Btg horizon is 10 to 52 inches.)"
+      },
+      {
+        "name": "2Btg",
+        "top": 142,
+        "bottom": 168,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Btg--56 to 66 inches; light gray (10YR 7/2) loam; weak coarse subangular blocky structure; friable; common thin clay films on faces of peds; 1 percent angular quartz pebbles; 10 percent soft highly-weathered schist fragments; many very fine mica flakes; very strongly acid; gradual smooth boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "2Cg",
+        "top": 168,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "narrative": "2Cg--66 to 72 inches; gray (10YR 5/1) loam; massive; very friable; many very fine mica flakes; very strongly acid."
+      }
+    ]
+  ]
 }

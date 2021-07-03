@@ -56,5 +56,64 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 5 inches (0 to 13 cm) (A horizons)\nParalithic contact - the boundary at 5 inches (13 cm) (Crt horizon)\nLithic contact - the boundary at 22 inches (56 cm) (R horizon)\nEntisol feature - the absence of diagnostic subsurface horizons\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, 12th Edition, 2014.\nRevised for the correlation of AZ661, 2/2009, WWJ\nUpdate and revisions for the correlation of SDJR - MLRA 38 - Turquoise-Coppercan complex, 5 to 45 percent slopes, Sept 2014, LJG2\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loamy coarse sand",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 1 inch (0 to 3 cm); brown (7.5YR 5/4) loamy coarse sand, dark brown (7.5YR 3/4) moist; weak moderate thick platy structure parting to single grain; loose, nonsticky and nonplastic; many very fine and fine roots; common fine irregular pores; 10 percent gravel; noneffervescent; slightly acid (pH 6.4); abrupt smooth boundary. (1 to 5 inches or 3 to 13 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 3,
+        "bottom": 13,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--1 to 5 inches (3 to 13 cm); brown (7.5YR 4/3) sandy loam, dark brown (7.5YR 3/3) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; many very fine and fine and few medium roots; common fine tubular pores; 10 percent gravel; noneffervescent; neutral (pH 6.6); abrupt wavy boundary. (4 to 15 inches or 10 to 38 cm thick)"
+      },
+      {
+        "name": "Crt",
+        "top": 13,
+        "bottom": 56,
+        "texture_class": "clay",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Crt--5 to 22 inches (13 to 56 cm); weathered granodiorite; extremely hard; many distinct manganese coatings on rock fragments; few distinct organic coatings on rock fragments; few distinct clay films on rock fragments; many very fine roots along fractures; clear wavy boundary."
+      },
+      {
+        "name": "R",
+        "top": 56,
+        "narrative": "R--22 inches (56 cm); unweathered granodiorite."
+      }
+    ]
+  ]
 }

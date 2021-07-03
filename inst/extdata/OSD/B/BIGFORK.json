@@ -56,5 +56,59 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: These soils were formerly included in the Bodine series.\nDiagnostic horizons and features recognized in the series are:\nOchric epipedon: 0 to 13 cm (0 to 5 in) (A horizon)\nArgillic horizon: 13 to 89 cm (5 to 35 in) (Bt horizon)\nLithic contact: hard chert or novaculite at 89 cm (35 in) (R horizon)\nADDITIONAL DATA: Oklahoma State University Data for two pedons. Sample Numbers 70-OK-64-2 and 70-OK-64-3.\nTAXONOMIC VERSION: Keys to Soil Taxonomy, 12 Edition, 2014.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 1,
+        "bottom": 0,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "narrative": "Oi-- 1 to 0 cm (.5 to 0 in); very dark brown (10YR 2/2) litter of leaves and twigs."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "very stony",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A-- 0 to 13 cm (0 to 5 in); yellowish brown (10YR 5/4) very stony silt loam; moderate medium granular structure; hard, friable; common very fine and fine roots inside peds; few medium and coarse roots inside peds; 50 percent chert fragments by volume greater than 76 mm in diameter and 10 percent chert fragments by volume from 2 mm to 76 mm in diameter; strongly acid; clear smooth boundary. (Thickness/Combined thickness is 8 to 23 cm [3 to 9 in].)"
+      },
+      {
+        "name": "Bt",
+        "top": 13,
+        "bottom": 89,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "cf_class": "very stony",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt-- 13 to 89 cm (5 to 35 in); brown (7.5YR 5/4) very stony silty clay loam; weak fine subangular blocky structure; very hard, friable; common fine roots inside peds; few fine to coarse roots between peds; patchy clay films on faces of peds; 40 percent chert fragments by volume greater than 76 mm in diameter and 10 percent chert fragments by volume from 2 mm to 76 mm in diameter; very strongly acid; abrupt irregular boundary. (Thickness/Combined thickness is 46 to 94 cm [18 to 37 in].)"
+      },
+      {
+        "name": "R",
+        "top": 89,
+        "bottom": 226,
+        "narrative": "R-- 89 to 226 cm (35 to 40 in); hard chert bedrock, tilted 35 degrees from a horizontal plane."
+      }
+    ]
+  ]
 }

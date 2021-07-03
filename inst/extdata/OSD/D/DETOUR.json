@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon: from the surface to a depth of 15 cm (6 inches) (A horizon).\nAlbic horizon: from a depth of 15 to 25 cm (6 to 10 inches) (E horizon).\nCambic horizon: from a depth of 25 to 51 cm (10 to 20 inches) (Bw horizon).\nAquic conditions: redox depletions or reduced matrix in horizons below a depth of 76 cm (30 inches) (Bw and Cd horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "narrative": "Oe--0 to 5 cm (2 inches); black (10YR 2/1) partially decomposed leaf litter."
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--5 to 20 cm (2 to 8 inches); very dark grayish brown (10YR 3/2) cobbly loam, light brownish gray (10YR 6/2) dry; strong medium granular structure; friable; about 25 percent cobbles and stones of limestone and dolomite; neutral; gradual wavy boundary. [13 to 18 cm (5 to 7 inches) thick]"
+      },
+      {
+        "name": "E",
+        "top": 20,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--20 to 30 cm (8 to 12 inches); grayish brown (10YR 5/2) cobbly loam; moderate medium platy structure; friable; many medium prominent yellowish brown (10YR 5/6) masses of oxidized iron; about 25 percent cobbles and stones; neutral; clear wavy boundary. [0 to 13 cm (5 inches) thick]"
+      },
+      {
+        "name": "Bw",
+        "top": 30,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "cobbly",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--30 to 56 cm (12 to 22 inches); dark yellowish brown (10YR 4/4) cobbly sandy clay loam; weak medium subangular blocky structure; firm; many fine distinct grayish brown (10YR 5/2) iron depletions; about 25 percent cobbles and stones; slightly alkaline; clear wavy boundary. [20 to 71 cm (8 to 28 inches) thick]"
+      },
+      {
+        "name": "Cd",
+        "top": 56,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately alkaline",
+        "narrative": "Cd--56 to 152 cm (22 to 60 inches); grayish brown (10YR 5/2) gravelly sandy loam; weak coarse subangular blocky fragments and a tendency toward platy orientation of fragments; very firm; many medium distinct dark yellowish brown (10YR 4/4) masses of oxidized iron; about 20 percent gravel, cobbles, and stones; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

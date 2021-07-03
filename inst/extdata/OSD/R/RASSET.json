@@ -56,5 +56,111 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 38 to 71 centimeters;\nseries control section--the zone from the surface to a depth of 150 centimeters.\nDiagnostic horizons and features recognized in this pedon include:\nmollic epipedon--the zone from the surface to a depth of 38 centimeters (Ap and A horizons);\nargillic horizon--the zone from a depth of 38 to 71 centimeters (Bt1 and 2Bt2 horizons);\nudic moisture regime.\nCation-exchange activity class is based on lab data from NSSL, Lincoln, Nebraska.\nTaxonomy version--Keys to Soil Taxonomy, tenth edition, 2006.\nADDITIONAL DATA:\nLaboratory data--National Soil Survey Laboratory, Lincoln, Nebraska - user pedon id numbers 91WI033002, 91WI035001, 91WI035002, 92WI033002, and 92WI121002 (http://ssldata.nrcs.usda.gov/).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 25 centimeters; very dark brown (10YR 2/2) sandy loam, dark grayish brown (10YR 4/2) dry; weak fine and medium subangular blocky structure; very friable; slightly acid; abrupt smooth boundary.  (17 to 31 centimeters thick)"
+      },
+      {
+        "name": "A",
+        "top": 25,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--25 to 38 centimeters; very dark brown (10YR 2/2) sandy loam, dark grayish brown (10YR 4/2) dry; weak medium and coarse subangular blocky structure; friable; moderately acid; clear wavy boundary.  (0 to 20 centimeters thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 38,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--38 to 53 centimeters; dark grayish brown (10YR 4/2) sandy loam; weak medium subangular blocky structure; friable; many distinct dark brown (7.5YR 3/2) clay films on faces of peds; slightly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 53,
+        "bottom": 71,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--53 to 71 centimeters; dark brown (7.5YR 3/4) sandy loam; weak medium subangular blocky structure; friable; common distinct dark brown (7.5YR 3/2) clay films on faces of peds; slightly acid; clear wavy boundary.  (Combined thickness of the Bt horizon is 25 to 75 centimeters.)"
+      },
+      {
+        "name": "2BC",
+        "top": 71,
+        "bottom": 91,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2BC--71 to 91 centimeters; brown (7.5YR 4/4) loamy sand; weak fine subangular blocky structure; very friable; few dark brown (7.5YR 3/2) lamellae; slightly acid; gradual wavy boundary.  (0 to 170 centimeters thick)"
+      },
+      {
+        "name": "2C1",
+        "top": 91,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2C1--91 to 152 centimeters; dark yellowish brown (10YR 4/4) sand; single grain; loose; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "2C2",
+        "top": 152,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH_class": "slightly alkaline",
+        "narrative": "2C2--152 to 203 centimeters; brown (10YR 5/3) sand; single grain; loose; slightly effervescent; slightly alkaline."
+      }
+    ]
+  ]
 }

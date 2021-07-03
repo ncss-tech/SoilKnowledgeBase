@@ -56,5 +56,86 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nSeries control section: The zone from 0 to 22 inches.\nParticle-size control section: The zone from 1 to 12 inches. (A, Bw1,Bw2 horizons)\nOchric epipedon: The zone from 1 to 2 inches. (A horizon)\nCambic horizon:  The zone from 2 to 12 inches.  (Bw1, Bw2 horizons)\nParalithic contact: The contact with weathered monzonite at 12 inches. (Cr horizon)\nLithic contact:  The contact with quartz-monzonite bedrock at 18 inches. (R horizon)\nCryic soil moisture regime.\nStopped here\nTaxonomic Version: Classified according to the Keys of Soil Taxonomy, 10th Edition, 2006.\nColorado assumed responsibility from Montana for the series in May, 1993.\nA cambic horizon was recognized in this soil and the classification changed from nonacid Lithic Cryorthents to superactive Lithic Eutrocryepts in February 1999.\nThe concept was narrowed to the ustic udic moisture regime. The elevation, MLRA, and the precipitation were also narrowed. AP 03/2004\nThe 12/2009 revision restricts this series to the soils in the Teller-Park Area only.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oe--0 to 1 inch; moderately decomposed needle litter"
+      },
+      {
+        "name": "Bw1",
+        "top": 5,
+        "bottom": 15,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--2 to 6 inches; light brown (7.5YR 6/4) very gravelly sandy loam, brown (7.5YR 4/4) moist; weak very fine subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; 45 percent gravel; moderately acid (pH 5.8); clear wavy boundary.  (3 to 10 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 15,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bw2--6 to 12 inches; light brown (7.5YR 6/4) extremely gravelly sandy loam, brown (7.5YR 4/4) moist; weak very fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; 70 percent gravel; moderately acid (pH 5.6); clear irregular boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 30,
+        "bottom": 46,
+        "narrative": "Cr--12 to 18 inches; moderately cemented quartz-monzonite.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--1 inch to 2 inches; grayish brown (10YR 5/2) very gravelly sandy loam, very dark grayish brown (10YR 3/2) moist; weak fine granular structure; soft, very friable, slightly sticky and slightly plastic; 45 percent gravel, 5 percent cobbles, less than 1 percent stones; neutral (pH 7.0); abrupt smooth boundary.  (0 to 2 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 46,
+        "narrative": "R--18 inches; indurated quartz-monzonite."
+      }
+    ]
+  ]
 }

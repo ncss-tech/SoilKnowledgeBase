@@ -56,5 +56,106 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 21 inches (A1 and A2 horizons).\nArgillic horizon - The zone from 21 to 38 inches (Bt1 and Bt2 horizons).\nParalithic contact - The boundary at 38 inches to underlying soft, weathered bedrock (Crt layer).\nParticle-size control section - The zone from 21 to 38 inches (Bt1 and Bt2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 3 inches; brown (10YR 5/3) cobbly loam, very dark grayish brown (10YR 3/2) moist; moderate medium granular structure; soft, very friable, slightly sticky and slightly plastic; common very fine and common fine roots; common very fine interstitial and common medium tubular pores; 12 percent pebbles and 10 percent cobbles; slightly acid (pH 6.4); clear smooth boundary. (2 to 4 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 53,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--3 to 21 inches; brown (10YR 5/3) very gravelly loam, dark brown (10YR 3/3) moist; weak medium subangular blocky structure parting to strong medium granular; soft, friable, slightly sticky and slightly plastic; few very fine, common fine, common medium, and few coarse roots; common very fine interstitial and common medium tubular pores; 25 percent pebbles and 12 percent cobbles; slightly acid (pH 6.2); clear smooth boundary. (8 to 20 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 53,
+        "bottom": 81,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--21 to 32 inches; light brown (7.5YR 6/3) very cobbly clay loam, brown (7.5YR 4/3) moist; strong medium subangular blocky structure; slightly hard, friable, moderately sticky and moderately plastic; few very fine, common fine, common medium, and few coarse roots; common fine and common medium tubular pores; common faint clay films on faces of peds; 20 percent pebbles, 15 percent cobbles, and 5 percent stones; slightly acid (pH 6.4); clear smooth boundary. (6 to 14 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 81,
+        "bottom": 97,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--32 to 38 inches; light brown (7.5YR 6/3) very cobbly clay loam, brown (7.5YR 4/4) moist; moderate medium subangular blocky structure; hard, firm, moderately sticky and moderately plastic; few very fine, few fine, and few medium roots; few very fine and few fine tubular pores; common distinct clay films on faces of peds; 20 percent pebbles, 20 percent cobbles, and 5 percent stones; slightly acid (pH 6.4); clear wavy boundary. (0 to 12 inches thick)"
+      },
+      {
+        "name": "Crt",
+        "top": 97,
+        "bottom": 112,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "narrative": "Crt--38 to 44 inches; light brown (7.5YR 6/4) weathered basalt, brown (7.5YR 4/4) moist; few distinct clay films on pararock fragments and few seams of illuvial clay lining fractures in the bedrock. (5 to 22 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 112,
+        "narrative": "R--44 inches; hard, unweathered basalt."
+      }
+    ]
+  ]
 }

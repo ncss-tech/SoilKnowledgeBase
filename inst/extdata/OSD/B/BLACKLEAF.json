@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - 0 to 4 inches (A horizon)\nArgillic horizon - from 4 to 8 inches (Bt horizon)\nParticle-size control section - from 0 to 13 inches (A, Bt and Bk horizons)\nHard sandstone bedrock at 13 inches (R horizon)\nBlackleaf soils have a frigid temperature regime and an ustic moisture regime bordering on aridic.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very channery",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; light brownish gray (2.5Y 6/2) very channery sandy loam, olive brown (2.5Y 4/3) moist; weak fine and medium subangular blocky structure parting to weak fine granular; soft, very friable, slightly sticky and nonplastic; common very fine and few fine roots; common very fine and fine interstitial pores; 40 percent channers; neutral (pH 7.2); clear smooth boundary. (3 to 6 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 10,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very channery",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--4 to 8 inches; brown (10YR 5/3) very channery sandy clay loam, brown (10YR 4/3) moist; moderate fine and medium subangular blocky structure; slightly hard, friable, slighty sticky and slightly plastic; common very fine and few fine roots; common very fine and fine tubular and interstitial pores; common faint clay films bridging sand grains and on faces of peds; 40 percent channers; slightly alkaline (pH 7.4); clear smooth boundary. (3 to 8 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 20,
+        "bottom": 33,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely channery",
+        "pH": 7.7,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk--8 to 13 inches; light yellowish brown (2.5Y 6/3) extremely channery loam, light olive brown (2.5Y 5/3) moist; weak fine granular structure; soft, very friable, slightly sticky and slightly plastic; common very fine and few fine roots; common very fine and fine tubular and interstitial pores; 55 percent channers, 15 percent flagstones; disseminated calcium carbonate; common distinct calcium carbonate casts on underside of coarse fragments; strongly effervescent; slightly alkaline (pH 7.7); clear smooth boundary. (1 to 5 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 33,
+        "texture_class": "sand",
+        "narrative": "R--13 inches; hard fractured sandstone."
+      }
+    ]
+  ]
 }

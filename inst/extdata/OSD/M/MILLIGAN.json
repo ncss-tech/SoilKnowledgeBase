@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this series are:\nMollic epipedon - from the soil surface to 8 inches (A horizon).\nParticle-size control section - 10 to 24 inches (Bw and C horizons).\nLithic contact - at about 24 inches (2R horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 8 inches; brown (10YR 5/3) very cobbly loam, dark brown (10YR 3/3) moist; weak fine granular structure; soft, very friable; many very fine, fine, medium and coarse roots; many very fine interstitial pores; 20 percent gravel and 40 percent cobbles; slightly acid (pH 6.4); gradual wavy boundary.  (7 to 15 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 20,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely cobbly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--8 to 18 inches; yellowish brown (10YR 5/4) extremely cobbly loam, dark yellowish brown (10YR 3/4) moist; weak fine granular structure; soft, very friable; common very fine, fine, medium and coarse roots; many very fine interstitial pores; 45 percent cobbles and 20 percent gravel; neutral (pH 6.8); abrupt wavy boundary.  (6 to 13 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 46,
+        "bottom": 61,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "loam",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--18 to 24 inches; gray (N 5/) displaced fractured limestone bedrock with some voids and some brown (10YR 5/3) loam textured soil between rock fragments; few fine and medium roots, 95 percent rock fragments; abrupt wavy boundary.  (5 to 16 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 61,
+        "narrative": "2R--24 inches; quartzite."
+      }
+    ]
+  ]
 }

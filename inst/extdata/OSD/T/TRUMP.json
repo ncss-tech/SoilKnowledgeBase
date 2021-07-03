@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nSeries control section:  The zone from 0 to 43 cm (0 to 17 inches).\nParticle-size control section:  The zone from 25 to 43 cm.  (A2, Bk horizons)\nMollic epipedon:  from 0 to 23 cm.  (A1, A2 horizons)\nCambic horizon and accumulations of secondary carbonates: from 23 to 43 cm. (Bk horizon)\nLithic contact:  The contact with limestone at 43 cm.  (R layer)\nThe assignment of the cation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomic Version:  Classified according to Keys to Soil Taxonomy, 11th Edition, 2010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 2 inches; grayish brown (10YR 5/2) very gravelly loam, very dark grayish brown (10YR 3/2) moist; weak very fine granular structure; soft, very friable, nonsticky, and nonplastic; many very fine and common fine roots; many fine and very fine pores; 30 percent gravel; 15 percent cobble; slightly alkaline (pH 7.8); gradual wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A2--2 to 9 inches; brown (10YR 5/3) very cobbly loam, dark brown (10YR 3/3) moist; moderate medium and fine subangular blocky structure; slightly hard, friable, nonsticky, and nonplastic; many very fine and common fine roots: common fine and very fine pores; 20 percent gravel, 20 percent cobbles; slightly effervescent; moderately alkaline (pH 8.0); gradual wavy boundary."
+      },
+      {
+        "name": "Bk",
+        "top": 23,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bk--9 to 17 inches; yellowish brown (10YR 5/4) very cobbly loam, dark yellowish brown (10YR 4/4) moist; moderate fine and medium subangular blocky structure; slightly hard, friable, slightly sticky, and nonplastic; few very fine roots; common fine pores; few fine carbonate masses in the matrix; 20 percent gravel, 30 percent cobbles, 5 percent stone; strongly effervescent; moderately alkaline (pH 8.0); abrupt wavy boundary."
+      },
+      {
+        "name": "R",
+        "top": 43,
+        "bottom": 69,
+        "narrative": "R--17 to 27 inches; indurated limestone."
+      }
+    ]
+  ]
 }
