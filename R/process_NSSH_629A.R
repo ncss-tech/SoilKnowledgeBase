@@ -115,9 +115,11 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
       }
 
       # search for obsolete, not preferred
-      if (length(grep("\\(obsolete \u2014 use|\\(not recommended: obsolete|\\(not preferred\\) Refer to", j) > 0)) {
-        newterms <- trimws(strsplit(gsub('.*obsolete \u2014 use ([A-Za-z, ]+).*|.*\\(not recommended: obsolete\\) Use ([^\\.]*).?$|.*\\(not preferred\\) Refer to ([^\\.]*).?$', "\\1\\2\\3", j), ",|, or")[[1]])
-        if (newterms[1] == j)
+      if (length(grep("\\(obsolete \u2014 use|\\(not recommended|\\(not preferred", j) > 0)) {
+        obspattern <- '.*obsolete \u2014 use ([A-Za-z, ]+).*|.*\\(not recommended: obsolete\\) Use ([^\\.]*).?$|.*\\(not recommended\\) Use ([^\\.]*).?$|.*\\(not preferred\\) Use ([^\\.]*).?$|.*\\(not preferred.*[Rr]efer to ([^\\.\\)]*).?.*|.*\\(not recommended, use ([^\\.]*)\\).*'
+        obsolete <- grepl("obsolete", j)
+        newterms <- trimws(strsplit(gsub(obspattern, "\\1\\2\\3\\4\\5\\6", j), ",|, or")[[1]])
+        if (length(grep(obspattern, j)) == 0)
           newterms <- character(0)
       } else newterms <- character(0)
 
