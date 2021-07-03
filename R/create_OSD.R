@@ -373,7 +373,11 @@ osd_to_json <- function(logfile = file.path(output_dir, "OSD/OSD.log"),
 
     x <- validateOSD(logfile, filepath)
 
-    typicalpedon <- .parseTypicalPedon(x[["TYPICAL PEDON"]])
+    parsed.OSD <- .doParseOSD(x)
+
+    # SPC-style components from parseOSD returned as nested data.frames in JSON
+    x$SITE <- I(list(parsed.OSD$`site-data`))
+    x$HORIZONS <- I(list(parsed.OSD$`hz-data`))
 
     if (is.logical(x))
       if (!x) return(FALSE)
@@ -391,8 +395,4 @@ osd_to_json <- function(logfile = file.path(output_dir, "OSD/OSD.log"),
   })
   names(res) <- all_osds
   return(res)
-}
-
-.parseTypicalPedon <- function(section) {
-
 }
