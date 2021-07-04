@@ -26,17 +26,19 @@ create_NSSH <- function(...) {
                                            outpath = outpath,
                                            a_part = dd$part,
                                            a_subpart = dd$subpart))
-
       # Optional: special scripts (by NSSH Part #) can be called from inst/scripts/NSSH
       # rpath <- list.files(paste0("inst/scripts/NSSH/", p), ".*.R", full.names = TRUE)
-
       # # find each .R file (one or more for each part) and source them
       # lapply(rpath, function(filepath) {
       #   if (file.exists(filepath))
       #     source(filepath)
       # })
+
     }
   })
+
+  # call processing methods built into package
+  try(process_NSSH_629A(outpath = outpath) )
 
   if (inherits(attempt, 'try-error'))
     return(FALSE)
