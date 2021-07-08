@@ -26,17 +26,19 @@ create_NSSH <- function(...) {
                                            outpath = outpath,
                                            a_part = dd$part,
                                            a_subpart = dd$subpart))
-
       # Optional: special scripts (by NSSH Part #) can be called from inst/scripts/NSSH
       # rpath <- list.files(paste0("inst/scripts/NSSH/", p), ".*.R", full.names = TRUE)
-
       # # find each .R file (one or more for each part) and source them
       # lapply(rpath, function(filepath) {
       #   if (file.exists(filepath))
       #     source(filepath)
       # })
+
     }
   })
+
+  # call processing methods built into package
+  try(process_NSSH_629A(outpath = outpath) )
 
   if (inherits(attempt, 'try-error'))
     return(FALSE)
@@ -82,12 +84,12 @@ parse_nssh_index <- function(
 
   ## NSSH Table of Contents
 
-  html <- read_html(nssh_url)
+  html <- xml2::read_html(nssh_url)
 
   # header level 2 are the sections
   the_sections <- html %>%
-                   html_nodes('h2') %>%
-                   html_text()
+                   rvest::html_nodes('h2') %>%
+                   rvest::html_text()
 
   suppressWarnings({
     start_part <- as.numeric(gsub("Parts (\\d{3}) to (\\d{3}).*", "\\1", the_sections))
@@ -310,7 +312,7 @@ fix_line_breaks <- function(x) {
 
 # remove material associated with page breaks and footnotes
 strip_lines <- function(x) {
-  idx <- grep("\\fTitle 430 .* National Soil Survey Handbook|(430-6\\d{2}-., 1st|Ed., Amend. \\d+, [A-Za-z]+ \\d+)|6\\d{2}-[AB].\\d+|^Subpart [AB] ", x)
+  idx <- grep("\\fTitle 430 .* National Soil Survey Handbook|\\(430-6\\d{2}-., 1st|Ed\\., Amend\\.|6\\d{2}-[AB].\\d+|^Subpart [AB] ", x)
   idx.fn <- grep("-------------", x)
   if (length(idx.fn))
     x <- x[1:(idx.fn[1] - 1)]

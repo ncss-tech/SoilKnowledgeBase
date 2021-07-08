@@ -1,3 +1,8 @@
+# SoilKnowledgeBase 0.2.4
+
+* Cleanup some leftover header/footer markup in NSSH JSON products
+* Add processing of NSSH part 629A from JSON (c/o @dylanbeaudette)
+
 # SoilKnowledgeBase 0.2.3
 
 * Added a `NEWS.md` file to track changes to the package.
