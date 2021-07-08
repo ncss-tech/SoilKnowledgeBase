@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 23 cm (A1 and A2 horizons).\nLithic contact - The zone from 60 cm (R horizon)\nParticle-size control section - The zone from 25 to 60 cm (C horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 6,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 6 cm; dark grayish brown (10YR 4/2) very cobbly sandy loam, very dark brown (10YR 2/2) moist; moderate very coarse subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine, fine and medium roots; many fine and few very fine tubular pores; 25 percent gravel, 20 percent cobbles and 10 percent stones; neutral (pH 7.0); abrupt smooth boundary. (5 to 10 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 6,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "very fine sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A2--6 to 23 cm; dark grayish brown (10YR 4/2) very gravelly very fine sandy loam, very dark brown (10YR 2/2) moist; moderate medium subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; many very fine, common fine and coarse roots; many fine and common very fine tubular pores; 45 percent gravel and 10 percent cobbles; neutral (pH 7.0); abrupt smooth boundary. (13 to 25 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 23,
+        "bottom": 60,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--23 to 60 cm; light yellowish brown (10YR 6/4) extremely gravelly sandy loam, dark yellowish brown (10YR 3/4) moist; massive; slightly hard, very friable, slightly sticky and slightly plastic; common very fine roots; common very fine tubular pores; 65 percent gravel and 10 percent cobbles; neutral (pH 6.8); clear wavy boundary.  (32 to 75 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 60,
+        "narrative": "R--60 cm; fractured quartzite bedrock."
+      }
+    ]
+  ]
 }

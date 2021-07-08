@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Hooksan soils were previously mapped as Fripp, Udipsamments, Coastal Beach, or Dune land. The Hooksan series was previously classified as siliceous, uncoated Typic Udipsamments.\nDiagnostic horizons and other diagnostic soil characteristics recognized in this pedon are:\nOchric epipedon--the zone from the soil surface to a depth of 6 inches (A horizon)\nThe 9/2011 revision adds Rhode Island to the states using the series and adds saturated hydraulic conductivity class.\nThe 2/2017 revision removes Hammonton and Klej as geographically associated and adds Matunuck, Pawcatuck, Sandyhook, and Succotash.  Hammonton and Klej are on the mainland and not associated with barrier island and dune systems.  Connecticut and Maine added to the states using the series.\nSoil Interpretation Record: NJ0075, NJ0211\nADDITIONAL DATA:\nFull characterization data for pedons with User Pedon IDs of 93MD047016, 99NJ025001, S1997NY081006, S2013MA001001, S2013MA001002, S2013MA023001. Pedons analyzed by the NSSL, Lincoln, NE. Laboratory characterization data for these pedons and similar soils is available through the National Cooperative Soil Survey Soil Characterization Database:\nhttp://ncsslabdatamart.sc.egov.usda.gov/\nSOI-5    Soil Name    Slope   Airtemp  FrFr/Seas    Precip    Elevation\nNJ0075 HOOKSAN 0-35    52-58       190-210      42-48\nSOI-5     FloodL   FloodH  Watertable   Kind Months Bedrock Hardness\nNJ0075 NONE     RARE      6.0-6.0         -\nSOI-5    Depth    Texture  3-Inch   No-10      Clay%    -CEC-\nNJ0075  0-6        FS S         0-0       98-100     1-5          1-4\nNJ0075  6-90      FS S         0-0       85-100     1-5          0-2\nSOI-5     Depth   -pH-     O.M.   Salin  Permeab   Shnk-Swll\nNJ0075  0-6      5.1-7.8   .5-1.   0-0     6.0-20      LOW\nNJ0075  6-90    5.6-7.8   0.-.5  0-0     6.0-20      LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 15 centimeters (0 to 6 inches); grayish brown (10YR 5/2) sand; single grain; loose; few fine and medium roots; about 5 percent dark opaque grains; strongly acid, clear smooth boundary. 0 to 20 centimeters (0 to 8 inches)"
+      },
+      {
+        "name": "C1",
+        "top": 15,
+        "bottom": 91,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "diffuse",
+        "topography": "wavy",
+        "narrative": "C1--15 to 91 centimeters (6 to 36 inches); pale yellow (2.5Y 7/4) sand; single grain; loose; few fine and few medium roots; about 5 percent dark opaque grains; strongly acid; diffuse wavy boundary."
+      },
+      {
+        "name": "C2",
+        "top": 91,
+        "bottom": 125,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C2--91 to 125 centimeters (36 to 50 inches); light yellowish brown (2.5Y 6/4) sand; single grain; loose; few fine and medium roots; about 5 percent dark opaque grains; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "C3",
+        "top": 125,
+        "bottom": 228,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "narrative": "C3--125 to 228 centimeters (50 to 90 inches); pale yellow (2.5Y 7/4) sand; single grain; loose; about 5 percent dark opaque grains; neutral."
+      }
+    ]
+  ]
 }

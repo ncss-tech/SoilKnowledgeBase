@@ -56,5 +56,94 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon: the zone from the soil surface to 10 inches (A, Bw1 horizons)\nCambic horizon: the zone from 10 to 17 inches (Bw2 horizon)\nLithic contact: the boundary at 23 inches (R horizon)\nParticle-size control section: the zone from 10 to 23 inches (Bw2, BC horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "channery",
+        "pH": 7.1,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; brown (10YR 4/3) channery sandy loam, dark brown (10YR 3/3) moist; moderate very fine granular structure; soft, very friable, nonsticky and nonplastic; many very fine, fine, and coarse and common medium roots; many very fine and fine irregular pores; 15 percent channers; neutral (pH 7.1); abrupt smooth boundary. (2 to 10 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 8,
+        "bottom": 25,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "channery",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--3 to 10 inches; brown (7.5YR 4/4) channery sandy loam, dark reddish brown (5YR 3/3) moist; moderate medium subangular blocky structure; slightly hard, friable, slightly sticky and nonplastic; common very fine, fine, and medium roots; many very fine irregular pores; 15 percent channers; neutral (pH 6.9); clear smooth boundary. (4 to 9 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 25,
+        "bottom": 43,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "channery",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--10 to 17 inches; brown (7.5YR 4/4) channery sandy loam, brown (7.5YR 4/4) moist; weak coarse platy structure parting to moderate medium angular blocky; slightly hard, firm, nonsticky and nonplastic; common very fine irregular pores; 20 percent channers; neutral (pH 6.8); clear wavy boundary. (5 to 7 inches thick)"
+      },
+      {
+        "name": "2BC",
+        "top": 43,
+        "bottom": 58,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely channery",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "2BC--17 to 23 inches; brown (7.5YR 5/4) extremely channery sandy loam, brown (7.5YR 4/4) moist; moderate medium subangular blocky structure; slightly hard, friable, nonsticky and nonplastic; few very fine and fine roots; common very fine irregular pores; 65 percent channers and 25 percent flagstones; neutral (pH 6.7); abrupt smooth boundary. (2 to 8 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 58,
+        "texture_class": "sand",
+        "narrative": "R--23 inches; sandstone."
+      }
+    ]
+  ]
 }

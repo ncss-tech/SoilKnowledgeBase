@@ -56,5 +56,108 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features and horizons recognized in this profile include:\nParalithic contact: 38 inches. (3Cr horizon)\nCambic horizon: 3 to 16 inches. (2Bw1 and 2Bw2 horizons)\nLithologic discontinuity: At the upper boundary of 2Bw1 horizon\nLoamy-skeletal particle size control section: 10 to 38 inches\nTemperature regime: cryic\nADDITIONAL DATA:\nThe mineralogy class was changed from paramicaceous to micaceous in 07/2010 by the National Soil Survey Center on request of the responsible MLRA regional office.  The change was necessary based on the eleventh edition of the Keys to Soil Taxonomy, 2010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH": 4.4,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oe--0 to 1 inch; very dark brown (10YR 2/2) moderately decomposed plant material; many very fine and fine and few medium roots; 2 percent channers; extremely acid (pH 4.4); abrupt wavy boundary."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 8,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 4.4,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--1 to 3 inches; dark reddish brown (5YR 2.5/2) silt loam; very friable, nonsticky and nonplastic; many very fine and fine and few medium roots; 2 percent channers; 45 percent mica flakes in the fine earth fraction; extremely acid (pH 4.4); clear wavy boundary."
+      },
+      {
+        "name": "2Bw1",
+        "top": 8,
+        "bottom": 18,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bw1--3 to 7 inches; dark brown (7.5YR 3/4) very channery loam; friable, nonsticky and nonplastic; many very fine and fine roots; 45 percent channers, 10 percent flagstones; 55 percent mica flakes in the fine earth fraction; very strongly acid (pH 5.0); clear wavy boundary."
+      },
+      {
+        "name": "2Bw2",
+        "top": 18,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bw2--7 to 16 inches; dark yellowish brown (10YR 4/4) very channery loam; friable, nonsticky and nonplastic; common very fine and fine roots; 45 percent channers, 10 percent flagstones; 55 percent mica flakes in the fine earth fraction; very strongly acid (pH 5.0); gradual smooth boundary."
+      },
+      {
+        "name": "2C1",
+        "top": 41,
+        "bottom": 79,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH_class": "moderately acid",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "2C1--16 to 31 inches; dark yellowish brown (10YR 4/4) and olive brown (2.5Y 4/4) very channery loam; friable, nonsticky and nonplastic; 45 percent channers, 10 percent flagstones; 55 percent mica flakes in the fine earth fraction; moderately acid (5.9); diffuse smooth boundary."
+      },
+      {
+        "name": "2C2",
+        "top": 79,
+        "bottom": 97,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH": 5.9,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2C2--31 to 38 inches; olive brown (2.5Y 4/4) very channery loam; friable, nonsticky and nonplastic; 45 percent channers, 10 percent flagstones; 55 percent mica flakes in the fine earth fraction; moderately acid (pH 5.9); clear smooth boundary."
+      },
+      {
+        "name": "3Cr",
+        "top": 97,
+        "bottom": 152,
+        "narrative": "3Cr--38 to 60 inches; fractured bedrock."
+      }
+    ]
+  ]
 }

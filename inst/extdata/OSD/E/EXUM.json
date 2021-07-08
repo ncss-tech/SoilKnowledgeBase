@@ -56,5 +56,118 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The Exum series was previously included in the Goldsboro and Duplin series.  However, the Goldsboro series is in a fine-loamy family and the Duplin series is in a clayey family.\nDiagnostic horizons and soil characteristics recognized in the typical pedon are:\nOchric epipedon - the zone from 0 to 12 inches (Ap and E horizons)\nAlbic horizon - the zone from 8 to 12 inches (E horizon)\nArgillic horizon - the zone from 15 to 70 inches (Bt1, Bt2, Bt3, Bt4 horizons)\nMLRA:  133A, 153A, 149A, 153B, 153C\nSIR:  NC0062\nREVISED: 2/6/96, MHC\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0062 EXUM        0-  5   58- 63  185-240  45- 55    40- 170\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0062 NONE          2.0-3.0  APPARENT DEC-APR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0062  0-12  VFSL L SIL              0-  0  95-100  6-18   2-  6\nNC0062 12-70  L CL SICL               0-  0  95-100 18-35   4-  8\nNC0062 70-99  VAR                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0062  0-12  3.5- 6.0  .5-2.  0- 0   2.0- 6.0  LOW\nNC0062 12-70  3.5- 5.5  0.-.5  0- 0   0.2- 0.6  LOW\nNC0062 70-99     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; grayish brown (10YR 5/2) very fine sandy loam; weak medium granular structure; very friable; common fine roots; moderately acid; abrupt smooth boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 20,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--8 to 12 inches; light brownish gray (10YR 6/2) very fine sandy loam; weak medium granular structure; very friable; few fine roots; moderately acid; clear smooth boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 30,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BE--12 to 15 inches; light yellowish brown (10YR 6/4) loam; weak medium granular structure; friable; few fine roots; strongly acid; clear smooth boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 38,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--15 to 25 inches; yellowish brown (10YR 5/6) clay loam; moderate fine subangular blocky structure; friable; sticky and slightly plastic; few fine roots; few faint clay films on faces of peds; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 64,
+        "bottom": 102,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt2--25 to 40 inches; brownish yellow (10YR 6/6) clay loam; moderate fine subangular blocky structure; friable, slightly sticky and slightly plastic; few faint clay films on faces of peds and pore walls; common medium distinct grayish brown (10YR 5/2) iron depletions; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 102,
+        "bottom": 127,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt3--40 to 50 inches; light yellowish brown (10YR 6/4) loam;  weak fine subangular blocky structure; friable, slightly sticky, slightly plastic; few faint clay films on faces of peds and pore walls; few plinthite nodules; common medium distinct light gray (10YR 7/2) iron depletions and yellowish red (5YR 5/6) masses of iron accumulation; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt4",
+        "top": 127,
+        "bottom": 178,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt4--50 to 70 inches; pale brown (10YR 6/3) loam; weak fine subangular blocky structure; friable, slightly sticky and slightly plastic; few faint clay films on faces of peds and pore walls; few plinthite nodules; common medium distinct light gray (10YR 7/1) iron depletions and many medium prominent red (2.5YR 5/6) masses of iron accumulation; very strongly acid; gradual smooth boundary.  (Combined thickness of the Bt horizon ranges from 42 to more than 60 inches.)"
+      },
+      {
+        "name": "C",
+        "top": 178,
+        "bottom": 254,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "narrative": "C--70 to 100 inches; gray (10YR 6/1), yellow (2.5Y 7/6), and red (2.5YR 5/6) loam; massive; friable, slightly plastic, slightly sticky; few plinthite nodules; the areas with gray are iron depletions, and the areas with yellow and red are masses of iron accumulation; very strongly acid."
+      }
+    ]
+  ]
 }

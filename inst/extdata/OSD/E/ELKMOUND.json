@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  There is some question as to whether the mineralogy would be best characterized as siliceous rather than mixed mineralogy.\n2006 - Due to the shale seams that are common to the Eau Claire and Mt. Simon Formations, it remains classified as mixed. In Dunn, Chippewa, and Eau Claire Counties, previous glacial ice events provided the Precambrian rock fragments that are commonly on the surface of and mixed in the Elkmound soil.\nThis revision provides a new typical pedon in Dunn County which gets the type location back to where it was originally proposed. This revision also changes the bedrock from R to Cr which in turn changes the classification from Lithic Dystrudepts to Typic Dystrudepts. Field study is needed to determine if Elkmound mapped in other counties is on different unglaciated bedrock formations where the soil may be siliceous.\nDiagnostic horizons and features recognized in this pedon are:  ochric epipedon - 0 to 6 inches (Ap);\ncambic horizon - 6 to 12 inches (Bw);\nother features - paralithic contact - 12 inches (Cr).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; dark brown (10YR 3/3) loam, pale brown (10YR 6/3) dry; weak fine subangular blocky structure; very friable; about 12 percent sandstone channers and about 2 percent igneous gravel and cobble; slightly acid; abrupt smooth boundary. (6 to 9 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 15,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "channery",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--6 to 12 inches; yellowish brown (10YR 5/4) channery loam; weak medium subangular blocky structure; very friable; about 30 percent sandstone channers; moderately acid; clear wavy boundary.  (6 to 11 inches thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 30,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "narrative": "2Cr--12 to 60 inches; yellowish brown (10YR 5/4) and light yellowish brown (10YR 6/4) fine grained weakly cemented platy sandstone."
+      }
+    ]
+  ]
 }

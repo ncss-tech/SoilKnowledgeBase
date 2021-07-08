@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The 2001 revision removes the less than 30 percent silt requirement from the particle size control section. That requirement was previously added to differentiate Worsham and Roanoke soils. The 2007 revision moves the type location to the typical pedon for the Brunswick County, Virginia soil survey.\nDiagnostic horizons and soil characteristics recognized in this pedon:\nArgillic horizon, Aquic conditions, Ochric epipedon\nADDITIONAL DATA:\nData Map Unit ID (type location): 103467\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp  FrFr/Seas  Precip   Elevation\nVA0009 WORSHAM     0-  8   57- 62  180-210    35- 45   250- 800\nSOI-5  FloodL  FloodH Watertable  Kind    Months    Bedrock Hardness\nVA0009 NONE            0-1.0    APPARENT  NOV-APR   60-60\nSOI-5  Depth  Texture            3-Inch   No-10   Clay%   -CEC-\nVA0009  0- 8  FSL SL             0-  5   85-100  10-20      -\nVA0009  0- 8  L SIL              0-  5   85-100  10-25      -\nVA0009  8-50  SCL SC C           0-  5   85-100  30-55      -\nVA0009 50-70  SL SCL CL          0- 10   80- 95  10-40      -\nSOI-5  Depth     -pH-      O.M.   Salin    Permeab     Shnk-Swll\nVA0009  0- 8   4.5- 5.5   1.-2.   0- 0     2.0- 6.0    LOW\nVA0009  0- 8   4.5- 5.5   1.-3.   0- 0     0.6- 2.0    LOW\nVA0009  8-50   4.5- 5.5   0.-.5   0- 0    0.00-0.06    MODERATE\nVA0009 50-70   4.5- 5.5   0.-.5   0- 0     0.2- 0.6    MODERATE\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 5 inches; very dark grayish brown (10YR 3/2) silt loam; weak fine granular; very friable, slightly sticky, slightly plastic; many very fine and fine roots and many medium roots; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Eg",
+        "top": 13,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Eg--5 to 10 inches; light brownish gray (10YR 6/2) silt loam; weak medium subangular blocky structure; very friable, slightly sticky, slightly plastic; many very fine and fine roots and many medium roots; 3 percent subangular quartz gravel; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Btg1",
+        "top": 25,
+        "bottom": 56,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg1--10 to 22 inches; grayish brown (2.5Y 5/2) clay; moderate medium subangular blocky structure; firm, moderately sticky, very plastic; many very fine and fine and medium roots; many faint continuous clay films on all faces of peds; common medium prominent yellowish brown (10YR 5/6), moist, iron-manganese masses; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 56,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg2--22 to 35 inches; gray (10YR 5/1) clay; moderate medium subangular blocky structure; firm, moderately sticky, very plastic; many faint continuous clay films on all faces of peds; common medium prominent yellowish brown (10YR 5/6), moist, iron-manganese masses; very strongly acid; gradual wavy boundary. (Combined thickness of the Btg horizon is 7 to 40 inches thick.)"
+      },
+      {
+        "name": "BCg",
+        "top": 89,
+        "bottom": 102,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BCg--35 to 40 inches; gray (10YR 5/1) clay; weak medium subangular blocky structure; friable, slightly sticky, moderately plastic; common fine prominent red (2.5YR 4/6)iron-manganese masses and common medium prominent yellowish brown (10YR 5/6) iron-manganese masses and common medium faint light brownish gray (10YR 6/2) iron depletions; extremely acid; gradual wavy boundary."
+      },
+      {
+        "name": "Cg",
+        "top": 102,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Cg--40 to 60 inches; grayish brown (2.5Y 5/2) clay loam; massive structure; friable, slightly sticky, slightly plastic; very strongly acid."
+      }
+    ]
+  ]
 }

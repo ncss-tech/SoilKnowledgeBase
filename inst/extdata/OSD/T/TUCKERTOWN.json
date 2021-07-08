@@ -56,5 +56,71 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Reference samples from pedon ID 2011RI009023.  Samples collected and analyzed by the University of Rhode Island, 2011.\nDiagnostic horizons and features recognized in this pedon include:\n1. Peraquic Feature - positive soil water potential (permanently submerged) at the soil surface\n2. Sapric soil material - the zone from 0 to 86 cm. (Oa1, Oa2, and Oa3 horizons)\n3. Hemic soil material - the zone from 86 to 144 cm. (Oe1 and Oe2 horizons)\n4. Dysic reaction class - the zone from 0 to 144 cm. has no layer with a pH of 4.5 or more in 1:2 in 0.01 M calcium chloride.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "subaqueous"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oa1",
+        "top": 0,
+        "bottom": 50,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH": 4.1,
+        "pH_class": "extremely acid",
+        "narrative": "Oa1--0 to 50 cm; black (10YR 2/1) muck; 20 percent unrubbed fiber, 5 percent rubbed; highly fluid, extremely acid ((pH 4.1) in 1:2 0.01 M calcium chloride); gradual boundary."
+      },
+      {
+        "name": "Oa2",
+        "top": 50,
+        "bottom": 72,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH": 3.9,
+        "pH_class": "extremely acid",
+        "narrative": "Oa2--50 to 72 cm; black (10YR 2/1) muck; 25 percent unrubbed fiber, 10 percent rubbed; extremely acid ((pH 3.9) in 1:2 0.01 M calcium chloride); clear boundary."
+      },
+      {
+        "name": "Oa3",
+        "top": 72,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH": 3.6,
+        "pH_class": "extremely acid",
+        "narrative": "Oa3--72 to 86 cm; variegated 70 percent very dark brown (10YR 2/2) and 30 percent black (10YR 2/1) muck; 40 percent unrubbed fiber, 12 percent rubbed; extremely acid ((pH 3.6) in 1:2 0.01 M calcium chloride); clear boundary."
+      },
+      {
+        "name": "Oe1",
+        "top": 86,
+        "bottom": 114,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH": 3.7,
+        "pH_class": "extremely acid",
+        "narrative": "Oe1--86 to 114 cm; black (10YR 2/1) mucky peat; 75 percent unrubbed fiber, 35 percent rubbed; 10 percent wood fragments; extremely acid ((pH 3.7) in 1:2 M calcium chloride); abrupt boundary."
+      },
+      {
+        "name": "Oe2",
+        "top": 114,
+        "bottom": 144,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH": 3.2,
+        "pH_class": "ultra acid",
+        "narrative": "Oe2--114 to 144 cm; very dark brown (10YR 2/2) woody mucky peat; 20 percent wood fragments; ultra acid ((pH 3.2) in 1:2 M calcium chloride)."
+      }
+    ]
+  ]
 }

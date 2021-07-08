@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to a depth of 33 inches (A, Eg1, Eg2 horizons).\nAlbic horizon - the zone from approximately 5 to 33 inches (Eg1, Eg2 horizons).\nArenic feature - the sandy zone from the surface to a depth of approximately 33 inches (A, Eg1, Eg2 horizons).\nArgillic horizon - the zone from approximately 33 to 70 inches (Btg, Btv1, Btv2 horizons).\nPlinthite - 5 percent or more plinthite in the zone from approximately 48 to 70 inches (Btv1, Btv2 horizons).\nThe water table ranges from 0 to 1.0 feet below the surface.\nSIR=GA0011\nMLRA=133A\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 5 inches; black (10YR 2/1) loamy sand; weak medium granular structure; very friable; many fine roots; few clean sand grains; strongly acid; clear wavy boundary.  (3 to 14 inches thick)"
+      },
+      {
+        "name": "Eg1",
+        "top": 13,
+        "bottom": 28,
+        "moist_hue": "N",
+        "moist_value": 4,
+        "moist_chroma": 0,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Eg1--5 to 11 inches; dark gray (N 4/0) loamy sand; few pockets of very dark gray (N 3/0); single grained; loose; common fine and medium roots; many clean sand grains; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Eg2",
+        "top": 28,
+        "bottom": 84,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "Eg2--11 to 33 inches; gray (10YR 5/1) loamy sand; single grained; loose; few medium roots; common clean sand grains; strongly acid; gradual irregular boundary.  (Combined thickness of the E horizon is 17 to 34 inches)"
+      },
+      {
+        "name": "Btg",
+        "top": 84,
+        "bottom": 122,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btg--33 to 48 inches; light gray (2.5Y 7/2) and gray (10YR 5/1) sandy clay loam and pockets of sandy loam; weak medium subangular blocky structure; very friable; sand grains coated and bridged with clay; common medium prominent strong brown (7.5YR 5/8) and common medium distinct light yellowish brown (2.5Y 6/4) masses of iron accumulation; strongly acid; clear wavy boundary.  (14 to 28 inches thick)"
+      },
+      {
+        "name": "Btv1",
+        "top": 122,
+        "bottom": 147,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btv1--48 to 58 inches, 34 percent brownish yellow (10YR 6/6), 33 percent red (10R 4/8), and 33 percent light gray (10YR 7/1) sandy clay loam; moderate medium subangular blocky structure; firm; common coarse sand grains; sand grains coated and bridged with clay; few faint clay films on faces of peds; about 20 percent, by volume, plinthite; the areas of red and brownish yellow are iron accumulations and areas of light gray are iron depletions; very strongly acid; clear wavy boundary.  (10 to 20 inches thick)"
+      },
+      {
+        "name": "Btv2",
+        "top": 147,
+        "bottom": 178,
+        "moist_hue": "10R",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Btv2--58 to 70 inches; 25 percent dark red (10R 3/6), 25 percent brownish yellow (10YR 6/6), 25 percent red (2.5YR 5/6), and 25 percent light gray (10YR 7/1) sandy clay loam; moderate medium subangular blocky structure; firm; few faint clay films on faces of peds; about 25 percent, by volume,  plinthite; the areas of dark red, brownish yellow, and red are iron accumulations and the areas of light gray are iron depletions; very strongly acid."
+      }
+    ]
+  ]
 }

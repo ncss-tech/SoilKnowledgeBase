@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized by this pedon are:\nMollic epipedon(pachic) - the zone from the surface to 23 inches (A1, A2, AB)\nSecondary calcium carbonate - zone of carbonate accumulation from 23 to 46 inches (Bk).\nTaxonomic version: Eighth Edition, 1998.\nThe CEC activity class was inferred from laboratory data from similar soils in the Uintah Area Soil Survey.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 7 inches; dark grayish brown (10YR 4/2) loam, very dark grayish brown (10YR 3/2) moist; weak fine subangular blocky structure that parts to weak fine granular; slightly hard, friable, slightly sticky and slightly plastic; many very fine and fine roots; few very fine tubular pores; 10 percent shale channers; neutral (pH 6.8); clear smooth boundary.  (4 to 7 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 18,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A2--7 to 17 inches; brown (10YR 5/3) channery loam, dark brown (10YR 3/3) moist; weak fine and medium subangular blocky structure; slightly hard, friable, sticky and slightly plastic; many very fine, fine and few medium roots; few very fine tubular pores; 25 percent shale channers; neutral (pH 6.6); abrupt smooth boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "AB",
+        "top": 43,
+        "bottom": 58,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "AB--17 to 23 inches; brown (10YR 5/3) very channery loam, dark brown (10YR 3/3) moist; massive; slightly hard, friable, slightly sticky and slightly plastic; common very fine and fine roots; 55 percent shale channers; very slightly effervescent, (4 percent calcium carbonate equivalent), carbonates are disseminated; slightly alkaline (pH 7.4); clear smooth boundary.  (6 to 21 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 58,
+        "bottom": 117,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely channery",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bk--23 to 46 inches; brown (10YR 5/3) extremely channery loam, dark brown (10YR 3/3) moist; massive; slightly hard, friable, slightly sticky and slightly plastic; few very fine and fine roots; 80 percent shale channers; slightly effervescent, (10 percent calcium carbonate equivalent), carbonates are disseminated and as thin coatings on undersides of rock fragments; moderately alkaline (pH 8.0); gradual smooth boundary.  (0 to 23 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 117,
+        "narrative": "R--46 inches; shale."
+      }
+    ]
+  ]
 }

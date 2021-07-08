@@ -56,5 +56,102 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nParticle size control section:  3 to 103 centimeters (Bw1, Bw2, 2BC, and upper 19 centimeters of the 2C horizon)\nOchric epipedon: 0 to 18 centimeters (Oi, Oe, and upper 15 centimeters of Bw1 horizon)\nCambic horizon: 3 to 60 centimeters (Bw1 and Bw2 horizons)\nAndic soil properties:  3 to 60 centimeters (Bw1 and Bw2 horizons)\nLithologic discontinuity:  60 centimeters\nThe 2BC horizon has ashy textural modifiers but does not meet the criteria for andic soil properties.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 1,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 1 cm; slightly decomposed plant material; abrupt smooth boundary."
+      },
+      {
+        "name": "Oe",
+        "top": 1,
+        "bottom": 3,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--1 to 3 cm; moderately decomposed plant material; abrupt smooth boundary."
+      },
+      {
+        "name": "Bw1",
+        "top": 3,
+        "bottom": 34,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH": 5.5,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--3 to 34 cm; dark yellowish brown (10YR 3/4) gravelly ashy fine sandy loam, yellowish brown (10YR 5/4) dry; moderate medium subangular blocky structure; slightly hard, very friable, nonsticky, nonplastic; common very fine and fine and many medium and coarse roots throughout; 10 percent fine gravel, 15 percent medium and coarse gravel, and 5 percent cobbles; strongly acid (pH 5.5); clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 34,
+        "bottom": 60,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH": 5.7,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--34 to 60 cm; dark yellowish brown (10YR 3/4) gravelly ashy fine sandy loam, yellowish brown (10YR 5/4) dry; moderate coarse subangular blocky structure; slightly hard, very friable, nonsticky, nonplastic; common very fine, fine, medium, and coarse roots throughout; 10 percent fine gravel, 15 percent medium and coarse gravel, and 5 percent cobbles; moderately acid (pH 5.7); clear wavy boundary."
+      },
+      {
+        "name": "2BC",
+        "top": 60,
+        "bottom": 84,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely cobbly",
+        "pH": 5.9,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2BC--60 to 84 cm; dark yellowish brown (10YR 3/4) extremely cobbly ashy sandy loam, yellowish brown (10YR 5/4) dry; single grain; loose, nonsticky, nonplastic; common very fine, fine, medium, and coarse roots throughout; 15 percent fine gravel, 30 percent medium and coarse gravel, 25 percent cobbles, and 10 percent stones; moderately acid (pH 5.9); clear wavy boundary."
+      },
+      {
+        "name": "2C",
+        "top": 84,
+        "bottom": 150,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "cf_class": "extremely gravelly",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "narrative": "2C--84 to 150 cm; olive brown (2.5Y 4/4) extremely gravelly loamy sand, light olive brown (2.5Y 5/4) dry; single grain; loose, nonsticky, nonplastic; few very fine and fine roots throughout; 15 percent fine gravel, 35 percent medium and coarse gravel, 20 percent cobbles, and 5 percent stones; slightly acid (pH 6.1)."
+      }
+    ]
+  ]
 }

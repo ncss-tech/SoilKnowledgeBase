@@ -56,5 +56,100 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon - the zone from 0 to 12 inches (A and E horizons).\nb. Argillic horizon - the zone from 12 to 39 inches (Bt and BCgt horizons).\nc. Paralithic contact--the presence of weathered bedrock at 56 inches.\nSIR = VA0011\nMLRA = 136\nREVISED = 7/5/93, MHC; 12/04/97, DTA; 07/15/00, DTA\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp  FrFr/Seas  Precip   Elevation\nVA0011 LIGNUM      0-15   59- 66   175-225    38-55    150- 550\nSOI-5  FloodL FloodH Watertable  Kind   Months  Bedrock  Hardness\nVA0011 NONE          1.0-2.5    PERCHED DEC-MAY  40-60    SOFT\nSOI-5  Depth  Texture              3-Inch  No-10   Clay%  -CEC-\nVA0011  0-12  SIL L VFSL           0-0     80-100  10-25    -\nVA0011 12-39  SICL SIC C           0-5     75-100  35-55    -\nVA0011 39-56  SCL GR-SCL GR-SICL   0-15    35- 80  20-40    -\nVA0011 56-65  WB                    -        -       -      -\nSOI-5  Depth    -pH-     O.M.   Salin   Permeab    Shnk-Swll\nVA0011 0-12   4.5-5.5   .5-2.   0- 0    0.6- 2.0   LOW\nVA0011 12-39  4.5-5.5   0.-.5   0- 0    0.0-0.06   MODERATE\nVA0011 39-56  4.5-5.5   0.-.5   0- 0    0.2- 0.6   LOW\nVA0011 56-65     -        -      -         -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; grayish brown (10YR 5/2) silt loam; weak fine granular structure; friable; common fine and medium roots; very strongly acid; clear smooth boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--2 to 12 inches; very pale brown (10YR 7/3) silt loam; weak fine granular structure; friable; few fine and medium roots; few fine distinct reddish yellow (7.5YR 6/8) masses of iron accumulation; very strongly acid; clear wavy boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 30,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--12 to 16 inches; yellowish brown (10YR 5/6) silty clay loam; strong medium angular blocky structure; firm, slightly sticky, slightly plastic; few fine roots; common distinct clay films on faces of peds; common fine prominent reddish yellow (7.5YR 6/8) masses of iron accumulation; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 41,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--16 to 35 inches; yellowish brown (10YR 5/4) silty clay; moderate medium subangular blocky structure; firm, slightly sticky, slightly plastic; common distinct clay films on faces of peds; common coarse prominent strong brown (7.5YR 5/8) masses of iron accumulations and common medium distinct light gray (10YR 7/2) iron depletions; very strongly acid; gradual wavy boundary. (Combined thickness of the Bt horizon is 16 to 36 inches)"
+      },
+      {
+        "name": "BCg",
+        "top": 89,
+        "bottom": 99,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BCg--35 to 39 inches; light brownish gray (10YR 6/2) silty clay loam; weak fine subangular blocky structure; friable; many coarse prominent strong brown (7.5YR 5/8) masses of iron accumulation; very strongly acid; gradual wavy boundary. (0 to 18 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 99,
+        "bottom": 142,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C--39 to 56 inches; mottled light gray (10YR 7/2), strong brown (7.5YR 5/8), and very pale brown (10YR 8/2) silt loam saprolite; massive; friable; very strongly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "Cr",
+        "top": 142,
+        "bottom": 165,
+        "narrative": "Cr--56 to 65 inches; moderately hard, weathered bedrock."
+      }
+    ]
+  ]
 }

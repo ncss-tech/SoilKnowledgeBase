@@ -56,5 +56,97 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: A new pedon from Genesee County was used because the typical pedon does not match the typical pedon for Hilton in the Monroe County, NY Soil Survey. After a review of the use of the Hilton and Lima series the range of the solum depth of Hilton is changed to 29 to 48 and the competing series section was updated.\nDiagnostic horizons and other features recognized in the typical pedon are:\n1. Ochric epipedon - the zone from the surface to a depth of 9 inches (Ap horizon).\n2. Albic horizon - the zone from 9 to 17 inches (E horizon).\n3. Argillic horizon - the zone from 17 to 36 inches below the soil surface (B/E and Bt horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 9 inches, dark grayish brown (10YR 4/2) loam, light brownish gray (10YR 6/2) dry; weak fine granular structure; very friable; many fine roots; 10 percent rock fragments; moderately acid; abrupt smooth boundary. (6 to 10 inches thick.)"
+      },
+      {
+        "name": "E",
+        "top": 23,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "E -- 9 to 17 inches, brown (10YR 5/3) loam; weak fine and medium platy structure; friable; many fine roots; 10 percent rock fragments; moderately acid; abrupt irregular boundary. (0 to 9 inches thick.)"
+      },
+      {
+        "name": "B/E",
+        "top": 43,
+        "bottom": 61,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "B/E -- 17 to 24 inches, reddish brown (5YR 4/3) gravelly loam; moderate medium subangular blocky structure; firm; interfingering of E material surrounding some vertical faces of peds 1 to 2 millimeters thick, that constitutes less than 15 percent of the layer; clay films lining some pores with thin patchy clay films on some faces of peds; few medium distinct yellowish brown (10YR 5/4) masses of iron accumulation within the matrix; 20 percent rock fragments; slightly acid; clear wavy boundary. (2 to 6 inches thick.)"
+      },
+      {
+        "name": "Bt",
+        "top": 61,
+        "bottom": 91,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt -- 24 to 36 inches, reddish brown (5YR 4/3) gravelly loam; moderate medium subangular block structure; firm; common clay films on all faces of peds and on surfaces along pores; common fine distinct yellowish brown (10YR 5/4) masses of iron accumulation and common fine distinct pinkish gray (7.5YR 6/2) areas of iron depletion within the lower few inches of the horizon; 20 percent gravel; neutral; clear wavy boundary. (8 to 22 inches thick.)"
+      },
+      {
+        "name": "C1",
+        "top": 91,
+        "bottom": 137,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly alkaline",
+        "narrative": "C1 -- 36 to 54 inches, reddish brown (5YR 5/3) gravelly loam; moderate medium plate like divisions; firm; 20 percent rock fragments; slightly alkaline, slightly effervescent."
+      },
+      {
+        "name": "C2",
+        "top": 137,
+        "bottom": 183,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately alkaline",
+        "narrative": "C2 -- 54 to 72 inches, brown (7.5YR 5/3) gravelly loam; massive; firm; 20 percent rock fragments; moderately alkaline, strongly effervescent."
+      }
+    ]
+  ]
 }

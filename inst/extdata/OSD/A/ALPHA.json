@@ -56,5 +56,106 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 43 cm (A1, A2, and AB horizons).\nCambic horizon - The zone from 43 to 91 cm (Bw horizon).\nIdentifiable secondary carbonates and durinodes - The zone from 91 to 127 cm (Bkq horizon).\nLithic contact - The boundary at 127 cm to underlying unweathered bedrock (R layer).\nParticle-size control section - The zone from 25 to 100 cm (Bw horizon and parts of the AB and Bkq horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A1--0 to 8 cm; grayish brown (10YR 5/2) loam, very dark grayish brown (10YR 3/2) moist; moderate very fine granular structure; soft, friable, slightly sticky and slightly plastic; many very fine roots; many very fine interstitial pores; 10 percent gravel; neutral (pH 6.6); abrupt wavy boundary.  (3 to 20 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--8 to 23 cm; grayish brown (10YR 5/2) loam, very dark grayish brown (10YR 3/2) moist; moderate fine granular structure; slightly hard, friable, slightly sticky and slightly plastic; few medium and fine, and many very fine roots; many fine and very fine interstitial pores; 10 percent gravel; neutral (pH 6.8); clear smooth boundary.  (8 to 20 cm thick)"
+      },
+      {
+        "name": "AB",
+        "top": 23,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "AB--23 to 43 cm; grayish brown (10YR 5/2) loam, dark brown (10YR 3/3) moist; moderate fine granular structure; slightly hard, friable, slightly sticky and slightly plastic; few medium and fine, and common very fine roots; many fine and very fine tubular pores; 10 percent gravel; neutral (pH 6.6); clear smooth boundary.  (5 to 25 cm thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 43,
+        "bottom": 91,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--43 to 91 cm; pale brown (10YR 6/3) clay loam, brown (10YR 4/3) moist; moderate medium and fine angular blocky structure; hard, friable, moderately sticky and moderately plastic; few medium, fine , and very fine roots; many fine and very fine tubular pores; 15 percent gravel; neutral (pH 7.2); clear smooth boundary.  (25 to 60 cm thick)"
+      },
+      {
+        "name": "Bkq",
+        "top": 91,
+        "bottom": 127,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 8.6,
+        "pH_class": "strongly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bkq--91 to 127 cm; pale brown (10YR 6/3) clay loam, brown (10YR 4/3) moist; massive; hard, friable, moderately sticky and moderately plastic; few very fine roots; many very fine interstitial and tubular pores; 15 percent gravel; 30 percent hard and firm durinodes; strongly effervescent; secondary carbonates segregated as very pale brown (10YR 8/2) masses and veins; strongly alkaline (pH 8.6); clear wavy boundary.  (15 to 46 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 127,
+        "narrative": "R--127 cm; unweathered basalt."
+      }
+    ]
+  ]
 }

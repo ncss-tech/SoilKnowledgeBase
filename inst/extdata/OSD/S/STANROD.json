@@ -56,5 +56,97 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon\nare:\nOchric epipedon - the zone from the surface to 3 inches (A horizon)\nArgillic horizon - the zone from 3 to 8 inches (Btn and Btkn horizons)\nNatric feature - the argillic horizon has prismatic structure  and an\nSAR greater than 20\nCalcic horizon - the zone from 8 to 30 inches (Bk1, Bk2, and Bk3\nhorizons)\nParticle size control section - the zone from 3 to 40 inches (Btn,\nBtkn, Bk1, Bk2, Bk3, and Bkz horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "narrative": "A--0 to 3 inches; very pale brown (10YR 7/3) silt loam, brown (10YR"
+      },
+      {
+        "name": "Btn",
+        "top": 8,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "narrative": "Btn--3 to 6 inches; very pale brown (10YR 7/3) silty clay loam,"
+      },
+      {
+        "name": "Btkn",
+        "top": 15,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "narrative": "Btkn--6 to 8 inches; very pale brown (10YR 7/3) silty clay loam,"
+      },
+      {
+        "name": "Bk1",
+        "top": 20,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "narrative": "Bk1--8 to 11 inches; white (10YR 7/3) silt loam, pale brown (10YR"
+      },
+      {
+        "name": "Bk2",
+        "top": 28,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "narrative": "Bk2--11 to 17 inches; white (10YR 8/2) silt loam, pale brown (10YR"
+      },
+      {
+        "name": "Bk3",
+        "top": 43,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "narrative": "Bk3--17 to 30 inches; white (10YR 8/2) silt loam, very pale brown"
+      },
+      {
+        "name": "Bkz",
+        "top": 76,
+        "bottom": 135,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "narrative": "Bkz--30 to 53 inches; very pale brown (10YR 7/3) silt loam,"
+      },
+      {
+        "name": "2C",
+        "top": 135,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "narrative": "2C--53 to 60 inches; very pale brown (10YR 8/3) gravelly silt loam;"
+      }
+    ]
+  ]
 }

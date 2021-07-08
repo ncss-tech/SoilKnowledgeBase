@@ -56,5 +56,115 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  1.  Classification is updated to Sandy-skeletal, isotic, frigid Aquic Haplorthods with this revision.\n2.  Diagnostic horizons and features recognized in this pedon are:\na.  Ochric epipedon - the zone from 0 to 8 inches (Oe and Ap horizons).\nb.  Albic horizon - the zone from 8 to 11 inches (E horizon).\nc.  Spodic horizons - the zone from 11 to 27 inches (Bh, Bs1, and Bs2 horizons).\nd.  Aquic feature - redoximorphic features in the zone from 20 to 41 inches (Bs2 and C1 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0e",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "0e--0 to 1 inch; hemic material with lesser amounts of sapric material."
+      },
+      {
+        "name": "Ap",
+        "top": 3,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--1 to 8 inches; very dark grayish brown (10YR 3/2) fine sandy loam; weak fine granular structure; friable; many fine and medium roots; 5 percent rock fragments; very strongly acid; abrupt smooth boundary.  (5 to 8 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 20,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "loamy fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "broken",
+        "narrative": "E--8 to 11 inches; gray (10YR 5/1) loamy fine sand; weak fine granular structure; friable; common fine and medium roots; 5 percent rock fragments; very strongly acid; abrupt broken boundary.  (0 to 3 inches thick)"
+      },
+      {
+        "name": "Bh",
+        "top": 28,
+        "bottom": 36,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "broken",
+        "narrative": "Bh--11 to 14 inches; black (5YR 2/1) fine sandy loam; moderate medium granular structure; friable; common fine and medium roots; 7 percent rock fragments; very strongly acid; abrupt broken boundary.  (0 to 4 inches thick)"
+      },
+      {
+        "name": "Bs1",
+        "top": 36,
+        "bottom": 51,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bs1--14 to 20 inches; dark red (2.5YR 3/6) gravelly fine sandy loam; moderate medium granular structure; 60 percent friable and 40 percent weakly cemented (ortstein); common fine roots; 10 percent gravel, 10 percent cobbles, and 3 percent stones; very strongly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "Bs2",
+        "top": 51,
+        "bottom": 69,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "loamy fine sand",
+        "cf_class": "very gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs2--20 to 27 inches; yellowish red (5YR 5/8) very gravelly loamy fine sand; weak fine granular structure; friable; few fine roots; 15 percent gravel, 15 percent cobbles, and 10 percent stones; common medium distinct light gray (10YR 6/1) iron depletions; very strongly acid; clear wavy boundary.  (Combined thickness of the Bs horizon is 5 to 18 inches.)"
+      },
+      {
+        "name": "C1",
+        "top": 69,
+        "bottom": 104,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "cf_class": "very cobbly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C1--27 to 41 inches; light yellowish brown (10YR 6/4) very cobbly loamy sand; massive; friable; 30 percent cobbles, 10 percent gravel, and 5 percent stones; common medium distinct (2.5YR 5/8) masses of iron accumulation; strongly acid; clear smooth boundary.  (0 to 30 inches thick)"
+      },
+      {
+        "name": "C2",
+        "top": 104,
+        "bottom": 168,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "cf_class": "very cobbly",
+        "pH_class": "strongly acid",
+        "narrative": "C2--41 to 66 inches; light brownish gray (2.5Y 6/2) very cobbly loamy sand; massive; friable; 30 percent cobbles, 15 percent gravel, and 5 percent stones; strongly acid."
+      }
+    ]
+  ]
 }

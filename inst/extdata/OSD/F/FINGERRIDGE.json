@@ -56,5 +56,51 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The name is coined from a local peak.\nDiagnostic horizons and features recognized in this pedon include:\nMollic epipedon - The zone from the mineral soil surface to 13 inches (A and Bt horizons).\nVitrandic intergrade feature -- High volcanic glass content in the .02 to 2mm fraction from the mineral soil surface to 13 inches (A and Bt horizons).\nArgillic horizon - The zone from 6 to 13 inches (Bt horizon).\nLithic contact - The boundary at 13 inches to underlying hard bedrock (R layer).\nParticle-size control section - The zone from 0 to 13 inches (A and Bt horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 6 inches; dark grayish brown (10YR 4/2) extremely gravelly ashy loam, very dark brown (10YR 2/2), moist; weak fine subangular blocky structure; soft, very friable, nonsticky, nonplastic; common fine roots and few medium roots and many very fine roots; many very fine interstitial and common very fine tubular pores; 5 percent cobbles and 55 percent pebbles; slightly acid (pH 6.5); clear wavy boundary. (4 to 8 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 15,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt--6 to 13 inches; brown (10YR 5/3), extremely gravelly ashy loam, dark brown (10YR 3/3), moist; moderate medium subangular blocky structure; slightly hard, very friable, slightly sticky, slightly plastic; common very fine to medium roots; common very fine interstitial and tubular pores; 2 percent distinct clay films on all faces of peds and 2 percent distinct clay films on surfaces along pores; 5 percent cobbles and 55 percent pebbles; slightly acid (pH 6.5); abrupt irregular boundary. (4 to 9 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 33,
+        "narrative": "R--13 inches; hard andesitic tuff bedrock."
+      }
+    ]
+  ]
 }

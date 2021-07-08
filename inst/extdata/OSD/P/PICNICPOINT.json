@@ -56,5 +56,71 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and other features in this pedon\n*Control section--zone from 0 to 130 cm\n*Surface tier--zone from 0 to 30 cm\n*Subsurface tier--zone from 30 to 90 cm\n*Bottom tier--zone from 90 to 130 cm\n*Fibric soil material--Oi horizons\n*Reduced matrix--Cg horizon\n*Aquic conditions--0 to 180 cm\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi1",
+        "top": 0,
+        "bottom": 70,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "pH": 5.3,
+        "pH_class": "strongly acid",
+        "distinctness": "diffuse",
+        "topography": "wavy",
+        "narrative": "Oi1--0 to 70 cm; peat, pale brown (10YR 6/3) dry, brown (10YR 4/3) moist; many very fine and fine and common medium roots; strongly acid (pH 5.3); diffuse wavy boundary"
+      },
+      {
+        "name": "W",
+        "top": 70,
+        "bottom": 120,
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "W--70 to 120 cm; water; diffuse smooth boundary"
+      },
+      {
+        "name": "Oi2",
+        "top": 120,
+        "bottom": 160,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "pH": 5.7,
+        "pH_class": "moderately acid",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "Oi2--120 to 160 cm; peat, light yellowish brown (10YR 6/4) dry, dark yellowish brown (10YR 4/4) moist; moderately acid (pH 5.7); diffuse smooth boundary"
+      },
+      {
+        "name": "Cg",
+        "top": 160,
+        "bottom": 180,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 5.9,
+        "pH_class": "moderately acid",
+        "narrative": "Cg--160 to 180 cm; silt loam, light brownish gray (2.5Y 6/2) dry, dark grayish brown (2.5Y 4/2) moist; massive; slightly hard, firm, nonsticky and nonplastic; moderately acid (pH 5.9)"
+      }
+    ]
+  ]
 }

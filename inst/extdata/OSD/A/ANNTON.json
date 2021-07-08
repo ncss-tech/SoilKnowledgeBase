@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 25 to 100 centimeters; series control section--the zone from the surface to a depth of 150 centimeters.\nDiagnostic horizons and features recognized in the pedon are:\nmollic epipedon--the zone from the soil surface to a depth of 25 centimeters (Ap horizons);\ncambic horizon--the zone from a depth of 25 to 56 centimeters and the zone from a depth of 152 to 203 centimeters (Bw and BC horizons);\ncalcic horizon--the zone from a depth of 56 to 152 centimeters (Bk1 and Bk2 horizons);\nudic moisture regime.\nSome pedons have a sandy or coarse-loamy lag line, about 10 centimeters thick, with or without gravel at the contact with the underlying firm till.\nThe BC horizon is defined by having prismatic primary structure parting to angular or subangular blocky.  This structure is evident in pits and cutbanks and rarely observed by smaller scale investigations. The change in moist bulk density of 1.45 to 1.65 g/cc was based on lab data of soils that are similar and field investigations by soil scientist in this geomorphic landform of the Coteau des Prairies bench\".\nBased on current investigations, elevation ranges in MLRA 103 is about 270 to 480 meter above sea level. However, the elevation data in the 2006 issue of USDA Handbook 296, has not been changed to agree with this elevation data.\nCation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomy version--Keys to Soil Taxonomy, tenth edition, 2006.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 25 centimeters; black (10YR 2/1) clay loam, dark gray (10YR 4/1) dry; weak fine subangular blocky structure; friable; about 6 percent gravel; slightly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "Bw",
+        "top": 25,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--25 to 56 centimeters; brown (10YR 4/3) and dark yellowish brown (10YR 4/4) clay loam; moderate fine and medium subangular blocky structure; friable; about 4 percent gravel; moderately acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bk1",
+        "top": 56,
+        "bottom": 109,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk1--56 to 109 centimeters; yellowish brown (10YR 5/4) loam; weak medium subangular blocky structure; friable; about 15 percent disseminated calcium carbonates throughout; few, 1 to 3 millimeter in diameter, concentrations of iron and manganese oxides; few fine prominent strong brown (7.5YR 4/6) redoximorphic concentrations; friable; about 5 percent gravel; violently effervescent; moderately alkaline; gradual wavy boundary."
+      },
+      {
+        "name": "Bk2",
+        "top": 109,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk2--109 to 152 centimeters; brown (10YR 5/3) clay loam; weak medium subangular blocky structure; firm; about 15 percent disseminated calcium carbonates throughout; few, 1 to 3 millimeter diameter concentrations of iron and manganese oxides; few fine prominent strong brown (7.5YR 4/6) redoximorphic concentrations; common fine prominent gray (2.5Y 5/1) redoximorphic depletions; about 4 percent gravel; violently effervescent; moderately alkaline; gradual wavy boundary."
+      },
+      {
+        "name": "BC",
+        "top": 152,
+        "bottom": 203,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "BC--152 to 203 centimeters; light olive brown (2.5Y 5/4) clay loam; moderate coarse prismatic structure parting to moderate medium angular blocky; firm; about 10 percent coarse treads of calcium carbonates; few concentrations of iron and manganese oxides; common fine prominent yellowish red (5YR 4/6) and few fine yellowish brown (10YR 5/8) redoximorphic concentrations, and common fine prominent gray (2.5Y 5/1) redoximorphic depletions; about 5 percent gravel; strongly effervescent; slightly alkaline."
+      }
+    ]
+  ]
 }

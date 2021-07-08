@@ -56,5 +56,96 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from the surface to 7 inches (A horizon)\nCambic horizon - from 7 to 34 inches (Bw1 and Bw2 horizons)\nParticle size control section - from 10 to 40 inches (Bw1, Bw2 and BC horizons)\nLithic contact to hard fractured shale bedrock - at 46 inches (R horizon).\nSoil interpretation record:  MT1586.\nVigilante soils have a frigid temperature regime and an ustic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 7 inches; brown (7.5YR 4/2) channery loam, dark brown (7.5YR 3/2) moist; moderate fine granular structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and fine roots; 25 percent channers; slightly alkaline (pH 7.4); clear wavy boundary.  (7 to 11 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 18,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1--7 to 16 inches; brown (10YR 5/3) very channery loam, brown (7.5YR 4/2) moist; moderate medium subangular blocky structure; slightly hard, very friable, slightly sticky and nonplastic; many very fine and fine and few medium roots; common very fine and fine pores; 5 percent flagstones and 50 percent channers; neutral (pH 7.2); gradual wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 41,
+        "bottom": 86,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely channery",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "Bw2--16 to 34 inches; pale brown (10YR 6/3) extremely channery loam, brown (10YR 4/3) moist; weak coarse subangular blocky structure; slightly hard, very friable, slightly sticky and nonplastic; many very fine and fine and few medium roots; common medium pores; 5 percent flagstones and 65 percent channers; neutral (pH 7.0); gradual irregular boundary.  (Combined thickness of Bw horizons is 20 to 30 inches)."
+      },
+      {
+        "name": "BC",
+        "top": 86,
+        "bottom": 117,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely channery",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--34 to 46 inches; very pale brown (10YR 7/3) extremely channery loam, yellowish brown (10YR 5/4) moist; massive; slightly hard, very friable, nonsticky and nonplastic; common very fine roots; common fine pores; 10 percent flagstones and 70 percent channers; neutral (pH 7.0); gradual wavy boundary.  (10 to 15 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 117,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "narrative": "R--46 inches; hard pale brown (10YR 6/3) highly fractured shale."
+      }
+    ]
+  ]
 }

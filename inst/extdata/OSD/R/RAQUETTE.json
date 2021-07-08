@@ -56,5 +56,71 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: It is questionable whether the 2 prefix on horizons for the 2BC and 2C in the Typical Profile are necessary. This item needs further review in the MLRA update process.\nDiagnostic horizons and features recognized in this pedon are:\na.  Ochric epipedon - the zone from 0 to 9 inches (Ap horizon).\nb.  Cambic horizons - the zone from 9 to 19 inches (Bw horizon).\nc.  Typic Eutrudepts feature - have free carbonates within a depth of one meter from the surface (2C horizon).\nADDITIONAL DATA:  Laboratory data is available for the typical pedon (S81NY8909-(1-4).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 9 inches; very dark grayish brown (10YR 3/2) and dark brown (10YR 3/3) sandy loam, pale brown (10YR 6/3) dry; weak very fine, fine and medium subangular blocky structure; very friable; many fine and few medium and coarse roots; 3 percent gravel; neutral; abrupt smooth boundary.  (8 to 10 inches thick.)"
+      },
+      {
+        "name": "Bw",
+        "top": 23,
+        "bottom": 48,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw -- 9 to 19 inches; brown (7.5YR 4/4) sandy loam; weak fine and medium subangular blocky structure; very friable; many fine and few medium roots; many fine vesicular pores; 5 percent gravel; neutral; abrupt wavy boundary.  (8 to 31 inches thick.)"
+      },
+      {
+        "name": "2BC",
+        "top": 48,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "cf_class": "gravelly",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "2BC -- 19 to 25 inches; very dark grayish brown (10YR 3/2) and dark brown (10YR 3/3) gravelly loamy sand; weak fine and medium subangular blocky structure; friable; many fine roots; common fine vesicular pores and few fine medium and coarse tubular pores; 30 percent gravel; slightly alkaline; clear irregular boundary.  (0 to 10 inches thick.)"
+      },
+      {
+        "name": "2C",
+        "top": 64,
+        "bottom": 165,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately alkaline",
+        "narrative": "2C -- 25 to 65 inches; brown (10YR 4/3) very gravelly loamy coarse sand; single grain; loose; many fine roots; 50 percent limestone gravel; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

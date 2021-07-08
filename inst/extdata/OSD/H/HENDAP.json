@@ -56,5 +56,83 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the mineral surface (3 cm) to a depth of approximately 20 cm (A1 and A2 horizons).\nLithic contact - The point at approximately 36 cm (R layer).\nParticle-size control section - The zone from the mineral surface (3 cm) to 36 cm (A1, A2 and C horizons).\nClassification was updated to 11th edition on 07/2011 changed Lithic Haploxerolls to Aridic Lithic Haploxerolls.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 3 cm; slightly decomposed pinyon and juniper needles, twigs, cones and berries; slightly effervescent; abrupt smooth boundary."
+      },
+      {
+        "name": "A1",
+        "top": 3,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "very stony",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--3 to 5 cm; dark grayish brown (10YR 4/2) very stony coarse sandy loam, very dark brown (10YR 2/2) moist; moderate medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; few very fine and fine interstitial pores; 30 percent gravel, 10 percent cobbles; 10 percent stones; slightly effervescent; slightly alkaline (pH 7.6); abrupt smooth boundary.  (2 to 8 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "very stony",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A2--5 to 20 cm; grayish brown (10YR 5/2) very stony coarse sandy loam, very dark brown (10YR 2/2) moist; moderate medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; common very fine and fine and few medium roots; 30 percent gravel, 10 percent cobbles and 10 percent stones; strongly effervescent (less than 2 percent calcium carbonate equivalent); slightly alkaline (pH 7.6); abrupt smooth boundary.  (8 to 18 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 20,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "extremely gravelly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "C--20 to 36 cm; light brownish gray (10YR 6/2) extremely gravelly loamy coarse sand, grayish brown (10YR 5/2) moist; weak medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; few very fine, fine and medium and common coarse roots; 55 percent gravel, 15 percent cobbles; violently effervescent (4 percent calcium carbonate equivalent); slightly alkaline (pH 7.8); clear irregular boundary.  (8 to 15 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 36,
+        "narrative": "R--36 cm; granitic bedrock; highly weathered in the upper 10 cm."
+      }
+    ]
+  ]
 }

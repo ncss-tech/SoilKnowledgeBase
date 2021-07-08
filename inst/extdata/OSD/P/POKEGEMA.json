@@ -56,5 +56,132 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon\n*Particle-size control section--zone from 1 to 133 cm\n*Mollic epipedon--The zone from 1 to 67 cm\n*Cambic horizon--The zone from 67 to 133 cm\n*Andic soil properties--based on laboratory data from the associated Oatman and Tater soils\n*Lithic contact--andesite bedrock at 133 cm\nADDITIONAL DATA:\n*NASIS Site ID--S1966OR035001\n*NASIS Pedon ID-- S1966OR035001\n*Characterization data on 4 profiles (66 OR035-001, 002, 003, 004) reported in Riverside Soil Survey Laboratory report for Pokegema soils sampled in Klamath County, Oregon, 1966. Pedon 001 is the type location.\n2010--Classification changed from Fine, halloysitic Pachic Cryoborolls to Medial, amorphic, frigid Alfic Humic Haploxerands.\n07/2017--Updated this official series description according to SSRO1 Technical Note 11, OSD--Content and Format of Official Series Descriptions (revised 12/2015). Most of the changes were in formatting, with some changes to climate data as well.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 1,
+        "narrative": "Oi--0 to 1 cm; slightly decomposed conifer needles."
+      },
+      {
+        "name": "A1",
+        "top": 1,
+        "bottom": 6,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--1 to 6 cm; medial loam, brown (7.5YR 4/2) dry, dark reddish brown (5YR 2/2) moist; weak very fine granular structure; soft, very friable, nonsticky and nonplastic; many very fine roots; many very fine pores; 7 percent gravel, 3 percent cobbles; slightly acid (pH 6.5); abrupt smooth boundary"
+      },
+      {
+        "name": "A2",
+        "top": 6,
+        "bottom": 21,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A2--6 to 21 cm; medial loam, reddish brown (5YR 4/3) dry, dark reddish brown (5YR 3/3) moist; weak very fine granular structure; soft, very friable, slightly sticky and slightly plastic; many very fine and coarse roots; many very fine tubular pores; 7 percent gravel, 3 percent cobbles; slightly acid (pH 6.5); gradual wavy boundary"
+      },
+      {
+        "name": "BA",
+        "top": 21,
+        "bottom": 41,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BA--21 to 41 cm; medial loam, reddish brown (5YR 5/3) dry, dark reddish brown (5YR 3/3) moist; weak medium subangular blocky structure parting to moderate fine granular; slightly hard, friable, moderately sticky and slightly plastic; many fine and coarse roots; many very fine tubular pores; 7 percent gravel, 3 percent cobbles; slightly acid (pH 6.4); clear smooth boundary"
+      },
+      {
+        "name": "Bw1",
+        "top": 41,
+        "bottom": 67,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw1--41 to 67 cm; gravelly medial loam, reddish brown (5YR 5/3) dry, dark reddish brown (5YR 3/3) moist; weak fine and medium subangular blocky structure; hard, firm, moderately sticky and moderately plastic; many fine and coarse roots; many very fine tubular pores; 15 percent gravel (mainly at a depth of 60 to 67 cm), 3 percent cobbles; slightly acid (pH 6.3); gradual smooth boundary"
+      },
+      {
+        "name": "Bw2",
+        "top": 67,
+        "bottom": 97,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--67 to 97 cm; gravelly medial clay loam, brown (7.5YR 5/3) dry, dark reddish brown (5YR 3/3) moist; moderate medium subangular blocky structure; hard, firm, moderately sticky and moderately plastic; many fine and coarse roots; many very fine tubular pores; 15 percent gravel and 5 percent cobbles; slightly acid (pH 6.1); clear wavy boundary"
+      },
+      {
+        "name": "Bw3",
+        "top": 97,
+        "bottom": 133,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw3--97 to 133 cm; gravelly medial clay, reddish brown (5YR 4/3) dry, dark reddish brown (5YR 3/3) and reddish brown (5YR 4/4) moist; massive; hard, firm, moderately sticky and moderately plastic; few fine and coarse roots; common very fine tubular pores; 19 percent gravel, 5 percent cobbles; moderately acid (pH 5.8); abrupt wavy boundary"
+      },
+      {
+        "name": "2R",
+        "top": 133,
+        "narrative": "2R--133 cm; andesite."
+      }
+    ]
+  ]
 }

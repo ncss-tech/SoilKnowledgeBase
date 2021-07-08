@@ -56,5 +56,131 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  These soils were formerly placed in miscellaneous land types as cut and fill land and/or made land.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0129 BRAGG       0-  8   59- 68  190-240  40- 52    30- 450\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0129 NONE          6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0129  0- 6  LS SL SCL               0-  3  95-100  5-25   1-  7\nNC0129  6-30  SR SL CL                0-  3  90-100 18-35   3-  8\nNC0129 30-72  SL SCL SC               0-  3  95-100 15-45   3- 10\nNC0129 72-80  VAR                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0129  0- 6  4.5- 5.5  0.-2.  0- 0   2.0- 6.0  LOW\nNC0129  6-30  4.5- 5.5  0.-1.  0- 0   0.2- 0.6  LOW\nNC0129 30-72  4.5- 5.5  0.-1.  0- 0   0.2- 0.6  LOW\nNC0129 72-80     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 6 inches; strong brown (7.5YR 5/8) sandy loam; massive; friable; strongly acid; clear wavy boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 15,
+        "bottom": 51,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C1--6 to 20 inches; strong brown (7.5YR 5/8), grayish brown (10YR 5/2), and light gray (10YR 6/1) sandy clay loam, massive; firm, slightly sticky; strongly acid; clear wavy boundary.  (8 to 24 inches thick)"
+      },
+      {
+        "name": "C2",
+        "top": 51,
+        "bottom": 76,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C2--20 to 30 inches; reddish yellow (7.5YR 6/8) sandy clay loam; common medium light gray (N 7/0) clay bodies and strata; massive; firm, slightly sticky; strongly acid; clear smooth boundary.  (8 to 20 inches thick)"
+      },
+      {
+        "name": "C3",
+        "top": 76,
+        "bottom": 102,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C3--30 to 40 inches; light yellowish brown (10YR 6/4) sandy clay; common medium distinct red (2.5YR 5/8) mottles; massive; firm, slightly sticky; strongly acid; clear wavy boundary.  (0 to 15 inches thick)"
+      },
+      {
+        "name": "C4",
+        "top": 102,
+        "bottom": 124,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C4--40 to 49 inches; reddish yellow (7.5YR 6/8) sandy clay loam with common medium distinct light gray (N 7/0) clay bodies; massive; friable; slightly sticky; strongly acid; clear wavy boundary.  (5 to 15 inches thick)"
+      },
+      {
+        "name": "C5",
+        "top": 124,
+        "bottom": 142,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C5--49 to 56 inches; yellowish red (5YR 5/6) sandy clay loam; common medium distinct brownish yellow (10YR 6/8) mottles; massive; firm; slightly sticky; strongly acid; clear wavy boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "C6",
+        "top": 142,
+        "bottom": 183,
+        "moist_hue": "2.5YR",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C6--56 to 72 inches; light red (2.5YR 6/8) sandy clay; common medium distinct reddish yellow (7.5YR 6/8) mottles; massive; firm, slightly sticky; common fine bodies of clay; strongly acid; abrupt smooth boundary.  (0 to 20 inches thick)"
+      },
+      {
+        "name": "A1b",
+        "top": 183,
+        "bottom": 193,
+        "moist_hue": "N",
+        "moist_value": 3,
+        "moist_chroma": 0,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1b--72 to 76 inches; very dark gray (N 3/0) loamy sand; weak fine granular structure; very friable; strongly acid; clear smooth boundary.  (3 to 7 inches thick)"
+      },
+      {
+        "name": "A2b",
+        "top": 193,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "narrative": "A2b--76 to 80 inches; brown (10YR 4/3) loamy sand; weak fine granular structure; very friable; strongly acid."
+      }
+    ]
+  ]
 }

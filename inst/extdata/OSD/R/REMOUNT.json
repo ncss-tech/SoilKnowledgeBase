@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soil interpretation record:  MT1143.  Diagnostic horizons and features recognized in this pedon are:  A mollic epipedon from the soil surface to 11 inches (Ap and A2 horizons); an argillic horizon from 11 to 25 inches (Bt and Btk horizons); a layer of lime accumulation from 15 to 60 inches (Btk and Bk horizons); a particle size control section from 11 to 25 inches (Bt and Btk horizons).  Remount soils have a frigid temperature regime and a xeric moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "narrative": "Ap--0 to 7 inches; dark grayish brown (10YR 4/2) very"
+      },
+      {
+        "name": "A2",
+        "top": 18,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "narrative": "A2--7 to 11 inches; brown (10YR 5/3) very gravelly loam, dark brown (10YR 3/3) moist; weak moderate subangular blocky"
+      },
+      {
+        "name": "Bt",
+        "top": 28,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "extremely gravelly",
+        "pH": 7.4,
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--11 to 15 inches; light yellowish brown (10YR 6/4) extremely gravelly sandy clay loam, dark yellowish brown (10YR 4/4) moist; weak moderate subangular blocky structure; soft, friable, sticky and slightly plastic; few fine and medium roots; many fine pores; common distinct clay films on faces of peds and on surface of pebbles; 75 percent pebbles; slighlty alkaline (pH 7.4); clear smooth boundary."
+      },
+      {
+        "name": "Btk",
+        "top": 38,
+        "bottom": 64,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "narrative": "Btk--15 to 25 inches; light yellowish brown (10YR 6/4)"
+      },
+      {
+        "name": "Bk",
+        "top": 64,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "narrative": "Bk--25 to 60 inches; light yellowish brown (10YR 6/4) extremely gravelly coarse sandy loam, dark yellowish brown (10YR 4/4) moist; loose; loose, nonsticky and nonplastic; few very fine roots; 85 percent pebbles; strongly effervescent, lime mainly on undersides of pebbles; moderately alkaline (pH 8.0)."
+      }
+    ]
+  ]
 }

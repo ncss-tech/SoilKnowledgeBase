@@ -56,5 +56,65 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The superactive cation exchange activity class is estimated. Laboratory data is needed to confirm this placement.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - 0 to 6 inch (A and C horizons).\nEntisol feature - The absence of diagnostic subsurface horizons.\nParalithic contact - 6 inches (Cr layer).\nParticle size control section - 0 to 6 inches (A and C horizons).\nResponsibility for this series was transferred from Davis to Phoenix 12/2015. The last revision to the series was 7/2006. ET\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely flaggy",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 1 inch; light yellowish brown (10YR 6/4) extremely flaggy sandy loam, dark yellowish brown (10YR 4/4) moist; moderate medium platy structure; slightly hard, very friable, nonsticky and nonplastic; common fine roots; many very fine interstitial and common fine vesicular pores; 15 percent channers and 55 percent flagstones; violently effervescent; moderately alkaline (pH 8.2); abrupt wavy boundary. (1 to 4 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 3,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely channery",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--1 to 6 inches; light yellowish brown (10YR 6/4) extremely channery loam, dark yellowish brown (10YR 4/4) moist; massive; soft, very friable, slightly sticky and nonplastic; few very fine and few fine roots; common very fine interstitial pores; 70 percent channers; strongly effervescent; moderately alkaline (pH 8.2); abrupt wavy boundary. (4 to 6 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 15,
+        "bottom": 20,
+        "texture_class": "silt",
+        "narrative": "Cr--6 to 8 inches; weathered siltstone. (1 to 4 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 20,
+        "texture_class": "silt",
+        "narrative": "R--8 inches; unweathered siltstone."
+      }
+    ]
+  ]
 }

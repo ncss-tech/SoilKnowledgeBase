@@ -56,5 +56,84 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon -- The zone from 0 to 1 inch (A horizon).\nb. Argillic horizon -- The zone from 13 to 23 inches (Bt horizon).  c. Typic Udult feature -- No part of the moisture control section is dry for as long as 90 consecutive days and the soil is extremely acid from 23 to 72 inches.\nd. Loamy-skeletal feature - The Bt horizon contains more than 35 percent rock fragments and has from 18 to 35 percent clay.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nMD0013 JOPPA       0- 60   46- 55  170-210  35- 50    25- 330\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nMD0013 NONE          6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nMD0013  0-13  GR-SL GR-L GR-LS        0-  0  50- 75  5-18    -\nMD0013 13-23  GRV-SL GR-L             0-  0  30- 75 10-25    -\nMD0013 23-72  GRV-S GR-LS GR-SL       0- 10  30- 75  2-15    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nMD0013  0-13  3.6- 5.5  1.-4.  0- 0   2.0- 6.0  LOW\nMD0013 13-23  3.6- 5.5  0.-.5  0- 0   2.0-  20  LOW\nMD0013 23-72  3.6- 5.5  0.-.5  0- 0   2.0-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 1 inch; very dark grayish brown (10YR 3/2) gravelly sandy loam; weak fine granular structure; very friable; many roots; 20 percent rounded pebbles; very strongly acid; abrupt wavy boundary.  (1 to 4 inches thick)."
+      },
+      {
+        "name": "E",
+        "top": 3,
+        "bottom": 15,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E--1 to 6 inches; brown (7.5YR 4/4) gravelly sandy loam; very weak fine granular structure; very friable; many roots; 30 percent rounded pebbles up to 2 inches in diameter and well graded; extremely acid; gradual wavy boundary (4 to 10 inches thick)."
+      },
+      {
+        "name": "BE",
+        "top": 15,
+        "bottom": 33,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BE--6 to 13 inches; yellowish red (5YR 4/6) gravelly sandy loam; weak fine subangular blocky structure; friable, slightly sticky; common roots; 35 percent rounded pebbles up to 2 inches in diameter; faint coatings on some pebbles; very strongly acid; gradual wavy boundary. (0 to 10 inches thick)."
+      },
+      {
+        "name": "Bt",
+        "top": 33,
+        "bottom": 58,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--13 to 23 inches; reddish brown (5YR 4/4) very gravelly sandy loam; weak fine subangular blocky structure; friable, slightly sticky; common roots; 45 percent rounded gravel up to 2 inches in diameter; clay bridging between sand grains; dark reddish brown (2.5YR 3/4) clay films on gravel and some peds; very strongly acid; gradual wavy boundary  (10 to 20 inches thick)."
+      },
+      {
+        "name": "C",
+        "top": 58,
+        "bottom": 183,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH_class": "extremely acid",
+        "narrative": "C--23 to 72 inches; yellowish red (5YR 4/8) very gravelly sand; single grain; friable; few roots; 60 percent rounded gravel up to 2 inches in diameter; common thin flat fragments of ironstone conglomerate to 3 inches long; dark iron stains on some gravel; extremely acid."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,103 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic features recognized in this pedon are:\nOchric epipedon - The zone from 1 to 5 inches (A horizon)\nVitrandic subgroup feature - The zone from 1 to 19 inches (A, Bw1, and Bw2 horizons)\nCambic horizon - The zone from 5 to 19 inches (Bw1 and Bw2 horizons)\nParticle-size control section - the zone from 11 to 41 inches (part of the Bw1, the Bw2, and part of the BC horizons)\nADDITIONAL DATA: Full characterization data (8/96) NSSL, Lincoln, NE. Client assigned lab number S94ID-043-004.\nProject file number: 95P 27. Lab assigned number: Pedon 95P 151. Samples: 95P 1035-1038.\nKoffgo soils have a cryic temperature regime and an udic moisture regime.\nThe 3/2008 description reflects a change in classification from Loamy-skeletal, mixed, superactive Vitrandic Eutrocryepts to Loamy-skeletal, mixed, superactive Vitrandic Haplocryepts due to revision of the cryepts great groups and subgroups. The competing series section was not updated and should be reviewed after all the cryepts have been re-classified.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; forest litter; needles, cones, and twigs."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "broken",
+        "narrative": "A--1 to 5 inches; grayish brown (10YR 5/2) ashy silt loam, dark brown (10YR 3/3) moist; weak fine subangular blocky structure parting to weak medium granular; soft, very friable, slightly sticky and slightly plastic; many very fine and fine and common medium and coarse roots; many very fine irregular pores; 5 percent gravel; moderately acid (pH 5.6); clear broken boundary.  (2 to 10 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 13,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--5 to 13 inches; light gray (10YR 7/2) gravelly ashy silt loam, brown (10YR 5/3) moist; moderate medium subangular blocky structure; slightly hard, friable, nonsticky and slightly plastic; common very fine through coarse roots; common very fine irregular pores; 20 percent gravel; moderately acid (pH 5.8); clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 33,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw2--13 to 19 inches; light brownish gray (10YR 6/2) gravelly ashy silt loam, brown (10YR 5/3) moist; moderate medium subangular blocky structure; slightly hard, friable, nonsticky and slightly plastic; few very fine through coarse roots; common very fine irregular pores; 25 percent gravel; moderately acid (pH 5.8); clear smooth boundary. (combined thickness of the Bw horizons is 7 to 30 inches)"
+      },
+      {
+        "name": "BC",
+        "top": 48,
+        "bottom": 130,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely flaggy",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "diffuse",
+        "topography": "wavy",
+        "narrative": "BC--19 to 51 inches; light gray (10YR 7/1) extremely flaggy sandy loam, grayish brown (10YR 5/2) moist; massive; soft, very friable, nonsticky and nonplastic; common very fine and fine and few medium and coarse roots; few fine brown (7.5YR 4/3) moist clay films on undersides of rocks; 20 percent gravel, 40 percent flagstones, and 20 percent channers; moderately acid (pH 6.0); diffuse wavy boundary.  (17 to 50 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 130,
+        "bottom": 152,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt",
+        "narrative": "C--51 to 60 inches; white (N 8/) fragmental rhyolite, gray (N 5/) moist; 20 percent gravel, 70 percent flaggstones, and 5 percent channers; few very fine and fine roots occuring in fractures and hanging in voids; few fine brown (7.5YR 4/3) moist clay films on undersides of rocks and on top of rocks under silt like films; 5 percent irregular coarse voids between rock fragments; no fine earth material in voids."
+      }
+    ]
+  ]
 }

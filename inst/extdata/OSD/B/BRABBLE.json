@@ -56,5 +56,115 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 23 cm (A1 and A2 horizons).\nCambic horizon - The zone from 23 to 66 cm (Bw1 and Bw2 horizons).\nIdentifiable secondary carbonates - The zone from 66 to 97 cm (Bk and 2Bkqm horizons).\nDuripan - The zone from 84 to 97 cm (2Bkqm horizon).\nLithic contact - The boundary at 97 cm to underlying, hard unweathered bedrock (2R layer).\nParticle-size control section - The zone from 25 to 84 cm (Bw1, Bw2, and Bk horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 8 cm; grayish brown (10YR 5/2) gravelly sandy clay loam, very dark grayish brown (10YR 3/2) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; many very fine and fine roots; many very fine irregular pores; 20 percent gravel and 5 percent cobbles; neutral (pH 7.2); clear wavy boundary. (5 to 13 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A2--8 to 23 cm; light brownish gray (10YR 6/2) sandy clay loam, very dark grayish brown (10YR 3/2) moist; moderate medium platy structure; soft, very friable, slightly sticky and nonplastic; many very fine and fine roots; many very fine vesicular, irregular and tubular pores; 10 percent gravel; slightly alkaline (pH 7.4); gradual wavy boundary. (0 to 18 cm thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 23,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1--23 to 46 cm; yellowish brown (10YR 5/4) clay loam, very dark grayish brown (10YR 3/2) moist; weak medium platy structure parting to moderate medium subangular blocky; slightly hard, firm, slightly sticky and slightly plastic; many very fine and fine roots; many very fine tubular pores; 10 percent gravel; slightly alkaline (pH 7.8); gradual wavy boundary. (15 to 25 cm thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 46,
+        "bottom": 66,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--46 to 66 cm; light yellowish brown (10YR 6/4) loam, dark yellowish brown (10YR 4/4) moist; massive; slightly hard, friable, nonsticky and nonplastic; common very fine and fine roots; many very fine irregular pores; 10 percent gravel; slightly alkaline (pH 7.8); clear wavy boundary. (15 to 25 cm thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 66,
+        "bottom": 84,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 7.9,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bk--66 to 84 cm; pale brown (10YR 6/3) loam, yellowish brown (10YR 5/4) moist; massive; slightly hard, friable, nonsticky and nonplastic; few very fine and fine roots; many very fine irregular pores; strongly effervescent; secondary carbonates segregated in many filaments and masses; 10 percent gravel; moderately alkaline (pH 7.9); clear wavy boundary. (15 to 20 cm thick)"
+      },
+      {
+        "name": "2Bkqm",
+        "top": 84,
+        "bottom": 97,
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bkqm--84 to 97 cm; cemented material; extremely hard, brittle; indurated by opaline silica; strongly effervescent; secondary carbonates segregated in filaments and as coats on rock fragments; 10 percent gravel; clear wavy boundary. (8 to 25 cm thick)"
+      },
+      {
+        "name": "2",
+        "top": 97,
+        "narrative": "2--97 cm; fractured andesite."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,118 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The soils now placed in the Grantham series were formerly included with the Myatt and Trebloc series.  The differences between Grantham and Trebloc soils need further study.  Trebloc soils are presumed to have mineralogical or chemical differences based on landform and higher silt content.\nDiagnostic horizons and soil characteristics recognized in this pedon are:\nOchric epipedon - the zone from the surface to a depth of 11 inches (the A and Eg horizons)\nAlbic horizon - the zone from a depth of 6 to 11 inches (the Eg horizon)\nArgillic horizon - the zone from a depth of 13 to 77 inches (the Btg1, Btg2, and Btg3 horizons)\nAguic conditions - redoxymorphic features throughout the soil\nMLRA(S):  133A, 153A                      SIR:  NC0100\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0100 GRANTHAM    0-  2   58- 63  185-240  45- 55    40- 170\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0100 NONE            0-1.0  APPARENT DEC-MAY  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0100  0-11  VFSL L SIL              0-  0 100-100  6-18   3-  8\nNC0100 11-77  L CL SICL               0-  0 100-100 18-35   4-  8\nNC0100 77-99  VAR                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0100  0-11  3.5- 5.5  2.-4.  0- 0   2.0- 6.0  LOW\nNC0100 11-77  3.5- 5.5  0.-.5  0- 0   0.2- 0.6  LOW\nNC0100 77-99     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 6 inches; dark gray (10YR 4/1) very fine sandy loam; weak medium granular structure; very friable; many fine, medium, and coarse roots; very strongly acid; abrupt wavy boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "Eg",
+        "top": 15,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Eg--6 to 11 inches; light brownish gray (10YR 6/2) very fine sandy loam; weak medium granular structure; very friable; common fine and medium roots; strongly acid; clear wavy boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "BEg",
+        "top": 28,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BEg--11 to 13 inches; gray (10YR 6/1) loam; weak medium subangular blocky structure; friable; common fine roots; common fine pores; few fine distinct yellowish brown (10YR 5/6) masses of iron accumulation; very strongly acid; clear wavy boundary.  (0 to 5 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 33,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg1--13 to 36 inches; gray (10YR 6/1) loam; weak fine and medium subangular blocky structure; friable; few fine roots; few fine pores; few thin silt coatings and patchy clay films on faces of peds; common medium faint gray (10YR 5/1) iron depletions; common medium distinct brownish yellow (10YR 6/6), and common fine and medium prominent strong brown (7.5YR 5/8) masses of iron accumulation; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 91,
+        "bottom": 147,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg2--36 to 58 inches; gray (10YR 6/1) loam; weak medium subangular blocky structure; firm; few thin silt coatings and patchy clay films on faces of peds; few fine pores; common medium prominent strong brown (7.5YR 5/8), common medium distinct brownish yellow (10YR 6/6), and few fine prominent red (2.5YR 4/8) masses of iron accumulation; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btg3",
+        "top": 147,
+        "bottom": 196,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg3--58 to 77 inches; gray (10YR 6/1) clay loam; weak medium and coarse subangular blocky structure; firm; common medium prominent reddish yellow (7.5YR 6/8), common fine and medium prominent strong brown (7.5YR 6/8), and few fine prominent red (10R 4/8) masses of iron accumulation, and common medium faint gray (10YR 5/1) iron depletions; very strongly acid; gradual wavy boundary.  (Combined thickness of the Btg horizon is 35 to 72 inches.)"
+      },
+      {
+        "name": "Cg1",
+        "top": 196,
+        "bottom": 241,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Cg1--77 to 95 inches; gray (10YR 6/1) clay loam; massive; firm; common medium prominent strong brown (7.5YR 5/6) and common medium distinct brownish yellow (10YR 6/8) masses of iron accumulation; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 241,
+        "bottom": 279,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Cg2--95 to 110 inches; light gray (10YR 7/1) loam; many coarse faint gray (10YR 6/1) iron depletions, and few fine prominent strong brown (7.5YR 5/6) masses of iron accumulation; massive; friable; very strongly acid."
+      }
+    ]
+  ]
 }

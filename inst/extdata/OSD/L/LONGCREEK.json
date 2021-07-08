@@ -56,5 +56,94 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 30 cm (A, BAt, and Bt1 horizons).\nArgillic horizon - The zone from 18 to 46 cm (Bt1 and Bt2 horizons).\nLithic contact - The boundary at 46 cm to underlying hard, unweathered bedrock (R layer).\nParticle-size control section - The zone from 18 to 46 cm (Bt1 and Bt2 horizons).\nClassification was updated to 11th edition on 07/2011 changed from Lithic Argixerolls to Aridic Lithic Argixerolls.\nADDITIONAL DATA: Previous authors and editors include: DCE-JJJ-TM.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 8 cm; dark grayish brown (10YR 4/2) very cobbly loam, very dark brown (10YR 2/2) moist; moderate fine and medium granular structure; slightly hard, very friable, moderately sticky and moderately plastic; common very fine and fine roots; many very fine and fine tubular and interstitial pores; 3 percent stones; 25 percent cobbles and 20 percent gravel; neutral (pH 7.0); clear smooth boundary.  (5 to 20 cm thick)"
+      },
+      {
+        "name": "BAt",
+        "top": 8,
+        "bottom": 18,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BAt--8 to 18 cm; brown (7.5YR 4/2) very cobbly clay loam, dark brown (7.5YR 3/2) moist; moderate medium angular blocky structure; hard, friable, moderately sticky and moderately plastic; common very fine and fine and few medium roots; many very fine and fine tubular pores; few faint clay bridges between mineral grains; 30 percent cobbles and 15 percent gravel; neutral (pH 7.0); clear wavy boundary.  (0 to 15 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "cf_class": "very cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--18 to 30 cm; brown (7.5YR 4/2) very cobbly clay, dark brown (7.5YR 3/2) moist; strong fine and medium angular blocky structure; very hard, friable, very sticky and very plastic; common very fine, few fine and medium roots; common very fine and fine tubular pores; 25 percent cobbles and 15 percent gravel; common pressure cutans on faces of peds; neutral (pH 7.0); gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 30,
+        "bottom": 46,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "very cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt2--30 to 46 cm; light brown (7.5YR 6/4) very cobbly clay, brown (7.5YR 4/4) moist; strong medium and coarse angular blocky structure; very hard, friable, very sticky and very plastic; common very fine, few fine and medium roots, mostly along or on peds; common very fine and fine and few medium tubular pores; 25 percent cobbles and 15 percent gravel; few faint clay films on rock fragments; common pressure cutans on faces of peds; neutral (pH 7.0); abrupt irregular boundary.  (Combined thickness of the Bt horizons is 18 to 36 cm)"
+      },
+      {
+        "name": "R",
+        "top": 46,
+        "texture_class": "clay",
+        "narrative": "R--46 cm; hard fractured andesite with some material between cracks and many clay film coatings on fractures."
+      }
+    ]
+  ]
 }

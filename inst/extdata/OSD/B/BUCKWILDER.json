@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from a depth of 0 to 21 inches (A, 2Bt1, and 2Bt2 horizons)\nArgillic horizon - from a depth of 8 to 27 inches (2Bt1, 2Bt2, and 2Btk horizons)\nParticle-size control section - from a depth of 8 to 27 inches (2Bt1, 2Bt2,and 2Btk horizons); over 60 percent clay\nXeric soil moisture regime\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 8 inches; grayish brown (10YR 5/2) very cobbly clay loam, very dark grayish brown (10YR 3/2) moist; weak fine and medium granular structure; soft, very friable, slightly sticky and slightly plastic; common very fine and fine roots; many very fine tubular and irregular pores; 25   percent gravel and 20 percent cobbles; slightly acid (pH 6.2); abrupt wavy boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "2Bt1",
+        "top": 20,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bt1--8 to 12 inches; brown (10YR 4/3) clay, dark brown (10YR 3/3) moist; strong medium prismatic structure; very hard, very firm, moderately sticky and very plastic; few very fine and fine roots; common very fine tubular and irregular pores; common distinct clay films on faces of peds; 5 percent gravel; neutral (pH 6.8); gradual smooth boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "2Bt2",
+        "top": 30,
+        "bottom": 53,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bt2--12 to 21 inches; brown (10YR 4/3) clay, dark brown (10YR 3/3) moist; strong medium prismatic structure; very hard, very firm, moderately sticky and very plastic; few very fine and fine roots; common very fine tubular and irregular pores; common distinct clay films on faces of peds; 5 percent gravel; neutral (pH 7.2); gradual smooth boundary.  (7 to 20 inches thick)"
+      },
+      {
+        "name": "2Btk",
+        "top": 53,
+        "bottom": 69,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "cf_class": "cobbly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2Btk--21 to 27 inches; dark yellowish brown (10YR 4/4) cobbly clay, brown (10YR 4/3) moist; moderate coarse prismatic structure; very hard, very firm, moderately sticky and very plastic; few very fine roots; common very fine tubular and irregular pores; common distinct clay films on faces of peds; strongly effervescent secondary carbonates on rock fragments; 10 percent gravel and 10 percent cobbles; moderately alkaline (pH 8.2); clear smooth boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 69,
+        "narrative": "2R--27 inches; fractured igneous bedrock; violently effervescent secondary carbonates along bedrock fractures."
+      }
+    ]
+  ]
 }

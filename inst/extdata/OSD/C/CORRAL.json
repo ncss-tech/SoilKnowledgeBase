@@ -56,5 +56,73 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 10 cm (A1 and A2 horizons).\nArgillic horizon - The zone from 10 to 30 cm (Bt horizon).\nParalithic contact - The boundary at 30 cm to underlying soft bedrock (Crt layer).\nParticle-size control section - The zone from the soil surface to 30 cm (A1, A2, and Bt horizons).\nADDITIONAL DATA:  The typical pedon at the series type location has full characterization data from the Soil Survey Laboratory (SSL), Lincoln, NE, as soil survey sample number S81CA-035-005 (pedon # 81P0697).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 5 cm; grayish brown (10YR 5/2) sandy loam, very dark grayish brown (10YR 3/2) moist; strong very fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; few very fine roots; many very fine interstitial pores; 10 percent gravel; neutral (pH 6.8); clear wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--5 to 10 cm; light brownish gray (10YR 6/2) sandy loam, very dark grayish brown (10YR 3/2) moist; massive; slightly hard, very friable, nonsticky and nonplastic; common very fine roots; many very fine interstitial and common very fine tubular pores; neutral (pH 7.0); clear wavy boundary.  (Combined thickness of the A horizons is 8 to 18 cm)."
+      },
+      {
+        "name": "Bt",
+        "top": 10,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--10 to 30 cm; light yellowish brown (10YR 6/4) sandy clay loam, brown (10YR 4/3) moist; moderate very fine prismatic structure parting to moderate very fine and fine angular blocky; hard, friable, moderately sticky and moderately plastic; common very fine, fine, and medium roots; common very fine tubular pores; many faint and distinct clay films on faces of peds and lining pores; slightly alkaline (pH 7.4); abrupt wavy boundary.  (20 to 33 cm thick)"
+      },
+      {
+        "name": "Crt",
+        "top": 30,
+        "texture_class": "sand",
+        "narrative": "Crt--30 cm; strongly fractured soft tuffaceous sandstone with horizontal and vertical fractures 5 to 25 cm apart; common fine and medium roots are along cracks and fractures; common faint and distinct clay films lining fractures."
+      }
+    ]
+  ]
 }

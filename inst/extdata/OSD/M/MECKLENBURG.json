@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface of the soil to a depth to 8 inches.\nArgillic horizon - the zone between depth of 8 and 25 inches.\nUltic Hapludalfs feature - base saturation of 35 to 60 percent in the zone between 36 and 60 inches.\nMLRA = 136\nSOI-5 Soil Name \tSlope Airtemp FrFr/Seas Precip Elevation\nNC0072 MECKLENBUR 2- 25 58- 66   180-225  37- 60 400- 900\nSOI-5 FloodL FloodH Watertable Kind Months Bedrock Hardness\nNC0072 NONE          6.0-6.0     -          60-60\nSOI-5  Depth Texture \t\t 3-Inch No-10  Clay% -CEC-\nNC0072 0- 8  L FSL SL \t\t  0- 5  80-100 8-25  4- 20\nNC0072 0- 8  GR-L GR-SL GR-FSL  2- 10 55- 85 8-25  4- 20\nNC0072 0- 8  CL SCL             0- 5  90-100 20-35 10- 25\nNC0072 8-25  C                  0- 5  85-100 40-60 15- 35\nNC0072 25-36 L SCL CL           0- 5  85-100 20-35 10- 20\nNC0072 36-60 VAR - - - -\nSOI-5  Depth \t-pH- \t\tO.M. \tSalin \tPermeab \tShnk-Swll\nNC0072 0- 8     5.6- 7.3     .5-2. 0- 0         0.6- 2.0 \tLOW\nNC0072 0- 8     5.6- 7.3     .5-2. 0- 0 \t\t0.6- 2.0 \tLOW\nNC0072 0- 8     5.6- 7.3     .5-1. 0- 0 \t\t0.6- 2.0 \tLOW\nNC0072 8-25     5.6- 7.3     0.-.5 0- 0 \t\t0.06- 0.2 \tMODERATE\nNC0072 25-36    5.6- 7.3     0.-.5 0- 0 \t\t0.6- 2.0 \tLOW\nNC0072 36-60       - \t\t - \t- \t\t   -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; reddish brown (5YR 4/4) loam; moderate medium granular structure; friable; many fine roots; common fine pores; common fine black concretions; slightly acid, clear smooth boundary. (2 to 11 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 43,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--8 to 17 inches; yellowish red (5YR 4/6) clay; moderate medium subangular blocky structure; firm, sticky, plastic; common fine roots; few fine pores; many fine black concretions; common distinct clay films on faces of peds; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 43,
+        "bottom": 64,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--17 to 25 inches; yellowish red (5YR 4/8) clay; common fine distinct brownish yellow (10YR 6/6) mottles; moderate medium subangular blocky structure; firm, sticky, plastic; few fine roots; few fine pores; common black concretions; common distinct clay films on faces of peds; slightly acid; gradual wavy boundary. (Combined thickness of the Bt horizon is 12 to 35 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 64,
+        "bottom": 91,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--25 to 36 inches; yellowish red (5YR 4/8) clay loam; common medium faint reddish yellow (7.5YR 6/6) and common fine distinct yellowish brown (10YR 5/4) mottles; weak subangular blocky structure; firm, sticky, plastic; few fine black concretions; common fine lenses of gray clayey saprolite; slightly acid; gradual wavy boundary. (3 to 15 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 91,
+        "bottom": 152,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "slightly acid",
+        "narrative": "C--36 to 60 inches; mottled yellowish red (5YR 4/8), reddish yellow (7.5YR 6/6) and yellowish brown (10YR 5/4) highly weathered saprolite that has a sandy clay loam texture; massive; friable; many black and gray minerals; slightly acid."
+      }
+    ]
+  ]
 }

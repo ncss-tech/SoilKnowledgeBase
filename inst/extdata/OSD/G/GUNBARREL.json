@@ -56,5 +56,65 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this profile are:\nOchric Epipedon:  The zone between 0 to 10 inches:  (A and AC)\nSecondary Carbonates:  The zone between 10 to 60 inches (BCkg)\nRedox Features:  The zone between 10 to 60 inches (BCkg)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 5 inches; grayish brown (10YR 5/2) loamy sand, dark grayish brown (10YR 4/2) moist; single grained; loose; many dark gray and red magnetic mineral grains; moderately alkaline (pH 8.0); clear smooth boundary.  (4 to 6 inches thick)"
+      },
+      {
+        "name": "AC",
+        "top": 13,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy coarse sand",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "AC--5 to 10 inches; brown (10YR 5/3) loamy coarse sand, grayish brown (10YR 5/2) moist; weak coarse subangular blocky structure; loose; many dark gray and red magnetic mineral grains; moderately alkaline (pH 8.0); clear smooth boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "BCkg",
+        "top": 25,
+        "bottom": 152,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 1,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy coarse sand",
+        "pH": 9,
+        "pH_class": "strongly alkaline",
+        "narrative": "BCkg--10 to 60 inches; gray (2.5Y 6/1) loamy coarse sand, grayish brown (2.5Y 5/2) moist; single grained; loose; common medium distinct mottles, dark yellowish brown (10YR 4/6) moist; many dark gray and red magnetic sand grains; visible secondary calcium carbonate occurring as concretions and as coatings on the sand grains; calcareous; strongly alkaline (pH 9.0)."
+      }
+    ]
+  ]
 }

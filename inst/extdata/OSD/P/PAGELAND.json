@@ -56,5 +56,77 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: These soils were formerly included with the Kirksey series in mapping.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface of the soil to a depth of 7 inches (Ap horizon).\nArgillic horizon - the zone between a depth of 7 and 33 inches (Bt1, Bt2, and Bt3 horizons).\nParalithic contact - Weathered and fractured bedrock at a depth of 33 inches (Cr horizon).\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nSC0138 PAGELAND    0- 15   60- 62  210-225  48- 50   350- 600\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nSC0138 NONE          1.5-3.0  PERCHED  DEC-MAR  20-40   SOFT\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nSC0138  0- 7  SIL L FSL               0-  1  88-100  4-24   4-  7\nSC0138  7-26  SICL SIL                0-  1  90-100 18-35   6- 22\nSC0138 26-33  SIL SICL SIC            0-  2  90-100 18-45   6- 22\nSC0138 33-60  WB                       -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nSC0138  0- 7  3.6- 5.5  .5-2.  0- 0   0.6- 2.0  LOW\nSC0138  7-26  3.6- 5.5  0.-.5  0- 0   0.2- 0.6  LOW\nSC0138 26-33  4.5- 6.0  0.-.5  0- 0   0.2- 0.6  LOW\nSC0138 33-60     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 7 inches; yellowish brown (10YR 5/4) silt loam; weak fine subangular blocky structure; friable; few fine roots; few fine decayed roots; few fine and medium clean sand grains; few worm casts; few coarse pores; slightly acid; clear wavy boundary.  (2 to 8 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 48,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--7 to 19 inches; olive yellow (2.5Y 6/6) silty clay loam; common medium distinct strong brown (7.5YR 5/6) mottles; weak medium subangular blocky structure; friable; few fine roots; many fine pores; few distinct clay films on faces of peds; 1 percent slate channers; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 48,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--19 to 26 inches; yellowish brown (10YR 5/6) silty clay loam; common medium faint strong brown (7.5YR 5/6) and common fine distinct light brownish gray (2.5Y 6/2) mottles; moderate medium subangular blocky structure; friable; few fine roots; common fine pores; common distinct clay films on faces of peds; 2 percent slate channers; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 66,
+        "bottom": 84,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt3--26 to 33 inches; mottled strong brown (7.5YR 5/8), brownish yellow (10YR 6/8) and gray (N 6/0) silty clay loam; weak medium subangular blocky structure; friable in brown and yellow parts and firm in gray part; few fine roots; many distinct clay films on faces of peds; 5 percent slate channers; moderately acid; gradual wavy boundary.  (Combined thickness of the Bt horizon is 13 to 36 inches.)"
+      },
+      {
+        "name": "Cr",
+        "top": 84,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "narrative": "Cr--33 inches; multicolored weathered fractured slate; difficult to dig with spade; few widely spaced seams of light olive gray (5Y 6/2) silty clay in cracks."
+      }
+    ]
+  ]
 }

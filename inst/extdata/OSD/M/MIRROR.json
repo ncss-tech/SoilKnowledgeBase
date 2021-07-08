@@ -56,5 +56,99 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nUmbric epipedon: the zone from 1 to 9 inches (A horizon)\nLithic contact: monzonite bedrock at 31 inches (R horizon)\nCambic horizon: the zone from 9 to 23 inches (Bw1, Bw2)\nThe classification in 1987 was loamy-skeletal, mixed Pergelic Cryumbrepts. The classification in 1966 was loamy-skeletal, mixed, Typic Cryorthods\nThe revision of May 2007 updated the taxonomic class from Humic Dystrocryepts is based on the tenth edition of the Keys to Soil Taxonomy, 2006.\nThe type location needs to be moved to a location that has the type location in a published manuscript. With the base of the cambic at 23 inches the epipedon meets the thickness criterion for an umbric. However, the layer designated as a C horizon seems to meet the criteria for a cambic. If so, then the umbric epipedon is too thin. A more representative pedon was not available to better reflect the umbric epipedon thickness.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi and Oe--0 to 1 inch; undecomposed and partially decomposed organic matter, chiefly alpine grasses and plant roots."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 5.2,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--1 to 9 inches; very dark gray (10YR 3/1) gravelly sandy loam, black (10YR 2/1) moist; moderate fine granular structure; soft, very friable, slightly sticky and slightly plastic; 20 percent angular gravel; strongly acid (pH 5.2); clear smooth boundary.  (5 to 15 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 23,
+        "bottom": 33,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--9 to 13 inches; brown (7.5YR 5/3) gravelly sandy loam, brown (7.5YR 4/3) moist; weak fine subangular blocky structure parting to fine granular; slightly hard, very friable, nonsticky and nonplastic; 25 percent angular gravel; small pellets of humus and iron throughout the horizon; very strongly acid (pH 5.0); clear wavy boundary.  (4 to 8 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 33,
+        "bottom": 58,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw2--13 to 23 inches; reddish yellow (7.5YR 6/6) very gravelly sandy loam, strong brown (7.5YR 5/6) moist; weak fine subangular blocky structure parting to fine granular; slightly hard, very friable, nonsticky and nonplastic; 60 percent gravel; numerous dark pellets of humus and iron throughout the horizon; very strongly acid (pH 4.8); gradual wavy boundary.  (6 to 17 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 58,
+        "bottom": 79,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely stony",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--23 to 31 inches; light yellowish brown (10YR 6/4) extremely stony sandy loam, yellowish brown (10YR 5/4) moist; massive; slightly hard, very friable, nonsticky and nonplastic; 75 percent stones; very strongly acid (pH 4.8); abrupt wavy boundary.  (0 to 25 inch thick)"
+      },
+      {
+        "name": "R",
+        "top": 79,
+        "narrative": "R--31 inches; quartz monzonite."
+      }
+    ]
+  ]
 }

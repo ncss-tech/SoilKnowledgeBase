@@ -56,5 +56,89 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: In October 2000, taxonomic classification was converted to the closest match found in Soil Taxonomy, Second Edition 1999.  Previous classification was fine-loamy, mixed Mollic Eutroboralfs. Some update was made to horizon nomenclature, competing series section, etc.  Other placements may be more appropriate after a complete update.\nResponsibility transferred to the Lakewood MO 5/2001.\nThis pedon may have sufficient volcanic glass for the Vitrandic subgroup; future investigation will need to determine this. At this time it is presumed to have a significant component of volcanic glass, so an estimate was added to the Range in Characteristics. This may help to provide separation from competitors until this question is resolved.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon:  The zone from 0 to 13 inches.  (A and E horizons)\nArgillic horizons:  The zone from 19 to 27 inches.  (Bt horizons)\nLithic contact:  Tuff at 27 inches. (2R layer)\nParticle-size control section - from 19 to 27 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 6 inches; dark grayish brown (10YR 4/2) loam, very dark grayish brown (10YR 3/2) moist; weak fine granular structure; soft, very friable, slightly sticky and slightly plastic; many fine roots; slightly alkaline (pH 7.4); clear smooth boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 15,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--6 to 13 inches; pale brown (10YR 6/3) loam, brown (10YR 4/3) moist; weak medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; common medium roots; slightly alkaline (pH 7.4); clear smooth boundary.  (2 to 8 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 33,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BE--13 to 19 inches; light yellowish brown (10YR 6/4) clay loam, dark yellowish brown (10YR 4/4) moist; weak medium subangular blocky structure; hard, friable, moderately sticky and moderately plastic; common medium roots; slightly alkaline (pH 7.4); clear smooth boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 48,
+        "bottom": 69,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--19 to 27 inches; pink (7.5YR 7/4) sandy clay loam, brown (7.5YR 5/4) moist; moderate fine and medium subangular blocky structure; hard, firm, moderately sticky and moderately plastic; common thin discontinuous clay films on faces of peds; few fine and medium roots; slightly alkaline (pH 7.4); abrupt wavy boundary.  (6 to 16 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 69,
+        "narrative": "2R--27 inches; tuff."
+      }
+    ]
+  ]
 }

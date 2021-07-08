@@ -56,5 +56,87 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\n1. This soil was formerly included in the Evesboro series.\n2. Diagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon - The zone from the surface of the soil to a depth of  28 cm (11 inches) (Oi and Ap horizons).\nb. Redoximorphic features Mottles due to wetness in the zone between 155 to 188 cm (61 and 74 inches) (C horizon).                                                                                                                                                                        c. Lamellae: thin bands of yellowish brown (10YR 5/6) loamy sand in the zone from 124 to 155 cm (49 to 61 inches) (E & Bt horizon).                                                                                    3. This soil has a Bw horizon because of high chroma and reddish hue (5YR 5/8) from 61 to 107 cm (24 to 42 inches).  It is not a cambic horizon because the texture is not very fine sand, loamy very fine sand, or finer than these textures.                                                                                                                     4. The 11/2005 revision reclassifies Runclint from mesic, coated Typic Quartzipsamments to mesic, coated Lamellic Quartzipsamments per 9th Edition of the Keys to Soil Taxonomy, 2003.                                                  5. Some pedons in wooded areas may have a micro sequence of A-E-Bh horizons (micro-podzol). Total thickness of the A-E-Bh horizon sequence is less than 12.5 cm (5 inches) and individual horizons are less than 2.5 cm (1 inch) thick.\nADDITIONAL DATA: This series sampled as S85MD-019-009; S97MD-045-017.  Data can be obtained from NSSL.\nSOIL INTERPRETATION RECORD: MD0141\nREVISED: 11/2002-JEB, WDC, JAK; 11/2005-JEB, DHK\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nMD0141 RUNCLINT    0-  5   52- 58  190-210  42- 48     5-  50\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nMD0141 NONE          4.0-6.0  APPARENT JAN-MAY  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nMD0141  0-22  S                       0-  0  70-100  1- 5 0.5-1.0\nMD0141  0-22  LS                      0-  0  70-100  4-10 0.5-1.0\nMD0141 22-40  S LS                    0-  0  70-100  1- 8 0.3-1.0\nMD0141 40-59  S LS GR-S               0-  0  50-100  1- 8 0.7-1.0\nMD0141 59-72  SR S SCL                0-  0  50-100  1-25 0.3-1.5\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nMD0141  0-22  3.6- 5.5  .5-3.  0- 0   6.0-  20  LOW\nMD0141  0-22  3.6- 5.5  .5-3.  0- 0   6.0-  20  LOW\nMD0141 22-40  3.6- 5.5  0.-.5  0- 0   6.0-  20  LOW\nMD0141 40-59  3.6- 5.5  0.-.5  0- 0   6.0-  20  LOW\nMD0141 59-72  3.6- 5.5  0.-.5  0- 0   0.6- 2.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 5 cm (0 to 2 inches); slightly decomposed loblolly pine needles and twigs; abrupt smooth boundary. (0 to 5 cm)"
+      },
+      {
+        "name": "E",
+        "top": 28,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--28 to 61 cm (11 to 24 inches); yellowish brown (10YR 5/6) sand; massive; very friable; few medium and coarse roots; many very fine irregular pores; strongly acid; clear wavy boundary. (28 to 43 cm thick)"
+      },
+      {
+        "name": "B/E",
+        "top": 61,
+        "bottom": 107,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "B/E--61 to 107 cm (24 to 42 inches); yellowish red (5YR 5/8) (B) and light yellowish brown (10YR 6/4) (E) sand; common medium distinct brownish yellow (10YR 6/6) mottles; massive; very friable; few fine, medium and coarse roots; few fine and medium irregular pores; common medium rounded dark yellowish brown (10YR 3/4) soft accumulations of iron and manganese; very strongly acid; clear wavy boundary. (28 to 58 cm thick)"
+      },
+      {
+        "name": "E",
+        "top": 107,
+        "bottom": 124,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "E--107 to 124 cm (42 to 49 inches); variegated colors of light yellowish brown (10YR 6/4) and light gray (10YR 7/2) sand; massive; very friable; common medium rounded reddish brown (5YR 4/4) soft accumulations of iron and manganese; very strongly acid; clear irregular boundary. (13 to 23 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 124,
+        "bottom": 155,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "E & Bt--124 to 155 cm (49 to 61 inches); light yellowish brown (10YR 6/4) sand (E); single grain; loose; few yellowish brown (10YR 5/6) loamy sand lamellae 1 to 3 mm thick (Bt); weak thin platy structure; very friable; common faint continuous clay bridging between sand grains in lamellae; individual lamellae are discontinuous in length within the pedon; common medium rounded dark reddish brown (2.5YR 3/4) soft accumulations of iron and manganese; 5 percent pebbles; very strongly acid; clear irregular boundary. (15 to 30 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 155,
+        "bottom": 188,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loamy coarse sand",
+        "pH_class": "very strongly acid",
+        "narrative": "C--155 to 188 cm (61 to 74 inches); pale brown (10YR 6/3) loamy coarse sand; massive; friable; common medium distinct light gray (10YR 7/1) irregular iron depletions throughout; 5 percent pebbles; very strongly acid."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are: ochric epipedon - the zone from the surface to a depth of 8 inches (Oa and A horizons); cambic horizon - the zone from 8 to 26 inches (Bg horizon); vertic subgroup - has an estimated linear extensibility greater than 6 cm; aquic soil moisture condition based on low chroma below the A horizon with redox concentrations. 1/31/2011-TYPE LOCATION error was corrected.\nADDITIONAL DATA:  Soil Interpretation Record number is MN0579.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oa",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oa--0 to 4 inches; black (10YR 2/1) muck; moderate fine granular structure; very friable; many fine roots; moderately acid; abrupt smooth boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 10,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--4 to 8 inches; black (N 2/0) silty clay loam; very dark gray (10YR 3/1) dry; moderate fine subangular blocky structure; moderately plastic and moderately sticky, wet; many fine roots; slightly acid; abrupt wavy boundary.  (2 to 5 inches thick)"
+      },
+      {
+        "name": "Bg",
+        "top": 20,
+        "bottom": 66,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg--8 to 26 inches; grayish brown (2.5Y 5/2) silty clay; moderate medium subangular blocky structure that parts to weak fine subangular blocky; very plastic and very sticky, wet; common fine roots in upper part, few in lower part; common medium prominent yellowish brown (10YR 5/6) Fe concentrations; slightly acid; clear wavy boundary.  (15 to 35 inches thick)"
+      },
+      {
+        "name": "BCg",
+        "top": 66,
+        "bottom": 114,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BCg--26 to 45 inches; light brownish gray (2.5Y 6/2) silty clay; weak medium subangular blocky structure that parts to weak fine subangular blocky; very plastic and very sticky, wet; few fine roots; common medium prominent yellowish brown (10YR 5/6) Fe concentrations; strongly effervescent; moderately alkaline; clear smooth boundary.  (6 to 20 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 114,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "Cg--45 to 60 inches; light brownish gray (2.5Y 6/2) and light gray (2.5Y 7/2) silty clay loam; massive; moderately plastic and moderately sticky, wet; common medium prominent yellowish brown (10YR 5/4) Fe concentrations; few medium rounded white (2.5Y 8/2) soft masses of calcium carbonate; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

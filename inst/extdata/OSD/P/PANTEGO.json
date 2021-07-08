@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nUmbric epipedon - the zone from the surface to a depth of 27 inches (the Ap, A and Bt horizons)\nArgillic horizon - the zone from a depth of 18 to 65 inches (the Bt, Btg1, Btg2, and Btg3 horizons)\nMLRA: 133A, 153A\nSIR: NC0051, NC0218 (Flooded), NC0217 (Ponded)\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0051 PANTEGO     0-  2   59- 70  190-310  38- 60    25- 450\nNC0217 PANTEGO     0-  1   59- 70  190-310  50- 60    25- 300\nNC0218 PANTEGO     0-  2   59- 70  190-310  38- 60    25- 300\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0051 NONE   RARE     0-1.0  APPARENT NOV-MAY  60-60\nNC0217 NONE             -     APPARENT    -     60-60\nNC0218 COMMON          0-1.0  APPARENT JAN-DEC  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0051  0-18  MK-L MK-FSL             0-  0  95-100  5-15  11- 18\nNC0051  0-18  L FSL SL                0-  0  95-100  5-15   5- 13\nNC0051  0-18  LFS LS                  0-  0  95-100  4-10   4- 12\nNC0051 18-42  SCL SL CL               0-  0  95-100 18-35   4-  8\nNC0051 42-65  CL SC SCL               0-  0  95-100 20-40   4-  9\nNC0217  0- 5  MK-LS LS LFS            0-  0  95-100  4-10  11- 18\nNC0217  0- 5  L FSL SL                0-  0  95-100  5-15   5- 13\nNC0217  0- 5  MUCK                    0-  0    -     0- 0   4- 12\nNC0217  5-32  SL SCL CL               0-  0  95-100 18-35   4-  8\nNC0217 32-64  SC SCL CL               0-  0  95-100 20-40   4-  9\nNC0218  0-18  MK-L MK-FSL MK-SL       0-  0  95-100  5-15  11- 18\nNC0218  0-18  L FSL SL                0-  0  95-100  5-15   5- 13\nNC0218  0-18  MK-LS MK-FSL            0-  0  95-100  4-10   4- 12\nNC0218 18-42  SCL SL CL               0-  0  95-100 18-35   4-  8\nNC0218 42-65  CL SC SCL               0-  0  95-100 20-40   4-  9\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0051  0-18  3.5- 5.5  10-15  0- 0   0.6- 2.0  LOW\nNC0051  0-18  3.5- 5.5  4.-10  0- 0   2.0- 6.0  LOW\nNC0051  0-18  3.5- 5.5  3.-10  0- 0   2.0- 6.0  LOW\nNC0051 18-42  3.5- 5.5  .5-2.  0- 0   0.6- 2.0  LOW\nNC0051 42-65  3.5- 5.5  0.-.5  0- 0   0.6- 2.0  LOW\nNC0217  0- 5  3.5- 5.5  6.-15  0- 2   2.0- 6.0  LOW\nNC0217  0- 5  3.5- 5.5  4.-10  0- 2   2.0- 6.0  LOW\nNC0217  0- 5  3.5- 5.5  25-99  0- 2   6.0-  20  LOW\nNC0217  5-32  3.5- 5.5  .5-2.  0- 2   0.6- 2.0  LOW\nNC0217 32-64  3.5- 5.5  .5-1.  0- 2   0.2- 0.6  LOW\nNC0218  0-18  3.5- 5.5  10-15  0- 0   0.6- 2.0  LOW\nNC0218  0-18  3.5- 5.5  4.-10  0- 0   2.0- 6.0  LOW\nNC0218  0-18  3.5- 5.5  10-15  0- 0   2.0- 6.0  LOW\nNC0218 18-42  3.5- 5.5  .5-2.  0- 0   0.6- 2.0  LOW\nNC0218 42-65  3.5- 5.5  0.-.5  0- 0   0.6- 2.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 10 inches; black (10YR 2/1) loam; weak fine granular structure; very friable; many fine roots; very strongly acid; gradual wavy boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 25,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--10 to 18 inches; very dark gray (10YR 3/1) loam; weak fine granular structure; friable; very strongly acid; clear smooth boundary.  (4 to 14 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 46,
+        "bottom": 69,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--18 to 27 inches; very dark gray (10YR 3/1) sandy clay loam; weak fine subangular blocky structure; friable; few faint clay films on faces of peds and in pores; very strongly acid; gradual wavy boundary.  (0 to 18 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 69,
+        "bottom": 107,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg1--27 to 42 inches; gray (10YR 5/1) sandy clay loam; few fine and medium distinct mottles of brownish yellow (10YR 6/6); weak fine and medium subangular blocky structure; friable; slightly sticky; few faint clay films on faces of peds; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 107,
+        "bottom": 140,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg2--42 to 55 inches; gray (10YR 6/1) sandy clay loam; few medium and coarse distinct mottles of yellowish brown (10YR 5/6); weak fine subangular blocky structure; friable, slightly sticky; few faint clay films on faces of peds; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btg3",
+        "top": 140,
+        "bottom": 165,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Btg3--55 to 65 inches; gray (10YR 6/1) sandy clay loam; weak coarse subangular blocky structure; friable; few faint clay films on faces of peds; very strongly acid.  (Combined thickness of the Btg horizons is 30 to more than 60 inches.)"
+      }
+    ]
+  ]
 }

@@ -56,5 +56,77 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features and horizons recognized in this profile include:\nAlbic horizon: 2 to 3 inches, 6 to 8 cm. (E horizon)\nSpodic horizon: 3 to 6 inches, 8 to 16 cm. (Bs horizon)\nCambic horizon: 6 to 15 inches, 16 to 38 cm. (Bw horizon)\nCoarse-loamy, particle-size control section: 10 to 40 inches, 25 to 100 cm, below the O horizon\nTemperature regime: cryic\nMoisture regime: Udic\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "pH": 4.9,
+        "pH_class": "very strongly acid",
+        "narrative": "Oe--0 to 2 inches (0-6 cm); very dark gray (5YR 3/1) moderately decomposed plant material; many very fine and fine, common medium and few coarse roots; very strongly acid; clear (pH 4.9), smooth boundary. (1 to 6 inches thick, 3 to 15 cm)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 8,
+        "moist_hue": "5YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "narrative": "E--2 to 3 inches (6 to 8 cm); gray (5YR 6/1) silt loam; weak, medium, subangular blocky structure; very friable, nonsticky and nonplastic; common very fine and fine, common medium and few coarse roots; very strongly acid (pH 4.5); clear, smooth boundary. (1 to 5 inches thick, 3 to 13 cm)"
+      },
+      {
+        "name": "Bs",
+        "top": 8,
+        "bottom": 15,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 5.2,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bs--3 to 6 inches (8 to 16 cm); dark reddish brown (5YR 3/4) and yellowish brown (10YR 5/8) silt loam; moderate, medium, subangular blocky structure; very friable, nonsticky and nonplastic; common very fine and fine and common medium roots; strongly acid (pH 5.2); clear smooth boundary. (2 to 4 inches thick, 5 to 10 cm)"
+      },
+      {
+        "name": "Bw",
+        "top": 15,
+        "bottom": 38,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 5.3,
+        "pH_class": "strongly acid",
+        "narrative": "Bw--6 to 15 inches (16 to 38 cm); olive brown (2.5Y 4/4) silt loam; weak, medium, granular structure; very friable, nonsticky and nonplastic; common very fine and fine and common medium roots; strongly acid (pH 5.3); gradual, smooth boundary. (4 to 10 inches thick, 10 to 25 cm)"
+      },
+      {
+        "name": "C",
+        "top": 38,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "narrative": "C--15 to 60 inches (38 to 152 cm); light olive brown (2.5Y 5/3) silt loam; massive; very friable, nonsticky and nonplastic; 3 mm dark yellowish brown (10YR 4/6) high chroma redox concentrations (approximately 10 percent of horizon); 2 mm grayish brown (10YR 5/2) low chroma redox depletions (approximately 5 percent of horizon); moderately acid (pH 5.8)"
+      }
+    ]
+  ]
 }

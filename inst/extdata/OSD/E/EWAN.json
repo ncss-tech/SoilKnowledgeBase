@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this profile include:  a reduced matrix from 0 to 60 inches; aquic conditions; a cryic temperature regime; pH values greater than 5.5 (1:1 H2O) throughout the profile; a control section from 10 to 40 inches that is fine-loamy.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ag",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Ag--0 to 4 inches; very dark gray (10YR 3/1) silt loam; weak medium subangular blocky structure; very friable, slightly sticky and slightly plastic; reduced matrix; many very fine, fine and medium roots; moderately acid (pH 5.8); gradual wavy boundary. (2 to 6 inches thick)"
+      },
+      {
+        "name": "Cg1",
+        "top": 10,
+        "bottom": 56,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Cg1--4 to 22 inches; dark gray (5Y 4/1) loam; weak coarse subangular blocky structure; very friable, slightly sticky and slightly plastic; common large distinct dark greenish gray (5GY 4/1) redox depletions; 5 percent subangular and rounded gravel; common very fine and fine roots; moderately acid (pH 5.8); gradual wavy boundary. (14 to 26 inches thick)"
+      },
+      {
+        "name": "Cg2",
+        "top": 56,
+        "bottom": 124,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "narrative": "Cg2--22 to 49 inches; dark gray (5Y 4/1) loam; massive; friable; sticky and plastic; many large distinct dark greenish gray (5GY 4/1) redox depletions; 5 percent subangular and rounded gravel; neutral (pH 6.8). (0 to 26 inches thick)"
+      },
+      {
+        "name": "Cg3",
+        "top": 124,
+        "bottom": 152,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "narrative": "Cg3--49 to 60 inches; dark greenish gray (5GY 4/1 and 5G 4/1) gravelly sandy clay loam; massive; friable; sticky and plastic; reduced matrix; 15 percent subangular and rounded gravel; neutral (pH 6.8)."
+      },
+      {
+        "name": "Oi",
+        "top": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Oi--1 inch to 0 inches; dark yellowish brown (10YR 3/4) peat; many very fine, fine and medium, and few coarse roots; gradual smooth boundary. (1 to 6 inches thick)"
+      }
+    ]
+  ]
 }

@@ -56,5 +56,115 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 25 to 100 centimeters;\nseries control section--the zone from the surface to a depth of 150 centimeters.\nDiagnostic horizons and features recognized in this pedon include:\nmollic epipedon--the zone from the surface to a depth of 46 centimeters (Ap, A and AB horizons);\ncambic horizon--the zone from a depth of 46 to 76 centimeters (Bg1 and Bg2 horizons);\naquic suborder--5Y 4/1 matrix color in the zone from a depth of 46 to 58 centimeters (Bg1 horizon).\nCation-exchange class is inferred from lab data from similar soils in the surrounding area.\nTaxonomy version--Keys to Soil Taxonomy, tenth edition, 2006.\nADDITIONAL DATA: In Iowa and Minnesota, native vegetative cover is a herbaceous wetland community commonly inhabited with Bluejoint Grasses, Fowl Bluegrasses, Green Muhlies, Fox Sedges, Field Sedges, Dudleys Rushes, Torreys Rushes, Swamp Milkweeds, False Sneezeweeds, False Asters, New England Asters, White Panicled Asters, and Wild Mints. Source: Iowa State Office, Natural Resources Conservation Service, Des Moines, IA.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 25 centimeters; black (N 2/0) silty clay loam, very dark gray (10YR 3/1) dry; weak very fine granular structure; slightly sticky; neutral; abrupt wavy boundary. (17 to 29 centimeters thick)"
+      },
+      {
+        "name": "A",
+        "top": 25,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--25 to 36 centimeters; black (N 2/0) silty clay loam, very dark gray (10YR 3/1) dry; weak fine subangular blocky structure; slightly sticky; common medium continuous vertical tubular pores; neutral; clear wavy boundary. (7 to 26 centimeters thick)"
+      },
+      {
+        "name": "AB",
+        "top": 36,
+        "bottom": 46,
+        "dry_hue": "2.5Y",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "AB--36 to 46 centimeters; very dark grayish brown (2.5Y 3/2) silty clay loam, dark grayish brown (2.5Y 4/2) dry; common very dark gray (5Y 3/1) coats on peds; weak fine subangular blocky structure; slightly sticky; and common medium faint black (N 2/0) tubular fillings; many fine and very fine continuous vertical tubular pores; neutral; clear wavy boundary. (0 to 16 centimeters thick)"
+      },
+      {
+        "name": "Bg1",
+        "top": 46,
+        "bottom": 58,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg1--46 to 58 centimeters; dark gray (5Y 4/1) silty clay loam high in content of sand; weak fine subangular blocky structure, slightly sticky; very dark gray (5Y 3/1) fillings; neutral; clear wavy boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 58,
+        "bottom": 76,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bg2--58 to 76 centimeters; olive gray (5Y 5/2) loam; moderate fine subangular blocky structure; slightly sticky; common medium distinct very dark gray (5Y 3/1) tubular fillings; common very fine to large continuous vertical tubular pores; many fine prominent yellowish brown (10YR 5/4) redoximorphic concentrations; slightly acid; abrupt wavy boundary. (Combined thickness of the Bg horizon is 12 to 55 centimeters thick.)"
+      },
+      {
+        "name": "2Cg",
+        "top": 76,
+        "bottom": 102,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Cg--76 to 102 centimeters; grayish brown (10YR 5/2) sand; single grain; about 5 percent gravel; many coarse distinct yellowish brown (10YR 5/4) redoximorphic concentrations; slightly acid; abrupt wavy boundary."
+      },
+      {
+        "name": "2C",
+        "top": 102,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "narrative": "2C--102 to 152 centimeters; yellowish brown (10YR 5/4) gravelly sand; single grain; loose; about 20 percent gravel; slightly acid."
+      }
+    ]
+  ]
 }

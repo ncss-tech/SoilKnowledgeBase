@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are: mollic epipedon - the zone from the surface to a depth of 9 inches (Ap horizon); cambic horizon - the zone from 9 to 18 inches (Bw horizon); calcic horizon - the zone from 18 to 36 inches (Bk horizon); udic moisture regime.\nThis series replaces the Clarion series on steeper slopes.  Clarion soils have saturation with water in the lower one third of the series control section.\nADDITIONAL DATA:  Soil Interpretation Record MN0781.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 9 inches; very dark gray (10YR 3/1) loam, dark gray (10YR 4/1) dry; weak fine subangular blocky structure; friable; about 2 percent gravel; neutral; abrupt smooth boundary. (7 to 10 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 23,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--9 to 18 inches; dark yellowish brown (10YR 4/4) clay loam; moderate medium subangular blocky structure; friable;  about 2 percent gravel; neutral; gradual wavy boundary. (8 to 28 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 46,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk--18 to 36 inches; brown (10YR 5/3) loam; weak medium subangular blocky structure; friable; common threads and masses of calcium carbonate; about 3 percent gravel; violently effervescent; moderately alkaline; gradual wavy boundary. (0 to 30 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 91,
+        "bottom": 203,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "C--36 to 80 inches; light olive brown (2.5Y 5/4) loam; massive; friable; few fine distinct yellowish brown (10YR 5/6) relic Fe concentrations; few threads of calcium carbonate; about 5 percent gravel; strongly effervescent; slightly alkaline."
+      }
+    ]
+  ]
 }

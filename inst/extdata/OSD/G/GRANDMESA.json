@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic features include a mollic epipedon, the zone from 0\nto 10 inches, an albic horizon, the zone from 14 to 19 inches and an argillic horizon, the zone from 19 to 33 inches.  Last updated by the state 4/93.  This revision documents a change in class from mixed to montmorillonitic mineralogy based on NSSL data.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oe--0 to 1 inch; partially decomposed leaves, grass, and twigs."
+      },
+      {
+        "name": "A1",
+        "top": 3,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--1 to 10 inches; dark grayish brown (10YR 4/2) loam, very dark grayish brown (10YR 3/2) moist; moderate fine granular structure; slightly hard, very friable, slightly sticky and slightly plastic; neutral (pH 6.6); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 25,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--10 to 14 inches; brown (10YR 5/3) cobbly loam, dark brown (10YR 4/3) moist; weak fine and medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; 5 percent pebbles, 20 percent cobbles; slightly acid (pH 6.4); clear smooth boundary.  (Combined thickness of A is 10 to 15 inches.)"
+      },
+      {
+        "name": "E",
+        "top": 36,
+        "bottom": 48,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "narrative": "E--14 to 19 inches; pinkish gray (7.5YR 7/2) very cobbly loam, brown"
+      },
+      {
+        "name": "Bt",
+        "top": 48,
+        "bottom": 84,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "very cobbly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt--19 to 33 inches; reddish brown (5YR 5/4) very cobbly clay, dark reddish brown (5YR 3/4) moist; strong medium angular blocky structure; very hard, very firm, very sticky and very plastic; many prominent clay films on ped faces; 10 percent pebbles, 50 percent cobbles; slightly acid (pH 6.2); abrupt smooth boundary. (12 to 16 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 84,
+        "narrative": "2R--33 inches; basalt bedrock."
+      }
+    ]
+  ]
 }

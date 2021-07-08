@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from 0 to 1 inches  (A horizon)\nArgillic horizon - The zone from 1 to 6 inches  (Bt horizon)\nLithic contact - The boundary at 8 inches  (R Horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 1 inch; brown (7.5YR 5/4) gravelly fine sandy loam, brown (7.5YR 4/4) moist; weak thin platy structure; soft, very friable, sticky and nonplastic; common very fine and fine roots; common very fine and fine interstitial pores; 20 percent gravel; noneffervescent; slightly alkaline (pH 7.6); abrupt smooth boundary. (1 to 3 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 3,
+        "bottom": 15,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--1 to 6 inches; reddish brown (5YR 5/4) very gravelly loam, reddish brown (5YR 4/4) moist; moderate fine subangular blocky structure; soft, friable, sticky and plastic; common fine and medium roots; common very fine and fine interstitial and tubular pores; many distinct continuous clay films on faces of peds and on rock fragments; 5 percent cobble and 50 percent gravel; noneffervescent; slightly alkaline (pH 7.6); clear wavy boundary. (4 to 16 inches thick)"
+      },
+      {
+        "name": "Crt",
+        "top": 15,
+        "bottom": 20,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "texture_class": "clay",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Crt--6 to 8 inches; weathered andesite; common distinct reddish brown (5YR 5/4) continuous clay films on rock fragments; abrupt wavy boundary. (0 to 3 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 20,
+        "narrative": "R--8 inches; andesite."
+      }
+    ]
+  ]
 }

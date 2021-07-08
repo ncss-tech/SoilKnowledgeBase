@@ -56,5 +56,89 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: In Penobscot County, Maine and Aroostook County, Maine Soil Surveys, soils mapped Thorndike include both shallow and moderately deep soils.\nDiagnostic horizons and features recognized in this pedon are:\n1. Albic horizon - the zone from 8 to 10 cm (E horizon).\n2. Spodic horizon - the zone from 10 to 20 cm (Bs1 and Bs2 horizons).\n3. Cambic horizon - the zone from 20 to 46 cm (Bs3 horizon).\n4. Lithic feature - the occurrence of bedrock at a depth of 46 cm.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oa",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oa -- 0 to 8 cm; black (10YR 2/1) sapric material; moderate very fine granular structure; very friable; many very fine and fine, common medium and few coarse roots; extremely acid; abrupt wavy boundary. (0 to 8 cm thick.)"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 10,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "broken",
+        "narrative": "E -- 8 to 10 cm; pinkish gray (7.5YR 6/2) channery silt loam; weak very fine granular structure; very friable; few very fine roots; 30 percent channers; extremely acid; abrupt broken boundary. (0 to 12 cm thick.)"
+      },
+      {
+        "name": "Bs1",
+        "top": 10,
+        "bottom": 15,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "broken",
+        "narrative": "Bs1 -- 10 to 15 cm; yellowish red (5YR 4/6) channery silt loam; weak fine granular structure; very friable; common very fine, few fine and medium roots; 30 percent channers; very strongly acid; abrupt broken boundary."
+      },
+      {
+        "name": "Bs2",
+        "top": 15,
+        "bottom": 20,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs2 -- 15 to 20 cm; brown (7.5YR 5/4) channery silt loam; weak fine granular structure; friable; few very fine, fine, and medium roots; 30 percent channers; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bs3",
+        "top": 20,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "cf_class": "very channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs3 -- 20 to 46 cm; dark yellowish brown (10YR 4/6) very channery silt loam; weak fine granular structure; friable; few very fine and fine roots; 40 percent channers; very strongly acid; clear wavy boundary. (Combined thickness of the Bs horizon is 8 to 40 cm.)"
+      },
+      {
+        "name": "R",
+        "top": 46,
+        "narrative": "R -- 46 cm; fractured bedrock."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,70 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Lab data is from the DDRP Acid Rain study for Pennsylvania and sample S92PA-103-002 that shows a pH in CaCl2 of 3.33.\nDiagnostic Horizons and features:\nTerric subgroup: Organic material from the surface to 36 inches(Oe,Oa1,Oa2 horizons).\nMineral material is from 36 to 70 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH": 4,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oe -- 0 to 3 inches; black (10YR 2/1) broken face and rubbed hemic material(mucky peat); 75 percent fiber unrubbed, 35 percent rubbed; weak fine and medium granular structure; friable, moderately smeary; common very fine and fine roots throughout; extremely acid (pH 4.0); clear smooth boundary. (3 to 8 inches thick.)"
+      },
+      {
+        "name": "Oa1",
+        "top": 8,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH": 4,
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Oa1 -- 3 to 26 inches; black (10YR 2/1) broken face and rubbed sapric material (muck); 35 percent fibers unrubbed, 8 percent fibers rubbed; massive; friable, smeary; few very fine and fine roots throughout; extremely acid (pH 4.0); gradual smooth boundary. (18 to 30 inches thick.)"
+      },
+      {
+        "name": "Oa2",
+        "top": 66,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "cf_class": "very stony",
+        "pH": 4,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Oa2 -- 26 to 36 inches; black (10YR 2/1) broken face and rubbed very stony sapric material (muck); 35 percent fiber unrubbed, 8 percent rubbed; massive; friable, smeary; 55 percent sandstones; extremely acid (pH 4.0), pH 3.33 in CaCl2; abrupt irregular boundary. (Combined thickness of the Oa horizon is 26 to 42 inches.)"
+      },
+      {
+        "name": "Cg",
+        "top": 91,
+        "bottom": 178,
+        "moist_hue": "5GY",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely stony",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "narrative": "Cg -- 36 to 70 inches; greenish gray (5GY 5/1) extremely stony sandy loam; massive; friable, moderately sticky, moderately plastic; 65 percent sandstones; very strongly acid (pH 5.0)."
+      }
+    ]
+  ]
 }

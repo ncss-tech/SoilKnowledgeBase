@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon (pachic feature) - from surface to 34 inches.  (Ap, A, BAt, Btl horizons).\nArgillic horizon - clay 35 to 50 percent.  (BAt, Btl, Bt2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 5 inches; very dark grayish brown (10YR 3/2) loam, very dark brown (10YR 2/2) moist; weak medium platy and moderate fine granular structure; slightly hard, friable, slightly sticky, slightly plastic; many fine roots; many very fine pores; neutral (pH 6.8); abrupt smooth boundary.  (4 to 8 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 13,
+        "bottom": 36,
+        "texture_class": "silt",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--5 to 14 inches; similar to Ap horizon except slightly less dark and more toward 7.5YR hue; slightly finer texture, strong fine granular structure; sticky, plastic; common fine roots, many worm holes and casts; few bleached silt grains; clear wavy boundary.  (5 to l0 inches thick)"
+      },
+      {
+        "name": "BAt",
+        "top": 36,
+        "bottom": 48,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BAt--14 to 19 inches; dark brown (7.5YR 4/3) clay loam containing few basaltic pebbles, very dark brown (7.5YR 2/2) moist; strong very fine subangular blocky and strong fine granular structure; hard friable, sticky, plastic; common fine roots; many very fine and fine pores; common thin clay films on peds and in channels; neutral (pH 6.8); clear wavy boundary.  (5 to 14 inches thick)"
+      },
+      {
+        "name": "Btl",
+        "top": 48,
+        "bottom": 86,
+        "dry_hue": "7.5YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "cf_class": "cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btl--19 to 34 inches; brown (7.5YR 3/2) cobbly clay, dark brown (7.5YR 3/2) moist; moderate medium prismatic structure that parts to moderate fine and very fine blocky structure; very hard, firm, very sticky, very plastic; few fine roots; common very fine tubular pores; continuous thick dark brown (darker than interior of peds) clay films on peds and in channels; neutral (pH 7.0); clear smooth boundary.  (10 to 12 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 86,
+        "bottom": 97,
+        "texture_class": "clay loam",
+        "cf_class": "cobbly",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--34 to 38 inches; similar to Btl horizon but 3 chroma moist; cobbly heavy clay loam, not prismatic; continuous medium slightly redder clay films; gradual wavy boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 97,
+        "bottom": 152,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "narrative": "C--38 to 60 inches; Basaltic subangular cobblestone and gravel and considerable clay loam and loam interstitial material; neutral."
+      }
+    ]
+  ]
 }

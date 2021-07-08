@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Acredale soils have been included with Bladen and Roanoke soils in past mapping.\nADDITIONAL DATA:  Virginia Polytechnic Institute and State University soil survey lab data shows the typical pedon of the Acredale series to have a base saturation of 74.67 percent at 50 inches below the top of the argillic.  The particle-size control section has 26 percent clay, 55 percent silt, and 9 percent sand that is coarser than very fine sand as a weighted average, with 76 percent quartz and 20 percent weatherable minerals, mainly feldspar and mica, in the 20 to 2,000 micron fraction.\nSample Numbers:  S77VA76-49-(1-6), S73VA76-3-(1-7), S75VA76-23-(1-6), S75VA-76-20-(1-5), S77VA-76-66-(1-7), S75-VA-76-29-(1-6), S78VA-76-62-(1-5), S73VA-76-1-(1-7).\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0160 ACREDALE    0-  2   59- 65  190-260  40- 56     1- 100\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness VA0160 NONE   RARE     0-1.0  APPARENT DEC-APR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC- VA0160  0- 7  SIL L VFSL              0-  0 100-100  8-15   3- 10 VA0160  7-15  SIL L                   0-  0 100-100 12-20   3-  8 VA0160 15-43  SIL SICL                0-  0 100-100 18-34   4- 14 VA0160 43-66  SL LS S                 0-  0 100-100  5-18   2-  6\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0160  0- 7  3.6- 5.5  2.-8.  0- 0   0.6- 2.0  LOW\nVA0160  7-15  3.6- 5.5  .5-1.  0- 0   0.6- 2.0  LOW\nVA0160 15-43  4.5- 7.3  0.-.5  0- 0  0.06- 0.2  MODERATE\nVA0160 43-66  4.5- 7.3  0.-.5  0- 0   2.0-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; grayish brown (10YR 5/2) silt loam; weak fine granular structure; very friable, slightly sticky, slightly plastic; common fine and very fine roots; common fine and medium pores; strongly acid; clear smooth boundary.  (6 to 12 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 18,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "very fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Btg1--7 to 15 inches; light brownish gray (10YR 6/2) silt loam; few fine prominent yellowish brown (10YR 5/8) soft masses of iron accumulation; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; common fine and very fine roots; common very fine vesicular and few fine tubular pores; many very fine sand grains coated and bridged with clay; very strongly acid; abrupt smooth boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "Btg2",
+        "top": 38,
+        "bottom": 89,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btg2--15 to 35 inches; gray (5Y 5/1) silty clay loam; common medium prominent yellowish brown (10YR 5/8) soft masses of iron accumulation; weak coarse prismatic structure parting to moderate medium and coarse subangular blocky; friable, sticky, plastic; common very fine roots; few fine vesicular and few fine tubular pores; many thin continuous clay films on faces of macro peds; many very fine sand grains coated and bridged with clay; pockets of silt from 1/2 to 3 inches in diameter that are white when dry; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Btg3",
+        "top": 89,
+        "bottom": 109,
+        "moist_hue": "5GY",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "very fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btg3--35 to 43 inches; light greenish gray (5GY 7/1)silt loam; common medium distinct dark gray (N 4/0) iron depletions, common medium prominent yellowish brown (10YR 5/8) soft masses of iron accumulation; moderate fine and medium subangular and angular blocky structure; friable, sticky, plastic; few very fine roots; few very fine vesicular pores; few thin discontinuous clay films on faces of peds; few very fine sand grains coated and bridged with clay; few fine prominent yellowish red colors along very fine root channels; very strongly acid; clear smooth boundary.  (Combined thickness of Bt horizon is 14 to 43 inches.)"
+      },
+      {
+        "name": "2BCg",
+        "top": 109,
+        "bottom": 127,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2BCg--43 to 50 inches; gray (10YR 6/1)sandy loam; common medium distinct light greenish gray (5GY 7/1) iron depletions and common medium prominent yellowish brown (10YR 5/8) soft masses of iron accumulation; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; few very fine roots; few fine vesicular pores; few sand grains coated and bridged with clay; many clean sand grains; common pockets of clean white sand up to 3 inches in diameter; strongly acid; clear wavy boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "2Cg",
+        "top": 127,
+        "bottom": 168,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "narrative": "2Cg--50 to 66 inches; gray (5Y 6/1) sandy loam; common medium faint light olive gray (5Y 6/2) iron depletions and common medium prominent yellowish brown (10YR 5/8) soft masses of iron accumulation; massive, very friable; nonsticky, nonplastic; few very fine vesicular pores; many fine flakes of mica; moderately acid."
+      }
+    ]
+  ]
 }

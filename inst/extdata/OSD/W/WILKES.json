@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in the typical pedon are:\nThis revision included horizon depth changes to include O horizons for the type location.\nOchric epipedon-the zone from the soil surface to a depth of 9 inches (0 to 23 centimeters) (O, A, and E horizons).\nArgillic horizon--the zone between depths of 9 and 13 inches (23 to 33 centimeters) (Bt horizon).\nParalithic contact--the upper boundary of the Cr horizon at a depth of 16 inches (41 centimeters).\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5 Soil Name Slope Airtemp FrFr/Seas Precip Elevation NC0031 WILKES 2-60 57-65 180-240 37-60 250-900\nNC0134 WILKES 2-60 57-65 180-240 37-60 250-900\nSOI-5 FloodL FloodH Watertable Kind Months Bedrock Hardness NC0031 NONE >6.0 - 10-20 SOFT\nNC0134 NONE >6.0 - 10-20 SOFT\nSOI-5\tDepth\tTexture\t3-Inch\tNo-10\tClay%\t-CEC-\nNC0031\t0-9\tSL L FSL\t0-10\t80-100\t5-20\t3-15\nNC0031\t0-9\tSCL CL\t0-10\t90-100\t20-35\t10-25\nNC0031\t0-9\tGR-SL GR-L GR-FSL\t5-15\t60- 75\t5-20\t3-15\nNC0031\t9-16\tCL C SCL\t0-10\t80-100\t20-45\t10-30\nNC0031\t16-51\tWB\t-\t-\t-\t-\nNC0134\t0-9\tSTV-SL STV-L\t3-15\t60-75\t5-20\t3-15\nNC0134\t0-9\tSTX-SL STX-L\t10-20\t60-75\t5-20\t3-15\nNC0134\t9-16\tSICL ST-C ST-SCL\t10-25\t80-100\t20-45\t10-30\nNC0134 16-51 WB - - - -\nSOI-5\tDepth\t-pH-\tO.M.\tSalin\tPermeab\tShnk-Swll\nNC0031\t0-9\t5.1-6.5\t0.5-2.0\t0-0\t2.0-6.0\tLOW\nNC0031\t0-9\t5.1-6.5\t0.5-1.0\t0-0\t0.6-2.0\tLOW\nNC0031\t0-9\t5.1-6.5\t0.5-2.0\t0-0\t2.0-6.0\tLOW\nNC0031\t9-16\t6.1-7.8\t0.0-0.5\t0-0\t0.2-0.6\tMODERATE\nNC0031 16-51 - - - -\nNC0134\t0-9\t5.1-6.5\t0.5-2.0\t0-0\t2.0-6.0\tLOW\nNC0134\t0-9\t5.1-6.5\t0.5-2.0\t0-0\t2.0-6.0\tLOW\nNC0134\t9-16\t5.6-7.8\t0.0-0.5\t0-0\t0.2-0.6\tMODERATE\nNC0134\t16-51\t-\t-\t-\t-\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "Oi--0 to 2 inches (0 to 5 centimeters); slightly decomposed plant material (mixed hardwood and pine forest litter)."
+      },
+      {
+        "name": "Oe",
+        "top": 5,
+        "bottom": 8,
+        "narrative": "Oe--2 to 3 inches (5 to 8 centimeters); moderately decomposed plant material."
+      },
+      {
+        "name": "A",
+        "top": 8,
+        "bottom": 15,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--3 to 6 inches (8 to 15 centimeters); grayish brown (2.5Y 5/2) sandy loam; moderate medium granular structure; very friable; common fine and medium roots; common fine and medium quartz pebbles; strongly acid; abrupt smooth boundary. (2 to 6 inches, 5 to 15 centimeters thick)"
+      },
+      {
+        "name": "E",
+        "top": 15,
+        "bottom": 23,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "E--6 to 9 inches (15 to 23 centimeters); light brownish gray (2.5Y 6/2) sandy loam; moderate medium and coarse granular structure; very friable; common fine and medium roots; common fine strong brown fragments of weathered rocks; common fine and medium pebbles; strongly acid; abrupt smooth boundary. (0 to 5 inches, 0 to 13 centimeters thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 23,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--9 to 13 inches (23 to 33 centimeters); yellowish brown (10YR 5/6) clay; common fine prominent black, green, and faint strong brown bodies, all of which are assumed to be partially weathered primary minerals; weak coarse angular blocky structure; firm, sticky, plastic; few fine roots; few fine pores; common faint clay films on faces of peds; few medium pebbles; A horizon material in old root channels; slightly acid; clear wavy boundary. (3 to 8 inches, 8 to 20 centimeters thick)"
+      },
+      {
+        "name": "Bt/C",
+        "top": 33,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt/C--13 to 16 inches (33 to 41 centimeters); yellowish brown (10YR 5/6) clay loam; weak coarse subangular blocky structure; firm, sticky, plastic; common faint clay films on faces of peds(Bt part); common fine prominent black and few fine distinct gray bodies and common thin green bands of partially weathered primary minerals; relic platy structure (C part); common hard schist fragments; slightly acid; abrupt wavy boundary. (0 to 6 inches, 0 to 15 centimeters thick.)"
+      },
+      {
+        "name": "Cr",
+        "top": 41,
+        "bottom": 130,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Cr--16 to 51 inches (41 to 130 centimeters); soft, yellowish brown, green, black, and gray saprolite which crushes to loam; relic platy rock structure; firm; few fine roots in upper part; few large roots in rock fractures; few distinct clay films line vertical cracks; common fine and medium schist fragments; neutral; abrupt wavy boundary. (24 to 42 inches, 61 to 107 centimeters thick)"
+      },
+      {
+        "name": "R",
+        "top": 130,
+        "narrative": "R--51 inches (130 centimeters); hard schist bedrock."
+      }
+    ]
+  ]
 }

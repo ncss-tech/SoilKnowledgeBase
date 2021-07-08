@@ -56,5 +56,71 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Formerly classified as a fine-loamy, mixed, mesic Calcic\nArgixerolls.  Farrot series is named after a creek.\nDiagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from 0 to 15 inches (the A and Bt horizons).\nArgillic horizon - the zone from 10 to 24 inches (the Bt horizons).\nParticle-size control section - the zone from 10 to 24 inches (the\nargillic horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "narrative": "A1--0 to 4 inches; dark grayish brown (10YR 4/2) coarse sandy loam,"
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "narrative": "A2--4 to 10 inches; grayish brown (10YR 5/2) coarse sandy loam,"
+      },
+      {
+        "name": "Bt1",
+        "top": 25,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "narrative": "Bt1--10 to 15 inches; brown (10YR 5/3) sandy clay loam, dark brown"
+      },
+      {
+        "name": "Bt2",
+        "top": 38,
+        "bottom": 61,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "texture_class": "sandy clay",
+        "narrative": "Bt2--15 to 24 inches; light yellowish brown (10YR 6/4) sandy clay"
+      },
+      {
+        "name": "C",
+        "top": 61,
+        "bottom": 76,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "cf_class": "very gravelly",
+        "narrative": "C--24 to 30 inches; light yellowish brown (10YR 6/4) very gravelly"
+      },
+      {
+        "name": "R",
+        "top": 76,
+        "narrative": "R--30 inches; slightly weathered quartz diorite."
+      }
+    ]
+  ]
 }

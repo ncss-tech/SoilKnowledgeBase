@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The 6/89 revision changed the classification from Rhodic Paleudults to Rhodic Kandiudults in recognition of the low activity clay amendment to Soil Taxonomy.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to a depth of about 6 inches (Ap horizon).\nKandic horizon - the zone from approximately 6 to 72 inches (Bt1, Bt2, and Bt3 horizons).\nRhodic features - moist color value of less than 4 in the kandic horizon (Bt1, Bt2, Bt3 horizons).\nSIR = AL0025\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; dark reddish brown (5YR 3/4) sandy loam; weak fine granular structure; very friable; many fine roots; moderately acid; clear smooth boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 51,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--6 to 20 inches; dark red (2.5YR 3/6) sandy loam; weak medium subangular blocky structure; very friable; common fine roots; sand grains coated and bridged with clay; moderately acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 51,
+        "bottom": 132,
+        "moist_hue": "10R",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "Bt2--20 to 52 inches; dark red (10R 3/6) sandy clay loam; weak medium subangular blocky structure; friable; few fine roots; few faint clay films on faces of peds; sand grains coated and bridged with clay; strongly acid; diffuse smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 132,
+        "bottom": 183,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "narrative": "Bt3--52 to 72 inches; dark red (2.5YR 3/6) sandy clay loam; weak medium subangular blocky structure; very friable; few faint clay films on faces of peds; sand grains coated and bridged with clay; strongly acid.  (Combined thickness of the Bt horizon is 60 or more inches.)"
+      }
+    ]
+  ]
 }

@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon:\nArenic properties - the zone from 0 to 36 inches (A, E, Bw1, Bw2 and E' horizons).\nAlbic horizons - the zones from 1 to 5 inches and from 24 to 36 inches (E and E' horizons).\nArgillic horizon - the zone from 36 to 54 inches (B/E horizon).\nGlossic horizon - the zone from 36 to 54 inches (B/E horizon).\nThe water table is within depths of 10 inches for 1 to 6 months. During the remainder of the year, it is typically at a depth of 10 to 40 inches below the surface.  It may, however, recede below 40 inches during extended dry periods. During periods of high rainfall, in some areas the soil is flooded from 7 days to 6 months. Depressions are ponded for periods of 3 to 6 months in most years.\nPineda soils are primarily in MLRA 155 and to a less extent in MLRAs 154, 156A, 156B, 138 and 152A.\nADDITIONAL DATA: Laboratory data is available on the National Soil Survey website at: http://ncsslabdatamart.sc.egov.usda.gov/querypage.aspx\nLaboratory data is provided by the University of Florida, Department of Soil and Water Science, Gainesville, FL and the National Soil Survey Laboratory, Lincoln, NE.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 1 inch; black (10YR 2/1) fine sand; single grain; loose; many fine and medium roots, few coarse roots; moderately acid; clear smooth boundary.  (1 to 15 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 3,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--1 to 5 inches; very pale brown (10YR 7/3) fine sand; single grain; loose; many fine and medium roots; moderately acid; clear wavy boundary.  (0 to 22 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 13,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "texture_class": "fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--5 to 13 inches; brownish yellow (10YR 6/8) fine sand; single grain; loose; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 33,
+        "bottom": 61,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "texture_class": "fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--13 to 24 inches; reddish yellow (7.5YR 6/8) fine sand; single grain; loose; moderately acid; clear wavy boundary.  (Combined thickness of the Bw horizon ranges from 6 to 30 inches)"
+      },
+      {
+        "name": "E'",
+        "top": 61,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "E'--24 to 36 inches; light gray (10YR 7/2) fine sand; single grain; loose; few fine distinct brownish yellow (10YR 6/6) masses; moderately acid; abrupt irregular boundary.  (0 to 15 inches thick)"
+      },
+      {
+        "name": "B/E",
+        "top": 91,
+        "bottom": 137,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "B/E--36 to 54 inches; light brownish gray (2.5Y 6/2) fine sandy loam (B) with 20 percent light gray (10YR 7/2) vertical tongues or intrusions of fine sand (E) 3 to 10 inches in length and 0.5 inch to 2.0 inches in width; weak fine subangular blocky structure; slightly sticky and slightly plastic; sandy intrusions are single grain and loose; neutral; abrupt irregular boundary.  (2 to 40 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 137,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "slightly acid",
+        "narrative": "Cg--54 to 80 inches; light gray (10YR 7/1) fine sand; single grain; loose; slightly acid."
+      }
+    ]
+  ]
 }

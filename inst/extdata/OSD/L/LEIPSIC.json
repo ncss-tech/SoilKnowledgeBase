@@ -56,5 +56,103 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Leipsic soils were previously mapped with the Keyport or Mattapex series.\nDiagnostic horizons and soil characteristics recognized in this pedon are:\nOchric epipedon--the zone from the surface to 10 inches\nArgillic horizon--the zone from 20 to 45 inches\nAquic conditions--the soil has redox depletions and concentrations within the upper 24 inches of the argillic horizon, with periodic saturation and reduction at some time during the year\nSeries control section--the zone from 0 to 60 inches\nADDITIONAL DATA: This pedon sampled as S95DE003-003.  Additional reference samples S95DE-003-006 and S95DE-003-008.\nData Map Unit ID:  To be developed.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nDE000  LEIPSIC     0- 10  52- 57  190-260   40-55   0-15\nSOI-5  FloodL FloodH Watertable Kind     Months   Bedrock Hardness\nDE0000 NONE          1.5-2.5    APPARENT DEC-APR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nDE0000  0-10  SIL                     0-0    95-100 10-27    5-15\nDE0000 10-45  SIL SICL                0-0    95-100 18-35    3-8\nDE0000 46-72  VAR                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nDE0000  0-10  3.5- 5.5  .5-2.  0-0    2.0-6.0   LOW\nDE0000 10-45  3.5- 5.5  0.-.5  0-0    0.2-2.0   LOW\nDE0000 45-72     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {}
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 10 inches; dark yellowish brown (10YR 4/4) silt loam; weak fine and medium subangular blocky structure; friable; few fine roots throughout; common very fine vesicular pores throughout; strongly acid; abrupt wavy boundary. (6 to 10 inches thick)"
+      },
+      {
+        "name": "EB",
+        "top": 25,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "EB--10 to 20 inches; light yellowish brown (10YR 6/4) silt loam; weak medium subangular blocky structure; friable; few fine roots throughout; common very fine and fine vesicular pores throughout; common medium distinct yellowish brown (10YR 5/6) irregular iron masses; very few faint yellowish brown (10YR 5/4) continuous skeletans on faces of peds; few medium distinct dark yellowish brown (10YR 4/4) zones of Ap material in root channels and worm holes; strongly acid; clear wavy boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 51,
+        "bottom": 69,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--20 to 27 inches; light yellowish brown (10YR 6/4) silt loam; weak medium subangular blocky structure; friable; common very fine and fine vesicular pores throughout; common medium faint pale brown (10YR 6/3) irregular iron depletions; common fine distinct yellowish brown (10YR 5/6) irregular iron masses; few medium distinct brown (10YR 5/3) clay films on faces of peds; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Btg",
+        "top": 69,
+        "bottom": 89,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btg--27 to 35 inches; light brownish gray (2.5Y 6/2) silt loam; weak medium and coarse subangular blocky structure; friable; common very fine and fine vesicular pores throughout; many coarse distinct light yellowish brown (10YR 6/4) irregular iron masses; very few faint yellowish brown (10YR 5/4) continuous skeletans in root channels and pores; common medium distinct brown (10YR 5/3) clay films on faces of peds; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "BCt",
+        "top": 89,
+        "bottom": 114,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "BCt--35 to 45 inches; yellowish brown (10YR 5/6) silt loam; weak fine and medium subangular blocky structure; few fine vesicular pores throughout; friable common medium prominent light brownish gray (2.5Y 6/2) irregular iron depletions; many fine distinct light yellowish brown (10YR 6/4) irregular iron masses; few fine distinct brown (10YR 5/3) clay films in root channels and in pores; extremely acid; clear irregular boundary.  (Combined thickness of the B horizons is 10 to 30 inches)"
+      },
+      {
+        "name": "Cg1",
+        "top": 114,
+        "bottom": 132,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cg1--45 to 52 inches; light gray (10YR 7/1) silt loam; massive; firm; common medium distinct light olive brown (2.5Y 5/4) irregular iron masses; common medium prominent yellowish brown (10YR 5/6) rounded iron-manganese masses; common fine and medium strong brown (7.5YR 5/3) strongly cemented iron-manganese concretions; thin stratified sand lamina throughout; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 132,
+        "bottom": 183,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Cg2--52 to 72 inches; light brownish gray (2.5Y 6/2) silt loam; massive; friable; few fine distinct black (7.5YR 2.5/1) irregular iron-manganese masses; very strongly acid."
+      }
+    ]
+  ]
 }

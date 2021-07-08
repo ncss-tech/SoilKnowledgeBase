@@ -56,5 +56,72 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone form the soil surface to 4 inches (A horizon).\nCalcic horizon - the zone from 4 to 18 inches (Bk1 and Bk2 horizons).\nLithic contact - bedrock at 18 inches (2R horizon).\nParticle-size control section - the zone form 10 to 18 inches (part of the Bk1 horizon and the Bk2 horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 4 inches; light brownish gray (10YR 6/2) sandy loam, dark grayish brown (10YR 4/2) moist; weak very thin platy structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine, fine and medium roots; many very fine irregular pores; slightly effervescent; moderately alkaline (pH 8.4); clear wavy boundary. (3 to 6 inches thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 10,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk1--4 to 13 inches; very pale brown (10YR 7/3) sandy loam, brown (10YR 5/3) moist; weak medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine and fine roots; common very fine and fine tubular pores; strongly effervescent; moderately alkaline (pH 8.4); gradual wavy boundary. (2 to 10 inches thick)"
+      },
+      {
+        "name": "Bk2",
+        "top": 33,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bk2--13 to 18 inches; very pale brown (10YR 7/3) sandy loam, brown (10YR 5/3) moist; massive; hard, friable, slightly sticky and slightly plastic; few very fine roots; many very fine and fine tubular pores; strongly effervescent; moderately alkaline (pH 8.4); abrupt wavy boundary. (4 to 15 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 46,
+        "narrative": "2R--18 inches; basalt bedrock with about 3/8 inch lime accumulation on surface and in cracks and pores."
+      }
+    ]
+  ]
 }

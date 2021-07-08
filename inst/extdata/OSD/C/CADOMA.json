@@ -56,5 +56,71 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this profile are:\nCambic horizon: 10 to 46 cm (4 to 18 inches) (Bw horizon)\nParalithic contact: 61 to 150 cm (24 to 60 inches) (Cr horizon)\nUpdated the classification, competing series and placed in semitab format.  LRM 03/01\nThis OSD had the classification, pedon description and type location changed but there is no record of why it was changed and no supporting documentation.  With this update the classification is being again revised.  Original classification was fine, montmorillonitic, mesic Ustollic Camborthids.  The revision in 2001 or earlier changed it to a fine, smectitic, mesic Ustic Natrargids.  The pedon description changed a B2 horizon with glossy patches to a Bn horizon with clay films and a C1ca to a Bkny but there is no documentation that it was done in the field.  This update changes the pedon description back to what closely resembles the original, and changes the classification to the 10th Edition of Keys to Soil Taxonomy equivalent of the original classification. WAW 08/2008\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH": 8.6,
+        "pH_class": "strongly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A--0 to 10 cm (0 to 4 inches); light brownish gray (2.5Y 6/2) silty clay loam, dark grayish brown (2.5Y 4/2) moist; strong fine granular structure; slightly hard, very friable, very sticky and very plastic; strongly effervescent, calcium carbonate disseminated; strongly alkaline (pH 8.6); gradual smooth boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 10,
+        "bottom": 46,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "pH": 9.6,
+        "pH_class": "very strongly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--10 to 46 cm (4 to 18 inches); light yellowish brown (2.5 6/4) silty clay, olive brown (2.5Y 4/4) moist; moderate coarse prismatic structure parting to moderate medium angular blocky; hard, firm, very sticky and very plastic; few thin glossy patches on faces of peds; strongly effervescent, calcium carbonate as few fine soft masses; very strongly alkaline (pH 9.6); clear smooth boundary.  (9 to 18 inches thick)"
+      },
+      {
+        "name": "Bky",
+        "top": 46,
+        "bottom": 61,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH": 8.8,
+        "pH_class": "strongly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bky--46 to 61 cm (18 to 24 inches); light brownish gray (2.5Y 6/2) silty clay; dark grayish brown (2.5Y 4/2) moist; massive; extremely hard, very firm, very sticky and very plastic; strongly effervescent, some visible secondary calcium carbonate and calcium sulfate occurring as soft rounded masses and in small crystals; strongly alkaline (pH 8.8); gradual wavy boundary.  (6 to 20 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 61,
+        "bottom": 150,
+        "texture_class": "clay",
+        "narrative": "Cr--61 to 150 cm (24 to 60 inches; dark gray, soft calcareous sodic clay shale."
+      }
+    ]
+  ]
 }

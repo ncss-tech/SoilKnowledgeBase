@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon include:\n1.  Ochric epipedon - the zone from the surface to 3 inches (A horizon).\n2.  Cambic horizon - the zone from 3 to 22 inches (Bw1 and Bw2 horizons).\n3.  Aquic subgroup - redox depletions with chroma of 2 or less within 24 inches (60 cm) of the soil surface and aquic conditions for some time in each year.\n4.  Densic materials - the zone from 22 to 65 inches (Cd layer).\nADDITIONAL DATA:  Characterization data for pedons S91MA011-001 and S99CT005-006 is available from the National Soil Survey Laboratory, Lincoln, NE.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches, very dark grayish brown (10YR 3/2) fine sandy loam, light yellowish brown (2.5Y 6/3) dry; weak coarse granular structure; very friable; many medium and common coarse roots; 5 percent rock fragments; strongly acid; clear smooth boundary.  (2 to 6 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 8,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--3 to 15 inches, dark yellowish brown (10YR 4/4) fine sandy loam; moderate coarse subangular blocky structure; friable; common medium roots; 5 percent rock fragments; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 38,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw2--15 to 22 inches; yellowish brown (10YR 5/4) fine sandy loam; moderate medium subangular blocky structure; firm; few fine roots; many medium prominent reddish yellow (7.5YR 6/8) masses of iron accumulation and very few fine prominent gray (N 6/0)iron depletions; 5 percent rock fragments; strongly acid; abrupt wavy boundary.  (Combined thickness of the Bw horizons is 9 to 27 inches)."
+      },
+      {
+        "name": "Cd",
+        "top": 56,
+        "bottom": 165,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "narrative": "Cd--22 to 65 inches; olive gray (5Y 5/2) sandy loam; strong thick platy geogenic structure; very firm; common medium prominent strong brown (7.5YR 5/8) masses of iron accumulation; and few fine prominent white (N 8/0) iron depletions; 10 percent rock fragments; moderately acid."
+      }
+    ]
+  ]
 }

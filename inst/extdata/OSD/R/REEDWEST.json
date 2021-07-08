@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from the soil surface to 13 inches (Ap, Bt1 horizons)\nArgillic horizon - from 6 to 19 inches (Bt1, Bt2 horizons)\nHorizon of secondary carbonate accumulation - from 19 to 27 inches (Bk horizon)\nParalithic contact - at 27 inches (Cr horizon).\nReedwest soils have a frigid temperature regime and an ustic moisture regime.\nSoil Interpretations Record MT1621.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; dark grayish brown (10YR 4/2) loam, very dark grayish brown (10YR 3/2) moist; moderate fine subangular blocky structure parting to weak medium and fine granular; soft, very friable, slightly sticky and slightly plastic; common fine and very fine and few medium roots; many fine pores; slightly alkaline (pH 7.6); abrupt smooth boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--6 to 13 inches; grayish brown (10YR 5/2) loam, very dark grayish brown (10YR 3/2) moist; moderate fine prismatic structure; slightly hard, friable, slightly sticky and slightly plastic; common fine and very fine roots; many fine pores; common distinct clay films on faces of peds and lining pores; slightly alkaline (pH 7.6); clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 33,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--13 to 19 inches; brown (10YR 5/3) clay loam, brown (10YR 4/3) moist; moderate medium prismatic structure parting to strong medium subangular blocky; slightly hard, friable, moderately sticky and moderately plastic; few fine and very fine roots; common fine and very fine pores; common distinct clay films on faces of peds and lining pores; slightly alkaline (pH 7.6); gradual wavy boundary.  (Combined thickness of Bt horizons is 6 to 20 inches.)"
+      },
+      {
+        "name": "Bk",
+        "top": 48,
+        "bottom": 69,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bk--19 to 27 inches; light brownish gray (2.5Y 6/2) loam, grayish brown (2.5Y 5/2) moist; moderate medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; few fine roots; many fine pores; common medium masses of lime; strongly effervescent; moderately alkaline (pH 8.4); abrupt smooth boundary. (5 to 23 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 69,
+        "bottom": 152,
+        "texture_class": "sand",
+        "narrative": "Cr--27 to 60 inches; soft calcareous sandstone."
+      }
+    ]
+  ]
 }

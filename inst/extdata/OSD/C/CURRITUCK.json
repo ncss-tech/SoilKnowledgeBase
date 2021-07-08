@@ -56,5 +56,51 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This series is mapped in areas previously mapped as fresh water tidal marsh.  Values for sulfur, fiber content and pH are based on laboratory data from N. C. State University, Soil Science Department.\nDiagnostic horizons and features recognized in this pedon are:\nHistic Epipedon - the zone from the surface to a depth of 14 inches.  (The Oe horizon)\nHistic materials (Terric) - from a depth of 0 to 28 inches   (The Oe and Oa horizons)\nAquic moisture regime - chromas of 2 or less throughout the soils which indicate saturation.\nMLRA's: 153A, 153B\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0116 CURRITUCK   0-  1   58- 70  190-240  42- 52     0-   3\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0116 FREQ            0-1.0  APPARENT JAN-DEC  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0116  0-14  MUCK MPT                0-  0    -     0- 0  20- 95\nNC0116 14-28  MUCK                    0-  0    -     0- 0  20- 95\nNC0116 28-60  LS S                    0-  0  90-100  3-10   1- 10\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0116  0-14  4.5- 5.5  20-95  0- 2   0.6- 6.0  LOW\nNC0116 14-28  2.0- 5.5  20-95  2- 4   0.6- 6.0  LOW\nNC0116 28-60  2.0- 5.5  .5-8.  2- 4   6.0-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Oe--0 to 14 inches; very dark grayish brown (10YR 3/2) broken face and rubbed mucky peat; about 80 percent fibers unrubbed, 36 percent fibers rubbed; massive; friable; many fine to coarse roots mainly from black needlerush; herbaceous material; mineral content about 55 percent; very strongly acid (pH 4.9 in .01 M calcium chloride); gradual wavy boundary.  (6 to 18 inches thick)"
+      },
+      {
+        "name": "Oa",
+        "top": 36,
+        "bottom": 71,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Oa--14 to 28 inches; very dark grayish brown (2.5Y 3/2) broken face and rubbed muck; about 36 percent fibers unrubbed, 4 percent fibers rubbed; massive; very friable; common medium and coarse roots, mainly from black needlerush; herbaceous material; mineral content about 60 percent; extremely acid (pH 4.2 in .01 M calcium chloride); clear wavy boundary.  (10 to 30 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 71,
+        "bottom": 152,
+        "moist_hue": "5GY",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "ultra acid",
+        "narrative": "Cg--28 to 60 inches; greenish gray (5GY 5/1) sand; single grained; loose; common medium flakes of mica; common fine opaques; ultra acid (pH 3.1 in 1:1 water)."
+      }
+    ]
+  ]
 }

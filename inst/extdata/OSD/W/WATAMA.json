@@ -56,5 +56,106 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nmollic (pachic) epipedon - from the surface to 24 inches (Ap, A, BA, and Bw1 horizons)\ncambic horizon - from 24 to 34 inches (Bw2 horizon)\nlithic contact - bedrock at 34 inches\nparticle-size control section - from 10 to 34 inches (BA, Bw1, and Bw2 horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 4 inches; very dark brown (10YR 2/2) silt loam, grayish brown (10YR 5/2) dry; weak fine granular structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine roots; many very fine irregular pores; neutral (pH 6.6); abrupt smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 10,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--4 to 10 inches; very dark grayish brown (10YR 3/2) silt loam, grayish brown (10YR 5/2) dry; weak medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine roots; many very fine tubular pores; neutral (pH 6.6); clear smooth boundary.  (Combined thickness of the A horizon is 6 to 15 inches)"
+      },
+      {
+        "name": "BA",
+        "top": 25,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BA--10 to 17 inches; dark brown (10YR 3/3) loam, brown (10YR 5/3) dry; weak medium subangular blocky structure; hard, friable, slightly sticky and slightly plastic; many very fine roots; many very fine tubular pores; neutral (pH 6.8); clear smooth boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 43,
+        "bottom": 61,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--17 to 24 inches; dark brown (10YR 3/3) loam, brown (10YR 5/3) dry; common very dark grayish brown (10YR 3/2) coatings on peds; weak coarse prismatic and moderate medium subangular blocky structure; very hard, firm, moderately sticky and moderately plastic; common very fine roots; many very fine tubular pores; 2 percent cobbles; neutral (pH 6.8); clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 61,
+        "bottom": 86,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw2--24 to 34 inches; brown (10YR 4/3) clay loam, pale brown (10YR 6/3) dry; common dark brown (10YR 3/3) coatings on peds; weak medium subangular blocky structure; very hard, firm, moderately sticky and moderately plastic; common very fine roots; many very fine tubular pores; 2 percent cobbles; neutral (pH 6.8); clear smooth boundary.  (Combined thickness of the Bw horizon is 4 to 27 inches)"
+      },
+      {
+        "name": "2R",
+        "top": 86,
+        "narrative": "2R--34 inches; basalt bedrock."
+      }
+    ]
+  ]
 }

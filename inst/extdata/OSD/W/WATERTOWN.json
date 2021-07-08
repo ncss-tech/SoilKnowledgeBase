@@ -56,5 +56,94 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The Watertown series has been reclassified with this revision of the series. Field studies, laboratory data, and an investigation of the original typical pedon indicate that most areas are coarse-loamy and have an argillic horizon that is weakly expressed.\nThe 01/2006 revision updates this soil to the 9th Edition of the Keys to Soil Taxonomy (2003). The CEC activity class placement is based on associated soils and not on laboratory data. Class placement may be revised in the future when laboratory data are reviewed or become available.\nCompeting series, pedon description (including horizon nomenclature and/or descriptive terms), and other sections on the OSD were not revised.\nDiagnostic horizons and features recognized in this pedon are:\na. ochric epipedon - from the surface to a depth of 12 inches (Ap horizon)\nb. argillic horizon - the zone from a depth of 12 to 25 inches (Bt1 and Bt2 horizons).\nADDITIONAL DATA: Characterization data are available for MS-30 (the typical pedon).\nPrevious revision dates: 07/88-AR, JRS, LAT, DRM\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 12 inches; dark yellowish brown (10YR 3/4) sandy loam, pale brown (10YR 6/3) dry; weak fine granular structure; very friable; many fine roots; dark brown (7.5YR 3/4) coatings on faces of peds; 2 percent fine gravel; strongly acid; abrupt smooth boundary. (6 to 14 inches thick)."
+      },
+      {
+        "name": "Bt1",
+        "top": 30,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--12 to 17 inches; yellowish brown (10YR 5/4) sandy loam; moderate medium subangular blocky structure; friable; common fine roots; common distinct brown (7.5YR 4/4) clay bridges on sand grains; 2 percent fine gravel; moderately acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 43,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--17 to 25 inches; yellowish brown (10YR 5/4) sandy loam; weak coarse subangular blocky structure; friable; common fine roots; few faint yellowish brown (10YR 5/4) clay bridges on sand grains; 3 percent fine gravel; strongly acid; clear smooth boundary. (Combined thickness of the Bt horizons is 6 to 32 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 64,
+        "bottom": 107,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "BC--25 to 42 inches; brown (7.5YR 4/4) loamy sand; weak coarse subangular blocky structure; very friable; few fine roots; 5 percent fine gravel; strongly acid; abrupt smooth boundary. (0 to 20 inches thick.)"
+      },
+      {
+        "name": "C1",
+        "top": 107,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "coarse sand",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C1--42 to 72 inches; yellowish brown (10YR 5/4) gravelly coarse sand; single grained; loose; 20 percent fine gravel; strongly acid, abrupt wavy boundary."
+      },
+      {
+        "name": "C2",
+        "top": 183,
+        "bottom": 203,
+        "texture_class": "coarse sand",
+        "cf_class": "very gravelly",
+        "pH_class": "slightly alkaline",
+        "narrative": "C2--72 to 80 inches; very gravelly coarse sand; single grained; loose 40 percent gravel; slight effervescence; slightly alkaline."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,99 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nParticle-size control section: 25 to 100 centimeters from the mineral surface\nOchric epipedon: 0 to 18 centimeters (Oi, Oe, and the upper 6 centimeters of the E horizon)\nAlbic horizon: 12 to 20 centimeters (E horizon)\nSpodic horizon: 20 to 50 centimeters (Bs1 horizon)\nAndic soil properties: 12 to 82 centimeters (E, Bs1, and Bs2 horizons)\nLithologic discontinuity: 82 centimeters\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 2,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 2 cm; slightly decomposed plant material; few very fine and fine roots throughout; abrupt smooth boundary."
+      },
+      {
+        "name": "Oe",
+        "top": 2,
+        "bottom": 12,
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oe--2 to 12 cm; moderately decomposed plant material; few very fine and fine roots and common medium and coarse roots throughout; abrupt wavy boundary."
+      },
+      {
+        "name": "E",
+        "top": 12,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH": 4.6,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "E--12 to 20 cm; dark gray (10YR 4/1) ashy sandy loam, light gray (10YR 7/1) dry; moderate fine subangular blocky structure; soft, very friable, nonsticky, nonplastic; common very fine, fine, medium, and coarse roots throughout; 5 percent fine gravel; very strongly acid (pH 4.6); clear irregular boundary."
+      },
+      {
+        "name": "Bs1",
+        "top": 20,
+        "bottom": 50,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH": 5.4,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs1--20 to 50 cm; strong brown (7.5YR 4/6) ashy sandy loam, reddish yellow (7.5YR 6/6) dry; moderate medium subangular blocky structure; soft, very friable, nonsticky, nonplastic; common very fine, fine, medium, coarse, and very coarse roots throughout; 5 percent fine gravel and 5 percent medium and coarse gravel; strongly acid (pH 5.4); clear wavy boundary."
+      },
+      {
+        "name": "Bs2",
+        "top": 50,
+        "bottom": 82,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH": 5.5,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs2--50 to 82 cm; dark yellowish brown (10YR 4/4) ashy fine sandy loam, light yellowish brown (10YR 6/4) dry; weak medium subangular blocky structure; soft, very friable, nonsticky, nonplastic; few very fine, fine, medium, and coarse roots throughout; 5 percent fine gravel; strongly acid (pH 5.5); clear wavy boundary."
+      },
+      {
+        "name": "2C",
+        "top": 82,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "cf_class": "very gravelly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "narrative": "2C--82 to 152 cm; dark yellowish brown (10YR 4/4) very gravelly loamy sand, light yellowish brown (10YR 6/4) dry; single grain; loose, nonsticky, nonplastic; few very fine roots throughout; 20 percent fine gravel and 15 percent medium and coarse gravel; moderately acid (pH 5.8)."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,60 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - zone from 0 to 2 inches (A horizon)\nCambic horizon - zone from 2 to 14 inches (Bw horizon)\nLithic contact - at 14 inches\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "mildly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; dusky red (2.5YR 3/2) clay loam; weak, fine granular structure; very friable, slightly sticky and slightly plastic; mildly alkaline; common roots; abrupt smooth boundary.  (2 to 5 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 5,
+        "bottom": 25,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "mildly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--2 to 10 inches; dark reddish brown (2.5YR 3/4) clay loam; moderate coarse granular structure; friable, slightly sticky, plastic; about 15 percent limestone fragments; common roots; mildly alkaline; clear wavy boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 25,
+        "bottom": 36,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "C--10 to 14 inches; dark red (2.5YR 3/6) loam, massive; friable, slightly sticky, non plastic; few roots; calcareous; moderately alkaline; abrupt irregular boundary.  (3 to 5 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 36,
+        "narrative": "R--14 inches plus; semi-consolidated silicified limestone."
+      }
+    ]
+  ]
 }

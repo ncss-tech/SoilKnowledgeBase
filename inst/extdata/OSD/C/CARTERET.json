@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to a depth of 10 inches. (A and Ag horizons)\nMLRA: 153A, 153B\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0104 CARTERET    0-  2   58- 70  200-270  45- 60     0-   3\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness NC0104 FREQ            0-1.0  APPARENT JAN-DEC  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC- NC0104  0-80  LS LFS                  0-  3  90-100  5-12   2- 20 NC0104  0-80  S FS                    0-  3  90-100  2- 8   3- 20\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0104  0-80  5.6- 8.4  .5-8. 16-80   6.0-  20  LOW\nNC0104  0-80  5.6- 8.4  .5-8. 16-80   6.0-  20  LOW\nADDITIONAL DATA:  North Carolina State University, Department of Soil Science laboratory.  Data from type location.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; dark grayish brown (2.5Y 4/2) loamy sand; weak medium granular structure; very friable; many fine roots; few to common gravel-size fragments of shells; moderately alkaline; clear smooth boundary.  (3 to 9 inches thick)"
+      },
+      {
+        "name": "Ag",
+        "top": 10,
+        "bottom": 25,
+        "moist_hue": "N",
+        "moist_value": 4,
+        "moist_chroma": 0,
+        "texture_class": "loamy sand",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Ag--4 to 10 inches; dark gray (N 4/0) loamy sand; weak medium granular structure; very friable; many fine roots; common sand and gravel-size fragments of shells; moderately alkaline; gradual smooth boundary.  (0 to 11 inches thick)"
+      },
+      {
+        "name": "C1g",
+        "top": 25,
+        "bottom": 86,
+        "moist_hue": "N",
+        "moist_value": 5,
+        "moist_chroma": 0,
+        "texture_class": "loamy sand",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "C1g--10 to 34 inches; gray (N 5/0) loamy sand; single grained; very friable; common fine roots in upper part; common sand-size fragments of shells; neutral; gradual smooth boundary.  (16 to 36 inches thick)"
+      },
+      {
+        "name": "C2g",
+        "top": 86,
+        "bottom": 203,
+        "moist_hue": "5GY",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "moderately alkaline",
+        "narrative": "C2g--34 to 80 inches; greenish gray (5GY 5/1) sand; single grained; loose; common sand and gravel-size fragments of shells; moderately alkaline."
+      }
+    ]
+  ]
 }

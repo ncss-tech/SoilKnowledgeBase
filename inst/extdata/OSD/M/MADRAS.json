@@ -56,5 +56,96 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features in this pedon:\nmollic epipedon - from the soil surface to 10 inches.  (Ap1 and Ap2 horizons)\nargillic horizon - from 10 to 23 inches.  (Bt1 and Bt2 horizons)\nDeschutes Formation - semiconsolidated water-laid sediments composed of sands, gravels, and silts of volcanic origin, and reworked volcanic materials. Interbedded basalts and ash-flow tuffs are included in this formation.\nThis draft (2/92) reflects a change in classification from fine-loamy, mixed, mesic Xerollic Durargids based on the presence of a mollic epipedon from 0 to 10 inches and review of the duripan.  The pan is considered to be geologic Deschutes Formation material.\nADDITIONAL DATA: Partial laboratory data are available for this soil.  Reference sample S89OR-031-014 from Jefferson County, Oregon, NSSL, Lincoln, NE, 5/30/90.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap1",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap1--0 to 4 inches; brown (10YR 5/3) loam, dark brown (10YR 3/3) moist; massive; slightly hard, very friable, nonsticky and nonplastic; few very fine and fine roots; many very fine interstitial pores; neutral (pH 6.8); abrupt smooth boundary."
+      },
+      {
+        "name": "Ap2",
+        "top": 10,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap2--4 to 10 inches; brown (10YR 5/3) loam, dark brown (10YR 3/3) moist; moderate coarse platy structure; hard, friable, nonsticky and nonplastic; common very fine roots; many very fine interstitial pores; neutral (pH 6.8); abrupt smooth boundary.  (Combined thickness of the Ap horizon is 7 to 14 inches)"
+      },
+      {
+        "name": "Bt1",
+        "top": 25,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--10 to 16 inches; yellowish brown (10YR 5/4) loam, dark brown (10YR 4/3) moist; weak coarse subangular blocky structure; hard, friable, nonsticky and nonplastic; many very fine roots; many very fine tubular pores; few faint clay films lining pores and on faces of peds; 25 percent clay (estimated); neutral (pH 7.2); clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 41,
+        "bottom": 58,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7.6,
+        "pH_class": "mildly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--16 to 23 inches; yellowish brown (10YR 5/4) clay loam, dark brown (10YR 4/3) moist; weak coarse subangular blocky structure; hard, friable, slightly sticky and slightly plastic; common very fine roots; many very fine tubular pores; common prominent clay films lining pores and on faces of peds; 35 percent clay (estimated); mildly alkaline (pH 7.6); clear wavy boundary.  (Combined thickness of the Bt horizon is 8 to 20 inches)"
+      },
+      {
+        "name": "2Crk",
+        "top": 58,
+        "bottom": 69,
+        "texture_class": "sand",
+        "narrative": "2Crk--23 to 27 inches; consolidated gravel, cobble, and sand sediments of the Deschutes Formation, moderately effervescent with carbonates along fractures. (2 to 6 inches thick)  (See Remarks)"
+      },
+      {
+        "name": "2R",
+        "top": 69,
+        "narrative": "2R--27 inches; basalt."
+      }
+    ]
+  ]
 }

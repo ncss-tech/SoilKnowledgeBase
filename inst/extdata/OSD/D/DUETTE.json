@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nOchric epipedon - the zone from the surface to 66 inches (A, E1, E2, and EB horizons).\nAlbic horizon - the zone from 3 to 66 inches (E1, E2, and EB horizons).\nSpodic horizon - the zone from 66 to 80 inches (Bh horizon).\nDuette soils were formerly mapped as a variant of the Pomello series or were included with the St. Lucie series in some of the older surveys.\nThe water table is usually at depths of 4 to 6 feet from 1 month to 4 months during the summer and fall months.  It is below these depths most of the rest of each year.  After heavy or prolonged rain it rises above these depths briefly.\nData:  Soil Characterization Laboratory, IFAS, UF S28-3-(1-5), S66-29-(1-6); University of Florida, Gainesville, FL.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; very dark gray (10YR 3/1) sand; weak fine granular structure; very friable; many fine roots; neutral; clear wavy boundary.  (2 to 5 inches thick)"
+      },
+      {
+        "name": "E1",
+        "top": 8,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E1--3 to 8 inches; gray (10YR 6/1) sand; single grained; loose; common fine, medium, and coarse roots; many small gray (10YR 5/1) and white (10YR 8/1) splotches; neutral; gradual wavy boundary."
+      },
+      {
+        "name": "E2",
+        "top": 20,
+        "bottom": 127,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E2--8 to 50 inches; white (10YR 8/1) sand; single grained; loose; few fine to coarse roots; few to common very dark gray (10YR 3/1) to gray (10YR 5/1) streaks in old root channels; neutral; gradual wavy boundary.  (Combined thickness of the E horizon ranges from 45 to 70 inches.)"
+      },
+      {
+        "name": "EB",
+        "top": 127,
+        "bottom": 168,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "EB--50 to 66 inches; light brownish gray (10YR 6/2) sand; single grained; loose; few medium roots; sand grains thinly coated with organic matter; few darker streaks in old roots channels; slightly acid; abrupt wavy boundary. (0 to 10 inches thick.)"
+      },
+      {
+        "name": "Bh",
+        "top": 168,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "narrative": "Bh--66 to 80 inches; black (10YR 2/1) sand; massive; very friable; few medium roots; most sand grains well coated with organic matter; common clean sand grains; few large pockets weakly cemented Bh material; slightly acid."
+      }
+    ]
+  ]
 }

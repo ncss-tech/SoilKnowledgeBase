@@ -56,5 +56,89 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Prosperity soils were previously included in mapping with Helena soils. Helena soils have a depth to paralithic contact of greater than 60 inches. The August 1991 revision of Helena changed depth to bedrock from \"more than 48 inches to more than 60 inches\" to be consistent with one depth to bedrock class as shown on the Soil Interpretation Records. The slope ramge was changed to allow up to 25 percent slopes (8/2007).\nDiagnostic horizons and soil characteristics recognized in this pedon are:\nOchric epipedon--the zone from the soil surface to a depth of 6 inches (A horizon)\nArgillic horizon--the zone from 6 to 35 inches (Bt and BCt horizons)\nSeries control section--the zone from 0 to 60 inches\nADDITIONAL DATA:\nCharacterization samples have been submitted to the National Soil Survey Center, Lincoln, Nebraska. (S99SC-071-005-01-06).\nData Map Unit ID:\nTABULAR SERIES DATA:\nSoil Name  Slope  Airtemp  FrFr/Seas  Precip  Elevation\nProsperity 2-25   58-65    180-260    37-69   250-600\nFloodL  FloodH  Watertable  Kind     Months   Bedrock   Hardness\nNONE            1.5-2.5     Perched  DEC-MAR   20-40     Soft\nDepth   Texture            3-Inch   No-10     Clay%    -CEC-\n0-6     SL, L, FSL          0-5     90-100     5-20     1-6\n0-6     SCL, CL             0-5     90-100    20-35     4-8\n6-29    C, SC, CL           0-5     95-100    35-60     7-13\n29-35   CL, SCL, SL         0-5     95-100    20-35     4-8\n35-60   WB                   -        -         -        -\nDepth     -pH-     O.M.    Salin   Permeab     Shnk-Swll-\n0-6     3.6-5.5    1-3      0-0    0.6-2.0      LOW\n0-6     3.6-5.5    1-3      0-0    0.6-2.0      LOW\n6-29    3.6-5.5   0.-.5     0-0   0.06-0.2      HIGH\n29-35   3.6-5.5   0.-.5     0-0    0.2-0.6      MODERATE\n35-60      -        -        -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 6 inches; brown (10YR 5/3) sandy loam; weak fine granular structure; friable; nonsticky, nonplastic; common fine and medium and few coarse roots; strongly acid; abrupt wavy boundary. (1 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 38,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--6 to 15 inches; strong brown (7.5YR 5/8) clay; moderate medium subangular blocky structure; very firm; moderately sticky, moderately plastic; common fine and medium and few coarse roots; common distinct clay films on faces of peds; few medium faint yellowish red (5YR 5/8) and common medium distinct brownish yellow (10YR 6/6) soft masses of iron accumulations; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 38,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--15 to 21 inches; brownish yellow (10YR 6/6) clay; moderate medium  subangular blocky structure parting to weak thick platy; very firm, moderately sticky, moderately plastic; common fine and medium roots; common distinct clay films on faces of peds; common medium faint strong brown (7.5YR 5/6) soft masses of iron accumulation; few medium distinct pale brown (10YR 6/3) iron depletions; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 53,
+        "bottom": 74,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt3--21 to 29 inches; mottled yellowish brown (10YR 5/8), light gray (10YR 7/1), and reddish yellow (7.5YR 6/8) clay; moderate thick platy structure; firm; moderately sticky, moderately plastic; common fine and medium roots; few distinct clay films on faces of peds; strongly acid; gradual wavy boundary. (Combined thickness of the Bt horizons is 9 to 30 inches.)"
+      },
+      {
+        "name": "BCt",
+        "top": 74,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BCt--29 to 35 inches; mottled yellowish brown (10YR 5/8), light gray (10YR 7/1), and reddish yellow (7.5YR 6/8) sandy clay loam; moderate thick platy structure; firm; slightly sticky, slightly plastic; few fine roots; few distinct clay films on surfaces along root channels; very strongly acid; gradual wavy boundary. (0 to 15 inches thick)"
+      },
+      {
+        "name": "Crt",
+        "top": 89,
+        "bottom": 152,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "narrative": "Crt--35 to 60 inches; highly fractured, weathered bedrock; few distinct clay films along cracks; very strongly acid."
+      }
+    ]
+  ]
 }

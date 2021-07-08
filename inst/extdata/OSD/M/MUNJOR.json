@@ -56,5 +56,62 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon: 0 to 18 centimeters (0 to 7 inches) (A horizon)\nSome pedons may have an AC horizon.\nKeys to Soil Taxonomy: Eleventh edition, 2010\nModified format by LRM in 8/2006 to include metric conversion and change permeability to saturated hydraulic conductivity.\n07/2011 GLP Corrected USGS quadrangle name and added latitude and longitude.  2C1 & 2C2 added the vertical subdivision designation. Added soil moisture, soil temperature regime, mean annual soil temperature, and clay and sand particle size content to RIC. Added clay content, sand content,calcium carbonate equivalance, and reaction to horizon data in RIC. Updated competing series. Lowered mean annual air temperature from 14 to 13 degrees C based on climate data and added frost free days.  Updated geographically associated soils. Added flooding frequency. Changed precipitation values from centimeters to millimeters. Changed runoff to very low.\nADDITIONAL DATA: Data for typical pedon is from the Ellis County, Kansas Soil Survey, Issued August 1975. Additional laboratory data-- National Soil Survey Laboratory, Lincoln, Nebraska; pedons: 53KS141008 and 53KS141004.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A--0 to 18 centimeters (0 to 7 inches); grayish brown (10YR 5/2) sandy loam, dark grayish brown (10YR 4/2) moist; weak medium granular structure; soft, very friable; few fine and medium roots; slight effervescence; moderately alkaline; gradual smooth boundary.  (8 to 38 centimeters (3 to 15 inches) thick)"
+      },
+      {
+        "name": "2C1",
+        "top": 18,
+        "bottom": 112,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2C1--18 to 112 centimeters (7 to 44 inches); light brownish gray (10YR 6/2) sandy loam, grayish brown (10YR 5/2) moist; massive; soft, very friable; thin stratified layers of finer-textured and coarser-textured materials are throughout the horizon; strong effervescence; moderately alkaline; gradual smooth boundary.  (38 to 127 centimeters (15 to 50 inches) thick)"
+      },
+      {
+        "name": "2C2",
+        "top": 112,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH_class": "moderately alkaline",
+        "narrative": "2C2--112 to 152 centimeters (44 to 60 inches); pale brown (10YR 6/3) sand, brown (10YR 5/3) moist; single grained; loose; strong effervescence; moderately alkaline."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,67 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon\nare:\nMollic epipedon - the zone from 0 to 9 inches (A horizon).\nCambic horizon - the zone from 9 to 15 inches (Bw horizon).\nParticle-size control section - the zone from 10 to 22 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "narrative": "A1--0 to 4 inches; grayish brown (10YR 5/2) coarse sandy loam, very"
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "narrative": "A2--4 to 9 inches; grayish brown (10YR 5/2) coarse sandy loam, very"
+      },
+      {
+        "name": "Bw",
+        "top": 23,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "coarse sandy loam",
+        "narrative": "Bw--9 to 15 inches; brown (10YR 5/3) coarse sandy loam, dark brown"
+      },
+      {
+        "name": "C1",
+        "top": 38,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "texture_class": "coarse sand",
+        "narrative": "C1--15 to 22 inches; light brownish gray (10YR 6/2) coarse sandy"
+      },
+      {
+        "name": "Cr",
+        "top": 56,
+        "bottom": 61,
+        "narrative": "Cr--22 to 24 inches; slightly weathered, fractured granitic"
+      },
+      {
+        "name": "R",
+        "top": 61,
+        "narrative": "R--24 inches; bedrock."
+      }
+    ]
+  ]
 }

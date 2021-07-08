@@ -56,5 +56,103 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\n1. Ochric epipedon - the zone from 0 to 18 cm (Oe and A horizons)\n2. Cambic horizon - the zone from 18 to 46 cm (Bg horizons).\n3. Aquic moisture regime as indicated by 2 chroma matrix color with redox concentrations at 18 cm (Bg horizons).\n4. Endosaturation - based on saturation to a depth of 200 cm from the mineral soil surface.\n5. Aeric great group based on matrix color and chroma of 3 or more in one subhorizon between the Ap and 75 cm. (BC horizon).\n6. Particle-size class in control section from 25 to 100 cm - coarse-loamy.\n7. Acid reaction class and mesic temperature regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "narrative": "Oe--0 to 3 cm; black (10YR 2/1) moderately decomposed plant material.  (0 to 10 cm thick)"
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--3 to 18 cm; black (10YR 2/1) fine sandy loam; moderate medium granular structure; friable; common fine and medium roots; 10 percent gravel and cobbles; strongly acid; clear wavy boundary.  (10 to 15 cm thick)"
+      },
+      {
+        "name": "Bg1",
+        "top": 18,
+        "bottom": 25,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bg1--18 to 25 cm; grayish brown (2.5Y 5/2) fine sandy loam; weak medium subangular blocky structure; friable; common fine and medium roots; 10 percent gravel and cobbles; common medium prominent yellowish red (5YR 5/6) masses of iron accumulation; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 25,
+        "bottom": 46,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bg2--25 to 46 cm; light brownish gray (2.5Y 6/2) fine sandy loam; weak medium subangular blocky structure; friable; few fine and medium roots; 10 percent gravel and cobbles; common fine prominent yellowish brown (10YR 5/6) masses of iron accumulation; strongly acid; gradual wavy boundary. (Combined thickness of the Bg horizons is 16 to 68 cm.)"
+      },
+      {
+        "name": "BC",
+        "top": 46,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BC--46 to 61 cm; pale brown (10YR 6/3) fine sandy loam; massive; friable; few fine roots; 10 percent gravel and cobbles; many medium distinct yellowish brown (10YR 5/6) and yellowish red (5YR 4/6) masses of iron accumulation; strongly acid; clear wavy boundary.  (0 to 20 cm thick)"
+      },
+      {
+        "name": "C1",
+        "top": 61,
+        "bottom": 84,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C1--61 to 84 cm; dark yellowish brown (10YR 4/4) gravelly fine sandy loam; massive; friable; 15 percent gravel and cobbles; many medium distinct yellowish brown (10YR 5/6) masses of iron accumulation and prominent pinkish gray (7.5YR 6/2) iron depletions; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "C2",
+        "top": 84,
+        "bottom": 155,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "narrative": "C2--84 to 155 cm; dark yellowish brown (10YR 4/4) gravelly fine sandy loam; massive; friable; 15 percent gravel and cobbles; few fine distinct yellowish brown (10YR 5/6) masses of iron accumulation; strongly acid."
+      }
+    ]
+  ]
 }

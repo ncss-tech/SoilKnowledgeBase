@@ -56,5 +56,55 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\n1. Ochric epipedon - The zone from the surface to a depth of 8 cm (Ap horizon).\n2. Cambic horizon - The zone from 8 to 43 cm (Bw horizon) with less than 60 percent base saturation as evidenced by strongly acid reaction.\n3. Lithic contact - Bedrock at 43 cm.\n4. Loamy-skeletal - Silt loam below 25 cm with 45 percent rock fragments.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 8 cm; dark brown (10YR 3/3) channery silt loam; pale brown (10YR 6/3) dry: weak fine granular structure; very friable; common fine and medium roots; 35 percent shale fragments; strongly acid; abrupt smooth boundary. (8 to 25 cm thick.)"
+      },
+      {
+        "name": "Bw",
+        "top": 8,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "very channery",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw -- 8 to 43 cm; yellowish brown (10YR 5/4) very channery silt loam; weak fine subangular blocky structure; friable; few fine roots; 45 percent shale fragments; strongly acid; abrupt wavy boundary. (10 to 38 cm thick.)"
+      },
+      {
+        "name": "2R",
+        "top": 43,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "narrative": "2R -- 43 cm; hard brown (10YR 4/3) and greenish gray (5G 5/1) folded shale interbedded with red and green shale."
+      }
+    ]
+  ]
 }

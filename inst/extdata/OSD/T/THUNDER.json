@@ -56,5 +56,138 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Series was proposed in the Jefferson National Forest, Rockbridge County, Virginia, 1987.\nThe 7/98 revision places Thunder soils in an active CEC activity class.  Class placement is based on similar soils in the region such as Toecane, Ednyville and Edneytown.\nThe 9/2008 revision adjusts the thickness of the A horizon, adds the humic conditions to the A horizon range and expands the reaction range to include very strongly acid.\nDiagnostic horizons and features in this pedon are:\n1)  Humic feature - the zone from 0 to 9 inches (A1 and A2 horizons).\n2)  Ochric epipedon - the zone from 0 to 13 inches (A1, A2, and E horizons).\n3)  Argillic horizon - the zone from 13 to 43 inches (Bt horizons).\n4)  Loamy-skeletal feature - average rock fragment content of 35 percent or more in the particle-size control section (13 to 33 inch depth).\nSIR = VA0283\nMLRA = 130\nRevised: 12/17/92-MHC; 1/93-TWB; 9/96-BPS,DHK; 7/98-DHK; 9/08-DGF\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "Oi -- 1 to 0 inches; loose leaves and slightly decomposed leaves and twigs."
+      },
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oe -- 0 to 1 inch; organic material of intermediate decomposition."
+      },
+      {
+        "name": "A1",
+        "top": 3,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "cf_class": "extremely stony",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1 -- 1 to 5 inches; very dark gray (10YR 3/1) extremely stony loam; moderate fine granular structure; friable, slightly sticky, slightly plastic; many fine and very fine, common medium and coarse roots; many medium, common fine and coarse, and few very fine pores; 65 percent stones, cobbles and pebbles; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 13,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2 -- 5 to 10 inches; very dark grayish brown (10YR 3/2) very cobbly loam; moderate fine subangular blocky structure; friable, slightly sticky, slightly plastic; many fine, and common very fine, medium and coarse roots; common fine and medium, and few very fine and coarse pores; 50 percent cobbles and pebbles; slightly acid; clear wavy boundary. (Combined thickness of the A horizon is 7 to 12 inches.)"
+      },
+      {
+        "name": "E",
+        "top": 25,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E -- 10 to 14 inches; brown (10YR 5/3) very cobbly loam; moderate coarse subangular blocky structure; firm, slightly sticky, plastic; common medium, and few fine and coarse roots; common fine and medium, and few coarse pores; 45 percent cobbles and pebbles; moderately acid; clear wavy boundary.  (0 to 10 inches)"
+      },
+      {
+        "name": "Bt1",
+        "top": 36,
+        "bottom": 58,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1 -- 14 to 23 inches; brown (7.5YR 4/4) very cobbly loam; moderate coarse subangular blocky structure; firm, slightly sticky, plastic; few fine, medium and coarse roots;  common medium and fine, and few very fine pores; few faint clay films on faces of peds; 45 percent cobbles and pebbles; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 58,
+        "bottom": 84,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2 -- 23 to 33 inches; reddish brown (5YR 4/4) very cobbly clay loam; weak coarse subangular blocky structure; firm, slightly sticky, very plastic; common fine and medium, and few coarse roots; common medium and fine pores; common distinct clay films on faces of peds and in pores; 55 percent cobbles and pebbles; moderately acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 84,
+        "bottom": 112,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt3 -- 33 to 44 inches; brown (7.5YR 4/4) very cobbly clay loam; weak medium subangular blocky structure; firm, sticky and very plastic; common medium, and few fine and coarse roots; many medium and fine pores; common distinct clay films on faces of peds and in pores; 45 percent cobbles and pebbles; moderately acid; gradual wavy boundary.  (Combined thickness of the Bt horizon is 20 to 45 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 112,
+        "bottom": 163,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "very cobbly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BC -- 44 to 64 inches; dark yellowish brown (10YR 4/6) very cobbly coarse sandy loam; weak medium angular blocky structure; friable; few medium and common fine pores; 60 percent cobbles and pebbles; slightly acid; clear wavy boundary.  (0 to 30 inches)"
+      },
+      {
+        "name": "C",
+        "top": 163,
+        "bottom": 185,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "very cobbly",
+        "pH_class": "moderately acid",
+        "narrative": "C -- 64 to 73 inches; yellowish brown (10YR 5/6) very cobbly coarse sandy loam; structureless; very friable; few medium and fine pores; 60 percent cobbles and pebbles; moderately acid."
+      }
+    ]
+  ]
 }

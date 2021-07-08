@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and other diagnostic soil characteristics recognized in this pedon are:\nOchric epipedon--the zone from the soil surface to a depth of 1 inch (A horizon)\nArgillic horizon--the zone from 8 to 28 inches (Bt1 and Bt2 horizons)\nSERIES INTERPRETATION RECORD(S): MD0046\nOSD-SIR REPORT:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nMD0046 CHILLUM     0- 60   47- 59  160-220  30- 46    20- 370\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nMD0046 NONE          6.0-6.0              -     >60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nMD0046  0- 8  SIL L                   0-  0 100-100 10-23    -\nMD0046  0- 8  GRV-L GRV-SIL           0- 15  30- 55 10-23    -\nMD0046  8-28  SIL SICL                0-  0 100-100 18-35    -\nMD0046 28-72  GRV-SL GR-SL            0-  0  15- 75 18-23    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nMD0046  0- 8  4.5- 5.5  1.-3.  0- 0   0.6- 2.0  LOW\nMD0046  0- 8  4.5- 5.5  1.-3.  0- 0   0.6- 2.0  LOW\nMD0046  8-28  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  LOW\nMD0046 28-72  4.5- 5.5  0.-.5  0- 0   0.2- 2.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {}
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 1 inch; very dark grayish brown (10YR 3/2) silt loam; weak fine granular structure; friable, slightly sticky, nonplastic; many medium roots; strongly acid; clear smooth boundary. (1 to 6 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 41,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--8 to 16 inches; brown (7.5YR 4/4) silt loam; very weak fine and medium subangular blocky structure; friable, slightly sticky, slightly plastic; common roots; few faint clay films on peds; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 41,
+        "bottom": 71,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt2--16 to 28 inches; strong brown (7.5YR 5/6) silty clay loam; moderate fine, medium, and coarse subangular blocky structure; firm; moderately sticky, moderately plastic; few medium roots; many distinct clay films; very strongly acid; abrupt smooth boundary. (Combined thickness of the Bt horizon is 15 to 40 inches.)"
+      },
+      {
+        "name": "2C1",
+        "top": 71,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2C1--28 to 32 inches; pale brown (10YR 6/3) gravelly sandy loam; common medium distinct brown (10YR 5/3) and yellowish red (5YR 4/6) mottles; massive; very firm; brittle; 20 percent, by volume rounded quartz pebbles; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "2C2",
+        "top": 81,
+        "bottom": 244,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH_class": "very strongly acid",
+        "narrative": "2C2--32 to 96 inches; pale brown (10YR 6/3) extremely gravelly sandy loam; common medium distinct brown (10YR 5/3), dark yellowish brown (10YR 4/4) and yellowish red (5YR 4/6) mottles; massive; very firm; brittle; 65 percent, by volume rounded quartz pebbles; few thin seams of ironstone; very strongly acid."
+      },
+      {
+        "name": "E",
+        "top": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--1 inch  to 8 inches; brown (10YR 4/3) silt loam; weak fine granular structure; friable, slightly sticky, slightly plastic; many medium roots; very strongly acid; clear smooth boundary. (0 to 8 inches thick)"
+      }
+    ]
+  ]
 }

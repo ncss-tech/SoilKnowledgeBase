@@ -56,5 +56,94 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The 12/97 revision placed Bledsoe soils in an active CEC activity class. Class placement based on S81KY-109-2 (0.41 ratio) and similar soils. The 11/2000 revision added 5YR hues to the RIC of the B and C horizons and fine sandy loam and sandy loam textures to the surface and subsurface horizons. Competing series were also updated. The upper slope range was increased from 60 to 80 percent to facilitate correlation of Bledsoe in Knott and Letcher Counties, KY.\nDiagnostic horizons in the pedon are:\nOchric epipedon: 0 to 14 inches, A and BA horizons.\nArgillic horizon: 14 to 35 inches, Bt1, Bt2, Bt3 horizons.\nMLRA(s): 125 and 128\nRevised: 9/92-JAK,WHC; 8/95-JAK,WHC; 12/97-DHK; 11/2000-DHK\nADDITIONAL DATA: Characterization data from pedon S81KY-109-2 by the University of Kentucky.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 5 inches; dark brown (10YR 3/3) silt loam; weak fine granular structure; very friable; many fine roots; neutral; clear smooth boundary. (2 to 6 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 13,
+        "bottom": 36,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BA--5 to 14 inches; brown (7.5YR 4/4) silty clay loam; weak fine and medium subangular blocky structure; friable; common fine roots; 2 percent limestone and siltstone fragments; neutral; clear smooth boundary. (0 to 15 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 36,
+        "bottom": 56,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--14 to 22 inches; brown (7.5YR 4/4) silty clay; moderate fine and medium angular blocky and subangular blocky structure; firm; few fine roots; few faint clay films; 5 percent limestone and siltstone fragments; neutral; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 56,
+        "bottom": 89,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--22 to 35 inches; brown (7.5YR 4/4) clay; moderate medium angular blocky and subangular blocky structure; very firm; common faint clay films; 5 percent limestone and siltstone fragments; neutral; clear smooth boundary. (Combined thickness of the Bt horizon is 10 to 40 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 89,
+        "bottom": 132,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BC--35 to 52 inches; brown (7.5YR 4/4) gravelly silty clay; weak fine and medium subangular blocky structure; firm; few faint clay films; 20 percent limestone and siltstone fragments; neutral; gradual smooth boundary. (0 to 30 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 132,
+        "bottom": 178,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "narrative": "C--52 to 70 inches; brown (7.5YR 4/4) gravelly silty clay loam; common fine distinct pale brown (10YR 6/3) and common fine faint reddish brown (5YR 4/4) mottles; massive; firm; 30 percent limestone and siltstone fragments; neutral."
+      }
+    ]
+  ]
 }

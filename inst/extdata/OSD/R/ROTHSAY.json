@@ -56,5 +56,98 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizon and features recognized in this pedon are: mollic epipedon - from the surface to 13 inches (Ap and A horizons); cambic horizon - 13 to 22 inches (Bw1 and Bw2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; black (10YR 2/1) silt loam, very dark gray (10YR 3/1) dry; weak fine subangular blocky structure; friable; many roots; neutral; abrupt smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 20,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "A--8 to 13 inches; very dark gray (10YR 3/1) silt loam, dark gray (10YR 4/1) dry; weak medium subangular blocky structure; friable; many roots; neutral; clear irregular boundary.  (Combined thickness of A horizons is 7 to 15 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 33,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--13 to 16 inches; dark grayish brown (10YR 4/2) silt loam, very dark grayish brown (10YR 3/2) coatings on peds; weak medium prismatic structure parting to weak medium subangular blocky; friable; common roots; neutral; clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 41,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw2--16 to 22 inches; dark yellowish brown (10YR 4/4) silt loam; weak medium prismatic structure parting to weak medium subangular blocky; friable; common roots; neutral; gradual wavy boundary. (Combined thickness of the Bw horizons is 4 to 24 inches.)"
+      },
+      {
+        "name": "Bk",
+        "top": 56,
+        "bottom": 76,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bk--22 to 30 inches; light olive brown (2.5Y 5/4) silt loam; weak fine subangular blocky structure; friable; few roots; few soft accumulations of carbonates: strong effervescence; moderately alkaline; gradual smooth boundary.  (0 to 20 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 76,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "BC--30 to 60 inches; light yellowish brown (2.5Y 6/4) silt loam; weak fine subangular blocky structure; friable; slight effervescence; moderately alkaline."
+      }
+    ]
+  ]
 }

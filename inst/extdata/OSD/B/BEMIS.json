@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\na.  Ochric epipedon - the zone from 0 to 5 inches (Oa horizon).\nb.  Cambic horizon - the zone from 5 to 13 inches (Bg horizon).\nc.  Cd horizon - a very firm, dense basal till at a depth of 13 inches.  d.  Aeric feature - chroma of 3 in the Cd1 horizon above 20 inches.  e.  Cryic feature - studies done in Franklin County, Maine show that these wet, high elevation soils are saturated with water during some part of the summer and that the average summer temperature is lower than 43 degrees F.\nADDITIONAL DATA: The soil interpretation record number for the Bemis series, stony is ME0139.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oa",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oa--0 to 5 inches; dark reddish brown (5YR 2/2) sapric material; moderate fine granular structure; very friable; many very fine and common medium and coarse roots; very strongly acid; abrupt wavy boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bg",
+        "top": 13,
+        "bottom": 33,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg--5 to 13 inches; dark grayish brown (2.5Y 4/2) gravelly fine sandy loam; weak thin platy structure; friable; few very fine roots; few medium faint light brownish gray (2.5Y 6/2) iron depletions and few prominent reddish brown (5YR 4/4) masses of iron accumulation; grayish brown (2.5Y 5/2) faces of peds; 20 percent gravel, 5 percent cobbles; strongly acid; clear wavy boundary. (7 to 17 inches thick)"
+      },
+      {
+        "name": "Cd1",
+        "top": 33,
+        "bottom": 58,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Cd1--13 to 23 inches; olive (5Y 5/3) gravelly loam; massive; very firm; many coarse distinct gray (5Y 6/1) iron depletions and many coarse prominent dark yellowish brown (10YR 4/4) masses of iron accumulation; 20 percent gravel; very strongly acid; gradual wavy boundary.  (5 to 53 inches thick)"
+      },
+      {
+        "name": "Cd2",
+        "top": 58,
+        "bottom": 91,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "diffuse",
+        "topography": "wavy",
+        "narrative": "Cd2--23 to 36 inches; olive (5Y 4/3) gravelly loam; massive; very firm; common medium distinct gray (5Y 5/1) iron depletions and common coarse prominent brown (7.5YR 4/4) masses of iron accumulation; 20 percent gravel; strongly acid; diffuse wavy boundary.  (0 to 47 inches thick)"
+      },
+      {
+        "name": "Cd3",
+        "top": 91,
+        "bottom": 165,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "narrative": "Cd3--36 to 65 inches; olive brown (2.5Y 4/4) gravelly loam; massive; very firm; common medium prominent gray (5Y 6/1) iron depletions and common faint dark yellowish brown (10YR 4/4) masses of iron accumulation; 20 percent gravel; strongly acid."
+      }
+    ]
+  ]
 }

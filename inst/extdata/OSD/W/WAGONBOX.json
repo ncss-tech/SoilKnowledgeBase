@@ -56,5 +56,88 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 8 cm (A horizon).\nArgillic horizon - The zone from 8 to 36 cm (Bt1 and Bt2 horizons).\nIndurated duripan - The zone from 36 to 50 cm (Bqm horizon).\nLithic contact - The boundary at 50 cm to underlying hard bedrock (R layer).\nParticle-size control section - The zone from the soil surface to 36 cm (A, Bt1, and Bt2 horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "stony",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 8 cm; yellowish brown (10YR 5/4) stony loam, dark brown (10YR 3/3) moist; weak medium platy structure parting to moderate fine granular; slightly hard, very friable, slightly sticky and nonplastic; common very fine and fine, few medium roots; common very fine and fine vesicular pores; 10 percent cobbles and 15 percent stones; slightly acid (pH 6.4); abrupt smooth boundary.  (8 to 20 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 8,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "very stony",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt1--8 to 20 cm; yellowish brown (10YR 5/4) very stony clay loam, dark yellowish brown (10YR 4/4) moist; moderate medium subangular blocky structure; hard, friable, slightly sticky and slightly plastic; common very fine and fine, few medium and coarse roots; many very fine tubular and common very fine interstitial pores; many distinct clay films on faces of peds; 20 percent stones and 15 percent cobbles; slightly acid (pH 6.5); abrupt smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 20,
+        "bottom": 36,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "very stony",
+        "pH": 7.1,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2--20 to 36 cm; brown (7.5YR 5/4) very stony clay, dark brown (7.5YR 4/4) moist; moderate coarse prismatic structure parting to strong medium subangular blocky; extremely hard, very firm, moderately sticky and moderately plastic; many very fine tubular and common very fine interstitial pores; continuous prominent clay films on faces of peds and lining pores; 20 percent stones and 15 percent cobbles; neutral (pH 7.1); abrupt wavy boundary. (combined Bt thickness is 18 to 36 cm)"
+      },
+      {
+        "name": "Bqm",
+        "top": 36,
+        "bottom": 51,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 4,
+        "pH": 7.1,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bqm--36 to 51 cm; very pale brown (10YR 8/4) indurated duripan; massive; extremely hard, extremely firm, brittle; neutral (pH 7.1); abrupt smooth boundary.  (3 to 20 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 51,
+        "narrative": "R--51 cm; fractured basalt."
+      }
+    ]
+  ]
 }

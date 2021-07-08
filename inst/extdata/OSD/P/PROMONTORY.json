@@ -56,5 +56,83 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from 0 to 2 inches (A horizon)\nCambic horizon - The zone from 2 to 17 inches (Bw1, Bw2 horizons)\nPetrocalcic horizon - The zone from 17 to 19 inches (2Bkm horizon)\nLithic contact - The boundary at 19 inches (3R horizon)\nClassified according to Keys to Soil Taxonomy Ninth Edition, 2003\nRemoved Esplin from competing series section because it changed to the Ustalfic Petrocalcids subgroup, tdc 08/2019.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; brown (7.5YR 5/4) gravelly sandy loam, brown (7.5YR 4/4) moist; weak thin platy parting to weak fine granular structure; soft, very friable, nonsticky and nonplastic; few very fine roots; few very fine irregular pores; 30 percent gravel; strongly effervescent, 4 percent calcium carbonate equivalent; slightly alkaline (pH 7.8); abrupt smooth boundary. (1 to 3 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 5,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw1--2 to 12 inches; strong brown (7.5YR 4/6) gravelly sandy clay loam, brown (7.5YR 4/4) moist; weak fine subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; common fine and medium roots; common fine irregular pores; 20 percent gravel and 5 percent cobble; violently effervescent, 8 percent calcium carbonate equivalent; moderately alkaline (pH 8.0); abrupt smooth boundary. (1 to 14 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 30,
+        "bottom": 43,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw2--12 to 17 inches; brown (7.5YR 5/4) gravelly sandy clay loam, brown (7.5YR 4/4) moist; weak fine subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; common fine and medium roots; common fine irregular pores; 20 percent gravel and 5 percent cobble; violently effervescent, 8 percent calcium carbonate equivalent; moderately alkaline (pH 8.0); abrupt smooth boundary. (2 to 14 inches thick)"
+      },
+      {
+        "name": "2Bkm",
+        "top": 43,
+        "bottom": 48,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "2Bkm--17 to 19 inches; calcium carbonate cemented petrocalcic with discontinuous laminar cap; abrupt smooth boundary. (2 to 14 inches thick)"
+      },
+      {
+        "name": "3R",
+        "top": 48,
+        "narrative": "3R--19 inches; rhyolite bedrock."
+      }
+    ]
+  ]
 }

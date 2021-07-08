@@ -56,5 +56,62 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The November 1992 revision of this series changed the classification from Ultic Hapludalfs to Dystric Eutrochrepts. This is based on characterization data from the typical pedon -NSSL Pedon Number 91P0226. A dominance of the soils mapped Oteen have a cambic horizon and have more than 60 percent base saturation by NH4OAc in some horizon between 10 inches and paralithic contact by 20 inches. The 8/01 revision updates classification and places this series in a superactive CEC activity class based upon NSSL Pedon 91P0226.\nDiagnostic features and horizons recognized in the typical pedon are:\nOchric epipedon - the zone from the surface to a depth of 2 inches (Ap horizon)\nCambic horizon - the zone from 2 to 11 inches below the surface (Bw horizon)\nShallow paralithic contact - the occurrence of weathered bedrock at a depth of 15 inches (upper boundary of the Cr horizon)\nADDITIONAL DATA:\nSelected NSSL data: NH4OAc\nHorizon Depth(in) Sand Silt Clay pH1:1H2O Base Sat.% CEC7\n------- --------- ---- ---- ---- ---------- --------\nAp 0 - 2 59.9 30.6 9.5 4.6 58\nBw 2 - 11 61.6 29.3 9.1 5.1 49\nC 11 - 15 71.8 20.8 7.4 6.0 76\nMLRA: 130 SIR: NC0107\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 2 inches; dark brown (10YR 3/3) fine sandy loam; weak fine granular structure; very friable; common very fine roots; few fine and medium interstitial pores; common fine flakes of mica; 2 percent by volume migmatitic gneiss gravel; very strongly acid; clear smooth boundary. (2 to 7 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 5,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--2 to 11 inches; dark yellowish brown (10YR 4/4) fine sandy loam; weak fine subangular blocky structure; very friable; common very fine roots; few fine and medium interstitial pores; common fine flakes of mica; 10 percent by volume migmatitic gneiss gravel; strongly acid; clear wavy boundary. (3 to 13 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 28,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "C--11 to 15 inches; dark yellowish brown (10YR 4/4) very gravelly sandy loam; saprolite weathered from migmatitic gneiss; massive rock-controlled structure; very friable; few very fine roots; common medium interstitial pores; common fine flakes of mica; 38 percent by volume migmatitic gneiss gravel; moderately acid; gradual irregular boundary. (0 to 7 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 38,
+        "bottom": 107,
+        "narrative": "Cr--15 to 42 inches; multicolored, weathered migmatitic gneiss bedrock; partially consolidated but can be dug with difficulty with hand tools."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\n1. Ochric epipedon - The zone from 0 to 9 inches (Ap horizon).\n2. Cambic horizon - The zone from 9 to 22 inches (Bw1 and Bw2 horizons).\n3. Fluvaquentic feature - Irregular decrease in organic carbon and low chroma redoximorphic features are within a depth of 24 inches of the surface.\n4. Udic soil moisture regime.\nAdditional Data: Soil Interpretation Records - WV0020, WV0129.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches, brown (10YR 4/3) silt loam, pale brown (10YR 6/3) dry; moderate fine granular structure; friable; strongly acid; abrupt smooth boundary.  (5 to 10 inches thick.)"
+      },
+      {
+        "name": "Bw1",
+        "top": 15,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw1--6 to 16 inches, dark yellowish brown (10YR 4/4) silt loam; moderate fine granular structure; friable; strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 41,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw2--16 to 22 inches, brown (10YR 5/3) silt loam weak very fine subangular blocky structure; friable to firm; few fine distinct dark brown to brown (7.5YR 4/4) iron concentrations and gray (10YR 5/1) iron depletions; strongly acid; clear smooth boundary. (Combined thickness of the Bw is 9 to 40 inches.)"
+      },
+      {
+        "name": "C1",
+        "top": 56,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C1--22 to 32 inches, gray (10YR 5/1) silt loam, massive; friable; common distinct strong brown (7.5YR 5/8) iron concentrations; common black concretions; strongly acid; clear smooth boundary.  (0 to 12 inches thick.)"
+      },
+      {
+        "name": "C2",
+        "top": 81,
+        "bottom": 107,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C2--32 to 42 inches, variegated gray (10YR 5/1) and strong brown (7.5YR 5/8) loam; massive; firm; strongly acid; clear smooth boundary.  (0 to 12 inches thick.)"
+      },
+      {
+        "name": "2C3",
+        "top": 107,
+        "bottom": 152,
+        "texture_class": "sand",
+        "narrative": "2C3--42 to 60 inches, stratified sand and gravel."
+      }
+    ]
+  ]
 }

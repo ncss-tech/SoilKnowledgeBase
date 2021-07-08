@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\n1.  Ochric epipedon-zone from 0 to 12 inches (A and E horizons).\n2.  Cambic horizon-zone from 12 to 20 inches (Bw horizon).\n3.  Lithic contact at 30 inches.\nSIR=VA0091, VA0253 (GRAVELLY), VA0092 (STONY)\nMLRA=130, 147, 148\nREVISED=1/24/92, MHC\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 3,
+        "bottom": 0,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "narrative": "0i--1 to 0 inches; very dark brown (10YR 2/2) decomposed forest litter."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; dark brown (10YR 3/3) loam; weak very fine granular structure; very friable; many fine and medium roots; 1 percent coarse fragments of quartz up to 1 inch in diamter; very strongly acid; abrupt smooth boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--4 to 12 inches; brown (10YR 5/3) loam; weak fine granular structure; very friable; many fine and medium roots; 1 percent fragments of schist and quartz up to 2 inches in diameter; very strongly acid; clear smooth boundary.  (0 to 16 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 30,
+        "bottom": 51,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--12 to 20 inches; brown (7.5YR 4/4) channery fine sandy loam; weak fine and medium subangular blocky structure; friable, slightly sticky; few fine flakes of mica; 20 percent weathered fragments of sandstone up to 3 inches long; few lenses and pockets of silt loam; very strongly acid; abrupt wavy boundary.  (6 to 20 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 51,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--20 to 30 inches; brown (10YR 5/3) channery fine sandy loam; rock controlled structure friable; 35 percent weathered rock fragments up to 3 inches long; few lenses and pockets of reddish clayey soil material in cracks and crevices of rock; few fine flakes of mica; easily crushed weathered bedrock; very strongly acid; abrupt wavy boundary.  (6 to 24 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 76,
+        "texture_class": "sand",
+        "narrative": "R--30 inches; hard, graywacke and phyllite containing fine quartz sand and fine flakes of mica."
+      }
+    ]
+  ]
 }

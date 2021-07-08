@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  These soils were formerly included in the Weston series.\nTABULAR SERIES DATA:\nADDITIONAL DATA:  North Carolina State University Soil Department laboratory data at site location.\nSand           Silt           Clay\nA1              0-4\"               74             21             5 Btg2           16-32\"              71             19            10\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0036 WOODINGTON  0-  2   60- 66  210-260  42- 52    40- 170\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0036 NONE            0-1.0  APPARENT DEC-MAY  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0036  0-12  LS LFS                  0-  0  95-100  2-10   2-  6\nNC0036  0-12  SL FSL                  0-  0  95-100  5-18   2-  7\nNC0036 12-47  SL FSL                  0-  0  95-100  5-18   1-  4\nNC0036 47-85  SL LS LFS               0-  0  95-100  3-18   1-  4\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0036  0-12  3.5- 5.5  2.-4.  0- 0   6.0-  20  LOW\nNC0036  0-12  3.5- 5.5  2.-4.  0- 0   2.0- 6.0  LOW\nNC0036 12-47  3.5- 5.5  0.-.5  0- 0   2.0- 6.0  LOW\nNC0036 47-85  3.5- 5.5  0.-.5  0- 0   2.0-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A1--0 to 4 inches; very dark gray (10YR 3/1) loamy sand; weak medium granular structure; very friable; many fine roots; very strongly acid; gradual wavy boundary.  (3 to 5 inches thick.)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--4 to 12 inches; grayish brown (10YR 5/2) loamy sand; weak medium granular structure; very friable; many fine roots; few medium pores filled with dark gray soil; very strongly acid; clear wavy boundary.  (5 to 15 inches thick.)"
+      },
+      {
+        "name": "Btg1",
+        "top": 30,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg1--12 to 16 inches; light brownish gray (10YR 6/2) sandy loam; few medium distinct light yellowish brown (10YR 6/4) mottles; weak fine subangular blocky structure; very friable, slightly sticky; sand coated and bridged with clay; few medium pores filled with dark gray material; very strongly acid; gradual wavy boundary.  (3 to 10 inches thick.)"
+      },
+      {
+        "name": "Btg2",
+        "top": 41,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg2--16 to 32 inches; gray (10YR 6/1) sandy loam; few medium distinct light yellowish brown (10YR 6/4) and strong brown (7.5YR 5/6) mottles; weak fine subangular blocky structure; friable; slightly sticky; sand coated and bridged with clay; very strongly acid; gradual wavy boundary.  (10 to 20 inches thick.)"
+      },
+      {
+        "name": "Btg3",
+        "top": 81,
+        "bottom": 119,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg3--32 to 47 inches; gray (10YR 6/1) sandy loam; common pockets of sand that are light gray (10YR 7/1) and yellowish brown (10YR 5/4); weak fine subangular blocky structure; very friable; very strongly acid; gradual wavy boundary.  (12 to 20 inches thick.)"
+      },
+      {
+        "name": "Cg",
+        "top": 119,
+        "bottom": 216,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "narrative": "Cg--47 to 85 inches; light gray (10YR 7/1) loamy sand; few medium distinct brownish yellow (10YR 6/6) mottles; weak fine granular structure; loose; common small pockets (skeletans) of clean sand; very strongly acid."
+      }
+    ]
+  ]
 }

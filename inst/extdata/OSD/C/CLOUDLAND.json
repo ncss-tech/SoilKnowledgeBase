@@ -56,5 +56,61 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The name is from a community in the county.  Sample No.  S70-Ala-10-58(1-5) Data by Alabama Agricultural Experiment\nStation.\nHorizon             Depth               Sand                Silt\nClay                Texture\nAp                   0-10@               47                  46\n7                 fsl-1\nB2                  10-22@               37                  53\n10                 sil\nBx1                 22-28@               39                  41\n20                 l\nBx2                 28-36@               38                  40\n22                 l\nB3                  36-62@               35                  45\n20                 l\nNational Cooperative Soil Survey\nU. S. A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "narrative": "Ap--0 to 10 inches; dark grayish brown (10YR 4/2) loam; weak fine granular structure; very friable; few fine roots; medium"
+      },
+      {
+        "name": "B2",
+        "top": 25,
+        "bottom": 56,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "silt",
+        "narrative": "B2--10 to 22 inches; light yellowish brown (2.5Y 6/4) silt"
+      },
+      {
+        "name": "A",
+        "top": 56,
+        "bottom": 71,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "narrative": "Bx&A--22 to 28 inches; light yellowish brown (2.5Y 6/4) loam with common medium distinct yellowish brown (10YR 5/6) and light"
+      },
+      {
+        "name": "Bx",
+        "top": 71,
+        "bottom": 91,
+        "narrative": "Bx--28 to 36 inches; mottled light yellowish brown (2.5Y"
+      },
+      {
+        "name": "B3",
+        "top": 91,
+        "bottom": 157,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "narrative": "B3--36 to 62 inches; mottled strong brown (7.5YR 5/6),"
+      }
+    ]
+  ]
 }

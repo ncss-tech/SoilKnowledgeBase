@@ -56,5 +56,51 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features:\n- Ochric epipedon - \"Mollic colors\" only extend to a depth of 4 inches; moist chroma of 4 at 4 to 24 inches.\n- Cambic horizon - 4 to 24 inches.\nNATIONAL COOPERATIVE SOIL SURVEY\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "narrative": "A--0 to 4 inches; dark brown (7.5YR 3/2) loam, brown (7.5YR"
+      },
+      {
+        "name": "Bw1",
+        "top": 10,
+        "bottom": 38,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "narrative": "Bw1--4 to 15 inches; dark brown (7.5YR 3/4) loam, brown"
+      },
+      {
+        "name": "Bw2",
+        "top": 38,
+        "bottom": 61,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "narrative": "Bw2--15 to 24 inches; dark brown (7.5YR 3/4) loam, brown"
+      },
+      {
+        "name": "2R",
+        "top": 61,
+        "narrative": "2R--24 inches; basalt."
+      }
+    ]
+  ]
 }

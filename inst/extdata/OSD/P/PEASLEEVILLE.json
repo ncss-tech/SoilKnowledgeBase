@@ -56,5 +56,103 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This represents a partial update of the series to Established. Not all items were reviewed at this time. CEC activity class is added as active based on data from associated soils in similar parent materials.\nDiagnostic horizons and other features recognized in the typical pedon are:\n1) Ochric epipedon - from 0 to 11 inches (Ap1 and Ap2).\n2) Cambic horizon - from 22 to 42 inches (2Bw and 2BC).\n3) Aeric subgroup - color value and chroma of 3 or more\nin some horizon between the Ap and a depth of 30\ninches below the mineral soil surface (BE and 2Bw\nhorizons).\n4) Redoximorphic features - accumulation of Fe oxides,\nareas of Fe depletions, or reduced matrices (in all\nhorizons below the Ap).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap1",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap1 -- 0 to 7 inches, very dark gray (10YR 3/1) loam, light brownish gray (10YR 6/2) dry; weak medium and fine granular structure; very friable; many fine and very fine, and few medium roots; 10 percent rock fragments; neutral; clear smooth boundary."
+      },
+      {
+        "name": "Ap2",
+        "top": 18,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap2 -- 7 to 11 inches, very dark grayish brown (10YR 3/2) gravelly loam; light brownish gray (10YR 6/2) dry; moderate medium subangular blocky structure parting to weak fine granular; friable; common fine and very fine roots; 15 percent rock fragments; moderately acid; abrupt smooth boundary. (Combined thickness of the Ap horizons is 5 to 12 inches)."
+      },
+      {
+        "name": "BE",
+        "top": 28,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BE -- 11 to 22 inches, brown and dark brown (10YR 5/3 and 4/3) gravelly fine sandy loam; grayish brown (10YR 5/2) on faces of peds; weak medium and coarse subangular blocky structure parting to weak thin platy; friable; common fine and very fine roots; common fine and medium pores; common fine and medium faint yellowish brown (10YR 5/4) and few fine distinct brown (7.5YR 4/4) soft masses of Fe oxides; 15 percent rock fragments; moderately acid; clear wavy boundary. (0 to 12 inches thick)."
+      },
+      {
+        "name": "2Bw",
+        "top": 56,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bw -- 22 to 32 inches, brown and dark brown (7.5YR 5/3 and 4/3) gravelly loam, light brownish gray (10YR 6/2) on faces of prisms; moderate very coarse prismatic structure parting to weak medium and coarse subangular blocky; few patchy clay films in pores; friable (firm in place); few fine roots; common fine and few medium pores; few fine faint yellowish brown (10YR 5/4) and few fine distinct yellowish brown (10YR 5/6) soft masses of Fe oxides; 25 percent rock fragments; slightly acid; clear wavy boundary (6 to 30 inches thick)."
+      },
+      {
+        "name": "2BCg",
+        "top": 81,
+        "bottom": 107,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2BCg -- 32 to 42 inches, dark grayish brown (10YR 4/2) gravelly loam; weak thin and medium platy structure; friable (firm in place); few fine roots; common fine and few medium pores; common medium and coarse distinct brown (7.5YR 5/2) areas of Fe depletions, and strong brown (7.5YR 5/6) soft masses of Fe oxides; 30 percent rock fragments (including 5 percent cobbles); neutral; gradual wavy boundary. (0 to 14 inches thick)."
+      },
+      {
+        "name": "2Cg",
+        "top": 107,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "narrative": "2Cg -- 42 to 72 inches, dark grayish brown (10YR 4/2) and dark yellowish brown (10YR 4/4) gravelly loam; massive; friable (firm in place); common fine and medium pores; few fine and medium faint yellowish brown (10YR 5/4) and few fine and medium distinct yellowish brown (10YR 5/6) soft masses of Fe oxides; 30 percent rock fragments (including 5 percent cobbles and stones); neutral."
+      }
+    ]
+  ]
 }

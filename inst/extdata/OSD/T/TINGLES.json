@@ -56,5 +56,38 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features in this pedon include:\nOchric epipedon-the zone from 0 to 3 inches (0 to 8 cm) (Ag horizon)\nPeraquic feature - Positive soil water potential (permanently submerged) at the soil surface. (under 9 feet (270 centimeters) of salt water).\nParticle size control section - The zone from 0 to 40 inches (0 to 100 centimeters).\nSulfidic materials - within 20 inches (50 centimeters) of the soil surface (the Cseg horizon).\nADDITIONAL DATA:  Balduff, D.M. 2007 Ph.D. dissertation, University of Maryland.\nNASIS user site and pedon ID:  2012MD047031.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "subaqueous"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ag",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10Y",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "Ag--0 to 3 inches (0 to 8 centimeters); greenish black (10Y 2.5/1) silty clay loam; massive; very sticky; very fluid; slightly alkaline; abrupt boundary (1 to 17 inches (1 to 44 centimeters) thick"
+      },
+      {
+        "name": "Cseg",
+        "top": 8,
+        "bottom": 244,
+        "moist_hue": "10Y",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "Cseg--3 to 96 inches (8 to 245 centimeters); very dark greenish gray (10Y 3/1) silty clay loam; massive; very sticky; very fluid; sulfurous odor; slightly alkaline; slightly saline."
+      }
+    ]
+  ]
 }

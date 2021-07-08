@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 30 cm (A and AB horizons).\nVitrandic intergrade feature - The zone from the soil surface to 30 cm (A and AB horizons).\nBuried cambic horizon - The zone from 30 to 58 cm (2Bwb1 and 2Bwb2 horizons).\nLithic contact - The boundary at 58 cm to underlying hard bedrock (2R layer).\nParticle-size control section - The zone from 25 to 58 cm (2Bwb1 and 2Bwb2 horizons and part of the AB horizon).\nADDITIONAL DATA:  Volcanic glass content of the buried horizons determined locally by optical grain count with a polarizing petrographic microscope.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "coarse sand",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 8 cm; grayish brown (10YR 5/2) ashy loamy sand, very dark grayish brown (10YR 3/2) moist; single grain; loose, nonsticky and nonplastic; many very fine and fine roots; few fine tubular pores; 30 percent very pale brown (10YR 7/3) coarse and very coarse sand-size pumiceous ash grains; neutral (pH 7.0); clear wavy boundary.  (5 to 18 cm thick)"
+      },
+      {
+        "name": "AB",
+        "top": 8,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "coarse sand",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "AB--8 to 30 cm; brown (10YR 5/3) ashy sandy loam, dark brown (10YR 3/3) moist; weak fine and medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; many fine and common medium roots; common fine tubular pores; 25 percent very pale brown (10YR 7/3) coarse and very coarse sand-size pumiceous ash grains; neutral (pH 7.3); abrupt smooth boundary.  (18 to 30 cm thick)"
+      },
+      {
+        "name": "2Bwb1",
+        "top": 30,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "coarse sand",
+        "cf_class": "gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bwb1--30 to 56 cm; yellowish brown (10YR 5/4) gravelly loam, dark yellowish brown (10YR 4/4) moist; moderate medium subangular blocky structure; slightly hard, firm, slightly sticky and slightly plastic; common medium and coarse roots; common fine and medium tubular pores; 5 percent very pale brown (10YR 7/3) coarse and very coarse sand-size pumiceous ash grains; 25 percent gravel and 5 percent cobbles; slightly alkaline (pH 7.6); clear wavy boundary.  (20 to 36 cm thick)"
+      },
+      {
+        "name": "2Bwb2",
+        "top": 56,
+        "bottom": 58,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "2Bwb2--56 to 58 cm; yellowish brown (10YR 5/4) extremely gravelly loam, dark yellowish brown (10YR 4/4) moist; moderate medium and coarse subangular blocky structure; slightly hard, firm, slightly sticky and slightly plastic; common medium and coarse roots; common medium tubular pores; 50 percent gravel and 20 percent cobbles; slightly alkaline (pH 7.6); abrupt irregular boundary.  (0 to 23 cm thick)"
+      },
+      {
+        "name": "2R",
+        "top": 58,
+        "narrative": "2R--58 cm; fractured tuff-breccia."
+      }
+    ]
+  ]
 }

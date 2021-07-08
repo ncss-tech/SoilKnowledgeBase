@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Hydeland soils were previously mapped as Hyde soils (fine-silty, mixed, thermic, Typic Umbraquults).  The original type location for the Hyde series was located in Hyde County.  In 1989 three pedons were sampled for characterization by the Soil Survey Laboratory, Lincoln, NE.  The base saturation at critical depth by the sum of cations method was greater than 35 percent, requiring a change in classification from Ultisols to Alfisols.  The type location site for the Hyde series has been relocated to Tyrrell County, NC and the official series description revised.\nDiagnostic horizons and features recognized in this pedon:\nUmbric epipedon - the zone from the surface to a depth of 11 inches.  (Ap and AB horizons)\nArgillic horizon - the zone from 11 to 58 inches.  (Btg1, Btg2, Btg3, and Btg4 horizons)\nAquic conditions - endosaturation and redoximorphic features including masses of iron accumulation and iron depletions in the zone from 11 to 66 inches.   (Btg1, Btg2, Btg3, Btg4, and Cg horizons)\nMLRA = 153B\nADDITIONAL DATA:  Characterization data is available from the National Soil Survey Laboratory, Lincoln, NE for the following pedons: S89NC-095-008 (OSD); S89NC-095-009; and S89NC-095-010\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0272 HYDELAND    0-  2   57- 70  215-250  46- 58     5-  25\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness NC0272 NONE   RARE     0-1.0  APPARENT DEC-APR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC- NC0272  0-11  VFSL L SIL              0-  0  95-100  5-18   5- 25 NC0272  0-11  MK-VFSL MK-L MK-SIL     0-  0  95-100  5-18  10- 35 NC0272 11-31  L SIL SICL              0-  0  95-100 18-35   5- 15 NC0272 31-58  L CL SIL                0-  0  95-100 12-35   5- 15 NC0272 58-66  SL L SIL                0-  0  90-100  5-35   5- 15\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0272  0-11  3.5- 5.5  3.-10  0- 0   0.6- 2.0  LOW\nNC0272  0-11  3.5- 5.5  10-15  0- 0   2.0- 6.0  LOW\nNC0272 11-31  3.5- 5.5  .2-3.  0- 0  0.06- 0.6  LOW\nNC0272 31-58  3.5- 7.3  0.-.5  0- 0  0.06- 0.6  LOW\nNC0272 58-66  3.5- 7.3  0.-.5  0- 0   0.2- 2.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; black (10YR 2/1) silt loam; moderate medium granular structure; friable; few very fine and fine roots; strongly acid; clear smooth boundary.  (7 to 10 inches thick)"
+      },
+      {
+        "name": "AB",
+        "top": 15,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "AB--6 to 11 inches; black (10YR 2/1) silt loam; moderate medium subangular blocky structure and weak very fine platy structure at the top of the horizon; friable; common fine roots; few coarse or very coarse pockets of light brownish gray B material mixed by cultivation; few old root channels filled with A material; very strongly acid; clear wavy boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 28,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btg1--11 to 17 inches; grayish brown (10YR 5/2) silt loam; moderate medium subangular structure; friable; few very fine roots; common very fine tubular pores; common medium distinct strong brown (7.5YR 5/8) rounded masses of iron accumulation with clear boundaries in matrix; few very fine flakes of mica; few faint clay films on faces of peds; few old root channels filled with A material; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 43,
+        "bottom": 79,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btg2--17 to 31 inches; light brownish gray (2.5Y 6/2) silt loam; moderate medium subangular blocky structure; friable; few very fine roots; common very fine tubular pores; common coarse distinct grayish brown (2.5Y 5/2) irregularly shaped iron depletions with clear boundaries in matrix; common medium distinct yellowish brown (10YR 5/8) and common medium faint light yellowish brown (2.5Y 5/4) irregularly shaped masses of iron accumulation with clear boundaries in matrix; few faint clay films on faces of peds; few gray (5Y 5/1) skeletans (sand or silt); common very fine mica flakes; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Btg3",
+        "top": 79,
+        "bottom": 104,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btg3--31 to 41 inches; gray (5Y 5/1) loam; moderate coarse prismatic structure parting to moderate fine and medium subangular blocky; friable; few fine and very fine roots; common very fine tubular pores; common fine distinct strong brown (7.5YR 5/8) and common medium distinct light olive brown (2.5Y 5/4) irregularly shaped masses of iron accumulation with clear boundaries in matrix; common very fine flakes of mica; few faint clay films on faces of peds; few gray (5Y 5/1) skeletans (sand or silt); moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "Btg4",
+        "top": 104,
+        "bottom": 147,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btg4--41 to 58 inches; grayish brown (2.5Y 5/2) loam; moderate coarse subangular blocky structure; friable; few very fine relic roots; few fine tubular pores; common fine distinct yellowish brown (10YR 5/8) and common medium distinct yellowish brown (10YR 5/6) irregularly shaped masses of iron accumulation with clear boundaries in matrix; common fine mica flakes; few faint clay films on faces of peds; neutral; clear smooth boundary.  (Combined thickness of the Btg is more than 30 inches.)"
+      },
+      {
+        "name": "Cg",
+        "top": 147,
+        "bottom": 168,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "narrative": "Cg--58 to 66 inches; gray (5Y 5/1) loam; massive; friable; few very fine relic roots; few very fine tubular pores; few medium distinct olive (5Y 5/3) and common medium distinct yellowish brown (10YR 5/6) irregularly shaped masses of iron accumulation with clear boundaries in matrix; common very fine flakes of mica; neutral."
+      }
+    ]
+  ]
 }

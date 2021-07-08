@@ -56,5 +56,51 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon include:\nMollic epipedon - The zone from the mineral soil surface to 7 inches (A and the Bt horizons).\nVitrandic intergrade feature -- High volcanic glass content in the .02 to 2mm fraction from the mineral soil surface to 7 inches (A and the Bt horizons).\nArgillic horizon - The zone from 2 to 7 inches (Bt horizon).\nLithic contact - The boundary at 7 inches to underlying hard bedrock (R layer).\nParticle-size control section - The zone from the surface to 7 inches (A and Bt horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; brown (10YR 5/3) crushed very gravelly ashy loam, dark brown (10YR 3/3) crushed moist; weak fine subangular blocky structure; soft, very friable,  nonsticky, nonplastic; common fine roots and many very fine roots; common very fine interstitial and tubular pores; 50 percent pebbles; neutral, (pH 6.8);  clear smooth boundary. (1 to 5 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 5,
+        "bottom": 18,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--2 to 7 inches; brown (7.5YR 5/2) crushed very gravelly ashy clay loam, dark brown (7.5YR 3/2) crushed moist; moderate fine and medium subangular blocky structure; slightly hard, friable, moderately sticky, moderately plastic; common very fine and fine roots; common very fine interstitial and tubular pores; 20 percent distinct clay films on all faces of peds and 20 percent distinct clay films on surfaces along pores; 50 percent pebbles; neutral, (pH 6.9);  abrupt wavy boundary. (4 to 9 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 18,
+        "narrative": "R--7 inches; unweathered andesitic tuff-breccia."
+      }
+    ]
+  ]
 }

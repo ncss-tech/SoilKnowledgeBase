@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizon recognized in this pedon is:\nOchric epipedon - the zone from the soil surface to a depth of 9 inches (Ap horizon).\nAquic conditions - periodic endosaturation and redox depletions with chroma of 2 or less within 20 inches of the mineral surface.\nREVISED = RLV 12/4/97, ksl 11/2000\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name  Slope  Airtemp FrFr/Seas  Precip   Elevation\nGA0013 CARTECAY   0-5    58-65   215-240    48-57    450-1100\nGA0085 CARTECAY   0-2    58-65   215-240    48-57    450-1100\nSOI-5    FloodL FloodH Watertable  Kind     Months Bedrock Hardness\nGA0013   COMMON         0.5-1.5   APPARENT JAN-APR  >60\nGA0085   NONE              -      APPARENT    -     >60\nSOI-5  Depth  Texture    3-Inch   No-10    Clay%   -CEC-\nGA0013 0-9    SL LS       0-0     75-100    5-19   5-10\nGA0013 0-9    L SIL SICL  0-0     95-100   20-35   6-12\nGA0013 0-9    VFSL FSL    0-0     95-100   10-20   6-10\nGA0013 9-40   SL FSL L    0-0     75-100   8-18    6-14\nGA0013 40-60  LS S SL     0-0     35-95    2-16    6-12\nGA0085 0-9    SL LS       0-0    75-100    5-19     -\nGA0085 0-9    L SIL SICL  0-0    95-100   20-35     -\nGA0085 0-9    VFSL FSL    0 0    95-100   10-20     -\nGA0085 9-40   SL FSL L    0-0    75-100    8-18     -\nGA0085 40-60  LS S SL     0-0    35-95     2-16     -\nSOI-5  Depth  -pH-     O.M.   Salin   Permeab   Shnk-Swll\nGA0013 0-9   5.1-6.5   1.-2.  0-0     6.0-20    LOW\nGA0013 0-9   5.1-6.5   2.-3.  0-0     2.0-6.0   LOW\nGA0013 0-9   5.1-6.5   1.-2.  0-0     6.0-20    LOW\nGA0013 9-40  5.1-6.5   .5-1.  0-0     2.0-6.0   LOW\nGA0013 40-60 5.1-6.5   .5-1.  0-0     6.0-20    LOW\nGA0085 0-9   5.1-6.5   1.-2.  0-0     6.0-20    LOW\nGA0085 0-9   5.1-6.5   2.-3.  0-0     2.0-6.0   LOW\nGA0085 0-9   5.1-6.5   1.-2.  0-0     6.0-20    LOW\nGA0085 9-40  5.1-6.5   .5-1.  0-0     2.0-6.0   LOW\nGA0085 40-60 5.1-6.5   .5-1.  0-0     6.0-20    LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 9 inches; brown (10YR 4/3) loam; weak fine granular structure; very friable; many fine roots; many very fine mica flakes; moderately acid; abrupt smooth boundary. (7 to 12 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 23,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C1--9 to 18 inches; yellowish brown (10YR 5/4) loam; common medium distinct dark brown (10YR 3/3) mottles; massive; very friable; many fine roots; many fine mica flakes; thin strata of silt loam and sandy loam; moderately acid; clear smooth boundary. (6 to 10 inches thick)"
+      },
+      {
+        "name": "C2",
+        "top": 46,
+        "bottom": 102,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C2--18 to 40 inches; pale brown (10YR 6/3) sandy loam; massive; very friable; many fine mica flakes; thin strata of silt loam, loam, and loamy sand; common medium distinct yellowish brown (10YR 5/4) masses of iron accumulation and light gray (10YR 7/2) iron depletions; moderately acid; gradual wavy boundary. (18 to 24 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 102,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "pH_class": "moderately acid",
+        "narrative": "Cg--40 to 60 inches; gray (10YR 5/1) stratified sand and loamy sand; single grain; loose; few gravel; many fine mica flakes; moderately acid."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,84 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recongnized in the typical pedon are:\n(1) Ochric Epipedon - the zone from the surface of the soil to a depth of about 6 inches (Ap horizon).\n(2) Cambic Horizon - the zone from 6 inches to a depth of about 28 inches (Bw1, Bw2 and BC horizons).\n(3) Sandy-Sketetal feature - about 45 percent by volume weighted average rock fragments in the particle-size control section.\nSoil Interpretation Records: NY0090, NY0425\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 6 inches, dark grayish brown (10YR 4/2) gravelly sandy loam; weak fine granular structure; friable; many fine roots; 30 percent rock fragments; moderately acid; abrupt smooth boundary. (5 to 9 inches thick.)"
+      },
+      {
+        "name": "Bwl",
+        "top": 15,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bwl -- 6 to 11 inches, yellowish brown (10YR 5/6) gravelly sandy loam; weak fine and medium granular structure; friable; common fine roots; many fine pores; 30 percent rock fragments with slate prominent; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 28,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw2 -- 11 to 22 inches, yellowish brown (10YR 5/6) very gravelly sandy loam; weak fine granular structure; friable; common fine roots; many fine pores; 40 percent rock fragments with slate prominent; very strongly acid; gradual wavy boundary. (Combined thickness of the Bw horizons is 5 to 36 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 56,
+        "bottom": 71,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "cf_class": "very gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC -- 22 to 28 inches, yellowish brown (10YR 5/4) very gravelly loamy sand; very weak fine granular structure; very friable; few fine roots; common fine pores; 45 percent rock fragments with slate prominent; very strongly acid; gradual wavy boundary. (0 to 20 inches thick.)"
+      },
+      {
+        "name": "2C",
+        "top": 71,
+        "bottom": 183,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH_class": "strongly acid",
+        "narrative": "2C -- 28 to 72 inches, light olive brown (2.5Y 5/4) and dark grayish brown (10YR 4/2) crudely stratified very gravelly sand; single grain; loose; 50 percent rock fragments dominated by slate; strongly acid."
+      }
+    ]
+  ]
 }

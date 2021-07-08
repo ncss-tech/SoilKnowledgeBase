@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features in the pedon are:\nOchric epipedon, 0 to 6 inches, Ap\nArgillic horizon, 6 to 32 inches, Bt1, Bt2\nLithic contact at 32 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; dark brown (7.5YR 3/2) silt loam; moderate fine granular structure; very friable; many fine roots; neutral; abrupt smooth boundary.  (3 to 9 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 51,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "silty clay",
+        "narrative": "Bt1--6 to 20 inches; dark red (2.5YR 3/6) silty clay; moderate"
+      },
+      {
+        "name": "Bt2",
+        "top": 51,
+        "bottom": 81,
+        "moist_hue": "10R",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2--20 to 32 inches; dark red (10R 3/6) clay; moderate fine and medium angular blocky structure; very firm; few fine roots; many clay films; few thin black films; few fine black concretions; medium acid; abrupt wavy boundary.  (5 to 20 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 81,
+        "narrative": "R--32 inches; light gray massive limestone."
+      }
+    ]
+  ]
 }

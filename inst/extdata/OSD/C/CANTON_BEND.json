@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nOchric epipedon:  the zone from 0 to 7 inches (Ap horizon).\nArgillic horizon:  the zone from 7 to 62 inches (Bt1, Bt2, Bt3 and BC horizons).\nClay decrease:  more than 20 percent decrease at 52-inch depth (BC horizon).\nBase saturation: more than 35 percent base saturation.\nCanton Bend soils have been included with the McQueen series.  The type location was changed from the Lower Coastal Plain Substation in Wilcox County to Dallas County where a sizeable acreage has been mapped.\nCanton Bend soils are in MLRA 133A.\nADDITIONAL DATA: Laboratory data is available on the National Soil Survey website at: http://ncsslabdatamart.sc.egov.usda.gov/querypage.aspx\nLaboratory data was provided by Auburn University, Soil Characterization laboratory, Auburn AL.\nAlabama Agricultural Experiment Station sample S73-Ala-24-5-(1-5).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; brown (10YR 5/3) fine sandy loam; weak fine granular structure; friable; common fine roots; slightly acid; abrupt smooth boundary.  (4 to 8 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 46,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--7 to 18 inches; yellowish red (5YR 4/6) silty clay loam; moderate fine subangular blocky structure; firm; few fine roots; few faint clay films on faces of most peds; few fine flakes of mica; strongly acid; gradual wavy boundary.  (8 to 20 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 46,
+        "bottom": 84,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--18 to 33 inches; yellowish red (5YR 4/6) silty clay loam; moderate fine subangular blocky structure; firm; few fine roots; few faint clay films on faces of most peds; few black stains and small concretions; few fine flakes of mica; few medium distinct yellowish brown (10YR 5/4) areas of iron depletions; strongly acid; gradual wavy boundary.  (8 to 16 inches thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 84,
+        "bottom": 132,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt3--33 to 52 inches; yellowish red (5YR 4/6) clay loam; weak fine subangular blocky structure; friable; few faint clay films on faces of few peds; few black (10YR 2/1) stains; common fine flakes of mica; common medium distinct yellowish brown (10YR 5/4) and pale brown (10YR 6/3) areas of iron depletions; strongly acid; gradual wavy boundary.  (12 to 20 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 132,
+        "bottom": 157,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--52 to 62 inches; 34 percent yellowish red (5YR 4/6), 33 percent pale brown (10YR 6/3), and 33 percent yellowish brown (10YR 5/6) loam; weak fine subangular blocky structure; friable; clay films on faces of a few peds; few black stains; many fine flakes of mica; strongly acid; gradual wavy boundary.  (8 to 12 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 157,
+        "bottom": 203,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "narrative": "C--62 to 80 inches; 34 percent yellowish red (5YR 4/6), 33 percent pale brown (10YR 6/3), and 33 percent yellowish brown (10YR 5/6) stratified fine sandy loam and loam; massive; friable; many fine flakes of mica; the areas of red and yellowish brown are iron accumulations and the areas of pale brown are iron depletions; strongly acid."
+      }
+    ]
+  ]
 }

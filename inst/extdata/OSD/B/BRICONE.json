@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 8 cm (A horizon).\nIdentifiable secondary carbonates - The zone from 24 to 33 cm (Bk horizon).\nLithic contact - The boundary with hard bedrock at about 33 cm (R layer).\nParticle-size control section - The zone from the soil surface to 33 cm  (A, Bw, and Bk horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 8 cm; grayish brown (10YR 5/2) very gravelly fine sandy loam, very dark grayish brown (10YR 3/2) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; common very fine roots; common very fine tubular and interstitial pores; 40 percent gravel, 10 percent cobbles, and 5 percent stones; slightly effervescent; slightly alkaline (pH 7.8); clear smooth boundary. (5 to 15 cm thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 8,
+        "bottom": 24,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--8 to 24 cm; light brownish gray (10YR 6/2) extremely gravelly fine sandy loam, dark grayish brown (10YR 4/2) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; many very fine and fine, common medium, and few coarse roots; common very fine tubular and interstitial pores; 70 percent gravel and 5 percent cobbles; slightly effervescent; slightly alkaline (pH 7.8); clear wavy boundary. (8 to 15 cm thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 24,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 7.9,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bk--24 to 33 cm; light brownish gray (10YR 6/2) extremely gravelly fine sandy loam, brown (10YR 4/3) moist; weak fine and medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; many very fine and fine, common medium and few coarse roots; common very fine tubular and interstitial pores; 70 percent gravel and 5 percent cobbles; 5 percent visible secondary calcium carbonate concretions on bottom of rock fragments; slightly effervescent; moderately alkaline (pH 7.9); abrupt irregular boundary. (8 to 20 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 33,
+        "narrative": "R--33 cm; very rigid, indurated, fractured limestone bedrock."
+      }
+    ]
+  ]
 }

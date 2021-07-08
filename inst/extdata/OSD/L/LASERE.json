@@ -56,5 +56,97 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features:\nMollic epipedon - 0 to 10 inches (A1 and A2 horizons).\nArgillic horizon - 10 to 23 inches (2Bt1 and 2Bt2 horizons).\nPale features -  abrupt textural change to a fine family; clay in the A horizon is about 25 percent and in the 2Bt1 is about 50 percent with a clear boundary.\nParalithic contact - the boundary at 23 inches.\nLithic contact - the boundary at 25 inches.\nADDITIONAL DATA:  NSSL data for the Booth series which has closely similar soil development characteristics is used for comparison; sample numbers 79P2288-2292, pedon number S79-OR037-001.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 3 inches; grayish brown (2.5Y 5/2) loam, very dark gray (10YR 3/1) moist; weak medium and fine subangular blocky structure parting to weak medium granular; hard, friable, slightly sticky and slightly plastic; many fine and very fine roots; 14 percent gravel; slightly acid (pH 6.2; clear smooth boundary.  (3 to 12 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--3 to 10 inches; dark grayish brown (10YR 4/2) loam, very dark gray (10YR 3/1) moist; weak medium and fine subangular blocky structure; hard, friable, slightly sticky and slightly plastic; many fine and very fine roots; 10 percent gravel; slightly acid (pH 6.2); clear wavy boundary.  (2 to 12 inches thick)"
+      },
+      {
+        "name": "2Bt1",
+        "top": 25,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bt1--10 to 15 inches; brown (10YR 5/3) silty clay, olive brown (2.5Y 4/4) moist; moderate medium and fine subangular structure; very hard, firm, sticky and very plastic; common very fine, fine, and medium roots; 5 percent fine gravel; many prominent clay films on ped faces; slightly acid (pH 6.4); clear wavy boundary.  (5 to 10 inches thick)"
+      },
+      {
+        "name": "2Bt2",
+        "top": 38,
+        "bottom": 58,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Bt2--15 to 23 inches; light yellowish brown (2.5Y 6/4) silty clay loam, light olive brown (2.5Y 5/4) moist; moderate medium and fine subangular structure; very hard, firm, sticky and plastic; few very fine and fine roots; common prominent clay films on ped faces; neutral (pH 6.8); abrupt wavy boundary (7 to 20 inches thick)"
+      },
+      {
+        "name": "3Cr",
+        "top": 58,
+        "bottom": 64,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "narrative": "3Cr--23 to 25 inches; pale yellow (2.5Y 7/4) weathered volcanic tuff.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "3R",
+        "top": 64,
+        "narrative": "3R--25 inches; tuff."
+      }
+    ]
+  ]
 }

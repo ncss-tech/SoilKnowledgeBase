@@ -56,5 +56,139 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and other features in this pedon\n*Particle-size control section--zone from 29 to 104 cm\n*Ochric epipedon\n*Albic materials--E horizon\n*Calcic horizon--Bkn1 and Bkn2 horizons\n*Free carbonates--Bw, Bkn1, Bkn2, 2C1, 2C2, and 2C3 horizons\nSoils in this series do not meet the criteria for a mollic epipedon due to thickness.\nWhere secondary carbonates are not visible, pedogenic accumulation of carbonates is inferred from increase in effervescence and pH compared to surrounding horizons. See pedon IDs S2014AK290001 and S2014AK290002 in the NCSS database for supporting calcium carbonate data.\nSodic properties may be present in some horizons with an exchangeable sodium percentage of more than 15 percent, but these horizons do not meet diagnostic criteria for a natric horizon. See pedon IDs S2014AK290001 and S2014AK290002 in the NCSS database for supporting chemical data.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 4,
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--0 to 4 cm; moderately decomposed plant material; few medium and coarse roots; slightly acid (pH 6.3); abrupt smooth boundary"
+      },
+      {
+        "name": "E",
+        "top": 4,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--4 to 20 cm; stratified loam and silt loam; light brownish gray (10YR 6/2) dry, yellowish brown (10YR 5/4) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; few coarse roots, common medium roots, and many fine roots; few fine and medium pores; very strongly acid (pH 5.0); clear smooth boundary"
+      },
+      {
+        "name": "Bw",
+        "top": 20,
+        "bottom": 31,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 7.9,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--20 to 31 cm; silt loam; light yellowish brown (10YR 6/4) dry, yellowish brown (10YR 5/6) dry; moderate medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; common fine and medium roots; few fine and medium pores; slightly effervescent; moderately alkaline (pH 7.9); clear smooth boundary"
+      },
+      {
+        "name": "Bkn1",
+        "top": 31,
+        "bottom": 40,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 8.3,
+        "pH_class": "moderately alkaline",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "Bkn1--31 to 40 cm; silt loam; light brownish gray (2.5Y 6/2) dry, grayish brown (2.5Y 5/2) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; common fine and medium roots; few fine and medium pores; violently effervescent; moderately alkaline (pH 8.3); diffuse smooth boundary"
+      },
+      {
+        "name": "Bkn2",
+        "top": 40,
+        "bottom": 80,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bkn2--40 to 80 cm; silt loam; light brownish gray (2.5Y 6/2) dry, light olive brown (2.5Y 5/3) moist; moderate thin platy structure; soft, very friable, nonsticky and nonplastic; common fine roots, and few medium roots; few fine and medium pores; strongly effervescent; moderately alkaline (pH 8.2); clear smooth boundary"
+      },
+      {
+        "name": "2C1",
+        "top": 80,
+        "bottom": 90,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH": 8.3,
+        "pH_class": "moderately alkaline",
+        "narrative": "2C1--80 to 90 cm; stratified gravelly loam and gravelly fine sandy loam; light brownish gray (2.5Y 6/2) dry, olive brown (2.5Y 4/3) moist; massive structure; soft, very friable, nonsticky and nonplastic; few fine pores; slightly effervescent; moderately alkaline (pH 8.3)"
+      },
+      {
+        "name": "2C2",
+        "top": 90,
+        "bottom": 105,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "cf_class": "extremely gravelly",
+        "pH": 8.3,
+        "pH_class": "moderately alkaline",
+        "narrative": "2C2--90 to 105 cm; extremely gravelly sand; light brownish gray (2.5Y 6/2) dry, dark grayish brown (2.5Y 4/2) moist; single grain structure; loose, nonsticky and nonplastic; few fine pores; slightly effervescent; moderately alkaline (pH 8.3)"
+      },
+      {
+        "name": "2C3",
+        "top": 105,
+        "bottom": 150,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "cf_class": "extremely gravelly",
+        "pH": 8.3,
+        "pH_class": "moderately alkaline",
+        "narrative": "2C3--105 to 150 cm; extremely gravelly sand; light brownish gray (2.5Y 6/2) dry, dark grayish brown (2.5Y 4/2) moist; single grain structure; loose, nonsticky and nonplastic; few fine pores; slightly effervescent; moderately alkaline (pH 8.3)"
+      }
+    ]
+  ]
 }

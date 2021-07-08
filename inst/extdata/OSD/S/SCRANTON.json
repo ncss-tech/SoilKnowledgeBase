@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nOchric epipedon - the zone from the soil surface to a depth of 18 inches (A1 and A2 horizons).\nDarkened surface layer (too thin for mollic or umbric horizon).\nThe water table is within 6 to 18 inches of the surface up to 6 months in most years.  Internal drainage is impeded by a high water table during wet periods.\nThe Scranton series was transferred from South Carolina to Florida.\nScranton soils are in MLRAs 133A, 152A and 153A.\nADDITIONAL DATA:\nSOI-5  Soil Name  Slope  Airtemp FrFr/Seas Precip  Elevation\nSC0075 SCRANTON   0-  2  60- 68  220-290   52- 58    0-450\nSOI-5  FloodL FloodH Wtable  Kind    Months    Bedrock\nSC0075 NONE   RARE  0.5-1.5 APPARENT NOV-APR    >60\nSOI-5  Depth  Texture       3-Inch    No-10  Clay%   -CEC-\nSC0075  0-18  LS LFS        0-  0   100-100  5-12    0.5-2\nSC0075  0-18  S FS          0-  0    95-100  2-12    0.2-1\nSC0075  7-37  LS S FS       0-  0    95-100  3-12    0.5-2\nSC0075 37-72  S FS          0-  0    95-100  2-10    0.2-1\nSOI-5   Depth      -pH-    O.M.  Salin   Permeab  Shnk-Swll\nSC0075  0-18    4.5- 6.5  1.-4.   0-0    6.0- 20    LOW\nSC0075  0-18    4.5- 6.5  1.-4.   0-0    6.0- 20    LOW\nSC0075  7-37    4.5- 6.0   -      0-0    6.0- 20    LOW\nSC0075 37-72    4.5- 6.0   -      0-0    6.0- 20    LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "2.5Y",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A1--0 to 9 inches; black (2.5Y 2.5/1) fine sand; weak fine granular structure; very friable; many fine and medium roots; common distinct gray (2.5Y 5/1) stripped sand grains; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 23,
+        "bottom": 46,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--9 to 18 inches; dark gray (2.5Y 4/1) fine sand; weak fine granular structure; very friable; many fine and medium roots; few fine gray (2.5Y 5/1) stripped sand grains; few fine distinct dark olive brown (2.5Y 3/3) areas of more organic carbon than matrix; very strongly acid; clear smooth boundary.  (Combined thickness of the A horizons range from 8 to 20 inches)."
+      },
+      {
+        "name": "Cg1",
+        "top": 46,
+        "bottom": 58,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Cg1--18 to 23 inches; dark grayish brown (2.5Y 4/2) fine sand; single grained; loose; many fine roots; few fine distinct olive brown (2.5Y 4/4) areas of more organic carbon than matrix; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 58,
+        "bottom": 94,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Cg2--23 to 37 inches; grayish brown (2.5Y 5/2) fine sand; single grained; loose; few fine roots; few medium distinct light olive brown (2.5Y 5/4) areas of more organic carbon than matrix and few fine distinct dark yellowish brown (10YR 4/4) areas of more organic carbon than matrix; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Cg3",
+        "top": 94,
+        "bottom": 157,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Cg3--37 to 62 inches; 40 percent brownish yellow (10YR 6/6), 30 percent dark grayish brown (2.5Y 4/2), 20 percent yellowish brown (10YR 5/6), and 10 percent dark yellowish brown (10YR 4/4) fine sand; single grained; loose; few fine roots; the areas of brownish yellow, yellowish brown, and dark yellowish brown are areas of more organic carbon than matrix and the areas of dark grayish brown are organic matter depletions; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Cg4",
+        "top": 157,
+        "bottom": 203,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "narrative": "Cg4--62 to 80 inches; 30 percent dark grayish brown (2.5Y 4/2), 30 percent brown (10YR 4/3), 30 percent grayish brown (10YR 5/2), and 10 percent very dark brown (10YR 2/2) fine sand; single grained; loose; the areas of brown and very dark brown are areas of more organic carbon than matrix and the areas of dark grayish brown and grayish brown are organic matter depletions; very strongly acid."
+      }
+    ]
+  ]
 }

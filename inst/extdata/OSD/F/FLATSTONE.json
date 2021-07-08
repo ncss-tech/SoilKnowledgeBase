@@ -56,5 +56,127 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Location coordinates determined by Global Positioning System.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the soil surface to 35 inches (Oi, A, E1 and E2 horizons)\nAlbic horizon - the zone from 6 to 35 inches (E1 and E2 horizons)\nGlossic horizon - the zone form 35 to 55 inches (E/B and 2Bt/E horizons)\nArgillic horizon - the zone from 45 to 67 inches (2Bt/E and 2Bt horizons)\nParticle-size control section - the zone from 11 to 41 inches (E1, E2 and part of the E/B horizons)\nVitrandic subgroup feature - the zone from 1 to 67 inches (A, E1, E2, E/B, 2Bt/E and 2Bt horizons)\nTemperature regime - cryic\nMoisture regime - udic\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "0i--0 to 1 inch; forest litter; slightly decomposed needles, twigs and cones. (0 to 2 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--1 to 6 inches; grayish brown (10YR 5/2) ashy silt loam, dark brown (10YR 3/3) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; many very fine and fine and few medium roots; many fine irregular pores; 10 percent pebbles; moderately acid (pH 5.6); clear smooth boundary. (3 to 6 inches thick)"
+      },
+      {
+        "name": "E1",
+        "top": 15,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E1--6 to 14 inches; pale brown (10YR 6/3) gravelly ashy silt loam, dark grayish brown (10YR 4/2) moist; moderate fine subangular blocky structure; soft, friable, slightly sticky and slightly plastic; common very fine and fine and few medium roots; common very fine irregular and few fine tubular pores; 20 percent pebbles, 5 percent cobbles; moderately acid (pH 5.6); clear wavy boundary."
+      },
+      {
+        "name": "E2",
+        "top": 36,
+        "bottom": 89,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "extremely stony",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E2--14 to 35 inches; light gray (10YR 7/2) extremely stony ashy silt loam, grayish brown (10YR 5/2) moist; weak fine subangular blocky structure; soft, friable, nonsticky and nonplastic; common very fine and fine and few medium roots; few very fine irregular and few fine tubular pores; 10 percent pebbles, 30 percent cobbles, 40 percent stones; moderately acid (pH 5.6); gradual wavy boundary. (combined thickness of E horizons is 20 to 30 inches)"
+      },
+      {
+        "name": "E/B",
+        "top": 89,
+        "bottom": 114,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely cobbly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E/B--35 to 45 inches; 60 percent light gray (10YR 7/2) extremely cobbly ashy loam, dark grayish brown (10YR 4/2) moist E material; 40 percent light brownish gray (10YR 6/2), dark yellowish brown (10YR 4/4) moist B material; weak coarse subangular blocky structure; soft, friable, slightly sticky and slightly plastic; common very fine and fine roots; common very fine tubular pores; 30 percent pebbles, 40 percent cobbles, 10 percent stones; moderately acid (pH 5.6); clear wavy boundary. (10 to 15 inches thick)"
+      },
+      {
+        "name": "2Bt/E",
+        "top": 114,
+        "bottom": 140,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "cobbly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bt/E--45 to 55 inches; 70 percent pale brown (10YR 6/3) cobbly ashy loam, dark yellowish brown (10YR 4/4) moist B material; 30 percent light gray (10YR 7/1), dark grayish brown (10YR 4/2) moist E material; moderate coarse prismatic structure parting to moderate medium subangular blocky; slightly hard, firm, sticky and plastic; few fine roots; common fine tubular pores; common fine dark yellowish brown (10YR 4/6) moist clay films on faces of peds and bridging sand grains; 10 percent pebbles, 10 percent cobbles, 5 percent stones; moderately acid (pH 5.8); clear wavy boundary. (5 to 20 inches thick)"
+      },
+      {
+        "name": "2Bt",
+        "top": 140,
+        "bottom": 170,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "cobbly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "narrative": "2Bt--55 to 67 inches; pale brown (10YR 6/3) cobbly ashy clay loam, brown (10YR 4/3) moist; moderate medium subangular blocky structure; slightly hard, firm, sticky and plastic; few fine roots; common fine tubular pores; common fine dark yellowish brown (10YR4/4) moist clay films on faces of peds and bridging sand grains; 10 percent pebbles, 10 percent cobbles, 5 percent stones; slightly acid (pH 6.4)."
+      }
+    ]
+  ]
 }

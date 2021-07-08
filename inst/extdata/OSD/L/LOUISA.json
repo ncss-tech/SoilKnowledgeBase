@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to approximately 4 inches (A horizon)\nCambic horizon - the zone from approximately 4 to 12 inches (Bw and Bw/Bt horizons) This zone has an argillic horizon in 10 to 40 percent of the pedon.\nShallow feature - the paralithic contact at approximately 18 inches (Top of the Cr horizon)\nRevised 1/93.  2006 revision reclassifies Louisa as Typic Dystrudepts to better fit the central concept of the series..\nSIR = GA0041\nMLRA = 136\nADDITIONAL DATA:\nSOI-5 Soil Name \tSlope Airtemp FrFr/Seas Precip Elevation\nGA0041 LOUISA \t6-80  60-65    220-225  45- 55 800-1200\nSOI-5 FloodL FloodH Watertable Kind Months Bedrock Hardness\nGA0041 NONE \t   6.0-6.0    -           10-20   SOFT\nSOI-5 Depth Texture           3-Inch No-10 Clay% -CEC-\nGA0041 0- 4 GR-L GR-SL GR-FSL 0- 5  60- 75 10-25   -\nGA0041 0- 4 L SL FSL          0- 0  75- 95 10-25   -\nGA0041 4-12 GR-L GR-SL        0- 5  60- 80 12-27   -\nGA0041 12-18 CNV-L CN-L      25- 40 60- 70 10-25   -\nGA0041 18-60 WB                -       -     -     -\nSOI-5 \tDepth \t-pH- \t\tO.M. \tSalin \tPermeab \tShnk-Swll\nGA0041 \t0- 4 \t    4.5- 6.0      .5-2. 0- 0 \t\t2.0- 6.0 \tLOW\nGA0041 \t0- 4 \t    4.5- 6.0 \t.5-2. 0- 0 \t\t2.0- 6.0 \tLOW\nGA0041 \t4-12 \t    4.5- 6.0 \t  - \t0- 0 \t\t2.0- 6.0 \tLOW\nGA0041 \t12-18     4.5- 6.0 \t  - \t0- 0 \t\t2.0- 6.0 \tLOW\nGA0041 \t18-60        -     \t  - \t - \t\t0.00-0.06\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 8,
+        "bottom": 3,
+        "narrative": "0i--3 to 1 inch; fresh hardwood litter."
+      },
+      {
+        "name": "0e",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "0e--1 to 0 inch; partly decomposed hardwood litter."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; very dark grayish brown (10YR 3/2) gravelly loam; weak medium granular structure; very friable; many fine and medium roots; many fine and medium flakes of mica; about 20 percent fragments of quartz and schist; moderately acid; clear smooth boundary. (2 to 6 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 10,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--4 to 8 inches; brown (10YR 4/3) gravelly loam; weak medium granular structure; very friable; many fine and medium roots; few coarse roots; many fine and medium flakes of mica; 20 percent fragments of quartz and schist; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bw/Bt",
+        "top": 20,
+        "bottom": 30,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw/Bt--8 to 12 inches; brown (7.5YR 4/4) gravelly loam; weak medium granular and subangular blocky structure; friable; common medium and coarse roots; many fine and medium flakes of mica; about 20 percent fragments of quartz and schist; small pockets of clay loam in lower part between tilted layers of broken schist extending from C horizon, make up about 15 percent by volume; strongly acid; clear wavy boundary.  (The combined thickness of the B horizon is 6 to 15 inches)"
+      },
+      {
+        "name": "C",
+        "top": 30,
+        "bottom": 46,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "very channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "C--12 to 18 inches; olive gray (5Y 4/2) very channery loam; many fragments of schist have thin discontinuous clay films on surface; few small pockets of clay loam are between tilted layers of schist; very strongly acid; gradual irregular boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 46,
+        "bottom": 152,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "narrative": "Cr--18 to 60 inches; weathered olive gray (5Y 4/2) mica schist, with varying degrees of hardness."
+      }
+    ]
+  ]
 }

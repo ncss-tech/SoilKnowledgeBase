@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon--The zone from the surface of the soil to a depth of 5 inches.\nAquic Features--Masses of iron accumulation and iron depletion with chroma of 1 or 2 below a depth of 24 inches associated with a water table.\nDATA:  Soil Characterization Lab., IFAS, UOF\nS10-3-(1-5), S34-8-(1-5), S45-4-(1-6), S65-18-(1-5)\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nFL0484 RIDGEWOOD   0-  8     -        -       -         -\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nFL0484 NONE   RARE   2.0-3.5  APPARENT JUN-NOV  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nFL0484  0- 5  FS S                    0-  0 100-100  1- 3    -\nFL0484  5-80  FS S                    0-  0 100-100  0- 5    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nFL0484  0- 5  4.5- 7.3  .5-1.  0- 0   6.0-  20  LOW\nFL0484  5-80  4.5- 7.3    -    0- 0   6.0-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 5 inches; dark gray (10YR 4/2) fine sand; single grained; loose; many fine and medium roots; very strongly acid; clear wavy boundary.  (3 to 9 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 13,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C1--5 to 13 inches; pale brown (10YR 6/3) fine sand; single grained; loose; few fine medium roots; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "C2",
+        "top": 33,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C2--13 to 24 inches; very pale brown (10YR 7/3) fine sand with common medium distinct brownish yellow (10YR 6/8) mottles; and few light brownish gray (10YR 6/2) streaks; single grained; loose; few fine and medium roots; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "C3",
+        "top": 61,
+        "bottom": 142,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C3--24 to 56 inches; light gray (10YR 7/2) fine sand with common fine and medium distinct yellowish red (5YR 5/6) masses of iron accumulation; single grained; loose; few fine roots; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "C4",
+        "top": 142,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "narrative": "C4--56 to 80 inches; light gray (10YR 7/2) fine sand; single grained; loose; very strongly acid.  (The C horizons extends to below 80 inches.)"
+      }
+    ]
+  ]
 }

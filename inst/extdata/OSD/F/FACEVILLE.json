@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nOchric epipedon - the zone from the surface to 5 inches (Ap horizon).\nArgillic horizon - the zone from 11 to 72 inches (Bt1, Bt2, Bt3 and Bt4 horizons).\nKandic horizon - the zone from 11 to 72 inches with low activity clay in most of the upper 40 inches (Bt1, Bt2, Bt3 and Bt4 horizons).\nFaceville soils are in MLRA 133A.\nADDITIONAL DATA: Laboratory data is available on the National Soil Survey website at: http://ncsslabdatamart.sc.egov.usda.gov/querypage.aspx\nLaboratory data is provided by The University of Florida, Department of Soil and Water Science, Gainesville, FL; and the National Soil Survey Laboratory, Lincoln, NE. and formerly in Beltsville, MD.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 5 inches; brown (10YR 4/3) fine sandy loam; weak fine granular structure; very friable; common fine and very fine roots; strongly acid; abrupt smooth boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 13,
+        "bottom": 28,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BA--5 to 11 inches; yellowish red (5YR 5/6) sandy clay loam; weak fine subangular blocky structure; friable; common fine roots; few faint clay films on faces of peds; strongly acid; gradual wavy boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 28,
+        "bottom": 71,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--11 to 28 inches; yellowish red (5YR 5/6) sandy clay; moderate medium subangular blocky structure; friable; few fine roots; common distinct clay films on faces of peds; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 71,
+        "bottom": 86,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "Bt2--28 to 34 inches; red (2.5YR 4/6) sandy clay; moderate medium subangular blocky structure; friable; common distinct clay films on faces of peds; strongly acid; gradual irregular boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 86,
+        "bottom": 152,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay",
+        "pH_class": "strongly acid",
+        "distinctness": "diffuse",
+        "topography": "irregular",
+        "narrative": "Bt3--34 to 60 inches; red (2.5YR 4/6) sandy clay; moderate medium subangular blocky structure; friable; common distinct and prominent clay films on faces of peds; few fine prominent strong brown (7.5YR 5/6) and yellowish brown (10YR 5/6) mottles; strongly acid; diffuse irregular boundary."
+      },
+      {
+        "name": "Bt4",
+        "top": 152,
+        "bottom": 183,
+        "moist_hue": "10R",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay",
+        "pH_class": "strongly acid",
+        "narrative": "Bt4--60 to 72 inches; 35 percent dark red (10R 3/6), 35 percent yellowish brown (10YR 5/6) and 30 percent very pale brown (10YR 7/3) sandy clay in a coarse variegated pattern; strong medium subangular blocky structure; friable; few distinct and prominent clay films on faces of peds; the areas of dark red and yellow brown are relict iron accumulations and the areas of very pale brown are relict iron depletions; strongly acid."
+      }
+    ]
+  ]
 }

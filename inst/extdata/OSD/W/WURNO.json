@@ -56,5 +56,70 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic Horizons and features recognized in this pedon are:\na.  Ochric Epipedon - from 0 to 8 inches.\nb.  Cambic Horizon - from 8 to 14 inches.\nc.  Loamy skeletal - more than 35 percent shale fragments in the particle size control section.\nd.  No carbonates within 1 m of the surface. (Dystric)\nSIR=VA0155  MLRA=128, 147  REVISED=11/2/93, MHC\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "texture_class": "silt loam",
+        "pH_class": "mildly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; yellowish brown (1OYR 5/4) silt loam; moderate fine granular structure; friable, slightly sticky and slightly plastic; common fine and very fine roots; common very fine pores; 5 percent shale and sandstone fragments less than 1 inch across; mildly alkaline; abrupt smooth boundary.  (0 to 9 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 20,
+        "bottom": 36,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "texture_class": "silty clay loam",
+        "cf_class": "very channery",
+        "pH_class": "mildly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--8 to 14 inches; brownish yellow (1OYR 6/6) very channery silty clay loam; moderate fine and very fine subangular blocky structure; friable, slightly sticky and slightly plastic; few very fine roots; common very fine pores; many yellowish brown (1OYR 5/6) ped coatings; 40 percent olive yellow (2.5Y 6/8) angular shale fragments less than 3 inches across; mildly alkaline; abrupt wavy boundary.  (4 to 20 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 36,
+        "bottom": 53,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "extremely channery",
+        "pH_class": "mildly alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "C--14 to 21 inches; brownish yellow (1OYR 6/6) extremely channery silt loam in cracks and crevices and between bedding planes; rock controlled structure; few very fine roots; 75 percent light yellowish brown (2.5Y 6/4) shale fragments; mildly alkaline; abrupt irregular boundary.  (3 to 11 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 53,
+        "bottom": 69,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Cr--21 to 27 inches light yellowish brown (2.5Y 6/4) shale that can be dug with spade; few very fine roots in rock crevices; abrupt smooth boundary.  (0 to 9 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 69,
+        "narrative": "R--27 inches; rippable shale."
+      }
+    ]
+  ]
 }

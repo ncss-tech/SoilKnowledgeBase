@@ -56,5 +56,53 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features in this pedon are:\nOchric epipedon: 0 to 91 cm (0 to 36 in) (A1, A2 horizons)\nFluvaquentic feature: soils with an aquic moisture regime that are saturated with water at some time of the year within 30 cm (12 in) of the soil surface and have an irregular decrease in organic matter content in the 91 to 165 cm (36 to 65 in) zone (C horizon). The high chroma throughout the soil is related to the red parent material. The requirement for low chroma is waived on the assumption the saturated zone is devoid of oxygen and the red colors remain after citrate-dithionate extraction.\nEdited 08/2017 (JAD-JLD) Changed to tabular format. Updated pedon description, range in characteristics, and other sections.\nADDITIONAL DATA: none\nTAXONOMIC VERSION: Keys to Soil Taxonomy, Twelfth Edition, 2014\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 25 cm (0 to 10 in); dark red (2.5YR 3/6) clay; weak medium platy in upper part and weak medium subangular blocky structure in lower part; extremely hard, firm; calcareous; strongly effervescent; moderately alkaline; clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 25,
+        "bottom": 91,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A2--25 to 91 cm (10 to 36 in); reddish brown (2.5YR 4/4) clay; few fine faint red (2.5YR 4/6) mottles; moderate coarse subangular blocky structure parting to weak fine blocky; extremely hard, firm; calcareous; strongly effervescent; moderately alkaline; gradual smooth boundary. (Combined thickness of the A horizon is 33 to 150 cm [13 to 60 in])"
+      },
+      {
+        "name": "C",
+        "top": 91,
+        "bottom": 165,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "C--91 to 165 cm (36 to 65 in); red (2.5YR 4/6) clay; massive; extremely hard, firm; few thin strata of dark reddish brown (2.5YR 3/4) and weak red (10R 4/4) clay loam; calcareous; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

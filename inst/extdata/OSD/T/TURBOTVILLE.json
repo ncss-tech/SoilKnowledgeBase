@@ -56,5 +56,100 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Turbotville series were classified as Gray Brown Podzolic soils in the 1938 classification system.\nThe 01/2006 revision updates this soil to the 9th Edition of the Keys to Soil Taxonomy (2003). The CEC activity class placement (semiactive) is based on similar soils having characterization data (Washington and Bartley soils). Seven characterization pedons had control section CEC-7/clay ratios ranging from .19 to .37, with four semiactive and three subactive. The pedon description was updated to current horizon nomenclature and redoximorphic feature terminology. Competing series section was also updated.\nDiagnostic horizons and features recognized in this pedon are:\na) Ochric epipedon - the zone from the surface of the soil to a depth of 8 inches (A and BE horizons)\nb) Argillic horizon - zone from 8 to 36 inches (Bt and Btx horizons)\nc) Fragipan - the zone from 20 to 36 inches (Btx horizon) that is extremely firm and has weak very coarse prismatic structure\nd) Lithologic discontinuity at 50 inches (top of 2C horizon)\ne) Lithic contact at 96 inches (top of 2R horizon)\nADDITIONAL DATA: No characterization pedons are available for this series.\nMLRA: 148\nREVISED: 04/81-CFJ, CFE; 01/2006-DHK\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches, brown (10YR 4/3) loam; weak fine granular structure; very friable; many roots; 5 percent angular gravel and cobbles and less than 1 percent stones, mainly of granitic materials, few sandstone and quartzite fragments present; moderately acid; gradual wavy boundary.  (0 to 3 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 8,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sand",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BE--3 to 8 inches, yellowish brown (10YR 5/8) loam; weak medium subangular blocky structure; friable; roots common; 5 percent gravel, cobbles and stones, mainly granitic, few sandstone, quartzite and weathered limestone fragments; moderately acid; gradual wavy boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 20,
+        "bottom": 51,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--8 to 20 inches, strong brown (7.5YR 5/6) heavy loam; moderate medium subangular blocky structure; friable; roots common in upper part becoming fewer with depth; few fine prominent light gray (10YR 7/2) iron depletions and few fine distinct strong brown (7.5YR 5/8) iron concentrations; slightly redder patchy clay films on some ped faces, bridging of grains; 8 percent gravel, cobbles and stones, mainly granitic, limestone fragments increase with depth; moderately acid; clear wavy boundary.  (10 to 26 inches thick)"
+      },
+      {
+        "name": "Btx",
+        "top": 51,
+        "bottom": 91,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btx--20 to 36 inches, variegated strong brown (7.5YR 5/8), light yellowish brown (10YR 6/4) and light gray (10YR 7/2) loam; weak very coarse prismatic structure; extremely firm; patchy clay films on ped faces but very thick and glossy coatings in pores; 8 percent gravel, cobbles and stones mainly granitic, but also a significant amount of weathered limestone fragments; moderately acid; gradual wavy boundary.  (10 to 30 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 91,
+        "bottom": 127,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BC--36 to 50 inches, strong brown (7.5YR 5/8) and brown (7.5YR 5/4) light loam; massive; friable; 12 percent angular gravel and cobbles; composed mostly of granitic materials with a higher proportion of limestone in the lower part; neutral; clear wavy boundary.  (0 to 24 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 127,
+        "bottom": 244,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2C--50 to 96 inches, strong brown (7.5YR 5/6) and yellowish brown (10YR 5/6) gravelly fine sandy loam; massive; friable; 15 percent angular gravel composed of limestone fragments; slightly alkaline; abrupt wavy boundary.  (10 to 50 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 244,
+        "narrative": "2R--96 inches, thinly bedded; hard, impure gray limestone bedrock."
+      }
+    ]
+  ]
 }

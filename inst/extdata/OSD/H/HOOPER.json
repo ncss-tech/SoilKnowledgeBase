@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nParticle-size control section: from 5 to 40 inches (Btn, Btnz, Bnz, and upper part of 2C horizon)\nOchric epipedon and albic horizon: from 0 to 5 inches (E horizon)\nNatric horizon: from 5 to 32 inches (Btn and Btnz horizons)\nStrongly contrasting particle-size class: at 32 inches. The sandy clay loam Bnz is assumed to have less than 50 percent fine sand and coarser sand; the weighted average noncarbonate clay in the upper part of the PSCS is assumed greater than 18 percent.\nThe 09/2008 revison changed the particle-size family from clayey over sandy or sandy-skeletal to fine-loamy over sandy or sandy skeletal, with the accompanying change of the mineralogy class from smectitic to mixed.\nThe parent material is more accurately defined as being derived from mixed sources (igneous and metamorphic rock); the original concept was being derived from volcanic rock, jwb, 4/2009\nThis series has historically beeen recognized with a highly variable depth to water table- within 4 feet to greater than 6 feet. The 12/2011 revision provisionally retains the original water table criterion, but it is likely the central concept of this series will be revised to have no saturation within the series control section (150 cm). Drainage class would then be well drained only. More field investigation will be required before this change can definitely be made.\nTaxonomy version: Eleventh Edition, 2010\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "E",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 9.6,
+        "pH_class": "very strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "E--0 to 5 inches; light gray (10YR 7/1) sandy loam, grayish brown (10YR 5/2) moist; moderate thin platy structure parting to moderate very fine granular; slightly hard, very friable; nonsticky and nonplastic; weakly calcareous; very strongly alkaline (pH 9.6); abrupt smooth boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "Btn",
+        "top": 13,
+        "bottom": 38,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "very strongly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btn--5 to 15 inches; brown (7.5YR 5/3) clay, brown (7.5YR 4/3) moist; strong medium columnar structure parting to strong fine angular blocky; slightly hard, friable, very sticky, very plastic; peds are extremely hard; moderate continuous wax-like coatings and fillings in root channels and pores; very weak gray coatings on faces of some peds; many dark magnetic mineral grains; calcareous; very strongly alkaline (pH 10.0); gradual smooth boundary.  (8 to 20 inches thick)"
+      },
+      {
+        "name": "Btnz",
+        "top": 38,
+        "bottom": 46,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btnz --15 to 18 inches; light brownish gray (2.5Y 6/2) clay loam, grayish brown (2.5Y 5/2) moist; weak medium and coarse subangular blocky structure; hard, firm, moderately sticky, moderately plastic; peds are extremely hard; few thin wax-like patches on faces of peds; discontinuous wax-like coatings in root channels; many dark magnetic mineral grains; visible secondary salt accumulation as crystals and in thin seams and streaks; calcareous; very strongly alkaline (pH 10.0); gradual smooth boundary.  (4 to 8 inches thick)"
+      },
+      {
+        "name": "Bnz",
+        "top": 46,
+        "bottom": 81,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bnz --18 to 32 inches; light brownish gray (2.5Y 6/2) sandy clay loam, grayish brown (2.5Y 5/2) moist; massive; hard, friable, nonsticky, slightly plastic; many dark magnetic mineral grains; visible secondary salts occurring as crystals and in thin seams and streaks; few dark flecks; calcareous; very strongly alkaline (pH 10.0); clear smooth boundary.  (0 to 25 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 81,
+        "bottom": 152,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "very strongly alkaline",
+        "narrative": "2C--32 to 60 inches; grayish brown (2.5Y 5/2) sand, dark grayish brown (2.5Y 4/2) moist; single-grained; loose; a large amount of dark gray and red volcanic minerals grains; calcareous; very strongly alkaline (pH 10.0).  (Several feet thick)"
+      }
+    ]
+  ]
 }

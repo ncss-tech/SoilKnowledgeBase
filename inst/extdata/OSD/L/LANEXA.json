@@ -56,5 +56,53 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  1.  These soil areas have been included with higher order units, swamps, and marshes in past mapping.  2.  The diagnostic horizons and features recognized in this pedon are:\na)  organic soil material - the zone from 15 to 40 inches (Oa horizon).\nb)  clayey family feature - The weighted average particle size of that part of the mineral soil within the control section (the zone from 40 to 51 inches).\nADDITIONAL DATA:  Data for the site location (S81VA-127-009) are available from the NSSL, Lincoln, NE.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0239 LANEXA      0-  1   57- 62  190-210  40- 48     1-   3\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0239 FREQ            0-0.5  APPARENT JAN-DEC  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0239  0-15  MK-SIL MK-SICL MK-SIC   0-  0  95-100 20-50    -\nVA0239  0-15  MUCK MPT                0-  0    -     0- 0    -\nVA0239 15-40  MUCK                    0-  0    -     0- 0    -\nVA0239 40-60  SR MK-C                 0-  0  95-100 35-60    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0239  0-15  3.6- 6.5  12-22  4- 8   0.2- 2.0  LOW\nVA0239  0-15  3.6- 6.5  20-65  4- 8   0.6- 2.0  LOW\nVA0239 15-40  3.6- 6.5  20-65  2- 4   0.6- 2.0  LOW\nVA0239 40-60  3.6- 6.5  12-22  0- 2   0.0- 0.6  MODERATE\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 15 inches; very dark grayish brown (10YR 3/2) mucky silty clay; massive; sticky, slightly plastic;  soil flows easily between fingers when squeezed and leaves a small residue and few fine fibrous roots; many fine live roots; moderate sulfide odor; extremely acid, clear smooth boundary.  (0 to 15 inches thick)"
+      },
+      {
+        "name": "Oa",
+        "top": 38,
+        "bottom": 102,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oa--15 to 40 inches; very dark grayish brown (2.5Y 3/2) muck (sapric material); about 5 percent fibers rubbed; massive; slightly sticky, slightly plastic; flows easily between fingers when squeezed; weak sulfide odor; common fine roots and fibers; common lenses and pockets of clay loam; very strongly acid; clear smooth boundary.  (16 to 45 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 102,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH_class": "extremely acid",
+        "narrative": "Cg--40 to 60 inches; very dark grayish brown (2.5Y 3/2) mucky silty clay; massive; sticky, slightly plastic; flows easily between fingers when squeezed leaving a small residue and few fine fibrous roots; common pockets of sapric and hemic material; extremely acid."
+      }
+    ]
+  ]
 }

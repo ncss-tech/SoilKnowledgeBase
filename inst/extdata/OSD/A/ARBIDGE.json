@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 10 cm (A horizon).\nArgillic horizon - the zone from 10 to 38 cm (Bt horizons).\nDuripans - the zones from 66 to 69 cm and from 94 to 102 cm (Bkqm and 2Bkqm horizons).\nParticle-size control section - the zone from 10 to 38 (Bt1 and Bt2 Horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 10 cm; brown (10YR 5/3) sandy loam, very dark grayish brown (10YR 3/2) moist; weak fine granular structure; soft, very friable; many very fine to coarse roots; many very fine irregular pores; neutral (pH 7.2); abrupt smooth boundary.  (5 to 15 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 10,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--10 to 20 cm; yellowish brown (10YR 5/4) sandy clay loam, dark brown (10YR 4/3) moist; weak medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine and fine roots; many very fine and fine tubular pores; very few faint clay films on faces of peds and in pores; slightly alkaline (pH 7.4); gradual wavy boundary.  (5 to 18 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 20,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--20 to 38 cm; light yellowish brown (10YR 6/4) sandy clay loam, dark brown (10YR 4/3) moist; moderate medium subangular blocky structure; hard, friable, slightly sticky and slightly plastic; common very fine and fine roots; many very fine and fine tubular pores; few faint clay films on faces of peds and in pores; slightly alkaline (pH 7.6); clear smooth boundary.  (15 to 38 cm thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 38,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk--38 to 66 cm; very pale brown (10YR 7/3) sandy loam, brown (10YR 5/3) moist; weak medium subangular blocky structure; very hard, firm, nonsticky and nonplastic; few very fine and fine roots; few fine tubular pores; 5 percent durinodes 1.2 to 2.5 cm in diameter; strongly effervescent (13 percent calcium carbonate), few fine carbonate filaments; moderately alkaline (pH 8.4); clear smooth boundary.  (25 to 36 cm thick)"
+      },
+      {
+        "name": "2Bk",
+        "top": 69,
+        "bottom": 94,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Bk--69 to 94 cm; very pale brown (10YR 7/4) sandy loam, yellowish brown (10YR 5/4) moist; massive; slightly hard, friable, nonsticky and nonplastic; common very fine to coarse roots; common very fine tubular pores; 10 percent durinodes 1.2 to 2.5 cm in diameter; 10 percent gravel; strongly effervescent (11 percent calcium carbonate); moderately alkaline (pH 8.4); abrupt wavy boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "2Bkqm",
+        "top": 94,
+        "bottom": 102,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 3,
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bkqm--94 to 102 cm; very pale brown (10YR 8/3) duripan, very pale brown (10YR 7/3) moist; massive; extremely hard, extremely firm; thin ( 1.5 toto 3 mm thick) continuous laminar opal cap; fractures are less than 0.3 cm wide and more than 25 cm apart; few very fine roots through fractures; strongly effervescent; clear wavy boundary.  (5 to 20 cm thick)"
+      },
+      {
+        "name": "3C",
+        "top": 102,
+        "bottom": 165,
+        "texture_class": "sand",
+        "cf_class": "extremely gravelly",
+        "narrative": "3C--102 to 165 cm; multi-colored extremely gravelly sand; single grain; few very fine roots; carbonate and silica coatings on undersides of gravel."
+      }
+    ]
+  ]
 }

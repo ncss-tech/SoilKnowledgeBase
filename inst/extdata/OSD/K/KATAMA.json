@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon include:\n1.  Umbric epipedon - the zone from 0 to 16 inches (A1 and AB horizons).\n2.  Cambic horizon - the zone from 16 to 20 inches (Bw horizon).\n3.  Sandy particle size feature - the zone from 10 to 40 inches averages loamy sand in texture and rock fragments average 5 percent (AB, Bw, 2Bw, and 2C horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 2 inches; black (5YR 2/1) sandy loam; weak fine and very fine granular structure; very friable; many fine and medium roots; many clean white sand grains; extremely acid; abrupt wavy boundary.  (1 to 7 inches thick)"
+      },
+      {
+        "name": "AB",
+        "top": 5,
+        "bottom": 41,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "AB--2 to 16 inches; dark reddish brown (5YR 3/2) sandy loam; weak fine subangular blocky and weak fine granular structure; friable; many fine and medium roots; most sand grains bridged and nearly completely coated with material thought to be of high organic content; very strongly acid; abrupt wavy boundary.  (6 to 15 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 41,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--16 to 20 inches; dark yellowish brown (10YR 4/4) very gravelly sandy loam; weak medium granular structure; friable; common fine and medium roots; 40 percent rounded gravel of mixed mineralogy; most sand grains bridged and coated, and many pebbles sparsely coated with material thought to be of high organic content; strongly acid; clear smooth boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "2Bw2",
+        "top": 51,
+        "bottom": 86,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2Bw2--20 to 34 inches; olive brown (2.5Y 4/4) sand; single grain; loose; few fine and medium roots above 24 inches and very few below; few faint coats and few bridges on sand grains; strongly acid; clear smooth boundary.  (7 to 16 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 86,
+        "bottom": 165,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "narrative": "2C--34 to 65 inches; light yellowish brown (2.5Y 6/4) sand; single grain; loose; most sand grains clean; strongly acid."
+      }
+    ]
+  ]
 }

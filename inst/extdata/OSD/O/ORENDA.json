@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Orenda soils were previously included in the Fluvanna soils. The Fluvanna soils are thermic. Diagnostic features and horizons present in this pedon are:\n1. Ochric epipedon-zone from 0 to 9 inches (Oi and Ap horizons).\n2. Argillic horizon-zone from 9 to 41 inches.\nSIR=VA0215\nMLRA=148, 149A, 136\nREVISED=2/24/96, MHC\nOrenda soils made active CE activity class based on association with Spriggs series. 11/2004 - MAV.\nSIR/OSD REPORT\nSOI-5 Soil Name  Slope  Airtemp FrFr/Seas Precip Elevation\nVA0217 ORENDA    2-55   53-57   180-220   39-43  300-1500\nSOI-5 FloodL FloodH Watertable Kind Months Bedrock Hardness\nVA0217 NONE         >6.0                   >60\nSOI-5  Depth  Texture  3-Inch  No-10   Clay%  -CEC-\nVA0217 0- 8   SIL L    0-2     80-100  10-27    -\nVA0217 0- 8   SL FSL   0-2     80-100  10-20    -\nVA0217 0- 8   CL       0-2     80-100  27-40    -\nVA0217 8-40   CL C L   0-2     50-100  35-60    -\nVA0217 40-66  SCL L GR-SCL 0- 5 50-100 20-35 -\nVA0217 66-76  WB        -        -       -      -\nSOI-5  Depth  -pH-    O.M.   Salin  Permeab  Shnk-Swll\nVA0217 0- 8  5.1-6.0  1.-2.  0-0    0.6-2.0  LOW\nVA0217 0- 8  5.1-6.0  1.-2.  0-0    0.6-2.0  LOW\nVA0217 0- 8  5.1-6.0  .5-1.  0-0    0.2-0.6  MODERATE\nVA0217 8-40  5.1-6.0  0.-.5  0-0    0.2-0.6  MODERATE\nVA0217 40-66 5.1-6.0  0.-.5  0-0    0.6-2.0  LOW\nVA0217 66-76    -       -    0-0       -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "0i--0 to 1 inches; partially decomposed hardwood leaves, pine needles and twigs."
+      },
+      {
+        "name": "Ap",
+        "top": 3,
+        "bottom": 23,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--1 to 9 inches; brown (7.5YR 4/4) loam; moderate fine and medium granular structure; very friable; many fine, medium and coarse roots; 5 percent angular and subrounded vein quartz gravel; very strongly acid; abrupt smooth boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 23,
+        "bottom": 81,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--9 to 32 inches; strong brown (7.5YR 5/6) clay; moderate fine and medium subangular blocky structure; very firm, very plastic; sticky, many fine and medium roots; common distinct clay films on ped faces; 1 percent angular vein quartz gravel; common fine and medium Fe-Mn concretions; few fine mica flakes; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 81,
+        "bottom": 104,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--32 to 41 inches; yellowish red (5YR 5/6) clay loam; common medium, distinct brownish yellow (10YR 6/8) and yellowish brown (10YR 5/8) mottles; firm, plastic and sticky; common fine and medium roots; many distinct clay films on ped faces; common Fe-Mn concretions and streaks; 5 percent partially weathered gneiss fragments; common fine mica flakes; strongly acid; gradual wavy boundary. (Combined thickness of the Bt ranges from 20 to 40 inches)"
+      },
+      {
+        "name": "C1",
+        "top": 104,
+        "bottom": 119,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "C1--41 to 47 inches; yellowish red (5YR 5/6) sandy clay loam; common medium and coarse distinct brownish yellow (10YR 6/8) and brown (10YR 5/3) and few red (2.5YR 4/8) mottles; massive; friable, slightly plastic, sticky; few fine roots; many distinct clay flows in crevices; 5 percent partially weathered hornblende gneiss fragments; common fine mica flakes; common Fe-Mn streaks; moderately acid; gradual smooth boundary."
+      },
+      {
+        "name": "C2",
+        "top": 119,
+        "bottom": 170,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "C2--47 to 67 inches; strong brown (7.5YR 5/8) sandy loam; many medium and coarse mottles in shades of red, yellow, brown and black; massive; friable, slightly plastic, sticky; few fine roots; common fine mica flakes; few faint clay flows in crevices; 20 percent partially weathered hornblende gneiss fragments; common Fe-Mn streaks; moderately acid; clear irregular boundary."
+      },
+      {
+        "name": "Cr",
+        "top": 170,
+        "narrative": "Cr--67 inches; partially weathered hornblende gneiss"
+      }
+    ]
+  ]
 }

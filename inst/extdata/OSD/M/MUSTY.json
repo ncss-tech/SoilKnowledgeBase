@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features:\nUmbric epipedon - from 0 to 12 inches; base saturation is 51 and 34 percent for the A1 and A2 horizons.\nCambic horizon - from 12 to 29 inches.\nADDITIONAL DATA:  Reference samples 86P 29-32; pedon S85OR-029-004.\nNATIONAL COOPERATIVE SOIL SURVEY\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "cf_class": "gravelly",
+        "narrative": "A1--0 to 3 inches; very dark grayish brown (10YR 3/2) gravelly"
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 30,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "cf_class": "gravelly",
+        "narrative": "A2--3 to 12 inches; very dark grayish brown (2.5Y 3/2) gravelly"
+      },
+      {
+        "name": "Bw",
+        "top": 30,
+        "bottom": 74,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "cf_class": "very cobbly",
+        "narrative": "Bw--12 to 29 inches; dark grayish brown (2.5Y 4/2) very cobbly"
+      },
+      {
+        "name": "O",
+        "top": 3,
+        "narrative": "O--1 inch to 0; partially decomposed needles and twigs."
+      },
+      {
+        "name": "R",
+        "top": 74,
+        "narrative": "R--29 inches; fractured schist."
+      }
+    ]
+  ]
 }

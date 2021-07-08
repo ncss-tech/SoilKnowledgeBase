@@ -56,5 +56,62 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in the pedon are:\nOchric epipedon - The zone from the soil surface to a depth of about 4 inches. (A horizon)\nCambic horizon - The zone from about 4 to 12 inches. (Bw horizon)\nLithic contact - At 12 inches. (R horizon) In some pedons the upper few inches of the Lithic contact is weathered.\nClassified according to Soil Taxonomy Second Edition, 1999.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; partially decomposed pine needles."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 13,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "very fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--1 to 5 inches; light reddish brown (5YR 6/3) gravelly very fine sandy loam, dark reddish brown (5YR 3/3) moist; moderate very fine granular structure; soft, very friable, nonsticky and nonplastic; common very fine roots; few very fine irregular pores; 20 percent pebbles; neutral; clear smooth boundary. (3 to 7 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 13,
+        "bottom": 33,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--5 to 13 inches; light reddish brown (5YR 6/4) very channery loam, dark reddish brown (5YR 3/3) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; few very fine roots; few very fine irregular pores; 20 percent pebbles and 30 percent channers; neutral; clear smooth boundary. (7 to 13 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 33,
+        "texture_class": "sand",
+        "narrative": "2R--13 inches; sandstone."
+      }
+    ]
+  ]
 }

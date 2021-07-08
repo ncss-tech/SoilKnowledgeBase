@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Type location moved from Somerset County, MD to thermic temperature regime (Horry County, SC) May 2007.\nDiagnostic horizons and features recognized in this pedon are:\nUmbric epipedon-the zone from the surface to a depth of 10 inches (A horizon)\nAlbic horizon-the zone from 10 to 14 inches (E horizon)\nArgillic horizon-the zone from 14 to 28 inches (Btg horizon).\nAquult feature-colors with chroma 1 or less from 10 to 60 inches and very strongly acid at 60 inches.\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nMD0002 POCOMOKE    0-2    57-70   195-275   40-60   25-160\nMD0114 POCOMOKE    0-2    57-70   195-275   40-60   25-160\nSOI-5  FloodL FloodH Watertable  Kind        Months    Bedrock Hardness\nMD0002 NONE            0-1.5     APPARENT    DEC-MAY   >80     -\nMD0114 NONE            0-1.5     APPARENT    DEC-MAY   >80     -\nSOI-5  Depth  Texture                3-Inch  No-10   Clay%   -CEC-\nMD0002  0-10  SL FSL L                0-0    85-100  7-18    -\nMD0002  0-10  LS                      0-0    85-100  5-12    -\nMD0002 10-28  SL FSL L                0-0    85-100  5-18    -\nMD0002 28-40  LS                      0-0    70-100  5-10    -\nMD0002 40-60  SR SCL S                0-0    65-100  5-30    -\nMD0114  0-10  SL FSL L                0-0    85-100  7-18    -\nMD0114  0-10  LS                      0-0    85-100  5-12    -\nMD0114 10-28  SL FSL L                0-0    85-100  5-18    -\nMD0114 28-40  LS                      0-0    70-100  5-10    -\nMD0114 40-60  SR SCL S                0-0    65-100  5-30    -\nSOI-5  Depth    -pH-     O.M.   Salin  Permeab   Shnk-Swll\nMD0002  0-10  3.6-5.5   2.0-10  0-0    0.6-6.0   LOW\nMD0002  0-10  3.6-5.5   2.0-10  0-0    2.0-6.0   LOW\nMD0002 10-28  3.6-5.5    -      0-0    0.6-2.0   LOW\nMD0002 28-40  3.6-5.5    -      0-0    2.0-6.0   LOW\nMD0002 40-60  3.6-5.5    -      0-0    0.6-6.0   LOW\nMD0114  0-10  3.6- 5.5  2.0-10  0-0    0.6-6.0   LOW\nMD0114  0-10  3.6- 5.5  2.0-10  0-0    2.0-6.0   LOW\nMD0114 10-28  3.6- 5.5    -     0-0    0.6-2.0   LOW\nMD0114 28-40  3.6- 5.5    -     -      2.0-6.0   LOW\nMD0114 40-60  3.6- 5.5    -     -      2.0-6.0   LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 11 inches; black (10YR 2/1) fine sandy loam; weak fine granular structure; very friable; common fine and medium roots; very strongly acid; clear wavy boundary. (10 to 18 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 28,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "E--11 to 16 inches; variegated gray (10YR 6/1) and dark grayish brown (10YR 4/2) loamy sand; weak fine granular structure; very friable; few fine and medium roots; few fine and medium pores; very strongly acid; gradual smooth boundary. (4 to 8 inches thick)"
+      },
+      {
+        "name": "Btg",
+        "top": 41,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Btg--16 to 36 inches; very dark grayish brown (10YR 3/2) sandy loam; weak fine subangular blocky structure; friable; few fine roots; few fine pores; few clay films in pores and bridging sand grains; very strongly acid; abrupt wavy boundary. (8 to 20 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 91,
+        "bottom": 137,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Cg--36 to 54 inches; grayish brown (10YR 5/2) loamy sand; massive; very friable; few fine and medium roots; few fine pores; some white (5Y 8/1) sand grains; common medium distinct gray (10YR 6/1) iron depletions; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "2Cg",
+        "top": 137,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "narrative": "2Cg--54 to 72 inches; light brownish gray (10YR 6/2) sandy clay loam with thin strata of coarser material; massive; friable; few fine and medium roots; strongly acid."
+      }
+    ]
+  ]
 }

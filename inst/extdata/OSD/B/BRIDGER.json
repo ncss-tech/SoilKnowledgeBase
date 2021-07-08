@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from 0 to 9 inches (A horizon)\nArgillic horizon - from 9 to 24 inches (Bt horizon)\nHorizons of calcium carbonate accumulation - from 24 to 60 inches (Bk1, Bk2 horizons)\nParticle-size control section - from 9 to 24 inches (Bt horizon)\nBridger soils have a cryic temperature regime and an ustic moisture regime.\nADDITIONAL DATA: Soil interpretations records - MT0056, MT7055, MT1067, MT0368, MT0902.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "narrative": "A--0 to 9 inches, very dark gray (10YR 3/1) loam, black (10YR 2/1) moist; moderate fine granular structure; soft, friable, slightly sticky and slightly plastic; many fine and very fine roots; many very fine and fine pores; 5 percent gravel, 1 percent stones below surface; neutral (pH 7.0); clear boundary. (7 to 16 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 23,
+        "bottom": 61,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--9 to 24 inches; brown (10YR 5/3) clay, brown (10YR 4/3) moist; moderate medium prismatic structure parting to strong coarse medium and fine blocky structure; very hard, firm, moderately sticky and moderately plastic; common very fine roots; many very fine pores; distinct continuous very dark grayish brown (10YR 3/2) moist; clay films on faces of peds; 5 percent gravel, 1 percent stones; neutral (pH 7.0); clear wavy boundary. (10 to 30 inches thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 61,
+        "bottom": 91,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "narrative": "Bk1--24 to 36 inches; brown (10YR 5/3) gravelly clay loam, brown (10YR 4/3) moist; massive; slightly hard, friable, slightly sticky and slightly plastic; few fine roots; few fine pores; 15 percent gravel, 5 percent cobbles; few large masses of lime; continuous distinct lime casts on underside of rock fragments; strongly effervescent; moderately alkaline (pH 8.0); gradual boundary. (4 to 15 inches thick)"
+      },
+      {
+        "name": "Bk2",
+        "top": 91,
+        "bottom": 152,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "narrative": "Bk2--36 to 60 inches, light yellowish brown (2.5Y 6/3) gravelly loam, light olive brown (2.5Y 5/3) moist; massive; slightly hard, friable, slightly sticky and slightly plastic; few fine roots; few fine pores; 20 percent gravel; 5 percent cobbles; common distinct lime casts on undersides of rock fragments mainly in the upper part of the horizon; disseminated lime; strongly effervescent; moderately alkaline (pH 8.0)."
+      }
+    ]
+  ]
 }

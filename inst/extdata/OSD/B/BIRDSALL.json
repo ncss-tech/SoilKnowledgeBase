@@ -56,5 +56,71 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This revision reflects changes to the range in characteristics as well as general updating to metric units. Some acres of Birdsall are relict from before soil temperature classes and would now be frigid.\nDiagnostic horizons and features recognized in this pedon include:\n1. Umbric epipedon - the zone from the mineral soil surface to a depth of 10 inches (25 centimeters) (A horizon).\n2. Cambic horizon - the zone from 10 to 18 inches (25 to 46 centimeters) (Bg horizon).\n3. Coarse-silty particle size family - the zone from 10 through 40 inches (25 through 100 centimeters) contains less than 15 percent sand that is coarser than very fine sand, including gravel, and about 5 through 10 percent clay (Bg and Cg horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi -- 0 to 1 inch (0 to 3 centimeters); slightly decomposed plant material derived from deciduous leaves."
+      },
+      {
+        "name": "Oa",
+        "top": 3,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "narrative": "Oa -- 1 to 2 inches (3 to 5 centimeters); very dark brown (10YR 2/2) highly decomposed plant material. (0 to 20 centimeters thick.)"
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A -- 2 to 10 inches (5 to 25 centimeters); black (10YR 2/1), grayish brown (10YR 5/2) dry silt loam; weak fine granular structure; very friable; many fine roots; very strongly acid; abrupt wavy boundary. (7 to 14 inches (18 to 36 centimeters) thick.)"
+      },
+      {
+        "name": "Bg",
+        "top": 25,
+        "bottom": 46,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bg -- 10 to 18 inches (25 to 46 centimeters); gray (5Y 6/1) silt loam; massive; friable; few roots; few fine faint grayish brown (2.5Y 5/2) masses of iron accumulations; moderately acid; clear smooth boundary. (7 to 44 inches (18 to 112 centimeters) thick.)"
+      },
+      {
+        "name": "Cg",
+        "top": 46,
+        "bottom": 165,
+        "moist_hue": "N",
+        "moist_value": 5,
+        "moist_chroma": 0,
+        "texture_class": "very fine sand",
+        "pH_class": "moderately acid",
+        "narrative": "Cg -- 18 to 65 inches (46 to 165 centimeters); gray (N 5/0) silt loam; massive; firm; common varves of silt and very fine sand 1/4 to 1/2 inches (0.5 to 1 centimeter) thick; common medium prominent light olive brown (2.5Y 5/4) and strong brown (7.5YR 5/8) masses of iron accumulation; moderately acid."
+      }
+    ]
+  ]
 }

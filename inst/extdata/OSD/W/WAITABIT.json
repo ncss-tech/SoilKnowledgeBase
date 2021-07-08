@@ -56,5 +56,86 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features and horizons recognized in this profile include:\nAlbic epipedon: 3 to 6 inches. (E/Bs horizon)\nSpodic horizon: 6 to 35 inches. (2Bs/E and 2Bs horizons)\nLithologic discontinuity: At the upper boundary of 2Bs/E horizon\nWeight average loamy-skeletal particle size control section: 10 to 40 inches below the mineral soil surface\nTemperature regime: cryic\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 3 inches (0 to 8 cm); dark reddish brown (5YR 2.5/2) slightly decomposed plant material; many very fine, fine, medium, and coarse roots; very strongly acid (pH 4.8); clear smooth boundary."
+      },
+      {
+        "name": "E/Bs",
+        "top": 8,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "E/Bs--3 to 6 inches (8 to 15 cm); dark grayish brown (10YR 4/2) and dark reddish brown (5YR 3/4) silt loam; weak medium subangular blocky structure; very friable, nonsticky and nonplastic; many very fine and fine, common medium and coarse roots; very strongly acid (pH 5.0); gradual smooth boundary."
+      },
+      {
+        "name": "2Bs/E",
+        "top": 15,
+        "bottom": 38,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2Bs/E--6 to 15 inches (15 to 38 cm); reddish brown (5YR 4/4) and dark grayish brown (10YR 4/2) very gravelly sandy loam; weak fine subangular blocky structure; friable, nonsticky and nonplastic; common very fine, fine, and medium roots; 15 percent gravel, 5 percent cobbles; moderately acid (pH 5.6); gradual wavy boundary."
+      },
+      {
+        "name": "2Bs",
+        "top": 38,
+        "bottom": 89,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2Bs--15 to 35 inches (38 to 89 cm); brown (7.5YR 4/4) very gravelly sandy loam; massive; friable, nonsticky and nonplastic; few very fine and fine roots; 30 percent gravel, 10 percent cobbles; moderately acid (pH 5.6); gradual wavy boundary."
+      },
+      {
+        "name": "2C",
+        "top": 89,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "narrative": "2C--35 to 60 inches (89 to 152 cm); dark yellowish brown (10YR 4/6) very gravelly sandy loam; massive; friable, nonsticky and nonplastic; 30 percent gravel, 10 percent cobbles; moderately acid (pH 6.0)."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,55 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features and horizons recognized in this profile include:\nNo diagnostic horizon: 0 to 60 inches. (A and 2C horizons)\nSandy-skeletal particle size control section: 10 to 40 inches\nTemperature regime: cryic\nMoisture regime: oxyaquic.\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 2 inches; very dark gray (10YR 3/1) sandy loam; very friable, nonsticky and nonplastic; many very fine and fine and common medium roots; 2 percent gravel, 2 percent cobbles; neutral (pH 6.9); abrupt wavy boundary."
+      },
+      {
+        "name": "2C1",
+        "top": 5,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "coarse sand",
+        "cf_class": "extremely gravelly",
+        "pH": 7.1,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2C1--2 to 13 inches; very dark grayish brown (10YR 3/2) extremely gravelly coarse sand; friable, nonsticky and nonplastic; common very fine and fine and few medium roots; 45 percent gravel, 20 percent cobbles; neutral (pH 7.1); clear wavy boundary."
+      },
+      {
+        "name": "2C2",
+        "top": 33,
+        "bottom": 152,
+        "texture_class": "coarse sand",
+        "cf_class": "extremely gravelly",
+        "pH": 7.1,
+        "pH_class": "neutral",
+        "narrative": "2C2--13 to 60 inches; variegated extremely gravelly coarse sand; loose, nonsticky and nonplastic; 45 percent gravel, 20 percent cobbles; neutral (pH 7.1)."
+      }
+    ]
+  ]
 }

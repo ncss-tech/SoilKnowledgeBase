@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - 0 to 42 cm (A1, A2 and Bt1 horizons).\nArgillic horizon - 26 to 65 cm (Bt1, and Bt2 horizons).\nLithic contact - 65 cm (R).\nParticle-size control section - from 26 to 65 cm (Bt1 and Bt2 horizons).\nBlackbear soils have a cryic temperature regime and udic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 13 cm; dark gray (10YR 4/1) loam, very dark gray (10YR 3/1) moist; weak fine granular structure; soft, very friable, slightly sticky and slightly plastic; many very fine and fine roots; many very fine and fine irregular pores; 10 percent gravel; slightly acid (pH 6.2); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 13,
+        "bottom": 26,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--13 to 26 cm; dark gray (7.5YR 4/1) cobbly loam, very dark gray (7.5YR 3/1) moist; weak medium granular structure; soft, very friable, slightly sticky and slightly plastic; many very fine and fine roots; many very fine and fine irregular pores; 10 percent gravel and 5 percent cobbles; slightly acid (pH 6.2); clear smooth boundary. (combined thickness of the A horizon is 20 to 50 cm)"
+      },
+      {
+        "name": "Bt1",
+        "top": 26,
+        "bottom": 42,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--26 to 42 cm; brown (7.5YR 4/3) very cobbly clay loam, dark brown (7.5YR 3/3) moist; moderate medium subangular blocky structure; slightly hard, friable, moderately sticky and moderately plastic; many very fine and fine roots; many fine irregular pores; 30 percent prominent clay films on faces of peds; 15 percent gravel and 40 percent cobbles; slightly acid (pH 6.4); clear wavy boundary. (20 to 30 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 42,
+        "bottom": 65,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "extremely cobbly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--42 to 65 cm; brown (7.5YR 5/3) extremely cobbly clay loam, brown (7.5YR 4/3) moist; moderate medium subangular blocky structure; moderately hard, friable, moderately sticky and moderately plastic; few very fine and fine roots; few fine irregular pores; 15 percent prominent clay films on faces of peds; 20 percent gravel, 30 percent cobbles and 15 percent stones; neutral (pH 6.6); clear wavy boundary. (20 to 30 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 65,
+        "bottom": 152,
+        "narrative": "R--65 to 152 cm; indurated basalt bedrock."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,54 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Biglick soils are being converted from taxadjuncts of the Ritchey series during modernization projects in MLRA 111.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon: from the surface to a depth of 25 cm (Ap horizon).\nArgillic horizon: from a depth of 25 to 36 cm (2Bt horizon).\nLithic contact: at 36 cm (top of the 2R layer).\nADDITIONAL DATA: Laboratory characterization data from The Ohio State University Soil Characterization Laboratory is available for pedons WY-17 and HK-34. WY-17 was correlated as a clayey taxadjunct to the Ritchey series. HK-34 is from within the type location delineation. Data is available from the type location pedon, SS# 12941 and SS# 12942.\nRepresentative data mapunit is DMU ID 129962.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 25 cm (0 to 10 inches); brown (10YR 4/3) loam, pale brown (10YR 6/3) dry; moderate fine and medium granular structure; friable; common fine and few medium roots; 2 percent igneous pebbles; slightly alkaline; abrupt smooth boundary. [13 to 28 cm (5 to 11 inches) thick]"
+      },
+      {
+        "name": "2Bt",
+        "top": 25,
+        "bottom": 36,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "2Bt--25 to 36 cm (10 to 14 inches); brown (7.5YR 4/4) clay; strong fine and medium subangular blocky structure; firm; common fine roots; many distinct dark yellowish brown (10YR 3/4) clay films on faces of peds; 1 percent igneous pebbles in the upper part of the horizon, and 7 percent limestone fragments in the lower part; slightly alkaline; abrupt irregular boundary. [8 to 33 cm (3 to 13 inches) thick]"
+      },
+      {
+        "name": "2R",
+        "top": 36,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "narrative": "2R--36 cm (14 inches); fractured limestone; extending to 27 inches are solution cavities and fractures that have filled with dark yellowish brown (10YR 4/4) fine sandy loam."
+      }
+    ]
+  ]
 }

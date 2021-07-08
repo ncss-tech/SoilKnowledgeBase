@@ -56,5 +56,87 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are: Particle-size control section: the zone from 25 to 69 centimeters (10 to 27 inches). (Bt1 and Bt2 horizons)\nMollic epipedon: the zone from 0 to 25 centimeters (0 to 10 inches). (A and AB horizons) Argillic horizon: the zone from about 25 to 69 centimeters (10 to 27 inches). (Bt1 and Bt2 horizons)\nParalithic contact: around 69 centimeters (27 inches). (Cr horizon)\nSome pedons have a loess cap.\n11/2015 BKN Updated intro to current standards. Added in metric units. Added clay content, sand content, and fragments to RIC. Added RIC for AB horizon. Northeast facing, linear, and elevation of 352 meters was added to the typical pedon. Added quadrangle, latitude, longitude, and datum to type location. Changed geographic setting to tabular and added in elevation, precipitation pattern, and FFD. Updated geographically associated soils by adding Clime, Martin, Olmitz and Sogn and deleting Sibleyville. Changed permeability to Ksat. Added LRR and MLRA to distribution and extent. Added particle-size control section and paralithic contact to remarks. Added lab data to additional data.\n07/2020 BKN Added reaction class to Cr horizon.\nKeys to Soil Taxonomy: Twelfth Edition, 2014\nAdditional data: Kansas State University Pedology Laboratory data is available for Pedon IDs 95KS087003s, 04KS103016, 04KS103504, and 04KS103505. Kellogg Soil Survey Laboratory data is available for Pedon IDs 88P0072 and 90P0635.\n________________________________________\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 15 centimeters (0 to 6 inches); very dark gray (10YR 3/1) silt loam, dark gray (10YR 4/1) dry; moderate very fine granular structure; slightly hard, friable, slightly plastic and slightly sticky; many fine roots; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "AB",
+        "top": 15,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "AB--15 to 25 centimeters (6 to 10 inches); very dark grayish brown (10YR 3/2) silty clay loam, dark grayish brown (10YR 4/2) dry; moderate fine granular structure; slightly hard, friable, slightly plastic and slightly sticky; many fine roots; slightly acid; clear smooth boundary. (Combined thickness of the A horizons is 13 to 30 centimeters (5 to 12 inches).)"
+      },
+      {
+        "name": "Bt1",
+        "top": 25,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--25 to 43 centimeters (10 to 17 inches); brown (10YR 4/3) silty clay loam, brown (10YR 5/3) dry; moderate fine subangular blocky structure; hard, friable, slightly plastic and slightly sticky; some faces of peds are very dark grayish brown (10YR 3/2); few faint clay films on ped faces; 5 percent gravel, mostly sandstone; common fine roots; slightly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 43,
+        "bottom": 69,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--43 to 69 centimeters (17 to 27 inches); yellowish brown (10YR 5/4) silty clay loam, light yellowish brown (10YR 6/4) dry; weak medium subangular blocky structure; hard, friable slightly plastic and slightly plastic; some faces of peds are brown (10YR 4/3); common fine faint clay films on ped faces; 10 percent gravel, mostly sandstone and shale; few fine roots; slightly acid; clear smooth boundary. (Combined thickness of the Bt horizons is 25 to 71 centimeters (10 to 28 inches).)"
+      },
+      {
+        "name": "Cr",
+        "top": 69,
+        "bottom": 122,
+        "pH_class": "neutral",
+        "narrative": "Cr--69 to 122 centimeters (27 to 48 inches); pale brown and yellowish-brown shale; neutral."
+      }
+    ]
+  ]
 }

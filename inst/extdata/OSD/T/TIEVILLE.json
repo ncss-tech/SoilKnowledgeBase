@@ -56,5 +56,98 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 10 to 40 inches (Ak, Bkg1, Bkg2, and BCkg horizons);\nseries control section--the zone from the surface to a depth of 60 inches (Ak, Bkg1, Bkg2, BCkg, and Cg horizons).\nDiagnostic horizons and features recognized in this pedon:\nmollic epipedon--the zone from the surface to a depth of 22 inches.  (Ap and Ak horizons);\ncambic horizon--the zone from a depth of 22 to 38 inches (Bkg1 and Bkg2 horizons);\nRedoximorphic concentrations--in the zone from a depth of 30 to 60 inches (Bg2, BCg, and Cg horizons);\naquic moisture regime.\nTaxonomy version--second edition, 1999.\nADDITIONAL DATA:\nIn Iowa, the native vegetative cover is an herbaceous wetland community commonly inhabited with Prairie Cordgrasses, Big Bluestems, Switchgrasses, Grays Sedges, Fox Sedges, Tall Tickseeds, and Great St. John Worts. Source: Iowa State Office, Natural Resources Conservation Service, Des Moines, IA.\nIn Nebraska, the native vegetative cover is an herbaceous wetland community commonly inhabited with sedges (Carex emoryi, C. laeviconica, C. pellita, C. vulpinoidea), flat stem spikerush, (Eleocharis compressa), Kentucky bluegrass (Poa Pratensis), prairie cordgrass (Spartina pectinate).  Source: Terrestrial Ecological Systems and Natural Communities of Nebraska, Version IV.  S.B. Rolfsmeier and G. Steinauer.  Nebraska Natural Heritage Program, Nebraska Game and Parks Commission, 2010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; black (10YR 2/1) silty clay, dark gray (10YR 4/1) dry; weak fine subangular blocky structure; firm; few fine roots; slightly effervescent; slightly alkaline; abrupt smooth boundary."
+      },
+      {
+        "name": "Ak",
+        "top": 18,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ak--7 to 22 inches; black (10YR 2/1) silty clay, dark gray (10YR 4/1) dry; moderate medium subangular blocky structure; firm; few very fine and fine roots between peds; few fine irregular masses of carbonate; strongly effervescent; slightly alkaline; clear smooth boundary. (Combined thickness of the A horizon is 18 to 24 inches.)"
+      },
+      {
+        "name": "Bkg1",
+        "top": 56,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bkg1--22 to 30 inches; dark gray (10YR 4/1) and very dark gray (10YR 3/1) silty clay; moderate medium subangular blocky structure; firm; few fine irregular masses of carbonate; strongly effervescent; slightly alkaline; clear smooth boundary."
+      },
+      {
+        "name": "Bkg2",
+        "top": 76,
+        "bottom": 97,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bkg2--30 to 38 inches; dark gray (10YR 4/1) silty clay; moderate medium subangular blocky structure; firm; few fine irregular masses of carbonate and few fine and medium rounded carbonate concretions; common fine prominent brown (7.5YR 4/4) redoximorphic concentrations; violently effervescent; moderately alkaline; clear smooth boundary. (Combined thickness of the Bkg horizon is 12 to 36 inches thick.)"
+      },
+      {
+        "name": "BCkg",
+        "top": 97,
+        "bottom": 109,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BCkg--38 to 43 inches; gray (10YR 5/1) silty clay; weak coarse prismatic structure; firm; few fine irregular carbonate concretions; common medium and coarse prominent yellowish brown (10YR 5/6) redoximorphic concentrations; strongly effervescent; moderately alkaline; clear smooth boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 109,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "moderately alkaline",
+        "narrative": "Cg--43 to 60 inches; gray (10YR 5/1) silty clay; massive; firm; few fine irregular carbonate concretions; common medium and coarse prominent yellowish brown (10YR 5/6) redoximorphic concentrations; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

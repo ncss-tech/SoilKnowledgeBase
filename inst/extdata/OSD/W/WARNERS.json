@@ -56,5 +56,51 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: In the typical profile the Cg horizon designation is changed to AC due to the structure and colors displayed. It is assumed that this horizon does not contain over 40 percent carbonates. This is necessary to place the pedon in Endoaquolls and not Calciaquolls and in the Fluvaquentic subgroup and not the Cumulic subgroup.\nA review of pedons mapped Warners in the past suggests that many may classify as Calciaquolls. Pedons of Warners in the southern part of its range have been reclassified into another series. Use in MD and PA and MLRA 147 is dropped.\n1). Original classification placed Warners in the great group Haplaquolls. Because of changes established in the 5th edition of `Keys to Soil Taxonomy' this soil now classifies in the great group of Endoaquolls. Competing series may change as similar soils are reclassified.\n2). The depth to marl and other friable material impregnated with carbonates has been made deeper than 16 inches to avoid overlap with Calciaquolls classification. Pedons formerly called Warners that have a calcic horizon should be classified in the Calciaquolls great group.\nDiagnostic horizons and other features recognized in the typical pedon are:\na). Mollic epipedon - from 0 to 8 inches (Ap horizon).\nb). Aquolls suborder - as evidenced by AC horizon being directly below the mollic epipedon (Ap horizon) with matrix chroma of 1, hue of 10YR, and contains redoximorphic features.\nc). Fluvaquentic subgroup - an irregular decrease in organic carbon content, and slope less than 25 percent.\nd). Carbonatic mineralogy class - more than 40% CaCO3 by weight in the 2C horizon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 8 inches; black (10YR 2/1) silt loam; strong medium granular structure; very friable; many roots; slightly alkaline; abrupt smooth boundary. (6 to 12 inches thick.)"
+      },
+      {
+        "name": "AC",
+        "top": 20,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "AC -- 8 to 24 inches; very dark gray (10YR 3/1) at the top grading at 12 inches to dark gray (10YR 4/1) silt loam; moderate medium granular structure; friable; common fine roots in upper 8 inches; common fine distinct yellowish brown (10YR 5/4) masses of iron accumulation; many remnants of white shells; strongly effervescent; moderately alkaline; abrupt wavy boundary. (0 to 20 inches thick.)"
+      },
+      {
+        "name": "2C",
+        "top": 61,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "narrative": "2C -- 24 to 72 inches; light gray (10YR 7/1) friable marl."
+      }
+    ]
+  ]
 }

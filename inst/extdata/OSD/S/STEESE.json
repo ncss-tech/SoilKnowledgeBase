@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this profile are:\nOchric epipedon: 2 to 8 inches, 5 to 20 cm\nCambic horizon: 8 to 23 inches, 20 to 58 cm\nParticle size control section: less than 18 percent clay and greater than 15 percent fine sand or coarser from 10 to 38 inches, 25 to 97 cm from mineral soil surface, including coarse fragments up to 3 inches\nTemperature regime: cryic\nMoisture regime: udic\nThe Steese series was formerly classified in the Alfic subgroup. Lamellae were recognized in a few pedons but cannot be mapped consistently.\nADDITIONAL DATA: National Soil Survey Laboratory data S04AK-090-001 from Fairbanks Borough, Alaska, samples by SSL Lincoln, NE, 07/2004\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 2 inches, (0 to 5 cm); dark reddish brown (5YR 2/2) forest litter; many roots; mycelia at base of horizon; charcoal fragments; slightly acid; abrupt smooth boundary.  (1 to 6 inches thick)"
+      },
+      {
+        "name": "A1",
+        "top": 5,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 5.3,
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A1--2 to 5 inches, (5 to 13cm); very dark grayish brown (10YR 3/2) silt loam; weak very fine granular structure; very friable; many roots; common mica flakes; strongly acid (pH 5.3); abrupt wavy boundary.  (2 to 5 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 13,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--5 to 8 inches, (13 to 20 cm); dark grayish brown (10YR 4/2) silt; many patches and streaks of brown (10YR 4/3); weak very thin platy structure;very friable; many roots; many mica flakes; moderately acid (pH 5.8); abrupt wavy boundary.  (2 to 6 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 20,
+        "bottom": 58,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--8 to 23 inches, (20 to 58 cm); brown (10YR 4/3) silt; thin strata and pockets of dark brown (10YR 3/3) silt loam; weak very thin platy structure; very friable; common medium and fine roots; few charcoal fragments; many mica flakes; moderately acid (pH 5.8); abrupt wavy boundary. (3 to 12 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 58,
+        "bottom": 74,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C1--23 to 29 inches, (58 to 74 cm); grayish brown (10YR 5/2) silt; many yellowish brown (10YR 5/4) horizontal streaks; weak very thin platy structure; very friable; few roots; moderately acid (pH 5.8); abrupt wavy boundary.  (5 to 10 inches thick)"
+      },
+      {
+        "name": "2C2",
+        "top": 74,
+        "bottom": 97,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "extremely channery",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2C2--29 to 38 inches, (74 to 97 cm); grayish brown (2.5Y 5/2) extremely channery silt loam; massive; very friable; 60 percent schist channers; slightly acid (pH 6.3); abrupt wavy boundary.  (5 to 10 inches thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 97,
+        "bottom": 152,
+        "narrative": "2Cr--38 to 60 inches, (97 to 162 cm); highly weathered schist bedrock."
+      }
+    ]
+  ]
 }

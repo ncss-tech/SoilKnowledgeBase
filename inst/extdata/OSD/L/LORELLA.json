@@ -56,5 +56,97 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon:  the zone from 0 to 10 inches (A1, A2, BA horizons)\nArgillic horizon:  the zone from 10 to 19 inches (Bt horizon)\nXeric soil moisture regime bordering on aridic.\nLithic contact: the boundary with hard bedrock at 19 inches.\nADDITIONAL DATA:  Characterization data on 2 profiles (S66 Oreg. 18-9 and 18-10) reported in Riverside Soil Survey Laboratory report for Lorella soils sampled in Klamath County, Oregon, 1966.  The typical pedon was sampled for characterization.  Profile 18-10 is the type location.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very stony",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 2 inches; very dark grayish brown (10YR 3/2) very stony loam, grayish brown (10YR 5/2) dry; weak thin platy structure parting to weak very fine granular; slightly hard, very friable, slightly sticky and slightly plastic; common very fine roots; many fine vesicular pores in upper 1 inch, many very fine pores below; about 60 percent gravel, cobbles and stones; neutral (pH 6.9); abrupt smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--2 to 5 inches; very dark grayish brown (10YR 3/2) very gravelly loam, grayish brown (10YR 5/2) dry; weak medium platy structure parting to weak fine granular; slightly hard, friable, slightly sticky and slightly plastic; common very fine roots; many very fine pores; about 50 percent gravel, cobbles and stones; neutral (pH 6.8); clear smooth boundary.  (Combined thickness of the A horizon is 2 to 9 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 13,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BA--5 to 10 inches; dark brown (10YR 3/3) very cobbly clay loam, dark grayish brown (10YR 4/2) dry; weak medium subangular blocky structure; hard, firm, sticky and plastic; common very fine roots; many very fine tubular pores; about 50 percent gravel, cobbles and stones; neutral (pH 6.7); clear smooth boundary.  (0 to 5 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 25,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "very cobbly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt--10 to 19 inches; dark yellowish brown (10YR 4/4) very cobbly clay, pale brown (10YR 6/3) dry; moderate medium and fine angular blocky structure; very hard, very firm, very sticky and very plastic; few very fine roots; many very fine tubular pores; many stress cutans on faces of peds; about 55 percent gravel, cobbles and stones, some with opal coatings on underside; neutral (pH 6.8); abrupt smooth boundary.  (4 to 15 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 48,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "narrative": "R--19 inches; dark brown (10YR 4/3) fractured volcanic tuff; many distinct clay films on fracture surfaces."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  These soils were formerly mapped in the Chesterfield series which was made inactive.\nTABULAR SERIES DATA\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0080 SPOTSYLVAN  0- 25   59- 64  185-220  35- 45   250- 800\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0080 NONE          6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0080  0-10  FSL SL L                0-  0  80- 95  5-27    -\nVA0080 10-19  CL SCL L                0-  5  75- 95 20-40    -\nVA0080 19-54  C CL                    0-  5  75- 95 35-55    -\nVA0080 54-74  SCL L SL                0-  5  70- 95 10-35    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0080  0-10  4.5- 6.0  .5-2.  0- 0   0.6- 6.0  LOW\nVA0080 10-19  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  LOW\nVA0080 19-54  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  MODERATE\nVA0080 54-74  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "01",
+        "top": 8,
+        "bottom": 0,
+        "narrative": "01--3 to 0 inch; partially decomposed, pine needles, oak leaves and twigs."
+      },
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 13,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 5 cm; very dark grayish brown (10YR3/2) fine sandy loam; weak fine granular structure; very friable; many fine and medium roots; 2 percent rounded quartz pebbles; very strongly acid; clear smooth boundary.  (0 to 8 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 13,
+        "bottom": 64,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--5 to 25 cm; light yellowish brown (10YR6/4) fine sandy loam; moderate fine granular structure; very friable; many fine and medium roots; 2 percent rounded quartz pebbles; very strongly acid; clear smooth boundary.  (0 to 30 cm thick)"
+      },
+      {
+        "name": "B1t",
+        "top": 76,
+        "bottom": 122,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "B1t--30 to 48 cm; yellowish brown (10YR5/6) clay loam; weak fine subangular blocky structure; friable; slightly sticky, slightly plastic; many fine and medium roots; few thin clay films on faces of peds; 2 percent rounded quartz pebbles; very strongly acid; clear smooth boundary.  (0 to 25 cm thick)"
+      },
+      {
+        "name": "B21t",
+        "top": 122,
+        "bottom": 201,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "B21t--48 to 79 cm; strong brown (7.5YR5/6) clay; common medium and coarse faint yellowish red (5YR5/6) and brownish yellow (10YR6/8) mottles; moderate fine subangular blocky structure; firm; common fine and medium roots; continuous thin clay films on faces peds; 2 percent rounded quartz pebbles; stone line 5 cm thick at the lower boundary with 15 percent rounded and subrounded quartz pebbles up to 5 cm in diameter; very strongly acid; abrupt smooth boundary. (10 to 60 cm thick)"
+      },
+      {
+        "name": "IIB22t",
+        "top": 201,
+        "bottom": 264,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "IIB22t--79 to 104 cm; yellowish red (5YR5/6) clay; common medium and fine faint yellowish brown (10YR5/6) mottles; moderate fine subangular blocky structure; firm, slightly sticky, plastic; continuous thin clay films on faces of peds; 2 percent angular quartz pebbles; few fine flakes of mica; very strongly acid; clear smooth boundary.  (13 to 50 cm thick)"
+      },
+      {
+        "name": "IIB3t",
+        "top": 264,
+        "bottom": 348,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "IIB3t--104 to 137 cm; yellowish red (5YR5/6) clay; common medium and coarse faint yellowish brown (10YR5/6) and few medium and coarse prominent white (10YR8/1) mottles; firm; slightly sticky, slightly plastic; common medium clay films; common fine flakes of mica; 2 percent weathered feldspar fragments; 2 percent angular quartz pebbles; very strongly acid; gradual smooth boundary.  (0 to 36 cm thick)"
+      },
+      {
+        "name": "IIC",
+        "top": 348,
+        "bottom": 478,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "IIC--137 to 188 cm; multicolored red (2.5YR5/8), strong brown (7.5YR5/6), white (10YR8/1) and brownish yellow (10YR6/8) sandy clay loam; weathered granite gneiss; massive; friable; few medium and thick clay flows into upper part; common fine flakes of mica; 10 percent weathered feldspar fragments; 2 percent angular quartz pebbles; very strongly acid; gradual smooth boundary."
+      }
+    ]
+  ]
 }

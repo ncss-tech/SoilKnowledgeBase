@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:   Soil Interpretation Record:  Series  OK0225\nDiagnostic horizons and features:\nMollic epipedon- the zone from the surface of the soil to a depth of 13 inches (the A horizon).\nCambic horizon- the zone from 13 inches to a depth of 26 inches (the Bk horizons).\nParalithic contact- soft gypsum bedrock at a depth of 32 inches (the top of theCr horizon).\nLithic contact- gypsum bedrock at a depth of 37 inches with a very high excavation difficulty. (the top of the R horizon)\nMoisture regime- Typic-Ustic.\nRange Site: (078by079tx) loamy pe25-36\nTaxonomic version: Soil Taxonomy, Second Edition, 1999\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 10 inches; reddish brown (5YR 4/3) silt loam, dark reddish brown (5YR 3/3), moist; 23 percent clay; moderate fine granular structure; friable, slightly hard; many fine roots; common fine and few medium pores; common worm casts; 2 percent fine carbonate nodules; 2 percent 2 to 20 millimeter fragments of dolomite; slight effervescence; moderately alkaline; clear smooth boundary. (6 to 18 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 25,
+        "bottom": 71,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk--10 to 28 inches; reddish brown (5YR 5/4) silty clay loam, reddish brown (5YR 4/4), moist; 30 percent clay; weak medium prismatic structure parting to moderate fine and medium subangular blocky; friable, hard; common fine roots; common fine and common very fine pores; common worm casts; 2 percent fine and medium carbonate nodules and 2 percent fine and medium carbonate masses; 2 percent 2 to 20 millimeter fragments of dolomite; strong effervescence; moderately alkaline; clear smooth boundary. (combined thickness of the B horizons is 10 to 25 inches thick)"
+      },
+      {
+        "name": "Bky",
+        "top": 71,
+        "bottom": 81,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bky--28 to 32 inches; yellowish red (5YR 5/6) silty clay loam, yellowish red (5YR 4/6), moist; 30 percent clay; weak medium prismatic structure parting to moderate fine and medium subangular blocky structure; friable, hard; few fine roots; common fine and common very fine pores; common worm casts; 2 percent fine and medium carbonate nodules and 2 percent fine and medium carbonate masses; 5 percent fine and medium gypsum masses; 2 percent 2 to 20 millimeter fragments of dolomite; strong effervescence; moderately alkaline; abrupt wavy boundary."
+      },
+      {
+        "name": "Cr",
+        "top": 81,
+        "bottom": 94,
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cr--32 to 37 inches; weakly cemented gypsum bedrock; fractures in the gypsum are 5 to 6 inches apart; high excavation difficulty; common coats of carbonate in rock fractures; clear wavy boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 94,
+        "bottom": 183,
+        "narrative": "R--37 to 72 inches; strongly cemented gypsum bedrock, fractured at intervals of 39 to less than 78 inches; massive; extremely high excavation difficulty."
+      }
+    ]
+  ]
 }

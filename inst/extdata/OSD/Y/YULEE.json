@@ -56,5 +56,124 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Characterization data for the typical pedon shows the  base saturation to be 51 percent in the A11 horizon, 64 percent in  the A12 horizon, and to average 72 percent in the B horizon.  Based on a 2-year soil temperature study, the mean annual soil  temperature range for this soil in Duval County, Florida is about  69.2 degrees to 71.5 degrees F.\nDignostic horizons and features recognized in this pedon are;\nMollic epipedon-the zone from the surface to 28 inches.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nFL0196 YULEE       0-  2   62- 70  245-285  45- 55     8- 100\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nFL0196 FREQ            0-1.0  APPARENT JUN-MAR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nFL0196  0-14  C SC CL                 0-  0 100-100 35-45    -\nFL0196 14-66  SCL                     0-  0 100-100 20-35    -\nFL0196 66-82  SCL CL                  0-  0 100-100 25-35    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nFL0196  0-14  5.1- 7.8  1.-5.  0- 0  0.00- 0.2  MODERATE\nFL0196 14-66  5.6- 7.8    -    0- 0  0.00- 0.2  LOW\nFL0196 66-82  5.6- 7.8    -    0- 0  0.06- 2.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 5,
+        "bottom": 0,
+        "narrative": "0i--2 to 0 inches; partially decayed leaves, moss and twigs."
+      },
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A1--0 to 7 inches; black (N 2/0) clay; moderate fine granular structure; friable; strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 18,
+        "bottom": 36,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A2--7 to 14 inches; black (N 2/0) clay; weak medium subangular blocky structure;  sticky; few fine distinct yellowish brown (10YR 5/6) soft masses of iron accumulation; moderately acid; gradual smooth boundary.  (combined thickness of the A horizon is 8 to 22 inches)"
+      },
+      {
+        "name": "Bg1",
+        "top": 36,
+        "bottom": 71,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bg1--14 to 28 inches; very dark gray (10YR 3/1) sandy clay loam; weak coarse  subangular blocky structure; slightly sticky; few fine distinct strong brown (7.5YR 5/6) soft masses of iron accumulation; moderately alkaline; gradual smooth boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 71,
+        "bottom": 102,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bg2--28 to 40 inches; dark gray (10YR 4/1) sandy clay loam;  weak coarse subangular blocky structure; slightly sticky; common medium distinct yellowish brown (10YR 5/8) soft masses of iron accumulation; moderately alkaline;  gradual smooth boundary."
+      },
+      {
+        "name": "Bg3",
+        "top": 102,
+        "bottom": 122,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bg3--40 to 48 inches; dark gray (5Y 4/1) sandy clay loam; weak coarse subangular blocky structure; slightly sticky; few fine  light gray sand pockets; common medium prominent yellowish brown (10YR 5/8) soft masses of iron accumulation; moderately alkaline; gradual smooth boundary."
+      },
+      {
+        "name": "Bg4",
+        "top": 122,
+        "bottom": 168,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bg4--48 to 66 inches; dark gray (5Y 4/1) sandy clay loam;  weak coarse subangular blocky  structure; slightly sticky; few fine light gray sand pockets; many coarse prominent coarsely mottled strong brown (7.5YR 5/8) and dark red (2.5YR 3/6) soft masses of iron accumulation; moderately alkaline; gradual smooth boundary.  (combined thickness of the Bg horizon is 28 to 75 inches)"
+      },
+      {
+        "name": "C",
+        "top": 168,
+        "bottom": 190,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C--66 to 75 inches; pale yellow (2.5Y 7/4) sandy clay  loam; weak coarse subangular  blocky structure; friable; few fine prominent dark reddish brown (5YR 3/3) and many fine distinct  dark yellowish brown (10YR 4/4) soft masses of iron accumulation; moderately alkaline; gradual wavy boundary.  (0 to  14 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 190,
+        "bottom": 208,
+        "moist_hue": "5BG",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "narrative": "Cg--75 to 82 inches; coarsely multicolored greenish gray (5BG 5/1) dark greenish gray (5BG 4/1) and olive (5Y 5/6) clay loam;  weak coarse subangular blocky structure; massive; very friable; neutral."
+      }
+    ]
+  ]
 }

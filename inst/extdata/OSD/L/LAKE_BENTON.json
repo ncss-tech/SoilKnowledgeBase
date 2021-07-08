@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons recognized in this pedon are: mollic epipedon - the zone from the surface to 10 inches (Ap horizon); cambic horizon - the zone from 10 to 15 inches (Bw horizon); calcic horizon - the zone from 15 to 20 inches (Bk horizon); udic moisture regime.\nThis soil previously was correlated as Arvilla or Egeland when occurring on rims of ice-walled lakes in the Altamont moraine in MLRA-102A.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 10 inches; very dark grayish brown (10YR 3/2) sandy loam, dark grayish brown (10YR 4/2) dry; weak fine subangular blocky structure; friable; common fine and very fine roots; about 4 percent gravel; neutral; abrupt smooth boundary. (7 to 12 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 25,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--10 to 21 inches; dark yellowish brown (10YR 4/4) sandy loam; weak fine subangular blocky structure; friable; common fine roots; about 4 percent gravel; neutral; clear smooth boundary. (5 to 12 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 53,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bk--21 to 25 inches; brown (10YR 5/3) sandy loam; weak fine subangular blocky structure; very friable; few fine roots; about 5 percent gravel; strongly effervescent; moderately alkaline; gradual smooth boundary. (0 to 15 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 64,
+        "bottom": 107,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C1--25 to 42 inches; brown (10YR 5/3) sand; single grain; loose; common medium distinct strong brown (7.5YR 5/8) iron concentrations; about 5 percent gravel; slightly effervescent; slightly alkaline; clear smooth boundary. (0 to 40 inches thick)"
+      },
+      {
+        "name": "2C2",
+        "top": 107,
+        "bottom": 203,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "2C2--42 to 80 inches; light olive brown (2.5Y 5/4) silt loam; massive; friable; common medium prominent strong brown (7.5YR 5/6) redox concentrations; common medium distinct grayish brown (2.5Y 5/2) redox depletions; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,84 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:  ochric epipedon - the zone from the surface to a depth of 7 inches; argillic horizon - the zone from approximately 7 to 27 inches (Bt1 and Bt2 horizons); paralithic contact - 34 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; very dark grayish brown (10YR 3/2) silt loam, grayish brown (10YR 5/2) dry; weak fine platy structure parting to weak fine granular; friable; common fine roots; slightly alkaline; abrupt smooth boundary.  (6 to 9 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--7 to 13 inches; dark yellowish brown (10YR 4/6) silt loam; weak fine subangular blocky structure; firm; common fine roots; common distinct clay films on faces of peds; neutral; clear smooth boundary."
+      },
+      {
+        "name": "2Bt2",
+        "top": 33,
+        "bottom": 69,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2Bt2--13 to 27 inches; dark yellowish brown (10YR 4/6) loam; moderate fine subangular blocky structure; firm; few fine roots; common distinct clay films on faces of peds; common black iron and manganese stains; moderately acid; clear smooth boundary.  (Combined thickness of the Bt horizons is 10 to 35 inches.)"
+      },
+      {
+        "name": "2BC",
+        "top": 69,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2BC--27 to 34 inches; multi-colored yellowish brown (10YR 5/6), strong brown (7.5YR 5/6), and grayish brown (10YR 5/2) loam; weak medium prismatic structure; firm; common distinct clay flows in vertical cleavage planes; many black iron and manganese stains; common silt coats; moderately acid; clear smooth boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 86,
+        "bottom": 127,
+        "texture_class": "sand",
+        "narrative": "2Cr--34 to 50 inches; multi-colored soft sandstone; common clay flows along fractures."
+      },
+      {
+        "name": "2R",
+        "top": 127,
+        "texture_class": "sand",
+        "narrative": "2R--50 inches; hard sandstone."
+      }
+    ]
+  ]
 }

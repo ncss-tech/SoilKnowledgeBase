@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  DIAGNOSTIC HORIZONS AND FEATURES RECOGNIZED IN THIS PEDON ARE:\nOchric epipedon:  The zone from 0 to 4 inches.  (A horizon)\nSurface horizons that meet the color and organic carbon requirements for a mollic epipedon are less than 7 inches thick.\nCambic horizon:  The zone from 4 to 13 inches.  (Bw horizon)\nLithic contact:  Bedrock at 19 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 4 inches; brown (10YR 4/3) gravelly loam, very dark grayish brown (10YR 3/2) moist; weak medium subangular blocky parting to weak very fine granular structure; soft, very friable, common medium and coarse roots; many fine interstitial pores; 15 percent pebbles; slightly acid; clear wavy boundary. (2 to 4 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 10,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--4 to 13 inches; yellowish brown (10YR 5/4) very gravelly loam, brown (7.5YR 4/2) moist weak very fine granular structure; slightly hard, friable, slightly sticky and slightly plastic; common medium and coarse roots; few fine tubular pores; 40 percent pebbles; medium acid; gradual wavy boundary. (8 to 10 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 33,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--13 to 19 inches; pale brown (10YR 6/3) very gravelly sandy loam, brown (7.5YR 4/4) moist; massive; soft, very friable; common medium and coarse roots; common medium tubular pores; 50 percent pebbles; medium acid; abrupt wavy boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "Oe",
+        "top": 3,
+        "narrative": "Oi & Oe--1 inch to 0; decomposed and undecomposed forest litter. (1 to 3 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 48,
+        "narrative": "2R--19 inches; intrusive acid igneous bedrock fractured in the upper few inches and with some soil material in cracks."
+      }
+    ]
+  ]
 }

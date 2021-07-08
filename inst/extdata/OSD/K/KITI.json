@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soil Interpretation Record:  Series   OK0165\nDiagnostic horizons and features recognized in this pedon are:\nMollic epipedon- the zone from the soil surface to a depth of 15 inches (the A horizons).\nLithic contact at 15 inches (R horizon).\nADDITIONAL DATA:  Oklahoma State University laboratory data 74-OK-19-1 and 74-OK-19-4.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "cf_class": "flaggy",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A1--0 to 7 inches; dark grayish brown (10YR 4/2) flaggy silty clay loam, very dark brown (10YR 2/2) moist; strong medium granular structure; hard, friable; coarse flat fragments of limestone make up 45 percent by volume; moderately alkaline; gradual wavy boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 18,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "cf_class": "very flaggy",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "A2--7 to 15 inches; dark grayish brown (10YR 4/2) very flaggy silty clay loam, very dark brown (10YR 2/2) moist; strong medium granular structure; hard, friable; coarse flat fragments of limestone make up 65 percent by volume; moderately alkaline; abrupt irregular boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 38,
+        "bottom": 46,
+        "narrative": "R--15 to 18 inches; hard fractured limestone; tilted 45 degrees."
+      }
+    ]
+  ]
 }

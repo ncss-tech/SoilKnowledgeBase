@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - soil surface to 19 inches (A, BAt, and Bt horizons)\nArgillic horizon - The zone from 4 to 19 inches (BAt and Bt horizons)\nLithic contact - The boundary at 19 inches (R horizon)\nMoisture regime - xeric\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very stony",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; grayish brown (10YR 5/2) very stony clay loam, dark brown (10YR 3/3) moist; weak very fine and fine granular structure; hard, firm, moderately sticky and moderately plastic; many very fine roots; many very fine pores; 10 percent gravel,10 percent cobbles, and 15 percent stones; slightly acid (pH 6.4); clear smooth boundary.  (1 to 6 inches thick)"
+      },
+      {
+        "name": "BAt",
+        "top": 10,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "cf_class": "stony",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BAt--4 to 9 inches; dark grayish brown (10YR 4/2) stony clay, dark brown (10YR 3/3) moist; moderate medium and coarse subangular blocky structure; very hard, very firm, very sticky and very plastic; many very fine roots; few very fine pores; many prominent clay films on faces of peds; 15 percent stones, and 5 percent gravel; slightly acid (pH 6.4); clear wavy boundary. (2 to 5 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 23,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "cf_class": "stony",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt--9 to 19 inches; dark grayish brown (10YR 4/2) stony clay, dark brown (10YR 3/3) moist; moderate medium prismatic structure parting to moderate medium subangular blocky; very hard, very firm, very sticky and very plastic; common very fine roots; few very fine pores; many distinct clay films on faces of peds; 5 percent gravel and 10 percent stones; neutral (pH 6.6); abrupt irregular boundary.  (7 to 13 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 48,
+        "narrative": "R--19 inches; basalt."
+      }
+    ]
+  ]
 }

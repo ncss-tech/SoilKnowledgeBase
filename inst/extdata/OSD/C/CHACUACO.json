@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon: 0 to 10 inches. (A and AB horizons)\nArgillic horizon: 10 to 20 inches. (Bt horizon)\nCalcic horizon: 20 to 30 inches. (Bk horizon)\nLithic contact: bedrock at 30 inches. (top of R layer)\nClassified according to Keys to Soil Taxonomy Tenth Edition, 2006.\nThe soil was previously mapped within the Ryegate soil, but was determined to average less than 45 percent fine and coarser sand in the particle size control section. This soil is pronounced Cha-kwock. Laboratory data S87CO-071-003.\nThe assignment of cation-exchange activity class is supported by lab samples S87CO-071-003.\nADDITIONAL DATA: None\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 5 inches; brown (10YR 4/3) loam, very dark grayish brown (10YR 3/2) moist; moderate fine and medium granular structure; soft, very friable, slightly sticky and slightly plastic; slightly alkaline (pH 7.5); clear smooth boundary (5 to 7 inches thick)."
+      },
+      {
+        "name": "AB",
+        "top": 13,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 7.9,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "AB--5 to 10 inches; brown (10YR 4/3) loam, very dark grayish brown (10YR 3/2) moist; weak fine subangular blocky structure parting to moderate medium granules; soft, very friable, slightly sticky and slightly plastic; strongly effervescent; moderately alkaline (pH 7.9); clear smooth boundary (0 to 5 inches thick)."
+      },
+      {
+        "name": "Bt",
+        "top": 25,
+        "bottom": 51,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--10 to 20 inches; yellowish brown (10YR 5/4) clay loam, dark yellowish brown (10YR 4/4) moist; moderate fine and medium subangular blocky structure; very hard, firm, sticky and plastic; common continuous distinct clay films on faces of peds; 5 percent pebbles; violently effervescent; few fine  masses of calcium carbonate; moderately alkaline (pH 8.0); clear smooth boundary (10 to 18 inches thick)."
+      },
+      {
+        "name": "Bk",
+        "top": 51,
+        "bottom": 76,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH": 7.9,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bk--20 to 30 inches; very pale brown (10YR 8/3) and very pale brown (10YR 8/4) very gravelly loam, very pale brown (10YR 7/4) moist; massive; soft, very friable, nonsticky and nonplastic; 30 percent pebbles, 10 percent sandstone channers; violently effervescent; 37 percent calcium carbonate equivalent; moderately alkaline (pH 7.9); abrupt wavy boundary (3 to 10 inches thick)."
+      },
+      {
+        "name": "R",
+        "top": 76,
+        "texture_class": "sand",
+        "narrative": "R--30 inches; very strongly cemented Dakota sandstone."
+      }
+    ]
+  ]
 }

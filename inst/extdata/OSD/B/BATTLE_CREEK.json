@@ -56,5 +56,130 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to a depth of 13 inches (Ap, BA, and Bt1 horizons).\nArgillic horizon - The zone from 10 to 19 inches (Bt1 and Bt2 horizons).\nCalcic horizon - The zone from 37 to 72 inches (Bk1 and Bk2 horizons).\nVertic subgroup feature - The zone from the soil surface to 100 cm with an assumed linear extensibility of 6 cm or more and cracks in the soil extending from the base of the Ap horizon to a depth of 20 inches (a thickness of 35 cm).\nParticle-size control section - The zone from 10 to 19 inches (Bt1 and Bt2 horizons).\nADDITIONAL DATA: a pedon of Battle Creek is characterized with soil survey sample number 89ID041004 (pedon # 89P0805).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH": 7.1,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; grayish brown (10YR 5/2) silty clay loam, very dark brown (10YR 2/2); moist; weak medium granular and weak medium subangular blocky structure; hard, firm, moderately sticky, moderately plastic; few fine roots; few fine pores; neutral (pH 7.1); abrupt smooth boundary.  (6 to 8 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 15,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BA--6 to 10 inches; grayish brown (10YR 5/2) silty clay, very dark brown (10YR 2/2) moist; weak medium subangular blocky structure parting to weak medium granular; hard, firm, moderately sticky, moderately plastic; few fine roots; few fine pores; neutral (pH 7.0); clear smooth boundary.  (4 to 6 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 25,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silty clay",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--10 to 13 inches; grayish brown (10YR 5/2) silty clay, dark brown (10YR 3/3) moist; weak medium prismatic structure parting to weak fine subangular blocky; very hard, firm, moderately sticky, very plastic; few fine roots; common fine and few medium pores; common faint clay films; slightly effervescent; slightly alkaline (pH 7.5); gradual wavy boundary.  (3 to 10 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 33,
+        "bottom": 48,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--13 to 19 inches; brown (7.5YR 5/2) silty clay, brown (7.5YR 4/2) moist; weak medium prismatic structure parting to weak medium subangular blocky; very hard, firm, moderately sticky, moderately plastic; few fine roots; many fine and few medium pores; common faint clay films; strongly effervescent; slightly alkaline (pH 7.6); gradual wavy boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "Btk",
+        "top": 48,
+        "bottom": 94,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btk--19 to 37 inches; pinkish gray (7.5YR 6/2) silty clay, brown (7.5YR 4/2) moist; weak medium prismatic structure parting to weak medium subangular blocky; very hard, firm, moderately sticky, very plastic; few fine roots; many fine pores; few faint clay films; strongly effervescent; slightly alkaline (pH 7.8); gradual wavy boundary.  (6 to 20 inches thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 94,
+        "bottom": 109,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "pH": 8.1,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk1--37 to 43 inches; pinkish gray (7.5YR 7/2) silty clay, brown (7.5YR 5/4) moist; medium subangular blocky structure; extremely hard, firm, moderately sticky, very plastic; few fine roots; many fine and few medium pores; common medium prominent strong brown (7.5YR 5/8) masses of iron accumulation; violently effervescent; moderately alkaline (pH 8.1); gradual wavy boundary.  (6 to 14 inches thick)"
+      },
+      {
+        "name": "Bk2",
+        "top": 109,
+        "bottom": 183,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "narrative": "Bk2--43 to 72 inches; pinkish gray (7.5YR 7/2) silty clay, brown (7.5YR 5/4) moist; laminated lacustrine deposits; extremely hard, very firm, moderately sticky, very plastic; few fine roots; common fine pores; few medium prominent yellowish brown (10YR 5/8) masses of iron accumulation; violently effervescent; moderately alkaline (pH 8.2)."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 43 cm (A1 and A2 horizons).\nCambic horizon - The zone from 43 to 94 cm (Bw horizon).\nVitrandic intergrade feature - The zone from the soil surface to 76 cm (A1 and A2 horizons and part of the Bw horizon).\nDurinodes - The zone from 94 to 152 cm (Bq horizon).\nParticle-size control section and ashy substitute class with glassy mineralogy - The zone from 25 to 100 cm (Bw, parts of the A2 and Bq horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 5 cm; grayish brown (10YR 5/2) ashy sandy loam, very dark grayish brown (10YR 3/2) moist; moderate thin platy structure; soft, very friable, slightly sticky and slightly plastic; common very fine and few fine roots; many very fine tubular and vesicular pores; neutral (pH 6.8); clear smooth boundary.  (3 to 10 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--5 to 43 cm; brown (10YR 5/3) ashy sandy loam, very dark grayish brown (10YR 3/2) moist; massive; soft, very friable, slightly sticky and slightly plastic; common very fine and fine roots; many very fine tubular pores; neutral (pH 6.8); clear smooth boundary.  (15 to 40 cm thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 43,
+        "bottom": 94,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--43 to 94 cm; pale brown (10YR 6/3) ashy sandy loam, brown (10YR 4/3) moist; massive; soft, very friable, slightly sticky and slightly plastic; common very fine and fine roots; many very fine tubular pores; neutral (pH 6.8); clear smooth boundary.  (46 to 90 cm thick)"
+      },
+      {
+        "name": "Bq",
+        "top": 94,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "narrative": "Bq--94 to 152 cm; pale brown (10YR 6/3) ashy sandy loam, brown (10YR 4/3) moist; massive; slightly hard, very friable, slightly sticky and slightly plastic; few very fine and fine roots; many very fine tubular pores; 10 percent weakly cemented durinodes; neutral (pH 7.0)."
+      }
+    ]
+  ]
 }

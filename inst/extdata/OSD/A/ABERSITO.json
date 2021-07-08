@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the surface of the soil to a depth of about 11 inches.  (A and E horizons)\nArgillic horizon - The zone from 11 inches to a depth of 26 inches.  (Bt horizon)\nLithic contact - Sandstone occurs at about 26 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "Oi--0 to 2 inches; Pine needles and oak leaves."
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very cobbly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--2 to 5 inches; brown (7.5YR 4/2) very cobbly sandy clay loam, dark brown (7.5YR 3/2) moist; moderate fine granular structure; soft, very friable, nonsticky and nonplastic; common very fine and fine and few medium roots; common fine and very fine irregular pores; 40 percent cobbles, 10 percent pebbles and 5 percent stones; slightly acid; clear smooth boundary.  (2 to 6 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 13,
+        "bottom": 28,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very cobbly",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "E--5 to 11 inches; light brown (7.5YR 6/4) very cobbly fine sandy loam, dark brown (7.5YR 3/4) moist; moderate fine granular structure; soft, very friable, nonsticky and nonplastic; common very fine and fine and few medium roots; common very fine and fine irregular pores; 30 percent cobbles and 10 percent pebbles; slightly acid; abrupt smooth boundary.  (5 to 10 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 28,
+        "bottom": 66,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "cf_class": "very cobbly",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt--11 to 26 inches; yellowish red (5YR 5/6) very cobbly clay; yellowish red (5YR 4/6) moist; strong medium angular blocky structure; hard, firm, sticky and plastic; few very fine, fine and medium roots; few very fine tubular pores; many thick clay films on faces of peds and lining pores; 35 percent cobbles and 5 percent pebbles; slightly acid; abrupt smooth boundary.  (14 to 24 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 66,
+        "texture_class": "sand",
+        "narrative": "2R--26 inches; sandstone."
+      }
+    ]
+  ]
 }

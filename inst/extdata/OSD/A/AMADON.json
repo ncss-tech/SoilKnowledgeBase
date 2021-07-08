@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are: ochric epipedon and albic horizon - the zone from 2 to 8 inches (E horizon); spodic horizon -  the zone from 8 to 15 inches (Bhs and Bs horizons); lithic contact - limestone bedrock at 15 inches.\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--0 to 2 inches; black (5YR 2/1) partially decomposed leaf litter; many fine to medium roots; strongly acid; abrupt smooth boundary. (0 to 3 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--2 to 8 inches; pinkish gray (7.5YR 6/2) sandy loam, light gray (10YR 7/2) dry; weak medium subangular blocky structure; very friable; many fine to coarse roots; about 2 percent limestone gravel; moderately acid; clear smooth boundary. (1 to 8 inches thick)"
+      },
+      {
+        "name": "Bhs",
+        "top": 20,
+        "bottom": 25,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bhs--8 to 10 inches; dark reddish brown (5YR 3/2) fine sandy loam; moderate medium subangular blocky structure; friable; many fine to coarse roots; about 2 percent limestone gravel; moderately acid; clear smooth boundary. (0 to 2 inches thick)"
+      },
+      {
+        "name": "Bs",
+        "top": 25,
+        "bottom": 38,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bs--10 to 15 inches; dark brown (7.5YR 3/4) fine sandy loam; moderate medium subangular blocky structure; friable; many fine to coarse roots; about 2 percent limestone gravel; moderately acid; clear smooth boundary. (5 to 10 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 38,
+        "narrative": "2R--15 inches; fractured hard limestone bedrock."
+      }
+    ]
+  ]
 }

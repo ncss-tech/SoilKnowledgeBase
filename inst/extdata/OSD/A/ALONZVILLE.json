@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 9 inches (the Ap horizon).\nArgillic horizon - the zone from 9 to 54 inches (Bt1, Bt2, and Bt3 horizons).\nUdic moisture regime.\nSoils now within the range of the Alonzville series were correlated Allegheny in several published soil surveys.\nADDITIONAL DATA: Data for morphology, chemistry, particle-size distribution, and mineralogy are reported in:\nEdmonds, W. J., D. D. Rector, D. A. Gall, D. R. Hatch, R. S. Joslyn, and J. C. Baker. 1987. Properties and classification of soils derived from stratified alluvium in the Valley and Ridge Province of Virginia. Va. Agric. Exp. Stn. Bull. 85-10.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 9 inches; brown (10YR 4/3) loam; weak medium granular structure; friable, slightly sticky, slightly plastic; common fine roots; few fine and medium discontinuous pores; neutral; abrupt smooth boundary. (0 to 10 inches thick.)"
+      },
+      {
+        "name": "Bt1",
+        "top": 23,
+        "bottom": 48,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--9 to 19 inches; yellowish brown (10YR 5/6) loam; moderate medium subangular blocky structure; friable, slightly sticky, slightly plastic; few fine roots; many fine and medium discontinuous pores; brown (10YR 4/3) coatings in worm channels; few faint clay films on faces of peds; neutral; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 48,
+        "bottom": 94,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--19 to 37 inches; strong brown (7.5YR 5/6) clay loam; moderate fine and medium subangular blocky structure; firm, slightly sticky, slightly plastic; few very fine roots; few discontinuous pores; light yellowish brown (10YR 6/4) coatings in worm channels; many distinct yellow (10YR 7/6) clay films on faces of peds; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 94,
+        "bottom": 137,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt3--37 to 54 inches; strong brown (7.5YR 5/6) loam; weak coarse prismatic structure parting to moderate medium subangular blocky; firm, slightly sticky, slightly plastic; many distinct light yellowish brown (10YR 6/4) clay films on faces of peds; many black manganese stains; few fine distinct brownish yellow (10YR 6/6) soft masses of iron accumulation; strongly acid; clear wavy boundary. (Combined thickness of Bt horizons ranges from 25 to 50 inches.)"
+      },
+      {
+        "name": "C",
+        "top": 137,
+        "bottom": 165,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "narrative": "C--54 to 65 inches; strong brown (7.5YR 5/6) sandy clay loam; massive; friable, slightly sticky, slightly plastic; few black manganese stains; common medium distinct light gray (10YR 7/2) iron depletions; common fine distinct brownish yellow (10YR 6/8) soft masses of iron accumulation; strongly acid."
+      }
+    ]
+  ]
 }

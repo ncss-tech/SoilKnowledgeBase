@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The vegetation norm for the Duckston series is a coastal shrub plant community. Locally, a maritime forest exists on a minor acreage of the soil.\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0005 COROLLA     0-  6   66- 70  230-310  50- 60     3-  15\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness NC0005 RARE          1.5-3.0  APPARENT NOV-MAY  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC- NC0005  0-72  S FS                    0-  0  75-100  0- 3   1-  5\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0005  0-72  5.6- 7.8  0.-.5  4-16    20-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; dark grayish brown (10YR 5/2) sand; single grained; loose; few to many fine roots; neutral; clear wavy boundary. (2 to 8 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 8,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C1--3 to 15 inches; very pale brown (10YR 7/3) sand; few medium distinct yellowish red (5YR 4/6) mottles; single grained; loose; uncoated; neutral; gradual wavy boundary.  (6 to 15 inches thick)"
+      },
+      {
+        "name": "C2",
+        "top": 38,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C2--15 to 26 inches; light brownish gray (10YR 6/2) sand; few fine distinct yellowish red (5YR 4/6) mottles and fine streaks; single grained; loose; uncoated; common dark opaque grains; neutral; clear smooth boundary.  (6 to 20 inches thick)"
+      },
+      {
+        "name": "Ab",
+        "top": 66,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Ab--26 to 32 inches; dark grayish brown (10YR 4/2) sand; many medium faint grayish brown (10YR 5/2) mottles; single grained; loose; coated; few fine roots; slight sulfur odor; neutral; gradual wavy boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 81,
+        "bottom": 152,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "narrative": "Cg--32 to 60 inches; gray (5Y 6/1) sand; single grained; loose uncoated; few fine roots; slight sulfur odor; neutral."
+      }
+    ]
+  ]
 }

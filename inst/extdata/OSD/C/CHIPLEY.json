@@ -56,5 +56,94 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to 6 inches (A1, A2 horizons).\nChipley soils have a seasonal high water table between the depths of 18 to 36 inches for 2 to 4 months during most years.\nSOI-5 Soil Name Slope Airtemp FrFr/Seas Precip Elevation\nFL0046 CHIPLEY   0-8  65-70   230-310   50-60   30-150\nSOI-5 FloodL FloodH Watertable Kind Months Bedrock Hardness\nFL0046    None     1.5-3.0  Apparent Dec-Apr >60   N/A\nSOI-5 Depth Texture 3-Inch  No-10   Clay%   CEC\nFL0046 0-6  S FS      0-0  100-100  1-5     3-8\nFL0046 6-77 S FS      0-0  100-100  1-7     2-3\nSOI-5  Depth   pH     O.M   Salin  Permeab  Shnk-Swll\nFL0046 0-6   3.6-6.0  2-5    0-2   >6.0    LOW\nFL0046 6-77  4.0-6.5  0-.5   0-2   >6.0    LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A1--0 to 3 inches; very dark gray (10YR 3/1) sand; single grained; loose; many fine roots; strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "A2--3 to 6 inches; dark gray (10YR 4/1) sand; single grained; loose; many fine roots; strongly acid; gradual irregular boundary. (Combined thickness of the A horizons range from 3 to 16 inches.)"
+      },
+      {
+        "name": "C1",
+        "top": 15,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "C1--6 to 16 inches; light yellowish brown (10YR 6/4) sand; common fine and medium distinct yellowish brown coats and few medium distinct dark gray (10YR 4/1) streaks along the root channels; single grained; loose; few fine roots; strongly acid; gradual irregular boundary.  (8 to 13 inches thick)"
+      },
+      {
+        "name": "C2",
+        "top": 41,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C2--16 to 32 inches; brownish yellow (10YR 6/6) sand; single grained; loose; few fine roots; common fine and medium faint strong brown (7.5YR 5/6) masses of iron accumulation; few fine faint streaks of light gray (10YR 7/1) iron depletions; strongly acid; gradual wavy boundary.  (14 to 24 inches thick)"
+      },
+      {
+        "name": "C3",
+        "top": 81,
+        "bottom": 140,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "C3--32 to 55 inches; 34 percent brownish yellow (10YR 6/6), 33 percent light gray (10YR 7/2) and 33 percent strong brown (7.5YR 5/6) sand; single grained; loose; few fine roots; the areas in colors of brownish yellow and strong brown are masses of iron accumulation and the areas in colors of light gray are iron depletions; strongly acid; gradual irregular boundary.  (10 to 24 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 140,
+        "bottom": 196,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Cg--55 to 77 inches; light gray (10YR 7/2) sand; single grained; loose; very few fine roots; many coarse distinct very pale brown (10YR 7/4) and common medium distinct yellowish brown (10YR 5/6) masses of iron accumulation; strongly acid; gradual smooth boundary."
+      }
+    ]
+  ]
 }

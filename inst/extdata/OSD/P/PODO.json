@@ -56,5 +56,83 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon:\nOchric epipedon: from 0 to 6 inches. (A1 and A2 horizons)\nCambic horizon: from 6 to 19 inches. (Bw1 and Bw2 horizons)\nParticle-size control section: the zone from 10 to 19 inches. (part of Bw1 and Bw2 horizons)\nLithic contact: 19 inches. (R layer)\nThe 9/2004 revision changes the classification from Loamy, mixed, calcareous, frigid Lithic Ustorthents. A cambic horizon is recognized. The precipitation range is narrowed from 12 to 20 inches and the moisture regime subclass is defined as aridic ustic.\nTaxonomic Version: Eleventh Edition, 2010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 2 inches; brown (10YR 5/3) gravelly sandy loam, brown (10YR 4/3) moist; weak fine granular structure; soft, very friable; common fine roots; common very fine interstitial pores; 25 percent gravel 5 percent cobbles and 2 percent stones; slightly effervescent; moderately alkaline (pH 8.0); clear smooth boundary. (2 to 4 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--2 to 6 inches; brown (10YR 5/3) gravelly sandy loam, brown (10YR 4/3) moist; weak fine granular structure; soft, friable; common fine and very fine roots; common fine interstitial pores; 20 percent gravel and 5 percent cobbles; strongly effervescent; moderately alkaline (pH 8.0); clear wavy boundary. (0 to 4 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 15,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1--6 to 12 inches; light yellowish brown (10YR 6/4) gravelly sandy loam, yellowish brown (10YR 5/4) moist; massive; slightly hard, friable, slightly sticky; common very fine, medium and coarse roots; few fine interstitial and tubular pores; 15 percent gravel and 5 percent cobbles; strongly effervescent; moderately alkaline (pH 8.0); gradual wavy boundary. (4 to 7 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 30,
+        "bottom": 48,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "cobbly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw2--12 to 19 inches; light yellowish brown (10YR 6/4) cobbly sandy loam, yellowish brown (10YR 5/4) moist; massive; slightly hard, firm, slightly sticky; few very fine, medium and coarse roots; few fine and medium interstitial pores; few large faint brown root channels; 25 percent cobbles and 10 percent gravel; strongly effervescent; moderately alkaline (pH 8.2); abrupt wavy boundary. (2 to 8 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 48,
+        "bottom": 58,
+        "texture_class": "sand",
+        "narrative": "R--19 to 23 inches; calcareous sandstone."
+      }
+    ]
+  ]
 }

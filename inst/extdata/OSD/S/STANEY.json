@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this profile include: organic material from 0 to 43 and 47 to 63 inches; a mineral layer from 43 to 47 inches; a pH of 4.5 (0.01M CaCl2) from 23 to 43 inches; it is assumed that the soil never freezes below a depth of 2 inches in most years due to maritime influence.\nThe Staney series formerly classified as dysic.  However, at least one layer in each profile has a pH of 4.5 (0.01M CaCl2) or greater.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oi--0 to 2 inches; mat of living mosses and sedges; many fine roots; abrupt wavy boundary.  (0 to 3 inches thick)"
+      },
+      {
+        "name": "Oe",
+        "top": 5,
+        "bottom": 10,
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Oe--2 to 4 inches; black (5YR 2.5/1, broken face and pressed) sedge peat (60 percent fibers unrubbed, 40 percent rubbed); liquid removed by squeezing is turbid; nonsticky and slightly plastic; very strongly acid (pH 4.5); clear wavy boundary.  (0 to 5 inches thick)"
+      },
+      {
+        "name": "0'i1",
+        "top": 10,
+        "bottom": 58,
+        "pH": 4.2,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "0'i1--4 to 23 inches; reddish brown (5YR 4/4, broken face and pressed) sedge peat (90 percent fibers unrubbed, 75 percent rubbed); color values are slightly higher when squeezed than in wet condition; liquid removed by squeezing is turbid; nonsticky and slightly plastic; extremely acid (pH 4.2); clear wavy boundary.  (15 to 25 inches thick)"
+      },
+      {
+        "name": "O'i2",
+        "top": 58,
+        "bottom": 109,
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "O'i2--23 to 43 inches; dark reddish brown (5YR 3/2, broken face or pressed) peat (90 percent fibers unrubbed, 75 percent rubbed); liquid removed by squeezing is turbid; nonsticky and slightly plastic; very strongly acid (pH 4.5); abrupt smooth boundary.  (15 to 25 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 109,
+        "bottom": 119,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH": 4,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Cg--43 to 47 inches; black (5YR 2.5/1) fine gravel and sand; about 5 percent admixture of mucky peat; single grain; loose; nonsticky and nonplastic; extremely acid (pH 4.0); abrupt wavy boundary.  (2 to 5 inches thick)"
+      },
+      {
+        "name": "O'e",
+        "top": 119,
+        "bottom": 160,
+        "pH": 4,
+        "pH_class": "extremely acid",
+        "narrative": "O'e--47 to 63 inches; black (5YR 2.5/1, broken face and pressed) mucky peat (50 percent fibers unrubbed, 40 percent rubbed); liquid removed by squeezing is turbid; nonsticky, slightly plastic; extremely acid (pH 4.0)."
+      }
+    ]
+  ]
 }

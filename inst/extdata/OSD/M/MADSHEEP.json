@@ -56,5 +56,70 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This soil was formally mapped with the Calvin series. Madsheep is a place name in Bath County, Virginia, near the Type Location.\nDiagnostic horizons and features recognized in this pedon are:\n1. Ochric epipedon -- the zone from the surface to 3 inches (the A horizon)\n2. Cambic horizon -- the zone from 3 to 29 inches (the Bw horizon).\nADDITIONAL DATA: Laboratory analyses, sample no. 93Z-857N, NSSL. Other supporting data unpublished in the Study of the Properties, Classification, and Woodland Site Quality for Residual Soils Derived from Shales, Siltstones, and Sandstones in Western Alleghany, Bath, and Highland Counties, Virginia.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; slightly decomposed hardwood leaves and twigs."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 10,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "cf_class": "channery",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--1 to 4 inches; dark brown (7.5YR 3/2) channery loam; weak fine granular structure; friable, nonsticky, nonplastic; 20 percent sandstone channers; extremely acid; clear smooth boundary. (0 to 7 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 10,
+        "bottom": 43,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw1--4 to 17 inches; reddish brown (5YR 4/4) channery loam; weak medium subangular structure; friable, slightly sticky, nonplastic; 30 percent sandstone channers; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 43,
+        "bottom": 76,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "very channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw2--17 to 30 inches; dark reddish brown (5YR 3/4) very channery loam; weak medium subangular blocky structure; friable, slightly sticky, nonplastic; 30 percent sandstone channers and 10 percent sandstone flagstones; very strongly acid; abrupt wavy boundary. (Combined thickness of the Bw horizon is 13 to 35 inches)"
+      },
+      {
+        "name": "R",
+        "top": 76,
+        "texture_class": "sand",
+        "narrative": "R--30 inches; hard sandstone bedrock."
+      }
+    ]
+  ]
 }

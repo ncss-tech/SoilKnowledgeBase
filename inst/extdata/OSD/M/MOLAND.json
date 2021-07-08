@@ -56,5 +56,124 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 25 to 100 centimeters (A, Bw1, 2Bw2, 2Bw3, and 2Bw4 horizons);\nseries control section--the zone from the surface to a depth of 150 centimeters (Ap, A, Bw1, 2Bw2, 2Bw3, 2Bw4, 2Bw5, and 2C horizons).\nDiagnostic horizons and features recognized in this pedon include:\nmollic epipedon--the zone from the surface to a depth of 36 centimeters (Ap and A horizons);\ncambic horizon--the zone from a depth of 36 to 124 centimeters (Bw1, 2Bw2, 2Bw3, 2Bw4, and 2Bw5 horizons);\nudic moisture regime\nIn parts of MLRA 103 this drainage class is called moderately well drained based on the Soil Survey Manual. Drainage class is a state interpretation.\nCation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomy version--Keys to Soil Taxonomy, ninth edition, 2003.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 25 centimeters; black (10YR 2/1) silt loam; very dark gray (10YR 3/1) dry; weak fine subangular blocky structure; friable; slightly acid; abrupt smooth boundary. (17 to 25 centimeters thick)"
+      },
+      {
+        "name": "A",
+        "top": 25,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--25 to 36 centimeters; dark brown (10YR 3/3) silt loam, dark grayish brown (10YR 4/2) dry; weak fine subangular blocky structure; friable; common very dark grayish brown (10YR 3/2) organic coats on faces of peds; slightly acid; clear wavy boundary. (0 to 16 centimeters thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 36,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--36 to 51 centimeters; brown (10YR 4/3) silt loam; weak medium subangular blocky structure parting to weak fine subangular blocky; friable; common dark yellowish brown (10YR 3/4) coats on faces of peds; slightly acid; clear wavy boundary. (11 to 31 centimeters thick)"
+      },
+      {
+        "name": "2Bw2",
+        "top": 51,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bw2--51 to 61 centimeters; yellowish brown (10YR 5/4) loam; weak medium subangular blocky structure; friable; common dark yellowish brown (10YR 3/4) coats on faces of peds; about 2 percent rock fragments; slightly acid; clear wavy boundary."
+      },
+      {
+        "name": "2Bw3",
+        "top": 61,
+        "bottom": 79,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bw3--61 to 79 centimeters; light olive brown (2.5Y 5/4) loam; weak medium prismatic structure; friable; few thin dark grayish brown (2.5Y 4/2) clay films on faces of peds; about 4 percent rock fragments; slightly acid; clear wavy boundary."
+      },
+      {
+        "name": "2Bw4",
+        "top": 79,
+        "bottom": 114,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bw4--79 to 114 centimeters; light olive brown (2.5Y 5/4) loam; weak medium prismatic structure; friable; few olive brown (2.5Y 4/3) coatings on faces of peds; about 4 percent rock fragments; slightly acid; clear wavy boundary."
+      },
+      {
+        "name": "2Bw5",
+        "top": 114,
+        "bottom": 124,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bw5--114 to 124 centimeters; light olive brown (2.5Y 5/4) loam; weak medium prismatic structure; friable; few grayish brown (2.5Y 5/2) coats on faces of peds; about 4 percent rock fragments; neutral; clear wavy boundary. (Combined thickness of the 2Bw horizon is 50 to 107 centimeters.)"
+      },
+      {
+        "name": "2C",
+        "top": 124,
+        "bottom": 203,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "2C--124 to 203 centimeters; light olive brown (2.5Y 5/4) loam; massive; friable; few calcium carbonate masses; few fine distinct brown (10YR 5/3) masses of iron accumulation; about 4 percent rock fragments; strongly effervescent; slightly alkaline."
+      }
+    ]
+  ]
 }

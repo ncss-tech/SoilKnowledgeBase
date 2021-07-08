@@ -56,5 +56,96 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  1.  The mineralogy class is changed from mixed to isotic with this revision.  2.  This series description was compiled from 11 profile descriptions from Franklin County, Vermont.  The Missisquoi series was formerly mapped as Windsor, gravelly subsoil variant.  3.  Laboratory data from 3 pedons supports the classification of Entic Haplorthods. 4.  Diagnostic horizons and other features recognized in the typical pedon are:\na. Ochric epipedon - the zone from 0 to 5 inches (Ap horizon).\nb. Spodic horizon - the zone from 5 to 15 inches (Bs1 and Bs2 horizons).\nc. Entic Haplorthods feature - a spodic horizon with a texture of loamy sand and a moist color value of 4 in the upper inch.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 5 inches; dark brown (10YR 3/3) loamy sand; weak medium granular structure; very friable; common roots; 5 percent gravel; slightly acid; abrupt smooth boundary.  (5 to 10 inches thick)"
+      },
+      {
+        "name": "Bs1",
+        "top": 13,
+        "bottom": 30,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bs1--5 to 12 inches; brown (7.5YR 4/4) loamy sand, weak fine granular structure; very friable; few roots; 10 percent gravel; slightly acid; abrupt wavy boundary.  (3 to 9 inches thick)"
+      },
+      {
+        "name": "Bs2",
+        "top": 30,
+        "bottom": 38,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bs2--12 to 15 inches; strong brown (7.5YR 5/6) gravelly sand; single grain; loose; few roots; 15 percent gravel; moderately acid; abrupt wavy boundary.  (combined thickness of the Bs is 3 to 10 inches)"
+      },
+      {
+        "name": "BC",
+        "top": 38,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "coarse sand",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "BC--15 to 35 inches; yellowish brown (10YR 5/6) gravelly coarse sand; single grain; loose; few roots; 15 percent gravel; slightly acid; abrupt wavy boundary. (3 to 20 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 89,
+        "bottom": 117,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "coarse sand",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "C1--35 to 46 inches, light olive brown (2.5Y 5/4) gravelly coarse sand; single grain; loose; 20 percent gravel; slightly acid; gradual irregular boundary.  (8 to 14 inches thick)"
+      },
+      {
+        "name": "C2",
+        "top": 117,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "coarse sand",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "narrative": "C2--46 to 60 inches, grayish brown (2.5Y 5/2) gravelly coarse sand; single grain; loose; 20 percent gravel; slightly acid."
+      }
+    ]
+  ]
 }

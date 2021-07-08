@@ -56,5 +56,65 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soil interpretation records:  MT0072, MT0181, MT0188, MT0256, MT0744, MT0745, MT0773, MT0777, MT0778, MT0816, MT0860, MT1009.\nDiagnostic horizons and features recognized in this pedon are:  ochric epipedon - from 0 to 8 inches (Ap horizon); stratified soil material (C1, C2 horizons); particle-size control section - from 10 inches to 40 inches (C1, C2 horizons).  Havre soils have a frigid temperature regime and an aridic moisture regime bordering on ustic.\nADDITIONAL DATA:  S51MT-85-3, S50MT-85-3, S51MT-85-6, S51MT-85-7, S51MT-43-3.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 7.9,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 8 inches; grayish brown (10YR 5/2) loam, dark grayish brown (10YR 4/2) moist; weak granular structure; soft, very friable, slightly sticky and slightly plastic; many fine and very fine roots; strongly effervescent; moderately alkaline (pH 7.9); abrupt wavy boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 20,
+        "bottom": 91,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C1--8 to 36 inches; light brownish gray (2.5Y 6/2) loam consisting of thin strata of fine sandy loam, silt loam, and clay loam, dark grayish brown (2.5Y 4/2) moist; massive; slightly hard, very friable, slightly sticky and slightly plastic; common fine roots; common to many medium and fine pores; strongly effervescent; moderately alkaline (pH 8.2); clear wavy boundary. (18 to 30 inches thick)"
+      },
+      {
+        "name": "C2",
+        "top": 91,
+        "bottom": 152,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "narrative": "C2--36 to 60 inches; light brownish gray (2.5Y 6/2) loam consisting of thin strata of clay loam, fine sandy loam, and silt loam, dark grayish brown (2.5Y 4/2) moist; massive; slightly hard, very friable, slightly sticky and nonplastic; few fine and very fine roots; common medium and fine pores; strongly effervescent; moderately alkaline (pH 8.2)."
+      }
+    ]
+  ]
 }

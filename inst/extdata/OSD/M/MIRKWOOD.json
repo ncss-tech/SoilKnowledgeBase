@@ -56,5 +56,94 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 5 cm (A horizon).\nArgillic horizon - The zone from 5 to 28 cm (Bt1, Bt2, and Bt3 horizons).\nLithic contact - The boundary at 28 cm to underlying hard bedrock (R layer).\nParticle-size control section - The zone from the soil surface to 28 cm (A, Bt1, Bt2, and Bt3 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely stony",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 5 cm; very pale brown (10YR 7/3) extremely stony loam, brown (10YR 5/3) moist; moderate thin platy structure; slightly hard, very friable, slightly sticky and slightly plastic; very few very fine roots; common very fine vesicular and interstitial pores; 35 percent gravel and 15 percent stones, and 10 percent cobbles; neutral (pH 7.3); clear wavy boundary. (3 to 10 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 5,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--5 to 10 cm; pale brown (10YR 6/3) very gravelly loam, brown (10YR 4/3) moist; moderate fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; very few very fine and fine roots; common very fine and fine tubular pores; common faint clay films on faces of peds; 35 percent gravel, neutral (pH 7.2); clear wavy boundary. (0 to 10 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 10,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2--10 to 23 cm; pale brown (10YR 6/3) very gravelly clay loam, brown (10YR 4/3) moist; moderate fine and medium subangular blocky structure; hard, very friable, moderately sticky and moderately plastic; very few very fine and fine roots; common very fine and fine tubular pores; many faint and few distinct clay films on faces of peds; 40 percent gravel; neutral (pH 7.2); abrupt wavy boundary. (10 to 20 cm thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 23,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt3--23 to 28 cm; light yellowish brown (10YR 6/4) very gravelly clay loam, dark yellowish brown (10YR 4/4) moist; strong fine angular blocky structure; hard, friable, moderately sticky and moderately plastic; very few fine roots; common very fine and fine tubular pores; many distinct clay films on faces of peds and lining pores; 50 percent gravel; neutral (pH 6.8); abrupt irregular boundary. (0 to 10 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 28,
+        "texture_class": "clay",
+        "narrative": "R--28 cm; hard fractured basalt; thin coating of calcium carbonate in places; some roots and clay in fractures."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this profile include:  a histic epipedon from 12 to 0 inches; permafrost at 12 inches below the mineral surface; saturated conditions above the permafrost; weighted average of loamy particle size and pH less than 5.5 (1:1,H20) throughout the control section.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 15,
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 6 inches; peat consisting of raw sphagnum moss; clear smooth boundary."
+      },
+      {
+        "name": "Oe",
+        "top": 15,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--6 to 12 inches; yellowish brown (10YR 5/4) partially decomposed sphagnum moss; many twigs, leaves, and roots; extremely acid; abrupt smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 30,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--12 to 14 inches; very dark grayish brown (10YR 3/2) silt loam; weak thin platy structure; very friable, nonsticky and nonplastic; black (10YR 2/1) irregular streaks; common roots; very strongly acid; clear wavy boundary.  (1 to 8 inches thick)"
+      },
+      {
+        "name": "Bgf",
+        "top": 36,
+        "bottom": 61,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bgf--14 to 24 inches; dark gray (5Y 4/1) silt loam; weak thin platy structure; many very dark grayish brown (2.5Y 3/2) streaks; frozen with clear ice lenses; 5 percent angular gravel; strongly acid; clear wavy boundary.  (0 to 15 inches thick)"
+      },
+      {
+        "name": "2Cf",
+        "top": 61,
+        "bottom": 71,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "extremely gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2Cf--24 to 28 inches; very dark grayish brown (2.5Y 3/2) extremely gravelly silt loam; 70 percent gravel size weathered schist fragments; frozen; strongly acid; gradual wavy boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "2Crf",
+        "top": 71,
+        "narrative": "2Crf--28 inches; weathered schist bedrock."
+      }
+    ]
+  ]
 }

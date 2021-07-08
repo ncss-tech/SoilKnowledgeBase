@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The April 1993 revision of this series places the Barclay series in coarse-silty, mixed, nonacid, thermic Aeric Endoaquepts. The series was previously in Aquic Dystrochrepts, but having redoximorphic features beginning at 7 inches, dominant chroma of 2 at 18 inches, and being somewhat poorly drained are soil properties that meet the requirements for Aeric Endoaquepts.\nDiagnostic horizons and soil properties recognized in this pedon are:\nOchric epipedon--the zone from the surface of the soil to a depth of 7 inches (Ap horizon)\nCambic horizon--the zone from 7 to 57 inches (Bw, Bg1, Bg2, and BCg horizons)\nADDITIONAL DATA: None\nTABULAR SERIES DATA:\nMLRA(S): 153A, 149A, 153B            SIR: NC0002\nSOI-5   Soil Name   Slope  Airtemp   FrFr/Seas   Precip  Elevation\nNC0002   BARCLAY     0-2   59-63     190-240     40-58    5-25\nSOI-5  FloodL FloodH  Watertable     Kind   Months    Bedrock\nNC0002 NONE            1.0-1.5    APPARENT  NOV-MAR   >60\nSOI-5    Depth   Texture          3-Inch   No-10   Clay%    CEC\nNC0002   0-7     L SIL VFSL       0-0     98-100   5-18     5-20\nNC0002   7-49    L SIL VFSL       0-0     98-100   5-18     2-10\nNC0002  49-72    FS LS FSL        0-0     98-100   3-12     1-10\nSOI-5    Depth    -pH-     O.M.  Salinity   Permeability   Shrink-Swell\nNC0002   0-7     4.5-6.0   2.-4.   0-0       0.6- 2.0         LOW\nNC0002   7-49    4.5-6.0   0.-.5   0-0       0.6- 2.0         LOW\nNC0002  49-72    4.5-6.0   0.-.5   0-0       2.0- 6.0         LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; grayish brown (10YR 5/2) silt loam; weak medium granular structure; very friable; few fine roots; slightly acid; clear smooth boundary. (6 to 10 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 18,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--7 to 18 inches; pale brown (10YR 6/3) very fine sandy loam; weak medium subangular blocky structure; very friable; few fine roots and pores; common medium faint light yellowish brown (10YR 6/4) friable irregular shaped iron masses throughout and few fine faint light brownish gray (10YR 6/2) friable irregular shaped iron depletions throughout; moderately acid; gradual wavy boundary. (8 to 13 inches thick)"
+      },
+      {
+        "name": "Bg1",
+        "top": 46,
+        "bottom": 102,
+        "moist_hue": "5Y",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bg1--18 to 40 inches; light gray (5Y 7/2) very fine sandy loam; very friable; weak medium subangular blocky structure; few fine roots and pores; few fine distinct light yellowish brown (10YR 6/4) friable irregular shaped iron masses throughout; few fine flakes of mica and few soft mineral grains; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 102,
+        "bottom": 124,
+        "moist_hue": "5Y",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bg2--40 to 49 inches; light gray (5Y 7/1) very fine sandy loam; weak medium subangular blocky structure; very friable; common medium distinct brownish yellow (10YR 6/6) and very pale brown (10YR 7/4) friable irregular shaped iron masses throughout; few fine flakes of mica and few soft mineral grains; few lenses of loamy fine sand; strongly acid; gradual wavy boundary. (Combined thickness of the Bg horizon is 21 to 45 inches.)"
+      },
+      {
+        "name": "BCg",
+        "top": 124,
+        "bottom": 145,
+        "moist_hue": "5Y",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BCg--49 to 57 inches; light gray (5Y 7/1) fine sandy loam; weak medium  subangular blocky structure; very friable; many coarse distinct pale brown (10YR 6/3) and many coarse prominent yellowish brown (10YR 5/8) friable irregular shaped iron masses throughout; common fine flakes of mica and soft mineral grains; common fine grains of dark minerals; strongly acid; gradual wavy boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "2Cg",
+        "top": 145,
+        "bottom": 183,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "narrative": "2Cg--57 to 72 inches; light olive gray (5Y 6/2) loamy sand; single grained; loose; many coarse distinct light olive brown (2.5Y 5/4) and many coarse prominent yellowish brown (10YR 5/8) friable irregular shaped iron masses throughout; many fine flakes of mica; common grains of soft minerals; many grains of dark minerals; strongly acid."
+      }
+    ]
+  ]
 }

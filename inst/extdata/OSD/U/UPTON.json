@@ -56,5 +56,72 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nEdited 11/2016 (RFG-THW): Changed to tabular format. Added metric measurements. Updated competing series, geographic setting, and associated soils sections.\nDiagnostic horizons and features recognized in this pedon are:\nParticle size control section: 0 to 33 in. (A and Bk horizon)\nOchric epipedon - 0 to 13 cm (0 to 5 in)  (A horizon)\nCalcic horizon - 13 to 33 cm (5 to 13 in)  (Bk horizon).  It is not required for the series.\nPetrocalcic horizon - 33 to 53 cm (13 to 21 in)  (Bkkm horizon)\nADDITIONAL DATA:  There is no lab data from this site but there is NSSL data from a pedon in Terrell County with Pedon ID of 85TX443001.\nTaxonomic Version: Keys to Soil Taxonomy, Twelfth Edition, 2014\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A--0 to 13 cm (0 to 5 in); light brownish gray (10YR 6/2) gravelly loam, dark grayish brown (10YR 4/2) moist; weak fine subangular blocky structure; slightly hard, friable; many fine roots; 20 percent hard calcium carbonate gravel, mostly less than one inch diameter; strongly effervescent; moderately alkaline; gradual smooth boundary.  (Thickness is 10 to 30 cm [4 to 12 in].)"
+      },
+      {
+        "name": "Bk",
+        "top": 13,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bk--13 to 33 cm (5 to 13 in); pale brown (10YR 6/3) gravelly loam, brown (10YR 4/3) moist; weak fine subangular blocky structure; soft, very friable; common fine roots; 25 percent hard calcium carbonate gravel; violently effervescent; moderately alkaline; abrupt smooth boundary.  (Thickness is 15 to 40 cm [6 to 16 in].)"
+      },
+      {
+        "name": "Bkkm",
+        "top": 33,
+        "bottom": 53,
+        "dry_hue": "7.5YR",
+        "dry_value": 8,
+        "dry_chroma": 2,
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bkkm--33 to 53 cm (13 to 21 in); pinkish white (7.5YR 8/2) caliche; indurated in upper two inches, strongly cemented below; many imbedded limestone gravel; calcareous, clear smooth boundary.  (Thickness is 10 to 91 cm [4 to 36 in].)"
+      },
+      {
+        "name": "BCk",
+        "top": 53,
+        "bottom": 203,
+        "dry_hue": "7.5YR",
+        "dry_value": 8,
+        "dry_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "narrative": "BCk--53 to 203 cm (21 to 80 in); pink (7.5YR 8/4) caliche; very gravelly loamy earth; very weakly cemented; 40 percent limestone gravel, few cobbles and stones."
+      }
+    ]
+  ]
 }

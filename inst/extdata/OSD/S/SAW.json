@@ -56,5 +56,84 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The Saw series was formerly included with the Pacolet and Lockhart series.  However, Pacolet soils do not have bedrock within depths of 20 to 40 inches, and Lockhart soils are in a loamy-skeletal family.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to 8 inches (Ap horizon)\nArgillic horizon - the zone between depths of 8 and 20 inches (Bt horizon)\nKandic horizon - the zone between depths of 8 and 20 inches (Bt horizon)\nLithic contact - the occurrence of hard bedrock at a depth of 29 inches (R horizon)\nMLRA: 136\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0240 SAW         2- 45   59- 62  184-241  39- 49   700-1000\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0240 NONE          6.0-6.0              -     20-40   HARD\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0240  0- 8  SL                      0-  5  80-100  5-20   3-  6\nNC0240  0- 8  SCL CL                  0-  5  85-100 20-40   3-  7\nNC0240  0- 8  GR-SL                   5- 15  55- 85  5-20   2-  5\nNC0240  8-20  C SC CL                 0-  5  80-100 35-60   3-  9\nNC0240 20-29  SCL SL GR-SL            0- 15  55-100  5-30   2-  6\nNC0240 29-39  UWB                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0240  0- 8  4.5- 7.3  .5-2.  0- 0   2.0- 6.0  LOW\nNC0240  0- 8  4.5- 7.3  .5-1.  0- 0   0.6- 2.0  LOW\nNC0240  0- 8  4.5- 7.3  .5-2.  0- 0   2.0- 6.0  LOW\nNC0240  8-20  4.5- 6.5  0.-.5  0- 0   0.6- 2.0  LOW\nNC0240 20-29  4.5- 6.0  0.-.5  0- 0   0.6- 6.0  LOW\nNC0240 29-39     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; reddish brown (7.5YR 4/4) sandy loam; weak medium granular structure; friable; common fine roots; 1 percent by volume porphyritic granite gravel and feldspar crystals 1/16 to 1/4 inch in diameter; moderately acid; clear smooth boundary.  (5 to 10 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 20,
+        "bottom": 51,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--8 to 20 inches; red (2.5YR 4/8) clay; few fine prominent brownish yellow (10YR 6/6) mottles; moderate fine subangular blocky structure; firm; sticky, plastic; few fine roots; common distinct clay films on faces of peds; 3 percent by volume porphyritic granite gravel and feldspar crystals 1/16 to 1/4 inch in diameter; common fine flakes of mica; moderately acid; gradual wavy boundary.  (12 to 20 inches thick)"
+      },
+      {
+        "name": "BC1",
+        "top": 51,
+        "bottom": 58,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC1--20 to 23 inches; red (2.5YR 4/6) sandy clay loam; weak fine subangular blocky structure; firm; slightly sticky, slightly plastic; 5 percent by volume porphyritic granite gravel and feldspar crystals 1/16 to 1/4 inch in diameter; common fine flakes of mica; moderately acid; gradual wavy boundary."
+      },
+      {
+        "name": "BC2",
+        "top": 58,
+        "bottom": 66,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC2--23 to 26 inches; red (2.5YR 4/6) sandy loam; weak medium subangular blocky structure; friable; 5 percent by volume porphyritic granite gravel and feldspar crystals 1/16 to 1/2 inch in diameter; many fine flakes of mica; moderately acid; gradual wavy boundary.  (Combined thickness of the BC horizons is 0 to 10 inches.)"
+      },
+      {
+        "name": "C",
+        "top": 66,
+        "bottom": 74,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "C--26 to 29 inches; multicolored gravelly sandy loam; saprolite weathered from porphyritic granite; massive; very friable; 20 percent by volume porphyritic granite gravel and feldspar crystals 1/16 to 1/2 inch in diameter; many fine flakes of mica; moderately acid. abrupt irregular boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 74,
+        "narrative": "R--29 inches; hard porphyritic granite."
+      }
+    ]
+  ]
 }

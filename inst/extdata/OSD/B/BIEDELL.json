@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized are:\nOchric epipedon: from 0 to 3 inches (E horizon)\nNatric horizon:  from 3 to 27 inches.  (Btn1, Btn2 horizons)\nSecondary carbonate accumulations: from 27 to 32 inches (Bkn horizon)\nLithologic discontinuity: at 32 inches (upper boundary of the 2C horizon)\nEndosaturation and redox features: in the 9 to 27 inch layer and below; this pedon is presumed to be have saturation but not aquic conditions (no chemical reduction)\nParticle-size control section: from 3 to 23 inches (upper 20 inches of the natric horizon)\nThe 01/2012 revision changes the drainage class from poorly to somewhat poorly, and attempts to clarify the saturation characteristics. The original depth to saturation was loosely defined as \"within a meter\". This was revised to \"24 to 40 inches\" to be consistent with the Saguache Area published survey. It is unclear whether this saturation has accompanying chemical reduction, and would consequently be aquic conditions. At the current time, it is assumed chemical reduction is not significant above a depth of a meter.  The 01/2012 revision removed the \"g\" suffix from the Btn2 and Bkn horizons. It remains unclear why the saturation depth was originally given as 2 to 3 feet in the Saguache report, yet redox features are described as shallow as 9 inches in the typical profile.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "E",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--0 to 3 inches; very pale brown (10YR 7/3) clay loam, brown (10YR 5/3) moist; moderate very thin platy structure parting to weak fine granules; soft, very friable, sticky, plastic; strongly effervescent; moderately alkaline; clear smooth boundary.  (0 to 5 inches thick)"
+      },
+      {
+        "name": "Btn1",
+        "top": 8,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btn1--3 to 9 inches; light yellowish brown (10YR 6/4) heavy clay loam, yellowish brown (10YR 5/4) moist; moderate medium columnar structure parting to moderate medium subangular blocks; very hard, firm, sticky, very plastic; many prominent clay films on faces of peds; strongly effervescent; very strongly alkaline; gradual smooth boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "Btn2",
+        "top": 23,
+        "bottom": 69,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btn2--9 to 27 inches; light yellowish brown (10YR 6/4) heavy clay loam, moderate medium subangular blocky structure; very hard, firm; very sticky, very plastic; common distinct clay films on faces of peds; strongly effervescent; yellowish brown (10YR 5/4) moist; few medium and fine faint brown (7.5YR 5/2) and strong brown (7.5YR 5/8) moist, redox features; very strongly alkaline; gradual smooth boundary.  (8 to 14 inches thick)"
+      },
+      {
+        "name": "Bkn",
+        "top": 69,
+        "bottom": 81,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bkn--27 to 32 inches; very pale brown (10YR 8/4) clay loam, light yellowish brown (10YR 6/4) moist; massive; very hard, friable; sticky, very plastic; calcium carbonate visible in seams, and large spots; violently effervescent; common fine prominent black (2.5Y 2.5/1) and strong brown (7.5YR 5/8) moist, redox features; very strongly alkaline; clear smooth boundary.  (2 to 6 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 81,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "cf_class": "gravelly",
+        "pH_class": "strongly alkaline",
+        "narrative": "2C--32 to 60 inches; light brownish gray (10YR 6/2) gravelly sand, dark grayish brown (10YR 4/2) moist; single grained; 25 percent gravel; slightly effervescent; strongly alkaline."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,121 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This subaqueous series is being proposed in areas previously mapped as water in the Rhode Island and Connecticut Soil Surveys.\nDiagnostic horizons and features in this pedon include:\n1. Peraquic feature - positive soil water potential (permanently submerged) at the soil surface (under 0.6 m of water at the time of coring).\n2. Ochric epipedon - the zone from 0 to 19 cm (A horizon).\n3. Sulfidic materials - the zone from 19 to 97 cm (CAse, Cse, CA'se, and C'se horizons).\n4. High n-value - the zone from 0 to 19 cm (A horizon) has an n-value greater than 0.7, as surmised by the moderately fluid manner of failure.\n5. Haplic Feature - the zone from 19 to 303 has an n-value of 0.7 or less.\n6. Particle size control section - the zone from 25 to 100 cm (part of the CAse, Cse, CA'se, C'se, and part of the Cg horizons).\nADDITIONAL DATA: Pedon sample RI009-2007-014-PJ in Washington County, Rhode Island, by University of Rhode Island.  Additional pedons used to determine ranges include RI009-2000-002-NP, RI009-2007-012-PJ, RI009-2007-005-PJ, and RI009-2006-015-QP (Sampled by the University of Rhode Island).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "subaqueous"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ase",
+        "top": 0,
+        "bottom": 19,
+        "texture_class": "very fine sandy loam",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "narrative": "Ase--0 to 19 cm; black (N 2.5/) very fine sandy loam, gray (N 5/) dry; massive; moderately fluid; few fine shell fragments; strongly saline; coarse tubular pores; color change with addition of hydrogen peroxide; slightly alkaline (pH 7.5); strongly acid (pH 5.1) after 8 weeks; abrupt boundary. (8 to 26 cm thick.)"
+      },
+      {
+        "name": "CAse",
+        "top": 19,
+        "bottom": 41,
+        "moist_hue": "5Y",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "loamy fine sand",
+        "pH": 7.2,
+        "pH_class": "ultra acid",
+        "narrative": "CAse--19 to 41 cm; very dark gray (5Y 3/1) loamy fine sand, massive; nonfluid; strongly saline; few macroalgal fragments; neutral (pH 7.2); ultra acid (pH 3.3) after 8 weeks; clear boundary. (11 to 36 cm thick.)"
+      },
+      {
+        "name": "Cse",
+        "top": 41,
+        "bottom": 56,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH": 6.7,
+        "pH_class": "ultra acid",
+        "narrative": "Cse--41 to 56 cm; dark gray (5Y 4/1) fine sand, massive; nonfluid; moderately saline; neutral (pH 6.7); ultra acid (pH 3.3) after 8 weeks; clear boundary.  (15 to 180 cm thick.)"
+      },
+      {
+        "name": "CA'se",
+        "top": 56,
+        "bottom": 81,
+        "moist_hue": "5Y",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "very fine sandy loam",
+        "pH": 7.7,
+        "pH_class": "slightly alkaline",
+        "narrative": "CA'se--56 to 81 cm; very dark gray (5Y 3/1) very fine sandy loam, massive; nonfluid; moderately saline; few fine and medium shell fragments; slightly alkaline (pH 7.7); ultra acid (pH 3.2) after 8 weeks; clear boundary.  (0 to 25 cm thick.)"
+      },
+      {
+        "name": "C'se",
+        "top": 81,
+        "bottom": 97,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "loamy fine sand",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "narrative": "C'se--81 to 97 cm; dark gray (5Y 4/1) loamy fine sand, massive; nonfluid; moderately saline; slightly alkaline (pH 7.8); ultra acid (pH 3.0) after 8 weeks; clear boundary."
+      },
+      {
+        "name": "Cg",
+        "top": 97,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "narrative": "Cg--97 to 152 cm; gray (2.5Y 5/1) fine sand, massive; nonfluid; moderately saline; few fine and medium shell fragments; common fine macroalgal fragments throughout; moderately alkaline (pH 8.0); neutral (pH 7.3) after 8 weeks; clear boundary."
+      },
+      {
+        "name": "C1",
+        "top": 152,
+        "bottom": 223,
+        "moist_hue": "5Y",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "loamy fine sand",
+        "pH": 8.1,
+        "pH_class": "moderately alkaline",
+        "narrative": "C1--152 to 223 cm; very dark gray (5Y 3/1) loamy fine sand, massive; nonfluid; moderately saline; few fine shell fragments; moderately alkaline (pH 8.1); neutral (pH 7.1) after 8 weeks; clear boundary.  (Combined thickness of C'g horizons is 0 to 60 cm.)"
+      },
+      {
+        "name": "2C2",
+        "top": 223,
+        "bottom": 276,
+        "moist_hue": "5Y",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "very fine sandy loam",
+        "pH": 8.5,
+        "pH_class": "slightly alkaline",
+        "narrative": "2C2--223 to 276 cm; very dark gray (5Y 3/1) very fine sandy loam, massive; nonfluid; moderately saline; few fine shell fragments; strongly alkaline (pH 8.5); slightly alkaline (pH 7.4) after 8 weeks; clear boundary."
+      },
+      {
+        "name": "2C3",
+        "top": 276,
+        "bottom": 303,
+        "moist_hue": "5Y",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "very fine sandy loam",
+        "pH": 8.5,
+        "pH_class": "strongly alkaline",
+        "narrative": "2C3--276 to 303 cm; very dark gray (5Y 3/1) very fine sandy loam, massive; slightly fluid; moderately saline; few fine shell fragments; strongly alkaline (pH 8.5); extremely acid (pH 4.3) after 8 weeks."
+      }
+    ]
+  ]
 }

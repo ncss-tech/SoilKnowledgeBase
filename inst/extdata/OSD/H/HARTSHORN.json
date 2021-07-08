@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The 01/2006 revision updates this soil to the 9th Edition of the Keys to Soil Taxonomy (2003). The CEC activity class placement is based on associated soils and not on laboratory data. Class placement may be revised in the future when laboratory data are reviewed or become available.\nCompeting series, pedon description (including horizon nomenclature and/or descriptive terms), and other sections on the OSD were not revised.\nDiagnostic horizons recognized in this pedon are:\nOchric epipedon - from the surface to a depth of about 6 inches (Ap horizon)\nCambic horizon - the zone from a depth of about 6 to 19 inches (Bw1, Bw2, Bw3 horizons).\nADDITIONAL DATA: Engineering test data published in the Monroe County, Ohio, Soil Survey report (MN-49).\nPrevious revision dates: 05/86-TNR, DRM\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; dark brown (10YR 3/3) silt loam, pale brown (10YR 6/3) dry; fine and medium granular structure; friable; many roots; 5 percent gravel; moderately acid; abrupt smooth boundary. (3 to 8 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 15,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--6 to 10 inches; dark yellowish brown (10YR 3/4) silt loam; weak medium subangular blocky structure; friable common roots; 10 percent gravel; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 25,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw2--10 to 15 inches; dark yellowish brown (10YR 3/4) gravelly silt loam; weak fine subangular blocky structure; friable; common roots; 20 percent gravel; moderately acid; abrupt smooth boundary."
+      },
+      {
+        "name": "Bw3",
+        "top": 38,
+        "bottom": 48,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw3--15 to 19 inches; dark yellowish brown (10YR 3/4) very gravelly loam; massive; few faint dark yellowish brown (10YR 4/4) clay films on gravel; few roots; 40 percent gravel; moderately acid; abrupt smooth boundary. (Combined thickness of the Bw horizons is 10 to 22 inches.)"
+      },
+      {
+        "name": "2C",
+        "top": 48,
+        "bottom": 142,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "cf_class": "very gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2C--19 to 56 inches; dark yellowish brown (10YR 3/4) very gravelly loamy sand; few roots; 50 percent gravel; slightly acid; abrupt wavy boundary."
+      },
+      {
+        "name": "3R",
+        "top": 142,
+        "texture_class": "sand",
+        "narrative": "3R--56 inches; hard sandstone bedrock."
+      }
+    ]
+  ]
 }

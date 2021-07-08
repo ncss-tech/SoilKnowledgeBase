@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 18 cm (A and Bt1 horizons).\nArgillic horizon - The zone from 5 to 43 cm (Bt1 and Bt2 horizons).\nLithic contact - The boundary at 43 cm to underlying hard bedrock (R layer).\nParticle-size control section - The zone from 5 to 43 cm (Bt1 and Bt2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 5 cm; grayish brown (2.5Y 5/2) very gravelly sandy loam, very dark grayish brown (2.5Y 3/2) moist; weak fine granular structure; soft, very friable, slightly sticky and nonplastic; common very fine roots; many very fine interstitial and common very fine tubular pores; 20 percent gravel, 10 percent channers, and 10 percent cobbles; slightly acid (pH 6.4); clear wavy boundary.  (3 to 8 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 5,
+        "bottom": 18,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--5 to 18 cm; grayish brown (2.5Y 5/2) very gravelly loam, very dark grayish brown (2.5Y 3/2) moist; moderate fine and medium subangular blocky structure; soft, very friable, moderately sticky and slightly plastic; common very fine, fine, medium and coarse roots; common very fine tubular and interstitial pores; common faint clay bridges between sand grains; 30 percent gravel and 5 percent channers; 10 percent parachanners; neutral (pH 6.7); clear wavy boundary.  (10 to 18 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 18,
+        "bottom": 43,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt2--18 to 43 cm; light yellowish brown (2.5Y 6/3) very gravelly loam, olive brown (2.5Y 4/3) moist; moderate fine subangular blocky structure; soft, very friable, moderately sticky and slightly plastic; few very fine and common fine, medium, coarse and very coarse roots; common very fine tubular and interstitial pores; common faint clay bridges between sand grains; 30 percent gravel and 10 percent channers; 10 percent parachanners; neutral (pH 6.7); abrupt irregular boundary.  (15 to 30 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 43,
+        "narrative": "R--43 cm; hard fractured gneiss."
+      }
+    ]
+  ]
 }

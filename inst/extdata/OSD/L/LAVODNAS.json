@@ -56,5 +56,77 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric Epipedon - The zone from the surface to a depth of 3 inches. (A horizon)\nGypsic Horizon - The zone from 3 to 13 inches. (By horizon)\nParalithic Contact - The zone from 13 to 28 inches. (Cr horizon)\nLithic Contact - The zone at 28 inches. (2R horizon)\nClassified according to Soil Taxonomy Second Edition, 1999.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; light yellowish brown (2.5Y 6/4) loam, olive brown (2.5Y 4/4) moist; moderate medium granular structure; soft, very friable, slightly sticky and nonplastic; few fine and common very fine roots; common very fine irregular pores; strongly effervescent; slightly alkaline; abrupt smooth boundary. (1 to 4 inches thick)"
+      },
+      {
+        "name": "By1",
+        "top": 8,
+        "bottom": 23,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "By1--3 to 9 inches; pale yellow (2.5Y 7/4) clay loam, olive brown (2.5Y 4/4) moist; massive; soft, very friable, slightly sticky and slightly plastic; few medium and common fine and very fine roots; common very fine irregular pores; 2 percent pebbles; many medium clusters of gypsum crystals; strongly effervescent; calcium carbonate is disseminated; slightly alkaline; clear smooth boundary. (5 to 15 inches thick)"
+      },
+      {
+        "name": "By2",
+        "top": 23,
+        "bottom": 33,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "By2--9 to 13 inches; light yellowish brown (2.5Y 6/4) clay, olive brown (2.5Y 4/4) moist; massive; hard, friable sticky and plastic; few fine and common very fine roots; common very fine irregular pores; 5 percent pebbles; common large clusters of gypsum crystals; slightly effervescent; calcium carbonate is disseminated; neutral; gradual smooth boundary. (2 to 5 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 33,
+        "bottom": 71,
+        "texture_class": "sand",
+        "narrative": "Cr--13 to 28 inches; gypsiferous shale and weathered sandstone."
+      },
+      {
+        "name": "2R",
+        "top": 71,
+        "texture_class": "sand",
+        "narrative": "2R--28 inches; sandstone."
+      }
+    ]
+  ]
 }

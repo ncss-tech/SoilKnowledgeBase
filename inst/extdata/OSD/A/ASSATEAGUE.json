@@ -56,5 +56,57 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  In the past, Assateague soils have been included in the Fripp and Newhan soils and in the miscellaneous land class Dune land.  The absence of subsurface pedogenic horizons, mixed mineralogy, and flooding by storm tides are the main diagnostic features of these soils.\nADDITIONAL DATA:  Virginia Polytechnic Institute and State University soil survey lab data shows less than 5 percent silt plus clay and less than 95 percent quartz and other heavy minerals for the typical pedon and 5 other profiles.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0222 ASSATEAGUE  0- 50   57- 65  200-240  25- 60     1-  50\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0222 NONE   RARE   6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0222  0- 2  COS S FS                0-  0  75-100  0-10    -\nVA0222  2-85  COS S FS                0-  0  75-100  0- 5    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0222  0- 2  4.5- 7.3  0.-.5  0- 0    20-  20  LOW\nVA0222  2-85  5.6- 7.8  0.-.5  0- 0    20-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "0--1 to 0 inches; undecomposed and partially decomposed pine needles, hardwood leaves, and twigs."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; dark grayish brown (10YR 4/2) fine sand; single grain; loose; few fine roots; very strongly acid; clear smooth boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 5,
+        "bottom": 102,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "fine sand",
+        "pH_class": "moderately acid",
+        "narrative": "C1--2 to 40 inches; pale brown (10YR 6/3) fine sand; single grain; loose; few fine roots; moderately acid; gradual diffuse boundary."
+      },
+      {
+        "name": "C2",
+        "top": 102,
+        "bottom": 216,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "fine sand",
+        "pH_class": "moderately acid",
+        "narrative": "C2--40 to 85 inches; very pale brown (10YR 7/3) fine sand; single grain; loose; moderately acid."
+      }
+    ]
+  ]
 }

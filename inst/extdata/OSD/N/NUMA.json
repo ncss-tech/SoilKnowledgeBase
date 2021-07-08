@@ -56,5 +56,99 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizon and features recognized in this pedon are:\nSeries control section: 0 to 200 centimeters\nParticle size control section: 25 to 100 centimeters (10 to 40 inches)\nMollic epipedon: 0 to 25 centimeters (0 to 10 inches). (Ap1 horizon)\nCalcic horizon: 48 to 87 centimeters (19 to 34 inches). (Bk1 horizon)\nThe assignment of the cation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nLAN 3/2013 The previous classification of Ustic Haplocalcids became obsolete after a field project indicated that these soils had mollic epipedons.  Based on this project the type location was moved from Prowers County, Colorado to Otero County, Colorado and changes the Taxonomic class to Fine-loamy, mixed, superactive, mesic Aridic Calciustolls.\nLast updated on 10/2013.\nModified format by LRM in 7/2006 to include metric conversion and change permeability to saturated hydraulic conductivity.\nUpdated horizon suffix changing Ca to k. JCR\nTaxonomic Version: Eleventh Edition, 2010\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap1",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap1--0 to 25 centimeters (0 to 10 inches); dark grayish brown (10YR 4/2) clay loam, very dark grayish brown (10YR 3/2) moist; strong fine angular blocky structure; moderately hard, firm, moderately sticky and moderately plastic; many fine roots throughout; slightly effervescent; slightly alkaline (pH 7.8); clear smooth boundary."
+      },
+      {
+        "name": "Ap2",
+        "top": 25,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap2--25 to 48 centimeters (10 to 19 inches); yellowish brown (10YR 5/4) clay loam, brown (10YR 4/3) moist; strong fine subangular blocky structure; very hard, firm, moderately sticky and moderately plastic; many fine roots throughout; slightly effervescent; slightly alkaline (pH 7.6); abrupt smooth boundary.  (Combined thickness of the Ap horizons is 25 to 49 centimeters thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 48,
+        "bottom": 87,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk1--48 to 87 centimeters (19 to 34 inches); pale brown (10YR 6/3) silt loam, yellowish brown (10YR 5/4) moist; moderate medium prismatic structure parting to moderate medium subangular blocky; moderately hard, friable, slightly sticky and slightly plastic; common fine roots throughout; 10 percent medium, distinct, irregular carbonate masses in matrix; violently effervescent, 16 percent calcium carbonate equivalent; moderately alkaline (pH 8.0); clear smooth boundary."
+      },
+      {
+        "name": "Bk2",
+        "top": 87,
+        "bottom": 117,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bk2--87 to 117 centimeters (34 to 46 inches); pale brown (10YR 6/3) loam, yellowish brown (10YR 5/4) moist; weak medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; 4 percent medium, distinct, spherical carbonate masses in matrix; violenty effervescent, 14 percent calcium carbonate equivalent;  moderately alkaline (pH 8.2); gradual smooth boundary.  (Combined thickness of the Bk1 and Bk2 horizons is 66 to 81 centimeters  thick)"
+      },
+      {
+        "name": "Bk3",
+        "top": 117,
+        "bottom": 200,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "narrative": "Bk3--117 to 200 centimeters (46 to 79 inches); yellowish brown (10YR 5/4) sandy loam, dark yellowish brown (10YR 4/4) moist; weak coarse subangular blocky structure; slightly hard, very friable, nonsticky and nonplastic; 1 percent fine, distinct, spherical carbonate masses in matrix; violently effervescent, 12 percent calcium carbonate equivalent; moderately alkaline (pH 8.2)."
+      }
+    ]
+  ]
 }

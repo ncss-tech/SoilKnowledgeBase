@@ -56,5 +56,77 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: 1. The classification is corrected with this revision. The Sandy particle-size class name is redundant in Psammentic subgroups and therefore is dropped.\n2. Diagnostic horizons and features recognized in this pedon are:\na. Umbric epipedon - the zone from 0 to 7 inches (A horizon and upper 2 inches of the Bw1, when mixed).\nb. Lack of a cambic horizon. (Bw horizons have texture coarser than loamy very fine sand below 10 inches in depth.)\nc. Sandy particle-size class.\nd. Lithic contact - 32 inches.\nADDITIONAL DATA:  Characterization data is available from the National Soil Survey Laboratory.  Pedon no. S00VT-027-001.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 5 inches; very dark grayish brown (10YR 3/2) fine sandy loam, grayish brown (10YR 5/2) dry; weak fine granular structure; very friable; many very fine and fine roots; strongly acid; abrupt smooth boundary. (2 to 9 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 13,
+        "bottom": 33,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loamy fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--5 to 13 inches; dark brown (7.5YR 3/4) loamy fine sand; weak fine granular structure; very friable; common very fine roots; 1 percent rock fragments; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 33,
+        "bottom": 58,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "loamy fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw2--13 to 23 inches; dark yellowish brown (10YR 3/6) loamy fine sand; weak fine granular structure; very friable; few very fine roots; 1 percent rock fragments; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "C",
+        "top": 58,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "cf_class": "channery",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--23 to 32 inches; dark brown (10YR 3/3) channery sand; single grain; very friable; few very fine roots; 15 percent rock fragments; neutral; abrupt wavy boundary. (0 to 15 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 81,
+        "narrative": "R--32 inches; interbedded mica schist, phyllite and micaceous crystalline limestone."
+      }
+    ]
+  ]
 }

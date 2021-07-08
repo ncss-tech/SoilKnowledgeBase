@@ -56,5 +56,99 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - 0 to 12 inches (Ap, A).\nArgillic horizon - 12 to 42 inches (Bt1, Bt2, BC).\nNational Cooperative Soil Survey\nU. S. A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; very dark grayish brown (10YR 3/2) silt loam, grayish brown (10YR 5/2) dry; weak fine granular structure; very friable; many roots; slightly acid; gradual smooth boundary.  (6 to 12 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 18,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A--7 to 12 inches; dark brown (7.5YR 3/2) silt loam, brown (7.5YR 4/2) dry; weak fine granular structure; very friable; many roots; slightly acid; gradual smooth boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 30,
+        "bottom": 43,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--12 to 17 inches; brown (7.5YR 4/4) silty clay loam; weak fine subangular blocky structure; friable; many roots; common clay films; 1 percent small black concretions; medium acid; gradual smooth boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 43,
+        "bottom": 86,
+        "texture_class": "silty clay",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--17 to 34 inches; brown (7/5YR 4/4) silty clay; moderate medium subangular blocky structure; firm; common roots; many clay films; few small black concretions; medium acid; clear smooth boundary.  (15 to 30 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 86,
+        "bottom": 107,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--34 to 42 inches; yellowish brown (10YR 5/6) clay; common fine faint mottles of light brownish gray (10YR 6/2) and light olive brown (2.5YR 5/4); weak medium angular blocky structure; very firm; few roots; many clay films; common small black concretions; common soft black manganese and iron segregations; medium acid; gradual wavy boundary.  (0 to 15 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 107,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C--42 to 72 inches; mottled yellowish brown (10YR 5/6) light brownish gray (2.5Y 6/2) and light yellowish brown (2.5Y 6/4) clay; massive; extremely firm; many small black concretions; slightly acid; abrupt smooth boundary.  (0 to 30 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 183,
+        "narrative": "R--72 inches; limestone and interbedded shale."
+      }
+    ]
+  ]
 }

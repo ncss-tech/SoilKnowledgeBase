@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The June 1988 revision recognized low activity clay properties of this soil as defined in the Low Activity Clay Amendment to Soil Taxonomy, August, 1986 and changed the classification from Typic Hapludults to Typic Kanhapludults.  The December 2005 revision changed the type location from a mesic region (Rockingham County, North Carolina) to a thermic region.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface of the soil to a depth of 12 inches (Ap, E, and BE horizons)\nKandic horizon - the zone between 12 and 48 inches has low activity clay in more than 50 percent of the horizon (Bt horizon)\nArgillic horizon - the zone between 12 and 48 inches (Bt horizon)\nADDITIONAL DATA: Perkins, H.F. Southern Cooperative Series Bulletin 61, January, 1959, Virginia Agricultural Experiment Station, Blacksburg, Virginia.\nMLRA: 136\nREVISED: 6/5/97-RLV; 12/30/2000-DTA\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp  FrFr/Seas  Precip  Elevation\nNC0032 APPLING     0- 25   58-65   185-240    37-69   350-900\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0032 NONE          >6.0                -     >60\nSOI-5   Depth  Texture            3-Inch  No-10  Clay%   -CEC-\nNC0032   0-9   FSL SL LS          0- 5  80-100   5-20    1- 5\nNC0032   0-9   GR-SL GR-SCL       5-15  55- 85   5-30    2- 6\nNC0032   0-9   SCL CL             0- 5  85-100  20-35    5- 10\nNC0032   9-12  SCL, SL            0- 5  90-100  20-35    5- 10\nNC0032  12-48  SC CL C            0- 5  90-100  35-60    3- 12\nNC0032  48-53  SC CL SCL          0- 5  85-100  20-45    2- 8\nNC0032  53-80  VAR                 -      -       -       -\nSOI-5    Depth    -pH-     O.M.   Salin  Permeab    Shnk-Swll\nNC0032   0-9    4.5-6.5   .5-2.   0-0    2.0- 6.0   LOW\nNC0032   0-9    4.5-6.5   .5-2.   0-0    2.0- 6.0   LOW\nNC0032   0-9    4.5-6.5   .5-1.   0-0    0.6- 2.0   LOW\nNC0032   9-12   4.5-6.5   0.-.5   0-0    0.6-2.0    LOW\nNC0032  12-48   4.5-5.5   0.-.5   0-0    0.6- 2.0   LOW\nNC0032  48-53   4.5-5.5   0.-.5   0-0    0.6- 2.0   LOW\nNC0032  53-80      -        -      -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; brown (10YR 5/3) sandy loam; weak medium granular structure; very friable; common medium pores: common fine roots; about 10 percent angular quartz gravel; slightly acid; clear smooth boundary. (5 to 12 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 15,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--6 to 9 inches: light yellowish brown (10YR 6/4) sandy loam; weak medium granular structure; very friable; common medium pores; common fine roots; about 5 percent angular quartz gravel; slightly acid; clear smooth boundary.  (0 to 5 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 23,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BE--9 to 12 inches; yellowish brown (10YR 5/6) sandy clay loam; weak medium subangular blocky structure; friable; few fine roots; few fine flakes of mica; strongly acid; gradual smooth boundary.  (0 to 7 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 30,
+        "bottom": 122,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--12 to 48 inches; strong brown (7.5YR 5/6) clay; common medium distinct yellowish brown (10YR 5/6) and prominent red (2.5YR 4/8) mottles; moderate medium subangular blocky structure; firm; sticky and plastic; few fine and medium roots; few distinct clay films on faces of peds; few fine flakes of mica; strongly acid; gradual wavy boundary.  (Combined thickness of the Bt horizon is 24 to 50 inches)"
+      },
+      {
+        "name": "BC",
+        "top": 122,
+        "bottom": 135,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--48 to 53 inches; mottled red (2.5YR 4/8) and brownish yellow (10YR 6/8) sandy clay loam; weak medium subangular blocky structure; friable; slightly sticky and slightly plastic; few fine and medium roots; few bodies of saprolite; common fine flakes of mica; strongly acid; gradual wavy boundary. (0 to 30 inches)"
+      },
+      {
+        "name": "C",
+        "top": 135,
+        "bottom": 203,
+        "moist_hue": "7.5YR",
+        "moist_value": 7,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "C--53 to 80 inches; reddish yellow (7.5YR 7/6), red (2.5YR 4/8), and yellow (10YR 8/6) sandy clay loam that weathered from saprolite; massive; friable; common fine flakes of mica; very strongly acid."
+      }
+    ]
+  ]
 }

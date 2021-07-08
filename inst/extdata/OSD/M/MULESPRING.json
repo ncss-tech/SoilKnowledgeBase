@@ -56,5 +56,77 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in the profile are:\n1.  Ochric epipedon -- 0 to 6 inches (A1 and A2 horizons)\n2.  Argillic horizon -- 6 to 18 inches (Bt horizon)\n3.  Particle size control section -- 6 to 18 inches (Bt horizon)\nResponsibility for this series was transferred from Davis to Phoenix 11/2015. The last revision to the series was 6/2000. ET\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1 -- 0 to 3 inches; pale brown (10YR 6/3) extremely gravelly loam, brown (10YR 4/3) moist; moderate medium subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; few very fine and fine roots; common very fine and few fine interstitial pores; 70 percent gravel, 2 percent cobbles and trace stones; slightly alkaline (pH 7.4); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2 -- 3 to 6 inches; yellowish brown (10YR 5/4) extremely gravelly loam, dark yellowish brown (10YR 4/4) moist; moderate medium subangular blocky structure; slightly hard, very friable, slightly sticky and moderately plastic; common very fine and few fine roots; common very fine and few fine interstitial and tubular pores; 60 percent gravel, 2 percent cobbles and trace stones; slightly alkaline (pH 7.4); clear wavy boundary. (Combined thickness of the A horizon is 2 to 10 inches)."
+      },
+      {
+        "name": "Bt",
+        "top": 15,
+        "bottom": 46,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "cf_class": "extremely gravelly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt -- 6 to 18 inches; yellowish red (5YR 5/6) extremely gravelly clay loam, yellowish red (5YR 4/6) moist; strong medium subangular blocky structure; hard, friable, sticky and moderately plastic; common very fine through medium roots; common very fine and few fine tubular pores; many prominent discontinuous clay films on sand and gravel and ped faces; 80 percent gravel, 2 percent cobbles and trace stones; slightly alkaline (pH 7.4); gradual wavy boundary. (6 to 14 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 46,
+        "bottom": 56,
+        "texture_class": "clay loam",
+        "narrative": "Cr -- 18 to 22 inches; partially decomposed fractured metamorphic bedrock; many distinct discontinuous clay films on rock fragments; clay loam filling fractures."
+      }
+    ]
+  ]
 }

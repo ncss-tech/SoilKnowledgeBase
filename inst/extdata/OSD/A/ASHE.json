@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Ashe soils were formerly classified as Sols Bruns Acides.\nThe 12/97 revision places Ashe soils in an active family, based on similar soils such as Edneyville and Chestnut. Horizon depths were revised to standards of the most current revision of the Soil Survey Manual (issued 1993). The 2/99 revision updates classification to 8th Edition of Keys to Soil Taxonomy.\nDiagnostic features and horizons recognized in this pedon are:\nOchric Epipedon - The zone from 0 to 8 inches (Oe, A1 and A2 horizons).\nCambic Horizon - The zone from 8  to 26 inches (Bw horizon).\nLithic Contact - The occurrence of hard bedrock at 31 inches.\nADDITIONAL DATA:\nMLRA: 130 SIR(S): NC0019, NC0186 (VERY STONY)\nRevised: 10/92-DLN-RLM-AG; 12/97-DHK; 2/99-MKC; 8/01-MKC\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oe--0 to 1 inches; moderately decomposed organic matter and leaves, twigs, and roots."
+      },
+      {
+        "name": "A1",
+        "top": 3,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--1 to 4 inches; very dark grayish brown (10YR 3/2) sandy loam; weak medium and coarse granular structure; friable; many fine and medium roots; few quartz gravel; few fine flakes of mica; very strongly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--4 to 8 inches; brown (10YR 4/3) sandy loam; weak medium granular structure; very friable; many fine and medium roots; few quartz gravel; few fine flakes of mica; very strongly acid; clear smooth boundary. (Combined thickness of the A horizon is 1 to 10 inches )"
+      },
+      {
+        "name": "Bw",
+        "top": 20,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--8 to 26 inches; yellowish brown (10YR 5/6) sandy loam; moderate medium granular structure; friable; few small fragments of quartz rock which give gritty feel; common fine and medium roots; few fine flakes of mica; very strongly acid; clear wavy boundary. (10 to 30 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 66,
+        "bottom": 79,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C--26 to 31 inches; yellowish brown (10YR 5/4) saprolite that is sandy loam; massive; friable; common medium roots; fragments of granite gneiss; few fine flakes of mica; very strongly acid; gradual wavy boundary. (0 to 18 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 79,
+        "narrative": "R--31 inches; hard, light colored granite gneiss."
+      }
+    ]
+  ]
 }

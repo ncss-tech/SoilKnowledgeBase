@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons recognized in this pedon are:\na.  Ochric epipedon - the zone from the surface to a depth of 19 inches (Ap and BAg horizons).\nb.  Argillic horizon - the zone from 19 to 42 inches (Btg horizon).\nc.  Aquic conditions.\nADDITIONAL DATA:\nSIR = WV0034, (also variant is OH0270.)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 9 inches; dark grayish brown (10YR 4/2) silt loam; common medium prominent brown (7.5YR 4/4) masses of iron accumulation; weak fine subangular blocky structure; firm; many fine and medium roots; very strongly acid; gradual smooth boundary.  (5 to 9 inches thick)"
+      },
+      {
+        "name": "BAg",
+        "top": 23,
+        "bottom": 48,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BAg--9 to 19 inches; gray (10YR 5/1) silty clay loam; common medium prominent strong brown (7.5YR 5/6) masses of iron accumulation; weak fine subangular blocky structure; firm; common fine roots; extremely acid; gradual smooth boundary.  (4 to 16 inches thick)"
+      },
+      {
+        "name": "Btg",
+        "top": 48,
+        "bottom": 107,
+        "moist_hue": "N",
+        "moist_value": 4,
+        "moist_chroma": 0,
+        "texture_class": "silty clay",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg--19 to 42 inches; dark gray (N 4/0) silty clay; common medium prominent strong brown (7.5YR 5/6) masses of iron accumulation; weak coarse prismatic structure parting to moderate fine subangular blocky; firm, sticky, plastic; few fine roots; continuous distinct clay films on faces of peds; extremely acid; gradual smooth boundary.  (13 to 34 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 107,
+        "bottom": 165,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "very strongly acid",
+        "narrative": "Cg--42 to 65 inches; gray (5Y 5/1) silty clay; massive; firm, sticky, plastic; very strongly acid."
+      }
+    ]
+  ]
 }

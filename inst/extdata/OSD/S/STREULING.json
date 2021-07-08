@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from the surface of the soil to 10 inches (A and Bk1 horizons).\nCalcic horizon - the zone of calcium carbonate accumulation from a depth of 4 inches to 18 inches (Bk1 and Bk2 horizons).\nLithic feature - bedrock at 18 inches (R horizon).\nThe classification is based on the \"Keys to Soil Taxonomy, Eighth Edition, 1998\".\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 4 inches; dark brown (10YR 4/3) very gravelly loam, very dark brown (10YR 3/3) moist; weak fine granular structure; slightly hard, friable, slightly sticky and slightly plastic; few medium, common fine and many very fine roots; common medium, many fine and very fine pores; 5 percent cobbles and 20 percent gravel; strongly effervescent, carbonates are disseminated; slightly alkaline (pH 7.8); clear wavy boundary. (3 to 5 inches thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 10,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk1--4 to 10 inches; brown (10YR 5/3) extremely gravelly loam, dark brown (10YR 3/3) moist; weak fine subangular blocky structure; slightly hard, friable, sticky and plastic; few medium, common fine and very fine roots; few medium, common fine and many very fine pores; 65 percent gravel; violently effervescent, carbonates occur in soft masses, as pendants on limestone gravel and disseminated; moderately alkaline (pH 8.2); gradual wavy boundary. (5 to 6 inches thick)"
+      },
+      {
+        "name": "Bk2",
+        "top": 25,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "extremely gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bk2--10 to 18 inches; light yellowish brown (10YR 6/4) extremely gravelly clay loam, dark yellowish brown (10YR 4/4) moist; moderate medium subangular blocky structure; hard, firm, sticky and plastic; common fine and very fine roots; many fine and very fine pores; 20 percent cobbles and 50 percent gravel; violently effervescent, carbonates occur in soft masses, as pendants on limestone gravel and disseminated; moderately alkaline (pH 8.2); clear wavy boundary. (6 to 9 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 46,
+        "narrative": "R--18 inches; limestone bedrock."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,89 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Newflat soils have previously been included with Wahee and Lenoir soils.\nDiagnostic horizons and features recognized in this pedon are:\n1. Ochric epipedon - the zone from the surface to 5 inches (A and E)\n2.  Argillic horizon - the zone between 5 and 75 inches (Bt, Btg1, Btg2, and Btg3)\n3.  Clayey - more than 35 percent clay in the partical-size control section.\n4.  Base saturation - Is less than 35 percent at 55 inches.\n5.  Aeric - 4 chroma dominant below the E horizon (2 chroma or less is present)\nADDITIONAL DATA:  Particle-size, chemical, and engineering data from VPI & SU is available for the typical pedon (79VA-149-50). Additional chemical data is available for 1 pedon from James City County, Virginia.\nSIR=VA0173\nMLRA=133A,153A\nREVISED=9/25/97, MHC\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0173 NEWFLAT     0-  2   59- 64  190-240  40- 49    20- 250\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0173 NONE          0.5-1.5  APPARENT NOV-APR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0173  0- 5  VFSL L SIL              0-  0  90-100 10-25    -\nVA0173  5-10  L CL SICL               0-  0  90-100 25-40    -\nVA0173 10-75  CL SIC C                0-  0  90-100 35-60    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0173  0- 5  3.6- 5.5  .5-2.  0- 0   0.6- 2.0  LOW\nVA0173  5-10  3.6- 5.5  0.-.5  0- 0   0.2- 0.6  MODERATE\nVA0173 10-75  3.6- 5.5  0.-.5  0- 0  0.00-0.06  HIGH\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "0i--1 to 0 inch; leaf litter and partially decomposed organic materials."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "texture_class": "silt loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; very dark gray (1OYR 3/1) silt loam; moderate fine granular structure; very friable; many fine and common medium roots; extremely acid; clear smooth boundary. (0 to 4 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 13,
+        "texture_class": "silt loam",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "E--2 to 5 inches; light brownish gray (lOYR 6/2) silt loam; few fine faint light yellowish brown (1OYR 6/4) and few fine distinct yellowish brown (1OYR 5/6) masses of iron accumulation; moderate fine granular structure; very friable, slightly sticky, common fine roots; extremely acid; gradual smooth boundary.  (0 to 4 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 13,
+        "bottom": 25,
+        "texture_class": "clay loam",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt--5 to 10 inches; light yellowish brown (1OYR 6/4) clay loam; few fine distinct light gray (1OYR 7/1) iron depletions and many coarse faint brownish yellow (1OYR 6/6) masses of iron accumulation; weak fine subangular blocky structure; friable, slightly sticky, slightly plastic; few fine roots; few distinct clay films on faces of peds; extremely acid; gradual smooth boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 25,
+        "bottom": 51,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg1--10 to 20 inches; light brownish gray (1OYR 6/2) clay loam; common medium distinct yellowish brown (1OYR 5/6) and strong brown (7.5YR 5/6) masses of iron accumulation; moderate medium prismatic structure parting to moderate fine and medium angular blocky; firm, very sticky, plastic, few fine roots; common distinct clay films on faces of peds; extremely acid; gradual smooth boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 51,
+        "bottom": 89,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg2--20 to 35 inches; gray (1OYR 6/1) clay loam; common medium distinct yellowish brown (1OYR 5/6) and strong brown (7.5YR 5/6) masses of iron accumulation; moderate medium prismatic structure parting to moderate fine and medium angular blocky; firm, very sticky, very plastic; few fine roots; common distinct clay films on faces of peds; extremely acid; gradual smooth boundary."
+      },
+      {
+        "name": "Btg3",
+        "top": 89,
+        "bottom": 190,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay",
+        "pH_class": "extremely acid",
+        "narrative": "Btg3--35 to 75 inches; light gray (1OYR 6/1) silty clay; common medium distinct strong brown (7.5YR 5/6) masses of iron accumulation; moderate medium subangular blocky structure; firm, very plastic; thin patchy clay films on faces of peds; extremely acid.  (Combined thickness of the Btg horizon is 55 to more than 90 inches thick)"
+      }
+    ]
+  ]
 }

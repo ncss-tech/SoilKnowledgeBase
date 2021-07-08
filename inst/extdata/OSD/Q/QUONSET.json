@@ -56,5 +56,98 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This revision reflects changes to the range in characteristics as well as general updating to metric units.\nDiagnostic horizons and features recognized in this pedon are:\n1) Ochric epipedon - the zone from the mineral soil surface to a depth of 4 inches (10 centimeters) (A horizon).\n2) Sandy-skeletal feature - have 35 percent or more (about 54 percent) weighted average volume of rock fragments in the particle-size control section.\n3) Particle-size control section - the zone from 10 through 40 inches (25 through 100 centimeters) (Bw2, BC and C horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi -- 0 to 1 inches (0 to 3 centimeters); slightly decomposed plant material (fibric material) derived from oak leaves and pine needles."
+      },
+      {
+        "name": "Oa",
+        "top": 3,
+        "bottom": 5,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "narrative": "Oa -- 1 to 2 inches (3 to 5 centimeters); dark reddish brown (5YR 2/2) highly decomposed plant material (sapric material)."
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A -- 2 to 4 inches (5 to 10 centimeters); black (10YR 2/1) sandy loam; weak fine granular structure; very friable; many medium and fine roots; 5 percent shale channers and gravel; extremely acid; abrupt smooth boundary. (1 to 4 inches (3 to 10 centimeters) thick.)"
+      },
+      {
+        "name": "Bw1",
+        "top": 10,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw1 -- 4 to 7 inches (10 to 18 centimeters); brown (10YR 4/3) channery sandy loam; weak fine and medium granular structure; very friable; many medium and fine roots; 15 percent shale channers and gravel; very strongly acid; abrupt wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 18,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw2 -- 7 to 14 inches (18 to 36 centimeters); yellowish brown (10YR 5/4) channery loamy sand; massive; very friable; common medium and fine roots; 20 percent rock fragments, mainly shale and phyllite channers; very strongly acid; clear smooth boundary. (Combined thickness of the Bw horizon is 6 to 18 inches (15 to 46 centimeters).)"
+      },
+      {
+        "name": "BC",
+        "top": 36,
+        "bottom": 56,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "cf_class": "very channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BC -- 14 to 22 inches (36 to 56 centimeters); light olive brown (2.5Y 5/4) very channery loamy sand; single grain; loose; common medium and fine roots; 40 percent shale and phyllite channers, 2 percent flagstones; 25 percent dark sand in the sand fraction; very strongly acid; clear smooth boundary. (0 to 10 inches (0 to 25 centimeters) thick.)"
+      },
+      {
+        "name": "C",
+        "top": 56,
+        "bottom": 165,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "extremely channery",
+        "pH_class": "strongly acid",
+        "narrative": "C -- 22 to 65 inches (56 to 165 centimeters); olive brown (2.5Y 4/4) to dark grayish brown (2.5Y 4/2) extremely channery sand; single grain; loose; few medium roots; 65 percent shale and phyllite channers and 2 percent granitic gravel and cobbles; 30 percent of the sand fraction consists of dark sand; strongly acid."
+      }
+    ]
+  ]
 }

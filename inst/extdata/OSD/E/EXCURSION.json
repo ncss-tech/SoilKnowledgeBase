@@ -56,5 +56,68 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and other features in this pedon\n*Fibric soil material--zone from the surface to a depth of 14 cm\n*Hemic soil material--zone from 14 to 26 cm\n*Histic epipedon--zone from the surface to a depth of 26 cm\n*Aquic conditions--zone from the surface to a depth of 150 cm\n*Reduced matrix--zone from 26 to 150 cm\n*Free carbonates--zone from 70 to 150\n*Particle-size control section--zone from 51 to 126 cm\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 14,
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 14 cm; peat; slightly acid (pH 6.1); clear smooth boundary"
+      },
+      {
+        "name": "Oe",
+        "top": 14,
+        "bottom": 26,
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--14 to 26 cm; mucky peat; slightly acid (pH 6.4); abrupt smooth boundary"
+      },
+      {
+        "name": "Cg1",
+        "top": 26,
+        "bottom": 70,
+        "dry_hue": "5Y",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "N",
+        "moist_value": 4,
+        "moist_chroma": 0,
+        "texture_class": "loam",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "Cg1--26 to 70 cm; loam, dark gray (5Y 4/1) dry, dark gray (N 4/0) moist; massive; soft, very friable, slightly sticky and nonplastic; common medium and fine roots; few fine and very fine interstitial pores; neutral (pH 7.3); diffuse smooth boundary"
+      },
+      {
+        "name": "Cg2",
+        "top": 70,
+        "bottom": 150,
+        "dry_hue": "5Y",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "N",
+        "moist_value": 5,
+        "moist_chroma": 0,
+        "texture_class": "very fine sandy loam",
+        "pH": 8.1,
+        "pH_class": "moderately alkaline",
+        "narrative": "Cg2--70 to 150 cm; very fine sandy loam, dark gray (5Y 4/1) dry, gray (N 5/0) moist; single grain; loose, nonsticky and nonplastic; very slightly effervescent (HCL, 1N); moderately alkaline (pH 8.1)"
+      }
+    ]
+  ]
 }

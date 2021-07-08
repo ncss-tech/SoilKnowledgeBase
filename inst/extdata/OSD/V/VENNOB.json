@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 7 inches (A and BA horizons and the upper 2 inches of the Bt horizon).\nArgillic horizon - The zone from 5 to 17 inches (Bt horizon).\nLithic contact - The boundary at 17 inches (R horizon).\nThe classification is based on the \"Keys to Soil Taxonomy, Eighth Edition, 1998\".\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 2 inches; grayish brown (10YR 5/2) very gravelly loam, very dark grayish brown (10YR 3/2) moist; weak fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common fine and very fine roots; few medium, many fine and very fine pores; 40 percent gravel; slightly alkaline (pH 7.4); abrupt wavy boundary."
+      },
+      {
+        "name": "BA",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BA--2 to 5 inches; grayish brown (10YR 5/2) very gravelly clay loam, very dark grayish brown (10YR 3/2) moist; moderate medium subangular blocky structure; hard, firm, sticky and plastic; few medium, common fine and very fine roots; many fine and very fine pores; 40 percent gravel; slightly alkaline (pH 7.6); clear wavy boundary."
+      },
+      {
+        "name": "Bt",
+        "top": 13,
+        "bottom": 43,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--5 to 17 inches; brown (7.5YR 5/4) very gravelly clay loam, dark brown (7.5YR 4/2) moist; strong medium subangular blocky structure; hard, firm, sticky and plastic; few medium, fine and very fine roots; many fine and very fine pores; many distinct clay films on faces of peds and lining pores; 50 percent gravel; slightly alkaline (pH 7.6); abrupt wavy boundary."
+      },
+      {
+        "name": "R",
+        "top": 43,
+        "narrative": "R--17 inches; hard igneous bedrock."
+      }
+    ]
+  ]
 }

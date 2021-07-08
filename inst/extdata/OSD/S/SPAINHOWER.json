@@ -56,5 +56,122 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\n1.  Ochric epipedon--0 to 13 cm (A)\n1.1  Organic carbon content is less than 0.5 percent (Walkley-Black digestion method.)\n2.  Argillic horizon -- 13 to 76 cm (BAt, Bt, Btk)\n2.1  Clay increase from 15 percent (A horizon) to 28 percent       (BAt horizon) and 40 percent (Bt horizon).  Determined by hydrometer method.\n2.2  Clay films observed on peds, rock fragments and bridging mineral grains.\n3. Xeric subgroup\n3.1   Soil moisture control section is dry less than three fourths time that soil temperature at 50 cm is above 5 degrees C (66 percent based on Soil Conservation Service moisture-temperature transect data)\n3.2   Organic carbon content is less than 0.5 percent (Walkley-Black digestion method) while sand to clay ratio is less than or equal to 7 to 1 (hydrometer method).\n4.  Thermic temperature regime -- assumptions based on preliminary Soil Conservation Service soil/moisture transect, 55 years of local climate records and Bureau of Land Management data.\n5.  Mineralogy -- assumed mixed based on observation of few cracks.\n6.  Clayey-skeletal particle-size class -- 13 to 63 cm control section has 38 percent clay content and 50 percent rock fragments (based on hydrometer method and sieving).\n7.  Moisture regime -- Aridic bordering on Xeric\n7.1 The moisture control section is dry throughout from May 1 to November 15 (200 days).  It is moist throughout from December 1 to April 1 (121 days).\n7.2 The soil temperature exceeds 5 degrees C from February 15 to December 15.  Within this time period the moisture control section is dry from May 1 to November 15 (200 days).\n7.3 The soil temperature exceeds 8.3 degrees C from March 15 to December 1 (260 days), within this time period, the moisture control section is dry from May 1 to November 15 (200 days).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 13 cm; pale brown (10YR 6/3) gravelly sandy loam, dark brown (10YR 3/3) moist; moderate coarse subangular blocky structure parting to moderate thick platy; slightly hard, friable, sticky and plastic; common very fine and few fine and medium roots; many very fine vesicular and few very fine and fine tubular pores; 15 percent gravel, 5 percent cobbles and 2 percent stones; slightly alkaline (pH 7.6); clear smooth boundary.  (10 to 18 cm thick)"
+      },
+      {
+        "name": "BAt",
+        "top": 13,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BAt--13 to 25 cm; light yellowish brown (10YR 6/4) gravelly sandy clay loam, dark yellowish brown (10YR 4/4) moist; moderate coarse subangular blocky structure; slightly hard, friable, sticky and plastic; common very fine and fine and few medium roots; common very fine tubular pores; many faint clay films bridging mineral grains and on peds; 20 percent gravel, 8 percent cobbles, and 2 percent stones; slightly alkaline (pH 7.6); clear smooth boundary.  (10 to 25 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 25,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "very cobbly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt--25 to 43 cm; light yellowish brown (10YR 6/4) very cobbly clay, dark yellowish brown (10YR 4/4) moist; moderate coarse subangular blocky structure; hard, firm, sticky and plastic; few very fine and fine roots; common very fine and few fine tubular and common very fine interstitial pores; many faint clay films bridging mineral grains and common distinct clay films on peds and rock fragments; 25 percent gravel, 20 percent cobbles, and 2 percent stones; slightly alkaline (pH 7.6); gradual smooth boundary.  (15 to 61 cm thick)"
+      },
+      {
+        "name": "Btk",
+        "top": 43,
+        "bottom": 76,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "extremely cobbly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btk--43 to 76 cm; light yellowish brown (10YR 6/4) extremely cobbly clay, dark yellowish brown (10YR 4/4) moist; moderate coarse subangular blocky structure; hard, firm, sticky and plastic; few very fine and fine roots; common very fine and few fine tubular pores; many faint clay films bridging mineral grains and common distinct clay films on peds and rock fragments; slightly effervescent; 25 percent gravel, 35 percent cobbles, and 5 percent stones; moderately alkaline (pH 8.0); gradual smooth boundary. (0 to 38 cm thick)"
+      },
+      {
+        "name": "BCt",
+        "top": 76,
+        "bottom": 107,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely cobbly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BCt--76 to 107 cm; light yellowish brown (10YR 6/4) extremely cobbly sandy loam, dark yellowish brown (10YR 4/4) moist; weak coarse subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; few very fine and fine roots; common very fine and fine interstitial pores; many faint clay films bridging mineral grains and few distinct clay films on peds and rock fragments; 30 percent gravel, 40 percent cobbles, and 3 percent stones; neutral (pH 6.6); gradual smooth boundary.  (20 to 51 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 107,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "narrative": "C--107 to 152 cm; light yellowish brown (10YR 6/4) extremely gravelly sandy loam, dark yellowish brown (10YR 4/6) moist; weak coarse subangular blocky structure; slightly hard, very friable, nonsticky and nonplastic; few very fine and fine roots; common very fine and fine interstitial pores; common faint clay films bridging mineral grains; 60 percent gravel, 20 percent cobbles and 5 percent stones; neutral (pH 6.8)."
+      }
+    ]
+  ]
 }

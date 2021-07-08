@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  These soils were formerly placed in miscellaneous land types as dredge spoil areas, or were named Udorthents.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0144 YAUPON      0- 15   63- 70  230-310  50- 60     3-  15\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0144 NONE          2.0-4.0  APPARENT DEC-MAR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0144  0- 7  FSL                     0-  0  90-100  5-20   3- 15\nNC0144  0- 7  L SIL SICL              0-  0  90-100 10-35   5- 25\nNC0144  7-76  SIC C SC                0-  0  90-100 35-60  15- 40\nNC0144 76-85  VAR                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0144  0- 7  4.5- 6.5  .5-1.  0-16   2.0- 6.0  LOW\nNC0144  0- 7  4.5- 6.5  .5-1.  0-16  0.06- 0.2  LOW\nNC0144  7-76  5.6- 8.4  0.-1.  0-16   0.0-0.06  HIGH\nNC0144 76-85     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A1--0 to 7 inches; dark gray (10YR 4/1) silty clay loam, common medium distinct yellowish red (5YR 4/6) mottles; moderate medium platy structure; firm, sticky, plastic, few fine roots; very strongly acid; gradual smooth boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "C1g",
+        "top": 18,
+        "bottom": 51,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "mildly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "C1g--7 to 20 inches; dark gray (5YR 4/1) silty clay; massive; very firm, very sticky, very plastic; mildly alkaline; gradual smooth boundary.  (5 to 20 inches thick)"
+      },
+      {
+        "name": "C2g",
+        "top": 51,
+        "bottom": 76,
+        "moist_hue": "5GY",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "C2g--20 to 30 inches; dark greenish gray (5GY 4/1) silty clay; common medium distinct dark gray (5Y 4/1) mottles; massive; firm, very sticky, very plastic; few small dark reddish brown (5YR 3/2) concretions; moderately alkaline; gradual smooth boundary.  (5 to 10 inches thick)"
+      },
+      {
+        "name": "C3g",
+        "top": 76,
+        "bottom": 193,
+        "moist_hue": "5GY",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C3g--30 to 76 inches; dark greenish gray (5GY 4/1) silty clay; massive; firm, very sticky, very plastic; few small dark reddish brown (5YR 3/2) concretions; moderately alkaline; clear smooth boundary.  (10 to 50 inches thick)"
+      },
+      {
+        "name": "Ab",
+        "top": 193,
+        "bottom": 216,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Ab--76 to 85 inches; black (10YR 2/1) fine sandy loam; weak medium granular structure; very friable; very strongly acid.  (0 to 15 inches thick)"
+      }
+    ]
+  ]
 }

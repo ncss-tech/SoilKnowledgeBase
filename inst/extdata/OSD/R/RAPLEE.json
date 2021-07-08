@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from 0 to 4 inches (C1 horizon)\nEntisol feature - The absence of diagnostic subsurface horizons\nClassified according to Keys to Soil Taxonomy Tenth Edition, 2006.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "C1",
+        "bottom": 10,
+        "moist_hue": "5YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "very fine sandy loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C1--O to 4 inches; reddish yellow (5YR 6/6) very fine sandy loam, yellowish red (5YR 4/6) moist weak platy structure in the surface 1/2 inch, massive below; soft, very friable, nonsticky and slightly plastic; few medium and fine roots; strongly gypsiferous; moderately calcareous, lime disseminated; slightly alkaline (pH 7.8); clear wavy boundary. (3 to 6 inches thick)"
+      },
+      {
+        "name": "C2",
+        "top": 10,
+        "bottom": 56,
+        "moist_hue": "5YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "very fine sandy loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C2--4 to 22 inches; reddish yellow (5YR 6/6) very fine sandy loam, yellowish red (5YR 4/6) moist; massive; soft, very friable, nonsticky and slightly plastic; few fine and medium roots; strongly gypsiferous; moderately calcareous, lime disseminated; slightly alkaline (pH 7.8); abrupt wavy boundary. (17 to 24 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 56,
+        "bottom": 91,
+        "texture_class": "sand",
+        "narrative": "Cr--22 to 36 inches; interbedded fractured sandstone and soft shale with common fine roots between rock fragments."
+      },
+      {
+        "name": "R",
+        "top": 91,
+        "texture_class": "sand",
+        "narrative": "R--36 inches; consolidated sandstone."
+      }
+    ]
+  ]
 }

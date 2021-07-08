@@ -56,5 +56,127 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  1. The type location is moved from Grafton County NH to Coos County NH to better reflect the classification of the series as spodosols.  2.  Classification is updated to Coarse-loamy, isotic, frigid Typic Haplorthods with this revision. The former classification was Coarse-loamy, mixed, frigid Typic Haplorthods.  3. The diagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon - the zone from 0 to 4 inches (O and E horizons).\nb. Spodic horizon - the zone from 4 to 5 inches (Bhs horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--0 to 1 inch; very dark brown (10YR 2/2) moderately decomposed plant material; common very fine and fine roots; abrupt smooth boundary."
+      },
+      {
+        "name": "Oa",
+        "top": 3,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oa--1 to 2 inches; black (10YR 2/1) highly decomposed plant material; common very fine and fine roots; abrupt smooth boundary. (combined thickness of the O horizon is 0 to 4 inches)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--2 to 4 inches; grayish brown (10YR 5/2) fine sandy loam; moderate medium subangular blocky structure; friable; common very fine, fine, and medium roots; very strongly acid; abrupt wavy boundary. (0 to 2 inches thick)"
+      },
+      {
+        "name": "Bhs",
+        "top": 10,
+        "bottom": 13,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bhs--4 to 5 inches; dark reddish brown (5YR 3/3) fine sandy loam; moderate fine and medium subangular blocky structure; friable; common very fine and fine roots; strongly acid; abrupt wavy boundary.  (0 to 2 inches thick)"
+      },
+      {
+        "name": "Bs",
+        "top": 13,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bs--5 to 14 inches; dark yellowish brown (10YR 4/6) fine sandy loam; moderate medium subangular blocky structure; friable; common very fine and fine roots; strongly acid; abrupt smooth boundary.  (5 to 18 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 36,
+        "bottom": 74,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "BC--14 to 29 inches; olive brown (2.5Y 4/4) fine sandy loam; moderate medium subangular blocky structure; friable; common very fine and fine roots; 5 percent gravel; strongly acid; abrupt smooth boundary.  (6 to 15 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 74,
+        "bottom": 91,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C1--29 to 36 inches; light olive brown (2.5Y 5/3) loamy sand; massive; very friable; 5 percent gravel; strongly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "C2",
+        "top": 91,
+        "bottom": 107,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "coarse sand",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C2--36 to 42 inches; light olive brown (2.5Y 5/3) coarse sand; massive; loose; 14 percent gravel; moderately acid; abrupt smooth boundary."
+      },
+      {
+        "name": "C3",
+        "top": 107,
+        "bottom": 165,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "fine sand",
+        "pH_class": "moderately acid",
+        "narrative": "C3--42 to 65 inches; light yellowish brown (2.5Y 6/4) fine sand; massive; very friable; moderately acid."
+      }
+    ]
+  ]
 }

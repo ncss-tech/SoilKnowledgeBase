@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon:\nAlbic epipedon - from 0 to 4 inches (E horizon); this horizon is not always present.\nBs horizons - from 4 to 45 inches (Bs1, Bs2, and Bs3 horizons) meet the color requirement for spodic material but the pH is too high for spodic materials.\nParticle-size control section - from 0 to 40 inches (E, Bs1, Bs2 horizons and upper 11 inches of Bs3 horizon)\nAndic properties - from 2 to 47 inches with volcanic glass and glass aggregate estimated to range from 50 to 70 percent.\nField investigation is needed to substantiate a range of characteristics.  Currently the color ranges and pH ranges as described are quite broad and some pedons will qualify as Spodosols.  Separation from the tentative Millerpoint series needs more review.  It is suggested that Hutson soils be defined as having subsoil hue of 7.5YR and 5YR and that the series be considered for a proposed spodic subgroup.  The Millerpoint series be defined as having subsoil hue of 10YR only and not be considered as meeting \"spodic\" subgroup criteria.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "Oi--0 to 2 inches; slightly decomposed fir needles, twigs, moss."
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 15,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--2 to 6 inches; dark brown (7.5YR 4/2) ashy fine sandy loam, pinkish gray (7.5YR 6/2) dry; weak very fine granular structure; soft, very friable, nonsticky and nonplastic; many roots; many very fine irregular pores; slightly acid (pH 6.4); clear smooth boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "Bs1",
+        "top": 15,
+        "bottom": 51,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bs1--6 to 20 inches; dark brown (7.5YR 4/4) ashy fine sandy loam, light brown (7.5YR 6/4) dry; weak very fine granular structure; soft, very friable, nonsticky and nonplastic; many roots; many very fine tubular pores; 5 percent gravel 2 to 5 mm in diameter; slightly acid (pH 6.4); gradual smooth boundary."
+      },
+      {
+        "name": "Bs2",
+        "top": 51,
+        "bottom": 79,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bs2--20 to 31 inches; yellowish red (5YR 4/6) ashy fine sandy loam, reddish brown (5YR 5/4) dry; weak fine subangular blocky structure; slightly hard, friable, nonsticky and nonplastic; many roots; many very fine tubular pores; 5 percent gravel, 2 to 5 mm in diameter; slightly acid (pH 6.2); gradual smooth boundary."
+      },
+      {
+        "name": "Bs3",
+        "top": 79,
+        "bottom": 119,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bs3--31 to 47 inches; dark brown (7.5YR 4/4) ashy fine sandy loam, light brown (7.5YR 6/4) dry; weak medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common roots; common very fine tubular pores; 5 percent gravel; moderately acid (pH 6.0); gradual smooth boundary. (Combined thickness of the Bs horizon is 38 to 55 inches)"
+      },
+      {
+        "name": "2C",
+        "top": 119,
+        "bottom": 163,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "narrative": "2C--47 to 64 inches; reddish brown (5YR 4/4) loam, brown (7.5YR 5/4) dry; massive; slightly hard, friable, slightly sticky and slightly plastic; common roots; common very fine tubular pores; 10 percent gravel and 5 percent cobbles; moderately acid (pH 5.8)."
+      }
+    ]
+  ]
 }

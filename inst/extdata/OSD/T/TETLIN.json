@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic features recognized in this profile include:\nPermafrost: 23 inches with aquic conditions above\nCambic horizon: 7 to 23 inches\nTemperature regime: pergelic\nParticle size control section: coarse-loamy from 10 to 40 inches\nMoisture regime: aquic\nSaturated soil is present above the permafrost to within 10 inches of the surface in mid-summer.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "pH": 4.4,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Oi--0 to 6 inches; dark brown (7.5YR 3/2) slightly decomposed plant material; extremely acid (pH 4.4); clear wavy boundary. (1 to 8 inches thick)"
+      },
+      {
+        "name": "O/E",
+        "top": 15,
+        "bottom": 18,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 4.2,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "O/E--6 to 7 inches; dark brown (7.5YR 3/2) slightly decomposed plant material and light brownish gray (10YR 6/2) silt loam; single grain; loose, nonsticky and nonplastic; many very fine to coarse roots; extremely acid (pH 4.2); clear wavy boundary."
+      },
+      {
+        "name": "Bw",
+        "top": 18,
+        "bottom": 58,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw--7 to 23 inches; dark brown (10YR 3/3) silt loam; weak coarse subangular blocky structure; friable, nonsticky and slightly plastic; few very fine to fine roots; moderately acid (pH 5.8); abrupt smooth boundary."
+      },
+      {
+        "name": "Bgf",
+        "top": 58,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "narrative": "Bgf--23 to 60 inches; olive brown (2.5Y 4/4), perennially frozen silt loam; massive, parting to weak medium platy structure; very hard; nonsticky and slightly plastic (when thawed): common large distinct dark grayish brown (2.5Y 4/2) redoximorphic depletions; slightly acid (pH 6.4)."
+      }
+    ]
+  ]
 }

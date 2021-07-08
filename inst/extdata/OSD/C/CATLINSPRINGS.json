@@ -56,5 +56,57 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from 0 to 28 cm (A and Bw horizons)\nLithic contact - the contact with argillite bedrock at 28 cm (R horizon)\nParticle-size control section - the zone from 0 to 28 cm (A and Bw horizons)\nCatlinsprings soils have a cryic soil temperature regime and an ustic soil moisture regime.\nTaxonomic version: Eleventh Edition, 2010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 12,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 12 cm; dark grayish brown (10YR 4/2) channery loam, very dark grayish brown (10YR 3/2) moist; moderate medium granular structure; soft, very friable, slightly sticky and slightly plastic; many fine and very fine and few medium roots; many very fine and fine tubular and irregular pores; 20 percent channers and 1 percent flagstones; neutral (pH 7.2); clear wavy boundary. (7 to 20 cm thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 12,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--12 to 28 cm; brown (10YR 5/3) very channery loam, dark brown (10YR 3/3) moist; moderate medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many fine and few medium roots; many very fine tubular and irregular pores; 55 percent channers and 2 percent flagstones; neutral (pH 7.2); clear wavy boundary. (10 to 20 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 28,
+        "narrative": "R--28 cm; hard, strongly cemented argillite bedrock."
+      }
+    ]
+  ]
 }

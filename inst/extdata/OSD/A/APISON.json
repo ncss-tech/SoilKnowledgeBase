@@ -56,5 +56,73 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The 3/99 revision places Apison in a semiactive CEC activity class.\nThe 5/99 revision expands rock fragment range in the solum from 0-15 to 0-25 percent. Changes were also made to parent material in Geographic Setting section and the Competing Series section was updated.The 05/00 revision expands slope range and makes some editorial changes.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to a depth of 7 inches (the A horizon).\nArgillic horizon - the zone from a depth of 7 inches to a depth of 28 inches (the Bt1, Bt2 and Bt3 horizons).\nParalithic contact at 28 inches (Cr).\nMLRAs: 128\nRevised: 9/92-RPS,DLN; 3/99; 5/99-RLL,DHK; 4/00-NTH,MKC\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; brown (10YR 5/3) loam; moderate medium granular structure; very friable; common fine roots; 3 percent by volume of fragments of sandstone 1/4 to 1 inch in diameter; strongly acid; clear smooth boundary.  (4 to 9 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--7 to 14 inches; yellowish brown (10YR 5/4) clay loam; moderate medium subangular structure; friable; common fine roots; few faint clay films on faces of peds; 3 percent by volume fragments of sandstone 1/4 to 1 inch in diameter; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 36,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--14 to 22 inches; yellowish brown (10YR 5/4) clay loam; few fine faint light yellowish brown (10YR 6/4) mottles; moderate medium subangular blocky structure; friable; few faint clay films on faces of peds; 5 percent by volume fragments sandstone 1/4 inch to 1 inch across; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 56,
+        "bottom": 71,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Bt3--22 to 28 inches; yellowish brown (10YR 5/6) clay loam; few medium distinct pale brown (10YR 6/3) mottles; weak medium subangular blocky structure; friable; few faint clay films on faces of peds; 10 percent by volume fragments of sandstone 1/4 to 1 inch across; very strongly acid.  (combined thickness of the Bt horizon is 10 to 40 inches)"
+      },
+      {
+        "name": "Cr",
+        "top": 71,
+        "bottom": 155,
+        "texture_class": "sand",
+        "narrative": "Cr--28 to 61 inches; soft interlayered shale, siltstone, and fine-grained sandstone; thin seams and coatings of brownish loam in upper 12 inches."
+      }
+    ]
+  ]
 }

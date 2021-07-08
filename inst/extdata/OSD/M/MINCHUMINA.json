@@ -56,5 +56,53 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic features and horizons recognized in this profile include: mean annual soil temperature below 32 degrees F.; permafrost at 6 inches; well drained in the organic and mineral layers above the permafrost; loamy particle size from 0 to 14 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 25,
+        "bottom": 15,
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oi--10 to 6 inches; slightly decomposed moss and roots; clear smooth boundary.  (3 to 7 inches thick)"
+      },
+      {
+        "name": "Oe",
+        "top": 15,
+        "bottom": 0,
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oe--6 to 0 inches; partially decomposed moss and roots; clear smooth boundary.  (5 to 9 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "texture_class": "silt loam",
+        "pH": 5.2,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 6 inches; black (N2/0) silt loam; weak fine subangular blocky structure; very friable; nonsticky and nonplastic; few fine roots; strongly acid (pH 5.2); clear smooth boundary.  (2 to 8 inches thick)"
+      },
+      {
+        "name": "Cf",
+        "top": 15,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "narrative": "Cf--6 to 16 inches; permafrost; frozen dark grayish brown (10YR 3/2) silt loam."
+      }
+    ]
+  ]
 }

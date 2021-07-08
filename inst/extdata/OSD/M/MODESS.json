@@ -56,5 +56,116 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are: a mollic epipedon from the soil surface to 11 inches (A1, A2 horizons); a cambic horizon from 11 to 18 inches (Bw horizon); a calcic horizon from 18 to 30 inches (Bk horizon); a paralithic contact at 38 inches (Cr horizon); a lithic contact at 58 inches (R horizon); a particle-size control section from 10 to 38 inches (A2, Bw, Bk, BC horizons). Modess soils have a frigid temperature regime and an ustic bordering on aridic moisture regime.  Gravels throughout the profile are primarily fine pea gravel less than 7 mm in diameter.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 5 inches; dark grayish brown (10YR 4/2) sandy loam, very dark brown (10YR 2/2) moist; weak fine granular structure; soft, very friable, slightly sticky and slightly plastic; many very fine and common fine and medium roots; 10 percent, mainly fine, gravel; moderately acid (pH 6.0); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 13,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--5 to 11 inches; dark brown (10YR 3/3) gravelly sandy clay loam, dark brown (10YR 3/3) moist; moderate fine subangular blocky structure; slightly hard, friable, sticky and slightly plastic; common very fine and fine and few medium roots; few very fine and fine tubular pores; 20 percent, mainly fine, gravels; neutral (pH 6.8); clear wavy boundary.  (Combined thickness of A horizons is 4 to 12 inches)"
+      },
+      {
+        "name": "Bw",
+        "top": 28,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--11 to 18 inches; yellowish brown (10YR 5/4) gravelly coarse sandy loam, brown (10YR 4/3) moist; moderate medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine and few fine and medium roots; few very fine tubular pores; 20 percent, mainly fine, gravels; neutral (pH 7.0); abrupt wavy boundary. (4 to 16 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 46,
+        "bottom": 76,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk--18 to 30 inches; pale brown (10YR 6/3) gravelly coarse sandy loam, brown (10YR 5/3) moist; weak medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; few very fine and fine roots; 30 percent, mainly fine, gravels; disseminated lime; violently effervescent; moderately alkaline (pH 8.2); gradual wavy boundary. (6 to 24 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 76,
+        "bottom": 97,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "coarse sand",
+        "cf_class": "gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "BC--30 to 38 inches; light brownish gray (2.5Y 6/2) gravelly coarse sand, olive brown (2.5Y 4/3) moist; single grain; loose, loose, non-sticky and non-plastic; abundant very fine and few fine interstitial pores; 30 percent, mainly fine, gravels; slightly effervescent; moderately alkaline (pH 8.2); abrupt wavy boundary. (0 to 16 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 97,
+        "bottom": 147,
+        "narrative": "Cr--38 to 58 inches; soft, weathered granite bedrock."
+      },
+      {
+        "name": "R",
+        "top": 147,
+        "narrative": "R--58 inches; hard granite bedrock."
+      }
+    ]
+  ]
 }

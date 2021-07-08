@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon -the zone from the surface to 25 inches (A1 and A2 horizons).\nArgillic horizon -the zone from 32 to 66 inches ( Bt1, Bt2 and Bt3 horizons).\nPale feature -the upper boundary of the argillic horizon is deeper than 24 inches.\nPachic feature -the mollic epipedon is thicker than 20 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "narrative": "A1--0 to 8 inches; very dark brown (10YR 3/2) silt loam, black"
+      },
+      {
+        "name": "A2",
+        "top": 20,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--8 to 25 inches; very dark grayish brown (l0YR 3/2) silt loam, black (10YR 2/1) moist; weak medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many fine and medium and few large roots; few fine interstitial pores; l0 percent gravel, slightly acid (pH 6.2); clear wavy boundary.  (14 to 22 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 64,
+        "bottom": 81,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "narrative": "E--25 to 32 inches; light brown (7.5YR 6/4) gravelly silt loam,"
+      },
+      {
+        "name": "Bt1",
+        "top": 81,
+        "bottom": 97,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "cobbly",
+        "pH": 6,
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--32 to 38 inches; reddish brown (5YR 5/4) cobbly clay, reddish brown (5YR 4/4) moist; moderate medium prismatic structure; very hard, very firm, sticky and plastic; common fine and few medium roots; common fine and medium interstitial pores; common thin continuous clay films in pores; 30 percent gravel and cobbles; medium acid (pH 6.0); gradual smooth boundary.  (4 to 18 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 97,
+        "bottom": 127,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "cobbly",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt2--38 to 50 inches; reddish brown (5YR 5/4) cobbly clay, reddish brown (5YR 4/4) moist; moderate medium prismatic structure; extremely hard, extremely firm, sticky and very plastic; common fine roots; common fine interstitial pores; 40 percent gravel and cobbles; common moderately thick continuous clay films on faces of peds; slightly acid (pH 6.3); gradual smooth boundary.  (4 to l3 inches thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 127,
+        "bottom": 168,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "narrative": "Bt3--50 to 66 inches; reddish brown (5YR 5/4) cobbly clay, reddish brown (5YR 4/4) moist; weak medium prismatic structure; very hard, very firm, sticky and plastic; few fine roots; common fine interstitial pores; 30 percent weathering limestone cobbles; common thin clay films in pores and on some faces of peds; neutral (pH 7.0)."
+      }
+    ]
+  ]
 }

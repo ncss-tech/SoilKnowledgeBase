@@ -56,5 +56,117 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from the surface of the soil to 8 inches.  This horizon exceeds 7 inches in thickness and is greater than one third its depth to carbonates. (A1 and A2 horizons)\nArgillic horizon - the zone of clay accumulation from 8 to 21 inches.  (Bt and Btk horizons)\nDuripan - the zone of silica cementation from 21 to 41 inches with indurated cap. (Bkqm1 and Bkqm2 horizons)\nParticle size control section - the zone from 8 to 21 inches.\nThe classification is based on the \"Keys to Soil Taxonomy, Eighth Edition, 1998\".  The cation exchange activity class is an estimate based on NASIS data.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 7.8,
+        "pH_class": "mildly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 2 inches; grayish brown (10YR 5/2) gravelly loam, very dark grayish brown (10YR 3/2) moist; weak fine granular structure; soft, very friable, slightly sticky and slightly plastic; common fine and very fine roots; few medium, common fine and very fine pores; 10 percent gravel; mildly alkaline (pH 7.8); clear smooth boundary. (0 to 3 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 7.8,
+        "pH_class": "mildly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--2 to 8 inches; brown (10YR 5/3) gravelly loam, dark brown (10YR 3/3) moist; weak medium granular structure parting to weak fine granular; soft, very friable, slightly sticky and slightly plastic; few medium, common fine and very fine roots; common medium, fine and very fine pores; 20 percent gravel; mildly alkaline (pH 7.8); clear wavy boundary. (5 to 8 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 20,
+        "bottom": 33,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "cobbly",
+        "pH": 7.8,
+        "pH_class": "mildly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--8 to 13 inches; brown (7.5YR 5/4) cobbly clay loam, dark brown (7.5YR 4/4) moist; moderate medium subangular blocky structure; slightly hard, firm, sticky and plastic; common medium, fine and few very fine roots; few medium, common fine and many very fine pores; common distinct clay films on faces of peds and lining pores; 25 percent cobbles; mildly alkaline (pH 7.8); clear wavy boundary. (5 to 14 inches thick)"
+      },
+      {
+        "name": "Btk",
+        "top": 33,
+        "bottom": 53,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "cobbly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Btk--13 to 21 inches; light brown (7.5YR 6/4) cobbly clay loam, strong brown (7.5YR 5/6) moist; moderate medium subangular blocky structure; hard, firm, sticky and plastic; few medium, common fine and few very fine roots; few medium, many fine and very fine pores; few faint clay films on faces of peds and lining pores; 30 percent cobbles; strongly effervescent, carbonates are disseminated; moderately alkaline (pH 8.2); clear irregular boundary. (5 to 9 inches thick)"
+      },
+      {
+        "name": "Bkqm1",
+        "top": 53,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bkqm1--21 to 34 inches; very pale brown (10YR 7/4) duripan, light yellowish brown (10YR 6/4) moist; continuously capped by very thin indurated silica laminae; extremely hard, extremely firm, slightly sticky and slightly plastic; few fine and very fine roots matted on indurated silica laminar cap; violently effervescent, carbonates are disseminated; very strongly cemented by silica and carbonates; moderately alkaline (pH 8.4); clear wavy boundary. (13 to 20 inches thick)"
+      },
+      {
+        "name": "Bkq",
+        "top": 86,
+        "bottom": 104,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bkq--34 to 41 inches; very pale brown (10YR 7/4) very gravelly sandy loam, light yellowish brown (10YR 6/4) moist; very hard, very firm, slightly sticky and slightly plastic; 40 percent gravel; strongly effervescent, carbonates occur in filaments and are disseminated; strongly discontinuous cementation by silica and carbonates; moderately alkaline (pH 8.2); clear wavy boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 104,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "narrative": "Bk--41 to 60 inches; light yellowish brown (10YR 6/4) very gravelly sandy loam, yellowish brown (10YR 5/4) moist; massive; slightly hard to soft, very friable, nonsticky and nonplastic; common medium, fine and few very fine pores; 40 percent gravel; strongly effervescent, carbonates occur in filaments and are disseminated; moderately alkaline (pH 8.2)."
+      }
+    ]
+  ]
 }

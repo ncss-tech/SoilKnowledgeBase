@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 8 cm (A1 and A2 horizons).\nArgillic horizon - The zone from 8 to 18 cm (Bt horizon).\nParalithic contact - The boundary at 18 cm to underlying soft bedrock (2Cr layer).\nParticle-size control section - The zone from the soil surface to 18 cm.  (A1, A2, and Bt horizons).\nADDITIONAL DATA: User Pedon ID 2006NV019074.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 3 cm; grayish brown (10YR 5/2) very gravelly loam, very dark grayish brown (10YR 3/2) moist; weak medium granular structure; soft, very friable, slightly sticky and nonplastic; few very fine roots; many very fine interstitial pores; 35 percent gravel, 10 percent cobbles, and 2 percent stones; neutral (pH 7.2); abrupt smooth boundary. (3 to 8 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 3,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--3 to 8 cm; brown (10YR 5/3) very gravelly loam, dark brown (10YR 3/3) moist; weak medium and fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; few fine and many very fine roots, many very fine interstitial pores; 30 percent gravel, 10 percent cobbles, and 2 percent stones; neutral (pH 6.8); clear smooth boundary. (3 to 10 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 8,
+        "bottom": 18,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay",
+        "cf_class": "very gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--8 to 18 cm; brown (7.5YR 5/4) very gravelly sandy clay, brown (7.5YR 4/4) moist; strong medium and fine subangular blocky structure; hard, firm, very sticky and moderately plastic; few medium, common fine, and many very fine roots; common fine and very fine tubular pores; continuous distinct clay films on faces of peds; 30 percent gravel, 10 percent cobbles, and 1 percent stones; neutral (pH 6.8); abrupt wavy boundary. (8 to 30 cm thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 18,
+        "texture_class": "sand",
+        "narrative": "2Cr--18 cm; soft, weathered sandstone; with clay coats, carbonate coats, and root mats along fracture planes; planes narrow and diminish with depth."
+      }
+    ]
+  ]
 }

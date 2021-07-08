@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in the profile are:\nMollic epipedon - 0 to 10 inches (A1 and A2 horizons).\nArgillic horizon - 10 to 17 inches (Btk horizon).\nLithic contact - 17 inches (upper boundary of the R layer).\nParticle-size control section - 10 to 17 inches (Btk horizon).\nResponsibility for this series was transferred from Davis to Phoenix 4/2015. The last revision to the series was 7/2006. ET\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A1--0 to 2 inches; grayish brown (10YR 5/2) very gravelly loam, very dark grayish brown (10YR 3/2) moist; moderate thick platy structure; soft, very friable, slightly sticky and slightly plastic; common very fine and few fine roots; many very fine and common fine tubular pores; 40 percent pebbles, 8 percent cobbles and 1 percent stones; very slightly effervescent; slightly alkaline (pH 7.4); abrupt wavy boundary. (1 to 3 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely cobbly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--2 to 10 inches; brown (10YR 5/3) extremely cobbly loam, dark brown (10YR 3/3) moist; moderate fine and medium subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; common very fine through very coarse roots; many very fine tubular pores; 40 percent pebbles and 25 percent cobbles; very slightly effervescent; slightly alkaline (pH 7.6); clear wavy boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Btk",
+        "top": 25,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "extremely cobbly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "very abrupt",
+        "topography": "wavy",
+        "narrative": "Btk--10 to 17 inches; light yellowish brown (10YR 6/4) extremely cobbly loam, dark yellowish brown (10YR 3/4) moist; moderate fine subangular blocky structure; slightly hard, very friable, slightly sticky and moderately plastic; many very fine, few fine through coarse roots; many very fine tubular pores; 5 percent, faint, clay films on sand grains, rock fragments and lining pores; 50 percent, fine, continuous, prominent, very pale brown (10YR 8/3), calcium carbonate pendants on undersides of rock fragments; 25 percent pebbles and 35 percent cobbles; very slightly effervescent; slightly alkaline (pH 7.6); very abrupt wavy boundary. (6 to 16 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 43,
+        "narrative": "R--17 inches; hard limestone."
+      }
+    ]
+  ]
 }

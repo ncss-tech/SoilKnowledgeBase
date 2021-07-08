@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nThese soils were formerly included in the Stephenville series.\nEdited 08/2017 - LAD-CMR: Added soil moisture statements developed using the Java Newhall Simulation Model to the range in characteristics. Added similar climatic statements to geographic setting. Removed references to weakly cemented sandstone in favor of noncemented sandstone.\nEdited 11/2014 - RFG/SCP: Converted to tabular format. Updated competing series, associated soils, and geographic setting sections.\nDiagnostic horizons and features recognized in this pedon:\nParticle-size control section: 25 to 75 cm (10 to 30 in) (Bt1 and Bt2 horizons)\nOchric epipedon: 0 to 25 cm (0 to 10 in) (A and E horizons)\nArgillic horizon: 25 to 114 cm (10 to 45 in) (Bt horizons)\nDensic contact: sandstone at 114 cm (45 in) (top of Cd horizon)\nADDITIONAL DATA: Profile No. 44, Soil Survey Laboratory Memorandum No. 2, is of the Weatherford series.\nTAXONOMIC VERSION: Keys to Soil Taxonomy, Twelfth Edition, 2014\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 10 cm (0 to 4 in); brown (7.5YR 5/2) fine sandy loam, brown (7.5YR 4/2) moist; weak medium granular structure; slightly hard, very friable; many fine roots; many fine pores; slightly acid; clear smooth boundary.  Thickness is 8 to 20 cm (3 to 8 in)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 25,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--10 to 25 cm (4 to 10 in); light brown (7.5YR 6/4) fine sandy loam, brown (7.5YR 5/4) moist; weak fine subangular blocky structure; slightly hard, very friable; common fine roots; common fine pores; slightly acid; clear wavy boundary.  Thickness is 5 to 25 cm (2 to 10 in)"
+      },
+      {
+        "name": "Bt1",
+        "top": 25,
+        "bottom": 71,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--25 to 71 cm (10 to 28 in); yellowish red (5YR 5/6) sandy clay loam, yellowish red (5YR 4/6) moist; moderate medium subangular blocky structure; very hard, friable; common fine roots; common fine pores; common distinct clay films on all faces of peds; moderately acid; gradual wavy boundary.  Thickness is 20 to 76 cm (8 to 30 in)"
+      },
+      {
+        "name": "Bt2",
+        "top": 71,
+        "bottom": 114,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 8,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--71 to 114 cm (28 to 45 in); reddish yellow (5YR 6/8) sandy clay loam, yellowish red (5YR 5/8) moist; weak coarse subangular blocky structure; very hard, friable; few fine roots; few fine pores; few faint clay films on all faces of peds; moderately acid; clear wavy boundary.  Thickness is 20 to 51 cm (8 to 20 in)"
+      }
+    ]
+  ]
 }

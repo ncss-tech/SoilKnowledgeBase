@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and other features recognized in this pedon:\nOchric epipedon - The zone from the soil surface to 10 cm (A horizon).\nArgillic horizon and particle-size control section - The zone from 10 to 46 cm (Bt1, Bt2, and Bt3 horizons).\nLithic contact - The boundary at 46 cm (R boundary).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "stony",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 10 cm; pale brown (10YR 6/3) stony silt loam, dark brown (10YR 3/3) moist; weak medium platy structure parting to weak fine granular; slightly hard, very friable, nonsticky and nonplastic; many very fine and fine, few medium and coarse roots; many very fine and fine vesicular pores; 10 percent gravel, 10 percent cobbles, 10 percent stones; slightly acid (pH 6.4) clear smooth boundary.  (5 to 15 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 10,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--10 to 20 cm; yellowish brown (10YR 5/4) gravelly clay loam, brown (10YR 4/3) moist; weak fine subangular blocky structure; hard, friable, slightly sticky and moderately plastic; common very fine and fine, few medium roots; common very fine and fine tubular and vesicular pores; 10 percent gravel, 5 percent cobbles; common faint clay films on faces of peds and in pores; slightly acid (pH 6.5); clear wavy boundary.  (0 to 13 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 20,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2--20 to 30 cm; yellowish brown (10YR 5/4) gravelly clay loam, dark brown (7.5YR 4/4) moist; strong fine and medium subangular blocky structure; very hard, very firm, moderately sticky and moderately plastic; common very fine and fine, few medium roots; many very fine and fine tubular and interstitial pores; 15 percent gravel, 5 percent cobbles; common distinct clay films on faces of peds and in pores; neutral (pH 6.6); abrupt wavy boundary.  (8 to 28 cm thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 30,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt3--30 to 46 cm; yellowish brown (10YR 5/4) gravelly clay, dark brown (7.5YR 4/4) moist; strong fine and medium prismatic structure parting to strong fine angular blocky; extremely hard, extremely firm, moderately sticky and moderately plastic; few very fine and fine roots; common very fine tubular pores; 10 percent gravel, 5 percent cobbles; continuous prominent clay films on faces of peds and in pores; neutral (pH 6.8); abrupt wavy boundary.  (10 to 20 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 46,
+        "narrative": "R--46 cm; fractured welded rhyolitic tuff."
+      }
+    ]
+  ]
 }

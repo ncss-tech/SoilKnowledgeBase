@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: 1. Geographical location (latitude and longitude) determined from the published soil survey.\n2. The use of the Scarboro series in Maine, and in MLRA 144B, is relict to before temperature classes. These have been removed from the SC file.\nDiagnostic horizons and features recognized in this pedon are:\n1. Histic epipedon - the zone from the soil surface to a depth of 8 inches (20 centimeters), (Oi and Oa horizons).\n2. Thickness of organic soil materials is 8 inches (20 centimeters).\n3. Aquic conditions - Histic epipedon or the zone from 19 to 22 inches (48 to 56 centimeters) has 50 percent or more 2 chroma with redox concentrations (Cg2 horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi -- 0 to 1 inch (0 to 3 centimeters); slightly decomposed maple leaves and other plant material"
+      },
+      {
+        "name": "Oa",
+        "top": 3,
+        "bottom": 20,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oa -- 1 to 8 inches (3 to 20 centimeters); dark brown (10YR3/3) mucky peat; thin platy structure; friable; common fine roots; very strongly acid; abrupt wavy boundary. (Combined thickness of Oi, Oe, and Oa horizons is 8 to 13 inches (20 to 33 centimeters).)"
+      },
+      {
+        "name": "A",
+        "top": 20,
+        "bottom": 36,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A -- 8 to 14 inches (20 to 36 centimeters); black (N 2/0) mucky fine sandy loam; weak medium granular structure; friable; common fine roots; very strongly acid; abrupt smooth boundary. (0 to 14 inches (0 to 36 centimeters) thick.)"
+      },
+      {
+        "name": "Cg1",
+        "top": 36,
+        "bottom": 48,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Cg1 -- 14 to 19 inches (36 to 48 centimeters); grayish brown (2.5Y 5/2) loamy sand; massive; friable; many fine roots; very strongly acid; abrupt irregular boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 48,
+        "bottom": 56,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cg2 -- 19 to 22 inches (48 to 56 centimeters); grayish brown (2.5Y 5/2) sand; massive; friable; few fine roots; 10 percent rock fragments; common medium prominent dark brown (7.5YR 3/2) areas of iron depletion and common medium prominent yellowish red (5YR 4/6) masses of iron; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Cg3",
+        "top": 56,
+        "bottom": 165,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "narrative": "Cg3 -- 22 to 65 inches (56 to 165 centimeters); grayish brown (2.5Y 5/2) gravelly sand; single grain; loose; 15 percent rock fragments; strongly acid."
+      }
+    ]
+  ]
 }

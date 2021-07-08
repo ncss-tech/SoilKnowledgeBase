@@ -56,5 +56,73 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from surface to 12 inches (A and 2Bt horizons)\nArgillic horizon - 2 to 12 inches (2Bt horizon)\nSecondary carbonates - 12 to 14 inches (2Bk horizon)\nAridic moisture regime\nParticle-size control section - 0 to 14 inches averages 13 percent rock fragments\n\"Vitri\" feature - the acid oxalate aluminum plus one-half of the acid oxalate iron times 60 plus volcanic glass is 22 from 0 to 2 inches; it is assumed there is more glass in the coarser fine earth fractions.\nADDITIONAL DATA:  Partial laboratory data is available on this soil.  See reference samples S98OR-069-003-(1-2) and S98OR-069-013-(1-2).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; very dark grayish brown (10YR 3/2) ashy loam, brown (10YR 5/3) dry; weak medium subangular blocky and weak very fine granular structure; soft, very friable, slightly sticky and slightly plastic; few fine and many very fine roots; few fine and common very fine irregular pores; 5 percent gravel; neutral (pH 6.7); abrupt smooth boundary.  (2 to 7 inches thick)"
+      },
+      {
+        "name": "2Bt",
+        "top": 5,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Bt--2 to 12 inches; dark brown (10YR 3/3) clay loam, brown (10YR 5/3) dry; moderate medium and coarse angular blocky structure; hard, firm, moderately sticky and very plastic; few fine and common very fine roots; few fine and common very fine tubular pores; many distinct clay films on ped faces; 5 percent gravel; neutral (pH 7.3); abrupt wavy boundary.  (4 to 13 inches thick)"
+      },
+      {
+        "name": "2Bk",
+        "top": 30,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "extremely gravelly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Bk--12 to 14 inches; dark brown (10YR 3/3) extremely gravelly clay loam, brown (10YR 5/3) dry; moderately fine and medium subangular blocky structure; hard, firm, moderately sticky and very plastic; carbonates coating the underside of rocks; strongly effervescent; 60 percent gravel; moderately alkaline (pH 8.4); abrupt wavy boundary. (0 to 3 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 36,
+        "narrative": "2R--14 inches; fractured volcanic tuff"
+      }
+    ]
+  ]
 }

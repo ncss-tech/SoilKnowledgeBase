@@ -56,5 +56,61 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon: 0 to 8 inches, Ap\nArgillic horizon: 8 to 30 inches, Bt1, Bt2\nLithic contact at 30 inches\nThe 2006 revision better defined the location; updated the competing series and associated soils and revised  drainage and permeability statements.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; brown (10YR 4/3) loam; weak fine granular structure; very friable; common fine roots; slightly acid; clear smooth boundary. (5 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 61,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--8 to 24 inches; strong brown (7.5YR 5/6) clay loam; moderate fine and medium subangular blocky structure; friable; common fine roots; many faint clay films on all surfaces of peds; extremely acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 61,
+        "bottom": 76,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt2--24 to 30 inches; strong brown (7.5YR 5/6) sandy clay loam; common fine distinct red (2.5YR 4/6) lithochromic mottles; moderate medium subangular blocky structure; common faint clay films on all surfaces of peds; extremely acid; abrupt smooth boundary. (Combined thickness of Bt horizon is 10 to 30 inches)"
+      },
+      {
+        "name": "R",
+        "top": 76,
+        "texture_class": "sand",
+        "narrative": "R--30 inches; hard sandstone bedrock."
+      }
+    ]
+  ]
 }

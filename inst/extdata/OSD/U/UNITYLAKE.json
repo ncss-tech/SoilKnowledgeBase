@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nochric epipedon: 1 to 4 inches; A horizon\ncambic horizon: 4 to 14 inches; Bw horizon\nandic soil properties: 1 to 14 inches; A, Bw horizons\neluvial horizon: 14 to 16 inches; 2Eb horizon\nargillic horizon: 16 to 61 inches; 2Btb1, 2Btb2 horizons\nparticle-size control section: 16 to 36 inches; 2Btb1, 2Btb2 horizons\nlinear extensibility of 7.7 in upper 100 cm of mineral soil\nabrupt clay increase from 14 percent to 60 percent at contact between 2Eb and 2Btb1 horizons\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inches; slightly decomposed leaves and moss."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--1 to 4 inches; very dark gray (10YR 3/1) ashy silt, light brownish gray (10YR 6/2) dry; moderate fine granular and weak fine and very fine subangular blocky structure; soft, friable, slightly sticky and nonplastic; many very fine and fine, and few medium and coarse roots; common fine irregular and few fine tubular pores; moderately acid (pH 5.6); clear wavy boundary. (2 to 7 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 10,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--4 to 14 inches; dark grayish brown (10YR 4/2) ashy silt, light gray (10YR 7/2) dry; weak fine and medium subangular blocky structure; soft, friable, slightly sticky and nonplastic; few very fine and common fine, medium, and coarse roots; common fine tubular pores; moderately acid (pH 6.0); abrupt wavy boundary. (6 to 10 inches thick)"
+      },
+      {
+        "name": "2Eb",
+        "top": 36,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Eb--14 to 16 inches; dark grayish brown (10YR 4/2) silt, white (10YR 8/1) dry; weak very fine subangular blocky structure; slightly hard, friable, moderately sticky and moderately plastic; common fine and few medium and coarse roots; common fine and few medium tubular pores; slightly acid (pH 6.1); abrupt wavy boundary. (1 to 11 inches thick)"
+      },
+      {
+        "name": "2Btb1",
+        "top": 41,
+        "bottom": 79,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Btb1--16 to 31 inches; dark brown (10YR 3/3) clay, brown (10YR 5/3) dry; weak to moderate fine and medium angular blocky structure; extremely hard, firm, moderately sticky and very plastic; many moderately thick clay films on ped faces; few fine roots in cracks; few fine tubular pores; neutral (pH 7.0); gradual smooth boundary. (13 to 29 inches thick)"
+      },
+      {
+        "name": "2Btb2",
+        "top": 79,
+        "bottom": 155,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "narrative": "2Btb2--31 to 61 inches; brown (10YR 5/3) silty clay loam, brown (10YR 5/3) dry; moderate fine and very fine angular to subangular blocky structure; hard, firm to friable, moderately sticky and moderately plastic; many thin clay films on ped faces; neutral (pH 7.3)."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,149 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The series is named for Burlingame State Park located in Charlestown, Rhode Island.\nDiagnostic horizons and features recognized in this pedon include:\n1. Peraquic feature - positive soil water potential (permanently submerged) at the soil surface\n2. Ochric epipedon - the zone from 0 to 9 cm (A1 and A2 horizons)\n3. Particle size control section - 25 to 100 cm (CA, Cg1, Cg2, Cg3, Cg4, and Cg5 horizons)\n4. Aeric feature- 48 percent of the zone from 18 to 35 cm has hue of 2.5Y and both color value moist of 4 and chroma moist of 3 (CA horizon).\n5. Nonacid reaction class - the zone from 48 to 100 cm. has a pH in water, 1:1of about 5.5 or more.\nAdditional Data: Reference sample for the typical pedon is 2011RI007001, by the University of Rhode Island, 2011. Additional reference samples include 2011RI009003, 2011RI009029, 2011RI009042, 2011RI007007, and 2011RI009056, by the University of Rhode Island, 2011.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "subaqueous"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "narrative": "A1--0 to 3 cm; black (10YR 2/1) sandy loam; massive; 6 percent organic matter; non to slightly fluid; nonsaline; moderately acid (pH 5.8); abrupt boundary."
+      },
+      {
+        "name": "A2",
+        "top": 3,
+        "bottom": 9,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "narrative": "A2--3 to 9 cm; 50 percent light brownish gray (10YR 6/2) and 50 percent strong brown (7.5YR 4/6) fine sandy loam; massive; 2 percent organic matter; nonfluid; nonsaline; moderately acid (pH 5.8); abrupt boundary. (Combined thickness of A horizons is 0 to 21 cm.)"
+      },
+      {
+        "name": "AC",
+        "top": 9,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH": 5.2,
+        "pH_class": "strongly acid",
+        "narrative": "AC--9 to 18 cm; 50 percent gray (10YR 6/1) , 50 percent black (10YR 2/1) sandy loam; massive; 4 percent organic matter; nonfluid; nonsaline; strongly acid (pH 5.2); abrupt boundary."
+      },
+      {
+        "name": "CA",
+        "top": 18,
+        "bottom": 35,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 5.5,
+        "pH_class": "strongly acid",
+        "narrative": "CA--18 to 35 cm; 48 percent olive brown (2.5Y 4/3), 48 percent very dark grayish brown (10YR 3/2) and 4 percent strong brown (7.5YR 5/8) oxidized very gravelly sandy loam; massive; 40 percent gravel; 5 percent organic matter; nonfluid; nonsaline; strongly acid (pH 5.5); abrupt boundary.  (Combined thickness of AC and CA horizons is 0 to 36 cm)"
+      },
+      {
+        "name": "Cg1",
+        "top": 35,
+        "bottom": 48,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH": 5.2,
+        "pH_class": "strongly acid",
+        "narrative": "Cg1--35 to 48 centimeters; dark grayish brown (2.5Y 4/2) loamy sand; massive; 8 percent gravel; 1 percent organic matter; nonfluid; nonsaline; strongly acid (pH 5.2); clear boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 48,
+        "bottom": 57,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "narrative": "Cg2--48 to 57 centimeters; gray (2.5Y 5/1) fine sandy loam; massive; 1 percent organic matter; nonfluid; nonsaline; moderately acid (pH 5.8); abrupt boundary."
+      },
+      {
+        "name": "Cg3",
+        "top": 57,
+        "bottom": 67,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH": 5.7,
+        "pH_class": "moderately acid",
+        "narrative": "Cg3--57 to 67 centimeters; light brownish gray (2.5Y 6/2) sand; massive; nonfluid; nonsaline; moderately acid (pH 5.7); abrupt boundary."
+      },
+      {
+        "name": "Cg4",
+        "top": 67,
+        "bottom": 91,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "loamy fine sand",
+        "pH": 5.9,
+        "pH_class": "moderately acid",
+        "narrative": "Cg4--67 to 91 centimeters; gray (2.5Y 5/1) loamy fine sand; massive; nonfluid; nonsaline; moderately acid (pH 5.9); clear boundary."
+      },
+      {
+        "name": "Cg5",
+        "top": 91,
+        "bottom": 117,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "loamy fine sand",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "narrative": "Cg5--91 to 117 centimeters; gray (2.5Y 6/1) loamy fine sand; massive; nonfluid; nonsaline; moderately acid (pH 5.8); abrupt boundary."
+      },
+      {
+        "name": "Cg6",
+        "top": 117,
+        "bottom": 128,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "narrative": "Cg6--117 to 128 centimeters; olive gray (5Y 5/2) silt loam; massive; nonfluid; nonsaline; moderately acid (pH 5.8); clear boundary."
+      },
+      {
+        "name": "Cg7",
+        "top": 128,
+        "bottom": 160,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "narrative": "Cg7--128 to 160 centimeters; gray (5Y 5/1) loamy sand; massive; nonfluid; nonsaline; moderately acid (pH 5.8). (Combined thickness of Cg horizons is 100 to 170 cm.)"
+      }
+    ]
+  ]
 }

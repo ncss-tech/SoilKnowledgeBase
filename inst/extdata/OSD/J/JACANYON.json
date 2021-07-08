@@ -56,5 +56,129 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from 0 to 11 inches.  (A and Bt1 horizons)\nArgillic horizon - the zone from 2 to 26 inches.  (Bt1, Bt2, and Bt3 horizons)\nLithic contact - sandstone at 35 inches  (R horizon)\nParticle-size control section - the zone from 2 to 22 inches  (Bt1, Bt2, and part of the Bt3 horizon)\nXeric moisture regime\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; brown (10YR 4/3) loam, very dark brown (10YR 2/2) moist; moderate fine granular structure; soft, very friable, nonsticky and nonplastic; many very fine and fine, common medium, and few coarse roots; few fine irregular pores; 5 percent gravel; neutral (pH 6.8); abrupt smooth boundary.  (2 to 4 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 5,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--2 to 11 inches; brown (10YR 4/3) gravelly loam, dark brown (10YR 3/3) moist; moderate medium subangular blocky structure; slightly hard, friable, slightly sticky and nonplastic; common medium and few fine roots; common fine and very fine tubular pores; common distinct clay films on faces of peds; 15 percent gravel; neutral (pH 6.8); clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 28,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--11 to 18 inches; dark yellowish brown (10YR 4/4) gravelly clay loam, dark brown (10YR 3/3) moist; moderate medium prismatic structure parting to moderate medium and fine subangular blocky; slightly hard, friable, slightly sticky and slightly plastic; few fine roots; common fine and very fine tubular pores; common distinct clay films on faces of peds; 15 percent gravel; neutral (pH 7.0); clear smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 46,
+        "bottom": 66,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt3--18 to 26 inches; dark yellowish brown (10YR 4/4) gravelly clay loam, dark yellowish brown (10YR 3/4) moist; moderate fine and medium subangular blocky structure; slightly hard, friable, moderately sticky and slightly plastic; few very fine roots; common fine tubular pores; common distinct clay films on faces of peds; 15 percent gravel and 5 channers; neutral (pH 7.0); clear smooth boundary.  (combined thickness of Bt horizons is 18 to 27 inches)"
+      },
+      {
+        "name": "BC1",
+        "top": 66,
+        "bottom": 76,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "channery",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BC1--26 to 30 inches; brown (10YR 4/3) channery clay loam, dark yellowish brown (10YR 4/4) moist; massive; slightly hard, friable, moderately sticky and slightly plastic; few very fine roots; few fine irregular pores; 20 percent channers; neutral (pH 7.0); clear smooth boundary."
+      },
+      {
+        "name": "BC2",
+        "top": 76,
+        "bottom": 89,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "cf_class": "very channery",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "BC2--30 to 35 inches; reddish yellow (7.5YR 6/6) very channery clay loam, yellowish brown (10YR 5/6) moist; massive; slightly hard, firm, slightly sticky and slightly plastic; 35 percent channers; neutral (pH 7.0); abrupt smooth boundary.  (combined thickness of BC horizons is 6 to 9 inches)"
+      },
+      {
+        "name": "R",
+        "top": 89,
+        "texture_class": "sand",
+        "narrative": "R--35 inches; sandstone."
+      }
+    ]
+  ]
 }

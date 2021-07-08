@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soil Interpretation Record:  Alusa Series  OK0128\nThese soils were formerly included in the Crowley series in McCurtain County, Oklahoma.\nDiagnostic horizons and features in this pedon are:\nOchric epipedon - the zone from the surface to about 9 inches. (A, Eg horizons)\nAlbic horizon - the zone from 3 to 9 inches.  (Eg horizon)\nArgillic horizon - the zone from 9 to 54 inches.  (Btg1, Btg2, Btg3 horizons)\nTypic Albaqualfs features - soils with an aquic moisture regime; an ochric epipedon; have chroma of 2 or less immediately below any Ap horizon and have dominant chroma of 2 or less in coatings on the surface of peds and mottles within peds of the Btg; have an argillic horizon and a base saturation of 35 percent or more at a depth of 72 inches below the soil surface; and have an abrupt textural change between the Eg horizon and the Btg1 horizon and have a vertical saturated hydraulic conductivity of less than 10 cm per day.\nSoil Interpretation Record:  OK0128 Alusa Series\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; grayish brown (10YR 5/2) loam; few fine faint yellowish brown redox iron concentrations; weak fine granular structure; friable; many roots; few fine brown and black concretions; medium acid; clear smooth boundary.  (2 to 5 inches thick)"
+      },
+      {
+        "name": "Eg",
+        "top": 8,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Eg--3 to 9 inches; light brownish gray (10YR 6/2) loam; common medium distinct light yellowish brown (10YR 6/4) redox iron concentrations; weak fine granular structure; friable; dark stains on faces of peds and in root channels; few fine brown and black redox concretions; medium acid; abrupt wavy boundary.  (3 to 7 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 23,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg1--9 to 20 inches; light brownish gray (10YR 6/2) clay; common medium and coarse distinct yellowish brown (10YR 5/4) and prominent yellowish red (5YR 5/8)  redox iron concentrations; moderate medium blocky structure; very firm; pressure faces on peds; common silt coatings of light gray (10YR 7/2) on faces of peds and around voids; few fine brown redox concretions; very strongly acid; gradual wavy boundary.   (8 to 30 inches thick)"
+      },
+      {
+        "name": "Btg2",
+        "top": 51,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg2--20 to 36 inches; gray (10YR 6/1) clay; common medium and coarse faint and prominent light brownish gray (10YR 6/2) redox iron depletions, and red (2.5YR 4/8) redox iron concentrations; moderate medium blocky structure; very firm; shiny faces of peds; few fine black and brown concretions; strongly acid; gradual smooth boundary.  (10 to 35 inches thick)"
+      },
+      {
+        "name": "Btg3",
+        "top": 91,
+        "bottom": 137,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg3--36 to 54 inches; gray (10YR 6/1) clay; many coarse distinct yellowish brown (10YR 5/4) and strong brown (7.5YR 5/6) redox iron concentrations; weak coarse blocky structure; very firm; few slickensides that do not intersect; many shiny pressure faces on peds; common fine brown and black concretions; neutral; gradual smooth boundary.  (0 to 20 inches thick)"
+      },
+      {
+        "name": "BCg",
+        "top": 137,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "moderately alkaline",
+        "narrative": "BCg--54 to 72 inches; gray (10YR 6/1) clay; many medium and coarse distinct yellowish brown (10YR 5/6) and strong brown (7.5YR 5/6) redox iron concentrations; weak coarse blocky structure; very firm; few intersecting slickensides; common fine and medium brown and black concretions and few calcium carbonate concretions; moderately alkaline."
+      }
+    ]
+  ]
 }

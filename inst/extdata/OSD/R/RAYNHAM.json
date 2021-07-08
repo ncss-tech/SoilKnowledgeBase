@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The Raynham series has been defined more narrowly to assure it meets the concept of poorly drained. The Tonowanda series will take in pedons that were previously considered somewhat poorly.\n2. Episaturation was retained for this revision, although it is questionable whether the soil has a relatively impermeable layer.\n3. The use of the Raynham series in Maine, and in MLRA 143 and 144B, is relict to before temperature classes. These have been removed from the SC file.\n4. Diagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon - the zone from 0 to 6 inches (0 to 15 centimeters) (Ap horizon).\nb. Cambic horizon - the zone from 6 to 22 inches (15 to 56 centimeters) (Bw and Bg horizons).\nc. Aeric feature - in 50 percent or more of the matrix, a hue of 10YR or yellower and a value and chroma, moist, of 3 or more. (Bw and B'w horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ap -- 0 to 6 inches (0 to 15 centimeters); dark grayish brown (10YR 4/2) silt loam; moderate fine and medium granular structure; friable; many roots; slightly acid; abrupt wavy boundary. (4 to 13 inches (10 to 33 centimeters) thick.)"
+      },
+      {
+        "name": "Bw",
+        "top": 15,
+        "bottom": 25,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw -- 6 to 10 inches (15 to 25 centimeters); light olive brown (2.5Y 5/4) silt loam; weak very fine and fine granular structure; friable; common roots; few fine distinct and prominent yellowish brown (10YR 5/6 and 10YR 5/8) masses of iron accumulation and few fine distinct light brownish gray (2.5Y 6/2) areas of iron depletion; slightly acid; clear wavy boundary. (0 to 10 inches (0 to 25 centimeters) thick.)"
+      },
+      {
+        "name": "Bg",
+        "top": 25,
+        "bottom": 43,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg -- 10 to 17 inches (25 to 43 centimeters); olive gray (5Y 5/2) silt loam; weak very fine and fine subangular blocky structure; friable; common roots; many fine to coarse prominent dark yellowish brown (10YR 4/4) and yellowish brown (10YR 5/6) masses of iron accumulation; slightly acid; clear wavy boundary. (5 to 15 inches (13 to 38 centimeters) thick.)"
+      },
+      {
+        "name": "B'w",
+        "top": 43,
+        "bottom": 56,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "B'w -- 17 to 22 inches (43 to 56 centimeters); olive brown (2.5Y 4/4) silt loam; weak fine and medium subangular blocky structure; friable; few roots; few fine distinct olive gray (5Y 5/2) areas of iron depletion and yellowish brown (10YR 5/6) masses of iron accumulation; slightly acid; clear wavy boundary. (0 to 8 inches (0 to 20 centimeters) thick.)"
+      },
+      {
+        "name": "C1",
+        "top": 56,
+        "bottom": 122,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C1 -- 22 to 48 inches (56 to 122 centimeters); olive gray (5Y 5/2) and dark grayish brown (2.5Y 4/2) silt loam; weak thick and very thick plate-like divisions; friable; few roots; many fine distinct and prominent yellowish brown (10YR 5/4 and 10YR 5/6) and many fine distinct olive brown (2.5Y 4/4) masses of iron accumulation; neutral; clear wavy boundary."
+      },
+      {
+        "name": "C2",
+        "top": 122,
+        "bottom": 183,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "narrative": "C2 -- 48 to 72 inches (122 to 183 centimeters); olive (5Y 4/3) silt loam; weak thick and very thick plate-like divisions; friable; few fine prominent yellowish brown (10YR 5/6) masses of iron accumulation; neutral."
+      }
+    ]
+  ]
 }

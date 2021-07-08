@@ -56,5 +56,112 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The revision of March 2008 changed the temperature regime to cryic. The revision of December 2002, adjusted horizon depths for the Oi horizon as the soil surface and verified the presence of both albic and cambic horizons. A prior revision in March 2001 updated the taxonomic classification from Loamy-skeletal, mixed, nonacid, frigid Typic Xerorthents.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 18 cm (Oi, A, and part of the E1 horizons).\nAlbic horizon - The zone from 8 to 46 cm (E1 and E2 horizons).\nCambic horizon - The zone from 8 to 152 cm (E1, E2, E and Bt1, and the E and Bt2 horizons).\nLamellae - The zone from 46 to 152 cm (E and Bt1 and the E and Bt2 horizons).\nParticle-size control section - The zone from 25 to 100 cm measured from the mineral soil surface at the top of the A horizon (part of the E2, E and Bt1 horizon and part of the E and Bt2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 3 cm; slightly decomposed plant material composed of needles, cones and twigs from white fir, Douglas-fir, and ponderosa pine; abrupt smooth boundary.  (3 to 5 cm thick)."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely stony",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--3 to 8 cm; brown (10YR 5/3) extremely stony loam, dark brown (10YR 3/3) moist; moderate medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and few fine roots; common very fine tubular and interstitial pores; 20 percent gravel, 20 percent cobbles, and 30 percent stones; neutral (pH 6.6); abrupt wavy boundary.  (5 to 13 cm thick)"
+      },
+      {
+        "name": "E1",
+        "top": 8,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely cobbly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E1--8 to 23 cm; light brownish gray (10YR 6/2) extremely cobbly loam, dark grayish brown (10YR 4/2) moist; weak fine and medium subangular blocky structure; soft, very friable, slightly sticky and nonplastic; many very fine, fine and medium roots; common very fine tubular pores; 25 percent gravel, 30 percent cobbles, and 15 percent stones; slightly acid (pH 6.4); clear wavy boundary.  (8 to 18 cm thick)"
+      },
+      {
+        "name": "E2",
+        "top": 23,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely cobbly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E2--23 to 46 cm; light gray (10YR 7/2) extremely cobbly sandy loam, grayish brown (10YR 5/2) moist; weak fine and medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; many very fine, fine, medium and coarse roots; common very fine tubular and interstitial pores; 25 percent gravel, 35 percent cobbles, and 15 percent stones; slightly acid (pH 6.4); clear wavy boundary.  (18 to 36 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 46,
+        "bottom": 79,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely stony",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E and Bt1--46 to 79 cm; 95 percent light gray (10YR 7/2) extremely stony sandy loam, brown (10YR 5/3) moist (E part), with 5 percent pockets and lamellae of light yellowish brown (10YR 6/4) clay loam, yellowish brown (10YR 5/4) moist (Bt part); massive; slightly hard, very friable, slightly sticky and nonplastic; many very fine and common fine and medium roots; common very fine interstitial, and few very fine tubular pores; 30 percent gravel, 25 percent cobbles, and 20 percent stones; slightly acid (pH 6.2); gradual wavy boundary.  (25 to 46 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 79,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely stony",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "narrative": "E and Bt2--79 to 152 cm; 90 percent light gray (10YR 7/2) extremely stony sandy loam, brown (10YR 5/3) moist (E part), with 10 percent pockets and lamellae of light yellowish brown (10YR 6/4) clay loam, yellowish brown (10YR 5/4) moist (Bt part); massive; slightly hard, very friable, slightly sticky and slightly plastic; common very fine and fine, and few medium roots; common very fine interstitial and few very fine tubular pores; 30 percent gravel, 25 percent cobbles, and 25 percent stones; moderately acid (pH 5.6)."
+      }
+    ]
+  ]
 }

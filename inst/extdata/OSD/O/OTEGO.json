@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This series is the low base saturation equivalent of the Teel series.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to 13 inches (Ap horizon).\nCambic horizon - the zone from 13 to 35 inches (Bw1 and Bw2 horizons).\nAquic subgroup - evidenced by low chroma mottles within 24 inches of the soil surface (Bw1 horizon) Udic moisture regime.\nThis revision reflects a change in taxonomic classification from Coarse-silty, mixed, mesic Fluvaquentic Dystrochrepts to Coarse-silty, mixed, superactive, mesic Fluvaquentic Dystrudepts due to updates contained in the 8th Edition of Keys to Soil Taxonomy. Competing series may change as similar soils are reclassified.\nSoils mapped as Chagrin silt loam, classified as Fine- loamy, mixed, mesic Dystric Fluventic Eutrochrepts, and as Lobdell silt loam, classified as Fine-loamy, mixed, mesic Fluventic Eutrochrepts in the Soil Survey of Ashtabula County, Ohio, published 1973, were correlated to the Otego series during the modernization project of that survey.\nADDITIONAL DATA: Cornell University Soil Survey Laboratory base saturation data is available for this pedon (84-29), and other pedons from Otsego County, New York. Characterization data is available from Ashtabula County, Ohio. Refer to pedon AB-127, sample numbers 26862 to 26870; samples analyzed by the Ohio State University Soil Characterization Laboratory, Columbus, Ohio.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 13 inches; dark grayish brown (10YR 4/2) silt loam, pale brown (10YR 6/3) dry; moderate fine granular structure; friable; common medium and fine roots; neutral (limed); abrupt smooth boundary. (3 to 13 inches thick.)"
+      },
+      {
+        "name": "Bw1",
+        "top": 33,
+        "bottom": 64,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1 -- 13 to 25 inches; olive brown (2.5Y 4/4) silt loam; moderate medium subangular blocky structure; very friable; common fine and medium and few coarse roots; many medium and coarse tubular and many fine and medium vesicular pores; many fine prominent grayish brown (10YR 5/2) areas of iron depletion in the matrix; few fine prominent dark yellowish brown (10YR 4/6) masses of iron accumulation in the matrix; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 64,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw2 -- 25 to 35 inches; grayish brown (10YR 5/2) and brown (10YR 5/3) silt loam; weak very coarse prismatic structure parting to moderate medium and fine subangular blocky; very friable; common medium distinct gray (10YR 6/1) areas iron depletion in the matrix; common fine distinct yellowish brown (10YR 5/6) masses of iron accumulation in the matrix; slightly acid; gradual smooth boundary. (Combined thickness of the Bw horizons is 9 to 35 inches.)"
+      },
+      {
+        "name": "C1",
+        "top": 89,
+        "bottom": 152,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C1 -- 35 to 60 inches; gray (5Y 6/1) silt loam; massive; friable; common medium prominent strong brown (7.5YR 5/6) and many coarse prominent brown (7.5YR 4/4) masses of iron accumulation in the matrix; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "C2",
+        "top": 152,
+        "bottom": 183,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C2 -- 60 to 72 inches; gray (5Y 6/1) loam with thin lenses of silt; massive; friable; 5 percent rock fragments; many coarse prominent strong brown (7.5YR 5/6) and many coarse prominent reddish brown (5YR 4/4) masses of iron accumulation in the matrix; massive; friable; slightly acid; clear smooth boundary. (Combined thickness of the C horizons is 0 to 37 inches thick.)"
+      },
+      {
+        "name": "2C",
+        "top": 183,
+        "bottom": 203,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "neutral",
+        "narrative": "2C -- 72 to 80 inches; multicolored very gravelly sandy loam; massive; non sticky and non-plastic; 45 percent rock fragments; neutral."
+      }
+    ]
+  ]
 }

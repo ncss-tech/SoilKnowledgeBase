@@ -56,5 +56,73 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nUnicoi soils formerly were included in the Ramsey series and classified in Lithosols great soil group.  The 12/97 revision placed Unicoi soils in a semiactive CEC activity class.  The 3/99 revision updated the classification to 8th Edition to Keys to Soil Taxonomy (1998) standards and expanded the lower slope range from 8 to 7 percent to facilitate the correlation of Grayson County, Virginia.  Fine sandy loam texture was added to the RIC for the Bw and C horizons.  The 6/00 revision reflects the movement of the official type location from Monroe County, TN to Johnson County, TN.  10/13 revision verifies classification --11th Edition of Keys to Soil Taxonomy.  Note-mineral surface layers typically 3-5 inches thick\nDiagnostic horizons and features recognized in this pedon are:\na.  Ochric epipedon-- the zone from the 0 to 18 cm, 0 to 7 inches (Oe, Oa, A1, and BA horizons) b.  Cambic horizon-- the zone from 18 to 43 cm, 7 to 17 inches (Bw horizon)\nc.  Lithic contact--the occurrence of hard bedrock at 43 cm, 17 inches (R horizon)\nADDITIONAL DATA:\nSoil Characterization Data is available from the Kellogg Soil Survey Laboratory (KSSL) website: http://ncsslabdatamart.sc.egov.usda.gov/querypage.aspx\nSIR = TN0054; TN0148, Variant\nRevised: 12/97-RLL, RRD; 3/99-DHK; 6/99, 10/01-MKC; 10/13-Semi tab format and minor changes to Range in Characteristics, MLRA 130-B.\n________________________________________\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {}
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oe--0 to 3 cm, (0 to 1 inch); moderately decomposed pine needles and hardwood leaves."
+      },
+      {
+        "name": "Oa",
+        "top": 3,
+        "bottom": 5,
+        "narrative": "Oa--3 to 5 cm (1 to 2 inches); highly decomposed litter in a fibrous root mat."
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very cobbly",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--5 to 8 cm (2 to 3 inches); very dark grayish brown (10YR 3/2) very cobbly sandy loam; weak fine granular structure; very friable; many fine and medium, few coarse roots; 40 percent metasandstone cobbles and gravels by volume; strongly acid; abrupt wavy boundary.  (3 to 15 cm, 1 to 6 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 8,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very cobbly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BA--8 to 18 cm (3 to 7 inches); brown (10YR 5/3) very cobbly sandy loam; weak fine and medium granular structure; very friable; many fine and medium, few coarse roots; 40 percent by metasandstone cobbles and gravels by volume gravels; strongly acid; clear wavy boundary.  (0 to 13 cm, 0 to 5 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 18,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "very cobbly",
+        "pH_class": "strongly acid",
+        "narrative": "Bw--18 to 43 cm (7 to 17 inches); yellowish brown (10YR 5/6) very cobbly sandy loam; weak fine subangular blocky structure; very friable; common fine, medium, and coarse roots; 50 percent metasandstone cobbles and gravels by volume; strongly acid.  (13 to 33 cm, 5 to 13 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 43,
+        "bottom": 64,
+        "texture_class": "sand",
+        "narrative": "R--43 to 64 cm (17 to 25 inches); hard metasandstone bedrock."
+      }
+    ]
+  ]
 }

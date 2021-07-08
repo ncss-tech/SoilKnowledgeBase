@@ -56,5 +56,97 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon\nare:\nOchric Epipedon - The zone from the surface to 10 inches (A, Bw, Bk1\nhorizons)\nCalcic Horizon - The zone from 13 to 31 inches (Bk2 and Bk3 horizons)\nParticle Size Control Section - The zone from 10 to 40 inches (Bk1,\nBk2, Bk3, and 2Bkz horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "narrative": "A--0 to 2 inches; pale brown (10YR 6/3) silt loam, brown (10YR 4/3)"
+      },
+      {
+        "name": "Bw",
+        "top": 5,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "narrative": "Bw--2 to 7 inches; very pale brown (10YR 7/3) silt loam, brown"
+      },
+      {
+        "name": "Bk1",
+        "top": 18,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "narrative": "Bk1--7 to 13 inches; very pale brown (10YR 7/3) silt loam, dark"
+      },
+      {
+        "name": "Bk2",
+        "top": 33,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "narrative": "Bk2--13 to 25 inches; very pale brown (10YR 8/3) silt loam,"
+      },
+      {
+        "name": "Bk3",
+        "top": 64,
+        "bottom": 79,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "narrative": "Bk3--25 to 31 inches; white (10YR 8/2) silt loam, brown (10YR 5/3)"
+      },
+      {
+        "name": "2Bkz",
+        "top": 79,
+        "bottom": 107,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "cf_class": "very gravelly",
+        "narrative": "2Bkz--31 to 42 inches; very pale brown (10YR 7/3) very gravelly"
+      },
+      {
+        "name": "2Ckz",
+        "top": 107,
+        "bottom": 127,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "cf_class": "very gravelly",
+        "narrative": "2Ckz--42 to 50 inches; very pale brown (10YR 7/3) very gravelly"
+      },
+      {
+        "name": "3C",
+        "top": 127,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "narrative": "3C--50 to 60 inches; pale brown (10YR 6/3) extremely gravelly loamy"
+      }
+    ]
+  ]
 }

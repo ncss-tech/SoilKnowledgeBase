@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Beltsville lab data shows these soils to have more than 30 percent total weatherable minerals.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nSC0057 SEEWEE      0-  2   60- 66  230-250  48- 59     0-  50\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nSC0057 NONE   RARE   1.0-2.0  APPARENT NOV-APR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nSC0057  0-21  LFS LS FS               0-  0 100-100  0- 8   1-  3\nSC0057 21-30  FS S                    0-  0 100-100  0- 6   1-  3\nSC0057 30-65  FS S                    0-  0 100-100  0- 6   1-  3\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nSC0057  0-21  3.6- 6.5  1.-3.  0- 0   6.0-  20  LOW\nSC0057 21-30  4.5- 6.0    -    0- 0   2.0- 6.0  LOW\nSC0057 30-65  4.5- 6.0    -    0- 0   6.0-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loamy fine sand",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 6 inches; black (10YR 2/1) loamy fine sand; weak, fine granular structure; very friable; many fine and medium roots; extremely acid; clear smooth boundary.  (5 to 7 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 15,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--6 to 11 inches; dark grayish brown (10YR 4/2) loamy fine sand; weak, fine granular structure; very friable; many fine and few medium roots; strongly acid; clear smooth boundary.  (3 to 9 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 28,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loamy fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--11 to 21 inches; brown (10YR 5/3) loamy fine sand; common medium faint yellowish brown (10YR 5/6) and few medium faint pale brown (10YR 6/3) mottles; weak, fine, granular structure; very friable; few fine roots; strongly acid; clear smooth boundary.  (6 to 18 inches thick)"
+      },
+      {
+        "name": "Bh",
+        "top": 53,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bh--21 to 30 inches; dark brown (10YR 3/3) fine sand; few fine faint dark grayish brown (10YR 4/2) and grayish brown (10YR 5/2) mottles; massive; firm in place; slightly brittle, loose when crushed; few fine roots and pores; old root holes and pores stained red (2.5YR 5/6); sand grains coated with organic matter; strongly acid; gradual wavy boundary.  (8 to 24 inches thick)"
+      },
+      {
+        "name": "Cg1",
+        "top": 76,
+        "bottom": 122,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Cg1--30 to 48 inches; grayish brown (10YR 5/2) fine sand; common medium faint dark brown (10YR 3/3) and yellowish brown (10YR 5/6) mottles; single grained; loose; strongly acid; gradual wavy boundary.  (14 to 22 inches thick)"
+      },
+      {
+        "name": "Cg2",
+        "top": 122,
+        "bottom": 165,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "strongly acid",
+        "narrative": "Cg2--48 to 65 inches; light brownish gray (2.5Y 6/2) fine sand; common medium distinct yellowish brown (10YR 5/6) mottles; single grained; loose; strongly acid."
+      }
+    ]
+  ]
 }

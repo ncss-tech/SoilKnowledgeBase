@@ -56,5 +56,117 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features include:\nAlbic Horizon - 18 to 23 cm\nAndic soil properties - 18 to 56 cm (assumed to meet criteria 3 for andic soil properties)\nCambic Horizon - 23 to 107 cm\nFolistic Epipedon - 0 to 18 cm\nLithologic discontinuity - 107 cm\nParaltihic conrtact - 142 cm\nParticle Size Control Section - 43 to 142 cm\n12/2012 - This OSD was updated in 2012 as part of a SDJR project.  At that time, Chuckanut was classified as an Ashy over loamy, amorphic over istoic, mesic Typic Vitrixerands.  There was no strong evidence to support this classification, therefore it was changed to an updated version of its original classification and concept. It is recommended that samples are collected for analysis to verify the presence or absence of andic and spodic soil properties.\n4/94 - Classification was changed to Ashy over loamy, amorphic over isotic, mesic Typic Vitrixerands from medial, mesic Andic Xerocherpet\n________________________________________\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 13,
+        "narrative": "Oi--0 to 13 cm; undecomposed needles, twigs, and leaves."
+      },
+      {
+        "name": "Oe",
+        "top": 13,
+        "bottom": 18,
+        "narrative": "Oe--13  to 18 cm; partially decomposed forest litter."
+      },
+      {
+        "name": "E",
+        "top": 18,
+        "bottom": 23,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 5.4,
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--18 to 23 cm; brown (7.5YR 4/2) gravelly ashy sandy loam, pinkish gray (7.5YR 7/2) dry; massive; slightly hard, friable, slightly sticky and slightly plastic; common very fine roots, many very fine irregular pores; 20 percent gravel; strongly acid (pH 5.4); abrupt wavy boundary. (0 to 8 cm thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 23,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "narrative": "Bw1--23 to 41 cm; dark yellowish brown (10YR 4/6) gravelly ashy loam, brownish yellow (10YR 6/6)"
+      },
+      {
+        "name": "Bw2",
+        "top": 41,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--41 to 56 cm; dark yellowish brown (10YR 4/4) gravelly ashy loam, light yellowish brown (10YR 6/4) dry; weak fine subangular blocky structure parting to weak medium granular; slightly hard, very friable, slightly sticky, slightly plastic and weakly smeary; few coarse and common fine roots; common medium irregular pores; 25 percent gravel, 25 percent paragravel; NaF pH 11.5; moderately acid (pH 5.8); clear wavy boundary. (13 to 23 cm thick)"
+      },
+      {
+        "name": "BC",
+        "top": 56,
+        "bottom": 107,
+        "dry_hue": "2.5Y",
+        "dry_value": 8,
+        "dry_chroma": 4,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--56 to 107 cm; olive brown (2.5Y 4/4) gravelly sandy loam, pale yellow (2.5Y 8/4) dry; weak coarse subangular blocky structure; soft, friable, nonsticky and nonplastic; very few fine roots; few medium irregular pores; 20 percent gravel and 30 percent paragravel; NaF pH 10.0; moderately acid (pH 5.6); gradual wavy boundary. (46 to 64 cm thick)"
+      },
+      {
+        "name": "2C",
+        "top": 107,
+        "bottom": 142,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 5.4,
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "2C--107 to 142 cm; olive brown (2.5Y 4/4) gravelly loam, pale yellow (2.5Y 7/4) dry; massive; slightly hard, friable, slightly sticky and slightly plastic; very few very fine roots; common very fine irregular pores; 20 percent gravel and 25 percent paragravel; NaF pH 9.0; strongly acid (pH 5.4); abrupt smooth boundary. (0 to 51 cm thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 142,
+        "texture_class": "sand",
+        "narrative": "2Cr--142 cm; paralithic contact with sandstone."
+      }
+    ]
+  ]
 }

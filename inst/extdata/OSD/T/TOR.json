@@ -56,5 +56,70 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Original classification placed Tor in the great group of Haplaquepts. Because of changes established in the 5th and 6th editions of `Keys to Soil Taxonomy' this soil now classifies in the great group of Endoaquepts. Competing series may change as similar soils are reclassified. Diagnostic horizons and other features recognized in the typical pedon are:\n1) Ochric epipedon - 2 to 7 inches (A horizon)\n2) Cambic horizon - from 7 to 19 inches (Bg horizon)\n3) aquic moisture conditions - as evidenced by reduced low chroma (2 or less) matrix colors and redoximorphic features from within 20 inches of the soil surface (Bg horizon -7 to 19 inches)\n4) Lithic - bedrock starting within 50 cm of the mineral soil surface at 21 inches. Mineral soil surface starts at 2 inches.\nSoil Interpretation Record: NY0343, NY0344\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "Oi--0 to 2 inches; organic layer of roots, leaf and twig remains."
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 18,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "flaggy",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--2 to 7 inches; dark brown (7.5YR 3/2) flaggy loam; weak fine granular structure; very friable; many fine and medium roots; 25 percent rock fragments; strongly acid; clear wavy boundary (2 to 6 inches thick)."
+      },
+      {
+        "name": "Bg",
+        "top": 18,
+        "bottom": 48,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very flaggy",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg--7 to 19 inches; dark reddish gray (5YR 4/2) very flaggy loam; weak fine subangular blocky structure; friable: many medium and fine roots; few fine distinct brown (7.5YR 4/3) masses of iron oxides; 50 percent rock fragments; strongly acid; clear wavy boundary (8 to 14 inches thick)."
+      },
+      {
+        "name": "C",
+        "top": 48,
+        "bottom": 53,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very flaggy",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C--19 to 21 inches; dark reddish gray (5YR 4/2) very flaggy loam, weak medium platy structure; firm; few fine roots; 50 percent rock fragments; strongly acid; clear smooth boundary (0 to 4 inches thick)."
+      },
+      {
+        "name": "2R",
+        "top": 53,
+        "texture_class": "sand",
+        "narrative": "2R--21 inches, fractured, massive red and olive sandstone."
+      }
+    ]
+  ]
 }

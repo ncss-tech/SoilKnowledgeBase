@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon:\nOchric epipedon -- 0 12 cm (Oi, A horizon)\nCambic horizon -- 12 to 52 cm (Bw1, Bw2 horizons)\nVitrandic feature -- 4 to 29 cm (A, Bw1 horizons)\nParticle-size control section -- 29 to 104 cm (Bw2, part of C horizons)\nADDITIONAL DATA: Partial laboratory data are available on these soils KSSL #85P0893.\nTaxonomic version: Keys to Soil Taxonomy, Twelfth Edition, 2014.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 0,
+        "bottom": 4,
+        "narrative": "0i--0 to 4 cm; undecomposed needles, twigs, bark, and grass. (0 to 5 cm thick)"
+      },
+      {
+        "name": "A",
+        "top": 4,
+        "bottom": 12,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--4 to 12 cm; brown (10YR 5/3) ashy sandy loam, dark brown (10YR 3/3) moist; weak very fine and fine granular structure; soft, very friable, nonsticky and nonplastic; common roots; common fine and very fine pores; 5 percent gravel; neutral (pH 6.6); clear smooth boundary. (8 to 18 cm thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 12,
+        "bottom": 29,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw1--12 to 29 cm; yellowish brown (10YR 5/4) ashy sandy loam, dark yellowish brown (10YR 3/4) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; common roots; common fine and very fine pores; 5 percent gravel; slightly acid (pH 6.4); gradual smooth boundary. (8 to 25 cm thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 29,
+        "bottom": 52,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "texture_class": "coarse sandy loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw2--29 to 52 cm; light yellowish brown (10YR 6/4) coarse sandy loam, dark yellowish brown (10YR4/4) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; common roots; common fine and very fine pores; 5 percent gravel; slightly acid (pH 6.2); abrupt wavy boundary. (0 to 23 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 52,
+        "bottom": 156,
+        "texture_class": "coarse sand",
+        "cf_class": "very gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "narrative": "C--52 to 156 cm; multicolored very gravelly coarse sand; single grain; loose; few roots; 40 percent gravel, 15 percent cobbles and stones; slightly acid (pH 6.4)."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,126 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from 0 to 10 inches (A1 and A2  horizons)\nArgillic horizon - the zone from 10 to 28 inches (Bt1 and Bt2 horizons)\nCalcic horizon -  the zone from 28 to 36 inches (Bk and Bkq horizons)\nParticle-size control section - the zone from 10 to 40 inches (Bt1, Bt2,  Bk and 2Bqk horizons) because the argillic horizon is less than 20 inches thick and contrasting material is below the argillic horizon but with 40 inches of the surface.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 3 inches; brown (10YR 5/3) loam, dark brown (10YR 3/3)  moist; moderate fine granular structure; slightly hard, friable,  slightly sticky and slightly plastic; many very fine and fine roots;  many very fine irregular pores; 3 percent gravel; slightly alkaline (pH  7.4); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "loam",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--3 to 10 inches; brown (10YR 5/3) loam, dark brown (10YR 3/3)  moist; moderate fine subangular blocky structure; slightly hard,  friable, slightly sticky and slightly plastic; common very fine, fine  and medium roots; common very fine tubular pores; 2 percent gravel; slightly alkaline (pH 7.5); clear wavy boundary.  (Combined thickness of  the A horizons is 10 to 12 inches)"
+      },
+      {
+        "name": "Bt1",
+        "top": 25,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "narrative": "Bt1--10 to 17 inches; yellowish brown (10YR 5/4) clay loam, dark yellowish brown (10YR 3/4) moist; moderate medium prismatic structure parting to  moderate fine subangular blocky; slightly hard, firm, slightly sticky and moderately plastic; common very fine, fine and medium roots; common very fine  tubular and irregular pores; common faint clay films on faces of peds  and lining pores; 1 percent gravel; slightly alkaline (pH 7.8); clear wavy  boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 43,
+        "bottom": 71,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--17 to 28 inches; yellowish brown (10YR 5/4) loam, dark  yellowish brown (10YR 4/4) moist; moderate fine prismatic structure  parting to moderate fine subangular blocky; slightly hard, firm,  slightly sticky and slightly plastic; common very fine, fine and medium  roots; common very fine tubular pores; few faint clay films on faces  of peds and lining pores; 3 percent gravel; moderately alkaline (pH  8.1); clear wavy boundary.  (Combined thickness of the Bt horizons is 10 to 20 inches)"
+      },
+      {
+        "name": "Bk",
+        "top": 71,
+        "bottom": 91,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bk--28 to 36 inches; very pale brown (10YR 8/3) gravelly loam, pale  brown (10YR 6/3) moist; moderate thin platy structure; hard, firm,  slightly sticky and slightly plastic; few very fine roots; common very  fine irregular pores; 30 percent gravel, 2 percent cobbles; prominent  lime coatings on all sides of coarse fragments; strongly effervescent; moderately alkaline (pH 8.0); clear wavy boundary.  (8 to 15 inches  thick)"
+      },
+      {
+        "name": "2Bkq",
+        "top": 91,
+        "bottom": 102,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "coarse sand",
+        "cf_class": "extremely gravelly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2Bkq--36 to 40 inches; brown (10YR 5/3) extremely gravelly loamy  coarse sand, dark brown (10YR 3/3) moist; weak coarse subangular blocky  structure; slightly hard, very friable, nonsticky and nonplastic; few  very fine and fine roots; common very fine tubular pores; 60 percent  gravel, 5 percent cobbles; many prominent lime and silica coatings on  coarse fragments; slightly effervescent; slightly alkaline (pH 7.8);  gradual wavy boundary.  (5 to 15 inches)"
+      },
+      {
+        "name": "2Bq",
+        "top": 102,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "cf_class": "extremely gravelly",
+        "pH": 7.9,
+        "pH_class": "moderately alkaline",
+        "narrative": "2Bq--40 to 60 inches; brown (10YR 5/3) extremely gravelly sand, dark  brown (10YR 3/3) moist; weak coarse subangular blocky structure; hard,  friable, nonsticky and nonplastic; few very fine roots; common very fine  irregular pores; 65 percent gravel, 5 percent cobbles; many prominent  silica coatings on coarse fragments; moderately alkaline (pH 7.9)."
+      }
+    ]
+  ]
 }

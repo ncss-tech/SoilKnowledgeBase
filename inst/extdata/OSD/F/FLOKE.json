@@ -56,5 +56,97 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 20 cm (A1 and A2 horizons).\nArgillic horizon - The zone from 20 to 30 cm (2Bt horizon).\nAbruptic feature - Clay increase of about 30 percent between the A2 and 2Bt horizon.\nIndurated duripan - The zone from 38 to 50 cm (3Bkqm horizon).\nParticle-size control section - The zone from 20 to 30 cm (2Bt horizon).\nADDITIONAL DATA:  Oregon State Characterization Laboratory, Soils Department, OSU, Corvallis, 1967; profiles S67OR-037-001, S67OR-037-002, S67OR-037-003, and S67OR-037-004.  Type location is S67OR-037-003.\nNSTH 17, RECLASSIFICATION ONLY, 3/95\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very stony",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 8 cm; light brownish gray (10YR 6/2) very stony loam, very dark grayish brown (10YR 3/2) moist; weak very thin platy structure; slightly hard, friable, slightly sticky and nonplastic; many very fine roots; many very fine and fine vesicular pores; 20 percent stones, 10 percent cobbles and 10 percent gravel; moderately alkaline (pH 8.4); abrupt smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very stony",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A2--8 to 20 cm; light brownish gray (10YR 6/2) very stony loam, dark grayish brown (10YR 4/2) moist; moderate thin platy structure parting to moderate fine angular blocky; hard, firm, moderately sticky and slightly plastic; many very fine roots; many very fine vesicular pores; 20 percent stones, 5 percent cobbles and 20 percent gravel; moderately alkaline (pH 8.0); abrupt smooth boundary.  (Combined thickness of the A horizon is 8 to 25 cm thick)"
+      },
+      {
+        "name": "2Bt",
+        "top": 20,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH": 7.9,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bt--20 to 30 cm; brown (10YR 5/3) clay, brown (10YR 4/3) moist; strong fine prismatic structure; very hard, very firm, very sticky and very plastic; few very fine roots; many very fine irregular pores; common distinct clay films on peds and in pores; 10 percent gravel; moderately alkaline (pH 7.9); gradual smooth boundary.  (8 to 15 cm thick)"
+      },
+      {
+        "name": "2Bk",
+        "top": 30,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "2Bk--30 to 38 cm; pale brown (10YR 6/3) clay loam, brown (10YR 4/3) moist; massive; hard, firm, moderately sticky and moderately plastic; few very fine roots; 10 percent gravel; slightly effervescent, carbonates are disseminated; moderately alkaline (pH 8.2); abrupt smooth boundary.  (3 to 15 cm thick)"
+      },
+      {
+        "name": "3Bkqm",
+        "top": 38,
+        "bottom": 51,
+        "narrative": "3Bkqm--38 to 51 cm; indurated duripan.  (10 to 38 cm thick)"
+      },
+      {
+        "name": "4R",
+        "top": 51,
+        "narrative": "4R--51 cm; basalt"
+      }
+    ]
+  ]
 }

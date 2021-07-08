@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Cation-exchange activity class is presumed from a review of data for similar soils.  Changes in competing series may result from updates in classification.\nDiagnostic horizons and features recognized in this pedon are:\n1.  Ochric epipedon - the zone from 0 to 10 inches (Ap horizon).\n2.  Cambic horizon - the zone from 10 to 27 inches (Bw1 and Bw2 horizons).\n3.  Argillic horizon - the zone from 27 to 36 inches (Bt and 2Bt horizons).\n4.  Fine-loamy feature - the zone from 27 to 36 inches has more than 15 percent sand that is coarser than very fine sand, including gravel, and clay content averages about 22 percent (Bt and 2Bt horizons).\n5. Oxyaquic feature - presence of a saturated layer at 31 inches (2Bt horizon) for more than 1 month most years.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 10 inches; very dark grayish brown (10YR 3/2) sandy loam, light brownish gray (10YR 6/2) dry; weak medium granular and weak medium subangular blocky structure; friable; many fine roots; moderately acid; abrupt wavy boundary.  (8 to 11 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 25,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--10 to 16 inches; dark yellowish brown (10YR 4/4) sandy loam; weak medium subangular blocky structure; friable; many fine roots; moderately acid; clear smooth boundary.  (4 to 8 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 41,
+        "bottom": 69,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw2--16 to 27 inches; light olive brown (2.5Y 5/6) sandy loam; weak medium subangular blocky structure; friable; common fine roots; common faint clay films on sand grains and some clay bridges between sand grains; moderately acid; clear smooth boundary.  (6 to 12 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 69,
+        "bottom": 79,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt1--27 to 31 inches; yellowish brown (10YR 5/4) sandy loam; weak medium angular blocky structure; friable; slightly sticky, nonplastic; few fine roots; common thin clay films on sand grains and clay bridges between most sand grains; moderately acid; abrupt smooth boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "2Bt2",
+        "top": 79,
+        "bottom": 91,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2Bt2--31 to 36 inches; reddish brown (5YR 4/4), yellowish red (5YR 5/6 and 5/8), olive gray (5Y 5/2), olive (5Y 5/3 and 5/4), and light olive gray (5Y 6/2) poorly mixed or folded thin strata of sandy clay loam, silty clay loam, silty clay, and clay; weak coarse prismatic structure parting to moderate coarse angular blocky; extremely firm, very sticky, very plastic; moderate clay films on most faces of peds and in some pores; 5 percent gravel; moderately acid; clear smooth boundary.  (4 to 7 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 91,
+        "bottom": 165,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "moderately acid",
+        "narrative": "2C--36 to 65 inches; reddish brown (5YR 4/4), yellowish red (5YR 5/6 and 5/8), olive gray (5Y 5/2), olive (5Y 5/3 and 5/4), and light olive gray (5Y 6/2) poorly mixed or folded thin strata of sandy clay loam, silty clay loam, silty clay, and clay; massive; extremely firm, very sticky, very plastic; 5 percent gravel; moderately acid."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic features include a cambic horizon from 3 to 11 inches and a lithic contact at 11 inches.  Last updated by the state 3/91.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; brown (7.5YR 4/4) sandy loam, dark brown (7.5YR 3/4) moist; weak very fine granular structure; soft, very friable, nonsticky and nonplastic; many very fine roots; neutral (pH 7.2); clear smooth boundary.  (2 to 5 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 8,
+        "bottom": 28,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw--3 to 11 inches; brown (7.5YR 4/4) sandy loam, dark brown (7.5YR 3/4) moist; weak medium subangular blocky structure; slightly hard, friable, nonsticky and nonplastic; few fine and medium roots; neutral (pH 7.2); abrupt smooth boundary.  (6 to 17 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 28,
+        "texture_class": "sand",
+        "narrative": "R--11 inches; hard sandstone."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,62 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon include:\nOchric epipedon: the zone from 0 to 3 inches. (A horizon)\nParalithic contact - at 12 inches (top of the Cr horizon).\nDifferentia with the Orella series needs to be better defined.\nSeries updated from 7/87 to 2/94 for use on the Kit Carson County, Colorado, final correlation. CJH\nGeographic Setting: Revised MAP to 13 inches at the type location and ranged the MAP from 8 to 14 inches. CJH\nAdded, \"Diagnostic features include a paralithic contact at 12 inches.  Last updated by the state 2/94. CJH\n11/21/96 CJH\n1.  Allowed clay texture in range of A horizon.\n2.  Range dry value in C horizon to 5 or 6 and chroma to 3 or 4.\n3.  Add descriptive material to Cr horizon.\n4.  Change mineralogy to smectitic\n7/9/97 CJH\n1. Range precipitation from 10 to 16 inches.\n12/24/2002 CJH\n1. Allow chroma of 2 in C horizon.\n2. Allow slightly alkaline reaction in C horizon.\n3. Allow very slowly permeable.\n4. Update competing series section.\n3/22/04 CJH  Transfer responsibility to Kansas MO.\n4/2004 WAW Change to semi-tabular format, update distribution and extent.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; light brownish gray (2.5Y 6/2) clay, dark grayish brown (2.5Y 4/2) moist; moderate very fine granular structure; hard, friable, strongly effervescent; slightly alkaline; clear smooth boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 8,
+        "bottom": 30,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C--3 to 12 inches; light yellowish brown (2.5Y 6/4) clay, light olive brown (2.5Y 5/4) moist; weak fine subangular blocky structure; hard, firm; strongly effervescent; few, fine, and medium clusters of gypsum; moderately alkaline; clear smooth boundary.  (7 to 12 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 30,
+        "bottom": 61,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "strongly alkaline",
+        "narrative": "Cr--12 to 24 inches; light yellowish brown (2.5Y 6/4) partially weathered, platy, clay shale, light olive brown (2.5Y 5/4) moist; massive; hard, very firm; strongly effervescent; few fine nests of gypsum; strongly alkaline."
+      }
+    ]
+  ]
 }

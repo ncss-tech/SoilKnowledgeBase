@@ -56,5 +56,63 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from the surface to 18 inches (A1 and A2 horizons)\nCambic horizon - at 18 to 28 inch depths (Bw horizon)\nDepth to bedrock - 20 to 40 inches\nCoarse fragments in control section - 40 to 70 percent\nMoisture regime - xeric\nTemperature regime - mesic\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 4 inches; grayish brown (10YR 5/2) shaly loam, dark brown (10YR 3/3) moist; weak fine granular structure; soft, friable; common fine and very fine roots; many fine and very fine tubular and interstitial pores; 20 percent shale fragments; neutral (pH 7.0); clear smooth boundary.  (4 to 6 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--4 to 18 inches; brown (10YR 5/3) very shaly loam, dark brown (10YR 3/3) moist; weak fine platy structure; soft, friable; common fine and very fine roots; common fine and very fine tubular and interstitial pores; 50 percent shale fragments; neutral (pH 7.2); clear smooth boundary.  (6 to 14 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 46,
+        "bottom": 71,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--18 to 28 inches; yellowish brown (10YR 5/4) very shaly loam, dark yellowish brown (10YR 3/4) moist; weak fine granular structure; soft, friable, slightly sticky and slightly plastic; few very fine roots; many fine tubular pores; 55 percent shale fragments; neutral (pH 7.2); clear smooth boundary.  (10 to 23 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 71,
+        "narrative": "R--28 inches; shale bedrock."
+      }
+    ]
+  ]
 }

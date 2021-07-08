@@ -56,5 +56,64 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in the profile are:\n1.  Mollic epipedon -- 0 to 89 cm (A1 and A2 horizons).\n1.1  Color values meet mollic criteria.  (10YR 5/3).\nOther Soil Characteristics:\n1.  Lacks diagnostic subsoil horizons because:\n1.1  No clay films, no segregated lime, no pedogenic structure.\n2.  The textural control section averages 35 to 60 percent rock fragments.\n3.  The soil moisture regime is aridic-xeric.  It is dry for about 165 days and is above 5 degrees C. for about 260 days.  It is dry greater than half the time the soil temperature is above 5 degrees C.\n4.  The soil temperature regime is on the cool end of mesic. M.A.S.T. is 8.3 to 14.4 degrees C.  This is extrapolated from actual temperature transect data over the past years using Rod Arkley`s equation.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "narrative": "A1--0 to 20 cm; brown (10YR 5/3) sandy loam, very dark grayish brown (10YR 3/2) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; common very fine, few fine and medium roots; common very fine interstitial pores; 3 percent gravel; slightly acid (pH 6.1); clear wavy  boundary.  (13 to 25 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 20,
+        "bottom": 89,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A2--20 to 89 cm; brown (10YR 5/3) very gravelly sandy loam, dark brown (10YR 3/3) moist; weak fine angular blocky structure; hard, very friable, nonsticky and nonplastic; few fine and medium roots; common very fine interstitial pores; 35 percent gravel, and 15 percent cobbles; slightly acid (pH 6.1); abrupt smooth boundary.  (50 to 75 cm thick)"
+      },
+      {
+        "name": "2C",
+        "top": 89,
+        "bottom": 152,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH": 7,
+        "pH_class": "neutral",
+        "narrative": "2C--89 to 152 cm; light yellowish brown (2.5Y 6/4) sand, dark yellowish brown (10YR 4/4) moist; single grain; loose, nonsticky and nonplastic; few very fine roots; many fine interstitial pores; 2 percent gravel; neutral (pH 7.0)."
+      }
+    ]
+  ]
 }

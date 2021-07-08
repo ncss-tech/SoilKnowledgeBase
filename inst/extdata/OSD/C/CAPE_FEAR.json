@@ -56,5 +56,104 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nUmbric epipedon - the zone from the surface to a depth of 16 inches.  (the Ap and A horizons)\nArgillic horizon - the zone between 16 and 45 inches.  (Btg1, Btg2, and Btg3 horizons)\nAquic conditions - colors with chroma of 2 or less below the surface layer caused by saturation.\nUsed in MLRA: 133A, 153A, 152A, 153B           SIR: NC0061\nADDITIONAL DATA: None\nTABULAR SERIES DATA:\nSOI-5   Soil Name   Slope  Airtemp  FrFr/Seas  Precip   Elevation\nNC0061  CAPE FEAR   0-  2   58- 70   200-270   38- 55     5- 25\nSOI-5  FloodL FloodH  Watertable   Kind    Months    Bedrock Hardness\nNC0061 NONE    RARE     0-1.0    APPARENT  NOV-MAY       60-60\nSOI-5   Depth   Texture                3-Inch   No-10   Clay%   -CEC-\nNC0061   0-16   L SIL                   0-0    95-100   5-15     6-18\nNC0061   0-16   FSL VFSL                0-0    95-100   5-15     6-18\nNC0061  16-52   CL C SIC                0-0    95-100   35-60    8-15\nNC0061  52-62   VAR                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.   Salinity  Permeability   Shrink-Swell\nNC0061  0-16  4.5-6.5   5.-15     0-0      0.6-6.0            LOW\nNC0061  0-16  4.5-6.5   5.-15     0-0      2.0-6.0            LOW\nNC0061 16-52  3.5-6.0   .5-3.     0-0      0.06-0.2         MODERATE\nNC0061 52-62     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--O to 7 inches; black (10YR 2/1) loam, weak fine granular structure; friable; common fine roots; common fine and medium pores; few clean sand grains; slightly acid; clear smooth boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 18,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--7 to 16 inches; black (10YR 2/1) loam, weak medium granular structure; friable; common fine roots; common fine and medium pores; few clean sand grains; moderately acid; clear wavy boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 41,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btg1--16 to 20 inches; dark gray (10YR 4/1) clay loam, weak fine subangular blocky structure; firm; moderately sticky; moderately plastic, few fine roots; common fine and medium pores; common amounts of A1 material in old root holes; few fine flakes of mica and white mineral grains; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 51,
+        "bottom": 97,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg2--20 to 38 inches; gray (10YR 5/1) clay; weak medium subangular blocky structure; firm; moderately sticky; moderately plastic, few fine pores; common amounts of A1 material and very dark grayish brown (10YR 3/2) material in root holes; common fine flakes of mica and white mineral grains; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btg3",
+        "top": 97,
+        "bottom": 114,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg3--38 to 45 inches; gray (10YR 6/1) clay; weak medium subangular blocky structure; firm; moderately sticky, moderately plastic, common flakes of mica, and red and white mineral grains; this horizon contains more sand than the above horizon; strongly acid; gradual wavy boundary. (Combined thickness of the Btg horizons is 15 to 40 inches)"
+      },
+      {
+        "name": "BCg",
+        "top": 114,
+        "bottom": 132,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BCg--45 to 52 inches; light brownish gray (2.5Y 6/2) sandy clay loam; weak medium subangular blocky structure; friable; slightly sticky, slightly plastic; few flakes of mica and red and white mineral grains; common pockets of loamy sand; strongly acid; gradual smooth boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "2Cg",
+        "top": 132,
+        "bottom": 157,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "narrative": "2Cg--52 to 62 inches; light brownish gray (10YR 6/2) sand; single grained; loose; few flakes of mica and common red and white mineral grains; strongly acid."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,77 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Mongaup is the frigid equivalent of Lordstown. Original classification of Mongaup placed it in the subgroup Typic Dystrochrepts, but because of changes established in the 8th edition of \"Keys To Soil Taxonomy\", this soil now classifies in the subgroup of Typic Dystrudepts. Competing series are expected to change as similar soils are reclassified.\nDiagnostic horizons and other features recognized in the typical pedon are:\n(1) Ochric Epipedon - the zone from 0 to 3 inches (Ap horizon).\n(2) Cambic horizon - the zone from 3 to 18 inches (Bw horizons).\n(3) Udic soil moisture regime\n(4) Estimate CEC activity class as active.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A -- 0 to 3 inches; dark reddish brown (5YR 3/2), pinkish gray (5YR 6/2) dry, loam; weak fine granular structure; friable; many fine and medium roots; 10 percent rock fragments; very strongly acid; abrupt wavy boundary. (2 to 6 inches thick.)"
+      },
+      {
+        "name": "Bw1",
+        "top": 8,
+        "bottom": 30,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1 -- 3 to 12 inches; yellowish red (5YR 5/6) gravelly loam; weak medium subangular blocky structure; friable; many fine and medium roots; few large roots; common fine and medium vesicular pores; a few medium tubular pores; 20 percent rock fragments; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 30,
+        "bottom": 46,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw2 -- 12 to 18 inches; strong brown (7.5YR 5/6) gravelly loam; weak medium subangular blocky structure; friable; common fine and medium roots; few large roots; common fine and medium vesicular pores, few medium tubular pores; 20 percent rock fragments; strongly acid; clear smooth boundary. (Combined thickness of the Bw horizons is 7 to 34 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 46,
+        "bottom": 56,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "narrative": "BC -- 18 to 22 inches; brown (7.5YR 4/4) sandy loam; weak coarse subangular blocky structure; friable; many fine and medium vesicular pores, common tubular pores; 10 percent rock fragments; common coarse distinct pale brown (10YR 6/3) and prominent reddish yellow (7.5YR 6/8) masses of iron accumulation; strongly acid. (0 to 10 inches thick.)"
+      },
+      {
+        "name": "2R",
+        "top": 56,
+        "texture_class": "sand",
+        "narrative": "2R -- 22 inches; massive, hard grayish brown sandstone bedrock."
+      }
+    ]
+  ]
 }

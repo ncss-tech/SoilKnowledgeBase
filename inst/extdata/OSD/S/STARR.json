@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  These soils are presently Fluventic Dystrochrepts.  The landform position where these soils have been correlated has been dominantly foot slopes and upland depressions.  The material washed from surrounding uplands has the clay increase that qualifies as an argillic horizon.  The original type location from Pickens County, South Carolina was described in 1963 as having clay films in the B horizon.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nSC0072 STARR       0-  8   59- 63  200-240  48- 52   400-1400\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nSC0072 RARE   OCCAS  6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nSC0072  0-10  SL FSL                  0-  0  90-100  8-20  17- 22\nSC0072  0-10  L                       0-  0  90-100 10-25  17- 22\nSC0072  0-10  SIL SICL SCL            0-  0  90-100 15-35  17- 22\nSC0072 10-53  CL SCL SICL             0-  0  95-100 18-35  15- 20\nSC0072 53-70  GR-SL SCL CL            0- 10  50- 70 10-35   9- 14\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nSC0072  0-10  5.1- 6.5  .5-2.  0- 0   2.0- 6.0  LOW\nSC0072  0-10  5.1- 6.5  .5-2.  0- 0   2.0- 6.0  LOW\nSC0072  0-10  5.1- 6.5  .5-2.  0- 0   0.6- 2.0  MODERATE\nSC0072 10-53  5.1- 6.5  .5-1.  0- 0   0.6- 2.0  MODERATE\nSC0072 53-70  5.1- 6.5  .5-1.  0- 0   0.6- 2.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 10 inches; dark reddish brown (5YR 3/4) loam; moderate medium granular structure; very friable; many coarse and medium roots; many large pores; slightly acid; abrupt smooth boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 25,
+        "bottom": 76,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--10 to 30 inches; dark red (2.5YR 3/6) clay loam; weak medium subangular blocky structure; friable; many fine roots; many fine and medium pores; few fine flakes of mica; moderately acid; clear wavy boundary.  (5 to 30 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 76,
+        "bottom": 107,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--30 to 42 inches; dark red (2.5YR 3/6) clay loam; weak medium subangular blocky structure; friable; few fine roots; few medium pores; few fine flakes of mica; moderately acid; clear wavy boundary.  (5 to 15 inches thick)"
+      },
+      {
+        "name": "Bw3",
+        "top": 107,
+        "bottom": 135,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw3--42 to 53 inches; yellowish red (5YR 4/8) clay loam; weak medium subangular blocky structure; friable; few fine roots; few fine and medium pores; slightly acid; gradual wavy boundary.  (6 to 16 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 135,
+        "bottom": 178,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "narrative": "2C--53 to 70 inches; red (2.5YR 4/6) and yellowish red (5YR 4/8) gravelly sandy loam, 30 percent pebbles, 0.2 to 3 inches; massive; friable; slightly acid."
+      }
+    ]
+  ]
 }

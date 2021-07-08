@@ -56,5 +56,55 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon include:  well drained organic material from 0 to 11 inches, a lithic contact at 15 inches; pH of less than 4.5 (0.01M CaCl) in the organic layers, cryic temperature regime.\nADDITIONAL DATA:  Laboratory data is available for this soil; NSSL number 82AK-130-146 and 82AK-130-137.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi1",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi1--0 to 1 inch; undecomposed forest litter of twigs, needles, cones, and live mosses.  (1 to 2 inches thick)"
+      },
+      {
+        "name": "Oi2",
+        "top": 3,
+        "bottom": 28,
+        "moist_hue": "2.5YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH": 3.5,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi2--1 to 11 inches; very dusky red (2.5YR 2/2) and black (5YR 2.5/1) forest litter; many fine medium and coarse roots; extremely acid (pH 3.5); abrupt smooth boundary.  (7 to 18 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 28,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "cf_class": "very gravelly",
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C--11 to 15 inches; dark gray (10YR 4/1) very gravelly silt loam; weak very fine subangular blocky structure; friable; nonsticky, nonplastic; 75 percent gravel; many fine, medium, and coarse roots; very strongly acid (pH 4.5); abrupt smooth boundary.  (0 to 4 inches thick)."
+      },
+      {
+        "name": "R",
+        "top": 38,
+        "narrative": "R--15 inches; fine grained graywacke bedrock."
+      }
+    ]
+  ]
 }

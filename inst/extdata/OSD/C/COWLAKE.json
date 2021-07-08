@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 22 cm (A and AB horizons).\nArgillic horizon - The zone from about 22 cm to 30 cm (Bt horizon).\nAshy textures - Volcanic glass is 30 to 50 percent of the 0.02 to 2 mm fraction in the zone from 0 to 22 cm (A and AB horizons). Volcanic glass is 5 to 30 percent of the 0.02 to 2 mm fraction in the zone from 22 to 30 cm (Bt horizons).\nParticle-size control section - The zone from 0 to 30 cm (A, AB and Bt horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 8 cm; pale brown (10YR 6/3) very cobbly ashy loam, very dark grayish brown (10YR 3/2) moist; weak medium platy structure; slightly hard, friable, nonsticky, nonplastic; common fine and very fine roots; common fine and medium vesicular pores; 20 percent gravel, 10 percent cobbles, and 5 percent stones; slightly alkaline (pH 7.6); clear wavy boundary. (5 to 12 cm thick)"
+      },
+      {
+        "name": "AB",
+        "top": 8,
+        "bottom": 22,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "AB--8 to 22 cm; pale brown (10YR 6/3) cobbly ashy loam, very dark grayish brown (10YR 3/2) moist; weak thin and medium platy structure; slightly hard, friable, nonsticky, nonplastic; common fine and very fine roots; common fine and very fine tubular pores; 20 percent cobbles and 10 percent stones; slightly alkaline (pH 7.6); clear wavy boundary. (11 to 14 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 22,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--22 to 30 cm; brown (10YR 4/3) very gravelly ashy clay loam, dark grayish brown (10YR 4/2) moist; weak fine and medium subangular blocky structure; moderately hard, firm, slightly sticky, slightly plastic; common fine and very fine roots; common fine and very fine tubular pores; 5 percent faint clay films on all faces of peds; 30 percent gravel and 5 percent cobbles and 5 percent stones; slightly alkaline (pH 7.6); clear wavy boundary. (6 to 23 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 30,
+        "narrative": "R--30 cm; bedrock; indurated rhyolite."
+      }
+    ]
+  ]
 }

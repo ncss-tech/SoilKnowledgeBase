@@ -56,5 +56,96 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This soil has been previously included with miscellaneous land types and Sassafras and Galestown soils.  Sassafras and Galestown have siliceous mineralogy.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0211 DUMFRIES    2- 55   50- 59  175-210  35- 42   150- 400\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0211 NONE          6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0211  0-10  L                       0-  5  75- 98 10-25    -\nVA0211  0-10  SL                      0-  5  75- 98  5-20    -\nVA0211 10-29  SL L SCL                0-  5  75- 98 18-35    -\nVA0211 29-35  LS SL L                 0-  5  80-100  5-25    -\nVA0211 35-72  LS SL                   0-  2  80-100  5-20    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0211  0-10  4.5- 5.5  .5-2.  0- 0   2.0- 6.0  LOW\nVA0211  0-10  4.5- 5.5  .5-1.  0- 0   2.0- 6.0  LOW\nVA0211 10-29  4.5- 5.5  0.-.5  0- 0   2.0- 6.0  LOW\nVA0211 29-35  4.5- 5.5  0.-.5  0- 0   2.0- 6.0  LOW\nVA0211 35-72  4.5- 5.5  0.-.5  0- 0   2.0- 6.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "0--1 to 0 inch; partially decomposed hardwood leaves and twigs."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; dark grayish brown (10YR 4/2) sandy loam; moderate fine granular structure; very friable; many fine medium and coarse roots; 1 percent rounded quartz gravel; strongly acid; clear smooth boundary.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--2 to 10 inches; light yellowish brown (10YR 6/4) sandy loam; moderate fine granular structure; very friable; many fine, medium and coarse roots; 1 percent rounded quartz gravel; strongly acid; clear smooth boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 58,
+        "bottom": 74,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt2--23 to 29 inches; yellowish brown (10YR 5/8) sandy loam; common fine and medium pale brown (10YR 7/3) mottles; weak fine subangular blocky structure; friable. sticky; common fine and medium roots; common clay bridges between sand grains; 1 percent rounded quartz gravel; strongly acid; gradual smooth boundary.  (Combined thickness of the B horizon ranges from 10 to 30 inches)"
+      },
+      {
+        "name": "BC",
+        "top": 74,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "narrative": "BC--29 to 35 inches; yellowish brown (10YR 5/8) sandy loam; common fine and medium pale brown (10YR 7/3) and few white (10YR 8/2) mottles; weak fine subangular blocky structure; friable; slightly  stickly; few fine roots; strongly acid; diffuse boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "Cl",
+        "top": 89,
+        "bottom": 109,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Cl--35 to 43 inches; very pale brown (10YR 7/4) sandy loam; many coarse mottles and streaks of yellowish brown (10YR 6/8) and few white (10YR 8/2) mottles; massive; very friable; slightly sticky; few fine roots; strongly acid; gradual smooth boundary.) to 20 inches thick)"
+      },
+      {
+        "name": "C2",
+        "top": 109,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "narrative": "C2--43 to 72 inches; white (10YR 8/2) sandy loam; few fine and medium brownish yellow (10YR 6/6) mottles and streaks; massive; very friable; few lenses of silty clay up to two inches thick; few Fe-Mn concretions; strongly acid."
+      }
+    ]
+  ]
 }

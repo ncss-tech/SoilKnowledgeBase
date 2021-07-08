@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features and horizons recognized in this profile include:\nCambic horizon: from 4 to 44 inches, 9 to 55 cm\nParticle size control section (weighted average) less than 18 percent clay, greater than 15 percent fine sands and coarser, less than 35 percent coarse fragments; less the 75 percent sand and greater than 20 percent silt in the glacial till material\nTemperature regime: Cryic\nMoisture regime: Udic\nADDITIONAL DATA: National Soil Survey Laboratory data 59AK240001 and S06AK-240-005 from Southeast Fairbanks Borough, Alaska, samples by SSL Lincoln, NE, 06/1959 and 07/2006\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH": 4.2,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 4 inches; (0 to 9 cm); very dark brown (10YR 2/2) slightly decomposed organic matter; many very fine to fine roots; extremely acid (pH 4.2); clear smooth boundary. (2 to 5 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 10,
+        "bottom": 33,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--4 to 13 inches (9 to 34 cm); brown (7.5YR 4/4) silt loam; weak fine subangular blocky structure; friable; nonsticky and nonplastic; common very fine and fine roots; slightly acid (pH 6.4); clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 33,
+        "bottom": 56,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw2--13 to 22 inches (34 to 55 cm); strong brown (7.5YR 4/6) fine sandy loam; weak fine granular structure; friable; nonsticky and nonplastic; common very fine and fine roots; slightly acid (pH 6.4); clear smooth boundary. (Combined thickness of the Bw horizons is 16 to 25 inches) (Combined thickness of the Bw horizons is 16 to 33 inches)"
+      },
+      {
+        "name": "2BC",
+        "top": 56,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2BC--22 to 36 inches (55 to 92 cm); dark yellowish brown (10YR 4/4) gravelly fine sandy loam; massive; friable; nonsticky and nonplastic; 25 percent gravel; neutral (pH 6.6); clear smooth boundary. (10 to 16 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 91,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "narrative": "2C--36 to 60 inches (92 to 153 cm); yellowish brown (10YR 5/4) very gravelly sandy loam; single grained; loose; nonsticky and nonplastic; 50 percent gravel; neutral (pH 6.6)."
+      }
+    ]
+  ]
 }

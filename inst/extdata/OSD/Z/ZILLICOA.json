@@ -56,5 +56,116 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Previously included in mapping of Enon Variant or Clifton soils\nDIAGNOSTIC HORIZONS & FEATURES recognized in the typical pedon are:\nOchric epipedon - the zone from the surface to a depth of  5 inches (Oe, A, and E horizons)\nArgillic horizon - the zone between depths of 5 and 37 inches (Bt, Btss, and Bt' horizons)\nVertic feature - linear extensibility for the upper meter is 7.2 cm.  Shrink-swell properties are enhanced due to the high proportion of fine clay (80% of total clay is fine clay)\nParalithic contact - weathered coarse grained garnet hornblende fels bedrock at a depth of 49 inches (upper boundary of the Cr horizon)\nADDITIONAL DATA: Characterization data is available from the National Soil Survey Laboratory, Lincoln, NE; Pedon number: S90NC-021-001\nNASIS DATA MAPUNIT:\nMLRA = 130\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oe--0 to 1 inches; very dark brown (10YR2/2) partially decomposed plant material; deciduous leaves, twigs, and roots; primarily deciduous leaf litter; very friable; strongly acid; abrupt wavy boundary."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--1 to 5 inches; very dark grayish brownish (10YR 3/2) loam, dark yellowish brown (10YR 4/4) dry; weak fine and medium granular structure; very friable; many fine to medium and few coarse roots throughout; common fine to coarse interstitial pores; few fine rounded iron-manganese concretions; moderately acid; 2% by volume pebbles, 6% by volume cobbles, 2% by volume stones that are coarse grained garnet hornblende fels; clear smooth boundary. (3 to 8 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 13,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BA--5 to 10 inches; dark yellowish brown (10YR 4/4) loam; few fine and medium distinct strong brown (7.5YR 4/6) mottles; moderate fine and medium granular structure; friable, slightly sticky, non-plastic; common fine and medium roots throughout; common fine to coarse tubular and interstitial pores; many fine very dark brown (10YR 2/2) iron-manganese masses on faces of peds; few rounded iron-manganese concretions; slightly acid; 4% by volume pebbles, 2% volume cobbles, 2% by volume stones that are coarse grained garnet hornblende fels; gradual wavy boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 25,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--10 to 20 inches; dark yellowish brown (10YR 4/6) clay; few medium distinct strong brown(7.5YR 5/6) mottles; moderate medium subangular blocky structure; firm, sticky, plastic; few fine and medium roots between peds; few fine and medium interstitial and common fine tubular pores; few faint discontinuous  yellowish brown (10YR 5/6) clay films, and common fine very dark brown (10YR 2/2) iron-manganese masses on faces of peds and in pores; moderately acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btss",
+        "top": 51,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btss--20 to 34 inches; yellowish brown (10YR 5/6) clay; strong medium subangular blocky structure; very firm, very sticky, very plastic; few very fine roots between peds; few very fine and fine tubular pores; common striated and polished slickensides, 7 to 10 cm wide and 5 to 15 cm long; many faint continuous yellowish brown (10YR 5/4) clay films on faces of peds, and common medium very dark brown (10YR 2/2) discontinuous manganese or iron-manganese masses; common fine cylindrical iron-manganese concretions; neutral; gradual wavy boundary."
+      },
+      {
+        "name": "B't",
+        "top": 86,
+        "bottom": 94,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "B't--34 to 37 inches; dark yellowish brown (10YR 4/6) clay; moderate medium subanglar blocky structure; very firm, sticky, very plastic; few very fine roots between peds; few very fine tubular pores; many faint continuous clay films, and medium very dark brown (10YR 2/2) discontinuous iron-manganese masses on faces of peds; many fine rounded iron-manganese concretions; neutral; gradual irregular boundary.  (Combined thickness of Bt is 10 to 40 inches)"
+      },
+      {
+        "name": "BC",
+        "top": 94,
+        "bottom": 124,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--37 to 49 inches; dark yellowish brown (10YR 4/4) sandy clay loam; few medium distinct reddish yellow (7.5YR 6/8) mottles; moderate fine and medium subangular blocky structure; friable, non-sticky, non-plastic; few very fine and fine roots between peds; common very fine tubular pores; very few faint discontinuous clay films on faces of peds, and few medium very dark brown (10YR 2/2) iron-manganese masses; many fine rounded iron-manganese concretions; neutral; gradual wavy boundary. (5 to 15 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 124,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "neutral",
+        "narrative": "Cr--49 to 60 inches; multicolored, weathered coarse grained garnet hornblende fels bedrock that can be dug with difficulty with a spade; partly consolidated in place; few very fine tubular pores; bedrock fragments have black (10YR 2/1) manganese masses; neutral."
+      }
+    ]
+  ]
 }

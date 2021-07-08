@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and other features in this pedon\n*Control section--zone from 0 to 130 cm\n*Particle-size control section--zone from 95 to 130 cm\n*Surface tier--zone from 0 to 30 cm\n*Subsurface tier--zone from 30 to 90 cm\n*Bottom tier--zone from 90 to 130 cm\n*Hemic soil material--zone from 20 to 95 cm\n*Aquic conditions--zone from 0 to 180 cm\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "pH": 4.6,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 20 cm; peat, brown (7.5YR 5/3) dry, dark brown (7.5YR 3/3) moist; nonsticky and nonplastic; many very fine and fine and common medium roots; very strongly acid (pH 4.6); clear smooth boundary"
+      },
+      {
+        "name": "Oe",
+        "top": 20,
+        "bottom": 95,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 3,
+        "pH": 5.9,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oe--20 to 95 cm; mucky peat, brown (7.5YR 4/3) dry, very dark brown (7.5YR 2.5/3) moist; nonsticky and nonplastic; many very fine and fine and few medium roots; moderately acid (pH 5.9); clear smooth boundary"
+      },
+      {
+        "name": "Ag",
+        "top": 95,
+        "bottom": 105,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Ag--95 to 105 cm; silt loam, brown (7.5YR 4/2) dry, very dark brown (7.5YR 2.5/2) moist; weak medium granular structure; soft, very friable, nonsticky and nonplastic; many very fine and fine roots; slightly acid (pH 6.5); gradual smooth boundary"
+      },
+      {
+        "name": "Cg",
+        "top": 105,
+        "bottom": 180,
+        "dry_hue": "N",
+        "dry_value": 6,
+        "dry_chroma": 0,
+        "moist_hue": "N",
+        "moist_value": 4,
+        "moist_chroma": 0,
+        "texture_class": "loam",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "narrative": "Cg--105 to 180 cm; loam, gray (N 6/0) dry, dark gray (N 4/0) moist; massive; moderately hard, firm, nonsticky and nonplastic; 8 percent gravel; neutral (pH 7.3)"
+      }
+    ]
+  ]
 }

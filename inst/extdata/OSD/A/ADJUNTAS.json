@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nOchric epipedon - the zone from 0 to 5 inches (Ap horizon).\nCambic horizon - the zone from 5 to 24 inches (Bw1, Bw2, and Bw3 horizons).\nParalithic contact - at a depth of 24 inches (Cr horizon).\nLithic contact - at a depth of 48 inches (R horizon).\nADDITIONAL DATA:  Characterization data - S73PR-01-1. Sample numbers 74B174-74B179.  Sampled by NSSL, Lincoln, NE.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 5 inches; dark brown (10YR 3/3) clay; moderate fine and medium granular structure; firm; slightly sticky, plastic; many fine roots; about 3 percent, by volume, volcanic fragments 0.25 to 1.0 inch in diameter; few fine quartz grains; many pores; very strongly acid; clear smooth boundary.  (4 to 6 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 13,
+        "bottom": 25,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--5 to 10 inches; about 50 percent brown (7.5YR 4/4) and 50 percent strong brown (7.5YR 5/6) clay; weak fine subangular blocky structure; firm; slightly sticky, plastic; common fine roots; about 3 percent, by volume, volcanic fragments 0.25 to 1.0 inch in diameter; few fine quartz grains; many fine pores; very strongly acid; clear smooth boundary.  (4 to 7 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 25,
+        "bottom": 43,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--10 to 17 inches; strong brown (7.5YR 5/6) clay; weak fine and medium subangular blocky structure; firm; slightly sticky, plastic; few fine roots; about 3 percent, by volume, volcanic fragments 0.25 to 1.0 inch in diameter; few fine quartz grains; many fine pores; very strongly acid; clear wavy boundary.  (6 to 9 inches thick)"
+      },
+      {
+        "name": "Bw3",
+        "top": 43,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw3--17 to 24 inches; about 33 percent yellow (10YR 7/6), 33 percent very pale brown (10YR 8/2), and 34 percent brownish yellow (10YR 6/8) clay; weak medium subangular blocky structure; friable; slightly sticky, plastic; few fine roots; many fine pores; many quartz grains; common fine prominent red (2.5YR 4/6) masses of iron accumulation; the colors of yellow, very pale brown, and brownish yellow are inherited from the parent material and are not indicative of wetness or a perched water table; very strongly acid; clear wavy boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 61,
+        "bottom": 122,
+        "narrative": "Cr--24 to 48 inches; strongly and partially weathered saprolite."
+      },
+      {
+        "name": "R",
+        "top": 122,
+        "narrative": "R--48 inches; semi-consolidated volcanic rock."
+      }
+    ]
+  ]
 }

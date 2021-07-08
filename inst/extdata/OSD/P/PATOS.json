@@ -56,5 +56,68 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This changes the classification of this series\nfrom clayey-skeletal, mixed, mesic Typic Haplustalfs to clayey-skeletal, mixed, mesic Aridic Haplustalfs.  The\nchange is due to the current concepts of soil moisture\nregimes in New Mexico.\nDIAGNOSTIC HORIZONS AND FEATURES RECOGNIZED IN THIS PEDON\nARE:\nOchric epipedon:  0 to 7 inches\nArgillic horizon:  7 to 30 inches\nCalcic horizon:  30 to 60 inches\nNATIONAL COOPERATIVE SOIL SURVEY\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "stony",
+        "narrative": "A--0 to 4 inches; dark brown (7.5YR 4/2) stony loam,"
+      },
+      {
+        "name": "Bt1",
+        "top": 10,
+        "bottom": 18,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "stony",
+        "narrative": "Bt1--4 to 7 inches; reddish brown (5YR 4/4) stony clay"
+      },
+      {
+        "name": "Bt2",
+        "top": 18,
+        "bottom": 76,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "cf_class": "very stony",
+        "narrative": "Bt2--7 to 30 inches; reddish brown (5YR 4/4) very stony"
+      },
+      {
+        "name": "Bk1",
+        "top": 76,
+        "bottom": 102,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "cf_class": "extremely stony",
+        "narrative": "Bk1--30 to 40 inches; brown (7.5YR 5/4) extremely stony"
+      },
+      {
+        "name": "Bk2",
+        "top": 102,
+        "bottom": 152,
+        "dry_hue": "7.5YR",
+        "dry_value": 8,
+        "dry_chroma": 4,
+        "cf_class": "extremely stony",
+        "narrative": "Bk2--40 to 60 inches; pink (7.5YR 8/4) extremely stony"
+      }
+    ]
+  ]
 }

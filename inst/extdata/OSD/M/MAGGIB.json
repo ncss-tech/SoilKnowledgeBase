@@ -56,5 +56,97 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nParticle-size control section:  25 to 80 centimeters from the mineral surface\nOchric epipedon: 0 to 18 centimeters (Oe, Oa, E, and upper 9 centimeters of the Bs1 horizons)\nAlbic horizon: 5 to 9 centimeters (E horizon)\nSpodic horizon: 9 to 64 centimeters (Bs1 and Bs2 horizons)\nAndic soil properties:  5 to 64 centimeters (E, Bs1, and Bs2 horizons)\nLithologic discontinuity:  64 centimeters\nLithic contact: 80 centimeters\nWhen chroma of the spodic horizon is 6, it still meets spodic material criteria 2.b.(3) (Keys to Soil Taxonomy, Version 10, page 20).  Laboratory data from the geographically associated Chilliwack series (lab pedon number 06N0802) indicate that ammonium oxalate extractable aluminum + 1/2 iron in the Bs (spodic) horizon is greater than 1.0 percent, and the overlying albic horizon is less than 0.2 percent.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 2,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--0 to 2 centimeters; moderately decomposed plant material; many very fine and common fine roots; abrupt smooth boundary."
+      },
+      {
+        "name": "Oa",
+        "top": 2,
+        "bottom": 5,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oa--2 to 5 cm; highly decomposed plant material; many very fine and fine, few medium and coarse roots; abrupt smooth boundary."
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 9,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "cf_class": "stony",
+        "pH": 4.4,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "E--5 to 9 cm; very dark gray (10YR 3/1) stony medial fine sandy loam, gray (10YR 6/1), dry; weak fine subangular blocky structure; soft, very friable, nonsticky, nonplastic; few very fine and fine roots and common medium and coarse roots; 5 percent medium and coarse gravel, 5 percent cobbles, and 5 percent stones; extremely acid (pH 4.4); clear irregular boundary."
+      },
+      {
+        "name": "Bs1",
+        "top": 9,
+        "bottom": 27,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH": 5.2,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs1--9 to 27 cm; strong brown (7.5YR 4/6) gravelly medial fine sandy loam, reddish yellow (7.5YR 7/6), dry; weak fine subangular blocky structure; soft, very friable, nonsticky, nonplastic; common very fine, fine, medium, coarse, and very coarse roots; 5 percent fine gravel, 10 percent medium and coarse gravel, and 5 percent cobbles; strongly acid (pH 5.2); clear wavy boundary."
+      },
+      {
+        "name": "Bs2",
+        "top": 27,
+        "bottom": 64,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 5.4,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs2--27 to 64 cm; dark brown (7.5YR 3/4) gravelly medial sandy loam, strong brown (7.5YR 5/6), dry; weak fine subangular blocky structure; soft, very friable, nonsticky, nonplastic; common very fine, fine, and medium roots and few coarse roots; 5 percent fine gravel, 20 percent medium and coarse gravel, and 5 percent cobbles; strongly acid (pH 5.4); clear wavy boundary."
+      },
+      {
+        "name": "2BC",
+        "top": 64,
+        "bottom": 80,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "cf_class": "extremely cobbly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2BC--64 to 80 cm; dark yellowish brown (10YR 3/4) extremely cobbly loamy sand, yellowish brown (10YR 5/4), dry; single grain; loose, nonsticky, nonplastic; few very fine and fine and common medium and coarse roots; 15 percent fine gravel, 30 percent medium and coarse gravel,  and 35 percent cobbles; moderately acid (pH 5.8); abrupt wavy boundary."
+      },
+      {
+        "name": "R",
+        "top": 80,
+        "narrative": "R--80 cm; orthogneiss bedrock."
+      }
+    ]
+  ]
 }

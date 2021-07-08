@@ -56,5 +56,104 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon: The zone from 2 to 4 inches.  (E)\nArgillic horizon: The zone from 9 to 13 inches.  (Bt)\nLithic contact: The zone at 19 inches.  (R).\nParticle-size control section: The zone from 9 to 19 inches. (Bt and BC)\nSoil Taxonomy Second Edition, 1999\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 0,
+        "bottom": 5,
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "narrative": "0i--0 to 2 inches; partially decomposed needles and twigs; neutral (pH 6.8)."
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 10,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--2 to 4 inches; pinkish gray (7.5YR 6/2) gravelly sandy loam, brown (7.5YR 4/2) moist; weak thin platy structure; soft, friable; many clean sand grains; many fine roots; many very fine vesicular pores; 20 percent gravel and flat rock fragments; neutral (pH 6.8); clear smooth boundary. (2 to 3 inches thick)"
+      },
+      {
+        "name": "EB",
+        "top": 10,
+        "bottom": 23,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "EB--4 to 9 inches; pinkish gray (7.5YR 7/2) sandy clay loam, brown (7.5YR 4/2) moist; weak thick or very thick platy structure parting to weak fine subangular blocky; hard, friable, slightly sticky and slightly plastic; many fine roots; few fine pores; some clean sand grains; slightly acid (pH 6.4); gradual smooth boundary. (3 to 5 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 23,
+        "bottom": 33,
+        "dry_hue": "5YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "very channery",
+        "pH": 5.9,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt--9 to 13 inches; pinkish gray (5YR 7/2) very channery clay loam, reddish gray (5YR 5/2) moist; weak fine subangular blocky structure; very hard, friable, moderately sticky and moderately plastic; many fine and medium roots; faint continuous clay films on faces of peds; many fine discontinuous tubular pores; 35 to 50 percent rock fragments; moderately acid (pH 5.9); gradual smooth boundary. (3 to 6 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 33,
+        "bottom": 48,
+        "dry_hue": "5YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very channery",
+        "pH": 5.9,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "BC--13 to 19 inches; pinkish gray (5YR 7/2) very channery sandy clay loam, reddish gray (5YR 5/2) moist; few medium yellowish red mottles; massive; very hard, firm, moderately sticky and moderately plastic; few fine and medium roots; many fine discontinuous tubular pores; 40 percent rock fragments; moderately acid (pH 5.9); abrupt smooth boundary. (3 to 6 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 48,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "narrative": "R--19 inches; pinkish gray very fine grained, hard sandstone; brown (7.5YR 5/2) moist."
+      }
+    ]
+  ]
 }

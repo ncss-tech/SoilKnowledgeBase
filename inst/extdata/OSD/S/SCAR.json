@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nAlbic horizon; the zone from 2 to 3 inches (E horizon)\nCambic horizon; the zone from 3 inches to 9 inches (Bs1 horizon)\nStrongly contrasting particle-size classes at 21 inches.\nThis draft reflects a change in classification from Ashy over loamy, mixed  Typic Cryorthods to Ashy over Sandy or sandy-skeletal, glassy over isotic Xeric Vitricryands. This change is based on Soil Taxonomy 2nd Ed. and the laboratory data on three pedons.  The moisture regime needs more study, the vegetation includes Engelmann spruce that normally grows in udic soils.\nPartial laboratory data are available on these soils.\nPedon number S68WA-019-001,  S68WA-019-002, and S68WA-019-003.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; leaves, twigs, and needles."
+      },
+      {
+        "name": "Oe",
+        "top": 3,
+        "bottom": 5,
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oe--1 to 2 inches; partially decomposed leaves, twigs, needles; abrupt wavy boundary. (! to l! inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "very fine sandy loam",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "E--2 to 3 inches; gray (10YR 6/1) ashy very fine sandy loam, gray (10YR 5/1) moist; massive; slightly hard, firm, nonsticky, nonplastic; very strongly acid (pH 5.0); abrupt smooth boundary. (! to l! inches thick)"
+      },
+      {
+        "name": "Bsl",
+        "top": 8,
+        "bottom": 23,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bsl--3 to 9 inches; strong brown (7.5YR 5/6) ashy sandy loam, dark yellowish brown (10YR 4/4) moist; weak medium subangular blocky structure; soft, friable, slightly sticky, nonplastic; many fine roots; slightly acid (pH 6.2); clear wavy boundary. (4 to l8 inches thick)"
+      },
+      {
+        "name": "2C2",
+        "top": 53,
+        "bottom": 152,
+        "dry_hue": "5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "narrative": "2C2--21 to 60 inches; light gray (5Y 7/2) loamy sand, olive gray (5Y 5/2) moist; massive; hard, firm, sticky, slightly plastic; few large roots; l0 percent pebbles; clay bridging of sand grains; moderately acid (pH 5.6)."
+      }
+    ]
+  ]
 }

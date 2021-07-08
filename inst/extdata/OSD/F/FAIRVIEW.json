@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Fairview soils were previously mapped as Pacolet soils. The April 1997 relocation of the mesic/thermic line in North Carolina and Virginia necessitated the establishment of the Fairview series as a mesic counterpart.  The 2008 revision is intended to limit the amount of mica allowed in the Fairview series.  Fairview is not intended to replace Madison soils in the mesic region.\nDiagnostic horizons and features recognized in this pedon:\nOchric epipedon--the zone from the surface to 9 inches (Ap1 and Ap2 horizons)\nArgillic horizon--the zone from 9 to 24 inches (Bt horizon)\nKandic horizon--the zone from 9 to 29 inches (Bt & BC horizons).\nOther soil features identified with this pedon:\nSeries control section--0 to 60 inches\nADDITIONAL DATA:\nLaboratory Data: No laboratory data available.\nDatabase Information:\nTypical Pedon Data Mapunit ID82665\nUser Pedon ID--88NC171001\nTABULAR SERIES DATA:\nSlope Airtemp FrFr/Seas Precip Elevation\n2-60  52-57   160-205   40-55  300-1400\nSOI-5  FloodL  FloodH Watertable Kind   Months  Bedrock Hardness\nNONE           >6.0                      >60\nSOI-5  Depth   Texture            3-Inch  No-10  Clay%   -CEC-\n0-9     SL FSL L           0-10    75-100  8-20    4-10\n0-9     SCL CL             0-10    75-100 20-35    2-10\n9-24    SC CL C            0-10    55-100 35-60    2-12\n24-60   SL FSL L SCL CL    0-10    55-100 10-30    1-10\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\n0-9     3.6-6.0   0.5-2         2.0-6.0   LOW\n0-9     3.6-6.0   0.5-1         0.6-2.0   LOW\n9-24    3.6-6.0   0-0.5         0.6-2.0   LOW\n24-60   3.6-6.0   0-0.5         0.6-6.0   LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap1",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Ap1--0 to 10 centimeters (0.0 to 3.9 inches); brown (7.5YR 4/4) crushed sandy clay loam; weak medium granular structure; friable, slightly sticky, slightly plastic; low excavation difficulty; many fine roots throughout; 1 percent nonflat angular indurated 2- to 75-millimeter schist fragments and 4 percent nonflat angular indurated 2- to 75-millimeter quartz fragments; moderately acid, pH 5.7; clear wavy boundary."
+      },
+      {
+        "name": "Ap2",
+        "top": 10,
+        "bottom": 23,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Ap2--10 to 23 centimeters (3.9 to 9.1 inches); strong brown (7.5YR 4/6) crushed sandy clay loam; weak fine subangular blocky structure, and weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; low excavation difficulty; common fine roots throughout; common fine moderate-continuity tubular pores; 1 percent fine red (2.5YR 4/8), moist, clay bodies and 1 percent fine mica flakes; 1 percent nonflat angular indurated 2- to 75-millimeter schist fragments and 4 percent nonflat angular indurated 2- to 75-millimeter quartz fragments; moderately acid, pH 5.7; (Ap horizon is typically 2 to 30 centimeters thick); clear wavy boundary."
+      },
+      {
+        "name": "Bt",
+        "top": 23,
+        "bottom": 61,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--23 to 61 centimeters (9.1 to 24.0 inches); red (2.5YR 4/8) broken face clay; moderate medium subangular blocky structure; firm, slightly sticky, moderately plastic; moderate excavation difficulty; common fine roots throughout; common fine moderate-continuity tubular pores; 25 percent discontinuous faint red (2.5YR 5/8), moist, clay films on all faces of peds; 10 percent fine mica flakes; 1 percent nonflat angular indurated 2- to 75-millimeter quartz fragments; strongly acid, pH 5.3; (Bt horizon is typically 20 to 60 centimeters thick); gradual wavy boundary."
+      },
+      {
+        "name": "BCt",
+        "top": 61,
+        "bottom": 74,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BCt--61 to 74 centimeters (24.0 to 29.1 inches); red (2.5YR 4/8) broken face clay loam; moderate medium subangular blocky structure; friable, slightly sticky, slightly plastic; moderate excavation difficulty; 1 percent discontinuous faint red (2.5YR 5/8), moist, clay films on vertical faces of peds; 10 percent fine mica flakes; 2 percent nonflat angular indurated 2- to 75-millimeter schist fragments and 4 percent nonflat angular indurated 2- to 75-millimeter quartz fragments and 5 percent flat very angular weakly cemented 2- to 150-millimeter schist fragments; strongly acid, pH 5.3; (BC horizon is typically 0 to 75 centimeters thick); gradual wavy boundary."
+      },
+      {
+        "name": "C",
+        "top": 74,
+        "bottom": 200,
+        "moist_hue": "10R",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "narrative": "C--74 to 200 centimeters (29.1 to 78.7 inches); red (10R 5/6) broken face loam; massive; friable, slightly sticky, slightly plastic; low excavation difficulty; common fine roots throughout; common fine moderate-continuity tubular pores; 10 percent fine mica flakes; 1 percent nonflat angular indurated 2- to 75-millimeter schist fragments and 2 percent nonflat angular indurated 2- to 75- millimeter quartz fragments and 10 percent flat very angular weakly cemented 2- to 150-millimeter schist fragments; strongly acid, pH 5.3."
+      }
+    ]
+  ]
 }

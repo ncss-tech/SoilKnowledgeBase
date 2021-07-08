@@ -56,5 +56,100 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon and albic horizon:  The zone from 3 to 9 inches.  (E horizon)\nArgillic horizon:  The zone from 9 to 30 inches.  (Bt1 and Bt2 horizons)\nParalithic contact:  Weathered platy sandy shale at 39 inches.  (Cr layer)\nParticle size control section:  The zone from 9 to 30 inches.  (Bt1 and Bt2 horizons)\nSeries control section: The zone from 0 to 49 inches (all horizons and upper 10 inches of Cr layer)\nKeys to Soil Taxonomy:  Classified according to the Eighth Edition, 1998\nActivity class is presumed based on general trend of other soils in the area.\nADDITIONAL DATA: A similar soil was sampled by NSSL as Tamarron at a different location but lacked the clay increase for an argillic horizon and had many sandy shale fragments that may have been ground up into sand and silt sized particles.  Sample No. S86-CO-067-004.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 8,
+        "narrative": "Oi--0 to 3 inches; organic mat of needles, leaves, and twigs.  (1 to 3 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--3 to 9 inches; light brownish gray (10YR 6/2) loam, brown (10YR 5/3) moist; weak very fine granular structure; soft, very friable, nonsticky and nonplastic; 5 percent gravel; many fine and medium roots; few fine pores; slightly acid (pH 6.2); clear smooth boundary.  (4 to 16 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 23,
+        "bottom": 51,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "very channery",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--9 to 20 inches; light brown (7.5YR 6/4) very channery clay loam; brown (7.5YR 5/4) moist; moderate fine subangular blocky structure parting to moderate medium granular; slightly hard, friable, slightly sticky and slightly plastic; 20 percent channers and 10 percent flagstones; few distinct clay films on faces of peds; many fine and medium roots; few fine pores; slightly acid (pH 6.4); clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 51,
+        "bottom": 76,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very flaggy",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--20 to 30 inches; pale brown (10YR 6/3) very flaggy loam; yellowish brown (10YR 5/4) moist; weak medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; 25 percent channers, 25 percent flagstones, 2 percent stones; few distinct clay films on faces of peds; many fine roots; few fine pores; slightly acid (pH 6.4); clear smooth boundary.  (Combined thickness of the Bt horizons is 15 to 30 inches)"
+      },
+      {
+        "name": "C",
+        "top": 76,
+        "bottom": 99,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely flaggy",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C--30 to 39 inches; pale brown (10YR 6/3) extremely flaggy loam; yellowish brown (10YR 5/4) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; 40 percent channers, 40 percent flagstones, 2 percent stones; few fine roots; few fine pores; slightly acid (pH 6.2); gradual wavy boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 99,
+        "bottom": 124,
+        "texture_class": "sand",
+        "narrative": "Cr--39 to 49 inches; weathered platy sandy shale."
+      }
+    ]
+  ]
 }

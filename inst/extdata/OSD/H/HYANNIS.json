@@ -56,5 +56,87 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are: Ochric epipedon from 0 to 3 inches (A horizon)\nAlbic horizon from 3 to 12 inches (E horizon)\nArgillic horizon from 112 to 30 inches (Bt horizon)\nLast updated by the state 7/89.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 5,
+        "bottom": 3,
+        "narrative": "Oi--2 to 1 inch; undecomposed organic material principally needles, bark, twigs, and leaves."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; brown (10YR 5/3) fine sandy loam, dark brown (10YR 3/3) moist; strong fine crumb and granular structure; soft, very friable, nonsticky, nonplastic; 10 percent pebbles; moderately acid (pH 5.6); abrupt smooth boundary.  (0 to 4 inches thick)."
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "cf_class": "gravelly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E--3 to 12 inches; very pale brown (10YR 8/3) gravelly loamy sand, pale brown (10YR 6/3) moist weak very thick platy structure; soft, very friable; 15 percent pebbles and cobbles; moderately acid (pH 5.6); gradual wavy boundary.  (4 to 23 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 30,
+        "bottom": 76,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very cobbly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--12 to 30 inches; mixed yellowish brown (10YR 5/4) and very pale brown (10YR 7/4) very cobbly loamy sand containing lamellae and seams of sandy clay loam, dark yellowish brown (10YR 4/4) and light yellowish brown (10YR 6/4) moist; weak medium subangular blocky structure; slightly hard, very friable; some of the more clayey peds are hard, friable, slightly sticky, slightly plastic; thin clay films on the more clayey peds and in root channels and pores; thin clay films are on the underside of some rock fragments; 65 percent cobbles and some pebbles; moderately acid (pH 5.6); gradual wavy boundary. (10 to 50 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 76,
+        "bottom": 127,
+        "texture_class": "sand",
+        "narrative": "Cr--30 to 50 inches; soft, noncalcareous sandstone with lenses of partially cemented cobbles."
+      },
+      {
+        "name": "Oe",
+        "top": 3,
+        "narrative": "Oe--1 inch to 0; partially decomposed organic material like that of the horizon above."
+      }
+    ]
+  ]
 }

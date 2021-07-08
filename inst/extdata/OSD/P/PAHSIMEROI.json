@@ -56,5 +56,71 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic features recognized in this pedon are:\nOchric epipedon\nCambic horizon - The zone from 5 to 12 inches (Bw1 horizon).\nThe particle-size control section is the zone from 10 to 40 inches (Bw1, Bw2, and part of the Bkq horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 5 inches; brown (10YR 5/3) extremely gravelly loam, dark brown (10YR 3/3) moist; weak very fine and fine platy structure; soft, very friable, slightly sticky and slightly plastic; common very fine and few fine and medium roots; many very fine tubular and interstitial pores; 40 percent pebbles and 20 percent cobbles; slightly alkaline (pH 7.4); clear wavy boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 13,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--5 to 12 inches; yellowish brown (10YR 5/4) very gravelly coarse sandy loam, brown (10YR 4/3) moist; weak very fine granular structure; soft, very friable, slightly sticky and nonplastic; many very fine and common fine, medium and coarse roots; many very fine tubular pores; 40 percent pebbles, 15 percent cobbles; neutral (pH 7.2); clear wavy boundary.  (6 to 14 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 30,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "extremely cobbly",
+        "pH": 7.1,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw2--12 to 25 inches; yellowish brown (10YR 5/4) extremely cobbly loamy coarse sand, dark yellowish brown (10YR 4/4) moist; single grain; loose; many very fine and common fine and medium roots; common very fine tubular, and many very fine interstitial pores; 30 percent pebbles, 30 percent cobbles, and 5 percent stones; neutral (pH 7.1); gradual wavy boundary.  (3 to 40 inches thick)"
+      },
+      {
+        "name": "Bkq",
+        "top": 64,
+        "bottom": 152,
+        "texture_class": "coarse sand",
+        "cf_class": "extremely cobbly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "narrative": "Bkq--25 to 60 inches; multicolored extremely cobbly coarse sand; single grain; loose; common very fine roots; common very fine tubular and common and many, very fine and fine interstitial pores; 30 percent pebbles, 30 percent cobbles, and 10 percent stones; lime and silica coats the undersides of coarse fragments; moderately alkaline (pH 8.0)."
+      }
+    ]
+  ]
 }

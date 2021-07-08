@@ -56,5 +56,100 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nParticle size control section - the zone from 14 to 40 inches.\nOchric epipedon - the zone from 0 to 14 inches (Ap, Eg).\nArgillic horizon - the zone from 14 to 31 inches (Btg1, 2Btg2).\nReduced matrix - in the zone from 9 to 31 inches (Eg, Btg1, 2Btg2).\nRedoximorphic concentrations - oxidized color features in the zone from 9 to 47 inches.\nAquic conditions within 20 inches of the surface.  Redoximorphic features in the E horizon are used as field indicators to soil saturation. Mollic subgroup based on dark colors of the Ap horizon.\nThis soil was previously included with the Hillet series, which is in the Epiaquolls Great group class.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "2.5Y",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 9 inches; very dark gray (2.5Y 3/1) silt loam, dark gray (2.5Y 4/1) dry; weak fine granular structure; friable; 2 percent gravel; moderately acid; abrupt smooth boundary. (4 to 9 inches thick)"
+      },
+      {
+        "name": "Eg",
+        "top": 23,
+        "bottom": 36,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Eg--9 to 14 inches; dark grayish brown (2.5Y 4/2) silt loam, light brownish gray (2.5Y 6/2) dry; common fine distinct dark yellowish brown (10YR 4/6) Fe concentrations; weak fine platy structure; friable; 2 percent gravel; strongly acid; clear wavy boundary. (2 to 8 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 36,
+        "bottom": 53,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btg1--14 to 21 inches; grayish brown (2.5Y 5/2) silt loam; common medium prominent strong brown (7.5YR 4/6) Fe concentrations; moderate medium subangular blocky structure; friable; common discontinuous faint dark grayish brown (2.5Y 4/2) clay films on faces of peds and in pores; 2 percent gravel; strongly acid; clear wavy boundary. (3 to 15 inches thick)"
+      },
+      {
+        "name": "2Btg2",
+        "top": 53,
+        "bottom": 79,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Btg2--21 to 31 inches; brown (7.5YR 5/2) loam; common medium prominent strong brown (7.5YR 4/6) Fe concentrations; moderate medium subangular blocky structure; friable; common discontinuous distinct dark brown (7.5YR 3/4) clay films on faces of peds and in pores; 8 percent gravel; strongly acid; clear wavy boundary. (3 to 15 inches thick)"
+      },
+      {
+        "name": "3C1",
+        "top": 79,
+        "bottom": 119,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "coarse sand",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "3C1--31 to 47 inches; brown (7.5YR 4/3) gravelly coarse sand; common medium distinct strong brown (7.5YR 4/6) Fe concentrations; single grain; loose; 20 percent gravel; moderately acid; gradual smooth boundary."
+      },
+      {
+        "name": "3C2",
+        "top": 119,
+        "bottom": 203,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "coarse sand",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "narrative": "3C2--47 to 80 inches; brown (7.5YR 4/2) gravelly coarse sand; single grain; loose; 20 percent gravel; slightly acid."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,108 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:  ochric epipedon -  0 to 31 cm (0 to 12 inches) (A, E); argillic horizon - 31 to 119 cm (12 to 47 inches) (Bt1, Bt2, Bt3, and Bt4);\n-Use and Vegetation? says most areas are used for cropland but TUD is from non-cropland.\n-The TUD in Green Lake County has 7.5YR hue throughout the argillic. OSD requires hue of 5YR or redder in some part of argillic.\n-Is the thin sandy mantle till or eolian? Litologic discontinuity?\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 10 cm (0 to 4 inches); brown (10YR 4/3) loamy fine sand, pale brown (10YR 6/3) dry; weak fine granular structure; very friable; common fine roots; moderately acid; abrupt smooth boundary.  [10 to 15 cm (4 to 6 inches) thick]"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 31,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loamy fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--10 to 31 cm (4 to 12 inches); brown (7.5YR 5/4) loamy fine sand; weak fine granular structure; very friable; common fine roots; moderately acid; clear wavy boundary.  [0 to 20 cm (0 to 8 inches) thick]"
+      },
+      {
+        "name": "Bt1",
+        "top": 31,
+        "bottom": 46,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--31 to 46 cm (12 to 18 inches); reddish brown (5YR 4/4) sandy loam; weak fine subangular blocky structure; very friable; common fine roots; few clay films on faces of peds; slightly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 46,
+        "bottom": 69,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--46 to 69 cm (18 to 27 inches); dark reddish brown (5YR 3/4) sandy loam; moderate medium subangular blocky structure; firm; common faint fine roots; common faint clay films on faces of peds; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 69,
+        "bottom": 81,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt3--69 to 81 cm (27 to 32 inches); dark reddish brown (5YR 3/4) sandy loam; moderate fine subangular blocky structure; friable; some organic stains on faces of peds; about 2 percent dolomitic gravel; common fine roots; common faint clay films on faces of peds; neutral; clear wavy boundary."
+      },
+      {
+        "name": "Bt4",
+        "top": 81,
+        "bottom": 119,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt4--81 to 119 cm (32 to 47 inches); reddish brown (5YR 4/4) sandy loam; weak medium subangular blocky structure; very friable; about 2 percent dolomitic gravel; few fine roots; common faint clay bridging of sand grains; neutral; gradual wavy boundary. [Combined thickness of the Bt horizons ranges from 76 to 140 cm (30 to 55 inches).]"
+      },
+      {
+        "name": "C",
+        "top": 119,
+        "bottom": 152,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "C--119 to 152 cm (47 to 60 inches); brown (7.5YR 5/4) sandy loam; massive; very friable; about 6 percent gravel; slightly effervescent; slightly alkaline."
+      }
+    ]
+  ]
 }

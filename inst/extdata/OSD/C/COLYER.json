@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizon and features in this pedon are:\nOchric epipedon, 0 to 4 inches, (A, AB)\nCambric horizon, 4 to 9 inches, (BW)\nLithic contact at 14 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 8,
+        "bottom": 3,
+        "narrative": "Oi--3 to 1 inches; loose, undecomposed, leaf and twig litter from mixed hardwood pine forest."
+      },
+      {
+        "name": "Oe",
+        "top": 3,
+        "bottom": 0,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "narrative": "Oe--1 to 0 inch; black (10YR 2/1) decomposed litter."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "narrative": "A--0 to 1 inch; dark grayish brown (10YR 4/2) shaly silty clay"
+      },
+      {
+        "name": "AB",
+        "top": 3,
+        "bottom": 10,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "narrative": "AB--1 to 4 inches; brown (7.5YR 5/4) shaly silty clay loam;"
+      },
+      {
+        "name": "Bw",
+        "top": 10,
+        "bottom": 23,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--4 to 9 inches; brown (7.5YR 5/4) shaly silty clay; weak medium subangular blocky structure; firm; sticky and slightly plastic; common roots; few shiny pressure faces on peds; 45 percent black shale fragments; extremely acid; clear smooth boundary.  (5 to 15 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 23,
+        "bottom": 36,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "narrative": "C--9 to 14 inches; mottled brown (7.5YR 4/4) and yellowish red"
+      },
+      {
+        "name": "R",
+        "top": 36,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "narrative": "R--14 inches; black (5YR 2/1) highly fissile hard black shale."
+      }
+    ]
+  ]
 }

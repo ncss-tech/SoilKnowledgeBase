@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon -- 0 to 38 cm (A, Bw1, Bw2 horizons)\nLithic contact -- 38 cm (R horizon)\nParticle-size control section -- 25 to 38 cm (part of Bw2 horizon)\nScalplock soils have a cryic temperature regime and an udic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 8 cm; dark grayish brown (10YR 4/2) gravelly silt loam, very dark brown (10YR 2/2) moist; weak very fine granular structure; slightly hard, friable, nonsticky and nonplastic; common very fine, fine and medium roots; common very fine and fine irregular pores; 25 percent gravel; moderately acid (pH 5.8); clear smooth boundary."
+      },
+      {
+        "name": "Bw1",
+        "top": 8,
+        "bottom": 19,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "cf_class": "very gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--8 to 19 cm; dark grayish brown (10YR 4/2) very gravelly silt loam, very dark gray (10YR 3/1) moist; weak fine subangular blocky structure; slightly hard, friable, nonsticky and nonplastic; common very fine and few medium roots; common very fine irregular pores; 35 percent gravel; slightly acid (pH 6.2); clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 19,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw2--19 to 38 cm; brown (10YR 4/3) very gravelly loam, very dark grayish brown (10YR 3/2) moist; weak fine subangular blocky structure; slightly hard, friable, slightly sticky and nonplastic; common very fine and few medium roots; common very fine irregular pores; 55 percent gravel; slightly acid (pH 6.4); abrupt smooth boundary."
+      },
+      {
+        "name": "R",
+        "top": 38,
+        "narrative": "R--38 cm; fractured hard metasedimentary bedrock."
+      }
+    ]
+  ]
 }

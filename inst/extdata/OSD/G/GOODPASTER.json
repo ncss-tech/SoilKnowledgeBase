@@ -56,5 +56,65 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this profile include: a histic epipedon from 9 inches to 0 and permafrost at 25 inches; loamy particle size from 0 to 15 inches and sandy-skeletal from 15 to 25 inches.\nNATIONAL COOPERATIVE SOIL SURVEY\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi1",
+        "top": 23,
+        "bottom": 10,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi1--9 to 4 inches; dark brown (7.5YR 4/4) hypnum moss peat; no change in color by pressing; nearly 100 percent fiber after rubbing; many roots; medium acid; abrupt smooth boundary."
+      },
+      {
+        "name": "Bw",
+        "top": 0,
+        "bottom": 38,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--0 to 15 inches; olive gray (5Y 5/2) silt loam with irregular streaks of sandy loam; many coarse faint mottles of olive (5Y 5/3); few black (N 2/) streaks, especially in upper part of horizon; massive; friable; no roots; patches of frozen soil in lower part of horizon in late summer; medium acid; abrupt wavy boundary."
+      },
+      {
+        "name": "2C",
+        "top": 38,
+        "bottom": 64,
+        "texture_class": "coarse sand",
+        "cf_class": "very gravelly",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2C--15 to 25 inches; very gravelly coarse sand; colors vary with individual grains; single grained; loose; no roots; medium acid; clear wavy boundary."
+      },
+      {
+        "name": "2Cf",
+        "top": 64,
+        "bottom": 152,
+        "narrative": "2Cf--25 to 60 inches; permafrost."
+      },
+      {
+        "name": "Oi2",
+        "top": 10,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Oi2--4 inches to 0; black (5YR 2/1) moss peat; no color change by pressing; about 95 percent fiber after rubbing; many roots; medium acid; abrupt irregular boundary."
+      }
+    ]
+  ]
 }

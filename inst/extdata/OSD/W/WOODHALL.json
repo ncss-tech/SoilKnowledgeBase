@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from 0 to 23 cm (A and Bt1 horizons)\nArgillic horizon - from 23 to 51 cm (Bt1 and Bt2 horizons)\nLithic contact - at 61 cm (R horizon)\nWoodhall soils have a cryic temperature regime and a udic moisture regime bordering on ustic.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "stony",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 13 cm; dark grayish brown (10YR 4/2) stony loam, very dark brown (10YR 2/2) moist; strong fine granular and crumb structure; soft, very friable, slightly plastic; 20 percent stones; neutral (pH 7.0); clear smooth boundary. (18 to 25 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 13,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very stony",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--13 to 23 cm; brown (10YR 5/3) very stony loam, dark brown (10YR 3/3) moist; weak fine subangular blocky structure parting to strong fine granular; hard, friable, slightly plastic; few faint clay films on faces of peds and on surfaces along in some root channels; 40 percent stones; neutral (pH 7.0); gradual smooth boundary. (0 to 15 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 23,
+        "bottom": 51,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very stony",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt2--23 to 51 cm; brown (10YR 5/3) very stony clay loam, brown (10YR 4/3) moist; moderate medium subangular blocky structure; very hard, friable, sticky and plastic; many distinct clay films on faces of peds, on surfaces along root channels and on surfaces of many rock fragments; 50 percent stones; neutral (pH 6.8); gradual smooth boundary. (15 to 74 cm thick)"
+      },
+      {
+        "name": "BC",
+        "top": 51,
+        "bottom": 61,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely stony",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--51 to 61 inches; brown (10YR 5/3) extremely stony loam, brown (10YR 4/3) moist; weak fine subangular blocky structure; very hard, friable, slightly plastic; 60 percent stones; neutral (pH 6.8); gradual wavy boundary. (0 to 36 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 61,
+        "narrative": "R--61 cm; rhyolite."
+      }
+    ]
+  ]
 }

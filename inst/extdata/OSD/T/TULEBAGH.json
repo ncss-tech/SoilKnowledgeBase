@@ -56,5 +56,68 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and other features in this pedon\n*Particle-size control section--zone from 60 to 135 cm\n*Histic epipedon--Oe and Oa horizons\n*Redoximorphic iron concentrations--Cg/Oajj and Cgf/Oajjf horizons\n*Redoximorphic iron depletions with chroma of 2 or less--Cg/Oajj and Cgf/Oajjf horizons\n*Reduced matrix--Cg/Oajj and Cgf/Oajjf horizons\n*Aquic conditions--Cg/Oajj and Cgf/Oajjf horizons\n*Permafrost--Cgf/Oajjf horizon\n*Cryoturbation--Cg/Oajj and Cgf/Oajjf horizons\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 10,
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Oe--0 to 10 cm; mucky peat; many very fine roots, common fine, medium, and coarse roots; slightly acid (pH 6.2); clear irregular boundary"
+      },
+      {
+        "name": "Oa",
+        "top": 10,
+        "bottom": 35,
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Oa--10 to 35 cm; muck; common very fine, fine, and medium roots; slightly alkaline (pH 7.5); abrupt irregular boundary"
+      },
+      {
+        "name": "Cg/Oajj",
+        "top": 35,
+        "bottom": 62,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 1,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "very fine sandy loam",
+        "pH": 7.7,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Cg/Oajj--35 to 62 cm; very fine sandy loam; 40 percent gray (2.5Y 6/1) dry, dark gray (2.5Y 4/1) moist, and 40 percent light brownish gray (2.5Y 6/2) dry, dark grayish brown (2.5Y 4/2) moist, and 20 percent dark grayish brown (10YR 4/2) dry, very dark brown (10YR 2/2) moist; massive; slightly hard, friable, nonsticky and slightly plastic; common very fine and fine roots; few fine and medium pores; 10 percent strong brown (7.5YR 4/6) moist, masses of oxidized iron in matrix and 20 percent gray (2.5Y 5/1) moist, iron depletions in matrix; noneffervescent; slightly alkaline (pH 7.7); abrupt wavy boundary"
+      },
+      {
+        "name": "Cgf/Oajjf",
+        "top": 62,
+        "bottom": 100,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 1,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "very fine sandy loam",
+        "pH": 7.7,
+        "pH_class": "slightly alkaline",
+        "narrative": "Cgf/Oajjf--62 to 100 cm; permanently frozen very fine sandy loam; 40 percent gray (2.5Y 6/1) dry, dark gray (2.5Y 4/1) moist, 40 percent light brownish gray (2.5Y 6/2) dry, dark grayish brown (2.5Y 4/2) moist, and 20 percent dark grayish brown (10YR 4/2) dry, very dark brown (10YR 2/2) moist; massive; moderately hard, firm, nonsticky and slightly plastic; 10 percent strong brown (7.5YR 4/6) moist, masses of oxidized iron in matrix and 20 percent gray (2.5Y 5/1) moist, iron depletions in matrix; noneffervescent; slightly alkaline (pH 7.7)"
+      }
+    ]
+  ]
 }

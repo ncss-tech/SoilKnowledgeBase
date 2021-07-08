@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soils now within the range of the Shottower series were previously correlated as Braddock, Hiwassee, Masada, and Unison series in published soil surveys.\nLab data for the typical pedon has 52 percent kaolinite in the mineralogy control section.\nDiagnostic horizons and features recognized in this pedon are: 1.  Ochric epipedon - the zone from 0 to 10 inches (Ap horizon). 2.  Argillic horizon - the zone from 10 to 72 inches (Bt horizon).\nSIR = VA0275, VA0278 (COBBLY) MLRA = 128 REVISED  4/26/89; 9/08-increased slope range from 30% to 35%\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 10 inches; brown (7.5YR 4/4) loam; moderate medium granular structure; friable, slightly sticky, slightly plastic; 10 percent rounded rock fragments; slightly acid; abrupt smooth boundary. (6 to 15 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 25,
+        "bottom": 48,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--10 to 19 inches; yellowish red (5YR 5/8) clay loam; moderate fine subangular blocky structure; friable, sticky, plastic; 3 percent rounded rock fragments; common faint clay films on faces of peds; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 48,
+        "bottom": 102,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "Bt2--19 to 40 inches; red (2.5YR 4/6) clay; many coarse distinct yellowish red (5YR 5/6) mottles; strong fine subangular blocky structure; friable, sticky, plastic; 5 percent rounded rock fragments; many distinct clay films on faces of peds; strongly acid; diffuse smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 102,
+        "bottom": 183,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "narrative": "Bt3--40 to 72 inches; red (2.5YR 4/6) clay; common coarse distinct yellowish brown (10YR 5/6) mottles; strong fine subangular blocky structure; firm, sticky, plastic; 10 percent rounded rock fragments; many distinct clay films on faces of peds; strongly acid.  (Combined thickness of the Bt horizon is 60 to 90 inches.)"
+      }
+    ]
+  ]
 }

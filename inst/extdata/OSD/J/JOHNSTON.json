@@ -56,5 +56,53 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nUmbric epipedon--the zone from the surface to a depth of 30 inches (A horizon)\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5   Soil Name   Slope   Airtemp  FrFr/Seas  Precip  Elevation\nNC0043  JOHNSTON    0-2     57-70    190-245    38-52   20-450\nSOI-5   FloodL  FloodH  Watertable  Kind      Months   Bedrock Hardness\nNC0043  COMMON          0-1.0       APPARENT  NOV-MAY  >80     -\nSOI-5   Depth   Texture            3-Inch   No-10    Clay%  -CEC-\nNC0043   0-30   MK-L               0-0     100-100   7-18    9-22\nNC0043   0-30   L SL FSL           0-0     100-100   5-18    4-12\nNC0043  30-34   SR LS S            0-0     100-100   2-12    1-5\nNC0043  34-60   SR FSL SL          0-0     100-100   5-20    1-6\nSOI-5    Depth    -pH-    O.M.     Salin  Permeab   Shnk-Swll\nNC0043   0-30   3.5- 5.5  8.0-15   0-0    2.0-6.0   LOW\nNC0043   0-30   3.5- 5.5  3.0-8.0  0-0    2.0-6.0   LOW\nNC0043  30-34   3.5- 5.5  0.5-3.0  0-0    6.0-20    LOW\nNC0043  34-60   3.5- 5.5  0.0-2.0  0-0    6.0-20    LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 30 inches; black (10YR 2/1) mucky loam; massive; friable; very strongly acid; abrupt smooth boundary. (24 to 48 inches thick)"
+      },
+      {
+        "name": "Cg1",
+        "top": 76,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "loamy fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Cg1--30 to 34 inches; dark gray (10YR 4/1) loamy fine sand; single grained; loose; very strongly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 86,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Cg2--34 to 60 inches; gray (10YR 5/1) fine sandy loam; lenses and pockets of loamy sand and sand; massive; very friable; dark colored loam in old root channels; very strongly acid."
+      }
+    ]
+  ]
 }

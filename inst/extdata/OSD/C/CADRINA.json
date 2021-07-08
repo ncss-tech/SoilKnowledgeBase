@@ -56,5 +56,58 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nParticle-size control section:  The zone from 10 to 15 inches.  (Bk horizon)\nOchric epipedon:  The zone from 0 to 2 inches.  (A horizon)\nSecondary calcium carbonate:  The zone from 2 to 15 inches.  (Bk horizon)\nLithic contact:  The contact with sandstone bedrock at 15 inches.  (R layer)\nThe cation exchange activity class was inferred from laboratory data from similar soils in the Uintah Area Soil Survey.\nThe surface texture modifier was determined following the guidelines outlined in the Utah document, \"Procedures for Distributing Rock Fragments on the Surface Layer into the Upper 6 inches of Soil and Subsequent Naming of Map Units, April 1979.\"\nTaxonomic version:  Eighth Edition, 1998.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely stony",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; pale brown (10YR 6/3) extremely stony loam, dark yellowish brown (10YR 4/4) moist; moderate thin platy structure; soft, friable, slightly sticky and slightly plastic; few very fine and fine roots; many very fine and fine vesicular pores; 5 percent stones, 5 percent flagstones, 15 percent gravel, 10 percent channers; slightly effervescent, (4 percent calcium carbonate equivalent), carbonates are disseminated; moderately alkaline (pH 8.0); clear smooth boundary.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 5,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely stony",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk--2 to 15 inches; light yellowish brown (10YR 5/4) extremely stony loam, dark yellowish brown (10YR 4/4) moist; massive; soft, friable, slightly sticky and slightly plastic; common fine and very fine, few medium roots; common very fine, few fine tubular pores; 20 percent stones, 15 percent flagstones, 40 percent channers; slightly effervescent, (6 percent calcium carbonate equivalent), carbonates are disseminated and segregated as less than 1 mm thick coatings on undersides of rock fragments; moderately alkaline (pH 8.2); gradual wavy boundary.  (5 to 18 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 38,
+        "texture_class": "sand",
+        "narrative": "R--15 inches; fractured sandstone bedrock."
+      }
+    ]
+  ]
 }

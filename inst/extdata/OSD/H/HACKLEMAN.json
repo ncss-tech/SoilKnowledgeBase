@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are\nMollic epipedon: 0 to 61 cm\nArgillic horizon:  26 to 61 cm (2Bt and 2Btk horizons)\nParticle-size control section:  26 to 61 cm (2Bt and 2Btk horizons)\nLithic contact: 61 cm\nVitritorrandic feature: 0 to 26 cm (A and AB horizons) has 5 to 20 percent glass and ammonium oxalate extractable aluminum plus one-half the iron is 0.2 to 0.4 percent.\nSoil moisture regime: Aridic bordering on xeric.\n02/2015: The Hackleman soil was created to describe the ash influenced surface layers not recognized by the Reluctan soil mapped in the same area. Further investigation may be needed to determine if Reluctan soils have ash influenced surface layers that have not been described.\nThe coordinates were recorded with a GPS unit and the PLSS details were measured in ArcGIS from the coordinates.\n________________________________________\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A -- 0 to 10 cm (0 to 4 inches); grayish brown (10YR 5/2) ashy sandy loam, very dark grayish brown (10YR 3/2), moist; moderate fine granular structure; soft, very friable, slightly sticky, slightly plastic; many very fine roots throughout; many very fine pores; 5 percent gravels; slightly alkaline (pH 7.4);  clear wavy boundary. (8 to 18 cm thick)"
+      },
+      {
+        "name": "AB",
+        "top": 10,
+        "bottom": 26,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "AB -- 10 to 26 cm (4 to 10 inches); grayish brown (10YR 5/2) ashy sandy loam, dark brown (10YR 3/3), moist; moderate medium subangular blocky structure; slightly hard, very friable, slightly sticky, slightly plastic; common very fine roots throughout; common fine pores; 5 percent gravels; slightly alkaline (pH 7.6); clear wavy boundary. (0 to 18 cm thick)"
+      },
+      {
+        "name": "2Bt",
+        "top": 26,
+        "bottom": 54,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bt -- 26 to 54 cm (10 to 22 inches); brown (10YR 5/3) gravelly clay loam, dark yellowish brown (10YR 3/4), moist; moderate medium subangular blocky structure; slightly hard, friable, moderately sticky, moderately plastic; common very fine and fine roots throughout; few fine pores; common distinct clay films on all faces of peds; 15 percent gravels and 2 percent cobbles; slightly alkaline (pH 7.6); clear wavy boundary. (20 to 31 cm thick)"
+      },
+      {
+        "name": "2Btk",
+        "top": 54,
+        "bottom": 61,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 7.7,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Btk -- 54 to 61 cm (22 to 24 inches); brown (10YR 5/3) very gravelly clay loam, dark brown (10YR 3/3), moist; moderate medium subangular blocky structure; slightly hard, friable, moderately sticky, moderately plastic; few very fine roots throughout; few very fine pores; many prominent clay films on all faces of peds; many coarse distinct weakly cemented carbonate masses on bottom of rock fragments; 40 percent gravels and 2 percent cobbles; slightly alkaline (pH 7.7); clear wavy boundary. (22 to 43 cm thick)"
+      },
+      {
+        "name": "2R",
+        "top": 61,
+        "narrative": "2R -- 61 cm (24 inches); welded tuff bedrock."
+      }
+    ]
+  ]
 }

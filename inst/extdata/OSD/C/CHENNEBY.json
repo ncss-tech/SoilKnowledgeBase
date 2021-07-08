@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: These soils have been included with the Chewacla series.\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nAL0026 CHENNEBY    0-  2     -        -       -         -\nAL0105 CHENNEBY    0-  2     -        -       -         -\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nAL0026 COMMON        1.0-2.5  APPARENT JAN-MAR  60-60\nAL0105 NONE             -     APPARENT    -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nAL0026  0-16  L SIL                   0-  0  95-100 12-27    -\nAL0026  0-16  SICL                    0-  0  95-100 27-35    -\nAL0026 16-55  L SIL SICL              0-  0  95-100 12-35    -\nAL0026 55-72  SR SL SICL              0-  0 100-100  8-30    -\nAL0105  0-16  L SIL                   0-  0  95-100 12-27    -\nAL0105  0-16  SICL                    0-  0  95-100 27-35    -\nAL0105 16-55  L SIL SICL              0-  0  95-100 12-35    -\nAL0105 55-72  SR SL SICL              0-  0 100-100  8-30    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nAL0026  0-16  4.5- 6.0  .5-3.  0- 0   0.6- 2.0  LOW\nAL0026  0-16  4.5- 6.0  .5-3.  0- 0   0.6- 2.0  LOW\nAL0026 16-55  4.5- 6.0    -    0- 0   0.6- 2.0  LOW\nAL0026 55-72  4.5- 6.0    -    0- 0   2.0- 6.0  LOW\nAL0105  0-16  4.5- 6.0  .5-2.  0- 0   0.6- 2.0  LOW\nAL0105  0-16  4.5- 6.0  .5-2.  0- 0   0.6- 2.0  LOW\nAL0105 16-55  4.5- 6.0    -    0- 0   0.6- 2.0  LOW\nAL0105 55-72  4.5- 6.0    -    0- 0   2.0- 6.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 3 inches; dark grayish brown (10YR 4/2) silt loam; weak fine granular structure; friable; many fine and medium roots; strongly acid; clear smooth boundary. (0 to 12 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--3 to 16 inches; brown (10YR 4/3) silt loam; weak fine granular structure; friable; many fine and medium roots; few fine faint light yellowish brown (10YR 6/4) masses of iron accumulations; strongly acid; clear wavy boundary. (0 to 14 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 41,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--16 to 24 inches; brown (10YR 4/3) silt loam; weak medium subangular blocky parting to weak fine granular structure; friable; common fine roots; common medium distinct brown (7.5YR 4/4) masses of iron accumulations and common medium distinct light brownish gray (2.5Y 6/2) iron depletions; very strongly acid; clear wavy boundary. (4 to 14 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 61,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw2--24 to 36 inches; dark grayish brown (10YR 4/2) silt loam; weak medium subangular blocky structure; friable; few fine roots; few fine quartz gravel; common medium distinct gray (5Y 5/1) iron depletions; very strongly acid; gradual wavy boundary. (0 to 24 inches thick)"
+      },
+      {
+        "name": "Bw3",
+        "top": 91,
+        "bottom": 140,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw3--36 to 55 inches; dark grayish brown (10YR 4/2) silt loam; weak medium subangular blocky structure; friable; few fine roots; few fine quartz gravel; common medium distinct dark gray (5Y 4/1) iron depletions; very strongly acid; gradual wavy boundary. (0 to 24 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 140,
+        "bottom": 183,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Cg--55 to 72 inches; gray (5Y 5/1) silty clay loam; massive, firm; few fine roots; few quartz gravel; common fine distinct olive (5Y 5/3) masses of iron accumulations; very strongly acid."
+      }
+    ]
+  ]
 }

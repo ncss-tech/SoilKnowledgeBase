@@ -56,5 +56,89 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The revision of December 2004 changes the classification to Ashy-skeletal, glassy, frigid Vitrandic Argixerolls based on re-description of the recovered type location. This change better represents the soil series as mapped presently.\nThe revision of January 2004 updates the taxonomic class from Medial Xeric Haplocryands, changes temperature regime to frigid, updates horizon designations, and recognizes the presence of an argillic horizon.\nMollic epipedon - The zone from the soil surface to 20 inches (A1, A2 and the BA horizons).\nVitrandic intergrade feature - The zone from the soil surface to 37 inches (A1, A2, BA, and the Bt horizons).\nArgillic horizon - The zone from 20 to 37 inches (Bt horizon).\nParalithic contact - The boundary at 37 inches to underlying soft, weathered bedrock (Cr layer).\nParticle-size control section - The zone from 20 to 37 inches (Bt horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 3 inches; brown (7.5YR 4/2) ashy sandy loam, dark brown (7.5YR 3/2) moist; moderate very fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; many very fine and few fine roots; many very fine interstitial pores; moderately acid (pH 5.8); clear wavy boundary.  (1 to 4 inches thick)."
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 18,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--3 to 7 inches; brown (7.5YR 4/2) ashy sandy loam, dark brown (7.5YR 3/2) moist; moderate very fine adn fine subangular blocky structure; soft, friable, nonsticky and nonplastic; many very fine, and common fine roots; many very fine interstitial pores; moderately acid (pH 5.8); clear wavy boundary.  (2 to 6 inches thick)."
+      },
+      {
+        "name": "BA",
+        "top": 18,
+        "bottom": 51,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "narrative": "BA--7 to 20 inches; brown (7.5YR 4/2) ashy sandy loam, dark brown (7.5YR 3/2) moist; weak medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine through medium and common coarse roots; many very fine interstitial pores; few faint clay films bridging mineral grains; moderately acid (pH 5.8); clear smooth wavy.  (5 to 12 inches thick)."
+      },
+      {
+        "name": "Bt",
+        "top": 51,
+        "bottom": 94,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--20 to 37 inches; brown (7.5YR 5/4) very gravelly ashy loam, brown (7.5YR 4/3) moist; weak fine and medium subangular blocky structure; slightly hard, friable, moderately sticky and moderately plastic; few fine, medium and coarse roots; many very fine interstitial pores; few faint clay films lining pores and bridging mineral grains; 50 percent hard volcanic gravel; moderately acid (pH 5.8); abrupt wavy boundary.  (8 to 14 inches thick)."
+      },
+      {
+        "name": "Cr",
+        "top": 94,
+        "bottom": 119,
+        "narrative": "Cr--37 to 47 inches; gray (N 6/) weathered tuff."
+      }
+    ]
+  ]
 }

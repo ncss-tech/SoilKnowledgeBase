@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizon and features recognized in this pedon are an umbric epipedon from the mineral surface to 10 inches, a cambic horizon from 10 to 30 inches, and a lithic contact at 30 inches.  The particle-size control section is the zone from 10 inches to the lithic contact (Bw horizon).  The bulk density of the particle-size control section is assumed to be between 0.90 and 1.00 g/cc.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; slightly decomposed forest litter and moss.  (1/4 to 1 inch thick)"
+      },
+      {
+        "name": "A1",
+        "top": 3,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "broken",
+        "narrative": "A1--1 to 7 inches; black (10YR 2/1) gravelly ashy loam, dark gray (10YR 4/1) dry; moderate medium granular structure; soft, very friable, slightly sticky, slightly plastic and weakly smeary; many fine, medium and coarse roots; 20 percent hard angular pebbles; moderately acid (pH 5.6); clear broken boundary."
+      },
+      {
+        "name": "A2",
+        "top": 18,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "broken",
+        "narrative": "A2--7 to 11 inches; very dark brown (10YR 2/2) gravelly ashy silt loam, dark grayish brown (10YR 4/2) dry; moderate fine and medium subangular blocky structure; slightly hard, friable, slightly sticky, slightly plastic and weakly smeary; many fine and medium roots; many fine pores; 30 percent pebbles; moderately acid (pH 5.6); clear broken boundary.  (Combined thickness of the A horizon is 7 to 15 inches)"
+      },
+      {
+        "name": "Bw",
+        "top": 28,
+        "bottom": 79,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "extremely gravelly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bw--11 to 31 inches; dark yellowish brown (10YR 3/4) extremely gravelly ashy silt loam, yellowish brown (10YR 5/4) dry; weak fine and medium subangular blocky structure; slightly hard, friable, slightly sticky, slightly plastic and weakly smeary; 45 percent angular pebbles; 20 percent cobbles; moderately acid (pH 5.8); abrupt irregular boundary. (6 to 30 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 79,
+        "narrative": "2R--31 inches; slightly weathered, fractured andesite."
+      }
+    ]
+  ]
 }

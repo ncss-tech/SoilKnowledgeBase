@@ -56,5 +56,97 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and other features recognized in this pedon:\nOchric epipedon - The zone from 0 to 30 cm (The E1 and E2 horizons).\nAbrupt textural change - At 30 cm, greater than 15 percent clay increase within 1 inch (The upper boundary of Bt horizon)\nArgillic horizon and particle-size control section - The zone from 30 to 53 cm (The Bt horizon).\nDuripan - The zone 53 to 78 cm (The Bkqm horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "E1",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E1--0 to 10 cm; pale brown (10YR 6/3) loam, dark grayish brown (10YR 4/2) moist; moderate thin platy structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine, fine and medium roots; many fine and medium vesicular pores; neutral (pH 6.6); clear smooth boundary.  (8 to 20 cm thick)"
+      },
+      {
+        "name": "E2",
+        "top": 10,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "E2--10 to 30 cm; pale brown (10YR 6/3) gravelly loam, dark brown (10YR 4/3) moist; moderate medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine, fine and medium roots; many very fine and fine interstitial pores; few light gray (10YR 7/2) silt coatings on faces of peds; 15 percent gravel; neutral (pH 6.9); abrupt smooth boundary.  (0 to 25 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 30,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--30 to 53 cm; dark yellowish brown (10YR 4/4) clay, dark yellowish brown (10YR 4/4) moist; strong medium columnar structure; very hard, firm, very sticky and very plastic; common very fine and medium roots; few very fine tubular pores; common distinct clay films on faces of peds and in pores; many pressure faces; columns are capped with light gray (10YR 7/2) silt; neutral (pH 7.3); abrupt wavy boundary.  (18 to 51 cm thick)"
+      },
+      {
+        "name": "2Bkqm",
+        "top": 53,
+        "bottom": 78,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bkqm--53 to 78 cm; light yellowish brown (10YR 6/4) indurated duripan, dark yellowish brown (10YR 4/4) moist; strong medium platy structure; very hard, very firm and brittle moist; few very fine roots between plates; continuous silica coatings (1 mm thick) on surfaces of plates; slightly effervescent, carbonates segregated in few medium seams; common fine dark concretions and stains (Mn oxides); moderately alkaline (pH 8.0); gradual smooth boundary.  (13 to 46 cm thick)"
+      },
+      {
+        "name": "2C1",
+        "top": 78,
+        "bottom": 110,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "extremely gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2C1--78 to 110 cm; variegated but dominantly light yellowish brown (10YR 6/4) extremely gravelly sand, dark yellowish brown (10YR 4/4) moist; massive; hard, friable, nonsticky and nonplastic; many very fine and fine interstitial pores; moderately alkaline (pH 8.2); gradual smooth boundary.  (0 to 33 cm thick)"
+      },
+      {
+        "name": "2C2",
+        "top": 110,
+        "bottom": 152,
+        "texture_class": "sand",
+        "cf_class": "gravelly",
+        "pH": 7.9,
+        "pH_class": "moderately alkaline",
+        "narrative": "2C2--110 to 152 cm; variegated stratified layers of gravelly sand and sand, variegated moist; single grain; loose, nonsticky and nonplastic; many very fine and fine interstitial pores; moderately alkaline (pH 7.9)."
+      }
+    ]
+  ]
 }

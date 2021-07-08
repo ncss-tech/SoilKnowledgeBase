@@ -56,5 +56,55 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  These soils would have been classified in the Lithosol great soil group.  They were formerly mapped in the Tarpley\nseries.\nADDITIONAL DATA:  Local particle size (hydrometer) data and\nAtterburg Limits data from Texas Highway Department.\nHorizon          Thickness         S           Si\nC           LL            PI\nAp                0-7@           14          31\n55          62            37\nB21               7-14@          16          26\n58          60            36\nB22ca            14-18@          18          26\n56          56            35\nNational Cooperative Soil Survey\nU. S. A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "narrative": "Ap--0 to 7 inches; reddish brown (5YR 4/4) clay, dark reddish brown (5YR 3/4) moist; moderate fine subangular blocky structure; hard, firm; common fine roots; few fine pores; few concretions of calcium carbonate; few fragments of limestone; moderately"
+      },
+      {
+        "name": "B21",
+        "top": 18,
+        "bottom": 36,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "texture_class": "clay",
+        "narrative": "B21--7 to 14 inches; red (2.5YR 4/6) clay, dark red (2.5YR"
+      },
+      {
+        "name": "B22ca",
+        "top": 36,
+        "bottom": 46,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "texture_class": "clay",
+        "narrative": "B22ca--14 to 18 inches; yellowish red (5YR 5/6) clay,"
+      },
+      {
+        "name": "R",
+        "top": 46,
+        "bottom": 56,
+        "narrative": "R--18 to 22 inches; limestone bedrock that is coarsely"
+      }
+    ]
+  ]
 }

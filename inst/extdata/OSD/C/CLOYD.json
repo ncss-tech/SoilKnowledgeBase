@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to about 14 inches.  (A1 and A2 horizons)\nCalcic horizon - The zone of calcium carbonate accumulation from a depth of 7 inches to 14 inches. (Bk horizon)\nParticle size control section - the zone from 10 to 14 inches.  (A1, A2, Bk horizons)\nThe classification is based on the \"Keys to Soil Taxonomy, Eighth Edition, 1998\".\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 3 inches; dark brown (10YR 4/3) gravelly loam; pale brown (10YR 6/3) dry; weak fine granular structure; slightly hard, friable, slightly stickly, slightly plastic; common very fine roots; common very fine vesicular pores; slightly effervescent, 22 percent calcium carbonate equivalent; moderately alkaline (pH 8.0); 20 percent gravel; abrupt smooth boundary. ( 2 to 4 inches thick )."
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--3 to 7 inches;  dark brown (10YR 4/3) cobbly loam; pale brown (10YR 6/3) dry; weak fine subangular blocky structure; slightly hard, friable, slightly sticky, slightly plastic; common very fine roots; common very fine tubular pores; strongly effervescent, 26 percent calcium carbonate equivalent;  moderately alkaline (pH 8.2); 25 percent cobbles; clear smooth boundary.  ( 4 to 8 inches thick )."
+      },
+      {
+        "name": "Bk",
+        "top": 18,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk--7 to 15 inches; yellowish brown (10YR 5/4) gravelly loam; light yellowish brown (10YR 6/4) dry; weak fine subangular blocky structure; slightly hard, friable, slightly sticky, slightly plastic; few very fine roots; few very fine tubular pores; strongly effervescent, 47 percent calcium carbonate equivalent; moderately alkaline; (pH 8.4); 30 percent gravel; clear smooth boundary. ( 4 to 10 inches thick)."
+      },
+      {
+        "name": "R",
+        "top": 38,
+        "narrative": "R--15 inches; Travertine limestone bedrock."
+      }
+    ]
+  ]
 }

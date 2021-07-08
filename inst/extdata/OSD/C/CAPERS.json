@@ -56,5 +56,53 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic features recognized in this pedon are:\nSulfidic materials - the 0.75 to 2.0 percent sulfur as sulfides combined with the 0.7 to 2.0 n value in the upper 20 inches of the pedon.\nRevised 2/93\nSIR= GA0010\nMLRA= 153A, 153B\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nGA0010 CAPERS      0-  2   60- 72  240-285  45- 55     2-   5\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nGA0010 FREQ             -     APPARENT    -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nGA0010  0-16  SIC C                   0-  0 100-100 35-50    -\nGA0010  0-16  SICL L                  0-  0 100-100 15-35    -\nGA0010 16-60  C SIC                   0-  0 100-100 40-70    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nGA0010  0-16  6.6- 7.8  5.-25 16-32  0.06- 0.2  HIGH\nGA0010  0-16  6.6- 7.8  5.-25 16-32   0.6- 2.0  MODERATE\nGA0010 16-60  6.6- 8.4    -   16-32   0.0-0.06  HIGH\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 41,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 16 inches; very dark grayish brown (2.5Y 3/2) silty clay; massive; sticky; when squeezed in hand, soil flows between the fingers with some difficulty (n value 0.8); sulphide gas odor apparent; matted medium and fine, live and dead grass roots; few muscle shells on surface; neutral; gradual wavy boundary.  (3 to 20 inches thick)"
+      },
+      {
+        "name": "Cg1",
+        "top": 41,
+        "bottom": 117,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Cg1--16 to 46 inches; black (N 2/0) clay; massive; very sticky; when squeezed in hand, soil flows between fingers with difficulty and not leaving hand clean (n value 0.7); common fine grass roots; neutral; gradual wavy boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 117,
+        "bottom": 152,
+        "moist_hue": "N",
+        "moist_value": 3,
+        "moist_chroma": 0,
+        "texture_class": "clay",
+        "pH_class": "mildly alkaline",
+        "narrative": "Cg2--46 to 60 inches; very dark gray (N 3/0) clay, and dark gray (N 4/0); massive; very sticky; when squeezed in hand, soil flows between fingers with difficulty, most remaining in hand (n value less than 0.7); few fine roots; mildly alkaline.  (Combined thickness of the Cg horizons is 40 to more than 57 inches)"
+      }
+    ]
+  ]
 }

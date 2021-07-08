@@ -56,5 +56,126 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\n1. Ochric epipedon - the zone from the soil surface to a depth of 16 inches (Oi, Oe, A, E, and BE horizons).\n2. Argillic horizon - the zone from 16 to 52 inches (Bt horizon).\nRevised 02/06 JWB. The February 2006 revision adds silt loam to the range of textures in the B horizon, shifts zero datum to the top of the Oi horizon, and adjusts horizon depths accordingly. Competing series and other sections were not revised.\nRevised 02/07 JDC. 2006: Updated pedon description and competing series section. Other changes include: changing permeability to Ksat; slope range expanded to 0 to 70 percent; more detail added to pedon description including roots and pores; and textures of Bt and C horizons in RIC defined better.\n2008- Pedon description and type location updated.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "narrative": "Oi--0 to 1 inches; brown (7.5YR 4/3) slightly decomposed plant material."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--1 to 3 inches; very dark grayish brown (10YR 3/2) gravelly silt loam; weak medium granular structure; very friable, nonsticky, nonplastic; many very fine to coarse roots throughout; few medium pores; 17 percent subangular gravel; strongly acid; clear wavy boundary.(1 to 8 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E--3 to 7 inches; yellowish brown (10YR 5/4) channery silt loam; moderate medium subangular blocky structure; very friable, slightly sticky, nonplastic; common fine to very coarse roots throughout; few medium pores; 20 percent subangular channers; strongly acid; gradual wavy boundary. (0 to 11 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 18,
+        "bottom": 41,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BE--7 to 16 inches; strong brown (7.5YR 5/6) channery loam; moderate medium subangular blocky structure; friable, slightly sticky, slightly plastic; common fine, medium and few very coarse roots throughout; few medium pores; very few clay films on all faces of peds; 22 percent subangular channers; strongly acid, clear wavy boundary. (0 to 9 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 41,
+        "bottom": 61,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--16 to 24 inches; yellowish red (5YR 4/6) channery clay loam; moderate medium prismatic structure; friable, slightly sticky, slightly plastic; few fine, coarse and very coarse roots throughout; few coarse pores; common clay films on all faces of peds; few black (5YR 2.5/1), manganese coatings; 25 percent subangular channers; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 61,
+        "bottom": 91,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "cf_class": "channery",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--24 to 36 inches; yellowish red (5YR 5/6) channery clay loam; moderate medium subangular blocky and prismatic structure; friable, moderately sticky, moderately plastic; common medium and coarse and few very coarse roots throughout; few coarse pores; few clay films on all faces of peds; common black (5YR 2.5/1); manganese coatings; 5 percent subangular stones and 25 percent subangular channers; moderately acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 91,
+        "bottom": 132,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "cf_class": "very channery",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt3--36 to 52 inches; red (2.5YR 4/6) very channery clay loam; moderate medium prismatic structure; friable, slightly sticky, moderately plastic; common fine and medium roots throughout and few coarse roots around fragments; few very coarse pores; very few clay films on all faces of peds; common reddish black (2.5YR 2.5/1); manganese coatings; 15 percent subangular stones and 30 percent subangular channers; moderately acid; gradual wavy boundary. (combined thickness of the Bt horizons is 20 to 49 inches)"
+      },
+      {
+        "name": "C",
+        "top": 132,
+        "bottom": 152,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very stony",
+        "pH_class": "moderately acid",
+        "narrative": "C--52 to 60 inches; yellowish red (5YR 4/6) very stony sandy clay loam; massive; friable, slightly sticky, moderately plastic; few very coarse roots around fragments; few coarse pores; 6 percent subangular channers and 45 percent subangular stones; moderately acid. (0 to 15 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 152,
+        "narrative": "R--60 inches; diabase bedrock."
+      }
+    ]
+  ]
 }

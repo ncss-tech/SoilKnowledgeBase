@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nParticle-size control section:  The zone from 7 to 27 inches.  (Bt1 and Bt2 horizons)\nOchric epipedon:  The zone from the surface to 7 inches (A1 and A2 horizons)\nArgillic horizon:  The zone from 3 to 56 inches.  (Bt1, Bt2, and Bt3 horizons)\nLithic contact:  The contact with sandstone at 56 inches.  (R layer)\nThe surface texture modifier was determined following the guidelines outlined in the Utah document, \"Procedures for Distributing Rock Fragments on the Surface Layer into the Upper 6 inches of Soil and Subsequent Naming of Map Units, April 1979.\"\nThe cation exchange activity class was inferred from laboratory data from similar soils in the Uintah Area Soil Survey.\nTaxonomic version:  Eighth Edition, 1998.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely bouldery",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 3 inches; dark reddish brown (5YR 3/3) extremely bouldery loam, dark reddish brown (5YR 3/2) moist; moderate very fine granular structure; soft, very friable, slightly sticky and slightly plastic; many very fine and fine, few coarse and medium roots; many fine and very fine, common medium, few coarse tubular pores; 10 percent boulders, 30 percent stones, and 10 percent cobbles; moderately alkaline (pH 8.2); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 18,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very stony",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A2--3 to 7 inches; dark reddish brown (5YR 3/3) very stony loam, dark reddish brown (5YR 3/2) moist; moderate medium subangular blocky structure parting to moderate fine and very fine granular; slightly hard, friable, slightly sticky and slightly plastic; many fine and very fine, common coarse and medium roots; many fine and very fine, common medium, and few coarse tubular pores; 5 percent boulders, 20 percent stones, 15 percent cobbles, and 10 percent gravel; moderately alkaline (pH 8.0); abrupt smooth boundary.  (combined thickness of the A horizons is 5 to 7 inches)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 64,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very stony",
+        "pH": 7.9,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--7 to 25 inches; reddish brown (2.5YR 4/4) very stony sandy clay loam, dark reddish brown (2.5YR 3/4) moist; moderate medium subangular blocky structure parting to moderate medium and fine subangular blocky; hard, firm, moderately sticky and moderately plastic; many very fine, common coarse, medium, and fine roots; many fine and very fine, common medium, and few coarse tubular pores; common discontinuous distinct clay films on faces of peds and in pores; 10 percent stones, 20 percent cobbles, and 10 percent gravel; moderately alkaline (pH 7.9); gradual smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 64,
+        "bottom": 109,
+        "moist_hue": "2.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "very stony",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--25 to 43 inches; reddish brown (2.5YR 5/4) very stony clay loam, reddish brown (2.5YR 4/4) moist; moderate medium subangular blocky structure parting to moderate fine and very fine subangular blocky; hard, firm, moderately sticky and moderately plastic; common medium, fine, and very fine, few coarse roots; common fine and very fine tubular pores; common continuous distinct clay films on faces of peds and in pores; 25 percent stones, 20 percent cobbles, and 10 percent gravel; slightly alkaline (pH 7.8); gradual wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 109,
+        "bottom": 142,
+        "moist_hue": "10R",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "cf_class": "very stony",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "narrative": "Bt3--43 to 56 inches; red (10R 4/6) very stony clay loam, red (10R 4/6) moist; moderate coarse subangular blocky structure parting to moderate fine and very fine subangular blocky; very hard, very firm, moderately sticky and moderately plastic; few medium, fine, and very fine roots; common fine and very fine tubular pores; common continuous distinct clay films on faces of peds and in pores; 25 percent stones, 20 percent cobbles, and 10 percent gravel; slightly alkaline (pH 7.8).  (combined thickness of the Bt horizons is 35 to 53 inches)"
+      },
+      {
+        "name": "R",
+        "top": 142,
+        "texture_class": "sand",
+        "narrative": "R--56 inches; unweathered sandstone bedrock."
+      }
+    ]
+  ]
 }

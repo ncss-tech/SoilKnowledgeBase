@@ -56,5 +56,73 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\numbric epipedon: 0 to 19 inches; A1, A2 horizons\ncambic horizon: 19 to 30 inches; Bw horizon\nandic subgroup properties: 0 to 9 inches; A1 horizon\nparticle-size control section: 10 to 30 inches; A2, Bw horizons\neutric subgroup properties: more than one-half the thickness between 10 and 30 inches has a base saturation of more than 50 percent\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 9 inches; dark brown (10YR 3/3) gravelly ashy loam, brown (10YR 5/3) dry; weak medium to fine subangular blocky structure parting to medium granular; soft, very friable, nonsticky and nonplastic; common very fine and few fine roots throughout; common very fine irregular pores; 15 percent gravel; moderately acid (pH 6.0); clear smooth boundary. (7 to 14 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 23,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A2--9 to 19 inches; dark brown (10YR 3/3) very gravelly ashy loam, yellowish brown (10YR 5/4) dry; weak medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; few very fine and fine roots throughout; few very fine irregular and few fine tubular pores; 30 percent gravel and 5 percent cobbles; moderately acid (pH 6.0); abrupt smooth boundary. (3 to 11 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 48,
+        "bottom": 76,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "narrative": "Bw--19 to 30 inches; dark yellowish brown (10YR 3/4) very gravelly loam, yellowish brown (10YR 5/4) dry; weak medium subangular blocky structure; soft, friable, nonsticky and nonplastic; few very fine roots throughout; few very fine tubular pores; 30 percent gravel and 10 percent cobbles; moderately acid (pH 6.0); abrupt boundary. (6 to 16 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 76,
+        "narrative": "R--30 inches; basalt"
+      }
+    ]
+  ]
 }

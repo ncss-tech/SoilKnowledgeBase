@@ -56,5 +56,107 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Type location moved from California to Nevada in 1990.\nDiagnostic horizon and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 18 cm (A1, A2, and part of the A3 horizons}.\nCambic horizon - The zone from 25 to 64 cm (The Bwss horizon).\nSlickensides - The zone from 25 to 100 cm (The Bwss and Bk horizons)\nCalcic horizon - The zone from 64 to 100 cm (The Bkss horizon).\nLithic contact - The boundary at 100 cm (R layer).\nParticle-size control section - The zone from 25 to 100 cm (Bw1 and Bw2 horizons.)\nADDITIONAL DATA: Pedon No. S69Nev16-4; Riverside Lab. No. 69-418 to 426.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "5YR",
+        "dry_value": 3,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "cf_class": "cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 5 cm; dark reddish brown (5YR 3/3) cobbly clay, dark brown (7.5YR 3/2) moist; strong very fine and fine granular structure; hard, very friable, very sticky and very plastic; common very fine and fine roots; many very fine interstitial pores; 25 percent cobbles; neutral (pH 7.0); abrupt smooth boundary. (3 to 10 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "5YR",
+        "dry_value": 3,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--5 to 13 cm; dark reddish brown (5YR 3/3) silty clay, dark brown (7.5YR 3/2) moist; moderate fine angular blocky structure; hard, friable, moderately sticky and moderately plastic; common very fine and fine roots; many very fine and fine interstitial pores; continuous colloidal coatings on faces of peds; neutral (pH 7.2); clear smooth boundary. (5 to 15 cm thick)"
+      },
+      {
+        "name": "A3",
+        "top": 13,
+        "bottom": 25,
+        "dry_hue": "5YR",
+        "dry_value": 3,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A3--13 to 25 cm; dark reddish brown (5YR 3/3) clay, dark brown (7.5YR 3/2) moist; weak coarse prismatic structure; very hard, friable, moderately sticky and very plastic; common very fine and fine roots; many very fine interstitial pores; continuous pressure cutans; slightly alkaline (pH 7.4); clear smooth boundary. (10 to 20 cm thick)"
+      },
+      {
+        "name": "Bwss",
+        "top": 25,
+        "bottom": 64,
+        "dry_hue": "5YR",
+        "dry_value": 3,
+        "dry_chroma": 3,
+        "texture_class": "clay",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bwss--25 to 64 cm; dark reddish brown (5YR 3/3) clay dry and moist; weak coarse prismatic structure parting to strong fine and medium angular blocky structure; very hard, firm, moderately sticky and very plastic; few very fine and very few medium roots; common very fine interstitial pores; continuous pressure cutans and many intersecting slickensides; moderately alkaline (pH 8.0); clear smooth boundary. (20 to 50 cm thick)"
+      },
+      {
+        "name": "Bkss",
+        "top": 64,
+        "bottom": 100,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bkss--64 to 100 cm; reddish brown (5YR 4/3) silty clay, dark brown (7.5YR 3/4) moist; strong fine and medium blocky structure; hard, friable, moderately sticky and moderately plastic; few very fine tubular pores; common pressure cutans, many slickensides; few medium white carbonate masses; moderately alkaline (pH 8.2); abrupt smooth boundary. (13 to 64 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 100,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "narrative": "R--100 cm; basalt bedrock; strong brown (7.5YR 5/6) decomposed rock materials in fractures; thin continuous white carbonate as coats on fractured faces."
+      }
+    ]
+  ]
 }

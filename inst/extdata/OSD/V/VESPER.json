@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:  ochric epipedon - the zone from the surface of the soil to a depth of 8 inches (Ap horizon); cambic horizon - zone from 16 to 34 inches (2Bg1, 3Bg2 horizons); other features - strongly contrasting particle size class within the control section (10 to 40 inches) - acid reaction class (pH is less than 5.5 m water 1:1) thoughout the control section.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; very dark grayish brown (10YR 3/2) silt loam, grayish brown (10YR 5/2) dry; weak fine and very fine subangular blocky structure; friable; many fine fibrous roots; strongly acid; abrupt smooth boundary.  (6 to 9 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 20,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "narrative": "E--8 to 16 inches; light brownish gray (10YR 6/2) silt loam; weak thin platy structure; friable;"
+      },
+      {
+        "name": "2Bg1",
+        "top": 41,
+        "bottom": 64,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "narrative": "2Bg1--16 to 25 inches; light brownish gray (2.5Y 6/2) loam; many coarse prominent mottles of yellowish brown (10YR 5/6 & 5/8) and strong brown (7.5YR 5/6 & 5/8); weak medium subangular blocky"
+      },
+      {
+        "name": "3Bg2",
+        "top": 64,
+        "bottom": 86,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "3Bg2--25 to 34 inches; olive gray (5Y 5/2) silty clay; common fine and medium prominent mottles of strong brown (7.5YR 5/6); weak fine and medium subangular blocky structure; firm; few fine roots; layer of very dark grayish brown (10YR 3/2) sandy clay loam in upper 1 inches; very strongly acid; clear smooth boundary.  (7 to 15 inches thick)"
+      },
+      {
+        "name": "4Cg",
+        "top": 86,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH_class": "very strongly acid",
+        "narrative": "4Cg--34 to 60 inches; light brownish gray (2.5Y 6/2) fine sand that grades to dark gray (10YR 4/1) below a depth of 48 inches; single grain becoming massive and friable in lower part of horizon; 4 inch band of greenish gray (5GY 5/1) silty clay near lower boundary; very strongly acid."
+      }
+    ]
+  ]
 }

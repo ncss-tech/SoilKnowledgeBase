@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: 1. The Pillsbury series was previously classified as Coarse-loamy, mixed, active, acid, frigid Aeric Endoaquepts.\n2. Although the series is represented here as moderately deep to densic materials, Pillsbury soils have also been correlated as members of the shallow family.\n3. With this revision the series is restricted to the poorly drained class. However, Pillsbury soils have also been correlated as members of the somewhat poorly drained class.\n4. Diagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon - the zone from 0 to 15 cm (Oe and A horizons).\nb. Cambic horizon - the zone from 15 to 58 cm (Bg1 and Bg2 horizons).\nc. Redoximorphic features - chroma of 2 and redox concentrations in the zone from 15 to 58 cm (Bg1 and Bg2 horizons).\nd. Densic materials - the zone from 58 to 165 cm (Cd layer).\nADDITIONAL DATA: Characterization data for Pillsbury and similar soils is available through the National Cooperative Soil Survey Soil Characterization Database: http://ncsslabdatamart.sc.egov.usda.gov/\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oe--0 to 3 cm; mucky peat. (O horizon is 0 to 10 cm thick)"
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--3 to 15 cm; black (10YR 2/1) cobbly loam; weak fine and medium granular structure; friable; many fine and common medium roots; 5 percent gravel, 10 percent cobbles, and 5 percent stones; very strongly acid (pH 4.8); clear smooth boundary. (0 to 20 cm thick)"
+      },
+      {
+        "name": "Bg1",
+        "top": 15,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "cobbly",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bg1--15 to 33 cm; dark grayish brown (10YR 4/2) cobbly fine sandy loam; weak medium granular structure; friable; few fine roots; few fine distinct dark yellowish brown (10YR 4/4) masses of iron accumulation and few fine prominent olive gray (5Y 5/2), and gray (5Y 5/1) iron depletions; 5 percent gravel, 10 percent cobbles, and 2 percent stones; very strongly acid (pH 4.8); clear smooth boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 33,
+        "bottom": 58,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "cobbly",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bg2--33 to 58 cm; dark grayish brown (2.5Y 4/2) cobbly fine sandy loam; weak medium subangular blocky structure; friable; very few fine roots; common medium prominent dark yellowish brown (10YR 4/4), light olive brown (2.5Y 5/4), and olive (5Y 5/6) masses of iron accumulation; 5 percent gravel, 10 percent cobbles, and 2 percent stones; very strongly acid (pH 5.0); clear smooth boundary. (Combined thickness of the Bg horizon is 10 to 60 cm.)"
+      },
+      {
+        "name": "Cd",
+        "top": 58,
+        "bottom": 165,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "cobbly",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "narrative": "Cd--58 to 165 cm; olive brown (2.5Y 4/4) cobbly fine sandy loam; massive; firm; common medium faint dark yellowish brown (10YR 4/4), and common medium distinct yellowish brown (10YR 5/6) masses of iron accumulation; few widely spaced fracture faces with gray (5Y 5/1) interiors and yellowish brown (10YR 5/6) coatings that extend almost vertically into horizon; 10 percent gravel, 7 percent cobbles, and 3 percent stones; very strongly acid (pH 5.0)."
+      }
+    ]
+  ]
 }

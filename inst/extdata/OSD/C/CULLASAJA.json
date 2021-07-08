@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This series was previously included in the Spivey series. However, Spivey soils formed in colluvium derived from materials weathered from low-grade metasedimentary rocks such as phyllite, low-grade metasandstone, and slate and contain fragments of those rocks.\nThis 12/97 revision adjusts the textures of the A1, A2 and Bw horizons based on laboratory data for this pedon and\nplaces Cullasaja soils in an isotic mineralogy class. Although Cullasaja soils may exhibit some of the characteristics of andic soil properties, they lack the volcanic glass found in soils of similar taxa in the Western United States.\nDiagnostic horizons and other features recognized in this pedon:\nUmbric Epipedon - the zone from the mineral soil surface  to a depth of 19 inches ( A1 and A2 horizons).\nCambic Horizon - 19 to 67 inches (Bw and BC horizons).\nIsotic mineralogy class - within the PSCS the soil generally has high amorphous materials (high pH-dependent charge) and a high moisture retention (at 1500 kPa) to clay ratio.\nSkeletal property - average content of more than 35 percent rock fragments, by volume, in the control section. (A2, Bw and BC horizons).\nADDITIONAL DATA: Characterization data is available from the National Soil Survey Laboratory, Lincoln, NE for the following pedons: S86NC-113-023 and S91NC-171-003.\nMLRA: 130B SIR(s): NC0237, NC0238 (Bouldery)\nNASIS Data Map Unit ID: NASIS data for the typical pedon in Macon County, NC are represented by DMU #368257.\nRevised: 10/92-DJT,AG; 12/97-DHK, 3/03-MKC\n02/11-BPS: Taxonomic Classification -- 11th Keys, update competing and associated series, MLRA clarification\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "Oi--0 to 2 inches; partially decomposed leaves, twigs, and roots."
+      },
+      {
+        "name": "A1",
+        "top": 5,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "cf_class": "cobbly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--2 to 12 inches; very dark grayish brown (10YR 3/2) cobbly sandy clay loam, dark grayish brown (10YR 4/2) dry; moderate fine and medium granular structure; very friable; many fine and medium, and common coarse roots; 5 percent gravel, 10 percent cobbles, 5 percent stones by volume; few fine flakes of mica; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 30,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "cf_class": "cobbly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--12 to 19 inches; dark brown (10YR 3/3) cobbly sandy clay loam, dark yellowish brown (10YR 4/4) dry; moderate fine and medium granular structure; very friable; common fine to coarse roots; 5 percent gravel, 10 percent cobbles, 5 percent stones by volume; few fine flakes of mica; strongly acid; clear wavy boundary. (Combined thickness of the A horizon is 10 to 20 inches.)"
+      },
+      {
+        "name": "Bw",
+        "top": 48,
+        "bottom": 86,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "cf_class": "cobbly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--19 to 34 inches; strong brown (7.5YR 4/6) cobbly fine sandy loam; weak fine and medium subangular blocky structure; very friable; common medium to coarse roots; 10 percent gravel, 10 percent cobbles, 20 percent stones; few fine flakes of mica; strongly acid; clear wavy boundary. (10 to 40 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 86,
+        "bottom": 170,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "cf_class": "cobbly",
+        "pH_class": "moderately acid",
+        "narrative": "BC--34 to 67 inches; strong brown (7.5YR 4/6) cobbly loamy sand; weak fine and medium subangular blocky structure; very friable; few medium to coarse roots; 10 percent gravel, 15 percent cobbles, 30 percent stones; few fine to medium flakes of mica; moderately acid."
+      }
+    ]
+  ]
 }

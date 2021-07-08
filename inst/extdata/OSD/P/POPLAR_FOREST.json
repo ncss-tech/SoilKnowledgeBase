@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This series is proposed as a mesic equivalent to the Madison series mapped in thermic MLRA 136.  The name comes from the summer house belonging to Thomas Jefferson in Bedford County.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface of the soil to a depth of 7 inches.\nKandic horizon - the zone from 7 to 30 inches: it meets the low activity clay requirement for Kandic in more than 50 percent of the horizon.\nArgillic horizon - the zone from 7 to 30 inches.\nADDITIONAL DATA: None\nMLRA: 136\nTABULAR SERIES DATA:\nSlope    Airtemp   FrFr/Seas   Precip    Elevation\n2-60     52-60     160-210     40-65     300-1400\n2-60     52-60     160-210     40-65     300-1400\nFloodL FloodH  Watertable  Kind  Months  Bedrock Hardness\nNONE           >6.0               -      >60\nNONE           >6.0               -      >60\nDepth   Texture             3-Inch  No-10    Clay%   -CEC-\n0-7     L FSL SL            0-3     80-100   5-20    1-4\n0-7     GR-FSL GR-SL        3-10    60-85    5-15    1-4\n0-7     CL SCL              0-3     85-100  25-35    3-6\n7-25    C CL SC             0-3     85-100  30-50    3-6\n25-30   L SCL CL            0-3     85-100  25-35    2-4\n30-72   FSL SL L            0-5     80-100   5-20    1-4\n0-7     GR-SCL GR-CL        3-10    55-75   20-35    3-6\n7-25    C CL SC             0-3     85-100  30-60    4-8\n25-30   L SCL CL            0-3     85-100  15-35    2-5\n30-72   FSL SL L            0-3     80-100   8-20    1-3\nDepth    -pH-      O.M.  Salin   Permeab     Shnk-Swll\n0-7     4.5-6.5   .5-2.   0-0    2.0-6.0     LOW\n0-7     4.5-6.5   .5-2.   0-0    6.0-20      LOW\n0-7     4.5-6.5   .5-2.   0-0    0.6-2.0     LOW\n7-25    4.5-5.5   0.-.5   0-0    0.6-2.0     LOW\n25-30   4.5-6.0   0.-.5   0-0    0.6-2.0     LOW\n30-72   4.5-6.0   0.-.5   0-0    0.6-2.0     LOW\n0-7     4.5-6.5   .5-2.   0-0    0.6-2.0     LOW\n7-25    4.5-5.5   0.-.5   0-0    0.6-2.0     LOW\n25-30   4.5-6.0   0.-.5   0-0    0.6-2.0     LOW\n30-72   4.5-6.0   0.-.2   0-0    0.6-2.0     LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; reddish brown (5YR 4/4) sandy clay loam; weak fine granular structure; friable; slightly sticky, slightly plastic; many fine and common medium roots; 2 percent fine mica flakes; 3 percent quartz gravel; very strongly acid; abrupt smooth boundary. (2 to 9 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 18,
+        "bottom": 64,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--7 to 25 inches; red (2.5YR 4/6) clay; moderate medium subangular blocky structure; friable; slightly sticky, slightly plastic; greasy; common fine and few medium roots; many distinct clay films on faces of peds; 20 percent fine mica flakes; 3 percent quartz gravel; very strongly acid; clear wavy boundary. (12 to 30 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 64,
+        "bottom": 76,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--25 to 30 inches; red (2.5YR 4/6) loam; moderate coarse subangular blocky structure; friable; slightly sticky, nonplastic; greasy; few fine and medium roots; common distinct clay films on faces of peds; 30 percent fine mica flakes; 12 percent mica gneiss fragments; very strongly acid; gradual wavy boundary. (0 to 14 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 76,
+        "bottom": 107,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "C1--30 to 42 inches; dark brown (7.5YR 3/3), yellowish red (5YR 5/8) and light yellowish brown (10YR 6/4) loam saprolite; massive; friable; greasy; 40 percent fine mica flakes; 7 percent quartz gravel; strongly acid; clear irregular boundary."
+      },
+      {
+        "name": "C2",
+        "top": 107,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "narrative": "C2--42 to 72 inches; dark brown (10YR 3/3), brown (7.5YR 4/4) and pink (7.5YR 7/4) sandy loam saprolite; massive; friable; greasy; 50 percent fine mica flakes; strongly acid."
+      }
+    ]
+  ]
 }

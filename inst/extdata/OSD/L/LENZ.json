@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon include:\nMollic epipedon - the zone from 0 to 12 inches (A and BA horizons)\nCambic horizon - the zone from 12 to 23 inches (Bt horizon)\nVitrandic feature - the zone from 0 to 12 inches (A and BA horizons)\nUltic feature - the zone from 10 to 30 inches having a base saturation (sum) of less than 75 percent in one or more horizons\nLithic contact - the zone beginning at 36 inches (R)\nParticle-size control section - the zone from 10 to 36 inches\nClassification revised 11/01 based on assumed ash influence of the surface and the associated soils in Kootenai and Spokane counties currently classified as Vitrandic subgroups.\nLenz soils should be further investigated to determine typical mineralogy (isotic vs. mixed).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 7 inches; dark brown (10YR 3/3) ashy loam, very dark brown (10YR 2/2) moist; moderate medium and coarse granular structure; soft, very friable, slightly sticky and slightly plastic; many very fine, fine, medium and few coarse roots; many very fine and fine interstitial pores; 5 percent fine gravel; slightly acid (pH 6.4); clear wavy boundary. (7 to 10 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 18,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BA--7 to 12 inches; brown (10YR 5/3) ashy loam, dark brown (10YR 3/3) moist; weak medium subangular blocky structure parting to moderate fine and medium granular; soft, very friable; slightly sticky and slightly plastic; many very fine and fine, common medium, and few coarse roots; many very fine and fine interstitial pores; 10 percent fine gravel; slightly acid (pH 6.2); clear wavy boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 30,
+        "bottom": 58,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--12 to 23 inches; light yellowish brown (10YR 6/4) very gravelly sandy loam, dark yellowish brown (10YR 4/4) moist; weak fine and medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine and fine, few medium and coarse roots; common very fine and fine tubular and interstitial pores; few faint clay films in pores; 25 percent gravel and 10 percent cobbles; slightly acid (pH 6.3); clear wavy boundary. (5 to 17 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 58,
+        "bottom": 91,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely stony",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C--23 to 36 inches; light yellowish brown (10YR 6/4) extremely stony sandy loam, dark yellowish brown (10YR 4/4) moist; single grain; loose; few very fine and fine roots; common fine interstitial and few fine tubular pores; 75 percent stones; moderately acid (pH 6.0); gradual wavy boundary. (5 to 14 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 91,
+        "narrative": "R--36 inches; fractured granite bedrock with few fines in cracks."
+      }
+    ]
+  ]
 }

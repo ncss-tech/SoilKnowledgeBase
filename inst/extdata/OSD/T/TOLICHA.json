@@ -56,5 +56,73 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Tolicha soils were classified as Lithosols in the 1938 Yearbook Classification.\nThe pedon and the concept should be field checked during the update to verify if cambic horizons, calcic horizons or C horizons exist and adjust the classification if needed.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 18 cm (A and Bw horizons).\nCambic horizon - The zone from 8 to 30 cm (Bw1 and Bw2 horizons).\nLithic contact - The boundary at 30 cm (R layer).\nParticle-size control section - The zone from the surface to 30 cm (A, Bw1 and Bw3 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "very fine sandy loam",
+        "cf_class": "very stony",
+        "pH": 8.6,
+        "pH_class": "strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 8 cm; light gray (10YR 7/2) very stony very fine sandy loam, dark grayish brown (10YR 4/2) moist; weak thick platy structure; slightly hard, friable, slightly sticky and nonplastic; common medium and many very fine and fine vesicular pores; 50 percent stones and gravel; violently effervescent; strongly alkaline (pH 8.6); abrupt smooth boundary (5 to 10 cm thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 8,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very stony",
+        "pH": 8.7,
+        "pH_class": "strongly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--8 to 18 cm; light gray (10YR 7/2) very stony loam, brown (10YR 5/3) moist; massive; slightly hard, friable, slightly sticky and slightly plastic; few fine roots; many very fine vesicular pores and many very fine and fine interstitial pores; 40 percent stones and gravel; violently effervescent; strongly alkaline (pH 8.7); clear wavy boundary (10 to 20 cm thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 18,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "stony",
+        "pH": 8.9,
+        "pH_class": "strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bw2--18 to 30 cm; very pale brown 10YR 7/3) stony fine sandy loam, brown (10YR 5/3) moist; massive; soft, very friable, nonsticky and slightly plastic; few medium and many very fine and fine roots; many very fine tubular and interstitial pores; 30 percent stones and gravel; violently effervescent; strongly alkaline (pH 8.9); abrupt irregular boundary. (10 to 23 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 30,
+        "bottom": 36,
+        "narrative": "R--30 to 36 cm; somewhat weathered extremely hard basalt that contains thin white carbonate and silica coatings on surface and in cracks and crevices."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,71 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The name is coined.  Diagnostic features include mollic colors from 0 to 17 inches; a cambic horizon from 6 to 17 inches; a Bk horizon from 17 to 27 inches; and limestone bedrock at a depth of 27 inches, but ranging from 20 to 40 inches.  Last updated by the state 5/94.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 6 inches; very dark grayish brown (10YR 3/2) clay loam, very dark brown (10YR 2/2) moist; strong fine granular structure; soft, very friable, slightly sticky, and slightly plastic; 5 percent channers, 2 percent flagstone; neutral; clear smooth boundary.  (4 to 8 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 15,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 2,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "cf_class": "channery",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--6 to 17 inches; very dark brown (10YR 2/2) clay loam, black (10YR 2/1) moist; strong fine and medium subangular blocky structure; hard, friable, slightly sticky, and very plastic; 5 percent channery fragments, 2 percent flagstone; neutral; clear wavy boundary.  (10 to 16 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 43,
+        "bottom": 69,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bk--17 to 27 inches; light brownish gray (10YR 6/2) channery loam, dark grayish brown (10YR 4/2) moist; weak coarse subangular blocky structure; slightly hard, friable, slightly sticky, and slightly plastic; 20 percent channers, 5 percent flagstone; moderately alkaline; abrupt wavy boundary.  (6 to 16 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 69,
+        "narrative": "R--27 inches; hard limestone bedrock."
+      }
+    ]
+  ]
 }

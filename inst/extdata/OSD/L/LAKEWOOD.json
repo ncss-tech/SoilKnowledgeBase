@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Laboratory studies indicate Lakewood soils do not meet the requirements for spodic materials.\nDiagnostic horizons and other diagnostic soil characteristics recognized in this pedon are:\nOchric epipedon--the zone from the soil surface to a depth of 10 inches (A horizon)\nCambic horizon--the zone from a depth of 10 to 36 inches (Bh and BC horizons)\nSERIES INTERPRETATION RECORDS(s): NJ0010\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNJ0010 LAKEWOOD    0- 25     -        -       -         -\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNJ0010 NONE           >6.00              -     >60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNJ0010  0-10  S FS                    0-  0  90-100  1- 4    -\nNJ0010 10-36  S FS LS                 0-  0  80-100  1-10    -\nNJ0010 36-60  S GR-S SL               0-  0  75-100  2- 4    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNJ0010  0-10  3.6- 5.0  1.-2.  0- 0   6.0-  20  LOW\nNJ0010 10-36  3.6- 5.0    -    0- 0   6.0-  20  LOW\nNJ0010 36-60  3.6- 5.0    -    0- 0   0.6-  20  LOW\nADDITIONAL DATA: Characterization samples--S73NJ-15-2, S73NY-15-7, and S73NJ-15-8\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "Oi--1 to 0 inches; slightly decomposed plant material composed of loose pine needles, oak leaves, and twigs and in part mosses or lichens discontinuous but covering nearly 50 percent of the surface. (0 to 2 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "broken",
+        "narrative": "A--0 to 1 inches; black (10YR 2/1) sand; single grain; loose; common medium roots; extremely acid; clear broken boundary. (0 to 4 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 3,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "E--1 to 10 inches; light brownish gray (10YR 6/2) sand; single grained; loose; few medium roots; extremely acid; gradual irregular boundary. (8 to 24 inches thick)"
+      },
+      {
+        "name": "Bh",
+        "top": 25,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bh--10 to 14 inches; yellowish brown (10YR 5/4) sand; single grained; loose; few fine roots; tongues of E material spaced 1 to 3 feet apart extend into this horizon; extremely acid; gradual wavy boundary. (1 to 6 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 36,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "extremely acid",
+        "distinctness": "diffuse",
+        "topography": "wavy",
+        "narrative": "BC--14 to 36 inches; yellowish brown (10YR 5/6) in the upper part fading to brownish yellow (10YR 6/6) in the lower part, sand; single grained; loose; few fine roots; many very thin organic and sesquioxides coatings on sand grains becoming thinner with depth; extremely acid; diffuse wavy boundary. (6 to 26 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 91,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "extremely acid",
+        "narrative": "C--36 to 60 inches; brownish yellow (10YR 6/6) sand; single grained; loose, faintly stratified; extremely acid."
+      }
+    ]
+  ]
 }

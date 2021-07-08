@@ -56,5 +56,87 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nADDITIONAL DATA: Values for sulfur are based on data from the NSSL, Lincoln, NE and a Masters Thesis, Pedogenic Investigation of Tidal Marsh Soils in Virginia, by Gary A. Reusche, VPI & SU, 1975.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope   Airtemp  FrFr/Seas  Precip   Elevation\nVA0169 POCATY       0-1    59- 65   190-240    40- 50      0-5\nSOI-5  FloodL FloodH Watertable   Kind    Months   Bedrock Hardness\nVA0169  FREQ            0-1.0   APPARENT  JAN-DEC       60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0169  0-12  PEAT MPT MUCK            -       -     0-0    -\nVA0169 12-20  MPT MUCK                 -       -     0-0    -\nVA0169 20-60  MUCK                     -       -     0-0    -\nVA0169 60-80  VAR                      -       -     5-50    -\nSOI-5  Depth    -pH-     O.M.  Salin   Permeab   Shnk-Swll\nVA0169  0-12  4.5- 7.3  20-60   2-16   2.0-6.0     LOW\nVA0169 12-20  4.5- 7.3  20-60   2-16   0.6-2.0     LOW\nVA0169 20-60  4.5- 7.3  20-60   2-16   0.6-2.0     LOW\nVA0169 60-80  4.5- 7.3    -     0-2   0.06-0.2     LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 0,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "0i--0 to 12 inches; very dark brown (10YR 2/2) peat (fibric material) comprised of partially decomposed leaves, stems, and roots; about 75 percent fiber rubbed; massive; many fine and medium roots; weak sulfide odor; strongly acid; gradual smooth boundary. (0 to 16 inches thick)"
+      },
+      {
+        "name": "0e",
+        "top": 30,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "0e--12 to 20 inches; very dark brown (10YR 2/2) mucky peat (hemic material); about 35 percent fiber rubbed; massive; many fine and medium roots; moderate sulfide odor; moderately acid; clear smooth boundary. (6 to 16 inches thick)"
+      },
+      {
+        "name": "0a1",
+        "top": 51,
+        "bottom": 104,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "0a1--20 to 41 inches; black (10YR 2/1) muck (sapric material); about 15 percent fiber rubbed; massive; common fine and medium roots; flows easily between fingers when squeezed; moderate sulfide odor; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "0a2",
+        "top": 104,
+        "bottom": 122,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "0a2--41 to 48 inches; black (10YR 2/1) muck (sapric material); less than 5 percent fiber rubbed; massive; few fine and medium roots; flows easily between fingers when squeezed; moderate sulfide odor; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "0a3",
+        "top": 122,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "0a3--48 to 60 inches; dark gray (10YR 4/1) muck (sapric material); less than 5 percent fiber rubbed; massive; flows easily between fingers when squeezed; moderate sulfide odor; slightly acid; clear smooth boundary. (Combined thickness of the 0a layer ranges from 40 to 80 inches)"
+      },
+      {
+        "name": "2Cg",
+        "top": 152,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "narrative": "2Cg--60 to 80 inches; dark gray (10YR 4/1) silt loam; massive; slightly sticky, non-plastic; flows easily between fingers when squeezed; slightly acid."
+      }
+    ]
+  ]
 }

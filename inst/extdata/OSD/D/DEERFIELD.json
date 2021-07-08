@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon include:\nOchric epipedon - the zone from 0 to 23 cm (Ap horizon).\nRedox depletions with chroma of 2 or less - the zone from 64 to 152 cm. (BC, Cg1, and Cg2 horizons).\nADDITIONAL DATA: Full characterization data for pedons with User Pedon IDs of S1959MA005001, S1970MA011004, S1991MA023005, S2005CT003003, and S2013NY085002. Pedons analyzed by the KSSL, Lincoln, NE. The laboratory characterization data for these pedons and similar soils is available through the National Cooperative Soil Survey Soil Characterization Database: http://ncsslabdatamart.sc.egov.usda.gov/\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap --0 to 23 cm; very dark brown (10YR 2/2) loamy fine sand; weak fine and medium granular structure; very friable; common fine roots; moderately acid; abrupt smooth boundary. (15 to 30 cm thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 23,
+        "bottom": 43,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loamy fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1 --23 to 43 cm; strong brown (7.5YR 5/6) loamy fine sand; weak fine and medium granular structure; very friable; common fine roots; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 43,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loamy fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2 --43 to 64 cm; yellowish brown (10YR 5/6) loamy fine sand; weak fine granular structure; very friable; few fine faint brownish yellow (10YR 6/6), moist, masses of oxidized iron accumulation; strongly acid; clear wavy boundary. (Combined thickness of the Bw horizons is 13 to 69 cm.)"
+      },
+      {
+        "name": "BC",
+        "top": 64,
+        "bottom": 84,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "broken",
+        "narrative": "BC --64 to 84 cm; yellowish brown (10YR 5/6) fine sand; single grain structure; loose; common fine and medium distinct strong brown (7.5YR 5/8) masses of oxidized iron accumulation and common fine and medium distinct light brownish gray (10YR 6/2) iron depletions; strongly acid; clear broken boundary. (0 to 51 cm thick)"
+      },
+      {
+        "name": "C1",
+        "top": 84,
+        "bottom": 102,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C1 --84 to 102 cm; light brownish gray (10YR 6/2) stratified sand and fine sand; single grain structure; loose; common fine prominent strong brown (7.5YR 5/8) masses of oxidized iron accumulation; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "C2",
+        "top": 102,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "narrative": "C2 --102 to 152 cm; light brownish gray (10YR 6/2) stratified sand and gravelly sand; single grain structure; loose; common fine and medium prominent strong brown (7.5YR 5/8) masses of oxidized iron accumulation; 10 percent rounded fine granite and quartzite gravel; very strongly acid; individual strata contain up to 20 percent gravel."
+      }
+    ]
+  ]
 }

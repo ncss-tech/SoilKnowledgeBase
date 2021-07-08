@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Tankerville is a community in northwestern Loudoun County.  These soils were formerly mapped in the Chester and Brandywine series.\nREVISED = 2/18/2004, MAV added active ce activity class.\nDiagnostic horizons and features recognized in this pedon are:\na)  Ochric epipedon - zone from surface to 4 inches (Ap horizon).\nb)  Argillic horizon - zone from 4 to 40 inches (Bt and BCt horizons).\nc)  Paralithic contact - at 35 inches (top of Cr horizon).\nd)  Lithic contact - at 40 inches (top of the R horizon).\nADDITIONAL DATA:  Mechanical, mineralogical, and chemical analyses performed by Virginia Polytechnic Institute and State University staff.  In addition, 7 other pedons have been sampled for PSA and 3 for chemistry.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 4 inches; dark yellowish brown (10YR 4/4) loam; moderate medium granular structure; friable, slightly sticky, and non-plastic; 5 percent quartz gravel; many very fine, fine, and medium roots; strongly acid; abrupt smooth boundary (2 to 10 inches thick)."
+      },
+      {
+        "name": "Bt1",
+        "top": 10,
+        "bottom": 25,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1 -- 4 to 10 inches; brown (7.5YR 4/4) loam; moderate medium and coarse subangular blocky structure; friable, slightly sticky, and slightly plastic; 5 percent quartz gravel; few fine and very fine roots; common distinct clay films on faces of peds; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 25,
+        "bottom": 51,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt2 -- 10 to 20 inches; strong brown (7.5YR 4/6) loam; moderate medium subangular blocky structure; friable, slightly sticky, and slightly plastic; 10 percent quartz and gneiss gravel; few fine roots; few distinct clay films on faces of peds; strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "BCt",
+        "top": 51,
+        "bottom": 76,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BCt -- 20 to 30 inches; strong brown (7.5YR 4/6) loam; weak coarse subangular blocky structure; friable, slightly sticky, and non-plastic; 10 percent quartz and gneiss gravel; few fine roots; few distinct clay films on faces of peds; strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "C",
+        "top": 76,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C -- 30 to 35 inches; dark yellowish brown (10YR 4/4) gravelly loam; massive; friable, slightly sticky, and non plastic; 20 percent gneiss fragments; moderately acid; abrupt wavy boundary."
+      },
+      {
+        "name": "Cr",
+        "top": 89,
+        "bottom": 102,
+        "narrative": "Cr -- 35 to 40 inches; weathered gneiss, sheared."
+      },
+      {
+        "name": "R",
+        "top": 102,
+        "narrative": "R -- 40 inches; hard unweathered gneiss."
+      }
+    ]
+  ]
 }

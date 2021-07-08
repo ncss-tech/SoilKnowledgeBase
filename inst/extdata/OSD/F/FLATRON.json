@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - 0 to 30 cm (A, Bt1, and Bt2 horizons).\nArgillic horizon - 10 to 30 cm (Bt1 and Bt2 horizons).\nLithic contact - The boundary at 30 cm (R horizon).\nParticle-size control section - The zone from the soil surface to 30 cm (The A, Bt1 and Bt2 horizons).\nClassification was updated to 11th edition on 07/2011 changed from Lithic Argixerolls to Aridic Lithic Argixerolls.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 10 cm; grayish brown (10YR 5/2) very gravelly loam, very dark grayish brown (10YR 3/2) moist; weak fine granular structure; soft, very friable, slightly sticky and slightly plastic; many very fine to coarse roots; many very fine tubular pores; 25 percent gravel, 5 percent cobbles, 5 percent stones; neutral; (pH 7.0); abrupt smooth boundary. (8 to 13 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 10,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--10 to 15 cm; brown (10YR 5/3) very cobbly clay loam, dark brown (10YR 3/3) moist; moderate medium subangular blocky structure; hard, friable, moderately sticky and moderately plastic; many very fine to coarse roots; common very fine tubular pores; common distinct clay films on faces of peds and lining pores; 25 percent gravel, 20 percent cobbles, 5 percent stones; neutral (pH 7.0); clear smooth boundary. (3 to 8 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 15,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "cf_class": "extremely cobbly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt2--15 to 30 cm; brown (10YR 5/3) extremely cobbly clay, dark brown (10YR 3/3) moist; strong medium subangular blocky structure; hard, firm, moderately sticky and moderately plastic; few very fine and fine roots; few very fine tubular pores; common distinct clay films on faces of peds and lining pores; 35 percent gravel, 20 percent cobbles, 10 percent stones; thin carbonate coating on underside of welded tuff fragments; slightly alkaline (pH 7.6); abrupt smooth boundary.  (6 to 13 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 30,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "narrative": "R--30 cm; gray (10YR 6/1) welded tuff, dark gray (10YR 4/1) moist."
+      }
+    ]
+  ]
 }

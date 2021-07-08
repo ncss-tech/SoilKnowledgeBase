@@ -56,5 +56,88 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface of the soil to a depth of 6 inches  (Ap horizon)\nCambic horizon - the zone from about 6 inches to a depth of about 25 inches (Bw1, Bw2, Bw3 horizons)\nParalithic contact - interbedded limestone and shale at a depth of 32 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "cf_class": "flaggy",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; dark grayish brown (10YR 4/2) flaggy silty clay loam; moderate medium granular structure; friable; many fine roots; 15 percent fragments of limestone up to 1 inch thick and 8 inches long; slightly acid; clear smooth boundary.  (4 to 9 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 15,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "cf_class": "flaggy",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--6 to 12 inches; yellowish brown (10YR 5/4) flaggy silty clay; moderate medium and fine subangular blocky structure; firm; common fine roots; 15 percent fragments of limestone and shale up to 1 inch thick and 8 inches long; moderately acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 30,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay",
+        "cf_class": "flaggy",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "Bw2--12 to 17 inches; yellowish brown (10YR 5/6) flaggy silty clay; few fine and medium distinct strong brown (7.5YR 5/6) and pale brown (10YR 6/3) mottles; moderate fine and medium angular blocky structure in 80 percent of the mass, 20 percent medium to very thick platy rock structure; firm; 25 percent fragments of shale and hard limestone up to 2 inches thick and 8 inches long; slightly acid; gradual irregular boundary."
+      },
+      {
+        "name": "Bw3",
+        "top": 43,
+        "bottom": 64,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay",
+        "cf_class": "flaggy",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "Bw3--17 to 25 inches; light olive brown (2.5Y 5/6) flaggy silty clay; common fine and medium prominent strong brown (7.5YR 5/6) and pale brown (10YR 6/3) mottles; few thin prominent gray (10YR 6/1) and light gray (10YR 7/2) streaks and seams of highly weathered rock; moderate fine and medium angular blocky structure in about 70 percent of the mass, 30 percent medium to very thick platy rock structure; firm; 30 percent fragments of shale and hard limestone up to 2 inches thick and 10 inches long; slightly acid; gradual irregular boundary.  (Combined thickness of the Bw horizons ranges 12 to 32 inches)"
+      },
+      {
+        "name": "Cr/B",
+        "top": 64,
+        "bottom": 81,
+        "texture_class": "silty clay",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Cr/B--25 to 32 inches; interbedded, highly fractured limestone and shale make up about 80 percent by volume; the strata are 2 to 4 inches thick and are rippable; few thin gray coatings along horizontal fracture planes; crevices 1/8 to 1 inch wide are filled with mottled brown and gray silty clay and small fragments; slightly acid; clear smooth boundary.  (0 to 14 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 81,
+        "bottom": 183,
+        "narrative": "Cr--32 to 72 inches; interbedded phosphatic limestone and shale; strata 2 to 6 inches thick."
+      }
+    ]
+  ]
 }

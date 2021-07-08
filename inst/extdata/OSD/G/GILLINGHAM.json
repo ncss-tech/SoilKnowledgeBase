@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon--the zone from 0 to 8 inches (Ap);\nCambic horizon--the zone from 8 to 29 inches Bw1, Bw2);\nArgillic horizon--the zone from 29 to 50 inches (2Bt, 3Bt);\nParalithic contact--50 inches (3Cr).\nThese soils were originally mapped as Hixton in Richland County, Wisconsin with sand spots in many of the map units.  The Gillingham soils are located on the hills on the east sides of larger valleys.\nOnly series status, responsibility, and scrivener's errors changed - 3/09.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 8 inches; very dark grayish brown (10YR 3/2) loamy fine sand, brown (10YR 5/3) dry; moderate fine and medium subangular blocky structure; very friable; common fine and medium roots; neutral; clear wavy boundary. (6 to 9 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 20,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1--8 to 20 inches; dark yellowish brown (10YR 4/4) loamy fine sand; moderate medium subangular blocky structure; very friable; common fine and medium roots; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 51,
+        "bottom": 74,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loamy fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--20 to 29 inches; dark yellowish brown (10YR 4/6) loamy fine sand; moderate medium subangular blocky structure; very friable; common very fine and many fine roots; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "2Bt1",
+        "top": 74,
+        "bottom": 107,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bt1--29 to 42 inches; dark yellowish brown (10YR 4/4) fine sandy loam; moderate medium and coarse subangular blocky structure; friable; few very fine roots; common faint brown (10YR 4/3) clay films on faces of peds; moderately acid; clear wavy boundary. (0 to 15 inches thick)"
+      },
+      {
+        "name": "3Bt2",
+        "top": 107,
+        "bottom": 127,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "3Bt2--42 to 50 inches; light olive brown (2.5Y 5/4) fine sandy loam; moderate coarse subangular blocky structure; friable; common faint olive brown (2.5Y 4/4) clay films on faces of peds; about 5 percent glauconitic channers; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "3Cr",
+        "top": 127,
+        "bottom": 203,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "narrative": "3Cr--50 to 80 inches; light olive brown (2.5Y 5/6) and dark greenish gray (5G 4/1) weakly cemented fine-grained glauconitic sandstone; strongly acid."
+      }
+    ]
+  ]
 }

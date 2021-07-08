@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soil interpretation record:  MT1556, MT3040. Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from the soil surface to 8 inches (A horizon);\nArgillic horizon - from 8 to 23 inches (Bt1 and Bt2 horizons);\nParticle size control section - from 8 to 23 inches (Bt1 and Bt2 horizons);\nParalithic contact - decomposed granite (grus) from 23 to 28 inches (Cr horizon);\nLithic contact - hard granite bedrock at 28 inches (R horizon).\nBurtoner soils have a frigid temperature regime and an ustic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 8 inches; grayish brown (10YR 5/2) sandy clay loam, very dark grayish brown (10YR 3/2) moist; weak medium and fine subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; many very fine and few fine roots; many very fine and fine and few medium pores; 10 percent gravel; neutral (pH 7.3); clear smooth boundary. (6 to 8 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--8 to 14 inches; yellowish brown (10YR 5/4) sandy clay loam, dark yellowish brown (10YR 4/4) moist; moderate medium prismatic structure parting to moderate medium and fine subangular blocky; slightly hard, friable, moderately sticky and slightly plastic; many very fine and few fine roots; many very fine and few fine tubular and interstitial pores; many faint clay films bridging sand grains and common faint clay films on faces of peds; 10 percent gravel; slightly alkaline (pH 7.5); clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 36,
+        "bottom": 58,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--14 to 23 inches; yellowish brown (10YR 5/4) sandy clay loam, brown (10YR 4/3) moist; moderate medium and fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine and few fine roots; many very fine and few fine tubular and interstitial pores; many faint clay films bridging sand grains and common faint clay films on faces of peds; 10 percent gravel; neutral (pH 7.3); clear wavy boundary. (Combined thickness of Bt horizons is 8 to 24 inches)."
+      },
+      {
+        "name": "Cr",
+        "top": 58,
+        "bottom": 71,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "very gravelly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "narrative": "Cr--23 to 28 inches; light brownish gray (2.5Y 6/2) decomposed granite bedrock (grus) that crushes to very gravelly loamy coarse sand; slightly alkaline (pH 7.4)."
+      },
+      {
+        "name": "R",
+        "top": 71,
+        "narrative": "R--28 inches; hard granite bedrock."
+      }
+    ]
+  ]
 }

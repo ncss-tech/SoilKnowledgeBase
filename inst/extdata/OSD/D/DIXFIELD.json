@@ -56,5 +56,106 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: 1. Dixfield soils were recorrelated to Peru soils as part of the national Soil Data Join Recorrelation initiative. The distinction between the two series was vague, and both were used to describe similar areas of soil on the landscape. Revisions to the Peru Range in Characteristics incorporated values from the Dixfield Official Series Description. As a result of this revision to Peru, the Dixfield series status was changed to inactive.\n2. Diagnostic horizons and features recognized in this pedon are:\na.  Albic horizon - the zone from 3 to 10 centimeters (E horizon).\nb.  Spodic horizon - the zone from 10 to 51 centimeters (Bhs, Bs1, and Bs2 horizons).\nc.  Cd horizon - very firm, dense till at a depth of 64 centimeters.\nd.  Aquic conditions - redoximorphic features at 51 centimeters below the soil surface.\nADDITIONAL DATA:  Source of data used in establishing taxonomic class and range in characteristics is Maine Agricultural and Forest Experiment Station, Technical Bulletin 155, 1994.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oa",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oa -- 0 to 3 centimeters; dark reddish brown (5YR 2/2) sapric material; weak fine granular structure; very friable; many very fine and fine and common medium roots; extremely acid; abrupt wavy boundary. (0 to 10 centimeters thick.)"
+      },
+      {
+        "name": "E",
+        "top": 3,
+        "bottom": 10,
+        "moist_hue": "5YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "broken",
+        "narrative": "E -- 3 to 10 centimeters; gray (5YR 6/1) fine sandy loam; weak fine and medium granular structure; very friable; many very fine and fine and common medium roots; 5 percent gravel; extremely acid; abrupt broken boundary. (0 to 10 centimeters thick.)"
+      },
+      {
+        "name": "Bhs",
+        "top": 10,
+        "bottom": 18,
+        "moist_hue": "2.5YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "broken",
+        "narrative": "Bhs -- 10 to 18 centimeters; very dusky red (2.5YR 2/2) fine sandy loam; weak fine granular structure; very friable; many very fine and fine and common medium roots; 5 percent gravel; very strongly acid; abrupt broken boundary. (0 to 13 centimeters thick.)"
+      },
+      {
+        "name": "Bs1",
+        "top": 18,
+        "bottom": 30,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs1 -- 18 to 30 centimeters; reddish brown (5YR 4/4) fine sandy loam; weak fine granular structure; friable; common very fine and fine and few medium roots; 5 percent gravel and 5 percent cobbles; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bs2",
+        "top": 30,
+        "bottom": 51,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs2 -- 30 to 51 centimeters; brown (7.5YR 4/4) fine sandy loam; moderate fine granular structure; friable; few very fine, fine and medium roots; 5 percent gravel and 5 percent cobbles; very strongly acid; clear wavy boundary. (Combined thickness of the Bs horizon is 7 to 48 centimeters thick.)"
+      },
+      {
+        "name": "BC",
+        "top": 51,
+        "bottom": 64,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "BC -- 51 to 64 centimeters; olive brown (2.5Y 4/4) gravelly fine sandy loam; moderate medium subangular blocky structure; friable; few very fine and fine roots; common fine and medium distinct light brownish gray (2.5Y 6/2) iron depletions, and common fine and medium faint brown (7.5YR 4/4) and few fine and medium distinct yellowish brown (10YR 5/6) masses of iron accumulation; 10 percent gravel and 5 percent cobbles; very strongly acid; abrupt wavy boundary. (7 to 38 centimeters thick.)"
+      },
+      {
+        "name": "Cd",
+        "top": 64,
+        "bottom": 165,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "narrative": "Cd -- 64 to 165 centimeters; olive (5Y 5/3) gravelly fine sandy loam; very firm; few fine faint light brownish gray (2.5Y 6/2) iron depletions, and common medium distinct brown (7.5YR 4/4) and few fine and medium prominent yellowish brown (10YR 5/6) masses of iron accumulation; 10 percent gravel and 10 percent cobbles; strong very coarse prisms parting to moderate thin and medium plates; very strongly acid."
+      }
+    ]
+  ]
 }

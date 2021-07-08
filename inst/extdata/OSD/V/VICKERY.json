@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and other features recognized in this pedon:\nOchric epipedon - the zone from the surface to 10 inches  (A1, A2 horizons)\nCambic horizon - the zone from 10 to 25 inches (Bw1 and Bw2 horizons)\nParticle-size control section - the zone from 10 inches to the duripan (Bw1, Bw2, and Bk horizons)\nDuripan - an indurated pan at 34 inches (Bqkm horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A1--0 to 5 inches; light brownish gray (10YR 6/2) silt loam, dark grayish brown (10YR 4/2) moist; weak thin platy structure parting to very weak very fine granular; slightly hard, friable, slightly sticky and slightly plastic; common fine roots; many very fine pores; neutral (pH 7.0); abrupt wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 13,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 7.1,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--5 to 10 inches; light brownish gray (10YR 6/2) silt loam, dark grayish brown (10YR 4/2) moist; very weak fine subangular blocky structure parting to very weak very fine granular; slightly hard, friable, slightly sticky and slightly plastic; common fine roots; common very fine pores; neutral (pH 7.1); clear wavy boundary.  (combined thickness of the A horizons is 4 to 12 inches)"
+      },
+      {
+        "name": "Bw1",
+        "top": 25,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 7.1,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--10 to 15 inches; light brownish gray (10YR 6/2) silt loam, dark grayish brown (10YR 4/2) moist; weak medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common fine roots; many very fine pores; neutral (pH 7.1); clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 38,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--15 to 25 inches; light brownish gray (10YR 6/2) silt loam, dark grayish brown (10YR 4/2) moist; weak medium subangular blocky structure; hard, friable, slightly sticky and slightly plastic; few fine roots; common very fine pores; slightly alkaline (pH 7.4); clear wavy boundary.   (combined thickness of the Bw horizons is 8 to 20 inches)"
+      },
+      {
+        "name": "Bk",
+        "top": 64,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bk--25 to 34 inches; light brownish gray (10YR 6/2) loam, dark grayish brown (10YR 4/2) moist; weak medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; few fine roots; common very fine pores; common 0.5 inch nodules presumed to be cicada krotovinas; common splotches and veins of lime; soil matrix mostly noncalcareous; slightly alkaline (pH 7.8); abrupt wavy boundary.  (1 to 13 inches thick)"
+      },
+      {
+        "name": "Bkqm",
+        "top": 86,
+        "bottom": 102,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "pH": 7.7,
+        "pH_class": "slightly alkaline",
+        "narrative": "Bkqm--34 to 40 inches; light gray (10YR 7/2) and white (10YR 8/1) indurated duripan; light brownish gray (10YR 6/2), pale brown (10YR 6/3), and white (10YR 8/2) moist; massive; slightly alkaline (pH 7.7)."
+      },
+      {
+        "name": "C",
+        "top": 102,
+        "bottom": 152,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "gravelly",
+        "narrative": "C--40 to 60 inches; stratified sand to gravelly loamy coarse sand."
+      }
+    ]
+  ]
 }

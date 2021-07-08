@@ -56,5 +56,52 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 9 inches (A1 horizon).\nCambic horizon - The zone from 9 to 15 inches (B2 horizon).\nParalithic contact - The boundary at 15 inches to underlying (Cr layer).\nParticle-size control section - The zone from 10 to 15 inches (B2 horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A--0 to 9 inches; brown (7.5YR 5/3) gravelly loam, dark brown (7.5YR 3/3) moist; strong fine crumb structure; soft, very friable, moderately sticky and slightly plastic; 20 percent gravel and cobbles, mainly concentrated at the surface; calcareous; moderately alkaline (pH 8.0); gradual smooth boundary. (7 to 10 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 23,
+        "bottom": 38,
+        "moist_hue": "5YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--9 to 15 inches; light reddish brown (5YR 6/4) gravelly loam, reddish brown (5YR 4/4) moist; weak prismatic structure that parts to fine subangular blocks; slightly hard, very friable, moderately sticky and slightly plastic; 15 percent gravel, mostly limestone; calcareous; moderately alkaline (pH 8.2); gradual wavy boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 38,
+        "bottom": 51,
+        "narrative": "Cr--15 to 20 inches; reddish brown calcareous shale with thin discontinuous lenses of limestone."
+      }
+    ]
+  ]
 }

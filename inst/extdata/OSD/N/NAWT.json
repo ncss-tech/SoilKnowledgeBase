@@ -56,5 +56,106 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Base saturation:  0 to 13 cm - 76 percent; 13 to 25 cm - 69 percent; 25 to 46 cm - 70 percent; 46 to 86 cm - 69 percent.\nDiagnostic horizons and features recognized in this pedon are:\nMollic epipedon - 0to 25 cm (A and Bt1 horizons)\nAbrupt textural change - The boundary at 13 cm (A and Bt1 horizons)\nArgillic horizon - 13 to 91 cm (Bt1, Bt2 and Bt3 horizons).\nParalithic contact - 114 cm (The boundary at the top of the Cr horizon).\nParticle-size control section - The zone from 13 to 63 cm (The Bt1, Bt2 and part of the Bt3 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "texture_class": "loam",
+        "cf_class": "extremely stony",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 13 cm; brown (l0YR 5/3) extremely stony loam, dark brown (l0YR 3/3) moist; moderate fine platy structure parting to weak fine granular; soft, very friable, slightly sticky and slightly plastic; many fine and very fine roots; many very fine tubular pores; 30 percent stones, 5 percent cobbles and 30 percent gravel; neutral (pH 7.2); abrupt smooth boundary.  (8 to 28 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 13,
+        "bottom": 25,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--13 to 25 cm; brown (l0YR 5/3) gravelly clay, dark brown (l0YR 3/3) moist; moderate fine or medium subangular blocky structure; hard, firm, very sticky and very plastic; many fine and very fine roots; many very fine tubular pores; many distinct clay films on faces of peds and in pores; l5 percent gravel; neutral (pH 7.2); clear smooth boundary.  (13 to 23 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 25,
+        "bottom": 46,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--25 to 46 cm; brown (7.5YR 5/4) gravelly clay, dark brown (7.5YR 4/4) moist; strong medium subangular blocky structure parting to weak medium prismatic; very hard, firm, very sticky and very plastic; common fine and very fine roots; common very fine tubular pores; many distinct clay films on faces of peds and in pores; 5 percent cobbles, 20 percent gravel; neutral (pH 7.2); clear smooth boundary.  (23 to 36 cm thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 46,
+        "bottom": 91,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "stony",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt3--46 to 91 cm; light yellowish brown (10YR 6/4) stony clay, brown (7.5YR 5/4) moist; moderate medium subangular blocky structure; very hard, very firm, moderately sticky and moderately plastic; common fine and very fine roots; common very fine tubular pores; common faint clay films on faces of peds and in pores; 5 percent stones, 5 percent cobbles, and 10 percent gravel; slightly alkaline (pH 7.4); clear smooth boundary.  (20 to 48 cm thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 91,
+        "bottom": 114,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk--91 to 114 cm; very pale brown (10YR 7/4) very gravelly clay loam, yellowish brown (10YR 5/4) moist; moderate medium subangular blocky structure; hard, firm, moderately sticky and moderately plastic; few very fine roots; few very fine tubular pores; 10 percent cobbles and 45 percent gravel; strongly effervescent in veins; carbonate segregated in common rounded fine filaments; moderately alkaline (pH 8.4); clear smooth boundary.  (25 to 50 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 114,
+        "bottom": 157,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "narrative": "Cr--114 to 157 cm; brown (7.5YR 4/2) decomposing carbonate coated vesicular welded tuff, dark reddish brown (5YR 3/3) moist."
+      }
+    ]
+  ]
 }

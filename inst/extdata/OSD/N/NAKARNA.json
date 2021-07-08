@@ -56,5 +56,121 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon -- the zone from 0 to 10 cm (Oi, Oe, A horizons)\nCambic horizon -- the zone from 10 to 91 cm (Bw1, 2Bw2, 2BC horizons)\nVolcanic ash mantle -- the zone from 5 to 41 cm (A, Bw1 horizons)\nParticle-size control section -- the zone from 5 to 105 cm (A, Bw1, 2Bw2, 2BC, part of the 2C horizon)\nThe ranges of values listed under the Range in Characteristics for the soil properties Bulk density, Volcanic glass content, Acid-oxalate Al +1/2 Fe, Phosphate retention and 15-bar water retention are estimates only.\nLamella, when present, are less than 15 cm in cumulative thickness.\nDiagnostic horizons and features are measured from the top of the first mineral layer.\nThe mineralogy class was changed from paramicaceous to micaceous in 07/2010 by the National Soil Survey Center on request of the responsible MLRA regional office. The change was necessary based on the eleventh edition of the Keys to Soil Taxonomy, 2010.\nADDITIONAL DATA:  Laboratory data available for Soil Survey Sample Number: S01WA-063-003 Spokane County, Washington. NSSL Pedon Number: 02N0114.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 3 cm; slightly decomposed needles, leaves, and twigs."
+      },
+      {
+        "name": "Oe",
+        "top": 3,
+        "bottom": 5,
+        "narrative": "Oe--3 to 5 cm; decomposed organic matter mixed with Mt. St. Helens volcanic ash. (combined thickness of Oi, Oe horizons -- 2 to 10 cm)"
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--5 to 10 cm; pale brown (10YR 6/3) ashy silt loam, brown (10YR 4/3) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and slightly plastic; many very fine, fine, and common medium roots; many very fine and fine tubular pores; neutral (pH 6.8); clear wavy boundary. (2 to 8 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 10,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw1--10 to 41 cm; light yellowish brown (10YR 6/4) ashy silt loam, dark yellowish brown (10YR 4/4) moist; weak fine and medium subangular blocky structure; soft, very friable, nonsticky and slightly plastic; common very fine, fine and, medium and few coarse roots; common very fine and fine tubular pores; neutral (pH 7.0); abrupt wavy boundary. (10 to 17 inches thick)"
+      },
+      {
+        "name": "2Bw2",
+        "top": 41,
+        "bottom": 61,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bw2--41 to 61 cm; pale brown (10YR 6/3) paragravelly loam, brown (10YR 4/3) moist; weak medium subangular blocky structure; slightly hard, friable, nonsticky and slightly plastic; common very fine, fine, and medium roots; common very fine and fine tubular pores; many very fine and fine mica flakes; 10 percent decomposed schist parafragments; 5 percent gravel; slightly acid (pH 6.5); clear wavy boundary. (8 to 20 inches thick)"
+      },
+      {
+        "name": "2BC",
+        "top": 61,
+        "bottom": 91,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2BC--61 to 91 cm; very pale brown (10YR 7/4) very paragravelly fine sandy loam, yellowish brown (10YR 5/4) moist; weak medium and coarse subangular blocky structure; slightly hard, friable, nonsticky and slightly plastic; common very fine, fine, and few medium roots; many very fine and fine irregular pores; many very fine and fine mica flakes; 25 percent decomposed schist parafragments; 10 percent gravel; slightly acid (pH 6.3); gradual wavy boundary. (0 to 12 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 91,
+        "bottom": 124,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "cobbly",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2C--91 to 124 cm; very pale brown (10YR 7/4) cobbly fine sandy loam, yellowish brown (10YR 5/4) moist; massive; slightly hard, friable, nonsticky and slightly plastic; few very fine roots; common very fine and fine irregular pores; common medium and coarse strong brown (7.5YR 4/6) moist iron stains; many very fine and fine mica flakes; 25 percent decomposed schist parafragments; 10 percent gravel and10 percent cobbles; slightly acid (pH 6.3); clear wavy boundary. (8 to 24 inches thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 124,
+        "narrative": "2Cr--124 cm; highly weathered soft micaceous schist."
+      }
+    ]
+  ]
 }

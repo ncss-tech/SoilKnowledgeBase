@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Aljibe soils formed in the Jse-Serpentinite Formation (Jse).  Aljibe soils were formerly included in the Rosario series.  A soil moisture and soil temperature study performed in the San German Area Soil Survey Update recognized the Perudic Soil Moisture Regime in Puerto Rico, recognized the isothermic soil temperature regime at 750 meters above sea level (in Perudic Soil Moisture Regime) and 900 meters above sea level (in Udic Soil Moisture Regime) and adjusted the isothermic-isohyperthermic line.\nThe 2021 revision updates the classification from clayey, ferruginous, isothermic, shallow Rhodic Haploperox (2008).\nDiagnostic horizons and soil characteristics recognized in this pedon:\nOchric epipedon - the zone from 0 to 16 inches (Oi and A horizons).\nOxic horizon - the zone from 16 to 31 inches (Bo1 and Bo2 horizons).\nRhodic feature - the zone from 10 to 35 inches (A, Bo1, Bo2 and BC horizons).\nParalithic contact - the zone from 35 to 47 inches (Cr horizon).\nLithic contact - the contact at 47 inches (R horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "strongly acid",
+        "distinctness": "very abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 5 inches; black (10YR 2/1) mucky peat, crushed and rubbed; about 75 percent fiber; weak very fine granular structure; soft, very friable; nonsticky and nonplastic; many very fine and fine roots; many very fine and fine irregular pores; strongly acid; very abrupt smooth boundary. (2 to 6 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 13,
+        "bottom": 41,
+        "moist_hue": "10R",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--5 to 16 inches; dusky red (10R 3/4) clay; moderate very fine and fine subangular blocky structure; soft, friable; slightly sticky and moderately plastic; many very fine and fine roots; few very fine and fine irregular pores; moderately acid; clear smooth boundary. (5 to 11 inches thick)"
+      },
+      {
+        "name": "Bo1",
+        "top": 41,
+        "bottom": 69,
+        "moist_hue": "10R",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bo1--16 to 27 inches; dusky red (10R 3/3) clay; strong very fine and fine subangular blocky structure; slightly hard, firm; slightly sticky and moderately plastic; common very fine and fine roots, few medium and coarse roots; common very fine and fine irregular pores; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bo2",
+        "top": 69,
+        "bottom": 79,
+        "moist_hue": "10R",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bo2--27 to 31 inches; 50 percent dusky red (10R 3/3) and 50 percent dark reddish brown (2.5YR 3/4) clay; moderate, very fine, and fine subangular blocky structure; slightly hard, firm; slightly sticky and moderately plastic; common fine roots, few medium and coarse roots; common fine irregular pores, few very fine tubular pores; neutral; clear wavy boundary. (Combined thickness of the Bo horizons ranges from 6 to 15 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 79,
+        "bottom": 89,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "very abrupt",
+        "topography": "wavy",
+        "narrative": "BC--31 to 35 inches; dark reddish brown (2.5YR 3/4) silty clay loam; weak very fine and fine subangular blocky structure; soft, friable; slightly sticky and moderately plastic; few fine, medium and coarse roots; common fine irregular pores, few very fine tubular pores; about 10 percent, by volume, parapebbles; neutral; very abrupt wavy boundary. (4 to 9 inches)"
+      },
+      {
+        "name": "Cr",
+        "top": 89,
+        "bottom": 119,
+        "narrative": "Cr--35 to 47 inches; highly fractured and moderately weathered serpentinite bedrock."
+      },
+      {
+        "name": "R",
+        "top": 119,
+        "narrative": "R--47 inches; hard consolidated serpentinite bedrock."
+      }
+    ]
+  ]
 }

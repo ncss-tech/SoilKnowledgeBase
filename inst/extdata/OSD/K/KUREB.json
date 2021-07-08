@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The Kureb soils were formerly included in the Lakewood series.   Diagnostic horizons and features recognized in this pedon are:\nOchric epipeon - the zone from the surface to a depth of 26 inches (A and E horizons)\nADDITIONAL DATA: None\nMLRA: 153B          SIR: NC0063\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0063 KUREB       0- 20   60- 70  200-290  46- 57    20-  90\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness NC0063 NONE          6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC- NC0063  0-80  S COS FS                0-  0 100-100  0- 3   0-  5\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0063  0-80  3.5- 7.3  0.-2.  0- 0   6.0-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; dark gray (10YR 4/1) sand; single grained; loose; organic matter and quartz grains have salt and pepper appearance; many fine and large roots; neutral; clear wavy boundary. (2 to 5 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "E--3 to 26 inches; light gray (10YR 7/1) sand; single grained; loose few large roots; neutral; clear irregular boundary.  (4 to 45 inches thick)"
+      },
+      {
+        "name": "C/Bh",
+        "top": 66,
+        "bottom": 130,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C/Bh--26 to 51 inches; brownish yellow (10YR 6/6) sand; single grained; loose; few tongues of light gray (10YR 7/1) extend from above horizon; dark brown (7.5YR 3/4) and few bands and bodies (Bh) of dark reddish brown (5YR 3/2); bands are intermittent at horizon contact and vertically along walls of tongues; many clean and coated sand grains; neutral; gradual wavy boundary.  (4 to 46 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 130,
+        "bottom": 226,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "narrative": "C--51 to 89 inches; pale brown (10YR 6/3) sand; single grained; loose, slightly acid."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,112 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This revision changes the taxonomic subgroup from \"Pachic\" to \"Vertic\" due to re-calculation of linear extensibility.\nDiagnostic horizons and features recognized in this pedon:\nMollic epipedon - zone from the surface to 20 inches (A1, A2, Bt1, and Bt2 horizons)\nArgillic horizon - zone from 9 to 67 inches (Bt1, Bt2, Bt/E, Btb1, and Btb2 horizons)\nGlossic horizon - zone from 20 to 25 inches (Bt/E horizon)\nLinear extensibility - 6.0 or more in the zone from the soil surface to 40 inches (assumed)\nParticle-size control section - zone from 9 to 29 inches\nSoil moisture regime - xeric\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 2 inches; grayish brown (10YR 5/2) silt loam, very dark grayish brown (10YR 3/2) moist; weak thin platy structure parting to moderate fine granular; soft, very friable, slightly sticky and slightly plastic; many very fine and fine, common medium and coarse roots; many very fine and fine irregular pores; 2 percent gravel; slightly acid (pH 6.5); clear smooth boundary. (2 to 4 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--2 to 9 inches; grayish brown (10YR 5/2) silt loam, very dark brown (10YR 2/2) moist; moderate fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and fine, common medium and coarse roots; common very fine and fine tubular pores; 2 percent gravel; slightly acid (pH 6.5); clear smooth boundary. (2 to 11 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 23,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--9 to 13 inches; brown (10YR 5/3) silty clay loam, dark brown (10YR 3/3) moist; strong fine subangular blocky structure; hard, friable, slightly sticky and moderately plastic; common very fine and fine, few medium and coarse roots; common very fine and fine tubular pores; few distinct clay films on faces of peds and in pores; 2 percent gravel; neutral (pH 6.8); clear wavy boundary. (3 to 10 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 33,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2--13 to 20 inches; brown (10YR 5/3) silty clay loam, dark brown (10YR 3/3) moist; strong medium subangular blocky structure; hard, friable, moderately sticky and moderately plastic; common very fine and fine, few medium and coarse roots; common very fine and fine tubular pores; common distinct clay films on faces of peds and in pores; about 25 percent of ped faces covered with bleached silt grains; 2 percent gravel; neutral (pH 6.7); abrupt wavy boundary. (3 to 10 inches thick)"
+      },
+      {
+        "name": "Bt/E",
+        "top": 51,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt/E--20 to 25 inches; (Bt material - 65% of horizon) brown (10YR 5/3) silty clay loam, brown (10YR 4/3) moist; strong medium and coarse subangular blocky structure; very hard, friable, slightly sticky and moderately plastic; common very fine and fine, few medium and coarse roots; common very fine and fine tubular pores; few distinct clay films on faces of peds and in pores; 2 percent gravel; neutral (pH 6.6); (E material) light gray (10YR 7/2) silt loam, grayish brown (10YR 5/2) moist; moderate fine granular structure; soft, friable, slightly sticky and slightly plastic; abrupt smooth boundary. (3 to 12 inches thick)"
+      },
+      {
+        "name": "Btb1",
+        "top": 64,
+        "bottom": 109,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silty clay",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btb1--25 to 43 inches; brown (10YR 5/3) silty clay, dark brown (10YR 3/3) moist; moderate medium and coarse prismatic structure; very hard, firm, very sticky and very plastic; few very fine and fine roots; few very fine and fine tubular pores; many distinct clay films on faces of peds and in pores; about 40 percent of ped faces covered with bleached silt grains; 5 percent gravel; neutral (pH 7.0); gradual wavy boundary. (12 to 22 inches thick)"
+      },
+      {
+        "name": "Btb2",
+        "top": 109,
+        "bottom": 170,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "narrative": "Btb2--43 to 67 inches; pale brown (10YR 6/3) clay, brown (10YR 4/3) moist; strong medium and coarse prismatic structure; very hard, firm, very sticky and very plastic; few very fine and fine roots; few very fine and fine tubular pores; many distinct clay films on faces of peds and in pores; 5 percent gravel; neutral (pH 7.2)."
+      }
+    ]
+  ]
 }

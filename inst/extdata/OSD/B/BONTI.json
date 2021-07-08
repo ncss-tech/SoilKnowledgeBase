@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nEdited 12/2013 (RFG-SCP): Changed to tabular format and included metric values. Updated fragments and the competing series, geographic setting, and associated soils sections.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon: 0 to 20 cm (0 to 8 in)(A and E horizons).\nArgillic horizon: 20 to 76 cm (8 to 30 in)(Bt1 and Bt2 horizons).\nParalithic Contact: 76 cm (30 in)(top of Cr horizon).\nParalithic material: 76 to 203 cm (30 to 80 in)(Cr horizon).\nUltic feature: base saturation of the Bt horizons is less than 75 percent.\nPaleustalf feature: abrupt textural change at 20 cm (8 in).\nADDITIONAL DATA: KSSL data from Erath County, Texas (S79TX-143-003); SDHPT data from Eastland County, Texas (S69TX-067-001) and Parker County, Texas (S70TX-184-005).\nTaxonomic version: Keys of Soil Taxonomy, Eleventh Edition, 2010\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 10 cm (0 to 4 in); brown (10YR 4/3) very fine sandy loam, dark brown (10YR 3/3) moist; weak fine subangular blocky structure; slightly hard, friable; many fine and few medium roots; slightly acid; clear smooth boundary. Thickness is 5 to 25 cm (2 to 10 in)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 20,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--10 to 20 cm (4 to 8 in); light brown (7.5YR 6/4) very fine sandy loam, brown (7.5YR 4/4) moist; weak fine subangular blocky structure; hard, friable; many fine roots; 5 percent subangular sandstone gravel; moderately acid; clear smooth boundary. Thickness is 0 to 15 cm (0 to 6 in)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 50,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--20 to 50 cm (8 to 20 in); red (2.5YR 4/6) clay, dark red (2.5YR 3/6) moist; moderate very fine and fine angular blocky structure; very hard, firm; many fine roots; thin continuous clay films on faces of peds; moderately acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 50,
+        "bottom": 76,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "moderately acid",
+        "narrative": "Bt2--50 to 76 cm (20 to 76 in); yellowish red (5YR 5/6) clay loam; yellowish red (5YR 4/6) moist; few fine distinct dark red and few fine faint reddish yellow mottles; moderate fine angular blocky structure; very hard, firm; few fine roots; thin continuous clay films on faces of peds; moderately acid; abrupt boundary. Combined thickness of the Bt horizons is 36 to 86 cm (14 to 34 in)"
+      },
+      {
+        "name": "Cr",
+        "top": 76,
+        "bottom": 203,
+        "texture_class": "sand",
+        "narrative": "Cr--76 to 203 cm (30 to 80 in); brownish yellow weakly to moderately cemented sandstone."
+      }
+    ]
+  ]
 }

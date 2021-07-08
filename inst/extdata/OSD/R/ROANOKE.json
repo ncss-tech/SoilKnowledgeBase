@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The Gertie series has been established by correlation in City of Chesapeake, Virginia 2004 to represent these soils in the lower Coastal Plain. Roanoke soils are restricted to stream terraces of the Piedmont and upper and middle Coastal Plain.\nDiagnostic horizons and features recognized in this pedon are:\na.  Ochric epipedon - the zone from 0 to 7 inches (Ap horizon).\nb.  Argillic horizon - the zone from 7 to 40 inches (Btg horizon).\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0074 ROANOKE     0-  2   57- 65  175-260  38- 54   250- 750\nVA0198 ROANOKE     0-  2   57- 65  175-260  38- 54   250- 750\nSOI-5  FloodL  FloodH  Watertable   Kind     Months    Bedrock\nVA0074 NONE    COMMON    0-1.0    APPARENT   NOV-MAY   >60\nVA0198 FREQ               -       APPARENT      -      >60\nSOI-5    Depth   Texture      3-Inch   No-10   Clay%   -CEC-\nVA0074    0-7     FSL          0-0    80-100  10-18     -\nVA0074    0-7     SIL L        0-0    85-100  10-27     -\nVA0074    0-7     SICL CL      0-0    85-100  27-32     -\nVA0074    7-12    CL SICL      0-0    85-100  20-35     -\nVA0074   12-50    C SIC CL     0-0    85-100  35-60     -\nVA0074   50-72    SR S C       0-5    35-100   5-50     -\nVA0198    0-7     SIL L FSL    0-0    85-100  10-27     -\nVA0198    0-7     SICL         0-0    85-100  27-35     -\nVA0198    7-50    C SIC CL     0-0    85-100  35-60     -\nVA0198   50-72    SR SC C      0-5    35-100   5-50     -\nSOI-5   Depth    -pH-     O.M.    Salinity Permeability  Shrink-Swell\nVA0074   0-7    3.5-5.5    1.-3.     0-0     2.0-6.0        LOW\nVA0074   0-7    3.5-5.5   .5-2.      0-0     0.6-2.0        LOW\nVA0074   0-7    3.5-5.5   .5-1.      0-0     0.06-0.2     MODERATE\nVA0074   7-12   3.5-5.5    0..5      0-0     0.06-0.2     MODERATE\nVA0074  12-50   3.5-5.5    0-.5      0-0     0.06-0.2     MODERATE\nVA0074  50-72   3.5-5.5    0-.5      0-0     0.06-20      MODERATE\nVA0198   0-7    4.5-5.5   .5-3.      0-0     0.6-2.0        LOW\nVA0198   0-7    4.5-5.5   .5-1.      0-0     0.2-0.6      MODERATE\nVA0198   7-50   4.5-5.5    0-.5      0-0     0.06-0.2     MODERATE\nVA0198  50-72   4.5-5.5    0-.5      0-0     0.06-20      MODERATE\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; dark grayish brown (10YR 4/2) silt loam; weak fine granular structure; friable, slightly sticky, slightly plastic; many fine roots; strongly acid; abrupt smooth boundary. (5 to 9 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 18,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btg1--7 to 12 inches; gray (10YR 5/1) silty clay loam; moderate fine subangular blocky structure; friable, slightly sticky, slightly plastic; many fine and medium roots; few faint clay films on faces of peds; few medium prominent yellowish brown (10YR 5/8) irregularly shaped masses of iron accumulation; few fine flakes of mica; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 30,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg2--12 to 20 inches; gray (10YR 5/1) clay; moderate medium and coarse angular blocky structure; firm, moderately sticky, moderately plastic; few medium and large roots; few faint clay films on faces of peds; few medium prominent brownish yellow (10YR 6/8) irregularly shaped masses of iron accumulation; few fine flakes of mica; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Btg3",
+        "top": 51,
+        "bottom": 102,
+        "moist_hue": "N",
+        "moist_value": 6,
+        "moist_chroma": 0,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg3--20 to 40 inches; gray (N 6/0) clay; moderate coarse prismatic structure parting to weak medium subangular blocky; firm, moderately sticky, moderately plastic; few medium and large roots; common medium prominent yellowish brown (10YR 5/4) irregularly shaped masses of iron accumulation; common faint clay films on faces of peds; 2 percent quartz gravel; few fine flakes of mica; very strongly acid; gradual smooth boundary.  (Combined thickness of the Btg horizon is 25 to 50 inches.)"
+      },
+      {
+        "name": "BCg",
+        "top": 102,
+        "bottom": 127,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BCg--40 to 50 inches; light brownish gray (2.5Y 6/2) silty clay loam with a few pockets of sand; weak fine subangular and angular blocky structure; firm, slightly sticky, slightly plastic; many medium distinct pale yellow (2.5Y 7/4) and many medium prominent yellowish brown (10YR 5/6) irregularly shaped masses of iron accumulation; 2 percent quartz gravel; common fine flakes of mica; very strongly acid; gradual smooth boundary.  (0 to 20 inches thick)"
+      },
+      {
+        "name": "2Cg",
+        "top": 127,
+        "bottom": 183,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "narrative": "2Cg--50 to 72 inches; gray (5Y 6/1) strata ranging from sand to clay; massive; many gray and green iron depletions and yellow irregularly shaped masses of iron accumulation; some strata contain up to 40 percent quartz gravel; few fine flakes of mica; very strongly acid."
+      }
+    ]
+  ]
 }

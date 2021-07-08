@@ -56,5 +56,157 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This series includes some of the soils that have been previously classed in the Marlboro series.  It would have been classified in the Red-Yellow Podzolic great soil group.\nDiagnostic horizons and features in this pedon are:\nOchric epipedon - the zone from the surface of the soil to 14 inches (Ap and E horizons)\nArgillic horizon - the zone from 14 to 81 inches (BE, Bt1, Bt2, Bt3, Btv1, Btv2, and Btv3 horizons)\nPlinthite - the zone from 38 to 81 inches (Btv1, Btv2, and Btv3 horizons)\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0014 VARINA      0- 10   59- 70  190-245  38- 52   250- 500\nNC0122 VARINA      0- 10   59- 70  190-245  38- 52   250- 500\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0014 NONE          4.0-5.0  PERCHED  DEC-APR  60-60\nNC0122 NONE          4.0-5.0  PERCHED  DEC-APR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0014  0-14  LS                      0-  5  92-100  3-10   1-  3\nNC0014  0-14  SL                      0-  0  92-100  8-18   2-  5\nNC0014 14-38  SC CL C                 0-  0  92-100 35-60   4-  7\nNC0014 38-80  SC CL C                 0-  0  92-100 30-55   3-  6\nNC0122  0-14  GR-SL GR-LS             0-  5  55- 75  4-12   1-  3\nNC0122 14-38  CL GR-CL C              0-  5  70-100 35-50   3-  6\nNC0122 38-80  SC CL C                 0-  5  75-100 35-50   3-  6\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0014  0-14  4.5- 6.5  .5-2.  0- 0   6.0-  20  LOW\nNC0014  0-14  4.5- 6.5  .5-2.  0- 0   2.0- 6.0  LOW\nNC0014 14-38  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  LOW\nNC0014 38-80  4.5- 5.5  0.-.5  0- 0  0.06- 0.2  LOW\nNC0122  0-14  4.5- 6.5  .5-2.  0- 0   2.0- 6.0  LOW\nNC0122 14-38  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  LOW\nNC0122 38-80  4.5- 5.5  0.-.5  0- 0  0.06- 0.2  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 7 inches; grayish brown (2.5Y 5/2) sandy loam; common coarse pale yellow (2.5Y 7/4) mottles; weak fine granular structure; very friable; few or common (2 percent) 1/4 inch spherical, rough-surfaced, very hard nodules of ironstone having dark red (10R 3/6) interiors; moderately acid; abrupt wavy boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 18,
+        "bottom": 36,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--7 to 14 inches; pale yellow (2.5Y 7/4) loamy sand; single grained; loose; few (1 percent) very hard spherical nodules of ironstone less than 1/4 inch in diameter having dark red (10R 3/6) interiors; strongly acid; abrupt wavy boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 36,
+        "bottom": 46,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BE--14 to 18 inches; light yellowish brown (2.5Y 6/4) sandy clay loam; weak medium subangular blocky structure; friable; fine and medium pores; few (1 percent) very hard, smooth-surfaced nodules of ironstone; few (2 percent) fine quartz pebbles; strongly acid; clear smooth boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 46,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--18 to 26 inches; yellowish brown (10YR 5/6) sandy clay; weak medium subangular blocky structure; friable; sticky; common fine and medium pores; few (1 percent) extremely hard smooth-surfaced nodules of ironstone less than 1/4 inch in diameter; few (2 percent) fine pebbles of quartz; very strongly acid; clear smooth boundary.  (6 to 12 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 66,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--26 to 32 inches; brownish yellow (10YR 6/6) sandy clay; weak medium subangular blocky structure; friable; sticky; few faint clay films on faces of peds; few (1 percent) fine soft red nodules; few (1 percent) hard smooth-surfaced nodules of ironstone; few (2 percent) fine pebbles of quartz; very strongly acid; clear smooth boundary.  (4 to 12 inches thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 81,
+        "bottom": 97,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt3--32 to 38 inches; brownish yellow (10YR 6/6) sandy clay; weak medium subangular blocky structure; friable; sticky; few faint clay films around red mottles; few (1 percent) fine soft red nodules; few (1 percent) hard nodules of ironstone 1/4 to 1/2 inch in diameter; few (2 percent) fine pebbles of quartz; very strongly acid; clear smooth boundary.  (4 to 8 inches thick)"
+      },
+      {
+        "name": "Btv1",
+        "top": 97,
+        "bottom": 145,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btv1--38 to 57 inches; yellowish brown (10YR 5/6) and brownish yellow (10YR 6/6) sandy clay; common (10 percent) medium and coarse red (2.5YR 4/8) nodules; few to common (1 to 10 percent) white (10YR 8/2) to light gray (10YR 7/1) tongues 1/2 inch in diameter forming a reticulate pattern with the red; massive; friable; except red material is slightly hard and brittle; few faint clay films on red nodules; few (1 percent) hard nodules of ironstone; few (2 percent) fine pebbles of quartz; very strongly acid; gradual smooth boundary.  (12 to 24 inches thick)"
+      },
+      {
+        "name": "Btv2",
+        "top": 145,
+        "bottom": 170,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btv2--57 to 67 inches; variegated red (2.5YR 4/8), yellow (10YR 7/8), and white (2.5Y 8/2); red colors tend to be horizontally oriented and are bordered by yellow colors; white colors in vertical and horizontal bands make up about 30 percent of the volume; average texture is sandy clay with red parts that are sandy clay loam and white parts that are sandy clay; weak coarse platy structure; red parts are hard and brittle; white parts are firm; common faint clay films in yellow and white parts; few (1 percent) hard nodules of ironstone in red materials; few (2 percent) pebbles of quartz; very strongly acid; gradual smooth boundary.  (8 to 14 inches thick)"
+      },
+      {
+        "name": "Btv3",
+        "top": 170,
+        "bottom": 206,
+        "moist_hue": "2.5Y",
+        "moist_value": 8,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btv3--67 to 81 inches; reticulately mottled white (2.5Y 8/2), red (2.5YR 4/8), and yellow (10YR 7/8) sandy clay; white parts finer textured than red parts; weak coarse platy structure; friable; local zones of white slightly brittle; common faint clay films in white and yellow parts; few (2 percent) fine and medium pebbles of quartz; very strongly acid; gradual smooth boundary.  (12 to 16 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 206,
+        "bottom": 254,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--81 to 100 inches; reticulately mottled red (2.5YR 4/8), yellow (10YR 7/8), and white (2.5Y 8/2) average texture sandy clay loam; ranges from sandy loam in the red parts to sandy clay in the white parts; weak coarse platy structure; friable; common faint clay films along borders of white parts; few (2 percent) fine to medium pebbles of quartz; very strongly acid; gradual wavy boundary.  (15 to 24 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 254,
+        "bottom": 300,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "C--100 to 118 inches; variegated yellow (10YR 7/8) and white (10YR 8/2) sandy clay loam; few sandy loam and sandy clay lenses; common fine and medium soft red (2.5YR 4/8) nodules; massive; friable; common (10 percent) fine and medium pebbles of quartz; very strongly acid."
+      }
+    ]
+  ]
 }

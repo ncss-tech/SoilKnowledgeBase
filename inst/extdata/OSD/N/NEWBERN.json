@@ -56,5 +56,52 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This soil has been included in the Litz series in the past.\nDiagnostic horizons and features recognized in this pedon are:\nOchric Epipedon, surface to 5 inches (A horizon)\nCambic horizon between 5 and 13 inches (Bw horizon)\nLithic contact at 18 inches.\nSIR = VA0154\nMLRA = 128\nREVISED = 4/11/97 RRD\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 5 inches; yellowish brown (1OYR 5/4) silt loam; moderate fine granular structure; very friable, nonsticky and nonplastic; common fine roots; few fine pores; 14 percent angular shale and semi-rounded sandstone fragments less than 1 inch across; neutral; clear smooth boundary. (0 to 9 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 13,
+        "bottom": 33,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--5 to 13 inches; brownish yellow (1OYR 6/6) channery silt loam; weak fine subangular blocky structure; friable, slightly sticky and nonplastic; few fine roots; few fine pores; 25 percent angular shale fragments less than 1 inch across; neutral; abrupt wavy boundary. (4 to 12 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 33,
+        "bottom": 46,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Cr--13 to 18 inches; brownish yellow (1OYR 6/8) partially weathered shale with brownish yellow (1OYR 6/8) silt loam material in cracks and crevices; neutral; abrupt smooth boundary.  (0 to 5 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 46,
+        "narrative": "R--18 inches; shale."
+      }
+    ]
+  ]
 }

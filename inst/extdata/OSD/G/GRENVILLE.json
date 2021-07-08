@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and other features recognized in this pedon are:\na. Ochric epipedon - the zone from the soil surface to a depth of 23 cm (9 in) (Ap horizon).\nb. Cambic horizon - the zone from 23 to 43 cm (9 to 17 in) (Bw1 and Bw2 horizons).\nc. Eutrudepts great group - the zone between 30 to 43 cm (12 to 17 in) has a base saturation greater than 60 percent (Bw2 horizon).\nd. Typic subgroup - saturation within 102 cm (40 in) of the mineral surface is less than 30 days in most years.\nADDITIONAL DATA: Data is available for the following pedons: S81NY089001, S81NY089022, S81NY089028, S81NY089029, S85NY019020 .\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap-- 0 to 23 cm; dark brown (10YR 3/3) loam; moderate medium granular structure; very friable; many fine roots; 5 percent rock fragments; slightly acid; abrupt smooth boundary. (4 to 10 in thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 23,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw1-- 23 to 30 cm; brown (10YR 4/3) loam; moderate medium subangular blocky structure; very friable; common fine roots; 10 percent  rock fragments; slightly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 30,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw2-- 30 to 43 cm; dark yellowish brown (10YR 4/4) loam; moderate medium subangular blocky structure; very friable;  few fine roots; 10 percent  rock fragments; neutral; gradual smooth boundary. (Combined thickness of the Bw horizon is 8 to 30 in.)"
+      },
+      {
+        "name": "C",
+        "top": 43,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C-- 43 to 89 cm; brown (10YR 4/3) gravelly fine sandy loam; massive; friable; few fine roots; 20 percent  rock fragments; moderately alkaline, strongly effervescent; clear smooth boundary. (0 to 15 in thick)"
+      },
+      {
+        "name": "Cd",
+        "top": 89,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately alkaline",
+        "narrative": "Cd-- 89 to 183 cm; brown (10YR 4/3) gravelly fine sandy loam; massive; firm; 20 percent  rock fragments;  common medium distinct gray (10YR 5/1) mottles; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

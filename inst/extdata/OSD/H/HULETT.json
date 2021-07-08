@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Description was modernized only from 1981 revision.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nAL0067 HULETT      2- 15   58- 65  190-220  48- 56   800-1800\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nAL0067 NONE          6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nAL0067  0-13  FSL SL L                0-  3  80-100  7-20    -\nAL0067  0-13  GR-FSL GR-SL GR-L       3- 10  65- 85  7-20    -\nAL0067  0-13  SCL CL                  0-  3  85-100 20-35    -\nAL0067 13-36  CL C                    0-  3  85-100 35-60    -\nAL0067 36-60  SL FSL L                0-  3  70-100 10-25    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nAL0067  0-13  4.5- 6.0  .5-2.  0- 0   2.0- 6.0  LOW\nAL0067  0-13  4.5- 6.0  .5-2.  0- 0   6.0-  20  LOW\nAL0067  0-13  4.5- 6.0  .5-1.  0- 0   0.6- 2.0  LOW\nAL0067 13-36  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  LOW\nAL0067 36-60  4.5- 5.5  0.-.2  0- 0  0.06- 0.6  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; black (10YR 2/1) gravelly fine sandy loam; weak fine granular structure; very friable; about 25 percent by volume of quartz gravel; strongly acid; abrupt smooth boundary. (1 to 4 inches thick.)"
+      },
+      {
+        "name": "E1",
+        "top": 5,
+        "bottom": 20,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "E1--2 to 8 inches; light yellowish brown (2.5Y 6/4) gravelly fine sandy loam; weak fine granular structure; very friable; about 20 percent by volume of quartz gravel; strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "E2",
+        "top": 20,
+        "bottom": 33,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E2--8 to 13 inches; light olive brown (2.5Y 5/4) fine sandy loam; weak fine granular structure; very friable; about 2 percent by volume of quartz gravel; strongly acid; clear wavy boundary.  (Combined thickness of the E horizon is 0 to 14 inches.)"
+      },
+      {
+        "name": "Bt",
+        "top": 33,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt--13 to 24 inches; yellowish brown (10YR 5/4) clay; moderate medium subangular blocky structure; friable; distinct continuous clay films on faces of peds; many fine flakes of mica; very strongly acid; gradual smooth boundary. (10 to 24 inches thick.)"
+      },
+      {
+        "name": "BC",
+        "top": 61,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "BC--24 to 36 inches; yellowish brown (10YR 5/6) clay; few medium yellowish red (5YR 4/8) mottles; moderate medium subangular blocky structure; friable; many fine flakes of mica; percent mica increases with depth; very strongly acid; abrupt wavy boundary. (3 to 16 inches thick.)"
+      },
+      {
+        "name": "C",
+        "top": 91,
+        "bottom": 152,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "narrative": "C--36 to 60 inches; saprolite of weathered graphitic schist that crushes to sandy loam; friable; strongly acid."
+      }
+    ]
+  ]
 }

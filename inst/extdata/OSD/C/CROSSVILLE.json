@@ -56,5 +56,72 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The Crossville series was classified in the Sols Bruns Acides great soil group.\n2005 revision moves the OSD from Tennessee to Kentucky.\n2008 revision corrects Lat/Long, geographic setting, and removes runoff from drainage and permeability.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 7 inches; dark brown (10YR 3/3) loam; brown (10YR 5/3) dry; moderate medium granular structure; very friable; many fine roots; 1 percent gravel; strongly acid; abrupt wavy boundary. (1 to 9 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 18,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BA--7 to 11 inches; dark yellowish brown (10YR 4/4) loam; moderate very fine subangular blocky structure; friable; common fine roots; 1 percent gravel; strongly acid; gradual wavy boundary. (0 to 7 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 28,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--11 to 24 inches; yellowish brown (10YR 5/6) loam; moderate medium subangular blocky structure; friable; common fine roots; 1 percent gravel; very strongly acid; abrupt wavy boundary. (7 to 12 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 61,
+        "bottom": 94,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "narrative": "Cr--24 to 37 inches; weakly cemented; very strongly acid; sandstone bedrock. (0 to 5 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 94,
+        "texture_class": "sand",
+        "narrative": "R--37 inches; hard sandstone bedrock."
+      }
+    ]
+  ]
 }

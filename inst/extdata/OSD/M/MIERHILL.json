@@ -56,5 +56,72 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizon and features recognized in this pedon are:\nMollic epipedon - the zone from 0 to 10 inches (A horizon)\nArgillic horizon - the zone from 10 to 18 inches (Bt horizon)\nPetrocalcic horizon - the zone at 18 inches (Bkm horizons)\nSoil Taxonomy: Ninth Edition 2003\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 10 inches; grayish brown (10YR 5/2) very gravelly sandy loam, very dark grayish brown (10YR 3/2) moist; weak fine subangular blocky structure; hard, friable; many fine roots; few fine pores; 60 percent by volume of rounded and slightly angular igneous fragments, comprising about 50 percent gravel and 10 percent cobbles; neutral; clear smooth boundary.  (5 to 13 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 25,
+        "bottom": 46,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "extremely gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt--10 to 18 inches; reddish yellow (7.5YR 6/6) extremely gravelly sandy clay loam, light brown (7.5YR 6/4) moist; moderate fine subangular blocky structure; hard, friable; few fine roots; 75 percent by volume of rounded and slightly angular igneous fragments, comprising 60 percent gravel and 15 percent cobbles; calcareous; moderately alkaline; abrupt smooth boundary.  (5 to 8 inches thick)"
+      },
+      {
+        "name": "Bkm1",
+        "top": 46,
+        "bottom": 61,
+        "dry_hue": "7.5YR",
+        "dry_value": 8,
+        "dry_chroma": 2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bkm1--18 to 24 inches; pinkish white (7.5YR 8/2) caliche; indurated and platy in upper four inches; strongly cemented in lower part; about 70 percent by volume of rounded and slightly angular igneous fragments; calcareous; moderately alkaline; gradual smooth boundary.  (5 to 18 inches thick)"
+      },
+      {
+        "name": "Bkm2",
+        "top": 61,
+        "bottom": 102,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 2,
+        "pH_class": "moderately alkaline",
+        "narrative": "Bkm2--24 to 40 inches; very pale brown (10YR 8/2) caliche; weakly cemented; 70 percent by volume of rounded and slightly angular igneous fragments; calcareous; moderately alkaline."
+      }
+    ]
+  ]
 }

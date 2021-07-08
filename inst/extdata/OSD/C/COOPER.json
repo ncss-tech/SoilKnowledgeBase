@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon:\nparticle-size control section--the zone from a depth of 10 to 40 inches (A, Bg, 2Ab, and 2Cg horizons);\nseries control section--the zone from the surface to a depth of 60 inches (Ap, A, Bg, 2Ab, and 2Cg horizons);\nmollic epipedon--the zone from the surface to a depth of 16 inches (Ap and A horizons);\ncambic horizon--the zone from a depth of 16 to 24 inches (Bg horizon);\nudic moisture regime.\nCation-exchange class is inferred from lab data for similar soils in the surrounding area.\nTaxonomy version--Second Edition, 1999.\nThe classification of the Cooper series has been changed from Aquic Hapludolls to Fluvaquentic Hapludolls because the typical pedon has a buried mollic horizon below a cambic horizon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; very dark brown (10YR 2/2) silty clay loam, dark grayish brown (10YR 4/2) dry; weak fine subangular blocky and granular structure; friable; neutral; gradual smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 20,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A--8 to 16 inches; very dark brown (10YR 2/2) silty clay loam, dark grayish brown (10YR 4/2) dry; weak fine subangular blocky structure; friable; neutral; gradual smooth boundary. (Combined thickness of the A horizons is 10 to 20 inches.)"
+      },
+      {
+        "name": "Bg",
+        "top": 41,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bg--16 to 24 inches; dark grayish brown (10YR 4/2) silty clay loam; weak fine subangular blocky structure; friable; slightly alkaline; abrupt smooth boundary. (6 to 12 inches thick)"
+      },
+      {
+        "name": "2Ab",
+        "top": 61,
+        "bottom": 84,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Ab--24 to 33 inches; very dark gray (10YR 3/1) silty clay; strong fine subangular blocky structure; very firm; few calcium carbonate concretions; slightly effervescent; moderately alkaline; gradual smooth boundary. (0 to 13 inches thick)"
+      },
+      {
+        "name": "2Cg",
+        "top": 84,
+        "bottom": 152,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH_class": "moderately alkaline",
+        "narrative": "2Cg--33 to 60 inches; olive gray (5Y 4/2) silty clay; olive gray (5Y 5/2) coatings on faces of some peds; massive with vertical cleavage; very firm; many calcium carbonate concretions; few fine prominent yellowish brown (10YR 5/4) redoximorphic concentrations; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

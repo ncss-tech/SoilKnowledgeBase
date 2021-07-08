@@ -56,5 +56,97 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon:  The zone from 1 to 8 inches.  (A and E horizons)\nAlbic horizon: The zone from 3 to 8 inches (E horizon)\nCambic horizon:  The zone from 8 to 19 inches.  (Bw1 and Bw2 horizons)\nLithic contact:  hard sandstone bedrock at 19 inches.\nParticle size control section:  The zone from 10 to 19 inches.  (Part of the Bw1 and the Bw2 horizons)\nKeys to Soil Taxonomy:  Classified according to the Eighth Edition, 1998\nIn some pedons, although color of the Bw horizons meets the criteria of spodic materials, it is presumed this horizon would not meet the organic carbon and oxalate extractable Al and Fe criteria.\nThe 8/2002 revision changes the mineralogy from mixed to isotic. The isotic class is predicted from the low base status of this soil, the estimated high content of iron and aluminum oxides, and from the cold and moist soil climate.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; slightly decomposed organic material, principally roots, stems, and leaves. (1 to 3 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 8,
+        "dry_hue": "10R",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10R",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--1 to 3 inches; weak red (10R 5/2) loam, weak red (10R 4/2) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; abundant fine and very fine roots; very strongly acid (pH 5.0); clear smooth boundary.  (2 to 7 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 20,
+        "dry_hue": "10R",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10R",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--3 to 8 inches; weak red (10R 5/3) loam, weak red (10R 4/2) moist; weak very fine granular structure; soft, very friable, nonsticky and nonplastic; abundant very fine roots; very strongly acid (pH 4.8); clear smooth boundary.  (0 to 5 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 20,
+        "bottom": 43,
+        "dry_hue": "10R",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10R",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 4.6,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--8 to 17 inches; pale red (10R 6/4) loam, weak red (10R 4/4) moist; weak fine subangular blocky structure parting to moderate medium granular; soft, very friable,  nonsticky and nonplastic; few very fine roots; very strongly acid (pH 4.6); clear smooth boundary.  (4 to 16 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 43,
+        "bottom": 48,
+        "dry_hue": "10R",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10R",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 4.6,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw2--17 to 19 inches; pale red (10R 6/4) very gravelly sandy loam, weak red (10R 4/4) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; 35 percent small sandstone gravels; very strongly acid (pH 4.6); abrupt smooth boundary.  (0 to 6 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 48,
+        "texture_class": "sand",
+        "narrative": "R--19 inches; hard red sandstone bedrock."
+      }
+    ]
+  ]
 }

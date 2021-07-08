@@ -56,5 +56,83 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizon and features recognized in this pedon are:\nA horizon - the zone from 0 to 5 inches (A1 and A2 horizons\nArgillic horizon - the zone from 5 to 14 inches (Bt horizon)\nParalithic - the zone from 14 to 18 inches (Cr horizon)\nLithic contact - bedrock at 18 inches (R horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely stony",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 2 inches; brown (10YR 5/3) extremely stony sandy loam, dark yellowish brown (10YR 3/4) moist; weak thin platy structure; soft very friable; common fine roots; many fine interstitial poles; 25 percent angular rhyolite gravel; slightly alkaline; abrupt smooth boundary.  (1 to 3 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--2 to 5 inches; dark yellowish brown (10YR 4/4) gravelly sandy loam, dark yellowish brown (10YR 3/4) moist; weak fine subangular blocky structure; slightly hard, very friable; common fine roots; many fine interstitial pores; 25 percent angular rhyolite gravel; weakly calcareous; slightly alkaline; clear smooth boundary.  (2 to 5 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 13,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--5 to 14 inches; yellowish brown (10YR 5/4) gravelly clay loam, dark yellowish brown (10YR 4/4) moist; moderate medium subangular blocky structure; soft, very friable, slightly plastic; few fine roots; many fine tubular pores; few thin patchy clay films on vertical and horizontal faces of peds and in pores; 20 percent angular rhyolite gravel; strongly calcareous with lime, mainly disseminated with few visible streaks in lower part; slightly alkaline; clear wavy boundary.  (6 to 12 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 36,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 1,
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Cr--14 to 18 inches; white (10YR 8/1) highly weathered rhyolite bedrock and small angular hard rhyolite gravel; slightly hard friable; weakly calcareous in spots; clear irregular boundary.  (1 to 6 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 46,
+        "narrative": "R--18 inches; indurated rhyolite bedrock with few fractures.  Many feet thick."
+      }
+    ]
+  ]
 }

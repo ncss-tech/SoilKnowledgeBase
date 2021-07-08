@@ -56,5 +56,78 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The Aydelotte soils were formerly mapped as eroded phases of the Renfrow series.\nDiagnostic horizons and features in this pedon are:\nOchric epipedon - zone from the surface to about 6 inches.  (Ap horizon)\nArgillic horizon - zone from 6 to 63 inches.  (Bt1, Bt2, Bt3 horizons)\nUdertic features - soils that have cracks at some period in most years that are 1 cm or more wide at a depth of 20 inches, that are at least 12 inches long in some part, and extend upward to the surface; have COLE of 0.07 or more in a horizon or horizons that are at least 20 inches thick; have potential linear extensibility of 6 cm or more in the upper 50 inches of the soil; have 35 percent or more clay in the upper 20 inches of the argillic horizon; and the depth to secondary lime is below a depth of 28 inches.\nPaleustalfs features - soils that have an ustic moisture regime; have an ochric epipedon; have an argillic horizon and have base saturation of 35 percent or more at a depth of 72 inches below the soil surface; have an argillic horizon in which the upper part has a clayey particle-size class and there is an increase of at least 15 percent clay (absolute) within a vertical distance of 1 inch at the upper boundary or have an argillic horizon that has a clay distribution such that the percentage of clay does not decrease by as much as 20 percent of the maximum within a depth of 60 inches from the soil surface and has hues redder than 10YR and chroma of 5 or more in the matrix of the Bt3 horizon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches;reddish brown (5YR 5/4) loam, dark reddish brown (5YR 3/4) moist; weak medium granular structure; friable; slightly acid; abrupt smooth boundary.  (2 to 9 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 56,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--6 to 22 inches;reddish brown (5YR 5/4) clay, reddish brown (5YR 4/4) moist; moderate fine blocky and subangular blocky structure; very firm; vertical faces of peds are coated with brown (7.5YR 4/2) moist silt loam; clay films on faces of peds; neutral; gradual wavy boundary.  (5 to 27 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 56,
+        "bottom": 97,
+        "dry_hue": "2.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "diffuse",
+        "topography": "wavy",
+        "narrative": "Bt2--22 to 38 inches;red (2.5YR 5/6) clay, red (2.5YR 4/6) moist; moderate medium and fine blocky structure; very firm; few non-intersecting slickensides; few Fe-Mn oxide concretions; few vertical faces of peds coated with dark brown (7.5YR 3/2) silt loam; clay films on faces of peds; moderately alkaline; calcareous at 32 inches and below; diffuse wavy boundary.  (8 to 30 inches thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 97,
+        "bottom": 160,
+        "dry_hue": "2.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "moderately alkaline",
+        "narrative": "Bt3--38 to 63 inches;red (2.5YR 5/6) clay, red (2.5YR 4/6) moist; weak medium and fine blocky structure; very firm; few non-intersecting slickensides in upper part; few fragments of shale in lower part; few fine Fe-Mn oxide concretions; clay films on faces of peds; few seams and bodies of soft powdery calcium carbonate; calcareous; moderately alkaline."
+      }
+    ]
+  ]
 }

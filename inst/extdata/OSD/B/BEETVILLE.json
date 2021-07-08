@@ -56,5 +56,70 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This revision updates the taxonomic subgroup from Fluventic to Torrifluventic. An erroneous location (township) is also corrected.\nDiagnostic horizons and other features recognized in this pedon:\nMollic epipedon - zone from 0 to 13 inches (A horizon)\nIrregular decrease in organic-carbon - zone from 13 to 49 inches (stratified C horizon)\nStripped matrix - zone from 49 to 60 inches (2Ck horizon)\nSoil moisture regime - aridic bordering on xeric\nThe faint Fe concentrations that occur in the upper profile are assumed to be result of flood irrigation.\nCarbonates in the Ck1 and 2Ck2 horizons are assumed to be primary (not secondary).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 7.9,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 13 inches; grayish brown (10YR 5/2) loam, very dark grayish brown (10YR 3/2) moist; weak fine granular structure; soft, very friable, slightly sticky and slightly plastic; common fine and very fine roots; common very fine and fine pores; moderately alkaline (pH 7.9); abrupt wavy boundary. (7 to 19 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 33,
+        "bottom": 84,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--13 to 33 inches; light brownish gray (10YR 6/2) fine sandy loam, dark grayish brown (10YR 4/2) moist; massive; few fine faint reddish brown iron concentrations below a depth of 25 inches; soft, very friable, slightly sticky and slightly plastic; few fine and very fine roots; few very fine and fine pores; moderately alkaline (pH 8.4); abrupt wavy boundary. (10 to 25 inches thick)"
+      },
+      {
+        "name": "Ck1",
+        "top": 84,
+        "bottom": 124,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ck1--33 to 49 inches; light brownish gray (10YR 6/2) loam, dark grayish brown (10YR 4/2) moist; massive; slightly hard, friable, slightly sticky and slightly plastic; few fine and very fine roots; many very fine and fine pores; slightly calcareous; moderately alkaline (pH 8.4); abrupt smooth boundary."
+      },
+      {
+        "name": "2Ck2",
+        "top": 124,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "narrative": "2Ck2--49 to 60 inches; light gray (10YR 7/2) loamy sand, dark grayish brown (10YR 4/2) moist; massive; loose, very friable; common fine interstitial pores; slightly calcareous; moderately alkaline (pH 8.2)."
+      }
+    ]
+  ]
 }

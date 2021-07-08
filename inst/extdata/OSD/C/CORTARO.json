@@ -56,5 +56,55 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from 0 to 3 inches (A horizon)\nEntisol feature - The absence of diagnostic subsurface horizons\nLithic contact - The boundary at 12 inches (R horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; brown (10YR 5/3) extremely gravelly sandy loam, dark brown (10YR 3/3) moist; weak medium granular structure; slightly hard, friable, nonsticky and nonplastic; common fine roots; common fine tubular pores; 60 percent gravel and 10 percent flagstones and channers; neutral; clear smooth boundary. (1 to 5 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 8,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--3 to 12 inches; pale brown (10YR 6/3) very gravelly sandy loam, brown (10YR 4/3) moist; massive; slightly hard, friable, nonsticky and nonplastic; common fine roots; common fine tubular pores; 45 percent gravel; slightly acid; abrupt wavy boundary. (4 to 15 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 30,
+        "narrative": "R--12 inches; gneiss; few coarse roots in fractures."
+      }
+    ]
+  ]
 }

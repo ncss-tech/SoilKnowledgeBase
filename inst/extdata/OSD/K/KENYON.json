@@ -56,5 +56,114 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 25 to 100 centimeters (A, AB, and 2Bw1 horizons);\nseries control section--the zone from the surface to a depth of 150 centimeters (Ap, A, AB, 2Bw1, 2Bw2, and 2BC1 horizons).\nDiagnostic horizons and features recognized in this pedon include:\nmollic epipedon--the zone from the surface to a depth of 48 centimeters (Ap, A, and AB horizons);\ncambic horizon--the zone from a depth of 48 to 200 centimeters (2Bw1, 2Bw2, 2BC1, and 2BC2 horizons).\nRange in Characteristics were edited based on available lab data during the Kenyon Soil Data Join Recorrelation Projects FY 2013.\nSome pedons have vertical seams or wedges of sand or loamy sand about 5 to 15 centimeters wide and about 0.9 to 1.2 meters deep extending downward from the stone line into the till.\nCation-exchange activity class is inferred from lab data from similar soils in the surrounding area. Some NSSL data supports active cation-exchange activity class.\nTaxonomy version--Keys to Soil Taxonomy, eleventh edition, 2010.\nThe MLRA 104 Steering Committee approved property edits to this series in February 2004.\nIn parts of MLRAs 104 and 108, based on the definitions in Chapter 3 of the Soil Survey Manual, the drainage class of this soil would be well drained. Drainage class is a state interpretation.\nThe Kenyon soils are in the \"Iowan Area,\" on an eroded landscape of Kansan and/or Nebraskan tills (Ruhe, Dietz, Fenton, and Hall; Report of Investigations, Iowa Geological Survey; 1968).\nADDITIONAL DATA:\nLaboratory data--National Soil Survey Laboratory, Lincoln, Nebraska-many pedons (http://ssldata.sc.egov.usda.gov/).\nLaboratory data--Soil Survey Investigations Report No. 3; Soil No. S60 Iowa-9-1 (1-11).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 23 centimeters; black (10YR 2/1) loam, very dark gray (10YR 3/1) dry; weak fine granular structure; friable; common fine roots; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 23,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--23 to 36 centimeters; very dark brown (10YR 2/2) loam, dark gray (10YR 4/1) dry; weak fine subangular blocky structure; friable; common fine roots; moderately acid; clear smooth boundary. (Combined thickness of the A horizon is 25 to 34 centimeters.)"
+      },
+      {
+        "name": "AB",
+        "top": 36,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "AB--36 to 48 centimeters; very dark grayish brown (10YR 3/2) loam, dark grayish brown (10YR 4/2) dry; weak fine subangular blocky structure; friable; common very fine roots; strongly acid; clear smooth boundary. (0 to 15 centimeters thick)"
+      },
+      {
+        "name": "2Bw1",
+        "top": 48,
+        "bottom": 104,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bw1--48 to 104 centimeters; yellowish brown (10YR 5/6) loam; weak fine subangular blocky structure; friable; common very fine roots; about 2 percent mixed rock fragments; strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "2Bw2",
+        "top": 104,
+        "bottom": 140,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bw2--104 to 140 centimeters; yellowish brown (10YR 5/4) loam; weak fine subangular blocky structure; firm; about 2 percent mixed rock fragments; strongly acid; gradual smooth boundary. (Combined thickness of the 2Bw horizon is 50 to 115 centimeters.)"
+      },
+      {
+        "name": "2BC1",
+        "top": 140,
+        "bottom": 180,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2BC1--140 to 180 centimeters; yellowish brown (10YR 5/6) loam; weak medium subangular blocky structure; firm; common medium distinct brownish yellow (10YR 6/8) redoximorphic concentrations; common medium prominent gray (10YR 6/1) redoximorphic depletions; about 2 percent mixed rock fragments; slightly acid; gradual smooth boundary."
+      },
+      {
+        "name": "2BC2",
+        "top": 180,
+        "bottom": 200,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "narrative": "2BC2--180 to 200 centimeters; yellowish brown (10YR 5/6) loam; weak very coarse subangular blocky structure dissected by few oblique fractures; firm; common medium distinct brownish yellow (10YR 6/8) redoximorphic concentrations; common medium prominent gray (10YR 6/1) redoximorphic depletions; about 2 percent mixed rock fragments; neutral."
+      }
+    ]
+  ]
 }

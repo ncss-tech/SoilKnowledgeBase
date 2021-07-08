@@ -56,5 +56,72 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:   Diagnostic horizons and features recognized in this pedon are an ochric epipedon from 0 to 7 inches (O, A, and part of the Bw) and a cambic horizon from 2 to 21 inches (Bw) formed in volcanic ash.  The lower part of the particle-size control section has 45 percent rock fragments.  Laboratory data from similar soils indicates that the volcanic ash mantle meets andic soil properties.  The description reflects a change in classification from ashy over sandy or sandy-skeletal, mixed Xeric Vitricryands to ashy over sandy or sandy-skeletal, glassy over isotic Xeric Vitricryands.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "O",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "O--0 to 1 inch;  slightly decomposed mat of leaves, twigs, and needles."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 5.5,
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--1 to 2 inches; grayish brown (10YR 5/2) ashy loam, very dark grayish brown (10YR 3/2) moist; single grained; loose, friable, nonsticky, nonplastic; strongly acid (pH 5.5); abrupt wavy boundary.  (0 to 5 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 5,
+        "bottom": 53,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bw--2 to 21 inches; light yellowish brown (10YR 6/4) ashy loam, brown (7.5YR 4/4) moist; weak medium granular and subangular blocky structure; soft, friable, nonsticky, nonplastic; many fine roots; slightly acid (pH 6.3); abrupt irregular boundary.  (2 to 25 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 53,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "cf_class": "very gravelly",
+        "pH": 5.9,
+        "pH_class": "moderately acid",
+        "narrative": "2C--21 to 60 inches; pale brown (10YR 6/3) very gravelly loamy sand, brown (10YR 4/3) moist; single grained; loose, nonsticky, nonplastic; few iron bands 1/2 to 3/4 inch thick in upper part of horizon; 45 percent gravel; moderately acid (pH 5.9)."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 20 cm (A, Bt1, and Bt2 horizons).\nArgillic horizon - The zone from 5 to 36 cm (Bt1, Bt2, and Bt3 horizons).\nLithic contact - The boundary at 36 cm to underlying hard bedrock (R layer).\nParticle-size control section - The zone from the soil surface to 36 cm (A, Bt1, Bt2, and Bt3 horizons).\nADDITIONAL DATA: Previous authors and editors include: RLM/MZ/JVC.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely cobbly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 5 cm; brown (10YR 4/3) extremely cobbly loam, very dark grayish brown (10YR 3/2) moist; moderate fine platy structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine and fine roots; many very fine interstitial pores; 35 percent gravel and 30 percent cobbles; neutral (pH 6.8); abrupt smooth boundary. (3 to 18 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 5,
+        "bottom": 10,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "broken",
+        "narrative": "Bt1--5 to 10 cm; brown (7.5YR 4/2) clay, dark brown (7.5YR 3/2) moist; moderate very fine subangular blocky structure; hard, friable, very sticky and very plastic; many very fine and fine, few medium roots; many very fine interstitial pores; continuous faint clay films on faces of peds; neutral (pH 6.7); abrupt broken boundary.  (This horizon is discontinuous and only occurs around the under edges of surface cobbles and stones.)  (0 to 8 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 10,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt2--10 to 20 cm; dark grayish brown (10YR 4/2) clay, very dark grayish brown (10YR 3/2) moist; moderate fine prismatic and strong fine angular blocky structure; extremely hard, very firm, very sticky and very plastic; many very fine and fine roots; many fine interstitial pores; continuous pressure faces on peds; neutral (pH 6.7); abrupt smooth boundary.  (8 to 23 cm thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 20,
+        "bottom": 36,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt3--20 to 36 cm; brown (7.5YR 4/4) clay, dark brown (7.5YR 3/4) moist; strong fine and medium subangular blocky structure; extremely hard, extremely firm, very sticky and very plastic; few very fine and fine roots; few very fine tubular pores; continuous pressure faces on peds; neutral (pH 6.7); abrupt irregular boundary.  (5 to 18 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 36,
+        "narrative": "R--36 cm; basalt; weathered in upper 13 cm."
+      }
+    ]
+  ]
 }

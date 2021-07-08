@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 15 cm (A horizon).\nArgillic horizon - The zone from 15 to 46 cm (Bt1 and Bt2 horizons).\nDuripan - The zone from 46 to 51 cm (Bqkm horizon).\nLithic contact - The boundary at 51 cm to underlying hard bedrock (R layer).\nParticle-size control section - The zone from 15 to 46 cm (Bt1 and Bt2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 15 cm; brown (10YR 5/3) very cobbly loam, brown (10YR 4/3) moist; weak fine granular structure; soft, very friable, slightly sticky and slightly plastic; common medium, fine, and very fine roots; many very fine interstitial pores; 20 percent gravel, 15 percent cobbles and 10 percent stones; neutral (pH 6.8); clear wavy boundary.  (8 to 15 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "extremely cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--15 to 30 cm; light brown (7.5YR 6/4) extremely cobbly clay loam, brown (7.5YR 4/4) moist; moderate fine and very fine angular blocky structure; hard, firm, moderately sticky and moderately plastic; many fine and very fine roots; many fine and very fine tubular pores; common distinct pressure faces on peds; 20 percent gravel, 30 percent cobbles and 10 percent stones; neutral (pH 7.0); clear wavy boundary.  (8 to 18 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 30,
+        "bottom": 46,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "very cobbly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2--30 to 46 cm; brown (7.5YR 5/4) very cobbly clay, dark brown (7.5YR 3/4) moist; moderate medium and fine angular blocky structure; very hard, firm, very sticky and very plastic; common medium, fine, and very fine roots; common fine and very fine tubular pores; many distinct pressure faces on peds; 20 percent gravel and 30 percent cobbles; neutral (pH 7.2); abrupt wavy boundary.  (10 to 23 cm thick)"
+      },
+      {
+        "name": "Bqkm",
+        "top": 46,
+        "bottom": 51,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "cf_class": "cobbly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bqkm--46 to 51 cm; light gray (10YR 7/2) and white (10YR 8/1) indurated cobbly duripan with a continuous laminar silica cap cementing the cobbles and stones, light gray (10YR 7/2), very pale brown (10YR 8/2) and very pale brown (10YR 7/4) moist; massive; extremely hard; common fine roots matted on the surface of the duripan; violently effervescent; moderately alkaline (pH 8.2); abrupt wavy boundary.  (1 to 15 cm thick.)"
+      },
+      {
+        "name": "R",
+        "top": 51,
+        "narrative": "R--51 cm; andesite."
+      }
+    ]
+  ]
 }

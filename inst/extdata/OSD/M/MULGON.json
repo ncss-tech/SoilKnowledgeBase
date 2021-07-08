@@ -56,5 +56,134 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nParticle-size control section:  The zone from 15 to 31 inches.  (Bt1 and Bt2 horizons)\nOchric epipedon:  The zone from 2 to 5 inches.  (A horizon)\nAlbic horizon:  The zone from 5 to 10 inches.  (E horizon)\nGlossic horizon:  The zone from 10 to 17 inches.  (Bt/E horizon)\nArgillic horizon:  The zone from 17 to 33 inches (Bt1, Bt2 horizons)\nRemarks:\nThe assignment of the cation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nPercent base saturation for assignment to the mollic subgroup is estimated.\nGlossic horizon is assumed to exist based on the presence of the Bt/E but cannot be confirmed since the description lacks percentages of Bt vs. E.\nADDITIONAL DATA:  This soil formally classified as Mollic Cryoboralfs prior to the 1996 Keys.  Classification according to the 1996 Keys was Glossic Cryoboralf, loamy-skeletal, mixed, superactive.\nTaxonomic Version:  Eighth Edition, 1998.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; needles, bark, twigs, and grass leaves."
+      },
+      {
+        "name": "Oe",
+        "top": 3,
+        "bottom": 5,
+        "narrative": "Oe--1 to 2 inches; decomposing needles, bark, twigs, and grass leaves."
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very stony",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--2 to 5 inches; dark grayish brown (10YR 4/2) very stony loam, dark brown (7.5YR 3/2) moist; moderate medium granular structure; soft, very friable, slightly sticky and slightly plastic; many roots of all sizes; 20 percent gravel, 10 percent cobbles, 5 percent stones; moderately acid (pH 6.0); abrupt smooth boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 13,
+        "bottom": 25,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very stony",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E--5 to 10 inches; brown (7.5YR 5/3) very stony fine sandy loam, dark brown (7.5YR 4/2) moist; weak thin platy structure parting to weak fine subangular blocky; soft, very friable, slightly sticky and slightly plastic; common roots of all sizes; 15 percent gravel, 10 percent cobbles, 10 percent stones; moderately acid (pH 6.0); gradual wavy boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "Bt/E",
+        "top": 25,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very stony",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt/E--10 to 17 inches; grayish brown (10YR 5/2) very stony fine sandy loam, dark grayish brown (10YR 4/2) moist; moderate medium prismatic structure parting to moderate medium angular blocky; soft, very friable, slightly sticky and slightly plastic; common roots of all sizes; few faint clay films on faces of peds; 15 percent gravel, 10 percent cobbles, 10 percent stones; moderately acid (pH 6.0); gradual wavy boundary.  (3 to 12 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 43,
+        "bottom": 64,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very stony",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--17 to 25 inches; reddish brown (5YR 5/4) very stony sandy clay loam, reddish brown (5YR 4/4) moist; moderate medium prismatic structure parting to moderate medium subangular blocky; slightly hard, very friable, slightly sticky and slightly plastic; common roots of all sizes; many prominent clay films on faces of peds; 25 percent gravel, 15 percent cobbles, 10 percent stones; moderately acid (pH 6.0); gradual wavy boundary.  (6 to 16 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 64,
+        "bottom": 84,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very stony",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--25 to 33 inches; reddish yellow (5YR 6/6) very stony sandy clay loam, yellowish red (5YR 5/6) moist; moderate medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; few roots of all sizes; common prominent clay films on vertical faces of peds; 25 percent gravel, 15 percent cobbles, 10 percent stones; moderately acid (pH 6.0); gradual wavy boundary.  (4 to 8 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 84,
+        "bottom": 152,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "very stony",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "narrative": "C--33 to 60 inches; reddish yellow (5YR 6/6) very stony sandy loam, yellowish red (5YR 5/6) moist; massive; soft, very friable, slightly sticky and nonplastic; 25 percent gravel, 15 percent cobbles, 10 percent stones; moderately acid (pH 6.0)."
+      }
+    ]
+  ]
 }

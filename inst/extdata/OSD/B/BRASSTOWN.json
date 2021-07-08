@@ -56,5 +56,99 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The soils now placed in the Brasstown series were previously included in the Evard series.  However, Brasstown is derived from and has fragments of metasedimentary rocks, and Evard contains fragments of granite, gneiss, or schist.  The 6/99 revision updates the classification to the 8th Edition of Keys to Soil Taxonomy.  The soil is placed in the subactive CEC activity class based upon NSSL lab data from the typifying pedon.\nLaboratory data from the typifying pedon were obtained from the National Soil Survey Laboratory, sample number S85NC-039-002.\nDiagnostic horizons and features in this pedon are:\nOchric Epipedon - 0 to 6 inches (A horizon)\nArgillic horizon - 10 to 29 inches (Bt horizon)\nParalithic contact - the contact at 46 inches (the upper boundary of the Cr horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "Oi--1 to 0 inches, partially decomposed deciduous leaves, twigs, and roots."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 6 inches, dark brown (7.5YR 4/4) channery fine sandy loam; reddish yellow (7.5YR 6/6) dry; moderate fine granular structure; very friable; common fine and medium roots; 25 percent by volume metasandstone and phyllite channers; few fine flakes of mica; very strongly acid; clear wavy boundary.  (2 to 10 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 15,
+        "bottom": 25,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "BA--6 to 10 inches, yellowish red (5YR 5/6) channery sandy clay loam; weak medium subangular blocky structure; very friable; common fine and medium roots; 20 percent by volume metasandstone and phyllite channers; common fine flakes of mica; very strongly acid; abrupt wavy boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 25,
+        "bottom": 74,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--10 to 29 inches, red (2.5YR 4/8) channery sandy clay loam; moderate medium subangular blocky structure; friable; 25 percent by volume metasandstone and phyllite channers; common fine flakes of mica; few fine and medium roots; strongly acid; gradual wavy boundary.  (10 to 45 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 74,
+        "bottom": 94,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--29 to 37 inches, red (2.5YR 4/6) channery fine sandy loam; weak medium subangular blocky structure; very friable; 25 percent by volume phyllite channers; common fine flakes of mica; strongly acid; gradual wavy boundary.  (0 to 15 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 94,
+        "bottom": 117,
+        "texture_class": "very fine sandy loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C--37 to 46 inches, multicolored phyllite saprolite that has channery very fine sandy loam texture; massive; very friable; 30 percent by volume phyllite channers; common fine flakes of mica; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Cr",
+        "top": 117,
+        "bottom": 152,
+        "texture_class": "sand",
+        "narrative": "Cr--46 to 60 inches, multicolored, weathered, and fractured interbedded metasandstone and phyllite; partially consolidated but can be dug with difficulty with a spade."
+      }
+    ]
+  ]
 }

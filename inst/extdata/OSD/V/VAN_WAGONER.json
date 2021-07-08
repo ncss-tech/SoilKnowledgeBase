@@ -56,5 +56,58 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon -The zone from the surface to 20 inches.  (A1, A2\nand C horizons)\nLithic feature -Bedrock at 20 inches.  (R horizon)\nThe superactive cation exchange activity class was added in 03/2003 to the taxonomic classification by the National Soil Survey Center on request of the Reno MLRA office, without review of the soil series property data. The remainder of this document has not been updated.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "cobbly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A1--0 to 1 inch; dark grayish brown (10YR 4/2) cobbly sandy loam, very dark brown (10YR 2/2) moist; weak fine granular structure; loose, very friable, slightly sticky and slightly plastic; many fine roots; slightly acid (pH 6.5); abrupt wavy boundary.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 3,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "cf_class": "cobbly",
+        "narrative": "A2--1 to 15 inches; dark grayish brown (10YR 4/2) cobbly sandy"
+      },
+      {
+        "name": "C",
+        "top": 38,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "cf_class": "very cobbly",
+        "narrative": "C--15 to 20 inches; grayish brown (10YR 5/2) very cobbly sandy"
+      },
+      {
+        "name": "R",
+        "top": 51,
+        "narrative": "R--20 inches; weathering quartz diorite porphyry."
+      }
+    ]
+  ]
 }

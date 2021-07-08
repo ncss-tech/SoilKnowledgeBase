@@ -56,5 +56,99 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 12 inches (Ap and AB horizons).\nCalcic horizon - The zone from 12 to 43 inches (Bk1 and Bk2 horizons).\nParticle-size control section - The zone from 10 to 40 inches (Bk1 horizon and parts of the AB and Bk2 horizons).\nThe superactive cation exchange activity class is based on NSSL data.  The calcic horizon is based on a CCE increase in the Ck1 and Ck2 noted in NSSL data.\nThe series range was narrowed in October 1993.  A statement in the range of characteristics allowing, \"partially consolidated tuffaceous limestone and sandstone ... below 24 inches\" was removed.  It is inappropriate for one series to encompass interpretations for bedrock from 24 inches to greater than 60 inches.  The range for the A-horizon will no longer allow a value of 5.  This will prevent soils from meeting the range of Wheelon and also classifying as mollisols.\nADDITIONAL DATA:  The typical pedon at the series type location has partial characterization data by the Soils Laboratory from Utah State University (USU) Logan, UT and is published on pages 184-185, Table 7 of the Soil Survey of Cache Valley Area, Utah, Parts of Cache and Box Elder Counties.  The pH values in the typical pedon are from saturated paste.\nOther pedons are sampled for partial or full characterization by the Soil Survey Laboratory (SSL), Lincoln, NE, as soil survey sample numbers S89ID-041-001 (pedon # 89P0802), S91UT-005-001 (pedon # 92P0114), S91UT-005-002 (pedon # 92P0115), S91UT-005-003 (pedon # 92P0113), S91UT-005-004 (pedon # 92P0116), S91UT-003-001 (pedon # 92P0117), and S91UT-003-002 (pedon # 92P0118).\nSome of the pedons have fine particle size classes based on the rule in Soil Taxonomy to calculate clay content (2.5 times 15-bar water).  It is unclear what impact the glass content of the soil has on the validity of the calculation.  The Soil Survey Laboratory Methods Manual suggests caution in applying the factor to soils with amorphous or glassy materials.  Wheelon will remain in the fine-silty family based on field determinations and lab results that place some pedons in the fine-silty family and some in the fine family.\nMore study is needed to determine whether this series should be reclassified into the subgroup of Vitrandic Calcixerepts.  Only two laboratory pedons have glass count data or oxalate extraction data to test this possibility.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; light brownish gray (2.5Y 6/2) silt loam, light olive brown (2.5Y 5/3) moist; weak medium subangular blocky structure mixed with weak fine granular structure; slightly hard, very friable, slightly sticky and slightly plastic; many fine roots; few fine pores; strongly effervescent; 15 percent calcium carbonate equivalent; slightly alkaline (pH 7.8); abrupt smooth boundary. (4 to 13 inches thick.)"
+      },
+      {
+        "name": "AB",
+        "top": 15,
+        "bottom": 30,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "AB--6 to 12 inches; light gray (2.5Y 7/2) silt loam, grayish brown (10YR 5/2) moist; massive; slightly hard, friable, slightly sticky and slightly plastic; many fine roots; few fine pores; strongly effervescent; 17 percent calcium carbonate equivalent; slightly alkaline (pH 7.8); gradual wavy boundary. (0 to 6 inches thick.)"
+      },
+      {
+        "name": "Bk1",
+        "top": 30,
+        "bottom": 58,
+        "dry_hue": "2.5Y",
+        "dry_value": 8,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 7.9,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk1--12 to 23 inches; pale yellow (2.5Y 8/2) silt loam, light brownish gray (2.5Y 6/2) moist; massive; hard, friable, slightly sticky and slightly plastic; few fine and coarse roots; violently effervescent; 31 percent calcium carbonate equivalent; moderately alkaline (pH 7.9); gradual wavy boundary. (10 to 15 inches thick.)"
+      },
+      {
+        "name": "Bk2",
+        "top": 58,
+        "bottom": 109,
+        "dry_hue": "2.5Y",
+        "dry_value": 8,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk2--23 to 43 inches; pale yellow (2.5Y 8/2) silt loam, light gray (2.5Y 7/2) moist; massive; slightly hard, friable, slightly sticky and slightly plastic; few fine roots; few medium and few fine pores; violently effervescent; 34 percent calcium carbonate equivalent; moderately alkaline (pH 8.2); gradual wavy boundary. (10 to 25 inches thick.)"
+      },
+      {
+        "name": "C",
+        "top": 109,
+        "bottom": 168,
+        "dry_hue": "5Y",
+        "dry_value": 8,
+        "dry_chroma": 2,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 8.3,
+        "pH_class": "moderately alkaline",
+        "narrative": "C--43 to 66 inches; pale yellow (5Y 8/2) silt loam, light olive gray (5Y 6/2) moist; massive; slightly hard, friable, slightly sticky and nonplastic; common medium prominent brownish yellow (10YR 6/6) relict masses of iron accumulation; violently effervescent; 29 percent calcium carbonate equivalent; moderately alkaline (pH 8.3)."
+      }
+    ]
+  ]
 }

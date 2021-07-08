@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and other features recognized in this\npedon are:\nOchric epipedon - The zone from 0 to 10 inches (the Ap horizon).\nCalcic horizon - The zone from 19 to 39 inches (the Bk2 and Bk3\nhorizons).\nParticle-size control section - The zone from 10 to 40 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 1,
+        "texture_class": "silt loam",
+        "narrative": "Ap--0 to 10 inches; light gray (10YR 6/1) silt loam, dark gray"
+      },
+      {
+        "name": "Bk1",
+        "top": 25,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "texture_class": "silt loam",
+        "narrative": "Bk1--10 to 19 inches; light brownish gray (10YR 6/2) silt loam,"
+      },
+      {
+        "name": "Bk2",
+        "top": 48,
+        "bottom": 74,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "texture_class": "silt loam",
+        "narrative": "Bk2--19 to 29 inches; light gray (2.5Y 7/2) silt loam, dark grayish"
+      },
+      {
+        "name": "Bk3",
+        "top": 74,
+        "bottom": 99,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "texture_class": "silt loam",
+        "narrative": "Bk3--29 to 39 inches; light gray (2.5Y 7/2) silt loam, light olive"
+      },
+      {
+        "name": "C",
+        "top": 99,
+        "bottom": 152,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "texture_class": "silt loam",
+        "narrative": "C--39 to 60 inches; light gray (2.5Y 7/2) silt loam, grayish brown"
+      }
+    ]
+  ]
 }

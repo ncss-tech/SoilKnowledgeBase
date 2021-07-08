@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon:\nMollic epipedon: from 0 to 18 inches (A1, A2, and AC horizon).\nParticle-size control section: from 10 to 40 inches (part of the A2, the AC and part of the C horizon).\nThis series should be investigated near the type location to determine the content of rock fragments in the A1 and A2 horizons.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "cf_class": "gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 1 inch; dark gray (10YR 4/1) gravelly loamy sand, black (10YR 2/1) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; many roots; many fine tubular pores; neutral (pH 6.6); abrupt smooth boundary. (1 to 3 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 3,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "cf_class": "gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--1 to 12 inches; dark gray (10YR 4/1) gravelly loamy sand, black (10YR 2/1) moist; massive; soft, very friable, nonsticky and nonplastic; many roots; many fine tubular pores; neutral (pH 6.6); clear smooth boundary. (8 to 14 inches thick)"
+      },
+      {
+        "name": "AC",
+        "top": 30,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "cf_class": "very gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "AC--12 to 18 inches; brown (10YR 5/3) very gravelly loamy sand, dark brown (10YR 3/3) moist; single grained; loose, nonsticky and nonplastic; common roots; common fine and few medium pores; 40 percent gravel; neutral (pH 6.8); clear smooth boundary. (5 to 7 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 46,
+        "bottom": 152,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "narrative": "C--18 to 60 inches; variegated, very gravelly sand; single grained; loose, nonsticky and nonplastic; 40 percent gravel; neutral (pH 7.0)."
+      }
+    ]
+  ]
 }

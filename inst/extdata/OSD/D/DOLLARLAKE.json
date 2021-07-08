@@ -56,5 +56,86 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\numbric epipedon: 0 to 33 inches; A1, A2, BA horizons; base saturation is less than 50 percent from 0 to 17 inches (A1 and A2) and over 50 percent from 17 to 33 inches (BA)\ncambic horizon: 33 to 61 inches; Bw has color requirement for umbric but lacks the organic matter content\nvitrixerandic subgroup properties: 0 to 17 inches; A1, A2 with a xeric soil moisture regime\nparticle-size control section: 10 to 40 inches; A2, BA, Bw\neutric subgroup properties: base saturation is greater than 50 percent from 17 to 30 inches (more than half the thickness between 10 and 30 inches is over 50 percent)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very cobbly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 10 inches; dark brown (7.5YR 3/2) very cobbly ashy sandy loam, brown (7.5YR 4/3) dry; weak very fine subangular blocky structure; soft, very friable; slightly sticky and nonplastic; many very fine and few fine roots; common fine and few medium irregular pores; 20 percent gravel, 15 percent cobbles, 10 percent stones; slightly acid (pH 6.5); clear wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 25,
+        "bottom": 43,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A2--10 to 17 inches; dark brown (7.5YR 3/2) very gravelly ashy sandy loam, brown (7.5YR 4/3) dry; weak fine subangular blocky structure; soft, friable; slightly sticky and nonplastic; common very fine and fine roots; few fine and very fine tubular pores; 25 percent gravel, 10 percent cobbles and 5 percent stones; moderately acid (pH 6.0); gradual smooth boundary. (combined thickness of the A1 and A2 horizons is 10 to 20 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 43,
+        "bottom": 84,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very cobbly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BA--17 to 33 inches; dark brown (7.5YR 3/2) very cobbly sandy loam, brown (7.5YR 4/3) dry; weak medium and fine subangular blocky structure; soft, friable; nonsticky and nonplastic; common fine roots; few very fine tubular pores; 25 percent gravel, 20 percent cobbles, and 5 percent stones; moderately acid (pH 6.0); gradual smooth boundary. (10 to 27 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 84,
+        "bottom": 155,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "narrative": "Bw--33 to 61 inches; dark brown (7.5YR 3/2) very gravelly sandy loam, brown (7.5YR 4/3) dry; weak medium subangular blocky structure; soft, friable, slightly sticky and nonplastic; few fine roots; few very fine tubular pores; 25 percent gravel and 10 percent cobbles; slightly acid (pH 6.1)."
+      }
+    ]
+  ]
 }

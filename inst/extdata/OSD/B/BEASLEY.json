@@ -56,5 +56,74 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:   Diagnostic horizons and features recognized in the pedon are:\nOchric epipedon, 0 to 7 inches, Ap\nArgillic horizon, 7 to 29 inches,(Bt, BC)\nParalithic contact-at 50 inches (Cr)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; dark grayish brown (10YR 4/2) silt loam; weak fine granular structure; friable; many small roots; slightly acid; clear smooth boundary.  (4 to 8 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 18,
+        "bottom": 58,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--7 to 23 inches; yellowish brown (10YR 5/6) silty clay; moderate medium angular blocky structure; very firm, sticky; plastic; common fine roots; common clay films; few black concretions and black coatings; medium acid; gradual wavy boundary.  (10 to 24 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 58,
+        "bottom": 74,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--23 to 29 inches; yellowish brown (10YR 5/4) clay; common medium distinct mottles of light olive brown (2.5Y 5/6), strong brown (7.5YR 5/6), and light brownish gray (10YR 6/2); weak medium angular blocky structure; very firm, very sticky, very plastic; few fine roots; few clay films; few black concretions and black coatings; medium acid; gradual wavy boundary.  (0 to 20 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 74,
+        "bottom": 127,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH_class": "moderately alkaline",
+        "narrative": "C--29 to 50 inches; light brownish gray (2.5Y 6/2) silty clay; common medium distinct mottles of yellowish brown (10YR 5/6) and light olive brown (2.5Y 5/6); massive; very firm, sticky, plastic; 10 percent small fragments of olive (5Y 5/3) calcareous shale and siltstone; moderately alkaline; calcareous. (0 to 20 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 127,
+        "bottom": 178,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "narrative": "Cr--50 to 70 inches; olive (5Y 5/3) and greenish gray (5GY 6/1) soft calcareous siltstone, soft shale, and soft coarse grained brownish limestone; crushes to loam; platy relict rock structure."
+      }
+    ]
+  ]
 }

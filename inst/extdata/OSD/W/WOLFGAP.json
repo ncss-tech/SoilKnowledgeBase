@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizon and features recognized in this pedon are:\nMollic epipedon - the zone from 0 to 11 inches (Ap horizon).\nCambic horizon - the zone from 11 to 58 inches (Bw horizon).  Fluventic feature - irregular organic matter content decrease\nwith increasing depth.\nUdic moisture regime.\nSoils now within the range of the Wolfgap series were correlated Buckton, Chagrin, Hayter, Nolin, Ross, and Wheeling in several published soil surveys.\nADDITIONAL DATA: Morphology, chemistry, particle-size\ndistribution, and mineralogy are reported in:\nEdmonds, W. J., D. D. Rector, D. A. Gall, D. R. Hatch, R. S.\nJoslyn, and J. C. Baker. 1987. Properties and classification of\nsoils derived from stratified alluvium in the Valley and Ridge Province of Virginia. Va. Agric. Exp. Stn. Bull. 00-0 In press.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "narrative": "Ap--0 to 11 inches; dark brown (10YR 3/3) clay loam; yellowish"
+      },
+      {
+        "name": "Bw1",
+        "top": 28,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay",
+        "narrative": "Bw1--11 to 35 inches; yellowish brown (10YR 5/6) sandy clay"
+      },
+      {
+        "name": "Bw2",
+        "top": 89,
+        "bottom": 147,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "narrative": "Bw2--35 to 58 inches; strong brown (7.5YR 4/6) sandy clay loam; moderate fine subangular blocky structure; friable, slightly"
+      },
+      {
+        "name": "C",
+        "top": 147,
+        "bottom": 183,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "cf_class": "extremely gravelly",
+        "narrative": "C--58 to 72 inches; strong brown (7.5YR 4/6) extremely gravelly"
+      }
+    ]
+  ]
 }

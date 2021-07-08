@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are: Ochric epipedon - the zone from the mineral soil surface to 10 inches (A and E horizon); argillic horizon - the zone from 10 to 19 inches (Btg horizon); aquic moisture regime - based upon low chroma Fe depletions and Fe concentrations in the argillic horizon. And an abrupt textural change at 10 inches (the boundary between the E and Btg horizons).\nADDITIONAL DATA: See Minnesota Ag. Exp. Station Central File Code numbers 1003 and 1310 for partial analysis of representative pedons. See MAES CFC numbers 2458 and 2748 for clay mineralogy data of the argillic horizons. Soil Interpretation Record number is MN0258.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 4 inches; very dark gray (10YR 3/1) silt loam, gray (10YR 5/1) dry; moderate medium and fine granular structure; friable; neutral, clear wavy boundary. (1 to 5 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 25,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--4 to 10 inches; light brownish gray (2.5Y 6/2) silt loam; weak and moderate medium and thin platy structure; friable; few fine distinct light olive brown (2.5Y 5/4) and light yellowish brown (2.5Y 6/4) Fe concentrations; neutral; clear smooth boundary. (2 to 8 inches thick)"
+      },
+      {
+        "name": "Btg",
+        "top": 25,
+        "bottom": 48,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btg--10 to 19 inches; grayish brown (2.5Y 5/2) silty clay; many thin dark grayish brown (2.5Y 4/2) clay films on faces of peds; moderate fine medium and very fine angular blocky structure; firm; few fine prominent light olive brown (2.5Y 5/6) Fe concentrations; moderately acid, clear smooth boundary. (6 to 24 inches thick)"
+      },
+      {
+        "name": "BCg",
+        "top": 48,
+        "bottom": 64,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "BCg--19 to 25 inches; grayish brown (2.5Y 5/2) silty clay loam; weak fine and very fine angular blocky structure; firm; few fine faint light olive brown (2.5Y 5/4) Fe concentrations; slightly alkaline; abrupt wavy boundary. (0 to 12 inches thick)"
+      },
+      {
+        "name": "Cgl",
+        "top": 64,
+        "bottom": 104,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Cgl--25 to 41 inches; light brownish gray (2.5Y 6/2) silty clay loam; weak fine and medium prismatic structure parting to moderate fine and medium angular blocky; friable; common medium prominent yellowish brown (10YR 5/6) Fe concentrations; strongly effervescent; slightly alkaline; abrupt smooth boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 104,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "slightly alkaline",
+        "narrative": "Cg2--41 to 60 inches; dark grayish brown (2.5Y 4/2) clay; massive, firm; many fine faint grayish brown (2.5Y 5/2) Fe depletions and common fine prominent light yellowish brown (2.5Y 6/4) Fe concentrations; slightly effervescent, slightly alkaline."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,65 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and other features recognized in this pedon\n*Particle-size control section--zone from 30 to 64 cm\n*Umbric epipedon--zone from 5 to 36 cm\n*Cambic horizon--zone from 36 to 64 cm\n*Depth to lithic contact--64 cm\n*Andic soil properties--zone from 5 to 36 cm\n*Volcanic glass--zone from 5 to 36 cm\n*Depth to lithologic discontinuity--36 cm\n8/2016--Layers with andic soil properties assumed to meet criteria 2 (no ash required) in the 12th edition of Keys to Soil Taxonomy. It is also assumed that enough ash is present in those layers to meet criteria 3. Additional lab data is needed to confirm the degree of ash influence.\nADDITIONAL DATA: Type location user site ID--2012OR043219\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 5 cm; slightly decomposed plant material; clear smooth boundary"
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--5 to 36 cm; very gravelly medial loam, dark grayish brown (10YR 4/2) dry, very dark grayish brown (10YR 3/2) moist; moderate fine granular structure; slightly hard, very friable, slightly sticky and slightly plastic; moderately smeary; many very fine and fine and common medium roots; many fine irregular and tubular pores; 30 percent andesite gravel and 10 percent andesite cobbles; moderately acid (pH 5.8); clear smooth boundary"
+      },
+      {
+        "name": "2Bw",
+        "top": 36,
+        "bottom": 64,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bw--36 to 64 cm; extremely gravelly loam, pale brown (10YR 6/3) dry, brown (10YR 5/3) moist; moderate medium and fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; weakly smeary; many very fine and fine and common medium roots; many fine irregular and tubular pores; 50 percent andesite gravel and 15 percent andesite cobbles; moderately acid (pH 5.6); clear wavy boundary"
+      },
+      {
+        "name": "2R",
+        "top": 64,
+        "narrative": "2R--64 cm; andesitic bedrock"
+      }
+    ]
+  ]
 }

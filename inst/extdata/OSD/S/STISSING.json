@@ -56,5 +56,54 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Cation-exchange activity class is presumed from a review of data for similar soils.  Changes in competing series may result from updates in classification. The soil meets the current definition of episaturation although there is evidence of saturation in the dense substratum. The soil is described as having some redoximprhic features which decrease with depth in the Cd.\nDiagnostic horizons and features recognized in this pedon are:\n1. Ochric epipedon - the zone from 0 to 8 inches (Ap horizon).\n2. Cambic horizon - the zone from 8 to 16 inches (Bg horizon).\n3. Dense till substratum at 16 inches (Cdg horizon).\n4. Episaturation - the zone from 20 to 40 cm is saturated and overlies a relatively impermeable, relatively unsaturated layer.  (Bg horizon and Cdg horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 20 cm; very dark grayish brown (10YR 3/2) silt loam, gray (10YR 6/1) dry; fine streaks of very dusky red (2.5YR 2/2) in root channels; moderate fine granular structure; very friable; many grass roots; about 10 percent channers; moderately acid; abrupt smooth boundary.  (12 to 25 cm thick)"
+      },
+      {
+        "name": "Bg",
+        "top": 20,
+        "bottom": 40,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "narrative": "Bg--20 to 40 cm; gray (5Y 5/1) silt loam; massive; firm in place, friable when removed; few roots in upper 2 or 3 inches, none below; about 10 percent channers; many medium prominent dark reddish brown (5YR 3/2) iron concentrations; strongly acid; clear, wavy boundary.  (12 to 38 cm thick)"
+      },
+      {
+        "name": "Cdg",
+        "top": 40,
+        "bottom": 165,
+        "moist_hue": "N",
+        "moist_value": 5,
+        "moist_chroma": 0,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "narrative": "Cdg--40 to 165 cm; gray (N 5/0) silt loam; moderate thick platy structure; very firm; about 10 percent channers; many coarse prominent dark brown (7.5YR 3/2) iron concentrations; strongly acid."
+      }
+    ]
+  ]
 }

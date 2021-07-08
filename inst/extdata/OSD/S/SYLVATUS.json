@@ -56,5 +56,86 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soils now within the range of the Sylvatus series were correlated as Berks, Cataska, Ramsey, and Weikert in several published soil surveys.\nThe 3/99 revision places Sylvatus soils in an active family based on eight pedons (see below) in Virginia.  The average CEC/clay ratio for these pedons is .53, about mid-range for the active class.  Competing series and other minor items were also revised.\nDiagnostic horizons and features recognized in this pedon are:\n1)  ochric epipedon - the zone from 0 to 4 inches (Oi and A horizons).\n2)  cambic horizon - the zone from 4 to 16 inches (Bw horizon).\n3)  lithic contact - phyllite bedrock at 19 inches (R horizon).\nSIR = VA0273, VA0337 (VERY CHANNERY), VA0345 (VERY STONY)\nMLRA = 130\nREVISED: 1/3/90-DDR,DAG,WJE; 3/99-DHK\nADDITIONAL DATA:  Ranges for morphology, chemistry, particle-size distribution, and sand and silt minerals are based on 8 pedons. Dominant minerals in the sand fraction are quartz, 76 to 98 percent, and feldspar, 1 to 12 percent.  Dominant minerals in the silt fraction are quartz, 52 to 83 percent, and feldspar, 1 to 21 percent.  These data are contained in: 1.  Edmonds, W. J., D. D. Rector, N. O. Wilson, and T. L.  Arnold. 1986.  Properties, classification, and upland oak site quality for residual soils derived from shales, phyllites, siltstones and sandstones in southwestern Virginia.  Va. Agric. Exp. Stn. 86-5. 2.  Edmonds, W. J. and M. Lentner.  1987.  Soil series differentiae selected by discriminent analysis based on ranks.  Soil Sci. Soc. Am. J. 51: in press.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inches; partially decomposed and undecomposed leaves and twigs."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--1 to 4 inches; brown (10YR 4/3) channery silt loam; weak fine granular structure; friable, slightly sticky, slightly plastic; many very fine to coarse roots; 30 percent channers; very strongly acid; clear smooth boundary.  (1 to 3 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 10,
+        "bottom": 20,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--4 to 8 inches; strong brown (7.5YR 5/6) channery silt loam; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; common faint silt coatings on faces of peds and channers; common fine, medium, and coarse roots; 25 percent channers; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 20,
+        "bottom": 41,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "cf_class": "extremely channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw2--8 to 16 inches; strong brown (7.5YR 5/6) extremely channery silt loam; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; common faint silt coatings on faces of peds and channers; common fine, medium, and coarse roots; 70 percent channers; very strongly acid; clear smooth boundary.  (Combined thickness of the Bw horizon is 7 to 16 inches.)"
+      },
+      {
+        "name": "C",
+        "top": 41,
+        "bottom": 48,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "cf_class": "extremely channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--16 to 19 inches; mottled reddish yellow (7.5YR 6/6) and very dark gray (10YR 3/1) extremely channery silt loam; massive; friable, slightly sticky, slightly plastic; few fine roots; 90 percent channers; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "R",
+        "top": 48,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "narrative": "R--19 inches; reddish yellow (7.5YR 6/6) and very dark gray (10YR 3/1) phyllite."
+      }
+    ]
+  ]
 }

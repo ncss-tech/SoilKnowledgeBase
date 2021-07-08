@@ -56,5 +56,98 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle size control section--10 to 40 inches.\nDiagnostic horizons recognized in this pedon are:\nMollic epipedon--0 to 18 inches (A, Bt1);\nCambic horizon--the zone from 18 to 28 inches (Bt2);\nParalithic contact--42 inches (Cr);\nLithic contact--55 inches (3R horizon).\nThe Bt horizons have less than 3 percent clay increase from the overlying horizons.\nAquic subgroup--Based on iron depletions within 30 inches of the surface.\nOnly series status, responsibility, and scrivener's errors changed - 4/09.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 4 inches; very dark brown (10YR 2/2) very gravelly loam, dark grayish brown (10YR 4/2) dry; strong fine subangular blocky structure; friable; many very fine and fine roots and common medium roots; 30 percent gravel, 10 percent cobbles and 5 percent stones; moderately acid; clear wavy boundary. (3 to 9 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 10,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "cf_class": "extremely gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--4 to 18 inches; dark brown (10YR 3/3) extremely gravelly loam, brown (10YR 5/3); moderate fine and medium subangular blocky structure; friable; many very fine and fine roots and few medium roots; very few faint dark brown (7.5YR 3/2) clay bridges between sand grains; 50 percent gravel, 20 percent cobbles and 5 percent stones; moderately acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 46,
+        "bottom": 71,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--18 to 28 inches; reddish brown (5YR 4/3) extremely gravelly coarse sandy loam; moderate fine and medium subangular blocky structure; friable; common very fine and fine roots and few medium roots; 50 percent gravel, 25 percent cobbles, and 5 percent stones; common coarse prominent yellowish red (5YR 5/8) masses of iron accumulation and common medium distinct brown (7.5YR 4/2)iron depletions; very few faint dark brown (7.5YR 3/2) clay bridges between sand grains; moderately acid; clear wavy boundary. (Combined thickness of the Bt horizon ranges from 15 to 30 inches.)"
+      },
+      {
+        "name": "2BC",
+        "top": 71,
+        "bottom": 107,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "coarse sand",
+        "cf_class": "extremely gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2BC--28 to 42 inches; brown (7.5YR 4/2) extremely gravelly coarse sand; single grain; loose; few very fine and fine roots; 50 percent gravel, 30 percent cobbles and 5 percent stones; moderately acid; clear wavy boundary. (5 to 23 inches thick)"
+      },
+      {
+        "name": "3Cr",
+        "top": 107,
+        "bottom": 140,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "3Cr--42 to 55 inches; light brownish gray (2.5Y 6/2) sandstone residuum; weakly cemented; slightly acid; abrupt smooth boundary. (10 to 15 inches thick)"
+      },
+      {
+        "name": "3R",
+        "top": 140,
+        "bottom": 203,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "narrative": "3R--55 to 80 inches; light yellowish brown (2.5Y 6/3) hard sandstone bedrock."
+      }
+    ]
+  ]
 }

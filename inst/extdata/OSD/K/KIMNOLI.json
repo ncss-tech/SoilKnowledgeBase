@@ -56,5 +56,70 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 2 inches (A horizon)\nArgillic horizon - the zone from 7 to 14 inches (Btk horizon)\nLithic contact  the boundary with hard sandstone at 14 inches (2R layer)\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Tenth Edition, 2006\nUpdated and revised for the correlation of Ft. Defiance Area AZ715 2/08  DWD\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; dark yellowish brown (10YR 4/4) fine sandy loam, dark brown (10YR 3/3) moist; weak very fine granular structure; soft, very friable, nonsticky and nonplastic; common fine and very fine roots; many fine irregular pores; neutral; abrupt smooth boundary. (2 to 4 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 5,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--2 to 7 inches; yellowish brown (10YR 5/4) sandy loam, dark yellowish brown (10YR 4/4) moist; moderate fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; common fine and very fine roots; common fine irregular pores; few clay bridges on sand grains; neutral; clear smooth boundary. (2 to 7 inches thick)"
+      },
+      {
+        "name": "Btk",
+        "top": 18,
+        "bottom": 36,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Btk--7 to 14 inches; strong brown (7.5YR 4/6) sandy clay loam, brown (7.5YR 4/4) moist; moderate medium subangular blocky structure; slightly hard, firm, slightly sticky and slightly plastic; common fine and very fine roots; many fine irregular pores; common thin clay films on faces of peds lining and bridging sand grains; 5 percent pebbles and 5 percent cobbles; strongly effervescent; calcium carbonate occurs as few fine irregular soft masses; slightly alkaline; abrupt wavy boundary. (6 to 12 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 36,
+        "texture_class": "sand",
+        "narrative": "2R--14 inches; sandstone"
+      }
+    ]
+  ]
 }

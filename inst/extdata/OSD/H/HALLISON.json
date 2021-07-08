@@ -56,5 +56,117 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and soil characteristics recognized in the typical pedon are:\nOchric epipedon - the zone from the soil surface to a depth of 11 inches (Ap and E horizons)\nArgillic horizon - the zone from a depth of 11 to 41 inches (Bt1, Bt2, Bt3, and Bt4 horizons)\nParalithic contact - the contact with weathered bedrock at a depth of 48 inches (upper boundary of the Cr horizon)\nMLRA:136      SIR: NC0200\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0200 HALLISON    2- 25   58- 62  180-220  45- 55   300- 450\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0200 NONE          2.5-4.0  PERCHED  JAN-APR  40-60   SOFT\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0200  0-11  SIL VFSL L              0-  2  90-100 12-27   3-  9\nNC0200  0-11  FSL                     0-  2  90-100  6-20   2-  8\nNC0200 11-41  SICL CL                 0-  2  90-100 27-35   5-  8\nNC0200 41-48  SICL CL SIL             0-  2  90-100 18-35   3-  7\nNC0200 48-60  WB                       -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0200  0-11  3.5- 6.0  1.-4.  0- 0   0.6- 2.0  LOW\nNC0200  0-11  3.5- 6.0  1.-4.  0- 0   2.0- 6.0  LOW\nNC0200 11-41  3.5- 5.5  0.-.5  0- 0   0.2- 2.0  LOW\nNC0200 41-48  3.5- 5.5  0.-.5  0- 0   0.2- 2.0  LOW\nNC0200 48-60     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; brown (10YR 5/3) silt loam; weak medium granular structure; friable; common medium and fine roots; few fine iron and manganese concretions; strongly acid; clear smooth boundary. (2 to 8 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 18,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E--7 to 11 inches; pale brown (10YR 6/3) loam; weak fine granular structure; friable; common fine roots; few fine iron and manganese concretions; very strongly acid; gradual wavy boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 28,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--11 to 16 inches; yellowish brown (10YR 5/6) silty clay loam; moderate medium and fine subangular blocky structure; firm; few fine roots; few fine iron and manganese concretions; few faint clay films on faces of peds; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 41,
+        "bottom": 58,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--16 to 23 inches; strong brown (7.5YR 5/6) silty clay loam; moderate medium subangular blocky structure; firm; few fine roots; few iron and manganese concretions; few faint brown (7.5YR 5/4) clay films on faces of peds; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 58,
+        "bottom": 91,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt3--23 to 36 inches; strong brown (7.5YR 5/8) silty clay loam; few fine prominent reddish brown (5YR 4/4) mottles; moderate medium subangular blocky structure; firm; few fine roots; few fine iron and manganese concretions; few distinct reddish brown (5YR 5/4) clay films on faces of peds; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt4",
+        "top": 91,
+        "bottom": 104,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt4--36 to 41 inches; strong brown (7.5YR 5/6) silty clay loam; few medium prominent very pale brown (10YR 7/4) iron depletions; weak coarse subangular blocky structure; firm; few fine roots; few fine iron and manganese concretions; few distinct yellowish red (5YR 5/6) clay films on faces of peds; very strongly acid; gradual wavy boundary.  (Combined thickness of Bt horizon is 15 to 40 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 104,
+        "bottom": 122,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--41 to 48 inches; dark reddish brown (2.5YR 3/4) silty clay loam; few fine prominent light gray (10YR 7/2), common fine prominent brown (7.5YR 5/2), and few medium prominent yellow (10YR 7/6) iron depletions; weak coarse subangular blocky structure; firm; few fine iron and manganese concretions; very strongly acid; gradual wavy boundary. (0 to 12 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 122,
+        "bottom": 152,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silt",
+        "narrative": "Cr--48 to 60 inches; dark reddish brown (2.5YR 3/4) siltstone bedrock that is partially consolidated and can be dug with difficulty with a spade."
+      }
+    ]
+  ]
 }

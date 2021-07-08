@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Additional investigation of the Blaney soils are needed to better define the amount of fragic soil properties and the degree of clay activity. Blaney soils were initially established as Arenic Fragiudults and were reclassified (1979) to Arenic Hapludults.  With 10 to 20 percent brittleness and friable moist consistence (Bt horizon of the type location) the 2005 series revision limited the range of the series to 10 to 30 percent brittleness to eliminate any potential conflict with Fragic Hapludults (30 to 60 percent fragic soil properties). The series range in characteristics of the B was modified to allow the x suffix designation to be used with the series where pedogenic brittleness, firmness, and root-restrictive character is observed in less than 30 percent of the mass. Diagnostic horizons and soil characteristics recognized in this pedon:\nOchric epipedon--the zone from 0 to 25 inches (A, E1, E2 horizons)\nAlbic horizon (materials)--the zone from 3 to 25 inches (E1, E2 horizons)\nArgillic horizon--the zone from 25 to 65 inches (Bt, BCt horizons)\nFragic soil properties--the zone from 25 to 65 inches (Bt1, Bt2, Btx horizons)\nSeries control section--the zone from 0 to more than 65 inches\nADDITIONAL DATA:\nLaboratory Data: No laboratory data available.\nTABULAR SERIES DATA:\nSOI-5   Soil Name   Slope  Airtemp  FrFr/Seas  Precip  Elevation\nSC0063  BLANEY      0-25   57-70    190-245    40-50   250-450\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nSC0063 NONE          >6.0       -      -       >80     -\nSOI-5   Depth  Texture        3-Inch  No-10    Clay%  -CEC-\nSC0063   0-25  S LS           0-0     95-100   2-10   0.5-1.5\nSC0063   0-25  COS LCOS       0-0     92-100   2-10   0.5-1.5\nSC0063  25-50  SCL SL         0-0     90-100  18-35   0.5-2.0\nSC0063  50-65  SL SCL LS      0-0     90-100  10-25   0.5-2.0\nSOI-5    Depth  -pH-     O.M.     Salin   Permeab  Shnk-Swll\nSC0063   0-25  3.5-5.5  0.5-1.0   0-0    6.0-20    LOW\nSC0063   0-25  3.5-5.5  0.5-1.0   0-0     20-20    LOW\nSC0063  25-50  3.5-5.5  0.0-0.01  0-0    0.2-0.6   LOW\nSC0063  50-65  3.5-5.5  0.0-0.01  0-0    0.2-0.6   LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; very dark gray (10YR 3/1) sand, dark grayish brown (10YR 4/2) dry; weak fine granular structure; very friable; many fine and medium roots; very strongly acid; abrupt smooth boundary. (0 to 5 inches thick)"
+      },
+      {
+        "name": "E1",
+        "top": 8,
+        "bottom": 23,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E1--3 to 9 inches; dark grayish brown (2.5Y 4/2) sand; single grain; loose; many fine roots; mostly uncoated sand grains; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "E2",
+        "top": 23,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E2--9 to 25 inches; pale brown (10YR 6/3) sand; single grain; loose; many fine roots; mostly uncoated sand grains; very strongly acid; clear smooth boundary. (Combined thickness of the E horizon is 15 to 39 inches.)"
+      },
+      {
+        "name": "Bt1",
+        "top": 64,
+        "bottom": 97,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--25 to 38 inches; light brown (7.5YR 6/4) sandy clay loam; weak medium subangular blocky structure; friable; brittle in 20 percent of the mass, dense and compact; many medium and fine pores; few faint clay films on faces of peds; few medium faint very pale brown (10YR 7/4) iron depletions; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 97,
+        "bottom": 127,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--38 to 50 inches; light brown (7.5YR 6/4) sandy clay loam; weak medium subangular blocky structure; hard and compact; friable; brittle in 20 percent of the mass; common faint clay films on faces of peds; common coarse distinct reddish yellow (7.5YR 7/6) masses of oxidized iron; strongly acid; gradual wavy boundary. (Combined thickness of the Bt horizon is 10 to 40 inches.)"
+      },
+      {
+        "name": "BCt",
+        "top": 127,
+        "bottom": 165,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "narrative": "BCt--50 to 65 inches; reddish brown (7.5YR 6/6) sandy loam; weak medium subangular blocky structure; friable; brittle in 15 percent of the mass, dense and compact; many clay bridging between sand grains; strongly acid."
+      }
+    ]
+  ]
 }

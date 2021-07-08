@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soils of the Lippitt Series have been mapped as inclusions with Hollis soils.  More recently, the soils were recognized as a shattered bedrock variant of Hollis Series. Cation exchange activity class was determined from a review of  associated soils. Geographic coordinates determined from previous narrative description and published soil survey.\nDiagnostic horizons and features in this pedon include:\n1. Ochric epipedon - the zone from 0 to 5 inches (Ap horizon);\n2. Cambic horizon - the zone from 5 to 16 inches (Bw horizon);\n3. Paralithic materials - the zone from 26 to 72 inches (Cr horizon);\n4. Lithic contact - occurs at 72 inches (R horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 5 inches, dark brown (10YR 3/3) gravelly sandy loam; weak medium granular structure; friable; common fine and medium roots; 30 percent coarse fragments; medium acid; clear wavy boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 13,
+        "bottom": 41,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--5 to 16 inches, brown (7.5YR 5/4) gravelly sandy loam; weak medium subangular blocky structure; friable; common fine and medium roots; 30 percent coarse fragments; medium acid; clear wavy boundary. (7 to 18 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 41,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--16 to 26 inches, dark yellowish brown (10YR 4/4) very gravelly sandy loam; massive; friable; few fine roots; 80 percent coarse fragments; medium acid; clear wavy boundary.  (8 to 16 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 66,
+        "bottom": 183,
+        "narrative": "Cr--26 to 72 inches, highly weathered gneiss bedrock."
+      },
+      {
+        "name": "R",
+        "top": 183,
+        "narrative": "R--72 inches, hard unweathered gneiss bedrock."
+      }
+    ]
+  ]
 }

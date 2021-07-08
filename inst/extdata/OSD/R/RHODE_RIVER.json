@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This subaqueous series is named for the Rhode River sub-estuary of Chesapeake Bay and were areas formerly included with water.\nDiagnostic horizons and other diagnostic soil characteristics recognized in this pedon are:\nOchric epipedon-the zone from 0 to 24 centimeters (Ase1 and Ase2 horizons)\nPeraquic feature-the zone from 0 to 180 centimeters is permanently saturated\nLithologic Discontinuity-pre-Holocene contact (Tertiary aged marine deposits of the Aquia and Nanjemoy formations), the zone from 24 to 180 centimeters (2Bseg, 2Bjg, 2Btj, and 2Cseg horizons)\nArgillic Horizon-the zone from 76 to 123 centimeters (2Btj horizon) featured developed before permanent submergence\nADDITIONAL DATA:\nNASIS Data Map Unit ID:  800960\nNASIS OSD Site and Pedon ID:  2015MD003026\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "subaqueous"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ase1",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10Y",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "Ase1 -- 0 to 10 cm; greenish black (10Y 2.5/1) fine sandy loam; single grain; slightly fluid; 1 percent shell fragments; slightly alkaline, not sulfidic materials; no reaction with 3% hydrogen peroxide, violently effervescent with 30% hydrogen peroxide, clear boundary."
+      },
+      {
+        "name": "Ase2",
+        "top": 10,
+        "bottom": 24,
+        "moist_hue": "10Y",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "Ase2 -- 10 to 24 cm; greenish black (10Y 2.5/1) fine sandy loam; single grain; nonfluid; 1 percent shell fragments; slightly alkaline, not sulfidic materials; no reaction with 3% hydrogen peroxide, violently effervescent with 30% hydrogen peroxide, clear boundary. (12 to 24 centimeters thick)"
+      },
+      {
+        "name": "2Bseg",
+        "top": 24,
+        "bottom": 51,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "2Bseg -- 24 to 51 cm; dark gray (2.5Y 4/1) sandy loam; massive; nonfluid; 3% light olive brown (2.5Y 5/4) iron concentrations, 18% brownish yellow (10YR 6/8) iron concentrations; slightly alkaline, not sulfidic materials; no reaction with 3% hydrogen peroxide, strongly effervescent with 30% hydrogen peroxide, clear boundary."
+      },
+      {
+        "name": "2Bjg",
+        "top": 51,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "2Bjg -- 51 to 76 cm; dark grayish brown (10YR 4/2) fine sandy loam; massive; nonfluid; 4% pale yellow (5Y 7/4) jarosite concentrations, 6% dark brown (7.5YR 3/3) iron concentrations; slightly alkaline, not sulfidic materials; no reaction with 3% hydrogen peroxide, very slightly effervescent with 30% hydrogen peroxide, abrupt boundary."
+      },
+      {
+        "name": "2Btj",
+        "top": 76,
+        "bottom": 123,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "narrative": "2Btj -- 76 to 123 cm; reddish brown (2.5YR 4/3) fine sandy loam; massive; nonfluid; 15% pale yellow (5Y 7/4) jarosite concentrations, 4% strong brown (7.5YR 5/8) iron concentrations; strongly acid, not sulfidic materials; no reaction with 3% hydrogen peroxide, very slightly effervescent with 30% hydrogen peroxide, abrupt boundary."
+      },
+      {
+        "name": "2Cseg",
+        "top": 123,
+        "bottom": 180,
+        "moist_hue": "2.5Y",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "narrative": "2Cseg -- 123 to 180 cm; black (2.5Y 2.5/1) loam; massive; nonfluid; strongly acid; no reaction with 3% hydrogen peroxide, violently effervescent with 30% hydrogen peroxide."
+      }
+    ]
+  ]
 }

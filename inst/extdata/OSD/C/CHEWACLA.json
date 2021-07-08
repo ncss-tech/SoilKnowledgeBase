@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: 4/18/03, DTA. In 2003 version, moved the type location from Burke County, North Carolina to Halifax County, North Carolina. The former type location is located in the mesic part of MLRA 136. The 05/2006 revision removed MLRA 153B. RIC of Ap revised to allow silty clay loam texture.\nDiagnostic horizons and soil characteristics recognized in this pedon are:\nOchric epipedon--the zone from 0 to 4 inches (Ap horizon)\nCambic horizon--the zone from 4 to 60 inches (Bw horizons)\nAquic conditions--the soil has redox depletions and concentrations within the upper 24 inches of the soil, with periodic saturation and reduction at some time during the year\nSeries control section--the zone from 0 to 60 inches\nADDITIONAL DATA: None\nTABULAR SERIES DATA:\nSOI-5   Soil Name   Slope   Airtemp   FrFr/Seas   Precip   Elevation\nNC0055  CHEWACLA    0-2     57-70     185-250     37-69    10-700\nSOI-5   FloodL FloodH  Watertable  Kind     Months   Bedrock Hardness\nNC0055  RARE   FREQ    0.5-2.0    APPARENT  NOV-APR  >80\nSOI-5   Depth Texture       3-Inch    No-10    Clay%    -CEC-\nNC0055  0-4   FSL SL        0-0      95-100     5-20    4-20\nNC0055  0-4   SIL L CL      0-0      95-100    10-35    5-30\nNC0055  4-26  SIL SICL CL   0-0      95-100    18-35   10-25\nNC0055 26-38  SCL L SL      0-0      95-100    18-35   10-25\nNC0055 38-60  SIL CL SICL   0-0      75-100    18-35   10-25\nNC0055 60-72  VAR            -         -         -       -\nSOI-5   Depth   -pH-       O.M.    Salin   Permeab   Shnk-Swll\nNC0055  0-4   4.5-6.5    1.0-4.0   0-0     0.6-2.0   LOW\nNC0055  0-4   4.5-6.5    1.0-4.0   0-0     0.6-2.0   LOW\nNC0055  4-26  4.5-6.5    0.5-2.0   0-0     0.6-2.0   LOW\nNC0055 26-38  4.5-6.5    0.5-2.0   0-0     0.6-2.0   LOW\nNC0055 38-60  4.5-7.8    0.5-2.0   0-0     0.6-2.0   LOW\nNC0055 60-72     -          -       -         -       -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 4 inches; brown (7.5YR 4/4) loam; weak medium granular structure; friable; common very fine, fine, and medium roots; few fine flakes of mica; very strongly acid; clear smooth boundary. (1 to 10 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 10,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1--4 to 14 inches; dark yellowish brown (10YR 4/4) silty clay loam; weak medium subangular blocky structure; friable; common fine and medium roots; common fine flakes of mica; few medium faint brown (10YR 5/3) iron depletions; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 36,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw2--14 to 26 inches; dark yellowish brown (10YR 4/4) clay loam; weak medium subangular blocky structure; friable; common fine and medium roots; many fine flakes of mica; common medium faint grayish brown (10YR 5/2) iron depletions and common medium distinct strong brown (7.5YR 4/6) masses of oxidized iron; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bw3",
+        "top": 66,
+        "bottom": 97,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw3--26 to 38 inches; brown (7.5YR 4/4) loam; weak medium subangular blocky structure; friable; common fine roots; many fine flakes of mica; common medium distinct gray (10YR 5/1) iron depletions; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bw4",
+        "top": 97,
+        "bottom": 119,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw4--38 to 47 inches; strong brown (7.5YR 5/8) clay loam; weak medium subangular blocky structure; friable; few fine roots; many fine flakes of mica; common medium distinct gray (10YR 5/1) iron depletions; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bw5",
+        "top": 119,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw5--47 to 60 inches; gray (10YR 5/1), strong brown (7.5YR 5/8), and red (2.5YR 5/8) clay loam; weak medium subangular blocky structure; friable; few fine roots; many fine flakes of mica; areas with gray color are iron depletions and areas with red color are masses of oxidized iron; very strongly acid; gradual wavy boundary. (Combined thickness of the Bw horizons is 6 to 60 inches)"
+      },
+      {
+        "name": "C",
+        "top": 152,
+        "bottom": 203,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "narrative": "C--60 to 80 inches; brown (7.5YR 4/4) and gray (7.5YR 5/1) loam; massive; friable; many fine flakes of mica; areas with gray color are iron depletions very strongly acid."
+      }
+    ]
+  ]
 }

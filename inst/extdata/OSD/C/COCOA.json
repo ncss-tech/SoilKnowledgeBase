@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nOchric epipedon - the zone from 0 to 20 inches (A and E horizons)\nCambic horizon - the zone from 20 to 32 inches (Bw1 and Bw2 horizons)\nArgillic horizon - the zone from 32 to 38 inches (Bt horizon)\nModerately deep feature - coquina limestone at 38 inches (R horizon)\nThe frost-free season is about 330 days.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; dark brown (7.5YR 3/2) sand; weak fine granular structure; very friable; many fine roots, few medium roots; neutral; abrupt smooth boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 15,
+        "bottom": 51,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E--6 to 20 inches; strong brown (7.5YR 5/6) sand; single grained; loose; few fine and medium roots; few medium distinct dark grayish brown (10YR 4/2) streaks along old root channels; sand grains are coated with oxides; slightly acid; gradual wavy boundary.  (7 to 16 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 51,
+        "bottom": 69,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sand",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1--20 to 27 inches; yellowish red (5YR 5/8) sand; single grained; loose; few fine and medium roots; common coated sand grains; moderately acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 69,
+        "bottom": 81,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw2--27 to 32 inches; red (2.5YR 4/6) sand; weak fine granular structure; very friable; many coated sand grains; moderately acid; gradual wavy boundary.  (Thickness of the Bw horizons ranges from 4 to 14 inches)"
+      },
+      {
+        "name": "Bt",
+        "top": 81,
+        "bottom": 97,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--32 to 38 inches; red (2.5YR 4/6) loamy sand; weak medium granular structure; friable; sand grains are coated and bridged with clay; slightly acid; abrupt wavy boundary.  (6 to 16 inches thick)"
+      }
+    ]
+  ]
 }

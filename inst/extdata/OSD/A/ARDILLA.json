@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon:\nOchric epipedon - the zone from the surface to a depth of 15 inches (Ap, E, and BE horizons).\nArgillic horizon - the zone from 15 inches to 65 inches, or more (Bt, Btx1 and Btx2 horizons).\nFragipan character - the zone from approximately 30 inches to 65 inches, or more (Btx1 and Btx2 horizons).\nThe range of characteristics of the Btx horizons overlaps Fragiaquic (0 to 15 percent plinthite) and Plinthaquic (40 to 60 percent brittle) subgroups. Further studies are needed to clarify and determine true classification.\nArdilla soils are in MLRA 133A.\nADDITIONAL DATA: Layer Depth (IN) and Texture:\n1) 0-9\":SL,FSL; 2)0-9\":LS,LFS,CS;\n3)9-30\":SCL,SL; 4)30-60\":SCL,SC\nClay %: 1)4-17; 2)3-14; 3)18-35; 4)20-40\nLiquid Limit: 1)0-20; 2)0-20; 3)20-40; 4)25-45\nPlasticity Index: 1)NP-7; 2) NP-7; 3)4-15; 4)7-20\nMoist Bulk Density (G/CM3): 1)1.30-1.70; 2)1.30-1.70; 3)1.40-1.60;\n4)1.50-1.70\nPermeability (IN/HR): 1)2.0-6.0; 2)6.0-20; 3)0.6-2.0; 4)0.2-0.6\nPermeability (MIN/IN): 1)10-30; 2)3-10; 3)30-100; 4)100-300\nAvailable Water Capacity: 1)0.10-0.15; 2)0.06-0.11; 3)0.10-0.14;\n4)0.10-0.15\nPH (H2O): 1) 4.5-6.0; 2) 4.5-6.0; 3) 4.5-6.0; 4) 4.5-5.5\nSalinity (MMHOS/CM): 1)0; 2)0; 3)0; 4)0\nCEC (ME/1000G): No Data Available\nCaCO3: 1)0; 2)0; 3)0; 4)0\nOrganic Matter (%): 1) 0.5-2; 2)0.5-1; 3)0-0.5; 4)0\nShrink Swell Potential: 1)low; 2)Low; 3)Low; 4)Low\nCorrosivity of Steel: 1)High; 2)High; 3)High; 4)High\nCorrosivity of Concrete: 1)High; 2)High; 3)High; 4)High\nUnified Classification: 1)SM,SC-SM; 2)SM,SP-SM,SC-SM; 3)SM,SC-SM,SC;\n4)SM,SC\nAASHTO Classification: 1)A-2-4; 2)A-2-4,A-1; 3)A-2-4,A-2-6;\n4)A-4,A-6,A-5,A-7\nThe following laboratory characterization data are available on the NSSL web site: 65NC10100.\nLaboratory data is available on the National Soil Survey website at: http://ncsslabdatamart.sc.egov.usda.gov/querypage.aspx\nLaboratory data was provided by the National Soil Survey Laboratory, Lincoln, NE (sampled by Beltsville, MD).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 4 inches very dark gray (10YR 3/1) fine sandy loam; weak fine granular structure; very friable; common fine roots; strongly acid; clear smooth boundary.  (3 to 10 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--4 to 9 inches; dark grayish brown (10YR 4/2) fine sandy loam; weak fine granular structure; very friable; few fine roots and pores; common strongly acid; clear smooth boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 23,
+        "bottom": 38,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BE--9 to 15 inches; light yellowish brown (2.5Y 6/4) sandy loam; weak medium subangular blocky structure; very friable; few fine roots; many fine and medium pores; sand grains are coated and bridged with clay; strongly acid; gradual smooth boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 38,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt--15 to 30 inches; yellowish brown (10YR 5/6) sandy clay loam; weak medium subangular blocky structure; friable; few fine roots; few faint clay films on surfaces of peds; many medium distinct gray (10YR 6/1) areas of iron depletions; common medium faint strong brown (7.5YR 5/6) masses of iron accumulations; strongly acid; gradual smooth boundary.  (5 to 25 inches thick)"
+      },
+      {
+        "name": "Btx1",
+        "top": 76,
+        "bottom": 97,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btx1--30 to 38 inches; 35 percent yellowish brown (10YR 5/6), 35 percent gray (10YR 6/1) and 30 percent strong brown (7.5YR 5/6) sandy clay loam; weak medium subangular blocky structure; few fine roots and pores; few faint clay films on vertical and horizontal surfaces of peds; few ironstone pebbles; about 45 percent of the area dominated by yellowish brown and strong brown colors are firm, brittle and compact; the areas of light gray are iron depletions and are friable; the areas of yellowish brown and strong brown are iron accumulations; strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Btx2",
+        "top": 97,
+        "bottom": 165,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "narrative": "Btx2--38 to 65 inches; 25 percent red (2.5YR 4/6), 25 percent strong brown (7.5YR 5/6), 25 percent light yellowish brown (2.5Y 6/4), and 25 percent gray (10YR 6/1) gravelly sandy clay loam; weak medium subangular blocky structure; few fine pores; few faint clay films on vertical and horizontal surfaces of peds; about 4 percent by volume, plinthite; about 10 percent, by volume, ironstone pebbles; the areas dominated by red and strong brown, about 50 percent of the area, are firm and brittle; the areas of red, strong brown and light yellowish brown are iron accumulations and the areas of light gray are iron depletions; strongly acid."
+      }
+    ]
+  ]
 }

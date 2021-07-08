@@ -56,5 +56,67 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The 1/89 revision changed the classification from Paleudult to Kandiudult in recognition of the low activity clay amendment.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - Ap and BA horizons (0-9 inches).\nKandic horizon - Bt1 and Bt2 horizons (9-80 inches).\nRhodic feature - Moist color value less than 4 in the Kandic horizon to a depth of 1 meter or more.\nSIR = AL0030\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 5 inches; dark reddish brown (5YR 3/4) sandy loam, moist and dry; weak fine granular structure; friable; common fine and medium roots; medium acid; abrupt smooth boundary.  (4 to 12 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 13,
+        "bottom": 23,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BA--5 to 9 inches; dusky red (2.5YR 3/3) sandy loam, moist and dry; weak medium subangular blocky structure; friable; common fine roots; few quartz pebbles; medium acid; clear wavy boundary. (0 to 9 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 23,
+        "bottom": 102,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--9 to 40 inches; dark red (2.5YR 3/6) sandy clay, red (2.5YR 4/6) dry; moderate medium subangular blocky structure; friable; few distinct clay films on faces of peds; few fine roots; common small pores; common clean sand grains; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 102,
+        "bottom": 203,
+        "moist_hue": "10R",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay",
+        "pH_class": "very strongly acid",
+        "narrative": "Bt2--40 to 80 inches; dark red (10R 3/6) sandy clay, moist and dry; moderate medium subangular blocky structure; friable; common distinct clay films on faces of peds; very strongly acid. (Combined thickness of the Bt horizon is more than 60 inches.)"
+      }
+    ]
+  ]
 }

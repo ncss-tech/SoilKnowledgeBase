@@ -56,5 +56,83 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon\nCambic horizon - 4 to 23 inches (Bw1 and Bw2 horizons)\nAndic subgroup properties - 1 to 9 inches (A and Bw1 horizons)\nLithic contact - at 23 inches\nParticle-size control section  - 11 to 23 inches (Bw2 horizon)\nXeric soil moisture regime\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oi--0 to 1 inch; slightly decomposed needles, leaves, and twigs; abrupt wavy boundary.  (0.5 to 2 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--1 to 4 inches; yellowish brown (10YR 5/4) extremely gravelly medial sandy loam, dark brown (10YR 3/3) moist; weak very fine and fine granular and weak very fine and fine subangular blocky structure; slightly hard, friable, nonsticky and nonplastic; weakly smeary; many very fine and fine and common medium and coarse roots; common very fine and fine irregular pores; 45 percent gravel, 20 percent cobbles; moderately acid (pH 5.8); abrupt wavy boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 10,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--4 to 9 inches; yellowish brown (10YR 5/4) extremely gravelly medial sandy loam, dark yellowish brown (10YR 3/4) moist; weak very fine and fine granular and weak very fine subangular blocky structure; slightly hard, friable, nonsticky and nonplastic; weakly smeary; common very fine, fine, medium, and coarse roots; common very fine and fine irregular pores; 65 percent gravel, 20 percent cobbles; moderately acid (pH 5.6); clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 23,
+        "bottom": 58,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely cobbly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw2--9 to 23 inches; yellowish brown (10YR 5/6) extremely cobbly sandy loam, dark yellowish brown (10YR 3/6) moist; weak very fine subangular blocky structure; slightly hard, friable, nonsticky and nonplastic; common very fine, fine, medium, and coarse roots; common very fine irregular pores; 35 percent gravel, 40 percent cobbles; moderately acid (pH 5.6); abrupt wavy boundary. (Combined thickness of the Bw horizon is 18 to 32 inches.)"
+      },
+      {
+        "name": "R",
+        "top": 58,
+        "narrative": "R--23 inches; hard metavolcanic rock."
+      }
+    ]
+  ]
 }

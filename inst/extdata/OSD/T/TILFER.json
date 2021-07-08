@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 25 to 89 centimeters;\nseries control section--the zone from the surface of the soil to a depth of 89 centimeters.\nDiagnostic horizons and features recognized in this pedon include:\nmollic epipedon--the zone from the surface to a depth of 48 centimeters (Ap and A horizons);\ncambic horizon--the zone from a depth of 48 to 69 centimeters (Bg horizon);\naquic moisture regime.\nCation-exchange class is inferred from lab data from similar soils in the surrounding area.\nTaxonomy version--Keys to Soil Taxonomy, tenth edition, 2006.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 2,
+        "dry_chroma": 1,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 20 centimeters; black (N 2/0) silty clay loam, black (10YR 2/1) dry; moderate medium and fine granular structure; friable; strongly effervescent; slightly alkaline; clear smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 20,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--20 to 48 centimeters; black (N 2/0) silty clay loam, very dark gray (10YR 3/1) dry; weak medium subangular blocky structure parting to weak medium granular; friable; few fine prominent olive (5Y 5/3) redoximorphic concentrations in the lower 8 centimeters; slightly effervescent; slightly alkaline; clear wavy boundary."
+      },
+      {
+        "name": "Bg",
+        "top": 48,
+        "bottom": 69,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bg--48 to 69 centimeters; light olive gray (5Y 6/2) loam; weak medium subangular blocky structure; friable; accumulations of black (10YR 2/1) loam in some root channels; few fine prominent yellowish brown (10YR 5/6) redoximorphic concentrations; slightly effervescent; slightly alkaline; gradual smooth boundary"
+      },
+      {
+        "name": "BCg",
+        "top": 69,
+        "bottom": 89,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "BCg--69 to 89 centimeters; olive gray (5Y 5/2) loam; weak coarse subangular blocky structure; friable; few fine prominent strong brown (7.5YR 5/6) redoximorphic concentrations; few small rounded limestone pebbles and a few small granitic pebbles; slightly effervescent; slightly alkaline; abrupt wavy boundary."
+      },
+      {
+        "name": "2R",
+        "top": 89,
+        "narrative": "2R--89 centimeters; hard, fractured limestone bedrock."
+      }
+    ]
+  ]
 }

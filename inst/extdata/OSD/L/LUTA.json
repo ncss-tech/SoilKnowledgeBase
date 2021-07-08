@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic properties recognized in this pedon are:\nAndic soil properties - 0 to 6 inches\nParalithic contact - At 6 inches\nLithic contact - below a paralithic contact at 12 inches.\nAbsence of cambic horizon - B horizon is too shallow to qualify as cambic horizon.\nOxidic mineralogy - Assumed, based on data from soils on Guam.\nADDITIONAL DATA: Laboratory data are available on this series. Sample number S91MP 100-001 was sampled and analyzed by the National Soil Survey Laboratory. Some analyses were run by the University of Guam, including extractable bases, pH, and organic carbon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 1,
+        "bottom": 0,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0.5 to 0 inch; undecomposed Acacia leaf litter; abrupt smooth boundary. (0 to 1 inch thick)"
+      },
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "cobbly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 1 inch; dark brown (7.5YR 3/2) cobbly clay loam, brown (7.5YR 4/2) dry; strong fine granular structure; soft, very friable, slightly sticky and slightly plastic; many very fine through medium roots; many very fine interstitial pores; about 15 percent limestone cobbles, exposed on the surface; slightly alkaline (pH 7.4); abrupt smooth boundary. (0 to 2 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 3,
+        "bottom": 8,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "cobbly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--1 to 3 inches; dark brown (7.5YR 3/4) cobbly clay loam, brown (7.5YR 4/4) dry; weak fine subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; many very fine through medium and few coarse roots; common very fine and few fine tubular and common very fine interstitial pores; about 15 percent coarse fragments, mostly cobbles; slightly alkaline (pH 7.6); clear smooth boundary. (2 to 5 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 8,
+        "bottom": 15,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--3 to 6 inches; brown (7.5YR 4/4) cobbly clay loam; massive; soft, very friable, slightly sticky and slightly plastic; many very fine, common fine and few medium roots; common very fine and few fine tubular and many very fine interstitial pores; about 10 percent cobbles and 5 percent gravel limestone; neutral (pH 7.0); clear wavy boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 15,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2Cr--6 to 12 inches; white (10YR 8/1) weathered limestone, stained very pale brown (10YR 7/4) along pores and fractures; composed of cemented sand and coral fragments; few fine and medium roots along fractures; few fine and medium tubular and common very fine through medium interstitial pores; gradual wavy boundary. (2 to 10 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 30,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 1,
+        "narrative": "2R--12 inches; white (10YR 8/1) unweathered limestone, hard and porous."
+      }
+    ]
+  ]
 }

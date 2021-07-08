@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The Arnot series is considered to be the lithic analogue of the Lordstown and Oquaga series. Areas of Arnot Series currently mapped in Montgomery, Schenectady, and Orange Counties in New York, and Northampton County in Pennsylvania should be investigated to determine proper taxonomic and series placement.\nDiagnostic horizons and other features associated with the typical pedon include:\n1. Ochric Epipedon - the zone from the surface to 15 cm (6 inches) (Ap horizon).\n2. Cambic horizon - the zone from 15 to 43 cm (6 to 17 inches) (Bw horizons).\n3. Lithic subgroup - as evidenced by bedrock at 43 cm (17 inches).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 15 cm (0 to 6 in); dark grayish brown (10YR 4/2), light brownish gray (10YR 6/2) dry, channery silt loam; weak fine granular structure; friable; many fine roots; 33 percent rock fragments; very strongly acid; abrupt smooth boundary. (5 to 25 cm [2 to 10 in] thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 15,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "very channery",
+        "pH_class": "strongly acid",
+        "narrative": "Bw1 -- 15 to 33 cm (6 to 13 in); yellowish brown (10YR 5/4) very channery silt loam; moderate medium subangular blocky structure; friable to firm; many fine roots; 40 percent rock fragments; strongly acid; smooth clear boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 33,
+        "bottom": 43,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "very channery",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw2 -- 33 to 43 cm (13 to 17 in); light olive brown (2.5Y 5/4) very channery silt loam; weak medium subangular blocky structure; friable; many fine roots; 45 percent rock fragments; strongly acid; abrupt smooth boundary. (Combined thickness of the Bw horizons is 5 to 41 cm [2 to 16 in] thick.)"
+      },
+      {
+        "name": "2R",
+        "top": 43,
+        "bottom": 68,
+        "texture_class": "sand",
+        "narrative": "2R -- 43 to 68 cm (17 to 27 in); gray, thin-bedded, fine-grained sandstone bedrock; shattered and fractured in the top 10 to 15 cm (4 to 6 in)."
+      }
+    ]
+  ]
 }

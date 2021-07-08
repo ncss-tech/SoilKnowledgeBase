@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from 0 to 20 cm (A1 and A2 horizon).\nArgillic horizon - The zone from 20 to 36 cm (Bt horizon).\nParalithic Contact - The zone from 36 to 56 cm (Cr layer).\nLithic contact The zone at 56 cm (R layer).\nParticle size control section - The zone from 20 to 36 cm (Bt horizon).\nADDITIONAL DATA: User Pedon ID: 2006NV031073.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 15 cm; brown (10YR 5/3) gravelly sandy loam, dark brown (10YR 3/3) moist; massive; soft, very friable, nonsticky and nonplastic; few very fine roots; many very fine interstitial pores; 30 percent gravel; slightly acid (pH 6.4); clear smooth boundary. (8 to 15 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 15,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--15 to 20 cm; brown (10YR 5/3) sandy loam, dark brown (10YR 3/3) moist; massive; soft, friable, nonsticky and nonplastic; many very fine roots; many very fine interstitial and tubular pores; neutral (pH 6.6); clear smooth boundary. (5 to 13 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 20,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--20 to 36 cm; yellowish brown (10YR 5/4) sandy clay loam, dark yellowish brown (10YR 3/4) moist; massive; slightly hard, friable, slightly sticky and slightly plastic; few fine roots; common very fine interstitial and tubular pores; many faint clay bridges between sand grains; neutral (pH 6.6); abrupt wavy boundary. (13 to 25 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 36,
+        "bottom": 58,
+        "narrative": "Cr--36 to 58 cm; granodiorite saprolite. (8 to 30 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 58,
+        "narrative": "R--58 cm; granodiorite."
+      }
+    ]
+  ]
 }

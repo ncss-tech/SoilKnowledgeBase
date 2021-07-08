@@ -56,5 +56,72 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nOchric epipedon - Zone from 0 to 4 inches (A horizon).\nCambic horizon - Zone from 4 to 35 inches (Bg and BCg horizons).\nNonacid feature - Moderately acid reaction from 10 to 35 inches (Bg and BCg horizons).\nModerately deep feature - Depth to bedrock at 35 inches (R horizon).\nHydric soil indicators:  F3.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; gray (10YR 5/1) very cobbly clay loam; moderate fine granular structure; friable; common fine and medium roots, about 35 percent, by volume, cobbles; moderately acid; clear smooth boundary. (1 to 6 inches thick)"
+      },
+      {
+        "name": "Bg1",
+        "top": 10,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "cf_class": "cobbly",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bg1--4 to 13 inches; dark gray (10YR 4/1) cobbly clay; weak coarse subangular blocky structure; firm; common fine and medium roots; about 15 percent, by volume, cobbles; common medium distinct olive brown (2.5Y 4/4) and brown (10 YR 5/3) masses of iron accumulation; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 33,
+        "bottom": 64,
+        "moist_hue": "5GY",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "cf_class": "cobbly",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bg2--13 to 25 inches; greenish gray (5GY 6/1) cobbly clay; weak coarse subangular blocky structure; firm; few fine and medium roots; common large wormcasts filled with very dark brown (10YR 2/2) organic material; about 15 percent, by volume, cobbles; common medium distinct brownish yellow (10YR 6/6) and dark brown (10YR 3/3) masses of iron accumulation; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "BCg",
+        "top": 64,
+        "bottom": 89,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "cf_class": "cobbly",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "BCg--25 to 35 inches; light gray (2.5Y 7/2) cobbly silty clay; massive; friable; few quartz crystals; about 15 percent, by volume, cobbles; common medium distinct yellowish brown (10YR 5/6) masses of iron accumulation; common medium dark gray (10YR 4/1) areas of iron depletions; moderately acid; abrupt smooth boundary. (Combined thickness of the B horizons is 20 to 35 inches)."
+      }
+    ]
+  ]
 }

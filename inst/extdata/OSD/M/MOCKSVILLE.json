@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons recognized in this pedon are:\nOchric Epipedon - the zone from the surface of the soil to a depth of 6 inches (A horizon).\nArgillic horizon - the zone from 6 inches to a depth of 20 inches (Bt horizon).\nSIR = NC0205         MLRA = 136\nADDITIONAL DATA:\nLaboratory Data: Reference data is available from the National Soil Survey Laboratory; sampled as Turnersburg; pedon numbers S03NC-097-012, S03NC-097-013, and S03NC-097-014.\nDatabase Information:\nTypical Pedon Data Mapunit ID--546047\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0205 MOCKSVILLE  2- 45   52- 77  160-225  40- 55   400- 1300\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0205 NONE          6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0205  0- 6  SL FSL L                0-  3  85-100  8-20   4- 15\nNC0205  6-20  L SCL CL                0-  3  85-100 18-35   5- 20\nNC0205 20-25  SL FSL L                0-  3  85-100 15-25   5- 15\nNC0205 25-60  LS SL L                 0-  5  80-100  3-20   1- 15\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0205  0- 6  5.1- 7.3  .5-2.  0- 0   2.0- 6.0  LOW\nNC0205  6-20  5.6- 7.3  0.-.5  0- 0   0.6- 2.0  LOW\nNC0205 20-25  5.6- 7.3  0.-.5  0- 0   0.6- 2.0  LOW\nNC0205 25-60  6.1- 7.8  0.-.5  0- 0   2.0- 6.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 6 inches, dark grayish brown (2.5Y 4/2) sandy loam; weak fine and medium granular structure; very friable; common fine and medium roots; few fine grains of dark minerals; strongly acid; clear wavy boundary.  (2 to 10 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 15,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--6 to 20 inches, dark yellowish brown (10YR 4/4) clay loam; common fine distinct yellow (10YR 7/8) and strong brown (7.5YR 5/8) mottles; weak medium subangular blocky structure; friable; common fine roots; common fine grains of dark minerals; moderately acid; gradual wavy boundary. (8 to 25 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 51,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--20 to 25 inches, mottled yellowish brown (10YR 5/8), yellow (10YR 7/8), and strong brown (7.5YR 5/8) sandy loam; weak medium subangular blocky structure; friable; few fine roots; common seams and pockets of clay loam; many fine grains of dark minerals; moderately acid; gradual wavy boundary.  (4 to 12 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 64,
+        "bottom": 107,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C1--25 to 42 inches, mottled yellowish brown (10YR 5/4), yellow (10YR 7/8), and strong brown (7.5YR 5/8) saprolite that has a loamy sand texture; massive; very friable; common fine grains of dark minerals; slightly acid; clear wavy boundary."
+      },
+      {
+        "name": "C2",
+        "top": 107,
+        "bottom": 152,
+        "texture_class": "loamy sand",
+        "pH_class": "neutral",
+        "narrative": "C2--42 to 60 inches, multicolored saprolite that has a loamy sand texture; massive; very friable; many fine grains of dark minerals; neutral."
+      }
+    ]
+  ]
 }

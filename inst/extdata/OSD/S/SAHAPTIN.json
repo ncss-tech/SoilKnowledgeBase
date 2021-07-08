@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon include:\nMollic epipedon - from the soil surface to 8 inches.  (A1 and A2 horizons)\nCambic horizon - from 8 to 17 inches.  (Bw horizon)\nLithic contact - 17 inches (R horizon)\nParticle-size control section - from 10 to 17 inches.\nMineralogy (mixed) is based on the associated Ritner Series.  This series is mapped in complex with the established Ritner series which is classified as clayey-skeletal, mixed, mesic Dystric Xerochrepts.\nBase saturation is assumed to be 75 percent or less in some part of the soil above the lithic contact, based on geographically associated soils.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "cf_class": "very cobbly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 3 inches; very dark brown (10YR 2/2) very cobbly silty clay loam, dark brown (10YR 4/3) dry; strong very fine and fine granular structure; hard, firm, sticky and plastic; many very fine and fine, and common medium roots; many very fine irregular pores; 25 percent gravel and 15 percent cobbles; moderately acid (pH 5.8); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "cf_class": "very cobbly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--3 to 8 inches; very dark brown (10YR 2/2) very cobbly silty clay loam, dark brown (10YR 4/3) dry; moderate very fine and fine granular and very fine subangular blocky structure; hard, firm, sticky and very plastic; many very fine and fine, and common medium roots; common very fine continuous tubular pores; 30 percent gravel and 20 percent cobbles; moderately acid (pH 5.6); clear smooth boundary.  (Combined thickness of the A horizon is 7 to 12 inches)"
+      },
+      {
+        "name": "Bw",
+        "top": 20,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silty clay",
+        "cf_class": "extremely cobbly",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--8 to 17 inches; dark brown (10YR 3/3) extremely cobbly silty clay, dark brown (10YR 4/3) dry; moderate very fine and fine subangular block structure; very hard, very firm, sticky and very plastic; many very fine and fine roots; common very fine continuous tubular pores; 45 percent gravel and 35 percent cobbles; moderately acid (pH 5.8); clear smooth boundary.  (3 to 12 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 43,
+        "narrative": "R--17 inches; fractured basalt."
+      }
+    ]
+  ]
 }

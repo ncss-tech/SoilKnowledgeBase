@@ -56,5 +56,96 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons recognized in this pedon are: mollic epipedon-the zone from the surface to 11 inches (Ap horizon); cambic horizon-the zone from 11 to 14 inches (Bw horizon); calcic horizon-the zone from 26 to 35 inches (2Bk horizon); udic moisture regime.\nThis soil previously was correlated as Estherville or Hawick when occurring as a component in till-outwash complexes or as consociation in morainic landforms in MLRA 103. Soil saturation is either perched or it has a wetting front that occurs between 3.5 to 6 feet from April to June in normal years.\nDrainage class is well drained based on the Soil Survey Manual. Some states would interpret the drainage class as moderately well drained. Drainage class is an interpretation.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 11 inches; black (10YR 2/1) sandy loam, very dark gray (10YR 3/1) dry; weak fine subangular blocky structure; very friable; common very fine roots; about 3 percent gravel; slightly acid; abrupt smooth boundary. (7 to 12 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 28,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--11 to 14 inches; dark yellowish brown (10YR 3/4) sandy loam; moderate to weak fine subangular blocky structure; few dark brown (10YR 3/3) streaks on faces of peds; friable; clay bridging between sand grains; common very fine roots; about 4 percent gravel; slightly acid; gradual wavy boundary. (3 to 14 inches thick)"
+      },
+      {
+        "name": "2Bw",
+        "top": 36,
+        "bottom": 66,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loamy coarse sand",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2Bw--14 to 26 inches; dark brown (7.5YR 3/4) loamy coarse sand; weak medium subangular blocky structure parting to single grain; very friable; about 6 percent gravel; clay bridging between sand grains; neutral; gradual wavy boundary. (0 to 15 inches thick)"
+      },
+      {
+        "name": "2Bk",
+        "top": 66,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "coarse sand",
+        "cf_class": "gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2Bk--26 to 35 inches; yellowish brown (10YR 5/4) gravelly coarse sand; single grain; loose; few fine distinct yellowish brown (10YR 5/8) iron concentrations; about 17 percent gravel; violently effervescent; common carbonate coats on areas of pebbles; moderately alkaline; gradual wavy boundary. (0 to 30 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 89,
+        "bottom": 122,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "coarse sand",
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2C--35 to 48 inches; yellowish brown (10YR 5/4); coarse sand; single grain; loose; few fine prominent strong brown (7.5YR 5/6) iron concentrations; about 12 percent gravel; strongly effervescent; slightly alkaline; gradual wavy boundary. (0 to 30 inches thick)"
+      },
+      {
+        "name": "3Cg",
+        "top": 122,
+        "bottom": 203,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "3Cg--48 to 80 inches; grayish brown (2.5Y 5/2) silty clay loam with thin strata of silt; massive; moderately sticky; common medium prominent strong brown (7.5YR 5/6) and strong brown (7.5YR 4/6) iron concentrations; about 2 percent gravel; strongly effervescent; slightly alkaline."
+      }
+    ]
+  ]
 }

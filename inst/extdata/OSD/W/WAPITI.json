@@ -56,5 +56,98 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nSeries control section: 0 to 200 centimeters\nParticle-size control section:  The zone from 15 to 65 centimeters (6 to 26 inches).  (Bt horizon and part of the Btk horizon)\nMollic epipedon:  The zone from 0 to 36 centimeters (0 to 14 inches).  (A and Bt horizon)\nArgillic horizon: The zone from 15 to 69 centimeters (6 to 27 inches). (Bt and Btk horizons)\nCalcic horizon:  The zone from 69 to 97 centimeters (27 to 38 inches).  (Bk1 horizon)\nThis soil was originally included in the Wages series.  A consistent calcic horizon was found above a depth of 100 centimeters (40 inches), resulting the development of a new series.\nThis update converts English to metric and updates the competing series section and the location to NAD 83.\nThe assignment of the cation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomic Version:  Eleventh Edition, 2010\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 15 centimeters (0 to 6 inches); grayish brown (10YR 5/2) loam, very dark grayish brown (10YR 3/2) moist; moderate very fine granular structure; slightly hard, friable, slightly sticky and slightly plastic; neutral; abrupt smooth boundary.  (15 to 20 centimeters thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 15,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--15 to 36 centimeters (6 to 14 inches); brown (10YR 4/3) clay loam, dark brown (10YR 3/3) moist; moderate medium prismatic structure parting to moderate fine angular blocky; very hard, firm, moderately sticky and moderately plastic; common distinct, clay films on faces of peds; neutral (pH 7.2); clear smooth boundary.  (18 to 51 centimeters thick)"
+      },
+      {
+        "name": "Btk",
+        "top": 36,
+        "bottom": 69,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btk--36 to 69 centimeters (14 to 27 inches); pale brown (10YR 6/3) clay loam, brown (10YR 5/3) moist; weak medium prismatic structure parting to moderate fine subangular blocky; very hard, firm, moderately sticky and moderately plastic; common distinct clay films on faces of peds; 1 percent fine spherical distinct carbonate masses in matrix; violently effervescent; 12 percent calcium carbonate equivalent; moderately alkaline (pH 8.0); gradual smooth boundary.  (20 to 36 centimeters thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 69,
+        "bottom": 97,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk1--69 to 97 centimeters (27 to 38 inches); very pale brown (10YR 7/3) loam, yellowish brown (10YR 5/4) moist; weak medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; 10 percent fine spherical distinct carbonate masses in matrix; violently effervescent; 18 percent calcium carbonate equivalent; moderately alkaline (pH 8.2); clear smooth boundary.  (20 to 46 centimeters thick)"
+      },
+      {
+        "name": "BCk2",
+        "top": 97,
+        "bottom": 200,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 8.3,
+        "pH_class": "moderately alkaline",
+        "narrative": "BCk2--97 to 200 centimeters (38 to 79 inches); pink (7.5YR 7/3) clay loam, brown (7.5YR 5/4) moist; massive; slightly hard, friable, slightly sticky and slightly plastic; 7 percent fie spherical distinct carbonate masses in matrix; violently effervescent; 8 percent calcium carbonate equivalent; moderately alkaline (pH 8.3)."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,65 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - 0 to 7 cm (A horizon)\nCalcic horizon - 7 to 30 cm (Bk horizon)\nGypsic horizon - 30 to 75 cm (BCky horizon)\nParalithic contact - 75 cm (Cr horizon)\nParticle-size control section - 25 to 75 cm (Bk, BCky horizons)\nKindt soils have a frigid temperature regime and an ustic moisture regime bordering on aridic.\n______________________________________________________\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 7,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 7 cm; pale brown (10YR 6/3) clay loam, dark yellowish brown (10YR 4/4), moist; weak fine granular structure; friable, slightly hard, moderately sticky, moderately plastic; few very fine roots throughout; many very fine interstitial pores; finely disseminated calcium carbonate; 5 percent parachanners and 5 percent gravel; strongly effervescent; moderately alkaline (pH 8.4); clear smooth boundary. (2 to 10 cm thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 7,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "channery",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk--7 to 30 cm; pale brown (10YR 6/3) parachannery clay loam, brown (10YR 4/3), moist; weak medium subangular blocky structure; firm, moderately hard, moderately sticky, moderately plastic; few fine and medium roots throughout; few fine tubular pores; 20 percent irregular carbonate masses in matrix; 30 percent parachanners; violently effervescent; moderately alkaline (pH 8.4); clear smooth boundary. (20 to 50 cm thick)."
+      },
+      {
+        "name": "BCky",
+        "top": 30,
+        "bottom": 75,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "channery",
+        "pH": 8.1,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BCky--30 to 75 cm; brown (10YR 4/3) very parachannery clay loam, dark brown (10YR 3/3), moist; massive; hard, firm, moderately sticky, moderately plastic; few very fine roots throughout; common fine tubular pores; 5 percent irregular carbonate masses in matrix; 10 percent irregular gypsum masses in matrix; 50 percent parachanners; strongly effervescent; moderately alkaline (pH 8.1); gradual smooth boundary. (25 to 45 cm thick)."
+      },
+      {
+        "name": "Cr",
+        "top": 75,
+        "narrative": "Cr--75 cm; shale bedrock."
+      }
+    ]
+  ]
 }

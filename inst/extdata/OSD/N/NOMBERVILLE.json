@@ -56,5 +56,99 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from 0 to 13 inches (the Ap horizon).\nCambic horizon - the zone from 13 to 50 inches (the Bw horizon).\nFluventic features - irregular decrease in organic matter content with increasing depth.\nUdic moisture regime.\nSoils within the range of the Nomberville series were formerly correlated with the Huntington and Nolin series in several published soil surveys.\nSIR = VA0305\nMLRA = 128, 130, 147\nREVISED = 10/24/05  JWB\nThe 10/2005 revision updates this soil to the 9th Edition of the Keys to Soil Taxonomy (2003). CEC class is based on the classification of similar and geographically associated soils. Class placement may be revised in the future when laboratory data are reviewed or become available. Competing series, pedon description (including horizon nomenclature and/or descriptive terms), and other sections on the OSD were not revised.\nADDITIONAL DATA: Morphological, chemical, textural, and mineralogical data are reported in:\nEdmonds, W. J., D. D. Rector, D. A. Gall, D. R. Hatch, R. S. Joslyn, and J. C. Baker. 1987. Properties and classification of soils derived from stratified alluvium in the Valley and Ridge Province of Virginia. Va.  Agric. Exp. Stn. Bull. 85-10.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap1",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap1--0 to 6 inches; dark brown (10YR 3/3) loam; dark yellowish brown (10YR 4/4) dry; moderate fine granular structure; friable, slightly sticky, slightly plastic; common fine roots; few fine discontinuous pores; 2 percent gravel; common worm channels; neutral; clear smooth boundary."
+      },
+      {
+        "name": "Ap2",
+        "top": 15,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap2--6 to 13 inches; dark brown (10YR 3/3) loam; dark yellowish brown (10YR 4/4) dry; weak fine subangular blocky structure; friable, slightly sticky, slightly plastic; few fine roots; common fine and medium discontinuous pores; common worm casts; 2 percent cobbles; neutral; clear smooth boundary. (Combined thickness of the Ap horizon ranges from 0 to 16 inches.)"
+      },
+      {
+        "name": "Bw1",
+        "top": 33,
+        "bottom": 51,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--13 to 20 inches; brown (7.5YR 4/4) silt loam; moderate fine subangular blocky structure; friable, slightly sticky, slightly plastic; few very fine and medium roots; common fine discontinuous pores; dark brown (7.5YR 3/2) organic coatings on faces of peds; common worm channels; neutral; clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 51,
+        "bottom": 79,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw2--20 to 31 inches; brown (7.5YR 4/4) silt loam; moderate fine subangular blocky structure; friable, slightly sticky, slightly plastic; few very fine and medium roots; common fine discontinuous pores; common worm channels; dark brown (7.5YR 3/2) organic coatings on faces of peds; neutral; gradual smooth boundary."
+      },
+      {
+        "name": "Bw3",
+        "top": 79,
+        "bottom": 127,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw3--31 to 50 inches; brown (7.5YR 4/4) silt loam; moderate fine subangular blocky structure; friable, slightly sticky, slightly plastic; common fine discontinuous pores; few very fine and medium roots; common worm channels; 2 percent shale gravel; neutral; gradual wavy boundary.  (Combined thickness of the Bw horizon ranges from 20 to 50 inches.)"
+      },
+      {
+        "name": "C",
+        "top": 127,
+        "bottom": 157,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH_class": "neutral",
+        "narrative": "C--50 to 62 inches; brown (7.5YR 4/4) very gravelly loam; massive; friable, slightly sticky, nonplastic; few fine discontinuous pores; 40 percent gravel and cobbles; neutral."
+      }
+    ]
+  ]
 }

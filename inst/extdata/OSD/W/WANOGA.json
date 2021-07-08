@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and other features in this pedon are:\nmollic epipedon:  from 1 to 13 inches (A1, A2 horizons).  Base saturation is 84 to 99 percent (NH40AC) for all horizons.\ncambic horizon:  from 13 to 25 inches (Bw horizon).  This horizon has mollic colors but lacks the organic matter content to qualify as mollic.\nandic soil properties:  P-retention is 60 percent for all horizons.  The amount of glass and glass-coated aggregate in the very fine sand fraction is 70 percent for all horizons.  The acid oxalate extractable aluminum plus one-half the acid oxalate extractable iron is 0.45 percent in the A horizons and 0.35 in the Bw horizon.\nVitri (great group):  The 15-bar water content on both dried and undried samples is 9.0 for all horizons.\nThe ash deposit is from Mt. Mazama.\nADDITIONAL DATA:  Laboratory data from type location S860R-017-001.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; slightly decomposed needles and twigs of ponderosa pine."
+      },
+      {
+        "name": "A1",
+        "top": 3,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A1--1 to 3 inches; very dark brown (10YR 2/2) ashy sandy loam, dark grayish brown (10YR 4/2) dry; weak fine granular structure; slightly hard, friable, nonsticky and nonplastic; common very fine and fine roots; many fine irregular pores; 5 percent gravel; neutral (pH 6.8); gradual wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A2--3 to 13 inches; dark brown (10YR 3/3) ashy sandy loam, brown (10YR 4/3) dry; weak fine and medium subangular blocky structure; slightly hard, friable, nonsticky and nonplastic; few very fine, fine and medium roots; many very fine irregular pores; 5 percent gravel; neutral (pH 6.8); gradual wavy boundary.  (Combined thickness of the A horizon is 10 to 22 inches)."
+      },
+      {
+        "name": "Bw",
+        "top": 33,
+        "bottom": 64,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--13 to 25 inches; dark brown (10YR 3/3) ashy sandy loam, brown (10YR 5/3) dry; weak fine and medium subangular blocky; slightly hard, friable, nonsticky and nonplastic; few very fine, fine, medium, and coarse roots; many very fine irregular and few fine tubular pores; 10 percent gravel; neutral (pH 7.0); clear wavy boundary.  (9 to 25 inches thick)."
+      },
+      {
+        "name": "2Crqt",
+        "top": 64,
+        "bottom": 89,
+        "texture_class": "clay",
+        "narrative": "2Crqt--25 to 35 inches; weathered tuff; silica coatings and clay coatings are present in the vesicles of the rock."
+      },
+      {
+        "name": "2R",
+        "top": 89,
+        "narrative": "2R--35 inches; tuff."
+      }
+    ]
+  ]
 }

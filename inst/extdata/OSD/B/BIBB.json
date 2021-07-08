@@ -56,5 +56,63 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon:\nOchric epipedon: The zone from 0 to 12 inches (A and Ag horizons).\nFluvaquentic features: Low chroma colors in the matrix, irregular decrease in organic carbon and presence of thin strata of contrasting textures.\nBibb soils are in MLRA 133A.\nADDITIONAL DATA: Laboratory data is available on the National Soil Survey website at: http;://ncsslabdatamart.sc.egov.usda.gov/querypage.aspx\nLaboratory data was provided by Auburn University, Soil Characterization laboratory, Auburn AL.\nThe following laboratory characterization data are available on the NSSL web site:\nS84AL-011-7-pgm\nS88AL-131-5-pgm\nSIR = AL0033, AL0141\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 4 inches; brown (10YR 4/3) sandy loam; weak fine granular structure; friable; common fine roots and pores; strongly acid; abrupt wavy boundary.  (2 to 6 inches thick)"
+      },
+      {
+        "name": "Ag",
+        "top": 10,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Ag--4 to 12 inches; variegated dark gray (N 4/) and dark grayish brown (10YR 4/2) sandy loam; weak fine granular structure; friable; few fine roots and pores; common fine strong brown (7.5YR 5/6) areas of iron accumulation around old root channels; strongly acid; clear wavy boundary. (0 to 19 inches thick)"
+      },
+      {
+        "name": "Cg1",
+        "top": 30,
+        "bottom": 94,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cg1--12 to 37 inches; gray (5Y 5/1) sandy loam; massive; friable; few fine roots and pores; common medium strong brown (7.5YR 5/6) areas of iron accumulation around old root channels; common thin strata of loamy sand to silt loam; some strata contain few to common imbedded partially decomposed organic material; very strongly acid; clear wavy boundary.  (5 to 40 inches thick)"
+      },
+      {
+        "name": "Cg2",
+        "top": 94,
+        "bottom": 152,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "narrative": "Cg2--37 to 60 inches; gray (N 5/) silt loam; massive; slightly sticky; common strata of sandy loam and loamy sand; common thin strata with imbedded partially decomposed organic material; strongly acid."
+      }
+    ]
+  ]
 }

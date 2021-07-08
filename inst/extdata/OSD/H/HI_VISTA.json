@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in the profile are:\n1.  Ochric epipedon--the zone from the soil surface to 6 inches (A horizon).\n2.  Argillic horizon--the zone from 6 to 29 inches (Bt1, Bt2, and Bt3 horizons)\nADDITIONAL DATA:\n1.  Thermic temperature regime--MAAT 60 to 65 degrees F.\n2.  Mixed mineralogy\n3.  Fine-loamy particle size class\n4.  Aridic moisture regime--MAP 4 to 6 inches.\nSeries reclassified on September, 1994.  Competing series not reviewed at that time.\nRunoff classes based on Ksat and slope as described in \"Terminology Used in Soil Survey Data Entry or Manuscript Editing of: 9-23-94 MAV.\" Runoff changed from slow to rapid TO medium  to very high.\nResponsibility for this series was transferred from Davis to Phoenix 4/2015. The last revision to the series was 2/1997. ET\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loamy fine sand",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 6 inches; light yellowish brown (10YR 6/4) loamy fine sand, yellowish brown (10YR 5/4) moist; massive; slightly hard, very friable, nonsticky and nonplastic; common very fine roots; common very fine interstitial pores; neutral (pH 7.2); clear wavy boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 28,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--6 to 11 inches; brown (7.5YR 5/4) clay loam, dark brown (7.5YR 4/4) moist; massive; hard, friable, slightly sticky and slightly plastic; many faint clay films lining pores and as bridges; very slightly effervescent, carbonates disseminated; slightly alkaline (pH 7.5); clear wavy boundary.  (5 to 8 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 28,
+        "bottom": 53,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--11 to 21 inches; reddish brown (5YR 5/4) sandy clay loam, reddish brown (5YR 4/4) moist; moderate fine and medium angular blocky structure; hard, firm, sticky and plastic; few very fine roots; many very fine interstitial, few fine tubular pores; few distinct clay films lining pores and as bridges; about 10 to 15 percent fine gravel; slightly effervescent, carbonates disseminated; slightly alkaline (pH 7.5); gradual wavy boundary.  (9 to 13 inches thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 53,
+        "bottom": 74,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt3--21 to 29 inches; yellowish red (5YR 5/6) gravelly sandy clay loam, yellowish red (5YR 4/6) moist; massive; slightly hard, friable, slightly sticky and slightly plastic; few very fine roots; many very fine interstitial, common very fine tubular pores; many distinct clay films lining pores and as bridges; 35 percent fine gravel; slightly effervescent, carbonates disseminated; moderately alkaline (pH 8.0); gradual wavy boundary. (0 to 9 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 74,
+        "narrative": "R--29 inches; hard granitic rock."
+      }
+    ]
+  ]
 }

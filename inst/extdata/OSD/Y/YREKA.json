@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - from 0 to 36 cm (Oi, E horizons)\nArgillic horizon - from 36 to 152 cm (E/Bt, Bt horizons)\nParticle-size control - from 36 to 86 cm (E/Bt, part of Bt horizon).\nYreka soils have a frigid temperature regime and an ustic moisture regime.\nAdditional Information: Soil interpretation record - MT1373.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--5 to 36 cm; light brownish gray (10YR 6/2) gravelly loam, brown (10YR 5/3) moist; strong medium granular structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and fine, and common medium roots; many very fine and fine pores; 20 percent gravel, 5 percent cobbles; neutral; clear smooth boundary. (10 to 32 cm thick)"
+      },
+      {
+        "name": "E/Bt",
+        "top": 36,
+        "bottom": 50,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E/Bt--36 to 50 cm; E part (60 percent) is light brownish gray (10YR 6/2) very gravelly loam, brown (10YR 5/3) moist; Bt part (40 percent) is brown (10YR 5/3) very gravelly loam, brown (10YR 4/3) moist; moderate medium granular structure; slightly hard, friable, nonsticky and nonplastic; common very fine, fine and medium, and few coarse roots; 25 percent gravel, 10 percent cobbles; neutral; clear smooth boundary. (10 to 25 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 50,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH_class": "neutral",
+        "narrative": "Bt--50 to 152 cm; brown (10YR 5/3) very gravelly clay loam, brown (10YR 4/3) moist; moderate fine subangular blocky structure; hard, friable, slightly sticky and slightly plastic; few fine, medium and coarse roots; common very fine and fine pores; few faint clay films on faces of peds; 35 percent gravel, 10 percent cobbles; neutral."
+      }
+    ]
+  ]
 }

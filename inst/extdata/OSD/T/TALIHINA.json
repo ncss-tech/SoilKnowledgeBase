@@ -56,5 +56,62 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:Soil Interpretation Record:Series OK0099, Stony OK0183 Diagnostic horizons and features recognized in this pedon are: Mollic epipedon- the zone from the soil surface to a depth of 6 inches (the A horizon).  Cambic horizon - the zone from 6 inches to a depth of 15 inches (the Bw horizon). Paralithic contact - soft sandstone bedrock at a depth of 15 inches.\nFormat modified to semi-tab and activity class added 4/12/01. JCR\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A1--0 to 6 inches; very dark grayish brown (2.5Y 3/2) clay loam, grayish brown (2.5Y 5/2) dry; weak medium subangular blocky structure parting to moderate fine granular; firm, hard; few fragments of sandstone 3 to 10 inches in diameter and few fragments over 10 inches; slightly acid; gradual wavy boundary. (4 to 9 inces thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 15,
+        "bottom": 38,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--6 to 15 inches; dark grayish brown (2.5Y 4/2) clay; light brownish gray (2.5Y 6/2) dry; common fine distinct brownish yellow redoximorphic concentration masses in lower part; moderate fine blocky structure in upper part grading to weak medium blocky in lower part; very firm; extremely hard; few pressure faces on peds; moderately acid; gradual wavy boundary.  (6 to 12 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 38,
+        "bottom": 64,
+        "dry_hue": "5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt",
+        "pH_class": "slightly alkaline",
+        "narrative": "Cr--15 to 25 inches; olive gray (5Y 4/2) soft shale, light olive gray (5Y 6/2) dry; level bedded; fractured; few thin strata of siltstone; slightly alkaline."
+      }
+    ]
+  ]
 }

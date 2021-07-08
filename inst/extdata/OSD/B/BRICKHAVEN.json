@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This series was formerly included with the Mayodan series. Mayodan soils are very deep to bedrock. This soil is seldom used as cropland due to high aluminum concentrations and very low natural fertility.\nDiagnostic features and soil characteristics recognized in this pedon are:\nOchric epipedon - the zone from the surface to a depth of 7 inches (A and E horizons).\nArgillic horizon - the zone from 7 to 51 inches below the surface (Bt1, Bt2, and BCt horizons).\nParalithic contact - the occurrence of weathered bedrock at a depth of 51 inches (upper boundary of the Cr horizon).\nSIR = NC0143 MLRA = 136\nADDITIONAL DATA: Characterization data is available from the National Soil Survey Laboratory, Lincoln, Nebraska; pedon number S94NC-037-001.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0143 BRICKHAVEN  2- 40   57- 65  150-202  41- 53   200- 350\nSOI-5  FloodL FloodH Watertable Kind  Months Bedrock Hardness\nNC0143 NONE          1.5-3.0  PERCHED NOV-MAY 40-60   SOFT\nSOI-5  Depth  Texture            3-Inch  No-10  Clay%  -CEC-\nNC0143  0- 7  SIL L VFSL         0-  3  90-100  8-27   7-  9\nNC0143  0- 7  FSL                0-  3  90-100  8-20   7-  9\nNC0143  7-37  SICL SIC C         0-  5  90-100 35-60  10- 25\nNC0143 37-51  SICL SIL L         0-  5  90-100 15-40   7- 15\nNC0143 51-62  WB                  -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0143  0- 7  3.6- 5.5  1.-2.  0- 0   0.6- 2.0  LOW\nNC0143  0- 7  3.6- 5.5  1.-2.  0- 0   0.6- 2.0  LOW\nNC0143  7-37  3.6- 5.0  0.-.5  0- 0  0.06- 0.2  MODERATE\nNC0143 37-51  3.6- 5.0  0.-.5  0- 0   0.6- 2.0  LOW\nNC0143 51-62     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; brown (10YR 5/3) silt loam; weak fine granular structure; friable; many very fine and fine and common medium roots; 3 percent fine and medium siltstone pebbles; extremely acid; abrupt smooth boundary. (2 to 8 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--4 to 7 inches; light yellowish brown (10YR 6/4) silt loam; weak fine granular structure; friable, slightly sticky, non plastic; common fine and medium roots; extremely acid; clear smooth boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 30,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--7 to 12 inches; yellowish red (5YR 5/6) silty clay loam; weak fine subangular blocky structure; friable, slightly sticky, slightly plastic; common fine roots; common prominent clay films on faces of peds; extremely acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 30,
+        "bottom": 94,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--12 to 37 inches; reddish brown (5YR 4/4) silty clay; moderate fine subangular structure; firm, moderately sticky, slightly plastic; common fine roots; common prominent clay films on faces of peds; very strongly acid; gradual wavy boundary. (Combined thickness of the Bt horizons is 10 to 50 inches)"
+      },
+      {
+        "name": "BCt",
+        "top": 94,
+        "bottom": 130,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BCt--37 to 51 inches; reddish brown (2.5YR 4/4) silty clay loam; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; few fine roots; few faint clay films on faces of peds; very strongly acid; gradual wavy boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 130,
+        "bottom": 157,
+        "moist_hue": "2.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt",
+        "narrative": "Cr--51 to 62 inches; reddish brown (2.5YR 5/4) weathered moderately fractured Triassic siltstone."
+      }
+    ]
+  ]
 }

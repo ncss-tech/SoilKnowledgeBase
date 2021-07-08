@@ -56,5 +56,119 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and other features recognized in this pedon are:\nOchric epipedon - The zone from 0 to 5 inches (Oi, Oe and A horizons).\nArgillic horizon - The zone from 10 to 31 inches (2Bt1 and 2Bt2 horizons).\nVitrandic feature - The zone from 2 to 10 inches (A and BA horizons).\nParticle size control section - The zone from 10 to 30 inches (2Bt1 and part of the 2Bt2 horizon).\nThe ranges of values listed under the Range In Characteristics for the soil properties bulk density, volcanic glass content and acid-oxalate Al+1/2 Fe are estimates only.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; slightly decomposed bark, needles, twigs and leaves."
+      },
+      {
+        "name": "Oe",
+        "top": 3,
+        "bottom": 5,
+        "narrative": "Oe--1 to 2 inches; decomposed bark, needles, twigs and leaves. (1 to 2 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--2 to 5 inches; reddish brown (5YR 5/4) ashy loam, reddish brown (5YR 4/4) moist; moderate fine granular structure; soft, very friable, slightly sticky and nonplastic; many very fine, fine and few medium roots; common very fine tubular, many very fine and common fine irregular pores; 5 percent fine, rounded iron-manganese concretions; 4 percent paragravel; neutral (pH 6.9); clear smooth boundary. (1 to 7 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 13,
+        "bottom": 25,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BA--5 to 10 inches; reddish brown (5YR 5/4) ashy loam, dark reddish brown (5YR 3/4) moist; moderate medium subangular blocky structure parting to weak fine granular; soft, very friable, slightly sticky and slightly plastic; common very fine and medium roots; many very fine tubular, many very fine and common fine irregular pores; 4 percent fine, rounded iron-manganese concretions; 3 percent paragravel; slightly acid (pH 6.5); clear wavy boundary. (0 to 7 inches thick)"
+      },
+      {
+        "name": "2Bt1",
+        "top": 25,
+        "bottom": 51,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bt1--10 to 20 inches; brown (7.5YR 5/4) loam, dark reddish brown (5YR 3/4) moist; moderate medium subangular blocky structure parting to weak fine granular; slightly hard, friable, moderately sticky and moderately plastic; common very fine, fine and few medium roots; many very fine tubular and irregular pores; few faint clay films lining pores and on faces of peds; 4 percent fine rounded iron-manganese concretions; 3 percent paragravel; slightly acid (pH 6.5); clear wavy boundary."
+      },
+      {
+        "name": "2Bt2",
+        "top": 51,
+        "bottom": 79,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bt2--20 to 31 inches; brown (7.5YR 5/4) paragravelly loam, dark brown (7.5YR 3/4) moist; moderate medium subangular blocky structure; slightly hard, friable, moderately sticky and moderately plastic; common very fine, fine and few medium roots; common very fine tubular, many very fine and fine irregular pores; few faint clay films lining pores and on faces of peds; 30 percent paragravel; slightly acid (pH 6.2); clear wavy boundary. (2Bt horizons 11 to 40 inches thick)"
+      },
+      {
+        "name": "2BC",
+        "top": 79,
+        "bottom": 132,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "narrative": "2BC--31 to 52 inches; brown (7.5YR 4/4) extremely paracobbly loam, reddish brown (5YR 4/4) moist, moderate fine subangular blocky structure parting to weak fine granular; soft, friable, slightly sticky and moderately plastic; common very fine and few fine roots; few very fine tubular, many very fine and fine irregular pores; 30 percent paragravel and 45 percent parcobbles; moderately acid (pH 6.0). (0 to 21 inches thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 132,
+        "bottom": 203,
+        "narrative": "2Cr--52 to 80 inches; highly fractured, decomposed Saddle mountain basalt."
+      }
+    ]
+  ]
 }

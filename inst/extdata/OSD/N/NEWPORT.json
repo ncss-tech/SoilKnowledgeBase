@@ -56,5 +56,72 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This revision reflects changes to the range in characteristics as well as general updating to metric units.\nDiagnostic horizons and features recognized in this pedon are:\n1. Ochric epipedon - the zone from 0 to 8 inches (0 to 20 centimeters)(Ap horizon).\n2. Cambic horizon - the zone from 8 to 24 inches (20 to 61 centimeters) (Bw1 and Bw2 horizons).\n3. Densic material - the zone from 24 to 65 inches (61 to 165 centimeters) (Cd horizon).\n4) Particle-size control section - the zone from 10 through 24 inches (20 through 61 centimeters) (Bw1 and Bw2 horizons).\n5) Oxyaquic subgroup - based on saturation in one or more layers within 40 inches (100 centimeters) of the mineral soil surface, for either or both 20 or more consecutive days or 30 or more cumulative days.\nADDITIONAL DATA: Full characterization data for sample no. 58RI005001, 58RI009001, S08RI005001. Pedons analyzed by the NSSL, Lincoln, NE.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 8 inches (0 to 20 centimeters); very dark brown (10YR 2/2) silt loam, light brownish gray (10YR 6/2) dry; weak medium granular structure; very friable; many fine and medium roots; 5 percent channers and gravel; strongly acid; clear smooth boundary. (6 to 10 inches (15 to 25 centimeters) thick.)"
+      },
+      {
+        "name": "Bw",
+        "top": 20,
+        "bottom": 46,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw -- 8 to 18 inches (20 to 46 centimeters); olive brown (2.5Y 4/4) channery silt loam; weak medium subangular blocky structure; friable; common fine and medium roots; 15 percent channers and gravel; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw",
+        "top": 46,
+        "bottom": 61,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw -- 18 to 24 inches (46 to 61 centimeters); olive (5Y 4/3) channery silt loam; weak medium and coarse subangular blocky structure; friable; few roots; 15 percent channers and gravel; strongly acid; clear wavy boundary. (Combined thickness of the Bw horizon is 14 to 37 inches (36 to 94 centimeters).)"
+      },
+      {
+        "name": "Cd",
+        "top": 61,
+        "bottom": 165,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "narrative": "Cd -- 24 to 65 inches (61 to 165 centimeters); olive gray (5Y 4/2) channery loam; few dark yellowish brown (10YR 3/4) pockets in the upper 6 inches; weak thick platy structure; very firm, brittle; few silt films on rock fragments; 25 percent channers and gravel; strongly acid."
+      }
+    ]
+  ]
 }

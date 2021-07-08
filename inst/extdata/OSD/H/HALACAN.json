@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 28 cm (A1 and A2 horizons).\nIdentifiable secondary carbonates - The zone from the soil surface to 43 cm (A1, A2, and Bk horizons).\nLithic contact - The boundary at 43 cm to underlying hard bedrock (R layer).\nParticle-size control section - The zone from 25 to 43 cm (Bk horizon and part of the A2 horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 13 cm; brown (10YR 5/3) very gravelly loam, dark brown (10YR 3/3) moist; moderate medium subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; many very fine, fine, and medium roots; many very fine and fine interstitial pores; 40 percent gravel; very few coats of secondary calcium carbonate on bottoms of rock fragments; slightly effervescent; moderately alkaline (pH 8.0); clear wavy boundary.  (5 to 15 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 13,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely channery",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--13 to 28 cm; brown (10YR 5/3) extremely channery loam, dark brown (10YR 3/3) moist; moderate medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many fine and medium roots; common fine tubular pores; 45 percent channers and 15 percent flagstones; very few coats of secondary calcium carbonate on bottoms of rock fragments; slightly effervescent; moderately alkaline (pH 8.2); clear wavy boundary.  (8 to 18 cm thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 28,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely channery",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk--28 to 43 cm; brown (10YR 5/3) extremely channery loam, brown (10YR 4/3) moist; moderate fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine, fine, and few medium roots; common fine tubular and interstitial pores; 45 percent channers and 30 percent flagstones; few coats of secondary calcium carbonate on bottoms of rock fragments; violently effervescent; moderately alkaline (pH 8.2); gradual wavy boundary.  (8 to 18 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 43,
+        "narrative": "R--43 cm; hard fractured limestone."
+      }
+    ]
+  ]
 }

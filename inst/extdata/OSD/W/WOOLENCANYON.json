@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 7 inches (A and Bt horizons and part of the Btss horizon).\nArgillic horizon - The zone from 2 to 12 inches (Bt and Btss horizons).\nPalexerollic subgroup feature - The abrupt clay increase of more than 15 percent at 5 inches (between the Bt and Btss horizons).\nDuripan - The zone from 12 to 19 inches (Bqkm horizon).\nLithic contact - The boundary at 19 inches to underlying hard bedrock (R layer).\nParticle-size control section - The zone from the soil surface to 12 inches (A, Bt, and Btss horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "very stony",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; grayish brown (10YR 5/2) very stony clay loam, very dark grayish brown (10YR 3/2) moist; moderate very thick and moderate thin platy structure; hard, friable, moderately sticky and slightly plastic; common very fine and few fine roots; common very fine and common fine vesicular pores; 15 percent pebbles, 15 percent cobbles, and 15 percent stones; slightly alkaline (pH 7.4); clear smooth boundary.  (2 or 3 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "cobbly",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt--2 to 5 inches; brown (10YR 5/3) cobbly clay loam, dark brown (10YR 3/3) moist; weak medium prismatic structure parting to moderate medium subangular blocky; slightly hard, friable, moderately sticky and moderately plastic; common very fine, common fine, few medium, and few coarse roots; common fine and common medium tubular pores; common faint clay films on faces of peds; 5 percent pebbles and 10 percent cobbles; slightly alkaline (pH 7.5); abrupt smooth boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "Btss",
+        "top": 13,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Btss--5 to 12 inches; brown (7.5YR 5/3) clay, brown (7.5YR 4/3) moist; strong medium prismatic structure parting to strong medium angular blocky; very hard, very firm, moderately sticky and very plastic; few very fine and few fine roots; few very fine and few fine tubular pores; few intersecting slickensides tilted 30 degrees from horizontal bounding weak wedge-shaped peds; common distinct and few prominent clay films on faces of peds; slightly alkaline (pH 7.6); abrupt smooth boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "Bqkm",
+        "top": 30,
+        "bottom": 48,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bqkm--12 to 19 inches; pink (7.5YR 7/4) duripan, strong brown (7.5YR 5/6) moist; strong medium platy structure; very rigid; indurated by secondary silica; widely spaced fractures in the upper inch; thin laminar caps of opal on top of peds; non-effervescent to slightly effervescent; secondary carbonates segregated in very few fine coats on bottom of peds; slightly alkaline (pH 7.8); abrupt wavy boundary.  (2 to 7 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 48,
+        "narrative": "R--19 inches; hard basalt."
+      }
+    ]
+  ]
 }

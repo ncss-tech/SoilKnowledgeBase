@@ -56,5 +56,100 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this profile include:\nAlbic horizons 0 to 1 and 3 to 4 inches (E and Eb). Spodic horizons 1 to 3, 4 to 34 (Bhs and 2Bhsb). Assumed andic soil properties from 0 to 34 inches. Assumed 6 percent or more organic carbon in the 2Bhsb horizons 4 to 34 inches. Assumed cryic temperature regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 5,
+        "bottom": 0,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH": 4.2,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--2 to 0 inches; very dark brown (10YR 2/2) mucky peat; many very fine, fine, medium, and common coarse roots; extremely acid (pH 4.2); abrupt smooth boundary. (1 to 6 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 4,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--0 to 1 inches; dark brown (10YR 4/3) silt loam; moderate fine granular structure; very friable, nonsticky, nonplastic, weakly smeary; many very fine, fine, and medium roots; extremely acid (pH 4.0); abrupt wavy boundary."
+      },
+      {
+        "name": "Bhs",
+        "top": 3,
+        "bottom": 8,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bhs--1 to 3 inches; dark brown (7.5YR 3/2) silt loam; moderate fine granular structure; very friable, nonsticky, nonplastic, moderately smeary; many very fine, fine, and medium roots; very strongly acid (pH 4.8); abrupt wavy boundary. (combined thickness of Bs and Bhs horizons is 2 to 6 inches)"
+      },
+      {
+        "name": "Eb",
+        "top": 8,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Eb--3 to 4 inches; dark brown (10YR 4/3) silt loam; moderate fine granular structure; very friable, nonsticky, nonplastic, weakly smeary; many very fine, fine, and medium roots; 2 percent gravel; very strongly acid (pH 5.0); abrupt wavy boundary. (combined thickness of E horizons is 2 to 7 inches)"
+      },
+      {
+        "name": "2Bhsb",
+        "top": 10,
+        "bottom": 86,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "very gravelly",
+        "pH": 5.5,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bhsb--4 to 34 inches; dark reddish brown (5YR 2.5/2) very gravelly silt loam; moderate fine granular structure; very friable, nonsticky, nonplastic, moderately smeary; many very fine, fine, medium, and few coarse roots; 40 percent gravel and 10 percent cobble; strongly acid (pH 5.5); clear wavy boundary. (thickness of the 2Bhsb horizon is 28 to 38 inches)"
+      },
+      {
+        "name": "2BC",
+        "top": 86,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "very fine sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 5.8,
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2BC--34 to 60 inches; dark brown (10YR 4/3) very gravelly very fine sandy loam; massive; friable, nonsticky, nonplastic; 50 percent gravel and 10 percent cobble; medium acid (pH 5.8); clear wavy boundary."
+      }
+    ]
+  ]
 }

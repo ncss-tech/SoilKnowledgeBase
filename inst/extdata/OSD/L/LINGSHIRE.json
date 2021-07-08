@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from 2 to 92 cm (A, Bt1, and Bt2).\nArgillic horizon - The zone from 40 to 92 cm (Bt1, and Bt2).\nParalithic contact - at 92 cm (Cr).\nParticle-size control section - the zone from 40 to 90 cm (Bt1 and part of the Bt2 horizon).\nLingshire soils have a cryic temperature regime and udic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 2,
+        "narrative": "Oi--0 to 2 cm; slightly decomposed pine needles, grasses, forbs, and shrub leaf stems, roots and duff material.  (0 to 6 cm thick)"
+      },
+      {
+        "name": "A",
+        "top": 2,
+        "bottom": 40,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--2 to 40 cm; very dark gray (10YR 3/1) loam, black (10YR 2/1) moist; moderate fine granular structure; slightly hard, friable, moderately sticky and moderately plastic; many very fine and fine and common medium and few coarse roots; many very fine, fine and common medium irregular pores; 5 percent channers and 5 percent gravel; moderately acid (pH 6.0); clear smooth boundary. (10 to 45 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 40,
+        "bottom": 62,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--40 to 62 cm; very dark gray (10YR 3/1) clay loam, black (10YR 2/1) moist; moderate medium subangular blocky structure; very hard, very firm, very sticky and very plastic; common very fine and fine and few medium and coarse roots; common very fine and fine irregular pores; 5 percent channers and 5 percent gravel; 15 percent prominent clay films on faces of peds; moderately acid (pH 6.0); gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 62,
+        "bottom": 92,
+        "dry_hue": "2.5Y",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "cf_class": "channery",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--62 to 92 cm; dark gray (2.5Y 4/1) parachannery clay, very dark gray (2.5Y 3/1) moist; strong medium and coarse subangular blocky structure; very hard, very firm, very sticky and very plastic; common fine and few medium and coarse roots; common fine irregular pores; 15 percent parachanners and 5 percent gravels; 60 percent prominent clay films on faces of peds; moderately acid (pH 6.0); gradual wavy boundary. (Combined thickness of Bt horizons is 30 to 60 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 92,
+        "bottom": 152,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "narrative": "Cr--92 to 152 cm; gray (2.5Y 5/1) semi consolidated shale; slightly acid (pH 6.2)"
+      }
+    ]
+  ]
 }

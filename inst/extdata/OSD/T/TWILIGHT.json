@@ -56,5 +56,94 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and feature recognized in the pedon are: ochric epipedon - the zone from the surface horizon to about 4 inches (A horizon); cambic horizon - the zone from about 4 to 16 inches (Bw1 and Bw2 horizon); calcic horizon - the zone from 16 to 28 inches (Bk horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; brown (10YR 5/3) fine sandy loam, dark grayish brown (10YR 4/2) moist; weak fine granular structure; hard, very friable; many fine roots; neutral; clear smooth boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 10,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--4 to 10 inches; brown (10YR 5/3) fine sandy loam, brown (10YR 4/3) moist; weak coarse and very coarse prismatic structure; slightly hard; very friable; many fine roots; neutral; clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 25,
+        "bottom": 41,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--10 to 16 inches; light brownish gray (2.5Y 6/2) fine sandy loam, grayish brown (2.5Y 5/2) moist; weak very coarse prismatic structure; slightly hard, very friable; common fine roots; slightly alkaline; clear wavy boundary.  (Combined Bw horizons is 7 to 20 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 41,
+        "bottom": 71,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk--16 to 28 inches; light gray (2.5Y 7/2) fine sandy loam, grayish brown (2.5Y 5/2) moist; weak coarse subangular blocky; slightly hard, very friable; few fine roots; few fine accumulations of carbonate; strong effervescence; moderately alkaline; gradual wavy boundary.  (6 to 15 inches thick.)"
+      },
+      {
+        "name": "Cr",
+        "top": 71,
+        "bottom": 152,
+        "dry_hue": "2.5Y",
+        "dry_value": 8,
+        "dry_chroma": 1,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "moderately alkaline",
+        "narrative": "Cr--28 to 60 inches; white (2.5Y 8/1) weakly cemented sandstone, light brownish gray (2.5Y 6/2) moist; strong effervescence; moderately alkaline."
+      }
+    ]
+  ]
 }

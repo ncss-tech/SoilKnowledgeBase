@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This soil has formerly been included in the Tarrant series.\nEdited 01/2017 (RFG-SCP): Converted to tabular format and added metric units. Updated competing series, geographic setting, and associated soils sections.\nDiagnostic horizons and features recognized in this pedon are:\nMollic epipedon - 0 to 30 cm (0 to 12 in) (A1 and A2 horizons).\nLithic contact - 30 cm (12 in) (top of R layer).\nADDITIONAL DATA: NSSL sample 384TX-429-1.\nTaxonomic Version: Keys to Soil Taxonomy, 12th Edition, 2014\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "very stony",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 10 cm (0 to 4 in); dark grayish brown (10YR 4/2) very stony clay loam, very dark grayish brown (10YR 3/2) moist; weak fine subangular blocky and moderate fine granular structure; hard, friable; many fine roots; many fine pores; few wormcasts; about 30 percent fragments of limestone from 6 to 30 inches across, and 5 percent less than 3 inches across; moderately alkaline; clear smooth boundary. Thickness is 5 to 30 cm (2 to 12 in)"
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "extremely stony",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--10 to 30 cm (4 to 12 in); dark grayish brown (10YR 4/2) extremely stony clay loam, very dark grayish brown (10YR 3/2) moist; weak fine subangular blocky and moderate fine granular structure; hard, friable; common fine roots; common fine pores; few wormcasts; about 70 percent of fragments of limestone that are from 6 to 30 inches across; moderately alkaline; abrupt wavy boundary. Thickness is 10 to 41 cm (4 to 16 in)"
+      },
+      {
+        "name": "R",
+        "top": 30,
+        "bottom": 102,
+        "narrative": "R--30 to 102 cm (12 to 40 in); indurated limestone; coarsely fractured; contains less than 5 percent fine-earth in fractures and crevices."
+      }
+    ]
+  ]
 }

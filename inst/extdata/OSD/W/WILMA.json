@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 4 inches (A horizon)\nCambic horizon - the zone from 4 to 12 inches (Bw horizon)\nAndic feature - the zone from 0 to 12 inches (A and Bw horizons)\nLithic contact - the zone beginning at 37 inches (2R horizon)\nParticle-size control section - the zone from 10 to 37 inches (part of the Bw, 2BC, and 2C horizons)\nThe discontinuity in the 2BC horizon represents the limit of the andic feature and the influence of air-fall volcanic ash.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "stony",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 4 inches; grayish brown (10YR 5/2) stony ashy fine sandy loam, very dark grayish brown (10YR 3/2) moist; weak moderate granular structure; soft, very friable, nonsticky and nonplastic; many fine and medium roots; common medium tubular pores; 15 percent gravel, 5 percent paragravel, 5 percent cobbles, 2 percent surface stones; NaF pH 9.6; neutral (pH 7.0);abrupt wavy boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 10,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--4 to 12 inches; brown (7.5YR 5/4) gravelly ashy sandy loam, brown (7.5YR 4/4) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; many fine and medium roots; many fine and medium tubular pores; 20 percent gravel, 5 percent paragravel, 5 percent cobbles; NaF pH 9.6; neutral (pH 6.8); abrupt wavy boundary.  (6 to 11 inches thick)"
+      },
+      {
+        "name": "2BC",
+        "top": 30,
+        "bottom": 61,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2BC--12 to 24 inches; light yellowish brown (10YR 6/4) very gravelly fine sandy loam, dark yellowish brown (10YR 4/4) moist; weak medium subangular blocky structure; slightly hard, friable, nonsticky and nonplastic; many fine roots; common fine and medium tubular pores; 50 percent gravel, 15 percent paragravel, 5 percent cobbles; NaF pH 9.2; neutral (pH 6.8); abrupt wavy boundary.  (0 to 14 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 61,
+        "bottom": 94,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "cf_class": "very gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2C--24 to 37 inches; brownish yellow (10YR 6/6) very gravelly loamy sand, dark yellowish brown (10YR 4/6) moist; massive; slightly hard, friable, nonsticky and nonplastic; common fine roots; few fine tubular pores; 35 percent hard gravel, 50 percent paragravel; NaF pH 9.2; neutral (pH 6.8); abrupt wavy boundary.  (10 to 15 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 94,
+        "narrative": "2R--37 inches; granite."
+      }
+    ]
+  ]
 }

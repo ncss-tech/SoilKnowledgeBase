@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic Epipedon - The zone from the soil surface to about 25 cm (A and Bt1 horizons).\nArgillic horizon - The zone from about 12 to 73 cm (Bt1 and Bt2 horizons).\nVitritorrandic feature - Aridic moisture regime bordering on Xeric. Volcanic glass is 30 to 50 percent of the 0.02 to 2 mm fraction in the zone from 0 to 12 cm (Ap horizon). Volcanic glass is 5 to 30 percent of the 0.02 to 2 mm fraction in the zone from 12 to 73 cm (Bt horizons).\nParticle-size control section - The zone from 12 to 73 cm (Bt1 and Bt2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 12,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "narrative": "Ap--0 to 12 cm; brown (10YR 5/3) ashy silty clay loam, dark brown (10YR 3/3) moist; strong medium granular structure, slightly hard, friable, slightly sticky, slightly plastic; common fine and very fine roots; many very fine interstitial pores; neutral (pH 7.2). (6 to 20 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 12,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "narrative": "Bt1--12 to 25 cm; brown (10YR 5/3) ashy silty clay loam, dark brown (10YR 3/3) moist; strong coarse subangular blocky structure; moderately hard, firm, moderately sticky, moderately plastic; common fine and very fine roots; common fine and medium tubular and many very fine interstitial pores; 40 percent distinct pressure faces; slightly alkaline (pH 7.4). (7 to 67 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 25,
+        "bottom": 73,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "narrative": "Bt2--25 to 73 cm; yellowish brown (10YR 5/4) ashy silty clay loam, dark grayish brown (10YR 4/2) moist; moderate coarse and medium subangular blocky structure; moderately hard, firm, moderately sticky, moderately plastic; common fine and very fine roots; many fine interstitial and common fine tubular pores; 50 percent distinct pressure faces; slightly alkaline (pH 7.4). (7 to 100 cm thick)"
+      },
+      {
+        "name": "BC",
+        "top": 73,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "narrative": "BC--73 to 152 cm; yellowish brown (10YR 5/4) loam, brown (10YR 4/3) moist; moderate coarse subangular blocky structure; slightly hard, friable, slightly sticky, slightly plastic; common very fine roots; common fine tubular and many very fine interstitial pores; slightly alkaline (pH 7.6)."
+      }
+    ]
+  ]
 }

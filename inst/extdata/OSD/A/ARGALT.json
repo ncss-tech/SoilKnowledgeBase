@@ -56,5 +56,84 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 8 cm (A1 and A2 horizons).\nArgillic horizon - The zone from 8 to 23 cm (Bt horizon).\nIndurated duripan - The zone from 23 to 28 cm (Bqkm horizon).\nLithic contact - The boundary at 28 cm (R layer).\nParticle-size control section - The zone from the surface to about 23 cm.  (A1, A2 and Bt horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very stony",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 3 cm; pale brown (10YR 6/3) very stony fine sandy loam, brown (10YR 5/3) moist; moderate thin and medium platy structure; soft, very friable, nonsticky and nonplastic; few very fine roots; common very fine and fine vesicular pores; 20 percent gravel, 10 percent cobbles, 15 percent stones; noneffervescent; moderately alkaline (pH 8.4); clear wavy boundary.  (3 to 8 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 3,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "very fine sandy loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--3 to 8 cm; pale brown (10YR 6/3) very fine sandy loam, brown (10YR 5/3) moist; strong medium platy structure; slightly hard, very friable, nonsticky and slightly plastic; few very fine and fine roots; common fine and medium vesicular and few fine tubular pores; noneffervescent; moderately alkaline (pH 8.0); clear wavy boundary.  (3 to 8 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 8,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--8 to 23 cm; light yellowish brown (10YR 6/4) clay loam, yellowish brown (10YR 5/4) moist; weak fine and medium subangular blocky structure; slightly hard, very friable, sticky and plastic; common very fine, fine and medium roots; common fine interstitial and few fine and medium tubular pores; 10 percent gravel; common thin clay films in pores and bridging mineral grains; noneffervescent; moderately alkaline (pH 8.0); clear wavy boundary.  (13 to 18 cm thick)"
+      },
+      {
+        "name": "Bqkm",
+        "top": 23,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 2,
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bqkm--23 to 28 cm; very pale brown (10YR 8/2) fractured indurated duripan with a continuous laminar silica cap about 1/l6 to 1/8 inch in thickness; extremely hard, extremely firm, nonsticky and nonplastic; violently effervescent; clear irregular boundary.  (5 to 13 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 28,
+        "narrative": "R--28 cm; hard basalt bedrock."
+      }
+    ]
+  ]
 }

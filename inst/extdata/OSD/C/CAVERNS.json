@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: CEC class from Shenandoah County, Virginia NASIS data.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 10 inches (the Ap horizon).\nArgillic horizon - the zone from 18 to 39 inches (the Bt horizon).\nUdic moisture regime.\nSoils within the range of the Caverns series were correlated Chavies series in several published soil surveys.\nThe 12/2005 revision updates this soil to the 9th Edition of the Keys to Soil Taxonomy (2003). The CEC activity class placement is based on similar soils and not on laboratory data. Class placement may be revised in the future when laboratory data are reviewed or become available.\nCompeting series, pedon description (including horizon nomenclature and/or descriptive terms), and other sections on the OSD were not revised.\nPrevious revision dates: 5/89\nADDITIONAL DATA: Morphological, chemical, textural, and mineralogical data are reported in:\nEdmonds, W. J., D. D. Rector, D. A. Gall, D. R. Hatch, R. S. Joslyn, and J. C. Baker. 1987. Properties and classification of soils derived from stratified alluvium in the Valley and Ridge Province of Virginia. Va. Agric. Exp. Stn. Bull. 85-10.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap1",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap1--0 to 4 inches; dark brown (10YR 3/3) sandy loam; weak fine granular structure; very friable, slightly sticky, slightly plastic; many fine and medium roots; 5 percent rounded gravel; neutral; clear smooth boundary."
+      },
+      {
+        "name": "Ap2",
+        "top": 10,
+        "bottom": 25,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap2--4 to 10 inches; dark brown (7.5YR 4/4) sandy loam; weak fine and medium subangular blocky structure; friable, slightly sticky, slightly plastic; common fine roots; common fine discontinuous pores; neutral; clear smooth boundary. (Combined thickness of Ap horizon ranges from 0 to 10 inches.)"
+      },
+      {
+        "name": "BA",
+        "top": 25,
+        "bottom": 46,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BA--10 to 18 inches; dark brown (7.5YR 4/4) fine sandy loam; moderate fine and medium subangular blocky structure; friable, slightly sticky, slightly plastic; few fine roots; many fine and medium discontinuous pores; neutral; clear smooth boundary. (0 to 12 inches thick.)"
+      },
+      {
+        "name": "Bt",
+        "top": 46,
+        "bottom": 99,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt--18 to 39 inches; brown (7.5YR 5/4) fine sandy loam; weak coarse prismatic structure parting to moderate fine and medium subangular blocky; friable, slightly sticky, nonplastic; many fine and medium discontinuous pores; few faint strong brown (7.5YR 4/6) clay films on faces of peds and in pores; dark reddish brown (5YR 3/4) organic coatings on faces of peds; 1 percent rounded gravel; moderately acid; abrupt smooth boundary. (15 to 36 inches thick.)"
+      },
+      {
+        "name": "C",
+        "top": 99,
+        "bottom": 183,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "narrative": "C--39 to 72 inches; reddish brown (5YR 4/4) and brown (7.5YR 4/3) sandy loam; massive; friable, slightly sticky, slightly plastic; few fine discontinuous pores; moderately acid."
+      }
+    ]
+  ]
 }

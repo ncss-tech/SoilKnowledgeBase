@@ -56,5 +56,55 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 2 inches (A horizon).\nLithic contact - The boundary at 5 inches to underlying hard bedrock (R layer).\nParticle-size control section - The zone from the soil surface to 5 inches (A and C horizons).\nThe isotic mineralogy class is based on the field determined values for sodium fluoride pH and on laboratory data for the associated Florand and Lostridge soils.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 2 inches; light yellowish brown (10YR 6/4) extremely gravelly sandy loam, dark yellowish brown (10YR 3/4) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; few very fine roots; common very fine interstitial pores; 70 percent gravel; slightly acid; clear wavy boundary. (1 to 4 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--2 to 5 inches; light yellowish brown (10YR 6/4) very gravelly sandy loam, dark yellowish brown (10YR 3/4) moist; massive; slightly hard, very friable, nonsticky and nonplastic; few very fine roots; common very fine interstitial pores; 55 percent gravel; slightly acid; abrupt wavy boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 13,
+        "narrative": "R--5 inches; hard tuff."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,123 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nochric horizon--the zone from the surface to a depth of 5 inches (Oa and E horizons);\nalbic horizon--the zone from a depth of 1 to 5 inches (E horizon);\nspodic horizon--the zone from a depth of 5 to 27 inches (Bhs and Bs horizons);\nfragipan--the zone from a depth of 27 to 46 inches (2E/Bx and 2Btxhorizon).\nglossic horizon--the zone from a depth of 27 to 34 inches (2E/Bx horizon);\nargillic horizon--the zone from a depth of 27 to 46 inches (2E/Bx and 2Btx horizons) - this zone meets the requirements for an argillic horizon because of the lithologic discontinuity and the presence of clay films;\nultic subgroup--the argillic horizon has base saturation less than 35 percent.\nThe moderately well drained phase is no longer within the series concept.\nADDITIONAL DATA: For laboratory data on this pedon refer to S86MI-061-002 from the NSSL\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oa",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Oa--0 to 1 inches; black (N 2/0) decomposed forest litter; many fine and medium roots; extremely acid; clear wavy boundary. (0 to 3 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 3,
+        "bottom": 13,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "cobbly",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--1 to 5 inches; dark reddish gray (5YR 4/2) cobbly fine sandy loam; weak fine subangular structure; very friable; many fine and medium roots; about 9 percent gravel and 11 percent cobbles; extremely acid; clear wavy boundary. (0 to 6 inches thick)"
+      },
+      {
+        "name": "Bhs",
+        "top": 13,
+        "bottom": 28,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bhs--5 to 11 inches; dark reddish brown (5YR 3/3) fine sandy loam; moderate medium subangular blocky structure; very friable; many fine and medium and common coarse roots; about 8 percent gravel and 2 percent cobbles; very strongly acid; clear wavy boundary. (5 to 12 inches thick)"
+      },
+      {
+        "name": "Bs",
+        "top": 28,
+        "bottom": 69,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs--11 to 27 inches; reddish brown (5YR 4/4) gravelly fine sandy loam; moderate medium subangular blocky structure; friable; common fine and medium and few coarse roots; about 18 percent gravel and 2 percent cobbles; very strongly acid; clear wavy boundary. (10 to 20 inches thick)"
+      },
+      {
+        "name": "2E/Bx",
+        "top": 69,
+        "bottom": 86,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2E/Bx--27 to 34 inches; reddish brown (5YR 5/3) gravelly loamy sand (E); occupies about 60 percent of the horizon surrounding peds of reddish brown (2.5YR 4/4) gravelly fine sandy loam (Bt); weak thin platy structure; very firm; few roots; common fine vesicular pores; few faint reddish brown (5YR 4/4) clay films in pores and root channels; about 17 percent gravel and 6 percent cobbles; very strongly acid; clear wavy boundary. (6 to 15 inches thick)"
+      },
+      {
+        "name": "2Btx",
+        "top": 86,
+        "bottom": 117,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2Btx--34 to 46 inches; reddish brown (5YR 4/4) gravelly loamy sand; massive; very firm; few very fine vesicular pores; few faint reddish brown (5YR 4/3) clay films in pores; about 30 percent gravel and 3 percent cobbles; very strongly acid; gradual wavy boundary. (0 to 20 inches thick)"
+      },
+      {
+        "name": "2C1",
+        "top": 117,
+        "bottom": 142,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sand",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2C1--46 to 56 inches; reddish brown (5YR 4/4) gravelly fine sand; massive; firm; about 17 percent gravel and 3 percent cobbles; strongly acid; clear wavy boundary. (0 to 12 inches thick)"
+      },
+      {
+        "name": "3C2",
+        "top": 142,
+        "bottom": 203,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "coarse sand",
+        "cf_class": "extremely gravelly",
+        "pH_class": "strongly acid",
+        "narrative": "3C2--56 to 80 inches; reddish brown (5YR 4/4) extremely gravelly coarse sand; massive; friable; about 65 percent gravel and 3 percent cobbles; strongly acid."
+      }
+    ]
+  ]
 }

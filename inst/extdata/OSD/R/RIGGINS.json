@@ -56,5 +56,57 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from 0 to 13 inches (A and Bt horizons)\nArgillic horizon - the zone from 8 to 13 inches (Bt horizon)\nParticle-size control section - the zone from 0 to 13 inches (A and Bt horizon).  In soils that are 14 to 20 inches to bedrock the particle-size control section is the argillic horizon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "very gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 8 inches; dark grayish brown (10YR 4/2) very gravelly silt loam, very dark grayish brown (10YR 3/2) moist; moderate fine granular structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine and fine roots; many fine irregular pores; 30 percent gravel and 10 percent cobblestones; neutral (pH 6.8); gradual wavy boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 20,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--8 to 13 inches; brown (10YR 4/3) very gravelly clay loam, very dark grayish brown (10YR 3/2) moist; weak subangular blocky structure; hard, firm, sticky and plastic; common very fine and fine roots; many very fine and fine tubular pores; 35 percent gravel and 10 percent cobblestones; distinct nearly continuous clay films on faces of peds and in pores; neutral (pH 6.8); clear wavy boundary. (4 to 12 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 33,
+        "narrative": "R--13 inches; basalt."
+      }
+    ]
+  ]
 }

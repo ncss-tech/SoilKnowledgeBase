@@ -56,5 +56,77 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon - the zone from 0 to 12 inches (Ap and BA horizons).\nb. Argillic horizon - the zone from 12 to 32 inches (Bt horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; brown (10YR 4/3) silt loam; weak fine granular structure; very friable; common fine roots; about 10 percent channers of siltstone; neutral; clear smooth boundary.  (5 to 12 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 18,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BA--7 to 12 inches; dark yellowish brown (10YR 4/4) channery silt loam; moderate medium subangular blocky structure; friable; common medium roots; about 15 percent channers of siltstone; moderately acid; clear smooth boundary.  (0 to 7 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 30,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--12 to 32 inches; dark yellowish brown (10YR 4/6) channery silty clay loam; common medium distinct light yellowish brown (2.5Y 6/4) mottles; moderate medium subangular blocky structure; friable; few fine roots; few distinct dark yellowish brown (10YR 4/4) clay films on faces of peds; about 30 percent channers of siltstone; strongly acid; clear smooth boundary.  (10 to 28 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 81,
+        "bottom": 97,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "cf_class": "very channery",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "BC--32 to 38 inches; yellowish brown (10YR 5/4) very channery silty clay loam; weak medium subangular blocky structure; firm; about 45 percent channers of siltstone and shale; slightly acid; abrupt smooth boundary.  (0 to 15 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 97,
+        "texture_class": "silt",
+        "narrative": "R--38 inches; hard siltstone."
+      }
+    ]
+  ]
 }

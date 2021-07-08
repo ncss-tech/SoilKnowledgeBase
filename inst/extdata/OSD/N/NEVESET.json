@@ -56,5 +56,51 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nSeries control section:  The zone from 0 to 25 cm.\nParticle-size control section:  The zone from 0 to 25 cm.  (A and Bk horizons)\nOchric epipedon:  The zone from 0 to 6 cm.  (A horizon)\nCalcic horizon:  The zone from 6 to 25 cm.  (Bk horizon)\nLithic contact:  The contact with indurated conglomerate at 25 cm.  (R layer)\nThis series was previously included with the Mellenthin series. The assignment of the cation-exchange activity class is inferred from similar soils in the surrounding area.\nTaxonomic Version:  Classified according to Keys to Soil Taxonomy, Eleventh Edition, 2010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 6,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very cobbly",
+        "pH": 7.9,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 6 cm; brown (7.5YR 5/4) very cobbly fine sandy loam, brown (7.5YR 4/4), moist; weak medium and fine granular structure; very friable, soft, slightly sticky, slightly plastic; few coarse and medium roots and common fine and very fine roots; 20 percent cobbles, 1 percent channers, 25 percent gravel; strongly effervescent (9 percent calcium carbonate equivalent), carbonates are finely disseminated; moderately alkaline (pH 7.9); abrupt wavy boundary.  (5 to 16 cm thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 6,
+        "bottom": 25,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 8.5,
+        "pH_class": "strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bk--6 to 25 cm; light brown (7.5YR 6/4) very gravelly loam, strong brown (7.5YR 5/6), moist; massive; friable, slightly hard, moderately sticky, moderately plastic; common fine and very fine roots; 10 percent cobbles, 40 percent gravel; strongly effervescent (17 percent calcium carbonate equivalent), carbonates are finely disseminated in matrix, common discontinuous carbonate coats on bottoms of rock fragments; strongly alkaline (pH 8.5); abrupt wavy boundary.  (15 to 36 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 25,
+        "narrative": "R--25 cm; indurated calcareous conglomerate bedrock."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,62 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon:  The zone from 2 to 6 inches.  (A horizon)\nCambic horizon:  The zone from 6 to 15 inches.  (Bw horizon)\nLithic contact:  The contact with hard bedrock at 15 inches. (R layer)\nParticle size control section:  The zone from 2 to 15 inches. (A and Bw horizons)\nKeys to Soil Taxonomy, classified according to the Eighth Edition, 1998.\nThe isotic mineralogy class is estimated from data on similar soils. It is presumed to result from the significant amount of iron and aluminum oxides in this pedon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "Oi--0 to 2 inches; organic layer of needles and leaves.  (1 to 3 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 15,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--2 to 6 inches; reddish gray (5YR 5/2) loam, dark reddish gray (5YR 4/2) moist; moderate fine granular structure; slightly hard, friable, nonsticky and nonplastic; 10 percent gravel; very strongly acid (pH 4.8); clear smooth boundary.  (2 to 5 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 15,
+        "bottom": 38,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH": 4.6,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw--6 to 15 inches; light reddish brown (5YR 6/4) gravelly sandy clay loam reddish brown (5YR 4/4) moist; moderate medium granular structure; slightly hard, very friable, nonsticky and slightly plastic; 20 percent gravel; very strongly acid (pH 4.6); abrupt smooth boundary.  (6 to 15 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 38,
+        "narrative": "R--15 inches; granite bedrock, fractured in upper few inches."
+      }
+    ]
+  ]
 }

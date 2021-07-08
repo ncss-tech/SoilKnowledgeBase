@@ -56,5 +56,84 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 25 cm (A1 and A2 horizons).\nCambic horizon - The zone from 25 to 48 cm (2Bw horizon).\nParticle-size control section - The zone from 25 to 100 cm (2Bw  and part of the 2C horizons).\nADDITIONAL DATA: Previous authors and editors include: AJM-RJK-TDT.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 10 cm; grayish brown (10YR 5/2) loam, very dark grayish brown (10YR 3/2) moist; weak thin platy structure breaking to moderate very fine granular; soft, very friable, slightly sticky and nonplastic; many very fine and fine roots; 5 percent gravel; neutral (pH 6.6); clear smooth boundary. (3 to 23 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--10 to 25 cm; grayish brown (10YR 5/2) loam, very dark grayish brown (10YR 3/2) moist; moderate medium and fine subangular blocky structure; soft, friable, slightly sticky and nonplastic; many very fine and fine roots; 10 percent gravel; neutral (pH 6.6); clear smooth boundary. (0 to 25 cm thick)"
+      },
+      {
+        "name": "2Bw",
+        "top": 25,
+        "bottom": 48,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "extremely cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "diffuse",
+        "topography": "irregular",
+        "narrative": "2Bw--25 to 48 cm; brown (7.5YR 5/4) extremely cobbly clay loam, brown (10YR 4/3) moist; moderate medium subangular blocky structure; slightly hard, firm, moderately sticky and moderately plastic; common fine roots; 5 percent stones, 45 percent cobbles, and 25 percent gravel; neutral (pH 7.0); diffuse irregular boundary. (18 to 66 cm thick)"
+      },
+      {
+        "name": "2C",
+        "top": 48,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "narrative": "2C--48 to 152 cm; pale brown (10YR 6/3) extremely cobbly loam, brown (10YR 4/3) moist; massive; slightly hard, firm, slightly sticky and slightly plastic; few fine roots; 20 percent stones, 45 percent cobbles, and 25 percent gravel; neutral (pH 7.0)."
+      }
+    ]
+  ]
 }

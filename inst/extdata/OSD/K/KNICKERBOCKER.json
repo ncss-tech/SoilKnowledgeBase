@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and other features recognize in the typical pedon are as follows:\n(1) Ochric Epipedon - the zone from the surface to 12 inches (Ap horizon).\n(2) Cambic horizon - the zone from 12 to 20 inches (Bw1 horizon).\n(3) Dystrudepts, great group - cambic horizon and base saturation less than 60 percent between depths of 10 and 30 inches.\nSoil Interpretation Record NY0304.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 12 inches; dark brown (10YR 3/3) moist, pale brown (10YR 6/3) dry, fine sandy loam; moderate fine granular structure; very friable; many fine and common medium roots; moderately acid; abrupt smooth boundary. (6 to 15 inches thick.)"
+      },
+      {
+        "name": "Bw1",
+        "top": 30,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw1 -- 12 to 20 inches; dark yellowish brown (10YR 4/4) fine sandy loam; very weak medium subangular blocky structure parting to weak fine granular; very friable; common fine and medium roots; common medium pores; 10 percent rock fragments; faint discontinuous clay bridging; strongly acid; abrupt wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 51,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw2 -- 20 to 35 inches; dark yellowish brown (10YR 4/4) loamy fine sand; very weak, coarse subangular blocky structure; very friable; common medium and fine pores; 10 percent rock fragments; moderately acid; abrupt wavy boundary. (Combined thickness of the Bw horizon 12 to 30 inches.)"
+      },
+      {
+        "name": "C1",
+        "top": 89,
+        "bottom": 135,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C1 -- 35 to 53 inches; olive brown (2.5Y 4/4) loamy fine sand; single grain; very friable; many medium and fine pores; 5 percent rock fragments; common medium dark brown (10YR 3/3) stains; few pockets of very dark grayish brown (10YR 3/2) sand; moderately acid; abrupt wavy boundary. (0 to 24 inches thick.)"
+      },
+      {
+        "name": "C2",
+        "top": 135,
+        "bottom": 183,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "strongly acid",
+        "narrative": "C2 -- 53 to 72 inches; dark grayish brown (2.5Y 4/2) fine sand; common medium and large distinct dark reddish brown (5YR 3/4) and brown (7.5YR 4/4) stains; single grain; loose; few nodular iron concretions; strongly acid."
+      }
+    ]
+  ]
 }

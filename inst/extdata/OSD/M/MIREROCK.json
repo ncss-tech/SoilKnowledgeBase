@@ -56,5 +56,61 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The Mirerock soils have been mapped previously as the Haymarket series. Diagnostic horizons and features recognized in this pedon are:\n1. Ochric epipedon-zone from 0 to 1 inches (A horizon)\n2. Argillic horizon-zone from 5 to 30 inches\n3. Paralithic contact at 30 inches.\n4. Very sticky and very plastic in the Bt horizon.\nSIR=VA0400\nMLRA=148, 136\nREVISED=MHC, 06/22/95; DTA, 04/08 MO14 took over responsibilities for this series\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 1 inch; dark brown (10YR 3/3) loam; moderate fine granular structure; very friable; slightly sticky, slightly plastic; many fine, medium, and coarse roots; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "E",
+        "top": 3,
+        "bottom": 13,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--1 to 5 inches; light olive brown (2.5Y 5/4) fine sandy loam; moderate fine granular structure; very friable; slightly sticky, slightly plastic;  many fine and medium roots; common fine continuous tubular pores; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt",
+        "top": 13,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "silty clay",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--5 to 30 inches; variegated, 60 percent yellowish brown (10YR 5/8) an 40 percent pale brown (10YR 6/3) silty clay; strong fine and medium subangular blocky structure; firm; very sticky, very plastic; common fine and medium roots; common slickensides and many distinct clay films on faces of peds; common fine black nodules; neutral acid; clear smooth boundary."
+      },
+      {
+        "name": "Cr",
+        "top": 76,
+        "bottom": 152,
+        "narrative": "Cr--30 to 60 inches; slightly weathered, chlorite-amphibole schist."
+      }
+    ]
+  ]
 }

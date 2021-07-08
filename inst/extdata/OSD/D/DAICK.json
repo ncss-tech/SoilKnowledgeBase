@@ -56,5 +56,62 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 10 cm (A and C horizons).\nParalithic contact - The boundary at 10 cm to underlying soft bedrock (Cr layer).\nParticle-size control section - The zone from the soil surface to 10 cm (A and C horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "5Y",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 cm; pale yellow (5Y 7/3) gravelly clay loam, olive (5Y 5/4) moist; weak very thin platy structure; slightly hard, very friable, moderately sticky and moderately plastic; many very fine roots; many very fine, many fine, and few medium vesicular pores; 10 percent gravel, 2 percent cobbles, and 3 percent stones; strongly effervescent; moderately alkaline (pH 8.4); abrupt smooth boundary.  (3 to 8 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 3,
+        "bottom": 10,
+        "dry_hue": "5Y",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--3 to 10 cm; olive (5Y 5/4) clay, olive (5Y 5/4) moist; massive; hard, firm, very sticky and very plastic; many very fine and few fine roots; many very fine and few fine tubular pores; 2 percent gravel; strongly effervescent; moderately alkaline (pH 8.4); clear wavy boundary.  (8 to 30 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 10,
+        "dry_hue": "5Y",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "narrative": "Cr--10 cm; pale olive (5Y 6/4) calcareous tuff, olive (5Y 5/4) moist."
+      }
+    ]
+  ]
 }

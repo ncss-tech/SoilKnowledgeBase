@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 25 to 48 centimeters; series control section--the zone from the surface to a depth of 48 centimeters.\nDiagnostic horizons and features recognized in this pedon are:\nmollic epipedon--the zone from the surface to 33 centimeters (A and Btg1 horizons);\ncambic horizon--the zone from a depth of 33 to 48 centimeters (Btg2 horizon);\nlithic contact--contact with Sioux quartzite at a depth of 48 centimeters;\naquic moisture regime based on low chroma colors below the mollic epipedon.\nPreviously mapped or correlated as Webster Variant.\nBecause of the thinness of the soil, drainage class is difficult to assess. Generally the bedrock will not allow the water to pass downward, while in dry periods the soil can become droughty.\nCation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomy versionKeys to Soil Taxonomy, tenth edition, 2006.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 23 centimeters; black (N 2/0) clay loam, very dark gray (10YR 3/1) dry; weak fine granular structure; friable; slightly acid; clear wavy boundary."
+      },
+      {
+        "name": "Btg1",
+        "top": 23,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Btg1--23 to 33 centimeters; very dark grayish brown (2.5Y 3/2) clay loam, dark grayish brown (10YR 4/2) dry; moderate coarse prismatic structure parting to moderate fine subangular blocky structure; friable; thin discontinuous black clay films on faces of peds; many fine distinct olive gray (5Y 4/2) iron depletions; slightly acid; abrupt wavy boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 33,
+        "bottom": 48,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Btg2--33 to 48 centimeters; dark grayish brown (2.5Y 4/2) clay loam; weak coarse platy structure; moderate coarse prismatic structure; firm; thin discontinuous clay films on faces of peds; many fine prominent yellowish brown (10YR 5/6) iron concentrations; slightly acid; abrupt wavy boundary."
+      },
+      {
+        "name": "R",
+        "top": 48,
+        "narrative": "R--48 centimeters; pinkish red, hard Sioux quartzite bedrock."
+      }
+    ]
+  ]
 }

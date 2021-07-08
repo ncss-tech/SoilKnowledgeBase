@@ -56,5 +56,68 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features and horizons recognized in this profile include:\nCambic horizon: from 4 to 30 cm (2 to 12) inches.\nParalithic contact: at 76 cm (30 inches).\nTemperature regime: Cryic\nMoisture regime: Udic\nADDITIONAL DATA: Series first introduced in 1968, in the North Star Soil Survey. Series was reactivated in 2002, in the Ft. Greely Soil Survey\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "texture_class": "silt loam",
+        "cf_class": "stony",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches (0 to 5 cm); 10YR 2/2; stony mucky silt loam; weak medium granular structure; very friable; many very fine to medium roots; slightly sticky; nonplastic; 10 percent gravels, 5 percent cobbles, 5 percent stones; moderately acid (pH 6.0); clear smooth boundary. (0 to 6 cm (0 to 2.5 in.) thick)"
+      },
+      {
+        "name": "2Bw",
+        "top": 5,
+        "bottom": 30,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely stony",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bw--2 to 12 inches (5 to 30 cm); 10YR 4/3; extremely stony sandy loam; weak fine subangular blocky structure; very friable; common very fine and fine roots; slightly sticky; nonplastic; 30 percent gravels, 20 percent cobbles, 20 percent stones; very strongly acid (pH 5.0); gradual smooth boundary. (10 to 40 cm (4 to 16 in.) thick)"
+      },
+      {
+        "name": "2BC",
+        "top": 30,
+        "bottom": 66,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely stony",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "2BC--12 to 26 inches (30 to 65 cm); 10YR 4/3; extremely stony sandy loam; massive; very friable; few very fine and fine roots; slightly sticky; nonplastic; 30 percent gravels, 25 percent cobbles, 25 percent stones; moderately acid (pH 5.6); diffuse smooth boundary. (30 to 50 cm (12 to 20 in.) thick)"
+      },
+      {
+        "name": "2C",
+        "top": 66,
+        "bottom": 76,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely stony",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "narrative": "2C--26 to 30 inches (65 to 76 cm); 10YR 4/3; extremely stony sandy loam; massive; very friable; slightly sticky; nonplastic; 20 percent gravel, 15 percent cobbles, 50 percent stones; slightly acid (pH 6.4)."
+      },
+      {
+        "name": "2Cr",
+        "top": 76,
+        "bottom": 152,
+        "narrative": "2Cr--30 to 60 inches (76 to 152 cm); weathered schist."
+      }
+    ]
+  ]
 }

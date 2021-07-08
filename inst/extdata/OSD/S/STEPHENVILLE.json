@@ -56,5 +56,110 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Major changes in the OSD were made by Walt Schaefer, as a result of the Soil Data Join Re-correlation Initiative (SDJR) in 06/2013.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - 13 cm (5 inches) (A horizon).\nAlbic materials (less than 85 percent by volume) - 13 to 38 cm (5 to 15 inches). (E horizon)\nArgillic horizon - 38 to 84 cm (15 to 33 inches). (Bt horizons)\nParalithic contact - Sandstone bedrock at a depth of 84 cm (33 inches). (Cr horizon)\nADDITIONAL DATA: Soil Survey Investigation Report No. 11, May 1967, National Soil Survey Lab. Lab No. 17174-17179, 17180-17185, S89OK-083-003, and S91OK-109-002; Oklahoma State University Lab No. 70-OK-55-1.\nTaxonomic Version:  USDA-NRCS, Keys to Soil Taxonomy, Eleventh Edition, 2010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 13 cm (0 to 5 inches); grayish brown (10YR 5/2) loamy fine sand, very dark grayish brown (10YR 3/2) moist; weak very fine granular structure; soft, very friable; many very fine and fine and few medium and coarse roots; moderately acid; clear smooth boundary. (8 to 20 cm [3 to 8 inches] thick)"
+      },
+      {
+        "name": "E",
+        "top": 13,
+        "bottom": 38,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loamy fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--13 to 38 cm (5 to 15 inches); light brown (7.5YR 6/4) loamy fine sand, brown (7.5YR 5/4) moist; weak fine granular structure; soft, very friable; common very fine and fine and few medium roots; strongly acid; abrupt wavy boundary. (0 to 33 cm [0 to 13 inches] thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 38,
+        "bottom": 64,
+        "dry_hue": "2.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--38 to 64 cm (15 to 25 inches); red (2.5YR 5/6) sandy clay loam, red (2.5YR 4/6) moist; moderate medium subangular blocky structure; very hard, firm; common very fine and fine and few medium roots; common distinct continuous clay films on faces of peds; clean sand grains along root channels; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 64,
+        "bottom": 84,
+        "dry_hue": "2.5YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "moist_hue": "2.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--64 to 84 cm (25 to 33 inches); light red (2.5YR 6/6) sandy clay loam, red (2.5YR 5/6) moist; weak coarse subangular blocky structure; hard, firm; few very fine and medium, common fine and very few coarse roots; common distinct patchy clay films on faces of peds; clean sand grains along root channels; strongly acid; clear wavy boundary. (Combined thickness of Bt horizon is 33 to 76 cm [13 to 30 inches])"
+      },
+      {
+        "name": "Cr1",
+        "top": 84,
+        "bottom": 102,
+        "dry_hue": "2.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cr1--84 to 102 cm (33 to 40 inches); red (2.5YR 5/6) weakly cemented fine-grained sandstone, red (2.5YR 4/6) moist; common fine and few medium roots in fractures; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Cr2",
+        "top": 102,
+        "bottom": 130,
+        "dry_hue": "2.5YR",
+        "dry_value": 6,
+        "dry_chroma": 8,
+        "moist_hue": "2.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "narrative": "Cr2--102 to 130 cm (40 to 51 inches); light red (2.5YR 6/8) weakly cemented fine-grained sandstone, red (2.5YR 5/8) moist; common fine and few medium roots in fractures; strongly acid."
+      }
+    ]
+  ]
 }

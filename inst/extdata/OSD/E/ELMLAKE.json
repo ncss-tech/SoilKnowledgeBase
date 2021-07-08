@@ -56,5 +56,96 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizon and features recognized in this pedon are: ochric epipedon - from 0 to 4 inches (Oa, A); aquic feature - saturation at or near the surface much of the year typically with low chroma below the A horizon (Color below the A horizon is typically that of uncoated sand grains); Humaqueptic feature - it is assumed that mixing the upper 6 inches will result in an Ap horizon with value moist of 3 or less and value dry of 5 or less and base saturation (by NH4OAc) at 40 inches is less than 50 percent; siliceous feature - less than 10 percent weatherable minerals in the sandy alluvium (0.2 to 20 mm fraction).\nADDITIONAL DATA - Soil Interpretation Record - WI0035\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oa",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 2,
+        "dry_chroma": 1,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oa--0 to 3 inches--black (N 2/0) broken face and rubbed muck (sapric material), black (10YR 2/1) dry: about 25 percent fiber and less than 5 percent rubbed; weak fine granular structure; nonsticky; many fine and very fine and few medium roots; extremely acid; abrupt smooth boundary.  (0 to 7 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 8,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "sand",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--3 to 4 inches; black (N 2/0) mucky sand, dark gray (10YR 4/1) dry; weak fine granular structure; very friable; common very fine and fine roots; extremely acid; abrupt wavy boundary. (0 to 9 inches thick)"
+      },
+      {
+        "name": "Bg",
+        "top": 10,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg-- 4 to 16 inches; dark grayish brown (10YR 4/2) sand; weak coarse subangular blocky structure; very friable; few very fine and fine roots; the color is that of the uncoated sand grains with some organic staining; very strongly acid; clear wavy boundary.  (0 to 24 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 41,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Cg--16 to 24 inches; light gray (10YR 7/2) sand; single grain; loose; few fine roots; the color is that of uncoated sand grains; strongly acid; abrupt wavy boundary.  (15 to 34 inches thick)"
+      },
+      {
+        "name": "2Cg",
+        "top": 61,
+        "bottom": 91,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Cg--24 to 36 inches; light olive gray (5Y 6/2) silty clay loam; massive; firm; common medium prominent strong brown (7.5YR 6/8) masses of iron accumulation; about 5 percent sandstone channers; extremely acid; clear wavy boundary.  (4 to 25 inches thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 91,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "narrative": "2Cr--36 to 60 inches; interbedded very pale brown (10YR 7/3) sandstone and red (2.5YR 4/6) and light brownish gray (2.5Y 6/2) shale."
+      }
+    ]
+  ]
 }

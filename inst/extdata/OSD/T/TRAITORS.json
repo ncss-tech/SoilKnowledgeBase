@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this profile include: an albic horizon from 0 to 1 inch;  a spodic horizon from 1 to 10 inches; loamy particle size from 10 to 14 inches; bedrock at 14 inches; greater than 6 percent organic carbon in the spodic horizon from 1 to 7 inches; a cryic temperature regime.\nADDITIONAL DATA:  Laboratory data is available for this soil: NSSL pedon number 78AK-130-001.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 15,
+        "bottom": 5,
+        "narrative": "Oi--6 to 2 inches; undecomposed forest litter."
+      },
+      {
+        "name": "Oe",
+        "top": 5,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH": 4,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--2 to O inches; black (10YR 2/1) mucky peat; very friable, nonsticky and nonplastic; common coarse and medium, many fine and very fine roots; extremely acid (pH 4.0); abrupt smooth boundary.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "E--0 to 1 inch; dark brown (7.5YR 4/2) silt loam; weak fine subangular blocky structure; friable, slightly sticky and slightly plastic; common fine and very fine roots; very strongly acid (pH 4.5); abrupt smooth boundary.  (1 to 2 inches)"
+      },
+      {
+        "name": "Bhs",
+        "top": 3,
+        "bottom": 18,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bhs--1 to 7 inches; dark reddish brown (5YR 2.5/2) silt loam; moderate medium and fine subangular blocky structure; friable, slightly sticky and slightly plastic; few fine roots; very strongly acid (pH 4.5); clear wavy boundary.  (3 to 7 inches thick)"
+      },
+      {
+        "name": "Bs",
+        "top": 18,
+        "bottom": 25,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs--7 to 10 inches; dark brown (7.5YR 3/2) silt loam; moderate medium and fine subangular blocky structure; friable, slightly sticky and slightly plastic; very strongly acid (pH 4.5); clear wavy boundary.  (3 to 5 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 25,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--10 to 14 inches, dark brown (10YR 3/3) fine sandy loam; weak medium subangular blocky structure; friable, slightly sticky and slightly plastic; very strongly acid (pH 5.0); clear wavy boundary.  (3 to 9 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 36,
+        "narrative": "R--14 inches; schist bedrock"
+      }
+    ]
+  ]
 }

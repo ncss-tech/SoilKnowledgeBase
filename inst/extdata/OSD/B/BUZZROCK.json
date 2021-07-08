@@ -56,5 +56,63 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The Buzzrock series was proposed in the Mt. Rogers National Recreation Area for a special project. It appears on the legend for that area. It was used on the legend for the Grayson County Soil Survey Area. The 8/2000 revision updates this series to the 8th edition of the Keys to Soil Taxonomy. The mineralogy class is estimated from other series that are somewhat similar and have lab data (such as Balsam). The 7/2013 revision updates the Series Status and Series Established Section and updates this series to the 11th edition of the Keys to Soil Taxonomy.\nDiagnostic horizons and other features recognized in this pedon are:\na. Umbric epipedon - 0 to 14 inches (A horizon).\nb. Cambic horizon - 14 to 18 inches (Bw horizon).\nc. Fragmental particle size class (lower profile) - zone with more than 90 percent rock fragments in the lower part of the control section - 18 to 40 inches.\nd. Lithic contact - 42 inches, hard rhyolite bedrock (R horizon).\nADDITIONAL DATA: There are no known data available. Transect data are available from the Grayson County Soil Survey Area.\nMLRA = 130\nRevised 6/7/95-MHC; 8/2000-DHK; 7/2013-JRT\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 14 inches; very dark brown (10YR 2/2) loam; very dark grayish brown (10YR 3/2) dry; moderate fine granular structure; very friable; many fine roots; 10 percent gravel very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bw",
+        "top": 36,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--14 to 18 inches; dark yellowish brown (10YR 4/4) very channery loam; weak fine subangular blocky structure; very friable; common fine roots; 50 percent channers; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "C",
+        "top": 46,
+        "bottom": 107,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C--18 to 42 inches; yellowish brown (10YR 5/4) gravel; single grain; loose; 90 percent cobbles and channers; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "R",
+        "top": 107,
+        "narrative": "R--42 inches; hard rhyolite bedrock."
+      }
+    ]
+  ]
 }

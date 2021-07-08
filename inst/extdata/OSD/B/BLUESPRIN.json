@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the surface to 12 inches (The A1 and the A2 horizon)\nArgillic horizon - The zone from 12 to 31 inches (The Bt1 and Bt2 horizon)\nParticle-size control section - The zone from 12 to 31 inches (The Bt1 and the Bt2 horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A1--0 to 3 inches; dark grayish brown (10YR 4/2) very cobbly loam, very dark gray (10YR 3/1) moist; moderate fine granular structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine roots; many very fine irregular pores; 25 percent gravel and 35 percent cobbles; slightly acid (pH 6.4); gradual wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--3 to 12 inches; dark grayish brown (10YR 4/2) gravelly loam, very dark grayish brown (10YR 3/2) moist; weak medium and coarse subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine roots; many very fine vesicular and fine tubular pores; 25 percent gravel and 10 percent cobbles; neutral (pH 6.6); abrupt wavy boundary.  (combined thickness of the A horizons is 8 to 18 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 30,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--12 to 19 inches; dark yellowish brown (10YR 4/4) very cobbly clay loam, brown (10YR 4/3) moist; moderate medium subangular blocky structure; hard, friable, moderately sticky and moderately plastic; common very fine roots; many very fine vesicular and fine tubular pores; many distinct clay films on faces of peds and in pores; 25 percent gravel and 25 percent cobbles; neutral (pH 6.6); clear wavy boundary.  (6 to 20 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 48,
+        "bottom": 79,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "extremely cobbly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2--19 to 31 inches; dark yellowish brown (10YR 4/4) extremely cobbly clay loam, dark grayish brown (10YR 4/2) moist; moderate medium and coarse subangular blocky structure; hard, friable, moderately sticky and moderately plastic; few very fine, fine, and medium roots; many very fine vesicular and fine tubular pores; many distinct clay films on faces of peds and in pores; 35 percent gravel and 30 percent cobbles; slightly acid (pH 6.5); abrupt wavy boundary.  (6 to 20 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 79,
+        "narrative": "R--31 inches; hard basalt bedrock."
+      }
+    ]
+  ]
 }

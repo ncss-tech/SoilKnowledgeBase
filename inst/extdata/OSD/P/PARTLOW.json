@@ -56,5 +56,98 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Data from 3 pedons in Spotsylvania County by Virginia Polytechnic Institute and State University supports the classification.  These soils were included with the Worsham soils in the past.  They were correlated as a fine-loamy Variant of the Myatt series (siliceous) in Hanover County, Virginia.\nDiagnostic horizons and features recognized in this pedon are:\n1.  Ochric epipedon-the zone from 0 to 14 inches (A and E horizons)\n2.  Argillic horizon-the zone from 14 to 55 inches (Btg horizons)\n3.  Gleyed feature-matrix chroma of 2 or less in the subsoil\nSIR = VA0153\nMLRA = 136\nREVISED = 1/23/90\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0153 PARTLOW     0-  7   59- 66  180-220  38- 46   300- 900\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0153 NONE   COMMON   0-1.0  APPARENT NOV-MAY  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0153  0-14  L                       0-  0  95-100 10-25    -\nVA0153  0-14  COSL                    0-  0  80- 95  5-15    -\nVA0153  0-14  SL FSL                  0-  0  85-100  5-18    -\nVA0153 14-55  SCL CL SL               0-  0  85-100 18-35    -\nVA0153 55-70  SL L SCL                0-  0  85-100  5-35    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0153  0-14  4.5- 5.5  .5-2.  0- 0   2.0- 6.0  LOW\nVA0153  0-14  4.5- 5.5  .5-2.  0- 0   2.0- 6.0  LOW\nVA0153  0-14  4.5- 5.5  .5-2.  0- 0   2.0- 6.0  LOW\nVA0153 14-55  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  LOW\nVA0153 55-70  4.5- 5.5  0.-.5  0- 0   2.0- 6.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "Oi--1 to 0 inches; undecomposed and partially decomposed leaves and twigs."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; very dark grayish brown (10YR 3/2) sandy loam; moderate fine granular structure; very friable; many fine and medium roots; 5 percent angular quartz gravel; strongly acid; clear smooth boundary.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--2 to 14 inches; light brownish gray (10YR 6/2) sandy loam; few fine distinct yellowish red (5YR 4/6) mottles; moderate fine granular structure; very friable; many fine and medium roots; common fine flakes of mica; 5 percent angular quartz gravel; strongly acid; clear smooth boundary.  (0 to 15 inches thick)"
+      },
+      {
+        "name": "Btgl",
+        "top": 36,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btgl--14 to 20 inches; gray (10YR 5/1) sandy loam; few medium distinct strong brown (7.5YR 5/8) mottles; moderate fine subangular blocky structure; friable; many fine roots; few faint clay films on faces of peds and clay bridges between sand grains; common fine flakes of mica; 2 percent angular quartz gravel; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 51,
+        "bottom": 99,
+        "moist_hue": "N",
+        "moist_value": 7,
+        "moist_chroma": 0,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btg2--20 to 39 inches; light gray (N 7/0) and gray (10YR 6/1) sandy clay loam; few medium distinct brownish yellow (10YR 6/6) mottles; friable, slightly sticky, slightly plastic; common fine roots; few faint clay films on faces of peds; common fine flakes of mica; 2 percent angular quartz gravel; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Btg3",
+        "top": 99,
+        "bottom": 140,
+        "moist_hue": "N",
+        "moist_value": 7,
+        "moist_chroma": 0,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Btg3-39 to 55 inches; light gray (N 7/0) sandy clay loam; few medium distinct olive yellow (2.5Y 6/6) mottles; moderate medium subangular blocky structure; friable, slightly sticky, slightly plastic; few fine roots; few faint clay films on faces of peds; 3 percent angular quartz gravel; common fine flakes of mica; strongly acid; abrupt smooth boundary.  (Combined thickness of the Bt horizon is 28 to 66 inches.)"
+      },
+      {
+        "name": "2Cg",
+        "top": 140,
+        "bottom": 178,
+        "moist_hue": "N",
+        "moist_value": 7,
+        "moist_chroma": 0,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "narrative": "2Cg--55 to 70 inches; light gray (N 7/0) sandy loam; many medium distinct strong brown (7.5YR 5/6) and brownish yellow (10YR 6/6) mottles; massive; firm in place, friable when dug; common medium clay flows in the upper part; strongly acid."
+      }
+    ]
+  ]
 }

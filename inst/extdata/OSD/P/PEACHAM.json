@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nHistic epipedon - the zone from 0 to 25 cm (Oe and Oa horizons).\nCambic horizon - the zone from 25 to 38 cm (Bg horizon).\nAquic conditions- masses of iron accumulation in the matrix and an iron depleted matrix from 25 to 38 cm (Bg horizon).\nDensic materials - the zone from 38 to 165 cm (Cdg1 and Cdg2 horizons).\nADDITIONAL DATA: Characterization data for Peacham and similar soils is available through the National Cooperative Soil Survey Soil Characterization Database: http://ncsslabdatamart.sc.egov.usda.gov/\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 5,
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oe--0 to 5 cm; black (N 2.5/) mucky peat; massive; very friable; many fine roots; neutral (pH 7.3); abrupt wavy boundary."
+      },
+      {
+        "name": "Oa",
+        "top": 5,
+        "bottom": 25,
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oa--5 to 25 cm; black (N 2.5/) muck; massive; very friable; many fine roots; neutral (pH 6.7); abrupt smooth boundary. (O horizon is 20 to 40 cm thick.)"
+      },
+      {
+        "name": "Bg",
+        "top": 25,
+        "bottom": 38,
+        "moist_hue": "5GY",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bg--25 to 38 cm; dark greenish gray (5GY 4/1) fine sandy loam; weak fine and medium subangular blocky structure; friable; many fine roots; common medium prominent yellowish brown (10YR 5/8) masses of iron accumulation; 7 percent rock fragments; neutral (pH 6.8); abrupt wavy boundary. (11 to 50 cm thick)"
+      },
+      {
+        "name": "Cdg1",
+        "top": 38,
+        "bottom": 79,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cdg1--38 to 79 cm; dark grayish brown (2.5Y 4/2) fine sandy loam; massive; firm; many coarse prominent yellowish brown (10YR 5/8) masses of iron accumulation and many medium faint gray (5Y 5/1) iron depletions; 10 percent rock fragments; slightly acid (pH 6.4); clear wavy boundary."
+      },
+      {
+        "name": "Cdg2",
+        "top": 79,
+        "bottom": 165,
+        "moist_hue": "5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "narrative": "Cdg2--79 to 165 cm; dark olive gray (5Y 3/2) sandy loam; massive; firm; many medium prominent yellowish brown (10YR 5/8) masses of iron accumulation and many medium faint gray (5Y 5/1) iron depletions; 10 percent rock fragments; neutral (pH 6.8)."
+      }
+    ]
+  ]
 }

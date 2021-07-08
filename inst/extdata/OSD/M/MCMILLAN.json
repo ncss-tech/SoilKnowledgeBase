@@ -56,5 +56,123 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in the pedon are: ochric epipedon - the zone from 1 to 4 inches (A horizon); albic horizon - the zone from 4 to 6 inches (E horizon); spodic horizon - the zone from 6 to 22 inches (Bhs and Bs horizons); lamellae - the zone from 32 to 80 inches (E&Bt horizon).\nADDITIONAL DATA: Refer to S01MI-095-003 for NSSL data on the typical pedon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--0 to 1 inches; partially decomposed organic matter; common fine roots throughout; extremely acid; abrupt smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--1 to 4 inches; very dark gray (10YR 3/1) fine sandy loam, gray (10YR 5/1) dry; moderate medium granular structure; friable; many fine to coarse roots throughout; 2 percent gravel; extremely acid; abrupt wavy boundary. (0 to 4 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 15,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "broken",
+        "narrative": "E--4 to 6 inches; brown (7.5YR 5/2) fine sandy loam, pinkish gray (7.5YR 6/2) dry; moderate medium subangular blocky structure; friable; many fine to coarse roots throughout; extremely acid; abrupt broken boundary. (0 to 3 inches thick)"
+      },
+      {
+        "name": "Bhs",
+        "top": 15,
+        "bottom": 23,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bhs--6 to 9 inches; dark brown (7.5YR 3/3) very fine sandy loam; moderate medium subangular blocky structure; friable; many fine to coarse roots throughout; 5 percent gravel; extremely acid; clear irregular boundary. (1 to 8 inches thick)"
+      },
+      {
+        "name": "Bs1",
+        "top": 23,
+        "bottom": 41,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs1--9 to 16 inches; brown (7.5YR 4/4) very fine sandy loam; moderate medium subangular blocky structure; friable; common fine and medium roots throughout; 5 percent gravel; extremely acid; clear wavy boundary."
+      },
+      {
+        "name": "Bs2",
+        "top": 41,
+        "bottom": 56,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loamy fine sand",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bs2--16 to 22 inches; strong brown (7.5YR 5/6) loamy fine sand; moderate medium subangular blocky structure; friable; few fine roots throughout; extremely acid; gradual wavy boundary. (combined Bs horizons are 6 to 16 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 56,
+        "bottom": 81,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--22 to 32 inches; reddish yellow (7.5YR 6/6) sand; weak medium subangular blocky structure; friable; few fine roots throughout; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt",
+        "top": 81,
+        "bottom": 203,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "narrative": "E&Bt--32 to 80 inches; light brown (7.5YR 6/3) sand (E) pink (7.5YR 7/3) dry and brown (7.5YR 5/4) loamy sand (Bt) lamellae; lamellae are 1/8 to 1/2 inch thick; massive; friable; few fine roots; 1 percent gravel; very strongly acid."
+      }
+    ]
+  ]
 }

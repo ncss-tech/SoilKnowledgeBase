@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The Barcelona series has previously been mapped as a bedrock variant of Niagara and Churchville soils. CEC activity class assigned as superactive based on one pedon of data from Cornell Univ.\nDiagnostic horizons and features recognized in this pedon are:\na.  Ochric epipedon - the zone from the surface to a depth of 15 inches (Ap and BEg horizon).\nb.  Argillic horizon - the zone from 15 to 29 inches (Bt horizon).\nc.  Aquic moisture regime - evidenced by redoximorphic features in the horizon below the Ap horizon, and ped faces with 2 chroma or less and mottles in the argillic horizon (Bt horizon).\nd.  Aeric subgroup - evidenced by more than 40 percent high chroma matrix in the zone from 15 to 30 inches (Bt and 2BC horizon).\nCEC activity class - Assigned as superactive based on pedon data from Cornell Univ.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 9 inches; dark grayish brown (10YR 4/2) silt loam, light brownish gray (10YR 6/2) dry; moderate medium granular structure; friable; many fine roots; neutral; abrupt smooth boundary. (4 to 12 inches thick)"
+      },
+      {
+        "name": "BEg",
+        "top": 23,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BEg -- 9 to 15 inches; grayish brown (10YR 5/2) silt loam; weak fine subangular blocky structure; friable; common fine roots; common fine pores; very few faint clay films lining pores in lower part; 2 percent channers; common medium distinct dark yellowish brown (10YR 4/4) and yellowish brown (10YR 5/6) redoximorphic concentrations; slightly acid; clear wavy boundary. (4 to 11 inches)"
+      },
+      {
+        "name": "Bt",
+        "top": 38,
+        "bottom": 74,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt -- 15 to 29 inches; brown (10YR 4/3) silty clay loam; gray (10YR 5/1) faces of peds; moderate medium subangular blocky structure; firm; few fine roots; common fine pores; common distinct clay films lining pores and on faces of peds; 2 percent channers; common medium distinct gray (10YR 5/1) redoximorphic depletions and yellowish brown (10YR 5/6) redoximorphic concentrations; neutral; clear wavy boundary.  (10 to 20 inches thick)"
+      },
+      {
+        "name": "2BC",
+        "top": 74,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2BC -- 29 to 35 inches; brown (10YR 5/3) channery silt loam; weak medium subangular blocky structure; firm; 15 percent channers; common medium distinct gray (10YR 5/1) redoximorphic depletions; neutral; clear wavy boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 89,
+        "bottom": 130,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "2C -- 35 to 51 inches; brown (10YR 5/3) channery silt loam; massive; firm; 30 percent channers; slightly alkaline; abrupt smooth boundary. (10 to 20 inches thick)"
+      },
+      {
+        "name": "3R",
+        "top": 130,
+        "narrative": "3R -- 51 inches; dark rippable shale bedrock."
+      }
+    ]
+  ]
 }

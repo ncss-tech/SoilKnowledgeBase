@@ -56,5 +56,115 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic layers and features recognized in this profile include:\nOchric epipedon: 3 to 9 inches, 8 to 23 cm\nCambic horizon: 9 to 18 inches, 23 to 46 cm\nParticle size control section: coarse-silty, 10 to 40 inches, 25 to 102 cm\nTemperature regime: Cryic\nA detailed discussion of Fairbanks soils is given in J.A. DeMent, \"The Morphology and Genesis of Subarctic Brown Forest Soils of Central Alaska\", PhD Thesis, Cornell University, 1962; 110pp. and appendix.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch, (0 to 3 cm); slightly decomposed forest litter."
+      },
+      {
+        "name": "Oe",
+        "top": 3,
+        "bottom": 8,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--1 to 3 inches, (3 to 8 cm); dark reddish brown (5YR 2.5/2) partially decomposed organic materials; many fine and coarse roots; mycelia; abrupt smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 8,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--3 to 6 inches, (8 to 15 cm); brown (10YR 4/3) silt loam; weak fine granular structure; very friable; many fine, medium, and coarse roots; moderately acid (pH 5.8); clear wavy boundary.  (2 to 4 inches thick);"
+      },
+      {
+        "name": "E",
+        "top": 15,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--6 to 9 inches, (15 to 23 cm); brown (10YR 5/3) silt loam; pale brown (10YR 6/3) on ped faces; moderate very thin platy structure; very friable; many fine roots; common fine pores; moderately acid (pH 5.8); clear wavy boundary.  (2 to 4 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 23,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--9 to 18 inches, (23 to 46 cm); dark yellowish brown (10YR 4/4) silt loam; yellowish brown (10YR 5/4) on ped faces; moderate very thin platy structure; very friable; discontinuous bands of pale brown (10YR 6/3) and brown (10YR 5/3) silt loam approximately 1/2 inch thick; dark yellowish brown strata approximately 1/4 inch thick; many fine roots; common fine pores; slightly acid (pH 6.3); abrupt wavy boundary.  (8 to 15 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 46,
+        "bottom": 74,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--18 to 29 inches, (46 to 74 cm); dark grayish brown (2.5Y 4/2) silt loam; moderate very thin platy structure; very friable; common fine roots; common fine pores; slightly acid (pH 6.3); gradual wavy boundary.  (4 to 11 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 74,
+        "bottom": 109,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C1--29 to 43 inches, (74 to 109 cm); olive (5Y 4/3) silt loam; dark yellowish brown (10YR 4/4) common medium distinct mottles; moderate very thin platy structure; very friable; few fine roots; common fine pores; slightly acid (pH 6.3); gradual wavy boundary.  (6 to 20 inches thick)"
+      },
+      {
+        "name": "C2",
+        "top": 109,
+        "bottom": 152,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "narrative": "C2--43 to 60 inches, (74 t0 152 cm); olive (5Y 4/3) silt loam; weak medium platy structure; very friable; few fine roots; common fine pores; neutral (pH 7.0)."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nMajor Diagnostic Horizons:\n1.  Ochric epipedon: 0 to 3 inches (A). Thickness ranges\nfrom 1 to 7 inches.\n1.1  Organic matter is assumed to be less than 1 percent\n1.2  A horizons with moist color values of 3 are too\nthin for Mollic subgroup.\n2.  Argillic horizon: 3 to 33 inches (Bt1, Bt2, Btk).\nThickness ranges from 20 to 40 inches thick.\nOther Diagnostic Horizons:\n1.  Fine family: The textural control section, the top 20\ninches of the argillic horizon, is 3 to 23 inches.\n1.1  Soil PSA done locally by 6 hour hydrometer method;\nHorizon   Depth   Sand   Silt   Clay\n(in.)\nA        0-03    50     26     24\nBt1     03-09    45     21     34*\nBt2     09-25    43     20     37*\nBtk     25-33    43     21     36\n2ck1    33-49    64     19     17\n2ck2    49-59    30     48     22\n*Weighted clay average of the 3 to 23 inch textural\ncontrol section is 36 percent.\n2.  Mineralogy is assumed mixed and superactive.\n3.  Temperature - Moisture: Thermic - xeric\n3.1  The 6 to 17 inch SMCS is dry in all parts from\nJune 1 to October 31 and is moist in some part from\nNovember 1 to May 31.\n3.2  The soil temperature is above 47 degrees F. from\nDecember 15 to March 1.\n3.3  The MAST is 59 to 63 degrees F.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "texture_class": "sandy clay loam",
+        "pH": 5.7,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; grayish brown (10YR5/2) sandy clay loam; dark brown (10YR4/3) moist; strong thick platy structure; hard, friable, slightly sticky and slightly plastic; many very fine roots; many very fine interstitial and tubular and few fine tubular pores; moderately acid (pH5.7); abrupt wavy boundary."
+      },
+      {
+        "name": "Bt1",
+        "top": 8,
+        "bottom": 23,
+        "texture_class": "clay loam",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--3 to 9 inches;  brown (10YR5/3) clay loam;  brown (10YR4/3) moist; strong coarse subangular blocky parting to strong coarse prismatic structure; hard, friable, sticky and plastic; many very fine roots; common very fine tubular and interstitial and few fine tubular pores; few thin clay films on ped faces; slightly acid (pH6.1); clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 23,
+        "bottom": 64,
+        "texture_class": "clay loam",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--9 to 25 inches; brown/dark brown (10YR4/3) clay loam; brown (10YR4/3) moist; strong coarse prismatic structure parting to strong coarse subangular blocky structure; very hard, friable, sticky and plastic; common very fine and few fine roots; common very fine interstitial and few very fine tubular pores; common thin clay films in pores and on ped faces; slightly acid (pH6.5); clear smooth boundary."
+      },
+      {
+        "name": "Btk",
+        "top": 64,
+        "bottom": 84,
+        "texture_class": "clay loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Btk--25 to 33 inches; yellowish brown (10YR5/4) clay loam; dark yellowish brown (10YR4/4) moist; strong coarse prismatic structure parting to strong coarse subangular blocky structure; hard, friable, sticky, and plastic; common very fine and few fine roots; common very fine interstitial and few very fine tubular pores; common moderately thick clay films in pores and on ped faces; strongly effervescent (6 percent calcium carbonate; HCl 1 normal), common medium carbonates occur in irregularly soft masses and few medium carbonates occur in rounded concretions; slightly alkaline (pH7.4); abrupt wavy boundary."
+      },
+      {
+        "name": "2Ck1",
+        "top": 84,
+        "bottom": 124,
+        "texture_class": "sandy loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Ck1--33 to 49 inches; light yellowish brown (10YR6/4) sandy loam; dark yellowish brown (10YR4/4) moist; massive; hard, very friable, slightly sticky and slightly plastic; few very fine and fine roots; few very fine interstitial and very fine and fine tubular pores; strongly effervescent (6 percent calcium carbonate; HCl 1 normal), common carbonates occur as fine filaments or threads and few fine carbonates occur as rounded concretions; slightly alkaline (pH7.8); abrupt wavy boundary."
+      },
+      {
+        "name": "2Ck2",
+        "top": 124,
+        "bottom": 150,
+        "texture_class": "loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2Ck2--49 to 59 inches; light gray (2.5Y7/2) loam; light yellowish brown (2.5Y6/4) moist; massive; hard, very friable, slightly sticky and slightly plastic; few very fine roots; few very fine tubular and interstitial pores; violently effervescent (12 percent calcium carbonate; HCl 1 normal), many carbonates occur as large seams on ped faces; slightly alkaline (pH7.8); clear smooth boundary."
+      },
+      {
+        "name": "2Cr",
+        "top": 150,
+        "bottom": 203,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "silt",
+        "narrative": "2Cr--59 to 80 inches; light gray (2.5Y 7/2) siltstone; compact, massive, hard and brittle; few very fine roots along fracture planes; violently effervescent (5 percent calcium carbonate; HCl 1 normal), common carbonates occur as large seams along fracture planes; weathered bedrock matrix is not effervescent."
+      }
+    ]
+  ]
 }

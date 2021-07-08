@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nOchric Epipedon  the zone from 0 to 8 inches (A1, A2, and E horizons).\nWeak spodic horizon  the zone from 8 to 15 inches (Bw/Bh horizon).\nDepth to soft limestone  at a depth of 15 inches (Cr horizon).\nDepth to hard limestone  at a depth of 26 inches (R horizon).\nUnder natural conditions the soil is flooded daily during normal high tides.  Available water capacity is high in the A horizons and medium in the Bw horizon.\nThe Lacoochee series was formerly mapped as a miscellaneous land type named Tidal marsh.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 4 inches; light gray (10YR 7/1) fine sandy loam; weak medium subangular blocky structure; friable; few fine roots; few small fragments of shells and hard limestone; 57 percent carbonate as calcium carbonate; moderately alkaline, calcareous; clear wavy boundary.  (2 to 7 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--4 to 6 inches; light gray (10YR 7/1) fine sandy loam; weak medium subangular blocky structure; friable; few small fragments of shells and hard limestone; 47 percent carbonate as calcium carbonate; few fine faint brownish yellow (10YR 6/6) areas of organic matter accumulation; moderately alkaline, calcareous; clear smooth boundary.  (0 to 3 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 15,
+        "bottom": 20,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--6 to 8 inches; grayish brown (2.5Y 5/2) loamy fine sand; weak medium subangular blocky structure; friable; few fine roots; 13 percent carbonate as gypsum; few fine faint streaks of light gray (10YR 7/1) areas of organic matter depletions and brownish yellow (10YR 6/6) organic matter accumulation; moderately alkaline, calcareous; clear wavy boundary.  (2 to 4 inches thick)"
+      },
+      {
+        "name": "Bw/Bh",
+        "top": 20,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loamy fine sand",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bw/Bh--8 to 15 inches; yellowish brown (10YR 5/6) loamy fine sand; weak medium granular structure; very friable; few fine roots; about 7 percent carbonate as calcium carbonate; few fine faint light brownish gray (10YR 6/2) areas of organic matter depletions; few fine faint dark brown (10YR 3/3) areas of organic matter accumulation; slightly alkaline, calcareous; abrupt irregular boundary.  (5 to 15 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 38,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 1,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Cr--15 to 26 inches; white (10YR 8/1) soft limestone; massive; firm; about 35 percent, by volume, fragments of hard limestone; most roots do not penetrate this layer but are turned at the upper boundary; moderately alkaline, calcareous; abrupt irregular boundary.  (3 to 20 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 66,
+        "narrative": "R--26 inches; hard white (10Yr 8/1) limestone that can be chipped but not dug with a spade."
+      }
+    ]
+  ]
 }

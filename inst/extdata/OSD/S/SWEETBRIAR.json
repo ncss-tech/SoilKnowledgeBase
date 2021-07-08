@@ -56,5 +56,155 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon- the zone from the surface of the mineral soil to a depth of approximately 18 inches.  (A1, A2 and Bt1 horizons)\nArgillic horizon- the zone from approximately 8 to 60 inches.  (Bt1, Bt2, Bt3, Bt4, Bt5, and Bt6 horizons)\nParticle-size control section- from 8 to 28 inches.  (Bt1, Bt2, and part of the Bt3 horizons) with estimated clay content of 45 percent.\nUltic intergrade- base saturation is assumed to be 35 to 60 percent throughout the argillic horizon, decreasing with depth.  (Thus the soil is not a Mollisol)\nMollic intergrade- color value of 3 moist in the A horizon with more than 0.7 percent organic carbon.\nPlacement into Haploxeralfs is based on the modal profile.  Areas of this soil that have hue of 7.5YR and chroma of more than 4 in the matrix of the argillic horizon would qualify as Palexeralfs.  This problem exists in many of the series of Ultic Haploxeralfs.  A change is needed in the keys to address this problem; recommend changing hue to be redder than 7.5YR instead of redder than 10YR\nThe superactive cation exchange activity class was added to the classification in 10/2005. The competing series section was not updated at that time. Last revision 3/1995.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 3 inches; very dark grayish brown (10YR 3/2) silty clay loam, dark grayish brown (10YR 4/2) dry; moderate fine and medium granular and moderate very fine subangular blocky structure; hard, firm, sticky and plastic; many very fine and common fine, medium and coarse roots; many very fine and fine irregular pores; 10 percent gravel; moderately acid (pH 5.8); clear smooth boundary.  (2 to 3 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--3 to 8 inches; very dark grayish brown (10YR 3/2) silty clay loam, dark grayish brown (10YR 4/2) dry; moderate very fine and fine subangular blocky structure; very hard, firm, sticky and plastic; many very fine, and common fine, medium and coarse roots; common very fine and fine irregular pores; 10 percent gravel; moderately acid (pH 5.8); clear smooth boundary.  (4 to 6 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--8 to 18 inches; dark brown (10YR 3/3) clay, brown (10YR 4/3) dry; moderate fine and medium subangular blocky structure; very hard, very firm, sticky and plastic; common very fine, fine, medium and coarse roots; common very fine and fine tubular pores; common faint clay films on peds and lining pores; 5 percent gravel; moderately acid (pH 5.6); clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 46,
+        "bottom": 58,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 5.4,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--18 to 23 inches; dark yellowish brown (10YR 4/4) clay, yellowish brown (10YR 5/4) dry; moderate medium and coarse subangular blocky structure; very hard, very firm, very sticky and plastic; common very fine, fine, medium and coarse roots; common very fine and fine tubular pores; common distinct clay films on peds and lining pores; 5 percent gravel; strongly acid (pH 5.4); clear wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 58,
+        "bottom": 74,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH": 5.2,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt3--23 to 29 inches; dark yellowish brown (10YR 4/6) clay, yellowish brown (10YR 5/6) dry, moderate medium and coarse subangular blocky structure; very hard, very firm, very sticky and plastic; common very fine, fine, and medium roots; common very fine and fine tubular pores; common distinct clay films on peds and lining pores; 5 percent gravel; strongly acid (pH 5.2); clear wavy boundary."
+      },
+      {
+        "name": "Bt4",
+        "top": 74,
+        "bottom": 97,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt4--29 to 38 inches; dark yellowish brown (10YR 4/6) clay, yellowish brown (10YR 5/6) dry, moderate medium and coarse subangular blocky structure; very hard, very firm, very sticky and plastic; common very fine, fine, medium and coarse roots; common very fine and fine tubular pores; common distinct clay films on peds and lining pores; very strongly acid (pH 4.8); clear wavy boundary."
+      },
+      {
+        "name": "Bt5",
+        "top": 97,
+        "bottom": 135,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt5--38 to 53 inches; yellowish brown (10YR 5/6) silty clay loam, brownish yellow (10YR 6/6)dry; moderate medium and coarse subangular blocky structure; very hard, very firm, very sticky and plastic; common very fine, fine, medium and coarse roots; common fine tubular pores; common distinct clay films on peds and lining pores; very strongly acid (pH 4.8); clear wavy boundary."
+      },
+      {
+        "name": "Bt6",
+        "top": 135,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "narrative": "Bt6--53 to 60 inches; dark yellowish brown (10YR 4/4) clay loam, yellowish brown (10YR 5/4) dry; weak very fine and fine subangular blocky structure; slightly hard, firm, sticky and plastic; common very fine, fine, medium and coarse roots; common very fine and fine irregular pores; few moderately thick clay films on peds; very strongly acid (pH 4.8).  (Combined thickness of the Bt horizon is over 50 inches)"
+      },
+      {
+        "name": "Oi",
+        "top": 1,
+        "narrative": "Oi--0.5 inch to 0; slightly decomposed needles, leaves, twigs, bark and cone fragments."
+      }
+    ]
+  ]
 }

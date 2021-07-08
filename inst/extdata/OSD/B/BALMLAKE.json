@@ -56,5 +56,72 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized are:  ochric epipedon - zone from surface of soil to a depth of 11 inches (A & E horizons); argillic horizon - 11 to 24 inches (Bt); udic features; udic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; very dark brown (10YR 2/2) fine sandy loam, very dark gray (10YR 3/1) dry; weak fine granular structure; very friable; about 1 percent gravel; strongly acid; abrupt wavy boundary. (2 to 6 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--3 to 11 inches; yellowish brown (10YR 5/4) fine sandy loam, light yellowish brown (10YR 6/4) dry; weak thin platy structure; very friable; about 1 percent gravel; moderately acid; abrupt wavy boundary.  (5 to 20 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 28,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--11 to 24 inches; yellowish brown (10YR 5/4) fine sandy loam; weak fine subangular blocky structure; friable; few distinct dark yellowish brown (10YR 4/4) clay films on faces of peds; about 1 percent gravel; moderately acid; clear wavy boundary.  (6 to 26 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 61,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "very fine sand",
+        "pH_class": "moderately alkaline",
+        "narrative": "2C--24 to 60 inches; pale brown (10YR 6/3) stratified fine sand, very fine sand, and silt; massive; very friable; about 3 percent gravel; violently effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

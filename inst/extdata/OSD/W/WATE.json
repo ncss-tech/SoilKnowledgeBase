@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Wate soils were formerly included with the Wahee or Warne series. The central concept of the Wahee series is in the Tidewater MLRA (153B) and the Warne series in the MLRA 133A and 136 (thermic). Wate soils are in a drainage catena of Danripple (well drained), Banister (moderately well drained), Wate (somewhat poorly drained), and Kinkora (poorly drained) soils.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon--the zone from the surface of the soil to 11 inches (A and E horizons)\nAlbic horizon--the zone from 5 to 11 inches (E horizon)\nArgillic horizon--the zone from 11 to 38 inches (Btg1 and Btg2 horizons)\nEndosaturation--saturation in all layers to a depth of 80 inches\nADDITIONAL DATA: None\nTABULAR SERIES DATA:\nSoil Name   Slope   Airtemp   FrFr/Seas   Precip   Elevation\nWATE        0-8     52-57     165-205     38-54    300-1600\nSoil Name   FloodL  FloodH     Watertable   Kind      Months    Bedrock\nWATE        OCCAS   VERY RARE  1.0-1.5      APPARENT  DEC-MAR   >80\nSoil Name   Depth    Texture       3-Inch   No-10    Clay%   -CEC-\nWATE        0-11     SL FSL        0-0     95-100    5-20     2-6\nWATE        0-11     L SIL VFSL    0-0    100-100   10-27     3-10\nWATE       11-38     C CL SIC      0-0    100-100   35-70     8-20\nWATE       38-80     VAR\nSoil Name   Depth    -pH-      O.M.     Salin   Permeab   Shnk-Swll\nWATE        0-11   4.5-6.0     0.5-5.0  0-0     0.6-2.0   LOW\nWATE        0-11   4.5-6.0     0.5-5.   0-0     0.2-2.0   LOW\nWATE       11-38   3.6-5.5     0.0-.5   0-0     0.06-0.6  MODERATE\nWATE       38-62\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 10 inches; olive brown (2.5Y 4/3) sandy loam; moderate medium granular structure; friable, slightly sticky, slightly plastic; neutral; clear smooth boundary. (Combined thickness of the A horizon is 4 to 12 inches.)"
+      },
+      {
+        "name": "Bt",
+        "top": 25,
+        "bottom": 41,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--10 to 16 inches; light yellowish brown (2.5Y 6/3) sandy clay loam; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; many continuous distinct clay films on all faces of peds; common peominent irregular olive yellow (2.5Y 6/8) masses of oxidized iron and common distinct light gray (2.5Y 7/1) iron depletions; neutral; clear wavy boundary."
+      },
+      {
+        "name": "Btg1",
+        "top": 41,
+        "bottom": 71,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btg1--16 to 28 inches; light gray (2.5Y 7/1) clay; moderate medium angular blocky structure; very firm, moderately sticky, very plastic; many continuous distinct clay films on all faces of peds; common prominent strong brown (7.5YR 5/6) and many prominent olive yellow (2.5Y 6/6) masses of oxidized iron; slightly acid; clear wavy boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 71,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btg2--28 to 35 inches; light bluish gray (5PB 7/1) clay; moderate medium angular blocky structure; very firm, moderately sticky, very plastic; common continuous distinct clay films on all faces of peds; common prominent brownish yellow (10YR 6/8) masses of oxidized iron; common very dark gray masses of oxidizied manganese; common light gray (N 7/0) clay depletions; moderately acid; clear wavy boundary."
+      },
+      {
+        "name": "Btg3",
+        "top": 89,
+        "bottom": 119,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btg3--35 to 47 inches; bluish gray (5PB 6/1) clay; moderate medium wedge structure; extremely firm, very sticky, very plastic; common continuous distinct slickensides on vertical faces of peds and common continuous distinct clay films on surfaces along pores; common prominent strong brown (7.5YR 4/6), yellowish brown (10YR 5/6), and light olive brown (2.5Y 5/6) masses of oxidized iron; moderately acid; clear wavy boundary."
+      },
+      {
+        "name": "Btg4",
+        "top": 119,
+        "bottom": 160,
+        "moist_hue": "N",
+        "moist_value": 6,
+        "moist_chroma": 0,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btg4--47 to 63 inches; gray (N 6/0) clay; moderate medium wedge structure; extremely firm, moderately sticky, very plastic; common continuous distinct slickensides on vertical faces of peds and many continuous distinct clay films on surfaces along pores; common prominent strong brown (7.5YR 4/6), brownish yellow (10YR 6/6), and light yellowish brown (2.5Y 6/4) masses of oxidized iron; moderately acid; clear wavy boundary. (Combined thickness of the Bt horizons is 15 to 30 inches or more.)"
+      },
+      {
+        "name": "Btg5",
+        "top": 160,
+        "bottom": 203,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "slightly alkaline",
+        "narrative": "Btg5--63 to 80 inches; bluish gray (5PB 6/1) clay; moderate coarse wedge structure; extremely firm, very sticky, very plastic; many continuous distinct slickensides on vertical faces of peds and common discontinuous distinct clay films on surfaces along pores; common prominent strong brown (7.5YR 5/6) masses of oxidized iron; slightly alkaline. (Combined thickness of the Bt horizons is 15 to 40 inches or more.)"
+      }
+    ]
+  ]
 }

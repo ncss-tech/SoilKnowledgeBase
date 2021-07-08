@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  These soils have been included with the Atlee series in past mapping.\nDiagnostic horizons and features recognized in the pedon are:\na.  Ochric epipedon - from the surface to 11 inches.\nb.  Argillic horizon - Between 11 and 65 inches.\nc.  Horizon between 21 and 48 inches has 50 percent of the volume brittle (Fragic Aquic) d.  More than 85 percent silt or very fine sand (fine-silty) e.  Clay does not decrease by 20 percent before 60 inches.  (Palic)\nADDITIONAL DATA:  Particle-size, chemical, and mineralogy data are available for the typical pedon (74VA-193-5) and for 4 other pedons in Prince George County, Virginia.  Particle-size data is also available for three satellite pedons in Westmoreland County.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0165 MONTROSS    0-  6   58- 62  180-220  40- 46    25- 250\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0165 NONE          1.0-2.5  PERCHED  DEC-APR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0165  0-11  SIL L                   0-  0  95-100  5-15    -\nVA0165  0-11  VFSL FSL                0-  0  95-100  5-15    -\nVA0165 11-21  SIL SICL CL             0-  0  95-100 20-35    -\nVA0165 21-72  SICL CL C               0-  0  90-100 27-45    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0165  0-11  3.6- 5.5  1.-3.  0- 0   0.6- 2.0  LOW\nVA0165  0-11  3.6- 5.5  .5-2.  0- 0   0.6- 6.0  LOW\nVA0165 11-21  3.6- 5.5  0.-.5  0- 0   0.6- 2.0  LOW\nVA0165 21-72  3.6- 5.5  0.-.5  0- 0  0.06- 0.6  MODERATE\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 5,
+        "bottom": 0,
+        "narrative": "0i--2 to 0 inches; loose leaves and forest debris."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "texture_class": "silt loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; grayish brown (lOYR 5/2) silt loam; weak medium granular structure; friable, nonsticky, nonplastic; many fine roots; extremely acid; abrupt smooth boundary.  (0 to 10 cm thick)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 28,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--2 to 11 inches; light yellowish brown (2.5Y 6/4) silt loam; weak medium granular structure; friable, slightly sticky, slightly plastic; many fine roots; extremely acid; clear smooth boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 28,
+        "bottom": 53,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt1--11 to 21 inches; yellowish brown (lOYR 5/6) silt loam; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; common fine and medium roots; few distinct strong brown (7.5YR 5/6) clay films on faces of peds; very strongly acid; abrupt wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 53,
+        "bottom": 122,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt2--21 to 48 inches; yellowish brown (lOYR 5/6) silty clay loam with common medium distinct light brownish gray (lOYR 6/2) iron depletions; weak coarse prismatic structure parting to moderate thick platy; very firm and compact in place with 50 percent of the volume brittle when moist; slightly sticky, plastic; few fine roots on faces of plates; few distinct strong brown (7.5YR 5/6) clay films on faces of peds; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 122,
+        "bottom": 165,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt3--48 to 65 inches; multicolored red (2.5YR 4/8), strong brown (7.5YR 5/6), light gray (10R 7/1), and light yellowish brown (2.5YR 6/4) clay; moderate medium platy structure parting to strong very fine subangular blocky; very firm with up to 20 percent of the volume brittle when moist; sticky, plastic; thin very patchy strong brown (7.5YR 5/6) clay films on faces of plates; very strongly acid; gradual smooth boundary.  (Combined thickness of the B2t horizon is 30 to 55 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 165,
+        "bottom": 190,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "BC--65 to 75 inches; multicolored red (2.5YR 4/8), strong brown (7.5YR 5/6), light gray (lOYR 7/1), and light yellowish brown (2.5YR 6/4) clay loam; weak coarse subangular blocky structure; firm; slightly sticky, plastic; very strongly acid."
+      }
+    ]
+  ]
 }

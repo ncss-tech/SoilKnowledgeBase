@@ -56,5 +56,83 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon:\nOchric epipedon - zone from 0 to 18 cm (Oe, A horizons)\nParalithic contact - at 61 cm (Cr horizon)\nLithic contact - at 79 cm (R horizon)\nParticle-size control section - zone from 28 to 61 cm (part of the AC, C horizons)\nQuartzburg soils have a frigid temperature regime and a xeric moisture regime.\nAdditional Information: 03/2016 - Classification changed from Sandy-skeletal, mixed, frigid Dystric Xerorthents to Sandy-skeletal, mixed, frigid Typic Xerorthents. Lab data for similar soils from Idaho do not support the Dystric subgroup. Investigation of series concept in California is needed to confirm classification there.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oe--0 to 3 cm; slightly and moderately decomposed forest litter. (0 to 8 cm thick)"
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "very gravelly",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--3 to 18 cm; grayish brown (10YR 5/2) very gravelly loamy coarse sand, very dark grayish brown (10YR 3/2), very dark brown (10YR 2/2) crushed, moist; weak very fine and fine granular structure; slightly hard, very friable, nonsticky and nonplastic; common very fine and fine roots; many very fine tubular pores; 35 percent angular fine gravel; slightly acid (pH 6.3); clear wavy boundary. (10 to 23 cm thick)"
+      },
+      {
+        "name": "AC",
+        "top": 18,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "very gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "AC--18 to 43 cm; light brownish gray (10YR 6/2) very gravelly loamy coarse sand, very dark grayish brown (10YR 3/2) moist; weak very fine and fine granular structure; slightly hard, very friable, nonsticky and nonplastic; common very fine and fine roots; many very fine tubular pores; 35 percent angular fine gravel; slightly acid (pH 6.4); clear wavy boundary. (18 to 38 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 43,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "extremely gravelly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C--43 to 61 cm; light gray (10YR 7/2) and very pale brown (10YR 7/3) extremely gravelly loamy coarse sand, grayish brown (10YR 5/2) and brown (10YR 5/3) moist; massive; hard, firm, nonsticky and nonplastic; few fine roots; many very fine irregular pores; 75 percent angular gravel and 5 percent cobbles; slightly acid (pH 6.5); gradual wavy boundary. (15 to 33 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 61,
+        "bottom": 79,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 2,
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "narrative": "Cr--61 to 79 cm; very pale brown (10YR 8/2) weathered quartz monzonite (grus); very pale brown (10YR 7/3) and (10YR 7/4) stains; slightly acid (pH 6.5). (3 to 15 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 79,
+        "narrative": "R--79 cm; slightly weathered quartz monzonite."
+      }
+    ]
+  ]
 }

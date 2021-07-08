@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nThe 2/99 revision updates the classification to the 8th Edition of Keys to Soil Taxonomy. This soil is placed in the semiactive CEC activity class based on comparison with associated soils such as Ditney. 11/13 revision verifies classification--11th Edition of Keys to Soil Taxonomy changes format to semitab, and minor changes to Range in Characteristics.\nDiagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon--the zone from 10 to 38 cm, 4 to 15 inches (A1 and A2 horizons)\nb. Cambic horizon--the zone from 38 to 167cm, 15 to 66 inches (Bw1 and Bw2 horizons)\nc. Lithic contact--the contact with unweathered rock at 167 cm, 66 inches (upper boundary of the R horizon).\nADDITIONAL DATA:\nSoil Characterization Data is available from the Kellogg Soil Survey Laboratory (KSSL) website: http://ncsslabdatamart.sc.egov.usda.gov/querypage.aspx\n________________________________________\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {}
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 10,
+        "narrative": "Oi--0 to 10 cm (0 to 4 inches); slightly decomposed organic mat of hardwood and rhododendron leaves."
+      },
+      {
+        "name": "A1",
+        "top": 10,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--10 to 13 cm (4 to 5 inch); dark grayish brown (10YR 4/2) loam; weak fine and medium granular structure; very friable; many fine and medium roots; about 10 percent feldspathic quartzite fragments by volume, across; strongly acid; abrupt smooth boundary"
+      },
+      {
+        "name": "A2",
+        "top": 13,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--13 to 23 cm (5 to 9 inches); dark yellowish brown (10YR 4/4) loam; weak medium granular structure; very friable; common fine and medium roots; about 10 percent feldspathic quartzite fragments by volume, strongly acid; clear smooth boundary. (Combined thickness of the A horizons ranges from 2 to 38 cm, 1 to 15 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 23,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BA--23 to 38 cm (9 to 15 inches); yellowish brown (10YR 5/4) loam; weak fine subangular blocky structure; friable; common fine and medium roots; about 10 percent feldspathic quartzite fragments by volume, strongly acid; clear smooth boundary. (0 to 15 cm, 0 to 6 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 38,
+        "bottom": 122,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw1--38 to 122 cm (15 to 48 inches); yellowish brown (10YR 5/6) cobbly loam; weak medium subangular blocky structure; friable; common fine and medium roots; about 20 percent feldspathic quartzite fragments by volume, strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 122,
+        "bottom": 167,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw2--122 to 167 cm (48 to 66 inches); yellowish brown (10YR 5/6) cobbly loam; weak fine subangular blocky structure; very friable; few fine roots; about 35 percent feldspathic quartzite fragments by volume, strongly acid; gradual smooth boundary. (Combined thickness of the Bw horizons ranges from 76 to 152 cm, 30 to 60 inches)"
+      },
+      {
+        "name": "R",
+        "top": 167,
+        "texture_class": "sandy loam",
+        "narrative": "R--167 cm (66 inches); unweathered, hard feldspathic quartzite bedrock; thin seams of yellowish brown sandy loam material in cracks."
+      }
+    ]
+  ]
 }

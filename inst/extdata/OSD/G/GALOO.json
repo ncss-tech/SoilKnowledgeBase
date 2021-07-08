@@ -56,5 +56,48 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This series was established to cover areas that have been considered as inclusions in the Benson and Farmington series at the deeper end of the range or as bedrock at the shallower end of the range.\nDiagnostic horizons and other features recognized in the typical pedon:\n(1) Ochric epipedon - the zone from the surface to 10 cm (A horizon).\n(2) Cambic horizon - the zone from 10 to 18 cm (Bw horizon).\n(3) Lithic contact - hard bedrock at 18 cm (2R horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A -- 0 to 10 centimeters; dark brown (7.5YR 3/2) silt loam; weak fine and very fine granular structure; very friable; many fine roots; 7 percent coarse fragments; neutral; abrupt smooth boundary. (3 to 20 centimeters thick.)"
+      },
+      {
+        "name": "Bw",
+        "top": 10,
+        "bottom": 18,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw -- 10 to 18 centimeters; reddish brown (5YR 4/3) channery silt loam, brown (7.5YR 4/4) rubbed; moderate fine and very fine subangular blocky structure, parting to moderate fine and very fine granular, 15 percent coarse fragments; neutral; abrupt smooth boundary. (3 to 13 centimeters thick.)"
+      },
+      {
+        "name": "2R",
+        "top": 18,
+        "narrative": "2R -- 18 centimeters; gray limestone bedrock."
+      }
+    ]
+  ]
 }

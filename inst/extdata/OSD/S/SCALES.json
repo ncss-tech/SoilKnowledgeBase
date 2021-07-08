@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The Scales series was proposed in the Mt. Rogers National Recreation Area for a special project. It appears on the legend for that area. It was also used on the legend for the Grayson County Soil Survey Area.\nThe 6/2006 revision updates this soil to the 9th Edition of the Keys to Soil Taxonomy (2003). The CEC activity class placement is based on similar soils and not on laboratory data. Class placement may be revised in the future when laboratory data are reviewed or become available. Reaction class was also assigned. Mineralogy class is assumed. The 7/2013 revision updates the series status and Series Established section.\nDiagnostic horizons and other features recognized in this pedon are:\na. Histic epipedon-the zone from 0 to 11 inches (O horizons).\nb. Aquic conditions in a layer between 16 and 20 inches from the mineral soil surface or in a layer above a densic contact (Cg horizon).\nc. Densic contact (21 inches-top of the Cd1 horizon).\nADDITIONAL DATA: There are no known data available. Transect data are available from the Grayson County SS Area.\nMLRA=130\nRevised: 6/9/95-MHC; 8/2000-DHK; 6/2006-DHK ; 7/2013-JRT\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "narrative": "Oi--0 to 2 inches; black (10YR 2/1) peat. (0 to 3 inches thick)"
+      },
+      {
+        "name": "Oe",
+        "top": 5,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "narrative": "Oe--2 to 11 inches; black (10YR 2/1) mucky peat. (6 to 15 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 28,
+        "bottom": 33,
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C--11 to 13 inches; clean gravel; single grain; loose; clear smooth boundary. (0 to 5 inches thick)"
+      },
+      {
+        "name": "2Cg",
+        "top": 33,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2Cg--13 to 21 inches; grayish brown (10YR 5/2) gravelly sandy clay loam; massive; friable; few fine roots; few fine distinct light olive brown (2.5Y 5/4) masses of iron accumulation; 20 percent gravel; strongly acid clear smooth boundary. (5 to 17 inches thick)"
+      },
+      {
+        "name": "3Cd1",
+        "top": 53,
+        "bottom": 84,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "3Cd1--21 to 33 inches; light olive brown (2.5Y 5/3) clay loam; massive; firm, slightly sticky, nonplastic; common fine distinct yellowish brown (10YR 5/8) masses of iron accumulation; 10 percent gravel; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "3Cd2",
+        "top": 84,
+        "bottom": 109,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "3Cd2--33 to 43 inches; light olive brown (2.5Y 5/4) gravelly clay loam; massive; firm; slightly sticky, nonplastic; few medium distinct yellowish brown (10YR 5/8) masses of iron accumulation; 20 percent gravel; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "3Cd3",
+        "top": 109,
+        "bottom": 157,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "narrative": "3Cd3--43 to 62 inches; yellowish brown (10YR 5/6) gravelly clay loam; massive; firm, sticky, plastic; few medium distinct yellowish brown (10YR 5/8) masses of iron accumulation; 20 percent gravel; very strongly acid."
+      }
+    ]
+  ]
 }

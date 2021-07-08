@@ -56,5 +56,98 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon\nCambic horizon - from 16 to 24 inches (Bw horizon).\nArgillic horizon - from 24 to 33 inches (2Bt horizon).\nAndic soil properties - from the surface to 24 inches (A, AB, Bw horizons) meeting andic soil properties (2c).\nParticle-size control section - from the surface to 33 inches (A, AB, Bw, 2Bt horizons).  The upper 24 inches meets andic soil properties and 15 bar water content of less than 12 percent (dried).  This is based on geographically associated soils.  The lower part from 24 to 33 inches does not meet andic properties.  The family placement (ashy-skeletal) is based on a weighted average.\n02/2016 - Removed these coordinates due to improper location.  Do not use. (Latitude 44 degrees, 39 minutes, 12 seconds N., Longitude 121 degrees, 57 minutes, 30 seconds E.)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very stony",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 7 inches; dark brown (7.5YR 3/2) very stony sandy loam, brown (7.5YR 4/3) dry; weak fine granular structure; soft, very friable, nonsticky and nonplastic; many very fine, fine and few medium and coarse roots; many very fine, fine and few medium and coarse irregular pores; 30 percent stones and 20 percent cobbles; moderately acid (pH 6.0); clear smooth boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "AB",
+        "top": 18,
+        "bottom": 41,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very stony",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "AB--7 to 16 inches; dark brown (7.5YR 3/4) very stony sandy loam, brown (7.5YR 5/4) dry; weak fine and medium subangular blocky structure; soft, friable, nonsticky and nonplastic; many very fine, fine and few medium roots; many very fine, fine and few medium tubular pores; 30 percent stones and 20 percent cobbles; slightly acid (pH 6.2); clear smooth boundary.  (5 to 13 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 41,
+        "bottom": 61,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very cobbly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--16 to 24 inches; dark brown (7.5YR 3/4) very cobbly sandy loam, brown (7.5YR 5/4) dry; moderate fine and medium subangular blocky structure; slightly hard, friable, nonsticky and nonplastic; common very fine, fine and few medium roots; common very fine, fine and few medium tubular pores; 30 percent cobbles and 10 percent stones; slightly acid (pH 6.2); clear smooth boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "2Btb",
+        "top": 61,
+        "bottom": 84,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely cobbly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2Btb--24 to 33 inches; dark yellowish brown (10YR 4/4) extremely cobbly loam, pale brown (10YR 6/3) dry, moderate  medium subangular blocky structure; slightly hard, firm, slightly sticky and slightly plastic; few fine and medium roots; few fine and medium tubular pores; common distinct clay films on faces of peds and lining pores; 45 percent cobbles and 20 percent stones; slightly acid (pH 6.4); gradual wavy boundary.  (6 to 11 inches thick)"
+      },
+      {
+        "name": "Oi",
+        "top": 3,
+        "narrative": "Oi--1 inch to 0; organic layer of needles and twigs."
+      },
+      {
+        "name": "2Cr",
+        "top": 84,
+        "narrative": "2Cr--33 inches; weathered andesite bedrock."
+      }
+    ]
+  ]
 }

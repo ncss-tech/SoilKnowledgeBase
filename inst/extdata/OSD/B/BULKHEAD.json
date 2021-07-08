@@ -56,5 +56,43 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon include:\n1. Fibric soil material - the 0 to 20 38 centimeter zone has 85 percent slightly decomposed and 15 percent undecomposed wood chips.\n2.Folistic epipedon - the zone from 0 to 38 centimeters (^Oi horizon).\n3. Thermic temperature class is estimated due to a high rate of organic matter decomposition. However, rate of organic matter decomposition may decrease over time.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "^Oi",
+        "top": 0,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "^Oi -- 0 to 38 cm; very dark brown (10YR 2/2) slightly decomposed plant material; 85 percent slightly decomposed needles and branches and 15 percent wood chips, a total of which 65 percent are greater than 20 mm in diameter; single grain; loose; few very fine roots; abrupt smooth boundary. (18 to 50 cm thick.)"
+      },
+      {
+        "name": "2^M",
+        "top": 38,
+        "bottom": 58,
+        "narrative": "2^M -- 38 to 58 cm; slightly weathered concrete; massive; (5 to 25 cm thick.)"
+      },
+      {
+        "name": "3^C",
+        "top": 58,
+        "bottom": 165,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "narrative": "3^C -- 58 to 165 cm; light yellowish brown (2.5Y 6/4) sand; massive; very friable."
+      }
+    ]
+  ]
 }

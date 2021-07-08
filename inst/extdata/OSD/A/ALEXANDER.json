@@ -56,5 +56,72 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and other features in this pedon are:\nMollic epipedon--zone from 0 to 33 cm (A1, A2 horizons);\nArgillic horizon--zone from 33 to 71 cm (Bt horizon);\nLithic contact--71 cm (R horizon); and\nParticle-size control section--zone from 33 to 71 cm (Bt horizon).\nNote: Type location moved from previous location on 5/25/2017 to more representative location.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 5 cm; silt loam, dark brown (10YR 3/3) dry, very dark brown (10YR 2/2) moist; weak thick platy structure; soft, very friable, nonsticky and nonplastic; many very fine, fine, and common medium roots; many very fine and fine, and few medium tubular and irregular pores; 5 percent gravel; slightly alkaline (pH 7.6); abrupt smooth boundary"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--5 to 33 cm; silt loam, brown (10YR 4/3) dry, dark brown (10YR 3/3) moist; weak fine subangular blocky structure; slightly hard, very friable, nonsticky and nonplastic; many very fine, common fine and medium, and few coarse roots; many very fine and fine, and few medium tubular pores; 10 percent gravel; neutral (pH 7.2); clear wavy boundary"
+      },
+      {
+        "name": "Bt",
+        "top": 33,
+        "bottom": 71,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--33 to 71 cm; silty clay loam, dark yellowish brown (10YR 4/4) dry, dark yellowish brown (10YR 3/4) moist; strong fine and medium subangular blocky structure; hard, friable, moderately sticky and moderately plastic; common very fine and few fine roots; few very fine and fine tubular pores; 15 percent distinct clay films on ped faces and 10 percent distinct clay films on rock fragments; 10 percent gravel; neutral (pH 7.2); abrupt wavy boundary"
+      },
+      {
+        "name": "R",
+        "top": 71,
+        "narrative": "R--71 cm; basalt bedrock"
+      }
+    ]
+  ]
 }

@@ -56,5 +56,65 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon  0 to 5 inches (A and C horizons).\nParalithic contact - 5 inches (Cr horizon).\nLithic contact - 11 inches (R horizon).\nParticle-size control section - 0 to 5 inches (A and C horizons).\nResponsibility for this series was transferred from Davis to Phoenix 12/2015. The last revision to the series was 7/2006. ET\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; brown (10YR 5/3) extremely gravelly sandy loam, dark brown (10YR 3/3) moist; weak medium platy structure; soft, very friable, slightly sticky and nonplastic; common very fine and fine roots; many very fine and fine interstitial and few fine tubular pores; 60 percent pebbles and 10 percent cobbles; slightly effervescent; moderately alkaline (pH 8.0); clear smooth boundary. (1 to 3 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "C--2 to 5 inches; yellowish brown (10YR 5/4) extremely gravelly coarse sandy loam, dark yellowish brown (10YR 4/4) moist; massive; slightly hard, very friable, slightly sticky and nonplastic; common very fine and fine and few medium roots; common fine interstitial and few fine tubular pores; 70 percent pebbles; few faint colloidal stains on sand grains; slightly alkaline (pH 7.8); gradual smooth boundary. (3 to 12 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 13,
+        "bottom": 28,
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Cr--5 to 11 inches; weathered granite bedrock, 70 percent rock structure; gradual wavy boundary. (5 to 10 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 28,
+        "narrative": "R--11 inches; hard granite bedrock."
+      }
+    ]
+  ]
 }

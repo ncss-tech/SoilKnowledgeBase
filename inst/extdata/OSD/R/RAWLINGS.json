@@ -56,5 +56,87 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The Rawlings series was formerly included with the Rion series.  However, Rion soils do not have bedrock within a depth of 60 inches of the soil surface.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to 10 inches (A1 and A2 horizons)\nArgillic horizon - the zone between depths of 10 and 33 inches (Bt horizon)\nLithic contact - the occurrence of hard bedrock at a depth of 33 inches (R horizon)\nADDITIONAL DATA:\nMLRA = 136\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nGA0111 RAWLINGS    6- 45   59- 62  184-241  39- 49   500-800\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nGA0111 NONE          6.0-6.0              -     20-40   HARD\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nGA0111  0-10  SL                      0-  5  80-100  5-20   3-  6\nGA0111  0-10  ST-SL                   5- 15  55- 85  5-20   2-  5\nGA0111 10-15  COSL SL SCL             0-  5  80-100 10-30   3-  9\nGA0111 15-33  SCL CL L                0- 15  60-100 18-35   3- 12\nGA0111 33-43  UWB                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nGA0111  0-10  4.5- 7.3  .5-2.  0- 0   2.0- 6.0  LOW\nGA0111  0-10  4.5- 7.3  .5-2.  0- 0   2.0- 6.0  LOW\nGA0111 10-15  4.5- 6.5  0.-.5  0- 0   0.6- 2.0  LOW\nGA0111 15-33  4.5- 6.0  0.-.5  0- 0   0.6- 6.0  LOW\nGA0111 33-43     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 2 inches; brown (7.5YR 4/2) gravelly sandy loam; moderate medium granular structure; very friable; many very fine, fine, and medium, and few coarse roots; few fine flakes of mica; 10 percent pebbles, 5 percent cobbles, and 5 percent stones; slightly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 25,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A2--2 to 10 inches; brown (7.5YR 4/3) sandy loam; weak fine subangular blocky structure; very friable; common very fine, fine, medium, and coarse roots; few fine flakes of mica; 10 percent pebbles; moderately acid; gradual wavy boundary. (Combined thickness of the A horizon is 5 to 12 inches.)"
+      },
+      {
+        "name": "Bt1",
+        "top": 25,
+        "bottom": 38,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--10 to 15 inches; brown (7.5YR 4/4) sandy loam; weak medium subangular blocky structure; friable, slightly sticky and slightly plastic; common very fine, fine, medium, and coarse roots; few distinct brown (10YR 5/3) clay films on faces of peds; few fine flakes of mica; 5 percent pebbles; moderately acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 38,
+        "bottom": 76,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bt2--15 to 30 inches; reddish brown (5YR 4/4) sandy clay loam; moderate coarse subangular blocky structure; friable, slightly sticky and moderately plastic; few very fine, fine, medium, and coarse roots; many distinct brown (7.5YR 5/3) clay films on faces of peds; common fine flakes of mica; 2 percent pebbles; moderately acid; clear irregular boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 76,
+        "bottom": 84,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt3--30 to 33 inches; brown (7.5YR 4/3) sandy clay loam; weak medium subangular blocky structure; friable, slightly sticky and slightly plastic; few very fine, fine, medium, and coarse roots; few distinct brown (10YR 5/3) clay films on faces of peds; common fine flakes of mica; 2 percent pebbles; moderately acid; abrupt irregular boundary. (Combined thickness of the Bt horizons is 12 to 27 inches.)"
+      },
+      {
+        "name": "R",
+        "top": 84,
+        "narrative": "R--33 inches; hard granite gneiss with widely spaced fractures."
+      }
+    ]
+  ]
 }

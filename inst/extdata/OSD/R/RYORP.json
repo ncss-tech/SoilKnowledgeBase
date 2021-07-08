@@ -56,5 +56,77 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to 4 inches (Oi and E horizon);\nAlbic horizon - the zone from 2 to 4 inches (E horizon);\nCambic horizon - the zone from 4 to 23 inches (Bw horizon);\nParticle-size control section - the zone from 10 to 40 inches;\nUstic moisture regime.\nThe 3/2008 description reflects a change in classification from Coarse-loamy, mixed, superactive Ustic Eutrocryepts to Coarse-loamy, mixed, superactive Ustic Haplocryepts due to revision of the cryepts great groups and subgroups. The competing series section was not updated and should be reviewed after all the cryepts have been re-classified.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0e",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "0e--0 to 2 inches; loose mat of partly decomposed pine needles and twigs."
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--2 to 4 inches; light brownish gray (10YR 6/2) fine sandy loam, dark grayish brown (10YR 4/2) moist; weak thin platy structure; soft, very friable, nonsticky, nonplastic; many coarse and medium, and common fine and very fine roots; slightly acid (pH 6.2); clear smooth boundary. (1 to 3 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 10,
+        "bottom": 58,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--4 to 23 inches; pale brown (10YR 6/3) fine sandy loam grading to sandy loam, brown (10YR 4/3) moist; few coarse yellowish brown (10YR 5/4) iron mottles with diffuse boundaries; moderate grading to weak coarse prismatic structure; slightly hard, very friable, nonsticky, nonplastic; common coarse, medium, fine and very fine roots and pores in upper part grading to common fine, and very fine roots and pores in the lower part; slightly acid (pH 6.1); gradual wavy boundary. (14 to 30 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 58,
+        "bottom": 91,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "narrative": "C--23 to 36 inches; pale brown (10YR 6/3) sandy loam, brown (10YR 5/3) moist; massive; hard, very friable, nonsticky, nonplastic; few fine roots and tubular pores; moderately acid (pH 6.0); abrupt boundary. (7 to 16 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 91,
+        "texture_class": "sand",
+        "narrative": "R--36 inches; noncalcareous sandstone."
+      }
+    ]
+  ]
 }

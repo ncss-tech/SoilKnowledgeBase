@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nmollic epipedon - from a depth of 0 to 18 cm (0 to 7 inches) (Ap horizon, > 1/3 solum thickness);\nargillic horizon - from a depth of 18 to 48 cm (7 to 19 inches) (Bt1 and Bt2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 18 cm (0 to 7 inches); 95 percent very dark grayish brown (10YR 3/2) and 5 percent brown (7.5YR 4/4) silt loam, grayish brown (10YR 5/2) dry; moderate fine granular structure; friable; few fine roots; few rounded gravel; neutral; abrupt smooth boundary. [18 to 30 cm (7 to 12 inches) thick]"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 36,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--18 to 36 cm (7 to 14 inches); brown (7.5YR 4/4) clay loam; moderate fine subangular blocky structure; friable; few fine roots; common distinct dark brown (10YR 3/3) organo-clay films on faces of peds; common prominent very dark grayish brown (10YR 3/2) organo-clay films on surfaces along pores and root channels; few rounded gravel; neutral; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 36,
+        "bottom": 48,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--36 to 48 cm (14 to 19 inches); brown (7.5YR 4/4) clay loam; moderate medium subangular blocky structure; friable; few fine roots; common distinct dark brown (10YR 3/3) organo-clay films on faces on peds; common prominent very dark grayish brown (10YR 3/2) organo-clay films on surfaces along pores and root channels; few rounded gravel; neutral; clear smooth boundary. [Combined thickness of the Bt horizon is 8 to 36 cm (3 to 14 inches).]"
+      },
+      {
+        "name": "C1",
+        "top": 48,
+        "bottom": 107,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "C1--48 to 107 cm (19 to 42 inches); brown (7.5YR 5/4) loam; massive; firm; few fine prominent strong brown (7.5YR 5/8) masses of oxidized iron in the matrix; few rounded gravel; strongly effervescent; slightly alkaline; gradual smooth boundary."
+      },
+      {
+        "name": "C2",
+        "top": 107,
+        "bottom": 152,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "C2--107 to 152 cm (42 to 60 inches); brown (7.5YR 5/4) loam; massive; firm; few fine prominent strong brown (7.5YR 5/8) masses of oxidized iron in the matrix; few rounded gravel; violently effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

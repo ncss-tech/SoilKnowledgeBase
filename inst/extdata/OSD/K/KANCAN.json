@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon\nare:\nMollic epipedon - The zone from the soil surface to 10 inches (A1 and\nBt1 horizons).\nArgillic horizon - The zone from 3 to 16 inches (Bt1 and Bt2 horizons).\nSecondary lime accumulation - The zone from 16 to 64 inches (2Bk1,\n3Ck1, and 3Ck2 horizons).\nParticle size control section - The zone from 3 to 16 inches (Bt1 and\nBt2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "narrative": "A1--0 to 3 inches; brown (10YR 5/3) gravelly silt loam, very dark"
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "narrative": "A2--3 to 10 inches; brown (10YR 5/3) gravelly loam, very dark"
+      },
+      {
+        "name": "Bt",
+        "top": 25,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "narrative": "Bt--10 to 16 inches; brown (10YR 5/3) very gravelly clay loam, dark"
+      },
+      {
+        "name": "2Bk",
+        "top": 41,
+        "bottom": 69,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "cf_class": "very gravelly",
+        "narrative": "2Bk--16 to 27 inches; yellowish brown (10YR 5/4) very gravelly"
+      },
+      {
+        "name": "3Ck1",
+        "top": 69,
+        "bottom": 84,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "cf_class": "very cobbly",
+        "narrative": "3Ck1--27 to 33 inches; pale brown (10YR 6/3) very cobbly coarse"
+      },
+      {
+        "name": "3Ck2",
+        "top": 84,
+        "bottom": 163,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "cf_class": "very cobbly",
+        "narrative": "3Ck2--33 to 64 inches; very pale brown (10YR 7/3) very cobbly"
+      }
+    ]
+  ]
 }

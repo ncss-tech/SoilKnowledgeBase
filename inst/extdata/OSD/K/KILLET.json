@@ -56,5 +56,61 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features:\n- Umbric epipedon - 0 to 38 inches.\n- Cambic horizon - 38 to 60 inches.\n- Assume a base saturation of less than 50 percent throughout the profile.\nNATIONAL COOPERATIVE SOIL SURVEY\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "cf_class": "gravelly",
+        "narrative": "A1--0 to 8 inches; dark reddish brown (5YR 3/2) gravelly"
+      },
+      {
+        "name": "A2",
+        "top": 20,
+        "bottom": 46,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "cf_class": "gravelly",
+        "narrative": "A2--8 to 18 inches; dark reddish brown (5YR 3/2) gravelly"
+      },
+      {
+        "name": "Bw1",
+        "top": 46,
+        "bottom": 97,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "cf_class": "gravelly",
+        "narrative": "Bw1--18 to 38 inches; dark reddish brown (5YR 3/3) gravelly"
+      },
+      {
+        "name": "Bw2",
+        "top": 97,
+        "bottom": 152,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "narrative": "Bw2--38 to 60 inches; dark reddish brown (5YR 3/3) clay loam,"
+      },
+      {
+        "name": "O",
+        "top": 5,
+        "narrative": "O--2 inches to 0; partially decomposed leaves, needles, and"
+      }
+    ]
+  ]
 }

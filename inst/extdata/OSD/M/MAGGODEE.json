@@ -56,5 +56,137 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Maggodee soils were formerly recognized in the Comus series. Addition of Oxyaquic subgroup places these soils in a different subgroup from the Comus series. Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 13 inches (Ap horizons)\nCambic horizon - the zone from 13 to 48 inches (Bw, Bg, and BCg horizons)\nOxyaquic feature - indications of saturation by accumulations and depletions at 13 inches (Bw1 horizon)\nADDITIONAL DATA:\nRevised: 2/20/01, MHC\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nMD0050 MAGGODEE    0-  5   52-57   175-205  40-56    300-1600\nFloodL FloodH Watertable Kind       Months  Bedrock Hardness\nOCCAS  FREQ   1.5-3.0    APPARENT  JAN-MAY   > 60\nDepth  Texture                3-Inch  No-10  Clay%   -CEC-\n0-13  SIL L FSL                 0    80-100  5-18    -\n0-13  GR-SIL GR-L GR-FSL        0    80-100  5-18    -\n13-48  SIL L FSL GR-SL         0-2    50-100  5-20    -\n48-60  L FSL GR-SL GRV-LS      0-25   35-100  5-20    -\nDepth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\n0-13  4.5- 6.0  1.-3.  0- 0   2.0- 6.0  LOW\n13-48  4.5- 6.0  0.5-1  0- 0   2.0- 6.0  LOW\n48-60  4.5- 6.0  0.5-1  0- 0   2.0- 6.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap1",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap1--0 to 4 inches; dark brown (10YR 3/3) fine sandy loam; weak fine and medium granular structure; soft, very friable, nonsticky and nonplastic; few fine flakes of mica; common very fine and fine roots; common very fine and fine tubular pores; 3 percent subrounded quartz gravels; moderately acid (pH 6.0); clear smooth boundary."
+      },
+      {
+        "name": "Ap2",
+        "top": 10,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap2--4 to 13 inches; dark yellowish brown (10YR 3/4) fine sandy loam; weak fine and medium subangular blocky structure; slightly hard, very friable, nonsticky and nonplastic; few fine flakes of mica; few very fine and fine roots; common very fine and fine tubular pores; 3 percent subrounded quartz gravels; moderately acid (pH 6.0); clear smooth boundary."
+      },
+      {
+        "name": "Bw1",
+        "top": 33,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 5.4,
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw1--13 to 20 inches; brown (10YR 4/3) fine sandy loam; weak fine and medium subangular blocky structure; slightly hard, friable, nonsticky and nonplastic; few fine flakes of mica; few very fine and fine roots; few very fine and fine tubular pores; 3 percent subrounded quartz gravels; common medium and coarse irregular dark yellowish brown (10YR 4/6) soft masses of iron accumulation and common medium and coarse irregular brown (10YR 5/3) iron depletions; strongly acid (pH 5.4); abrupt smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 51,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 5.2,
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw2--20 to 30 inches; brown (10YR 5/3) silt loam; weak fine and medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; few fine flakes of mica; few very fine and fine roots; 3 percent subrounded quartz gravels; common medium and coarse irregular dark brown (7.5YR 3/4) soft masses of iron accumulation and common medium irregular very dark gray (10YR 3/1) manganese concentrations; strongly acid (pH 5.2); gradual smooth boundary."
+      },
+      {
+        "name": "Bg1",
+        "top": 76,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bg1--30 to 34 inches; dark gray (10YR 4/1) loam; weak fine and medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; few fine flakes of mica; 3 percent subrounded quartz gravels; common medium and coarse irregular dark yellowish brown (10YR 4/6) and common medium and coarse irregular dark yellowish brown (10YR 3/6) soft masses of iron accumulation; very strongly acid (pH 5.0); gradual smooth boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 86,
+        "bottom": 107,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bg2--34 to 42 inches; dark gray (10YR 4/1) loam; weak medium subangular blocky structure; hard, friable, slightly sticky and slightly plastic; few fine flakes of mica; 3 percent subrounded quartz gravels; common medium and coarse irregular dark yellowish brown (10YR 4/6) soft masses of iron accumulation; very strongly acid (pH 5.0); gradual smooth boundary."
+      },
+      {
+        "name": "BCg",
+        "top": 107,
+        "bottom": 122,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BCg--42 to 48 inches; dark gray (10YR 4/1) loam; weak medium and coarse subangular blocky structure; hard, friable, slightly sticky and slightly plastic; few fine flakes of mica; 3 percent subrounded quartz gravels; common coarse and very coarse irregular dark yellowish brown (10YR 3/6) and common coarse and very coarse yellowish brown (10YR 5/6) soft masses of iron accumulation; very strongly acid (pH 5.0); clear smooth boundary."
+      },
+      {
+        "name": "Cg1",
+        "top": 122,
+        "bottom": 137,
+        "texture_class": "loam",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Cg1--48 to 54 inches; dark gray (N4/) loam; massive; hard, friable, slightly sticky and slightly plastic; few fine flakes of mica; 3 percent subrounded quartz gravels; very strongly acid (pH 5.0); clear smooth boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 137,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "narrative": "Cg2--54 to 60 inches; very dark gray (10YR 3/1) sandy loam; massive; hard, friable, slightly sticky and slightly plastic; few fine flakes of mica; 7 percent subrounded quartz gravels; very strongly acid (pH 5.0)."
+      }
+    ]
+  ]
 }

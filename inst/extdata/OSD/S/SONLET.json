@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 2 inches (A horizon).\nCalcic horizon - The zone from 2 to 19 inches (Bkq1 and Bkq2 horizons).\nLithic contact - The boundary 19 inches to underlying hard bedrock (R layer).\nParticle-size control section - The zone from 10 to 19 inches (Bkq2 horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; brown (10YR 5/3) very gravelly loam, very dark grayish brown (10YR 3/2) moist; weak medium platy structure parting to moderate very fine and fine granular; soft, very friable, slightly sticky and slightly plastic; many very fine and fine roots; many very fine and fine interstitial and tubular pores; 35 percent pebbles; slightly effervescent; slightly alkaline (pH 7.8); clear smooth boundary.  (2 to 4 inches thick)"
+      },
+      {
+        "name": "Bkq1",
+        "top": 5,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bkq1--2 to 10 inches; light yellowish brown (10YR 6/4) very gravelly sandy loam, brown (10YR 4/3) moist; weak medium subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; many very fine and fine, common medium and few coarse roots; many very fine and fine discontinuous tubular pores; 40 percent pebbles; strongly effervescent; secondary carbonates are segregated throughout matrix on mineral grains and as few coats on bottoms of rock fragments; secondary silica coats bottoms of rock fragments; moderately alkaline (pH 8.2); clear wavy boundary.  (3 to 9 inches thick)"
+      },
+      {
+        "name": "Bkq2",
+        "top": 25,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bkq2--10 to 19 inches; very pale brown (10YR 7/3) extremely gravelly sandy loam, light yellowish brown (10YR 6/4) moist; massive; soft, very friable, slightly sticky and slightly plastic; common very fine, and few fine and medium roots; common very fine discontinuous tubular pores; 60 percent pebbles and 5 percent cobbles; strongly effervescent; secondary carbonates are segregated throughout matrix on mineral grains and as common coats on rock fragments; secondary silica coats rock fragments; moderately alkaline (pH 8.4); abrupt irregular boundary.  (3 to 9 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 48,
+        "narrative": "R--19 inches; fractured chert and limestone."
+      }
+    ]
+  ]
 }

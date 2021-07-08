@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this series are:  ochric epipedon - the zone from the surface of the soil to a depth of 13 inches (Ap, E horizons); argillic horizon - the zone from approximately 13 inches to 45 inches (2Bt horizon); udic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 5 inches; brown (10YR 4/3) loam, pale brown (10YR 6/3) dry; weak very fine granular structure; very friable; few fine roots; slightly acid; clear smooth boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 13,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--5 to 13 inches; yellowish brown (10YR 5/4) cherty loam; weak very fine granular structure; very friable; few fine roots; 25 percent chert fragments; medium acid; clear smooth boundary.  (3 to 10 inches thick)"
+      },
+      {
+        "name": "2Bt1",
+        "top": 33,
+        "bottom": 43,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2Bt1--13 to 17 inches; red (2.5YR 4/6) clay; moderate fine subangular blocky structure; firm; few fine roots; common faint clay films; few round pebbles; common sand grains; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "2Bt2",
+        "top": 43,
+        "bottom": 76,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2Bt2--17 to 30 inches; strong brown (7.5YR 5/6) clay; moderate fine subangular blocky structure; firm; few fine roots; common faint clay films; few rounded pebbles; common sand grains; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "2Bt3",
+        "top": 76,
+        "bottom": 114,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bt3--30 to 45 inches; yellowish brown (10YR 5/6) silty clay; weak fine subangular blocky structure; firm; few faint clay films; few rounded pebbles; few sand grains; medium acid; gradual smooth boundary.  (Combined thickness of the Bt horizons is 30 to 54 inches.)"
+      },
+      {
+        "name": "2C",
+        "top": 114,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay",
+        "narrative": "2C--45 to 60 inches; yellowish brown (10YR 5/6) silty clay; massive; firm; common rounded pebbles; common sand grains; medium acid."
+      }
+    ]
+  ]
 }

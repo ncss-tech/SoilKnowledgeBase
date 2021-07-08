@@ -56,5 +56,100 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and other features recognized in this pedon are:\na.  Ochric epipedon - the zone from the surface of the soil to a depth of about 3 inches (A horizon).\nb.  Albic horizon - the zone from 3 to 10 inches (E horizon).\nc.  Argillic horizon - the zone from 10 to 34 inches (Bt horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "Oi--1 to 0 inches; mat of leaves in various stages of decomposition."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; very dark grayish brown (10YR 3/2) channery silt loam; weak fine granular structure; very friable, nonsticky, nonplastic; 15 percent rock fragments; strongly acid; abrupt wavy boundary.  (1 to 5 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--3 to 10 inches; pale brown (10YR 6/3) channery silt loam; weak fine granular structure; very friable, nonsticky, nonplastic; 20 percent rock fragments; strongly acid; clear wavy boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 25,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--10 to 20 inches; light yellowish brown (10YR 6/4) channery silt loam; weak medium subangular blocky structure; friable, nonsticky, slightly plastic; few faint clay films on faces of ped; 30 percent rock fragments; strongly acid; clear wavy boundary.  (5 to 15 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 51,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--20 to 34 inches; yellowish brown (10YR 5/6) channery silt loam; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; few faint clay films on faces of peds and in pores; 30 percent rock fragments; strongly acid; clear wavy boundary.  (8 to 20 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 86,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "extremely channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--34 to 60 inches; yellowish brown (10YR 5/4) extremely channery silt loam; thin streaks of light gray (2.5Y 6/1) and strong brown (7.5YR 5/6) in lower part; weak fine subangular blocky structure grading to massive; friable, nonsticky, nonplastic; 60 percent rock fragments; strongly acid; clear wavy boundary.  (15 to 32 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 152,
+        "moist_hue": "2.5YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "narrative": "R--60 inches; light reddish brown (2.5YR 6/4) rhyolite and schist bedrock."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The Weitchpec soils were formerly classified as Regosols. Since most pedons have many coarse fragments, the series is now defined as a member of the loamy-skeletal family.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to 5 centimeters (2 inches) (A horizon).\nCambic horizon - the zone from 5 to 30 centimeters (2 to 12 inches) (Bt horizon). Particle-size\ncontrol section - the zone from 25 to 56 centimeters (10 to 22 inches) (Bt and BCt horizon).\nLithic contact - the boundary at about 56 centimeters (22 inches) (R).\nADDITIONAL DATA:\nSource: 10th Edition of the Keys to Soil Taxonomy.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 5 centimeters (0 to 2 inches); grayish brown (10YR 5/2) gravelly sandy loam, very dark grayish brown (10YR 3/2) moist; weak medium platy structure; soft, very friable, nonsticky and nonplastic; few roots; many very fine interstitial pores; 30 percent gravel; neutral (pH 7.0); abrupt smooth boundary. (5 to 25 centimeters thick)."
+      },
+      {
+        "name": "Bt",
+        "top": 5,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt--5 to 30 centimeters (2 to 12 inches); strong brown (7.5YR 5/6) very gravelly sandy loam, brown (7.5YR 4/4) moist; weak medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common fine and very fine, few medium and coarse roots; many very fine interstitial pores; common distinct clay films on rock fragments; 50 percent gravel; slightly alkaline (pH 7.5); gradual smooth boundary. (20 to 38 centimeters thick)."
+      },
+      {
+        "name": "BCt",
+        "top": 30,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "BCt--30 to 56 centimeters (12 to 22 inches); pale brown (10YR 6/3) very gravelly sandy loam, brown (10YR 4/3) moist; massive; slightly hard, friable, slightly sticky and slightly plastic; few fine, medium and coarse roots; many very fine interstitial pores; few distinct clay films on rock fragments; 50 percent gravel; slightly alkaline (pH 7.5); abrupt irregular boundary. (25 to 38 centimeters thick)."
+      },
+      {
+        "name": "R",
+        "top": 56,
+        "bottom": 77,
+        "narrative": "R--56 to 77 centimeters (22 to 30 inches); Fractured serpentine rock."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,157 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Green Level soils were previously mapped as White Store soils.  White Store soils have a depth to paralithic contact of 40 to 60 inches and have a base saturation of greater than 35 percent above the contact.  In addition, White Store soils do not have redoximorphic features within 24 inches of the top of the argillic horizon.  The 11/2005 revision changed the type location from Chatham County, NC to Wake County, NC and changed the classification from fine, mixed, active, thermic Aquic Hapludults.\nDiagnostic horizons and soil characteristics recognized in this pedon are:\nOchric epipedon--the zone from the soil surface to a depth of 10 inches (A and E horizon)\nArgillic horizon--the zone from 13 to 51 inches (Bt, Btss, Btssg, and Btg horizons)\nSlickensides--present in the zone from 24 to 41 inches\nSeries control section--the zone from 0 to 60 inches\nADDITIONAL DATA:\nReference particle-size data and laboratory data from typical pedon and supporting pedons (S01NC-183-001-01-011 and S01NC-183-002-01-010) is available from the NSSL, Lincoln, Nebraska.\nData Map Unit ID:\nTABULAR SERIES DATA:\nSoil Name    Slope  Airtemp FrFr/Seas Precip   Elevation\nGreen Level  0-15   57-65   180-260\t   40-55   150-450\nFloodL FloodH   Watertable Kind     Months   Bedrock Hardness\nNONE            1.0-2.5    Perched  NOV-APR  60-60\nDepth  Texture            3-Inch  No-10    Clay%  -CEC-\n0-13   SL FSL L           0-0     95-100    7-20    -\n13-26  C SIC SC           0-0     95-100   35-60    -\n26-51  C SIC SC           0-0     95-100   35-60    -\n51-65  CL SCL SICL        0-0     95-100   27-35    -\n65-97  SL L FSL           0-0     95-100    7-20    -\nDepth   -pH-    O.M.  Salin   Permeab    Shnk-Swll-\n0-13   3.6-5.5  1-3    0-0     0.6-2.0   LOW\n13-26  3.6-5.5 .5-1    0-0    0.06-0.2   HIGH\n26-51  3.6-5.5 .5-1    0-0  0.0015-0.2   VERY HIGH\n51-65  3.6-5.5 .5-1    0-0    0.06-0.2   MODERATE\n65-97  3.6-5.5 .5-1    0-0     0.6-2.0   LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 7 inches; yellowish brown (10YR 5/4) sandy loam; weak medium granular structure; friable; slightly sticky, slightly plastic; many fine and medium roots; extremely acid; abrupt smooth boundary. (1 to 10 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 18,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "E--7 to 10 inches; pale brown (10YR 6/3) sandy loam; weak medium granular structure; friable; slightly sticky, slightly plastic; common fine and medium roots; very strongly acid; abrupt smooth boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 25,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BE--10 to 13 inches; brownish yellow (10YR 6/6) sandy loam; weak fine subangular blocky structure; friable; moderately sticky, moderately plastic; few fine roots; common fine distinct light brownish gray (10YR 6/2) iron depletions; extremely acid; clear smooth boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 33,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt--13 to 26 inches; brownish yellow (10YR 6/8) clay; common medium distinct strong brown (7.5YR 5/8) mottles; weak  medium subangular blocky structure; very firm; very sticky, very plastic; few fine roots; few faint clay films on faces of peds; common fine prominent light brownish gray (10YR 6/2) iron depletions; extremely acid; gradual smooth boundary."
+      },
+      {
+        "name": "Btss",
+        "top": 66,
+        "bottom": 84,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btss--26 to 33 inches; yellowish red (5YR 5/6) clay; weak medium subangular blocky structure; extremely firm; very sticky, very plastic; few fine roots; many distinct clay films on faces of peds; common nonintersecting slickensides; common fine prominent light brownish gray (10YR 6/2) iron depletions; common medium prominent red (10R 4/8) masses of iron accumulation; extremely acid; gradual smooth boundary."
+      },
+      {
+        "name": "Btssg",
+        "top": 84,
+        "bottom": 104,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btssg--33 to 41 inches; light gray (2.5Y 7/1) clay; weak medium subangular blocky structure; extremely firm; very sticky, very plastic; few fine roots; many distinct clay films on faces of peds; common nonintersecting slickensides; common medium prominent red (2.5YR 4/8) and strong brown (7.5YR 5/8) masses of iron accumulation; extremely acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btg",
+        "top": 104,
+        "bottom": 130,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg--41 to 51 inches; light brownish gray (2.5Y 6/2) clay; weak medium subangular blocky structure; very firm; very sticky, very plastic; few fine roots; common distinct clay films on faces of peds; common medium prominent yellowish red (5YR 5/8) masses of iron accumulation; extremely acid; gradual wavy boundary. (Combined thickness of the Bt horizons is 20 to 50 inches)"
+      },
+      {
+        "name": "BCg",
+        "top": 130,
+        "bottom": 165,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BCg--51 to 65 inches; light brownish gray (2.5Y 6/2) clay loam; weak coarse subangular blocky structure; firm; moderately sticky, moderately plastic; extremely acid; gradual wavy boundary.  (0 to 15 inches thick)"
+      },
+      {
+        "name": "CB",
+        "top": 165,
+        "bottom": 185,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "CB--65 to 73 inches; pale yellow (2.5Y 7/3) sandy loam saprolite; few medium prominent reddish yellow (7.5YR 6/8) lithochromic mottles; massive; friable; moderately sticky, moderately plastic; 10 percent by volume subrounded sandstone parachanners; extremely acid; gradual wavy boundary.  (0 to 50 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 185,
+        "bottom": 226,
+        "moist_hue": "7.5YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C1--73 to 89 inches; pink (7.5YR 7/3) sandy loam saprolite; few medium distinct reddish yellow (7.5YR 6/8) lithochromic mottles; massive; friable; slightly sticky, slightly plastic; extremely acid; gradual wavy boundary."
+      },
+      {
+        "name": "C2",
+        "top": 226,
+        "bottom": 246,
+        "moist_hue": "7.5YR",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "extremely acid",
+        "narrative": "C2--89 to 97 inches; pink (7.5YR 7/4) sandy loam saprolite; few medium distinct reddish yellow (7.5YR 6/8) lithochromic mottles; massive; friable; slightly sticky, slightly plastic; extremely acid.  (Combined thickness of the C horizons is 5 to 50 inches thick)"
+      }
+    ]
+  ]
 }

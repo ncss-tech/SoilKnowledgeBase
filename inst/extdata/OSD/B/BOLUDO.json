@@ -56,5 +56,64 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from 0 to 4 inches (A horizon)\nCalcic horizon - The zone from 4 to 11 inches (Bk horizon)\nPetrocalcic horizon - The zone from 11 to 17 inches (Bkm horizon)\nLithic contact - The boundary at 17 inches (R layer)\nThe soil meets all requirements for a mollic epipedon except some part of the epipedon is moist for less than 3 cumulative months in 8 out of 10 years.\nSuperactive cation exchange activity class - CEC to percent clay ratio is 0.60 or greater.  This is assumed from the abundant zeolitic minerals in the Mitchell Mesa Ignimbrite, and from laboratory data from similar soils from Presidio County, Texas.\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Eleventh Edition, 2010\nUpdate and revisions for Recorrelation of Brewster County, TX, Main Part, 2/7/08, CEM.\nRevised for the correlation of Presidio County, Texas ; Oct, 2012, WWJ\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; grayish brown (10YR 5/2) very gravelly clay loam, very dark grayish brown (10YR 3/2) moist; moderate medium subangular blocky parting to moderate fine and medium granular structure; hard, firm; many very fine and fine roots throughout; 20 percent subrounded detached caliche pebbles, and 20 percent subrounded detached caliche cobbles; violently effervescent; moderately alkaline; clear smooth boundary (3 to 9 inches thick)."
+      },
+      {
+        "name": "Bk",
+        "top": 10,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bk--4 to 11 inches; brown (10YR 4/3) very gravelly clay loam, dark brown (10YR 3/3) moist; moderate fine and medium subangular blocky structure parting to moderate fine and medium granular; hard, firm; many very fine and fine roots throughout; many prominent continuous white (10YR 8/1) calcium carbonate coatings on rock fragments; 25 percent subrounded detached caliche gravel, 20 percent subrounded detached caliche cobbles, and 5 percent subrounded ignimbrite gravel; violently effervescent; moderately alkaline; abrupt smooth boundary (4 to 9 inches thick)."
+      },
+      {
+        "name": "Bkkm",
+        "top": 28,
+        "bottom": 43,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bkkm--11 to 17 inches; strongly cemented caliche with indurated laminar cap 1 to 5 mm thick, violently effervescent; abrupt smooth boundary (3 to 7 inches thick)."
+      },
+      {
+        "name": "R",
+        "top": 43,
+        "bottom": 203,
+        "narrative": "R--17 to 80 inches; unweathered ignimbrite bedrock, moist; indurated; noneffervescent."
+      }
+    ]
+  ]
 }

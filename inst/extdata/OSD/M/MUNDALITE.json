@@ -56,5 +56,119 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The separation of the Mundalite from the Mundal series is not clear. Further work is needed to better differentiate the two concepts.\nDiagnostic horizons and other features recognized in the typical pedon are:\nAlbic horizon - the zone from 3 to 10 cm (E horizon).\nSpodic horizon - the zone from 10 to 61 cm (Bhs1, Bhs2, and Bs horizons).\nOxyaquic subgroup - redoximorphic features within 100 cm of the mineral soil surface (BC2 horizon).\nADDITIONAL DATA: Engineering test data and characterization data are available for Essex and Hamilton Counties, New York for pedons 86NY031003, 87NY031004, 88NY041011, and S1993NY031003. Characterization data for Mundalite and similar soils is available through the National Cooperative Soil Survey Soil Characterization Database: http://ncsslabdatamart.sc.egov.usda.gov/\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--0 to 3 cm; black (7.5YR 2/1) moderately decomposed plant material; weak fine granular structure; very friable; many fine and medium roots; very strongly acid; abrupt smooth boundary. (0 to 13 cm thick)"
+      },
+      {
+        "name": "E",
+        "top": 3,
+        "bottom": 10,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--3 to 10 cm; dark reddish gray (5YR 4/2) fine sandy loam; weak fine subangular blocky structure; very friable; few fine rand medium roots; 2 percent cobbles and 8 percent gravel; strongly acid; clear wavy boundary. (0 to 8 cm thick)"
+      },
+      {
+        "name": "Bhs1",
+        "top": 10,
+        "bottom": 18,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bhs1--10 to 18 cm; dark reddish brown (5YR 3/2) fine sandy loam; weak medium and fine subangular blocky structure; very friable; many fine and medium roots; 2 percent cobbles and 8 percent gravel; very strongly acid; clear irregular boundary."
+      },
+      {
+        "name": "Bhs2",
+        "top": 18,
+        "bottom": 51,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bhs2--18 to 51 cm; dark brown (7.5YR 3/3) fine sandy loam; weak fine and medium subangular blocky structure; friable; common fine and medium roots; 2 percent cobbles and 8 percent gravel; very strongly acid; clear irregular boundary."
+      },
+      {
+        "name": "Bs",
+        "top": 51,
+        "bottom": 61,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs--51 to 61 cm; brown (7.5YR 4/4) fine sandy loam; weak medium subangular blocky structure; friable; common fine and medium roots; 2 percent cobbles and 10 percent gravel; strongly acid; clear wavy boundary. (Combined thickness of the Bhs and Bs horizons is 46 to 91 cm.)"
+      },
+      {
+        "name": "BC1",
+        "top": 61,
+        "bottom": 79,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BC1--61 to 79 cm; brown (10YR 4/3) and dark yellowish brown (10YR 4/4) fine sandy loam; weak thin and medium platy structure; friable; few fine and medium roots; 2 percent cobbles and 10 percent gravel; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "BC2",
+        "top": 79,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "BC2--79 to 86 cm; brown (10YR 5/3) gravelly sandy loam; weak thin and medium platy structure; firm; brittle; few fine roots; few medium faint yellowish brown (10YR 5/4) masses of oxidized iron and few fine faint grayish brown (10YR 5/2) iron depletions; 7 percent cobbles and 15 percent gravel; strongly acid; abrupt wavy boundary. (Combined thickness of the BC horizons is 0 to 35 cm.)"
+      },
+      {
+        "name": "Cd",
+        "top": 86,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "narrative": "Cd--86 to 152 cm; brown (10YR 5/3) gravelly sandy loam; massive with thick plates; very firm; brittle; 10 percent cobbles and 20 percent gravel; strongly acid."
+      }
+    ]
+  ]
 }

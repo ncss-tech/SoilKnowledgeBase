@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features in the pedon are:\nOchric epipedon:  0 to 7 inches (Ap)\nArgillic horizon:  7 to 21 inches (Bt1, Bt2)\nLithic contact at 28 inches\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; very dark grayish brown (10YR 3/2) silty clay loam, dark grayish brown (10YR 4/2) dry; moderate fine granular and subangular blocky structure; friable; many small roots; slightly acid; clear smooth boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--7 to 17 inches; dark yellowish brown (10YR 4/4) silty clay; moderate medium angular blocky structure; common small roots; many brown (10YR 5/3) clay films; very firm; 1 percent 1-2 mm black concretions; slightly acid; gradual smooth boundary.  (10 to 15 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 43,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt2--17 to 21 inches; yellowish brown (10YR 5/4) clay; common fine faint light yellowish brown (10YR 6/4) and light brownish gray (10YR 6/2) mottles; weak coarse angular blocky structure; very firm; common small roots; common clay films; 5 percent black concretions and soft material; neutral; gradual smooth boundary. (0 to 20 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 53,
+        "bottom": 71,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "mildly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C--21 to 28 inches; yellowish brown (10YR 5/6) clay; many medium faint mottles of light brownish gray (10YR 6/2) and light yellowish brown (10YR 6/4); massive; extremely firm; few small roots; 5 percent black concretions and concretionary material; mildly alkaline; abrupt smooth boundary.  (0 to 20 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 71,
+        "narrative": "R--28 inches; interbedded limestone and calcareous shale."
+      }
+    ]
+  ]
 }

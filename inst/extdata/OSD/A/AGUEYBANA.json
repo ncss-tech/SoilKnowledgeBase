@@ -56,5 +56,106 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nOchric epipedon - the zone from 0 to 14 inches (Ap and A horizons).\nArgillic horizon - the zone from 14 to 60 inches (Bt1, Bt2, Bt3, and Bt4 horizons).\nThe classification was updated with the 11/2004 draft from Very-fine, kaolinitic, isothermic, Typic Kandiudox to Very-fine, mixed, isothermic Typic Haplohumults.  They were formerly included in the Los Guineos series.  A soils moisture and soil temperature study performed in the San German Soil Survey Area update recognized the Perudic Soil Moisture Regime in Puerto Rico, recognized the isothermic soil temperature at 750 meters above sea level (in Perudic soil moisture regime) and at 900 meters above seal level (in Udic Soil Moisture).\nThese soils were formerly included in the Los Guineos series.\nAgueybana soils are in MLRA 270.\nADDITIONAL DATA:  Characterization pedon - Yauco Municipality, Puerto Rico; S01PR-153-001.  Sample by NSSL, Lincoln, NE., 03/01.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 5 inches; strong brown (7.5YR 4/6) clay; moderate medium subangular blocky structure; slightly hard, firm; sticky, plastic; common fine and medium roots, few coarse roots; common fine and medium tubular pores; about 10 percent, by volume, pebbles; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 13,
+        "bottom": 36,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--5 to 14 inches; strong brown (7.5YR 4/6) clay; moderate fine and medium subangular blocky structure; slightly hard, friable; sticky, plastic; common fine and medium roots; common fine and medium tubular pores; about 5 percent, by volume, pebbles; very strongly acid; clear wavy boundary. (Combined thickness of the A horizons range from 2 to 16 inches)"
+      },
+      {
+        "name": "Bt1",
+        "top": 36,
+        "bottom": 53,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--14 to 21 inches; red (2.5YR 4/6) clay; moderate fine and medium angular blocky structure parting to subangular blocky; slightly hard, firm; sticky, plastic; few fine and medium roots; common fine and medium tubular pores; common distinct clay films on face of peds; about 5 percent, by volume, pebbles; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 53,
+        "bottom": 84,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--21 to 33 inches; red (2.5YR 4/8) clay; strong medium angular blocky structure; hard; firm; sticky, plastic; few fine and medium roots; many fine and medium tubular pores; many prominent clay films on face of peds; about 5 percent, by volume, pebbles; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 84,
+        "bottom": 112,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt3--33 to 44 inches; red (2.5YR 4/8) clay; moderate fine and medium angular blocky structure; hard, firm; sticky, plastic; few fine and medium roots; common fine and medium tubular pores; common distinct clay films on faces of peds; about 5 percent, by volume, pebbles; strongly acid; abrupt wavy boundary."
+      },
+      {
+        "name": "Bt4",
+        "top": 112,
+        "bottom": 145,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silty clay",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt4--44 to 57 inches; red (2.5YR 4/6) silty clay; moderate fine and medium subangular blocky structure; slightly hard; firm; slightly sticky, slightly plastic; few fine and medium tubular pores; common distinct clay films on faces of peds; about 10 percent, by volume, pebbles; strongly acid; abrupt irregular boundary. (Combined thickness of the Bt horizons ranges from 39 to 46 inches)"
+      },
+      {
+        "name": "C",
+        "top": 145,
+        "bottom": 203,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "narrative": "C--57 to 80 inches; 20 percent red (2.5YR 4/6), 20 percent reddish brown (2.5YR 4/4), 20 percent yellowish red (5YR 5/6), 20 percent yellow (10YR 7/6) and 20 percent dark brown (10YR 3/3) gravelly clay loam; massive; soft, friable; slightly sticky, slightly plastic; few fine and medium interstitial pores; about 20 percent, by volume, pebbles; colors are indicative of parent material and are not redoximorphic features; strongly acid."
+      }
+    ]
+  ]
 }

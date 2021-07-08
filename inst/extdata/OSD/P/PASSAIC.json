@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The Passaic series was proposed for those soils which have been previously correlated as a Parsippany Variant in both Union and Middlesex Counties in New Jersey.  The Passaic series was used in the past to describe soils similar to what is presently Passaic series.  The name is from the town of Passaic in Passaic County, New Jersey.\nCation-exchange activity class is presumed from a review of data of similar soils. Changes in competing series\nmay result from updates in classification.\nDiagnostic horizons and features recognized in this pedon are:\n1.  Ochric epipedon - the zone between 0 and 10 inches (A, ABg)\n2.  Argillic horizon - the zone between 10 and 28 inches (Btg1, Btg2, Btg3) with a average clay content of more than 35 percent  (clayey) over texturally contrasting sandy material (2C-zone of 28 to 60 inches) (sandy or sandy skeletal) within the particle size control section of 10 to 39 inches.\n3. Redoximorphic features are present in all layers between  25 and 40 cm. and more than 50 percent redox depletions with a chroma of 1 or less within the upper 12.5 cm. of the argillic horizon (Btg1).\n4.  Aeric subgroup - the presence of one horizon with both value and chroma of 3 or more in 50 percent or more of the matrix having a hue of 10YR or yellower within 75 cm of the surface (2C horizon beginning at 28 inches is 10YR 4/4).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; black (10YR 2/1) silt loam; moderate coarse granular structure; very friable;  many fine and medium roots; strongly acid; clear smooth boundary.  (2 to 6 inches thick)"
+      },
+      {
+        "name": "ABg",
+        "top": 10,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "ABg--4 to 10 inches; dark gray (10YR 4/1) silt loam; strong fine and medium granular structure; very friable;  common medium roots; strongly acid; abrupt smooth boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 25,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg1--10 to 16 inches; light gray (10YR 6/1) silty clay loam; moderate medium and coarse subangular blocky structure; very friable; few fine and medium roots; many distinct clay films lining pores; many medium prominent brownish yellow (10YR 6/6) and strong brown (7.5YR 4/6) redoximorphic concentrations (45%); slightly acid; gradual wavy boundary.  (4 to 30 inches thick)"
+      },
+      {
+        "name": "Btg2",
+        "top": 41,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btg2--16 to 24 inches; light gray (10YR 6/1) silty clay; moderate coarse angular blocky structure; very firm; few fine roots; many distinct clay films lining pores; few fine quartz pebbles; many coarse prominent strong brown (7.5YR 4/6) and common medium prominent brownish yellow (10YR 6/6) redoximorphic concentrations (45%); neutral; clear smooth boundary.  (4 to 30 inches thick)"
+      },
+      {
+        "name": "Btg3",
+        "top": 61,
+        "bottom": 71,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Btg3--24 to 28 inches; gray (N 6/) clay loam; weak medium and coarse subangular blocky structure; firm; few fine roots; many distinct clay films lining pores; few fine quartz pebbles; common coarse prominent weak red (2.5YR 4/2) and yellowish brown (10YR 5/4) redoximorphic concentrations; neutral; abrupt smooth boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 71,
+        "bottom": 152,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "coarse sand",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "narrative": "2C--28 to 60 inches; reddish brown (5YR 4/4) gravelly loamy sand; single grain; loose; 15 percent predominantly well rounded, fine to coarse sandstone, shale, and basalt pebbles with few angular basalt and granitic gneiss pebbles;  few coarse distinct brown (10YR 5/2) redoximorphic depletions; neutral."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,64 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon\nare:\nOchric epipedon - the zone from 0 to 5 inches (A horizons).\nCalcic horizon - the zone from 5 to 26 inches (Bk horizons).\nParticle-size control section - the zone from 10 to 40 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "narrative": "A1--0 to 1 inch; light brownish gray (10YR 6/2) fine sandy loam,"
+      },
+      {
+        "name": "A2",
+        "top": 3,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "narrative": "A2--1 to 5 inches; pale brown (10YR 6/3) fine sandy loam, dark"
+      },
+      {
+        "name": "Bk1",
+        "top": 13,
+        "bottom": 51,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "narrative": "Bk1--5 to 20 inches; pinkish gray (7.5YR 6/2) fine sandy loam, dark"
+      },
+      {
+        "name": "Bk2",
+        "top": 51,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "narrative": "Bk2--20 to 26 inches; very pale brown (10YR 8/3) fine sandy loam,"
+      },
+      {
+        "name": "2Bk",
+        "top": 66,
+        "bottom": 152,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "narrative": "2Bk--26 to 60 inches; variegated very gravelly sand; single grain;"
+      }
+    ]
+  ]
 }

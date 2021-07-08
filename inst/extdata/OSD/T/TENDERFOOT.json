@@ -56,5 +56,78 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from 0 to 3 inches (A horizon)\nArgillic horizon - The zone from 3 to 9 inches (Bt horizon)\nPetrocalcic horizon - The zone from 17 to 23 inches (Bkm horizon)\nLithic contact - The boundary at 23 inches (R horizon)\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy Tenth Edition, 2006.\nADDITIONAL DATA: Laboratory analysis by BIA Natural Resources Laboratory  in Gallup, New Mexico.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "narrative": "A--0 to 3 inches; reddish brown (5YR 5/4) very gravelly loam, reddish brown (5YR 4/4) moist; moderate fine granular structure; soft, very friable, slightly sticky and plastic; many very fine roots; many very fine vesicular and irregular pores; surface lag of 35 percent chert and limestone gravel; noneffervescent; neutral (pH 6.9); abrupt smooth  boundary. (1 to 3 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 8,
+        "bottom": 23,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--3 to 9 inches; yellowish red (5YR 4/6) clay loam, reddish brown (5YR 4/4) moist; strong coarse subangular blocky structure; hard, friable, sticky and plastic; many very fine roots; many very fine tubular pores; 10 percent chert and limestone gravel; few faint clay films on faces of peds and lining pores; noneffervescent; neutral (pH 6.9); abrupt wavy boundary. (4 to 9 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 23,
+        "bottom": 43,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "extremely cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bk--9 to 17 inches; reddish brown (5YR 4/4) extremely cobbly clay loam, reddish brown (5YR 4/3) moist; moderate fine subangular blocky structure; slightly hard, friable, sticky and slightly plastic; common very fine roots; few very fine tubular pores; 40 percent cobble and 25 percent gravel of calcium carbonate-coated limestone and hardpan fragments; slightly effervescent in the fine earth and strongly effervescent on coatings; neutral (pH 7.0); abrupt wavy boundary (7 to 9 inches thick)"
+      },
+      {
+        "name": "Bkm",
+        "top": 43,
+        "bottom": 58,
+        "narrative": "Bkm--17 to 23 inches; indurated, calcium carbonate-cemented hardpan."
+      },
+      {
+        "name": "R",
+        "top": 58,
+        "narrative": "R--23 inches; limestone."
+      }
+    ]
+  ]
 }

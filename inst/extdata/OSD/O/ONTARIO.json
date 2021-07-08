@@ -56,5 +56,96 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: A new pedon from Genesee County was selected in 2003 because the typical pedon does not match the typical pedon for Ontario in the Ontario County, NY Soil Survey. After a review of the use of the Ontario and Lansing series for the range of the color hue in the Bt, the requirement that at least one subhorizon be 7.5YR or redder was added in 2006 to Ontario and the competing series section of Ontario and Lansing were adjusted to reflect the change.\nDiagnostic horizons and other features recognized in the typical pedon include:\n1. Ochric epipedon - the zone from the surface to 20 cm (8 in) (Ap horizon).\n2. Argillic horizon - the zone from 36 to 99 cm (14 to 39 in) (Bt/E and Bt horizons).\n3. Glossic subgroup - as evidenced by interfingering of albic material around peds in the upper part of the argillic horizon (Bt/E horizon) and mean annual soil temperature less than 10 degrees C.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 1,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap-- 0 to 20 cm, dark brown (7.5YR 3/2) loam, gray (7.5YR 6/1) dry; weak fine and medium granular structure; very friable; many fine roots; 10 percent rock fragments; moderately acid; abrupt smooth boundary. (15 to 30 cm thick.)"
+      },
+      {
+        "name": "E",
+        "top": 20,
+        "bottom": 36,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "E--20 to 36 cm, brown (7.5YR 5/3) loam; weak medium platy structure; friable; common fine roots; common fine pores; 10 percent rock fragments; moderately acid; abrupt irregular boundary. (0 to 20 cm thick.)"
+      },
+      {
+        "name": "Bt/E",
+        "top": 36,
+        "bottom": 53,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "narrative": "Bt/E--36 to 53 cm, brown (7.5YR 4/4) loam; weak medium subangular blocky structure; friable; brown (7.5YR 5/2) fine sandy loam coatings on faces of peds 1 mm thick that constitutes less than 15 percent of the layer; thin clay linings on surfaces along pores and on all faces of peds; 10 percent rock fragments; slightly acid; clear, wavy boundary. (8 to 23 cm inches thick.)"
+      },
+      {
+        "name": "Bt",
+        "top": 53,
+        "bottom": 99,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--53 to 99 cm, reddish brown (5YR 4/4) gravelly loam; moderate medium subangular blocky structure; firm; dark reddish brown (5YR 3/3) clay films on all faces of peds and on surfaces along pores; 20 percent rock fragments; neutral; clear wavy boundary. (30 to 74 cm thick.)"
+      },
+      {
+        "name": "C1",
+        "top": 99,
+        "bottom": 122,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C1--99 to 122 cm, brown (7.5YR 5/2) gravelly loam; moderate thin and medium plate like divisions; firm; few pores; 20 percent rock fragments; slightly alkaline, slightly effervescent; clear wavy boundary."
+      },
+      {
+        "name": "C2",
+        "top": 122,
+        "bottom": 183,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly alkaline",
+        "narrative": "C2--122 to 183 cm, brown (7.5YR 4/3) gravelly loam; massive; firm; few pores; 20 percent rock fragments; slightly alkaline, slightly effervescent."
+      }
+    ]
+  ]
 }

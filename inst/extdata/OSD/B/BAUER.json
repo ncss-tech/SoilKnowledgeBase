@@ -56,5 +56,101 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 25 to 100 centimeters;\nseries control section--the zone from the surface to a depth of 91 centimeters.\nDiagnostic horizons and features recognized in this pedon include:\nmollic epipedon--the zone from the surface to a depth of 23 centimeters (A1 and A2 horizons);\ncambic horizon--the zone from a depth of 23 to 66 centimeters (BA, 2Bg1, and 2Bg2 horizons);\nparalithic contact--the contact with shale bedrock at a depth of 66 centimeters (2Cr horizon);\nudic moisture regime.\nThe geological origin of the mantle is uncertain.  The gray colors in the B and C horizons are inherited from the shale and were not considered in the classification of this soil.\nThe extreme variation in the shale parent material raises the question as to family placement.  Drainage class is difficult to assess because of the color inherited from the shale.\nX-ray diffraction data indicates that kaolinite and illite are the dominant minerals and so the mineralogy class is considered mixed. 2/10/2011-TYPE LOCATION error was corrected.\nTaxonomy version--Keys to Soil Taxonomy, tenth edition, 2006.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 15 centimeters; black (10YR 2/1) silt loam, very dark grayish brown (10YR 3/2) dry; moderate fine subangular blocky structure; friable; neutral; clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 15,
+        "bottom": 23,
+        "dry_hue": "2.5Y",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--15 to 23 centimeters; very dark grayish brown (2.5Y 3/2) silty clay loam, dark grayish brown (2.5Y 4/2) dry; moderate fine subangular blocky structure; friable; black (10YR 2/1) coats on faces of peds; neutral; clear smooth boundary.  (Combined thickness of the A horizon is 20 to 38 centimeters.)"
+      },
+      {
+        "name": "BA",
+        "top": 23,
+        "bottom": 30,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BA--23 to 30 centimeters; olive brown (2.5Y 4/4) silty clay loam, grayish brown (2.5Y 5/2) dry; moderate medium subangular blocky structure; firm; common roots; very dark gray (10YR 3/1) coats on faces of peds; slightly acid; clear smooth boundary.  (5 to 13 centimeters thick)"
+      },
+      {
+        "name": "2Bg1",
+        "top": 30,
+        "bottom": 43,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bg1--30 to 43 centimeters; grayish brown (2.5Y 5/2) and light olive brown (2.5Y 5/4) silty clay; moderate medium angular blocky structure; very firm; common roots; very dark grayish brown (2.5Y 3/2) and dark grayish brown (2.5Y 4/2) coats on faces of some peds; common fine prominent yellowish brown (10YR 5/6) and yellowish brown (10YR 5/8) redoximorphic concentrations; slightly acid; gradual smooth boundary."
+      },
+      {
+        "name": "2Bg2",
+        "top": 43,
+        "bottom": 66,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bg2--43 to 66 centimeters; olive (5Y 4/3) clay; weak coarse angular blocky structure; very firm; few roots; dark grayish brown (2.5Y 4/2) coats on faces of peds; slightly acid; gradual smooth boundary.  (Combined thickness of the 2Bg horizon is 13 to 50 centimeters.)"
+      },
+      {
+        "name": "2Cr",
+        "top": 66,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "narrative": "2Cr--66 to 152 centimeters; light olive brown (2.5Y 5/6), gray (5Y 5/1), and light olive gray (5Y 6/2) clay shale; neutral."
+      }
+    ]
+  ]
 }

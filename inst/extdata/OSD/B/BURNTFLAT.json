@@ -56,5 +56,67 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in the profile are:\n1. Ochric epipedon: 0 to 13 centimeters (A horizon)\n2. Cambic horizon: 13 to 28 centimeters (Bw horizon)\n3. Paralithic contact: 28 to 36 centimeters (Cr horizon)\n4. Lithic contact: the zone beginning at 36 centimeters (R horizon)\n5. Particle-size control section: 0 to 28 centimeters (A and Bw horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A -- 0 to 13 centimeters, (0 to 5 inches); dark gray (10YR 4/1) very gravelly sandy loam, black (10YR 2/1) moist; moderate fine and medium subangular structure; slightly hard, friable, nonsticky, nonplastic; common fine and medium roots throughout; 40 percent gravel, 5 percent cobbles and 2 percent stones; slightly acid (pH 6.4); clear smooth boundary. (5 to 15 centimeters thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 13,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw -- 13 to 28 centimeters, (5 to 11 inches); light brownish gray (10YR 6/2) very gravelly sandy loam, 50 percent dark yellowish brown (10YR 4/4) and 50 percent very dark grayish brown (10YR 3/2) moist; weak medium subangular blocky structure; slightly hard, friable, nonsticky, nonplastic; common fine roots and medium roots throughout; 50 percent gravel, 5 percent cobbles and 2 percent stones; neutral (pH 6.6); clear wavy boundary. (10 to 25 centimeters thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 28,
+        "bottom": 36,
+        "pH": 5,
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "Cr -- 28 to 36 centimeters, (11 to 14 inches); massive; common medium roots throughout; very strongly acid (pH 5.0); gradual irregular boundary."
+      },
+      {
+        "name": "R",
+        "top": 36,
+        "narrative": "R -- 36 centimeters, (14 inches); fractured granitoid rock; common medium roots in fractures."
+      }
+    ]
+  ]
 }

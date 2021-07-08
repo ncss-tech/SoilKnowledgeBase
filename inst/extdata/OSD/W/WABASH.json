@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 25 to 100 centimeters (A2, Bg1, and Bg2 horizons);\nseries control section--the zone from the surface to a depth of 152 centimeters (Ap, A1, A2, Bg1, and Bg2 horizons).\nDiagnostic horizons and features recognized in this pedon include:\nmollic epipedon--the zone from the surface to a depth of 97 centimeters (Ap, A1, A2, and Bg1 horizons);\ncambic horizon--the zone from a depth of 48 to 152 centimeters (Bg1 and Bg2 horizons);\naquic conditions--redoximorphic depletions and accumulations within a depth of 50 centimeters.\nVertic subgroup based on linear extensibility greater than 6.0 centimeters between the surface and a depth of 100 centimeters, and presence of cracks 5 millimeters or more wide through a thickness of 30 centimeters or more for some time in normal years.\nTaxonomy version--Keys to Soil Taxonomy, tenth edition, 2006.\nADDITIONAL DATA:\nLaboratory data--National Soil Survey Laboratory, Lincoln, Nebraska several pedons (http://ssldata.sc.egov.usda.gov/).\nIn Iowa, the native vegetative cover is an herbaceous wetland community commonly inhabited with Bluejoint Grasses, White Cutgrasses, Fox Sedges, Oval Sedges, Inland Rushes, Torreys Rushes, Dark Green Bulrushes, Flatstem Spikerushes, Blue Vervains, Indian Hemps, Winged Loosestrifes, Wild Mints, and Water Horehounds. Source: Iowa State Office, Natural Resources Conservation Service, Des Moines, IA.\nIn Nebraska, the native vegetative cover is an herbaceous wetland community commonly inhabited with sedges (Carex emoryi, C. laeviconica, C. pellita, C. vulpinoidea), flat stem spikerush, (Eleocharis compressa), Kentucky bluegrass (Poa Pratensis), prairie cordgrass (Spartina pectinate).  Source: Terrestrial Ecological Systems and Natural Communities of Nebraska, Version IV.  S.B. Rolfsmeier and G. Steinauer.  Nebraska Natural Heritage Program, Nebraska Game and Parks Commission, 2010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 15 centimeters; very dark brown (10YR 2/2) silty clay, dark grayish brown (10YR 4/2) dry; weak and moderate fine granular structure; firm; few fine faint dark gray (10YR 4/1) iron depletions; few fine black concretions (oxides); moderately acid; abrupt smooth boundary."
+      },
+      {
+        "name": "A1",
+        "top": 15,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--15 to 23 centimeters; very dark gray (10YR 3/1) silty clay, gray (10YR 5/1) dry; strong fine and medium subangular blocky structure; firm; few fine faint dark gray (10YR 4/1) iron depletions; few fine black concretions (oxides); moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 23,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A2--23 to 48 centimeters; black (10YR 2/1) silty clay, dark gray (10YR 4/1) dry; moderate fine subangular blocky structure; very firm; few pressure faces; few fine distinct dark yellowish brown (10YR 4/4) iron masses; many fine concretions (oxides); slightly acid; gradual smooth boundary.  (Combined thickness of the A horizon is 45 to 100 centimeters.)"
+      },
+      {
+        "name": "Bg1",
+        "top": 48,
+        "bottom": 97,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "slightly acid",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "Bg1--48 to 97 centimeters; very dark gray (10YR 3/1) silty clay, gray (10YR 5/1) dry; some large spots and streaks of dark gray (5Y 4/1); moderate fine subangular blocky structure; very firm; common pressure faces; common coarse distinct dark yellowish brown (10YR 4/4) iron masses; many fine concretions (oxides); some exteriors of peds are very dark gray (N 3/0); slightly acid; diffuse smooth boundary.  (35 to 80 centimeters thick)"
+      },
+      {
+        "name": "Bg2",
+        "top": 97,
+        "bottom": 152,
+        "moist_hue": "N",
+        "moist_value": 4,
+        "moist_chroma": 0,
+        "texture_class": "silty clay",
+        "pH_class": "slightly acid",
+        "narrative": "Bg2--97 to 152 centimeters; dark gray (N 4/0) silty clay; large spots and streaks of dark gray (5Y 4/1); weak fine subangular blocky structure; common pressure faces; extremely firm; many fine concretions (oxides); slightly acid."
+      }
+    ]
+  ]
 }

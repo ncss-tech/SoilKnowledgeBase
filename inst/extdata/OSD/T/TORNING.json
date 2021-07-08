@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are: mollic epipedon--the zone from the surface to a depth of 8 inches (Ap horizon); calcic horizon (Bk1 and Bk2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; very dark grayish brown (10YR 3/2) fine sandy loam, grayish brown (10YR 5/2) dry; weak fine subangular blocky structure; very friable; common fine roots; slightly effervescent; slightly alkaline; abrupt smooth boundary. (7 to 10 inches thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 20,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk1--8 to 12 inches; dark grayish brown (10YR 4/2) fine sandy loam; weak fine subangular blocky structure; very friable; few fine roots; strongly effervescent; slightly alkaline; clear smooth boundary."
+      },
+      {
+        "name": "Bk2",
+        "top": 30,
+        "bottom": 76,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bk2--12 to 30 inches; light olive brown (2.5Y 5/3) fine sandy loam; weak fine subangular blocky structure; very friable; few roots; strongly effervescent; moderately alkaline; gradual smooth boundary. (Combined thickness of the Bk horizon is 6 to 30 inches.)"
+      },
+      {
+        "name": "C",
+        "top": 76,
+        "bottom": 203,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "slightly alkaline",
+        "narrative": "C--30 to 80 inches; grayish brown (2.5Y 5/2) fine sand; single grain; loose; slightly effervescent; slightly alkaline."
+      }
+    ]
+  ]
 }

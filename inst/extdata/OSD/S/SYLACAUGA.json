@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  These soils were included in the Augusta series.\nRevised: 9/97 RLV  02/00 DTA\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nA10018 SYLACAUGA   0-  2     -        -       -         -\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nA10018 OCCAS         0.5-1.5  APPARENT NOV-FEB  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nA10018  0- 5  SIL L VFSL              0-  2  95-100  7-20    -\nA10018  5-50  SIL SICL CL             0-  2  95-100 18-35    -\nA10018 50-60  SR S GR-L               0-  5  50- 60  2-20    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nA10018  0- 5  4.5- 6.0  .5-2.  0- 0   0.6- 2.0  LOW\nA10018  5-50  4.5- 6.0    -    0- 0  0.06- 0.2  MODERATE\nA10018 50-60  4.5- 6.0    -    0- 0   2.0- 6.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 5 inches; dark yellowish brown (10YR 4/4) silt loam; moderate fine granular structure; friable; many fine roots; very strongly acid; clear smooth boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 13,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--5 to 14 inches; brownish yellow (10YR 6/6) silty clay loam; weak medium subangular blocky structure; friable; common fine roots; few thin patchy clay films on faces of peds; 5 percent black concretions; few faces of peds coated with black stains; common medium prominent light olive gray (5Y 6/2) and light olive brown (2.5Y 5/4) iron depletions; very strongly acid; gradual wavy boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "Btg",
+        "top": 36,
+        "bottom": 99,
+        "moist_hue": "5Y",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg--14 to 39 inches; light gray (5Y 7/2) silty clay loam; moderate medium subangular blocky structure; friable; few fine roots; common thin patchy clay films on faces of peds; few quartz pebbles; few black concretions; common fine yellowish red to reddish brown concretions; common, medium distinct light yellowish brown (2.5Y 6/4) and common medium prominent brownish yellow (10YR 6/6) masses of iron accumulations; very strongly acid; gradual wavy boundary.  (15 to 30 inches thick)"
+      },
+      {
+        "name": "BCg",
+        "top": 99,
+        "bottom": 127,
+        "moist_hue": "N",
+        "moist_value": 5,
+        "moist_chroma": 0,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BCg--39 to 50 inches; gray (N 5/0) loam; weak fine subangular blocky structure; friable; few thin patchy clay films on faces of peds; common quartz pebbles; common fine black concretions; common medium distinct yellowish brown (10YR 5/6), light brownish gray (2.5Y 6/2), and light yellowish brown (2.5Y 6/4) masses of iron accumulation; very strongly acid; gradual wavy boundary.  (0 to 15 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 127,
+        "bottom": 152,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "narrative": "2C--50 to 60 inches; stratified sand and gravel; massive: very firm; gravel 1-1/2 inches and less in diameter; extremely difficult to dig with hand tools; very strongly acid."
+      }
+    ]
+  ]
 }

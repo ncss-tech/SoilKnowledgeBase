@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features featured in this pedon.\nMollic epipedon - the zone from 0 inches to 14 inches (A1 and A2 horizons).\nArgillic horizon - the zone from 18 inches to 24 inches (Btg horizon).\nModerately deep features - Limestone bedrock at 30 inches (R horizon).\nCopeland soils are wet at or near the surface during the summer rainy season and depressional areas are covered with shallow water.\nThe water table is at or near the surface for more than 6 months during most years.  This soil is subject to very frequent flooding for periods of one to about 6 months.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 6 inches; black (10YR 2/1) fine sand; weak fine granular structure; friable; many fine and medium roots; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 15,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A2--6 to 14 inches; very dark grayish brown (10YR 3/2) fine sand; weak fine granular structure; friable; many fine and medium roots; slightly acid; gradual wavy boundary.  (Combined thickness of the A horizons range from 10 to 20 inches)"
+      },
+      {
+        "name": "Eg",
+        "top": 36,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Eg--14 to 18 inches; dark gray (10YR 4/1) fine sand; single grain; loose; few fine and medium roots; slightly acid; clear wavy boundary.  (2 to 6 inches thick)"
+      },
+      {
+        "name": "Btg",
+        "top": 46,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Btg--18 to 24 inches; light gray (10YR 7/1) sandy clay loam; weak fine subangular blocky structure; friable; few fine roots; sand grains are coated and bridged with clay; few faint discontinuous clay flows in pores; few fine and medium distinct yellow (10YR 7/8) streaks and masses of iron accumulation; slightly alkaline; clear irregular boundary.  (4 to 20 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 61,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "2C--24 to 30 inches; light gray (10YR 7/2) soft limestone; weak fine granular structure; friable; clay and silt-size carbonates coat the sand grains; calcareous; moderately alkaline; clear irregular boundary.  (0 to 8 inches thick)"
+      }
+    ]
+  ]
 }

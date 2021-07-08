@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The type location is moved to better represent the series concept in October 2002.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 15 cm (A1 and A2 horizon).\nArgillic horizon - The zone from 15 to 28 cm (Bt horizon).\nLithic contact - The boundary at 28 cm to underlying hard, unweathered bedrock (R layer).\nParticle-size control section - The zone from the soil surface to 28 cm (A1, A2, and Bt horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely cobbly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 5 cm; pale brown (10YR 6/3) extremely cobbly loam, dark brown (10YR 3/3) moist; weak medium platy structure; soft, friable, slightly sticky and slightly plastic; common very fine roots; common very fine vesicular pores; 20 percent gravel, 45 percent cobbles, and 5 percent stones; neutral (pH 7.2); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--5 to 15 cm; pale brown (10YR 6/3) very gravelly loam, dark brown (10YR 3/3) moist; weak fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; few very fine roots; few very fine tubular pores; 35 percent gravel and 5 percent cobbles; neutral (pH 7.2); clear smooth boundary. (Combined thickness of A horizons is 5 to 15 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 15,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--15 to 28 cm; brown (10YR 5/3) very gravelly clay loam, brown (10YR 4/3) moist; moderate fine subangular blocky structure; very hard, very firm, very sticky and very plastic; few very fine roots; few very fine tubular pores; many faint clay films lining pores and on faces of peds; 40 percent gravel and 10 percent cobbles; neutral (pH 7.2) abrupt wavy boundary. (8 to 25 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 28,
+        "narrative": "R--28 cm; consolidated rhyolite."
+      }
+    ]
+  ]
 }

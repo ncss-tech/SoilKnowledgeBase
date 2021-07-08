@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Last updated by the state 2/74.\nDiagnostic horizons and features recognized in this profile are:\nArgillic horizon: 7 to 15 inches (Bt horizon)\nCalcic horizon: 15 to 60 inches (Bk and 2Ck horizon)\nUpdated the classification, competing series and placed in semitab format.  LRM 03/01\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; grayish brown (10YR 5/2) sandy loam, brown (10YR 4/3) moist; weak coarse subangular blocky structure; hard, friable; neutral, clear smooth boundary. (5 to 9 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 18,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt--7 to 15 inches; brown (10YR 5/3) gravelly sandy loam, brown (10YR 4/3) moist; weak coarse prismatic structure parting to moderate coarse subangular blocky structure; hard, friable; thin patchy clay films on peds and on sand grains and as bridges between sand grains; approximately 20 percent gravel; moderately alkaline; gradual smooth boundary.  (5 to 16inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 38,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk--15 to 22 inches; pale brown (10YR 6/3) gravelly light sandy loam; brown (10YR 4/3) moist; weak coarse subangular blocky structure; slightly hard, very friable; visible calcium carbonate occurs as concretions and as coatings on gravel fragments; 20 percent gravel; clay bridging and coatings on sand grains; calcareous moderately alkaline; gradual wavy boundary. (3 to 10 inches thick)"
+      },
+      {
+        "name": "2Ck",
+        "top": 56,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH_class": "moderately alkaline",
+        "narrative": "2Ck--22 to 60 inches; pale brown (10YR 6/3) sand and gravel, brown (10YR 5/3) moist; single grained; loose; weak to moderate accumulation of secondary calcium carbonate principally as coatings on the underside of pebbles in the upper part of horizon; calcareous; moderately alkaline."
+      }
+    ]
+  ]
 }

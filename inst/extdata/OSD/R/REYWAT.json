@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 18 cm (A1 and A2 horizons and part of the Bt1 horizon).\nArgillic horizon - The zone from 15 to 48 cm (Bt1 and Bt2 horizons).\nLithic contact - The boundary at 48 cm to underlying hard bedrock (R layer).\nParticle-size control section - The zone from 15 to 48 cm (Bt1 and Bt2 horizons).\nClassification was updated to 11th edition on 07/2011 changed Lithic Argixerolls to Aridic Lithic Argixerolls.\nADDITIONAL DATA: Previous authors and editors include - WJL/LMR/CLM.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very stony",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 8 cm; grayish brown (10YR 5/2) very stony loam, very dark grayish brown (10YR 3/2) moist; moderate medium and coarse granular structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine roots; many very fine and many fine irregular pores; 20 percent gravel, 15 percent cobbles and 20 percent stones; neutral (pH 6.6); clear smooth boundary.  (5 to 20 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very stony",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--8 to 15 cm; grayish brown (10YR 5/2) very stony loam, dark brown (10YR 3/3) moist; moderate coarse granular structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine roots; many fine irregular pores; 20 percent gravel, 15 percent cobbles and 20 percent stones; neutral (pH 6.6); clear wavy boundary.  (0 to 10 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--15 to 36 cm; brown (10YR 5/3) very gravelly clay loam, dark grayish brown (10YR 4/2) moist; moderate medium subangular blocky structure; hard, friable, moderately sticky and moderately plastic; many very fine roots; common very fine tubular pores; many distinct dark yellowish brown (10YR 3/4) clay films on faces of peds; 40 percent gravel and some cobbles; neutral (pH 6.6); clear wavy boundary.  (5 to 20 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 36,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt2--36 to 48 cm; brown (10YR 5/3) very gravelly clay loam, dark brown (10YR 3/3) moist; strong medium subangular blocky structure; hard, friable, moderately sticky and moderately plastic; common very fine roots; common very fine tubular pores; many distinct dark yellowish brown (10YR 3/4) clay films on faces of peds; 40 percent gravel and some cobbles; neutral (pH 6.6); abrupt irregular boundary.  (10 to 23 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 48,
+        "narrative": "R--48 cm; basalt; slightly weathered in upper few inches; slightly effervescent on the surface of the contact and in some cracks where secondary carbonates are present."
+      }
+    ]
+  ]
 }

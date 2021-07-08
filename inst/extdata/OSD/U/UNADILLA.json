@@ -56,5 +56,96 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: 1). It is questionable whether this series was actually used in MLRA 144B. However, the reference was not removed. MLRA's 100 and 142 were removed. CT was removed as a user state.\nDiagnostic horizons and features recognized in this pedon are:\n1). Ochric epipedon - the zone from the surface to a depth of 8 inches (Ap horizon).\n2). Cambic horizon - the zone from 8 to 42 inches (Bw1, Bw2, Bw3, and BC horizons).\n3). Typic Dystrochrepts - base saturation (by ammonium acetate) is less than 60 percent in all subhorizons between depths of 10 and 30 inches.\n4. Udic soil moisture regime (a humid, temperate, climate).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 8 inches; brown (10YR 4/3) silt loam, pale brown (10YR 6/3) dry; moderate fine and very fine granular structure; very friable; many fine roots; slightly acid; abrupt smooth boundary. (6 to 15 inches thick.)"
+      },
+      {
+        "name": "Bw1",
+        "top": 20,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1 -- 8 to 12 inches; light yellowish brown (10YR 6/4) silt loam; weak medium subangular blocky structure; friable; many fine roots; moderately acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 30,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw2 -- 12 to 18 inches; yellowish brown (10YR 5/6) silt loam; moderate medium subangular blocky structure; firm; common fine roots; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bw3",
+        "top": 46,
+        "bottom": 79,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw3 -- 18 to 31 inches; light yellowish brown (10YR 6/4) silt loam; moderate medium subangular blocky structure; firm; few fine roots; strongly acid; clear smooth boundary. (Combined thickness of the Bw is 10 to 42 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 79,
+        "bottom": 107,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "very fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "BC -- 31 to 42 inches; yellowish brown (10YR 5/4) very fine sandy loam; weak medium and coarse subangular blocky structure; firm; few fine roots; strongly acid; abrupt smooth boundary. (0 to 15 inches thick.)"
+      },
+      {
+        "name": "2C",
+        "top": 107,
+        "bottom": 165,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH_class": "neutral",
+        "narrative": "2C -- 42 to 65 inches; dark grayish brown (10YR 4/2) stratified very gravelly sand; single grain; loose; neutral."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\na.  Ochric epipedon - the zone from the surface of the soil to a depth of about 8 inches (Ap horizon).\nb.  Cambic horizon - the zone from 8 inches to a depth of 29 inches. (Bw and BC horizons).\nc.  Loamy-skeletal feature - greater than 35 percent by volume weighted average rock fragments in the particle-size control section.\nADDITIONAL DATA: Characterization Pedons S62-PA-029-14(1-4) and S66-PA-054-4(1-9); S64-PA-022-3(1-5) has high base saturation and clay coatings.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "moderately acid",
+        "narrative": "Ap--0 to 8 inches; reddish brown (5YR 4/3) channery loam; weak, fine, granular structure; friable, slightly sticky, slightly plastic; common, very fine roots; 20 percent siltstone channers; moderately acid; abrupt, smooth boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 20,
+        "bottom": 61,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "very channery",
+        "pH_class": "strongly acid",
+        "narrative": "Bw--8 to 24 inches; reddish brown (5YR 4/4) very channery silt loam; moderate, fine, subangular blocky structure; friable, slightly sticky, slightly plastic; common, very fine roots; 35 percent siltstone channers; strongly acid; gradual, wavy boundary."
+      },
+      {
+        "name": "BC",
+        "top": 61,
+        "bottom": 74,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--24 to 29 inches; dark reddish brown (5YR 3/4) very channery loam; weak, fine, subangular blocky structure; friable, slightly sticky, slightly plastic; few, very fine roots; 50 percent siltstone channers; very strongly acid; gradual wavy boundary.  (The B horizon is 14 to 25 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 74,
+        "bottom": 89,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "extremely channery",
+        "pH_class": "very strongly acid",
+        "narrative": "C--29 to 35 inches; dark reddish brown (2.5YR 3/4) extremely channery silt loam; massive; friable, non-sticky, non-plastic; few, fine roots, matted around rock fragments; 70 percent siltstone channers and cobbles; very strongly acid; clear, wavy boundary.  (6 to 15 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 89,
+        "moist_hue": "10R",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt",
+        "narrative": "R--35 inches; dusky red (10R 3/3) moderately weathered shale bedrock, less than 4 inches between fractures; bedrock inclination greater than 30 percent; discontinuous clay and silt bridging on the rock fragments.  Excavation difficulty, high.  Excavation by tile spade is difficult, but easily done by pick using over-the-head swing."
+      }
+    ]
+  ]
 }

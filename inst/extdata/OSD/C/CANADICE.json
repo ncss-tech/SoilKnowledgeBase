@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and other features recognized in the typifying pedon are:\nOchric epipedon - the zone from 0 to 9 inches (Ap horizon).\nArgillic horizon - the zone from 9 to 32 inches (Btg1 and Btg2 horizons).\nAquic conditions - begin at a depth of 9 inches.\nTypic subgroup - the zone to 30 inches below the soil surface is dominated by more than 60 percent with chroma of 2 or less (Btg1 and Btg2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 9 inches; very dark gray (10YR 3/1) silty clay loam, gray (10YR 6/1) dry; moderate coarse blocky structure; friable, slightly plastic; moderately acid; abrupt smooth boundary.  (8 to 12 inches thick.)"
+      },
+      {
+        "name": "Btg1",
+        "top": 23,
+        "bottom": 61,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg1 -- 9 to 24 inches; grayish brown (2.5Y 5/2) silty clay; strong very coarse prismatic structure parting to weak and moderate medium angular blocky; firm, plastic, sticky; many faint gray (2.5Y 5/1) clay films on faces of peds; common fine and medium prominent yellowish brown (10YR 5/6 and 5/8) masses of iron accumulation in the matrix; neutral; gradual wavy boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 61,
+        "bottom": 81,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg2 -- 24 to 32 inches; grayish brown (2.5Y 5/2) silty clay; strong very coarse prismatic structure parting to weak and moderate coarse and very coarse angular blocky; firm, plastic, sticky; many faint gray (2.5Y 5/1) clay films on faces of peds; many fine and medium prominent yellowish brown(10YR 5/6 and 5/8) masses of iron accumulation in the matrix; neutral; gradual wavy boundary.  (Combined thickness of the Btg horizon is 12 to 36 inches.)"
+      },
+      {
+        "name": "BCg",
+        "top": 81,
+        "bottom": 102,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BCg -- 32 to 40 inches; gray (2.5Y 5/1) silty clay; weak very coarse prismatic structure parting to weak medium angular blocky; firm, plastic, sticky; common medium prominent yellowish brown (10YR 5/4 and 5/6) masses of iron accumulation in the matrix; slightly alkaline; gradual wavy boundary.  (0 to 14 inches thick.)"
+      },
+      {
+        "name": "Cg",
+        "top": 102,
+        "bottom": 183,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH_class": "moderately alkaline",
+        "narrative": "Cg -- 40 to 72 inches; grayish brown (2.5Y 5/2) silty clay; few medium distinct dark grayish brown (10YR 4/2) and prominent gray (N 5/0) mottles; massive; firm; slightly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

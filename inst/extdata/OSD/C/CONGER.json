@@ -56,5 +56,62 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nThese soils were formerly included in the Upton series.\nEdited 01/2016 (RFG-THW): Changed to tabular format. Added metric measurements. Updated competing series, geographic setting, and associated soils sections.\nDiagnostic horizons and features recognized in this pedon are:\nParticle size control section: 25 to 43 cm (10 to 17 in). (A and Bw horizon)\nOchric epipedon - 0 to 15 cm (0 to 6 in).  (A horizon)\nCambic horizon - 15 to 43 cm (6 to 17 in).  (Bw horizon)\nPetrocalcic horizon - 43 to 99 cm (17 to 39 in).  (Bkm horizon)\nTaxonomic Version: Keys to Soil Taxonomy, Twelfth Edition, 2014\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 15 cm (0 to 6 in); grayish brown (10YR 5/2) loam, dark grayish brown (10YR 4/2) moist; moderate medium subangular blocky structure; slightly hard, friable, sticky; common very fine and fine roots and pores; light brownish gray (10YR 6/2) fine platy surface crust about 1/4 inch thick; 2 percent strongly cemented fragments of calcium carbonate less than 0.5 inch in diameter; strongly effervescent; moderately alkaline; clear smooth boundary.  Thickess is 10 to 25 cm (4 to 10 in)"
+      },
+      {
+        "name": "Bw",
+        "top": 15,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--15 to 43 cm (6 to 17 in); pale brown (10YR 6/3) loam; brown (10YR 5/3) moist; moderate coarse prismatic structure parting to moderate medium subangular blocky; slightly hard; friable; sticky; common very fine roots and pores; 10 percent moderately to strongly cemented calcium carbonate fragments less than 0.5 inch in diameter; violently effervescent; moderately alkaline; abrupt wavy boundary.  Thickness is 0 to 38 cm (0 to 15 in)"
+      },
+      {
+        "name": "Bkkm",
+        "top": 43,
+        "bottom": 99,
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bkkm--43 to 99 cm (17 to 39 in); white caliche plates with a laminar upper surface layer 1/2 inch thick; caliche plates are strongly cemented; abrupt wavy boundary.  Thickness is 13 to 76 cm (5 to 30 in)"
+      },
+      {
+        "name": "BCk",
+        "top": 99,
+        "bottom": 203,
+        "narrative": "BCk--99 to 203 cm (39 to 80 in); white weakly cemented caliche materials with about 50 percent visible calcium carbonate; massive."
+      }
+    ]
+  ]
 }

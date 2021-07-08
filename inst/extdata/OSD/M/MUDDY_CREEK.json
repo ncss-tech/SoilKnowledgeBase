@@ -56,5 +56,86 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This subaqueous series is named for Muddy Creek, which is a tributary to the Rhode River sub-estuary of Chesapeake Bay.  Areas of mapping were formerly included with water.\nDiagnostic Horizons and other diagnostic soil characteristics recognized in this pedon are:\nOchric Epipedon-the zone from 0 to 22 centimeters (Ase horizon)\nPeraquic feature-the zone from 0 to 200 centimeters which is permanently saturated\nSapric soil materials-the zone from 116 to 195 centimeters (2Oaseb1 and 2Oaseb2 horizons)\nHypo-sulfidic materials-the zone from 0 to 200 centimeters\nHyper-sulfidic materials-the zone from 71 to 200 centimeters, oxidized pH values less than 4.0 after 16 weeks.\nLithologic discontinuity-the zones from 116 to 195 (2Oaseb horizons) and 195 to 200 centimeters (3Cseg horizon)\nADDITIONAL DATA:\nData Map Unit ID: 800959\nNASIS used site and pedon ID: 2015MD003047\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "subaqueous"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ase",
+        "top": 0,
+        "bottom": 22,
+        "moist_hue": "10Y",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH": 7.7,
+        "pH_class": "very strongly acid",
+        "narrative": "Ase -- 0 to 22 cm; very dark greenish gray (10Y 3/1) silt loam; massive; very fluid; 1 percent organic fragments; slightly alkaline (pH 7.7), very strongly acid (pH 5.0) after 16 weeks; color reaction with 3% hydrogen peroxide, strongly effervescent with 30% hydrogen peroxide, clear boundary."
+      },
+      {
+        "name": "Cseg1",
+        "top": 22,
+        "bottom": 71,
+        "moist_hue": "10Y",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "narrative": "Cseg1 -- 22 to 71 cm; very dark greenish gray (10Y 3/1) silty clay loam; massive; very fluid; moderately alkaline (pH 8.0), very strongly acid (pH 5.0) after 16 weeks;  color reaction with 3% hydrogen peroxide, strongly effervescent with 30% hydrogen peroxide, gradual boundary."
+      },
+      {
+        "name": "Cseg2",
+        "top": 71,
+        "bottom": 116,
+        "moist_hue": "10Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "narrative": "Cseg2 -- 71 to 116 cm; dark greenish gray (10Y 4/1) silty clay loam; massive; very fluid; moderately alkaline (pH 8.0), ultra acid (pH 3.2) after 16 weeks;  color reaction with 3% hydrogen peroxide, strongly effervescent with 30% hydrogen peroxide, abrupt boundary."
+      },
+      {
+        "name": "2Oaseb1",
+        "top": 116,
+        "bottom": 162,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "narrative": "2Oaseb1 -- 116 to 162 cm; very dark brown (10YR 2/2) muck; very fluid; very strongly acid (pH 4.5), ultra acid (pH 3.0) after 16 weeks;  no reaction with 3% hydrogen peroxide, non-effervescent with 30% hydrogen peroxide; slight hydrogen sulfide odor; 60% unrubbed fibers, 5% rubbed fibers; gradual boundary."
+      },
+      {
+        "name": "2Oaseb2",
+        "top": 162,
+        "bottom": 195,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "narrative": "2Oaseb2 -- 162 to 195 cm; very dark brown (10YR 2/2) muck; very fluid; very strongly acid (pH 4.5), ultra acid (pH 3.0) after 16 weeks; no reaction with 3% hydrogen peroxide, non-effervescent with 30% hydrogen peroxide; slight hydrogen sulfide odor; 75% unrubbed fibers, 20% rubbed fibers; gradual boundary."
+      },
+      {
+        "name": "3Cseg",
+        "top": 195,
+        "bottom": 200,
+        "moist_hue": "10GY",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "narrative": "3Cseg -- 195 to 200 cm; dark greenish gray (10GY 4/1) sandy clay loam; massive; moderately fluid; very strongly acid (pH 4.5), ultra acid (pH 3.0) after 16 weeks; no color reaction with 3% hydrogen peroxide, slightly effervescent with 30% hydrogen peroxide."
+      }
+    ]
+  ]
 }

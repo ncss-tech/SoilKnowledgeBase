@@ -56,5 +56,96 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: CEC class is added as active. Mineralogy classes for most Spodosols are being changed from mixed to Isotic. It is under study whether this is correct for Entic and Aquentic subgroups. This represents a partial update of the series to Established. Not all items were reviewed at this time.\nDiagnostic horizons and other features recognized in the typical pedon are:\n1) Ochric epipedon - from 0 to 6 inches (Ap horizon).\n2) Spodic horizon - from a depth of 6 to 13 inches\n(Bs1 and Bs2 horizons).\n3) Aquentic subgroup - redoximorphic features within 30\ninches of the soil surface, sandy PSC.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 6 inches, very dark grayish brown (10YR 3/2) loamy sand, light brownish gray (10YR 6/2) dry; weak medium subangular blocky structure parting to weak medium granular; very friable; common medium, fine, and very fine roots; 5 percent rock fragments; slightly acid; abrupt smooth boundary. (5 to 12 inches thick)."
+      },
+      {
+        "name": "Bs1",
+        "top": 15,
+        "bottom": 20,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bs1 -- 6 to 8 inches, brown (7.5YR 4/4) loamy sand; weak medium and coarse subangular blocky structure; friable; common fine and very fine roots; 5 percent rock fragments; 5 to 10 percent dark brown (7.5YR 3/4) ortstein masses; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "Bs2",
+        "top": 20,
+        "bottom": 33,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bs2 -- 8 to 13 inches, strong brown (7.5YR 5/6) loamy sand; few strong brown (7.5YR 4/6) ortstein masses in lower part; weak medium subangular blocky structure; friable; few fine and common very fine roots; 10 percent rock fragments; moderately acid; clear smooth boundary. (Combined thickness of the Bs horizons is 4 to 15 inches)."
+      },
+      {
+        "name": "BC",
+        "top": 33,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "cf_class": "cobbly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BC -- 13 to 21 inches, yellowish brown (10YR 5/4) cobbly loamy sand; weak medium subangular blocky; very friable; few very fine roots; few fine distinct yellowish brown (10YR 5/8) soft masses of Fe oxides in lower part; 15 percent rock fragments; slightly acid; clear smooth boundary. (0 to 12 inches thick)."
+      },
+      {
+        "name": "C1",
+        "top": 53,
+        "bottom": 74,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C1 -- 21 to 29 inches, brown (10YR 5/3) loamy sand; single grain; very friable; few very fine roots; few medium faint yellowish brown (10YR 5/4) soft masses of Fe oxides; 5 percent rock fragments; neutral; abrupt smooth boundary."
+      },
+      {
+        "name": "2Cg",
+        "top": 74,
+        "bottom": 183,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "narrative": "2Cg -- 29 to 72 inches, grayish brown (2.5Y 5/2) loam; massive; firm; many medium distinct gray (10YR 5/1) areas of Fe depletions, and many medium distinct yellowish brown (10YR 5/4) soft masses of Fe oxides; 10 percent rock fragments; neutral."
+      }
+    ]
+  ]
 }

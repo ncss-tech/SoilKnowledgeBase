@@ -56,5 +56,112 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The Paulins Kill series replaces a taxadjunct to the Hoosic series in Sussex and Warren Counties in New Jersey.\nDiagnostic horizons and features recognized in this pedon are:\n1. Umbric epipedon - the zone from the surface of the mineral soil to a depth of 29 cm (Ap horizon).\n2. Cambic horizon - the zone from 29 cm to 51 cm (Bw horizon).\n3. Sandy-skeletal feature - averaging 35 percent or more (by volume) rock fragments and a fine-earth fraction with a texture of sand or loamy sand, including less than 50 percent (by weight) very fine sand in the thickest part of the particle-size control section, the zone from 25 to 100 cm (Ap, Bw, BC, and 2C1 horizons).\nADDITIONAL DATA: Laboratory characterization data for Paulins Kill and similar soils is available through the National Cooperative Soil Survey Soil Characterization Database: http://ncsslabdatamart.sc.egov.usda.gov/\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "narrative": "Oi--0 to 2 cm; very dark brown (10YR 2/2) slightly decomposed herbaceous plant material. (0 to 6 cm thick)"
+      },
+      {
+        "name": "Ap",
+        "top": 2,
+        "bottom": 29,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 5.2,
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ap--2 to 29 cm; dark brown (10YR 3/3) gravelly loam, brown (10YR 5/3) dry; moderate fine and weak medium subangular blocky structure; friable; many fine and common medium roots; 5 percent fine, 10 percent medium, and 10 percent course gravel; strongly acid (pH 5.2); abrupt wavy boundary. (18 to 33 cm thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 29,
+        "bottom": 51,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 5.4,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bw--29 to 51 cm; strong brown (7.5YR 4/6) very gravelly coarse sandy loam; weak medium and coarse subangular blocky structure; friable; few fine roots; 15 percent fine, 20 percent medium, and 15 percent coarse gravel; strongly acid (pH 5.4); clear irregular boundary. (15 to 42 cm thick)"
+      },
+      {
+        "name": "BC",
+        "top": 51,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "extremely gravelly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "BC--51 to 66 cm; dark yellowish brown (10YR 4/4) extremely gravelly loamy coarse sand; massive; very friable; few fine roots; 20 percent fine, 25 percent medium, and 20 percent coarse gravel; moderately acid (pH 5.6); clear irregular boundary. (0 to 48 cm thick)"
+      },
+      {
+        "name": "2C1",
+        "top": 66,
+        "bottom": 114,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "coarse sand",
+        "cf_class": "extremely gravelly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "narrative": "2C1--66 to 114 cm; brown (10YR 4/3) extremely gravelly coarse sand; single grain; loose; 40 percent rounded red and gray sandstone, gray shale, and limestone medium gravel; 20 percent fine and 10 percent coarse gravel; moderately acid (pH 5.6)."
+      },
+      {
+        "name": "2C2",
+        "top": 114,
+        "bottom": 130,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "coarse sand",
+        "cf_class": "extremely gravelly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "narrative": "2C2--114 to 130 cm; brown (10YR 4/3) extremely gravelly coarse sand; single grain; loose; 25 percent fine, 15 percent medium, and 45 percent coarse gravel; moderately acid (pH 5.6)."
+      },
+      {
+        "name": "2C3",
+        "top": 130,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "very gravelly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "narrative": "2C3--130 to 152 cm; brown (10YR 4/3) very gravelly stratified loamy coarse sand and loamy sand; single grain; loose; 15 percent fine, 25 percent medium, and 15 percent coarse gravel; moderately acid (pH 5.6)."
+      }
+    ]
+  ]
 }

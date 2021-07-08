@@ -56,5 +56,58 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Soil moisture - moist and not dry in any part for as long as 90 cumulative days in most years (Udic moisture regime).\nDiagnostic horizons and features recognized in this pedon are:\nAndic soil properties - 10 to 46 centimeters (4 to 18 inches) (A and Bw horizons).\nLithic contact - 46 centimeters (18 inches).\nHemic materials - 0 to 10 centimeters (0 to 4 inches) (Oe horizon).\nUmbric epipedon - 10 to 46 centimeters (4 to 18 inches) (A and Bw horizon).\nEdit log: 4/09 MRK. Textural modifiers updated plus minor edits.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 10,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe -- 0 to 10 centimeters (0 to 4 inches); moderately decomposed plant material; abrupt smooth boundary. (3 to 10 centimeters {1 to 4 inches} thick)"
+      },
+      {
+        "name": "A",
+        "top": 10,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A -- 10 to 25 centimeters (4 to 10 inches); black (10YR 2/1) highly organic hydrous silt loam; moderate fine and medium granular structure; very friable, slightly sticky, slightly plastic; weakly smeary; many very fine and fine and few medium roots; many very fine and fine irregular and many very fine vesicular pores; moderately acid (pH 5.8); abrupt smooth boundary. (13 to 18 centimeters (5 to 7 inches) thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 25,
+        "bottom": 46,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "cf_class": "cobbly",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bw -- 25 to 46 centimeters (10 to 18 inches); 75 percent dark brown (7.5YR 3/2) cobbly hydrous silty clay loam; moderate very fine and fine subangular blocky structure; friable, moderately sticky, moderately plastic; moderately smeary; common very fine and fine and few coarse roots; many very fine and fine irregular and common very fine tubular pores; 5 percent subangular gravel and 15 percent subangular cobbles; slightly acid (pH 6.1); abrupt irregular boundary. (20 to 25 centimeters {8 to 10 inches} thick)"
+      },
+      {
+        "name": "2R",
+        "top": 46,
+        "narrative": "2R  -- 46 centimeters (18 inches); hard, massive pahoehoe lava."
+      }
+    ]
+  ]
 }

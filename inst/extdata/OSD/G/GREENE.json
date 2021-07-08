@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and other features recognized in the typical pedon include:\n1. Ochric epipedon - from 0 to 9 inches (Ap horizon).\n2. Cambic horizon - from 9 to 22 inches (Bg1 and Bg2 horizons).\n3. Endo greatgroup - water table is on bedrock.\n4. Aeric subgroup - 50% high chroma redox concentrations from 9 to 16 inches (Bg1 horizon).\nSoils with pH of 5.6 to 6.0 in water were checked in the lab and found to have a pH of less than 5.0 in 0.01M CaCl2.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 9 inches; very dark grayish brown (10YR 3/2) silt loam, light brownish gray (10YR 6/2) dry; moderate medium and fine granular structure; friable; many fine roots; 10 percent rock fragments; strongly acid; clear smooth boundary. (5 to 10 inches thick.)"
+      },
+      {
+        "name": "Bg1",
+        "top": 23,
+        "bottom": 41,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg1 -- 9 to 16 inches; light brownish gray (2.5Y 6/2) channery silt loam; moderate medium subangular blocky structure; friable; few fine roots; common fine pores; 15 percent rock fragments; many (50 percent) medium and coarse prominent yellowish brown (10YR 5/6 and 5/8), and distinct light yellowish brown (10YR 6/4) masses of iron accumulation; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 41,
+        "bottom": 56,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bg2 -- 16 to 22 inches; grayish brown (2.5Y 5/2) channery silt loam; moderate medium and coarse subangular blocky structure; friable; common fine pores; 20 percent rock fragments; common medium prominent light olive brown (2.5Y 5/6) masses of iron accumulation and few fine distinct light gray (10YR 7/2) areas of iron depletion; moderately acid; clear smooth boundary. (Combined thickness of the Bg horizon is 10 to 30 inches.)"
+      },
+      {
+        "name": "Cg",
+        "top": 56,
+        "bottom": 86,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "moderately acid",
+        "narrative": "Cg -- 22 to 34 inches; grayish brown (2.5Y 5/2) channery loam; massive; firm in place; few fine pores; 20 percent rock fragments; common medium faint gray (10YR 6/1) areas of iron depletion and few fine distinct light olive brown (2.5Y 5/4) masses of iron accumulation; moderately acid. (0 to 14 inches thick.)"
+      },
+      {
+        "name": "2R",
+        "top": 86,
+        "moist_hue": "N",
+        "moist_value": 3,
+        "moist_chroma": 0,
+        "texture_class": "sand",
+        "narrative": "2R -- 34 inches; fractured very dark gray (N 3/0) interbedded fine grained sandstone and siltstone."
+      }
+    ]
+  ]
 }

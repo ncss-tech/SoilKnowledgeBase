@@ -56,5 +56,70 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nEdited 10/2016 (RFG-THW): Updated geographic setting section and a few format edits.\nDiagnostic horizons and features recognized in pedon are:\nParticle-size control section: 20 to 70 cm (8 to 28 in) (Bt horizon)\nOchric epipedon: 0 to 20 cm (0 to 8 in). (A horizon)\nArgillic horizon: 20 to 76 cm (8 to 30 in). (Bt horizon)\nParalithic contact: The contact with gneiss bedrock at 76 cm (30 in). (Cr horizon)\nPale feature: Abrupt texture change between surface layer and argillic horizon.\nADDITIONAL DATA: Lab data available from the National Soil Survey Laboratory on pedon numbers 82TX299003 (samples 82P04363-82P04368), 87TX299003 (samples 87P02424-87P02427), and S11TX299004 (samples 12N01288-12N01291) from Llano County, TX.\nStahnke, Clyde, 1965, A Study of Mineral Transformations and Weathering Processes Occurring during the Genesis of Two Soils developed from Gneiss and Schist in Llano County, Texas; May 1965, Masters thesis, Texas Technological College, Lubbock, Texas.\nTAXONOMIC VERSION: Keys to Soil Taxonomy, 12th Edition, 2014.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 20 cm (0 to 8 in); brown (10YR 5/3) sandy loam, dark brown (10YR 3/3) moist; very hard and massive when dry, very hard, friable; common fine roots; common fine pores; 2 percent, 2 to 5 mm, quartz gravel, non-flat, subangular, indurated; slightly acid; clear smooth boundary. (Thickness of the A horizon is 15 to 48 cm [6 to 19 in])"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--20 to 43 cm (8 to 17 in); yellowish brown (10YR 5/4) sandy clay, dark yellowish brown (10YR 4/4) moist; moderate medium subangular blocky structure; very hard, firm; common fine roots; common fine pores; 10 percent clay films on faces of peds; 2 percent, 2 to 20 mm, quartz gravel, non-flat, subangular, indurated; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 43,
+        "bottom": 76,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt2--43 to 76 cm (17 to 30 in); strong brown (7.5YR 4/6) sandy clay, strong brown (7.5YR 4/6) moist; 10 percent fine distinct reddish yellow (7.5YR 6/6) and yellowish brown (10YR 5/6) mottles; moderate medium subangular block structure; very hard, firm, few fine roots; few fine pores; 30 percent clay films on faces of peds; 2 percent, 2 to 5 mm, quartz gravel, non-flat, subangular, indurated; moderately acid; abrupt smooth boundary. (Combined thickness of the Bt horizon is 20 to 85 cm [8 to 33 in])"
+      },
+      {
+        "name": "Cr",
+        "top": 76,
+        "bottom": 107,
+        "narrative": "Cr--76 to 107 cm (30 to 42 in); moderately cemented, weathered pinkish gneiss, that becomes harder with depth."
+      }
+    ]
+  ]
 }

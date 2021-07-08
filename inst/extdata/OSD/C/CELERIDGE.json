@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 48 cm (A1, A2, Bt1, and Bt2 horizons).\nArgillic horizon - The zone from 20 to 48 cm (Bt1 and Bt2 horizons).\nLithic contact - The boundary at 48 cm to underlying hard bedrock (R layer).\nParticle-size control section - The zone from 20 to 48 cm (Bt1 and Bt2 horizons).\nThe revision of October 2003 updated the taxonomic class from Loamy-skeletal, isotic, frigid Lithic Argixerolls.  The isotic mineralogy class was based solely on the field determined values for sodium fluoride pH.  Laboratory data on 15 bar water to clay ratio does not exist to verify the isotic mineralogy class.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely bouldery",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 8 cm; dark grayish brown (10YR 4/2) extremely bouldery sandy loam, very dark brown (10YR 2/2) moist; weak fine and medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; common very fine roots; common very fine interstitial and few fine tubular pores; 35 percent gravel, 10 percent stones, and 15 percent boulders; slightly acid (pH 6.2); clear wavy boundary.  (3 to 8 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--8 to 20 cm; dark grayish brown (10YR 4/2) extremely gravelly sandy loam, very dark brown (10YR 2/2) moist; moderate fine granular structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and fine and common medium roots; common very fine tubular and interstitial pores; 45 percent gravel and 15 percent cobbles; slightly acid (pH 6.4); clear wavy boundary.  (0 to 15 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--20 to 33 cm; grayish brown (10YR 5/2) extremely gravelly sandy clay loam, very dark grayish brown (10YR 3/2) moist; strong fine and medium subangular blocky structure; slightly hard, very friable, moderately sticky and moderately plastic; common very fine through medium roots; common very fine tubular and interstitial pores; many distinct clay films on faces of peds and lining pores; 50 percent gravel and 15 percent cobbles; slightly acid (pH 6.4); clear wavy boundary.  (10 to 18 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 33,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt2--33 to 48 cm; brown (10YR 5/3) extremely gravelly loam, dark brown (10YR 3/3) moist; strong fine and medium subangular blocky structure; slightly hard, very friable, moderately sticky and moderately plastic; common very fine and fine and few medium roots; common very fine tubular and interstitial pores; many distinct clay films on faces of peds and lining pores; 60 percent gravel and 15 percent cobbles; slightly acid (pH 6.4); abrupt irregular boundary.  (8 to 15 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 48,
+        "narrative": "R--48 cm; hard fractured andesite."
+      }
+    ]
+  ]
 }

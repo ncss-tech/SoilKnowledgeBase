@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from 0 to 25 cm (A horizon)\nCambic horizon - from 25 to 46 cm (Bw horizon)\nParticle-size control section - from 25 to 69 cm\nBigbutte soils have a cryic temperature regime and an ustic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 25 cm; dark grayish brown (10YR 4/2) gravelly ashy sandy loam, very dark brown (10YR 2/2) moist; weak fine granular structure; very friable, soft, nonsticky and nonplastic; many very fine and fine roots; many fine interstitial and irregular pores; 15 percent gravel; slightly acid (pH 6.2); clear smooth boundary.  (18 to 30 cm thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 25,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--25 to 46 cm; brown (10YR 5/3) gravelly ashy sandy loam, brown (10YR 4/3) moist; weak medium subangular blocky structure; very friable, soft, nonsticky and nonplastic; common fine roots; common fine irregular pores; 20 percent gravel; neutral (pH 6.6); gradual wavy boundary.  (15 to 70 cm thick)"
+      },
+      {
+        "name": "BC",
+        "top": 46,
+        "bottom": 69,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "BC--46 to 69 cm; light brownish gray (10YR 6/2) gravelly ashy coarse sandy loam, grayish brown (10YR 5/2) moist; weak medium subangular blocky structure; friable, slightly hard, nonsticky and nonplastic; few fine roots; common fine irregular pores; 30 percent gravel; neutral (pH 7.0); abrupt smooth boundary. (10 to 50 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 69,
+        "bottom": 81,
+        "narrative": "Cr--69 to 81 cm; weakly cemented tuffaceous rhyolite."
+      },
+      {
+        "name": "R",
+        "top": 81,
+        "narrative": "R--81 cm; indurated tuffaceous rhyolite."
+      }
+    ]
+  ]
 }

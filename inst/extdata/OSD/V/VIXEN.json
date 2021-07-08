@@ -56,5 +56,97 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this soil are: an albic horizon from 0 to 1 inch; a spodic horizon from 1 to 8 inches; coarse-loamy material from 10 to 40 inches.  A cryic temperature regime is assumed.  That part of the spodic horizon that meets amorphous requirements does not extend more than 4 inches into the 10 to 40 inch control section.  The particle size of the control section has a significant relation to the physical and chemical properties of the soil.  The Vixen series is proposed as a benchmark soil series.\nADDITIONAL DATA:  Laboratory data is available on this soil:  NSSL number 82AK-130-000.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 8,
+        "bottom": 3,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--3 to 1 inches; peat consisting of fibric material; many very fine, fine, medium, and coarse roots; abrupt smooth boundary.  (1 to 9 inches thick)"
+      },
+      {
+        "name": "Oa",
+        "top": 3,
+        "bottom": 0,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oa--1 to 0 inches; black (5YR 2.5/1) muck; common very fine and fine, many medium and coarse roots; abrupt smooth boundary.  (0 to 3 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "E--0 to 1 inches; very dark gray (10YR 3/1) fine sandy loam; weak medium subangular blocky structure; very friable; common medium and coarse roots; very strongly acid (pH 4.5); abrupt smooth boundary.  (1 to 2 inches thick)"
+      },
+      {
+        "name": "Bhs1",
+        "top": 3,
+        "bottom": 8,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bhs1--1 to 3 inches; dark reddish brown (5YR 2.5/2) silt loam; moderate medium subangular blocky structure; friable; common medium and coarse roots; very strongly acid (pH 4.5); abrupt wavy boundary. (2 to 4 inches thick)"
+      },
+      {
+        "name": "Bhs2",
+        "top": 8,
+        "bottom": 20,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bhs2--3 to 8 inches; dark reddish brown (5YR 3/2) silt loam; moderate medium subangular blocky structure; friable; common medium and coarse roots; very strongly acid (pH 4.5); clear wavy boundary.  (5 to 10 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 20,
+        "bottom": 104,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--8 to 41 inches; dark brown (7.5YR 4/4) gravelly silt loam (20 percent gravel); weak coarse and medium subangular blocky structure; friable; few medium and coarse roots; very strongly acid (pH 4.5); clear wavy boundary."
+      },
+      {
+        "name": "R",
+        "top": 104,
+        "narrative": "R--41 inches; schist bedrock."
+      }
+    ]
+  ]
 }

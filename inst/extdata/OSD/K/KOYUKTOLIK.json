@@ -56,5 +56,57 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this profile include:\nDominantly hemic soil material in the subsurface tier 12 to 35 inches (Oe2).\nThickness of organic material greater than 51 inches (130 cm).  Control section pH is greater than 4.5.\nAssumed cryic temperature regime; freeze below a depth of 2 inches (5cm) from the surface.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 8,
+        "pH": 5.2,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 3 inches; dark brown (7.5YR 3/2, broken face, rubbed and pressed) peat; 95 percent fiber, 85 percent rubbed; dominantly moss fibers; many very fine, fine, medium, and coarse roots; 5 percent mineral content; very strongly acid (pH 5.2); clear smooth boundary. (2 to 21 inches thick)"
+      },
+      {
+        "name": "Oe1",
+        "top": 8,
+        "bottom": 20,
+        "pH": 5.2,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oe1--3 to 8 inches; dark brown (7.5YR 3/2, broken face, rubbed) dark brown (7.5YR 4/4 pressed) mucky peat; 50 percent fiber, 25 percent rubbed; weak thick platy structure; admixture of sedge and moss fibers; many very fine and fine roots; 5 percent mineral content; very strongly acid (pH 5.2); clear smooth boundary."
+      },
+      {
+        "name": "Oe2",
+        "top": 20,
+        "bottom": 140,
+        "pH": 5.2,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe2--8 to 55 inches; dark brown (7.5YR 3/3, broken face, rubbed and pressed) mucky peat; 75 percent fiber, 35 percent rubbed; weak thick platy structure; admixture of sedge and moss fibers; few very fine and fine roots; 10 percent mineral content; thin discontinuous strata of volcanic ash; very strongly acid (pH 5.2); abrupt smooth boundary."
+      },
+      {
+        "name": "C",
+        "top": 140,
+        "bottom": 152,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "narrative": "C--55 to 60 inches; dark grayish brown (2.5Y 4/2) very gravelly sandy loam; massive; friable, nonsticky, nonplastic; 35 percent gravel, 10 percent cobble."
+      }
+    ]
+  ]
 }

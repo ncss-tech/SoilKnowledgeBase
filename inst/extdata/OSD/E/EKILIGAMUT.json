@@ -56,5 +56,63 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and other features in this pedon\n*Control section--zone from 0 to 130 cm\n*Surface tier--zone from 0 to 30 cm\n*Subsurface tier--zone from 30 to 90 cm\n*Bottom tier--zone from 90 to 130 cm\n*Hemic soil material--zone from 0 to 110 cm\n*Reduced matrix--Cg horizon\n*Aquic condition--0 to 150 cm\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 110,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Oe--0 to 110 cm; mucky peat, brown (10YR 5/3) dry, dark brown (10YR 3/3) moist; many very fine and fine roots; moderately acid (pH 5.8); gradual smooth boundary"
+      },
+      {
+        "name": "Oa",
+        "top": 110,
+        "bottom": 132,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oa--110 to 132 cm; muck, grayish brown (10YR 5/2) dry, very dark grayish brown (10YR 3/2) moist; slightly acid (pH 6.1); abrupt smooth boundary"
+      },
+      {
+        "name": "Cg",
+        "top": 132,
+        "bottom": 150,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 1,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silt",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "narrative": "Cg--132 to 150 cm; silt, 90 percent gray (2.5Y 6/1) dry, dark gray (2.5Y 4/1) moist, and 10 percent brown (10YR 5/3) dry, dark brown (10YR 3/3) moist; massive; moderately hard, firm, slightly sticky and slightly plastic; slightly acid (pH 6.2)"
+      }
+    ]
+  ]
 }

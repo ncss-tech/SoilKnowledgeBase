@@ -56,5 +56,87 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:   Soil interpretive record: MT1752, MT3234.  Diagnostic horizons and features recognized in this pedon are: a mollic epipedon from the surface to 13 inches (A1, A2, Bw horizons); a particle size control section from the surface to 13 inches (A and Bw horizons); a layer of decomposing welded tuff from 13 to 18 inches (Cr horizon); welded tuff bedrock at 18 inches (R horizon).  Nivean soils have a frigid temperature regime and an ustic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 2 inches; dark gray (10YR 4/1) very cobbly loam, very dark brown (10YR 2/2) moist; weak very fine and fine granular structure; slightly hard, very friable, slightly sticky and nonplastic; many very fine and fine roots; 20 percent cobbles and 15 percent pebbles; slightly alkaline (pH 7.6); clear wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--2 to 7 inches; dark grayish brown (10YR 4/2) very gravelly loam, very dark brown (10YR 2/2) moist; weak medium subangular blocky structure parting to moderate very fine and fine granular; slightly  hard, very friable, slightly sticky and nonplastic; many very fine and fine roots and few coarse roots; 10 percent cobbles and 30 percent pebbles; slightly alkaline (pH 7.8); clear wavy boundary. (Combined thickness of A horizons is 6 to 10 inches.)"
+      },
+      {
+        "name": "Bw",
+        "top": 18,
+        "bottom": 33,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--7 to 13 inches; grayish brown (2.5Y 5/2) very gravelly coarse sandy loam, very dark grayish brown (2.5Y 3/2) moist; moderate medium subangular blocky structure; slightly hard, very friable, nonsticky and nonplastic; many very fine and fine roots and few medium roots; many medium tubular pores; 5 percent cobbles and 35 percent pebbles; moderately alkaline (pH 8.2); clear wavy boundary. (5 to 10 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 33,
+        "bottom": 46,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "narrative": "Cr--13 to 18 inches; light gray (2.5Y 7/2) semi- consolidated welded tuff. (2 to 6 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 46,
+        "dry_hue": "5Y",
+        "dry_value": 7,
+        "dry_chroma": 1,
+        "narrative": "R--18 inches; light gray (5Y 7/1) fractured hard welded tuff bedrock."
+      }
+    ]
+  ]
 }

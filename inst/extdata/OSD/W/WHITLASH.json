@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from 0 to 23 cm (A1, A2 horizons)\nCambic horizon - form 23 to 40 cm (Bw horizon)\nLithic contact at 40 cm (R horizon)\nParticle-size control section - from 25 to 40 cm (part of Bw horizon).\nWhitlash soils have a frigid temperature regime and an ustic moisture regime.\nAdditional Information: Soil interpretations records - MT1281, MT1282.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 10 cm; dark grayish brown (10YR 4/2) gravelly loam, very dark grayish brown (10YR 3/2) moist; moderate medium and fine granular structure; soft, very friable, slightly sticky and slightly plastic; 20 percent gravel; neutral (pH 6.8); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--10 to 23 cm; dark grayish brown (10YR 4/2) gravelly loam, very dark grayish brown (10YR 3/2) moist; moderate medium subangular blocky structure parting to moderate medium and fine granular; slightly hard, very friable, slightly sticky and slightly plastic; 20 percent gravel, 5 percent cobbles; neutral (pH 6.8); clear smooth boundary. (combined thickness of the A1 & A2 horizons - 18 to 25 cm)"
+      },
+      {
+        "name": "Bw",
+        "top": 23,
+        "bottom": 40,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw--23 to 40 cm; brown (10YR 5/3) very gravelly loam, brown (10YR 4/3) moist; moderate medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; 35 percent gravel, 15 percent cobbles; neutral (pH 7.0); abrupt smooth boundary. (15 to 25 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 40,
+        "narrative": "R--40 cm; igneous bedrock."
+      }
+    ]
+  ]
 }

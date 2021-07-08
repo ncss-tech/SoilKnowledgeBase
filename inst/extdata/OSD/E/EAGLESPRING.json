@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the surface of the soil to a depth of 31 inches (A, AB, and Bw1 horizons).\nPachic feature - The zone from the surface of the soil to a depth of 31 inches (A, AB, and Bw1 horizons).\nVitrandic feature - The zone from the surface of the soil to a depth of 13 inches.\nParticle-size control section - The zone from 10 to 40 inches (lower 3 inches of the AB horizon, Bw1, and upper 9 inches of the Bw2 horizon)\nCambic horizon - The zone from 31 to 43 inches (Bw2 horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 7 inches; black (10YR 2/1) channery loam, very dark gray (10YR 3/1) dry; weak fine granular structure; soft, friable, nonsticky and nonplastic; many very fine, fine and common medium roots; many very fine, fine and common medium irregular pores; 30 percent channers; neutral (pH 6.6); clear smooth boundary. (5 to 10 inches thick)"
+      },
+      {
+        "name": "AB",
+        "top": 18,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "AB--7 to 13 inches; very dark brown (10YR 2/2) very channery loam, dark gray (10YR 4/1) dry; moderate medium subangular blocky structure parting to weak fine granular; soft, friable, nonsticky and nonplastic; many very fine, fine and common medium roots; many very fine, fine and common medium tubular pores; 45 percent channers; neutral (pH 6.6); clear smooth boundary. (5 to 10 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 33,
+        "bottom": 79,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely channery",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--13 to 31 inches; dark brown (10YR 3/3) extremely channery sandy loam, brown (10YR 4/3) dry; weak very fine and fine subangular blocky structure; slightly hard, very friable, nonsticky and nonplastic; common very fine, fine and few medium roots; common very fine, fine and few medium tubular pores; 70 percent channers; neutral (pH 6.8); clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 79,
+        "bottom": 109,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely channery",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--31 to 43 inches; dark yellowish brown (10YR 3/4) extremely channery loam, yellowish brown (10YR 5/4) dry; weak very fine and fine subangular blocky structure; slightly hard, very friable, nonsticky and nonplastic; few very fine and fine roots; few very fine and fine tubular pores; 75 percent channers; neutral (pH 6.8); clear wavy boundary.  (combined thickness of the Bw horizon is 20 to 40 inches)"
+      },
+      {
+        "name": "R",
+        "top": 109,
+        "narrative": "R--43 inches; fractured sedimentary bedrock."
+      }
+    ]
+  ]
 }

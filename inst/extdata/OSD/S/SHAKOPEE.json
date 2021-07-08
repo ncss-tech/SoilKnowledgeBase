@@ -56,5 +56,72 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are: mollic epipedon--the zone from the surface to a depth of 15 inches (Ap and A horizons); calcic horizon (Bkg horizon); aquic moisture regime--low chroma matrix and redoximorphic concentrations below the mollic horizon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "N",
+        "dry_value": 3,
+        "dry_chroma": 0,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "silty clay",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 9 inches; black (N 2/0), very dark gray (N 3/0) dry, silty clay; moderate fine and very fine subangular blocky structure; friable; few fine roots; strongly effervescent; slightly alkaline; abrupt smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 23,
+        "bottom": 38,
+        "dry_hue": "N",
+        "dry_value": 3,
+        "dry_chroma": 0,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "silty clay",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--9 to 15 inches; black (N 2/0), very dark gray (N 3/0) dry, silty clay; moderate fine subangular blocky structure; friable; few fine roots; strongly effervescent; slightly alkaline; clear smooth boundary. (Combined thickness of the A horizons is 7 to 16 inches)"
+      },
+      {
+        "name": "Bkg",
+        "top": 38,
+        "bottom": 97,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH_class": "strongly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bkg--15 to 38 inches; grayish brown (2.5Y 5/2) silty clay; weak fine and medium angular blocky structure; friable; few fine roots; few fine prominent yellowish brown (10YR 5/6) Fe concentrations; violently effervescent; strongly alkaline; clear smooth boundary."
+      },
+      {
+        "name": "2Cg",
+        "top": 97,
+        "bottom": 203,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "moderately alkaline",
+        "narrative": "2Cg--38 to 80 inches; grayish brown (2.5Y 5/2) sand; single grain; loose; few fine prominent strong brown (7.5YR 5/6) Fe concentrations; strongly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

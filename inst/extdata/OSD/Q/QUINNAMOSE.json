@@ -56,5 +56,121 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 12 inches (Oi, Oe, A and BA horizons)\nCambic horizon - the zone from 12 to 51 inches (Bw1 and Bw2 horizons)\nVitrandic feature - the zone from 3 to 12 inches (A and BA horizons)\nParalithic contact - the zone beginning at 58 inches (2Cr horizon)\nParticle-size control section - the zone from 13 to 43 inches (part of the Bw1 and the Bw2 horizons)\nDepth to diagnostic horizons and features are measured from the top of the first mineral layer.\nThis series has been reclassified (11/2006) from Coarse-loamy, isotic, frigid Vitrandic Dystroxerepts to Coarse-loamy, isotic, frigid Vitrandic Haploxerepts based on lab data collected in Spokane County, WA.\nQuinnamose soils should be further investigated to determine typical mineralogy (isotic vs. mixed).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; slightly decomposed needles, leaves, and twigs."
+      },
+      {
+        "name": "Oe",
+        "top": 3,
+        "bottom": 8,
+        "narrative": "Oe--1 to 3 inches; moderately decomposed plant material."
+      },
+      {
+        "name": "A",
+        "top": 8,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--3 to 9 inches; grayish brown (10YR 5/2) ashy loam, very dark grayish brown (10YR 3/2) moist; weak fine and medium subangular blocky structure; soft, friable, slightly sticky and slightly plastic; many very fine, fine and medium roots; many very fine and fine tubular and irregular pores; 1 percent fine mica flakes; 2 percent gravel; slightly acid (pH 6.5); clear wavy boundary. (2 to 9 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 23,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BA--9 to 12 inches; pale brown (10YR 6/3) ashy sandy loam, dark brown (10YR 3/3) moist; weak fine and medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine, fine, medium and coarse roots; many very fine and fine tubular and irregular pores; 2 percent fine mica flakes; 5 percent gravel; neutral (pH 6.6); clear wavy boundary. (0 to 7 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 30,
+        "bottom": 79,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1--12 to 31 inches; pale brown (10YR 6/3) sandy loam, brown (10YR 4/3) moist; weak medium subangular blocky structure; slightly hard, friable, nonsticky and slightly plastic; common very fine, medium, and coarse roots; common very fine and fine tubular and irregular pores; 5 percent fine mica flakes; 5 percent paragravel and 5 percent gravel; slightly acid (pH 6.5); gradual wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 79,
+        "bottom": 130,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw2--31 to 51 inches; pale brown (10YR 6/3) paragravelly sandy loam, brown (10YR 4/3) moist; weak medium and coarse subangular blocky structure; slightly hard, friable, nonsticky, slightly plastic; few very fine, fine and medium roots; common very fine and fine irregular pores; 20 percent fine mica flakes; 15 percent paragravel and 10 percent gravel; slightly acid (pH 6.4); gradual wavy boundary. (combined thickness of the Bw horizon is 20 to 40 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 130,
+        "bottom": 147,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--51 to 58 inches; light yellowish brown (2.5Y 6/3) very paragravelly sandy loam, olive brown (2.5Y 4/3) moist; weak coarse subangular blocky structure; slightly hard, friable, nonsticky and slightly plastic; few very fine, fine and medium roots; many very fine and fine irregular pores; 25 percent fine and medium mica flakes; 25 percent paragravel and 10 percent gravel; slightly acid (pH 6.2); gradual wavy boundary. (5 to 8 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 147,
+        "bottom": 173,
+        "narrative": "Cr--58 to 68 inches; highly weathered, micaceous schist; weakly to moderately cemented, easily dug with a spade."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,62 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon:  The zone from 1 to 4 inches.  (A horizon)\nCambic horizon:  The zone from 4 to 17 inches.  (Bw horizon)\nLithic contact:  The contact with sandstone at 17 inches.  (2R horizon)\nThe assignment of the cation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nCurrent definitions of a cambic horizon necessitated the reclassification of this series from an Ustorthent to a Haplustept.\nFurther study is needed to properly separate this series and the competing Escrito series.\nTaxonomic Version:  Tenth Edition, 2006.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; decomposed and undecomposed forest litter.  (0 to 2 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "cobbly",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--1 to 4 inches; grayish brown (10YR 5/2) cobbly sandy loam, very dark grayish brown (10YR 3/2) moist; weak very fine granular structure; soft, very friable, nonsticky and nonplastic; many fine roots; many very fine pores; 15 percent cobbles; moderately acid; clear smooth boundary.  (2 to 6 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 10,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "cobbly",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--4 to 17 inches; very pale brown (10YR 7/4) cobbly sandy loam, yellowish brown (10YR 5/4) moist; massive; soft, very friable, nonsticky and nonplastic; common fine roots; few very fine tubular pores; 20 percent cobbles; moderately acid; abrupt wavy boundary.  (4 to 14 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 43,
+        "texture_class": "sand",
+        "narrative": "2R--17 inches; sandstone, weathered in the upper part."
+      }
+    ]
+  ]
 }

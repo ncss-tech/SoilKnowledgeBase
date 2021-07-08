@@ -56,5 +56,122 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The soil temperature regime was originally classified as thermic.\nThe soil temperature regime was changed to mesic in 1998.  This was\ndone as a result of soil temperature studies on the Fresno County, California,\nWestern Part Soil Survey.\nThe original competing series before taxonomy change were the Ballard, Chualar, Gilroy, Pinto, Shimmon, Soper and Tehachapi series in the same family. Ballard soils lack a paralithic contact and have 18 to 25 percent clay in the particle-size control section. Chualar soils lack a paralithic contact and have more than 20 percent coarse and very coarse angular sand. Gilroy soils have a lithic contact of basic igneous and metamorphic rock at 20 to 40 inches. Pinto soils lack a paralithic contact and reaction is neutral to medium acid in the surface and decrease, with depth to medium to strongly acid in C horizon. Shimmon soils have a paralithic contact at 20 to 40 inches and lack coarse fragments below the A horizon. Soper soils have a paralithic contact at 20 to 40 inches. Tehachapi soils lack a paralithic contact and have hue of 5YR in the B2t horizon.\nMajor Diagnostics Horizons:\n1. Mollic Epipedon--0 to 16 inches (A, Bt1)\n2. Argillic Horizon--16 to 34 inches (Bt2, Bt3)\n3. Paralithic Contact--50 to 52 inches (Cr2)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 6 inches; brown (10YR 5/3) loam, very dark grayish brown (10YR 3/2) moist; moderate medium subangular blocky structure parting to very fine subangular blocky; slightly hard, very friable, nonsticky and slightly plastic; many very fine roots; many very fine and fine tubular pores; neutral (pH 7.0); clear wavy boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--6 to 16 inches; brown (10YR 5/3) clay loam, very dark grayish brown (10YR 3/2) moist; moderate coarse subangular blocky structure; slightly hard, very friable, moderately sticky and slightly plastic; many very fine and common fine roots; many very fine and fine tubular pores; many moderately thick clay films in pores and on faces of peds; neutral (pH 7.2); clear wavy boundary. (8 to 12 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 41,
+        "bottom": 66,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 7.1,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--16 to 26 inches; yellowish brown (10YR 5/4) clay loam, dark yellowish brown (10YR 3/4) moist; moderate coarse subangular blocky structure; very hard,  very friable, moderately sticky and slightly plastic; many very fine and fine and common medium roots; many very fine and common fine tubular pores; about 5 percent gravel-size hard shale fragments; many moderately thick clay films in pores and on faces of peds; neutral (pH 7.1); gradual wavy boundary. (10 to 14 inches thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 66,
+        "bottom": 86,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt3--26 to 34 inches; light yellowish brown (10YR 6/4) clay loam, dark yellowish brown (10YR 4/4) moist; massive; very hard, very friable, moderately sticky and moderately plastic; common very fine and many fine roots; common fine tubular pores; about 10 percent gravel-size hard shale fragments; many moderately thick clay films in pores; neutral (pH 7.3); clear wavy boundary. (8 to 12 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 86,
+        "bottom": 107,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--34 to 42 inches; light yellowish brown (10YR 6/4) gravelly clay loam, yellowish brown (10YR 5/4) moist; massive; very hard, very friable, moderately sticky and moderately plastic; common fine roots; common very fine tubular pores; about 20 percent gravel-size hard shale fragments; neutral (pH 7.2); clear wavy boundary. (8 to 12 inches thick)"
+      },
+      {
+        "name": "Cr1",
+        "top": 107,
+        "bottom": 127,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cr1--42 to 50 inches; light gray (2.5Y 7/2) thin weathered coating over light gray (5Y 7/2) highly fractured noncalcareous shale with fractures 0.5 to 2.0 cm apart and no rotational displacement. When soaked in water or sodium hexametaphosphate, breaks down under moderate pressure or upon shaking to a moderately sticky and moderately plastic clay loam; neutral (pH 7.0); clear wavy boundary. (6 to 12 inches thick)"
+      },
+      {
+        "name": "Cr2",
+        "top": 127,
+        "bottom": 132,
+        "narrative": "Cr2--50 to 52 inches; hard fractured noncalcareous shale with fractures 10 to 15 cm apart"
+      }
+    ]
+  ]
 }

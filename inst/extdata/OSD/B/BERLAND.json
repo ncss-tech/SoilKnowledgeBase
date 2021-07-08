@@ -56,5 +56,73 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from 0 to 9 inches (A, Bt1, and Bt2 horizons)\nArgillic horizon - the zone from 2 to 9 inches (Bt1 and Bt2 horizons)\nLithic contact - the boundary with hard sandstone bedrock at 9 inches (2R horizon)\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Tenth Edition, 2006.\nUpdates and revisions for MLRA consistency, February 26, 2008, DWD.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A -- 0 to 2 inches; brown (7.5YR 5/3) loam, dark brown (7.5YR 3/2) moist; moderate thick platy structure parting to moderate medium granular; soft, very friable, slightly sticky and slightly plastic; few fine and many very fine roots; common very fine irregularly shaped pores; 5 percent gravel and channers; slightly acid (pH 6.2); clear smooth boundary.  (1 or 2 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 5,
+        "bottom": 15,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1 -- 2 to 6 inches; brown (7.5YR 4/3) loam, dark brown (7.5YR 3/3) moist; weak coarse prismatic structure parting to moderate medium subangular blocky; slightly hard, friable, sticky and slightly plastic; few fine and common very fine roots; common very fine tubular pores; 5 percent gravel; few thin clay films on faces of peds and lining pores; slightly acid (pH 6.2); clear smooth boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 15,
+        "bottom": 23,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2 -- 6 to 9 inches; brown (7.5YR 4/3) sandy clay loam, dark brown (7.5YR 3/3) moist; moderate medium subangular blocky; slightly hard, friable, slightly sticky and slightly plastic; common very fine roots; few very fine tubular pores; few thin clay films on faces of peds and lining pores; 5 percent gravel and 5 percent channers; slightly acid (pH 6.2); abrupt wavy boundary. (2 or 3 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 23,
+        "texture_class": "sand",
+        "narrative": "2R -- 9 inches; hard sandstone bedrock"
+      }
+    ]
+  ]
 }

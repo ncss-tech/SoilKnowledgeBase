@@ -56,5 +56,164 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nUmbric epipedon - the zone from 0 to 11 inches (A1, A2 horizons)\nClay percentage not determined from 0 to 30 inches(A1, A2, Bw1, and 2Bw2 horizons).\nAndic properties data definitions:\nP-ret: phosphate retention of the less than 2mm fraction.\nB.D.: bulk density of the less than 2mm fraction on an oven dry basis.\npH NaF: pH of soil mixed with saturated sodium floride solution.\nGlass: percent volcanic glass.\nAlo: acid-oxalate-extractable aluminum of the less than 2mm fraction.\nFeo: acid-oxalate-extractable iron of the less than 2mm fraction.\n15 bar H20: dried 1500 kPa water retention as a percent.\nData elements with a * are estimated.\nNC: not calculated.\nND: not done.\nADDITIONAL DATA:  This pedon was characterized by U.C. Davis Laboratory in 1984.  Pedon number is 85-CA-049-02X, lab no. 1618, unpublished.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 5,
+        "bottom": 0,
+        "narrative": "Oi--2 to 0 inches; recent and decomposed pine needles."
+      },
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 3 inches; brown (10YR 5/3) gravelly coarse sandy loam, very dark grayish brown (10YR 3/2) moist; weak very fine subangular blocky structure; loose, nonsticky and nonplastic; many very fine roots; common very fine interstitial pores; 20 percent fine gravel; NaF ph 10.0; slightly acid (pH 6.5); abrupt smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "gravelly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--3 to 11 inches; brown (10YR 5/3) gravelly loamy coarse sand, very dark grayish brown (10YR 3/2) moist; weak very fine subangular blocky structure; soft, loose, nonsticky and nonplastic; common very fine and few coarse and medium roots; common very fine interstitial pores; 20 percent fine gravel; NaF pH 10.0; slightly acid (pH 6.5); clear smooth boundary.  (Combined thickness of the A horizons are 10 to 18 inches)."
+      },
+      {
+        "name": "Bw1",
+        "top": 28,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw1--11 to 18 inches; pale brown (10YR 6/3) gravelly loamy coarse sand, brown (10YR 4/3) moist; single grained; loose, nonsticky and nonplastic; few fine and coarse roots; common very fine interstitial pores; 20 percent fine gravel; NaF pH 10.5; neutral (pH 7.0); abrupt smooth boundary.  (4 to 15 inches thick)"
+      },
+      {
+        "name": "2Bw2",
+        "top": 46,
+        "bottom": 76,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy coarse sand",
+        "cf_class": "gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2Bw2--18 to 30 inches; pale brown (10YR 6/3) gravelly loamy coarse sand, brown (10YR 4/3) moist; single grained; loose, nonsticky and nonplastic; few medium and coarse roots; common very fine interstitial pores; 20 percent fine gravel; NaF pH 10.0; neutral (pH 7.0); clear smooth boundary."
+      },
+      {
+        "name": "2Bw3",
+        "top": 76,
+        "bottom": 107,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "cf_class": "gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2Bw3--30 to 42 inches; pale brown (10YR 6/3) gravelly loamy sand, brown (10YR 4/3) moist; single grained; loose, nonsticky and nonplastic; few medium roots; common very fine interstitial pores; 20 percent gravel; NaF pH 9.6; neutral (pH 7.0); clear smooth boundary.  (Combined thickness of the 2Bw horizon is 18 to 27 inches thick)"
+      },
+      {
+        "name": "2C1",
+        "top": 107,
+        "bottom": 132,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2C1--42 to 52 inches; very pale brown (10YR 7/3) very gravelly sand, brown (10YR 4/3) moist; single grained; loose, nonsticky and nonplastic; few medium roots; common fine interstitial pores; 40 percent fine gravel; NaF pH 8.5; neutral (pH 7.0); gradual smooth boundary."
+      },
+      {
+        "name": "2C2",
+        "top": 132,
+        "bottom": 137,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "2C2--52 to 54 inches; very pale brown (10YR 7/3) very gravelly sand, brown (10YR 5/3) moist; single grained; loose, nonsticky and nonplastic; few fine roots; common fine interstitial pores; 50 percent fine cinder gravel; NaF pH 7.8; neutral (pH 7.0); abrupt smooth boundary."
+      },
+      {
+        "name": "2C3",
+        "top": 137,
+        "bottom": 183,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "narrative": "2C3--54 to 72 inches; very pale brown (10YR 7/3) very gravelly sand; brown (10YR 5/3) moist; single grained; loose, nonsticky and nonplastic; few fine roots; common fine interstitial pores; 50 percent fine cinder gravel; NaF pH 7.7; neutral (pH 7.0).  (Combined thickness of the C horizons are 10 to 30 inches or more thick)"
+      }
+    ]
+  ]
 }

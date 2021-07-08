@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This soil was previously included with the Masada series.  Masada soils are Typic Hapludults.  Classification of this soil is supported by reference laboratory data from the typical pedon (NSSL Nos.  90P1477, 90P1478).  This revision changes the depth to the seasonally high water table to 4 to 6 feet.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface of the soil to a depth of 9 inches (Ap horizon)\nArgillic horizon - the zone between 9 and 52 inches (Bt1, Bt2, and Bt3 horizons)\nMLRA: 136\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0253 SKYUKA      2- 15   58- 64  180-230  50- 65   750-1100\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0253 NONE   RARE   4.0-6.0  APPARENT DEC-APR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0253  0- 9  CL SCL                  0-  5  80-100 20-35  10- 25\nNC0253  0- 9  FSL SL                  0-  5  80-100 10-20   5- 20\nNC0253  0- 9  L                       0-  5  90-100 10-20   5- 20\nNC0253  9-52  CL C SC                 0-  5  90-100 35-60  15- 40\nNC0253 52-60  SCL CL L                0-  5  75-100 15-35   5- 20\nNC0253 60-72  FSL CL SICL             0-  5  75-100 10-35   4- 20\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0253  0- 9  5.1- 6.5  1.-3.  0- 0   0.6- 2.0  LOW\nNC0253  0- 9  5.1- 6.5  1.-3.  0- 0   2.0- 6.0  LOW\nNC0253  0- 9  5.1- 6.5  1.-3.  0- 0   2.0- 6.0  LOW\nNC0253  9-52  5.1- 6.5  .5-1.  0- 0   0.6- 2.0  MODERATE\nNC0253 52-60  5.1- 6.5  0.-.5  0- 0   0.6- 2.0  LOW\nNC0253 60-72  5.1- 6.5  0.-.5  0- 0   0.6- 2.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 9 inches; dark brown (7.5YR 3/4) clay loam, brown (7.5YR 4/4) dry; moderate medium granular structure; friable; slightly sticky, slightly plastic; common fine and medium roots; few fine flakes of mica; slightly acid; clear smooth boundary.  (6 to 12 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 23,
+        "bottom": 76,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--9 to 30 inches; yellowish red (5YR 4/6) clay loam; moderate medium subangular blocky structure; firm; sticky, plastic; common faint clay films on faces of peds; common fine and medium roots; few fine flakes of mica; few medium, soft, irregular iron-manganese masses; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 76,
+        "bottom": 97,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--30 to 38 inches; yellowish red (5YR 5/6) clay; few fine distinct strong brown (7.5YR 5/8) mottles; moderate medium subangular blocky structure; firm; sticky, plastic; common faint clay films on faces of peds; few fine flakes of mica; few medium, soft, irregular iron-manganese masses; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 97,
+        "bottom": 132,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt3--38 to 52 inches; yellowish red (5YR 5/8) clay loam; common medium distinct strong brown (7.5YR 5/8) and red (2.5YR 4/8) mottles; moderate medium subangular blocky structure; firm; sticky, plastic; few faint clay films on faces of peds; common fine flakes of mica; common medium, soft, irregular iron-manganese masses; slightly acid; gradual wavy boundary.  (Combined thickness of the Bt horizon is 24 to 53 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 132,
+        "bottom": 152,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--52 to 60 inches; strong brown (7.5YR 5/6) sandy clay loam; common medium distinct yellowish red (5YR 5/8) masses of iron accumulation and yellowish brown (10YR 5/4) iron depletions; weak medium subangular blocky structure; friable; slightly sticky, slightly plastic, common fine flakes of mica; common medium, soft, irregular iron-manganese masses; slightly acid; gradual wavy boundary.  (0 to 20 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 152,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "narrative": "C--60 to 72 inches; brownish yellow (10YR 6/6), yellowish red (5YR 4/6), strong brown (7.5YR 4/6), and light brownish gray (10YR 6/2) fine sandy loam; massive; very friable; nonsticky, nonplastic, common fine flakes of mica; slightly acid."
+      }
+    ]
+  ]
 }

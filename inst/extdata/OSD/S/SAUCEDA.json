@@ -56,5 +56,64 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 8 inches (A1 and A2 horizons) The soil meets all requirements for a mollic epipedon except some part of the epipedon is moist for less than 90 days (cumulative) in normal years during times when the soil temperature at a depth of 20 inches is 41 degrees F.\nLithic contact - the boundary at 8 inches (Rk horizon)\nUstic feature - A moisture control section that, in normal years, is dry in all its parts for less than three-fourths of the cumulative days per year when the soil temperature at a depth of 50 cm from the soil surface is 41 F or higher.\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Eleventh Edition, 2010\nSeries updated to clarify differences between competing series, June 2008 by Marfa MSSL.\nUpdated competing series section for the correlation of Hudspeth County, Texas (Main Part) and Culberson County, Texas (Main Part); July, 2012, NMS\nRevised for the correlation of Presidio County, Texas ; Oct, 2012, WWJ\nADDITIONAL DATA: Burt, E.R.  1970.  Petrology of the Mitchell Mesa Rhyolite, Trans-Pecos Texas.  Ph.D. dissertation, University of Texas at Austin.  95 pp.\nCharacterization data for Pedon S93TX377-002 is available from Texas A&M University Soil Characterization Lab.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 2 inches, brown (7.5YR 4/2) very gravelly loam, dark brown (7.5YR 3/2) moist; moderate medium and fine granular structure; slightly hard, friable; many very fine and fine roots;  50 percent ignimbrite gravel; slightly effervescent; moderately alkaline; abrupt smooth boundary.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 20,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--2 to 8 inches, brown (7.5YR 4/3) very cobbly loam, dark brown (7.5YR 3/3) moist; moderate medium subangular blocky structure; slightly hard, friable; many very fine and fine roots; few films, threads, and masses of calcium carbonate; 20 percent ignimbrite gravel; 30 percent ignimbrite cobbles with coatings of calcium carbonate; strongly effervescent; moderately alkaline; abrupt wavy boundary.  (0 to 16 inches thick)"
+      },
+      {
+        "name": "Rk",
+        "top": 20,
+        "bottom": 36,
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Rk--8 to 14 inches, slightly fractured ignimbrite bedrock with coatings of calcium carbonate in fractures; common fine and very fine roots in fractures; many pendants from 2 to 6 mm thick on lower side of upper layers; clear wavy boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 36,
+        "bottom": 152,
+        "narrative": "R--14 to 60 inches, slightly fractured ignimbrite bedrock"
+      }
+    ]
+  ]
 }

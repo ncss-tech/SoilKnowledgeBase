@@ -56,5 +56,68 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features and horizons recognized in this profile include:\nDepth to permafrost: 14 to 60 inches. (Af horizon)\nHistic epipedon: 0 to 10 inches. (Oi and Oe horizons)\nUmbric horizon: 10 to 60 inches. (A and Af horizons)\nCoarse-silty particle size control section: 10 to 40 inches from the mineral surface\nTemperature regime: pergelic\nMoisture regime: aquic.\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "pH": 5.2,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Oi--0 to 6 inches (0 to 15 cm); dark brown (7.5YR 3/4) slightly decomposed plant material; many very fine, fine, and medium roots; very strongly acid (pH 5.2); clear wavy boundary."
+      },
+      {
+        "name": "Oe",
+        "top": 15,
+        "bottom": 25,
+        "moist_hue": "7.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "pH": 5.2,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Oe--6 to 10 inches (15 to 25 cm); very dark brown (7.5YR 2.5/2) moderately decomposed plant material; many very, fine, and medium roots; very strongly acid (pH 5.2); clear wavy boundary."
+      },
+      {
+        "name": "A",
+        "top": 25,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 5.4,
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--10 to 14 inches (25 to 36 cm); very dark brown (10YR 2/2) and dark brown (10YR 3/3) silt loam; weak thin platy structure; very friable, nonsticky and nonplastic; many very fine and fine roots; strongly acid (pH 5.4); abrupt wavy boundary."
+      },
+      {
+        "name": "Af",
+        "top": 36,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 5.4,
+        "pH_class": "strongly acid",
+        "narrative": "Af--14 to 60 inches (36 to 152 cm); very dark brown (10YR 2/2) and dark brown (10YR 3/3) permanently frozen silt loam; few very fine and fine roots; strongly acid (pH 5.4)."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  1. The classification is updated from Loamy-skeletal, mixed, frigid Lithic Haplorthods to Loamy-skeletal, isotic, frigid Lithic Haplorthods.  Competing series section revised accordingly.\n2. The spodic horizon, especially the Bh and Bhs, exhibits some \"Thixotropic-like\" properties (i.e., smeariness, high organic carbon content, high effective clay percentage, high K value, and fragile nature that is easily damaged by foot or vehicular traffic)\n3. The diagnostic horizons and features recognized in this pedon are:\na.  Ochric epipedon - the zone from 0 to 1 inch (A horizon).\nb.  Spodic horizon - the zone from 1 to 17 inches (Bhs horizon: due to lack of Albic horizon, Bhs is assumed to meet criteria for spodic materials).\nc.  Lithic feature - bedrock at 17 inches from the soil surface.\nd.  Particle size control section from 10 inches to the lithic\ncontact is loamy-skeletal.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 5,
+        "bottom": 3,
+        "narrative": "Oi--2 to 1 inches; slightly decomposed leaves and twigs."
+      },
+      {
+        "name": "Oe",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "Oe--1 to 0 inches; moderately decomposed organic matter.  (Combined thickness of the O horizon is 0 to 6 inches.)"
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 1 inches; black (5YR 2/1) very cobbly loam; weak fine granular structure; friable; many roots; 20 percent gravel, 20 percent cobbles and 15 percent stones; extremely acid; abrupt wavy boundary.  (0 to 4 inches thick)"
+      },
+      {
+        "name": "Bhs1",
+        "top": 3,
+        "bottom": 15,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bhs1--1 to 6 inches; dark reddish brown (5YR 3/3) very cobbly loam; weak medium granular structure; friable; many roots; 15 percent gravel, 20 percent cobbles and 15 percent stones; extremely acid; moderately smeary; clear wavy boundary."
+      },
+      {
+        "name": "Bhs2",
+        "top": 15,
+        "bottom": 43,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very stony",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bhs2--6 to 17 inches; reddish brown (5YR 4/3) very stony loam; weak medium subangular blocky structure; friable; many roots; 15 percent gravel, 15 percent cobbles and 20 percent stones; extremely acid; moderately smeary; abrupt irregular boundary.  (Combined thickness of the Bhs, Bh and Bs horizon is 8 to 18 inches.)"
+      },
+      {
+        "name": "R",
+        "top": 43,
+        "narrative": "R--17 inches; schist bedrock."
+      }
+    ]
+  ]
 }

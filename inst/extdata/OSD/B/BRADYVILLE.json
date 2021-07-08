@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons recognized in this pedon are:\nOchric epipedon - from 0 to 6 inches (Ap horizon)\nArgillic horizon - from 6 to 36 inches (Bt1-Bt4 horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches, dark reddish brown (5YR 3/4) silt loam; moderate medium granular structure; friable; many fine roots; medium acid; abrupt smooth boundary.  (4 to 8 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 30,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--6 to 12 inches, red (2.5YR 4/6) silty clay loam; moderate medium subangular blocky structure; friable; few faint clay films; common fine roots; few fine dark brown and black concretions; medium acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 30,
+        "bottom": 51,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt2--12 to 20 inches, red (2.5YR 4/6) silty clay loam; moderate medium subangular blocky structure; firm; common fine root; common faint clay film; few fine and medium black and dark brown concretion; medium acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 51,
+        "bottom": 69,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt3--20 to 27 inches, red (2.5YR 4/6) clay; few medium distinct yellowish brown (10YR 5/6) and strong brown (7.5YR 5/6) mottle; strong medium subangular blocky structure; firm; plastic; few fine roots; common distinct clay films; few fine and medium black concretions; few angular fragment of chert up to 2 inches across; medium acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt4",
+        "top": 69,
+        "bottom": 91,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt4--27 to 36 inches, yellowish red (5YR 4/6) clay; common fine to coarse yellowish brown (10YR 5/6) and strong brown (7.5YR 5/6) mottles; moderate medium subangular blocky structure; very firm; plastic; common distinct clay films; common fine and medium black concretions; few angular fragments of chert up to 2 inches across; medium acid; gradual wavy boundary.  (Combined thickness of the Bt horizon range from 25 to 48 inches)"
+      },
+      {
+        "name": "BC",
+        "top": 91,
+        "bottom": 122,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "narrative": "BC--36 to 48 inches, yellowish red (5YR 4/6) clay; many medium and coarse prominent light yellowish brown (10YR 6/4) and few fine prominent light brownish gray (10YR 6/2) mottles; weak coarse and medium angular blocky structure; very firm and very plastic; few thin slabs of hard limestone; few fine and medium black concretions; medium acid.  (0 to 16 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 122,
+        "narrative": "R--48 inches; limestone rock."
+      }
+    ]
+  ]
 }

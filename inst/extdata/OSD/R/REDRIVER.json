@@ -56,5 +56,97 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Andic subgroup based on UCD lab data of 2 similar pedons.\nDiagnostic horizons and features recognized in this pedon:\nOchric epipedon:  The zone from the surface to a depth of 16 inches. (A, AB horizons).\nCambic horizon:  The zone from about 16 to 31 inches.  (Bw1 and Bw2 horizons).\nAndic material:  The zone from the mineral soil surface to a depth of 31 inches (A1,AB, Bw1, Bw2 horizons).\nAndic property data definitions:\nP-ret: phosphate retention of the less than 2mm fraction.\nB.D.: bulk density of the less than 2mm fraction measured at 33kPa water retention.\npH NaF: pH of soil mixed with saturated sodium floride solution.\nGlass: percent volcanic glass.\nAlo: acid-oxalate-extractable aluminum of the less than 2mm fraction.\nFeo: acid-oxalate-extractable iron of the less than 2mm fraction.\n15 bar H20: dried 1500 kPa water retention as a percent.\nData elements with a * are estimated.\nNC: not calculated.\nND: not done.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "0--1 to 0 inches; decomposed needles, cones and twigs."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "stony",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 6 inches; dark brown (10YR 3/3) stony sandy loam, dark brown (7.5YR 3/2) moist; weak fine granular structure; soft, very friable, nonsticky and slightly plastic; common very fine, few fine and medium roots; many very fine interstitial pores; 5 percent stones, 30 percent pebbles; sodium fluoride pH is 10.5 after 2 minutes; slightly acid (pH 6.5); clear wavy boundary (2 to 6 inches thick)"
+      },
+      {
+        "name": "AB",
+        "top": 15,
+        "bottom": 41,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely cobbly",
+        "pH": 6,
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "AB--6 to 16 inches; brown (7.5YR 4/4) extremely cobbly sandy loam, dark reddish brown (5YR 3/4) moist; weak fine granular structure; soft, very friable, nonsticky and slightly plastic; common very fine few fine and medium roots; many very fine interstitial pores; 25 percent cobbles, 50 percent pebbles; sodium fluoride pH is 10.0 after 2 minutes; medium acid (pH 6.0); clear wavy boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 41,
+        "bottom": 56,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6,
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1--16 to 22 inches; strong brown (7.5YR 4/6) extremely gravelly sandy loam, dark brown (7.5YR 3/4) moist; weak fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; few very fine, fine and medium roots; common very fine tubular and many very fine interstitial pores; 20 percent cobbles, 60 percent pebbles; sodium fluoride pH is 10.0 after 2 minutes; medium acid (pH 6.0); gradual wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 56,
+        "bottom": 79,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6,
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw2--22 to 31 inches; strong brown (7.5YR 4/6) extremely gravelly sandy loam, dark brown (7.5YR 4/4) moist; moderate fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; 10 percent cobbles, 60 percent pebbles; sodium fluoride pH is 9.1 after 2 minutes; medium acid (pH 6.0); gradual wavy boundary.  (The combined thickness of the Bw horizon is 14 to 30 inches)."
+      },
+      {
+        "name": "R",
+        "top": 79,
+        "bottom": 102,
+        "narrative": "R--31 to 40 inches; fractured basalt; fractures are 3 to 9 inches apart horizontally and vertically.  Fractures are 1/8 inch wide and are filled with soil and roots."
+      }
+    ]
+  ]
 }

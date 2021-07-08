@@ -56,5 +56,65 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Pixlee soils were previously mapped as Quinlan soils. It was established to replace Quinlan on the Elk City Sandstone which has a superactive mineralogy class and texture difference.\nDiagnostic horizons and features recognized in this pedon are:\nParticle-size control section: 0 to 28 cm (0 to 11_in) (Ap & Bw horizons)\nOchric epipedon: 0 to 11 cm (0 to 4 in) (Ap horizon)\nCambic horizon: 11 to 28 cm (4 to 11 in) (Bw horizon)\nParalithic contact: 28 cm (11 in) the top of the Cr horizon.\nADDITIONAL DATA:\nKSSL data: Pedon IDs - S2011OK129011, type location (Roger Mills County, OK), and S2011OK149017 (Washita County, OK)\nTAXONOMIC VERSION: Keys to Soil Taxonomy, Twelfth Edition, 2014\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 11,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "very fine sandy loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 11 cm (0 to 4 in); red (2.5YR 4/6) dry, very fine sandy loam; dark red (2.5YR 3/6) moist; weak medium granular structure; friable, slightly hard, nonsticky, nonplastic; common very fine roots throughout and common very fine roots throughout, very slightly effervescent by HCl, 1 normal; moderately alkaline (pH 8.0); abrupt smooth boundary. Thickness is 5 to 25 cm (2 to 10 in)."
+      },
+      {
+        "name": "Bw",
+        "top": 11,
+        "bottom": 28,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "very fine sandy loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw--11 to 28 cm (4 to 11 in); red (2.5YR 4/6) dry, very fine sandy loam; dark red (2.5YR 3/6) moist; strong medium subangular blocky structure; firm, hard, nonsticky, nonplastic; common very coarse roots throughout and common fine roots throughout; slightly effervescent by HCl, 1 normal; moderately alkaline (pH 8.2); abrupt smooth boundary. Thickness is 15 to 38 cm (6 to 15 in)."
+      },
+      {
+        "name": "Cr",
+        "top": 28,
+        "bottom": 40,
+        "dry_hue": "2.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "narrative": "Cr--28 to 40 cm (11 to 16 in); red (2.5YR 5/6) dry; red (2.5YR 4/6) moist; weakly cemented sandstone bedrock; strongly effervescent by HCl, 1 normal; moderately alkaline (pH 8.2)."
+      }
+    ]
+  ]
 }

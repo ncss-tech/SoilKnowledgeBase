@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon include:\nOchric epipedon\nCambic horizon - from 4 to 17 inches (Bw1 and Bw2 horizons).\nLithic subgroup - bedrock at 17 inches (R horizon).\nEutrochrepts feature - base saturation by ammonium acetate is assumed to be 60 percent or more in some subhorizon within 20 inches.  This is based on laboratory data from the associated Redflat soil.\nParticle-size control section - from 10 to 17 inches (lower part of Bw1 and the Bw2 horizons)\nAlso qualifies as Dystric subgroup.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; dark reddish brown (5YR 3/3) very cobbly clay loam, brown (7.5YR 5/4) dry; moderate very fine subangular blocky structure; slightly hard, firm, slightly sticky and slightly plastic; many very fine and fine roots; many fine tubular pores; 30 percent gravel and 20 percent cobbles; slightly acid (pH 6.4); clear smooth boundary.  (3 to 5 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 10,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1--4 to 12 inches; reddish brown (5YR 4/4) extremely gravelly clay loam, brown (7.5YR 5/4) dry; moderate fine and medium subangular blocky structure; slightly hard, firm, slightly sticky and slightly plastic; many very fine and fine roots; many fine tubular pores; 50 percent gravel and 20 percent cobbles; slightly acid (pH 6.4); gradual wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 30,
+        "bottom": 43,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw2--12 to 17 inches; reddish brown (5YR 4/4) extremely gravelly clay loam, light brown (7.5YR 6/4) dry; moderate fine and medium subangular blocky structure; hard, firm, moderately sticky and moderately plastic; common very fine and fine roots; many fine tubular pores; 55 percent gravel and 25 percent cobbles; neutral (pH 6.6); abrupt wavy boundary.  (Combined thickness of the Bw horizon ranges from 7 to 15 inches.)"
+      },
+      {
+        "name": "R",
+        "top": 43,
+        "narrative": "R--17 inches; highly fractured peridotite."
+      }
+    ]
+  ]
 }

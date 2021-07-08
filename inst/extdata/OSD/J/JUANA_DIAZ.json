@@ -56,5 +56,62 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nOchric epipedon - zone from 0 to 6 inches (A horizon)\nCambic horizon - zone from 6 to 18 inches (Bw and BC horizons)\nParalithic contact - zone at 18 inches (Cr layer)\nThis series was formerly classified in Reddish Chestnut great soil group.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; dark yellowish brown (10YR 3/4) 80 percent, dark brown (10YR 4/3) 20 percent, (0-15 cm) clay loam; moderate fine and medium granular structure; firm, slightly sticky, plastic; many fine roots; neutral; abrupt smooth boundary.  (5 to 7 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 15,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--6 to 12 inches; dark yellowish brown (10YR 4/4) clay loam, weak medium and coarse subangular (15-30 cm) blocky structure; firm, slightly sticky, plastic; common fine roots; neutral; clear smooth boundary.  (5 to 7 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 30,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "pH_class": "mildly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BC--12 to 18 inches; yellowish brown (10YR 5/6) silt loam; weak medium subangular blocky structure; (30-45 cm) friable, slightly sticky, slightly plastic; few fine roots; 15 percent by volume of saprolite; mildly alkaline; clear smooth boundary.  (4 to 6 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 46,
+        "bottom": 102,
+        "texture_class": "sand",
+        "narrative": "Cr--18 to 40 inches; consists of semi-consolidated sandstone that can be easily broken with the spade."
+      }
+    ]
+  ]
 }

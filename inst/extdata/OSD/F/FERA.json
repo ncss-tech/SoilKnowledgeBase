@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Fera soils were formerly classified as Chestnut soils.\nDiagnostic horizons and features recognized in this pedon:\nMollic epipedon - The zone from the soil surface to 28 cm (A1 and A2 horizons).\nArgillic horizon - The zone from 28 to 107 cm (Bt1 and Bt2 horizons).\nLithic contact - The boundary at 107 cm (R layer).\nParticle-size control section - The zone from 28 to 78 cm (Bt1 and part of the Bt2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 13 cm; grayish brown (10YR 5/2) very gravelly loam, very dark grayish brown (10YR 3/2) moist; moderate fine and medium granular structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine roots; many fine and very fine interstitial pores; 50 percent gravel; neutral (pH 6.6); clear wavy boundary. (10 to 20 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 13,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--13 to 28 cm; brown (10YR 5/3) extremely gravelly loam, dark brown (10YR 3/3) moist; weak fine and medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine roots; many fine and very fine tubular pores; 60 percent gravel; neutral (pH 6.8); clear wavy boundary, (0 to 20 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 28,
+        "bottom": 46,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt1--28 to 46 cm; light brown (7.5YR 6/4) extremely gravelly clay loam, brown (7.5YR 5/4) moist; moderate medium and fine angular blocky structure; very hard, firm, very sticky and very plastic; common very fine roots; common very fine tubular pores; common prominent clay films on faces of peds and lining pores; 60 percent gravel; neutral (pH 6.8); abrupt wavy boundary.  (48 to 78 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 46,
+        "bottom": 107,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "extremely gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2--46 to 107 cm; brown (7.5YR 5/4) extremely gravelly clay, brown (7.5YR 5/4) moist; moderate medium and fine angular blocky structure; very hard, firm, very sticky, very plastic; common very fine roots; common very fine tubular pores; common prominent clay films on faces of peds and lining pores; 60 percent gravel; neutral (pH 6.8); abrupt wavy boundary.  (48 to 78 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 107,
+        "narrative": "R--107 cm; conglomerate bedrock."
+      }
+    ]
+  ]
 }

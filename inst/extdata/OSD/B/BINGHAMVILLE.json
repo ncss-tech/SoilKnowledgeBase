@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:   1. The classification is updated to the 7th edition of the Keys to Soil Taxonomy with this revision.  The previous classification was coarse-silty, mixed, nonacid, mesic Typic Haplaquepts.\n2. The diagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon - the zone from 0 to 11 inches (Ap horizon).\nb. Cambic horizon - the zone from 11 to 27 inches (Bg horizon).\nc. Redoximorphic features - masses of iron accumulation, iron depletions and an iron depleted matrix (Bg and Cg horizons.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 11 inches; very dark grayish brown (10YR 3/2) silt loam, pale brown (10YR 6/3) dry; weak medium granular structure; friable; many roots; less than 2 percent rock fragments; neutral; abrupt smooth boundary.  (5 to 11 inches thick)"
+      },
+      {
+        "name": "Bg1",
+        "top": 28,
+        "bottom": 51,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bg1--11 to 20 inches; grayish brown (2.5Y 5/2) silt loam; moderate fine angular blocky structure; friable; few roots; less than 2 percent rock fragments; common fine prominent dark yellowish brown (10YR 4/6) masses of iron accumulation and few fine distinct gray (10YR 5/1) iron depletions; slightly acid; abrupt wavy boundary.  (5 to 13 inches thick)"
+      },
+      {
+        "name": "Bg2",
+        "top": 51,
+        "bottom": 69,
+        "moist_hue": "5Y",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bg2--20 to 27 inches; olive gray (5Y 2/2) silt loam; weak very fine granular structure; very friable; few roots; less than 2 percent rock fragments; few fine distinct light brownish gray (2.5Y 6/2) iron depletions and common medium prominent brown (10YR 5/3) masses of iron accumulation;  slightly acid; abrupt wavy boundary.  (5 to 13 inches thick)"
+      },
+      {
+        "name": "Cg1",
+        "top": 69,
+        "bottom": 114,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "Cg1--27 to 45 inches; gray (5Y 5/1) silt loam; weak thin platy structure; firm; less than 2 percent rock fragments;  common medium distinct grayish brown (2.5Y 5/2) iron depletions; neutral; gradual irregular boundary.  (11 to 18 inches)"
+      },
+      {
+        "name": "Cg2",
+        "top": 114,
+        "bottom": 165,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "narrative": "Cg2--45 to 65 inches; dark grayish brown (10YR 4/2) silt loam; weak thin platy structure; firm; less than 2 percent rock fragments; few fine distinct gray (10YR 5/1) iron depletions; neutral."
+      }
+    ]
+  ]
 }

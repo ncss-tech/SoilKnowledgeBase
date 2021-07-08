@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and other features recognized in this pedon\n*Mollic epipedon--zone from the surface to a depth of 30 cm\n*Argillic horizon--zone from 13 to 30 cm\n*Depth to lithic contact--30 cm\n*Particle-size control section--zone from the surface to a depth of 30 cm\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "stony",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 13 cm; stony clay loam, brown (7.5YR 5/4) dry, dark brown (7.5YR 3/2) moist; moderate fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine roots; many very fine irregular pores; 15 percent gravel and 15 percent stones; slightly acid (pH 6.4); clear smooth boundary"
+      },
+      {
+        "name": "Bt",
+        "top": 13,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "extremely stony",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--13 to 30 cm; extremely stony clay loam, brown (7.5YR 4/4) dry, dark brown (7.5YR 3/2) moist; moderate fine and medium subangular blocky structure; hard, friable, moderately sticky and moderately plastic; many very fine and fine roots; many very fine irregular pores and few very fine tubular pores; 30 percent gravel, 20 percent cobbles, and 20 percent stones; common prominent clay films on ped faces and in pores; slightly acid pH 6.2); abrupt wavy boundary"
+      },
+      {
+        "name": "R",
+        "top": 30,
+        "narrative": "R--30 cm; basalt"
+      }
+    ]
+  ]
 }

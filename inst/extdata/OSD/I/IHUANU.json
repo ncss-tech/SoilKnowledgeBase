@@ -56,5 +56,73 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Soil moisture - usually moist, but dry in some or all parts for short intermittent periods totaling 90 or more days (Ustic moisture regime).\nDiagnostic horizons and features recognized in this pedon include:\n--Mollic epipedon - from 0 to 50 centimeters (0 to 20 inches) (A/2C1 and 2C2/Bw horizons).\n--Andic soil properties - from 0 to 56 centimeters (0 to 22 inches) (A/2C1, 2C2/Bw, and 2C3 horizons).\n--Lithic contact - at 56 centimeters (22 inches) (2R horizon).\nEditlog: 2/5/08 Andic texture modifiers added to horizon texture. MRK\nComment on horizonation: The aa lava flowed and then a nearby cinder cone erupted. At first it was a cindery ash fall and then eventually finer ash on top which can happen during an eruption episode. The aa lava fragments and the aa bluerock are from a single depositional event and the larger to finer particle ash fall is one as well. There were only 2 depositional events here. MRK\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A/2C1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "cf_class": "very cobbly",
+        "pH": 5.2,
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A/2C1--0 to 5 centimeters (0 to 2 inches); black (10YR 2/1) very cobbly medial silt loam, very dark grayish brown (10YR 3/2) dry; strong very fine granular structure; soft, friable, nonsticky and nonplastic; nonsmeary; many very fine and fine, and few medium roots; many very fine interstitial pores; 2C material consists of unconsolidated `a`a lava fragments (20 percent subangular gravel and 20 percent angular cobbles); strongly acid (pH 5.2); abrupt wavy boundary. (3 to 8 centimeters {1 to 3} inches thick)"
+      },
+      {
+        "name": "2C2/Bw",
+        "top": 5,
+        "bottom": 50,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely cobbly",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2C2/Bw--5 to 50 centimeters (2 to 20 inches); very dark brown (10YR 2/2) extremely cobbly medial sandy loam, dark yellowish brown (10YR 3/4) dry; weak very fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; nonsmeary; common very fine and fine, and few medium roots; many very fine interstitial pores; 2C material consists of unconsolidated `a`a lava fragments (25 percent subangular gravel and 40 percent angular cobbles); slightly acid (pH 6.1); abrupt wavy boundary. (38 to 50 centimeters (15 to 20 inches) thick)"
+      },
+      {
+        "name": "2C3",
+        "top": 50,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "coarse sand",
+        "cf_class": "extremely gravelly",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "narrative": "2C3--50 to 56 centimeters (20 to 22 inches); very dark brown (10YR 2/2) extremely gravelly coarse sand, brown (10YR 4/3) dry; single grain; loose when dry or moist, nonsticky and nonplastic; nonsmeary; many very fine interstitial pores; 70 percent cinder gravels; slightly acid (pH 6.1); abrupt boundary. (5 to 8 centimeters {2 to 3 inches} thick)"
+      },
+      {
+        "name": "2R",
+        "top": 56,
+        "narrative": "2R--56 centimeters (22 inches); hard, massive `a`a blue rock."
+      }
+    ]
+  ]
 }

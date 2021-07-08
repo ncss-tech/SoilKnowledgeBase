@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The March 1982 revision changed the classification from Typic\nFragiudults to Typic Hapludults. The November 1998 revision changes the\nclassification to Oxyaquic Kanhapludults.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon--the zone from the surface of the soil to 5 inches (Ap horizon)\nArgillic horizon--the zone from 7 to 55 inches (Bt1, Bt2, Btx1 and Btx2\nhorizons)\nKandic horizon--the zone of the argillic horizon from 7 to 40 inches\nMLRA = 136\nREVISED = RHB 10/2002\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp  FrFr/Seas  Precip   Elevation\nSC0013 CATAULA     2-25   57-70    190-225    37-60    250-850\nSOI-5  FloodL FloodH  Watertable  Kind     Months    Bedrock  Hardness\nSC0013 NONE           2.0-4.0     PERCHED  DEC-APR   >60      -\nSOI-5  Depth  Texture                 3-Inch  No-10    Clay%   -CEC-\nSC0013  0-7   LS                      0-3     90-100    2-10    2-5\nSC0013  0-7   SL FSL                  0-3     90-100    5-15    4-7\nSC0013  0-7   SCL CL                  0-2     90-100   20-35    5-8\nSC0013  7-27  C CL SC                 0-0     90-100   35-70    8-12\nSC0013 27-55  SCL SC CL               0-0     90-100   30-50    5-10\nSC0013 55-75  SCL CL L                0-1     90-100   20-35    4-10\nSOI-5  Depth    -pH-     O.M.   Salin  Permeab    Shnk-Swll\nSC0013  0-7   5.1-6.5  0.5-1.0  0-0    2.0-6.0    LOW\nSC0013  0-7   5.1-6.5  0.5-1.0  0-0    2.0-6.0    LOW\nSC0013  0-7   5.1-6.5  0.5-1.0  0-0    0.6-2.0    LOW\nSC0013  7-27  4.5-6.0  0.0-0.5  0-0    0.2-0.6    LOW\nSC0013 27-55  4.5-6.0  0.0-0.5  0- 0   0.06-0.2   LOW\nSC0013 55-75  4.5-6.0  0.0-0.5  0-0    0.2-0.6    LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 5 inches; brown (10YR 4/3) sandy loam; weak fine granular structure; very friable; many fine and medium roots; 1 percent angular quartz gravel; strongly acid; abrupt smooth boundary. (4 to 12 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 13,
+        "bottom": 18,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BE--5 to 7 inches; strong brown (7.5YR 5/6) sandy loam; weak fine subangular blocky structure; friable; many fine roots; 1 percent fine angular quartz gravel; strongly acid; clear smooth boundary. (0 to 4 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 53,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--7 to 21 inches; red (2.5YR 4/6) clay; moderate medium and coarse subangular blocky structure; firm; many fine and few medium roots; few distinct clay films on faces of most peds and in large pores; common fine and medium and few coarse pores; 1 percent fine angular quartz gravel; few fine holes; strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 53,
+        "bottom": 69,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--21 to 27 inches; red (2.5YR 4/6) clay; moderate medium subangular blocky structure; firm; common fine roots; common distinct clay films on faces of most peds; few fine pores; 1 percent fine angular quartz gravel; few fine holes; strongly acid; clear smooth boundary. (Combined thickness of the Bt horizon is 6 to 30 inches)"
+      },
+      {
+        "name": "Btx1",
+        "top": 69,
+        "bottom": 97,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btx1--27 to 38 inches; red (2.5YR 4/6) and yellowish red (5YR 5/6) sandy clay loam in horizontal layers 1/2 inch to 1 1/2 inches thick separated by brownish yellow (10YR 6/6) clay loam layers about 1/2 inch thick; brownish yellow material also extends vertically through the red layers at 6 to 12 inch intervals; moderate very thick platy structure; the red and yellowish red material is dense and brittle; the brownish yellow material is firm; many prominent clay films on horizontal faces of peds and common distinct clay films on vertical faces of peds; common fine roots along the top of this horizon and a few extend along vertical faces of peds for 2 or 3 inches; strongly acid; gradual smooth boundary. (8 to 20 inches thick)"
+      },
+      {
+        "name": "Btx2",
+        "top": 97,
+        "bottom": 140,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btx2--38 to 55 inches; red (2.5YR 4/6) and yellowish red (5YR 4/6) sandy clay loam in horizontal layers 1/2 to 2 inches thick separated by strong brown (7.5YR 5/6) clay loam horizontal layers and broken by vertical streaks of light gray (N 7/) clay; weak thick platy and medium subangular blocky structure; the red and yellowish red material is dense and brittle; the strong brown and gray material is very firm; few distinct clay films on horizontal faces of peds; strongly acid; gradual smooth boundary. (6 to 20 inches or more thick)"
+      },
+      {
+        "name": "BC",
+        "top": 140,
+        "bottom": 190,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "strongly acid",
+        "narrative": "BC--55 to 75 inches; coarsely mottled red (2.5YR 4/6), strong brown (7.5YR 5/6), and light gray (N 7/) clay loam; weak medium subangular blocky structure; firm; compact; few vertical seams filled with gray clay; strongly acid."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Bohicket series was formerly mapped as a miscellaneous land type named Tidal Marsh soft.  Also, such soils have been named \"cat clay.\"\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to a depth of 10 inches (the Ag horizon).\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nSC0022 BOHICKET    0-  2   59- 70  220-250  38- 52     0-   3\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nSC0022 FREQ            0-  0  APPARENT JAN-DEC  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nSC0022  0-10  SICL SIC C              0-  0  99-100 30-60  15- 30\nSC0022  0-10  MUCK MK-PEAT             -       -     0- 0  20- 45\nSC0022  0-10  MK-SICL                 0-  0  99-100 27-40  20- 30\nSC0022 10-49  SIC C SC                0-  0  99-100 35-60  20- 30\nSC0022 49-80  VAR                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nSC0022  0-10  6.1- 8.4  5.-25  8-32  0.06- 0.2  HIGH\nSC0022  0-10  6.1- 8.4  20-60  8-32   0.6- 6.0\nSC0022  0-10  6.1- 8.4  10-25  8-16   0.2- 2.0  HIGH\nSC0022 10-49  6.1- 8.4  5.-20  8-32   0.0-0.06  HIGH\nSC0022 49-80     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ag",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Ag--0 to 10 inches; dark gray (5Y 4/1) silty clay loam; massive; strong fine angular blocky structure when dry; very sticky; many medium and coarse pithy fibrous roots constituting 35 percent of mass by volume; soil flows easily between fingers when squeezed and leaves small residue in hand; neutral; gradual wavy boundary.  (8 to 24 inches thick)"
+      },
+      {
+        "name": "Cg1",
+        "top": 25,
+        "bottom": 124,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cg1--10 to 49 inches; dark gray (5Y 4/1) silty clay; massive; very sticky; many fine and medium roots; soil flows easily between fingers when squeezed and leaves hand empty; neutral; clear wavy boundary.  (20 to 50 inches thick)"
+      },
+      {
+        "name": "Cg2",
+        "top": 124,
+        "bottom": 140,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cg2--49 to 55 inches; dark gray (5Y 4/1) silty clay and very dark grayish brown (10YR 3/2) fine sandy loam; massive; sticky; few fine roots; soil flows easily between fingers when squeezed and leaves small residue in hand; neutral; clear wavy boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "Cg3",
+        "top": 140,
+        "bottom": 173,
+        "moist_hue": "5GY",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Cg3--55 to 68 inches; greenish gray (5GY 5/1) clay; common coarse faint gray (5Y 4/1) mottles; massive; sticky; few fine roots; soil flows between fingers with some difficulty when squeezed leaving large residue in hand; moderately alkaline; gradual wavy boundary.  (0 to 25 inches thick)"
+      },
+      {
+        "name": "Cg4",
+        "top": 173,
+        "bottom": 203,
+        "moist_hue": "5GY",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "Cg4--68 to 80 inches; dark greenish gray (5GY 4/1) clay; common medium faint greenish gray (5G 5/1) mottles; massive; slightly sticky; few lenses and pockets of dark grayish brown fine sandy loam material; soil flows between fingers with some difficulty when squeezed leaving large residue in hand; moderately alkaline."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,98 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nochric epipedon:  1 to 11 inches  (AB  horizon)\ncambic horizon:\nupper: 11 to 19 inches  (Bw horizon)\nlower: 28 to 39 inches  (2Bwb horizon)\nparticle-size control section:\nashy part:  1 to 19 inches  (A and Bw horizons)\nloamy-skeletal part: 19 to 39 inches  (2Eb and 2Bwb horizons)\nlithic contact:  39 inches  (2R layer)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inches; needles, twigs and logs"
+      },
+      {
+        "name": "AB",
+        "top": 3,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "AB--1 to 11 inches; dark yellowish brown (10YR 4/4) ashy silt loam, light yellowish brown (10YR 6/4) dry; weak medium and fine subangular blocky structure; soft, very friable, nonsticky, nonplastic and weakly smeary; common very fine, fine, and medium, and few coarse roots; few very fine tubular pores; 10 percent gravel; neutral (pH 6.8); clear wavy boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 28,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--11 to 19 inches; dark yellowish brown (10YR 4/4) gravelly ashy silt loam, very pale brown (10YR 7/3) dry; weak medium and fine subangular blocky structure; soft, very friable, nonsticky, nonplastic and weakly smeary; common very fine, fine, medium and coarse roots; few very fine tubular pores; 15 percent gravel; neutral (pH 6.8); abrupt wavy boundary. (4 to 12 inches thick)"
+      },
+      {
+        "name": "2Eb",
+        "top": 48,
+        "bottom": 71,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Eb--19 to 28 inches; brown (10YR 4/3) very gravelly sandy loam, light brownish gray (10YR 6/2) dry; weak fine and very fine subangular blocky structure; soft, friable, nonsticky and nonplastic; common very fine, fine and medium, and few coarse roots; common very fine and few fine irregular pores; 35 percent gravel and 10 percent cobbles; slightly acid (pH 6.5); gradual smooth boundary. (3 to 9 inches thick)"
+      },
+      {
+        "name": "2Bwb",
+        "top": 71,
+        "bottom": 99,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "2Bwb--28 to 39 inches; dark grayish brown (10YR 4/2) very gravelly sandy loam, light brownish gray (10YR 6/2) dry; weak fine and very fine subangular blocky structure; soft, friable, nonsticky and nonplastic; common very fine and few fine and medium roots; common very fine and few fine irregular pores; 45 percent gravel, and 15 percent cobbles; slightly acid (pH 6.5); abrupt irregular boundary. (9 to 19 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 99,
+        "narrative": "2R--39 inches; fractured argillite bedrock"
+      }
+    ]
+  ]
 }

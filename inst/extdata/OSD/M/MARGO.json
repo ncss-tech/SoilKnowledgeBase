@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Margo soils were included with the Abell soils in the\npast.  Laboratory data from 5 pedons in Spotsylvania County by Virginia Polytechnic Institute verify the classification.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0120 MARGO       0-  7   59- 63  180-200  38- 45   300- 900\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0120 FREQ          1.0-3.0  APPARENT NOV-MAR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0120  0- 9  L SIL                   0-  0  90-100  5-27    -\nVA0120  9-42  L SIL SICL              0-  0  90-100 18-35    -\nVA0120 42-45  GR-L GR-SIL GR-SICL     0-  0  50- 75  5-40    -\nVA0120 45-60  SL L SICL               0-  0  90-100  5-40    -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0120  0- 9  4.5- 5.5  1.-3.  0- 0   2.0- 6.0  LOW\nVA0120  9-42  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  MODERATE\nVA0120 42-45  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  MODERATE\nVA0120 45-60  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  MODERATE\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "01",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "01--3 to 0 cm; undecomposed and partially decomposed leaves and twigs."
+      },
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 3,
+        "texture_class": "loam",
+        "narrative": "A1--0 to 3 cm; very dark grayish brown (10YR3/2) loam; moderate fine granular sturcture; very friable; many fine and medium roots;"
+      },
+      {
+        "name": "A2",
+        "top": 3,
+        "bottom": 23,
+        "texture_class": "loam",
+        "narrative": "A2--3 to 23 cm; light yellowish brown (10YR6/4) loam; moderate fine granular structure; very friable; many fine and medium roots;"
+      },
+      {
+        "name": "B21t",
+        "top": 23,
+        "bottom": 43,
+        "texture_class": "loam",
+        "narrative": "B21t--23 to 43 cm; yellowish brown (10YR5/6) loam; weak fine and medium subangular blocky structure; friable, slightly plastic;"
+      },
+      {
+        "name": "B22t",
+        "top": 43,
+        "bottom": 80,
+        "texture_class": "clay loam",
+        "narrative": "B22t--43 to 80 cm; light olive brown (2.5Y5/6) clay loam, many fine and medium distinct light brownish gray (10YR6/2) mottles; friable, slightly sticky, slightly plastic; common thin clay films and silt coatings on faces of peds; 1 percent angular quartz"
+      },
+      {
+        "name": "B23t",
+        "top": 80,
+        "bottom": 107,
+        "texture_class": "clay loam",
+        "narrative": "B23t--80 to 107 cm; light olive brown (2.5Y5/6) clay loam; common medium and coarse prominent light gray (10YR6/1) mottles; moderate medium subangular blocky structure; friable, slightly sticky, slightly plastic; common thin clay films and silt coatings on"
+      },
+      {
+        "name": "B24t",
+        "top": 107,
+        "bottom": 114,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "B24t--107 to 114 cm; light olive brown (2.5Y5/6) gravelly clay loam; common medium and coarse prominent light gray (10YR6/1) mottles; moderate medium subangular blocky structure; friable, slightly sticky, slightly plastic; common thin clay films and silt coatings on faces of peds and coarse fragments; 20 percent angular quartz pebbles; many very fine mica flakes; strongly acid; abrupt smooth boundary.  (Combined thickness of the B2t horizon is 60 to"
+      },
+      {
+        "name": "IIC",
+        "top": 114,
+        "bottom": 150,
+        "texture_class": "sandy loam",
+        "narrative": "IIC--114 to 150 cm; brownish yellow (10YR6/6) sandy loam; many medium and coarse red (2.5Y5/8) and gray (10YR5/1) mottles;"
+      }
+    ]
+  ]
 }

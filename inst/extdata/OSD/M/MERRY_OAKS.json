@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Merry Oaks soils were included in the Sylacauga and Wahee series. Sylacauga soils have a lithologic discontinuity and endosaturation. Wahee soils have a fine particle size class.\nDiagnostic horizons and soil characteristics recognized in this pedon are:\nOchric epipedon-the zone from the soil surface to a depth of 5 inches (A horizon)\nArgillic horizon-the zone from 10 to 43 inches (Bt and Btg horizons)\nSeries control section-0 to 60 inches\nADDITIONAL DATA:\nReference particle-size data is available from the project soil survey staff, Pittsboro, North Carolina.\nData Map Unit ID:\nTABULAR SERIES DATA:\nSOI-5 Soil Name      Slope Airtemp FrFr/Seas Precip  Elevation\nMerry Oaks      0-2   57-65  180-260   40-55   150-450\nSOI-5 FloodL FloodH Watertable Kind     Months   Bedrock Hardness\nNONE  COMMON   0.5-1.5   Perched  NOV-MAR  60-60\nFREQ           0.5-1.5   Perched  NOV-MAR  60-60\nSOI-5 Depth  Texture    3-Inch   No-10    Clay%    -CEC-\n0-10  SIL L VFSL  0-0     95-100   7-20       -\n10-43  SIL SICL CL 0-0     95-100   18-35      -\n43-60  SIL L FSL   0-0     95-100   7-20       -\nSOI-5 Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\n0-10   3.6-5.5    1-3    0-0   0.6-2.0   LOW\n10-43  3.6-5.5   .5-1    0-0   0.06-0.2  LOW\n43-60  3.6-5.5   .5-1    0-0   0.6-2.0   LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 5 inches; very dark gray (10YR 3/1) silt loam; weak medium granular structure; friable; many fine roots; very strongly acid; abrupt smooth boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 13,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--5 to 10 inches; very pale brown (10YR 7/3) silt loam; weak fine subangular blocky structure; friable; common fine roots; common medium distinct grayish brown (10YR 5/2) iron depletions; very strongly acid; clear smooth boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 25,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--10 to 22 inches; brownish yellow (10YR 6/8) silt loam; moderate medium platy primary structure, parting to weak fine subangular blocky secondary structure; friable; common fine roots; common medium prominent light gray (10YR 7/2) and common fine prominent light yellowish brown (10YR 6/4) iron depletions; strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 56,
+        "bottom": 79,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--22 to 31 inches; brownish yellow (10YR 6/8) silty clay loam; weak medium subangular blocky structure; firm; common fine roots; common medium prominent very pale brown (10YR 7/3) and common fine prominent very pale brown (10YR 8/2) iron depletions; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Btg",
+        "top": 79,
+        "bottom": 109,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg--31 to 43 inches; light gray (10YR 7/2) silty clay loam; weak medium subangular blocky structure; friable; common fine roots; common medium prominent yellow (10YR 7/6) and common fine prominent brownish yellow (10YR 6/8) irregularly shaped masses of iron accumulation; few fine clay films on faces of peds; very strongly acid; gradual wavy boundary. (Combined thickness of the Bt horizons is 15 to 30 inches thick)"
+      },
+      {
+        "name": "BCg",
+        "top": 109,
+        "bottom": 130,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BCg--43 to 51 inches; light gray (2.5Y 7/2) silt loam; weak medium subangular blocky structure; friable; few fine roots; many medium prominent brownish yellow (10YR 6/8) and common fine distinct yellow (10YR 7/6) irregularly shaped masses of iron accumulation; very strongly acid; gradual wavy boundary. (0 to 15 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 130,
+        "bottom": 152,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "narrative": "BC--51 to 60 inches; strong brown (7.5YR 5/6) loam; weak thick platy structure; firm, very weakly cemented; few fine roots; many medium prominent very pale brown (10YR 8/2) and common fine distinct very pale brown (10YR 7/3) iron depletions; very strongly acid. (0 to 10 inches thick)"
+      }
+    ]
+  ]
 }

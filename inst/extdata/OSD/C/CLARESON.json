@@ -56,5 +56,88 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon: from the surface to a depth of 36 cm (14 inches) (A and BA horizons).\nArgillic horizon: from a depth of 36 to 64 cm (14 to 25 inches) (Bt horizon).\n05/2003 Cation-exchange activity class added, horizon nomenclature updated.\nNASIS data mapunit ID 745328 represents the typical pedon.  Other NASIS DMU ID's are 745325, 745326, 745327 and 745330.\nADDITIONAL DATA:\nLaboratory data--Kellogg Soil Survey Laboratory, Lincoln, Nebraska. - user pedon IDs 1969KS037016 and 83KS121001.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "cf_class": "stony",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A--0 to 20 cm (0 to 8 inches); very dark brown (10YR 2/2) stony silty clay loam; dark grayish brown (10YR 4/2) dry; moderate medium granular structure; hard, friable; many fine roots; 5 percent limestone flagstones and 15 percent limestone stones; slightly acid; gradual smooth boundary. [15 to 30 centimeters (6 to 12 inches) thick]"
+      },
+      {
+        "name": "BA",
+        "top": 20,
+        "bottom": 36,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BA--20 to 36 cm (8 to 14 inches); very dark brown (10YR 2/2) silty clay loam, brown (7.5YR 4/2) dry; moderate medium granular structure; hard, firm; common fine roots; 5 percent limestone channers; moderately acid; gradual smooth boundary. [0 to 20 centimeters (0 to 8 inches) thick]"
+      },
+      {
+        "name": "Bt",
+        "top": 36,
+        "bottom": 64,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silty clay",
+        "cf_class": "very flaggy",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--36 to 64 cm (14 to 25 inches); dark reddish brown (5YR 3/3) very flaggy silty clay, reddish brown (5YR 4/3) dry; moderate medium subangular blocky structure; very hard, very firm; few fine roots; few fine iron-manganese concretions; 15 percent limestone channers and 30 percent flagstones; moderately acid; gradual wavy boundary. [15 to 43 centimeters (6 to 17 inches) thick]"
+      },
+      {
+        "name": "BC",
+        "top": 64,
+        "bottom": 76,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silty clay",
+        "cf_class": "very flaggy",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "BC--64 to 76 cm (25 to 30 inches); dark reddish brown (5YR 3/3) very flaggy silty clay, reddish brown (5YR 4/3) dry; weak medium subangular blocky structure; very hard, very firm; common medium distinct strong brown (7.5YR 5/8) iron-manganese masses; common small black concretions; flaggy limestone fragments comprise 55 percent of volume; neutral; abrupt wavy boundary. [0 to 30 centimeters (0 to 12 inches) thick]"
+      },
+      {
+        "name": "R",
+        "top": 76,
+        "narrative": "R--76 cm (30 inches); hard limestone bedrock."
+      }
+    ]
+  ]
 }

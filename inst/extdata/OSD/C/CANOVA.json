@@ -56,5 +56,102 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in the pedon:\nHistic epipedon - the zone from the surface of the soil to a depth of 9 inches (Oa horizon).\nArgillic horizon - the zone from a depth of 22 inches to 66 inches (Btg/E (Btg part), Btg, BCg1, and BCg2 horizons).\nGlossic feature - the tongues of sand extending from a depth of 22 inches to 32 inches (E part of Btg/E horizon).\nThe water table is at the surface or within 10 inches of the surface for more than 9 months during most years.  In its natural state, the soil is flooded for 3 to 6 months during most years.\nThese soils were formerly a part of the Felda series.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oa",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oa--0 to 9 inches; dark reddish brown (5YR 2/2) unrubbed and rubbed muck; massive; sodium pyrophosphate light gray (10YR 7/1); many fine roots; slightly acid; abrupt smooth boundary.  (8 to 16 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 23,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--9 to 16 inches; grayish brown (10YR 5/2) sand; single grained; loose; few fine roots; few medium distinct very dark grayish brown (10YR 3/2) streaks of organic matter accumulation; slightly acid; gradual wavy boundary.  (1 to 11 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 41,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "E--16 to 22 inches; light gray (10YR 7/2) sand; single grained; loose; few fine roots; few medium faint grayish brown (10YR 5/2) areas of organic matter depletions; slightly acid; abrupt irregular boundary.  (4 to 11 inches thick)"
+      },
+      {
+        "name": "Btg/E",
+        "top": 56,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "slightly acid",
+        "narrative": "Btg/E--22 to 32 inches; gray (10YR 5/1) sandy clay loam (Btg); weak coarse subangular blocky structure; friable; few coarse distinct tongues of dark gray (10YR 4/1) sand (E); sand grains are coated and bridged with clay; few medium distinct yellowish brown (10YR 5/6) and dark yellowish brown (10YR 4/4) masses of iron accumulations; slightly acid; gradual boundary.  (3 to 10 inches thick)"
+      },
+      {
+        "name": "Btg",
+        "top": 81,
+        "bottom": 109,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg--32 to 43 inches; gray (10YR 5/1) sandy clay loam; weak coarse subangular blocky structure; friable; sand grains coated and bridged with clay; common medium distinct yellowish brown (10YR 5/8) and dark yellowish brown (10YR 4/4) masses of organic matter and iron accumulations; neutral; gradual wavy boundary.  (3 to 12 inches thick)"
+      },
+      {
+        "name": "BCg1",
+        "top": 109,
+        "bottom": 155,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BCg1--43 to 61 inches; gray (10YR 5/1) sandy clay loam; massive; friable; lenses and pockets of sandy loam and loamy sand; common fine faint light gray (10YR 7/2) masses of calcium carbonate; few fine distinct dark yellowish brown (10YR 4/4) masses of iron accumulations; moderately alkaline; clear wavy boundary."
+      },
+      {
+        "name": "BCg2",
+        "top": 155,
+        "bottom": 168,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "BCg2--61 to 66 inches; gray (10YR 6/1) sandy clay loam; massive; friable; many fine medium and coarse distinct light gray (10YR 7/2) masses of calcium carbonate; few medium distinct dark yellowish brown (10YR 4/4) masses of iron accumulation; moderately alkaline."
+      }
+    ]
+  ]
 }

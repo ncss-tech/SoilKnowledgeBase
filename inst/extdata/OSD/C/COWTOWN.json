@@ -56,5 +56,100 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon:  The zone from 0 to 5 inches.  (A1 and A2 horizons)\nAlbic horizon:  The zone from 5 to 16 inches  (E horizon)\nArgillic horizon:  The zone from 16 to 60 inches.  (Bt1 and Bt2 horizons)\nUmbric feature:  The A horizons have moist color value of 3 or less and a dry color value of 5 or less after mixing the top seven inches.\nParticle size control section:  The zone from 16 to 36 inches.  (Bt1 and part of the Bt2 horizons)\nKeys to Soil Taxonomy:  Classified according to the Eighth Edition, 1998\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 3 inches; grayish brown (10YR 5/2) loam, very dark grayish brown (10YR 3/2) moist; moderate fine granular structure; soft, very friable, slightly sticky and slightly plastic; 7 percent gravel; many very fine roots; neutral (pH 6.6); clear smooth boundary.  (2 to 6 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--3 to 5 inches; grayish brown (10YR 5/2) silt loam, dark brown (10YR 3/3) moist; moderate fine granular structure; soft, very friable, slightly sticky and slightly plastic; 7 percent gravel; many very fine roots; slightly acid (pH 6.4); clear smooth boundary.  (0 to 4 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 13,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "cobbly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E--5 to 16 inches; light gray (10YR 7/2) cobbly silt loam, brown (10YR 5/3) moist; moderate medium subangular blocky structure parting to moderate fine granular; slightly hard, friable, slightly sticky and slightly plastic; 15 percent gravel, 10 percent cobble; few very fine and fine roots; few very fine oblique discontinuous pores; moderately acid (pH 6.0); gradual wavy boundary.  (5 to 14 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 41,
+        "bottom": 84,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silty clay",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--16 to 33 inches; light gray (10YR 7/2) silty clay, brown (10YR 5/3) moist; many medium distinct yellowish brown (10YR 5/6) lithochromic mottles due to variable parent material; moderate fine angular blocky structure; hard, firm, slightly sticky and plastic; many distinct clay films on faces of peds and in pores; few very fine and medium roots; few very fine and fine oblique discontinuous tubular pores; moderately acid (pH 5.8); clear smooth boundary. (10 to 40 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 84,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "narrative": "Bt2--33 to 60 inches; pale brown (10YR 6/3) silty clay, yellowish brown (10YR 5/4) moist; moderate fine angular blocky structure; hard, firm, slightly sticky and plastic; many distinct clay films on faces of peds and in pores; moderately acid (pH 5.8)."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Bradson soils are similar to the Braddock soils.  The main difference is that Braddock soils are in a mixed mineralogy family and Bradson soils are classified in an oxidic family.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to 6 inches (Ap horizon)\nArgillic horizon - zone from 6 to 65 inches (Bt1, Bt2, and BC horizons)\nMLRA: 130            SIR: NC0028\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; reddish brown (5YR 4/4) gravelly loam; weak coarse and fine granular structure; friable; many fine roots; few fine flakes of mica; about 20 percent by volume smooth, rounded quartz gravel; moderately acid; abrupt smooth boundary.  (5 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 61,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--6 to 24 inches; red (2.5YR 4/6) clay; moderate medium subangular blocky structure; firm, sticky, slightly plastic; few fine roots; common distinct clay films on faces of peds; common fine flakes of mica; about 10 percent by volume smooth quartz gravel; strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 61,
+        "bottom": 102,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt2--24 to 40 inches; red (2.5YR 4/8) clay loam; moderate medium subangular blocky structure; friable, slightly sticky, slightly plastic; few fine roots; common distinct films on faces of peds; common fine flakes of mica; few smooth quartz gravel; strongly acid; gradual smooth boundary.  (Combined thickness of the Bt horizon is 30 to 48 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 102,
+        "bottom": 165,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BC--40 to 65 inches; red (2.5YR 4/8) clay loam; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; few faint clay films on faces of peds; common fine flakes of mica; common soft fragments of minerals; very strongly acid; gradual smooth boundary.  (10 to 36 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 165,
+        "bottom": 190,
+        "moist_hue": "5YR",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "narrative": "C--65 to 75 inches; reddish yellow (5YR 6/8) loam; massive; friable; slightly sticky and slightly plastic; very strongly acid"
+      }
+    ]
+  ]
 }

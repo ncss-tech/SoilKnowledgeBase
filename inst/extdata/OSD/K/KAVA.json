@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nSeries control section:  The zone from 0 to 25 inches.\nParticle-size control section:  The zone from 10 to 15 inches.  (C3 horizon)\nOchric epipedon:  The zone from 0 to 2 inches.  (A horizon)\nParalithic contact:  The contact with Mancos Shale at 15 inches.  (Cr horizon)\nVertic features:  The presence of prismatic structure and significant cracks at 0 to 10 inches.  (A, C1, and C2 horizons)\nADDITIONAL DATA:  A HACH kit was used to determine gypsum concentrations. A portable EC meter was used to determine electrical conductivity.  Calcium carbonate equivalence was determined using a field volume calcimeter.\nClassified according to Keys to Soil Taxonomy Ninth Edition, 2003\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; light yellowish brown (2.5Y 6/3) silty clay loam, olive brown (2.5Y 4/3) moist; strong very fine granular structure; soft, very friable, moderately sticky and very plastic; common very fine and few fine roots throughout; 2 percent sandstone gravel; slightly effervescent; moderately alkaline (pH 8.0); abrupt smooth boundary. (1 to 6 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C1--2 to 5 inches; light yellowish brown (2.5Y 6/3) clay, olive brown (2.5Y 4/3) moist; moderate very coarse prismatic structure parting to weak medium subangular blocky; moderately hard, firm, very sticky and very plastic; common very fine roots throughout; few distinct pressure faces on faces of peds; few fine irregular nests and masses of gypsum; 1 percent sandstone gravel; slightly effervescent; moderately alkaline (pH 8.2); clear wavy boundary."
+      },
+      {
+        "name": "C2",
+        "top": 13,
+        "bottom": 25,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C2--5 to 10 inches; light yellowish brown (2.5Y 6/3) silty clay, olive brown (2.5Y 4/3) moist; moderate very coarse prismatic structure parting to weak medium subangular blocky; hard, very firm, very sticky and very plastic; common very fine roots between peds and throughout; few distinct pressure faces on faces of peds; common fine irregular nests and few fine irregular masses of gypsum; slightly effervescent; moderately alkaline (pH 8.4); abrupt wavy boundary."
+      },
+      {
+        "name": "C3",
+        "top": 25,
+        "bottom": 38,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C3--10 to 15 inches; light yellowish brown (2.5Y 6/3) clay, olive brown (2.5Y 4/3) moist; moderate very coarse prismatic structure parting to weak medium subangular blocky; hard, very firm, very sticky and very plastic; common very fine roots between peds; few distinct pressure faces on faces of peds; few fine irregular nests and masses of gypsum; slightly effervescent; moderately alkaline (pH 8.4); clear wavy boundary."
+      },
+      {
+        "name": "Cr",
+        "top": 38,
+        "bottom": 69,
+        "narrative": "Cr--15 to 27 inches; soft Mancos Shale."
+      }
+    ]
+  ]
 }

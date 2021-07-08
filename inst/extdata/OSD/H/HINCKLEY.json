@@ -56,5 +56,89 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The use of the Hinckley series in frigid areas of Maine, and in MLRA 143 and 144B, is relict to before temperature classes. These have been removed from the SC file.\nDiagnostic horizons and features recognized in this pedon are:\n1. Ochric epipedon - the zone from 3 to 20 cm (Ap horizon).\n2. Sandy-skeletal feature - the zone from 25 to 100 cm has a weighted average content of rock fragments of 51 percent and a particle size of the fine-earth fraction is sandy (Bw, BC, and C horizons).\nADDITIONAL DATA: Reference samples from pedons S55NH015002, S56MA011002, S56MA011003, S57MA023005, S58NH015002, S73MA009001, S73MA005002, S73MA009004, S73MA005005, S96NH013003 from Massachusetts and New Hampshire, samples by NSSL, Lincoln, NE, various dates.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oe -- 0 to 3 cm; moderately decomposed plant material derived from red pine needles and twigs. (0 to 5 cm thick.)"
+      },
+      {
+        "name": "Ap",
+        "top": 3,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 3 to 20 cm; very dark grayish brown (10YR 3/2) loamy sand; weak fine and medium granular structure; very friable; many fine and medium roots; 5 percent fine gravel; very strongly acid; abrupt smooth boundary. (3 to 25 cm thick.)"
+      },
+      {
+        "name": "Bw1",
+        "top": 20,
+        "bottom": 28,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1 -- 20 to 28 cm; strong brown (7.5YR 5/6) gravelly loamy sand; weak fine and medium granular structure; very friable; common fine and medium roots; 20 percent gravel; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 28,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bw2 -- 28 to 41 cm; yellowish brown (10YR 5/4) gravelly loamy sand; weak fine and medium granular structure; very friable; common fine and medium roots; 25 percent gravel; very strongly acid; clear irregular boundary. (Combined thickness of the Bw horizon is 8 to 41 cm.)"
+      },
+      {
+        "name": "BC",
+        "top": 41,
+        "bottom": 48,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BC -- 41 to 48 cm; yellowish brown (10YR 5/4) very gravelly sand; single grain; loose; common fine and medium roots; 40 percent gravel; strongly acid; clear smooth boundary. (0 to 13 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 48,
+        "bottom": 165,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "extremely gravelly",
+        "pH_class": "moderately acid",
+        "narrative": "C -- 48 to 165 cm; light olive brown (2.5Y 5/4) extremely gravelly sand consisting of stratified sand, gravel and cobbles; single grain; loose; common fine and medium roots in the upper 20 cm and very few below; 60 percent gravel and cobbles; moderately acid."
+      }
+    ]
+  ]
 }

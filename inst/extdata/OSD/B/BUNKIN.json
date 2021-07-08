@@ -56,5 +56,52 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nSeries control section:  The zone from 0 to 20 cm.\nParticle-size control section:  The zone from 0 to 20 cm.  (A and C horizons)\nOchric epipedon:  The zone from 0 to 7 cm.  (A horizon)\nLithic contact:  The contact with conglomerate at 20 cm.  (R horizon)\nThe assignment of the cation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomic Version:  Classified according to Keys to Soil Taxonomy, Eleventh Edition, 2010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 7,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "extremely bouldery",
+        "pH": 7.9,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 7 cm; light brown (7.5YR 6/3) extremely bouldery fine sandy loam, brown (7.5YR 4/3), moist; weak fine granular structure; soft, very friable, slightly sticky and slightly plastic; few coarse and medium and common fine and very fine roots; many very fine interstitial pores; 30 percent boulders, 5 percent stones, 5 percent cobbles, 30 percent gravel; strongly effervescent (10 percent calcium carbonate equivalent); moderately alkaline (pH 7.9); clear wavy boundary."
+      },
+      {
+        "name": "C",
+        "top": 7,
+        "bottom": 20,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--7 to 20 cm; light brown (7.5YR 6/4) very gravelly fine sandy loam, brown (7.5YR 5/4), moist; weak fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; few coarse and medium and common fine and very fine roots; common fine and very fine tubular pores; 3 percent boulders, 3 percent stones, 2 percent cobbles, 30 percent gravel; strongly effervescent (12 percent calcium carbonate equivalent); moderately alkaline (pH 8.2); abrupt wavy boundary."
+      },
+      {
+        "name": "R",
+        "top": 20,
+        "bottom": 30,
+        "narrative": "R--20 to 30 cm; conglomerate bedrock."
+      }
+    ]
+  ]
 }

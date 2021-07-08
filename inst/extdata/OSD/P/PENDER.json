@@ -56,5 +56,104 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to a depth of 13 inches (the Ap and E horizons).\nArgillic horizon - the zone from a depth of 13 to 42 inches (the Bt1 and Bt2 horizons).\nAlbic feature - an abrupt textural change between the E to the Bt1 horizons.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0121 PENDER      0-  4   61- 65  215-260  45- 55    25-  70\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0121 NONE          1.5-2.5  APPARENT DEC-MAR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0121  0-13  SL FSL                  0-  0 100-100  5-17   3- 15\nNC0121  0-13  LS LFS                  0-  0 100-100  3-10   2- 10\nNC0121 13-58  SCL CL                  0-  0 100-100 20-35  10- 20\nNC0121 58-75  VAR                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0121  0-13  4.5- 6.5  .5-2.  0- 0   2.0- 6.0  LOW\nNC0121  0-13  4.5- 6.5  .5-2.  0- 0   6.0-  20  LOW\nNC0121 13-58  5.6- 7.8  0.-.5  0- 0   0.6- 2.0  LOW\nNC0121 58-75     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; brown (10YR 4/3) fine sandy loam; weak medium granular structure; very friable; few fine roots; slightly acid; abrupt smooth boundary.  (5 to 10 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 15,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "loamy fine sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--6 to 13 inches; light yellowish brown (10YR 6/4) loamy fine sand; weak medium granular structure; very friable; few fine roots; strongly acid; clear wavy boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 33,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--13 to 21 inches; brownish yellow (10YR 6/6) sandy clay loam; weak fine subangular blocky structure; friable; slightly sticky, slightly plastic; few fine roots; few thin clay films on faces of peds; very strongly acid; gradual wavy boundary.  (2 to 9 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 53,
+        "bottom": 107,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--21 to 42 inches; light yellowish brown (10YR 6/4) sandy clay loam; few fine distinct gray (10YR 6/1) and brownish yellow (10YR 6/8) mottles; weak fine subangular blocky structure; friable, slightly sticky, slightly plastic; few thin clay films on faces of peds; very strongly acid; gradual wavy boundary.  (15 to 35 inches thick)"
+      },
+      {
+        "name": "BCg",
+        "top": 107,
+        "bottom": 137,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BCg--42 to 54 inches; light gray (10YR 7/1) sandy clay loam with thin strata of sandy loam; few fine distinct brownish yellow (10YR 6/6) mottles; weak fine subangular blocky structure; friable; slightly sticky, slightly plastic; slightly acid; clear wavy boundary.  (5 to 20 inches thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 137,
+        "bottom": 147,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Cg--54 to 58 inches; light gray (10YR 7/1) clay loam with strata of sandy clay loam; few fine distinct pale green (5G 6/2) and common fine distinct brownish yellow (10YR 6/6) mottles; massive; friable; neutral; clear wavy boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "2Cg",
+        "top": 147,
+        "bottom": 190,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 1,
+        "pH_class": "moderately alkaline",
+        "narrative": "2Cg--58 to 75 inches; white (10YR 8/1) soft marl with few fragments of hard marl; massive; very friable; moderately alkaline; strongly effervescent."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and other features recognized in this pedon:\nMollic epipedon - the zone from the soil surface to approximately 10 inches (A1 and A2 horizons)\nArgillic horizon and particle-size control section - the zone from approximately 10 to 23 inches (Bt horizon)\nLithic contact - occurs at 28 inches (R horizon)\nThe superactive cation exchange activity class was added in 03/2003 to the taxonomic classification by the National Soil Survey Center on request of the Reno MLRA office, without review of the soil series property data. The remainder of this document has not been updated.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very stony",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 6 inches; brown (10YR 4/3) very stony loam, dark brown (10YR 3/3) moist; weak fine granular structure; soft, friable, slightly sticky and slightly plastic; many very fine, fine and coarse roots; common very fine and fine irregular pores; about 50 percent stones and 5 percent cobbles; neutral (pH 6.8); clear wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 15,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very stony",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--6 to 10 inches; brown (10YR 4/3) very stony loam, dark brown (10YR 3/3) moist; weak fine and medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many fine, very fine and coarse roots; few fine and very fine tubular pores; 50 percent stones, 5 percent gravel; neutral (pH 6.8); clear smooth boundary.  (Combined thickness of the A horizon is 5 to 14 inches thick.)"
+      },
+      {
+        "name": "Bt",
+        "top": 25,
+        "bottom": 58,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "very stony",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--10 to 23 inches; yellowish brown (10YR 5/4) very stony clay loam, dark yellowish brown (10YR 4/4) moist; strong fine and medium angular blocky structure; very hard, firm, sticky and plastic; few fine and medium roots; few fine and very fine tubular pores; common distinct clay films on faces of peds; about 25 percent stones, 5 percent cobbles, 5 percent gravel; neutral (pH 7.0); clear smooth boundary.  (4 to 21 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 58,
+        "bottom": 71,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 3,
+        "texture_class": "clay loam",
+        "narrative": "Cr--23 to 28 inches; very pale brown (10YR 8/3) weathered bedrock with 10 percent yellowish brown (10YR 5/4) clay loam in cracks and root channels; few faint clay films on rock fragments; few fine and medium roots in cracks and along fracture planes.  (0 to 20 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 71,
+        "narrative": "R--28 inches; hard basalt bedrock."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,99 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 30 inches (A, BAt, and Bt1 horizons).\nArgillic horizon - The zone from 19 to 48 inches (Bt1 and Bt2 horizons).\nLithic contact - The boundary at 48 inches to underlying hard, unweathered bedrock (2R layer).\nParticle-size control section - The zone from 19 to 39 inches (Bt1 horizon and part of the Bt2 horizon).\nThe superactive cation exchange activity class was added in 03/2003 to the taxonomic classification by the National Soil Survey Center on request of the Reno MLRA office, without review of the soil series property data.  Property data in NASIS validates the superactive activity class.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; slightly decomposed plant material of pine needles and forest litter."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--1 to 6 inches; dark grayish brown (10YR 4/2) gravelly loam, very dark grayish brown (10YR 3/2) moist; moderate fine subangular blocky structure; slightly hard, friable, nonsticky and slightly plastic; few medium and coarse and common very fine and fine roots; few medium and coarse interstitial and common very fine and fine tubular pores; 20 percent gravel; neutral (pH 7.0); clear smooth boundary.  (5 to 9 inches thick)"
+      },
+      {
+        "name": "BAt",
+        "top": 15,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BAt--6 to 19 inches; dark grayish brown (10YR 4/2) gravelly loam, very dark grayish brown (10YR 3/2) moist; moderate fine and medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine, fine, medium and coarse roots; common very fine, and fine tubular, and medium and coarse interstitial pores; few faint clay films on faces of peds and lining pores; 20 percent gravel; neutral (pH 6.8); gradual smooth boundary.  (12 to 14 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 48,
+        "bottom": 76,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--19 to 30 inches; brown (10YR 4/3) very cobbly clay loam, dark brown (7.5YR 3/2) moist; moderate fine and medium subangular blocky structure; hard, friable, slightly sticky and slightly plastic; few very fine and fine and common medium and coarse roots; common medium and coarse and many fine tubular pores; few faint clay films on faces of peds and common distinct clay films lining pores; 15 percent gravel and 25 percent cobbles; neutral (pH 6.8); clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 76,
+        "bottom": 122,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "very cobbly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2--30 to 48 inches; yellowish brown (10YR 5/4) very cobbly clay loam, brown (7.5YR 4/4) moist; moderate fine and medium subangular blocky structure; slightly hard, friable, moderately sticky and moderately plastic; few fine and common medium roots; common medium and many fine tubular pores; common distinct clay films as bridges between mineral grains and lining pores; few clay lamellae; 15 percent gravel and 30 percent cobbles; neutral (pH 6.8); abrupt wavy boundary.  (Combined thickness of the Bt horizons is 22 to 40 inches)"
+      },
+      {
+        "name": "2R",
+        "top": 122,
+        "narrative": "2R--48 inches; conglomerate tuff; with 35 percent embedded semi-rounded and angular andesitic gravel and cobbles."
+      }
+    ]
+  ]
 }

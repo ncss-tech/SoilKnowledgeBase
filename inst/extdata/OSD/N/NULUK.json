@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features and horizons recognized in this profile include:\nNo diagnostic horizons\nRedoximorphic features: 3 to 19 inches. (C1 horizon)\nLithologic discontinuity: At the upper boundary of 2C2 horizon\nCoarse-loamy upper part of the particle size control section: 10 to 19 inches, sandy or sandy-skeletal lower part of the particle size control section: 19 to 40 inches\nTemperature regime: cryic\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 1 inch; very dark brown (10YR 2/2) slightly decomposed plant material; many very fine and fine, common medium and common coarse roots; moderately acid (pH 5.8); abrupt smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--1 to 3 inches; very dark brown (10YR 2/2) silt loam; very friable, nonsticky and nonplastic; many very fine and fine, common medium and common coarse roots; moderately acid 9pH 5.8); clear wavy boundary."
+      },
+      {
+        "name": "C1",
+        "top": 8,
+        "bottom": 48,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "C1--3 to 19 inches; very dark grayish brown (2.5Y 3/2) stratified fine sand to silt; very friable, nonsticky and nonplastic; few very fine and fine roots; 10 mm dark yellowish brown (10YR 4/4) high chroma redox concentrations (approximately 20 percent of horizon); 5 mm dark gray (5Y 4/1) low chroma redox depletions (approximately 15 percent of horizon); slightly acid (pH 6.2); gradual smooth boundary."
+      },
+      {
+        "name": "2C2",
+        "top": 48,
+        "bottom": 58,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "coarse sand",
+        "cf_class": "very gravelly",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2C2--19 to 23 inches; very dark grayish brown (2.5Y 3/2) very gravelly coarse sand; loose, nonsticky and nonplastic; 45 percent gravel; neutral (pH 6.9); gradual smooth boundary."
+      },
+      {
+        "name": "2C3",
+        "top": 58,
+        "bottom": 152,
+        "texture_class": "coarse sand",
+        "cf_class": "extremely gravelly",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "narrative": "2C3--23 to 60 inches; varigated extremely gravelly coarse sand; loose, nonsticky and nonplastic; 45 percent gravel; 20 percent cobble; neutral (pH 6.9)."
+      }
+    ]
+  ]
 }

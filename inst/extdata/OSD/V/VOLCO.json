@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from 0 to 9 inches (A and Bk horizons)\nCalcic horizon - the zone from 4 to 18 inches (Bk and R/Bk horizons)\nLithic contact - the boundary at 18 inches (R horizon)\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Eleventh Edition, 2010\nUpdate and revisions for recorrelation of Brewster County, Texas, Main Part, 2/12/08, CEM\nRevised for the correlation of Presidio County, Texas ; Oct, 2012, WWJ\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; grayish brown (10YR 5/2) very gravelly loam, very dark grayish brown (10YR 3/2) moist; weak fine platy and subangular blocky structure; slightly hard, friable, many very fine and fine roots; 25 percent igneous and caliche gravel, 10 percent igneous cobbles, and 5 percent igneous stones; strongly effervescent; moderately alkaline; clear smooth boundary (2 to 6 inches thick)."
+      },
+      {
+        "name": "Bk",
+        "top": 10,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bk--4 to 9 inches; brown (10YR 5/3) very gravelly loam, dark brown (10YR 3/3) moist; weak fine subangular blocky structure; slightly hard, friable; many fine roots and pores; 35 percent igneous gravel, 10 percent igneous cobbles and 10 percent igneous stones; coarse fragments have thin coatings of calcium carbonate; violently effervescent; moderately alkaline; abrupt irregular boundary (5 to 14 inches thick)."
+      },
+      {
+        "name": "R/Bk",
+        "top": 23,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "texture_class": "loam",
+        "narrative": "R/Bk--9 to 18 inches; fractured, platy grayish volcanic bedrock fractured at intervals less than 4 inches; weakly cemented in upper part and strongly cemented below; calcium carbonate coated on surface and in fractures; hard pale brown (10YR 6/3) loamy material in fractures, few fine roots and pores in the loamy material; diffuse boundary (2 to 12 inches thick)."
+      },
+      {
+        "name": "R",
+        "top": 46,
+        "bottom": 51,
+        "narrative": "R--18 to 20 inches; platy grayish igneous bedrock, indurated."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,129 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and other features recognized in this pedon:\nOchric epipedon - The zone from 0 to 9 inches (Oi, A1 and A2 horizons).\nCambic horizon - The zone from 9 to 29 inches (Bw horizons).\nVitrandic feature - The zone from 1 to 9 inches (A1 and A2 horizons).\nParticle-size control section - 10 to 40 inches (part of the Bw1, the Bw2, C1 and part of the C2 horizons).\nThe ranges in values listed under the A and AB horizons for volcanic glass content and Acid-oxalate Al+1/2Fe are estimates only.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; partially decomposed needles, leaves and twigs. (0 to 1.5 inches thick)"
+      },
+      {
+        "name": "A1",
+        "top": 3,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--1 to 3 inches; very dark grayish brown (10YR 3/2) ashy loam, very dark brown (10YR 2/2) moist; weak very fine granular structure; soft, very friable, nonsticky and nonplastic; many very fine and fine roots throughout; many very fine irregular pores; 2 percent fine mica flakes; 10 percent subangular schist gravel; slightly alkaline (pH 7.5); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--3 to 9 inches; dark grayish brown (10YR 4/2) gravelly ashy loam, very dark grayish brown (10YR 3/2) moist; weak fine and medium granular structure; soft, friable, nonsticky and nonplastic; many very fine and fine and common medium roots throughout; many very fine and fine irregular pores; 2 percent fine mica flakes; 20 percent subangular schist gravel and 5 percent subangular schist cobbles; neutral (pH 7.0); clear wavy boundary. (combined thickness of A horizons is 3 to 8 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 23,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--9 to 19 inches; yellowish brown (10YR 5/4) very gravelly sandy loam, dark yellowish brown (10YR 3/4) moist; weak fine and medium granular structure; soft, friable, nonsticky and nonplastic; many fine and medium and few coarse roots throughout; common very fine and fine irregular pores; 3 percent fine mica flakes; 25 percent subangular schist gravel and 15 percent subangular schist cobbles; slightly acid (pH 6.5); clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 48,
+        "bottom": 74,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely cobbly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bw2--19 to 29 inches; light yellowish brown (10YR 6/4) extremely cobbly sandy loam, dark yellowish brown (10YR 4/4) moist; weak very fine and fine subangular blocky structure; soft, friable, nonsticky and nonplastic; common very fine and fine roots throughout; common very fine irregular pores; 5 percent fine mica flakes; 40 percent subangular schist gravel and 25 percent subangular schist cobbles; slightly acid (pH 6.2); clear irregular boundary (combined thickness of Bw horizons is 5 to 22 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 74,
+        "bottom": 94,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely cobbly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C1--29 to 37 inches; light yellowish brown (10YR 6/4) extremely cobbly sandy loam, dark yellowish brown (10YR 4/4) moist; single grain; loose, very friable, nonsticky and nonplastic; common very fine and few fine roots throughout; common very fine irregular pores; 2 percent fine mica flakes; 50 percent subangular schist gravel, 25 percent subangular schist cobbles and 5 percent subangular schist flagstones; slightly acid (pH 6.2); clear wavy boundary."
+      },
+      {
+        "name": "C2",
+        "top": 94,
+        "bottom": 109,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C2--37 to 43 inches; yellowish brown (10YR 5/4) extremely gravelly sandy loam, dark yellowish brown (10YR 4/4) moist; weak very fine and fine subangular blocky structure parting to single grain; soft, friable, nonsticky and nonplastic; few very fine roots throughout and few medium roots in cracks; few very fine irregular pores; 4 percent fine mica flakes; 35 percent subangular schist gravel, 15 percent subangular schist cobbles and 10 percent subangular schist flagstones; moderately acid (pH 6.0); clear wavy boundary. (combined thickness of C horizons is 0 to 19 inches thick)"
+      }
+    ]
+  ]
 }

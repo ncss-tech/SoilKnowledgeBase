@@ -56,5 +56,101 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 25 to 100 centimeters;\nseries control section--the zone from the surface to a depth of 150 centimeters.\nDiagnostic horizon and features recognized in this pedon include:\nochric epipedon--the zone from the surface of the soil to a depth of 18 centimeters (A and E horizons);\nalbic horizon--the zone from a depth of 10 to 18 centimeters (E horizon);\ncambic horizon--the zone from a depth of 18 to 69 centimeters (2Bw1, 2Bw2, and 2Bt horizons);\nparalithic contact--the contact with clayey shale at a depth of 69 centimeters (2Cr horizon);\nudic moisture regime.\nThe geological origin of the mantle is uncertain; it may be loess, till, loess-till mixture, or residuum from interbedded shale and sandstone.\nDrainage class is difficult to assess because of the color inherited from the shale.\nThe gray colors in the lower half of the series control section are inherited from the shale and were not considered in classification of the series.  The extreme variation in the shale parent material raises the question as to family placement.  However, available data indicate that the clay mineralogy typically is illitic and the particle-size class is fine family.\nTaxonomy version--Keys to Soil Taxonomy, tenth edition, 2006.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 10 centimeters; very dark gray (10YR 3/1) silt loam, gray (10YR 5/1) dry; weak very fine granular structure; friable; many roots, few flat clay-ironstone fragments 2 to 5 millimeters thick; slightly acid; clear smooth boundary.  (0 to 13 centimeters thick)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--10 to 18 centimeters; grayish brown (10YR 5/2) silt loam, light gray (10YR 7/2) dry; moderate thin platy structure; friable; common roots; few clay-ironstone fragments less than 3 millimeters thick; strongly acid; clear smooth boundary.  (0 to 20 centimeters thick)"
+      },
+      {
+        "name": "2Bw1",
+        "top": 18,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silty clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bw1--18 to 28 centimeters; brown (10YR 5/3) silty clay, pale brown (10YR 6/3) dry; weak fine subangular blocky structure; firm; common roots; few silt coats; common hard shale fragments 2 to 5 millimeters thick; few clay-ironstone fragments 5 to 10 millimeters thick; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "2Bw2",
+        "top": 28,
+        "bottom": 48,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silty clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bw2--28 to 48 centimeters; light olive brown (2.5Y 5/3) silty clay; moderate medium angular blocky structure; extremely firm; common roots; common fine prominent yellowish brown (10YR 5/6) redoximorphic concentrations; common hard shale fragments 2 to 5 millimeters thick; few clay-ironstone fragments 2 to 5 millimeters thick; very strongly acid; gradual smooth boundary. (Combined thickness of the Bw horizon is 30 to 60 centimeters.)"
+      },
+      {
+        "name": "2Bt",
+        "top": 48,
+        "bottom": 69,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "2Bt--48 to 69 centimeters; grayish brown (2.5Y 5/2) clay; weak medium angular blocky structure; extremely firm; common roots; brown (7.5YR 4/4) clay films on vertical faces of peds; few fine prominent yellowish brown (10YR 5/6) redoximorphic concentrations; many fine prominent yellowish brown (10YR 5/6) redoximorphic concentrations in interiors of peds; few small clay-ironstone and hard shale fragments; extremely acid; gradual smooth boundary. (0 to 15 centimeters thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 69,
+        "bottom": 152,
+        "moist_hue": "N",
+        "moist_value": 5,
+        "moist_chroma": 0,
+        "texture_class": "clay",
+        "pH_class": "extremely acid",
+        "narrative": "2Cr--69 to 152 centimeters; gray (N 5/0) clay shale; weak medium platy rock structure; extremely firm; few roots in upper part; common fine distinct very dark gray (N 3/0) horizontal bands at 104 to 119 centimeters; common fine and medium prominent light olive brown (2.5Y 5/4) and common fine prominent yellowish brown (10YR 5/6) redoximorphic concentrations; few small clay-ironstone and shale fragments; extremely acid."
+      }
+    ]
+  ]
 }

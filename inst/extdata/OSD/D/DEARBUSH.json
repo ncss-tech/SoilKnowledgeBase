@@ -56,5 +56,126 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from 3 cm to 64 cm (A1, A2, A3 and A4 horizons).\nLithic contact - The boundary at 74 cm to underlying indurated, unweathered bedrock (R layer).\nParticle-size control section - The zone from 25 to 74 cm (A3, A4 and C horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--0 to 3 cm; very dark grayish brown (10YR 3/2) moderately decomposed plant material, dark brown (10YR 3/3) moist; neutral (pH 7.2); abrupt smooth boundary. (2 to 10 cm thick)"
+      },
+      {
+        "name": "A1",
+        "top": 3,
+        "bottom": 7,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--3 to 7 cm; brown (10YR 5/3) loam, black (10YR 2/1) moist; moderate thick platy structure; slightly hard, very friable, slightly sticky and nonplastic; 10 percent gravel; neutral (pH 7.2); abrupt smooth boundary. (4 to 20 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 7,
+        "bottom": 24,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--7 to 24 cm; brown (10YR 5/3) gravelly sandy loam, dark brown (10YR 3/3) moist; moderate medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and fine roots; many very fine interstitial pores; 25 percent gravel and 5 percent cobbles; neutral (pH 7.0); clear smooth boundary."
+      },
+      {
+        "name": "A3",
+        "top": 24,
+        "bottom": 54,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A3--24 to 54 cm; dark grayish brown (10YR 4/2) very cobbly loam, very dark brown (10YR 2/2) moist; moderate medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and fine, few medium roots; many very fine interstitial pores; 10 percent gravel and 25 percent cobbles; neutral (pH 6.8); clear smooth boundary. (30 to 50 cm combined thickness of A2 and A3 horizons)"
+      },
+      {
+        "name": "A4",
+        "top": 54,
+        "bottom": 64,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A4--54 to 64 cm; brown (10YR 5/3) very gravelly sandy loam, dark brown (10YR 3/3) moist; moderate medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine, fine and medium, few coarse roots; many very fine and few fine interstitial pores; 30 percent gravel and 15 percent cobbles; neutral (pH 7.0); abrupt smooth boundary. (5 to 14 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 64,
+        "bottom": 74,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "cf_class": "extremely cobbly",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C--64 to 74 cm; very pale brown (10YR 8/3) extremely cobbly sand, pale brown (10YR 6/3) moist; massive structure; loose, loose, nonsticky and nonplastic; few very fine, fine, medium and coarse roots; few very fine and fine interstitial pores; 30 percent gravel and 30 percent cobbles; neutral (pH 6.9) abrupt wavy boundary. (0 to 15 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 74,
+        "narrative": "R--74 cm; granite bedrock."
+      }
+    ]
+  ]
 }

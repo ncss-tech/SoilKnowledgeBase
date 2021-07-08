@@ -56,5 +56,113 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The Rion series was formerly included with the Wedowee and Pacolet series. 2006 revision narrows reaction throughout profile to very strongly acid to moderately acid and allows chroma 2 in the E horizon. Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface of the soil to 7 inches (A and E horizons)\nArgillic horizon - the zone from 7 to 31 inches (Bt1, Bt2, Bt3, and Bt4 horizons)\nADDITIONAL DATA: Grain count by South Carolina Agricultural Experiment Station is: 78 percent Quartz, 19.3 percent Feldspar, and 2.7 percent opaques and heavy minerals.\nMLRA = 136\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nSC0090 RION        2- 60   59- 66  200-230  46- 60   200-1400\nSC0136 RION        2- 40   59- 66  200-230  46- 60   200-1400\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nSC0090 NONE          6.0-6.0              -     60-60\nSC0136 NONE          6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nSC0090  0- 7  LS LCOS                 0-  2  70-100  2-15   2-  5\nSC0090  0- 7  SL FSL L                0-  2  85-100  5-20   4-  7\nSC0090  0- 7  SCL CL                  0-  2  90-100 18-35   5- 10\nSC0090  7-38  SL SCL CL               0-  2  85-100 18-35   4- 10\nSC0090 38-60  SL SCL LS               0-  2  80-100  2-20   2-  8\nSC0136  0- 7  BYV-LS                  0-  5  70- 85  2-15   2-  5\nSC0136  0- 7  BYV-SL BYV-FSL          0-  5  70- 85  5-20   4-  7\nSC0136  7-38  SL SCL CL               0-  3  85-100 18-33   4- 10\nSC0136 38-60  SL SCL LS               0-  2  80-100  2-20   2-  8\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nSC0090  0- 7  4.5- 6.5  .5-2.  0- 0   2.0- 6.0  LOW\nSC0090  0- 7  4.5- 6.5  .5-2.  0- 0   2.0- 6.0  LOW\nSC0090  0- 7  4.5- 6.5  .5-2.  0- 0   0.6- 2.0  LOW\nSC0090  7-38  4.5- 6.5  0.-.5  0- 0   0.6- 2.0  LOW\nSC0090 38-60  4.5- 6.5  0.-.5  0- 0   2.0- 6.0  LOW\nSC0136  0- 7  4.5- 6.5  .5-2.  0- 0   2.0- 6.0  LOW\nSC0136  0- 7  4.5- 6.5  .5-2.  0- 0   2.0- 6.0  LOW\nSC0136  7-38  4.5- 6.5  0.-.5  0- 0   0.6- 2.0  LOW\nSC0136 38-60  4.5- 6.5  0.-.5  0- 0   2.0- 6.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; very dark grayish brown (10YR 3/2) loamy sand; weak fine granular structure; very friable; many fine and few medium roots; 5 percent quartz gravel; strongly acid; abrupt smooth boundary. (2 to 10 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--3 to 7 inches; brown (10YR 4/3) loamy sand; weak fine granular structure; very friable; common fine and few medium roots; 5 percent quartz gravel; moderately acid; clear smooth boundary. (0 to 12 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--7 to 12 inches; brownish yellow (10YR 6/6) sandy loam; weak fine granular structure; very friable; few fine roots; common fine and very fine pores; 2 percent quartz gravel; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 30,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt2--12 to 17 inches; brownish yellow (10YR 6/6) sandy loam; weak medium subangular blocky structure; friable; common faint clay films on faces of peds and in pores; many very fine and few fine pores; 5 percent quartz gravel; very strongly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 43,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Bt3--17 to 26 inches; light yellowish brown (10YR 6/4) sandy clay loam; common medium prominent red (2.5YR 4/6) and common medium distinct grayish brown (10YR 5/2) mottles; weak medium angular blocky structure; friable; common faint clay films on faces of peds and in pores; many very fine and few fine pores; 5 percent quartz gravel; 2 percent feldspar gravel; grayish brown mottles are relic weathered rock material and are not due to wetness; very strongly acid; clear"
+      },
+      {
+        "name": "Bt4",
+        "top": 66,
+        "bottom": 79,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt4--26 to 31 inches; reddish yellow (7.5YR 6/8) sandy clay loam; common medium prominent very pale brown (10YR 7/4) and light brownish gray (10YR 6/2) mottles weak medium subangular blocky structure; friable; 5 percent quartz gravel; 5 percent feldspar gravel; pockets of white clay; light brownish gray mottles and pockets of white clay are relic weathered rock material and are not due to wetness; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "BC",
+        "top": 79,
+        "bottom": 97,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BC--31 to 38 inches; mottled white (10YR 8/1), brownish yellow (10YR 6/8), light brownish gray (10YR 6/2) sandy clay loam; massive; friable; 5 percent feldspar gravel; 5 percent quartz gravel; white and light brownish gray mottles are relic weathered rock material and are not due to wetness; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "C",
+        "top": 97,
+        "bottom": 152,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "narrative": "C--38 to 60 inches; mottled white, gray, and brownish yellow sandy loam; massive; friable; few pockets of gray clay; 90 percent granite saprolite; very strongly acid."
+      }
+    ]
+  ]
 }

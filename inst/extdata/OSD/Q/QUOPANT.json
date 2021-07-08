@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 28 (A and Bt horizons).\nArgillic horizon - The zone from 13 to 36 cm (Bt and Btkq horizons).\nIdentifiable secondary carbonates - The zone from 28 to 36 cm (Btkq horizon).\nParalithic contact - The boundary at 46 cm to underlying soft, weathered bedrock (2Cr layer).\nParticle-size control section - The zone from 13 to 36 cm (Bt and Btkq horizons).\nADDITIONAL DATA: Previous authors and editors include: MDD-DWW-RLB.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 13 cm; grayish brown (10YR 5/2) very gravelly sandy loam, very dark brown (10YR 2/2) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; many very fine and fine roots; common fine tubular pores; 30 percent gravel and 10 percent cobbles; neutral (pH 7.2); clear smooth boundary.  (8 to 15 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 13,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--13 to 28 cm; brown (10YR 5/3) very gravelly sandy clay loam, dark brown (10YR 3/3) moist; moderate fine and medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and fine, few medium roots; common fine tubular pores; few faint clay films coating and bridging sand grains; 35 percent gravel and 10 percent cobbles; slightly alkaline (pH 7.6); clear smooth boundary.  (8 to 20 cm thick)"
+      },
+      {
+        "name": "Btkq",
+        "top": 28,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay",
+        "cf_class": "very gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Btkq--28 to 36 cm; pale brown (10YR 6/3) very gravelly sandy clay 3loam, dark grayish brown (10YR 4/2) moist; weak fine subangular blocky structure; slightly hard, very friable, moderately sticky and moderately plastic; many very fine and fine, few medium roots; common fine tubular and many very fine interstitial pores; few faint clay films coating and bridging sand grains; secondary carbonates and silica segregated as few coats on bottoms of gravel; 35 percent gravel and 10 percent cobbles; slightly alkaline (pH 7.6); abrupt smooth boundary.  (5 to 18 cm thick)"
+      },
+      {
+        "name": "2C",
+        "top": 36,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2C--36 to 46 cm; pale brown (10YR 6/3) paragravelly sandy loam, dark grayish brown (10YR 4/2) moist; massive; slightly hard, friable, nonsticky and nonplastic; common fine roots; many very fine interstitial pores; 20 percent very soft tuff paragravel; slightly alkaline (pH 7.6); clear wavy boundary.  (8 to 13 cm thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 46,
+        "narrative": "2Cr--46 cm; highly weathered ash-flow tuff."
+      }
+    ]
+  ]
 }

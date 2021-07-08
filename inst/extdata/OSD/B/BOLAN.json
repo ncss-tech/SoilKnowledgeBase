@@ -56,5 +56,111 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle-size control section--the zone from a depth of 25 to 100 centimeters;\nseries control section--the zone from the surface to a depth of 150 centimeters.\nDiagnostic horizons and features recognized in this pedon include:\nmollic epipedon--the zone from the surface to a depth of 36 centimeters (Ap and A horizons);\ncambic horizon--the zone from a depth of 36 to 115 centimeters (BA, Bw, and BC horizons);\nudic moisture regime.\nThis unit was formerly mapped as Waukegan loam, and subsequently as Saude, Wadena, or Waukee soils.\nType location revisited 8/2009. Location moved slightly due to error with previous locale not in correct delineation.\nCation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomy version--Keys to Soil Taxonomy, tenth edition, 2006.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 23 centimeters; black (10YR 2/1) exterior and very dark brown (10YR 2/2) interior loam, very dark grayish brown (10YR 3/2) dry; moderate fine granular structure; friable; neutral; clear smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 23,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--23 to 36 centimeters; very dark brown (10YR 2/2) exterior and very dark grayish brown (10YR 3/2) interior loam, dark grayish brown (10YR 4/2) dry; weak fine and very fine granular structure; friable; neutral; gradual wavy boundary."
+      },
+      {
+        "name": "BA",
+        "top": 36,
+        "bottom": 48,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BA--36 to 48 centimeters; dark yellowish brown (10YR 3/4) loam; weak fine subangular blocky structure; friable; dark brown (10YR 3/3) organic stains on faces of peds; neutral; gradual wavy boundary."
+      },
+      {
+        "name": "Bw",
+        "top": 48,
+        "bottom": 77,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--48 to 77 centimeters; dark yellowish brown (10YR 4/4) loam; weak medium subangular blocky structure; friable; dark yellowish brown (10YR 3/4) organic stains on faces of peds; moderately acid; gradual wavy boundary."
+      },
+      {
+        "name": "BC",
+        "top": 77,
+        "bottom": 115,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--77 to 115 centimeters; dark yellowish brown (10YR 4/4) fine sandy loam; weak medium subangular blocky structure; very friable; moderately acid; gradual wavy boundary."
+      },
+      {
+        "name": "C1",
+        "top": 115,
+        "bottom": 155,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C1--115 to 155 centimeters; dark yellowish brown (10YR 4/4) loamy fine sand; single grain; loose; moderately acid; gradual wavy boundary."
+      },
+      {
+        "name": "C2",
+        "top": 155,
+        "bottom": 200,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sand",
+        "pH_class": "slightly acid",
+        "narrative": "C2--155 to 200 centimeters; brown (10YR 4/3) and brown (10YR 5/3) fine sand; single grain; loose; few fine prominent strong brown (7.5YR 4/6) iron-manganese masses at top of horizon; slightly acid."
+      }
+    ]
+  ]
 }

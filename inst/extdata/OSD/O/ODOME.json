@@ -56,5 +56,94 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nSeries control section:  The zone from 0 to 85 cm.\nParticle-size control section:  The zone from 25 to 60 cm (part of By, and Cy horizons)\nOchric epipedon:  The zone from 0 to 4 cm.  (A horizon)\nCalcic horizon: The zone from 4 to 20 cm. (Bk horizon)\nGypsic horizon:  The zone from 20 to 60 cm.  (By and CBy horizons)\nParalithic contact:  The contact with weathered shale at 60 cm.  (Cr horizon)\nWhile individual subhorizons may contain up to 25 percent gypsum, the mineralogy control section averages 5 to 15 percent gypsum.  More soil sampling and/or lab sampling are needed to more accurately define the mineralogy.\nThe assignment of the cation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomic Version:  Eleventh edition, 2010\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 4,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH": 7.7,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 4 cm; pale brown (10YR 6/3) channery loam, dark yellowish brown (10YR 4/4) moist; weak thin platy structure; very friable, slightly hard, slightly sticky, slightly plastic; few coarse, medium, fine and common very fine roots; common very fine tubular and many very fine interstitial pores; 15 percent channers, 2 percent gravel; slightly effervescent (5 percent calcium carbonate equivalent), carbonates are finely disseminated; slightly alkaline (pH 7.7); abrupt wavy boundary. (3 to 13 cm thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 4,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bk--4 to 20 cm; very pale brown (10YR 7/3) loam, light yellowish brown (10YR 6/4) moist; moderate medium and fine subangular blocky structure; friable, slightly hard, slightly sticky, slightly plastic; few coarse, medium and fine and common very fine roots; common very fine tubular and many very fine interstitial pores; 1 percent channers, 1 percent gravel; strongly effervescent (16 percent calcium carbonate equivalent), common threadlike carbonate masses, carbonate coats on bottom surfaces of rock fragments; moderately alkaline (pH 8.0); clear wavy boundary. (15 to 30 cm thick)"
+      },
+      {
+        "name": "By",
+        "top": 20,
+        "bottom": 46,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "By--20 to 46 cm; pale yellow (2.5Y 7/3) gypsiferous parachannery loam, light olive brown (2.5Y 5/4) moist; weak fine subangular blocky structure; very friable, soft, slightly sticky, slightly plastic; few medium, fine and common very fine roots; common very fine tubular pores; many soft gypsum nests and masses (15 percent gypsum), moderately thick coats of gypsum crystals on bottom surfaces of rock fragments; very slightly effervescent (3 percent calcium carbonate equivalent), carbonates are finely disseminated; 3 percent channers, 15 percent parachanners, 2 percent gravel; slightly alkaline (pH 7.5); abrupt wavy boundary. (15 to 41 cm thick)"
+      },
+      {
+        "name": "CBy",
+        "top": 46,
+        "bottom": 60,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "channery",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "CBy--46 to 60 cm; light brownish gray (2.5Y 6/2) parachannery clay loam, olive brown (2.5Y 4/3) moist; moderate medium and thin geogenic platy structure; friable, slightly hard, moderately sticky, moderately plastic; few fine and very fine roots; common very fine tubular pores; few gypsum crystals and soft gypsum masses (10 percent gypsum), thin coats of gypsum crystals on bottom surfaces of rock fragments; very slightly effervescent (2 percent calcium carbonate equivalent), carbonates are finely disseminated; 30 percent parachanners, 2 percent gravel; slightly alkaline (pH 7.4); clear smooth boundary.   (8 to 25 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 60,
+        "bottom": 85,
+        "texture_class": "sand",
+        "narrative": "Cr--60 to 85 cm; weathered gypsiferous Mancos shale interbedded with sandstone."
+      }
+    ]
+  ]
 }

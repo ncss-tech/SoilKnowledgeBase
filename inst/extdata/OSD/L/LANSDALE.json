@@ -56,5 +56,87 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Lansdale soils were originally defined as having sandy loam or loam in the upper horizons and silty clay loam in the B horizons. As they are now defined, the B horizon averages sandy loam or loam; some subhorizons are as fine as sandy clay loam or heavy loam. Particle-size data consistently average less than 18 percent clay in the Bt horizons.\nDiagnostic horizons and other features recognized in this pedon are:\na)Ochric epipedon - the zone from 0 to 14 inches (Ap and BE horizons)\nb)Argillic horizon - the zone from 14 to 30 inches (Bt1 and Bt2 horizons)\nc)Depth to bedrock is at 45 inches (R)\nADDITIONAL DATA: Laboratory data are available at the NSSL in Lincoln, NE on two pedons from Lancaster County PA; Pedon ID 55PA071008 and 55PA071009.\nREVISED: 09/89-CFE-MLM-GAQ-MJL; 11/2005-RJE, DHK\n2008: Pedon Description, competing, geographically associated soils, and type location updated\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; brown (10YR 5/3) loam; weak fine granular structure; friable; 2 to 5 percent gravel; moderately acid; clear smooth boundary. (0 to 12 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 20,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BE--8 to 14 inches; yellowish brown (10YR 5/4) sandy loam; weak fine and medium subangular blocky structure; friable; 2 to 5 percent gravel; strongly acid; gradual wavy boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 36,
+        "bottom": 51,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--14 to 20 inches; brown (7.5YR 5/4) sandy loam; moderate fine and medium subangular blocky structure; friable, slightly sticky, slightly plastic; few clay bridges of sand grains; 10 percent fine gravel; strongly acid; gradual wavy boundary. (8 to 10 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 51,
+        "bottom": 76,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--20 to 30 inches; brown (7.5YR 4/4) gravelly sandy loam; moderate medium subangular blocky structure; friable, nonsticky, nonplastic; many clay films on peds; 20 percent fine gravel; strongly acid; gradual wavy boundary. (combined thickness of the Bt horizons is 12 to 20 inches)"
+      },
+      {
+        "name": "C",
+        "top": 76,
+        "bottom": 114,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "very channery",
+        "pH_class": "very strongly acid",
+        "narrative": "C--30 to 45 inches; yellowish brown (10YR 5/6) very channery sandy loam; massive; friable; 30 percent weathered soft fragments of arkosic sandstone; very strongly acid. (2 to 20 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 114,
+        "texture_class": "sand",
+        "narrative": "R--45 inches; weathered, grayish, semihard, arkosic sandstone."
+      }
+    ]
+  ]
 }

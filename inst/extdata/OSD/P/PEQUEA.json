@@ -56,5 +56,68 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this soil:\n1.  Ochric epipedon - the zone from 0 to 10 inches (Ap horizon).\n2.  Cambic horizon - the zone from 10 to 26 inches (Bw) horizon).\nRevised to reflect depth of bedrock at 40-60 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 10 inches, dark brown (10YR 3/3) silt loam, pale brown (10YR 6/3) dry; weak fine granular structure; very friable, slightly sticky, slightly plastic; 5 percent rock fragments; slightly acid; clear wavy boundary.  (6 to 12 inches thick.)"
+      },
+      {
+        "name": "Bw",
+        "top": 25,
+        "bottom": 66,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--10 to 26 inches, very dark grayish brown (2.5Y 3/2) channery loam; weak fine subangular blocky structure; friable, slightly sticky, slightly plastic; common mica flakes; 20 percent rock fragments; neutral; gradual wavy boundary.  (10 to 25 inches thick.)"
+      },
+      {
+        "name": "C",
+        "top": 66,
+        "bottom": 132,
+        "moist_hue": "5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "mildly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C--26 to 52 inches, dark olive gray (5Y 3/2) and olive gray (5Y 4/2) channery loam; weak thin platy structure; friable; many mica flakes; 25 percent rock fragments; slightly effervescent, mildly alkaline; gradual wavy boundary.  (6 to 30 inches thick.)"
+      },
+      {
+        "name": "R",
+        "top": 132,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "narrative": "R--52 inches, dark gray (10YR 4/1) and black (10YR 2/1) interbedded micaceous limestone and graphitic phyllite bedrock."
+      }
+    ]
+  ]
 }

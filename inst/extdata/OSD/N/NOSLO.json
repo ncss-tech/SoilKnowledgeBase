@@ -56,5 +56,74 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 33 cm (A1 and A2 horizons).\nArgillic horizon - The zone from 33 to 76 cm (Bt horizon).\nParalithic contact - The boundary at 76 cm to underlying weathered bedrock (Cr layer).\nParticle-size control section - The zone from 33 to 76 cm (Bt horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "bouldery",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 20 cm; brown (10YR 5/3) bouldery sandy loam, dark brown (10YR 3/3) moist; weak medium subangular blocky parting to weak fine granular structure; soft, very friable, slightly sticky and slightly plastic; many very fine roots; common very fine interstitial and tubular pores; 10 percent boulders, 2 percent cobbles, and 20 percent gravel; neutral (pH 7.3); clear smooth boundary.  (8 to 20 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 20,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "bouldery",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--20 to 33 cm; brown (10YR 5/3) bouldery sandy loam, dark brown (10YR 3/3) moist; moderate medium granular structure; hard, very friable, slightly sticky and slightly plastic; many very fine and common fine and medium roots; common very fine and fine tubular pores; 10 percent boulders and 10 percent gravel; neutral (pH 7.3); clear smooth boundary.  (10 to 20 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 33,
+        "bottom": 76,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--33 to 76 cm; yellowish brown (10YR 5/4) sandy clay loam, brown (10YR 4/3) moist; strong medium subangular blocky structure; hard, firm, moderately sticky and moderately plastic; common very fine, fine and medium roots; common very fine tubular pores; common distinct clay films lining pores and clay bridges between mineral grains; 10 percent gravel; neutral (pH 7.3); abrupt wavy boundary.  (30 to 50 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 76,
+        "narrative": "Cr--76 cm; weathered granitic rock."
+      }
+    ]
+  ]
 }

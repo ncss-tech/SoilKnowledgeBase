@@ -56,5 +56,60 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 15 cm (A and AC horizons).\nParalithic contact - The boundary at 15 cm to underlying weathered bedrock (Cr layer).\nParticle-size control section - The zone from the soil surface to 15 cm (A and AC horizons).\nThe isotic mineralogy class is based on the field determined values for sodium fluoride pH.  The revision of November 2003 updated the taxonomic class from Loamy-skeletal, isotic, acid, frigid, shallow Typic Xerorthents.  The current Dystric subgroup is based on the estimated low base saturation.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 5.1,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 cm; pale brown (10YR 6/3) very gravelly sandy loam, brown (10YR 4/3) moist; moderate medium platy structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine and fine roots; common very fine interstitial pores; 40 percent gravel; 5 percent paragravel; strongly acid (pH 5.1); clear wavy boundary. (3 to 8 cm thick)"
+      },
+      {
+        "name": "AC",
+        "top": 3,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 5.1,
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "AC--3 to 15 cm; pale brown (10YR 6/3) very gravelly loam, dark yellowish brown (10YR 4/4) moist; weak fine and medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine through medium roots; common very fine tubular and interstitial pores; 50 percent gravel; 10 percent paragravel; strongly acid (pH 5.1); abrupt irregular boundary. (8 to 20 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 15,
+        "bottom": 51,
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "narrative": "Cr--15 to 51 cm; weathered and fractured hydrothermally altered tuff; few roots and fine-earth in fractures; very strongly acid (pH 4.5)."
+      }
+    ]
+  ]
 }

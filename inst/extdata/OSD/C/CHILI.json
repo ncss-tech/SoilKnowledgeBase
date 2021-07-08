@@ -56,5 +56,98 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon\nare:\n1. Ochric epipedon - 0 to 14 inches (Ap, BE horizons)\n2. Argillic horizon - 14 to 35 inches (Bt1, Bt2 horizons)\nA loamy substratum phase has been recognized. These soils will need to be evaluated during MLRA update activities.\nLatitude and Longitude cannot be accurately located from distance on TYPE LOCATION.\nAcreage based on 2004 data.\nADDITIONAL DATA: Refer to pedons CA-33, CO-42, CO-53, CO-60, CO-79, CO-131, CO-132, CO-137, LK-18, MH-50, SK-8, ST-18, ST-B4, and TU-16 for characterization data analyzed by the Ohio State University Soil Characterization Laboratory, Columbus, Ohio.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 9 inches; brown (10YR 4/3) loam, light brownish gray (10YR 6/2) dry; moderate medium granular structure; friable; 2 percent gravel; neutral; abrupt smooth boundary. (6 to 13 inches thick.)"
+      },
+      {
+        "name": "BE",
+        "top": 23,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BE -- 9 to 14 inches; dark yellowish brown (10YR 4/4) loam; weak medium subangular blocky structure; friable; common faint silt and sand coats on faces of peds; 2 percent gravel; slightly acid; gradual smooth boundary. (0 to 12 inches thick.)"
+      },
+      {
+        "name": "Bt1",
+        "top": 36,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1 -- 14 to 20 inches; dark yellowish brown (10YR 4/4) loam; moderate fine subangular blocky structure; firm; common faint clay films in pores; 2 percent gravel; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 51,
+        "bottom": 89,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt2 -- 20 to 35 inches; brown (7.5YR 4/4) gravelly clay loam; moderate medium subangular blocky structure; firm; common faint clay films on faces of peds and coating pebbles; 25 percent gravel; moderately acid; gradual smooth boundary. (Combined thickness of the Bt horizons is 12 to 60 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 89,
+        "bottom": 137,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC -- 35 to 54 inches; dark yellowish brown (10YR 4/4) very gravelly sandy loam; massive; friable; few faint clay films on gravel; 50 percent pebbles; strongly acid; gradual wavy boundary. (0 to 25 inches thick.)"
+      },
+      {
+        "name": "C",
+        "top": 137,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately acid",
+        "narrative": "C -- 54 to 60 inches; dark yellowish brown (10YR 4/4) very gravelly sand; single grain; loose; 50 percent gravel; moderately acid."
+      }
+    ]
+  ]
 }

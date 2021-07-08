@@ -56,5 +56,125 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nParticle size control section - the zone from 12 to 32 inches.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 3 inches (Oe, E);\nAlbic horizon - the zone from 2 to 3 inches (E);\nSpodic horizon - the zone from 3 to 26 inches (Bhs, Bs1, Bs2);\nDensic contact - the contact with dense till (2BCd) at 32 inches;\nLithologic discontinuity - at the upper boundary of the 2BCd horizon at 32 inches;\nRedoximorphic concentrations - oxidized iron accumulations in the zone from 26 to 39 inches.\nBt or 2Bt horizons do not qualify for as argillic horizons because they are either less than 6 inches thick or the clay increase is less than 3 percent absolute from adjacent horizons.\nBx, E/Bx, or B/Ex horizons do not qualify as fragipans because they are either less than 6 inches thick combined or the structure and consistency is not consolidated enough to be root restrictive.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "5YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oe--0 to 2 inches; black (5YR 2.5/1) partially decomposed plant material, very dark gray (5YR 3/1) dry; moderate fine and medium granular structure; very friable; many very fine, fine, medium and coarse roots; 3 percent gravel and 1 percent cobbles; extremely acid; abrupt wavy boundary. (0 to 3 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 8,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "broken",
+        "narrative": "E--2 to 3 inches; brown (7.5YR 4/2) loamy sand, pinkish gray (7.5YR 6/2) dry; weak medium and thick platy structure; very friable; many very fine, fine, medium and coarse roots; 3 percent gravel and 1 percent cobbles; very strongly acid; abrupt broken boundary. (0 to 3 inches thick)"
+      },
+      {
+        "name": "Bhs",
+        "top": 8,
+        "bottom": 18,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bhs--3 to 7 inches; dark brown (7.5YR 3/3) loamy sand; moderate very fine and fine subangular blocky structure; very friable; many very fine, fine, medium and coarse roots; 3 percent gravel and 1 percent cobbles; moderately acid; clear wavy boundary. (0 to 7 inches thick)"
+      },
+      {
+        "name": "Bs1",
+        "top": 18,
+        "bottom": 33,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bs1--7 to 13 inches; dark brown (7.5YR 3/4) loamy sand; weak fine subangular blocky structure; very friable; common very fine, fine, medium and coarse roots; 5 percent gravel and 1 percent cobbles; moderately acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bs2",
+        "top": 33,
+        "bottom": 66,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs2--13 to 26 inches; brown (7.5YR 4/4) loamy sand; moderate coarse subangular blocky structure; very friable; common very fine, fine, and medium roots; 5 percent gravel and 1 percent cobbles; moderately acid; clear wavy boundary. (Combined thickness of the Bs horizons is 6 to 22 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 66,
+        "bottom": 81,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--26 to 32 inches; strong brown (7.5YR 4/6) loamy sand; weak coarse subangular blocky structure; very friable; common very fine, fine, and medium roots; 5 percent gravel and 1 percent cobbles; few fine and medium faint yellowish red (5YR 5/6) masses of iron accumulation; slightly acid; abrupt wavy boundary. (0 to 23 inches thick)"
+      },
+      {
+        "name": "2BCd",
+        "top": 81,
+        "bottom": 99,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2BCd--32 to 39 inches; reddish brown (5YR 4/3) gravelly loamy sand; massive tending to part along horizontal cleavage planes to moderate medium and thick plates; very firm and brittle; 18 percent gravel and 1 percent cobbles; common medium prominent yellowish red (5YR 5/8) masses of iron accumulation; slightly acid; gradual wavy boundary. (6 to 26 inches thick)"
+      },
+      {
+        "name": "2Cd",
+        "top": 99,
+        "bottom": 203,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "narrative": "2Cd--39 to 80 inches; reddish brown (5YR 4/3) gravelly loamy sand; massive tending to part along horizontal cleavage planes to moderate medium and thick plates; very firm and brittle; 18 percent gravel and 1 percent cobbles; slightly acid."
+      }
+    ]
+  ]
 }

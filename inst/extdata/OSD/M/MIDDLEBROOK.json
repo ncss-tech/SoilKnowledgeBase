@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and other features recognized in the typical pedon are:\n1. Ochric Epipedon - the zone from 0 to 6 inches (the Ap horizon).\n2. Cambic Horizon - the zone from 6 to 17 inches (Bw horizons).\n3. Aquic Subgroup - indicated by the presence of low chroma redoximorphic features within 24 inches of the soil surface (CB horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ap -- 0 to 6 inches; dark brown (10YR 3/3), pale brown (10YR 6/3) dry, channery silt loam; moderate medium and fine granular structure; friable; many fine and few medium roots; 15 percent rock fragments; strongly acid; abrupt wavy boundary (4 to 12 inches thick)."
+      },
+      {
+        "name": "Bw1",
+        "top": 15,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1 -- 6 to 12 inches; yellowish brown (10YR 5/6) channery silt loam; weak medium and fine subangular blocky structure parting to weak fine granular; very friable; many fine roots; few fine tubular and many fine vesicular pores; 25 percent rock fragments; moderately acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 30,
+        "bottom": 43,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw2 -- 12 to 17 inches; olive brown (2.5Y 4/4) channery silt loam; moderate medium and fine subangular blocky structure parting to moderate fine granular; friable; common fine roots; common fine tubular and many fine vesicular pores; 30 percent rock fragments; few fine faint light yellowish brown (2.5Y 6/4) masses of iron accumulations and distinct pale brown (10YR 6/3) areas iron depletions; moderately acid; abrupt wavy boundary (Combined thickness of the Bw horizons 9 to 28 inches)."
+      },
+      {
+        "name": "CB",
+        "top": 43,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH_class": "moderately acid",
+        "narrative": "CB --17 to 35 inches; brown (10YR 5/3) and pale brown (10YR 6/3) very channery loam; very weak subangular blocky structures; firm; common medium tubular and few medium vesicular pores; 35 percent rock fragments; many medium distinct light gray (10YR 7/1) areas of iron depletions with prominent yellowish red (5YR 5/8) masses of iron accumulations surrounding some of the depletions; moderately acid (0 to 18 inches thick)."
+      },
+      {
+        "name": "2R",
+        "top": 89,
+        "texture_class": "sand",
+        "narrative": "2R --35 inches; light brownish gray sandstone bedrock."
+      }
+    ]
+  ]
 }

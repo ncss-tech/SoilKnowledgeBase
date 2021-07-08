@@ -56,5 +56,67 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The Fontaflora soils were formerly included with the Biltmore, Colvard, Ostin, or Potomac series. However, Biltmore and Colvard soils do not have sandy-skeletal material within depths of 20 to 40 inches and in addition Colvard soils are in a coarse-loamy family. Ostin and Potomac soils are in a sandy-skeletal family.\nDiagnostic features and horizons recognized in this pedon are:\nOchric Epipedon - the zone from 0 to 5 inches (the A horizon)\nSkeletal feature - occurrence of material that contains more than 35 percent by volume rock fragments within a depth of 20 to 40 inches; the zone from 36 to 60 inches (the C3 horizon)\nADDITIONAL DATA:\nMLRA: 130 SIR: NC0301\nTypical Pedon Data Mapunit ID--84426\nBenchmark Status--No\nTABULAR SERIES DATA:\nSOI-5  Soil Name  Slope Airtemp FrFr/Seas Precip Elevation\nNC0301 FONTAFLORA 0-5   50-57   160-190   50-65  1000-2800\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0301 COMMON        3.0-5.0  APPARENT NOV-APR  >60\nSOI-5  Depth  Texture              3-Inch  No-10  Clay%   -CEC-\nNC0301  0-5   SL,FSL,L             0-5    80-100  6-18     2-8\nNC0301  0-5   LS,S,LCOS            0-5    80-100  1-5      1-3\nNC0301  5-20  SL,FSL               0-0    75-100  6-18     1-7\nNC0301 20-36  LS,S,COS             0-5    80-100  1-5      0-2\nNC0301 36-60  CBX-COS,CBV-S,GRV-S 10-60   15-60   0-2      0-1\nSOI-5  Depth    -pH-     O.M.   Salin  Permeab   Shnk-Swll\nNC0301  0-5   4.5-6.5   .5-4.   0-0    2.0-6.0   LOW\nNC0301  0-5   4.5-6.5   .5-2.   0-0    6.0-20    LOW\nNC0301  5-20  4.5-6.5   0.-2.   0-0    2.0-6.0   LOW\nNC0301 20-36  4.5-6.5   0.-.5   0-0    6.0-20    LOW\nNC0301 36-60  4.5-6.5   0.-.5   0-0    6.0-20    LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 5 inches; dark yellowish brown (10YR 3/4) sandy loam; weak fine granular structure; very friable; common very fine, fine, medium, and coarse roots; 5 percent by volume cobbles; few fine flakes of mica; moderately acid; clear wavy boundary. (2 to 7 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 13,
+        "bottom": 51,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "diffuse",
+        "topography": "wavy",
+        "narrative": "C1--5 to 20 inches; brown (7.5YR 4/4) sandy loam; massive; very friable; common medium and few fine and coarse roots; 5 percent by volume gravel; few fine flakes of mica; strongly acid; diffuse wavy boundary. (0 to 17 inches thick)"
+      },
+      {
+        "name": "C2",
+        "top": 51,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C2--20 to 36 inches; dark yellowish brown (10YR 4/4) loamy sand; massive; very friable; few medium and coarse roots; 10 percent by volume gravel; few fine flakes of mica; moderately acid; clear wavy boundary."
+      },
+      {
+        "name": "C3",
+        "top": 91,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "coarse sand",
+        "cf_class": "extremely cobbly",
+        "pH_class": "slightly acid",
+        "narrative": "C3--36 to 60 inches; dark yellowish brown (10YR 4/4) extremely cobbly coarse sand; single grained; loose; 50 percent by volume cobbles and 30 percent gravel; slightly acid."
+      }
+    ]
+  ]
 }

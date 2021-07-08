@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Type location moved to Clark County soil survey 1995. The activity class was added to the classification in January of 2003. Competing series were not checked at that time. - ET\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - 0 to 3 inches (A horizon).\nLithic contact - 13 inches (R horizon).\nParticle-size control section - 0 to 13 inches (A, C1 and C2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy fine sand",
+        "cf_class": "extremely flaggy",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; pale brown (10YR 6/3) extremely flaggy loamy fine sand, dark yellowish brown (10YR 4/4) moist; strong medium platy structure; slightly hard, very friable, nonsticky and nonplastic; common very fine and fine roots; many very fine and fine vesicular and few fine interstitial pores; 10 percent pebbles and 70 percent flagstones; slightly alkaline (pH 7.4); clear smooth boundary. (2 to 3 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 8,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C1--3 to 9 inches; light yellowish brown (10YR 6/4) extremely gravelly fine sandy loam, yellowish brown (10YR 5/4) moist; weak fine subangular blocky structure; slightly hard, very friable, nonsticky and nonplastic; common very fine, fine, medium, and few coarse roots; common very fine and fine interstitial and few fine tubular pores; 50 percent pebbles and 15 percent cobbles; slightly alkaline (pH 7.4); clear wavy boundary. (4 to 6 inches thick)"
+      },
+      {
+        "name": "C2",
+        "top": 23,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "cf_class": "extremely cobbly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C2--9 to 13 inches; brownish yellow (10YR 6/6) extremely cobbly fine sandy loam, yellowish brown (10YR 5/6) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; many very fine and fine roots; common very fine and fine interstitial and few fine tubular pores; 25 percent pebbles and 35 percent cobbles; slightly alkaline (pH 7.4); abrupt wavy boundary. (0 to 5 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 33,
+        "texture_class": "sand",
+        "narrative": "R--13 inches; hard sandstone bedrock."
+      }
+    ]
+  ]
 }

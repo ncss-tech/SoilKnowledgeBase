@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: 1. With this revision the classification is changed from Coarse-silty, mixed, active, nonacid, mesic Fluvaquentic Endoaquepts  to Coarse-silty, mixed, superactive, nonacid, mesic Fluvaquentic Endoaquepts. This reflects  a review of current lab data available for this series, S70MA015004, S70MA015005 and S06CT003-001 were some of the selected lab pedons used to make the determination.\n2. The use of the Limerick series in Maine, and in MLRA 143 and 144B, is relict to before temperature classes. These have been removed from the SC file.\n3.  Diagnostic horizons and features recognized in this pedon include:\na. Ochric epipedon - the zone from 0 to 8 inches (0 to 20 centimeters) (Ap horizon).\nb. Cambic horizon - the zone from 8 to 54 inches (20 to 137 centimeters) (BCg horizons).\nc. Aquept feature - Within 20 inches (50 centimeters) of the soil surface the matrix has chroma of 2 or less with redox concentrations.\nd. Fluvaquentic feature: The organic-carbon content is presumed to decrease irregularly with depth between 10 through 50 inches (25 through 125 centimeters).\ne. Nonacid reaction class - the pH is presumed to be 5.0 or more in 0.01m CaCl2 in at least some part of the control section.\nf. The material composing the Cg layer is presumed to change color upon exposure to air thereby not meeting the criteria for a Cambic horizon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 8 inches (0 to 20 centimeters); dark grayish brown (10YR 4/2) silt loam, light brownish gray (10YR 6/2) dry; moderate medium granular structure; friable; common very fine and fine and few medium roots; moderately acid; clear smooth boundary. (3 to 10 inches, 8 to 25 centimeters thick.)"
+      },
+      {
+        "name": "BCg1",
+        "top": 20,
+        "bottom": 51,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BCg1 -- 8 to 20 inches (20 to 50 centimeters); olive gray (5Y 4/2) silt loam; massive; friable; few very fine and fine roots; common medium prominent dark yellowish brown (10YR 4/4) and yellowish brown (10YR 5/4 and 10YR 5/6) soft masses of iron accumulation; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "BCg2",
+        "top": 51,
+        "bottom": 91,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BCg2 -- 20 to 36 inches (50 to 91 centimeters); olive gray (5Y 4/2) silt loam; massive; common medium prominent dark yellowish brown (10YR 4/4) and yellowish brown (10YR 5/4 and 10YR 5/6) soft masses of iron accumulation; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "BCg3",
+        "top": 91,
+        "bottom": 137,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BCg3 -- 36 to 54 inches; (91 to 137 centimeters) dark gray (5Y 4/1) silt loam; massive; common medium prominent dark yellowish brown (10YR 4/4) and yellowish brown (10YR 5/4 and 10YR 5/6) soft masses of iron accumulation; moderately acid; clear smooth boundary. (Combined thickness of the BCg horizons ranges from 6 to more than 60 inches (15 to 152 centimeters.)"
+      },
+      {
+        "name": "Cg",
+        "top": 137,
+        "bottom": 165,
+        "moist_hue": "5GY",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "narrative": "Cg -- 54 to 65 inches (137 to 165 centimeters); dark greenish gray (5GY 4/1) silt loam; massive; few, fine prominent dark yellowish brown (10YR 4/4) and yellowish brown (10YR 5/4 and 10YR 5/6) soft masses of iron accumulation; neutral."
+      }
+    ]
+  ]
 }

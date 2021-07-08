@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from the surface to 15 inches (A and Bt1 horizons)\nArgillic horizon - from 6 to 29 inches (Bt1 and Bt2 horizons)\nHorizon of secondary calcium carbonate accumulation - from 29 to 36 inches (Bk horizon)\nParalithic contact - interbedded soft shale and sandstone from 36 to 60 inches (Cr horizon)\nDuckcreek soils have a cryic temperature regime and an ustic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 6 inches; brown (10YR 4/3) loam, dark brown (10YR 3/3) moist; weak fine granular structure; soft, very friable, slightly sticky and slightly plastic; many very fine and few fine and medium roots; many very fine and fine pores; 5 percent gravel, 5 percent stones; neutral (pH 7.2); clear smooth boundary. (5 to 12 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--6 to 15 inches; dark yellowish brown (10YR 4/4) clay loam, dark brown (10YR 3/3) moist; weak medium subangular blocky structure parting to strong fine granular; hard, friable, moderately sticky and moderately plastic; common very fine and few fine and medium roots; common very fine pores; common faint discontinuous clay films on faces of peds; 10 percent gravel; neutral (pH 7.2); clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 38,
+        "bottom": 74,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--15 to 29 inches; light yellowish brown (10YR 6/4) gravelly clay loam, brown (10YR 5/3) moist; weak medium subangular blocky structure parting to moderate fine granular;  hard, friable, moderately sticky and moderately plastic; few very fine and fine roots; common very fine interstitial and tubular pores; common faint discontinuous clay films on faces of peds; 20 percent gravel; slightly alkaline (pH 7.4); clear smooth boundary. (Combined thickness of the Bt1 and Bt2 horizon 15 to 25 inches)"
+      },
+      {
+        "name": "Bk",
+        "top": 74,
+        "bottom": 91,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sandy clay loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bk--29 to 36 inches; light gray (2.5Y 7/2) sandy clay loam, grayish brown (2.5Y 5/2) moist; weak coarse prismatic structure; soft, very friable, slightly sticky and slightly plastic; few very fine and fine roots; common very fine interstitial and tubular pores; common fine soft masses of lime; 30 percent soft shale fragments; strongly effervescent; moderately alkaline (pH 8.2); clear wavy boundary. (5 to 17 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 91,
+        "bottom": 152,
+        "narrative": "Cr--36 to 60 inches; semiconsolidated black shale; strongly effervescent."
+      }
+    ]
+  ]
 }

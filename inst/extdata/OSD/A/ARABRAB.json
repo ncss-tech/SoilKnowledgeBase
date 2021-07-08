@@ -56,5 +56,64 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nParticle-size control section: The zone from 2 to 12 inches. (A and Bt horizons)\nOchric epipedon: The zone from 0 to 7 inches.  (Oi and A horizons)\nArgillic horizon: The zone from 7 to 12 inches.  (Bt horizon)\nLithic contact: The contact with sandstone at 19 inches.  (R layer)\nThe 3/2004 revision moved the type location to better represent the concept of the series.\nThe assignment of the cation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nKeys to Soil Taxonomy Eleventh Edition, 2010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 2 inches (0 to 6 cm); slightly decomposed needles and twigs, abrupt smooth boundary. (0 to 2 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 18,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--2 to 7 inches (6 to 19 cm); brown (7.5YR 4/3) fine sandy loam, dark brown (7.5YR 3/4) moist; weak medium granular structure; soft, friable, slightly sticky and nonplastic; noneffervescent; 10 percent channers, 2 percent flagstones; moderately alkaline (pH 8.0); clear wavy boundary. (2 to 7 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 18,
+        "bottom": 30,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--7 to 12 inches (19 to 31 cm); yellowish red (5YR 5/6) sandy clay loam, yellowish red (5YR 4/6) moist; moderate medium subangular blocky structure; hard, firm, slightly sticky and slightly plastic; few faint clay films on faces of peds; noneffervescent; 5 percent channers; slightly alkaline (pH 7.8); abrupt wavy boundary.  (2 to 17 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 30,
+        "texture_class": "sand",
+        "narrative": "R--12 inches (31 cm); unweathered sandstone with top 1 cm weathered."
+      }
+    ]
+  ]
 }

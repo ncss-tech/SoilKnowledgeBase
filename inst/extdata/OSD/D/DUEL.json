@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon: from the surface to a depth of 23 cm (9 inches) (A and E horizons).\nAlbic horizon: from a depth of 8 to 23 cm (3 to 9 inches) (E horizon).\nSpodic horizon: from a depth of 23 to 53 cm (9 to 21 inches) (Bs1 horizon).\nLlithic contact: at 96 cm (38 inches) (top of the 3R layer).\nThe moderately well drained phase is no longer within the series concept.\nADDITIONAL DATA: Soil Interpretation Record No.: MI0137.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 8 cm (3 inches); black (N 2.5/) sand, dark gray (N 4/) dry; grains of brown (7.5YR 5/2) sand; weak fine granular structure parting to single grain; loose; common very fine to coarse roots; slightly acid; abrupt wavy boundary. [0 to 10 cm (4 inches) thick]"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 23,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--8 to 23 cm (3 to 9 inches); brown (7.5YR 5/2) loamy sand, pinkish gray (7.5YR 6/2) dry; single grain; loose; common very fine to coarse roots; slightly acid; abrupt wavy boundary. [5 to 30 cm (2 to 12 inches) thick]"
+      },
+      {
+        "name": "Bs1",
+        "top": 23,
+        "bottom": 53,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bs1--23 to 53 cm (9 to 21 inches); dark reddish brown (5YR 3/4) loamy sand; single grain; loose; common very fine to coarse roots; ortstein occupies about 10 percent of the horizon and is weakly cemented; ortstein occurs as discontinuous chunks; moderately acid; clear irregular boundary. [10 to 38 cm (4 to 15 inches) thick]"
+      },
+      {
+        "name": "Bs2",
+        "top": 53,
+        "bottom": 76,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy coarse sand",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bs2--53 to 76 cm (21 to 30 inches); brown (7.5YR 4/4) loamy coarse sand; single grain; loose; few very fine to coarse roots; neutral; abrupt wavy boundary. [0 to 30 cm (12 inches) thick]"
+      },
+      {
+        "name": "2C",
+        "top": 76,
+        "bottom": 96,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "very fine sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "2C--76 to 96 cm (30 to 38 inches); pale brown (10YR 6/3) very gravelly very fine sandy loam; massive; firm; few very fine to coarse roots; about 35 percent gravel and 1 percent cobbles; strongly effervescent; moderately alkaline; abrupt smooth boundary. [0 to 20 cm (8 inches) thick]"
+      },
+      {
+        "name": "3R",
+        "top": 96,
+        "bottom": 122,
+        "narrative": "3R--96 to 122 cm (38 to 48 inches); limestone bedrock."
+      }
+    ]
+  ]
 }

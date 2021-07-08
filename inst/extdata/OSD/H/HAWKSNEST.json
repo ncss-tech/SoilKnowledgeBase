@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surgace to a depth of 5 inches (A, E horizons).\nCambic horizon - the zone from 5 to 16 inches (Bwl, Bw2 horizons) with less than 60 percent base saturation as evidenced by very strongly acid reaction.\nLithic contact - bedrock at 16 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 5,
+        "bottom": 0,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "narrative": "Oe--2 to 0 inches; black (5YR 2/1) partially decomposed leaf-litter."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 1 inch; dark reddish brown (5YR 2/2) loam; weak medium granular structure; very friable; many fine and common medium roots; 10 percent rock fragments; very strongly acid; clear wavy boundary (1 to 4 inches thick)."
+      },
+      {
+        "name": "E",
+        "top": 3,
+        "bottom": 13,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--1 to 5 inches; reddish gray (5YR 5/2) channery loam; moderate fine platy structure; friable; many fine and common medium roots; many fine vesicular pores; 20 percent rock fragments; strongly acid; clear wavy boundary (0 to 5 inches thick)."
+      },
+      {
+        "name": "Bw1",
+        "top": 13,
+        "bottom": 25,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--5 to 10 inches; dark reddish brown (5YR 3/4) loam; weak medium and fine subangular blocky structure; friable; common medium and large roots; many fine vesticular pores; 10 percent rock fragments; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 25,
+        "bottom": 41,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Bw2--10 to 16 inches; brown (7.5YR 4/4) and dark reddish brown (5YR 3/2) silt loam; weak medium and fine subangular blocky structure; friable; common medium and large roots; many fine and medium vesicular pores; 5 percent rock fragments; very strongly acid.  (Combined thickness of the Bw horizon is 7 to 15 inches;)"
+      },
+      {
+        "name": "2R",
+        "top": 41,
+        "texture_class": "sand",
+        "narrative": "2R--16 inches; massive grayish brown sandstone bedrock."
+      }
+    ]
+  ]
 }

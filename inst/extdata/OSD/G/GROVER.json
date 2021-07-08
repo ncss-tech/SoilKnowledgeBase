@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: These soils feel as if they are higher in silt content than mechanical analysis shows them to be. They have a greasy feel caused by the high mica content. The mica is dominantly soft and mineral structure is destroyed by prolonged rubbing. *Added loamy sand texture. 05/07 RHB.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to a depth of 6 inches (A horizon)\nArgillic horizon - the zone from 6 to 20 inches (Bt horizon)\nMLRA = 136 Rev - RLV 3/19/97\nADDITIONAL DATA:\nSOI-5 Soil Name Slope Airtemp FrFr/Seas Precip Elevation\nNC0080 GROVER   2- 45 58- 62 190-210    46- 65 700-1200\nNC0230 GROVER   2- 45 58- 62 190-210    46- 65 700-1200\nSOI-5 FloodL FloodH Watertable Kind Months Bedrock Hardness\nNC0080 NONE         6.0-6.0           -    60-60\nNC0230 NONE         6.0-6.0           -    60-60\nSOI-5 \tDepth Texture \t\t3-Inch No-10  Clay% -CEC-\nNC0080 0- 6  SL FSL COSL  \t\t0- 5   90-100 4-18  1- 4\nNC0080 0- 6  SCL \t\t\t0- 5   90-100 20-35 2- 5\nNC0080 0- 6  L \t\t\t0- 5   90-100 7-20  1- 4\nNC0080 6-25  SCL CL L \t\t0- 5   90-100 18-35 2- 4\nNC0080 25-65 SL L SCL \t\t0- 5   85-100 4-25  1- 3\nNC0230 0- 6  GR-LS \t\t\t2- 10  55- 75 2-15  1- 5\nNC0230 0- 6  GR-SL GR-FSL GR-L \t2- 10  55- 75 7-20  2- 8\nNC0230 6-25  SCL CL L \t\t0- 5   90-100 18-35 3- 8\nNC0230 25-65 SL L SCL \t\t0- 5   85-100 10-30 1- 6\nSOI-5 Depth    -pH-      O.M. \tSalin  Permeab Shnk-Swll\nNC0080 0- 6  4.5- 6.5   .5-2. \t0- 0  2.0- 6.0 LOW\nNC0080 0- 6  4.5- 6.5   .5-1. \t0- 0  0.6- 2.0 LOW\nNC0080 0- 6  4.5- 6.5   .5-2. \t0- 0  2.0- 6.0 LOW\nNC0080 6-25  4.5- 6.0   0.-.5 \t0- 0  0.6- 2.0 LOW\nNC0080 25-65 4.5- 6.0   0.-.5 \t0- 0  0.6- 2.0 LOW\nNC0230 0- 6  4.5- 6.5   .5-2. \t0- 0  2.0- 6.0 LOW\nNC0230 0- 6  4.5- 6.5   .5-2. \t0- 0  2.0- 6.0 LOW\nNC0230 6-25  4.5- 6.0   0.-.5 \t0- 0  0.6- 2.0 LOW\nNC0230 25-65 4.5- 6.0   0.-.5 \t0- 0  0.6- 2.0 LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 3,
+        "bottom": 0,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "narrative": "Oe--1 to 0 inch; brown (10YR 4/3) partially decomposed deciduous organic material."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 6 inches; brown (7.5YR 4/4) loam; weak medium granular structure; very friable; many fine, medium, and coarse roots; common fine and medium flakes of mica; very strongly acid; clear smooth boundary. (1 to 6 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 15,
+        "bottom": 51,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--6 to 20 inches; yellowish red (5YR 5/6) loam; weak medium subangular blocky structure; friable; slightly sticky and slightly plastic; few faint clay films on faces of peds; many fine and medium, and few coarse roots; many fine and medium flakes of mica; very strongly acid; gradual wavy boundary. (10 to 26 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 51,
+        "bottom": 64,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--20 to 25 inches; yellowish red (5YR 4/6) loam; weak medium subangular blocky structure; very friable; common fine and medium, and few coarse roots; many fine and medium flakes of mica; strongly acid; gradual wavy boundary. (5 to 12 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 64,
+        "bottom": 89,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C1--25 to 35 inches; strong brown (7.5YR 4/6) biotite gneiss saprolite that has texture of sandy loam; common very dark brown (10YR 2/2) streaks; massive; very friable; few fine and medium roots; many fine and medium flakes of mica; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "C2",
+        "top": 89,
+        "bottom": 165,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "narrative": "C2--35 to 65 inches; multicolored biotite gneiss saprolite that has texture of sandy loam; massive; very friable; few fine and medium roots; many fine and medium flakes of mica; very strongly acid."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,52 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon: from the surface to a depth of 13 cm (5 inches) (A horizon).\nCambic horizon: from a depth of 13 to 38 cm (5 to 15 inches) (Bw horizon).\nParalithic contact: at 38 cm (15 inches) (top of the 2Cr horizon).\nThe classification to Rendolls is based on laboratory data of surrounding soils that contained more than 45 percent of calcium carbonate equivalent in the horizon immediately below the mollic epipedon.\nADDITIONAL DATA: Soil Interpretation Record No.: MI0198.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 13 cm (5 inches); black (10YR 2/1) silt loam, dark gray (10YR 4/1) dry; strong medium granular structure; friable; many fine to coarse roots; about 10 percent gravel; moderately alkaline; clear wavy boundary. [10 to 15 cm (4 to 6 inches) thick]"
+      },
+      {
+        "name": "Bw",
+        "top": 13,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--13 to 38 cm (5 to 15 inches); yellowish brown (10YR 5/4) gravelly silt loam; moderate medium granular structure; friable; common fine and medium roots; about 30 percent gravel; strongly effervescent; moderately alkaline; clear wavy boundary. [10 to 30 cm (4 to 12 inches) thick]"
+      },
+      {
+        "name": "2Cr",
+        "top": 38,
+        "bottom": 64,
+        "narrative": "2Cr--38 to 64 cm (15 to 25 inches); fractured limestone breccia."
+      }
+    ]
+  ]
 }

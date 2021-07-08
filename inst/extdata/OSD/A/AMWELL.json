@@ -56,5 +56,107 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The 11/2005 revision places Amwell soils in an active family based on similar soils with similar parent material. The pedon description was updated to current horizon nomenclature and redoximorphic feature terminology. Competing series section was also updated.\nDiagnostic horizons and features recognized in this pedon are:\na) Ochric epipedon - the zone  from the surface of the soil to a depth of approximately 14 inches (A and E horizons)\nb) Argillic horizon - zone from approximately 14 to 36 inches (Bt, Btx1 and Btx2 horizons)\nc) Fragipan - the zone from 21 to 36 inches (Btx1 and Btx2 horizons) that is firm, brittle and has prismatic or platy structure\nd) Aquic Subgroup - mottles are present with chroma of 2 within the upper part of the argillic horizon (14 to 21 inches, Bt horizon)\nADDITIONAL DATA: No laboratory data are available.\nMLRA: 148\nREVISED: 09/89-CFE; 11/2005-DHK\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; dark grayish brown (10YR 4/2) gravelly silt loam; strong fine granular structure; friable; many fine and large roots; 15 percent gravel and cobbles, mostly basalt; neutral; gradual wavy boundary.  (0 to 3 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--3 to 14 inches; brown (10YR 4/3) gravelly silt loam; weak coarse subangular blocky structure; friable; many fine and large roots; 15 percent gravel, mostly basalt; moderately acid; clear wavy boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 36,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--14 to 21 inches; yellowish brown (10YR 5/4) clay loam; weak medium and coarse subangular blocky structure; friable, slightly sticky, slightly plastic, many fine roots; many coarse distinct light brownish gray (2.5Y 6/2) iron depletions and few fine distinct brownish yellow (10YR 6/8) iron concentrations; few faint clay films on peds; 5 percent gravel, mostly basalt; moderately acid; abrupt wavy boundary.  (5 to 18 inches thick)"
+      },
+      {
+        "name": "Btxl",
+        "top": 53,
+        "bottom": 66,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btxl--21 to 26 inches; brown (7.5YR 5/4) loam; weak thick platy and weak very coarse prismatic structure; brittle, firm; few roots concentrated in widely spaced vertical light brownish gray (10YR 6/2) streaks; many coarse prominent light brownish gray (2.5Y 6/2) iron depletions; 5 percent gravel; few faint clay films on horizontal surfaces of peds; moderately acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btx2",
+        "top": 66,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btx2--26 to 36 inches; dark yellowish brown (10YR 4/4) fine sandy loam; weak thick platy structure; brittle, very firm; 5 percent pebbles; common coarse distinct light brownish gray (10YR 6/2) iron depletions; few faint patchy clay films on horizontal surfaces of peds; moderately acid; gradual wavy boundary.  (Combined thickness of the Btx horizons is 8 to 30 inches)"
+      },
+      {
+        "name": "C1",
+        "top": 91,
+        "bottom": 117,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C1--36 to 46 inches; yellowish brown (10YR 5/6) fine sandy loam; massive; friable; few coarse distinct light brownish gray (2.5Y 6/2) iron depletions and few fine olive yellow (2.5Y 6/6) iron concentrations; 10 percent gravel; moderately acid; gradual wavy boundary.  (6 to 20 inches thick)"
+      },
+      {
+        "name": "C2",
+        "top": 117,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "narrative": "C2--46 to 60 inches; dark yellowish brown (10YR 4/4) fine sandy loam; massive; friable; 10 percent gravel; moderately acid."
+      }
+    ]
+  ]
 }

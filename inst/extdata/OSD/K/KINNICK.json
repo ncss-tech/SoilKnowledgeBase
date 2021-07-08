@@ -56,5 +56,102 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soils in Kinnick series were formally included with the Nolin series.  CEC/clay ratio data for this soil based on Nolin series - range 0.33 - 0.57.  CEC activity class - active.  The 8/98 revision updates classification to Eutrudepts and status to established.\nDiagnostic horizons and features in this pedon include:\nOchric epipedon - 0 to 9 inches (Ap horizon).\nCambric horizon - 9 to 55 inches (Bw1, Bw2 and BC horizons).\nWater table - 3.5 to 6.0 feet.\nMLRA: 125, 122, 124\t\t\tSIR: KY0206\nRevised: 10/95-SEJ,RDJ; 12/97-SEJ,DHK; 8/98-DHK\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 9 inches; dark yellowish brown (10YR 4/4) silt loam, light yellowish brown (10YR 6/4) dry; weak fine granular structure; very friable; many fine roots; moderately acid (pH 6.0); clear smooth boundary.  (6 to 11 inches)"
+      },
+      {
+        "name": "Bw1",
+        "top": 23,
+        "bottom": 53,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw1 -- 9 to 21 inches; yellowish brown (10YR 5/4) silt loam; weak fine subangular blocky structure; friable; common fine roots; moderately acid (pH 6.0); gradual smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 53,
+        "bottom": 79,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw2 -- 21 to 31 inches; yellowish brown (10YR 5/4) silt loam; common faint pale brown (10YR 6/3) and common fine distinct strong brown (7.5YR 5/6) lithochromic mottles; weak fine medium subangular block structure; friable; few fine roots; moderately acid (pH 5.8); gradual smooth boundary.  (Combined thickness of the Bw horizons is 15 to 30 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 79,
+        "bottom": 140,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BC -- 31 to 55 inches; yellowish brown (10YR 5/4) silt loam; weak medium subangular block structure; friable, few fine and coarse roots; moderately acid (pH 5.8); gradual smooth boundary.  (0 to 20 inches)"
+      },
+      {
+        "name": "C1",
+        "top": 140,
+        "bottom": 185,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C1 -- 55 to 73 inches; yellowish brown (10YR 5/6) silt loam; massive; friable; few fine roots; few fine prominent light brownish gray (2.5Y 6/2) iron depletions and common fine distinct strong brown (7.5YR 5/6) soft masses of iron accumulation; moderately acid (pH 5.6); clear smooth boundary."
+      },
+      {
+        "name": "C2",
+        "top": 185,
+        "bottom": 193,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH": 5.5,
+        "pH_class": "strongly acid",
+        "narrative": "C2 -- 73 to 76 inches; yellowish brown (10YR 5/6) gravelly silt loam; massive; friable; 30 percent rounded quartz gravel; many fine distinct strong brown (7.5YR 5/6) soft masses of iron accumulation and many fine prominent light brownish gray (2.5Y 6/2) iron depletions; strongly acid (pH 5.5)."
+      }
+    ]
+  ]
 }

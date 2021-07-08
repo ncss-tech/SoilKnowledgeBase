@@ -56,5 +56,52 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nSeries control section:  The zone from 0 to 13 cm.\nParticle-size control section:  The zone from 0 to 13 cm.  (A  and C horizons)\nOchric epipedon:  The zone from 0 to 4 cm.  (A horizon)\nLithic contact:  The contact with calcareous sandstone at 13 cm.  (R horizon)\nThe assignment of the cation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomic Version:  Classified according to Keys to Soil Taxonomy, Eleventh Edition, 2010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 4,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "channery",
+        "pH": 7.9,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 4 cm; light brown (7.5YR 6/3) channery fine sandy loam, brown (7.5YR 4/3), moist; weak thin platy structure; slightly hard, very friable, slightly sticky and slightly plastic; few fine and common very fine roots; 1 percent cobbles, 15 percent channers, 5 percent gravel; slightly effervescent (4 percent calcium carbonate equivalent), carbonates are finely disseminated throughout; moderately alkaline (pH 7.9); clear wavy boundary. (4 to 9 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 4,
+        "bottom": 13,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH": 8.1,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C--4 to 13 cm; light reddish brown (5YR 6/4) fine sandy loam, reddish brown  (5YR 4/4), moist; weak fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; few fine and common very fine roots; many very fine interstitial and tubular pores; 10 percent channers; strongly effervescent (7 percent calcium carbonate equivalent), carbonates are finely disseminated throughout; few faint carbonate coats on bottom surfaces of rock fragments; moderately alkaline (pH 8.1); abrupt smooth boundary. (9 to 23 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 13,
+        "bottom": 23,
+        "texture_class": "sand",
+        "narrative": "R--13 to 23 cm; calcareous sandstone bedrock, few faint carbonate coats on bedrock."
+      }
+    ]
+  ]
 }

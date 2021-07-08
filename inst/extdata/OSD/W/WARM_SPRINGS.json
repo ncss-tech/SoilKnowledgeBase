@@ -56,5 +56,99 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 8 inches (A horizon).\nCalcic horizon - The zone from 8 to 37 inches (Bk1, Bk2, and Bk3 horizons).\nEndosaturation feature - The condition of ground water with an upper boundary between 24 and 40 inches at certain times during normal years (parts of the Bk3 and C horizons).\nParticle-size control section - The zone from 10 to 40 inches (Bk2 and Bk3 horizons and parts of the Bk1 and C horizons).\nThe revision of November 2005 updated the taxonomic class from Fine-loamy, mixed, active, mesic Aquic Calciustolls based on the assumed moisture regime being xeric instead of ustic.  There are about 1,700 acres of Warm Springs soils in the Soil Survey of Cibola Area, New Mexico (NM682) that need correlation to another series.\nThe active cation exchange activity class was added to the taxonomic classification in December 2002 based on soil property data.\nADDITIONAL DATA:  The typical pedon at the series type location has partial characterization data by the Soils Laboratory from Utah State University (USU) Logan, UT and is published on pages 144-145, Table 11 of the Soil Survey of Davis-Weber Area, Utah.  The pH values in the typical pedon are from saturated paste.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 8 inches; grayish brown (10YR 5/2) fine sandy loam, very dark grayish brown (10YR 3/2) moist; weak medium platy structure; slightly hard, friable, slightly sticky and nonplastic; many fine and medium roots; few fine pores; strongly effervescent; slightly alkaline (pH 7.5); abrupt smooth boundary.  (7 to 12 inches thick.)"
+      },
+      {
+        "name": "Bk1",
+        "top": 20,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 9.4,
+        "pH_class": "very strongly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk1--8 to 15 inches; light brownish gray (10YR 6/2) fine sandy loam, dark grayish brown (10YR 4/2) moist; massive; slightly hard, friable, slightly sticky and slightly plastic; many fine and medium roots; few fine pores; violently effervescent; 15 percent calcium carbonate equivalent; very strongly alkaline (pH 9.4); clear smooth boundary.  (5 to 10 inches thick.)"
+      },
+      {
+        "name": "Bk2",
+        "top": 38,
+        "bottom": 61,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 9.5,
+        "pH_class": "very strongly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk2--15 to 24 inches; light gray (10YR 7/2) fine sandy loam, grayish brown (2.5Y 5/2) moist; massive; soft, very friable, slightly sticky and slightly plastic; few fine roots; few fine pores; violently effervescent; 20 percent calcium carbonate equivalent; very strongly alkaline (pH 9.5); clear smooth boundary.  (6 to 12 inches thick.)"
+      },
+      {
+        "name": "Bk3",
+        "top": 61,
+        "bottom": 94,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 9.6,
+        "pH_class": "very strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bk3--24 to 37 inches; light gray (2.5Y 7/2) fine sandy loam, light brownish gray (2.5Y 6/2) moist; massive; slightly hard, very friable, slightly sticky and slightly plastic; few fine roots; few fine pores; violently effervescent; 24 percent calcium carbonate equivalent; very strongly alkaline (pH 9.6); abrupt smooth boundary.  (6 to 18 inches thick.)"
+      },
+      {
+        "name": "C",
+        "top": 94,
+        "bottom": 152,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH": 9.9,
+        "pH_class": "very strongly alkaline",
+        "narrative": "C--37 to 60 inches; light gray (2.5Y 7/2) loamy fine sand, light brownish gray (2.5Y 6/2) moist; massive; hard, very friable, nonsticky and nonplastic; few fine pores; violently effervescent; very strongly alkaline (pH 9.9)."
+      }
+    ]
+  ]
 }

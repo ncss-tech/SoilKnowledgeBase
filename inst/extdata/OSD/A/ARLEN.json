@@ -56,5 +56,63 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Soil interpretive record: MT1741.  Diagnostic horizons and features recognized in this pedon are: an ochric epipedon from the surface to 9 inches (A and BCk horizons); a horizon of secondary carbonate accumulation from 3 to 9 inches (BCk horizon); a particle size control section from the surface to 9 inches (A and BCk horizons); a layer of decomposing welded tuff from 9 to 13 inches (Cr horizon); welded tuff bedrock at 13 inches (R horizon).  Arlen soils have a frigid temperature regime and an ustic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; light gray (2.5Y 7/2) very gravelly ashy sandy loam, dark grayish brown (2.5Y 4/2) moist; weak coarse granular structure; slightly hard, very friable, slightly sticky and slightly plastic; common very fine and few fine roots; 30 percent pebbles, 10 percent cobbles; slightly alkaline (pH 7.6); abrupt wavy boundary. (1 to 5 inches thick)"
+      },
+      {
+        "name": "BCk",
+        "top": 8,
+        "bottom": 23,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BCk--3 to 9 inches; light gray (2.5Y 7/2) very gravelly ashy sandy loam, dark grayish brown (2.5Y 4/2) moist; massive; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and common fine roots; 40 percent pebbles, 10 percent cobbles; common fine threads and masses of lime; slightly effervescent; slightly alkaline (pH 7.6); clear wavy boundary. (4 to 12 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 23,
+        "bottom": 33,
+        "moist_hue": "2.5Y",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "narrative": "Cr--9 to 13 inches; light gray (2.5Y 7/2) decomposing welded tuff bedrock. (3 to 6 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 33,
+        "moist_hue": "5Y",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "narrative": "R--13 inches; light gray (5Y 7/1), fractured, hard, welded tuff bedrock."
+      }
+    ]
+  ]
 }

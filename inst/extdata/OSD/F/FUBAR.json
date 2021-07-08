@@ -56,5 +56,51 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features and horizons recognized in this profile include: Assumed irregular organic carbon: decrease with depth based on stratification and colors\nSandy-skeletal particle size: 50 percent coarse fragments from 2 to 60 inches; Temperature regime: cryic\nThe Fubar series incorporates stratified, flooded soils that were formerly correlated as part of the Chena series.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 8,
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "narrative": "Oi--0 to 3 inches; slightly decomposed plant material; moderately acid (pH 5.6). (1 to 6 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 8,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--3 to 5 inches; dark grayish brown (10YR 4/2) fine sandy loam; weak fine subangular blocky structure; very friable, nonsticky and nonplastic; common very fine and fine roots; slightly acid (pH 6.2); abrupt wavy boundary. (1 to 10 inches thick)"
+      },
+      {
+        "name": "2C",
+        "top": 13,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "narrative": "2C--5 to 60 inches; brown (10YR 5/3) very gravelly sand stratified with thin lenses of silt loam and fine sandy loam; single grain; loose, nonsticky and nonplastic; 40 percent gravel, 10 percent cobble; slightly acid (pH 6.4)."
+      }
+    ]
+  ]
 }

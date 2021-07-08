@@ -56,5 +56,72 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from 0 to 18 inches\nArgillic horizon - the zone from 18 to 28 inches\nLithic contact - the zone beginning at 28 inches\nParticle-size control section - the zone from 18 to 28 inches (Bt horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 6 inches; brown (10YR 4/3) silt loam, very dark grayish brown (10YR 3/2) moist; weak very fine and fine granular structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine and few fine roots; many fine irregular pores; neutral (pH 6.8); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 15,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A2--6 to 18 inches; brown (10YR 4/3) silt loam, dark brown (10YR 3/3) moist; weak fine and medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common very fine and few fine roots; many fine irregular pores; slightly acid (pH 6.4); abrupt smooth boundary. (Combined thickness of the A horizon is 12 to 20 inches)"
+      },
+      {
+        "name": "Bt",
+        "top": 46,
+        "bottom": 71,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt--18 to 28 inches; brown (10YR 5/3) silty clay loam, dark yellowish brown (10YR 3/4) moist; moderate fine and medium subangular blocky structure; hard, firm, moderately sticky and moderately plastic; common very fine roots; common fine irregular and tubular pores; common distinct clay films on faces of peds and lining pores; slightly acid (pH 6.2); abrupt smooth boundary. (8 to 20 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 71,
+        "narrative": "2R--28 inches; basalt bedrock"
+      }
+    ]
+  ]
 }

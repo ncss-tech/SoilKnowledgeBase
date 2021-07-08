@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from 0 to 64 cm (A1, A2, and BC horizons)\nParticle-size control section - from 25 to 100 cm (part of the A2, BC, and part of the C horizon)\nThaincreek soils have a cryic temperature regime and an ustic moisture regime.\nTaxonomic version: Eleventh Edition, 2010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 14,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 14 cm; very dark grayish brown (10YR 3/2) sandy loam, very dark brown (10YR 2/2) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; many very fine, fine, and medium roots; few very fine and fine irregular pores; 5 percent gravel and 5 percent cobbles; slightly acid (pH 6.2); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 14,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "cf_class": "very cobbly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A2--14 to 28 cm; very dark grayish brown (10YR 3/2) very cobbly loamy sand, very dark brown (10YR 2/2) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; many very fine, fine, and medium roots; 25 percent gravel, 20 percent cobbles, and 10 percent stones; slightly acid (pH 6.2); gradual wavy boundary. (combined thickness of A horizons is 25 to 60 cm)"
+      },
+      {
+        "name": "BC",
+        "top": 28,
+        "bottom": 64,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "cf_class": "extremely cobbly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--28 to 64 cm; very dark grayish brown (10YR 3/2) extremely cobbly sand, very dark brown (10YR 2/2) moist; weak fine subangular blocky structure parting to single grain; loose; many very fine and fine roots, common medium and coarse roots; 30 percent gravel, 30 percent cobbles, and 10 percent stones; slightly acid (pH 6.2); gradual wavy boundary.  (0 to 50 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 64,
+        "bottom": 150,
+        "texture_class": "sand",
+        "cf_class": "extremely cobbly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "narrative": "C--64 to 150 cm; variegated extremely cobbly sand; single grain; loose; few very fine and fine roots; 30 percent gravel, 30 percent cobbles, and 10 percent stones; slightly acid (pH 6.4). (80 to 130 cm thick)"
+      }
+    ]
+  ]
 }

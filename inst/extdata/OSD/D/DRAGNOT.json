@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nMollic epipedon - from the surface to 11 inches (A1 and A2 horizons).\nArgillic horizon - from 11 to 18 inches (Bt horizon).\nParticle-size control section - the zone from 11 to 18 inches (Bt horizon).\nLithic contact - at 31 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "stony",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 4 inches; brown (10YR 5/3) stony loam, very dark grayish brown (10YR 3/2) moist; weak fine to coarse granular structure; slightly  hard, very friable, slightly sticky and nonplastic; common very fine and  fine roots; many very fine, fine, and medium tubular pores; 15 percent  fine gravel, 3 percent stones; neutral (pH 7.0)); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--4 to 11 inches; brown (10YR 4/3) loam, very dark grayish brown (10YR 3/2) moist; weak fine to coarse granular structure; slightly hard,  very friable, slightly sticky and nonplastic; many medium and common very fine and fine roots; many very fine and fine tubular and irregular pores; 10 percent fine gravel; neutral (pH 6.8); clear smooth boundary.  (combined thickness of the A1 and A2 horizons is 8 to 16 inches)"
+      },
+      {
+        "name": "Bt",
+        "top": 28,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt--11 to 18 inches; brown (10YR 4/3) fine gravelly loam, dark brown  (10YR 3/3) moist; weak fine to coarse subangular blocky structure; hard,  very friable, slightly sticky and nonplastic; common very fine, fine,  and medium roots; many very fine and fine tubular and irregular pores;  common faint patchy clay films on faces of peds and in pores; 15 percent  fine gravel; neutral (pH 6.8); abrupt wavy boundary.  (5 to 14 inches  thick)"
+      },
+      {
+        "name": "BC",
+        "top": 46,
+        "bottom": 79,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "BC--18 to 31 inches; brown (10YR 5/3) very gravelly sandy loam, brown (10YR 4/3) moist; massive; hard, very friable, nonsticky and nonplastic; many very fine, fine, and medium roots; common very fine and  fine tubular and irregular pores; 60 percent fine gravel; neutral (pH 6.8); abrupt wavy boundary.  (0 to 18 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 79,
+        "narrative": "R--31 inches; granodiorite."
+      }
+    ]
+  ]
 }

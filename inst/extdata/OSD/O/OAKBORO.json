@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This soil was formerly included with the Chewacla series. These soils are borderline to fine-silty. The small amount of gravel with sand coarser than very fine sand is slightly greater than 15 percent. The thin fluvial sediments are laid in narrow valley floors after truncation; therefore, the soil rests directly on slate rocks without transition layers in most instances.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the soil surface to a depth of 10 inches.\nCambic horizon - the zone between depths of 10 and 46 inches.\nLithic contact - the occurrence of hard bedrock at a depth of 46 inches.\nAquic conditions - periodic saturation and iron depletions within a 24 inch depth in the zone between 18 and 46 inches below the surface (Bw2 and Bw3 horizons)\nADDITIONAL DATA:\nMLRA: 136\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0156 OAKBORO     0-  2   59- 63  190-225  45- 55   300- 500\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nNC0156 COMMON        1.0-2.0  APPARENT DEC-APR  40-60   HARD\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nNC0156  0-10  SIL L                   0- 15  95-100 10-27   5- 25\nNC0156 10-46  L SIL SICL              0- 15  95-100 18-35   5- 25\nNC0156 46-56  UWB                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0156  0-10  4.5- 6.5  1.-4.  0- 0   0.6- 2.0  LOW\nNC0156 10-46  4.5- 6.5  0.-2.  0- 0   0.6- 2.0  LOW\nNC0156 46-56     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "Oi--1 to 0 inches; undecomposed and partially decomposed hardwood and pine litter."
+      },
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A1--0 to 4 inches; yellowish brown (10YR 5/4) silt loam; weak medium granular structure; very friable; many fine and medium roots; strongly acid; abrupt wavy boundary. (4 to 12 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 25,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A2--4 to 10 inches; light yellowish brown (2.5Y 6/4) silt loam; common fine prominent brown (7.5YR 4/4) mottles; weak medium granular structure; very friable; many fine and medium roots; strongly acid; abrupt smooth boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 25,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw1--10 to 18 inches; brownish yellow (10YR 6/6) silty clay loam; common fine prominent light reddish brown (2.5YR 6/4) mottles; weak medium subangular blocky structure; friable; common fine and medium roots; 2 percent pebbles; moderately acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 46,
+        "bottom": 97,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw2--18 to 38 inches; 40 percent brownish yellow (10YR 6/6), 35 percent light yellowish brown (10YR 6/4), and 30 percent light gray (10YR 7/1) silty clay loam; weak medium subangular blocky structure; friable; common fine roots; 2 percent pebbles, few fine iron manganese concretions; the areas of light gray are iron depletions; moderately acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bw3",
+        "top": 97,
+        "bottom": 117,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw3--38 to 46 inches; 35 percent brownish yellow (10YR 6/6), 35 percent light yellowish brown (10YR 6/4), and 30 percent light gray (10YR 7/2) silty clay loam; weak medium subangular blocky structure; firm; few fine roots; 5 percent fragments of slate; few to common iron manganese concretions; the areas of light gray are iron depletions; moderately acid; abrupt wavy boundary. (Combined thickness of the Bw horizon is 13 to 53 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 117,
+        "narrative": "R--46 inches; hard fractured slate bedrock."
+      }
+    ]
+  ]
 }

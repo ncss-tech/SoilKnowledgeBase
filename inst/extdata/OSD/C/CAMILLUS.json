@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This series is well drained and Typic, not Oxyaquic. The chroma 2 colors are inherited from the bedrock material.\nDiagnostic horizon and other features recognized in the typical pedon are:\n1) Ochric epipedon - from 0 to 10 inches.\n2) Cambic horizon - from 10 to approximately 19 inches (Bw and the upper part of the BC horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ap -- 0 to 10 inches; dark grayish brown (10YR 4/2) silt loam; brown (10YR 4/3) when rubbed, light brownish gray (10YR 6/2) dry; weak medium and fine subangular blocky structure breaking to moderate medium and fine granular structure; friable, slightly sticky; many fine and medium roots; many medium and large pores; 1 percent rock fragments; neutral; abrupt wavy boundary. (7 to 11 inches thick.)"
+      },
+      {
+        "name": "Bw",
+        "top": 25,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw -- 10 to 16 inches; yellowish brown (10YR 5/4) silt loam; moderate medium and coarse subangular blocky structure breaking to weak fine and medium granular structure; friable, slightly sticky; many fine roots; many medium and large pores; 1 percent rock fragments; slightly acid; clear wavy boundary. (1 to 19 inches thick.)"
+      },
+      {
+        "name": "BC",
+        "top": 41,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BC -- 16 to 22 inches; brown (10YR 5/3) in the upper part grading to grayish brown (10YR 5/2) in the lower part (inherited from parent material), silt loam; very weak very coarse platy structure breaking to fine and medium angular and subangular blocky structure; friable, slightly sticky; many fine roots; many medium and large pores; few partially weathered fine shale fragments; neutral; clear wavy boundary. (3 to 8 inches thick.)"
+      },
+      {
+        "name": "C",
+        "top": 56,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "C -- 22 to 36 inches; grayish brown (10YR 5/2) silt loam; platy structure inherited from rock breaks to weak medium and coarse angular blocky structure; friable, slightly sticky; many fine roots to 24 inches, common fine roots from 24 to 36 inches; many large pores; 25 percent soft shale fragments; 1 percent hard rock fragments; slightly alkaline. (6 to 18 inches thick.)"
+      },
+      {
+        "name": "2Cr",
+        "top": 91,
+        "bottom": 99,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt",
+        "narrative": "2Cr -- 36 to 39 inches; grayish brown (10YR 5/2) soft partially disintegrated calcareous silty shale bedrock."
+      }
+    ]
+  ]
 }

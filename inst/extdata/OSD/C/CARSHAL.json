@@ -56,5 +56,61 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 2 inches (A horizon).\nParalithic contact - The boundary at 5 inches to underlying weathered bedrock (Cr layer).\nParticle-size control section - The zone from the soil surface to 5 inches (A and C horizons).\nThe revision of October 2003 updated the taxonomic class from Loamy-skeletal, isotic, nonacid, frigid, shallow Typic Xerorthents.  The isotic mineralogy class was based solely on the field determined values for sodium fluoride pH.  Laboratory data on 15 bar water to clay ratio does not exist to verify the isotic mineralogy class.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 2 inches; dark grayish brown (10YR 4/2) very gravelly sandy loam, very dark brown (10YR 2/2) moist; weak fine subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; few very fine roots; common very fine interstitial pores; 50 percent gravel; neutral; clear smooth boundary. (1 to 3 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--2 to 5 inches; dark grayish brown (10YR 4/2) gravelly loam, very dark brown (10YR 2/2) moist; weak fine subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; many very fine roots and few fine and medium; common very fine interstitial and tubular pores; 30 percent gravel and 25 percent paragravel; neutral; clear wavy boundary. (3 to 11 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 13,
+        "bottom": 36,
+        "narrative": "Cr--5 to 14 inches; weathered and fractured andesitic tuff; few roots in fractures."
+      },
+      {
+        "name": "R",
+        "top": 36,
+        "narrative": "R--14 inches; hard, unweathered andesitic tuff."
+      }
+    ]
+  ]
 }

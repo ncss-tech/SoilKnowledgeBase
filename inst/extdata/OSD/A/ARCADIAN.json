@@ -56,5 +56,61 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nalbic horizon - 2 to 5 inches (E horizon);\nspodic horizon - 5 to 12 inches (Bhs horizon)\nlithic subgroup - lithic contact at 12 inches (2R layer).\nType location moved due to building site development at original type location.\nThe series is reclassified from an inceptisol to a spodosol after reviewing the series across its geographical extent.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oa",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "7.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "narrative": "Oa--0 to 2 inches; black (7.5YR 2.5/1); well decomposed forest litter. (0 to 2 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--2 to 5 inches; brown (7.5YR 4/2) very gravelly fine sandy loam, gray (7.5YR 5/1) dry; moderate medium granular structure; friable, many fine medium and common coarse roots; 45 percent gravel, 5 percent cobbles, 1 percent stones; strongly acid, abrupt wavy boundary. (0 to 7 inches thick)"
+      },
+      {
+        "name": "Bhs",
+        "top": 13,
+        "bottom": 30,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "very fine sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bhs--5 to 12 inches; dark brown (7.5YR 3/3) very gravelly very fine sandy loam; moderate medium subangular blocky structure; friable; many fine, common medium, few coarse roots; 50 percent gravel, 5 percent cobbles, 1 percent stones; strongly acid; abrupt wavy boundary. (5 to 17 inches thick)"
+      },
+      {
+        "name": "2R",
+        "top": 30,
+        "narrative": "2R--12 inches; conglomerate bedrock."
+      }
+    ]
+  ]
 }

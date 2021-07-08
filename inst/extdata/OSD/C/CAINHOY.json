@@ -56,5 +56,118 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Cainhoy series was formerly included in the Lakeland series.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nSC0024 CAINHOY     0- 10   65- 70  240-290  45- 55     5- 125\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nSC0024 NONE          6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nSC0024  0-55  FS LFS S                0-  0 100-100  2-15   1-  2\nSC0024 55-99  FS S                    0-  0 100-100  1-10   1-  2\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nSC0024  0-55  4.5- 6.5  .5-1.  0- 0   6.0-  20  LOW\nSC0024 55-99  4.5- 6.5  0.-.5  0- 0   6.0-  20  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 5 inches; dark grayish brown (10YR 4/2) fine sand; single grained; loose; many fine and medium roots; salt and pepper appearance because of white sand grains; slightly acid; abrupt smooth boundary.  (3 to 9 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 13,
+        "bottom": 30,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--5 to 12 inches; yellowish brown (10YR 5/6) fine sand; single grained; loose; common fine and medium roots; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 30,
+        "bottom": 109,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw2--12 to 43 inches; brownish yellow (10YR 6/6) fine sand; single grained; loose; common medium roots; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "Bw3",
+        "top": 109,
+        "bottom": 140,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 6,
+        "texture_class": "fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw3--43 to 55 inches; yellow (10YR 7/6) fine sand; few fine faint very pale brown mottles; single grained; loose; few medium roots; moderately acid; clear wavy boundary.  (Combined thickness of the Bw horizon is 16 to 80 inches)"
+      },
+      {
+        "name": "E1",
+        "top": 140,
+        "bottom": 165,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "E1--55 to 65 inches; light gray (10YR 7/2) fine sand; few fine faint yellow mottles; single grained; loose; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "E2",
+        "top": 165,
+        "bottom": 206,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "E2--65 to 81 inches; light gray (10YR 7/2) fine sand; few medium distinct yellowish brown (10YR 5/6) mottles; single grained; loose; moderately acid; gradual irregular boundary."
+      },
+      {
+        "name": "E3",
+        "top": 206,
+        "bottom": 279,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E3--81 to 110 inches; light brownish gray (10YR 6/2) fine sand; single grained; loose; moderately acid; clear smooth boundary. (Combined thickness of the E horizon is 28 to 66 inches)"
+      },
+      {
+        "name": "Bh",
+        "top": 279,
+        "bottom": 330,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "fine sand",
+        "pH_class": "moderately acid",
+        "narrative": "Bh--110 to 130 inches; black (5YR 2/1) fine sand; single grained; weakly cemented, loose when crushed; moderately acid."
+      }
+    ]
+  ]
 }

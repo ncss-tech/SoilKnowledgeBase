@@ -56,5 +56,53 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon - the zone from 0 to 9 inches (Ap horizon).\nb. Cambic horizon - the zone from 9 to 30 inches (Bw horizon).\nc. Fluventic feature - the content of organic carbon decreases irregularly with depth.\nADDITIONAL DATA: The Soil Interpretation Record number for the Ondawa series is ME0010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 9 inches; very dark grayish brown (10YR 3/2) fine sandy loam; weak fine granular structure; friable; many roots; moderately acid; abrupt smooth boundary. (6 to 10 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 23,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw -- 9 to 30 inches; brown (10YR 4/3) fine sandy loam; weak fine granular structure; friable; common roots; strongly acid; abrupt wavy boundary. (14 to 30 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 76,
+        "bottom": 165,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loamy fine sand",
+        "pH_class": "strongly acid",
+        "narrative": "C -- 30 to 65 inches; yellowish brown (10YR 5/6) loamy fine sand; single grain; loose; strongly acid."
+      }
+    ]
+  ]
 }

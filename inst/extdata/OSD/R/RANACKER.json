@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Previously, these soils have been included with the Gasconade series which are commonly more than 12 inches deep to bedrock.  Diagnostic horizons and features recognized in this series are:  mollic epipedon - the zone from the surface of the soil to a depth of 9 inches (Ap and A horizons); argillic horizon - the zone from approximately 9 to 18 inches (Bt horizon) - lithic contact with limestone at 18 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "cf_class": "flaggy",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 4 inches; very dark grayish brown (10YR 3/2) flaggy silty clay loam, grayish brown (10YR 5/2) dry; moderate fine granular structure; firm; common fine roots; 15 percent limestone flagstones; neutral; clear smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 10,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "cf_class": "flaggy",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--4 to 9 inches; very dark grayish brown (10YR 3/2) flaggy silty clay loam, grayish brown (10YR 5/2) dry; moderate fine subangular blocky structure; firm; common fine roots; 20 percent limestone flagstones; neutral; clear wavy boundary.  (Combined thickness of the A horizon is 4 to 10 inches.)"
+      },
+      {
+        "name": "Bt",
+        "top": 23,
+        "bottom": 46,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "cf_class": "very flaggy",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--9 to 18 inches; reddish brown (5YR 4/4) very flaggy silty clay; moderate fine subangular blocky structure; firm; few very fine roots; many distinct clay films on faces of peds; 30 percent limestone flagstones and 25 percent cherty gravel; neutral; clear wavy boundary.  (4 to 15 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 46,
+        "narrative": "R--18 inches; limestone."
+      }
+    ]
+  ]
 }

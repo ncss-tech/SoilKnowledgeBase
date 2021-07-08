@@ -56,5 +56,101 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the mineral soil surface to 40 cm. (A1 and A2 horizons)\nCambic horizon - The zone from 40 to 80 cm. (Bw horizon)\nParticle-size control section - The zone from 25 to 100 cm. (Bw and part of the A2 and C horizons)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 5 cm; slightly decomposed plant material composed of loose leaf litter and twigs; abrupt smooth boundary."
+      },
+      {
+        "name": "Oe",
+        "top": 5,
+        "bottom": 12,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe--5 to 12 cm; moderately decomposed plant material composed of matted leaf litter and twigs; abrupt smooth boundary. (1 to 12 cm combined thickness)"
+      },
+      {
+        "name": "A1",
+        "top": 12,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 2,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "very fine sandy loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--12 to 15 cm; very dark brown (10YR 2/2) very fine sandy loam, black (10YR 2/1) moist; moderate thick platy structure; slightly hard, very friable, nonsticky and nonplastic; neutral (pH 7.0); abrupt smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 15,
+        "bottom": 40,
+        "dry_hue": "10YR",
+        "dry_value": 2,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A2--15 to 40 cm; very dark brown (10YR 2/2) cobbly loam, black (10YR 2/1) moist; moderate coarse subangular blocky structure; slightly hard, very friable, nonsticky and nonplastic; 13 percent gravels, 15 percent cobbles, and 4 percent stones; slightly acid (pH 6.4); abrupt smooth boundary. (18 to 35 cm combined thickness)"
+      },
+      {
+        "name": "Bw",
+        "top": 40,
+        "bottom": 80,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "cf_class": "cobbly",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw--40 to 80 cm; light yellowish brown (10YR 6/4) cobbly sandy clay loam, dark brown (10YR 3/3) moist; massive structure; slightly hard, very friable, moderately sticky and moderately plastic; 15 percent gravel, 10 percent cobbles, and 5 percent stones; slightly acid (pH 6.1); abrupt smooth boundary. (15 to 60 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 80,
+        "bottom": 150,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "cf_class": "extremely cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "narrative": "C--80 to 150 cm; light yellowish brown (10YR 6/4) extremely cobbly sandy clay loam, dark brown (10YR 3/3) moist; massive structure; slightly hard, friable, moderately sticky and moderately plastic; 20 percent gravel, 30 percent cobbles, and 20 percent stones; neutral (pH 7.0)."
+      }
+    ]
+  ]
 }

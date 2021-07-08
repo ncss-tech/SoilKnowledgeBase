@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and other features recognized in this pedon are:\na.  Ochric epipedon -the zone between 0 and 8 inches (Ap horizon).\nb.  Argillic horizon -the zone between 8 and 47 inches (Bt horizon).\nSIR=VA0127, VA0137 (FLOODED)\nMLRA=133A, 153A, 153B, 153C\nREVISED=7/9/96, MHC\nADDITIONAL DATA: Laboratory data from typical pedon and 8 supporting pedons (S73VA31-78(1-7), S73VA41-76(1-7), S73VA41-(1-8), S74VA41-97(1-4), S74VA41-92(1-7), S74VA41-92(1-7), S74VA41-101(1-5)) may be obtained from Virginia Polytechnic Institute and State University Soil Survey Laboratory.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0127 BOJAC       0-10   58-60  190-220  40-50    10-250\nVA0137 BOJAC       0-10   58-60  185-225  40-50    25-200\nSOI-5   FloodL  FloodH   Watertable   Kind     Months    Bedrock\nVA0127     NONE          4.0-6.0    APPARENT   NOV-APR   60-60\nVA0137   RARE/COMMON     4.0-6.0    APPARENT   NOV-APR   60-60\nSOI-5   Depth     Texture            3-Inch   No-10   Clay%   -CEC-\nVA0127   0-8    SL FSL L               0-0   95-100   3-8\nVA0127   0-8    LFS LS                 0-0   95-100   3-8\nVA0127   8-47   FSL L SL               0-0   95-100  11-16\nVA0127  47-85   SR LFS COS             0-0   75-100   1-8\nVA0137   0-8    SL FSL L               0-0   75-100   3-8\nVA0137   0-8    LFS LS                 0-0   75-100   3-8\nVA0137   0-8    GR-S GR-LS GR-LFS      0-0   50-75    3-8\nVA0137   8-47   FSL L SL               0-0   50-100  11-16\nVA0137  47-85   SR LS G                0-15  25-100   1-6\nSOI-5   Depth   -pH-      O.M.   Salin  Permeab   Shnk-Swll\nVA0127   0-8    3.6-6.5  .5-2.    0-0   2.0-6.0     LOW\nVA0127   0-8    3.6-6.5  .5-1.    0-0   6.0-20      LOW\nVA0127   8-47   3.6-6.5   0.-.5   0-0   2.0-6.0     LOW\nVA0127  47-85   4.5-6.0   0.-.5   0-0   6.0-20      LOW\nVA0137   0-8    3.5-6.5  .5-2.    0-0   2.0-6.0     LOW\nVA0137   0-8    3.5-6.5  .5-1.    0-0   6.0-20      LOW\nVA0137   0-8    3.5-6.5  .5-1.    0-0   6.0-20      LOW\nVA0137   8-47   3.5-6.5   0.-.5   0-0   2.0-6.0     LOW\nVA0137  47-85   3.5-6.5   0.-.5  0-0    6.0-20      LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy fine sand",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; brown (10YR 4/3) loamy fine sand; single grain; loose; many fine roots; neutral; abrupt smooth boundary.  (6 to 12 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "Bt1--8 to 13 inches; yellowish brown (10YR 5/6) fine sandy loam; many medium distinct dark yellowish brown (10YR 4/4) mottles;  weak fine subangular blocky structure; very friable; common fine roots; sand grains bridged and coated with clay; strongly acid; diffuse smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 33,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "Bt2--13 to 25 inches; yellowish brown (10YR 5/6) fine sandy loam; weak medium subangular blocky structure; very friable; few fine roots; sand grains bridged and coated with clay; very strongly acid; diffuse smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 64,
+        "bottom": 94,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "Bt3--25 to 37 inches; strong brown (7.5YR 5/6) fine sandy loam; weak medium subangular blocky structure; very friable; few fine roots; sand grains bridged and coated with clay; strongly acid; diffuse smooth boundary."
+      },
+      {
+        "name": "Bt4",
+        "top": 94,
+        "bottom": 119,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "Bt4--37 to 47 inches; yellowish brown (10YR 5/8) fine sandy loam; weak medium subangular blocky structure; very friable; sand grains bridged and coated with clay; many medium prominent very pale brown (10YR 7/4) soft masses of iron accumulation; very strongly acid; diffuse smooth boundary. (Combined thickness of the Bt horizon is 15 to 70 inches.)"
+      },
+      {
+        "name": "C1",
+        "top": 119,
+        "bottom": 178,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "loamy fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "C1--47 to 70 inches; very pale brown (10YR 7/3) loamy fine sand; single grain; loose; very strongly acid; diffuse smooth boundary. (0 to 40 inches thick)"
+      },
+      {
+        "name": "C2",
+        "top": 178,
+        "bottom": 216,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 6,
+        "texture_class": "coarse sand",
+        "pH_class": "very strongly acid",
+        "narrative": "C2--70 to 85 inches; yellow (10YR 7/6) coarse sand; single grain; loose; 2 percent gravel; common medium faint yellowish brown (10YR 5/6) soft masses of iron accumulation; very strongly acid."
+      }
+    ]
+  ]
 }

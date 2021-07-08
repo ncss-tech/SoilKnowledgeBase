@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in the pedon are: a mollic epipedon from the soil surface to 7 inches (mixed) (A horizons); horizons of secondary carbonate accumulation from 6 to 20 inches (Bk horizons); a particle-size control section from 10 to 20 inches (part of Bk1 and Bk2 horizons).  Fifer soils have a cryic temperature regime and an ustic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 2 inches; gray (10YR 5/1) loam, very dark gray (10YR 3/1) moist; moderate very fine crumb structure; slightly hard, very friable, slightly sticky and nonplastic; many roots; neutral, clear smooth boundary.  (2 to 5 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--2 to 6 inches; dark gray (10YR 4/1) loam, very dark grayish brown (10YR 3/2) moist; weak medium and coarse blocky structure; hard, friable, slightly sticky and nonplastic; many roots; slightly effervesent; neutral; clear wavy boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 15,
+        "bottom": 28,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk1--6 to 11 inches; gray (5Y 6/1) silty clay loam, dark grayish brown (2.5Y 4/2) moist; weak coarse prismatic structure parting to weak very fine blocky; very hard, friable, moderately sticky and slightly plastic; many roots; coats of olive gray (2.5Y 5/2) moist and crushed; strongly effervescent; slightly alkaline; gradual wavy boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bk2",
+        "top": 28,
+        "bottom": 51,
+        "moist_hue": "5GY",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "Bk2--11 to 20 inches; greenish gray (5GY 6/1) silty clay loam weathered shale, greenish gray (5GY 5/1) moist; weak coarse prismatic structure that separates to strong fine angular blocks; extremely hard, firm, sticky, plastic; common roots between prisms; dark grayish brown (2.5Y 4/2) moist coats on faces of prisms; strongly effervescent; slightly alkaline."
+      },
+      {
+        "name": "Cr",
+        "top": 51,
+        "moist_hue": "5GY",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "narrative": "Cr--20 inches; light greenish gray (5GY 7/1) interbedded sandstone and shale, olive (5Y 5/3) moist."
+      }
+    ]
+  ]
 }

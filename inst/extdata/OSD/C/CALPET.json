@@ -56,5 +56,85 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - from 0 to 7 cm (A horizon)\nArgillic horizon - from 7 to 68 cm (Btk1, Btk2 horizons)\nSecondary calcium carbonate accumulation - from 7 to 200 cm (Btk1, Btk2, Bk horizons)\nParticle-size control section - from 7 to 57 cm (Btk1, part of Btk2 horizons).\nCalpet soils have a cryic temperature regime and an ustic moisture regime.\nTaxonomic version: Eleventh Edition, 2010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 7,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 7 cm; brown (7.5YR 4/2) loam, dark brown (7.5YR 3/2) moist; weak fine granular structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine and fine, and common medium and coarse roots; many fine interstitial pores; 10 percent gravel; slightly effervescent; slightly alkaline (pH 7.6); clear smooth boundary. (5 to 20 cm thick)"
+      },
+      {
+        "name": "Btk1",
+        "top": 7,
+        "bottom": 26,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 7.7,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btk1--7 to 26 cm; brown (7.5YR 5/4) gravelly loam, brown (7.5YR 4/4) moist; moderate fine and medium subangular blocky structure; moderately hard, firm, slightly sticky and slightly plastic; many very fine and fine, and common medium and coarse roots; many fine interstitial pores; 20 percent continuous distinct clay films on all faces of peds; 35 percent continuous prominent calcium carbonate coats on bottom surfaces of rock fragments; 25 percent gravel; strongly effervescent; slightly alkaline (pH 7.7); clear smooth boundary. (15 to 35 cm thick)"
+      },
+      {
+        "name": "Btk2",
+        "top": 26,
+        "bottom": 68,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 8.1,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btk2--26 to 68 cm; yellowish red (5YR 5/6) very gravelly clay loam, yellowish red (5YR 4/6) moist; moderate medium subangular blocky structure; hard, very firm, moderately sticky and moderately plastic; common very fine and fine, and few medium and coarse roots; many fine interstitial pores; 45 percent continuous distinct clay films on all faces of peds; 45 percent continuous prominent calcium carbonate coats on bottom surfaces of rock fragments, 2 percent calcium carbonate masses in matrix, and finely disseminated calcium carbonate in matrix; 30 percent gravel, 10 percent cobbles; violently effervescent; moderately alkaline (pH 8.1); gradual wavy boundary. (30 to 50 cm thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 68,
+        "bottom": 200,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 8.5,
+        "pH_class": "strongly alkaline",
+        "narrative": "Bk--68 to 200 cm; reddish brown (5YR 5/4) very gravelly loam, reddish brown (5YR 4/4) moist; moderate medium subangular blocky structure; moderately hard, firm, slightly sticky and slightly plastic; common very fine and fine, and few medium roots; many fine interstitial pores; 55 percent continuous prominent calcium carbonate coats on bottom surfaces of rock fragments, 4 percent calcium carbonate masses in matrix, and finely disseminated calcium carbonate in matrix; 30 percent gravel, 10 percent cobbles; violently effervescent; strongly alkaline (pH 8.5)."
+      }
+    ]
+  ]
 }

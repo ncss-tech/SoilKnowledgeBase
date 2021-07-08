@@ -56,5 +56,116 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic properties recognized in this profile are:\nMollic epipedon - From 0 to 41 inches. (A1 through Bt2 horizons).\nArgillic horizon - from 22 to 41 inches (Bt1 and Bt2 horizons).\nParticle-size control section - From 22 to 41 inches (Bt1 & part of the Bt2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A1--0 to 11 inches; dark grayish brown (10YR 4/2) loam, very dark brown (10YR 2/2) moist; weak medium and fine subangular blocky structure parting to moderate medium and fine granular; slightly hard, friable, slightly sticky and slightly plastic; many fine and very fine roots; common very fine vesicular pores; many thin clay films bridging mineral grains; slightly acid (pH 6.2); gradual wavy boundary. (5 to 15 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 28,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--11 to 16 inches; dark grayish brown (10YR 4/2) loam, dark brown (7.5YR 3/3) moist; moderate medium subangular blocky structure parting to moderate fine and medium granular; slightly hard, friable, slightly sticky and slightly plastic; few very fine roots; common very fine vesicular and common very fine tubular pores; continuous thin clay films bridging mineral grains; neutral (pH 6.6); clear wavy boundary. (3 to 8 inches thick)"
+      },
+      {
+        "name": "AB",
+        "top": 41,
+        "bottom": 56,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "AB--16 to 22 inches; dark grayish brown (10YR 4/2) clay loam, dark brown (7.5YR 3/3) moist; moderate medium and fine subangular blocky structure; slightly hard, friable, slightly sticky and moderately plastic; few very fine roots; common very fine and few fine vesicular and few fine tubular pores; continuous distinct clay films lining pores and bridging mineral grains; neutral (pH 6.6); clear smooth boundary. (6 to 18 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 56,
+        "bottom": 91,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt1--22 to 36 inches; brown (10YR 5/3) silty clay loam, dark brown (7.5YR 3/3) moist; strong medium and coarse subangular blocky structure;hard, firm, moderately sticky and moderately plastic; many very fine vesicular and few fine tubular pores; continuous prominent clay films lining pores and on faces of peds; neutral (pH 6.6); abrupt smooth boundary. (14 to 20 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 91,
+        "bottom": 104,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt2--36 to 41 inches; brown (10YR 5/3) silty clay loam, dark brown (7.5YR 3/3) moist; common fine distinct brownish yellow (10YR 6/6) redox concentrations, dark yellowish brown (10YR 3/6) moist; strong medium and coarse subangular blocky structure; hard, firm, moderately sticky and moderately plastic; many very fine vesicular and few fine tubular pores; continuous prominent clay films lining pores and on faces of peds; slightly acid (pH 6.4); abrupt smooth boundary. (5 to 12 inches thick)"
+      },
+      {
+        "name": "Bg",
+        "top": 104,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "narrative": "Bg--41 to 60 inches; very pale brown (10YR 7/3) clay loam, grayish brown (10YR 5/2) moist; many medium prominent brownish yellow (10YR 6/6) redox concentrations, dark yellowish brown (10YR 4/6) moist; strong medium and coarse subangular blocky structure; hard, firm, moderately sticky and moderately plastic; common very fine vesicular and few fine tubular pores; slightly acid (pH 6.4)."
+      }
+    ]
+  ]
 }

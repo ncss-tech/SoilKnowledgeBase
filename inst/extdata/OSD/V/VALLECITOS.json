@@ -56,5 +56,96 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The classification was updated in February 2001 using the Eighth Edition to Soil Taxonomy. This series was formerly classified as clayey, smectitic, thermic Lithic Ruptic-Xerochreptic Haploxeralfs. Competing series were not checked at that time.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to a depth of 6 inches (A1,A2)\nArgillic horizon - the zone from 6 to 16 inches (Bt1, Bt2).  This horizon is discontinuous.\nLithic contact - the boundary at 16 inches (R)\nADDITIONAL DATA:  Laboratory data on the typifying pedon is S59Calif-01-8.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 4,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 1.5 inches; brown (10YR 5/3) gravelly loam, dark brown (10YR 3/3) moist; weak fine granular structure; soft, friable; slightly sticky and slightly plastic; many very fine roots; many very fine pores; moderately acid (pH 6.0); clear smooth boundary.  (1 to 3 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 4,
+        "bottom": 15,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--1.5 to 6 inches; brown (7.5YR 5/3) gravelly loam, dark brown (7.5YR 3/3) moist; massive; hard, friable, slightly sticky and plastic; many very fine roots; many very fine pores; slightly acid (pH 6.5); abrupt wavy boundary.  (3 to 9 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 30,
+        "dry_hue": "5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--6 to 12 inches; reddish brown (5YR 4/3) clay loam, dark reddish brown (5YR 3/3) moist; weak angular blocky structure; very hard, firm, slightly sticky and very plastic; common very fine roots; many very fine pores; thin continuous clay films lining pores and as bridges; neutral (pH 7.0); clear smooth boundary.  (0 to 12 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 30,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "broken",
+        "narrative": "Bt2--12 to 16 inches; brown (10YR 4/3) clay loam, brown (10YR 4/3) moist; massive; very hard, firm, slightly sticky and very plastic; few very fine roots; common very fine pores; thin continuous clay films lining pores and as bridges; neutral (pH 7.0); abrupt broken boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 41,
+        "bottom": 51,
+        "dry_hue": "5B",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "texture_class": "clay",
+        "narrative": "R--16 to 20 inches; bluish gray (5B 5/1) metamorphosed bedrock with clay films along cleavage planes."
+      }
+    ]
+  ]
 }

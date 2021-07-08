@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\n02/2002. This revision modifies the range of gravel content to restrict layers to less than 25 percent rock fragments and revise the competing Swainton series to layers with more than 25 percent rock fragments. Other revisions to expand the color and textural RIC required for MLRA update projects in NJ, MD, and DE.\n09/2011. Revisions to formatting and data consistency with NASIS were made.\nDiagnostic horizons and other diagnostic soil characteristics recognized in this\npedon are:\nOchric epipedon--the zone from the soil surface to a depth of 25 centimeters (10 inches) (Ap horizon)\nArgillic horizon--the zone of 46 to 76 centimeters (18 to 30 inches) (Bt horizon)\nADDITIONAL DATA: Several pedons are available from the National Soil Survey\nCenter, Soil Survey Laboratory, Lincoln NE.\nDatabase Information:\nOSD Data Mapunit ID: To be developed\nTypical Pedon Data Mapunit ID: 100185OSD User Pedon ID: NJ-Downer Series (ls)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 25 centimeters (0 to 10 inches); dark grayish brown (10YR 4/2) loamy sand, brown (10YR 5/3) dry; weak fine granular structure; very friable; strongly acid; abrupt smooth boundary. (0 to 28 centimeters thick) (0 to 11 inches))"
+      },
+      {
+        "name": "BA",
+        "top": 25,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BA--25 to 46 centimeters (10 to 18 inches); yellowish brown (10YR 5/6) loamy sand; single grain; loose; few extremely weakly cemented masses of oxidized iron in lower part; very strongly acid; gradual smooth boundary. (0 to 30 centimeters (0 to 12 inches thick))"
+      },
+      {
+        "name": "Bt",
+        "top": 46,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt--46 to 76 centimeters (18 to 30 inches); yellowish brown (10YR 5/6) sandy loam; weak fine and medium subangular blocky structure; very friable; common distinct clay bridging of sand grains; very strongly acid; gradual smooth boundary. (25 to 61 centimeters (10 to 24 inches thick))"
+      },
+      {
+        "name": "C",
+        "top": 76,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "narrative": "C--76 to 203 centimeters (30 to 80 inches); yellowish brown (10YR 5/6) loamy sand; single grain; loose; very strongly acid."
+      }
+    ]
+  ]
 }

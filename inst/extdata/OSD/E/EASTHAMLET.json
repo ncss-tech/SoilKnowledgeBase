@@ -56,5 +56,83 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The Easthamlet soils were previously mapped with the Polkton series. The April 1997 relocation of the mesic/thermic soil temperature regime boundary necessitated the establishment of the Easthamlet series.\nDiagnostic horizons and soil characteristics recognized in this pedon:\nOchric epipedon--the zone from the soil surface to a depth of 5 inches (Ap horizon)\nArgillic horizon--the zone from 5 to 30 inches below the surface (Btss1, Btss2 and Bt3 horizons)\nSlickensides--presence of slickensides in the zone from 5 to 24 inches (Btss1 and Btss2 horizons)\nParalithic contact--bedrock contact at a depth of 30 inches (upper boundary of the Cr horizon)\nOther soil features identified with this pedon:\nLinear extensibility--total of 6.0 centimeters or more between the mineral soil surface and paralithic contact\nBase saturation by sum of cations--increases with depth and ranges from 35 to 60 percent immediately above the paralithic contact\nPresence of hard bedrock at 41 inches (R horizon)\nSeries control section--the zone from 0 to 40 inches\nADDITIONAL DATA:\nLaboratory Data: No laboratory data available.\nTypical Pedon Data Mapunit ID--103385\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0285 EASTHAMLET  2-25   52-57   160-205   40-55   300-850\nNC0287 EASTHAMLET  2-25   52-57   160-205   40-55   300-850\nSOI-5  FloodL FloodH Watertable Kind     Months   Bedrock Hardness\nNC0285 NONE          1.0-1.5    PERCHED  DEC-MAR  20-40   SOFT\nNC0287 NONE          1.0-1.5    PERCHED  DEC-MAR  20-40   SOFT\nSOI-5  Depth  Texture           3-Inch  No-10  Clay%    -CEC-\nNC0285  0-5   FSL SL             0-3    95-100  10-20    5-15\nNC0285  0-5   L SIL              0-3    95-100   7-27    5-15\nNC0285  5-24  C SC SIC           0-3    90-100  35-70   20-40\nNC0285 24-30  CL SCL SICL C      0-3    95-100  20-40   10-25\nNC0285 30-41  WB                  -       -       -       -\nNC0285 41     UWB                 -       -       -       -\nNC0287  0-5   C                  0-3    95-100  40-45   10-25\nNC0287  0-5   SCL CL SICL        0-3    95-100  27-40    5-15\nNC0287  5-24  C SC SIC           0-3    90-100  35-70   20-40\nNC0287 24-30  CL SCL SICL        0-3    95-100  20-40   10-25\nNC0287 30-41  WB                  -       -       -       -\nNC0287 41     UWB                 -       -       -       -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0285  0-5    3.5-5.5  .5-2.  0-0    0.6-2.0   LOW\nNC0285  0-5    3.5-5.5  .5-2.  0-0    0.6-2.0   LOW\nNC0285  5-24   3.5-5.5  0.-.5  0-0    0.0-0.06  VERY HIGH\nNC0285 24-30   3.5-5.5  0.-.5  0-0   0.06-0.6   HIGH\nNC0285 30-41      -       -     -    0.00-0.06\nNC0285 41         -       -     -    0.00-0.01\nNC0287  0-5    4.5-6.5  .1-.5  0-0   0.06-0.2   HIGH\nNC0287  0-5    4.5-6.5  .2-1.  0-0    0.2-0.6   MODERATE\nNC0287  5-24   4.5-5.5  0.-.5  0-0    0.0-0.06  VERY HIGH\nNC0287 24-30   4.5-5.5  0.-.5  0-0   0.06-0.6   HIGH\nNC0287 30-41      -       -     -    0.00-0.06\nNC0287 41         -       -     -    0.00-0.01\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 5 inches; yellowish brown (10YR 5/4) sandy loam, light yellowish brown (10YR 6/4), dry; moderate medium granular structure; friable, nonsticky, nonplastic; common fine and medium roots; strongly acid; abrupt smooth boundary. (2 to 10 inches thick.)"
+      },
+      {
+        "name": "Btss1",
+        "top": 13,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btss1--5 to 16 inches; yellowish brown (10YR 5/6) clay; weak coarse prismatic structure parting to moderate medium angular blocky structure; extremely firm, very sticky, very plastic; few fine roots; common nonintersecting slickensides; common distinct clay films on faces of peds; common fine prominent pale brown(10YR 6/3) iron depletions and many fine prominent red (10R 4/6) masses of oxidized iron; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btss2",
+        "top": 41,
+        "bottom": 61,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Btss2--16 to 24 inches; yellowish red (5YR 5/6) clay; weak coarse prismatic structure parting to moderate medium angular blocky structure; extremely firm, very sticky, very plastic; few fine roots; common nonintersecting slickensides; common distinct clay films on faces of peds; common fine prominent light brownish gray (10YR 6/2) iron depletions and few fine prominent red (10R 4/6) masses of oxidized iron; very strongly acid; clear smooth boundary. (Combined thickness of the Btss horizon is 15 to 30 inches.)"
+      },
+      {
+        "name": "Bt",
+        "top": 61,
+        "bottom": 76,
+        "moist_hue": "2.5YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--24 to 30 inches; reddish brown (2.5YR 5/3) clay; moderate medium subangular blocky structure; very firm, sticky, plastic; few faint clay films on faces of peds; common medium prominent light gray (10YR 7/2) iron depletions; very strongly acid; gradual wavy boundary. (0 to 15 inches thick.)"
+      },
+      {
+        "name": "Cr",
+        "top": 76,
+        "bottom": 104,
+        "texture_class": "sand",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Cr--30 to 41 inches; sandstone bedrock; moderately cemented; high excavation difficulty; abrupt smooth boundary. (5 to 20 inches or more thick)"
+      },
+      {
+        "name": "R",
+        "top": 104,
+        "texture_class": "sand",
+        "narrative": "R--41 inches; sandstone bedrock; strongly cemented; very high excavation difficulty."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon: The zone from 0 to 3 inches. (A horizon)\nArgillic horizon: The zone from 3 to 27 inches. (Bt horizons)\nLithic contact: 26 inches-gneissic-granite (R horizon)\nClassified according to Soil Taxonomy Second Edition, 1999; Keys to Soil Taxonomy Tenth Edition, 2006.\nThe series was originally written with depth class ranging from moderately deep to deep. The series is being redefined as a moderately deep soil.\nThe mineralogy class was changed from smectitic to mixed, superactive cation exchange activity class was added, and the type location was moved in December 2000.\nADDITIONAL DATA: Mineralogy data S95NM-031-001, NSSC-Soil Survey Lab\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inches: Slightly decomposed pine needles"
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 8,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--1 to 3 inches; brown (7.5YR 5/2) gravelly sandy loam, brown (7.5YR 4/2) moist; weak very fine granular structure; soft, very friable, nonsticky and nonplastic; common very fine and fine roots; few very fine irregular pores; 30 percent gravel and 1 percent cobble size gneissic-granite fragments; neutral (pH 6.8); abrupt wavy boundary. (1 to 5 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 8,
+        "bottom": 46,
+        "dry_hue": "2.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--3 to 18 inches; red (2.5YR 5/6) gravelly sandy clay, red (2.5YR 4/6) moist; strong fine subangular blocky structure; very hard, very firm, sticky and plastic; common fine and few moderate and coarse roots; few very fine irregular pores; many distinct clay films on faces of peds; 30 percent gravel and 1 percent cobble sized gneissic-granite fragments; neutral (pH 6.8); clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 46,
+        "bottom": 69,
+        "dry_hue": "2.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay",
+        "cf_class": "gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2--18 to 27 inches; red (2.5YR 5/6) gravelly sandy clay, red (2.5YR 4/6) moist; strong very fine and fine subangular blocky structure; very hard, very firm, sticky and plastic; common very fine, fine, and few medium roots; few very fine irregular pores; common distinct clay films on faces of peds; 28 percent gravel size gneissic-granite fragments; neutral (pH 7.2); abrupt wavy boundary. (The combined thickness of the Bt horizons is 17 to 34 inches)"
+      },
+      {
+        "name": "R",
+        "top": 69,
+        "narrative": "R--27 inches; Gneissic-granite"
+      }
+    ]
+  ]
 }

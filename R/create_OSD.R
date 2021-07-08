@@ -370,7 +370,14 @@ osd_to_json <- function(logfile = file.path(output_dir, "OSD/OSD.log"),
   res <- sapply(1:length(all_osds), function(i) {
     filepath <- all_osds[[i]]
     logmsg(logfile, " - %s", filepath)
+
     x <- validateOSD(logfile, filepath)
+
+    parsed.OSD <- .doParseOSD(x)
+
+    # SPC-style components from parseOSD returned as nested data.frames in JSON
+    x$SITE <- I(list(parsed.OSD$`site-data`))
+    x$HORIZONS <- I(list(parsed.OSD$`hz-data`))
 
     if (is.logical(x))
       if (!x) return(FALSE)

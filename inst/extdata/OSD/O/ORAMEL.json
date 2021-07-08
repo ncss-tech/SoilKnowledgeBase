@@ -56,5 +56,71 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Series is named for a village in Allegany County. Oramel soils have previously been mapped in Erie County, New York as a Rhinebeck gravelly loam and in Wyoming County, New York as a Homer gravelly loam, clayey substratum.\nDiagnostic horizons and features recognized in this pedon include:\n1. Ochric epipedon - the zone from the surface to 30 cm (Ap horizon)\n2. Cambic horizon - the zone from 30 to 53 cm (Bw horizon)\n3. Argillic horizon - the zone from 53 to 89 cm (2Bt horizon)\n4. Aqualf suborder - an argillic horizon with 50 percent or more redox depletions with chroma of 1 on faces of peds in the upper 12.5 cm (2Bt horizon - 53 to 89 cm)\n5. Aeric subgroup - a horizon, between the plow layer and a depth of 75 cm below the mineral soil surface, with 50 percent or more of chroma of 3 or more (Bw horizon -30 to 53 cm)\n6. Endoaturation - evidence that the soil is saturated with water in all layers\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 30 cm; brown (10YR 4/3) gravelly loam, light yellowish brown (10YR 6/4) dry; moderate fine and medium granular structure; friable; many very fine and fine roots; and common medium roots; 25 percent rock fragments (1 percent greater than 76 cm); moderately acid; clear smooth boundary. (10 to 30 cm thick.)"
+      },
+      {
+        "name": "Bw",
+        "top": 30,
+        "bottom": 53,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw -- 30 to 53 cm; light olive brown (2.5Y 5/3) very gravelly coarse sandy loam; moderate medium subangular blocky structure; friable; common very fine and fine roots; common fine and medium prominent yellowish brown (10YR 5/6) masses of iron accumulation and common medium faint light brownish gray (2.5Y 6/2) areas of iron depletion in the matrix; 37 percent rock fragments; slightly acid; clear wavy boundary. (15 to 30 cm thick.)"
+      },
+      {
+        "name": "2Bt",
+        "top": 53,
+        "bottom": 89,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bt -- 53 to 89 cm; light olive brown (2.5Y 5/4) clay; strong medium and coarse angular blocky structure; firm; few very fine roots; many prominent gray (5Y 6/1) clay films on faces of peds; common fine distinct brownish yellow (10YR 6/8) masses of iron accumulation in the matrix; slightly alkaline; clear wavy boundary. (15 to 41 cm thick.)"
+      },
+      {
+        "name": "2C",
+        "top": 89,
+        "bottom": 203,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "pH_class": "moderately alkaline",
+        "narrative": "2C -- 89 to 203 cm; light yellowish brown (2.5Y 6/4), gray (5Y 6/1), and light olive brown (2.5Y 5/6) silty clay; fine and medium plate-like divisions; firm; slightly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

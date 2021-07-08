@@ -56,5 +56,112 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this soil:\nMollic epipedon - zone from the soil surface to 10 inches (A, BA and Bt1 horizons)\nArgillic horizon - zone from 6 to 23 inches (Bt1, Bt2 and Bt3 horizons)\nParalithic contact - at 24 inches (2Cr horizon)\nParticle-size control section - zone from 6 to 23 inches\nLinear extensibility - 6.0 or more in the zone from the soil surface to the paralithic contact (assumed)\nSoil moisture regime - xeric\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; dark grayish brown (10YR 4/2) very gravelly loam, very dark brown (10YR 2/2) moist; weak thin and medium platy structure parting to weak fine granular; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and fine, few medium and coarse roots; many very fine and fine, few medium tubular and irregular pores; 25 percent gravel, 10 percent cobbles, 5 percent stones; slightly acid (pH 6.3); clear smooth boundary. (1 to 4 inches thick)"
+      },
+      {
+        "name": "BA",
+        "top": 8,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BA--3 to 6 inches; grayish brown (10YR 5/2) very gravelly loam, very dark grayish brown (10YR 3/2) moist; moderate fine and medium subangular blocky structure; slightly hard, friable, moderately sticky and moderately plastic; common very fine and fine, few medium roots; few very fine and fine, few medium tubular pores; 25 percent gravel, 10 percent cobbles, 5 percent stones; slightly acid (pH 6.4); clear smooth boundary. (0 to 3 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--6 to 10 inches; brown (10YR 5/3) gravelly clay loam, dark brown (10YR 3/3) moist; moderate fine angular blocky structure; hard, firm, very sticky and very plastic; common very fine and fine roots; few very fine and fine tubular pores; many distinct clay films on faces of peds and in pores; 15 percent gravel, 10 percent cobbles, 5 percent stones; neutral (pH 6.7); clear wavy boundary. (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 25,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--10 to 15 inches; yellowish brown (10YR 5/4) gravelly clay, dark yellowish brown (10YR 3/4) moist; moderate fine and medium prismatic structure; very hard, firm, very sticky and very plastic; common very fine and fine roots; few very fine and fine tubular pores; continuous prominent clay films on faces of peds and in pores; 15 percent gravel, 10 percent cobbles; cracks less than 5 mm wide; neutral (pH 6.8); clear wavy boundary. (5 to 12 inches thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 38,
+        "bottom": 58,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt3--15 to 23 inches; light yellowish brown (10YR 6/4) gravelly clay, dark yellowish brown (10YR 4/4) moist; moderate fine and medium prismatic structure; very hard, very firm, very sticky and very plastic; few very fine and fine roots; few very fine and fine tubular pores; continuous prominent clay films on faces of peds and in pores; 15 percent gravel, 10 percent cobbles; neutral (pH 6.8); gradual smooth boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "2CBt",
+        "top": 58,
+        "bottom": 79,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "cf_class": "gravelly",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "2CBt--23 to 31 inches; very pale brown (10YR 7/3) extremely paragravelly silty clay loam, brown (10YR 5/3) moist; massive; very hard, firm, very sticky and very plastic; few very fine and fine roots; common distinct clay films on pararock fragments; 85 percent pararock; neutral (pH 6.9); abrupt smooth boundary. (0 to 8 inches thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 79,
+        "texture_class": "silt",
+        "narrative": "2Cr--31 inches; stratified silty lacustrine deposits."
+      }
+    ]
+  ]
 }

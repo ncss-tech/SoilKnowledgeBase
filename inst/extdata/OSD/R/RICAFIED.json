@@ -56,5 +56,78 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nSoil temperature regime - Frigid\nSoil moisture regime - Xeric\nMollic epipedon - 0 to 18 cm\nCalcic horizon - 18 to 87 cm\nParticle-size control section - 25 to 87 cm\nLithic contact - 87 cm\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 7,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A1--0 to 7 cm; brown (10YR 5/3) gravelly loam, dark brown (10YR 3/3) moist; moderate fine subangular blocky structure parting to weak fine granular; soft, very friable, nonsticky and nonplastic; many fine and few medium roots; common very fine and fine tubular and irregular pores; 25 percent gravel and 5 percent channers; slightly alkaline (pH 7.8); gradual wavy boundary"
+      },
+      {
+        "name": "A2",
+        "top": 7,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A2--7 to 18 cm; brown (10YR 5/3) very gravely loam, dark brown (10YR 3/3) moist; moderate and strong medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many fine roots; few very fine and common fine irregular pores; 15 percent calcium carbonate equivalent; 30 percent gravel and 5 percent channers; strongly effervescent; moderately alkaline (pH 8.0); gradual wavy boundary"
+      },
+      {
+        "name": "Bk1",
+        "top": 18,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bk1--18 to 28 cm; pale brown (10YR 6/3) gravelly silt loam, dark yellowish brown (10YR 3/4) moist; strong medium subangular blocky structure; hard, firm, slightly sticky and slightly plastic; few medium roots; few fine irregular pores; common (7 percent) secondary calcium carbonate concretions (less than 1 mm) on bottoms of rock fragments; 18 percent calcium carbonate equivalent; 20 percent gravel and 5 percent channers; violently effervescent; moderately alkaline (pH 8.2); clear wavy boundary"
+      },
+      {
+        "name": "Bk2",
+        "top": 28,
+        "bottom": 87,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "extremely channery",
+        "pH": 8.3,
+        "pH_class": "moderately alkaline",
+        "narrative": "Bk2--28 to 87 cm; light yellowish brown (10YR 6/4) extremely channery silt loam, yellowish brown (10YR 5/4) moist; weak fine and medium subangular blocky structure; hard; firm; slightly sticky and slightly plastic; few medium roots; few fine irregular pores; common (12 percent) secondary calcium carbonate concretions (less than 1 mm) around rock fragments; 24 percent calcium carbonate equivalent; 10 percent gravel, 35 percent channers, and 25 percent flagstones; violently effervescent; moderately alkaline (pH 8.3); abrupt wavy"
+      },
+      {
+        "name": "R",
+        "top": 87,
+        "narrative": "R--87 cm; fractured limestone"
+      }
+    ]
+  ]
 }

@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The Exway soils were formerly included with the Stoneville soils.  However, Stoneville soils are mesic and do not have weathered bedrock within depths of 20 to 40 inches. Complete characterization data is available for the typical pedon - NSSL Pedon No. 90P0603.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to 4 inches (Ap horizon)\nArgillic horizon - the zone between depths of 4 and 19 inches (Bt1 and Bt2 horizons)\nParalithic contact - the occurrence of soft bedrock at a depth of 24 inches (upper boundary of Cr horizon)\nADDITIONAL DATA:\nMLRA: 136 SIR: NC0251\nTABULAR SERIES DATA:\nSOI-5   Soil Name  Slope  Airtemp  FrFr/Seas Precip Elevation\nNC0251  EXWAY      2-45   59-61    175-218   43-48  230-350\nSOI-5  FloodL FloodH Watertable Kind Months Bedrock Hardness\nNC0251 NONE          6.0-6.0           -     20-40   SOFT\nSOI-5  Depth  Texture    3-Inch  No-10   Clay%   -CEC-\nNC0251 0- 4   L SIL FSL  0-10    85-100  10-27   7-9\nNC0251 0- 4   SICL CL    0-10    95-100  27-40   8-12\nNC0251 4-24   SICL SIC C 0-10    95-100  35-76   8-12\nNC0251 24-41  WB          -        -       -      -\nSOI-5  Depth  -pH-     O.M.   Salin  Permeab   Shnk-Swll\nNC0251 0- 4   4.5-7.3  1.-2.  0-0    0.6-2.0   LOW\nNC0251 0- 4   4.5-7.3  .5-2.  0-0    0.6-2.0   LOW\nNC0251 4-24   4.5-6.0  0.-.5  0-0    0.2-0.6   MODERATE\nNC0251 24-41     -       -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 4 inches; dark reddish brown (5YR 3/4) clay loam; moderate medium granular structure; friable; many fine, medium and coarse roots; 3 percent gravel by volume; slightly acid; clear smooth boundary. (2 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 10,
+        "bottom": 30,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "silty clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--4 to 12 inches; dark red (2.5YR 3/6) silty clay; reddish brown (2.5YR 4/4) dry; common fine distinct yellowish red (5YR 5/8) mottles; moderate medium subangular blocky structure; firm; sticky, plastic; common fine, medium and coarse roots; common distinct clay films on faces of peds; 5 percent gravel by volume; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 30,
+        "bottom": 48,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--12 to 19 inches; dark reddish brown (2.5YR 3/4) silty clay, reddish brown (2.5YR 4/4) dry; common medium distinct red (2.5YR 4/8), dark red (10R 3/6), and reddish yellow (5YR 6/8) mottles; strong medium subangular blocky structure; firm; sticky, plastic; common fine and medium roots; common distinct clay films on faces of peds; 5 percent gravel by volume; strongly acid; gradual wavy boundary. (Combined thickness of the Bt horizon is 10 to 35 inches)"
+      },
+      {
+        "name": "BC",
+        "top": 48,
+        "bottom": 61,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "BC--19 to 24 inches; dark reddish brown (2.5YR 3/4) silty clay loam; common medium distinct red (2.5YR 4/8), dark red (10R 3/6), and reddish yellow (5YR 6/8) mottles, and few fine prominent pinkish gray (5YR 7/2) mottles; massive; friable; slightly sticky, slightly plastic; 10 percent gravel by volume; very strongly acid; gradual irregular boundary. (0 to 7 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 61,
+        "bottom": 104,
+        "texture_class": "silt",
+        "narrative": "Cr--24 to 41 inches; multicolored, weathered slightly fractured interbedded siltstone and mudstone."
+      }
+    ]
+  ]
 }

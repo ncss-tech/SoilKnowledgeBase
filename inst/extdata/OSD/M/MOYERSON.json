@@ -56,5 +56,57 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon--0 to 5 inches (A)\nParalithic contact--18 inches (Cr)\nUstic subgroup--The moisture control section is dry for less than 90 cumulative days from June 10 to October 10 in 7 out of 10 years.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 5 inches; light brownish gray (10YR 6/2) silty clay, dark grayish brown (10YR 4/2) moist; strong fine granular structure; soft, very friable, sticky and plastic; slightly effervescent, lime disseminated; moderately alkaline (pH 8.4); clear smooth boundary.  (4 to 6 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 13,
+        "bottom": 46,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--5 to 18 inches; light brownish gray (2.5Y 6/2) silty clay, dark grayish brown (2.5Y 4/2) moist; weak coarse subangular blocky structure; hard, friable, sticky and plastic; slightly effervescent, lime disseminated; moderately alkaline (pH 8.4); clear wavy boundary. (4 to 16 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 46,
+        "bottom": 152,
+        "texture_class": "silt",
+        "narrative": "Cr--18 to 60 inches; calcareous shale interbedded with siltstone."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,61 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: This soil was previously mapped as Manassas.  Data showed series to be deep to paralithic contact, versus very deep, primarily due to its close proximity to Penn and Nestoria soils.\n02/2005 added statement about frequent, extremely brief, flash flooding in the geographic setting.\nDiagnostic horizons and features recognized in this pedon are:\n1. Ochric epipedon-zone from 0 to 9 inches (Ap horizon)\n2. Argillic horizon-zone from 9 to 23 inches (Bt horizon)\n3. Aquic conditions-zone from 23 to greater than 60 inches\n4. Base saturation between 35 and 60 percent at 42 inches\n2016 Update was to change the status to Established.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 9 inches; dark brown (7.5YR 3/4) loam; weak fine granular structure; very friable; many fine roots; few fine and medium pores; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt",
+        "top": 23,
+        "bottom": 58,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt--9 to 23 inches; brown (7.5YR 4/4) silt loam; weak medium subangular blocky structure; friable; slightly sticky, slightly plastic; common fine roots; few medium pores; few faint clay films on faces of peds; few black mineral concretions; 5 percent weathered coarse shale gravels and 5 percent rounded medium quartz gravels; strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "2C",
+        "top": 58,
+        "bottom": 107,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "narrative": "2C--23 to 42 inches; reddish brown (5YR 4/4) channery silt loam; few fine distinct yellowish red (5YR 5/8) iron-manganese masses and pinkish gray (5YR 6/2) iron depletions; structureless, massive; friable; few fine roots; few fine pores; 30 percent weathered coarse siltstone channers; very strongly acid."
+      },
+      {
+        "name": "2Cr",
+        "top": 107,
+        "bottom": 155,
+        "texture_class": "silt",
+        "narrative": "2Cr--42 to 61 inches; dark reddish brown (2.5YR3/3) soft, fractured siltstone bedrock with common medium prominent light gray (10YR7/1) iron depletions."
+      }
+    ]
+  ]
 }

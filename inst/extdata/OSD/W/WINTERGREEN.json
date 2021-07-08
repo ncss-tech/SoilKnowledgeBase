@@ -56,5 +56,77 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Formerly included with the Braddock soils.\nThe 3/99 revision updates classification to the 8th Edition of Keys to Soil Taxonomy.  The 3/99 revision also changes mineralogy class from kaolinitic to mixed based on 11 pedon samples from Virginia Polytechnic Institute and State University (009-1, 009-2, 029-1, 029-2, 125-1, 125-2, 067-1, 067-2, 067-3, 141-1, 141-2).  This soil is also placed in the subactive CEC activity class based on data from these samples.\nDiagnostic horizons and features recognized in this pedon are:\n1.  Ochric epipedon from 0 to 7 inches (A and E horizons).\n2.  Argillic horizon without significant decrease in clay content from 7 to 62 inches (Bt horizon).\nMLRA=130\nSIR=VA0373, VA0374 (GRAVELLY), VA0375 (STONY)\nREVISED=5/27/92, MHC; 2/99-MKC\nADDITIONAL DATA:  Laboratory data available for 5 pedons from Virginia Polytechnic Institute and State University;  Pedons VA-125-2, VA-125-13, VA-125-23, VA-125-30, VA-125-70, VA-125-71.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches;  dark brown (7.5YR 4/4) loam; weak fine granular structure; friable, slightly sticky; many fine, medium, and coarse roots; very strongly acid; abrupt wavy boundary. (2 to 7 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 18,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--3 to 7 inches; yellowish red (7.5YR 4/6) loam; weak fine subangular blocky structure; friable, slightly sticky; common fine, medium, and coarse roots; very strongly acid; clear smooth boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 18,
+        "bottom": 61,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--7 to 24 inches; red (2.5YR 4/6) clay; moderate fine subangular blocky structure; friable, sticky, plastic; few fine and medium roots; many distinct clay films on faces of peds; very stongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 61,
+        "bottom": 89,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--24 to 35 inches; red (2.5YR 4/6) clay; weak medium subangular blocky structure; firm, sticky, plastic; few fine roots; many distinct clay films on faces of peds; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 89,
+        "bottom": 157,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "narrative": "Bt3--35 to 62 inches; red (2.5YR 4/6) clay; few fine distinct strong brown (7.5YR 5/8) mottles throughout and few fine prominent pinkish white (7.5YR 8/2) mottles below 50 inches; weak coarse platy structure parting to weak medium subangular blocky structure; firm, sticky, plastic; common distinct clay films on faces of peds; very stongly acid.  (combined thickness of the Bt horizon is 40 to 60 or more inches)"
+      }
+    ]
+  ]
 }

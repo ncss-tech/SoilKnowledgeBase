@@ -56,5 +56,103 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nHistic epipedon - the zone from the surface to a depth of 14 inches.\nCambic horizon - the zone between the depths of 20 to 42 inches.\nAquic moisture regime - color with chroma of 2 or less throughout.\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5   Soil Name   Slope  Airtemp  FrFr/Seas   Precip   Elevation\nNC0007    WASDA      0-2   60-65     190-270    46-54       5-25\nSOI-5   FloodL  FloodH   Watertable    Kind    Months    Bedrock\nNC0007   NONE    RARE      0-1.0     APPARENT  NOV-MAY    60-60\nSOI-5   Depth   Texture             3-Inch   No-10    Clay%    CEC\nNC0007   0-14    MUCK                0-0              -0-0     20-50\nNC0007  14-20   L FSL SL             0-0     95-100   15-25    6-25\nNC0007  20-42   CL SCL SL            0-0     95-100   18-35    4-9\nNC0007  42-60   SL L                 0-0     95-100    8-20    2-5\nNC0007  60-74    VAR\nSOI-5   Depth    -pH-      O.M.   Salin   Permeab   Shnk-Swll\nNC0007   0-14   3.5-5.5   20-50    0-0    0.2-0.6\nNC0007  14-20   3.5-5.5   3.-15    0-0    0.6-2.0      LOW\nNC0007  20-42   3.5-5.5   .5-2.    0-0    0.6-2.0      LOW\nNC0007  42-60   5.1-7.8   0.-1.    0-0    0.6-2.0      LOW\nNC0007  60-74\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oap--0 to 6 inches; black (10YR 2/1) muck; about 10 percent fiber; 3 percent rubbed; weak medium granular structure; very friable; few fine pieces of charcoal; many fine roots; strongly acid; clear smooth boundary.  (5 to 12 inches thick)"
+      },
+      {
+        "name": "Oa1",
+        "top": 15,
+        "bottom": 36,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oa1--6 to 14 inches; dark reddish brown (5YR 2/2) muck; about 30 percent fiber; 3 percent rubbed; weak fine subangular blocky structure; friable; slightly sticky; many fine roots; extremely acid; abrupt wavy boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 36,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--14 to 20 inches; dark grayish brown (10YR 4/2) clay loam; massive; slightly sticky; slightly plastic; many fine roots; very strongly acid; abrupt wavy boundary.  (4 to 20 inches thick)"
+      },
+      {
+        "name": "Bg1",
+        "top": 51,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bg1--20 to 35 inches; grayish brown (10YR 5/2) clay loam with common dark gray (10YR 4/1) pockets of clay; common medium brownish yellow (10YR 6/6) mottles; massive; slightly sticky; slightly plastic; common fine roots; very strongly acid; abrupt wavy boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 89,
+        "bottom": 107,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bg2--35 to 42 inches; dark grayish brown (10YR 4/2) clay loam with thin lenses of gray (10YR 6/1) sand; massive; moderately plastic, moderately sticky; few fine flakes of mica; very strongly acid; abrupt wavy boundary.  (The combined thickness of the Bg horizon is 18 to 32 inches)."
+      },
+      {
+        "name": "Cg1",
+        "top": 107,
+        "bottom": 152,
+        "moist_hue": "5GY",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Cg1--42 to 60 inches; dark greenish gray (5GY 4/1) sandy loam with thin lenses and a few pockets of sand; slightly sticky; slightly plastic; common medium prominent yellowish brown (10YR 5/6) friable irregular shaped masses of iron accumulation; few fine flakes of mica; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Cg2",
+        "top": 152,
+        "bottom": 188,
+        "moist_hue": "5BG",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "narrative": "Cg2--60 to 74 inches; dark greenish gray (5BG 4/1) sand with thin lenses of sandy loam; single grained; loose; slightly acid."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The 5/99 revision updates classification from clayey, mixed, thermic Ochreptic Hapludults to fine, mixed, semiactive, thermic Inceptic Hapludults per 8th edition standards.  The CEC activity class placement was based on placement of associated soils such as Hamblen and Townley.  Clay textures were added to the RIC for the Bt and C horizons and the competing series and associated soils sections were also updated.\nDiagnostic horizons in this pedon are:\nOchric epipedon- 0 to 8 inches (Ap horizon)\nArgillic horizon- 8 to 17 inches (Bt horizon)\nInceptic subgroup- argillic horizon less than 10 inches (25 cm)\nMLRA 128\nRevised 7/90-JLP,RPS; 5/99-RLL,DHK\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; brown (10YR 4/3) silt loam; moderate medium granular structure; friable; common fine and medium roots; 10 percent fragments of soft and hard shale up to 3 inches across; strongly acid; clear smooth boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 28,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--8 to 11 inches; strong brown (7.5YR 5/6) channery   silty clay loam; moderate medium subangular blocky structure; firm; common fine roots; 20 percent fragments of shale 1 inch to 3 inches across; few faint clay films on faces of some peds; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 28,
+        "bottom": 43,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay",
+        "cf_class": "channery",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--11 to 17 inches; strong brown (7.5YR 5/6) channery  silty clay; moderate medium subangular blocky structure; firm, plastic; few fine roots; 25 percent fragments of shale mostly 1 inch to 3 inches across; many distinct clay films on faces of peds; strongly acid; gradual wavy boundary.  (Thickness of the Bt horizon ranges from 3 to 10 inches.)"
+      },
+      {
+        "name": "C",
+        "top": 43,
+        "bottom": 61,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay",
+        "cf_class": "very channery",
+        "pH_class": "strongly acid",
+        "narrative": "C--17 to 24 inches; strong brown (7.5YR 5/6) very channery silty clay; many medium and coarse prominent very pale brown (10YR 7/4) and yellowish red (5YR 5/6) mottles; massive; 60 percent soft and moderately hard shale fragments; some of the shale fragments can be rubbed to clayey fine earth; strongly acid.  (5 to 15 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 61,
+        "bottom": 152,
+        "narrative": "Cr--24 to 60 inches; weak consolidated acid shale that can be dug with a spade."
+      }
+    ]
+  ]
 }

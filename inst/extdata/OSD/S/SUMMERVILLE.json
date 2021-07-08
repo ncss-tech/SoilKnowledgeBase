@@ -56,5 +56,70 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon: from the surface to 5 cm (2 inches) (A horizon).\nCambic horizon: from a depth of 5 to 41 cm (2 to 16 inches) (Bw1 and Bw2 horizons).\nLithic contact: limestone bedrock at 41 cm (16 inches) (2R layer).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 2,
+        "bottom": 0,
+        "narrative": "Oi--2 to 0 cm (1 to 0 inch); undecomposed leaf litter."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 5 cm (2 inches); very dark grayish brown (10YR 3/2) fine sandy loam, grayish brown (10YR 5/2) dry; moderate fine granular structure; friable; many fine and medium and common coarse roots; slightly acid; clear wavy boundary. [2 to 13 cm (1 to 5 inches) thick]"
+      },
+      {
+        "name": "Bw1",
+        "top": 5,
+        "bottom": 23,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--5 to 23 cm (2 to 9 inches); brown (7.5YR 4/4) fine sandy loam; moderate fine subangular blocky structure; friable; common medium and coarse and many fine roots; about 2 percent gravel; slightly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 23,
+        "bottom": 41,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw2--23 to 41 cm (9 to 16 inches); brown (7.5YR 4/4) fine sandy loam; moderate fine subangular blocky structure; friable; common medium and coarse and many fine roots; very dark grayish brown (10YR 3/2) organic stains; about 2 percent gravel and cobbles; slightly acid; abrupt wavy boundary. [Combined thickness of the Bw horizon is 8 to 41 cm (3 to 16 inches).]"
+      },
+      {
+        "name": "2R",
+        "top": 41,
+        "bottom": 66,
+        "narrative": "2R--41 to 66 cm (16 to 26 inches); limestone."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from 0 to 3 inches (A horizon)\nCalcic horizon - The zone from 3 to 28 inches (Bk and Bky horizons)\nGypsic horizon - The zone from 12 to 28 inches (Bky horizon) Gypsum contents determined by the water loss method of Nelson, Klameth, and Nettleton, 1978, SSSA Journal 42: 659-661\nParalithic contact - The boundary at 28 inches (Crk horizon)\nUstic feature - The soil moisture control section is dry in all parts less than three-fourths of the time (cumulative) when the soil temperature is 5 degrees centigrade or higher at a depth of 50 centimeters and the moisture regime borders an ustic regime.  The soil occurs in the ustic aridic soil moisture regime.\nSuperactive cation activity class - CEC to clay ratio 0.60 or more.  This is assumed from the abundant zeolitic minerals in the Duff and Pruett Formations, and from laboratory data from similar soils from Presidio County, Texas. The assignment of the cation-exchange activity class is supported by laboratory data number 95TX043027 from the type location in Brewster County, Texas.\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Eleventh Edition, 2010\nUpdate and revisions for the recorrelation of Brewster County, TX, Main Part, 2/8/08, CEM.\nRevised for the correlation of Presidio County, Texas ; Oct, 2012, WWJ\nADDITIONAL DATA: NSSL Data from type location 95TX043027.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; light brown (7.5YR 6/3) loam, brown (7.5YR 5/3) moist; weak thin platy parting to weak fine subangular blocky structure; slightly hard, friable; common very fine and fine roots; common very fine and fine vesicular pores; 5 percent rounded chert gravel; 19 percent calcium carbonate equivalent; nonsaline; strongly effervescent; moderately alkaline; clear smooth boundary.  (2 to 9 inches thick)."
+      },
+      {
+        "name": "Bk",
+        "top": 8,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk--3 to 12 inches; pinkish gray (7.5YR 7/2) clay, light brown (7.5YR 6/3) moist; weak medium subangular blocky parting to weak fine subangular blocky structure; hard, firm; common very fine, fine and medium roots; common very fine, fine, and medium tubular pores; very few distinct discontinuous white (10YR 8/1) calcium carbonate coatings on surfaces of peds; few fine white (10YR 8/1) threads of calcium carbonate; 2 percent rounded chert gravel; 38 percent calcium carbonate equivalent; slightly saline; violently effervescent; moderately alkaline; clear smooth boundary.  (8 to 16 inches thick)."
+      },
+      {
+        "name": "Bky",
+        "top": 30,
+        "bottom": 71,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bky--12 to 28 inches; pinkish gray (7.5YR 7/2) clay, light brown (7.5YR 6/3) moist; weak medium and coarse subangular blocky parting to weak medium subangular blocky structure; hard, firm; few very fine and fine roots; common very fine, fine, and medium tubular pores; common coarse white (10YR 8/1) masses of calcium carbonate and common medium white (10YR 8/1) threads of calcium carbonate; few distinct discontinuous white (10YR 8/1) calcium carbonate coatings on surfaces of peds and common distinct discontinuous white (10YR 8/1) calcium carbonate coatings on rock fragments; 2 percent gypsum crystals; 2 percent rounded chert gravel; 30 percent weathered tuff rock fragments concentrated in old krotovinas; 26 percent calcium carbonate equivalent; 16 percent gypsum by weight; moderately saline; violently effervescent; moderately alkaline; clear wavy boundary.  (0 to 16 inches thick)."
+      },
+      {
+        "name": "Crk",
+        "top": 71,
+        "bottom": 102,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 1,
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Crk--28 to 40 inches; moderately cemented tuff bedrock; few very fine and fine roots in cracks; common coarse white (10YR 8/1) masses of calcium carbonate in cracks and common medium white (10YR 8/1) threads of calcium carbonate in cracks; few prominent discontinuous white (10YR 8/1) calcium carbonate coatings on surfaces of fractures; violently effervescent; clear smooth boundary."
+      },
+      {
+        "name": "Rk",
+        "top": 102,
+        "bottom": 130,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 1,
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Rk--40 to 51 inches; strongly cemented tuff bedrock; few very fine and fine roots in cracks; common medium white (10YR 8/1) threads of calcium carbonate in cracks; few prominent discontinuous white (10YR 8/1) calcium carbonate coatings on surfaces of fractures; strongly effervescent; clear smooth boundary."
+      },
+      {
+        "name": "R",
+        "top": 130,
+        "bottom": 157,
+        "narrative": "R--51 to 62 inches; strongly cemented tuff bedrock; very few very fine and fine roots in cracks; strongly effervescent."
+      }
+    ]
+  ]
 }

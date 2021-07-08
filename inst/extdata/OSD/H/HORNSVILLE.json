@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - zone from the surface to a depth of 9 inches (A, E).\nAlbic horizon - zone from 4 to 9 inches (E).\nArgillic horizon - zone from 9 to 43 inches (Bt1, Bt2, Bt3)\nDATA: Soil Characterization Lab., IFAS, UF\nS32-32-(1-7)\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nFL0229 HORNSVILLE  0-  8   65- 70  230-310  50- 60    50- 200\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nFL0229 NONE   RARE   2.5-3.5  APPARENT DEC-APR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nFL0229  0- 9  LS LFS                  0-  0 100-100  3-10   5- 15\nFL0229  0- 9  SL FSL                  0-  0 100-100  6-15   5- 15\nFL0229  0- 9  SCL L                   0-  0 100-100 15-35   5- 15\nFL0229  9-43  SC CL C                 0-  0 100-100 35-60   9- 20\nFL0229 43-76  SCL SL FSL              0-  0 100-100 12-35   4- 10\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nFL0229  0- 9  3.6- 6.0  .5-3.  0- 2   6.0-  20  LOW\nFL0229  0- 9  3.6- 6.0  1.-4.  0- 2   6.0-  20  LOW\nFL0229  0- 9  3.6- 6.0  .1-2.  0- 2   2.0- 6.0  LOW\nFL0229  9-43  3.6- 6.0    -    0- 2   0.2- 0.6  LOW\nFL0229 43-76  3.6- 6.0    -    0- 2   0.6- 2.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; very dark gray (10YR 3/1) fine sandy loam; weak medium granular structure; very friable; many fine and medium roots; moderately acid; clear smooth boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "E--4 to 9 inches; grayish brown (10YR 5/2) fine sandy loam; tongues and streaks of very dark gray (10YR 3/1) and splotches of yellowish brown (10YR 5/4); moderate medium granular structure; very friable; common fine and medium roots; moderately acid; clear smooth boundary.  (0 to 14 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 23,
+        "bottom": 48,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--9 to 19 inches; yellowish red (5YR 4/8) sandy clay; common medium distinct red (2.5YR 4/6), yellowish brown (10YR 5/8), and light yellowish brown (10YR 6/4) mottles and few medium distinct strong brown (7.5YR 5/8) and pale brown (10YR 6/3) mottles; moderate medium subangular blocky structure; firm; common fine flakes of mica; many clay films on faces of peds; strongly acid; clear wavy boundary.  (4 to 12 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 48,
+        "bottom": 79,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "narrative": "Bt2--19 to 31 inches; mottled yellowish red (5YR 5/8), red (2.5YR 4/8), yellowish brown (10YR 5/8), strong brown (7.5YR 5/8), and light gray (10YR 7/2) sandy clay; few pockets and streaks of sandy loam and sandy clay loam; moderate medium angular blocky structure; some pockets with weak, medium subangular blocky structure; firm; pockets and streaks are friable; many fine flakes of mica; thin clay films on sandy clay faces of peds; strongly acid; irregular wavy boundary.  (6 to 14 inches thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 79,
+        "bottom": 109,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt3--31 to 43 inches; mottled yellowish brown (10YR 5/8) and red (2.5YR 4/8) sandy clay; few medium distinct pale brown (10YR 6/3) mottles; moderate medium subangular blocky structure; firm; thick clay films on gray sandy clay mottles; patchy clay films on yellow and red peds; common fine flakes of mica; few fine pockets of sandy loam; few horizontal and diagonal streaks of red sandy loam; strongly acid; clear smooth boundary.  (8 to 13 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 109,
+        "bottom": 193,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "narrative": "BC--43 to 76 inches; mottled yellowish red (5YR 5/8), light gray (10YR 7/2), brownish yellow (10YR 6/8), and yellow (10YR 7/8) fine sandy loam; common medium distinct reddish yellow (5YR 6/6), few medium distinct strong brown (7.5YR 5/6), and few medium prominent red (2.5YR 3/6) mottles; weak medium granular structure; friable but crushes with pressure to very friable and loose; common fine flakes of mica; few thin clay films on faces of peds; strongly acid."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,100 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 15 inches (A and Bt1 horizons).\nCambic horizon - The zone from 15 to 38 inches (Bt2 horizon).\nFluventic feature - The zone from the soil surface to 50 inches with 0.3 percent or more organic-carbon content (A, Bt1, Bt2, and BC horizons and part of the C horizon) or the zone from 38 to 50 inches with an irregular decrease in organic-carbon content (BC and C horizons).\nAquic conditions - Endosaturation and iron reduction occur within 20 inches of the soil surface in most years.\nParticle-size control section - The zone from 10 to 40 inches (Bt2 horizon and parts of the Bt1 and BC horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH": 5.8,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 6 inches; very dark grayish brown (10YR 3/2) silty clay loam, dark grayish brown (10YR 4/2) dry; moderate fine and medium granular structure; hard, friable, sticky and plastic; many roots; many very fine irregular pores; moderately acid (pH 5.8); abrupt smooth boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 15,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--6 to 15 inches; very dark brown (10YR 2/2) silty clay, dark gray (10YR 4/1) dry; weak fine prismatic structure parting to strong angular blocky structure; very hard, very firm, very sticky and very plastic; common roots; common very fine and fine tubular pores; common faint clay films on faces of peds; slightly acid (pH 6.2); clear smooth boundary.   (7 to 11 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 38,
+        "bottom": 97,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--15 to 38 inches; grayish brown (10YR 5/2) silty clay, light brownish gray (10YR 6/2) dry; moderate medium prismatic structure; very hard, very firm, very sticky and very plastic; few roots; common fine tubular pores; common distinct clay films on faces of peds and lining pores; few fine prominent yellowish brown (10YR 5/6) masses of iron accumulation; neutral (pH 6.6); gradual wavy boundary.  (19 to 27 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 97,
+        "bottom": 122,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BC--38 to 48 inches; brown (10YR 5/3) clay loam, light brownish gray (10YR 6/2) dry; massive; hard, firm, very sticky and plastic; few roots; common very fine and fine tubular pores; many fine distinct yellowish brown (10YR 5/6) masses of iron accumulation; neutral (pH 6.7); clear smooth boundary. (8 to 11 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 122,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "cf_class": "extremely stony",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "narrative": "C--48 to 60 inches; brown (10YR 5/3) extremely stony clay, brown (10YR 5/3) dry; massive; hard, firm, very sticky and very plastic; few roots; 15 percent stones, 35 percent cobbles, and 25 percent pebbles; many fine distinct yellowish brown (10YR 5/6) masses of iron accumulation; slightly acid (pH 6.4)."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,96 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The name is coined\nDiagnostic horizons and features recognized in this pedon include:\nUmbric epipedon - The zone from the mineral soil surface to 18 inches (A and the Bt1 horizons).\nAndic soil properties - The soil material with high volcanic glass content and acid oxalate extractable Al and Fe more than 0.4 extends from the mineral surface to 42 inches (A, Bt1, and the Bt2 horizons).\nArgillic horizon - The zone from 10 to 42 inches (Bt1 and Bt2 horizons).\nParalithic contact - The boundary at 42 inches to underlying soft, weathered bedrock (Cr layer).\nParticle-size control section - The zone from 10 to 30 inches (Bt1 and Bt2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "cf_class": "gravelly",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oe--0 to 1 inch; dark grayish brown (10YR 4/2) crushed gravelly moderately decomposed organic matter, very dark brown (10YR 2/2) crushed moist; weak fine granular structure; soft, very friable,  nonsticky, nonplastic; common very fine roots; many very fine interstitial pores; 15 percent pebbles; slightly acid, (pH 6.1);  clear smooth boundary. (1 to 3 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--1 to 10 inches; dark grayish brown (10YR 4/2) crushed very gravelly ashy loam, very dark brown (10YR 2/2) crushed moist; weak fine subangular blocky structure; soft, very friable, nonsticky, nonplastic; many very fine and fine roots and common medium and coarse roots; many very fine interstitial pores; 5 percent cobbles and 35 percent pebbles; slightly acid, (pH 6.1);  clear wavy boundary. (5 to 12 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 25,
+        "bottom": 46,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--10 to 18 inches; brown (10YR 5/3) crushed very gravelly ashy loam, dark brown (10YR 3/3) crushed moist; moderate fine and medium subangular blocky structure; soft, very friable,  slightly sticky, nonplastic; many very fine and fine roots and common medium and coarse roots; common very fine interstitial and tubular pores; 10 percent faint clay bridges between sand grains; 10 percent paragravel, 10 percent cobbles and 35 percent pebbles; slightly acid, (pH 6.1);  clear wavy boundary. (6 to 10 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 46,
+        "bottom": 76,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "very gravelly",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--18 to 30 inches; yellowish brown (10YR 5/4) crushed very gravelly ashy loam, dark yellowish brown (10YR 3/4) crushed moist; moderate fine and medium subangular blocky structure; slightly hard, very friable,  slightly sticky, slightly plastic; common very fine to coarse roots; common very fine interstitial and tubular pores; 30 percent faint clay bridges between sand grains; 10 percent cobbles, 10 percent paragravel and 45 percent pebbles; slightly acid, (pH 6.1);  clear wavy boundary. (8 to 15 inches thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 76,
+        "bottom": 107,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "extremely gravelly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bt3--30 to 42 inches; dark yellowish brown (10YR 4/4) crushed extremely gravelly ashy loam, dark yellowish brown (10YR 3/4) crushed moist; moderate fine and medium subangular blocky structure; slightly hard, very friable, slightly sticky, slightly plastic; common very fine to coarse roots; common very fine interstitial and tubular pores; 30 percent faint clay bridges between sand grains; 15 percent cobbles, 20 percent paragravel and 45 percent pebbles; moderately acid, (pH 6.0);  clear irregular boundary. (0 to 20 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 107,
+        "bottom": 127,
+        "narrative": "Cr--42 to 50 inches; weathered tuff-breccia."
+      }
+    ]
+  ]
 }

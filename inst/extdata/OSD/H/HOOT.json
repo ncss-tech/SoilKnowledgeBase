@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The official series type location was moved from Owyhee County, Idaho to Pershing County, Nevada in 1985.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 10 cm (A1 and A2 horizons).\nArgillic horizon - The zone from the 10 to 36 cm (Bt horizon).\nLithic contact - The boundary at 36 cm (2R layer).\nParticle-size control section - The zone from the soil surface to 36 cm (A1, A2 and Bt horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 5 cm; pale brown (10YR 6/3) very cobbly loam, brown (10YR 4/3) moist; moderate very thin platy structure; slightly hard, very friable, slightly sticky and slightly plastic; few very fine roots; many fine vesicular pores; 20 percent gravel, 15 percent cobbles and 5 percent stones; slightly alkaline (pH 7.8); clear smooth boundary. (3 to 10 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--5 to 10 cm; pale brown (10YR 6/3) very gravelly loam, brown (10YR 4/3) moist; moderate very thin platy structure; slightly hard, very friable, slightly sticky and slightly plastic; few very fine roots; common fine tubular pores; 40 percent gravel, 10 percent cobbles; slightly alkaline (pH 7.8); clear smooth boundary.  (5 to 18 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 10,
+        "bottom": 36,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "extremely gravelly",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt--10 to 36 cm; light brown (7.5YR 6/4) extremely gravelly clay loam, brown (7.5YR 5/4) moist; weak very fine subangular blocky structure; slightly hard, friable, moderately sticky and moderately plastic; many very fine, few fine roots; many very fine tubular pores; 50 percent gravel, 15 percent cobbles; common faint clay films on ped faces and lining pores; slightly alkaline (pH 7.8); abrupt smooth boundary.  (10 to 30 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 36,
+        "narrative": "R--36 cm; andesite."
+      }
+    ]
+  ]
 }

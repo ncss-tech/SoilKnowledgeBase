@@ -56,5 +56,107 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Massie soils were formerly mapped as Marsh land type.  Diagnostic horizons and features recognized in this pedon are:\nmollic epipedon--the zone from 0 to 200 cm (0 to 80 inches) (A, E, Bt and BC horizons);\nalbic horizon--the zone from 18 to 23 centimeters (7 to 9 inches) (E horizon)\nargillic horizon--the zone from  23 to 165 centimeters (9 to 65 inches)  (Bt1, Bt2 and Bt3 horizons).\nRedoximorphic concentrations: the zone from 18 to 165 cm (7 to 65 inches) (E and Bt horizons)\nThe linear extensibility exceeds 6.0 between the surface and 100 cm.\n12/2011 DJK Updated basic formatting to meet MO5 standards.\nChanged MAP from 23 to 27 inches and MAAT from 52 to 51 degrees F.\nAdded elevation to typical pedon and changed Massie clay to silty clay loam as pedon description states and the mapunit it is in.\nChanged colors to say for moist unless otherwise stated as should be for an Aquic soil. Changed horizon depths from inches to centimeters.\nAdded quadrangle and lat/long to type location.\nChanged ROC to tab and entered new data according to pedon data and lab data. Deleted clay and silty clay from possible textures for A because no mapunits correlated to these.\nCompeting series updated.\nGeographic setting updated using current data. Changed parent material from alluvium derived from loess to just loess.\nGeographically associated soils updated with deletions of Harney, Holder, and Holdrege which are not found at the type location.\nDrainage and permeability changed to tab and permeability changed to saturated hydraulic conductivity. Ponding and saturation updated using info from MUDs from county soil surveys.\nLRR and MLRA added to Distribution and Extent.\nIn remarks depths were changed to cm and redox was added. The actual pedon ID number was added to additional data and data from NE Dept. of Roads was deleted because seems to be for Fillmore not Massie.\nADDITIONAL DATA:  NSSL pedon 76NE035026 (layers 78PO867 to 78PO871).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 8 centimeters (0 to 3 inches); black (10YR 2/1) silty clay loam, very dark gray (10YR 3/1), dry; moderate medium granular structure; very friable, slightly hard; on the surface is a layer of partially decayed leaves and stems; moderately acid; clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--8 to 18 centimeters (3 to 7 inches); black (10YR 2/1) silty clay loam, dark gray (10YR 4/1), dry; weak coarse platy structure parting to weak fine granular; very friable, slightly hard; moderately acid; abrupt wavy boundary."
+      },
+      {
+        "name": "E",
+        "top": 18,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--18 to 23 centimeters (7 to 9 inches); gray (10YR 5/1) silt loam, gray (10YR 6/1), dry; moderate medium platy structure parting to weak fine granular; very friable, soft; few fine faint yellowish brown (10YR 5/6), moist, masses of oxidized iron; slightly acid; abrupt wavy boundary."
+      },
+      {
+        "name": "Bt1",
+        "top": 23,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--23 to 33 centimeters (9 to 13 inches); black (10YR 2/1) silty clay loam, dark gray (10YR 4/1), dry; moderate medium prismatic structure parting to moderate fine subangular blocky; firm, hard; many fine distinct yellowish brown (10YR 5/6), moist, masses of oxidized iron and many fine to coarse iron-manganese concretions; slightly acid; light gray coatings on faces of peds; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 33,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--33 to 64 centimeters (13 to 25 inches); black (10YR 2/1) silty clay, dark gray (10YR 4/1), dry; strong coarse prismatic structure parting to strong coarse angular blocky; very firm, very hard; few to common fine distinct yellowish brown (10YR 5/6), moist, masses of oxidized iron and many fine to coarse iron-manganese concretions; neutral; shiny surfaces on faces of peds; gradual wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 64,
+        "bottom": 165,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "neutral",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "Bt3--64 to 165 centimeters (25 to 65 inches); very dark gray (10YR 3/1) silty clay, gray (10YR 5/1), dry; strong coarse prismatic structure parting to strong medium angular blocky; very firm, very hard; many fine to coarse iron-manganese concretions; neutral; shiny surfaces on faces of peds; diffuse smooth boundary."
+      },
+      {
+        "name": "BC",
+        "top": 165,
+        "bottom": 200,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BC--165 to 200 centimeters (65 to 80 inches); very dark grayish brown (2.5Y 3/2) silty clay, dark grayish brown (2.5Y 4/2), dry; moderate coarse prismatic structure parting to moderate medium angular blocky; very firm, very hard; neutral; gradual smooth boundary."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,70 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon from - 0 to 12 cm (A horizon)\nCambic horizon from - 12 to 53 cm (Bw horizon)\nSecondary calcium carbonate accumulation from - 53 to 84 cm (BCk horizon)\nParticle-size control section from - 25 to 84 cm (Bw and BCk horizons)\nShavano soils have a mesic temperature regime and an aridic moisture regime bordering on ustic.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 12,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 12 cm; brown (7.5YR 5/4) sandy clay loam, brown (7.5YR 4/4) moist; weak fine granular structure; slightly hard, friable, moderately sticky and moderately plastic; 5 percent gravel and 2 percent cobbles; slightly effervescent; moderately alkaline (pH 8.2); clear wavy boundary. (12 to 25 cm thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 12,
+        "bottom": 53,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--12 to 53 cm; light brown (7.5YR 6/4) sandy clay loam, brown (7.5YR 5/4) moist; weak fine and medium subangular blocky structure; hard, friable, moderately sticky and moderately plastic; 10 percent gravel; slightly effervescent; moderately alkaline (pH 8.2); clear wavy boundary. (20 to 46 cm thick)"
+      },
+      {
+        "name": "BCk",
+        "top": 53,
+        "bottom": 84,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "BCk--53 to 84 cm; pink (7.5YR7/4) sandy loam, brown (7.5YR 5/4) moist; massive; slightly hard, friable, slightly sticky and slightly plastic; 5 percent fine calcium carbonate masses in the matrix and carbonate coats on bottom of rock fragments; 10 percent gravel and 2 percent cobbles; strongly effervescent; moderately alkaline (pH 8.2); abrupt wavy boundary. (10 to 30 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 84,
+        "texture_class": "sand",
+        "narrative": "R--84 cm; hard sandstone bedrock."
+      }
+    ]
+  ]
 }

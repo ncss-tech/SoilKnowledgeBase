@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nUmbric epipedon - 0 to 15 inches (Ap, A).\nArgillic horizon - 15 to 45 inches (Btg1, Btg2)\nLithic contact at 56 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; black (10YR 2/1) silt loam, very dark gray (10YR 3/1) dry; moderate fine granular structure; very friable; many roots; moderately acid; gradual smooth boundary."
+      },
+      {
+        "name": "A",
+        "top": 18,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--7 to 15 inches; black (10YR 2/1) silty clay loam, very dark gray (10YR 3/1) dry; moderate medium subangular blocky structure parting to moderate fine granular structure; very friable; many fine roots; moderately acid; clear smooth boundary. (Combined thickness of the A horizon is 10 to 24 inches.)"
+      },
+      {
+        "name": "Btg1",
+        "top": 38,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg1--15 to 24 inches, gray (10YR 6/1) silty clay loam; moderate coarse prismatic structure parting to moderate medium angular blocky structure; firm; common fine roots; faint clay films on prism faces; few fine red (2.5YR 5/6) Fe concretions (1 - 5 mm across); common coarse prominent yellowish brown (10YR 5/6) and few medium prominent yellowish red (5YR 4/6) soft iron masses coating prism faces; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 61,
+        "bottom": 114,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Btg2--24 to 45 inches; gray (10YR 6/1) silty clay; moderate medium and coarse prismatic structure parting to moderate medium angular blocky structure; very firm, few fine roots; faint clay films on prism faces; few fine and medium red (2.5YR 5/6) Fe concretions (2 - 15 mm) across; common fine and medium prominent red (10R 4/6) and yellowish brown (10YR 5/6) soft iron masses coating prisms; very strongly acid; gradual smooth boundary. (Combined thickness is 14 to 40 inches.)"
+      },
+      {
+        "name": "2Cg",
+        "top": 114,
+        "bottom": 142,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "cf_class": "channery",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "2Cg--45 to 56 inches; variegated gray (10YR 6/1), strong brown (7.5YR 5/6), light yellowish brown (2.5Y 6/4) and dark reddish gray (5YR 4/2) channery silty clay; massive; very firm; 20 percent shale channers; very strongly acid; abrupt smooth boundary. (0 to 40 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 142,
+        "narrative": "R--56 inches; fissile black shale."
+      }
+    ]
+  ]
 }

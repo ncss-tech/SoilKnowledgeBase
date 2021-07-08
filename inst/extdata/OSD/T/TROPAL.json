@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - from 0 to 4 inches (Oi, A horizons)\nCalcic horizon - from 4 to 16 inches (Bk horizon)\nLithic contact - at 16 inches (R horizon)\nParticle-size control section - from 10 to 16 inches (part of Bk horizon)\nTropal soils have a cryic temperature regime and an ustic moisture regime.\nADDITIONAL DATA: Soil interpretations records - MT0517, MT8136.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 1,
+        "narrative": "Oi--0 to 0.5 inches; partially decomposed needles, twigs, and leaves."
+      },
+      {
+        "name": "A",
+        "top": 1,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0.5 to 4 inches; brown (10YR 5/3) very gravelly loam, dark grayish brown (10YR 4/2) moist; moderate medium granular structure, slightly hard, very friable, nonsticky and nonplastic; many fine roots; common very fine and fine pores; 40 percent gravel and 5 percent cobbles; continuous distinct calcium carbonate coatings on underside of fragments; violently effervescent; moderately alkaline (pH 8.2); abrupt smooth boundary. (3 to 6 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 10,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk--4 to 16 inches; light gray (10YR 7/2) extremely gravelly loam, grayish brown (10YR 5/2) moist; moderate medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many fine roots; common very fine and fine pores; 50 percent gravel and 10 percent cobbles; continuous prominent calcium carbonate casts on fragments, and finely disseminated calcium carbonate; violently effervescent; moderately alkaline (pH 8.4); gradual wavy boundary. (7 to 15 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 41,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 1,
+        "narrative": "R--16 inches; light gray (10YR 7/1) hard limestone."
+      }
+    ]
+  ]
 }

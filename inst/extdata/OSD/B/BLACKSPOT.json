@@ -56,5 +56,71 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Mollic epipedon occurs from the soil surface to approximately\n7 inches (A1 and A2 horizons)\nDuripan occurs in the zone from 14 to 19 inches (Bqkm horizon)\nNational Cooperative Soil Survey\nU. S. A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "narrative": "A1--0 to 1 inches; grayish brown (10YR 5/2) very gravelly loam,"
+      },
+      {
+        "name": "A2",
+        "top": 3,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "narrative": "A2--1 to 7 inches; brown (10YR 5/3) very gravelly loam, dark brown"
+      },
+      {
+        "name": "Bk",
+        "top": 18,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "narrative": "Bk--7 to 11 inches; pale brown (10YR 6/3) very gravelly loam, brown"
+      },
+      {
+        "name": "Bqk",
+        "top": 28,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "narrative": "Bqk--11 to 14 inches; pale brown (10YR 6/3) very gravelly loam,"
+      },
+      {
+        "name": "2Bqkm",
+        "top": 36,
+        "bottom": 48,
+        "narrative": "2Bqkm--14 to 19 inches; white indurated duripan, very pale brown"
+      },
+      {
+        "name": "2R",
+        "top": 48,
+        "narrative": "2R--19 inches; fractured calcareous quartzite bedrock with 2Bqkm"
+      }
+    ]
+  ]
 }

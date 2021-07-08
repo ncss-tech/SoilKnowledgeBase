@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface of the soil to 4 inches (A horizon)\nCambic horizon - the zone from 4 to 10 inches (Bw horizon)\nCalcic horizon - the zone from 10 to 24 inches (Bk1 and Bk2 horizons)\nLithic contact - the boundary at 24 inches (R horizon)\nThe carbonates described as \"weakly cemented\" are assumed to slake in water\nUstic intergrade - soil moisture regime borders on an ustic regime\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Tenth Edition, 2003.\nUpdate and revisions for the correlation of Glen Canyon National Recreation Area, January 2010, CEM\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "very fine sandy loam",
+        "cf_class": "stony",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; yellowish red (5YR 5/6) stony very fine sandy loam, yellowish red (5YR 4/6) moist; weak thick platy crust 1 inch thick; weak fine granular structure below; soft, very friable; few medium and fine roots; 15 percent fine gravel; about 15 percent of the surface covered by stones; slightly calcareous; carbonates are disseminated; moderately alkaline (pH 8.0); clear smooth boundary. (2 to 7 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 10,
+        "bottom": 25,
+        "dry_hue": "2.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "very fine sandy loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--4 to 10 inches; red (2.5YR 5/6) very fine sandy loam, red (2.5YR 4/6) moist; moderate medium subangular blocky structure; slightly hard, firm, slightly sticky and slightly plastic; few medium and fine roots; common fine and many very fine pores; 14 percent fine gravel; slightly calcareous; carbonates are disseminated; moderately alkaline (pH 8.2); abrupt wavy boundary. (3 to 14 inches thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 25,
+        "bottom": 43,
+        "dry_hue": "5YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH": 8.6,
+        "pH_class": "strongly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk1--10 to 17 inches; pink (5YR 7/4) fine sandy loam, light reddish brown (5YR 6/4) moist; moderate medium platy structure; hard, slightly sticky and slightly plastic; few fine and very fine roots; few fine pores; very strongly calcareous; carbonates are weakly cemented; strongly alkaline (pH 8.6); clear smooth boundary. (5 to 12 inches thick)"
+      },
+      {
+        "name": "Bk2",
+        "top": 43,
+        "bottom": 61,
+        "dry_hue": "5YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH": 8.6,
+        "pH_class": "strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bk2--17 to 24 inches; pink (5YR 7/4) gravelly fine sandy loam, light reddish brown (5YR 6/4) moist; massive; slightly hard, firm; few very fine roots; common very fine pores; 25 percent gravel; very strongly calcareous; carbonates are weakly cemented; strongly alkaline (pH 8.6); abrupt wavy boundary. (5 to 13 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 61,
+        "texture_class": "sand",
+        "narrative": "R--24 inches; sandstone."
+      }
+    ]
+  ]
 }

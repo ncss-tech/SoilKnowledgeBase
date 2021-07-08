@@ -56,5 +56,67 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\n1. Umbric epipedon - the zone from 3 to 14 inches (8 to 36 centimeters) (A horizon).\n2. Sandy particle-size - the particle-size control section is dominantly sandy but has less than 50 percent very fine sand and less than 35 percent rock fragments.\n3. Aquic conditions - as evidenced by an umbric epipedon directly underlain by a horizon with matrix chroma of 1 (Cg horizon).\n4. Shallow soil depth class- densic contact at 20 inches (51 centimeters), 17 inches (43 centimeters) below the mineral soil surface (Cdg horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "narrative": "Oe -- 0 to 3 inches (0 to 8 centimeters); very dark brown (10YR 2/2) moderately decomposed plant material (hemic material). (0 to 8 inches, 0 to 20 centimeters thick)"
+      },
+      {
+        "name": "A",
+        "top": 8,
+        "bottom": 36,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A -- 3 to 14 inches (8 to 36 centimeters); black (10YR 2/1) sandy loam, dark grayish brown (10YR 4/2) dry; moderate medium granular structure; very friable; many medium and fine roots; 5 percent gravel and 9 percent stones; common medium prominent red (2.5YR 5/6) masses of iron accumulation; extremely acid; abrupt wavy boundary. (10 to 14 inches, 25 to 36 centimeters thick)"
+      },
+      {
+        "name": "Cg",
+        "top": 36,
+        "bottom": 51,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Cg -- 14 to 20 inches (36 to 51 centimeters); gray (5Y 6/1) gravelly loamy sand; massive; friable; common roots; 15 percent gravel, 5 percent cobbles, and 1 percent stones; common medium prominent strong brown (7.5YR 5/8) masses of iron accumulation; very strongly acid; clear irregular boundary. (4 to 12 inches, 10 to 30 centimeters thick)"
+      },
+      {
+        "name": "Cdg",
+        "top": 51,
+        "bottom": 165,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "narrative": "Cdg -- 20 to 65 inches (51 to 165 centimeters); gray (5Y 6/1) gravelly loamy sand; weak very coarse prisms; very firm; friable material 1  to 4 centimeter  thick coats on prisms faces; 15 percent gravel, 5 percent cobbles, and 1 percent stones; many medium and coarse prominent yellowish brown (10YR 5/6) masses of iron accumulation; very strongly acid."
+      }
+    ]
+  ]
 }

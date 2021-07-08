@@ -56,5 +56,75 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon.\nAridic/Xeric:  Soil moisture regine/intergrade.\nParticle-size control section - from 10 to 17 inches (A, C1 and C2 horizons) has over 30 percent glass, and averages 30 percent rock fragments; (ashy).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 8 inches; brown (10YR 5/3) sandy loam, dark brown (10YR 3/3) moist; weak coarse subangular blocky structure; soft, very friable, nonsticky and nonplastic; common fine roots; common fine tubular pores; 10 percent gravel; neutral (pH 7.2); clear wavy boundary.  (5 to 8 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 20,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C1--8 to 15 inches; brown (10YR 5/3) gravelly sandy loam, dark brown (10YR 3/3) moist; massive; slightly hard, very friable, nonsticky and nonplastic; few fine roots; common fine tubular pores; 20 percent weathered sandstone gravel; slightly alkaline (pH 7.4); abrupt wavy boundary.  (5 to 10 inches thick)"
+      },
+      {
+        "name": "C2",
+        "top": 38,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "C2--15 to 17 inches; pale brown (10YR 6/3) very gravelly sandy loam, brown (10YR 4/3) moist; massive; slightly hard, very friable, nonsticky and nonplastic; 50 percent sandstone gravel; 5 percent cobbles; slightly alkaline (pH 7.4); abrupt wavy boundary.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 43,
+        "texture_class": "sand",
+        "narrative": "Cr--17 inches; tuffaceous sandstone."
+      }
+    ]
+  ]
 }

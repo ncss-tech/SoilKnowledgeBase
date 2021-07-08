@@ -56,5 +56,87 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Soil interpretation record MT1450.\nDiagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from the soil surface to 13 inches (Ap and Bt horizons)\nArgillic horizon - the zone from 4 to 13 inches (Bt horizon)\nParalithic contact - the zone starting at 13 inches (Cr horizons)\nWilsall soils have a frigid soil temperature regime and an ustic soil moisture regime.\nThe 1/2014 update reflects a reclassification from Typic to Vertic subgroup based on a weighted average linear extensibility greater than 6.0 above the paralithic contact.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 4 inches; dark grayish brown (10YR 4/2) clay loam, very dark grayish brown (10YR 3/2) moist; weak fine granular structure; hard, firm, moderately sticky and moderately plastic; common very fine roots and few fine roots; neutral (pH 6.8); clear smooth boundary. (3 to 8 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 10,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt--4 to 13 inches; dark grayish brown (10YR 4/2) clay, very dark grayish brown (10YR 3/2) moist; moderate medium angular blocky structure; very hard, very firm, very sticky and very plastic; common very fine roots and few fine roots; common distinct clay films on faces of peds and lining pores; 5 percent gravel; neutral (pH 7.0); gradual smooth boundary. (6 to 13 inches thick)"
+      },
+      {
+        "name": "Cr1",
+        "top": 33,
+        "bottom": 64,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "narrative": "Cr1--13 to 25 inches; brown (7.5YR 4/2) semi-consolidated shale, dark brown (7.5YR 3/2) moist."
+      },
+      {
+        "name": "Cr2",
+        "top": 64,
+        "bottom": 91,
+        "dry_hue": "2.5Y",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "narrative": "Cr2--25 to 36 inches; dark grayish brown (2.5Y 4/2) semi-consolidated shale, very dark grayish brown (2.5Y 3/2) moist; violently effervescent."
+      },
+      {
+        "name": "Cr3",
+        "top": 91,
+        "bottom": 152,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "narrative": "Cr3--36 to 60 inches; grayish brown (2.5Y 5/2) semi-consolidated fine grained sandstone, dark grayish brown (2.5Y 4/2) moist; violently effervescent."
+      }
+    ]
+  ]
 }

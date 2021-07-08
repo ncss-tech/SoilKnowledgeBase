@@ -56,5 +56,67 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon: from the surface to a depth of 10 cm (4 inches) (A horizon).\nCambic horizon: from a depth of 10 to 41 cm (4 to 16 inches) (Bg horizon).\nAquic conditions: matrix colors with chroma of 1 or 2 and redox concentrations present in all horizons below the ochric epipedon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 10 cm (4 inches); very dark gray (10YR 3/1) silty clay loam; strong fine subangular blocky structure; firm; neutral; abrupt wavy boundary. [8 to 13 cm (3 to 5 inches) thick]"
+      },
+      {
+        "name": "Bg1",
+        "top": 10,
+        "bottom": 23,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bg1--10 to 23 cm (4 to 9 inches); dark grayish brown (2.5Y 4/2) silty clay loam; moderate medium angular blocky structure; very firm; common distinct medium light yellowish brown (10YR 6/4) masses of oxidized iron; 10 percent shale fragments; neutral; gradual wavy boundary. [8 to 15 cm (3 to 6 inches) thick]"
+      },
+      {
+        "name": "Bg2",
+        "top": 23,
+        "bottom": 41,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bg2--23 to 41 cm (9 to 16 inches); 50 percent dark grayish brown (2.5Y 4/2) and 50 percent light yellowish brown (10YR 6/4) clay loam; massive; firm; 10 percent shale fragments; neutral; gradual wavy boundary. [13 to 46 cm (5 to 18 inches) thick]"
+      },
+      {
+        "name": "Cg",
+        "top": 41,
+        "bottom": 152,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "cf_class": "channery",
+        "pH_class": "slightly alkaline",
+        "narrative": "Cg--41 to 152 cm (16 to 60 inches); gray (5Y 5/1) channery silty clay; massive; very firm; common coarse prominent light yellowish brown (2.5Y 6/4) masses of oxidized iron; 25 percent shale fragments; slightly alkaline."
+      }
+    ]
+  ]
 }

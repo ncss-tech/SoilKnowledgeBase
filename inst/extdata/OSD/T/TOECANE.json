@@ -56,5 +56,107 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Toecane soils are associated with residual soils that are on relatively stable landscapes. These soils were formerly included with the Cullasaja or Greenlee series. Cullasaja soils have an umbric epipedon and Greenlee have an ochric epipedon and lack the umbric intergrade property.\nParticle-size analysis of the fine-earth fraction of three pedons of Toecane indicate the clay content of the Bt horizons commonly range from about 15 to 25 percent. Most pedons have clay content that doubles from the eluvial horizon (AE) to the illuvial horizon (Bt). Weighted average clay content from a depth of 10 to 40 inches ranges from about 12 to 18 percent.\nThe 7/98 revision places this soil in active CEC activity class. Class placement is based on similar soils in the region\nsuch as Thunder, Edneyville and Edneytown.\nDiagnostic horizons and soil characteristics recognized in this pedon are:\nHumic feature - zone from soil surface to 8 inches (A and E horizons) with moist value of 3 or less and dry value of 5 or less.\nOchric epipedon - the zone from the soil surface to 8 inches (A and AE horizons).\nArgillic horizon - the zone from 8 to 30 inches (Bt and BC horizons).\nLoamy-skeletal feature - average content of more than 35 percent by volume rock fragments in the particle-size control section (8 to 28 inch depth).\nSIR = NC0228\nMLRA = 130\nRevised: 9/94-BPS,JAK; 10/95-BPS,JAK; 9/96-BPS,DHK; 7/98-DHK; 3/03-MKC\nADDITIONAL DATA: Characterization data is available from North Carolina State University, Department of Soil Science, Raleigh, NC for the following pedons: S92NC-199-008.\nNASIS Data Map Unit ID: NASIS data for the typical pedon in Yancey County, NC are represented by DMU ID # 370233.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inches; slightly decomposed leaves, twigs, and roots."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH_class": "extremely acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--1 to 4 inches; very dark brown (10YR 2/2) cobbly loam, very dark grayish brown (10YR 3/2) dry; weak fine granular structure; very friable; many very fine and fine and few medium roots; common very fine flakes of mica; 15 percent by volume cobbles and pebbles; extremely acid; gradual wavy boundary."
+      },
+      {
+        "name": "AE",
+        "top": 10,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "AE--4 to 9 inches; dark brown (10YR 3/3) cobbly loam; brown (10YR 4/3) dry; weak fine granular structure; friable; many very fine and fine roots; common very fine and fine flakes of mica; 20 percent by volume cobbles and pebbles; very strongly acid; gradual wavy boundary. (Combined thickness of the A horizons is 6 to 10 inches.)"
+      },
+      {
+        "name": "Bt1",
+        "top": 23,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very cobbly",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--9 to 13 inches; dark yellowish brown (10YR 4/4) very cobbly loam; weak medium subangular blocky structure; friable; common very fine and fine roots; few faint clay films on faces of peds; common very fine and fine flakes of mica; 35 percent by volume cobbles and pebbles; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 33,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "cf_class": "very cobbly",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--13 to 25 inches; yellowish brown (10YR 5/4) very cobbly sandy clay loam; weak medium subangular blocky structure; friable; common very fine and fine roots; few faint clay films on faces of peds; common very fine and fine flakes of mica; 40 percent by volume cobbles, pebbles, and a few stones; very strongly acid; gradual wavy boundary. (Combined thickness of the Bt horizons is 10 to 40 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 64,
+        "bottom": 79,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "very cobbly",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--25 to 31 inches; dark yellowish brown (10YR 4/6) very cobbly sandy loam; weak medium subangular blocky structure; very friable; few fine roots; common very fine and fine flakes of mica; 45 percent by volume cobbles, stones, and pebbles; strongly acid; gradual wavy boundary. (0 to 15 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 79,
+        "bottom": 163,
+        "texture_class": "loamy sand",
+        "cf_class": "extremely cobbly",
+        "pH_class": "moderately acid",
+        "narrative": "C--31 to 64 inches; multicolored extremely cobbly loamy sand; single grained; loose; few fine roots; common very fine and fine flakes of mica; 70 percent by volume cobbles, stones, and pebbles; moderately acid."
+      }
+    ]
+  ]
 }

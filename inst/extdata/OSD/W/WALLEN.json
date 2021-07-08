@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons recognized in this pedon are:\nOchric epipedon - 0 to 6 inches (E horizon).\nCambic horizon - 6 to 28 inches (Bw1, Bw2 horizons).\nREV. RRD\nMLRAs: 125, 128\nSIR numbers: TN0117, TN0152, TN0231\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 3,
+        "bottom": 0,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "narrative": "Oi--1 to 0 inch; very dark gray (10YR 3/1) organic mat of mixed hardwood leaves and pine needles."
+      },
+      {
+        "name": "E",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "E--0 to 6 inches; pale brown (10YR 6/3) gravelly loam; weak fine and medium granular structure; very friable; many roots; 25 percent angular sandstone fragments mostly between 1 inch and 4 inches across, a few up to 10 inches across; very strongly acid; gradual smooth boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 15,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw1--6 to 18 inches; light yellowish brown (10YR 6/4) gravelly loam; weak medium and fine subangular blocky structure; very friable; common roots; 35 percent angular sandstone fragments mostly 1 inch to 4 inches across, a few up to 10 inches across; very strongly acid; gradual smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 46,
+        "bottom": 71,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "very cobbly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Bw2--18 to 28 inches; light yellowish brown (10YR 6/4) very cobbly loam; weak medium and fine subangular blocky structure; very friable; common roots; 45 percent angular sandstone fragments 2 to 10 inches across; very strongly acid; clear irregular boundary. (Combined thickness of Bw horizons range from 18 to 35 inches)."
+      },
+      {
+        "name": "R",
+        "top": 71,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "narrative": "R--28 inches; hard fractured sandstone with light yellowish brown (10YR 6/4) loam extending into cracks."
+      }
+    ]
+  ]
 }

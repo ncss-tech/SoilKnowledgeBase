@@ -56,5 +56,53 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The diagnostic horizons and features recognized in this pedon are:\na.  Ochric epipedon - the zone from 2 to 7 inches (A and E horizons).\nb.  Lithic feature - bedrock at 5 inches from the mineral soil surface.\nADDITIONAL DATA:  NSSL lab data is available for S80VT 23-6 (1) and S80VT-23-7 (1).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "Oi--0 to 2 inches; fibric material comprised of slightly decomposed needles, leaves and twigs. (0 to 8 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 5,
+        "bottom": 10,
+        "moist_hue": "N",
+        "moist_value": 2,
+        "moist_chroma": 0,
+        "texture_class": "silt loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--2 to 4 inches; black (N 2/0) silt loam; weak fine granular structure; very friable; many roots; 10 percent rock fragments; very strongly acid; abrupt wavy boundary.  (0 to 4 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 18,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--4 to 7 inches; reddish gray (5YR 5/2) fine sandy loam; weak fine subangular blocky structure; very friable; many roots; 10 percent rock fragments; very strongly acid; abrupt wavy boundary.  (2 to 7 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 18,
+        "narrative": "R--7 inches; mica schist bedrock."
+      }
+    ]
+  ]
 }

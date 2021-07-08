@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and other features recognized in this pedon are:\na.  Ochric epipedon - the zone from the surface of the soil to a depth of 8 inches (Ap horizon).\nb.  Cambic horizon - the zone from 8 to 15 inches (Bw horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 8 inches; brown (7.5YR 4/2) gravelly loam; weak fine subangular blocky structure; friable, nonsticky, nonplastic; some clay bridging; 15 percent rock fragments; strongly acid; clear wavy boundary.  (5 to 15 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 20,
+        "bottom": 38,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--8 to 15 inches; brown (7.5YR 4/4) sandy loam; weak fine subangular blocky structure; friable, nonsticky, nonplastic; some clay bridging; 10 percent rock fragments; strongly acid; clear wavy boundary.  (5 to 15 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 38,
+        "bottom": 76,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C--15 to 30 inches; strong brown (7.5YR 5/6) very gravelly sandy loam; massive; friable; 40 percent rock fragments; strongly acid; gradual wavy boundary.  (5 to 30 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 76,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "narrative": "R--30 inches; brownish yellow (10YR 6/6) easily shattered sandstone conglomerate."
+      }
+    ]
+  ]
 }

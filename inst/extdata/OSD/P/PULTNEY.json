@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this profile are:\nParalithic contact: 61 centimeters (24 inches) (Cr horizon)\nCalcic horizon: 23 to 61 centimeters (9 to 24 inches) (Ckz horizon)\nOSED scanned by NSSQA and cleaned by Colorado.  OSD last revised by state on 9/77.\nUpdated the classification, competing series and placed in semi-tab format.  LRM 03/01\nModified format by LRM in 6/2006 to include metric conversion and change permeability to saturated hydraulic conductivity.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 10 centimeters (0 to 4 inches); light brownish gray (10YR 6/2) loam, dark grayish brown (10YR 4/2) moist; weak fine subangular blocky structure that parts to moderate fine granular; soft, very friable; calcareous moderately alkaline (pH 8.0); clear smooth boundary.  (8 to 15 centimeters (3 to 6 inches) thick)"
+      },
+      {
+        "name": "AC",
+        "top": 10,
+        "bottom": 23,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "AC--10 to 23 centimeters (4 to 9 inches); light yellowish brown (2.5Y 6/3) heavy loam, olive brown (2.5Y 4/3) moist; weak medium prismatic structure that parts to weak medium subangular blocky; slightly hard, very friable; calcareous; moderately alkaline (pH 8.2); gradual smooth boundary.  (8 to 15 centimeters (3 to 6 inches) thick)"
+      },
+      {
+        "name": "Ckz",
+        "top": 23,
+        "bottom": 61,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ckz--23 to 61 centimeters (9 to 24 inches); light yellowish brown (2.5Y 6/3) light clay loam, light olive brown (2.5Y 5/3) moist; massive; hard, friable; visible calcium carbonate, calcium sulfate, and probably other salts occurring in fine crystals, as concretions, and in finely divided forms; calcium carbonate equivalent approximately 20 percent; calcareous; moderately alkaline (pH 8.4); clear smooth boundary.  (15 to 86 centimeters (6 to 34 inches) thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 61,
+        "bottom": 152,
+        "dry_hue": "2.5Y",
+        "dry_value": 8,
+        "dry_chroma": 3,
+        "narrative": "Cr--61 to 152 centimeters (24 to 60 inches); partially weathered calcareous gypsiferous shales. Variegated colors ranging from pale yellow (2.5Y 8/3) to light yellowish brown (2.5Y 6/3)."
+      }
+    ]
+  ]
 }

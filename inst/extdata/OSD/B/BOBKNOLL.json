@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nSeries control section:  The zone from 0 to 89 cm.\nParticle-size control section:  The zone from 25 to 89 cm.  (Bw and Bk horizons)\nOchric epipedon:  The zone from 0 to 7 cm.  (A horizon)\nCambic horizon:  The zone from 7 to 30 cm.  (Bw horizon)\nCalcic horizon:  The zone from 30 to 89 cm.  (Bk horizons)\nLithic contact:  The contact with indurated sandstone bedrock at 89 cm.  (R horizon)\nThe assignment of the cation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomic Version:  Classified according to Keys to Soil Taxonomy, Eleventh Edition, 2010.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 7,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "very fine sandy loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A--0 to 7 cm; brown (7.5YR 5/3) very fine sandy loam, brown (7.5YR 4/3) moist; 18 percent clay; weak fine granular structure; very friable, soft, slightly sticky, slightly plastic; common medium, fine and very fine roots; common very fine tubular and vesicular pores; 5 percent gravel; slightly effervescent, carbonates are finely disseminated; moderately alkaline (pH 8.0); gradual wavy boundary.  (7 cm thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 7,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "very fine sandy loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--7 to 30 cm; brown (7.5YR 5/3) very fine sandy loam, brown (7.5YR 4/3) moist; 18 percent clay; weak fine subangular blocky structure; very friable, slightly hard, slightly sticky, slightly plastic; common medium, fine and very fine roots; many very fine tubular pores; 5 percent gravel; strongly effervescent, 5 percent distinct threadlike pinkish gray (7.5YR 7/2) carbonate masses throughout; moderately alkaline (pH 8.2); gradual wavy boundary.  (15 to 23 cm thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 30,
+        "bottom": 81,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 8.3,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bk1--30 to 81 cm; brown (7.5YR 5/4) gravelly loam, brown (7.5YR 4/4) moist; 19 percent clay; weak fine subangular blocky structure; very friable, slightly hard, slightly sticky, slightly plastic; few medium and fine and common very fine roots; few medium and common very fine tubular pores; 5 percent channers, 15 percent gravel; violently effervescent, 5 percent distinct carbonate coats on bottom surfaces of rock fragments, 10 percent distinct threadlike pinkish gray (7.5YR 7/2) carbonate masses throughout; moderately alkaline (pH 8.3); gradual wavy boundary."
+      },
+      {
+        "name": "Bk2",
+        "top": 81,
+        "bottom": 89,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bk2--81 to 89 cm; pinkish gray (7.5YR 7/2) gravelly loam, light brown (7.5YR 6/3) moist; 17 percent clay; weak fine subangular blocky structure; friable, slightly hard, slightly sticky, slightly plastic; few fine and very fine roots; few fine and very fine tubular pores; 5 percent channers, 25 percent gravel; violently effervescent, 10 percent distinct carbonate coats on rock fragments, 25 percent distinct threadlike white (7.5YR 8/1) carbonate masses throughout; moderately alkaline (pH 8.4); clear smooth boundary.  (Combined thickness of the Bk horizons is 21 to 59 cm)"
+      },
+      {
+        "name": "R",
+        "top": 89,
+        "bottom": 99,
+        "texture_class": "sand",
+        "narrative": "R--89 to 99 cm; indurated sandstone bedrock."
+      }
+    ]
+  ]
 }

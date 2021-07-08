@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\n1.  Ochric epipedon - the zone from 0 to 6 inches (Ap horizon).\n2.  Cambic horizon - the zone from 6 to 25 inches (Bw horizon).\n3.  Aquic feature - iron depletions within a depth of 12 to 24 inches from the surface (Bw3 horizon).\n4.  Dystric Eutrudepts feature - the base saturation is greater than 60 percent within a 10 to 30 inch depth (Bw2 and Bw3 horizons).\n5.  Strongly contrasting particle-size classes - the control section is coarse-loamy above a depth of 25 inches and is clayey below 25 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; very dark grayish brown (10YR 3/2) fine sandy loam; weak medium granular structure; friable; many fine roots; moderately acid; clear smooth boundary.  (4 to 11 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 15,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1--6 to 10 inches; dark yellowish brown (10YR 4/4) fine sandy loam; weak medium subangular blocky structure; friable; many fine roots; moderately acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 25,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw2--10 to 18 inches; brown (10YR 4/3) fine sandy loam; weak medium subangular blocky structure; friable; common fine roots; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bw3",
+        "top": 46,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw3--18 to 25 inches; yellowish brown (10YR 5/4) sandy loam; weak medium subangular blocky structure; very friable; few fine roots; common medium distinct grayish brown (2.5Y 5/2) iron depletions and prominent strong brown (7.5YR 5/8) masses of iron accumulation; slightly acid; clear wavy boundary.  (Combined thickness of the Bw horizons is 14 to 36 inches.)"
+      },
+      {
+        "name": "2C",
+        "top": 64,
+        "bottom": 165,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "pH_class": "slightly acid",
+        "narrative": "2C--25 to 65 inches; olive brown (2.5Y 4/4) varved silt and clay; silty clay weighted average texture; massive separating to weak thick plates along varved bedding planes; firm, very sticky, plastic; common medium distinct grayish brown (10YR 5/2) iron depletions and yellowish brown (10YR 5/6) masses of iron accumulation; slightly acid."
+      }
+    ]
+  ]
 }

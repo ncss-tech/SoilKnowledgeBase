@@ -56,5 +56,53 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Series was made inactive in 1976 and reactivated for Soil Survey of Hampden and Hampshire Counties, Western Part Massachusetts. Re-established in Hampshire County, Massachusetts, 1991.\nDiagnostic horizons and features recognized in this pedon include:\n1.  Ochric epipedon - the zone from the surface of the soil to a depth of 5 inches (Oe and A horizons).\n2.  Cambic horizon - the zone from 5 to 19 inches (Bw horizon).\n3.  Lithic contact - bedrock at 19 inches from the soil surface (R horizon).\nADDITIONAL DATA:  Characterization data is available for pedon no. S62MA-011-001 and S62MA-011-002 from the National Soil Survey Laboratory, Lincoln, NE.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oe--0 to 1 inches; moderately decomposed plant material."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 13,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--1 to 5 inches; black (5YR 2.5/1) loam; moderate and strong, fine and medium  granular structure; very friable; many fine and medium roots; 5 percent rock fragments of channers and gravel; very strongly acid; abrupt wavy boundary. (1 to 5 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 13,
+        "bottom": 48,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--5 to 19 inches; dark yellowish brown (10YR 3/4) fine sandy loam; weak fine and medium granular structure; very friable; common medium roots, 2-inch mat of medium and coarse roots immediately above bedrock; 10 percent rock fragments of channers and gravel; very strongly acid; abrupt wavy boundary. (9 to 16 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 48,
+        "narrative": "R--19 inches; dark gray schist bedrock."
+      }
+    ]
+  ]
 }

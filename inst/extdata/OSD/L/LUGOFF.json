@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons or features recognized in this pedon are:\nOchric epipedon from 0 to 8 inches\nArgillic horizon from 14 to 65 inches.\nThis soil was previously mapped as Marlboro Variant.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nSC0104 LUGOFF      0- 15   60- 66  220-240  46- 48   100- 450\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nSC0104 NONE          6.0-6.0              -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nSC0104  0-14  GR-LS GR-LFS            0-  5  32- 70  2-10  .5-  2\nSC0104 14-34  GR-C                    0-  5  46- 70 35-65   3-  6\nSC0104 34-65  C                       0-  2  70- 97 35-65   3-  6\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nSC0104  0-14  5.1- 6.5  .5-2.  0- 0   6.0-  20  LOW\nSC0104 14-34  4.5- 6.0    -    0- 0   0.6- 2.0  LOW\nSC0104 34-65  4.5- 6.0    -    0- 0   0.6- 2.0  LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; dark gray (10YR 4/1) gravelly loamy sand; moderate medium granular structure; very friable; many fine roots; 25 percent rounded pebbles of quartz 1/4 inch to 3 inches in diameter; strongly acid; clear smooth boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "E",
+        "top": 20,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--8 to 14 inches; light yellowish brown (10YR 6/4) gravelly sandy loam; moderate medium granular structure; very friable; common fine roots; 42 percent rounded pebbles of quartz 1/4 inch to 2-1/2 inches in diameter; moderately acid; clear wavy boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 36,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--14 to 34 inches; brownish yellow (10YR 6/6) gravelly clay; common medium distinct yellowish red (5YR 5/6) mottles; weak medium subangular blocky structure; friable; few fine roots; few faint clay films on faces of peds; 22 percent round pebbles of quartz 1/4 inch to 2 inches in diameter; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 86,
+        "bottom": 119,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--34 to 47 inches; strong brown (7.5YR 5/6) clay; many medium distinct yellowish read (5YR 5/6) mottles; weak medium subangular blocky structure; friable; few faint clay films on faces of peds; 11 percent rounded pebbles of quartz 1/4 inch to 2 inches in diameter; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt3",
+        "top": 119,
+        "bottom": 165,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "narrative": "Bt3--47 to 65 inches; mottled red (2.5YR 4/6) and reddish yellow (7.5YR 6/6) clay; common medium distinct pale brown (10YR 6/3) mottles; weak medium subangular blocky structure; friable; 2 percent rounded pebbles of quartz 1/4 inch to 1-1/2 inches in diameter; very strongly acid.  (Bt is more than 45 to more than 60 inches thick)"
+      }
+    ]
+  ]
 }

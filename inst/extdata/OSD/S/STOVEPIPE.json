@@ -56,5 +56,62 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features in this pedon\nare:\nMollic epipedon - the zone from the surface of the soil to a\ndepth of approximately 13 inches (A1, A2 horizons).\nCambic horizon - 13 to 24 inches with chroma of 2 or less.\nAquolls - mottles with chroma of 2 or less throughout the\nprofile.\nCryic - mean annual soil temperature ranges from 42 to 47\ndegrees F, and mean summer soil temperature is less than 55\ndegrees F.\nNATIONAL COOPERATIVE SOIL SURVEY\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "narrative": "A1--0 to 6 inches; black (10YR 2/1) silt loam, grayish"
+      },
+      {
+        "name": "A2",
+        "top": 15,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "narrative": "A2--6 to 13 inches; very dark gray (10YR 3/1) silt loam,"
+      },
+      {
+        "name": "Bg",
+        "top": 33,
+        "bottom": 61,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 0,
+        "texture_class": "silt loam",
+        "narrative": "Bg--13 to 24 inches; gray (2.5Y 5/0) silt loam, light"
+      },
+      {
+        "name": "2Cg1",
+        "top": 61,
+        "bottom": 84,
+        "moist_hue": "5Y",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "narrative": "2Cg1--24 to 33 inches; dark gray (5Y 4/1) extremely"
+      },
+      {
+        "name": "2Cg2",
+        "top": 84,
+        "bottom": 152,
+        "cf_class": "extremely gravelly",
+        "narrative": "2Cg2--33 to 60 inches; multicolored extremely gravelly"
+      }
+    ]
+  ]
 }

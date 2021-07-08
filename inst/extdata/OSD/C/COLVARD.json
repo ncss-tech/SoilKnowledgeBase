@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The Colvard series confines similar soils of the Comus series to regions other than MLRA 130.  Soils previously correlated as Comus within MLRA 130 are covered by this series.  The 2/99 revision updates classification to 8th Edition of Keys to Soil Taxonomy.  This soil is placed in the active CEC activity family based on comparison with other soils.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 10 inches below the surface (Ap horizon)\nNonacid feature - pH of 5.5 or more in the 10 to 40 inch control section\nMLRA: 130           SIR: NC0105\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 10 inches; dark brown (10YR 4/3) fine sandy loam; weak medium granular structure; very friable; common fine roots; few fine flakes of mica; medium acid; abrupt smooth boundary.  (6 to 15 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 25,
+        "bottom": 66,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C1--10 to 26 inches; brown (7.5YR 4/4) fine sandy loam; weak medium granular structure; very friable; few fine roots; common fine flakes of mica; slightly acid; clear smooth boundary."
+      },
+      {
+        "name": "C2",
+        "top": 66,
+        "bottom": 107,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C2--26 to 42 inches; yellowish brown (10YR 5/6) fine sandy loam; massive; very friable; few fine roots; common fine flakes of mica; few fine lenses of dark gray sand; neutral; clear smooth boundary."
+      },
+      {
+        "name": "C3",
+        "top": 107,
+        "bottom": 119,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C3--42 to 47 inches; yellowish brown (10YR 5/4) loamy sand; massive; very friable; common fine flakes of mica; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "C4",
+        "top": 119,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "cobbly",
+        "pH_class": "slightly acid",
+        "narrative": "C4--47 to 60 inches; brown (10YR 5/3) cobbly sand, single grained; loose; few fine flakes of mica; 15 percent by volume rounded cobbles of quartz; few thin strata of sandy loam; slightly acid."
+      }
+    ]
+  ]
 }

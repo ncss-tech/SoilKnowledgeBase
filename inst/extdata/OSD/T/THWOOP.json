@@ -56,5 +56,97 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the surface of the soil to a depth of 25 cm (A1 and A2 horizons).\nArgillic horizon - The zone from 25 to 64 cm (Bt and Btk horizons).\nDuripan - The zone from 64 to 69 cm (Bqkm horizon).\nLithic contact - The boundary at 69 cm (R layer).\nParticle-size control section - The zone from 25 to 64 cm (Bt and Btk horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 10 cm; brown (10YR 5/3) gravelly silt loam, very dark grayish brown (10YR 3/2) moist; moderate fine and medium subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; many very fine and fine roots; common very fine and fine tubular pores; 15 percent gravel; neutral (pH 7.2); clear smooth boundary.  (8 to 15 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--10 to 25 cm; brown (10YR 5/3) silt loam, very dark grayish brown (10YR 3/2) moist; weak fine and medium subangular blocky structure; soft, very friable, slightly sticky and moderately plastic; common medium, few very fine and fine roots; many very fine and fine tubular pores; 5 percent gravel; neutral (pH 7.2); clear smooth boundary.  (10 to 20 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 25,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "very gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--25 to 41 cm; yellowish brown (10YR 5/4) very gravelly clay, dark yellowish brown (10YR 4/4); moderate fine and medium subangular blocky structure; slightly hard, friable, moderately sticky and moderately plastic; common medium, few very fine and fine roots; many very fine, fine and few medium tubular pores; common distinct clay films on ped faces and lining pores; 10 percent cobbles, 30 percent gravel; neutral (pH 7.2); clear wavy boundary.  (13 to 23 cm thick)"
+      },
+      {
+        "name": "Btk",
+        "top": 41,
+        "bottom": 64,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "very gravelly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Btk--41 to 64 cm; dark yellowish brown (10YR 4/6) very gravelly clay, dark yellowish brown (10YR 4/4) moist; strong fine and medium subangular blocky structure; moderately hard, firm, moderately sticky and very plastic; common medium roots; common fine and medium tubular pores; many prominent clay films on ped faces and lining pores; common fine soft carbonatic masses and filaments, 10 percent cobbles, 40 percent gravel, noneffervescent matrix, strongly effervescent in spots; slightly alkaline (pH 7.4); abrupt wavy boundary.  (18 to 30 cm thick)"
+      },
+      {
+        "name": "Bqkm",
+        "top": 64,
+        "bottom": 69,
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bqkm--64 to 69 cm; indurated duripan with 1 to 2 mm laminar cap; extremely hard, very firm; violently effervescent; abrupt wavy boundary.  (3 to 10 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 69,
+        "narrative": "R--69 cm; hard, fractured rhyolite."
+      }
+    ]
+  ]
 }

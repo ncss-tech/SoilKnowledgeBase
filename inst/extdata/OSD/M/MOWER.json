@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon:  From 0 to 11 inches. (A1, A2 horizons)\nParticle-size control section:  The zone from 10 to 35 inches.  (Lower part of A2, Bw, Bk1, and Bk2 horizons)\nCambic Horizon: From 11 to 17 inches. (Bw horizon)\nCalcic Horizon: From 17 to 35 inches. (Bk1, Bk2 horizons)\nThe original description of Mower written in 1971 did not specify if the B2 (Bw) horizon met the requirements for a cambic horizon or not. Because of the presence of soil structure, a color change, and leaching of carbonates to the calcic horizon below, the Bw horizon was deemed a cambic as of this update in 2019.\nTaxonomic Version:  Classified according to Keys to Soil Taxonomy, 12th Edition, 2014.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 2 inches; grayish brown (10YR 5/2) clay loam, very dark grayish brown (10YR 3/2) moist; moderate fine granular structure; slightly hard, firm, sticky, plastic; few fine roots; few fine pores; about 15 percent shale channers as a surface mantle; strongly effervescent, carbonates disseminated; moderately alkaline (pH 8.2); clear smooth boundary. (2 to 3 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--2 to 11 inches; grayish brown (10YR 5/2) clay loam, very dark grayish brown (10YR 3/2) moist; moderate medium subangular blocky structure parting to moderate fine granular; hard, firm, sticky, plastic; common fine roots; few fine pores; strongly effervescent, carbonates disseminated; moderately alkaline (pH 8.2); clear smooth boundary. (5 to 9 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 28,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH": 8.5,
+        "pH_class": "strongly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--11 to 17 inches; light brownish gray (10YR 6/2) silty clay loam, grayish brown (10YR 5/2) moist; weak medium prismatic structure parting to moderate medium subangular blocky; very hard, firm, sticky, plastic; few fine and very fine roots; few fine pores; strongly effervescent, carbonates disseminated and as a few fine veins; strongly alkaline (pH 8.5); clear smooth boundary. (6 to 10 inches thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 43,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "cf_class": "channery",
+        "pH": 8.6,
+        "pH_class": "strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bk1--17 to 25 inches; very pale brown (10YR 8/2) channery silty clay loam, pale brown (10YR 6/3) moist; massive; very hard, firm, sticky, plastic; few fine and very fine roots; few very fine pores; 25 percent shale channers; violently effervescent, carbonates disseminated and as soft masses; strongly alkaline (pH 8.6); abrupt smooth boundary.  (7 to 10 inches thick)"
+      },
+      {
+        "name": "Bk2",
+        "top": 64,
+        "bottom": 89,
+        "moist_hue": "10YR",
+        "moist_value": 8,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "cf_class": "very channery",
+        "pH": 8.7,
+        "pH_class": "strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bk2--25 to 35 inches; very pale brown (10YR 8/2) very channery silty clay loam, light brownish gray (10YR 6/2) moist; moderate medium platy rock structure; very hard, firm, sticky, plastic; few fine and very fine roots matted on top of horizon; 50 percent shale channers; violently effervescent, carbonates disseminated and as coats on shale fragments; strongly alkaline (pH 8.7); abrupt smooth boundary."
+      },
+      {
+        "name": "Cr",
+        "top": 89,
+        "narrative": "Cr--35 inches; Soft shale bedrock."
+      }
+    ]
+  ]
 }

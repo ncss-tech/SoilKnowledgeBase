@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon: from the surface to a depth of 25 cm (10 inches) (Ap horizon).\nGlossic horizon: from a depth of 25 to 38 cm (10 to 15 inches) (B/E horizon).\nArgillic horizon: from a depth of 25 to 61 cm (10 to 24 inches) (B part of B/E horizon and the Bt horizon).\nAquic condition: redoximorphic features in horizons below a depth of 38 cm (15 inches) (Bt, BC horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 25 cm (10 inches); very dark grayish brown (10YR 3/2) loam, pale brown (10YR 6/3) dry; weak coarse subangular blocky structure; friable; slightly acid; abrupt smooth boundary. [15 to 28 cm (6 to 11 inches) thick]"
+      },
+      {
+        "name": "B/E",
+        "top": 25,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "fine sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "broken",
+        "narrative": "B/E--25 to 38 cm (10 to 15 inches); about 70 percent yellowish brown (10YR 5/8) clay loam (Bt); surrounded by or penetrated by tongues of pale brown (10YR 6/3) fine sandy loam (E); weak medium subangular blocky structure; friable; few brown (7.5YR 4/4) clay films on faces of peds; about 1 percent fine gravel; slightly acid; gradual broken boundary. [5 to 20 cm (2 to 8 inches) thick]"
+      },
+      {
+        "name": "Bt",
+        "top": 38,
+        "bottom": 61,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--38 to 61 cm (15 to 24 inches); reddish brown (5YR 4/3) clay; weak medium subangular blocky structure; friable; common brown (7.5YR 4/4) clay films on faces of peds; few fine distinct grayish brown (10YR 5/2) iron depletions; many medium prominent yellowish brown (10YR 5/8) masses of oxidized iron; about 1 percent fine gravel; slightly alkaline; clear wavy boundary. [20 to 64 cm (8 to 25 inches) thick]"
+      },
+      {
+        "name": "BC",
+        "top": 61,
+        "bottom": 152,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "slightly alkaline",
+        "narrative": "BC--61 to 152 cm (24 to 60 inches); brown (7.5YR 5/4) clay loam; weak fine subangular blocky structure; firm; many medium prominent strong brown (7.5YR 5/8) masses of oxidized iron; common fine light gray (10YR 7/1) lime streaks; about 1 percent fine gravel; strongly effervescent; slightly alkaline."
+      }
+    ]
+  ]
 }

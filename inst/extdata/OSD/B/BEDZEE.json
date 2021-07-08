@@ -56,5 +56,57 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon: The zone from the soil surface to 10 cm. (A horizon).\nArgillic horizon: The zone from 10 to 25 cm (2Bt horizon).\nParalithic contact: The boundary at about 25 cm to underlying soft bedrock (2Cr layer).\nParticle-size control section: The zone from the soil surface to 25 cm (A and 2Bt horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH": 7.9,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 10 cm; light brownish gray (10YR 6/2) cobbly loam, brown (10YR 5/3) moist; moderate medium subangular blocky structure; soft, very friable, slightly sticky and nonplastic; common fine roots; common fine tubular pores; 10 percent gravel, 10 percent cobbles, and 3 percent stones; moderately alkaline (pH 7.9); abrupt smooth boundary. (8 to 18 cm thick)"
+      },
+      {
+        "name": "2Bt",
+        "top": 10,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Bt--10 to 25 cm; pale brown (10YR 6/3) gravelly clay, brown (10YR 4/3) moist; moderate medium prismatic structure parting to moderate medium subangular blocky; hard, friable, very sticky and very plastic; many very fine and fine and few medium roots; common fine and medium tubular pores; few faint and distinct clay films on faces of peds; 15 percent gravel; violently effervescent; moderately alkaline (pH 8.2); abrupt wavy boundary. (15 to 33 cm thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 25,
+        "narrative": "2Cr--25 cm; tuffaceous shale."
+      }
+    ]
+  ]
 }

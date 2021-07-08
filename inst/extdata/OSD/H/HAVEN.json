@@ -56,5 +56,96 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: It should be noted that as a competing series, Agawam soils typically have soil temperatures that may be slightly cooler, but a precise difference could not be quantified based on available data and historic use. The present separation of the Haven and Agawam series may not match historic use of the two series.\nDiagnostic horizons and features recognized in the typical pedon:\n1. Ochric epipedon - the zone from 0 to 6 inches (0 to 15 centimeters) (O and A horizons).\n2. Cambic horizon - the zone from 6 to 31 inches (15 to 79 centimeters) (Bw1, Bw2, and BC horizons).\n3. Strongly contrasting particle-size class - both the coarse-loamy part and the sandy part of the particle-size control section are greater than 5 inches (12.5 cm) thick and the transition zone between the two parts is less than 5 inches (12.5 cm) thick.\n4) Particle-size control section - the zone from 10 to 40 inches (25 to 100 centimeters) (Bw1, Bw2, BC and 2C horizons).\n5) Lithologic discontinuity - at a depth of 31 inches (79 centimeters).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "Oi -- 0 to 2 inches (0 to 5 centimeters); slightly decomposed plant material derived from loose pine needles, leaves and twigs."
+      },
+      {
+        "name": "Oa",
+        "top": 5,
+        "bottom": 8,
+        "moist_hue": "5YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "narrative": "Oa -- 2 to 3 inches (5 to 8 centimeters); black (5YR 2/1) highly decomposed plant material.  (0 to 3 inches (0 to 8 centimeters) thick.)"
+      },
+      {
+        "name": "A",
+        "top": 8,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A -- 3 to 6 inches (8 to 15 centimeters); dark grayish brown (10YR 4/2) loam; weak fine and medium granular structure; friable; many fine and coarse roots; very strongly acid; abrupt smooth boundary. (1 to 4 inches (3 to 10 centimeters) thick.)"
+      },
+      {
+        "name": "Bw1",
+        "top": 15,
+        "bottom": 33,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1 -- 6 to 13 inches (15 to 33 centimeters); brown (7.5YR 4/4) loam; weak fine and medium subangular blocky structure; friable; common fine roots; many fine pores; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 33,
+        "bottom": 56,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw2 -- 13 to 22 inches (33 to 56 centimeters); strong brown (7.5YR 5/6) loam; weak fine and medium subangular blocky structure; friable; common fine roots; many fine pores; 5 percent fine gravel; very strongly acid; gradual wavy boundary. (Combined thickness of Bw horizon is 3 to 22 inches (8 to 56 centimeters) thick.)"
+      },
+      {
+        "name": "BC",
+        "top": 56,
+        "bottom": 79,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BC -- 22 to 31 inches (56 to 79 centimeters); yellowish brown (10YR 5/6) gravelly loam; weak medium and fine subangular blocky structure; friable; few fine roots; common fine pores; 20 percent fine gravel; very strongly acid; clear wavy boundary. (0 to 11 inches (0 to 28 centimeters) thick.)"
+      },
+      {
+        "name": "2C",
+        "top": 79,
+        "bottom": 165,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "narrative": "2C -- 31 to 65 inches (79 to 165 centimeters); yellowish brown (10YR 5/4) to brownish yellow (10YR 6/6) stratified gravelly sand; single grained; loose; 30 percent fine gravel; very strongly acid."
+      }
+    ]
+  ]
 }

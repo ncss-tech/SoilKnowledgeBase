@@ -56,5 +56,59 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  These soils were formerly classified in the Reddish Chestnut great soil group.\nEdited 01/2017 (RFG-ROG): Changed to tabular format. Added metric measurements. Updated competing series, geographic setting, and associated soils sections.\nDiagnostic horizons and features recognized in this pedon are:\nParticle size control section: 15 to 41 cm (6 to 16 in). (Bt horizon)\nOchric epipedon: 0 to 15 cm (0 to 6 in). (A horizon)\nArgillic horizon: 15 to 41 cm (6 to 16 in). (Bt horizon)\nParalithic contact: The contact with weakly cemented sandstone at 41 cm (16 in). (Cr horizon)\nADDITIONAL DATA: None\nTaxonomic Version: Keys to Soil Taxonomy, Twelfth Edition, 2014\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "2.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 15 cm (0 to 6 in); reddish brown (2.5YR 5/4) fine sandy loam, dark reddish brown (2.5YR 3/4) moist; weak very fine granular structure and single grained; hard, very friable; many grass roots; many very fine and few fine pores; neutral clear smooth boundary.  Thickness is 10 to 25 cm (4 to 10 in)"
+      },
+      {
+        "name": "Bt",
+        "top": 15,
+        "bottom": 41,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bt--15 to 41 cm (6 to 16 in); reddish brown (2.5YR 4/4) sandy clay loam, dark reddish brown (2.5YR 3/4) moist; moderate coarse prismatic structure, parting to fine and very fine subangular blocky structure; very hard, friable; many grass roots; many fin and very fine pores; few wormcasts; few faint clay films on prism faces; neutral; abrupt smooth boundary.  Thickness is 15 to 36 cm (6 to 14 in)"
+      },
+      {
+        "name": "Cr",
+        "top": 41,
+        "bottom": 61,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 6,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "narrative": "Cr--41 to 61 cm (16 to 24 in); red (2.5YR 4/6) weakly cemented sandstone; massive; extremely hard; neutral."
+      }
+    ]
+  ]
 }

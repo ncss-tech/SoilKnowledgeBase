@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from the surface to 8 inches (A1, A2 horizons)\nParticle-size control section - from the surface to 8 inches (A1, A2 horizons)\nLithic contact - at a depth of 8 inches (R horizon).\nSoil interpretation record:  MT1426.\nVershal soils have a frigid temperature regime and an ustic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 4 inches; brown (10YR 5/3) very channery loam, dark brown (10YR 3/3) moist; weak very fine granular structure; soft, very friable, slightly sticky and slightly plastic; many very fine roots; 5 percent cobbles; 40 percent channers; neutral (pH 6.8); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 20,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely channery",
+        "pH": 7,
+        "pH_class": "neutral",
+        "narrative": "A2--4 to 8 inches; brown (7.5YR 5/2) extremely channery loam, dark brown (7.5YR 3/2) moist; moderate very fine granular structure; soft, very friable, slightly sticky and nonplastic; many very fine roots; 15 percent cobbles; 55 percent channers; neutral (pH 7.0). (The combined thickness of the A horizons is 5 to 10 inches)"
+      },
+      {
+        "name": "R",
+        "top": 20,
+        "texture_class": "sand",
+        "narrative": "R--8 inches; hard sandstone bedrock with a few cracks; few fine roots in some cracks."
+      }
+    ]
+  ]
 }

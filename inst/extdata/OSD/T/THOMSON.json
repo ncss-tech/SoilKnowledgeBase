@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Thomson soils were previously mapped as Molena Variant (SIR SC0092)\nDiagnostic horizons and other features recognized in this pedon are:\na. Ochric epipedon -the zone between 0 and 9 inches (Ap horizon).\nb. Argillic horizon -the zone between 9 and 30 inches (Bt horizon) and between 59 and 80 inches (2Bt2 and 2Bt3 horizons).\nMLRA=136\nREVISED=12/2030/05, DTA.  This revision changed the taxonomic classification from coarse-loamy, mixed, thermic Typic Hapludult based on lab data. 10-06-DTA-This revision changes the location to a more typical site, within the same map unit, and extends the description to 80 inches.\nADDITIONAL DATA: Laboratory data from typical pedon and supporting pedons S04SC-023(1-3), Data may be obtained from Clemson University.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp  FrFr/Seas  Precip  Elevation\nSC0092  THOMSON     0-10   58-60    190-220    40-50   100-250\nSOI-5  FloodL  FloodH   Watertable   Kind     Months    Bedrock\nSC0092 NONE             >60                             >60\nSOI-5   Depth   Texture          3-Inch   No-10    Clay%   -CEC-\nSC0092  0-9     SL FSL L          0-0     95-100    3-8\nSC0092  9-30    FSL L SL          0-0     95-100   11-16\nSC0092 30-59    LFS SL L          0-0     75-100    1-8\nSC0092 59-80    SCL L             0-0     75-100   18-30\nSOI-5   Depth    -pH-       O.M.    Salin  Permeab    Shnk-Swll\nSC0092  0-9     4.5-6.5    .5-2.     0-0   2.0-6.0     LOW\nSC0092  9-30    4.5-6.5    0.-.5     0-0   2.0-6.0     LOW\nSC0092 30-59    4.5-6.5    0.-.5     0-0   6.0-20      LOW\nSC0092 59-80    4.5-6.5    0.-.5     0-0   0.6-2.0     LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 9 inches; dark yellowish brown (10YR 4/4) sandy loam; weak fine granular; very friable; many fine roots; slightly acid; abrupt smooth boundary. (6 to 12 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 23,
+        "bottom": 76,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "Bt1--9 to 30 inches; strong brown (7.5YR 4/6) sandy loam; weak fine subangular blocky structure; very friable; common fine roots; sand grains bridged and coated with clay; slightly acid; diffuse smooth boundary. (10 to 40 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 76,
+        "bottom": 150,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "slightly acid",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "BC--30 to 59 inches; strong brown (7.5YR 5/6) sandy loam; weak fine subangular blocky structure; very friable; common fine roots; slightly acid; diffuse smooth boundary. (10 to 40 inches thick)"
+      },
+      {
+        "name": "2Bt2",
+        "top": 150,
+        "bottom": 180,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "2Bt2--59 to 71 inches; yellowish red (5YR 5/8) sandy clay loam; few fine faint strong brown (7.5YR 5/8) mottles; weak fine subangular blocky structure; friable; common faint clay films on faces of peds; 2 percent fine manganese concretions; slightly acid; diffuse smooth boundary."
+      },
+      {
+        "name": "2Bt3",
+        "top": 180,
+        "bottom": 203,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "slightly acid",
+        "narrative": "2Bt3--71 to 80 inches; strong brown (7.5YR 5/8) sandy clay loam; many medium prominent red (2.5YR 4/8) and many medium distinct brownish yellow (10YR 6/8) mottles; weak fine subangular blocky structure; friable; common faint clay films on faces of peds; slightly acid.  (Combined thickness of the 2Bt horizons is 0 to 25 inches)"
+      }
+    ]
+  ]
 }

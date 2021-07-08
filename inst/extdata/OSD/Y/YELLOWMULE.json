@@ -56,5 +56,102 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - from 0 to 11 inches (Oi, E1, E2 horizons)\nArgillic horizon - from 11 to 31 inches (Bt1, Bt2 horizons)\nParticle-size control section - from 11 to 31 inches (Bt1, Bt2 horizons)\nParalithic contact - at 31 inches (Cr horizon)\nYellowmule soils have a cryic temperature regime and an udic moisture regime.\nADDITIONAL DATA: Soil interpretation record - MT1430.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; slightly decomposed needles, twigs and leaves. (1 to 2 inches thick)"
+      },
+      {
+        "name": "E1",
+        "top": 3,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E1--1 to 7 inches; light brownish gray (10YR 6/2) loam, brown (10YR 4/3) moist; weak fine angular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many very fine and fine, and few medium and coarse roots; many very fine, common fine, and few medium pores; 10 percent channers; slightly acid (pH 6.2); clear wavy boundary. (4 to 12 inches thick)"
+      },
+      {
+        "name": "E2",
+        "top": 18,
+        "bottom": 28,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E2--7 to 11 inches; pale brown (10YR 6/3) loam, brown (10YR 4/3) moist; moderate medium subangular blocky stucture; slightly hard, very friable, moderately sticky and moderately plastic; many very fine and fine, and few medium and coarse roots; many very fine, common fine, and few medium pores; 10 percent channers; moderately acid (pH 6.0); clear wavy boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 28,
+        "bottom": 51,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--11 to 20 inches; light brownish gray (10YR 6/2) clay loam, brown (10YR 5/3) moist; strong medium subangular blocky structure; hard, friable, very sticky and very plastic; common very fine and fine, and few medium roots; common very fine, and few fine and medium pores; common distinct clay films on faces of peds and lining pores; 5 percent channers; moderately acid (pH 6.0); gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 51,
+        "bottom": 79,
+        "dry_hue": "2.5Y",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "cf_class": "channery",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--20 to 31 inches; grayish brown (2.5Y 5/2) parachannery clay loam, dark grayish brown (2.5Y 4/2) moist; moderate medium prismatic structure; hard, friable, moderately sticky and moderately plastic; few very fine, fine and medium roots; common very fine, and few fine and medium pores; common distinct clay films on faces of peds and lining pores; 5 percent channers, 20 percent parachanners (soft shale chips); neutral (pH 6.8); gradual wavy boundary. (combined thickness of Bt1, Bt2 horizons - 14 to 30 inches)"
+      },
+      {
+        "name": "Cr",
+        "top": 79,
+        "bottom": 152,
+        "dry_hue": "5Y",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "narrative": "Cr--31 to 60 inches; olive (5Y 5/3) semi-consolidated shale; neutral (pH 6.8)."
+      }
+    ]
+  ]
 }

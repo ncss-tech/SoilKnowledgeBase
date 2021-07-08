@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone of dark colored soil material from the soil surface to a depth of 24 inches.  (A1 and A2 horizons)\nArgillic horizon - the zone from 24 to 34 inches.  (Bt horizon)\nThe classification is based on the \"Keys to Soil Taxonomy, Eighth Edition, 1998\".\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "cobbly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A1--0 to 14 inches; brown (10YR 5/3) cobbly silt loam, very dark brown (7.5YR 2/2) moist; weak fine granular structure; soft, very friable, nonsticky and slightly plastic; many fine and common medium and few coarse roots; 20 percent cobbles; neutral (pH 7.2); gradual wavy boundary.  (11 to 18 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 36,
+        "bottom": 61,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "cf_class": "very cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "irregular",
+        "narrative": "A2--14 to 24 inches; brown (10YR 5/3) very cobbly silt loam, dark brown (10YR 3/3) moist; weak medium subangular blocky structure parting to weak fine granular; slightly hard, very friable, slightly sticky and slightly plastic; many fine, few medium and coarse roots; 40 to 50 percent cobbles; neutral (pH 7.0); gradual irregular boundary.  (6 to 12 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 61,
+        "bottom": 86,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "cf_class": "extremely cobbly",
+        "pH": 7.4,
+        "pH_class": "mildly alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bt--24 to 34 inches; brown (7.5YR 4/4) extremely cobbly silty clay loam, dark brown (7.5YR 3/4) moist; weak medium and coarse subangular blocky structure; hard, friable, slightly sticky and plastic; few fine, medium and large roots; many very fine interstitial pores; few thin clay films in pores and on ped surfaces; 70 percent cobbles; mildly alkaline (pH 7.4); abrupt irregular boundary.  (8 to 18 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 86,
+        "narrative": "R--34 inches; fractured weathering limestone."
+      }
+    ]
+  ]
 }

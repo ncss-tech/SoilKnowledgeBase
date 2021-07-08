@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the surface to 8 cm (A1, A2 and part of the Bss1 horizons).\nVertic feature - The zone from 8 to 38 cm (Bss1 and Bss2 horizons).\nLithic contact - The contact between the soil and bedrock at 38 cm (R layer).\nParticle-size control section - The zone from 25 to about 38 cm (Bss2 horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 3,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely cobbly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 3 cm; grayish brown (10YR 5/2) extremely cobbly loam, very dark grayish brown (10YR 3/2) moist; weak very thin and thin platy structure; soft, very friable, slightly sticky and slightly plastic; many very fine roots; common very fine tubular pores; 30 percent gravel, 30 percent cobbles, 5 percent stones; neutral (pH 6.8); clear wavy boundary. (3 to 10 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 3,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--3 to 8 cm; grayish brown (10YR 5/2) clay loam, very dark grayish brown (10YR 3/2) moist; weak thin platy structure parting to weak very fine and fine subangular blocky; slightly hard, friable, moderately sticky and moderately plastic; many very fine roots; common very fine tubular pores; neutral (pH 6.8); abrupt wavy boundary. (0 to 5 cm thick)"
+      },
+      {
+        "name": "Bss1",
+        "top": 8,
+        "bottom": 25,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bss1--8 to 25 cm; brown (7.5YR 4/2) clay, brown (7.5YR 4/3) moist; moderate coarse prismatic structure parting to moderate very fine and fine subangular blocky; hard, firm, very sticky and very plastic; common very fine and fine, few medium and coarse roots; few very fine tubular pores; many pressure faces; common slickensides; vertical cracks 2 to 15 mm wide and 20 to 75 mm apart; slightly alkaline (pH 7.4); clear wavy boundary. (15 to 25 cm thick)"
+      },
+      {
+        "name": "Bss2",
+        "top": 25,
+        "bottom": 38,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bss2--25 to 38 cm; brown (7.5YR 4/2) clay, brown (7.5YR 4/3) moist; moderate medium prismatic structure parting to moderate very fine and fine angular blocky; hard, firm, very sticky and very plastic; few very fine to medium roots; few very fine tubular pores; many pressure faces; common slickensides; few 5 to 15 mm wedge shaped aggregates; vertical cracks 2 to 15 mm wide and 20 to 75 mm apart; slightly alkaline (pH 7.8); abrupt irregular boundary. (5 to 20 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 38,
+        "narrative": "R--38 cm; hard vesicular basalt."
+      }
+    ]
+  ]
 }

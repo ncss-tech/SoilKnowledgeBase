@@ -56,5 +56,87 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 5 cm (A horizon).\nArgillic horizon - The zone from 5 to 38 cm (Bt and Btk horizons).\nIdentifiable secondary carbonates - The zone from 18 to 50 cm (Btk and Bkqm horizons).\nDuripan - The zone from 38 to 51 cm (Bkqm horizon).\nLithic contact - The boundary at 51 cm to underlying hard, unweathered bedrock (2R layer).\nParticle-size control section - The zone from 5 to 38 cm (Bt and Btk horizons).\nADDITIONAL DATA: Partial laboratory data is available for this soil. Sample number S78 OR25-1-1 through 3 from Harney County, Oregon, Oregon Soil Characterization Lab, Oregon State University, Corvallis, OR, 9/78.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 5 cm; light gray (10YR 7/2) cobbly loam, brown (10YR 4/3) moist; weak medium platy structure; hard, very friable, slightly sticky and slightly plastic; common fine and common medium roots; many fine and medium vesicular pores; 10 percent gravel and 10 percent cobbles; neutral (pH 7.3); clear wavy boundary. (5 to 18 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 5,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--5 to 18 cm; brown (10YR 5/3) clay, yellowish brown (10YR 5/4) moist; moderate and strong coarse subangular blocky structure; hard, firm, very sticky and very plastic; common fine and common medium roots; many fine and medium irregular pores; common distinct clay films on faces of peds; slightly alkaline (pH 7.4); clear wavy boundary."
+      },
+      {
+        "name": "Btk",
+        "top": 18,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 7.5,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Btk--18 to 38 cm; light yellowish brown (10YR 6/4) clay loam, dark yellowish brown (10YR 4/4) moist; moderate medium subangular blocky structure parting to moderate fine angular blocky; hard, firm, moderately sticky and moderately plastic; common fine and common medium roots; many fine irregular pores; common distinct clay films on faces of peds; secondary carbonates are finely disseminated in the matrix; strongly effervescent; slightly alkaline (pH 7.5); clear wavy boundary. (Combined thickness of the Bt and Btk horizons is 13 to 40 cm)"
+      },
+      {
+        "name": "Bkqm",
+        "top": 38,
+        "bottom": 51,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bkqm--38 to 51 cm; very pale brown (10YR 8/3) cemented material, pale brown (10YR 6/3) moist; moderate very thick platy structure; very rigid; indurated by secondary silica; few fine roots between plates; secondary carbonates are finely disseminated in the matrix; strongly effervescent; abrupt smooth boundary. (10 to 25 cm thick)"
+      },
+      {
+        "name": "2R",
+        "top": 51,
+        "narrative": "2R--51 inches; basalt."
+      }
+    ]
+  ]
 }

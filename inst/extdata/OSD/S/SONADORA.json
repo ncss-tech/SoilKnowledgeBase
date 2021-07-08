@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from 0 to 10 inches.  (A, Bw1, and Bw2 horizons)\nCambic horizon - the zone from 1 to 16 inches.  (Bw1, Bw2, and Bw3 horizons)\nVertic features - the zone from 1 to 16 inches.  (Bw1, Bw2, and Bw3 horizon)\nDepth to lithic contact - hard bedrock at 36 inches.  (R layer)\nMLRA:  270.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A -- 0 to 1 inch; dark reddish brown (5YR 3/2) clay loam; moderate fine subangular blocky structure; friable; slightly sticky; plastic; many very fine, fine, and medium roots; strongly acid; abrupt smooth boundary.  (1 to 6 inches thick.)"
+      },
+      {
+        "name": "Bw1",
+        "top": 3,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1 -- 1 to 4 inches; dark brown (10YR 3/3) clay; moderate fine and medium subangular blocky structure; firm; sticky, very plastic; about 0.2 inch cracks between peds; common very fine and fine roots; very strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 10,
+        "bottom": 25,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2 -- 4 to 10 inches; dark brown (10YR 3/3 clay; strong medium and coarse subangular blocky structure; firm; sticky, very plastic; about 0.3 inch cracks between peds; few faint pressure faces on surfaces of peds; few very fine, fine, and coarse roots along structural faces; very strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bw3",
+        "top": 25,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw3 -- 10 to 16 inches; dark brown (10YR 3/3) clay; strong coarse prismatic structure parting to medium subangular blocky; firm; sticky, very plastic; about 0.3 inch cracks between peds; common distinct pressure faces on surfaces of peds; few faint non-intersecting slickensides having polished and grooved surfaces; few fine, medium, and coarse roots along structural faces; very strongly acid; clear smooth boundary.  (Combined thickness of the Bw horizons range from 8 to 15 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 41,
+        "bottom": 53,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BC -- 16 to 21 inches; grayish brown (2.5Y 5/2) clay; moderate coarse subangular blocky structure; firm; sticky, plastic; few fine, medium, and coarse roots; about 15 percent, by volume, mudstone rock fragments; strongly acid; clear smooth boundary.  (0 to 5 inches thick.)"
+      },
+      {
+        "name": "C",
+        "top": 53,
+        "bottom": 91,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C -- 21 to 36 inches; 35 percent grayish brown (10YR 5/2), 35 percent yellowish brown (10YR 5/6), and 30 percent very dark grayish brown (10YR 3/2) clay loam; massive; friable; sticky; slightly plastic; few very fine roots; strongly acid; clear smooth boundary."
+      }
+    ]
+  ]
 }

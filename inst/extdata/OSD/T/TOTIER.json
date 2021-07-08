@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  These soils were mapped as fine texture variants of the Bucks Series.  Information from the field and the laboratory indicates the clay content of the particle size control section is consistently more than 40 percent.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nVA0175 TOTIER      0- 15   59- 64  180-200  40- 50   300- 900\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nVA0175 NONE          6.0-6.0              -     40-60   SOFT\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nVA0175  0- 8  SIL L                   0-  0  75-100 12-27    -\nVA0175  0- 8  SICL                    0-  0  75-100 27-35    -\nVA0175  8-40  SIC C SH-SICL           0-  0  60-100 35-60    -\nVA0175 40-49  SH-SICL SHV-L SH-SIC    0-  5  25- 70 20-35    -\nVA0175 49-63  WB                       -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nVA0175  0- 8  4.5- 6.0  2.-4.  0- 0   0.6- 2.0  LOW\nVA0175  0- 8  4.5- 6.0  1.-2.  0- 0   0.6- 2.0  MODERATE\nVA0175  8-40  4.5- 6.0  0.-.5  0- 0   0.6- 2.0  MODERATE\nVA0175 40-49  4.5- 6.0  0.-.5  0- 0   0.6- 2.0  LOW\nVA0175 49-63     -        -     -    0.00- 0.2\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 20 cm; reddish brown (5YR 4/4) silt loam; moderate fine granular structure; very friable, slightly sticky, nonplastic; common fine roots; slightly acid; clear smooth boundary.  (0 to 25"
+      },
+      {
+        "name": "B21t",
+        "top": 20,
+        "bottom": 30,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "B21t--20 to 30 cm; yellowish red (5YR 4/6) silty clay loam; few medium distinct reddish brown (5YR 5/3) mottles; moderate fine subangular blocky structure; friable, slightly sticky, slightly plastic; few fine roots; few thin clay films on faces of peds; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "B22t",
+        "top": 30,
+        "bottom": 81,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silty clay",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "B22t--30 to 81 cm; red (2.5YR 4/6) silty clay; strong fine subangular blocky structure; friable, sticky, plastic; few fine roots; continuous thin clay films on faces of peds; 2 percent shale fragments less than 2 cm in length; medium acid; gradual smooth boundary.  (Combined thickness of the B2t horizon is 50 to 100 cm thick.)"
+      },
+      {
+        "name": "B3t",
+        "top": 81,
+        "bottom": 102,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silty clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "B3t--81 to 102 cm; red (2.5YR 4/6) silty clay; moderate medium subangular blocky structure; friable, sticky, slightly plastic; few thin clay films on faces of peds; 15 percent red shale fragments up to 1 inch in length; very strongly acid; gradual smooth boundary.  (10 to 40 cm thick)"
+      },
+      {
+        "name": "C",
+        "top": 102,
+        "bottom": 124,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silty clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "C--102 to 124 cm; red (2.5YR 4/6) shaly silty clay; massive; firm, slightly sticky, slightly plastic; 30 percent red shale fragments less than 5 cm in length; very strongly acid; gradual smooth boundary.  (10 to 30 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 124,
+        "bottom": 160,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "Cr--124 to 160 cm; red (2.5YR 4/6) soft shale; few thin dark red (2.5YR 3/6) and pinkish gray (7.5YR 7/2) silty clay loam coatings on shale fragments; very strongly acid."
+      }
+    ]
+  ]
 }

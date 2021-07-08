@@ -56,5 +56,76 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Features diagnostic to this series are:\nMollic epipedon - zone from the soil surface to about 34 inches (Ap,\nBA, Bt1, and Bt2 horizons)\nArgillic horizon - zone from 15 to 47 inches (Bt1, Bt2, and Bt3\nhorizons)\nParticle - size control section - 15 to 47 inches (Bt1, Bt2, and Bt3\nhorizons)\nNational Cooperative Soil Survey\nU. S. A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "narrative": "Ap--0 to 7 inches; dark grayish brown (10YR 4/2) loam, very dark"
+      },
+      {
+        "name": "BA",
+        "top": 18,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "narrative": "BA--7 to 15 inches; dark grayish brown (10YR 4/2) loam, very dark"
+      },
+      {
+        "name": "Bt1",
+        "top": 38,
+        "bottom": 66,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "narrative": "Bt1--15 to 26 inches; dark grayish brown (10YR 4/2) clay loam, very"
+      },
+      {
+        "name": "Bt2",
+        "top": 66,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "narrative": "Bt2--26 to 34 inches; grayish brown (10YR 5/2) clay loam, very dark"
+      },
+      {
+        "name": "Bt3",
+        "top": 86,
+        "bottom": 119,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "narrative": "Bt3--34 to 47 inches; brown (10YR 5/3) sandy clay loam, dark brown"
+      },
+      {
+        "name": "2C",
+        "top": 119,
+        "bottom": 155,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "cf_class": "gravelly",
+        "narrative": "2C--47 to 61 inches; light yellowish brown (10YR 6/4) gravelly"
+      }
+    ]
+  ]
 }

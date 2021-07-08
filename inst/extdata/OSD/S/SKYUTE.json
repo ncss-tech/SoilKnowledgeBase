@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nMollic epipedon:  0 to 23 cm (A1, A2 horizons)\nArgillic horizon:  23 to 43 cm (Bt1, Bt2 horizons)\nLithic contact:  43 cm to andesite bedrock (R layer)\nParticle-size control section:  23 to 43 cm (Bt1, Bt2 horizons)\nSkyute soils have a frigid temperature regime and are in an ustic soil moisture regime with a typic subclass.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 5 cm; brown (10YR 5/3) loam, dark brown (10YR 3/3) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; many fine roots; few fine tubular pores; 5 percent angular gravel; neutral (pH 6.8); clear smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--5 to 23 cm; brown (10YR 5/3) loam, dark brown (10YR 3/3) moist; moderate medium granular structure; slightly hard, very friable, slightly sticky and nonplastic; many very fine roots; few fine tubular pores; 5 percent angular gravel; neutral (pH 6.8); clear smooth boundary. (combined thickness of A1, A2 horizons - 10 to 30 cm)"
+      },
+      {
+        "name": "Bt1",
+        "top": 23,
+        "bottom": 33,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--23 to 33 cm; yellowish brown (10YR 5/4) clay loam, dark yellowish brown (10YR 4/4) moist; moderate medium subangular blocky structure; hard, firm; moderately sticky and moderately plastic; common distinct clay films on faces of peds; many fine, few very fine roots; few very fine tubular pores; 10 percent angular gravel; neutral (pH 6.8); gradual wavy boundary.  (8 to 20 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 33,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2--33 to 43 cm; light yellowish brown (10YR 6/4) clay loam, yellowish brown (10YR 5/4) moist; weak medium subangular blocky structure; hard, firm, slightly sticky and slightly plastic; common distinct clay films on faces of peds; few very fine roots; few very fine tubular pores; 14 percent angular gravel; neutral (pH 6.8); abrupt wavy boundary."
+      },
+      {
+        "name": "R",
+        "top": 43,
+        "bottom": 69,
+        "narrative": "R--43 to 69 cm; andesite bedrock"
+      }
+    ]
+  ]
 }

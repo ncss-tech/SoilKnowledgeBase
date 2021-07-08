@@ -56,5 +56,62 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Weogufka series would formerly have been classified in the Lithosol great soil group.  It has been included in the Talladega and Tallapoosa series.  The 8th Edition of the Keys to Soil Taxonomy changed subgroups for shallow families.  Ochreptic (Inceptic) Hapludults may not be in shallow families.\nRev: RLV - 3/99\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nAL0117 WEOGUFKA    5- 60   58- 65  190-220  48- 56   800-1800\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nAL0117 NONE          6.0-6.0              -      8-20   SOFT\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nAL0117  0- 4  CN-SL CN-SIL CN-L       0- 10  55- 75 10-20    -\nAL0117  0- 4  CNV-SL CNV-SIL CNV-L    0- 10  30- 75 10-20    -\nAL0117  4-10  CNV-L CNV-SICL CNV-CL   0- 20  30- 45 10-30    -\nAL0117 10-28  WB                       -       -      -      -\nAL0117 28-38  UWB                      -       -      -      -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nAL0117  0- 4  4.5- 6.0  1.-3.  0- 0   0.6- 2.0  LOW\nAL0117  0- 4  4.5- 6.0  1.-3.  0- 0   0.6- 2.0  LOW\nAL0117  4-10  4.5- 5.5  0.-.5  0- 0   0.6- 2.0  LOW\nAL0117 10-28     -        -     -    0.00-  20\nAL0117 28-38     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very channery",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 4 inches; dark yellowish brown (10YR 4/4) very channery sandy loam; weak fine granular structure; friable; many small and medium roots; about 40 percent coarse fragments of slate; strongly acid; clear smooth boundary.  (1 to 5 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 10,
+        "bottom": 25,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very channery",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--4 to 10 inches; reddish brown (5YR 4/3) very channery loam; weak medium subangular blocky parting to weak fine subangular blocky structure; friable; discontinuous distinct clay films on faces of peds and around fragments; many small and medium roots; about 60 percent coarse fragments of slate; strongly acid; gradual wavy boundary.  (5 to 9 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 25,
+        "bottom": 71,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "strongly acid",
+        "distinctness": "diffuse",
+        "topography": "broken",
+        "narrative": "Cr--10 to 28 inches; reddish brown (5YR 5/3) weathered slate with masses of Bt loam along fracture planes; about 95 percent coarse fragments; strongly acid; diffuse broken boundary."
+      },
+      {
+        "name": "R",
+        "top": 71,
+        "narrative": "R--28 inches; fractured tilted slate bedrock."
+      }
+    ]
+  ]
 }

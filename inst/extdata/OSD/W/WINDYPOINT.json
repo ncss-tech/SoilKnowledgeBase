@@ -56,5 +56,100 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from 0 to 3 inches (A horizon)\nArgillic horizon - The zone from 3 to 28 inches (Bt1, Bt2, and Bt3 horizons)\nParticle size control section - 3 to 23 inches (upper 20 inches of the argillic horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; pale brown (10YR 6/3) loam, dark brown (10YR 3/3) moist; moderate fine platy structure; slightly hard, friable; many very fine roots; common very fine vesicular pores; 10 percent gravel; neutral (pH 7.0); abrupt smooth boundary.  (2 to 5 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 8,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--3 to 9 inches; pale brown (10YR 6/3) gravelly loam, brown (10YR 4/3) moist; moderate medium subangular blocky structure; hard, firm, sticky and plastic; common fine and medium roots; common fine tubular pores; few faint clay films on faces of peds and in pores; 15 percent gravel; slightly alkaline (pH 7.4), clear smooth boundary.  (5 to 8 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 23,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--9 to 15 inches; pale brown (10YR 6/3) gravelly loam, brown (10YR 4/3) moist; moderate medium subangular blocky structure; hard, firm, sticky and plastic; common fine and medium roots; common fine tubular pores; few faint clay films on faces of peds and in pores; 15 percent gravel; slightly alkaline (pH 7.6); clear smooth boundary.  (5 to 8 inches thick)"
+      },
+      {
+        "name": "Bt3",
+        "top": 38,
+        "bottom": 71,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt3--15 to 28 inches; pale brown (10YR 6/3) gravelly loam, brown (10YR 4/3) moist; moderate medium subangular blocky structure; hard, firm, slightly sticky and slightly plastic; common fine and medium roots; common fine tubular pores; few faint clay films on faces of peds and in pores; slightly effervescent; 25 percent gravel; slightly alkaline (pH 7.6); clear smooth boundary. (10 to 15 inches thick)"
+      },
+      {
+        "name": "2Bk",
+        "top": 71,
+        "bottom": 86,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2Bk--28 to 34 inches; light gray (10YR 7/2) extremely gravelly sandy loam, grayish brown (10YR 5/2) moist; massive; slightly hard, friable, nonsticky and nonplastic; few fine roots; few fine tubular pores; strongly effervescent; 75 percent gravel; moderately alkaline (pH 8.0); gradual wavy boundary. (3 to 6 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 86,
+        "bottom": 165,
+        "texture_class": "sand",
+        "cf_class": "extremely gravelly",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "narrative": "C--34 to 65 inches; multi-colored extremely gravelly sand; single grain; loose; slightly alkaline (pH 7.6)."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon (pachic) - The zone from the surface of the soil to a depth of 69 cm (A1, A2 and Bt1, horizons).\nArgillic horizon - The zone from about 51 to 109 cm (Bt1 and Bt2 horizons).\nParalithic contact - The boundary at 109 cm (The Cr layer).\nParticle-size control section - The zone from 51 to 101 cm (Bt1 and part of Bt2 horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 5 cm; grayish brown (10YR 5/2) clay loam, very dark grayish brown (10YR 3/2) moist; weak very fine and fine subangular blocky structure parting to moderate fine and medium granular; slightly hard, very friable, moderately sticky and moderately plastic; many very fine, common fine and few coarse roots; common very fine and few fine tubular pores; l0 percent gravel; neutral (pH 7.0); clear smooth boundary.  (5 to 10 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 51,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "clay loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A2--5 to 51 cm; grayish brown (10YR 5/2) clay loam, very dark grayish brown (10YR 3/2) moist; moderate medium and coarse subangular blocky structure; hard, friable, moderately sticky and moderately plastic; common very fine, fine, medium and few coarse roots; many very fine, fine and few medium tubular pores; 5 percent gravel; neutral (pH 6.6); abrupt smooth boundary.  (40 to 50 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 51,
+        "bottom": 69,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "clay",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--51 to 69 cm; brown (10YR 5/3) clay, dark brown (10YR 3/3) moist; few, fine prominent reddish yellow (7.5YR 6/6) moist, iron mottles; moderate medium and coarse angular blocky structure; hard, firm, moderately sticky and very plastic; few very fine, fine and coarse roots; common very fine, fine and few medium tubular pores; common stress surfaces; few, fine iron-manganese nodules; 10 percent soft gravel and 2 percent cobbles; slightly acid (pH 6.2); clear wavy boundary.  (15 to 30 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 69,
+        "bottom": 109,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--69 to 109 cm; yellowish brown (10YR 5/4) paragravelly clay, dark yellowish brown (10YR 4/4) moist; common fine and medium, prominent strong brown (7.5YR 5/6) moist, iron redox concentrations; moderate coarse and very coarse angular blocky structure; very hard, firm, very sticky and very plastic; few very fine roots; common very fine, fine and few medium tubular pores; common stress surfaces; few, fine iron-manganese nodules; 20 percent soft weathered gravel slightly acid (pH 6.2); clear wavy boundary.  (40 to 61 cm thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 109,
+        "bottom": 150,
+        "texture_class": "silt",
+        "narrative": "Cr--109 to 150 cm; highly weathered soft siltstone maintaining primarily rock structure; common fine iron manganese nodules."
+      }
+    ]
+  ]
 }

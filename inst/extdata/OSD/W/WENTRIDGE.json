@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nParticle-size control section:  The zone from 10 to 25 inches.  (C and Cy horizons)\nOchric epipedon:  The zone from 0 to 3 inches.  (A horizon)\nSecondary gypsum:  The presence of visible gypsum from 12 to 25 inches.  (Cy horizon)\nParalithic contact:  The contact with weathered sandstone at 25 inches.  (Cr horizon)\nLithic contact:  The contact with unweathered sandstone at 38 inches.  (R horizon)\nThe assignment of the superactive cation-exchange activity class is inferred from lab data from similar soils in the surrounding area.\nTaxonomic Version:  Seventh Edition, 1996.\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; light gray (2.5Y 7/2) loam, light olive brown (2.5Y 5/4) moist; moderate thin and medium platy structure parting to weak fine and medium subangular blocky; slightly hard, friable, nonsticky and nonplastic; common very fine and fine, few fine and medium roots; many very fine and fine vesicular pores; slightly effervescent, carbonates are disseminated; moderately alkaline (pH 8.2); clear wavy boundary.  (2 to 4 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 8,
+        "bottom": 30,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "C--3 to 12 inches; light gray (2.5Y 7/2) fine sandy loam, light olive brown (2.5Y 5/3) moist; weak fine and medium subangular blocky structure; slightly hard, friable, nonsticky and nonplastic; common very fine and fine, few fine and medium roots; many very fine and fine, few medium tubular pores; slightly effervescent, carbonates are disseminated; moderately alkaline (pH 8.4); clear wavy boundary."
+      },
+      {
+        "name": "Cy",
+        "top": 30,
+        "bottom": 64,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Cy--12 to 25 inches; light gray (2.5Y 7/2) fine sandy loam, olive (5Y 5/3) moist; weak fine and medium subangular blocky structure; slightly hard, friable, nonsticky and nonplastic; many very fine and fine roots; many very fine and fine, few medium tubular pores; slightly effervescent, carbonates are disseminated; common very fine and fine gypsum flakes; moderately alkaline (pH 8.2); abrupt wavy boundary.  (combined thickness of the C horizons ranges from 18 to 36 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 64,
+        "bottom": 97,
+        "texture_class": "sand",
+        "narrative": "Cr--25 to 38 inches; weathered sandstone."
+      },
+      {
+        "name": "R",
+        "top": 97,
+        "texture_class": "sand",
+        "narrative": "R--38 inches; unweathered sandstone."
+      }
+    ]
+  ]
 }

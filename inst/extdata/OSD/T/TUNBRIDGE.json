@@ -56,5 +56,99 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: 1. Tunbridge is the official State Soil of Vermont.\n2. Albic horizons may be difficult to locate because tree throws and other disturbances have destroyed them in many areas of Tunbridge soils. Albic horizons are often thin, may be discontinuous, and located within 10 cm of the soil surface.\n3. The use of the Tunbridge series in MLRA 144A is in question. Tunbridge has a frigid temperature regime which is not typical in 144A.\n4. The diagnostic horizons and features recognized in this pedon are:\na. Ochric epipedon - the zone from 0 to 20 cm (Oe, Oa, E horizons).\nb. Albic horizon - the zone from 13 to 20 cm (E horizon).\nc. Spodic horizon - the zone from 20 to 66 cm (Bhs, Bs horizons).\nADDITIONAL DATA: Laboratory characterization data for Tunbridge and similar soils is available through the National Cooperative Soil Survey Soil Characterization Database: http://ncsslabdatamart.sc.egov.usda.gov/\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "7.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 1,
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Oe--0 to 8 cm; black (7.5YR 2.5/1) moderately decomposed plant material; many very fine and fine roots; clear wavy boundary."
+      },
+      {
+        "name": "Oa",
+        "top": 8,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Oa--8 to 13 cm; black (10YR 2/1) highly decomposed plant material; many very fine and fine and common medium roots; abrupt wavy boundary. (Combined thickness of the O horizons is 0 to 15 cm.)"
+      },
+      {
+        "name": "E",
+        "top": 13,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "E--13 to 20 cm; dark gray (10YR 4/1) fine sandy loam; weak fine subangular blocky structure; friable; common fine and medium roots; 5 percent gravel and 5 percent cobbles; very strongly acid (pH 4.8); abrupt wavy boundary. (0 to 20 cm thick)"
+      },
+      {
+        "name": "Bhs",
+        "top": 20,
+        "bottom": 28,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH": 4.8,
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bhs--20 to 28 cm; dark reddish brown (5YR 2.5/2) fine sandy loam; weak fine subangular blocky structure; friable; common fine and medium roots; 10 percent gravel and 2 percent cobbles; very strongly acid (pH 4.8); gradual wavy boundary."
+      },
+      {
+        "name": "Bs",
+        "top": 28,
+        "bottom": 66,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 5.2,
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bs--28 to 66 cm; dark reddish brown (5YR 3/3) and reddish brown (5YR 4/4) fine sandy loam; weak fine subangular blocky structure; friable; common fine, many medium, and common coarse roots; 10 percent gravel and 3 percent cobbles; strongly acid (pH 5.2); abrupt smooth boundary. (Combined thickness of the Bhs and Bs horizons is 10 to 60 cm.)"
+      },
+      {
+        "name": "BC",
+        "top": 66,
+        "bottom": 71,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH": 5.4,
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "BC--66 to 71 cm; dark yellowish brown (10YR 3/4) fine sandy loam; weak fine subangular blocky structure; friable; few medium roots; 5 percent gravel; strongly acid (pH 5.4); abrupt wavy boundary. (0 to 40 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 71,
+        "narrative": "R--71 cm; granite bedrock."
+      }
+    ]
+  ]
 }

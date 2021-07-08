@@ -56,5 +56,96 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The 12/2005 revision updates this soil to the 9th Edition of the Keys to Soil Taxonomy (2003). The CEC activity class placement (semiactive) is based on similar soils (Califon, Gladstone, Bartley, Washington series) with similar parent material. These parent materials appear to be dominantly in a semiactive class based on characterization pedons for Califon, Gladstone and Washington soils. Califon and Gladstone soils are the most similar and have four characterization pedons. One pedon (Califon) is active while three (Gladstone) are semiactive. The pedon description was updated to current horizon nomenclature and redoximorphic feature terminology. Competing series section was also updated.\nDiagnostic horizons and features recognized in this pedon are:\na) Ochric epipedon - the zone  from the surface of the soil to a depth of approximately 11 inches (Ap horizon)\nb) Argillic horizon - zone from approximately 11 to 44 inches (Bt1, Bt2 and Btx horizons)\nc) Fragipan - the zone from 32 to 44 inches (Btx horizon) that is firm, brittle and has massive to platy structure\nd) Lithologic discontinuity at 32 inches (top of Btx horizon)\nADDITIONAL DATA: No laboratory data are available.\nMLRA: 148 and the southern fringe of 144A\nREVISED: 06/75-CFJ, CFE, JEW; 12/2005-DHK\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 11 inches, brown (10YR 4/3) gravelly loam; strong medium and coarse granular structure; very friable; many roots; 15 percent angular gravel and 2 percent angular cobbles, mainly of granitic gneiss; moderately acid; abrupt smooth boundary.  (0 to 11 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 28,
+        "bottom": 43,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--11 to 17 inches, yellowish brown (10YR 5/8) gravelly loam; weak medium angular blocky structure; friable; common roots; thick isolated clay coatings in some pores and thin discontinuous clay films on faces of peds; 15 percent angular gravel and 2 percent angular cobbles, mainly of granitic gneiss; slightly acid; clear wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 43,
+        "bottom": 81,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--17 to 32 inches, strong brown (7.5YR 5/8) gravelly clay loam; weak medium angular blocky structure; friable, plastic; common roots; discontinuous glossy yellowish red (5YR 5/8) clay coatings on faces of peds and in some channels and voids; 15 percent angular gravel, 2 percent angular cobbles and less than 1 percent angular stones, mainly of granitic gneiss; slightly acid; clear wavy boundary.  (Combined thickness of the Bt horizons is 17 to 28 inches)"
+      },
+      {
+        "name": "2Btx",
+        "top": 81,
+        "bottom": 112,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2Btx--32 to 44 inches, strong brown (7.5YR 5/8) gravelly sandy loam; massive and weak thick platy structure; firm, brittle; few roots between peds; thick patchy clay films on faces of peds; 25 percent angular gravel, 5 percent angular cobbles and less than 1 percent angular stones, mainly of granitic gneiss; slightly acid; gradual wavy boundary.  (6 to 18 inches thick)"
+      },
+      {
+        "name": "2C1",
+        "top": 112,
+        "bottom": 193,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2C1--44 to 76 inches, strong brown (7.5YR 5/8) sandy loam saprolite; massive; friable; 25 percent angular gravel, 5 percent angular cobbles and less than 1 percent angular stones, mainly of granitic gneiss; strongly acid; abrupt wavy boundary.  (26 to 36 inches thick)"
+      },
+      {
+        "name": "2C2",
+        "top": 193,
+        "bottom": 274,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy loam",
+        "pH_class": "strongly acid",
+        "narrative": "2C2--76 to 108 inches, yellowish red (5YR 5/8) sandy loam saprolite; massive; friable; less than 10 percent coarse fragments composed of angular granitic gneiss gravel, cobbles and stones; strongly acid."
+      }
+    ]
+  ]
 }

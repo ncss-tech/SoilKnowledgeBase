@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: These soils were previously mapped as Sierra sandy loam, (SI) and Rough broken and stony land, (Rb) in the Soil Survey of Oroville Area, California 1926.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - zone from 0 to 8 inches, (0 to 20 cm) (A and ABt)\nArgillic horizon - zone from 8 to 12 inches, (20 to 30 cm) (Bt)\nParticle-size control section - zone from 0 to 12 inches, (0 to 30 cm) (whole soil)\nThe soil moisture control section - zone from 8 to 12 inches, (20 to 30 cm).\nParalithic contact - at 12 inches, (30 cm).\nBase saturation - assume sum of cations is less than 75 percent in one or more subhorizons within 30 inches, (75 cm) or paralithic contact, whichever is shallower.\nCation-Exchange Activity Class - assume ratio of ammonium acetate at pH 7 to clay is 0.40 to 0.60.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "cobbly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 2 inches, (0 to 5 cm); very pale brown (10YR 7/4) cobbly fine sandy loam, yellowish brown (10YR 5/4) moist; 14 percent clay; weak very fine and fine subangular blocky structure; soft, very friable, nonsticky, nonplastic; many very fine roots; many very fine, fine, and medium tubular pores; 10 percent subangular gravel and 15 percent subangular cobbles; slightly acid, pH 6.3 by Hellige-Truog; clear wavy boundary. (1.5 to 4 inches, (2.8 to 10 cm) thick)"
+      },
+      {
+        "name": "ABt",
+        "top": 5,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "cobbly",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "ABt--2 to 8 inches, (5 to 20 cm); light yellowish brown (10YR 6/4) cobbly sandy loam, yellowish brown (10YR 5/4) moist; 14 percent clay; weak fine subangular blocky structure; soft, very friable, nonsticky, nonplastic; many fine roots; many very fine, fine, and medium tubular pores; 3 percent patchy faint clay films on surfaces along pores and 3 percent patchy faint clay films on surfaces along root channels; 2 percent fine spherical reddish yellow (5YR 6/8), oxidized iron masses; 10 percent subangular gravel and 15 percent subangular cobbles; slightly acid, pH 6.3 by Hellige-Truog; clear smooth boundary. (3 to 6 inches, (8 to 15 cm) thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 20,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--8 to 12 inches, (20 to 30 cm); strong brown (7.5YR 5/6) sandy loam, strong brown (7.5YR 4/6) moist; 18 percent clay; moderate fine and medium subangular blocky structure; moderately hard, very friable, slightly sticky, slightly plastic; few very fine roots; many very fine, fine, and medium tubular pores; 7 percent patchy faint clay films on faces of peds; 5 percent subangular gravel; moderately acid, pH 6.1 by Hellige-Truog; clear wavy boundary. (4 to 9 inches, (10 to 23 cm) thick)"
+      },
+      {
+        "name": "Crt",
+        "top": 30,
+        "bottom": 46,
+        "texture_class": "clay",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Crt--12 to 18 inches, (30 to 46 cm); weakly cemented quartz diorite bedrock; few fine roots  40 percent clay films in fractures; clear wavy boundary. (3 to 6 inches, (8 to 15 cm) thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 46,
+        "narrative": "Cr--18 inches, (46 cm); weakly cemented quartz diorite bedrock; few fine roots top of horizon."
+      }
+    ]
+  ]
 }

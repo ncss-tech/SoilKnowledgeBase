@@ -56,5 +56,61 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nArgillic horizon - the zone from approximately 9 to 29 inches (Bt, Btx horizons)\nFragipan - the zone from approximately 18 to 29 inches (Btx horizon) Aquic udalfs feature - mottles that have chroma of 2 or less in the upper 10 inches of the argillic horizon.\nAdditional Data:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "narrative": "Ap -- 0 to 9 inches; brown (10YR 4/3) silt loam; moderate medium"
+      },
+      {
+        "name": "Bt",
+        "top": 23,
+        "bottom": 46,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay loam",
+        "narrative": "Bt -- 9 to 18 inches; light olive brown (2.5Y 5/4) silty clay loam;"
+      },
+      {
+        "name": "Btx",
+        "top": 46,
+        "bottom": 74,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "narrative": "Btx -- 18 to 29 inches; light yellowish brown (2.5Y 6/4) channery silt loam; few medium distinct mottles of light gray (10YR 6/1) and common medium distinct mottles of strong brown (7.5YR 5/6);"
+      },
+      {
+        "name": "C",
+        "top": 74,
+        "bottom": 137,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "narrative": "C--29 to 54 inches; dark brown (10YR 3/3), olive (5Y 5/4), dark olive gray (5Y 3/2), grayish green (5G 5/2), and light yellow"
+      },
+      {
+        "name": "R",
+        "top": 137,
+        "narrative": "R--54 inches; bluish gray, gray, and olive fractured but unseparated actinolite schist."
+      }
+    ]
+  ]
 }

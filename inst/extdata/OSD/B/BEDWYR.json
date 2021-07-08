@@ -56,5 +56,91 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 5 cm (A horizon).\nNatric horizon - The zone from 5 to 25 cm (2Btn and 2Btnk horizons).\nParalithic contact - The boundary at 33 cm to underlying soft bedrock (2Cr layer).\nParticle-size control section - The zone from the soil surface to 33 cm (A, 2Btn, 2Btnk, and 2C horizons).\nADDITIONAL DATA:  NASIS type and site ID 07NV770Y008jbf.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 8.6,
+        "pH_class": "strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A--0 to 5 cm; light gray (10YR 7/2) very gravelly loam, brown (10YR 4/3) moist; moderate medium platy structure; soft, very friable, slightly sticky and slightly plastic; common fine interstitial and common fine and medium tubular pores; 45 percent gravel and 2 percent cobbles; strongly alkaline (pH 8.6); abrupt smooth boundary. (5 to 10 cm thick)"
+      },
+      {
+        "name": "2Btn",
+        "top": 5,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 9.2,
+        "pH_class": "very strongly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "2Btn--5 to 10 cm; light yellowish brown (10YR 6/4) clay, yellowish brown (10YR 5/4) moist; moderate fine and medium prismatic structure parting to strong medium subangular blocky; hard, friable, moderately sticky and moderately plastic; few very fine roots; common fine interstitial pores; many distinct clay films on faces of peds and lining pores; slightly effervescent; very strongly alkaline (pH 9.2); clear smooth boundary. (5 to 10 cm thick)"
+      },
+      {
+        "name": "2Btnk",
+        "top": 10,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 9.4,
+        "pH_class": "very strongly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Btnk--10 to 25 cm; light yellowish brown (10YR 6/4) clay, yellowish brown (10YR 5/4) moist; moderate fine and medium prismatic structure parting to strong medium angular blocky; hard, firm, very sticky and very plastic; many very fine and fine and common medium roots; many fine interstitial and few fine tubular pores; many distinct clay films on faces of peds and lining pores; few fine generally rounded soft masses of lime; strongly effervescent; very strongly alkaline (pH 9.4); clear wavy boundary. (13 to 20 cm thick)"
+      },
+      {
+        "name": "2C",
+        "top": 25,
+        "bottom": 33,
+        "dry_hue": "2.5Y",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "cf_class": "gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2C--25 to 33 cm; pale yellow (2.5Y 7/4) gravelly clay, light yellowish brown (2.5Y 6/4) moist; massive; slightly hard, friable, very sticky and very plastic; few very fine roots; few fine interstitial and tubular pores; 25 percent gravel; slightly effervescent; moderately alkaline (pH 8.2); clear wavy boundary. (5 to 10 cm thick)"
+      },
+      {
+        "name": "2Cr",
+        "top": 33,
+        "narrative": "2Cr--33 cm; water-laid tuffaceous bedrock."
+      }
+    ]
+  ]
 }

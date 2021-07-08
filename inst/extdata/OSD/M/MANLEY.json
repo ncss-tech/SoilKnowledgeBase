@@ -56,5 +56,133 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOhric epipedon - the zone from 0 to 4 cm (Oi, Oe and C horizons)\nAndic soil properties - the zone from 3 to 53 cm (C, Bw1, Bw2 and Bw3 horizons)\nCambic feature - the zone from 4 to 53 cm (Bw1, Bw2 and Bw3 horizons)\nDensic material - the zone from 90 to 150 cm (2Cd horizon)\nThis description reflects a change in classification from Ashy over loamy-skeletal, mixed Xeric Vitricryands to Ashy over loamy-skeletal, glassy over isotic Xeric Vitricryands\nADDITIONAL DATA:  Laboratory data are available on this soil, Kellog Soil Survey Laboratory: Pedon number 84P0169 sampled as Resner series, and Pedon numbers: 94P0041, 95P0069, 95P0070 and 95P0071 sampled as Manley.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 1,
+        "narrative": "Oi--0 to 1 cm; undecomposed needles, bark, twigs, and grass."
+      },
+      {
+        "name": "Oe",
+        "top": 1,
+        "bottom": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "narrative": "Oe--1 to 3 cm; black (10YR 2/1) moist decomposed mat of organic material; neutral (pH 6.6)."
+      },
+      {
+        "name": "C",
+        "top": 3,
+        "bottom": 4,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 5.2,
+        "pH_class": "strongly acid",
+        "narrative": "C--3 to 4 cm; light gray (10YR 7/2) ashy loam, grayish brown (10YR 5/2) moist; strongly acid (pH 5.2).   (0 to 4 cm thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 4,
+        "bottom": 15,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw1--4 to 15 cm; light brown (7.5YR 6/4) ashy silt loam, dark brown (7.5YR 3/4) moist; weak very fine granular structure; soft, very friable, nonsticky and nonplastic; weakly smeary; many very fine, fine, and medium roots; 10 percent gravel; moderately acid (pH 6.0); clear smooth boundary.  (12 to 25 cm thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 15,
+        "bottom": 28,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2--15 to 28 cm; light brown (7.5YR 6/4) ashy silt loam, brown (7.5YR 4/4) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; weakly smeary; common roots; 10 percent gravel; slightly acid (pH 6.2); clear wavy boundary.  (10 to 15 cm thick)"
+      },
+      {
+        "name": "Bw3",
+        "top": 28,
+        "bottom": 53,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw3--28 to 53 cm cm; light yellowish brown (10YR 6/4) ashy silt loam, dark yellowish brown (10YR 4/4) moist; weak medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; weakly smeary; common roots; common fine and very fine pores; 10 percent gravel; neutral (pH 6.6); clear wavy boundary.  (12 to 25 cm thick)"
+      },
+      {
+        "name": "2C",
+        "top": 53,
+        "bottom": 90,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2C--53 to 90 cm; light yellowish brown (10YR 6/4) very gravelly sandy loam, dark yellowish brown (10YR 4/4) moist; massive; hard, friable, nonsticky and slightly plastic; common fine and very fine roots; 35 percent gravel, 5 percent cobbles, and 5 percent stones; neutral (pH 7.0); gradual wavy boundary.  (0 to 66 cm thick)"
+      },
+      {
+        "name": "2Cd",
+        "top": 90,
+        "bottom": 150,
+        "dry_hue": "2.5Y",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "narrative": "2Cd--90 to 150 cm; light yellowish brown (2.5Y 6/4) very gravelly sandy loam, olive brown (2.5Y 4/4) moist; massive; hard, friable, nonsticky and slightly plastic; common fine and very fine roots; 35 percent gravel, 5 percent cobbles and 5 percent stones; neutral (pH 7.2)."
+      }
+    ]
+  ]
 }

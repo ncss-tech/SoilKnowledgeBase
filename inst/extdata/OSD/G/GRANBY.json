@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon: from the surface to a depth of 25 cm (Ap horizon).\nAquic conditions: redoximorphic features immediately below the mollic epipedon and in all underlying horizons.\nLoamy and gravelly substratum phases with loamy or gravelly textures at depths of 100 to 152 cm  are no longer within the series concept.\nA till substratum phase is presently recognized in Ohio and may become a new series as subsets with this phase are updated. The till substrata is dense, has 27 to 42 percent clay, and occurs at depths of 152 to 200 cm.\nDrained and undrained phases are recognized in Indiana to differentiate between those mapunits that have been artificially drained in order to facilitate crop production and those with natural hydrology.\nADDITIONAL DATA: Soil Interpretation Records: MI0029 -MAAT<50; MI0395 - MAAT>50; MI0524 - MAAT>50, MUCKY SURFACE; MI0529 - MAAT<50, MUCKY SURFACE; MI0118 - HIGH PPT; MI0672 - LOW PPT; MI0623 - CLAYEY SUBSTRATUM.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ap--0 to 25 cm; black (10YR 2/1) loamy sand, dark grayish brown (10YR 4/2) dry; weak medium granular structure; very friable; neutral; abrupt wavy boundary. (25 to 38 cm thick)"
+      },
+      {
+        "name": "Bg1",
+        "top": 25,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bg1--25 to 41 cm; dark gray (10YR 4/1) sand; weak coarse subangular blocky structure; very friable; few medium faint light brownish gray (10YR 6/2) iron depletions in the matrix; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 41,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg2--41 to 81 cm; light brownish gray (10YR 6/2) sand; weak coarse subangular blocky structure; very friable; common medium faint dark gray (10YR 4/1) and gray (10YR 5/1) iron depletions in the matrix; neutral; clear wavy boundary. (Combined thickness of the Bg horizon is 30 to 102 cm.)"
+      },
+      {
+        "name": "Cg",
+        "top": 81,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 2,
+        "texture_class": "sand",
+        "pH_class": "neutral",
+        "narrative": "Cg--81 to 203 cm (32 to 80 in); light gray (10YR 7/2) sand; single grain; loose; common medium faint grayish brown (10YR 5/2) and few medium faint gray (10YR 5/1) iron depletions in the matrix; neutral."
+      }
+    ]
+  ]
 }

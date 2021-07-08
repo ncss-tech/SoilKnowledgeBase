@@ -56,5 +56,98 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\na.  Ochric Epipedon - (Ap - Horizon) from the surface to 8 inches.\nb.  Cambic Horizon  - (Bw1 and Bw2) from 8 to 34 inches.\nc.  Loamy skeletal - More than 35 percent rock fragments in the\nparticles - size control section.\nRevisions 12/2005 Updates this soil to the 9th Edition of the Keys to Soil Taxonomy (2003).  The CEC activity class placement is semiactive based on associated soils and the NASIS data from Clarke County, Virginia.  Class placement may be revised in the future when laboratory data are available.  In addition, horizon nomenclature and competing series were updated.\nPrevious revision DDR 5/85\nADDITIONAL DATA:  Chemical, particle-size analysis, and engineering data of samples S70VA22-42(1-6) from the typical pedon (Virginia Polytechnic Institute and State University Soil Survey Laboratory).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; brown (7.5YR 5/4) channery silt loam; moderate fine granular structure; friable, slightly sticky, slightly plastic; many fine and medium roots; 20 percent shale and siltstone fragments; neutral; clear smooth boundary.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 20,
+        "bottom": 36,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "cf_class": "very channery",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw1--8 to 14 inches; brown (7.5YR 5/4) very channery silt loam; weak medium subangular blocky structure; friable, slightly sticky, slightly plastic; common fine roots; 40 percent shale and siltstone fragments; neutral; gradual smooth boundary.  (0 to 9 inches thick)"
+      },
+      {
+        "name": "Bw2",
+        "top": 36,
+        "bottom": 86,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "cf_class": "very channery",
+        "pH_class": "neutral",
+        "distinctness": "diffuse",
+        "topography": "smooth",
+        "narrative": "Bw2--14 to 34 inches; strong brown (7.5YR 5/6) very channery silty clay loam; moderate medium subangular blocky structure; friable, sticky, plastic; few fine roots; Bt pockets and lenses of silty clay with few distinct clay films make up 25 percent of this horizon; common black coatings; 45 percent brownish yellow (10YR 6/6) soft shale and siltstone fragments; neutral; diffuse smooth boundary.  (8 to 32 inches thick)"
+      },
+      {
+        "name": "BC",
+        "top": 86,
+        "bottom": 127,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "silty clay",
+        "cf_class": "very channery",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BC--34 to 50 inches; yellowish red (5YR 5/8) very channery silty clay; weak medium subangular blocky structure; friable, sticky, plastic; 45 percent brownish yellow (10YR 6/6) soft shale fragments; moderately acid; clear smooth boundary.  (0 to 20 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 127,
+        "bottom": 152,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "silt loam",
+        "cf_class": "extremely channery",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C1--50 to 60 inches; strong brown (7.5YR 5/8) extremely channery silt loam; massive; friable, sticky, plastic; 65 percent yellowish brown (10YR 5/6) and olive (5Y 5/4) soft shale and siltstone fragments; slightly acid; clear smooth boundary.  (0 to 29 inches thick)"
+      },
+      {
+        "name": "C2",
+        "top": 152,
+        "bottom": 183,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay",
+        "cf_class": "extremely channery",
+        "pH_class": "slightly acid",
+        "narrative": "C2--60 to 72 inches; mixed yellowish red (5YR 5/6), strong brown (7.5YR 5/6), and brownish yellow (10YR 6/6) extremely channery silty clay; massive; friable, sticky, plastic; 60 percent soft shale and siltstone fragments; slightly acid."
+      }
+    ]
+  ]
 }

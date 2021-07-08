@@ -56,5 +56,120 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the surface to 18 cm (A1, A2, and part of the Bw horizons.\nCambic horizon - The zone from 13 to 25 cm (Bw horizon).\nIndurated duripan - The zone from 43 to 69 cm (2Bqkm horizon).\nLithic contact - The boundary at 81 cm (3R horizon).\nParticle-size control section - The zone from 25 to 43 cm (Bqk horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "very fine sandy loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 5 cm; light brownish gray (10YR 6/2) very fine sandy loam, dark grayish brown (10YR 4/2) moist; weak medium platy structure; slightly hard, very friable, slightly sticky and slightly plastic; few fine and very fine roots; common medium, many fine and very fine vesicular pores; 5 percent gravel; slightly alkaline (pH 7.4); clear smooth boundary.  (5 to 8 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 7.4,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--5 to 13 cm; light brownish gray (10YR 6/2) silt loam, dark grayish brown (10YR 4/2) moist; weak thin platy structure parting to moderate fine granular; slightly hard, very friable, slightly sticky and slightly plastic; few medium, many fine and very fine roots; few fine tubular pores; 5 percent gravel; slightly alkaline (pH 7.4); abrupt wavy boundary.  (5 to 10 cm thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 13,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--13 to 25 cm; pale brown (10YR 6/3) silt loam, brown (10YR 4/3) moist; weak medium subangular blocky structure; hard, friable, slightly sticky and slightly plastic; common medium, fine and very fine roots; few fine tubular pores; 5 percent gravel; slightly alkaline (pH 7.6); abrupt wavy boundary.  (13 to 28 cm thick)"
+      },
+      {
+        "name": "Bqk",
+        "top": 25,
+        "bottom": 43,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bqk--25 to 43 cm; pale brown (10YR 6/3) silt loam, brown (10YR 4/3) moist; weak fine and medium subangular blocky structure; hard, firm, slightly sticky and slightly plastic; 5 percent medium gravel; weakly cemented with silica and carbonates; 40 percent durinodes; slightly effervescent; slightly alkaline (pH 7.8); abrupt wavy boundary.  (5 to 20 cm thick)"
+      },
+      {
+        "name": "2Bqkm",
+        "top": 43,
+        "bottom": 69,
+        "dry_hue": "10YR",
+        "dry_value": 8,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 4,
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Bqkm--43 to 69 cm; very pale brown (10YR 8/4) continuous indurated duripan; very pale brown (10YR 7/4) moist; strong thick platy structure; extremely hard, very firm; few very fine roots along plate surfaces; violently effervescent; abrupt wavy boundary.  (23 to 25 cm thick)"
+      },
+      {
+        "name": "2Ck",
+        "top": 69,
+        "bottom": 81,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "2Ck--69 to 81 cm; very pale brown (10YR 7/4) sandy loam, yellowish brown (10YR 5/4) moist; single grain; loose, nonsticky and nonplastic; common very fine roots; 10 percent gravel; violently effervescent, carbonates are disseminated; moderately alkaline (pH 8.4); abrupt wavy boundary (0 to 13 cm thick)"
+      },
+      {
+        "name": "3R",
+        "top": 81,
+        "narrative": "3R--81 cm; rhyolite."
+      }
+    ]
+  ]
 }

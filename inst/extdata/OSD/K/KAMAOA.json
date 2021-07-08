@@ -56,5 +56,89 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Soil moisture - dry in some or all parts for short intermittent periods totaling 90 or more days in most years (Ustic moisture regime).\nDiagnostic horizons and features recognized in this pedon include:\n--Mollic epipedon - from a depth of 0 to 18 centimeters (0 to 7 inches) (A horizon).\n--Cambic horizon - from a depth of 18 to 173 centimeters (7 to 68 inches) (Bw horizons).\n--Lithic contact - at a depth of 173 centimeters (68 inches) (2R horizon).\n--Andic soil properties - from a depth of 0 to 173 centimeters (0 to 68 inches) (A, BA, and Bw horizons).\nEdit Log: 11/3/99 Classification revised due to changes in Soil Taxonomy. Old Classification: Medial, isothermic Typic Eutrandepts. Competing series have been updated. MRK 2/5/08 Minor edits and andic textural modifiers added. MRK\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 5.7,
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A--0 to 18 centimeters (0 to 7 inches); dark brown (7.5YR 3/2) medial loam, brown (10YR 5/3) dry; strong medium and fine subangular blocky structure; hard, friable, slightly sticky and slightly plastic; many fine roots; many fine irregular pores; moderately acid (pH 5.7); abrupt wavy boundary. (15 to 23 centimeters {6 to 9 inches} thick)"
+      },
+      {
+        "name": "BA",
+        "top": 18,
+        "bottom": 53,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BA--18 to 53 centimeters (7 to 21 inches); dark reddish brown (5YR 3/4) medial loam, strong brown (7.5YR 5/6) dry; weak fine subangular blocky structure; soft, very friable, slightly sticky and slightly plastic; many fine roots; many very fine tubular pores; neutral (pH 6.8); clear wavy boundary. (20 to 43 centimeters {8 to 17 inches} thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 53,
+        "bottom": 119,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 8,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Bw1--53 to 119 centimeters (21 to 47 inches); dark brown (7.5YR 3/3) medial silty clay loam, strong brown (7.5YR 5/8) dry; weak fine subangular blocky structure; hard, very friable, slightly sticky and moderately plastic; many fine roots; many very fine tubular pores; neutral (pH 6.9); abrupt smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 119,
+        "bottom": 173,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 8,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw2--119 to 173 centimeters (47 to 68 inches); dark brown (7.5YR 3/3) medial silt loam, yellowish brown (10YR 5/8) dry; weak fine subangular blocky structure; soft, very friable, slightly sticky and moderately plastic; many very fine and fine roots; many very fine and fine tubular pores; neutral (pH 7.3); abrupt wavy boundary. (Combined thickness of the Bw horizon is 102 to 122 centimeters {40 to 48 inches} thick.)"
+      },
+      {
+        "name": "2R",
+        "top": 173,
+        "narrative": "2R--173 centimeters (68 inches); hard, massive bedrock."
+      }
+    ]
+  ]
 }

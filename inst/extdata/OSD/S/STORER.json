@@ -56,5 +56,111 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - 0 to 12 inches (A1 and A2 horizons)\nCambic horizon - 12 to 19 inches (Bw horizon)\nLithic contact - 40 to 60 inches (R horizon)\nPSCS - zone from 10 to 40 inches (part of the A2 horizon, Bw, C1, and part of the C2 horizon)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 5 inches; dark grayish brown (10YR 4/2) gravelly sandy loam, very dark brown (10YR 2/2) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; many very fine and fine roots; common very fine and fine irregular pores; 20 percent angular gravel; neutral (pH 6.8); clear wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 13,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A2--5 to 12 inches; grayish brown (10YR 5/2) very gravelly sandy loam, very dark grayish brown (10YR 3/2) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; many very fine and fine roots; common very fine and fine irregular pores; 35 percent angular gravel; neutral (pH 6.8); gradual wavy boundary. (combined A horizon 10 to 15 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 30,
+        "bottom": 48,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "very gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--12 to 19 inches; grayish brown (10YR 5/2) very gravelly sandy loam, dark grayish brown (10YR 4/2) moist; weak fine and medium subangular blocky structure; soft, very friable, nonsticky and nonplastic; common very fine and fine roots; few fine irregular pores; 40 percent angular gravel; neutral (pH 6.6); clear wavy boundary.  (7 to 11 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 48,
+        "bottom": 79,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C1--19 to 31 inches; brown (10YR 5/3) extremely gravelly sandy loam, brown (10YR 4/3) moist; massive; soft, very friable, nonsticky and nonplastic; few very fine roots; few very fine irregular pores; 55 percent angular gravel and 10 percent channers; neutral (pH 6.6); gradual wavy boundary."
+      },
+      {
+        "name": "C2",
+        "top": 79,
+        "bottom": 107,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "extremely channery",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C2--31 to 42 inches; brown (10YR 5/3) extremely channery sandy loam, brown (10YR 4/3) moist; massive; soft, very friable, slightly sticky and nonplastic; few very fine roots; 25 percent angular gravel and 40 percent channers; slightly acid (pH 6.4); gradual wavy boundary.  (combined C horizons 23 to 31 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 107,
+        "narrative": "R--42 inches; fractured metavolcanic rock"
+      }
+    ]
+  ]
 }

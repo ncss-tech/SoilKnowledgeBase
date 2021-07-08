@@ -56,5 +56,107 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nochric epipedon - 0 to 28 centimeters (Ap, BE)\nargillic horizon - 28 to 84 centimeters (Bt1, 2Bt2, 2Bt3);\nparalithic contact - 91 centimeters (3Cr);\nClayey pedisediment is from the mass wasting of surrounding dolostone formations that dominate the area.  Sandstone is the Jordan formation and some areas have thin strata of finer texture in the bedrock.\nThe range in characteristics of the A horizon may include pedons that have a Mollic epipedon; further investigation may be necessary to determine taxonomic placement of the Basco soils.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 15 centimeters; very dark grayish brown (10YR 3/2) silt loam, grayish brown (10YR 5/2) dry; weak fine granular structure; friable; neutral; abrupt smooth boundary.  (15 to 23 centimeters thick)"
+      },
+      {
+        "name": "BE",
+        "top": 15,
+        "bottom": 28,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "BE--15 to 28 centimeters; brown (10YR 4/3) silt loam; weak fine subangular blocky structure; friable; many earthworm casts; about 5 percent gravel; neutral; clear wavy boundary.  (0 to 25 centimeters thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 28,
+        "bottom": 41,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt1--28 to 41 centimeters; brown (10YR 4/3) silty clay loam; moderate very fine subangular blocky structure; firm; common distinct dark brown (10YR 3/3) clay films on faces of peds; about 3 percent gravel ; moderately acid; clear wavy boundary.  (10 to 30 centimeters thick)"
+      },
+      {
+        "name": "2Bt2",
+        "top": 41,
+        "bottom": 61,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bt2--41 to 61 centimeters; reddish brown (5YR 4/4) silty clay; moderate fine subangular blocky structure; firm; common distinct dark reddish brown (2.5YR 3/4) clay films on faces of peds; about 10 percent gravel; moderately acid; clear wavy boundary."
+      },
+      {
+        "name": "2Bt3",
+        "top": 61,
+        "bottom": 84,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2Bt3--61 to 84 centimeters; reddish brown (2.5YR 4/4) clay; strong medium angular blocky structure; very firm; common prominent dusky red (10R 3/4) clay films on faces of peds; about 10 percent chert gravel and dolostone channers; moderately acid; clear wavy boundary.  (Combined thickness of the 2Bt horizons ranges from 25 to 76 centimeters.)"
+      },
+      {
+        "name": "3BC",
+        "top": 84,
+        "bottom": 91,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "3BC--84 to 91 centimeters; brown (7.5YR 4/4) loamy sand; weak coarse subangular blocky structure; very friable; about 10 percent sandstone channers; moderately acid; clear wavy boundary.  (0 to 10 centimeters thick)"
+      },
+      {
+        "name": "3Cr",
+        "top": 91,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "sand",
+        "narrative": "3Cr--91 to 152 centimeters; brownish yellow (10YR 6/6) sandstone bedrock, shattered and partially weathered, becoming more consolidated with depth."
+      }
+    ]
+  ]
 }

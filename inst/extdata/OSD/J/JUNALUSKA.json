@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The Junaluska series describes soils that were previously mapped in the Sylco series.  However, Junaluska soils have an argillic horizon and average less than 35 percent by volume rock fragments. The 6/99 revision updates the classification to the 8th Edition of Keys to Soil Taxonomy.  The soil is placed in the subactive CEC activity class based upon NSSL lab data from the typifying pedon.\nLaboratory data from the typifying pedon were obtained from the National Soil Survey Laboratory, sample number S85NC-039-003.\nThis soil has the following diagnostic horizons and features:\nOchric epipedon - the zone from the surface of the soil to a depth of 11 inches (A1 and A2 horizons)\nArgillic horizon - the zone from 11 to 21 inches below the surface (Bt horizon)\nParalithic contact - the occurrence of weathered bedrock at a depth of 26 inches.  (The upper boundary of the Cr horizon)\nMLRA = 130 SIR = NC0181\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "0i",
+        "top": 5,
+        "bottom": 0,
+        "narrative": "0i--2 to 0 inches; partially decomposed organic matter and deciduous leaves, twigs, and roots."
+      },
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 2 inches; brown (7.5YR 5/4) fine sandy loam; weak medium granular structure; very friable; common fine, medium and coarse roots; 5 percent metasandstone channers by volume; common fine mica flakes; extremely acid; clear wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 28,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--2 to 11 inches; strong brown (7.5YR 5/6) fine sandy loam; weak medium granular structure; very friable; common fine, medium and coarse roots; 5 percent metasandstone channers by volume; common fine mica flakes; very strongly acid; clear wavy boundary.  (Combined thickness of the A horizons is 1 to 11 inches thick.)"
+      },
+      {
+        "name": "Bt",
+        "top": 28,
+        "bottom": 53,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "sandy clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--11 to 21 inches; yellowish red (5YR 5/8) sandy clay loam; common coarse distinct red (2.5YR 4/8) mottles; moderate medium subangular blocky structure; friable, slightly sticky, slightly plastic; few medium roots; few faint clay films on faces of peds; 5 percent by volume metasandstone channers; common fine mica flakes; strongly acid; clear wavy boundary.  (10 to 25 inches thick)"
+      },
+      {
+        "name": "C/B",
+        "top": 53,
+        "bottom": 66,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "C/B--21 to 26 inches; thin parallell layers of yellowish red (5YR 5/8) and red (2.5YR 4/8) fine sandy loam saprolite, and sandy clay loam B horizon material; saprolite is massive and the B horizon material has weak medium subangular block structure; friable; 5 percent by volume metasandstone channers; common fine mica flakes; strongly acid; clear irregular boundary.  (0 to 8 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 66,
+        "bottom": 79,
+        "texture_class": "sand",
+        "narrative": "Cr--26 to 31 inches; multicolored, weathered, low grade metasandstone; partially consolidated but can be dug with difficulty with a spade."
+      }
+    ]
+  ]
 }

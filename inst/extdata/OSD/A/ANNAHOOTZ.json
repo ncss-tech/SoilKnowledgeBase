@@ -56,5 +56,51 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this soil include: well drained organic material from 0 to 16 inches; fragmental material with interstices filled with organic material from 16 to 60 inches; cryic temperature regime; pH of less than 5.0 (1:1,H2O) throughout the organic layers.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Oe -- 0 to 6 inches;  dark brown (10YR 3/3) mucky peat consisting of moderately decomposed forest litter; 40 percent unrubbed fiber content, 70 percent rubbed; extremely acid (pH 4.0; 1:1,H2O); clear wavy boundary.  (1 to 13 inches thick)"
+      },
+      {
+        "name": "Oa1",
+        "top": 15,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "Oa1 -- 6 to 15 inches; very dark gray (10YR 3/1) muck consisting of well decomposed forest litter; 20 percent unrubbed fiber content, 15 percent rubbed; very strongly acid (pH 4.5; 1:1,H2O); clear irregular boundary.  (2 to 6 inches thick)"
+      },
+      {
+        "name": "Oa2",
+        "top": 38,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "cf_class": "extremely stony",
+        "pH_class": "very strongly acid",
+        "narrative": "Oa2 -- 15 to 60 inches; very dark gray (10YR 3/1) extremely stony muck consisting of well decomposed forest litter; 20 percent unrubbed fiber content, 15 percent rubbed; 85 percent colluvial stones and boulders; very strongly acid (pH 4.5; 1:1,H2O).  (41 to 57 inches thick)"
+      }
+    ]
+  ]
 }

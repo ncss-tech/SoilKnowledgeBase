@@ -56,5 +56,57 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from the surface of the soil to a depth of approximately 10 inches (A1, A2 horizons).\nLithic feature - hard bedrock at 10 inches.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "cf_class": "very cobbly",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 3 inches; brown (7.5YR 4/3) very cobbly loamy sand, dark brown (7.5YR 3/2) moist; single grain; loose; many fine and common medium roots; 50 to 90 percent angular gravel, cobbles and stones; neutral (pH 6.9); clear wavy boundary.  (3 to 10 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 25,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loamy sand",
+        "cf_class": "very cobbly",
+        "pH": 6.7,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2--3 to 10 inches; reddish brown (5YR 4/3) very cobbly loamy sand dark reddish brown (5YR 3/3) moist; single grain; loose; many fine and common medium roots; 50 to 90 percent gravel, cobbles and stones; neutral (pH 6.7); abrupt wavy boundary.  (3 to 10 inches thick)"
+      },
+      {
+        "name": "01",
+        "top": 5,
+        "narrative": "01--2 inches to 0; organic litter, leaves, twigs, etc."
+      },
+      {
+        "name": "R",
+        "top": 25,
+        "texture_class": "sand",
+        "narrative": "R--10 inches; sandstone."
+      }
+    ]
+  ]
 }

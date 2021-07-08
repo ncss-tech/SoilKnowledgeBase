@@ -56,5 +56,69 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon (mollic intergrade): from the surface to a depth of 20 cm (8 inches) (A horizon).\nCambic horizon: from a depth of 20 to 46 cm (8 to 18 inches) (Bg1 and Bg2 horizons).\nAquic conditions: reduced matrix color and/or redoximorphic features in all horizons below the ochric epipedon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 20 cm (8 inches); black (10YR 2/1) loam, light brownish gray (10YR 6/2) dry; moderate medium granular structure; friable; neutral; clear wavy boundary. [10 to 25 cm (4 to 10 inches) thick]"
+      },
+      {
+        "name": "Bg1",
+        "top": 20,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg1--20 to 36 cm (8 to 14 inches); dark grayish brown (10YR 4/2) silty clay loam; moderate fine subangular blocky structure; firm; slightly alkaline; clear wavy boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 36,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bg2--36 to 46 cm (14 to 18 inches); gray (10YR 5/1) stratified silty clay loam and silt loam with thin layers of clay loam and clay; moderate medium angular blocky structure; firm; common coarse faint dark grayish brown (10YR 4/2) iron depletions; common coarse prominent yellowish brown (10YR 5/6) masses of oxidized iron; slightly alkaline; abrupt wavy boundary. [Combined thickness of the Bg horizon is 15 to 66 cm (6 to 26 inches) thick.]"
+      },
+      {
+        "name": "Cg",
+        "top": 46,
+        "bottom": 152,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "moderately alkaline",
+        "narrative": "Cg--46 to 152 cm (18 to 60 inches); grayish brown (10YR 5/2) stratified silty clay loam and silt loam with thin layers of clay and clay loam; massive; firm; common medium prominent yellowish brown (10YR 5/6) masses of oxidized iron; slightly effervescent; moderately alkaline."
+      }
+    ]
+  ]
 }

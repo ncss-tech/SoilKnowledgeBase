@@ -56,5 +56,115 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:\nDiagnostic horizons and features recognized in this pedon are:\nAlbic horizon: 10 to 30 cm (E horizon)\nArgillic horizon:  30 to 99 cm (B/E and Bt horizons)\nLithic contact:  99 cm to hard sandstone bedrock (R horizon)\nParticle-size control section:  30 to 80 cm (B/E, Bt1, and part of the Bt2 horizon)\nSeries control section:  0 to 99 cm\nFortlewis soils have a frigid temperature regime and are in an ustic soil moisture regime with a typic subclass.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 3 cm; organic layer of partly decayed needles, leaves and roots.  (0 to 8 cm thick)"
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 10,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "stony",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--3 to 10 cm; brown (7.5YR 5/2) stony fine sandy loam, dark brown (7.5YR 3/2) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; 5 percent gravel, 10 percent cobble, 15 percent stones; slightly acid (pH 6.3); clear smooth boundary.  (3 to 10 cm thick)"
+      },
+      {
+        "name": "E",
+        "top": 10,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "cf_class": "stony",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--10 to 30 cm; pinkish gray (7.5YR 7/2) stony fine sandy loam, brown (7.5YR 5/2) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; 5 percent gravel, 10 percent cobble, 15 percent stones; slightly acid (pH 6.2); clear wavy boundary.   (5 to 30 cm thick)"
+      },
+      {
+        "name": "B/E",
+        "top": 30,
+        "bottom": 43,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "B/E--30 to 43 cm; (70 percent B) reddish brown (5YR 5/4) clay loam, reddish brown (5YR 4/4) moist, and (30 percent E) light brown (7.5YR 6/4) sandy clay loam, brown (7.5YR 5/4) moist; moderate medium subangular blocky structure; hard, firm, moderately sticky and moderately plastic; few faint clay films on faces of peds of the B part; 5 percent gravel, 5 percent cobble, 3 percent stones; slightly acid (pH 6.2); gradual wavy boundary.  (3 to 15 cm thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 43,
+        "bottom": 69,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--43 to 69 cm; light reddish brown (5YR 6/4) clay, reddish brown (5YR 4/4) moist; moderate medium subangular blocky and angular blocky structure; very hard, very firm, very sticky and very plastic; many prominent clay films on faces of peds; 5 percent gravel, 5 percent cobble, 2 percent stone; slightly acid (pH 6.3); gradual wavy boundary. (15 to 51 cm thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 69,
+        "bottom": 99,
+        "dry_hue": "5YR",
+        "dry_value": 6,
+        "dry_chroma": 6,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH": 6.3,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2--69 to 99 cm; reddish yellow (5YR 6/6) clay, yellowish red (5YR 4/6) moist; strong medium subangular blocky and angular blocky structure; very hard, very firm, very sticky and very plastic; many prominent clay films on faces of peds; 5 percent gravel, 5 percent cobble; slightly acid (pH 6.3); abrupt wavy boundary."
+      },
+      {
+        "name": "R",
+        "top": 99,
+        "texture_class": "sand",
+        "narrative": "R--99 cm; sandstone bedrock, fractured in the upper few centimeters."
+      }
+    ]
+  ]
 }

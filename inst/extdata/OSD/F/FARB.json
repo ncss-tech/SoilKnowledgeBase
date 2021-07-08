@@ -56,5 +56,56 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 7 inches (A horizon)\nLithic contact - the zone at 10 inches (R horizon)\nParticle-size control section - the zone from 0 to 10 inches (A and C horizons)\nClassified according to Soil Taxonomy, Second Edition, 1999; Keys to Soil Taxonomy, Eleventh Edition, 2010.\nUpdated competing series section June 13, 2008, CEM\nUpdate and revisions for the correlation of Glen Canyon National Recreation Area, January 2010, CEM\nUpdate and revisions for the correlation of Emery Soil Survey, Utah, September 2010, JWB\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 7 inches; pale brown (10YR 6/3) fine sandy loam, brown (10YR 5/3) moist; weak fine granular structure; soft, very friable, nonsticky and nonplastic; common fine roots; few fine pores; strongly effervescent, carbonates disseminated; moderately alkaline (pH 8.4); clear smooth boundary. (2 to 7 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 18,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C--7 to 10 inches; light yellowish brown (10YR 6/4) sandy loam, yellowish brown (10YR 5/4) moist; soft, friable, nonsticky and nonplastic; common very fine and fine roots; loose; few fine pores; strongly effervescent, carbonates disseminated; moderately alkaline (pH 8.4); abrupt smooth boundary. (3 to 13 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 25,
+        "texture_class": "sand",
+        "narrative": "R--10 inches; hard sandstone, with thin carbonate accumulation at the soil-bedrock contact."
+      }
+    ]
+  ]
 }

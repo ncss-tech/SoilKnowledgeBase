@@ -56,5 +56,82 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and other features recognized in the typical pedon are:\n1. Ochric epipedon - the zone from the soil surface to a depth of 8 inches (Ap and E horizons).\n2. Argillic horizon - the zone from 8 to 28 inches (B/E and Bt horizon).\n3. Glossaquic subgroup - as evidenced by interfingering of albic material in the upper part of the argillic horizon (B/E horizon) and low chroma mottles in the upper 10 inches of the argillic horizon (Bt horizon).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 5 inches; brown (10YR 4/3) silt loam; moderate medium granular structure; friable; many fine roots; slightly acid; abrupt smooth boundary. (5 to 12 inches thick.)"
+      },
+      {
+        "name": "E",
+        "top": 13,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E -- 5 to 8 inches; brown (10YR 5/3) silt loam; weak thick platy structure; friable; many fine roots; slightly acid; clear wavy boundary. (0 to 10 inches thick.)"
+      },
+      {
+        "name": "B/E",
+        "top": 20,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "silty clay",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "B/E -- 8 to 16 inches; yellowish brown (10YR 5/4) silty clay; moderate very coarse prismatic structure parting to moderate medium subangular blocky; firm, sticky, plastic; common fine roots; common fine pores; few faint clay films lining pores; brown (10YR 5/3), light gray (10YR 7/2) dry, silt coatings greater than 1 mm thick on all surfaces of peds (E material, which constitutes less than 15 percent by volume); neutral; clear wavy boundary. (4 to 14 inches thick.)"
+      },
+      {
+        "name": "Bt",
+        "top": 41,
+        "bottom": 71,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silty clay",
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt -- 16 to 28 inches; brown (10YR 5/3) silty clay; moderate very coarse prismatic structure parting to moderate medium subangular blocky; firm, sticky, plastic; few roots; nearly continuous distinct clay films on all faces of peds and on surfaces along pores; common medium distinct gray (10YR 6/1) areas of iron depletion and yellowish brown (10YR 5/6) masses of iron accumulations in the matrix; neutral; clear wavy boundary. (6 to 24 inches thick.)"
+      },
+      {
+        "name": "C",
+        "top": 71,
+        "bottom": 183,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silty clay",
+        "pH_class": "moderately alkaline",
+        "narrative": "C -- 28 to 72 inches; mixed grayish brown (2.5Y 5/2) and light olive brown (2.5Y 5/4) silty clay; moderate medium plate like divisions inherited from parent material; firm, sticky, plastic; few roots in upper part; strongly effervescent, moderately alkaline."
+      }
+    ]
+  ]
 }

@@ -56,5 +56,80 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon: The zone from 0 to 11 inches. (A and Bk1 horizons)\nCambic horizon: The zone from 3 to 27 inches. (Bk1 and Bk2 horizons)\nCalcic horizon: The zone from 11 to 27 inches. (Bk2 horizon)\nParalithic contact: The zone from 27 to 37 inches. (2Cr horizon)\nLithic contact: 37 inches to San Andreas limestone. (R horizon)\nClassified according to Soil Taxonomy Second Edition, 1999; Keys to Soil Taxonomy Tenth Edition, 2006.\nReclassified to an Aridic subgroup in 2007. The change was made to be consistent with the moisture regime.\nADDITIONAL DATA:\nCalcium carbonate equivalent determined with the gas volumetric method by the soil survey field lab.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 3 inches; brown (7.5YR 4/3) extremely gravelly loam, dark brown (7.5YR 3/2) moist; weak fine granular structure; soft, very friable, slightly sticky and slightly plastic; many very fine roots; 50 percent gravel, 15 percent cobbles, 10 percent stones (all rock fragments are limestone); strongly effervescent; 4 percent calcium carbonate equivalent; moderately alkaline (pH 8.0); clear wavy boundary. (2 to 5 inches thick)"
+      },
+      {
+        "name": "Bk1",
+        "top": 8,
+        "bottom": 28,
+        "dry_hue": "7.5YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bk1--3 to 11 inches; brown (7.5YR 4/3) gravelly loam, dark brown (7.5YR 3/3) moist; weak fine and medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine, fine, and common medium roots; 15 percent gravel, 5 percent cobbles (all rock fragments are limestone); strongly effervescent; many fine and medium masses and many fine  concretions of calcium carbonate; 13 percent calcium carbonate equivalent; moderately alkaline; clear wavy boundary."
+      },
+      {
+        "name": "Bk2",
+        "top": 28,
+        "bottom": 69,
+        "dry_hue": "5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bk2--11 to 27 inches; reddish brown (5YR 5/3) extremely gravelly loam, reddish brown (5YR 4/3) moist; weak fine subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; many fine, medium, and few coarse roots; 40 percent gravel, 20 percent cobbles, 10 percent stones (all rock fragments are limestone); violently effervescent; many fine, medium, and many fine concretions of calcium carbonate; 23 percent calcium carbonate equivalent; moderately alkaline; abrupt wavy boundary. (The combined thickness of the Bk horizons is 19 to 35 inches)"
+      },
+      {
+        "name": "2Cr",
+        "top": 69,
+        "bottom": 94,
+        "texture_class": "sand",
+        "narrative": "2Cr--27 to 37 inches; weathered sandstone and limestone"
+      },
+      {
+        "name": "R",
+        "top": 94,
+        "narrative": "R--37 inches; San Andreas limestone"
+      }
+    ]
+  ]
 }

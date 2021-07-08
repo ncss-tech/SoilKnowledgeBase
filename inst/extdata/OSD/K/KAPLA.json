@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are: Umbric epipedon - the zone from 0 to 12 inches (Oe and A horizons); Cambic horizon - the zone from 12 to 24 inches; Aquic suborder - based on 2 chroma matrix and Fe concentrations from the base of the A horizon to 80 inches.\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 13,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oe-- 0 to 5 inches; very dark brown (10YR 2/2) mucky peat; massive, very friable, very strongly acid, clear smooth boundary. (2 to 7 inches thick)."
+      },
+      {
+        "name": "A",
+        "top": 13,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A-- 5 to 12 inches; black (10YR 2/1) fine sandy loam, dark grayish brown (10YR 4/2) dry; weak fine subangular blocky structure; friable; strongly acid; clear smooth boundary.  (3 to 8 inches thick)"
+      },
+      {
+        "name": "Bg1",
+        "top": 30,
+        "bottom": 61,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bg1-- 12 to 24 inches; dark grayish brown (2.5Y 4/2); fine sandy loam; weak medium subangular blocky structure; friable; common medium distinct dark yellowish brown (10YR 4/4) Fe concentrations and common medium distinct gray (5Y6/1) Fe depletions; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bg2",
+        "top": 61,
+        "bottom": 94,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loamy fine sand",
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bg2-- 24 to 37 inches; grayish brown (2.5Y 5/2); loamy fine sand with thin strata of fine sandy loam, loamy sand, and silt loam; weak medium subangular blocky structure; very friable; common medium distinct dark yellowish brown (10YR 4/4) Fe concentrations and common medium faint gray (5Y6/1) Fe depletions; moderately acid; gradual wavy boundary. ( Combined thickness of the Bg horizons is 15 to 40 inches.)"
+      },
+      {
+        "name": "Cg",
+        "top": 94,
+        "bottom": 203,
+        "moist_hue": "5Y",
+        "moist_value": 5,
+        "moist_chroma": 1,
+        "texture_class": "loamy fine sand",
+        "pH_class": "moderately acid",
+        "narrative": "Cg-- 37 to 80 inches; gray (5Y 5/1); stratified loamy fine sand, fine sandy loam, loamy sand, and silt loam; very friable; common medium prominent dark yellowish brown (10YR 4/4) Fe concentrations and common medium faint gray (5Y6/1) Fe depletions; moderately acid."
+      }
+    ]
+  ]
 }

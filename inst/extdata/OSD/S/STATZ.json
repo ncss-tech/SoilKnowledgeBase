@@ -56,5 +56,84 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and other features:\nMollic epipedon - the zone from 0 to 9 inches (A1 and A2 horizons)\nDuripan - the zone from 16 to 27 inches (2Bkqm horizon)\nVitritorrandic - the zone from 0 to 9 inches has over 5 percent glass and over 0.4 percent acid oxalate extractable aluminum plus one-half the acid oxalate iron.  This data is based on the associated Deschutes Series.\nADDITIONAL DATA:  Soil characterization data on two pedons (S79-OR-013-1 and S79-OR-013-2) reported in Oregon State University Soils Laboratory Report for Statz soils sampled in Crook County, Oregon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--0 to 4 inches; grayish brown (10YR 5/2) ashy sandy loam, very dark grayish brown (10YR 3/2) moist; weak thin platy structure; soft, very friable, slightly sticky and nonplastic; many very fine roots; many very fine pores; neutral (pH 7.3); clear wavy boundary. (3 to 6 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 23,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "pH": 7.8,
+        "pH_class": "slightly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A2--4 to 9 inches; brown (10YR 5/3) ashy sandy loam, very dark grayish brown (10YR 3/2) moist; massive; soft, very friable, slightly sticky and nonplastic; common roots, many very fine pores; slightly alkaline (pH 7.8); abrupt smooth boundary.  (4 to 8 inches thick)"
+      },
+      {
+        "name": "2Bkq",
+        "top": 23,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "pH": 8.4,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "2Bkq--9 to 16 inches; pale brown (10YR 6/3) sandy loam, dark brown (10YR 3/3) moist; massive; firm and brittle; few roots; many very fine pores; strongly effervescent; moderately alkaline (pH 8.4); abrupt smooth boundary.  (0 to 9 inches thick)"
+      },
+      {
+        "name": "2Bkqm",
+        "top": 41,
+        "bottom": 69,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "narrative": "2Bkqm--16 to 27 inches; pale brown (10YR 6/3) duripan, dark brown (10YR 3/3) moist; platy; indurated; reticulate pattern of opal veins about 1 millimeter thick in plates; tops of some plates have an opal cap 1 millimeter thick; slightly effervescent.  (7 to 15 inches thick)"
+      },
+      {
+        "name": "3R",
+        "top": 69,
+        "narrative": "3R--27 inches; basalt"
+      }
+    ]
+  ]
 }

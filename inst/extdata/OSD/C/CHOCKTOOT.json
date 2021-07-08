@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The isotic mineralogy class was added to the taxonomic classification in May 2001 and is estimated based on properties of similar soils in MLRA 21.\nDiagnostic horizons and features recognized in this pedon are:\nOrganic soil material - The zone from the soil surface to 2 inches (Oi horizon).\nMollic epipedon - The zone from the soil surface to 12 inches (Oi, A1, and A2 horizons).\nVitrandic intergrade feature - The zone from 2 to 12 inches (A1 and A2 horizons).\nArgillic horizon - The zone from 12 to 36 inches (Bt horizon).\nParticle-size control section - The zone from 12 to 32 inches (part of the Bt horizon).\nADDITIONAL DATA:  U.S. Forest Service vegetative site CW-C4-11\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 5,
+        "narrative": "Oi--0 to 2 inches; slightly decomposed plant material consisting of white fir needles."
+      },
+      {
+        "name": "A1",
+        "top": 5,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A1--2 to 4 inches; very dark grayish brown (10YR 3/2) very gravelly ashy loam, brown (10YR 4/3) dry; weak very fine and fine granular structure; soft, very friable, slightly sticky and nonplastic; common roots; many irregular pores; 10 percent cobbles and 35 percent gravel; neutral (pH 6.9); gradual wavy boundary.  (2 to 5 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--4 to 12 inches; dark brown (10YR 3/3) very gravelly ashy loam, brown (10YR 4/3) dry; moderate very fine and fine granular structure; slightly hard, very friable, slightly sticky and slightly plastic; common roots; many irregular pores; 5 percent stones, 10 percent cobbles, and 35 percent gravel; slightly acid (pH 6.4); clear wavy boundary.  (8 to 13 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 30,
+        "bottom": 91,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "cf_class": "very gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--12 to 36 inches; dark brown (7.5YR 3/4) very gravelly clay loam, brown (7.5YR 5/4) dry; moderate fine subangular blocky structure; slightly hard, friable, moderately sticky and moderately plastic; common roots; common very fine and fine tubular pores; few faint clay films on faces of peds; 10 percent cobbles and 40 percent gravel; slightly acid (pH 6.4); gradual wavy boundary.  (18 to 28 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 91,
+        "bottom": 152,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.2,
+        "pH_class": "slightly acid",
+        "narrative": "C--36 to 60 inches; dark brown (7.5YR 3/4) very gravelly loam, brown (7.5YR 5/4) dry; massive; slightly hard, very friable, slightly sticky and nonplastic; few roots; few very fine and fine tubular pores; 50 percent gravel; slightly acid (pH 6.2)."
+      }
+    ]
+  ]
 }

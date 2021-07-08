@@ -56,5 +56,93 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from 8 to 61 cm (A, Bw, Bg horizons)\nLithologic discontinuity - at 61 (2C horizon)\nParticle-size control section - from 33 to 108 cm (part of Bw, Bg, part of 2C horizons).\nFunnel soils have a frigid temperature regime and an aquic moisture regime.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oe",
+        "top": 0,
+        "bottom": 8,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Oe--0 to 8 cm; black (10YR 2/1) mucky peat, very dark grayish brown (10YR 3/2) dry; neutral (pH 6.8); clear smooth boundary. (3 to 10 cm thick)"
+      },
+      {
+        "name": "A",
+        "top": 8,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silty clay loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--8 to 18 cm; black (10YR 2/1) silty clay loam, very dark gray (10YR 3/1) dry; moderate fine and medium granular structure; moderately hard, friable, moderately sticky and moderately plastic; many fine and medium roots; many very fine and fine irregular pores; neutral (pH 6.6); clear smooth boundary. (8 to 15 cm thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 18,
+        "bottom": 51,
+        "dry_hue": "10YR",
+        "dry_value": 3,
+        "dry_chroma": 1,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "silty clay",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bw--18 to 51 cm; black (10YR 2/1) silty clay, very dark gray (10YR 3/1) dry; weak coarse and very coarse subangular blocky structure; rigid, very firm, very sticky and very plastic; many fine and medium roots; many very fine and fine irregular pores; neutral (pH 6.6); clear smooth boundary.  (30 to 61 cm thick)"
+      },
+      {
+        "name": "Bg",
+        "top": 51,
+        "bottom": 61,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 1,
+        "moist_hue": "5GY",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bg--51 to 61 cm; very dark greenish gray (5GY 3/1) clay loam, gray (10YR 5/1) dry; many medium prominent brownish yellow (10YR 6/6) redox concentrations; massive; rigid, very firm, very sticky and very plastic; few very fine roots; few very fine irregular pores; slightly acid (pH 6.4); clear smooth boundary. (0 to 20 cm thick)"
+      },
+      {
+        "name": "2C",
+        "top": 61,
+        "bottom": 152,
+        "texture_class": "sand",
+        "cf_class": "extremely gravelly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "narrative": "2C--61 to 152 cm; variegated extremely gravelly sand; single grain; loose, nonsticky and nonplastic; 50 percent gravel and 20 percent cobbles; neutral (pH 7.0)."
+      }
+    ]
+  ]
 }

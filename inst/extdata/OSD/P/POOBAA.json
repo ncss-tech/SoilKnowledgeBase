@@ -56,5 +56,70 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the soil surface to 13 cm (A horizon).\nArgillic horizon - The zone from 13 to 64 cm (Bt and Btk horizons).\nCalcic horizon - The zone from 41 to 64 cm (Btk horizon).\nLithic contact - The boundary at 64 cm (R layer).\nParticle-size control section - The zone from 13 to 64 cm (Bt and Btk horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 13,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 3,
+        "texture_class": "loamy coarse sand",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 13 cm; pale brown (10YR 6/3) loamy coarse sand, brown (10YR 4/3); weak thin platy structure parting to weak very fine subangular blocky structure; soft, very friable, nonsticky and nonplastic; few fine roots; common fine vesicular and interstitial pores; 10 percent gravel; neutral (pH 7.2); clear smooth boundary. (8 to 18 cm thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 13,
+        "bottom": 41,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sandy clay loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--13 to 41 cm; brown (10YR 5/3) sandy clay loam, brown (10YR 4/3) moist; moderate medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common fine and medium, few coarse roots; common fine and medium interstitial and tubular pores; 10 percent gravel; common faint and distinct clay films lining pores; slightly alkaline (pH 7.6); clear smooth boundary. (15 to 30 cm thick)"
+      },
+      {
+        "name": "Btk",
+        "top": 41,
+        "bottom": 64,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "coarse sandy loam",
+        "cf_class": "gravelly",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Btk--41 to 64 cm; light brownish gray (10YR 6/2) gravelly coarse sandy loam; dark grayish brown (10YR 4/2) moist; moderate medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; common fine roots; few fine and medium interstitial and tubular pores; 15 percent gravel; common faint and distinct clay films on ped faces; common spherical secondary calcium carbonate masses; common distinct secondary calcium carbonate masses around rock fragments; strongly effervescent; moderately alkaline (pH 8.2); abrupt wavy boundary. (18 to 53 cm thick)"
+      },
+      {
+        "name": "R",
+        "top": 64,
+        "narrative": "R--64 cm; hard, fractured, coarse-grained andesite with secondary calcium carbonate in fractures."
+      }
+    ]
+  ]
 }

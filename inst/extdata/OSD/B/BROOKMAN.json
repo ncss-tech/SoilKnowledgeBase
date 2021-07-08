@@ -56,5 +56,79 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nUmbric epipedon - the zone from the soil surface to a depth of 15 inches (A, Btg1 horizons).\nArgillic horizon - the zone from a depth of 10 to 65 inches (Btg1, Btg2, Btg3 and Btg4 horizons).\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nGA0065 BROOKMAN    0-  2   65- 70  250-285  48- 50     5- 100\nGA0094 BROOKMAN    0-  2   65- 70  250-285  48- 50     5- 100\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness GA0065 NONE   COMMON   0-1.0  APPARENT NOV-MAY  60-60\nGA0094 NONE             -     APPARENT    -     60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC- GA0065  0-15  CL L SIL                0-  0  95-100  5-30  10- 20 GA0065  0-15  MK-L MK-SIL MK-FSL      0-  0  95-100  5-25  15- 30 GA0065 15-58  SC C CL                 0-  0  98-100 35-55  10- 15 GA0065 58-65  SC C SCL                0-  0  90-100 20-55   8- 15 GA0094  0-15  CL L SIL                0-  0  95-100  5-30  10- 20 GA0094  0-15  MK-L MK-SIL MK-FSL      0-  0  95-100  5-25  15- 30 GA0094 15-58  SC C CL                 0-  0  98-100 35-55  10- 15 GA0094 58-65  SC C SCL                0-  0  90-100 20-55   8- 15\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nGA0065  0-15  4.5- 6.5  3.-10  0- 0   0.6- 2.0  LOW\nGA0065  0-15  4.5- 6.5  10-20  0- 0   0.6- 2.0  LOW\nGA0065 15-58  4.5- 6.5  1.-2.  0- 0   0.6- 2.0  MODERATE\nGA0065 58-65  5.1- 7.8  0.-.5  0- 0  0.06- 0.2  MODERATE\nGA0094  0-15  4.5- 6.5  3.-10  0- 0   0.6- 2.0  LOW\nGA0094  0-15  4.5- 6.5  10-20  0- 0   0.6- 2.0  LOW\nGA0094 15-58  4.5- 6.5  1.-2.  0- 0   0.6- 2.0  MODERATE\nGA0094 58-65  5.1- 7.8  0.-.5  0- 0  0.06- 0.2  MODERATE\nMLRA= 152A, 153A, 153B\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "very poorly"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A--0 to 10 inches; black (10YR 2/1) clay loam; weak fine granular structure; slightly hard, friable, sticky; many fine and medium roots; strongly acid; clear wavy boundary.  (5 to 15 inches thick)"
+      },
+      {
+        "name": "Btg1",
+        "top": 25,
+        "bottom": 38,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg1--10 to 15 inches; very dark gray (10YR 3/1) clay; weak fine subangular blocky structure; firm; common fine and medium roots; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btg2",
+        "top": 38,
+        "bottom": 84,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg2--15 to 33 inches; dark gray (10YR 4/1) clay; few fine prominent brownish yellow (10YR 6/8) mottles; weak medium subangular blocky structure; firm; few fine roots; common medium and large tree roots; many prominent clay films on faces of peds; common nodules of calcium carbonate in pockets; strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btg3",
+        "top": 84,
+        "bottom": 147,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "clay",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btg3--33 to 58 inches; grayish brown (10YR 5/2) clay; common medium prominent gray (N 5/0) and brownish yellow (10YR 6/8) mottles; moderate medium subangular blocky structure; firm; many prominent clay films on faces of peds; many coarse nodules of calcium carbonate in pockets; slightly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btg4",
+        "top": 147,
+        "bottom": 165,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "clay",
+        "pH_class": "neutral",
+        "narrative": "Btg4--58 to 65 inches; coarsely mottled gray (10YR 6/1), yellowish brown (10YR 5/8) and greenish gray (5G 5/1) clay; weak medium subangular blocky structure; firm; many coarse nodules of calcium carbonate; neutral.  (Combined thickness of the Btg horizons is 55 to more than 75 inches)"
+      }
+    ]
+  ]
 }

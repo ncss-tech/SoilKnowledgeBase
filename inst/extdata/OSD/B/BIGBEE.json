@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nOchric epipedon - the zone from the surface to about 8 inches (Ap horizon).\nThese soils have a water table ranging from 20 to 40 inches for about two weeks each year and of a depth ranging 40 and 70 inches from one to two months each year.\nIn some areas of Bigbee soils, the depth to a seasonal high water table ranges from 20 to 40 inches for short periods and 40 to 70 inches for one to two months during high rainfall periods and the permanent water table is at about 8 feet from the surface. During updates, these areas will be separated from Bigbee soils and placed into existing or new series.\nADDITIONAL DATA:  Chemical and Physical analyses for one pedon are in manuscript of Soil Survey of Jones County, Mississippi.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; dark yellowish brown (10YR 3/4) loamy sand; single grain; loose; few fine roots; strongly acid; clear smooth boundary.  (4 to 11 inches thick)"
+      },
+      {
+        "name": "C1",
+        "top": 20,
+        "bottom": 43,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "C1--8 to 17 inches; yellowish red (5YR 4/6) loamy sand; single grain; loose, very friable; few fine roots; strongly acid; abrupt smooth boundary."
+      },
+      {
+        "name": "C2",
+        "top": 43,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "C2--17 to 32 inches; yellowish brown (10YR 5/4) sand; single grain; loose; very strongly acid; clear smooth boundary. (Combined thickness of the upper part of the C horizon is 20 to 40 inches)"
+      },
+      {
+        "name": "C3",
+        "top": 81,
+        "bottom": 203,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "narrative": "C3--32 to 80 inches; pale brown (10YR 6/3) sand; single grain; loose; very strongly acid."
+      }
+    ]
+  ]
 }

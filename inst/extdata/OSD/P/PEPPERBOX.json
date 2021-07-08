@@ -56,5 +56,105 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  This series is separated from areas that were formerly mapped as Evesboro loamy sand, loamy substratum in southern Delaware. The 02/2005 revision updates the status from tentative to established (per correlation of Anne Arundel County, Maryland). Some minor edits were also made.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to 25 inches (A1, A2, and E horizons).\nArenic feature - the zone from the surface to 25 inches (A1, A2, and E horizons).\nEluvial horizon - the zone from 10 to 25 inches (E horizon).\nArgillic horizon - the zone from 25 to 65 inches (Bt, 2Btg1, and 2Btg2 horizons).\nAquic feature - the soil has mottles with chroma of 2 or less in the upper part of the Bt and a gray matrix with high chroma iron concentrations in the 2Btg1 and 2Btg2 horizons.\nUdult feature - no part of the moisture control section is dry for as long as 90 consecutive days.\nRevised: 11/2002-RLH,CDP; 02/2005-SLD,DHK,PSK\nADDITIONAL DATA: Data from characterization pedons S90DE-005-020, S90DE-005-020B and S90DE-005-020A are available from the National Soil Survey Laboratory, Lincoln, Nebraska NE.\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nDE0004 PEPPERBOX   0-  5   55- 58  175-200  36- 55    20-  40\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nDE0004 NONE          2.0-3.0  APPARENT JAN-APR  60-60\nSOI-5  Depth  Texture                3-Inch  No-10  Clay%   -CEC-\nDE0004  0-10  LS                      0-  0 100-100  4-12   1-  6\nDE0004 10-25  LS                      0-  0 100-100  2-10   1-  2\nDE0004 25-37  SL FSL L                0-  0  95-100  8-20   1-  4\nDE0004 37-80  SCL SICL SC             0-  0  95-100 20-40   3- 10\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nDE0004  0-10  3.6- 5.5  1.-3.  0- 0   2.0- 6.0  LOW\nDE0004 10-25  3.6- 5.5    -    0- 0   2.0- 6.0  LOW\nDE0004 25-37  3.6- 5.5    -    0- 0   0.6- 2.0  LOW\nDE0004 37-80  3.6- 5.5    -    0- 0  0.06- 0.2  MODERATE\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loamy sand",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 4 inches; dark grayish brown (2.5Y 4/2) loamy sand; weak medium and coarse granular structure; very friable; many very fine and fine and common medium roots; extremely acid; abrupt smooth boundary."
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 25,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A2--4 to 10 inches; light olive brown (2.5Y 5/4) loamy sand; weak coarse subangular blocky structure; very friable; common very fine and fine roots; very strongly acid; clear wavy boundary. (Combined thickness of the A horizon is 7 to 12 inches.)"
+      },
+      {
+        "name": "E",
+        "top": 25,
+        "bottom": 64,
+        "moist_hue": "2.5Y",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "E--10 to 25 inches; light yellowish brown (2.5Y 6/4) loamy sand; massive; very friable; common very fine and fine roots; very strongly acid; clear wavy boundary. (14 to 25 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 64,
+        "bottom": 94,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 6,
+        "texture_class": "sandy loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--25 to 37 inches; brownish yellow (10YR 6/6) sandy loam; weak medium and coarse subangular blocky structure; friable, slightly sticky, slightly plastic; few very fine and fine roots; common distinct clay bridging on sand grains and few distinct clay films (cutans) in root channels; common medium distinct light gray (10YR 7/2) iron depletions and common medium strong brown (7.5YR 5/8) and few medium prominent red (2.5YR 5/8) iron masses; very strongly acid; clear smooth boundary. (10 to 15 inches thick)"
+      },
+      {
+        "name": "2Btg1",
+        "top": 94,
+        "bottom": 114,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2Btg1--37 to 45 inches; gray (10YR 6/1) sandy clay loam; weak coarse subangular blocky structure; firm, sticky, slightly plastic; few very fine and fine roots on faces of peds; few distinct clay films (cutans) on faces of peds and in pores; common coarse distinct brownish yellow (10YR 6/8) and few medium prominent red (2.5YR 4/8) iron masses; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "2Btg2",
+        "top": 114,
+        "bottom": 165,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "2Btg2--45 to 65 inches; light gray (10YR 7/1) sandy clay loam; weak coarse platy structure parting to weak coarse subangular blocky; firm, sticky, slightly plastic; few fine roots; few distinct clay films (cutans) on faces of peds and in pores; few coarse prominent reddish yellow (7.5YR 6/8) and many fine prominent reddish yellow (7.5YR 6/6) iron masses; very strongly acid; gradual wavy boundary. (Combined thickness of the 2Btg horizon is 23 to 44 inches.)"
+      },
+      {
+        "name": "2Cg",
+        "top": 165,
+        "bottom": 203,
+        "moist_hue": "5Y",
+        "moist_value": 7,
+        "moist_chroma": 1,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "2Cg--65 to 80 inches; light gray (5Y 7/1) stratified sandy clay loam containing thin sandy loam lenses; massive; firm to friable, slightly sticky, slightly plastic; common medium prominent reddish yellow (7.5YR 6/8) and few medium prominent red (2.5YR 4/6) iron masses within the sandy loam lenses; very strongly acid."
+      }
+    ]
+  ]
 }

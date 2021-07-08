@@ -56,5 +56,107 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\n1. Ochric epipedon - the zone from the surface of the soil to a depth of about 4 inches (E horizon).\n2. Cambic horizon - the zone from 4 inches to a depth of about 32 inches (Bs, Bw1 and Bw2 horizons).\n3. Fragipan - the zone from 32 inches to a depth of about 60 inches (Bx horizon).\nADDITIONAL DATA: Laboratory data is available on four pedons in Pike County, Pennsylvania, S64Pa-52-1, S64Pa-52-11 and S64Pa-52-12; and tow pedons in Northamption County, Pennsylvania, S67Pa-48-32 and S67Pa-48-33.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi -- 0 to 1 inches; brown (7.5YR 4/2) hardwood leaf litter; extremely acid; abrupt smooth boundary. (1 to 2 inches thick.)"
+      },
+      {
+        "name": "Oe",
+        "top": 3,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oe -- 1 to 2 inches; black (10YR 2/1) leaf mold; roots and fungus mycelia in fibrous mat; extremely acid; abrupt smooth boundary. (0 to 1 inch thick.)"
+      },
+      {
+        "name": "E",
+        "top": 5,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "fine sandy loam",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "E -- 2 to 4 inches; grayish brown (10YR 5/2) fine sandy loam; weak fine granular structure; very friable; 10 percent sandstone and quartzite pebbles; common stones; extremely acid; abrupt irregular boundary. (0 to 3 inches thick.)"
+      },
+      {
+        "name": "Bs",
+        "top": 10,
+        "bottom": 18,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bs -- 4 to 7 inches; strong brown (7.5YR 5/6) gravelly fine sandy loam; weak fine granular structure; very friable; 15 percent rock fragments; common stones; extremely acid; clear wavy boundary. (0 to 5 inches thick.)"
+      },
+      {
+        "name": "Bw1",
+        "top": 18,
+        "bottom": 51,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw1 -- 7 to 20 inches; yellowish brown (10YR 5/4) gravelly fine sandy loam; weak fine subangular blocky structure; friable, slightly sticky; 25 percent rock fragments; extremely acid; clear wavy boundary. (10 to 15 inches thick.)"
+      },
+      {
+        "name": "Bw2",
+        "top": 51,
+        "bottom": 81,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw2 -- 20 to 32 inches; brown (10YR 5/3) gravelly sandy loam; some weak plates parting to weak medium subangular blocky structure; firm; 30 percent rock fragments; very strongly acid; clear wavy boundary. (6 to 14 inches thick.)"
+      },
+      {
+        "name": "Bx",
+        "top": 81,
+        "bottom": 157,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "cf_class": "gravelly",
+        "pH_class": "very strongly acid",
+        "narrative": "Bx -- 32 to 62 inches; dark yellowish brown (10YR 4/4) gravelly fine sandy loam; weak very thick platy structure; brittle; very firm; 30 percent rock fragments; few faint clay films in pores; very strongly acid."
+      }
+    ]
+  ]
 }

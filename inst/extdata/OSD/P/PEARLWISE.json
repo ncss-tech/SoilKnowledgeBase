@@ -56,5 +56,90 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - The zone from the soil surface to 64 cm (A1, A2, and A3 horizons).\nCambic horizon - The zone from 64 to 89 cm (Bw horizon).\nLithic contact - The boundary at 89 cm to underlying hard, unweathered bedrock (R layer).\nParticle-size control section - The zone from 25 to 89 cm (A3 and Bw horizons and part of the A2 horizon).\nADDITIONAL DATA: Previous authors and editors include: RDK-RJK-TDT.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 10 cm; brown (10YR 4/3) loam, dark brown (10YR 3/3) moist; weak medium platy structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine, fine and few medium roots; many very fine and fine irregular tubular pores; 3 percent cobbles and 10 percent gravel; neutral (pH 6.8); clear smooth boundary.  (5 to 15 cm thick)"
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 38,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--10 to 38 cm; grayish brown (10YR 5/2) loam, very dark grayish brown (10YR 3/2) moist; moderate medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine, fine and few medium roots; many very fine and fine irregular tubular pores; 5 percent cobbles and 8 percent gravel; neutral (pH 6.8); clear smooth boundary.  (18 to 40 cm thick)"
+      },
+      {
+        "name": "A3",
+        "top": 38,
+        "bottom": 64,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A3--38 to 64 cm; grayish brown (10YR 5/2) loam, very dark grayish brown (10YR 3/2) moist; moderate medium subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine, fine and few medium roots; many very fine and fine irregular tubular pores; 10 percent cobbles; neutral (pH 7.0); clear smooth boundary. (0 to 30 cm thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 64,
+        "bottom": 89,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "cobbly",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--64 to 89 cm; light yellowish brown (10YR 6/4) cobbly loam, dark yellowish brown (10YR 4/4) moist; moderate medium subangular blocky structure; slightly hard; friable, slightly sticky and slightly plastic; common fine roots; common very fine and fine irregular tubular pores; 10 percent cobbles and 10 percent gravel; neutral (pH 7.0); clear wavy boundary. (0 to 30 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 89,
+        "narrative": "R--89 cm; basalt."
+      }
+    ]
+  ]
 }

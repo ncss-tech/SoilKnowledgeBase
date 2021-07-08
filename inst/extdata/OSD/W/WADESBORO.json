@@ -56,5 +56,81 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The Wadesboro series was made inactive after 1971. It includes soils previously mapped as Stoneville which is now classified as mesic. The hardness of the Cr horizon tends to fluctuate with soil moisture. It does not slake after being immersed in water for one hour but will disperse with the hexametaphosphate treatment.\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5 Soil Name Slope  Airtemp  FrFr/Seas   Precip  Elevation\nNC    WADESBORO  2-40   58-62   180-220     42-50    350-450\nSOI-5 FloodL FloodH Watertable Kind Months Bedrock  Hardness\nNC    NONE           6.0-6.0     -          40-60    SOFT\nSOI-5 Depth Texture    3-Inch  No-10   Clay%   -CEC-\nNC    0- 8  L SIL      0-8     90-100  12-28   2-8\nNC    0- 8  SICL CL    0-8     90-100  27-40   2-8\nNC    8-30  C CL SIC   0-5     95-100  35-60   7-13\nNC   30-41  CL SICL L  0-5     95-100  10-35   2-7\nNC   41-62  WB          -        -       -      -\nSOI-5 Depth  -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC    0- 8  4.5-6.0  .5-2.  0-0    0.6- 2.0   LOW\nNC    0- 8  4.5-6.0  .5-1.  0-0    0.6- 2.0   LOW\nNC    8-30  4.5-6.0  0.-.5  0-0    0.6- 2.0   MODERATE\nNC   30-41  4.5-6.0  0.-.5  0-0    0.6- 2.0   LOW\nNC   41-62     -       -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; dark reddish brown (5YR 3/4) clay loam; moderate medium granular structure; friable; many medium roots; very strongly acid; abrupt smooth boundary. (0 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 51,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--8 to 20 inches; dark red (2.5YR 3/6) clay; reddish brown (2.5YR 4/4) dry; moderate medium subangular blocky structure; firm, moderately sticky, moderately plastic; common medium roots; thin continuous clay films on faces of peds; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 51,
+        "bottom": 76,
+        "dry_hue": "2.5YR",
+        "dry_value": 4,
+        "dry_chroma": 4,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2--20 to 30 inches; dark reddish brown (2.5YR 3/4) clay; reddish brown (2.5YR 4/4) dry; moderate medium subangular blocky structure; firm, moderately sticky, moderately plastic; common medium roots; very strongly acid; gradual wavy boundary. (Combined thickness of the Bt horizons is 10 to 42 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 76,
+        "bottom": 104,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "C--30 to 41 inches; dark reddish brown (2.5YR 3/4) loam saprolite; massive; friable; few medium roots; very strongly acid; gradual wavy boundary. (5 to 15 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 104,
+        "bottom": 157,
+        "texture_class": "silt",
+        "narrative": "Cr--41 to 62 inches; highly weathered fractured Triassic siltstone."
+      }
+    ]
+  ]
 }

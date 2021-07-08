@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - from 0 to 25 inches (A1, A2, and Bw horizons).\nParticle-size control section - from 10 to 25 inches (part of the A2 and all of the Bw horizons).\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.4,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A1--0 to 4 inches; dark brown (10YR 3/3) very gravelly loam, very dark brown (10YR 2/2) moist; weak medium subangular blocky structure parting to weak fine granular; hard, very friable, slightly plastic; many very fine and fine, and few medium and coarse roots; many very fine interstitial pores; 35 percent pebbles; slightly acid (pH 6.4); gradual smooth boundary.  (4 to 10 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 10,
+        "bottom": 30,
+        "moist_hue": "7.5YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--4 to 12 inches; dark brown (7.5YR 3/2) extremely gravelly loam, very dark brown (10YR 2/2) moist; weak medium subangular blocky structure; slightly hard, very friable, slightly sticky and slightly plastic; few fine, medium, and coarse roots; common fine interstitial and few fine tubular pores; 60 percent pebbles; slightly acid (pH 6.5); clear smooth boundary.  (8 to 12 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 30,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bw--12 to 25 inches; yellowish brown (10YR 5/4) extremely gravelly loam, very dark gray (N 31) moist; weak fine subangular blocky structure; soft, very friable; few fine roots; common fine interstitial pores; 80 percent pebbles; neutral (pH 6.8); abrupt wavy boundary.  (6 to 25 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 64,
+        "narrative": "R--25 inches; fractured rhyolite bedrock."
+      }
+    ]
+  ]
 }

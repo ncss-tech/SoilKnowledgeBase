@@ -56,5 +56,87 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from 0 to 18 inches (A1, A2, A3 horizons)\nArgillic horizon - 18 to 35 inch depth (Bt1 and Bt2 horizons)\nParalithic contact - at 35 inches\nOrganic carbon - The A horizon has mollic colors but has less than 0.6 percent organic carbon.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A1--0 to 3 inches; light brownish gray (10YR 6/2) loam, very dark grayish brown (10YR 3/2) moist; weak medium platy structure; slightly hard, friable, slightly sticky, slightly plastic; many very fine roots; many very fine pores; neutral (pH 6.9); clear smooth boundary.  (1 to 5 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 8,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.9,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "A2--3 to 9 inches; light brownish gray (10YR 6/2) loam, very dark grayish brown (10YR 3/2) moist; weak medium and fine subangular blocky structure; slightly hard, friable, slightly sticky, slightly plastic; common very fine roots; common very fine pores; neutral (pH 6.9); gradual smooth boundary.  (4 to 8 inches thick)"
+      },
+      {
+        "name": "A3",
+        "top": 23,
+        "bottom": 46,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "narrative": "A3--9 to 18 inches; similar to A2 except brown (10YR 5/3) and dark brown (10YR 3/3) moist; weak medium and coarse subangular blocky structure.  (6 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 46,
+        "bottom": 76,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1--18 to 30 inches; brown (10YR 5/3) clay loam, dark brown (10YR 3/3) moist; weak medium and coarse subangular blocky structure; slightly hard, friable, sticky, plastic; few very fine roots; few very fine pores; few faint clay films in the pores; neutral (pH 7.0) gradual wavy boundary.  (8 to 12 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 76,
+        "bottom": 89,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH": 7,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt2--30 to 35 inches; strong brown (7.5YR 5/6) clay, dark brown (7.5YR 4/4) moist; moderate medium subangular blocky structure; hard, firm, sticky, plastic; few prominent clay films on faces of peds and in pores; neutral (pH 7.0) clear smooth boundary.  (3 to 6 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 89,
+        "texture_class": "clay",
+        "narrative": "Cr--35 inches; decomposing semiconsolidated, dominantly basic igneous bedrock; clay films in some cracks; slightly effervescent in places."
+      }
+    ]
+  ]
 }

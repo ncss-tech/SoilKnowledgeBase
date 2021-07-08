@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nOchric epipedon - the zone from the surface to approximately 7 inches (Ap horizon).\nArgillic horizon - the zone from approximately 18 to 51 inches (Bt horizon).\nADDITIONAL DATA:\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nGA0046 MOLENA      0- 35   60- 70  200-240  45-55   200-700\nSOI-5  FloodL FloodH Watertable Kind   Months  Bedrock Hardness\nGA0046 NONE   RARE   6.0-6.0              -     60-60\nSOI-5  Depth  Texture       3-Inch   No-10   Clay%   -CEC-\nGA0046  0-7   S LS          0-0      98-100  2- 7     -\nGA0046  7-51  LFS LS        0-0      98-100  5-10     -\nGA0046 51-60  S COS GR-S    0-5      60-100  0- 5     -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nGA0046  0-7   4.5- 6.5  .5-2.  0- 0   6.0-20    LOW\nGA0046  7-51  4.5- 6.0    -    0- 0   6.0-20    LOW\nGA0046 51-60  4.5- 6.0    -    0- 0   6.0-20    LOW\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "somewhat excessively"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; reddish brown (5YR 4/3) sand; single grained; loose; many fine roots; very strongly acid; abrupt smooth boundary. (5 to 12 inches thick)"
+      },
+      {
+        "name": "BE",
+        "top": 18,
+        "bottom": 46,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "loamy sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "BE--7 to 18 inches; yellowish red (5YR 4/6) loamy sand; weak fine granular structure; very friable; common fine roots; few fine pores; few fine flakes of mica; very strongly acid; clear smooth boundary. (0 to 14 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 46,
+        "bottom": 130,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "loamy fine sand",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt--18 to 51 inches; yellowish red (5YR 5/6) loamy fine sand; moderate medium granular structure; very friable; few fine roots; few fine pores; sand grains coated and bridged with clay; few fine flakes of mica; very strongly acid; gradual wavy boundary. (25 to 50 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 130,
+        "bottom": 152,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "coarse sand",
+        "pH_class": "very strongly acid",
+        "narrative": "C--51 to 60 inches; yellowish red (5YR 5/8) coarse sand; single grained; loose; few fine roots; common fine and medium flakes of mica; very strongly acid."
+      }
+    ]
+  ]
 }

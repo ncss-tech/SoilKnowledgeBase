@@ -56,5 +56,84 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon\nare:\nMollic epipedon - the zone from the soil surface to approximately 13\ninches (A horizon).\nParticle size control section - the zone from 10 to 40 inches (part of\nthe A horizon, Bw, C1, C2, and part of the C3 horizon).\nNational Cooperative Soil Survey\nU. S. A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oil",
+        "top": 5,
+        "bottom": 3,
+        "narrative": "Oil--2 to 1 inch; Undecomposed leaves, needles, twigs and cones."
+      },
+      {
+        "name": "0i2",
+        "top": 3,
+        "bottom": 0,
+        "narrative": "0i2--1 to 0 inch; Partially decomposed needles, leaves and twigs."
+      },
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 33,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "sandy loam",
+        "cf_class": "stony",
+        "narrative": "A--0 to 13 inches; dark grayish brown (10YR 4/2) stony sandy loam,"
+      },
+      {
+        "name": "Bw",
+        "top": 33,
+        "bottom": 48,
+        "moist_hue": "10YR",
+        "moist_value": 7,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "narrative": "Bw--13 to 19 inches; very pale brown (10YR 7/3) sandy loam, brown"
+      },
+      {
+        "name": "C1",
+        "top": 48,
+        "bottom": 74,
+        "moist_hue": "5Y",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "narrative": "C1--19 to 29 inches; pale olive (5Y 6/3) sandy loam, olive (5Y 5/3)"
+      },
+      {
+        "name": "C2",
+        "top": 74,
+        "bottom": 99,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "narrative": "C2--29 to 39 inches; light yellowish brown (10YR 6/4) sandy loam,"
+      },
+      {
+        "name": "C3",
+        "top": 99,
+        "bottom": 122,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "cf_class": "very cobbly",
+        "narrative": "C3--39 to 48 inches;  light yellowish brown (10YR 6/4) very cobbly"
+      },
+      {
+        "name": "R",
+        "top": 122,
+        "narrative": "R--48 inches; andesite bedrock."
+      }
+    ]
+  ]
 }

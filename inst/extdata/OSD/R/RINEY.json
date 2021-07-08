@@ -56,5 +56,66 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Reference for Geographic setting is partly from the \"Elizabethtown Geologic Quadrangle, Kentucky,\" by Ray C. Kepfirle, 966 USGS and U.K.\nDiagnostic horizons recognized in this pedon are:\nOchric epipedon: 0 to 8 inches (Ap)\nArgillic horizon: 8 to 54 inches (Bt1) (Bt2)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 8 inches; brown (10YR 5/3) loam; weak fine and medium granular structure; very friable; many fine roots; moderately acid; abrupt smooth boundary. (5 to 10 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 81,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt1--8 to 32 inches; yellowish red (5YR 4/6) light clay loam; moderate medium and fine subangular blocky structure; firm; common fine roots; common small pores, many faint clay films; very strongly acid; gradual smooth boundary. (20 to 30 inches thick)"
+      },
+      {
+        "name": "Bt2",
+        "top": 81,
+        "bottom": 137,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bt2--32 to 54 inches; red (2.5YR 4/6) sandy clay loam; common medium distinct strong brown (7.5YR 5/6) lithomorphic mottles; moderate medium subangular blocky structure; firm; few fine roots; common faint clay films; few medium sandstone fragments; very strongly acid; gradual smooth boundary. (15 to 45 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 137,
+        "bottom": 165,
+        "moist_hue": "2.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "sandy clay loam",
+        "pH_class": "very strongly acid",
+        "narrative": "C--54 to 65 inches; red (2.5YR 4/6) sandy loam; common coarse distinct strong brown (7.5YR 5/6) lithomorphic mottles; massive; friable; few small sandy clay loam bodies; 10 percent medium sandstone fragments; very strongly acid."
+      }
+    ]
+  ]
 }

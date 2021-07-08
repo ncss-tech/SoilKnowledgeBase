@@ -56,5 +56,92 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon:\nUmbric epipedon - from 1 to 23 inches (A1, A2, and Bw horizons)\nAndic feature - from 1 to 12 inches having a moist bulk density of 0.85 to 0.95 grams per cubic centimeter and an estimated acid oxalate extractable aluminum plus one-half iron of 1.0 to 2.0 percent.\nParticle-size control section - from 11 to 41 inches (lower 1 inch of A2 horizon, Bw, and upper 18 inches of C horizon) having a weighted average of 70 percent rock fragments and less than 18 percent clay.\nADDITIONAL DATA:  Characterization data for 2 pedons (FS62-Ore-045-13 (1-4) and FS63-Ore-045-25 (1-4)) by Oregon State University.  (Unpublished)\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; slightly decomposed litter of needles, twigs, cones, leaves, etc."
+      },
+      {
+        "name": "A1",
+        "top": 3,
+        "bottom": 18,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 5.7,
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "A1--1 to 7 inches; black (10YR 2/1) very gravelly loam, dark grayish brown (10YR 4/2) dry; strong fine and medium granular and very fine subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; weakly smeary; 50 percent gravel and cobbles; many roots; many very fine and fine irregular pores; moderately acid (pH 5.7); clear wavy boundary. (3 to 9 inches thick)"
+      },
+      {
+        "name": "A2",
+        "top": 18,
+        "bottom": 30,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 5.9,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "A2--7 to 12 inches; very dark brown (10YR 2/2) extremely gravelly loam, dark brown (10YR 4/3) dry; strong fine and medium granular and very fine subangular blocky structure; slightly hard, slightly sticky and slightly plastic; weakly smeary; 60 percent gravel, cobbles, and stones; many roots; many very fine and fine irregular pores; moderately acid (pH 5.9); gradual wavy boundary. (6 to 20 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 30,
+        "bottom": 58,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely gravelly",
+        "pH": 5.9,
+        "pH_class": "moderately acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bw--12 to 23 inches; dark brown (10YR 3/3) extremely gravelly loam, brown (10YR 5/3) dry; moderate fine and very fine subangular blocky and granular structure; slightly hard, friable, slightly sticky and slightly plastic; 70 percent gravel, cobbles, and stones; many roots; many very fine and fine irregular pores; moderately acid (pH 5.9); gradual wavy boundary. (6 to 20 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 58,
+        "bottom": 155,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "extremely cobbly",
+        "pH": 6,
+        "pH_class": "moderately acid",
+        "narrative": "C--23 to 61 inches; dark brown (10YR 3/3) extremely cobbly loam, brown (10YR 5/3) dry; massive; slightly hard, very friable, slightly sticky and slightly plastic; 70 percent gravel, cobbles, and stones; common roots; many very fine and fine irregular and tubular pores; moderately acid (pH 6.0)."
+      }
+    ]
+  ]
 }

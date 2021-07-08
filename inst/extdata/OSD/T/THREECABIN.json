@@ -56,5 +56,99 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic horizons and features recognized in this pedon are:\nochric epipedon: 0.5 to 12 inches; AE horizon\ncambic horizon: 12 to 31 inches; Bw1, Bw2 horizons\nvitrandic subgroup feature: 0.5 to 31 inches; AE, Bw1, Bw2 horizons\nlithic contact: 45 inches; R horizon\nparticle-size control section: 10 to 40 inches; AE, Bw1, Bw2, BC horizons\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 1,
+        "narrative": "Oi--0 to 0.5 inch; slightly decomposed needles and twigs"
+      },
+      {
+        "name": "AE",
+        "top": 1,
+        "bottom": 30,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "AE--0.5 to 12 inches; brown (7.5YR 4/3) very gravelly ashy loam, brown (7.5YR 5/3) dry; weak to moderate fine granular structure; soft, very friable, nonsticky and nonplastic; common fine roots; many fine and common medium irregular pores; 35 percent gravel and 5 percent cobbles; slightly acid (pH 6.5); gradual smooth boundary. (5 to 17 inches thick)"
+      },
+      {
+        "name": "Bw1",
+        "top": 30,
+        "bottom": 61,
+        "dry_hue": "7.5YR",
+        "dry_value": 5,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.5,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw1--12 to 24 inches; brown (7.5YR 4/4) very gravelly ashy loam, brown (7.5YR 5/4) dry; moderate fine and medium subangular blocky structure; slightly hard, very friable, nonsticky and nonplastic; common fine and medium, and few coarse roots; few fine irregular, and few fine and medium tubular pores; 35 percent gravel and 5 percent cobbles; slightly acid (pH 6.5); gradual smooth boundary."
+      },
+      {
+        "name": "Bw2",
+        "top": 61,
+        "bottom": 79,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Bw2--24 to 31 inches; brown (7.5YR 4/4) very gravelly ashy loam, light brown (7.5YR 6/4) dry; moderate fine and medium subangular blocky structure; slightly hard, friable, nonsticky and nonplastic; few fine and coarse, and common medium roots; few fine and medium tubular pores; 35 percent gravel and 10 percent cobbles; slightly acid (pH 6.1); gradual smooth boundary. (combined thickness of Bw1 and Bw2 horizons is 11 to 39 inches)"
+      },
+      {
+        "name": "BC",
+        "top": 79,
+        "bottom": 114,
+        "dry_hue": "7.5YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
+        "texture_class": "loam",
+        "cf_class": "very gravelly",
+        "pH": 6.1,
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "BC--31 to 45 inches; brown (7.5YR 5/4) very gravelly loam, light brown (7.5YR 6/4) dry; massive; slightly hard, friable, nonsticky and nonplastic; few fine and coarse, and common medium roots; common fine irregular pores; 35 percent gravel and 20 percent cobbles; slightly acid (pH 6.1); abrupt irregular boundary. (0 to 16 inches thick)"
+      },
+      {
+        "name": "R",
+        "top": 114,
+        "narrative": "R--45 inches; basalt bedrock"
+      }
+    ]
+  ]
 }

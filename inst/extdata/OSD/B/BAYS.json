@@ -56,5 +56,47 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  These soils were formerly included in the Dandridge series.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon - The zone from the surface of the mineral soil to approximately 3 inches.  (Ap horizon)\nCambic horizon - The zone from approximately 3 to 16 inches.\n(Bw part)\nRuptic-Alfic feature - The zone from approximately 3 to 16 inches with a cambic horizon in more than 50 percent and argillic horizon in less than 50 percent.  (Bw/Bt horizon)\nShallow feature - The zone at 19 inches with paralithic contact.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silty clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Ap--O to 3 inches; dark grayish brown (10YR 4/2) silty clay loam; moderate medium granular structure; friable; many fine and medium roots; 10 percent fragments of shale up to 1/2 inch across; strongly acid; abrupt wavy boundary.  (1 to 4 inches thick)"
+      },
+      {
+        "name": "Bw/Bt",
+        "top": 8,
+        "bottom": 41,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "cf_class": "channery",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bw/Bt--3 to 16 inches; (Bw part) strong brown (7.5YR 5/6) channery silty clay loam; weak fine subangular blocky structure; very friable; few fine and medium roots; common fine discontinuous tubular pores; 25 percent channers of shale up to 2 inches across; medium acid; (Bt part) intermittent pockets of strong brown (7.5YR 5/6) channery silty clay loam; moderate medium subangular blocky structure; very friable; few fine and medium roots; common fine discontinuous tubular pores; few faint clay films; 25 percent channers of shale up to 2 inches across; medium acid; abrupt irregular boundary.  (6 to 15 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 48,
+        "texture_class": "silt loam",
+        "narrative": "Cr--19 inches; tilted and fractured, soft, partially weathered shale in shades of yellow and brown with thin lenses of yellowish brown silt loam between fractures."
+      }
+    ]
+  ]
 }

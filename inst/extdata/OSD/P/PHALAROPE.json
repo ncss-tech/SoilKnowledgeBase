@@ -56,5 +56,95 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: Diagnostic features and horizons recognized in this profile include:\nAlbic epipedon: 4 to 7 inches. (A/E horizon)\nSpodic horizon: 7 to 25 inches. (Bhs, Bs, and BC/BS horizons)\nLithologic discontinuity: At the upper boundary of 2C horizon\nCoarse-silty upper part of the particle size control section: 4 to 25 inches, sandy or sandy-skeletal lower part of the particle size control section: 25 to 60 inches\nTemperature regime: cryic\nTemperature class: subgelic\nADDITIONAL DATA:\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Oi",
+        "top": 0,
+        "bottom": 10,
+        "moist_hue": "5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "pH": 4.5,
+        "pH_class": "very strongly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Oi--0 to 4 inches (0 to 10 cm); dark reddish brown (5YR 2.5/2) slightly decomposed plant material; many very fine, fine, medium, and coarse roots; very strongly acid (pH 4.5); abrupt smooth boundary."
+      },
+      {
+        "name": "A/E",
+        "top": 10,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 5.2,
+        "pH_class": "strongly acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A/E--4 to 7 inches (10 to 18 cm); very dark brown (10YR 2/2) and dark grayish brown (10YR 4/2) silt loam; weak fine subangular blocky structure; very friable, nonsticky and nonplastic; many very fine, fine, medium, and coarse roots; strongly acid (pH 5.2); abrupt wavy boundary."
+      },
+      {
+        "name": "Bhs",
+        "top": 18,
+        "bottom": 25,
+        "moist_hue": "2.5YR",
+        "moist_value": 2.5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH": 5.2,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bhs--7 to 10 inches (18 to 25 cm); very dusky red (2.5YR 2.5/2) mucky silt loam; moderate very fine granular structure; very friable, nonsticky and nonplastic; common very fine, fine, and  medium roots; strongly acid (pH 5.2); clear smooth boundary."
+      },
+      {
+        "name": "Bs",
+        "top": 25,
+        "bottom": 41,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "silt loam",
+        "pH": 5.2,
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bs--10 to 16 inches (25 to 41 cm); brown (7.5YR 4/4) silt loam; weak medium subangular blocky structure; very friable, nonsticky and nonplastic; few very fine and fine roots; strongly acid (pH 5.2); clear smooth boundary."
+      },
+      {
+        "name": "BC/Bs",
+        "top": 41,
+        "bottom": 64,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "very fine sandy loam",
+        "pH": 5.2,
+        "pH_class": "strongly acid",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "BC/Bs--16 to 25 inches (41 to 64 cm); dark yellowish brown (10YR 4/4) and strong brown (7.5YR 5/6) mixed silt loam and very fine sandy loam; massive; very friable, nonsticky and nonplastic; strongly acid (pH 5.2); gradual smooth boundary."
+      },
+      {
+        "name": "2C",
+        "top": 64,
+        "bottom": 152,
+        "texture_class": "loamy sand",
+        "cf_class": "very gravelly",
+        "pH": 5.6,
+        "pH_class": "moderately acid",
+        "narrative": "2C--25 to 60 inches (64 to 152 cm); variegated very gravelly loamy sand; single grain; loose, nonsticky and nonplastic; 35 percent gravel, 10 percent cobbles; moderately acid (pH 5.6)."
+      }
+    ]
+  ]
 }

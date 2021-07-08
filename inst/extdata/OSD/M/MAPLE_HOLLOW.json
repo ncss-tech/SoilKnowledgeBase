@@ -56,5 +56,84 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  Diagnostic horizons and features recognized in this pedon are:\nMollic epipedon - the zone from the surface to 16 inches  (A1, A2 and Bt horizons).\nArgillic horizon - the zone of clay accumulation from 8 to 44 inches (Bt horizon).\nCalcic horizon - the zone of calcium carbonate accumulation from 44 to 60 inches (Bk horizon).\nThe classification is based on the \"Keys to Soil Taxonomy, Eighth Edition, 1998\".\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "A1",
+        "top": 0,
+        "bottom": 5,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "A1--0 to 2 inches; grayish brown (10YR 5/2) loam, very dark grayish brown (10YR 3/2) moist; weak fine granular structure; slightly hard, friable, slightly sticky, slightly plastic; many very fine and fine roots; few very fine irregular pores; neutral (pH 6.6); abrupt smooth boundary. (2 to 6 inches thick.)"
+      },
+      {
+        "name": "A2",
+        "top": 5,
+        "bottom": 20,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A2--2 to 8 inches; brown (10YR 5/3) clay loam, very dark grayish brown (10YR 3/2) moist; weak thin platy structure; slightly hard, friable, slightly sticky, slightly plastic; many very fine and fine roots; few very fine irregular pores; neutral (pH 6.6); clear smooth boundary. (0 to 10 inches thick.)"
+      },
+      {
+        "name": "Bt1",
+        "top": 20,
+        "bottom": 41,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "clay loam",
+        "pH": 6.6,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--8 to 16 inches; reddish brown (5YR 5/3) clay loam, dark reddish brown (5YR 3/3) moist; weak fine and medium subangular blocky structure; hard, firm, sticky, plastic; many very fine and fine roots; few very fine and fine tubular pores; thin continuous clay films on faces of peds; neutral (pH 6.6); clear smooth boundary. (5 to 15 inches thick.)"
+      },
+      {
+        "name": "Bt2",
+        "top": 41,
+        "bottom": 112,
+        "moist_hue": "5YR",
+        "moist_value": 6,
+        "moist_chroma": 4,
+        "texture_class": "clay",
+        "pH": 6.8,
+        "pH_class": "neutral",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "Bt2--16 to 44 inches; light reddish brown (5YR 6/4) clay, reddish brown (5YR 4/4) moist; moderate medium subangular blocky structure; very hard, very firm, very sticky, very plastic; common very fine and fine roots, common very fine tubular pores; moderately thick continuous clay films on faces of peds; neutral (pH 6.8); abrupt wavy boundary.  (7 to 24 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 112,
+        "bottom": 152,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 8.2,
+        "pH_class": "moderately alkaline",
+        "narrative": "Bk--44 to 60 inches; reddish brown (5YR 5/3) loam, pink (5YR 7/3) moist; weak fine subangular blocky structure; slightly hard, friable, slightly sticky, slightly plastic; few very fine roots; strongly effervescent, calcium carbonate occurs in blotches, pockets and filaments; moderately alkaline (pH 8.2)."
+      }
+    ]
+  ]
 }

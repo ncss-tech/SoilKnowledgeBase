@@ -56,5 +56,100 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS: The more gently sloping Honeoye soils are among the most productive upland soils in New York State. The Honeoye series has been unofficially recognized as the state soil of New York.\nA new pedon from Onondaga County (the typical from the Onondaga Soil Survey) was used because the typical pedon did not match the typical pedon for Honeoye in the Ontario County, NY Soil Survey.\nCEC activity class changed from active to semi-active based on lab data for the Honeoye-Lima-Kendaia catena.\nDiagnostic horizons and other features recognized in the typical pedon are as follows:\n(1) Ochric epipedon - the zone from the surface to 20 cm (8 in) (Ap horizon).\n(2) Argillic horizon - the zone from 25 to 74 cm (10 to 29 in) (Bt/E and Bt horizons).\n(3) Glossic subgroup - as evidenced by interfingering of Albic material around peds in the upper part of the Argillic horizon (Bt/E horizon).\nADDITIONAL DATA: Characterization data and engineering test data is available for several pedons from the Natural Resource Conservation Service, 12-PAS Soil Survey Office, Paul Smiths, New York.\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 20,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap -- 0 to 20 cm, dark grayish brown (10YR 4/2) silt loam, light brownish gray (10YR 6/2) dry; moderate medium and coarse granular structure; friable; many fine roots; 10 percent rock fragments; slightly acid; abrupt smooth boundary. (6 to 13 in thick.)"
+      },
+      {
+        "name": "E",
+        "top": 20,
+        "bottom": 25,
+        "dry_hue": "10YR",
+        "dry_value": 7,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "silt loam",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "E -- 20 to 25 cm, brown (10YR 5/3) silt loam, very pale brown (10YR 7/3) dry; weak fine subangular blocky structure; friable; many fine roots; many fine and medium pores; 10 percent rock fragments; slightly acid; clear irregular boundary. (0 to 10 cm thick.)"
+      },
+      {
+        "name": "Bt/E",
+        "top": 25,
+        "bottom": 36,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "sand",
+        "pH_class": "slightly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt/E -- 25 to 36 cm, brown (10YR 4/3) loam; moderate coarse subangular blocky structure; friable; many fine roots; many fine pores; patchy clay linings in larger pores; vertical faces of peds have 1 to 4 millimeter thick brown (10YR 5/3) silt coats and light gray (10YR 7/1) sand grains that constitutes less than 15 percent of the layer; 10 percent rock fragments; slightly acid; gradual wavy boundary. (5 to 25 cm thick.)"
+      },
+      {
+        "name": "Bt1",
+        "top": 36,
+        "bottom": 58,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt1 -- 36 to 58 cm, brown (10YR 4/3) loam; moderate coarse subangular blocky structure, parting to weak fine subangular blocky; firm, slightly sticky; common fine roots; many pores that have thin clay linings; patchy clay films on all faces of peds; 10 percent rock fragments; neutral; gradual wavy boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 58,
+        "bottom": 74,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "slightly alkaline",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Bt2 -- 58 to 74 cm; brown (10YR 4/3) gravelly loam; weak very thick platy structure parting to weak fine subangular blocky structure; firm; few fine roots; common fine and medium pores that have patchy clay linings; patchy clay films on plates and on all faces of peds; common fine black rotted shale fragments; light gray segregated lime on a few ped faces; 20 percent rock fragments; slightly alkaline, slightly effervescent; gradual wavy boundary. (Combined thickness of the Bt horizons is 15 to 61 cm.)"
+      },
+      {
+        "name": "C",
+        "top": 74,
+        "bottom": 183,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "cf_class": "gravelly",
+        "pH_class": "moderately alkaline",
+        "narrative": "C -- 74 to 183 cm; dark grayish brown (10YR 4/2) gravelly loam; weak medium and thick plate like divisions; firm; few fine roots; few pores; segregated lime on faces of peds in the upper part; 30 percent rock fragments; moderately alkaline, strongly effervescent."
+      }
+    ]
+  ]
 }

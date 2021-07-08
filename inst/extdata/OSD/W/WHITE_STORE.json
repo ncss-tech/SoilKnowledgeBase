@@ -56,5 +56,112 @@
   "REMARKS": {
     "section": "REMARKS",
     "content": "REMARKS:  The type location description was modified based on field examination and transect data collected 5/91.\nDiagnostic horizons and features of this pedon are:\nOchric epipedon: the zone from the soil surface to 6 inches (Ap horizon).\nArgillic horizon: the zone from 6 to 35 inches (Bt and Btss horizons).\nSlickensides-presence of slickensides in the zone from 10 to 35 inches (Btss1, Btss2, and Btss3 horizons)\nVertic feature: cracks within 50 inches of the soil surface that are 5 mm or more wide through a thickness of 12 inches or more for some time in normal years, and slickensides or wedge-shaped aggregates in a layer 6 inches or more thick that has its upper boundary within 50 inches of the soil surface; or a linear extensibility of 2.5 inches or more between the surface and either a depth of 40 inches or a paralithic contact, whichever is shallower\nOxyaquic feature: Saturation with water in one or more layers within 40 inches of the surface in normal years for either or both 20 or more consecutive days or 30 or more cumulative days.\nADDITIONAL DATA:  McCracken. R. J.; Weed, S. B.; Goldston, E. F., Planosolic Piedmont soils of North Carolina:  I Morphology and Composition.  Soil Science,  ol. 98, No. 1, July, 1964. and\nGriffin. R. W.; Buol, S.W.; Soil and Saprolite Characteristics of Vertic and Aquic Hapludults Derived from Triassic Basin Sandstones.  Soil Sci.  Soc. Am. J.  Vol. 52, 1094-1099 (1988).\nMLRA = 136\nTABULAR SERIES DATA:\nSOI-5  Soil Name   Slope  Airtemp FrFr/Seas Precip  Elevation\nNC0059 WHITE STOR  2-25   58-65   160-220   40-50   240-450\nSOI-5 FloodL FloodH Watertable  Kind    Months  Bedrock Hardness\nNC0059 NONE         1.0-1.5    PERCHED  DEC-MAR 40-72   SOFT\nSOI-5  Depth  Texture      3-Inch  No-10     Clay%   -CEC-\nNC0059  0-6   SL FSL        0-3    95-100    5-20    5-15\nNC0059  0-6   L SIL         0-3    80-100    5-27    5-15\nNC0059  0-6   CL C          0-3    95-100   27-45    5-15\nNC0059  6-35  C             0-3    90-100   45-70   20-40\nNC0059 35-53  SL L CL       0-3    85-100   12-40    5-20\nNC0059 53-60  WB             -       -        -       -\nSOI-5  Depth    -pH-     O.M.  Salin  Permeab   Shnk-Swll\nNC0059  0- 6  5.6- 6.0  .5-2.  0-0    0.6-2.0   LOW\nNC0059  0- 6  5.6- 6.0  .5-2.  0-0    0.6-2.0   LOW\nNC0059  0- 6  4.5- 5.5  0.-.5  0-0   0.06-0.6   HIGH\nNC0059  6-35  4.5- 5.5  0.-.5  0-0    0.0-0.06  VERY HIGH\nNC0059 35-53  4.5- 5.5  0.-.5  0-0   0.06-0.2   MODERATE\nNC0059 53-60     -        -     -        -\nNational Cooperative Soil Survey\nU.S.A."
-  }
+  },
+  "SITE": [
+    [
+      {
+        "drainage": "moderately well"
+      }
+    ]
+  ],
+  "HORIZONS": [
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 15,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 6 inches; brown (10YR 5/3) fine sandy loam; weak medium granular structure; very friable; common fine roots; few quartz pebbles; moderately acid; clear smooth boundary.  (5 to 10 inches thick)"
+      },
+      {
+        "name": "Bt",
+        "top": 15,
+        "bottom": 25,
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt--6 to 10 inches; strong brown (7.5YR 5/6) clay loam; weak medium subangular blocky structure; firm, plastic, sticky; few fine roots; few faint clay films; few quartz pebbles; strongly acid; clear wavy boundary."
+      },
+      {
+        "name": "Btss1",
+        "top": 25,
+        "bottom": 56,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btss1--10 to 22 inches; yellowish red (5YR 5/6) clay; weak coarse prismatic structure parting to moderate fine and medium angular blocky; very firm, very plastic, very sticky; few fine roots, few slickensides; common distinct clay films on faces of peds; common medium distinct reddish brown (2.5YR 4/4) and yellowish brown (10YR 5/6) masses of iron accumulations; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btss2",
+        "top": 56,
+        "bottom": 71,
+        "moist_hue": "5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btss2--22 to 28 inches; yellowish red (5YR 4/6) clay; weak coarse prismatic structure parting to moderate medium angular blocky structure; very firm, very plastic, very sticky; common slickensides; few thin discontinuous clay films on faces of peds; many medium distinct reddish brown (2.5YR 4/4) masses of iron accumulations and light brownish gray (10YR 6/2) iron depletions; very strongly acid; gradual wavy boundary."
+      },
+      {
+        "name": "Btss3",
+        "top": 71,
+        "bottom": 89,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "Btss3--28 to 35 inches; yellowish red (5YR 5/6) clay; weak coarse prismatic structure parting to moderate medium subangular blocky structure; very firm, plastic, sticky; common slickensides; few faint clay films on faces of peds; few flakes of mica; 5 percent by volume soft mudstone fragments; many coarse distinct streaks of reddish brown (2.5YR 4/4) masses of iron accumulations and gray (10YR 5/1) iron depletions; very strongly acid; gradual wavy boundary.  (Combined thickness of the Bt horizons is 15 to 45 inches.)"
+      },
+      {
+        "name": "BC",
+        "top": 89,
+        "bottom": 107,
+        "moist_hue": "5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay loam",
+        "pH_class": "very strongly acid",
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "BC--35 to 42 inches; yellowish red (5YR 5/6) clay loam; weak medium subangular blocky structure; very firm, plastic, sticky; few flakes of mica; 10 percent by volume soft mudstone fragments; many coarse distinct streaks of reddish brown (2.5YR 4/4) masses of iron accumulations and gray (10YR 5/1) iron depletions; very strongly acid; gradual wavy boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 107,
+        "bottom": 135,
+        "moist_hue": "2.5YR",
+        "moist_value": 3,
+        "moist_chroma": 4,
+        "texture_class": "sand",
+        "pH_class": "very strongly acid",
+        "narrative": "C--42 to 53 inches; dark reddish brown (2.5YR 3/4) loamy saprolite with pockets of clay; massive with relic rock structure; friable; few flakes of mica; 10 percent by volume soft sandstone and mudstone fragments; yellowish brown (10YR 5/4) masses of iron accumulations and many coarse prominent gray (10YR 6/1) iron depletions; very strongly acid; clear boundary.  (3 to 18 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 135,
+        "bottom": 152,
+        "texture_class": "sand",
+        "narrative": "Cr--53 to 60 inches; weathered moderately fractured fine-grained sandstone and mudstone."
+      }
+    ]
+  ]
 }
