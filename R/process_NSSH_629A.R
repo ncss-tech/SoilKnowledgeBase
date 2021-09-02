@@ -115,8 +115,9 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
       }
 
       # search for obsolete, not preferred
-      if (length(grep("\\(obsolete \u2014 use|\\(not recommended|\\(not preferred", j) > 0)) {
-        obspattern <- '.*obsolete \u2014 use ([A-Za-z, ]+).*|.*\\(not recommended: obsolete\\) Use ([^\\.]*).?$|.*\\(not recommended\\) Use ([^\\.]*).?$|.*\\(not preferred\\) Use ([^\\.]*).?$|.*\\(not preferred.*[Rr]efer to ([^\\.\\)]*).?.*|.*\\(not recommended, use ([^\\.]*)\\).*'
+      if (length(grep("\\(obsolete \u2014 use|\\(not recommended|\\(not preferred|; not preferred", j) > 0)) {
+        obspattern <- '.*obsolete \u2014 use ([A-Za-z, ]+).*|.*\\(not recommended: obsolete\\) Use ([^\\.]*).?$|.*\\(not recommended\\) Use ([^\\.]*).?$|.*\\(not preferred\\) Use ([^\\.]*).?$|.*[\\(;\\u2013] ?not preferred.*[Rr]efer to ([^\\.\\)]*).?.*|.*\\(not recommended, use ([^\\.]*)\\).*'
+
         obsolete <- grepl("obsolete", j)
         newterms <- trimws(strsplit(gsub(obspattern, "\\1\\2\\3\\4\\5\\6", j), ",|, or")[[1]])
         if (length(grep(obspattern, j)) == 0)
@@ -125,7 +126,7 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
 
       # search for colloquial
       if (length(grep("\\(colloquial:", j) > 0)) {
-        coldesc <- trimws(strsplit(gsub('.*colloquial:([A-Za-z, ]+)\\).*', "\\1", j), ",|, or")[[1]])
+        coldesc <- trimws(strsplit(gsub('.*colloquial:([A-Za-z\\., ]+)[\\);\\u2013].*', "\\1", j), ",|, or")[[1]])
       } else coldesc <- character(0)
 
       h <- trimws(strsplit(gsub("\\(\\d+\\) ([^\\(\\)]*).[\u2014](.*)", "\\1::::\\2", j), "::::")[[1]])
