@@ -10,8 +10,8 @@
     "content": "TAXONOMIC CLASS: Coarse-loamy, mixed, superactive, mesic Xeric Haplocalcids"
   },
   "TYPICAL PEDON": {
-    "section": "TYPICAL PEDON",
-    "content": null
+    "section": "TYPIC PEDON",
+    "content": "TYPIC PEDON:  Briabbit fine sandy loam -- on a east-facing slope of 8 percent, in native rangeland at 3,300 feet elevation.  (When described on June 18, 1984, the soil was dry throughout.  Colors are for air-dry soils unless otherwise stated.)\nA--0 to 3 inches; brown (10YR 4/3) fine sandy loam, very dark grayish brown (10YR 3/2) moist; weak coarse platy structure parting to weak fine subangular blocky; soft, very friable; common very fine, fine and medium, few coarse roots; common very fine and fine vesicular pores; 5 percent gravel; neutral (pH 7.3); clear smooth boundary.  (3 to 10 inches thick)\nBw--3 to 10 inches; brown (10YR 5/3) fine sandy loam, dark brown (10YR 3/3) moist; moderate coarse platy structure parting to moderate fine and medium subangular blocky; slightly hard, very friable; few very fine, medium and coarse roots; common fine tubular pores; 5 percent gravel; slightly alkaline (pH 7.6); clear wavy boundary.  (4 to 14 inches thick)\nBk--10 to 22 inches; pale brown (10YR 6/3) cobbly sandy loam, brown (10YR 4/3) moist; moderate fine and medium subangular blocky structure; slightly hard, friable; few very fine and fine roots; 10 percent gravel, 10 percent cobbles, lime coatings on rock fragments; strongly effervescent; strongly alkaline (pH 8.5); abrupt irregular boundary.  (10 to 24 inches thick)\nCr--22 inches; soft, highly fractured vitric tuff, lime partially fills fractures."
   },
   "TYPE LOCATION": {
     "section": "TYPE LOCATION",
@@ -65,6 +65,55 @@
     ]
   ],
   "HORIZONS": [
-    {}
+    [
+      {
+        "name": "A",
+        "top": 0,
+        "bottom": 8,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 7.3,
+        "pH_class": "neutral",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "A--0 to 3 inches; brown (10YR 4/3) fine sandy loam, very dark grayish brown (10YR 3/2) moist; weak coarse platy structure parting to weak fine subangular blocky; soft, very friable; common very fine, fine and medium, few coarse roots; common very fine and fine vesicular pores; 5 percent gravel; neutral (pH 7.3); clear smooth boundary.  (3 to 10 inches thick)"
+      },
+      {
+        "name": "Bw",
+        "top": 8,
+        "bottom": 25,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 3,
+        "texture_class": "fine sandy loam",
+        "pH": 7.6,
+        "pH_class": "slightly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bw--3 to 10 inches; brown (10YR 5/3) fine sandy loam, dark brown (10YR 3/3) moist; moderate coarse platy structure parting to moderate fine and medium subangular blocky; slightly hard, very friable; few very fine, medium and coarse roots; common fine tubular pores; 5 percent gravel; slightly alkaline (pH 7.6); clear wavy boundary.  (4 to 14 inches thick)"
+      },
+      {
+        "name": "Bk",
+        "top": 25,
+        "bottom": 56,
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 3,
+        "texture_class": "sandy loam",
+        "cf_class": "cobbly",
+        "pH": 8.5,
+        "pH_class": "strongly alkaline",
+        "distinctness": "abrupt",
+        "topography": "irregular",
+        "narrative": "Bk--10 to 22 inches; pale brown (10YR 6/3) cobbly sandy loam, brown (10YR 4/3) moist; moderate fine and medium subangular blocky structure; slightly hard, friable; few very fine and fine roots; 10 percent gravel, 10 percent cobbles, lime coatings on rock fragments; strongly effervescent; strongly alkaline (pH 8.5); abrupt irregular boundary.  (10 to 24 inches thick)"
+      },
+      {
+        "name": "Cr",
+        "top": 56,
+        "narrative": "Cr--22 inches; soft, highly fractured vitric tuff, lime partially fills fractures."
+      }
+    ]
   ]
 }
