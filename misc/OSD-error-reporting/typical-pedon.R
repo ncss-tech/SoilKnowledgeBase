@@ -83,6 +83,8 @@ length(missing.file)
 parse.error <- as.vector(do.call('c', parse.error))
 length(parse.error)
 
+# dput(parse.error)
+cat(parse.error, file = file.path(output.path, 'misc-errors.txt'), sep = '\n')
 
 # hz data
 x <- do.call('rbind', x)
