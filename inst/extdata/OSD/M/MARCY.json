@@ -10,8 +10,8 @@
     "content": "TAXONOMIC CLASS: Fine-loamy, mixed, frigid Typic Fragiaquepts"
   },
   "TYPICAL PEDON": {
-    "section": "TYPICAL PEDON",
-    "content": null
+    "section": "TYPIC PEDON",
+    "content": "TYPIC PEDON:  Marcy silt loam, on a 2 percent slope in a  grass meadow.  (Colors are for moist soil.)\nAp--0 to 7 inches; very dark gray (10YR 3/1) silt loam; moderate medium granular structure; friable; many roots; 5 percent rock fragments; moderately acid; abrupt smooth boundary.  (5 to 12 inches thick)\nBg--7 to 13 inches; grayish brown (2.5Y 5/2) silt loam;  many (30 percent) medium and fine distinct yellowish brown (10YR 5/6) mottles; very weak fine subangular blocky structure; friable; common fine roots; common fine pores; 10 percent rock fragments; moderately acid; clear wavy boundary.  (4 to 8 inches thick)\nBxg--13 to 40 inches; dark grayish brown (2.5Y 4/2) channery silt loam; common fine faint olive brown (2.5Y 4/4)  and gray (10YR 5/1) mottles increasing with depth; moderate very coarse prismatic structure increasing in size with depth; prisms 8 to 15 inches across; very firm; brittle; common fine pores with clay linings; prism faces coated with silt and very fine sand; 25 percent rock fragments; slightly acid grading to neutral at the bottom of the horizon; diffuse wavy boundary.\nCdg--40 to 72 inches; dark grayish brown (2.5Y 4/2) channery silt loam; common fine faint gray (10YR 5/1) mottles; weak thick platy structure; firm; 30 percent rock  fragment; neutral."
   },
   "TYPE LOCATION": {
     "section": "TYPE LOCATION",
@@ -65,6 +65,59 @@
     ]
   ],
   "HORIZONS": [
-    {}
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 18,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 1,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 7 inches; very dark gray (10YR 3/1) silt loam; moderate medium granular structure; friable; many roots; 5 percent rock fragments; moderately acid; abrupt smooth boundary.  (5 to 12 inches thick)"
+      },
+      {
+        "name": "Bg",
+        "top": 18,
+        "bottom": 33,
+        "moist_hue": "2.5Y",
+        "moist_value": 5,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "pH_class": "moderately acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bg--7 to 13 inches; grayish brown (2.5Y 5/2) silt loam;  many (30 percent) medium and fine distinct yellowish brown (10YR 5/6) mottles; very weak fine subangular blocky structure; friable; common fine roots; common fine pores; 10 percent rock fragments; moderately acid; clear wavy boundary.  (4 to 8 inches thick)"
+      },
+      {
+        "name": "Bxg",
+        "top": 33,
+        "bottom": 102,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "very fine sand",
+        "cf_class": "channery",
+        "pH_class": "slightly acid",
+        "distinctness": "diffuse",
+        "topography": "wavy",
+        "narrative": "Bxg--13 to 40 inches; dark grayish brown (2.5Y 4/2) channery silt loam; common fine faint olive brown (2.5Y 4/4)  and gray (10YR 5/1) mottles increasing with depth; moderate very coarse prismatic structure increasing in size with depth; prisms 8 to 15 inches across; very firm; brittle; common fine pores with clay linings; prism faces coated with silt and very fine sand; 25 percent rock fragments; slightly acid grading to neutral at the bottom of the horizon; diffuse wavy boundary."
+      },
+      {
+        "name": "Cdg",
+        "top": 102,
+        "bottom": 183,
+        "moist_hue": "2.5Y",
+        "moist_value": 4,
+        "moist_chroma": 2,
+        "texture_class": "silt loam",
+        "cf_class": "channery",
+        "pH_class": "neutral",
+        "narrative": "Cdg--40 to 72 inches; dark grayish brown (2.5Y 4/2) channery silt loam; common fine faint gray (10YR 5/1) mottles; weak thick platy structure; firm; 30 percent rock  fragment; neutral."
+      }
+    ]
   ]
 }

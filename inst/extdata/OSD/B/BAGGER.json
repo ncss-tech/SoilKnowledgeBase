@@ -10,8 +10,8 @@
     "content": "TAXONOMIC CLASS: Coarse-loamy, mixed, active, nonacid, thermic Alfic Xerarents"
   },
   "TYPICAL PEDON": {
-    "section": "TYPICAL PEDON",
-    "content": null
+    "section": "REFERENCE PEDON",
+    "content": "REFERENCE PEDON:  Bagger sandy loam on a nearby level slope of less than 1 percent in a sudan grass field at 50 feet elevation. (Colors are for dry soil unless otherwise stated.  When described on November 6, 1976, the soil was moist throughout.)\nAp--0 to 9 inches; mixed pale brown and yellowish brown (10YR 6/3, 5/4) sandy loam, dark yellowish brown (10YR 4/4) moist; massive; hard, friable, slightly sticky and slightly plastic; common very fine, fine and medium roots; many very fine and fine interstitial pores; about 10 percent by volume 2 to 35 mm hardpan fragments which can be broken by hand; hardpan fragments have same color as soil matrix; neutral (pH 7.2); gradual smooth boundary. (4 to 12 inches thick)\n2C1--9 to 16 inches; mixed light gray, white and brown (2.5Y 7/2, 8/2; 7.5Y 5/4) light sandy clay loam, grayish brown and brown (2.5Y 5/2; 7.5YR 4/4) moist; massive; hard, friable, sticky and slightly plastic; few very fine roots; common very fine and fine interstitial pores; common thin silica colloids bridging sand grains; about 10 percent by volume 2 to 35 mm hardpan fragments which can be broken by hand; hardpan fragments have same color as matrix; fragments of Bt (argillic) dark brown (7.5YR 4/4) moist clay and clay loam; about 5 percent by volume black (N 4/ ) Fe-Mn soft concretion ranging up to 5 mm in diameter; slightly calcareous with lime segregated in few fine filaments, moderately alkaline (pH 8.0); clear wavy boundary.  (0 to 20 inches thick)\n3C2--16 to 30 inches; mixed pale brown and brown (10YR 6/3, 7.5YR 5/4) loamy sand and sandy loam, dark brown (10YR 4/3, 7.5YR 4/4) moist; massive; hard, friable, nonsticky and slightly sticky and nonplastic and slightly plastic; few very fine roots; common very fine interstitial pores; about 3 percent by volume Bt (argillic) fragments having many very fine tubular pores and common thin clay films lining the tubular pores and common thin silica colloids bridging sand grains; in small pockets 20 percent by volume 2 to 5 mm gravels encased by loamy sand fill; about 25 percent by volume 5 to 35 mm hardpan fragments within small pockets in the lower 2/3 of the horizon having the same color as the horizon matrix; few black (N 2/) 2 to 5 mm Fe-Mn flakes; mildly alkaline (pH 7.5); abrupt smooth boundary.  (0 to 20 inches thick)\n4Ab--30 to 35 inches; grayish brown (10YR 5/2) loam, very dark grayish brown (10YR 3/2) moist; common fine distinct yellowish red (5YR 5/6) mottles, dark reddish brown (5YR 3/4) moist; massive; hard, friable, slightly sticky and slightly plastic; common very fine roots; common very fine tubular and interstitial pores; 1/4 inch organic residue at top of horizon, few black (N 2/) 1 to 5 mm Fe-Mn concretions; medium acid (pH 6.0); gradual wavy boundary.  (0 to 10 inches thick)\n4C3--35 to 49 inches; brown (10YR 5/3) loam, dark brown (10YR 3/3) moist; massive; hard, friable, slightly sticky and slightly plastic; few very fine roots; common very fine, fine and medium tubular and common very fine and fine interstitial pores; few black (N 2/) 1 to 5 mm Fe-Mn concretions; mildly alkaline (pH 7.5); clear wavy boundary. (0 to 20 inches thick)\n4Cq--49 to 60 inches; light yellowish brown (10YR 6/4) fine sandy loam, dark yellowish brown (10YR 4/4) moist; massive; very hard, firm, slightly sticky and slightly plastic; no roots; few very fine interstitial pores; weakly cemented with silica; moderately alkaline (pH 8.0)"
   },
   "TYPE LOCATION": {
     "section": "TYPE LOCATION",
@@ -65,6 +65,94 @@
     ]
   ],
   "HORIZONS": [
-    {}
+    [
+      {
+        "name": "Ap",
+        "top": 0,
+        "bottom": 23,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy loam",
+        "pH": 7.2,
+        "pH_class": "neutral",
+        "distinctness": "gradual",
+        "topography": "smooth",
+        "narrative": "Ap--0 to 9 inches; mixed pale brown and yellowish brown (10YR 6/3, 5/4) sandy loam, dark yellowish brown (10YR 4/4) moist; massive; hard, friable, slightly sticky and slightly plastic; common very fine, fine and medium roots; many very fine and fine interstitial pores; about 10 percent by volume 2 to 35 mm hardpan fragments which can be broken by hand; hardpan fragments have same color as soil matrix; neutral (pH 7.2); gradual smooth boundary. (4 to 12 inches thick)"
+      },
+      {
+        "name": "2C1",
+        "top": 23,
+        "bottom": 41,
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "sandy clay loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "2C1--9 to 16 inches; mixed light gray, white and brown (2.5Y 7/2, 8/2; 7.5Y 5/4) light sandy clay loam, grayish brown and brown (2.5Y 5/2; 7.5YR 4/4) moist; massive; hard, friable, sticky and slightly plastic; few very fine roots; common very fine and fine interstitial pores; common thin silica colloids bridging sand grains; about 10 percent by volume 2 to 35 mm hardpan fragments which can be broken by hand; hardpan fragments have same color as matrix; fragments of Bt (argillic) dark brown (7.5YR 4/4) moist clay and clay loam; about 5 percent by volume black (N 4/ ) Fe-Mn soft concretion ranging up to 5 mm in diameter; slightly calcareous with lime segregated in few fine filaments, moderately alkaline (pH 8.0); clear wavy boundary.  (0 to 20 inches thick)"
+      },
+      {
+        "name": "3C2",
+        "top": 41,
+        "bottom": 76,
+        "texture_class": "loamy sand",
+        "pH": 7.5,
+        "pH_class": "mildly alkaline",
+        "distinctness": "abrupt",
+        "topography": "smooth",
+        "narrative": "3C2--16 to 30 inches; mixed pale brown and brown (10YR 6/3, 7.5YR 5/4) loamy sand and sandy loam, dark brown (10YR 4/3, 7.5YR 4/4) moist; massive; hard, friable, nonsticky and slightly sticky and nonplastic and slightly plastic; few very fine roots; common very fine interstitial pores; about 3 percent by volume Bt (argillic) fragments having many very fine tubular pores and common thin clay films lining the tubular pores and common thin silica colloids bridging sand grains; in small pockets 20 percent by volume 2 to 5 mm gravels encased by loamy sand fill; about 25 percent by volume 5 to 35 mm hardpan fragments within small pockets in the lower 2/3 of the horizon having the same color as the horizon matrix; few black (N 2/) 2 to 5 mm Fe-Mn flakes; mildly alkaline (pH 7.5); abrupt smooth boundary.  (0 to 20 inches thick)"
+      },
+      {
+        "name": "4Ab",
+        "top": 76,
+        "bottom": 89,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 2,
+        "texture_class": "loam",
+        "pH": 6,
+        "distinctness": "gradual",
+        "topography": "wavy",
+        "narrative": "4Ab--30 to 35 inches; grayish brown (10YR 5/2) loam, very dark grayish brown (10YR 3/2) moist; common fine distinct yellowish red (5YR 5/6) mottles, dark reddish brown (5YR 3/4) moist; massive; hard, friable, slightly sticky and slightly plastic; common very fine roots; common very fine tubular and interstitial pores; 1/4 inch organic residue at top of horizon, few black (N 2/) 1 to 5 mm Fe-Mn concretions; medium acid (pH 6.0); gradual wavy boundary.  (0 to 10 inches thick)"
+      },
+      {
+        "name": "4C3",
+        "top": 89,
+        "bottom": 124,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 3,
+        "moist_chroma": 3,
+        "texture_class": "loam",
+        "pH": 7.5,
+        "pH_class": "mildly alkaline",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "4C3--35 to 49 inches; brown (10YR 5/3) loam, dark brown (10YR 3/3) moist; massive; hard, friable, slightly sticky and slightly plastic; few very fine roots; common very fine, fine and medium tubular and common very fine and fine interstitial pores; few black (N 2/) 1 to 5 mm Fe-Mn concretions; mildly alkaline (pH 7.5); clear wavy boundary. (0 to 20 inches thick)"
+      },
+      {
+        "name": "4Cq",
+        "top": 124,
+        "bottom": 152,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "fine sandy loam",
+        "pH": 8,
+        "pH_class": "moderately alkaline",
+        "narrative": "4Cq--49 to 60 inches; light yellowish brown (10YR 6/4) fine sandy loam, dark yellowish brown (10YR 4/4) moist; massive; very hard, firm, slightly sticky and slightly plastic; no roots; few very fine interstitial pores; weakly cemented with silica; moderately alkaline (pH 8.0)"
+      }
+    ]
   ]
 }
