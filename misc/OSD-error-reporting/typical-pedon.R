@@ -30,7 +30,7 @@ output.path <- '../../inst/extdata/OSD-error-reporting/'
 
 
 # keep subset of parsed data + current series name
-# ~ 2 minutes
+# ~ 3 minutes on local machine
 
 # local copy + names -> named list
 x <- list()
@@ -83,7 +83,6 @@ length(missing.file)
 parse.error <- as.vector(do.call('c', parse.error))
 length(parse.error)
 
-dput(as.vector(parse.error))
 
 # hz data
 x <- do.call('rbind', x)
