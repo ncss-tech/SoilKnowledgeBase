@@ -230,7 +230,7 @@ validateOSD <- function(logfile, filepath) {
   # TODO: abstract and generalize these into rules
 
   headerpatterns <- c("TAXONOMIC CLASS",
-                      "TY[PIC]+(AL|FYING) PEDON|SOIL PROFILE|Typical [Pp]edon",
+                      "TY[PIC]+(AL|FYING)? ?PEDON|SOIL PROFILE|Typical ?[Pp]edon|REFERENCE PEDON",
                       "TYPE LOCATION",
                       "RANGE IN CHARACTERISTICS|RANGE OF CHARACTERISTICS|RANGE OF INDIVIDUAL HORIZONS",
                       "COMPETING SERIES",

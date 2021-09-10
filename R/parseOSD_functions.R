@@ -556,11 +556,10 @@
   ## ideas: http://stackoverflow.com/questions/15474741/python-regex-optional-capture-group
   # detect horizons with both top and bottom depths
   # hz.rule <- "^\\s*?([\\^\\'\\/a-zA-Z0-9]+)\\s?-+?\\s?([O0-9.]+)\\s+?to\\s+?([O0-9.]+)\\s+?(in|inches|cm|centimeters)"
-  hz.rule <- "([\\^\\'\\/a-zA-Z0-9]+)\\s*-+\\s*([O0-9.]+)\\s*?to\\s+?([O0-9.]+)\\s+?(in|inches|cm|centimeters)"
+  hz.rule <- "([\\^\\'\\/a-zA-Z0-9]+)\\s*[-=]+\\s*([O0-9.]+)\\s*?(to|-)?\\s+?([O0-9.]+)\\s+?(in|inches|cm|centimeters)"
 
   # detect horizons with no bottom depth
-  hz.rule.no.bottom <- "([\\^\\'\\/a-zA-Z0-9]+)\\s*-+?\\s*([0-9.]+)\\s+?(in|inches|cm|centimeters)"
-
+  hz.rule.no.bottom <- "([\\^\\'\\/a-zA-Z0-9]+)\\s*[-=]+?\\s*([0-9.]+)\\s*(to|-)?\\s*([0-9.]+)?\\s+?(in|inches|cm|centimeters)"
 
   ## TODO: this doesn't work when only moist colors are specified (http://casoilresource.lawr.ucdavis.edu/sde/?series=canarsie)
   ## TODO: these rules will not match neutral colors: N 2.5/
@@ -616,15 +615,24 @@
     this.chunk <- tp[hz.idx[i]]
 
     # parse hz designations and depths, keep first match
-    ## hack
     # first try to find horizons with top AND bottom depths
     h <- stringi::stri_match(this.chunk, regex = hz.rule)
+    
     # if none, then try searching for only top depths
     if(all(is.na(h))) {
       # this won't have the correct number of elements, adjust manually
       h <- stringi::stri_match(this.chunk, regex = hz.rule.no.bottom)
-      h <- c(h, h[4]) # move units to 5th element
-      h[4] <- NA # add fake missing bottom depth
+      h_num <- grep("^\\d+$", h)
+      h_alp <- grep("[A-Za-z]", h)[2:3]
+      h <- h[sort(c(h_num, h_alp))]
+      
+      # fill missing depth with NA
+      if (length(h) == 3) {
+        h <- c(h, h[3])
+        h[3] <- NA
+      }
+    } else {
+      h <- h[c(2:3,5:6)]
     }
 
     # save hz data to list
@@ -644,15 +652,13 @@
     mc <- colors[which(colors[, 5] == 'moist'), 1:4, drop=FALSE]
 
     # there there was at least 1 match, keep the first 1
-    if(nrow(dc) > 0)
+    if(nrow(dc) > 0){
       dry.colors[[i]] <- dc[1, ]
-    else
-      dry.colors[[i]] <- matrix(rep(NA, times=4), nrow = 1)
+    } else dry.colors[[i]] <- matrix(rep(NA, times=4), nrow = 1)
 
     if(nrow(mc) > 0)
       moist.colors[[i]] <- mc[1, ]
-    else
-      moist.colors[[i]] <- matrix(rep(NA, times=4), nrow = 1)
+    else moist.colors[[i]] <- matrix(rep(NA, times=4), nrow = 1)
   }
 
   # test for no parsed data, must be some funky formatting...
@@ -660,7 +666,7 @@
     return(NULL)
 
   # convert to DF
-  hz.data <- as.data.frame(do.call('rbind', hz.data))[2:5]
+  hz.data <- as.data.frame(do.call('rbind', hz.data))
   dry.colors <- as.data.frame(do.call('rbind', dry.colors))[2:4]
   moist.colors <- as.data.frame(do.call('rbind', moist.colors))[2:4]
   narrative.data <- as.data.frame(do.call('rbind', narrative.data))
