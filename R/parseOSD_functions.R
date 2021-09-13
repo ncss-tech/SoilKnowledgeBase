@@ -191,6 +191,8 @@
 
 ######## OSD parsing ########
 
+## Note: results do not contain the series name as a column, as in the old parseOSD
+
 #' Prepare Site and Horizon _data.frame_ from a `validateOSD()` result
 #' @param x a _list_ result of SoilKnowledgeBase::validateOSD()
 .doParseOSD <- function(x) {
