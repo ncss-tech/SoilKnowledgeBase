@@ -172,7 +172,7 @@ validateOSD <- function(logfile, filepath) {
     logmsg(logfile, "CHECK: Line 1 LOCATION %s", filepath)
 
     # TODO: abstract and generalize these into rules
-    # three series in california have established dates before the state
+    # three series in California have established dates before the state
     marker_self1[1] <- trimws(gsub("[0-9]|/","",marker_self1[1]))
     marker_self1 <- trimws(unlist(strsplit(gsub("LOCATION +([A-Z .`']+) {2,}\\d?([A-Z\\+]+)", "\\1;\\2", marker_self1[1]), ";")))
 
