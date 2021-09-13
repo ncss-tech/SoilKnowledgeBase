@@ -346,7 +346,7 @@ validateOSD <- function(logfile, filepath) {
 #' Convert OSD plaintext to JSON using NSSH structural elements
 #'
 #' @param logfile Path to log file; default: \code{file.path(output_dir, "OSD/OSD.log")}
-#' @param input_dir Default: \code{'OSD'}; files matching pattern are listed recursviely
+#' @param input_dir Default: \code{'OSD'}; files matching pattern are listed recursively
 #' @param pattern Argument passed to \code{list.files} when \code{osd_files} is not specified
 #' @param output_dir Default: \code{'inst/extdata'}; folder to create alphabetical folder structure with JSON files
 #' @param osd_files Default \code{NULL}; Optional over-ride vector of file names for testing
