@@ -2,7 +2,7 @@
   "SERIES": "DEADWOOD",
   "STATUS": "Established Series",
   "BYREV": "Rev. CRM/GBC/DJE/SBS",
-  "REVDATE": "02/1999",
+  "REVDATE": "09/2021",
   "STATES": "CA",
   "OVERVIEW": "The Deadwood series consists of shallow, somewhat excessively drained soils formed in material weathered from hard metasedimentary rocks. Deadwood soils are on mountainous uplands and have slopes of 2 to 100 percent.  The mean annual precipitation is 55 inches and the mean annual temperature is 53 degrees F.",
   "TAXONOMIC CLASS": {
@@ -11,7 +11,7 @@
   },
   "TYPICAL PEDON": {
     "section": "TYPICAL PEDON",
-    "content": "TYPICAL PEDON: Deadwood gravelly sandy loam - on a west facing slope of 65 percent under mixed conifers and hardwoods at 5,200 feet elevation. (Colors are for dry soil unless otherwise stated.  When described on November 14, l974, the soil was dry throughout.)\n01--1 inch to 0; pine litter and duff.  (1 to 2 inches thick)\nA--0 to 3 inches; dark gray (10YR 4/1) gravelly sandy loam, very dark gray (10YR 3/1) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and slightly plastic; common fine and very fine roots; common very fine interstitial pores; 45 percent gravel; moderately acid (pH 5.7); clear smooth boundary.  (2 to 5 inches thick)\nBt--3 to 13 inches; light yellowish brown (10YR 6/4) extremely gravelly sandy loam, brown (7.5YR 4/4) moist; brown (10YR 5/3), dark brown (7.5YR 3/2) moist in upper 2 inches; weak fine subangular blocky structure; soft, very friable, nonsticky and slightly plastic; many very fine and fine roots, and common medium and coarse roots; common very fine interstitial pores; common thin clay films line pores; 65 percent gravel; moderately acid (pH 6.0); abrupt irregular boundary.  (8 to 15 inches thick)\nR--13 to 17 inches; hard metasedimentary rock; few medium and coarse roots in fractures.  Fractures are 15 to 25 cm apart."
+    "content": "TYPICAL PEDON: Deadwood gravelly sandy loam - on a west facing slope of 65 percent under mixed conifers and hardwoods at 5,200 feet elevation. (Colors are for dry soil unless otherwise stated.  When described on November 14, 1974, the soil was dry throughout.)\nOi--0 to 1 inch; pine litter and duff.  (1 to 2 inches thick)\nA--1 to 4 inches; dark gray (10YR 4/1) gravelly sandy loam, very dark gray (10YR 3/1) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and slightly plastic; common fine and very fine roots; common very fine interstitial pores; 45 percent gravel; moderately acid (pH 5.7); clear smooth boundary.  (2 to 5 inches thick)\nBt--4 to 14 inches; light yellowish brown (10YR 6/4) extremely gravelly sandy loam, brown (7.5YR 4/4) moist; brown (10YR 5/3), dark brown (7.5YR 3/2) moist in upper 2 inches; weak fine subangular blocky structure; soft, very friable, nonsticky and slightly plastic; many very fine and fine roots, and common medium and coarse roots; common very fine interstitial pores; common thin clay films line pores; 65 percent gravel; moderately acid (pH 6.0); abrupt irregular boundary.  (8 to 15 inches thick)\nR--14 to 18 inches; hard metasedimentary rock; few medium and coarse roots in fractures.  Fractures are 15 to 25 cm apart."
   },
   "TYPE LOCATION": {
     "section": "TYPE LOCATION",
@@ -67,9 +67,15 @@
   "HORIZONS": [
     [
       {
-        "name": "A",
+        "name": "Oi",
         "top": 0,
-        "bottom": 8,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; pine litter and duff.  (1 to 2 inches thick)"
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 10,
         "dry_hue": "10YR",
         "dry_value": 4,
         "dry_chroma": 1,
@@ -82,12 +88,12 @@
         "pH_class": "moderately acid",
         "distinctness": "clear",
         "topography": "smooth",
-        "narrative": "A--0 to 3 inches; dark gray (10YR 4/1) gravelly sandy loam, very dark gray (10YR 3/1) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and slightly plastic; common fine and very fine roots; common very fine interstitial pores; 45 percent gravel; moderately acid (pH 5.7); clear smooth boundary.  (2 to 5 inches thick)"
+        "narrative": "A--1 to 4 inches; dark gray (10YR 4/1) gravelly sandy loam, very dark gray (10YR 3/1) moist; weak fine subangular blocky structure; soft, very friable, nonsticky and slightly plastic; common fine and very fine roots; common very fine interstitial pores; 45 percent gravel; moderately acid (pH 5.7); clear smooth boundary.  (2 to 5 inches thick)"
       },
       {
         "name": "Bt",
-        "top": 8,
-        "bottom": 33,
+        "top": 10,
+        "bottom": 36,
         "dry_hue": "10YR",
         "dry_value": 6,
         "dry_chroma": 4,
@@ -100,18 +106,13 @@
         "pH_class": "moderately acid",
         "distinctness": "abrupt",
         "topography": "irregular",
-        "narrative": "Bt--3 to 13 inches; light yellowish brown (10YR 6/4) extremely gravelly sandy loam, brown (7.5YR 4/4) moist; brown (10YR 5/3), dark brown (7.5YR 3/2) moist in upper 2 inches; weak fine subangular blocky structure; soft, very friable, nonsticky and slightly plastic; many very fine and fine roots, and common medium and coarse roots; common very fine interstitial pores; common thin clay films line pores; 65 percent gravel; moderately acid (pH 6.0); abrupt irregular boundary.  (8 to 15 inches thick)"
+        "narrative": "Bt--4 to 14 inches; light yellowish brown (10YR 6/4) extremely gravelly sandy loam, brown (7.5YR 4/4) moist; brown (10YR 5/3), dark brown (7.5YR 3/2) moist in upper 2 inches; weak fine subangular blocky structure; soft, very friable, nonsticky and slightly plastic; many very fine and fine roots, and common medium and coarse roots; common very fine interstitial pores; common thin clay films line pores; 65 percent gravel; moderately acid (pH 6.0); abrupt irregular boundary.  (8 to 15 inches thick)"
       },
       {
         "name": "R",
-        "top": 33,
-        "bottom": 43,
-        "narrative": "R--13 to 17 inches; hard metasedimentary rock; few medium and coarse roots in fractures.  Fractures are 15 to 25 cm apart."
-      },
-      {
-        "name": "01",
-        "top": 3,
-        "narrative": "01--1 inch to 0; pine litter and duff.  (1 to 2 inches thick)"
+        "top": 36,
+        "bottom": 46,
+        "narrative": "R--14 to 18 inches; hard metasedimentary rock; few medium and coarse roots in fractures.  Fractures are 15 to 25 cm apart."
       }
     ]
   ]
