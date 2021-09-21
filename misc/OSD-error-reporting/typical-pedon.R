@@ -18,8 +18,8 @@ sc <- as.data.frame(sc)
 ## TODO: double-check funky names like "O'BRIEN" and chars not [a-z]
 
 # for now, relative to /misc/OSD-error-reporting
-osd.path <- '../../inst/extdata/OSD'
-output.path <- '../../inst/extdata/OSD-error-reporting/'
+osd.path <- 'inst/extdata/OSD'
+output.path <- 'inst/extdata/OSD-error-reporting/'
 
 
 ## BUG: make a ticket for cases like this
