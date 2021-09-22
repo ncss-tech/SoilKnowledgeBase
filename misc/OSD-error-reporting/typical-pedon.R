@@ -2,7 +2,7 @@ library(aqp)
 library(soilDB)
 library(data.table)
 
-library(progress)
+# library(progress)
 
 
 # recent acreage estimates from SoilWeb
@@ -38,11 +38,11 @@ missing.file <- list()
 parse.error <- list()
 
 ## only for interactive use
-pb <- progress_bar$new(total = length(sc$soilseriesname))
+# pb <- progress_bar$new(total = length(sc$soilseriesname))
 
 for(i in sc$soilseriesname) {
   
-  pb$tick()
+  # pb$tick()
   
   # important notes:
   # * some series in SC may not exist here
@@ -70,7 +70,7 @@ for(i in sc$soilseriesname) {
   
 }
   
-pb$terminate()
+# pb$terminate()
 
 
 ## flatten
