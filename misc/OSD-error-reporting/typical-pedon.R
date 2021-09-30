@@ -20,13 +20,6 @@ osd.path <- 'inst/extdata/OSD'
 output.path <- 'inst/extdata/OSD-error-reporting/'
 
 
-## BUG: make a ticket for cases like this
-## bottom horizon depths are missing
-# get_OSD('ALMAVILLE', result = 'json', base_url = osd.path)[['HORIZONS']][[1]][, 1:5]
-#
-# horizon names are missing from fetchOSD() / parseOSD approach but horizon names are wrong
-
-
 # keep subset of parsed data + current series name
 # ~ 3 minutes on local machine
 
