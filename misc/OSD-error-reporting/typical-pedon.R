@@ -2,8 +2,6 @@ library(aqp)
 library(soilDB)
 library(data.table)
 
-# library(progress)
-
 
 # recent acreage estimates from SoilWeb
 ac <- fread('https://github.com/ncss-tech/SoilWeb-data/raw/main/files/series_stats.csv.gz')
@@ -37,12 +35,8 @@ x <- list()
 missing.file <- list()
 parse.error <- list()
 
-## only for interactive use
-# pb <- progress_bar$new(total = length(sc$soilseriesname))
-
+# iteration over series names
 for(i in sc$soilseriesname) {
-  
-  # pb$tick()
   
   # important notes:
   # * some series in SC may not exist here
@@ -69,8 +63,7 @@ for(i in sc$soilseriesname) {
   }
   
 }
-  
-# pb$terminate()
+
 
 
 ## flatten

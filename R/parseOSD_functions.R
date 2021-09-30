@@ -544,21 +544,15 @@
 #' @importFrom stringi stri_match_all
 .extractHzData <- function(tp) {
 
-  # this will not work in the presence of typos
-  # new code for splitting blocks by section, lines from each section are not joined
-  # sections <- extractSections(s.lines, collapseLines = FALSE)
-  # tp <- sections[['TYPICAL PEDON']]
-
   ## REGEX rules
   # http://regexr.com/
   ## TODO: combine top+bottom with top only rules
-  # TODO: allow for OCR errors:
   #       "O" = "0"
   #       "l" = "1"
   ## ideas: http://stackoverflow.com/questions/15474741/python-regex-optional-capture-group
+  
   # detect horizons with both top and bottom depths
-  # hz.rule <- "^\\s*?([\\^\\'\\/a-zA-Z0-9]+)\\s?-+?\\s?([O0-9.]+)\\s+?to\\s+?([O0-9.]+)\\s+?(in|inches|cm|centimeters)"
-  hz.rule <- "([\\^\\'\\/a-zA-Z0-9]+)\\s*[-=]+\\s*([O0-9.]+)\\s*?(to|-)?\\s+?([O0-9.]+)\\s+?(in|inches|cm|centimeters)"
+  hz.rule <-            "([\\^\\'\\/a-zA-Z0-9]+)\\s*[-=]+\\s*([O0-9.]+)\\s*?(to|-)?\\s+?([O0-9.]+)\\s+?(in|inches|cm|centimeters)"
 
   # detect horizons with no bottom depth
   hz.rule.no.bottom <- "([\\^\\'\\/a-zA-Z0-9]+)\\s*[-=]+?\\s*([0-9.]+)\\s*(to|-)?\\s*([0-9.]+)?\\s+?(in|inches|cm|centimeters)"
@@ -575,7 +569,7 @@
   ##
 
   ## TODO: test this
-  # establist default encoding of colors
+  # establish default encoding of colors
   dry.is.default <- length(grep('for dry (soil|conditions)', tp, ignore.case = TRUE)) > 0
   moist.is.default <- length(grep('for moist (soil|conditions)', tp, ignore.case = TRUE)) > 0
 
@@ -606,6 +600,9 @@
   # ID actual lines of horizon information
   hz.idx <- unique(c(grep(hz.rule, tp), grep(hz.rule.no.bottom, tp)))
 
+  ## the first line of the TYPICAL PEDON section should not appear in this index
+  # first.line.flag <- which(hz.idx == 1)
+  
   # init empty lists to store hz data and colors
   hz.data <- list()
   dry.colors <- list()
