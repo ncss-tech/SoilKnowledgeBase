@@ -137,29 +137,8 @@ testIt('TUSKAHOMA')
 testIt('vance')
 
 
-# extra "----"
-testIt('Ravenrock')
-
-
-# neutral hues
-testIt('Yorkville')
-
-
-# error in OSD, 'O' should be '0'
-testIt('clear lake')
-
-
-# error in OSD, 'O' should be '0'
-testIt('iron mountain')
-
-
 # errors in OSD: "A1, A3--0 to 19 inches;"
 testIt('whitney')
-
-
-# "l" and "O" used instead of "1" and "0"
-# must fix OSD
-testIt('SIRRETTA')
 
 
 # can't parse this: (10YR 3/1 moist or dry)

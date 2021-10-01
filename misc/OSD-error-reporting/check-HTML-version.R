@@ -3,7 +3,7 @@ library(soilDB)
 
 # get latest version via HTML interface
 # latest soilDB contains a fix to properly launder the result
-o <- get_OSD('weston', result = 'html')
+o <- get_OSD('ESPARTO', result = 'html')
 
 # use throw-away files as place-holders
 logfile <- tempfile()
