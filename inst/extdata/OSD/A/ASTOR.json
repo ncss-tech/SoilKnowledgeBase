@@ -1,8 +1,8 @@
 {
   "SERIES": "ASTOR",
   "STATUS": "Established Series",
-  "BYREV": "Rev. AGH",
-  "REVDATE": "03/2000",
+  "BYREV": "Rev. AGH; DTA",
+  "REVDATE": "09/2021",
   "STATES": "FL",
   "OVERVIEW": "The Astor series consists of very poorly drained, rapidly permeable soils that formed in sandy marine sediments.  They occur in low, nearly level areas, poorly defined drainageways, and flood plains in Peninsular Florida.  Under natural conditions, they are saturated and frequently covered with shallow water during the summer rainy season.  Slopes are 0 to 1 percent.",
   "TAXONOMIC CLASS": {
@@ -11,7 +11,7 @@
   },
   "TYPICAL PEDON": {
     "section": "TYPICAL PEDON",
-    "content": "TYPICAL PEDON:  Astor sand in a forested area.\n(Colors are for moist soil unless otherwise stated.)\nO1--1 to 0 inch; fresh leaves, twigs, stems, and bark.\nA1--0 to 8 inches; black (10YR 2/1) sand; few medium distinct gray (10YR 6/1) mottles; weak fine granular structure; friable; many fine, medium and coarse roots; few sand grains are uncoated; slightly acid; gradual wavy boundary.\nA2--8 to 24 inches; very dark gray (10YR 3/1) sand; many medium faint grayish brown (10YR 5/2) mottles; weak fine granular structure; friable; common fine, medium, and coarse roots, many uncoated sand grains; moderately alkaline; gradual wavy boundary.\nA3--24 to 32 inches; very dark grayish brown (10YR 3/2) sand; many medium faint very dark gray (10YR 3/1) mottles; weak, fine granular structure; friable; common fine and medium roots; moderately alkaline; clear wavy boundary.  (Combined thickness of the A horizon is 24 to 60 inches.)\nC--32 to 80 inches; dark grayish brown (10YR 4/2) sand; many medium faint black (10YR 2/1) mottles; single grained; few fine roots; many clean sand grains; moderately alkaline."
+    "content": "TYPICAL PEDON:  Astor sand in a forested area.  (Colors are for moist soil unless otherwise stated.)\nOi--0 to 1 inch; fresh leaves, twigs, stems, and bark.\nA1--1 to 9 inches; black (10YR 2/1) sand; few medium distinct gray (10YR 6/1) mottles; weak fine granular structure; friable; many fine, medium and coarse roots; few sand grains are uncoated; slightly acid; gradual wavy boundary.\nA2--9 to 25 inches; very dark gray (10YR 3/1) sand; many medium faint grayish brown (10YR 5/2) mottles; weak fine granular structure; friable; common fine, medium, and coarse roots, many uncoated sand grains; moderately alkaline; gradual wavy boundary.\nA3--25 to 33 inches; very dark grayish brown (10YR 3/2) sand; many medium faint very dark gray (10YR 3/1) mottles; weak, fine granular structure; friable; common fine and medium roots; moderately alkaline; clear wavy boundary.  (Combined thickness of the A horizon is 24 to 60 inches.)\nC--33 to 81 inches; dark grayish brown (10YR 4/2) sand; many medium faint black (10YR 2/1) mottles; single grained; few fine roots; many clean sand grains; moderately alkaline."
   },
   "TYPE LOCATION": {
     "section": "TYPE LOCATION",
@@ -46,8 +46,8 @@
     "content": "DISTRIBUTION AND EXTENT:  Mainly in Peninsular Florida.  The series is of small extent."
   },
   "REGIONAL OFFICE": {
-    "section": "MLRA SOIL SURVEY REGIONAL OFFICE (MO) RESPONSIBLE",
-    "content": "MLRA SOIL SURVEY REGIONAL OFFICE (MO) RESPONSIBLE: Auburn, Alabama"
+    "section": "SOIL SURVEY REGIONAL OFFICE (SSRO) RESPONSIBLE",
+    "content": "SOIL SURVEY REGIONAL OFFICE (SSRO) RESPONSIBLE: Auburn, Alabama"
   },
   "ORIGIN": {
     "section": "SERIES ESTABLISHED",
@@ -55,7 +55,7 @@
   },
   "REMARKS": {
     "section": "REMARKS",
-    "content": "REMARKS:  These soils were formerly included with the Delray series.\nNational Cooperative Soil Survey\nU. S. A."
+    "content": "REMARKS:  These soils were formerly included with the Delray series.  The 2021 revision changes the horizon depths to allow the Oi to be considered the top of the pedon.\nNational Cooperative Soil Survey\nU.S.A."
   },
   "SITE": [
     [
@@ -67,15 +67,15 @@
   "HORIZONS": [
     [
       {
-        "name": "O1",
-        "top": 3,
-        "bottom": 0,
-        "narrative": "O1--1 to 0 inch; fresh leaves, twigs, stems, and bark."
+        "name": "Oi",
+        "top": 0,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inch; fresh leaves, twigs, stems, and bark."
       },
       {
         "name": "A1",
-        "top": 0,
-        "bottom": 20,
+        "top": 3,
+        "bottom": 23,
         "moist_hue": "10YR",
         "moist_value": 2,
         "moist_chroma": 1,
@@ -83,12 +83,12 @@
         "pH_class": "slightly acid",
         "distinctness": "gradual",
         "topography": "wavy",
-        "narrative": "A1--0 to 8 inches; black (10YR 2/1) sand; few medium distinct gray (10YR 6/1) mottles; weak fine granular structure; friable; many fine, medium and coarse roots; few sand grains are uncoated; slightly acid; gradual wavy boundary."
+        "narrative": "A1--1 to 9 inches; black (10YR 2/1) sand; few medium distinct gray (10YR 6/1) mottles; weak fine granular structure; friable; many fine, medium and coarse roots; few sand grains are uncoated; slightly acid; gradual wavy boundary."
       },
       {
         "name": "A2",
-        "top": 20,
-        "bottom": 61,
+        "top": 23,
+        "bottom": 64,
         "moist_hue": "10YR",
         "moist_value": 3,
         "moist_chroma": 1,
@@ -96,12 +96,12 @@
         "pH_class": "moderately alkaline",
         "distinctness": "gradual",
         "topography": "wavy",
-        "narrative": "A2--8 to 24 inches; very dark gray (10YR 3/1) sand; many medium faint grayish brown (10YR 5/2) mottles; weak fine granular structure; friable; common fine, medium, and coarse roots, many uncoated sand grains; moderately alkaline; gradual wavy boundary."
+        "narrative": "A2--9 to 25 inches; very dark gray (10YR 3/1) sand; many medium faint grayish brown (10YR 5/2) mottles; weak fine granular structure; friable; common fine, medium, and coarse roots, many uncoated sand grains; moderately alkaline; gradual wavy boundary."
       },
       {
         "name": "A3",
-        "top": 61,
-        "bottom": 81,
+        "top": 64,
+        "bottom": 84,
         "moist_hue": "10YR",
         "moist_value": 3,
         "moist_chroma": 2,
@@ -109,18 +109,18 @@
         "pH_class": "moderately alkaline",
         "distinctness": "clear",
         "topography": "wavy",
-        "narrative": "A3--24 to 32 inches; very dark grayish brown (10YR 3/2) sand; many medium faint very dark gray (10YR 3/1) mottles; weak, fine granular structure; friable; common fine and medium roots; moderately alkaline; clear wavy boundary.  (Combined thickness of the A horizon is 24 to 60 inches.)"
+        "narrative": "A3--25 to 33 inches; very dark grayish brown (10YR 3/2) sand; many medium faint very dark gray (10YR 3/1) mottles; weak, fine granular structure; friable; common fine and medium roots; moderately alkaline; clear wavy boundary.  (Combined thickness of the A horizon is 24 to 60 inches.)"
       },
       {
         "name": "C",
-        "top": 81,
-        "bottom": 203,
+        "top": 84,
+        "bottom": 206,
         "moist_hue": "10YR",
         "moist_value": 4,
         "moist_chroma": 2,
         "texture_class": "sand",
         "pH_class": "moderately alkaline",
-        "narrative": "C--32 to 80 inches; dark grayish brown (10YR 4/2) sand; many medium faint black (10YR 2/1) mottles; single grained; few fine roots; many clean sand grains; moderately alkaline."
+        "narrative": "C--33 to 81 inches; dark grayish brown (10YR 4/2) sand; many medium faint black (10YR 2/1) mottles; single grained; few fine roots; many clean sand grains; moderately alkaline."
       }
     ]
   ]

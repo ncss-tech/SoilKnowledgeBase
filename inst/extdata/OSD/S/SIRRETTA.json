@@ -2,16 +2,16 @@
   "SERIES": "SIRRETTA",
   "STATUS": "Established Series",
   "BYREV": "Rev. ROH/KKC/DJE",
-  "REVDATE": "3/83",
+  "REVDATE": "10/2021",
   "STATES": "CA",
   "OVERVIEW": "The Sirretta series consists of moderately deep, excessively drained soils formed in material weathered from granitic rocks. Sirretta soils are on mountain slopes and ridges with slopes of 5 to 75 percent. The mean annual precipitation is 26 inches and the mean annual temperature is 40 degrees F.",
   "TAXONOMIC CLASS": {
     "section": "TAXONOMIC CLASS",
-    "content": "TAXONOMIC CLASS: Sandy-skeletal, mixed, frigid Dystric\nXerorthents"
+    "content": "TAXONOMIC CLASS: Sandy-skeletal, mixed, frigid Dystric Xerorthents"
   },
   "TYPICAL PEDON": {
     "section": "TYPICAL PEDON",
-    "content": "TYPICAL PEDON: Sirretta stony coarse sandy loam - on a southeast facing slope of 15 percent under mixed conifers, mainly Pinus jeffreyi and Abies concolor, at 7,900 feet elevation. (Colors are for dry soil unless otherwise stated. When described on November 3, 1977, the soil was dry.)\nAl--O to 6 inches; dark grayish brown (lOYR 4/2) stony coarse sandy loam, very dark brown (lOYR 2/2) moist; single-grain; loose, very friable, nonsticky and nonplastic; many fine roots; many fine and medium interstitial pores; 30 percent pebbles, 15 percent cobbles, 5 percent stones; slightly acid (pH 6.2); gradual smooth boundary. (5 to 9 inches thick)\nC1--6 to 24 inches; brown (lOYR 5/3) extremely cobbly loamy sand, dark yellowish brown (lOYR 4/4) moist; single-grain; loose, very friable, nonsticky and nonplastic; common medium roots; many fine and medium interstitial pores; 40 percent pebbles, 40 percent cobbles, 10 percent stones; slightly acid (pH 6.2); gradual smooth boundary. (11 to 21 inches thick)\nC2--24 to 28 inches; light yellowish brown (lOYR 6/4) extremely cobbly loamy coarse sand, yellowish brown (lOYR 5/4) moist; single-grain; loose, nonsticky and nonplastic; few medium and coarse roots; many fine and medium interstitial pores; 40 percent pebbles, 20 percent cobbles; 10 percent stones, medium acid (pH 6.0); gradual smooth boundary. (4 to 10 inches thick)\nR--28 inches; fractured hard granitic rock."
+    "content": "TYPICAL PEDON: Sirretta stony coarse sandy loam - on a southeast facing slope of 15 percent under mixed conifers, mainly Pinus jeffreyi and Abies concolor, at 7,900 feet elevation. (Colors are for dry soil unless otherwise stated. When described on November 3, 1977, the soil was dry.)\nA--0 to 6 inches; dark grayish brown (10YR 4/2) stony coarse sandy loam, very dark brown (10YR 2/2) moist; single-grain; loose, very friable, nonsticky and nonplastic; many fine roots; many fine and medium interstitial pores; 30 percent pebbles, 15 percent cobbles, 5 percent stones; slightly acid (pH 6.2); gradual smooth boundary. (5 to 9 inches thick)\nC1--6 to 24 inches; brown (10YR 5/3) extremely cobbly loamy sand, dark yellowish brown (10YR 4/4) moist; single-grain; loose, very friable, nonsticky and nonplastic; common medium roots; many fine and medium interstitial pores; 40 percent pebbles, 40 percent cobbles, 10 percent stones; slightly acid (pH 6.2); gradual smooth boundary. (11 to 21 inches thick)\nC2--24 to 28 inches; light yellowish brown (10YR 6/4) extremely cobbly loamy coarse sand, yellowish brown (10YR 5/4) moist; single-grain; loose, nonsticky and nonplastic; few medium and coarse roots; many fine and medium interstitial pores; 40 percent pebbles, 20 percent cobbles; 10 percent stones, moderately acid (pH 6.0); gradual smooth boundary. (4 to 10 inches thick)\nR--28 inches; fractured hard granitic rock."
   },
   "TYPE LOCATION": {
     "section": "TYPE LOCATION",
@@ -19,7 +19,7 @@
   },
   "RANGE IN CHARACTERISTICS": {
     "section": "RANGE IN CHARACTERISTICS",
-    "content": "RANGE IN CHARACTERISTICS: Depth to a lithic contact ranges from 20 to 40 inches. The soil between depths of about 12 and 35 inches usually becomes moist in all parts in late October or November and remains moist until mid-July. It is dry in all parts the rest of the year. Mean annual soil temperature is 40 degrees F. Mean summer temperature is 65 degrees F. The soil at 20 inches is greater than 41 degrees F from mid-April to October 31 and greater than 47 degrees F from May 1 to October 15. Rock fragment content ranges from 35 to 90 percent. The soil is slightly acid to medium acid. Base saturation ranges from 20 to 35 percent throughout the profile and decreases with depth.\nThe A horizon has dry color of lOYR 3/3, 4/2, or 6/3, and moist color of lOYR 2/2 or 4/3. It has weak granular structure or is single-grain.\nThe C horizons have dry color of lOYR 6/4, 5/3, or 4/4, and moist color of lOYR 5/4, 4/4, or 4/3."
+    "content": "RANGE IN CHARACTERISTICS: Depth to a lithic contact ranges from 20 to 40 inches. The soil between depths of about 12 and 35 inches usually becomes moist in all parts in late October or November and remains moist until mid-July. It is dry in all parts the rest of the year. Mean annual soil temperature is 40 degrees F. Mean summer temperature is 65 degrees F. The soil at 20 inches is greater than 41 degrees F from mid-April to October 31 and greater than 47 degrees F from May 1 to October 15. Rock fragment content ranges from 35 to 90 percent. The soil is slightly acid to medium acid. Base saturation ranges from 20 to 35 percent throughout the profile and decreases with depth.\nThe A horizon has dry color of 10YR 3/3, 4/2, or 6/3, and moist color of 10YR 2/2 or 4/3. It has weak granular structure or is single-grain.\nThe C horizons have dry color of 10YR 6/4, 5/3, or 4/4, and moist color of 10YR 5/4, 4/4, or 4/3."
   },
   "COMPETING SERIES": {
     "section": "COMPETING SERIES",
@@ -67,38 +67,58 @@
   "HORIZONS": [
     [
       {
-        "name": "Al",
+        "name": "A",
+        "top": 0,
         "bottom": 15,
+        "dry_hue": "10YR",
+        "dry_value": 4,
+        "dry_chroma": 2,
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 2,
         "texture_class": "coarse sandy loam",
         "cf_class": "stony",
         "pH": 6.2,
         "pH_class": "slightly acid",
         "distinctness": "gradual",
         "topography": "smooth",
-        "narrative": "Al--O to 6 inches; dark grayish brown (lOYR 4/2) stony coarse sandy loam, very dark brown (lOYR 2/2) moist; single-grain; loose, very friable, nonsticky and nonplastic; many fine roots; many fine and medium interstitial pores; 30 percent pebbles, 15 percent cobbles, 5 percent stones; slightly acid (pH 6.2); gradual smooth boundary. (5 to 9 inches thick)"
+        "narrative": "A--0 to 6 inches; dark grayish brown (10YR 4/2) stony coarse sandy loam, very dark brown (10YR 2/2) moist; single-grain; loose, very friable, nonsticky and nonplastic; many fine roots; many fine and medium interstitial pores; 30 percent pebbles, 15 percent cobbles, 5 percent stones; slightly acid (pH 6.2); gradual smooth boundary. (5 to 9 inches thick)"
       },
       {
         "name": "C1",
         "top": 15,
         "bottom": 61,
+        "dry_hue": "10YR",
+        "dry_value": 5,
+        "dry_chroma": 3,
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
         "texture_class": "loamy sand",
         "cf_class": "extremely cobbly",
         "pH": 6.2,
         "pH_class": "slightly acid",
         "distinctness": "gradual",
         "topography": "smooth",
-        "narrative": "C1--6 to 24 inches; brown (lOYR 5/3) extremely cobbly loamy sand, dark yellowish brown (lOYR 4/4) moist; single-grain; loose, very friable, nonsticky and nonplastic; common medium roots; many fine and medium interstitial pores; 40 percent pebbles, 40 percent cobbles, 10 percent stones; slightly acid (pH 6.2); gradual smooth boundary. (11 to 21 inches thick)"
+        "narrative": "C1--6 to 24 inches; brown (10YR 5/3) extremely cobbly loamy sand, dark yellowish brown (10YR 4/4) moist; single-grain; loose, very friable, nonsticky and nonplastic; common medium roots; many fine and medium interstitial pores; 40 percent pebbles, 40 percent cobbles, 10 percent stones; slightly acid (pH 6.2); gradual smooth boundary. (11 to 21 inches thick)"
       },
       {
         "name": "C2",
         "top": 61,
         "bottom": 71,
+        "dry_hue": "10YR",
+        "dry_value": 6,
+        "dry_chroma": 4,
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 4,
         "texture_class": "loamy coarse sand",
         "cf_class": "extremely cobbly",
         "pH": 6,
+        "pH_class": "moderately acid",
         "distinctness": "gradual",
         "topography": "smooth",
-        "narrative": "C2--24 to 28 inches; light yellowish brown (lOYR 6/4) extremely cobbly loamy coarse sand, yellowish brown (lOYR 5/4) moist; single-grain; loose, nonsticky and nonplastic; few medium and coarse roots; many fine and medium interstitial pores; 40 percent pebbles, 20 percent cobbles; 10 percent stones, medium acid (pH 6.0); gradual smooth boundary. (4 to 10 inches thick)"
+        "narrative": "C2--24 to 28 inches; light yellowish brown (10YR 6/4) extremely cobbly loamy coarse sand, yellowish brown (10YR 5/4) moist; single-grain; loose, nonsticky and nonplastic; few medium and coarse roots; many fine and medium interstitial pores; 40 percent pebbles, 20 percent cobbles; 10 percent stones, moderately acid (pH 6.0); gradual smooth boundary. (4 to 10 inches thick)"
       },
       {
         "name": "R",

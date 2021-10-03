@@ -2,7 +2,7 @@
   "SERIES": "MARPA",
   "STATUS": "Established Series",
   "BYREV": "Rev. SEJ/RCH/DJE/CEJ/SBS",
-  "REVDATE": "8/98",
+  "REVDATE": "09/2021",
   "STATES": "CA",
   "OVERVIEW": "The Marpa series consists of moderately deep, well drained soils that formed in material weathered from shale, sandstone, schist and other metavolcanic or metasedimentary rocks.  Marpa soils are on mountains.  Slopes are 5 to 75 percent.  The mean annual precipitation is about 45 inches and the mean annual temperature is about 56 degrees F.",
   "TAXONOMIC CLASS": {
@@ -11,7 +11,7 @@
   },
   "TYPICAL PEDON": {
     "section": "TYPICAL PEDON",
-    "content": "TYPICAL PEDON:  Marpa gravelly loam--on a north facing slope of 51 percent under black oak, Douglas-fir, California hazel, poison oak, dogwood and canyon live oak at 1,650 feet elevation.  (Colors are for dry soil unless otherwise stated.  When described on April 13, 1961, the soil was moist throughout.)\nOi--1 inch to 0; litter and humus from black oak and Douglas-fir.\nA--0 to 6 inches; brown (7.5YR 5/2) gravelly loam, dark reddish brown (5YR 3/3) moist; moderate medium granular structure; soft, very friable, nonsticky and nonplastic; common fine and medium, and few coarse roots; many very fine interstitial, and few fine and medium tubular pores; slightly acid (pH 6.1); gradual wavy boundary.  (3 to 14 inches thick).\nBt1--6 to 13 inches; brown (7.5YR 5/4) gravelly loam, dark reddish brown (5YR 3/4) moist; weak medium granular structure; soft, friable, slightly sticky and slightly plastic; common fine and medium, and few coarse roots, common very fine interstitial, and few fine and medium tubular pores; common thin discontinuous clay films in pores and bridging sand grains; slightly acid (pH 6.1); gradual wavy boundary.  (7 to 12 inches thick).\nBt2--13 to 26 inches; light brown (7.5YR 6/4) very gravelly clay loam, brown (7.5YR 4/4) moist; massive; hard, friable, slightly sticky and slightly plastic; few very fine and medium roots; common very fine interstitial, and few fine and medium tubular pores; common thick discontinuous clay films in pores and on faces of rock fragments; strongly acid (pH 5.4); gradual smooth boundary.  (10 to 26 inches thick).\nR--26 to 32 inches; fractured hard shale."
+    "content": "TYPICAL PEDON:  Marpa gravelly loam--on a north facing slope of 51 percent under black oak, Douglas-fir, California hazel, poison oak, dogwood and canyon live oak at 1,650 feet elevation.  (Colors are for dry soil unless otherwise stated.  When described on April 13, 1961, the soil was moist throughout.)\nOi--0 to 1 inches; litter and humus from black oak and Douglas-fir.\nA--1 to 7 inches; brown (7.5YR 5/2) gravelly loam, dark reddish brown (5YR 3/3) moist; moderate medium granular structure; soft, very friable, nonsticky and nonplastic; common fine and medium, and few coarse roots; many very fine interstitial, and few fine and medium tubular pores; slightly acid (pH 6.1); gradual wavy boundary.  (3 to 14 inches thick).\nBt1--7 to 14 inches; brown (7.5YR 5/4) gravelly loam, dark reddish brown (5YR 3/4) moist; weak medium granular structure; soft, friable, slightly sticky and slightly plastic; common fine and medium, and few coarse roots, common very fine interstitial, and few fine and medium tubular pores; common thin discontinuous clay films in pores and bridging sand grains; slightly acid (pH 6.1); gradual wavy boundary.  (7 to 12 inches thick).\nBt2--14 to 27 inches; light brown (7.5YR 6/4) very gravelly clay loam, brown (7.5YR 4/4) moist; massive; hard, friable, slightly sticky and slightly plastic; few very fine and medium roots; common very fine interstitial, and few fine and medium tubular pores; common thick discontinuous clay films in pores and on faces of rock fragments; strongly acid (pH 5.4); gradual smooth boundary.  (10 to 26 inches thick).\nR--27 to 33 inches; fractured hard shale."
   },
   "TYPE LOCATION": {
     "section": "TYPE LOCATION",
@@ -54,8 +54,8 @@
     "content": "SERIES ESTABLISHED:  Shasta County, California, 1978."
   },
   "REMARKS": {
-    "section": "ADDITIONAL DATA",
-    "content": "ADDITIONAL DATA:  Soil data from U.C. Berkeley soil sample No. 61-45-114 dated 4/13/61.  A NSSL pedon sampled as Marpa in Del Norte County: S76CA-015-506.\nNational Cooperative Soil Survey\nU.S.A."
+    "section": "REMARKS",
+    "content": "REMARKS:\nADDITIONAL DATA:  Soil data from U.C. Berkeley soil sample No. 61-45-114 dated 4/13/61.  A NSSL pedon sampled as Marpa in Del Norte County: S76CA-015-506.\nNational Cooperative Soil Survey\nU.S.A."
   },
   "SITE": [
     [
@@ -67,9 +67,15 @@
   "HORIZONS": [
     [
       {
-        "name": "A",
+        "name": "Oi",
         "top": 0,
-        "bottom": 15,
+        "bottom": 3,
+        "narrative": "Oi--0 to 1 inches; litter and humus from black oak and Douglas-fir."
+      },
+      {
+        "name": "A",
+        "top": 3,
+        "bottom": 18,
         "dry_hue": "7.5YR",
         "dry_value": 5,
         "dry_chroma": 2,
@@ -82,12 +88,12 @@
         "pH_class": "slightly acid",
         "distinctness": "gradual",
         "topography": "wavy",
-        "narrative": "A--0 to 6 inches; brown (7.5YR 5/2) gravelly loam, dark reddish brown (5YR 3/3) moist; moderate medium granular structure; soft, very friable, nonsticky and nonplastic; common fine and medium, and few coarse roots; many very fine interstitial, and few fine and medium tubular pores; slightly acid (pH 6.1); gradual wavy boundary.  (3 to 14 inches thick)."
+        "narrative": "A--1 to 7 inches; brown (7.5YR 5/2) gravelly loam, dark reddish brown (5YR 3/3) moist; moderate medium granular structure; soft, very friable, nonsticky and nonplastic; common fine and medium, and few coarse roots; many very fine interstitial, and few fine and medium tubular pores; slightly acid (pH 6.1); gradual wavy boundary.  (3 to 14 inches thick)."
       },
       {
         "name": "Bt1",
-        "top": 15,
-        "bottom": 33,
+        "top": 18,
+        "bottom": 36,
         "dry_hue": "7.5YR",
         "dry_value": 5,
         "dry_chroma": 4,
@@ -100,12 +106,12 @@
         "pH_class": "slightly acid",
         "distinctness": "gradual",
         "topography": "wavy",
-        "narrative": "Bt1--6 to 13 inches; brown (7.5YR 5/4) gravelly loam, dark reddish brown (5YR 3/4) moist; weak medium granular structure; soft, friable, slightly sticky and slightly plastic; common fine and medium, and few coarse roots, common very fine interstitial, and few fine and medium tubular pores; common thin discontinuous clay films in pores and bridging sand grains; slightly acid (pH 6.1); gradual wavy boundary.  (7 to 12 inches thick)."
+        "narrative": "Bt1--7 to 14 inches; brown (7.5YR 5/4) gravelly loam, dark reddish brown (5YR 3/4) moist; weak medium granular structure; soft, friable, slightly sticky and slightly plastic; common fine and medium, and few coarse roots, common very fine interstitial, and few fine and medium tubular pores; common thin discontinuous clay films in pores and bridging sand grains; slightly acid (pH 6.1); gradual wavy boundary.  (7 to 12 inches thick)."
       },
       {
         "name": "Bt2",
-        "top": 33,
-        "bottom": 66,
+        "top": 36,
+        "bottom": 69,
         "dry_hue": "7.5YR",
         "dry_value": 6,
         "dry_chroma": 4,
@@ -118,18 +124,13 @@
         "pH_class": "strongly acid",
         "distinctness": "gradual",
         "topography": "smooth",
-        "narrative": "Bt2--13 to 26 inches; light brown (7.5YR 6/4) very gravelly clay loam, brown (7.5YR 4/4) moist; massive; hard, friable, slightly sticky and slightly plastic; few very fine and medium roots; common very fine interstitial, and few fine and medium tubular pores; common thick discontinuous clay films in pores and on faces of rock fragments; strongly acid (pH 5.4); gradual smooth boundary.  (10 to 26 inches thick)."
+        "narrative": "Bt2--14 to 27 inches; light brown (7.5YR 6/4) very gravelly clay loam, brown (7.5YR 4/4) moist; massive; hard, friable, slightly sticky and slightly plastic; few very fine and medium roots; common very fine interstitial, and few fine and medium tubular pores; common thick discontinuous clay films in pores and on faces of rock fragments; strongly acid (pH 5.4); gradual smooth boundary.  (10 to 26 inches thick)."
       },
       {
         "name": "R",
-        "top": 66,
-        "bottom": 81,
-        "narrative": "R--26 to 32 inches; fractured hard shale."
-      },
-      {
-        "name": "Oi",
-        "top": 3,
-        "narrative": "Oi--1 inch to 0; litter and humus from black oak and Douglas-fir."
+        "top": 69,
+        "bottom": 84,
+        "narrative": "R--27 to 33 inches; fractured hard shale."
       }
     ]
   ]
