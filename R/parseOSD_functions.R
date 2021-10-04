@@ -600,13 +600,12 @@
   # ID actual lines of horizon information
   hz.idx <- unique(c(grep(hz.rule, tp), grep(hz.rule.no.bottom, tp)))
 
-  ## TODO: write more tests / check this before activating
-  ## the first line of the TYPICAL PEDON section should not appear in this index
-  # first.line.flag <- which(hz.idx == 1)
-  # if(length(first.line.flag) > 0) {
-  #   hz.idx <- hz.idx[-first.line.flag]
-  # }
-  
+  # the first line of the TYPICAL PEDON section should not appear in this index
+  first.line.flag <- which(hz.idx == 1)
+  if(length(first.line.flag) > 0) {
+    hz.idx <- hz.idx[-first.line.flag]
+  }
+
   # init empty lists to store hz data and colors
   hz.data <- list()
   dry.colors <- list()

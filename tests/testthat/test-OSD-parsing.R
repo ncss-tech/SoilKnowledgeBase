@@ -5,11 +5,14 @@ context("OSD Parsing")
 
 ## TODO: add more tests for known problematic soils / work-arounds
 
+## NOTE: the first line must be "TYPICAL PEDON"
+
 
 test_that("horizon depths (with unit conversion) and designation", {
   
   # MENDEL
-  lines <- strsplit("A--0 to 13 cm; grayish brown (10YR 5/2) very cobbly coarse sandy loam, very dark grayish brown (10YR 3/2) moist; 76 percent sand; 17 percent silt; 7 percent clay; weak very fine and fine granular structure; slightly hard, friable, slightly sticky, nonplastic; many very fine, and common fine and medium roots throughout; common very fine, fine, and medium interstitial pores; 20 percent subrounded indurated granite gravel, 20 percent subrounded indurated granite cobbles, 5 percent subrounded indurated granite stones; NaF pH 8.9; moderately acid (pH 5.6); abrupt smooth boundary. (9 to 20 cm thick) Lab sample # 16N00926", split = '\n')[[1]]
+  lines <- strsplit("TYPICAL PEDON:
+                    A--0 to 13 cm; grayish brown (10YR 5/2) very cobbly coarse sandy loam, very dark grayish brown (10YR 3/2) moist; 76 percent sand; 17 percent silt; 7 percent clay; weak very fine and fine granular structure; slightly hard, friable, slightly sticky, nonplastic; many very fine, and common fine and medium roots throughout; common very fine, fine, and medium interstitial pores; 20 percent subrounded indurated granite gravel, 20 percent subrounded indurated granite cobbles, 5 percent subrounded indurated granite stones; NaF pH 8.9; moderately acid (pH 5.6); abrupt smooth boundary. (9 to 20 cm thick) Lab sample # 16N00926", split = '\n')[[1]]
   
   z <- SoilKnowledgeBase:::.extractHzData(lines)
   
@@ -21,7 +24,8 @@ test_that("horizon depths (with unit conversion) and designation", {
   
   
   # CECIL
-  lines <- strsplit("Bt2--26 to 42 inches; red (10R 4/8) clay; few fine prominent yellowish red (5YR 5/8) mottles; moderate medium subangular blocky structure; firm; sticky, plastic; common clay films on faces of peds; few fine flakes of mica; very strongly acid; gradual wavy boundary. (Combined thickness of the Bt horizon is 24 to 50 inches)", split = '\n')[[1]]
+  lines <- strsplit("TYPICAL PEDON:
+                    Bt2--26 to 42 inches; red (10R 4/8) clay; few fine prominent yellowish red (5YR 5/8) mottles; moderate medium subangular blocky structure; firm; sticky, plastic; common clay films on faces of peds; few fine flakes of mica; very strongly acid; gradual wavy boundary. (Combined thickness of the Bt horizon is 24 to 50 inches)", split = '\n')[[1]]
   
   z <- SoilKnowledgeBase:::.extractHzData(lines)
   
@@ -33,7 +37,8 @@ test_that("horizon depths (with unit conversion) and designation", {
   
   
   # DRUMMER
-  lines <- strsplit("2Cg--119 to 152 cm (47 to 60 inches); dark gray (10YR 4/1) stratified loam and sandy loam; massive; friable; many medium prominent olive brown (2.5Y 4/4) masses of oxidized iron-manganese in the matrix; many medium distinct gray (N 5/) iron depletions in the matrix; slightly alkaline.", split = '\n')[[1]]
+  lines <- strsplit("TYPICAL PEDON:
+                    2Cg--119 to 152 cm (47 to 60 inches); dark gray (10YR 4/1) stratified loam and sandy loam; massive; friable; many medium prominent olive brown (2.5Y 4/4) masses of oxidized iron-manganese in the matrix; many medium distinct gray (N 5/) iron depletions in the matrix; slightly alkaline.", split = '\n')[[1]]
   
   z <- SoilKnowledgeBase:::.extractHzData(lines)
   
@@ -45,7 +50,8 @@ test_that("horizon depths (with unit conversion) and designation", {
   
   
   # IRON MOUNTAIN
-  lines <- strsplit("R--23 cm ; hard volcanic breccia which is impervious to both roots and water .", split = '\n')[[1]]
+  lines <- strsplit("TYPICAL PEDON:
+                    R--23 cm ; hard volcanic breccia which is impervious to both roots and water .", split = '\n')[[1]]
   
   z <- SoilKnowledgeBase:::.extractHzData(lines)
   
@@ -156,14 +162,16 @@ BCk2--188 to 203 cm (74 to 80 in); light gray (5Y 7/1) clay, white (5Y 8/1) dry;
   
 })
 
-## TODO: spurious horizon found in the TYPICAL PEDON line
-# 
-# test_that("example 1", {
-# 
-#   lines <- strsplit("TYPICAL PEDON: Mendel very cobbly coarse sandy loam on a south facing (165 degree), 4 percent slope under a cover of timber oatgrass, dwarf bilberry, and scattered Sierra lodgepole pine at an elevation of 3221 meters. (Colors are for dry soils unless otherwise noted. When described on August 3, 2015 the soil was moist to 66 cm, wet, non-satiated from 66-105 cm, and wet, satiated from 66-150 cm. A water table was observed at 95 cm.)", split = '\n')[[1]]
-# 
-# 
-#   z <- SoilKnowledgeBase:::.extractHzData(lines)
-#   expect_true(nrow(z) < 1)
-# 
-# })
+# ensure that spurious horizon found in the TYPICAL PEDON line is filtered
+# https://github.com/ncss-tech/SoilKnowledgeBase/issues/34
+test_that("example 1", {
+
+  lines <- strsplit("TYPICAL PEDON: Mendel very cobbly coarse sandy loam on a south facing (165 degree), 4 percent slope under a cover of timber oatgrass, dwarf bilberry, and scattered Sierra lodgepole pine at an elevation of 3221 meters. (Colors are for dry soils unless otherwise noted. When described on August 3, 2015 the soil was moist to 66 cm, wet, non-satiated from 66-105 cm, and wet, satiated from 66-150 cm. A water table was observed at 95 cm.)
+A--0 to 13 cm; grayish brown (10YR 5/2) very cobbly coarse sandy loam, very dark grayish brown (10YR 3/2) moist; 76 percent sand; 17 percent silt; 7 percent clay; weak very fine and fine granular structure; slightly hard, friable, slightly sticky, nonplastic; many very fine, and common fine and medium roots throughout; common very fine, fine, and medium interstitial pores; 20 percent subrounded indurated granite gravel, 20 percent subrounded indurated granite cobbles, 5 percent subrounded indurated granite stones; NaF pH 8.9; moderately acid (pH 5.6); abrupt smooth boundary. (9 to 20 cm thick) Lab sample # 16N00926
+Bw1--13 to 35 cm; light yellowish brown (10YR 6/4) very cobbly loamy coarse sand, dark yellowish brown (10YR 4/4) moist; 81 percent sand; 13 percent silt; 6 percent clay; weak medium and coarse subangular blocky structure; slightly hard, friable, slightly sticky, nonplastic; common very fine, fine, and medium roots throughout; common very fine, fine, and medium tubular pores; 15 percent subrounded indurated granite gravel, 25 percent subrounded indurated granite cobbles, 10 percent subrounded indurated granite stones; NaF pH 10.3; moderately acid (pH 5.9); clear wavy boundary. Lab sample # 16N00927", split = '\n')[[1]]
+
+
+  z <- SoilKnowledgeBase:::.extractHzData(lines)
+  expect_true(nrow(z) == 2)
+
+})
