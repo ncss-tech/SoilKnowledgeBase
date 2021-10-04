@@ -2,7 +2,6 @@ library(aqp)
 library(soilDB)
 library(data.table)
 
-
 # recent acreage estimates from SoilWeb
 ac <- fread('https://github.com/ncss-tech/SoilWeb-data/raw/main/files/series_stats.csv.gz')
 ac <- as.data.frame(ac)

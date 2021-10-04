@@ -3,7 +3,7 @@ library(soilDB)
 
 # get latest version via HTML interface
 # latest soilDB contains a fix to properly launder the result
-o <- get_OSD('ESPARTO', result = 'html')
+o <- get_OSD('AMADOR', result = 'html')
 
 # use throw-away files as place-holders
 logfile <- tempfile()
@@ -17,12 +17,13 @@ x <- validateOSD(logfile, filepath = OSDtext)
 
 # parse site/horizon data
 # note: missing series name in hz data
-parsed.OSD <- .doParseOSD(x)
+parsed.OSD <- SoilKnowledgeBase:::.doParseOSD(x)
 
 # check:
 s <- parsed.OSD$`hz-data`
 s[, 1:9]
 
+s
 
 ## testing / checking REGEX
 
