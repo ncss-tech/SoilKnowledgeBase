@@ -164,7 +164,7 @@ BCk2--188 to 203 cm (74 to 80 in); light gray (5Y 7/1) clay, white (5Y 8/1) dry;
 
 # ensure that spurious horizon found in the TYPICAL PEDON line is filtered
 # https://github.com/ncss-tech/SoilKnowledgeBase/issues/34
-test_that("example 1", {
+test_that("spurious horizons filtered from the first line of TYPICAL PEDON section", {
 
   lines <- strsplit("TYPICAL PEDON: Mendel very cobbly coarse sandy loam on a south facing (165 degree), 4 percent slope under a cover of timber oatgrass, dwarf bilberry, and scattered Sierra lodgepole pine at an elevation of 3221 meters. (Colors are for dry soils unless otherwise noted. When described on August 3, 2015 the soil was moist to 66 cm, wet, non-satiated from 66-105 cm, and wet, satiated from 66-150 cm. A water table was observed at 95 cm.)
 A--0 to 13 cm; grayish brown (10YR 5/2) very cobbly coarse sandy loam, very dark grayish brown (10YR 3/2) moist; 76 percent sand; 17 percent silt; 7 percent clay; weak very fine and fine granular structure; slightly hard, friable, slightly sticky, nonplastic; many very fine, and common fine and medium roots throughout; common very fine, fine, and medium interstitial pores; 20 percent subrounded indurated granite gravel, 20 percent subrounded indurated granite cobbles, 5 percent subrounded indurated granite stones; NaF pH 8.9; moderately acid (pH 5.6); abrupt smooth boundary. (9 to 20 cm thick) Lab sample # 16N00926
