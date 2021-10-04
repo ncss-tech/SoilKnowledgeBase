@@ -1,9 +1,9 @@
-# library(SoilKnowledgeBase)
+library(SoilKnowledgeBase)
 library(soilDB)
 
 # get latest version via HTML interface
 # latest soilDB contains a fix to properly launder the result
-o <- get_OSD('AMADOR', result = 'html')
+o <- get_OSD('ACADEMY', result = 'html')
 
 # use throw-away files as place-holders
 logfile <- tempfile()
@@ -22,8 +22,13 @@ parsed.OSD <- SoilKnowledgeBase:::.doParseOSD(x)
 # check:
 s <- parsed.OSD$`hz-data`
 s[, 1:9]
+s[, 10:15]
 
-s
+## ACADEMY describes multiple drainage classes
+s <- parsed.OSD$`site-data`
+str(s)
+
+
 
 ## testing / checking REGEX
 

@@ -17,6 +17,11 @@ sc <- sc$soilseriesname
 
 ## TODO: add sections / entire OSD -> fulltext data
 
+## TODO: many OSDs are "missing" site data
+# ACADEMY, ADAMSTOWN, ...
+
+## TODO: narratives in the JSON files have leading white space
+
 # for now, relative to /misc/OSD-error-reporting
 osd.path <- 'inst/extdata/OSD'
 # output.path <- 'inst/extdata/OSD-error-reporting/'
@@ -113,6 +118,6 @@ write.csv(s, file=gzfile('parsed-site-data.csv.gz'), row.names = FALSE)
 # nrow(read.csv('E:/working_copies/parse-osd/R/parsed-site-data.csv.gz'))
 
 
-
+## 
 
 
