@@ -427,8 +427,12 @@
   
   ## drainage class
   
-  # this work for standard OSD format
-  drainage.class <- .parse_drainage_class(x[['DRAINAGE.AND.PERMEABILITY']])
+  # this works for standard OSD format
+  drainage.class <- .parse_drainage_class(x[['DRAINAGE AND PERMEABILITY']])
+  
+  if (length(drainage.class) > 1) {
+    drainage.class <- na.omit(drainage.class)[1]
+  }
   
   # alternative for SSR1 updated OSD format
   # https://casoilresource.lawr.ucdavis.edu/sde/?series=bordengulch
@@ -436,11 +440,13 @@
     drainage.class <- .parse_drainage_class(x[['OVERVIEW']])
   }
   
+  # ensure a non-NA drainage is in JSON result 
+  if(is.na(drainage.class)) {
+    drainage.class <- ""
+  }
   
   ## TODO: other things?
   
-  
-  # composite into a list for later
   r <- data.frame(drainage = drainage.class)
   return(r)
 }

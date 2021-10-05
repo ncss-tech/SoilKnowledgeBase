@@ -51,8 +51,9 @@ for(i in sc[idx]) {
   # important notes:
   # * some series in SC may not exist here
   # * these files may contain data.frames of varying structure
-  hz <- get_OSD(i, result = 'json', base_url = osd.path)[['HORIZONS']][[1]]
-  s <- get_OSD(i, result = 'json', base_url = osd.path)[['SITE']][[1]]
+  osddf <- get_OSD(i, result = 'json', base_url = osd.path)
+  hz <- osddf[['HORIZONS']][[1]]
+  s <- osddf[['SITE']][[1]]
   
   # missing files / generate warnings
   if(is.null(hz)) {
@@ -70,7 +71,6 @@ for(i in sc[idx]) {
       hz.data[[i]] <- hz
     }
   }
-  
   
   # a non-existent SITE attribute (ACADEMY), results in a funky object
   if(inherits(s, 'data.frame')) {
