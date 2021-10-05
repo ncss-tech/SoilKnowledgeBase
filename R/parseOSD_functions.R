@@ -623,12 +623,9 @@
   res$distinctness <- bdy$distinctness
   res$topography <- bdy$topography
   
-  # replace NA with "" (could also be "NA" or "missing" or similar)
-  res[sapply(res, is.factor)] <- lapply(res[sapply(res, is.factor)], as.character)
-  res[is.na(res)] <- ""
-  
   # add narrative
   res <- cbind(res, narrative.data)
+  
   return(res)
 }
 
