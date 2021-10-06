@@ -1,7 +1,8 @@
+devtools::load_all()
+
 library(aqp)
 library(soilDB)
 library(data.table)
-library(SoilKnowledgeBase)
 library(progress)
 
 # recent SC database
@@ -23,7 +24,7 @@ sc <- sc$soilseriesname
 ## TODO: narratives in the JSON files have leading white space
 
 # for now, relative to /misc/OSD-error-reporting
-osd.path <- 'inst/extdata/OSD'
+osd.path <- '../../inst/extdata/OSD'
 # output.path <- 'inst/extdata/OSD-error-reporting/'
 
 # OSDs to process, typically all of them
@@ -72,10 +73,19 @@ for(i in sc[idx]) {
     }
   }
   
-  # a non-existent SITE attribute (ACADEMY), results in a funky object
+  # columns should contain: drainage, drainage_overview, id
   if(inherits(s, 'data.frame')) {
-    # remove 'id' column and add series name
+    # remove 'id' column
     s$id <- NULL
+    
+    ## TODO: consider keeping both
+    # if the drainage class is missing from the DRAINAGE section use whatever was found in the overview
+    s$drainage <- ifelse(is.na(s$drainage), s$drainage_overview, s$drainage)
+    
+    # remove drainage overview for now
+    s$drainage_overview <- NULL
+    
+    # add series name
     s$seriesname <- i
     
     # append
@@ -111,7 +121,7 @@ s <- as.data.frame(rbindlist(site.data))
 
 # save
 write.csv(hz, file = gzfile('parsed-data.csv.gz'), row.names = FALSE)
-write.csv(s, file=gzfile('parsed-site-data.csv.gz'), row.names = FALSE)
+write.csv(s, file = gzfile('parsed-site-data.csv.gz'), row.names = FALSE)
 
 ## TODO: investigate missing records, relative to the last time this was run
 # nrow(read.csv('E:/working_copies/parse-osd/R/parsed-data.csv.gz'))
