@@ -5,6 +5,10 @@ context("OSD Parsing")
 
 ## TODO: add more tests for known problematic soils / work-arounds
 
+## TODO: add drainage class tests
+
+## TODO: add tests for greedy matches: e.g. 'fine sandy loam'
+
 ## NOTE: the first line must be "TYPICAL PEDON"
 
 
@@ -159,11 +163,18 @@ BCk2--188 to 203 cm (74 to 80 in); light gray (5Y 7/1) clay, white (5Y 8/1) dry;
       "moderately alkaline", "moderately alkaline")
   )
   
+  # coarse fragment class: all NA in this case
+  expect_true(
+    all(
+      is.na(z$cf_class)
+    )
+  )
+  
   
 })
 
 # ensure that spurious horizon found in the TYPICAL PEDON line is filtered
-# https://github.com/ncss-tech/SoilKnowledgeBase/issues/34
+# https://github.com/ncss-tech/SoilKnowledgeBase/issues/34 [resolved]
 test_that("spurious horizons filtered from the first line of TYPICAL PEDON section", {
 
   lines <- strsplit("TYPICAL PEDON: Mendel very cobbly coarse sandy loam on a south facing (165 degree), 4 percent slope under a cover of timber oatgrass, dwarf bilberry, and scattered Sierra lodgepole pine at an elevation of 3221 meters. (Colors are for dry soils unless otherwise noted. When described on August 3, 2015 the soil was moist to 66 cm, wet, non-satiated from 66-105 cm, and wet, satiated from 66-150 cm. A water table was observed at 95 cm.)
@@ -175,3 +186,33 @@ Bw1--13 to 35 cm; light yellowish brown (10YR 6/4) very cobbly loamy coarse sand
   expect_true(nrow(z) == 2)
 
 })
+
+
+## TODO add a couple more strange ones, flagstones etc.
+test_that("coarse fragment extraction", {
+  
+  lines <- strsplit("TYPICAL PEDON: Pardee gravelly loam on a west-facing, 4 percent slope, under annual grasses and forbs with scattered blue oaks at an elevation of 137 meters. (Colors are for dry soil unless otherwise stated. When described on May 3, 1960, the soil was moist throughout.)
+
+A1--0 to 5 cm; brown (7.5YR 5/3) gravelly loam, dark brown (7.5YR 3/4) moist; massive; slightly hard, friable, slightly sticky and slightly plastic; common very fine roots; many very fine interstitial and tubular pores; 10 percent mixed rounded indurated gravel, 5 percent mixed rounded indurated cobbles; slightly acid (pH 6.3); gradual smooth boundary. (5 to 18 cm thick)
+
+A2--5 to 23 cm; brown (7.5YR 5/4) cobbly loam, dark brown (7.5YR 3/4) moist; massive; hard, friable, slightly sticky and plastic; common very fine roots; many very fine interstitial and tubular pores, 15 percent mixed rounded indurated gravel, 15 percent mixed rounded indurated cobbles; slightly acid (pH 6.3); gradual smooth boundary. (10 to 18 cm thick)
+
+Bt1--23 to 36 cm; brown (7.5YR 5/4) very cobbly loam, reddish brown (5YR 4/4) moist; massive; hard, friable, slightly sticky and plastic; few very fine roots; many very fine, common fine, few medium tubular pores; few thin clay films in pores; 10 percent mixed rounded indurated gravel, 35 percent mixed rounded indurated cobbles; moderately acid (pH 6.0); gradual smooth boundary. (5 to 13 cm thick)
+
+Bt2--36 to 43 cm; brown (7.5YR 5/4) extremely cobbly loam, reddish brown (5YR 4/4) moist; massive; hard, friable, slightly sticky and plastic; few very fine roots; many very fine and fine pores; few thin clay films in pores; 20 percent mixed rounded indurated gravel, 60 percent mixed rounded indurated cobbles; moderately acid (pH 5.8); abrupt wavy boundary. (8 to 15 cm thick)
+
+2Bt3--43 to 46 cm; brown (7.5YR 5/3) very cobbly clay with flecks of light gray (10YR 7/2) weathered sand, brown (7.5YR 4/2) moist; massive; very hard, very firm, sticky and plastic; few very fine roots; common very fine tubular pores; thick continuous clay films on peds and lining pores; 5 percent mixed rounded indurated gravel, 35 percent mixed rounded indurated cobbles; strongly acid (pH 5.3); abrupt wavy boundary. (0 to 8 cm thick).", split = '\n')[[1]]
+  
+  
+  z <- SoilKnowledgeBase:::.extractHzData(lines)
+  expect_true(nrow(z) == 5)
+  
+  # coarse fragment class
+  expect_equal(
+    as.character(z$cf_class), 
+    c("gravelly", "cobbly", "very cobbly", "extremely cobbly", 
+      "very cobbly")
+  )
+  
+})
+
