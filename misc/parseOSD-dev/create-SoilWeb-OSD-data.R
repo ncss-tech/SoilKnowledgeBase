@@ -44,6 +44,7 @@ pb <- progress_bar$new(
   total = length(sc[idx])
 )
 
+# ~ 6 minutes
 # iteration over series names
 for(i in sc[idx]) {
 
@@ -128,6 +129,14 @@ write.csv(s, file = gzfile('parsed-site-data.csv.gz'), row.names = FALSE)
 # nrow(read.csv('E:/working_copies/parse-osd/R/parsed-site-data.csv.gz'))
 
 
-## 
+## fill missing colors
+source('predict-missing-colors-OLS.R')
+
+
+## push files to soilweb
+## load tables
+## make sketches
+## make SDE figures
+
 
 
