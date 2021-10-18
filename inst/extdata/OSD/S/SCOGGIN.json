@@ -2,7 +2,7 @@
   "SERIES": "SCOGGIN",
   "STATUS": "Established Series",
   "BYREV": "Rev. RBH:JFB",
-  "REVDATE": "10/2018",
+  "REVDATE": "10/2021",
   "STATES": "FL",
   "OVERVIEW": "The Scoggin series consists of very poorly drained soils formed in loamy and sandy marine sediments on the low Coastal Plain in central Peninsular Florida.  They occur in swamps and low areas bordering swamps.  They are covered with standing water for as much as 6 months in most years beginning in the summer rainy season.  Slope is less than 1 percent.",
   "TAXONOMIC CLASS": {
@@ -11,7 +11,7 @@
   },
   "TYPICAL PEDON": {
     "section": "TYPICAL PEDON",
-    "content": "TYPICAL PEDON:  Scoggin muck in a forested area.  (Colors are for moist soil unless otherwise stated.)\nOa--4 to 0 inches; dark reddish brown (5YR 2/2) well decomposed organic matter (muck); weak fine granular structure; very friable; many fine roots; strongly acid; clear smooth boundary.  (0 to 4 inches thick)\nA1--0 to 7 inches; black (10YR 2/1) sand; weak fine granular structure; very friable; common fine and few medium and large roots; strongly acid; clear wavy boundary.  (5 to 9 inches thick)\nA21--7 to 17 inches; dark gray (10YR 4/1) sand; single grained; loose; few fine faint black streaks; few fine medium and large roots; strongly acid; gradual wavy boundary.  (6 to 15 inches thick)\nA22--17 to 25 inches; gray (10YR 5/1) sand; common medium distinct very dark gray (10YR 3/1) streaks and grayish brown (10YR 5/2) mottles; single grained; loose; few fine, medium and large roots; strongly acid; gradual wavy boundary.  (5 to 12 inches thick)\nA23--25 to 36 inches; gray (10YR 6/1) sand; few medium distinct very dark gray (10YR 3/1) mottles; single grained; loose few fine roots; strongly acid; clear wavy boundary.  (0 to 14 inches thick)\nB2tg--36 to 49 inches; dark gray (10YR 4/1) sandy clay loam; few coarse distinct yellowish brown (10YR 5/6) mottles; weak coarse subangular blocky structure; friable, slightly sticky; sand grains coated and bridged with clay; few fine decaying roots; strongly acid; clear wavy boundary.  (10 to 25 inches thick)\nCg--49 to 54 inches; gray (10YR 5/1) sandy loam; massive; friable; few coarse distinct loamy sand and dark gray sandy clay loam lenses; strongly acid."
+    "content": "TYPICAL PEDON:  Scoggin muck in a forested area.  (Colors are for moist soil unless otherwise stated.)\nOa--0 to 4 inches; dark reddish brown (5YR 2/2) well decomposed organic matter (muck); weak fine granular structure; very friable; many fine roots; strongly acid; clear smooth boundary.  (0 to 4 inches thick)\nA--4 to 11 inches; black (10YR 2/1) sand; weak fine granular structure; very friable; common fine and few medium and large roots; strongly acid; clear wavy boundary.  (5 to 9 inches thick)\nE1--11 to 21 inches; dark gray (10YR 4/1) sand; single grained; loose; few fine faint black streaks; few fine medium and large roots; strongly acid; gradual wavy boundary.  (6 to 15 inches thick)\nE2--21 to 29 inches; gray (10YR 5/1) sand; common medium distinct very dark gray (10YR 3/1) streaks and grayish brown (10YR 5/2) mottles; single grained; loose; few fine, medium and large roots; strongly acid; gradual wavy boundary.  (5 to 12 inches thick)\nE3--29 to 40 inches; gray (10YR 6/1) sand; few medium distinct very dark gray (10YR 3/1) mottles; single grained; loose few fine roots; strongly acid; clear wavy boundary.  (0 to 14 inches thick)\nBtg--40 to 53 inches; dark gray (10YR 4/1) sandy clay loam; few coarse distinct yellowish brown (10YR 5/6) mottles; weak coarse subangular blocky structure; friable, slightly sticky; sand grains coated and bridged with clay; few fine decaying roots; strongly acid; clear wavy boundary.  (10 to 25 inches thick)\nCg--53 to 58 inches; gray (10YR 5/1) sandy loam; massive; friable; few coarse distinct loamy sand and dark gray sandy clay loam lenses; strongly acid."
   },
   "TYPE LOCATION": {
     "section": "TYPE LOCATION",
@@ -55,7 +55,7 @@
   },
   "REMARKS": {
     "section": "REMARKS",
-    "content": "REMARKS:\nADDITIONAL DATA:  Data is available on a pedon sampled with number S76FL127-27(1-5).  Characterization data was obtained from the University of Florida and engineering test data from the Florida Department of Transportation.\nNational Cooperative Soil Survey\nU.S.A."
+    "content": "REMARKS:\nADDITIONAL DATA:  Data is available on a pedon sampled with number S76FL127-27(1-5).  Characterization data was obtained from the University of Florida and engineering test data from the Florida Department of Transportation.  The soil horizon depths were modified on 10/2021 to ensure the description began at the soil surface.  The A2 layers were converted to E horizons.\nNational Cooperative Soil Survey\nU.S.A."
   },
   "SITE": [
     [
@@ -69,8 +69,8 @@
     [
       {
         "name": "Oa",
-        "top": 10,
-        "bottom": 0,
+        "top": 0,
+        "bottom": 10,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -83,12 +83,12 @@
         "pH_class": "strongly acid",
         "distinctness": "clear",
         "topography": "smooth",
-        "narrative": "Oa--4 to 0 inches; dark reddish brown (5YR 2/2) well decomposed organic matter (muck); weak fine granular structure; very friable; many fine roots; strongly acid; clear smooth boundary.  (0 to 4 inches thick)"
+        "narrative": "Oa--0 to 4 inches; dark reddish brown (5YR 2/2) well decomposed organic matter (muck); weak fine granular structure; very friable; many fine roots; strongly acid; clear smooth boundary.  (0 to 4 inches thick)"
       },
       {
-        "name": "A1",
-        "top": 0,
-        "bottom": 18,
+        "name": "A",
+        "top": 10,
+        "bottom": 28,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -101,12 +101,12 @@
         "pH_class": "strongly acid",
         "distinctness": "clear",
         "topography": "wavy",
-        "narrative": "A1--0 to 7 inches; black (10YR 2/1) sand; weak fine granular structure; very friable; common fine and few medium and large roots; strongly acid; clear wavy boundary.  (5 to 9 inches thick)"
+        "narrative": "A--4 to 11 inches; black (10YR 2/1) sand; weak fine granular structure; very friable; common fine and few medium and large roots; strongly acid; clear wavy boundary.  (5 to 9 inches thick)"
       },
       {
-        "name": "A21",
-        "top": 18,
-        "bottom": 43,
+        "name": "E1",
+        "top": 28,
+        "bottom": 53,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -119,12 +119,12 @@
         "pH_class": "strongly acid",
         "distinctness": "gradual",
         "topography": "wavy",
-        "narrative": "A21--7 to 17 inches; dark gray (10YR 4/1) sand; single grained; loose; few fine faint black streaks; few fine medium and large roots; strongly acid; gradual wavy boundary.  (6 to 15 inches thick)"
+        "narrative": "E1--11 to 21 inches; dark gray (10YR 4/1) sand; single grained; loose; few fine faint black streaks; few fine medium and large roots; strongly acid; gradual wavy boundary.  (6 to 15 inches thick)"
       },
       {
-        "name": "A22",
-        "top": 43,
-        "bottom": 64,
+        "name": "E2",
+        "top": 53,
+        "bottom": 74,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -137,12 +137,12 @@
         "pH_class": "strongly acid",
         "distinctness": "gradual",
         "topography": "wavy",
-        "narrative": "A22--17 to 25 inches; gray (10YR 5/1) sand; common medium distinct very dark gray (10YR 3/1) streaks and grayish brown (10YR 5/2) mottles; single grained; loose; few fine, medium and large roots; strongly acid; gradual wavy boundary.  (5 to 12 inches thick)"
+        "narrative": "E2--21 to 29 inches; gray (10YR 5/1) sand; common medium distinct very dark gray (10YR 3/1) streaks and grayish brown (10YR 5/2) mottles; single grained; loose; few fine, medium and large roots; strongly acid; gradual wavy boundary.  (5 to 12 inches thick)"
       },
       {
-        "name": "A23",
-        "top": 64,
-        "bottom": 91,
+        "name": "E3",
+        "top": 74,
+        "bottom": 102,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -155,12 +155,12 @@
         "pH_class": "strongly acid",
         "distinctness": "clear",
         "topography": "wavy",
-        "narrative": "A23--25 to 36 inches; gray (10YR 6/1) sand; few medium distinct very dark gray (10YR 3/1) mottles; single grained; loose few fine roots; strongly acid; clear wavy boundary.  (0 to 14 inches thick)"
+        "narrative": "E3--29 to 40 inches; gray (10YR 6/1) sand; few medium distinct very dark gray (10YR 3/1) mottles; single grained; loose few fine roots; strongly acid; clear wavy boundary.  (0 to 14 inches thick)"
       },
       {
-        "name": "B2tg",
-        "top": 91,
-        "bottom": 124,
+        "name": "Btg",
+        "top": 102,
+        "bottom": 135,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -173,12 +173,12 @@
         "pH_class": "strongly acid",
         "distinctness": "clear",
         "topography": "wavy",
-        "narrative": "B2tg--36 to 49 inches; dark gray (10YR 4/1) sandy clay loam; few coarse distinct yellowish brown (10YR 5/6) mottles; weak coarse subangular blocky structure; friable, slightly sticky; sand grains coated and bridged with clay; few fine decaying roots; strongly acid; clear wavy boundary.  (10 to 25 inches thick)"
+        "narrative": "Btg--40 to 53 inches; dark gray (10YR 4/1) sandy clay loam; few coarse distinct yellowish brown (10YR 5/6) mottles; weak coarse subangular blocky structure; friable, slightly sticky; sand grains coated and bridged with clay; few fine decaying roots; strongly acid; clear wavy boundary.  (10 to 25 inches thick)"
       },
       {
         "name": "Cg",
-        "top": 124,
-        "bottom": 137,
+        "top": 135,
+        "bottom": 147,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -191,7 +191,7 @@
         "pH_class": "strongly acid",
         "distinctness": "NA",
         "topography": "NA",
-        "narrative": "Cg--49 to 54 inches; gray (10YR 5/1) sandy loam; massive; friable; few coarse distinct loamy sand and dark gray sandy clay loam lenses; strongly acid."
+        "narrative": "Cg--53 to 58 inches; gray (10YR 5/1) sandy loam; massive; friable; few coarse distinct loamy sand and dark gray sandy clay loam lenses; strongly acid."
       }
     ]
   ]

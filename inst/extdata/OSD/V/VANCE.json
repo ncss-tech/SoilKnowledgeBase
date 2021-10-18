@@ -2,7 +2,7 @@
   "SERIES": "VANCE",
   "STATUS": "Established Series",
   "BYREV": "Rev. ENH:RAG",
-  "REVDATE": "07/1999",
+  "REVDATE": "10/2021",
   "STATES": "AL,GA,NC,SC,VA",
   "OVERVIEW": "The Vance series consists of well drained, slowly permeable soils that formed in residuum weathered from acid crystalline rocks in the Piedmont.  They are moderately deep to saprolite and very deep to bedrock.  The soils are on ridges and side slopes.  Slopes range from 2 to 25 percent.  Mean annual precipitation is 44 inches and mean annual temperature is 61 degrees F. near the type location.",
   "TAXONOMIC CLASS": {
@@ -11,7 +11,7 @@
   },
   "TYPICAL PEDON": {
     "section": "TYPICAL PEDON",
-    "content": "TYPICAL PEDON:  Vance sandy loam--in a cultivated field. (Colors are for moist soil unless otherwise stated.)\nAp--0 to 5 inches; grayish brown (l0YR 5/2) sandy loam; weak medium and coarse granular structure; very friable; many fine roots; moderately acid; abrupt smooth boundary.  (4 to 9 inches thick)\nBt1--5 to l4 inches; yellowish brown (l0YR 5/8) clay; few fine prominent red mottles; weak coarse prismatic primary structure that parts to moderate coarse angular blocky; very firm, sticky, plastic; common fine roots between peds; common fine pores; many prominent clay films on faces of peds; strongly acid; clear smooth boundary.\nBt2--l4 to 23 inches; strong brown (7.5YR 5/6) clay; common medium prominent red (2.5YR 5/8) mottles; moderate medium angular blocky structure; very firm, sticky, plastic; few fine roots between peds; few fine pores; many prominent clay films on faces of peds; strongly acid; clear wavy boundary.\nBt3--23 to 29 inches; yellowish brown (l0YR 5/8) clay loam; many medium prominent red (2.5YR 5/6) mottles; weak fine angular blocky structure; firm, sticky, plastic; few fine roots between peds; many fine pores; few faint clay films on faces of peds; common pockets of saprolite; strongly acid; gradual irregular boundary.  (Combined thickness of the Bt subhorizons is 18 to 30 inches)\nC--29 to 72 inches; multicolored saprolite that has a loam texture; massive; friable; strongly acid."
+    "content": "TYPICAL PEDON:  Vance sandy loam--in a cultivated field. (Colors are for moist soil unless otherwise stated.)\nAp--0 to 5 inches; grayish brown (10YR 5/2) sandy loam; weak medium and coarse granular structure; very friable; many fine roots; moderately acid; abrupt smooth boundary.  (4 to 9 inches thick)\nBt1--5 to 14 inches; yellowish brown (10YR 5/8) clay; few fine prominent red mottles; weak coarse prismatic primary structure that parts to moderate coarse angular blocky; very firm, sticky, plastic; common fine roots between peds; common fine pores; many prominent clay films on faces of peds; strongly acid; clear smooth boundary.\nBt2--14 to 23 inches; strong brown (7.5YR 5/6) clay; common medium prominent red (2.5YR 5/8) mottles; moderate medium angular blocky structure; very firm, sticky, plastic; few fine roots between peds; few fine pores; many prominent clay films on faces of peds; strongly acid; clear wavy boundary.\nBt3--23 to 29 inches; yellowish brown (10YR 5/8) clay loam; many medium prominent red (2.5YR 5/6) mottles; weak fine angular blocky structure; firm, sticky, plastic; few fine roots between peds; many fine pores; few faint clay films on faces of peds; common pockets of saprolite; strongly acid; gradual irregular boundary.  (Combined thickness of the Bt subhorizons is 18 to 30 inches)\nC--29 to 72 inches; multicolored saprolite that has a loam texture; massive; friable; strongly acid."
   },
   "TYPE LOCATION": {
     "section": "TYPE LOCATION",
@@ -74,16 +74,52 @@
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
-        "moist_hue": "NA",
-        "moist_value": "NA",
-        "moist_chroma": "NA",
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 2,
         "texture_class": "sandy loam",
         "cf_class": "NA",
         "pH": "NA",
         "pH_class": "moderately acid",
         "distinctness": "abrupt",
         "topography": "smooth",
-        "narrative": "Ap--0 to 5 inches; grayish brown (l0YR 5/2) sandy loam; weak medium and coarse granular structure; very friable; many fine roots; moderately acid; abrupt smooth boundary.  (4 to 9 inches thick)"
+        "narrative": "Ap--0 to 5 inches; grayish brown (10YR 5/2) sandy loam; weak medium and coarse granular structure; very friable; many fine roots; moderately acid; abrupt smooth boundary.  (4 to 9 inches thick)"
+      },
+      {
+        "name": "Bt1",
+        "top": 13,
+        "bottom": 36,
+        "dry_hue": "NA",
+        "dry_value": "NA",
+        "dry_chroma": "NA",
+        "moist_hue": "10YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "clay",
+        "cf_class": "NA",
+        "pH": "NA",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--5 to 14 inches; yellowish brown (10YR 5/8) clay; few fine prominent red mottles; weak coarse prismatic primary structure that parts to moderate coarse angular blocky; very firm, sticky, plastic; common fine roots between peds; common fine pores; many prominent clay films on faces of peds; strongly acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt2",
+        "top": 36,
+        "bottom": 58,
+        "dry_hue": "NA",
+        "dry_value": "NA",
+        "dry_chroma": "NA",
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "clay",
+        "cf_class": "NA",
+        "pH": "NA",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "Bt2--14 to 23 inches; strong brown (7.5YR 5/6) clay; common medium prominent red (2.5YR 5/8) mottles; moderate medium angular blocky structure; very firm, sticky, plastic; few fine roots between peds; few fine pores; many prominent clay films on faces of peds; strongly acid; clear wavy boundary."
       },
       {
         "name": "Bt3",
@@ -92,16 +128,16 @@
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
-        "moist_hue": "2.5YR",
+        "moist_hue": "10YR",
         "moist_value": 5,
-        "moist_chroma": 6,
+        "moist_chroma": 8,
         "texture_class": "clay loam",
         "cf_class": "NA",
         "pH": "NA",
         "pH_class": "strongly acid",
         "distinctness": "gradual",
         "topography": "irregular",
-        "narrative": "Bt3--23 to 29 inches; yellowish brown (l0YR 5/8) clay loam; many medium prominent red (2.5YR 5/6) mottles; weak fine angular blocky structure; firm, sticky, plastic; few fine roots between peds; many fine pores; few faint clay films on faces of peds; common pockets of saprolite; strongly acid; gradual irregular boundary.  (Combined thickness of the Bt subhorizons is 18 to 30 inches)"
+        "narrative": "Bt3--23 to 29 inches; yellowish brown (10YR 5/8) clay loam; many medium prominent red (2.5YR 5/6) mottles; weak fine angular blocky structure; firm, sticky, plastic; few fine roots between peds; many fine pores; few faint clay films on faces of peds; common pockets of saprolite; strongly acid; gradual irregular boundary.  (Combined thickness of the Bt subhorizons is 18 to 30 inches)"
       },
       {
         "name": "C",
