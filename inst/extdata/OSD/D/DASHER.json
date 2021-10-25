@@ -2,7 +2,7 @@
   "SERIES": "DASHER",
   "STATUS": "Established Series",
   "BYREV": "Rev. CAL/JNJ/JGT",
-  "REVDATE": "03/2017",
+  "REVDATE": "10/2021",
   "STATES": "FL,GA,SC",
   "OVERVIEW": "MLRA(s):133A- Southern Coastal Plain, 153A-Atlantic Coast Flatwoods, 153B-Tidewater Area\nDepth Class: Very deep\nDrainage Class (Agricultural): Very poorly drained\nInternal Free Water Occurrence: Very shallow, persistent, ponded for at least 10 months each year\nIndex Surface Runoff: Negligible\nPermeability: Moderately rapid\nLandscape: Lower to upper coastal plain\nLandform: Marshes, swamps\nParent Material: Organic material, hydrophytic plants\nSlope: 0 to less than 1 percent\nElevation (type location): 37 meters (121 feet)\nFree Period (type location): 260 days\nMean Annual Air Temperature (type location): 19.9 degrees C. (67.8 degrees F.)\nMean Annual Precipitation (type location): 1276 millimeters (50.2 inches)",
   "TAXONOMIC CLASS": {
@@ -11,7 +11,7 @@
   },
   "TYPICAL PEDON": {
     "section": "TYPICAL PEDON",
-    "content": "TYPICAL PEDON: Dasher woody mucky peat (in an area of Dasher-Dorovan-Croatan association, ponded, 0 to 1 percent slopes), in level 0 percent slope, in swamp land. (Colors are for moist soil unless otherwise stated.)\nOe1--0 to 50 inches (0 to 127 centimeters); dark reddish brown (5YR 3/3) woody mucky peat; about 45 percent unrubbed fiber, 25 percent rubbed fiber; weak fine granular structure; very friable, nonsticky; low excavation difficulty; many fine and medium roots throughout; extremely acid, pH 4.4, pH meter; 20 percent wood fragments; gradual smooth boundary.\nOa--50 to 75 inches (127 to 191 centimeters); dark reddish brown (5YR 3/2) muck; about 22 percent unrubbed fiber, 12 percent rubbed fiber; weak fine granular structure; very friable, nonsticky; low excavation difficulty; many fine roots throughout; extremely acid, pH 4.1, pH meter; diffuse wavy boundary.\nOa--75 to 85 inches (191 to 216 centimeters); 90 percent very dark gray (5YR 3/1) and 10 percent black (N 2/), muck; about 22 percent unrubbed fiber, 12 percent rubbed fiber; weak fine granular structure; very friable, nonsticky; low excavation difficulty; common fine roots throughout; extremely acid, pH 4.1, pH meter; 10 percent fine charcoal fragments."
+    "content": "TYPICAL PEDON: Dasher woody mucky peat (in an area of Dasher-Dorovan-Croatan association, ponded, 0 to 1 percent slopes), in level 0 percent slope, in swamp land. (Colors are for moist soil unless otherwise stated.)\nOe--0 to 50 inches (0 to 127 centimeters); dark reddish brown (5YR 3/3) woody mucky peat; about 45 percent unrubbed fiber, 25 percent rubbed fiber; weak fine granular structure; very friable, nonsticky; low excavation difficulty; many fine and medium roots throughout; extremely acid, pH 4.4, pH meter; 20 percent wood fragments; gradual smooth boundary.\nOa1--50 to 75 inches (127 to 191 centimeters); dark reddish brown (5YR 3/2) muck; about 22 percent unrubbed fiber, 12 percent rubbed fiber; weak fine granular structure; very friable, nonsticky; low excavation difficulty; many fine roots throughout; extremely acid, pH 4.1, pH meter; diffuse wavy boundary.\nOa2--75 to 85 inches (191 to 216 centimeters); 90 percent very dark gray (5YR 3/1) and 10 percent black (N 2/), muck; about 22 percent unrubbed fiber, 12 percent rubbed fiber; weak fine granular structure; very friable, nonsticky; low excavation difficulty; common fine roots throughout; extremely acid, pH 4.1, pH meter; 10 percent fine charcoal fragments."
   },
   "TYPE LOCATION": {
     "section": "TYPE LOCATION",
@@ -68,7 +68,7 @@
   "HORIZONS": [
     [
       {
-        "name": "Oe1",
+        "name": "Oe",
         "top": 0,
         "bottom": 127,
         "dry_hue": "NA",
@@ -83,10 +83,10 @@
         "pH_class": "extremely acid",
         "distinctness": "gradual",
         "topography": "smooth",
-        "narrative": "Oe1--0 to 50 inches (0 to 127 centimeters); dark reddish brown (5YR 3/3) woody mucky peat; about 45 percent unrubbed fiber, 25 percent rubbed fiber; weak fine granular structure; very friable, nonsticky; low excavation difficulty; many fine and medium roots throughout; extremely acid, pH 4.4, pH meter; 20 percent wood fragments; gradual smooth boundary."
+        "narrative": "Oe--0 to 50 inches (0 to 127 centimeters); dark reddish brown (5YR 3/3) woody mucky peat; about 45 percent unrubbed fiber, 25 percent rubbed fiber; weak fine granular structure; very friable, nonsticky; low excavation difficulty; many fine and medium roots throughout; extremely acid, pH 4.4, pH meter; 20 percent wood fragments; gradual smooth boundary."
       },
       {
-        "name": "Oa",
+        "name": "Oa1",
         "top": 127,
         "bottom": 190,
         "dry_hue": "NA",
@@ -101,10 +101,10 @@
         "pH_class": "extremely acid",
         "distinctness": "diffuse",
         "topography": "wavy",
-        "narrative": "Oa--50 to 75 inches (127 to 191 centimeters); dark reddish brown (5YR 3/2) muck; about 22 percent unrubbed fiber, 12 percent rubbed fiber; weak fine granular structure; very friable, nonsticky; low excavation difficulty; many fine roots throughout; extremely acid, pH 4.1, pH meter; diffuse wavy boundary."
+        "narrative": "Oa1--50 to 75 inches (127 to 191 centimeters); dark reddish brown (5YR 3/2) muck; about 22 percent unrubbed fiber, 12 percent rubbed fiber; weak fine granular structure; very friable, nonsticky; low excavation difficulty; many fine roots throughout; extremely acid, pH 4.1, pH meter; diffuse wavy boundary."
       },
       {
-        "name": "Oa",
+        "name": "Oa2",
         "top": 190,
         "bottom": 216,
         "dry_hue": "NA",
@@ -119,7 +119,7 @@
         "pH_class": "extremely acid",
         "distinctness": "NA",
         "topography": "NA",
-        "narrative": "Oa--75 to 85 inches (191 to 216 centimeters); 90 percent very dark gray (5YR 3/1) and 10 percent black (N 2/), muck; about 22 percent unrubbed fiber, 12 percent rubbed fiber; weak fine granular structure; very friable, nonsticky; low excavation difficulty; common fine roots throughout; extremely acid, pH 4.1, pH meter; 10 percent fine charcoal fragments."
+        "narrative": "Oa2--75 to 85 inches (191 to 216 centimeters); 90 percent very dark gray (5YR 3/1) and 10 percent black (N 2/), muck; about 22 percent unrubbed fiber, 12 percent rubbed fiber; weak fine granular structure; very friable, nonsticky; low excavation difficulty; common fine roots throughout; extremely acid, pH 4.1, pH meter; 10 percent fine charcoal fragments."
       }
     ]
   ]
