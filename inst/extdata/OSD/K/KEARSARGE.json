@@ -2,7 +2,7 @@
   "SERIES": "KEARSARGE",
   "STATUS": "Established Series",
   "BYREV": "Rev. HRM-SALP",
-  "REVDATE": "01/2000",
+  "REVDATE": "11/2021",
   "STATES": "NH,NY",
   "OVERVIEW": "The Kearsarge series consists of shallow, somewhat excessively drained soils formed in glacial till or colluvium.  The soils are underlain by folded interbedded phyllite, slate, or schist.  Kearsarge soils are on hilly to mountainous topography.  Slopes range from 3 to 80 percent.  The mean annual temperature is 48 degrees F and mean annual precipitation is 42 inches.",
   "TAXONOMIC CLASS": {
@@ -11,7 +11,7 @@
   },
   "TYPICAL PEDON": {
     "section": "TYPICAL PEDON",
-    "content": "TYPICAL PEDON:  Kearsarge silt loam, wooded on about a 20 percent slope.  (Colors are for moist soil).\n0i---2 to 1 inch; fresh leaves, needles, and twigs.\n0e---1 inch to 0; partially decomposed leaves, needles, and twigs.\nA----0 to 4 inches; dark brown (10YR 3/3) silt loam; weak fine granular structure; very friable; many fine and few medium roots; 7 percent rock fragments of mostly channers; very strongly acid; abrupt smooth boundary.  (2 to 8 inches thick).\nBw1--4 to 6 inches; dark yellowish brown (10YR 4/4) silt loam; weak fine granular structure; very friable; common fine and few medium roots; 7 percent rock fragments of mostly channers; very strongly acid; clear smooth boundary.\nBw2--6 to 17 inches; light olive brown (2.5Y 5/4) channery silt loam; weak fine granular structure; very friable; few fine and medium roots; 15 percent rock fragments of mostly channers and cobbles; very strongly acid; abrupt smooth boundary.  (Combined thickness of the Bw horizon is 5 to 14 inches thick).\nR----17 inches; gray phyllite bedrock."
+    "content": "TYPICAL PEDON:  Kearsarge silt loam, wooded on about a 20 percent slope.  (Colors are for moist soil).\n0i---0 to 1 inch; fresh leaves, needles, and twigs.\n0e---1 inch to 2; partially decomposed leaves, needles, and twigs.\nA----2 to 6 inches; dark brown (10YR 3/3) silt loam; weak fine granular structure; very friable; many fine and few medium roots; 7 percent rock fragments of mostly channers; very strongly acid; abrupt smooth boundary.  (2 to 8 inches thick).\nBw1--6 to 8 inches; dark yellowish brown (10YR 4/4) silt loam; weak fine granular structure; very friable; common fine and few medium roots; 7 percent rock fragments of mostly channers; very strongly acid; clear smooth boundary.\nBw2--8 to 19 inches; light olive brown (2.5Y 5/4) channery silt loam; weak fine granular structure; very friable; few fine and medium roots; 15 percent rock fragments of mostly channers and cobbles; very strongly acid; abrupt smooth boundary.  (Combined thickness of the Bw horizon is 5 to 14 inches thick).\nR----19 inches; gray phyllite bedrock."
   },
   "TYPE LOCATION": {
     "section": "TYPE LOCATION",
@@ -55,7 +55,7 @@
   },
   "REMARKS": {
     "section": "REMARKS",
-    "content": "REMARKS:  This soil is not considered to be prime farmland.  Diagnostic horizons and features recognized in this pedon are:\n1.  Ochric epipedon - the zone from 0 to 4 inches (A horizon).\n2.  Cambic horizon - the zone from 4 to 17 inches (Bw horizon).\n3.  Lithic contact at 17 inches (R).\nNational Cooperative Soil Survey\nU.S.A."
+    "content": "REMARKS:  This soil is not considered to be prime farmland.  Diagnostic horizons and features recognized in this pedon are:\n1.  Ochric epipedon - the zone from 0 to 6 inches (A horizon).\n2.  Cambic horizon - the zone from 6 to 19 inches (Bw horizon).\n3.  Lithic contact at 19 inches (R).\nNational Cooperative Soil Survey\nU.S.A."
   },
   "SITE": [
     [
@@ -69,7 +69,7 @@
     [
       {
         "name": "0i",
-        "top": 5,
+        "top": 0,
         "bottom": 3,
         "dry_hue": "NA",
         "dry_value": "NA",
@@ -83,12 +83,12 @@
         "pH_class": "NA",
         "distinctness": "NA",
         "topography": "NA",
-        "narrative": "0i---2 to 1 inch; fresh leaves, needles, and twigs."
+        "narrative": "0i---0 to 1 inch; fresh leaves, needles, and twigs."
       },
       {
         "name": "A",
-        "top": 0,
-        "bottom": 10,
+        "top": 5,
+        "bottom": 15,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -101,12 +101,12 @@
         "pH_class": "very strongly acid",
         "distinctness": "abrupt",
         "topography": "smooth",
-        "narrative": "A----0 to 4 inches; dark brown (10YR 3/3) silt loam; weak fine granular structure; very friable; many fine and few medium roots; 7 percent rock fragments of mostly channers; very strongly acid; abrupt smooth boundary.  (2 to 8 inches thick)."
+        "narrative": "A----2 to 6 inches; dark brown (10YR 3/3) silt loam; weak fine granular structure; very friable; many fine and few medium roots; 7 percent rock fragments of mostly channers; very strongly acid; abrupt smooth boundary.  (2 to 8 inches thick)."
       },
       {
         "name": "Bw1",
-        "top": 10,
-        "bottom": 15,
+        "top": 15,
+        "bottom": 20,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -119,12 +119,12 @@
         "pH_class": "very strongly acid",
         "distinctness": "clear",
         "topography": "smooth",
-        "narrative": "Bw1--4 to 6 inches; dark yellowish brown (10YR 4/4) silt loam; weak fine granular structure; very friable; common fine and few medium roots; 7 percent rock fragments of mostly channers; very strongly acid; clear smooth boundary."
+        "narrative": "Bw1--6 to 8 inches; dark yellowish brown (10YR 4/4) silt loam; weak fine granular structure; very friable; common fine and few medium roots; 7 percent rock fragments of mostly channers; very strongly acid; clear smooth boundary."
       },
       {
         "name": "Bw2",
-        "top": 15,
-        "bottom": 43,
+        "top": 20,
+        "bottom": 48,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -137,7 +137,7 @@
         "pH_class": "very strongly acid",
         "distinctness": "abrupt",
         "topography": "smooth",
-        "narrative": "Bw2--6 to 17 inches; light olive brown (2.5Y 5/4) channery silt loam; weak fine granular structure; very friable; few fine and medium roots; 15 percent rock fragments of mostly channers and cobbles; very strongly acid; abrupt smooth boundary.  (Combined thickness of the Bw horizon is 5 to 14 inches thick)."
+        "narrative": "Bw2--8 to 19 inches; light olive brown (2.5Y 5/4) channery silt loam; weak fine granular structure; very friable; few fine and medium roots; 15 percent rock fragments of mostly channers and cobbles; very strongly acid; abrupt smooth boundary.  (Combined thickness of the Bw horizon is 5 to 14 inches thick)."
       },
       {
         "name": "0e",
@@ -155,11 +155,11 @@
         "pH_class": "NA",
         "distinctness": "NA",
         "topography": "NA",
-        "narrative": "0e---1 inch to 0; partially decomposed leaves, needles, and twigs."
+        "narrative": "0e---1 inch to 2; partially decomposed leaves, needles, and twigs."
       },
       {
         "name": "R",
-        "top": 43,
+        "top": 48,
         "bottom": "NA",
         "dry_hue": "NA",
         "dry_value": "NA",
@@ -173,7 +173,7 @@
         "pH_class": "NA",
         "distinctness": "NA",
         "topography": "NA",
-        "narrative": "R----17 inches; gray phyllite bedrock."
+        "narrative": "R----19 inches; gray phyllite bedrock."
       }
     ]
   ]
