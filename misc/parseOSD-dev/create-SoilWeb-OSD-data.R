@@ -18,9 +18,6 @@ sc <- sc$soilseriesname
 
 ## TODO: add sections / entire OSD -> fulltext data
 
-## TODO: many OSDs are "missing" site data
-# ACADEMY, ADAMSTOWN, ...
-
 ## TODO: narratives in the JSON files have leading white space
 
 # for now, relative to /misc/OSD-error-reporting
