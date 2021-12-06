@@ -279,10 +279,10 @@
   ## ideas: http://stackoverflow.com/questions/15474741/python-regex-optional-capture-group
 
   # detect horizons with both top and bottom depths
-  hz.rule <-            "([\\^\\'\\/a-zA-Z0-9]+)\\s*[-=]+\\s*([O0-9.]+)\\s*?(to|-)?\\s+?([O0-9.]+)\\s+?(in|inches|cm|centimeters)"
+  hz.rule <-            "([\\^\\'\\/a-zA-Z0-9]+)\\s*[-=]+\\s*([O0-9.]+)\\s*?(to|-)?\\s+?([O0-9.]+)\\s*?(in|inches|cm|centimeters)"
 
   # detect horizons with no bottom depth
-  hz.rule.no.bottom <- "([\\^\\'\\/a-zA-Z0-9]+)\\s*[-=]+?\\s*([0-9.]+)\\s*(to|-)?\\s*([0-9.]+)?\\s+?(in|inches|cm|centimeters)"
+  hz.rule.no.bottom <- "([\\^\\'\\/a-zA-Z0-9]+)\\s*[-=]+?\\s*([0-9.]+)\\s*(to|-)?\\s*([0-9.]+)?\\s*?(in|inches|cm|centimeters)"
 
   ## TODO: this doesn't work when only moist colors are specified (http://casoilresource.lawr.ucdavis.edu/sde/?series=canarsie)
   ## TODO: these rules will not match neutral colors: N 2.5/
