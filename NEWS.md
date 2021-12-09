@@ -1,3 +1,6 @@
+# SoilKnowledgeBase 0.2.5
+* Changes to fix parsing of some OSD edge cases
+
 # SoilKnowledgeBase 0.2.4
 
 * Cleanup some leftover header/footer markup in NSSH JSON products
