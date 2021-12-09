@@ -117,8 +117,11 @@ validateOSD <- function(logfile, filepath) {
     logmsg(logfile, "DUPLICATE 'U.S.A.' END OF FILE MARKER: %s", filepath)
   }
 
-  # handle only first instance where OSD is duplicated
-  raw <- raw[1:raw.max.idx[1]]
+  # handle only first instance where OSD is duplicated, remove NCSS/U.S.A lines
+  raw <- raw[1:(raw.max.idx[1] - 1)]
+  if (raw[length(raw)] == "National Cooperative Soil Survey") {
+    raw <- raw[1:(length(raw) - 1)]
+  }
 
   # TODO: abstract and generalize these into rules
   x <- trimws(raw[-grep("[A-Z '`][A-Z\\.'`]{2}[A-Z `']+.*|Typical [Pp]edon ?[:;\\-] .*|[A-Z]{3,}[:].*", raw, invert = TRUE)])
@@ -132,20 +135,14 @@ validateOSD <- function(logfile, filepath) {
   lst.idx <- grep("SERIES ESTABLISHED[:]|SERIES PROPOSED[:]|ESTABLISHED SERIES[:]|PROPOSED SERIES[:]", x)
   lst.idx <- lst.idx[length(lst.idx)]
 
-  rem.idx <- grep("REMARKS[:]", x)
-
+  # allow the last section to be remarks, additional data or diagnostic horizons and other features recognized
+  rem.idx <- grep("REMARKS[:]|ADDITIONAL DATA[:]|DIAGNOSTIC HORIZONS AND OTHER FEATURES RECOGNIZED[:]", x)
+  rem.idx <- rem.idx[length(rem.idx)]
+  
   if (length(rem.idx) == 0) {
-    alt.idx <- grep("ADDITIONAL DATA|DIAGNOSTIC HORIZONS AND OTHER FEATURES RECOGNIZED", x)
-    if (length(alt.idx) > 0) {
-      if (any(alt.idx > lst.idx))
-        rem.idx <- max(alt.idx, TRUE)
-    } else {
-      rem.idx <- lst.idx
-    }
-  } else {
-    rem.idx <- rem.idx[1]
+    rem.idx <- lst.idx
   }
-
+  
   # unable to locate location and series
   if (is.na(loc.idx) | is.na(ser.idx) | length(x) == 0) {
     logmsg(logfile, "CHECK LOCATION AND/OR SERIES: %s", filepath)
@@ -241,7 +238,8 @@ validateOSD <- function(logfile, filepath) {
                       "DISTRIBUTION AND EXTENT|DISTRIBUTION|EXTENT",
                       "SOIL SURVEY REGIONAL OFFICE",
                       "(SERIES )?(ESTABLISHED|PROPOSED)",
-                      "REMARKS|ADDITIONAL DATA|DIAGNOSTIC HORIZONS AND OTHER FEATURES RECOGNIZED")
+                      "REMARKS|DIAGNOSTIC HORIZONS AND OTHER FEATURES RECOGNIZED",
+                      "ADDITIONAL DATA")
 
   names(headerpatterns) <- c("TAXONOMIC CLASS",
                              "TYPICAL PEDON",
@@ -255,7 +253,8 @@ validateOSD <- function(logfile, filepath) {
                              "DISTRIBUTION AND EXTENT",
                              "REGIONAL OFFICE",
                              "ORIGIN",
-                             "REMARKS")
+                             "REMARKS",
+                             "ADDITIONAL DATA")
 
   headerorders <- sapply(1:length(headerpatterns), function(i) {
     j <- grep(headerpatterns[i], markheaders)
