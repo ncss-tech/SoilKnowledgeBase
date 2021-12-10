@@ -136,7 +136,7 @@ validateOSD <- function(logfile, filepath) {
   lst.idx <- lst.idx[length(lst.idx)]
 
   # allow the last section to be remarks, additional data or diagnostic horizons and other features recognized
-  rem.idx <- grep("REMARKS[:]|ADDITIONAL DATA[:]|DIAGNOSTIC HORIZONS AND OTHER FEATURES RECOGNIZED[:]", x)
+  rem.idx <- grep("REMARKS[:]|ADDITIONAL DATA[:]|DIAGNOSTIC HORIZONS AND OTHER FEATURES RECOGNIZED[:]|TABULAR SERIES DATA[:]", x)
   rem.idx <- rem.idx[length(rem.idx)]
   
   if (length(rem.idx) == 0) {
@@ -239,7 +239,7 @@ validateOSD <- function(logfile, filepath) {
                       "SOIL SURVEY REGIONAL OFFICE",
                       "(SERIES )?(ESTABLISHED|PROPOSED)",
                       "REMARKS|DIAGNOSTIC HORIZONS AND OTHER FEATURES RECOGNIZED",
-                      "ADDITIONAL DATA")
+                      "ADDITIONAL DATA|TABULAR SERIES DATA")
 
   names(headerpatterns) <- c("TAXONOMIC CLASS",
                              "TYPICAL PEDON",
