@@ -2,7 +2,7 @@
   "SERIES": "GATERIDGE",
   "STATUS": "Established Series",
   "BYREV": "CJH/PSD",
-  "REVDATE": "08/2004",
+  "REVDATE": "12/2021",
   "STATES": "WY",
   "OVERVIEW": "The Gateridge series consists of well drained soils that are shallow to soft sandstone interbedded with shale on hillsides.  They formed in residuum derived dominantly from interbedded shale and sandstone.  Slopes range from 10 to 45 percent.  The mean annual precipitation is about 17 inches, and the mean annual air temperature is about 41 degrees F.",
   "TAXONOMIC CLASS": {
@@ -11,7 +11,7 @@
   },
   "TYPICAL PEDON": {
     "section": "TYPICAL PEDON",
-    "content": "TYPICAL PEDON:  Gateridge fine sandy loam--woodland.  (Colors are for dry soil unless otherwise stated)\nOi--3 inches to 0; slightly decomposed pine needles and other forest litter.\nE--0 to 5 inches; very pale brown (10YR 7/3) fine sandy loam, brown (10YR 4/3) moist; weak thin platy structure; slightly hard, very friable, nonsticky and nonplastic; neutral (pH 6.8) clear smooth boundary.  (3 to 6 inches thick)\nBt--5 to 14 inches; brown (7.5YR 5/4) sandy clay loam, brown (7.5YR 4/4) moist; moderate medium angular blocky structure; very hard, friable, sticky and plastic; few distinct clay skins on faces of peds; neutral (pH 6.8); clear wavy boundary. (7 to 12 inches thick)\n2C--14 to 19 inches; light red (2.5YR 6/6) clay, red (2.5YR 5/6) moist; massive; extremely hard, firm, very sticky and very plastic; neutral (pH 6.8). (0 to 6 inches thick)\n3Cr--19 to 60 inches; soft, noncalcareous yellowish brown sandstone interbedded with soft, noncalcareous red shale."
+    "content": "TYPICAL PEDON:  Gateridge fine sandy loam--woodland.  (Colors are for dry soil unless otherwise stated)\nOi--0  to 3 inches; slightly decomposed pine needles and other forest litter.\nE--3 to 7 inches; very pale brown (10YR 7/3) fine sandy loam, brown (10YR 4/3) moist; weak thin platy structure; slightly hard, very friable, nonsticky and nonplastic; neutral (pH 6.8) clear smooth boundary.  (3 to 6 inches thick)\nBt--7 to 15 inches; brown (7.5YR 5/4) sandy clay loam, brown (7.5YR 4/4) moist; moderate medium angular blocky structure; very hard, friable, sticky and plastic; few distinct clay skins on faces of peds; neutral (pH 6.8); clear wavy boundary. (7 to 12 inches thick)\n2C--15 to 19 inches; light red (2.5YR 6/6) clay, red (2.5YR 5/6) moist; massive; extremely hard, firm, very sticky and very plastic; neutral (pH 6.8). (0 to 6 inches thick)\n3Cr--19 to 60 inches; soft, noncalcareous yellowish brown sandstone interbedded with soft, noncalcareous red shale."
   },
   "TYPE LOCATION": {
     "section": "TYPE LOCATION",
@@ -46,8 +46,8 @@
     "content": "DISTRIBUTION AND EXTENT:  Central Wyoming.  The series is of small extent."
   },
   "REGIONAL OFFICE": {
-    "section": "MLRA SOIL SURVEY REGIONAL OFFICE (MO) RESPONSIBLE",
-    "content": "MLRA SOIL SURVEY REGIONAL OFFICE (MO) RESPONSIBLE: Denver, Colorado"
+    "section": "SOIL SURVEY REGIONAL OFFICE (SSRO) RESPONSIBLE",
+    "content": "SOIL SURVEY REGIONAL OFFICE (SSRO) RESPONSIBLE: Salina, Kansas"
   },
   "ORIGIN": {
     "section": "SERIES ESTABLISHED",
@@ -55,7 +55,7 @@
   },
   "REMARKS": {
     "section": "REMARKS",
-    "content": "NA"
+    "content": "REMARKS:\nDepths were adjusted to account for the current standard of measuring O horizons. JCW 12/21."
   },
   "ADDITIONAL DATA": {
     "section": "ADDITIONAL DATA",
@@ -72,9 +72,27 @@
   "HORIZONS": [
     [
       {
-        "name": "E",
+        "name": "Oi",
         "top": 0,
-        "bottom": 13,
+        "bottom": 8,
+        "dry_hue": "NA",
+        "dry_value": "NA",
+        "dry_chroma": "NA",
+        "moist_hue": "NA",
+        "moist_value": "NA",
+        "moist_chroma": "NA",
+        "texture_class": "NA",
+        "cf_class": "NA",
+        "pH": "NA",
+        "pH_class": "NA",
+        "distinctness": "NA",
+        "topography": "NA",
+        "narrative": "Oi--0  to 3 inches; slightly decomposed pine needles and other forest litter."
+      },
+      {
+        "name": "E",
+        "top": 8,
+        "bottom": 18,
         "dry_hue": "10YR",
         "dry_value": 7,
         "dry_chroma": 3,
@@ -87,12 +105,12 @@
         "pH_class": "neutral",
         "distinctness": "clear",
         "topography": "smooth",
-        "narrative": "E--0 to 5 inches; very pale brown (10YR 7/3) fine sandy loam, brown (10YR 4/3) moist; weak thin platy structure; slightly hard, very friable, nonsticky and nonplastic; neutral (pH 6.8) clear smooth boundary.  (3 to 6 inches thick)"
+        "narrative": "E--3 to 7 inches; very pale brown (10YR 7/3) fine sandy loam, brown (10YR 4/3) moist; weak thin platy structure; slightly hard, very friable, nonsticky and nonplastic; neutral (pH 6.8) clear smooth boundary.  (3 to 6 inches thick)"
       },
       {
         "name": "Bt",
-        "top": 13,
-        "bottom": 36,
+        "top": 18,
+        "bottom": 38,
         "dry_hue": "7.5YR",
         "dry_value": 5,
         "dry_chroma": 4,
@@ -105,11 +123,11 @@
         "pH_class": "neutral",
         "distinctness": "clear",
         "topography": "wavy",
-        "narrative": "Bt--5 to 14 inches; brown (7.5YR 5/4) sandy clay loam, brown (7.5YR 4/4) moist; moderate medium angular blocky structure; very hard, friable, sticky and plastic; few distinct clay skins on faces of peds; neutral (pH 6.8); clear wavy boundary. (7 to 12 inches thick)"
+        "narrative": "Bt--7 to 15 inches; brown (7.5YR 5/4) sandy clay loam, brown (7.5YR 4/4) moist; moderate medium angular blocky structure; very hard, friable, sticky and plastic; few distinct clay skins on faces of peds; neutral (pH 6.8); clear wavy boundary. (7 to 12 inches thick)"
       },
       {
         "name": "2C",
-        "top": 36,
+        "top": 38,
         "bottom": 48,
         "dry_hue": "2.5YR",
         "dry_value": 6,
@@ -123,7 +141,7 @@
         "pH_class": "neutral",
         "distinctness": "NA",
         "topography": "NA",
-        "narrative": "2C--14 to 19 inches; light red (2.5YR 6/6) clay, red (2.5YR 5/6) moist; massive; extremely hard, firm, very sticky and very plastic; neutral (pH 6.8). (0 to 6 inches thick)"
+        "narrative": "2C--15 to 19 inches; light red (2.5YR 6/6) clay, red (2.5YR 5/6) moist; massive; extremely hard, firm, very sticky and very plastic; neutral (pH 6.8). (0 to 6 inches thick)"
       },
       {
         "name": "3Cr",
@@ -142,24 +160,6 @@
         "distinctness": "NA",
         "topography": "NA",
         "narrative": "3Cr--19 to 60 inches; soft, noncalcareous yellowish brown sandstone interbedded with soft, noncalcareous red shale."
-      },
-      {
-        "name": "Oi",
-        "top": 8,
-        "bottom": "NA",
-        "dry_hue": "NA",
-        "dry_value": "NA",
-        "dry_chroma": "NA",
-        "moist_hue": "NA",
-        "moist_value": "NA",
-        "moist_chroma": "NA",
-        "texture_class": "NA",
-        "cf_class": "NA",
-        "pH": "NA",
-        "pH_class": "NA",
-        "distinctness": "NA",
-        "topography": "NA",
-        "narrative": "Oi--3 inches to 0; slightly decomposed pine needles and other forest litter."
       }
     ]
   ]

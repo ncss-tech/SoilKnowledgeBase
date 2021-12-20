@@ -2,7 +2,7 @@
   "SERIES": "HARPETH",
   "STATUS": "Established Series",
   "BYREV": "Rev.  DEL:JLP",
-  "REVDATE": "04/2001",
+  "REVDATE": "12/2021",
   "STATES": "TN",
   "OVERVIEW": "The Harpeth series consists of very deep, well drained, moderately permeable soils on high terraces and uplands.  They formed in loess and alluvium over residuum from limestone.  Slopes range from 2 to 12 percent.",
   "TAXONOMIC CLASS": {
@@ -11,7 +11,7 @@
   },
   "TYPICAL PEDON": {
     "section": "TYPICAL PEDON",
-    "content": "TYPICAL PEDON:  Harpeth silt loam - pasture.  (Colors are for moist soil)\nAp--0 to 7 inches; brown (l0YR 4/3) silt loam; weak fine granular structure; friable, many fine roots; many fine tubular pores; strongly acid; abrupt smooth boundary.  (6 to 16 inches thick)\nBA--7 to 15 inches; strong brown (7.5YR 4/6) and brown (10YR 4/3) silt loam; weak fine granular structure parting to weak fine subangular blocky; friable; many fine roots; many fine tubular pores; few fine iron-manganese concretions; medium acid; clear smooth boundary.\nBt1--l5 to 25 inches; strong brown (7.5YR 4/6) silt loam; weak fine and medium subangular blocky structure; friable; common fine roots; many fine tubular pores; few faint clay films on faces of peds; few fine iron-manganese concretions; slightly acid; clear smooth boundary.\nBt2--25 to 35 inches; strong brown (7.5YR 4/6) silt loam; moderate fine and medium subangular blocky structure; friable; few fine roots; many fine tubular pores; common distinct clay films on faces of peds; common fine iron-manganese concretions; slightly acid; clear smooth boundary.  (Combined thickness of the Bt ranges from 20 to 60 inches or more.)\n2Bt3--35 to 49 inches; strong brown (7.5YR 4/6) clay loam; moderate fine and medium subangular blocky structure; friable; few fine roots; many fine tubular pores; common distinct clay films on faces of peds; common fine iron-manganese concretions; about 1 percent by weight pebbles of mixed sedimentary rocks 2 to 5 mm in diameter; slightly acid; gradual smooth boundary.\n2Bt4--49 to 65 inches; strong brown (7.5YR 4/6) clay loam; many medium faint strong brown (7.5YR 5/6) mottles; moderate medium subangular blocky structure; firm; few fine roots; common fine tubular pores; common distinct clay films on faces of peds; common fine iron-manganese concretions; about 1 percent by weight pebbles of mixed sedimentary rocks 2 to 5 mm in diameter; slightly acid."
+    "content": "TYPICAL PEDON:  Harpeth silt loam - pasture.  (Colors are for moist soil)\nAp--0 to 7 inches; brown (10YR 4/3) silt loam; weak fine granular structure; friable, many fine roots; many fine tubular pores; strongly acid; abrupt smooth boundary.  (6 to 16 inches thick)\nBA--7 to 15 inches; strong brown (7.5YR 4/6) and brown (10YR 4/3) silt loam; weak fine granular structure parting to weak fine subangular blocky; friable; many fine roots; many fine tubular pores; few fine iron-manganese concretions; medium acid; clear smooth boundary.\nBt1--15 to 25 inches; strong brown (7.5YR 4/6) silt loam; weak fine and medium subangular blocky structure; friable; common fine roots; many fine tubular pores; few faint clay films on faces of peds; few fine iron-manganese concretions; slightly acid; clear smooth boundary.\nBt2--25 to 35 inches; strong brown (7.5YR 4/6) silt loam; moderate fine and medium subangular blocky structure; friable; few fine roots; many fine tubular pores; common distinct clay films on faces of peds; common fine iron-manganese concretions; slightly acid; clear smooth boundary.  (Combined thickness of the Bt ranges from 20 to 60 inches or more.)\n2Bt3--35 to 49 inches; strong brown (7.5YR 4/6) clay loam; moderate fine and medium subangular blocky structure; friable; few fine roots; many fine tubular pores; common distinct clay films on faces of peds; common fine iron-manganese concretions; about 1 percent by weight pebbles of mixed sedimentary rocks 2 to 5 mm in diameter; slightly acid; gradual smooth boundary.\n2Bt4--49 to 65 inches; strong brown (7.5YR 4/6) clay loam; many medium faint strong brown (7.5YR 5/6) mottles; moderate medium subangular blocky structure; firm; few fine roots; common fine tubular pores; common distinct clay films on faces of peds; common fine iron-manganese concretions; about 1 percent by weight pebbles of mixed sedimentary rocks 2 to 5 mm in diameter; slightly acid."
   },
   "TYPE LOCATION": {
     "section": "TYPE LOCATION",
@@ -78,16 +78,16 @@
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
-        "moist_hue": "NA",
-        "moist_value": "NA",
-        "moist_chroma": "NA",
+        "moist_hue": "10YR",
+        "moist_value": 4,
+        "moist_chroma": 3,
         "texture_class": "silt loam",
         "cf_class": "NA",
         "pH": "NA",
         "pH_class": "strongly acid",
         "distinctness": "abrupt",
         "topography": "smooth",
-        "narrative": "Ap--0 to 7 inches; brown (l0YR 4/3) silt loam; weak fine granular structure; friable, many fine roots; many fine tubular pores; strongly acid; abrupt smooth boundary.  (6 to 16 inches thick)"
+        "narrative": "Ap--0 to 7 inches; brown (10YR 4/3) silt loam; weak fine granular structure; friable, many fine roots; many fine tubular pores; strongly acid; abrupt smooth boundary.  (6 to 16 inches thick)"
       },
       {
         "name": "BA",
@@ -106,6 +106,24 @@
         "distinctness": "clear",
         "topography": "smooth",
         "narrative": "BA--7 to 15 inches; strong brown (7.5YR 4/6) and brown (10YR 4/3) silt loam; weak fine granular structure parting to weak fine subangular blocky; friable; many fine roots; many fine tubular pores; few fine iron-manganese concretions; medium acid; clear smooth boundary."
+      },
+      {
+        "name": "Bt1",
+        "top": 38,
+        "bottom": 64,
+        "dry_hue": "NA",
+        "dry_value": "NA",
+        "dry_chroma": "NA",
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 6,
+        "texture_class": "silt loam",
+        "cf_class": "NA",
+        "pH": "NA",
+        "pH_class": "slightly acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt1--15 to 25 inches; strong brown (7.5YR 4/6) silt loam; weak fine and medium subangular blocky structure; friable; common fine roots; many fine tubular pores; few faint clay films on faces of peds; few fine iron-manganese concretions; slightly acid; clear smooth boundary."
       },
       {
         "name": "Bt2",
