@@ -129,7 +129,7 @@ sink()
 
 .processChunk <- function(s, path) {
   # rank
-  s <- s[order(s$ac, decreasing = TRUE), ]
+  s <- s[order(s$ac, s$id, decreasing = TRUE), ]
   
   office <- sapply(strsplit(i, ',', fixed = TRUE), '[', 1)
   
