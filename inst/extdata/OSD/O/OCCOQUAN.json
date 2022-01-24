@@ -2,7 +2,7 @@
   "SERIES": "OCCOQUAN",
   "STATUS": "Established Series",
   "BYREV": "Rev. DLK-JHE-DDR",
-  "REVDATE": "07/2001",
+  "REVDATE": "01/2022",
   "STATES": "MD,VA",
   "OVERVIEW": "Soils of the Occoquan Series are deep, somewhat excessively drained to well drained soils with moderate to rapid permeability.  They formed in residuum that weathered from granite gneiss and schist of the Piedmont Plateau.  Slopes range from 0 to 50 percent.  Mean annual precipitation is about 40 inches and mean annual temperature is about 53 degrees F.",
   "TAXONOMIC CLASS": {
@@ -11,7 +11,7 @@
   },
   "TYPICAL PEDON": {
     "section": "TYPICAL PEDON",
-    "content": "TYPICAL PEDON:  Occoquan sandy loam on a 12 percent slope in a mixed hardwood forest.  (Colors are for moist soil.)\nOi--2 to 0 inch; partially decomposed hardwood leaves and twigs.\nA--0 to 2 inches; dark grayish brown (10YR 4/2) sandy loam; weak fine granular structure; very friable; many fine, medium and coarse roots; 6 percent angular quartz gravel; 1 percent angular cobbles; few fine flakes of mica; extremely acid; clear smooth boundary.  (0 to 4 inches thick.)\nE--2 to 9 inches; pale brown (10YR 6/3) sandy loam; weak medium and fine granular structure; very friable; many fine and medium roots; 6 percent angular quartz gravel; 1 percent cobbles; few fine flakes of mica; extremely acid; clear smooth boundary.  (0 to 10 inches thick.)\nBt--9 to 17; strong brown (7.5YR 5/8) loam; common fine and medium distinct brownish yellow (10YR 6/6) and yellowish red (5YR 5/8) mottles; weak fine and medium subangular blocky structure; friable; many fine, medium and coarse roots; common distinct patchy clay films on faces of peds; common fine flakes of mica; 3 percent angular quartz gravel; extremely acid; clear smooth boundary.  (6 to 10 inches thick.)\nC--17 to 53 inches; multicolored in shades of brown, yellow, red and white sandy loam saprolite; massive; very friable; common fine roots; few thin flows of clay in the upper 20 inches; common fine flakes of mica; 3 percent angular quartz gravel; very strongly acid; clear irregular boundary.  (26 to 50 inches.)\nCr--53 to 72 inches; partially weathered granite gneiss that crushes to sandy loam; tongues of the C horizon."
+    "content": "TYPICAL PEDON:  Occoquan sandy loam on a 12 percent slope in a mixed hardwood forest.  (Colors are for moist soil.)\nOi--0 to 2 inch; partially decomposed hardwood leaves and twigs.\nA--2 to 4 inches; dark grayish brown (10YR 4/2) sandy loam; weak fine granular structure; very friable; many fine, medium and coarse roots; 6 percent angular quartz gravel; 1 percent angular cobbles; few fine flakes of mica; extremely acid; clear smooth boundary.  (0 to 4 inches thick.)\nE--4 to 11 inches; pale brown (10YR 6/3) sandy loam; weak medium and fine granular structure; very friable; many fine and medium roots; 6 percent angular quartz gravel; 1 percent cobbles; few fine flakes of mica; extremely acid; clear smooth boundary.  (0 to 10 inches thick.)\nBt--11 to 19 inches; strong brown (7.5YR 5/8) loam; common fine and medium distinct brownish yellow (10YR 6/6) and yellowish red (5YR 5/8) mottles; weak fine and medium subangular blocky structure; friable; many fine, medium and coarse roots; common distinct patchy clay films on faces of peds; common fine flakes of mica; 3 percent angular quartz gravel; extremely acid; clear smooth boundary.  (6 to 10 inches thick.)\nC--19 to 55 inches; multicolored in shades of brown, yellow, red and white sandy loam saprolite; massive; very friable; common fine roots; few thin flows of clay in the upper 20 inches; common fine flakes of mica; 3 percent angular quartz gravel; very strongly acid; clear irregular boundary.  (26 to 50 inches.)\nCr--55 to 74 inches; partially weathered granite gneiss that crushes to sandy loam; tongues of the C horizon."
   },
   "TYPE LOCATION": {
     "section": "TYPE LOCATION",
@@ -55,7 +55,7 @@
   },
   "REMARKS": {
     "section": "REMARKS",
-    "content": "REMARKS:  The Occoquan series has previously been included in the Louisburg series.  Which is thermic and classified coarse-loam, mixed, thermic Ruptic-Ultic Dystrochrepts.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon-the zone from 0 to 9 inches (A and E horizons) Argillic horizon-the zone from 9 to 17 inches (Bt horizon less than 10 inches thick)\nSIR = VA0192, VA0328 (VERY STONY)\nMLRA = 148\nREVISED = 8/30/90"
+    "content": "REMARKS:  The Occoquan series has previously been included in the Louisburg series.  Which is thermic and classified coarse-loam, mixed, thermic Ruptic-Ultic Dystrochrepts.\nDiagnostic horizons and features recognized in this pedon are:\nOchric epipedon-the zone from 2 to 11 inches (A and E horizons) Argillic horizon-the zone from 11 to 19 inches (Bt horizon less than 10 inches thick)\n11/2021 revision: Oi had 2 to 0 inch depths, corrected to be 0 to 2 in horizon depths then added 2 inches to all horizon depths throughout the typical pedon.\nSIR = VA0192, VA0328 (VERY STONY)\nMLRA = 148\nREVISED = 8/30/90"
   },
   "ADDITIONAL DATA": {
     "section": "ADDITIONAL DATA",
@@ -73,8 +73,8 @@
     [
       {
         "name": "Oi",
-        "top": 5,
-        "bottom": 0,
+        "top": 0,
+        "bottom": 5,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -87,12 +87,12 @@
         "pH_class": "NA",
         "distinctness": "NA",
         "topography": "NA",
-        "narrative": "Oi--2 to 0 inch; partially decomposed hardwood leaves and twigs."
+        "narrative": "Oi--0 to 2 inch; partially decomposed hardwood leaves and twigs."
       },
       {
         "name": "A",
-        "top": 0,
-        "bottom": 5,
+        "top": 5,
+        "bottom": 10,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -105,12 +105,12 @@
         "pH_class": "extremely acid",
         "distinctness": "clear",
         "topography": "smooth",
-        "narrative": "A--0 to 2 inches; dark grayish brown (10YR 4/2) sandy loam; weak fine granular structure; very friable; many fine, medium and coarse roots; 6 percent angular quartz gravel; 1 percent angular cobbles; few fine flakes of mica; extremely acid; clear smooth boundary.  (0 to 4 inches thick.)"
+        "narrative": "A--2 to 4 inches; dark grayish brown (10YR 4/2) sandy loam; weak fine granular structure; very friable; many fine, medium and coarse roots; 6 percent angular quartz gravel; 1 percent angular cobbles; few fine flakes of mica; extremely acid; clear smooth boundary.  (0 to 4 inches thick.)"
       },
       {
         "name": "E",
-        "top": 5,
-        "bottom": 23,
+        "top": 10,
+        "bottom": 28,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -123,12 +123,30 @@
         "pH_class": "extremely acid",
         "distinctness": "clear",
         "topography": "smooth",
-        "narrative": "E--2 to 9 inches; pale brown (10YR 6/3) sandy loam; weak medium and fine granular structure; very friable; many fine and medium roots; 6 percent angular quartz gravel; 1 percent cobbles; few fine flakes of mica; extremely acid; clear smooth boundary.  (0 to 10 inches thick.)"
+        "narrative": "E--4 to 11 inches; pale brown (10YR 6/3) sandy loam; weak medium and fine granular structure; very friable; many fine and medium roots; 6 percent angular quartz gravel; 1 percent cobbles; few fine flakes of mica; extremely acid; clear smooth boundary.  (0 to 10 inches thick.)"
+      },
+      {
+        "name": "Bt",
+        "top": 28,
+        "bottom": 48,
+        "dry_hue": "NA",
+        "dry_value": "NA",
+        "dry_chroma": "NA",
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 8,
+        "texture_class": "loam",
+        "cf_class": "NA",
+        "pH": "NA",
+        "pH_class": "extremely acid",
+        "distinctness": "clear",
+        "topography": "smooth",
+        "narrative": "Bt--11 to 19 inches; strong brown (7.5YR 5/8) loam; common fine and medium distinct brownish yellow (10YR 6/6) and yellowish red (5YR 5/8) mottles; weak fine and medium subangular blocky structure; friable; many fine, medium and coarse roots; common distinct patchy clay films on faces of peds; common fine flakes of mica; 3 percent angular quartz gravel; extremely acid; clear smooth boundary.  (6 to 10 inches thick.)"
       },
       {
         "name": "C",
-        "top": 43,
-        "bottom": 135,
+        "top": 48,
+        "bottom": 140,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -141,12 +159,12 @@
         "pH_class": "very strongly acid",
         "distinctness": "clear",
         "topography": "irregular",
-        "narrative": "C--17 to 53 inches; multicolored in shades of brown, yellow, red and white sandy loam saprolite; massive; very friable; common fine roots; few thin flows of clay in the upper 20 inches; common fine flakes of mica; 3 percent angular quartz gravel; very strongly acid; clear irregular boundary.  (26 to 50 inches.)"
+        "narrative": "C--19 to 55 inches; multicolored in shades of brown, yellow, red and white sandy loam saprolite; massive; very friable; common fine roots; few thin flows of clay in the upper 20 inches; common fine flakes of mica; 3 percent angular quartz gravel; very strongly acid; clear irregular boundary.  (26 to 50 inches.)"
       },
       {
         "name": "Cr",
-        "top": 135,
-        "bottom": 183,
+        "top": 140,
+        "bottom": 188,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -159,7 +177,7 @@
         "pH_class": "NA",
         "distinctness": "NA",
         "topography": "NA",
-        "narrative": "Cr--53 to 72 inches; partially weathered granite gneiss that crushes to sandy loam; tongues of the C horizon."
+        "narrative": "Cr--55 to 74 inches; partially weathered granite gneiss that crushes to sandy loam; tongues of the C horizon."
       }
     ]
   ]
