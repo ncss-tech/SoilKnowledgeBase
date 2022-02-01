@@ -6,26 +6,26 @@
 #' @return TRUE if successful
 #' @export
 create_NSSH <- function(...) {
-  outpath = "./inst/extdata"
-  logfile = file.path(outpath, "NSSH/NSSH.log")
+#  outpath = "./inst/extdata"
+#  logfile = file.path(outpath, "NSSH/NSSH.log")
 
-  logmsg(logfile, "Processing NSSH from eDirectives...")
+#  logmsg(logfile, "Processing NSSH from eDirectives...")
 
   # run inst/scripts/NSSH
 
-  dat <- parse_nssh_index(logfile = logfile, ...)
-  attempt <- try(for (p in unique(dat$part)) {
+#  dat <- parse_nssh_index(logfile = logfile, ...)
+#  attempt <- try(for (p in unique(dat$part)) {
 
-    hed <- parse_nssh_part(dat$part, dat$subpart, outpath = outpath, logfile = logfile)
+#    hed <- parse_nssh_part(dat$part, dat$subpart, outpath = outpath, logfile = logfile)
 
-    if (!is.null(hed)) {
+#    if (!is.null(hed)) {
 
       # create the JSON clause products for each NSSH part/subpart .txt
-      dspt <- split(dat, 1:nrow(dat))
-      lapply(dspt, function(dd) parse_NSSH(logfile = logfile,
-                                           outpath = outpath,
-                                           a_part = dd$part,
-                                           a_subpart = dd$subpart))
+#      dspt <- split(dat, 1:nrow(dat))
+#      lapply(dspt, function(dd) parse_NSSH(logfile = logfile,
+#                                           outpath = outpath,
+#                                           a_part = dd$part,
+#                                           a_subpart = dd$subpart))
       # Optional: special scripts (by NSSH Part #) can be called from inst/scripts/NSSH
       # rpath <- list.files(paste0("inst/scripts/NSSH/", p), ".*.R", full.names = TRUE)
       # # find each .R file (one or more for each part) and source them
@@ -38,12 +38,12 @@ create_NSSH <- function(...) {
   })
 
   # call processing methods built into package
-  try(process_NSSH_629A(outpath = outpath) )
+#  try(process_NSSH_629A(outpath = outpath) )
 
-  if (inherits(attempt, 'try-error'))
-    return(FALSE)
+#  if (inherits(attempt, 'try-error'))
+#    return(FALSE)
 
-  logmsg(logfile, "Done!")
+#  logmsg(logfile, "Done!")
   return(TRUE)
 }
 
