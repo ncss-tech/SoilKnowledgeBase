@@ -34,8 +34,8 @@ create_NSSH <- function(...) {
       #     source(filepath)
       # })
 
-    }
-  })
+  #   }
+  # })
 
   # call processing methods built into package
 #  try(process_NSSH_629A(outpath = outpath) )
