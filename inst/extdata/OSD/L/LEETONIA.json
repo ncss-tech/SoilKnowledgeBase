@@ -2,16 +2,16 @@
   "SERIES": "LEETONIA",
   "STATUS": "Established Series",
   "BYREV": "Rev. NBP",
-  "REVDATE": "2/85",
+  "REVDATE": "02/2022",
   "STATES": "MD,PA,VA,WV",
   "OVERVIEW": "The Leetonia series consists of deep, well to excessively drained soils formed in weathered residuum from sandstones, conglomerates and quartzites.  They are sloping to very steep soils on narrow ridge crests and long side slopes in hilly to mountainous topography.  Leetonia soils typically, have dark gray and light gray gravelly loamy sand A horizons, dark brown gravelly loamy sand Bh horizons over olive yellow very gravelly sand C horizons at about 20 inches.",
   "TAXONOMIC CLASS": {
     "section": "TAXONOMIC CLASS",
-    "content": "TAXONOMIC CLASS: Sandy-skeletal, siliceous, mesic Entic\nHaplorthods"
+    "content": "TAXONOMIC CLASS: Sandy-skeletal, siliceous, mesic Entic Haplorthods"
   },
   "TYPICAL PEDON": {
     "section": "TYPICAL PEDONS",
-    "content": "TYPICAL PEDONS:  Leetonia very stony loamy sand - woodland\n(Colors are for moist soil)\n01--5 to 3 inches, partially decomposed leaves, pine needles, and twigs.\n02--3 to 0 inches, black partially decomposed fibrous mat of organic matter.\nA1--0 to 3 inches, dark gray (10YR 4/1) gravelly loamy sand; weak coarse granular structure; very friable; many fine and medium roots; 25 percent by volume quartzite pebbles and cobbles, 15 percent stones; extremely acid; abrupt wavy boundary.  (4 to 7 inches thick)\nB21h--7 to 11 inches, dark brown (7.5YR 4/3) gravelly loamy sand; moderate coarse granular structure; very friable; many fine and medium roots; 40 percent by volume quartzite pebbles and cobbles, 10 percent stones; extremely acid; abrupt wavy boundary.  (2 to 5 inches thick)\nB3--15 to 20 inches, brownish yellow (10YR 6/6) very gravelly sand; single grain; loose; few roots; 50 percent by volume quartzite pebbles and cobbles; very strongly acid; clear wavy boundary.  (4 to 8 inches thick)\nC--20 to 45 inches, olive yellow (2.5Y 6/6) very gravelly sand; single grain; loose; few roots; 50 percent by volume quartzite pebbles and cobbles; very strongly acid; diffuse irregular boundary.  (8 to 30 inches thick)\nR--45 inches, grayish hard quartzite rock."
+    "content": "TYPICAL PEDONS:  Leetonia very stony loamy sand - woodland (Colors are for moist soil)\nO1 -- 0 to 2 inches; partially decomposed leaves, pine needles, and twigs.\nO2 -- 2 to 5 inches; black (10YR 2/1) partially decomposed fibrous material of organic matter.\nA1 -- 5 to 8 inches; dark gray (10YR 4/1) gravelly loamy sand; weak coarse granular structure; very friable; many fine and medium roots; 25 percent quartzite pebbles and cobblestones; 15 percent stones; extremely acid; abrupt wavy boundary.\nA2 -- 8 to 12 inches; light gray (10YR 6/1) gravelly loamy sand; weak coarse granular structure; very friable; few fine and medium roots; 40 percent quartzite pebbles and cobblestones; 15 percent stones; extremely acid; abrupt wavy boundary. (A horizon 4 to 7 inches thick)\nB21h -- 12 to 16 inches; dark brown (7.5YR 4/3) gravelly loamy sand; moderate coarse granular structure; very friable; many fine and medium roots; 40 percent quartzite pebbles and cobblestones; 1 O percent stones; extremely acid; abrupt wavy boundary.\nB22h -- 16 to 20 inches; dark brown (7.5YR 4/4) gravelly loamy sand; moderate medium granular structure; very friable; many fine and medium roots; 35 percent quartzite pebbles and cobblestones; very strongly acid; clear wavy boundary. (B2h horizon 2 to 8 inches thick)\nB3 -- 20 to 25 inches; brownish yellow (10YR 6/6) very gravelly sand; single grained; loose; few fine roots; 50 percent quartzite pebbles and cobblestones; very strongly acid; clear wavy boundary. (4 to 8 inches thick)\nC -- 25 to 50 inches; olive yellow (2.5Y 6/6) very gravelly sand; single grained; loose; few fine roots; 50 percent quartzite pebbles and cobblestones; very strongly acid; diffuse irregular boundary. (8 to 30 inches thick)\nR -- 50 inches; grayish hard quartzite."
   },
   "TYPE LOCATION": {
     "section": "TYPE LOCATION",
@@ -55,11 +55,11 @@
   },
   "REMARKS": {
     "section": "REMARKS",
-    "content": "NA"
+    "content": "REMARKS:  \"The Leetonia Series in Virginia\" by Glenn V. Wilson, Soil Science Society of America Proceedings, Vol. 22, No. 6, November-December 1958, pages 565-570.\n2/2022 revision: O1 had 5 to 3 inch depths and O2 had 3 to 0 inch depths, corrected to be 0 to 2 inch horizon depths and 2 to 5 inch horizon depths then add 5 inches to all horizon depths throughout the typical pedon. WJN"
   },
   "ADDITIONAL DATA": {
     "section": "ADDITIONAL DATA",
-    "content": "ADDITIONAL DATA:  \"The Leetonia Series in Virginia\" by Glenn V. Wilson, Soil Science Society of America Proceedings, Vol. 22, No. 6, November-December 1958, pages 565-570."
+    "content": "NA"
   },
   "SITE": [
     [
@@ -72,9 +72,9 @@
   "HORIZONS": [
     [
       {
-        "name": "01",
-        "top": 13,
-        "bottom": 8,
+        "name": "O1",
+        "top": 0,
+        "bottom": 5,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -87,30 +87,30 @@
         "pH_class": "NA",
         "distinctness": "NA",
         "topography": "NA",
-        "narrative": "01--5 to 3 inches, partially decomposed leaves, pine needles, and twigs."
+        "narrative": "O1 -- 0 to 2 inches; partially decomposed leaves, pine needles, and twigs."
       },
       {
-        "name": "02",
-        "top": 8,
-        "bottom": 0,
+        "name": "O2",
+        "top": 5,
+        "bottom": 13,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
-        "moist_hue": "NA",
-        "moist_value": "NA",
-        "moist_chroma": "NA",
+        "moist_hue": "10YR",
+        "moist_value": 2,
+        "moist_chroma": 1,
         "texture_class": "NA",
         "cf_class": "NA",
         "pH": "NA",
         "pH_class": "NA",
         "distinctness": "NA",
         "topography": "NA",
-        "narrative": "02--3 to 0 inches, black partially decomposed fibrous mat of organic matter."
+        "narrative": "O2 -- 2 to 5 inches; black (10YR 2/1) partially decomposed fibrous material of organic matter."
       },
       {
         "name": "A1",
-        "top": 0,
-        "bottom": 8,
+        "top": 13,
+        "bottom": 20,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -123,12 +123,30 @@
         "pH_class": "extremely acid",
         "distinctness": "abrupt",
         "topography": "wavy",
-        "narrative": "A1--0 to 3 inches, dark gray (10YR 4/1) gravelly loamy sand; weak coarse granular structure; very friable; many fine and medium roots; 25 percent by volume quartzite pebbles and cobbles, 15 percent stones; extremely acid; abrupt wavy boundary.  (4 to 7 inches thick)"
+        "narrative": "A1 -- 5 to 8 inches; dark gray (10YR 4/1) gravelly loamy sand; weak coarse granular structure; very friable; many fine and medium roots; 25 percent quartzite pebbles and cobblestones; 15 percent stones; extremely acid; abrupt wavy boundary."
+      },
+      {
+        "name": "A2",
+        "top": 20,
+        "bottom": 30,
+        "dry_hue": "NA",
+        "dry_value": "NA",
+        "dry_chroma": "NA",
+        "moist_hue": "10YR",
+        "moist_value": 6,
+        "moist_chroma": 1,
+        "texture_class": "loamy sand",
+        "cf_class": "gravelly",
+        "pH": "NA",
+        "pH_class": "extremely acid",
+        "distinctness": "abrupt",
+        "topography": "wavy",
+        "narrative": "A2 -- 8 to 12 inches; light gray (10YR 6/1) gravelly loamy sand; weak coarse granular structure; very friable; few fine and medium roots; 40 percent quartzite pebbles and cobblestones; 15 percent stones; extremely acid; abrupt wavy boundary. (A horizon 4 to 7 inches thick)"
       },
       {
         "name": "B21h",
-        "top": 18,
-        "bottom": 28,
+        "top": 30,
+        "bottom": 41,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -141,12 +159,30 @@
         "pH_class": "extremely acid",
         "distinctness": "abrupt",
         "topography": "wavy",
-        "narrative": "B21h--7 to 11 inches, dark brown (7.5YR 4/3) gravelly loamy sand; moderate coarse granular structure; very friable; many fine and medium roots; 40 percent by volume quartzite pebbles and cobbles, 10 percent stones; extremely acid; abrupt wavy boundary.  (2 to 5 inches thick)"
+        "narrative": "B21h -- 12 to 16 inches; dark brown (7.5YR 4/3) gravelly loamy sand; moderate coarse granular structure; very friable; many fine and medium roots; 40 percent quartzite pebbles and cobblestones; 1 O percent stones; extremely acid; abrupt wavy boundary."
+      },
+      {
+        "name": "B22h",
+        "top": 41,
+        "bottom": 51,
+        "dry_hue": "NA",
+        "dry_value": "NA",
+        "dry_chroma": "NA",
+        "moist_hue": "7.5YR",
+        "moist_value": 4,
+        "moist_chroma": 4,
+        "texture_class": "loamy sand",
+        "cf_class": "gravelly",
+        "pH": "NA",
+        "pH_class": "very strongly acid",
+        "distinctness": "clear",
+        "topography": "wavy",
+        "narrative": "B22h -- 16 to 20 inches; dark brown (7.5YR 4/4) gravelly loamy sand; moderate medium granular structure; very friable; many fine and medium roots; 35 percent quartzite pebbles and cobblestones; very strongly acid; clear wavy boundary. (B2h horizon 2 to 8 inches thick)"
       },
       {
         "name": "B3",
-        "top": 38,
-        "bottom": 51,
+        "top": 51,
+        "bottom": 64,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -159,12 +195,12 @@
         "pH_class": "very strongly acid",
         "distinctness": "clear",
         "topography": "wavy",
-        "narrative": "B3--15 to 20 inches, brownish yellow (10YR 6/6) very gravelly sand; single grain; loose; few roots; 50 percent by volume quartzite pebbles and cobbles; very strongly acid; clear wavy boundary.  (4 to 8 inches thick)"
+        "narrative": "B3 -- 20 to 25 inches; brownish yellow (10YR 6/6) very gravelly sand; single grained; loose; few fine roots; 50 percent quartzite pebbles and cobblestones; very strongly acid; clear wavy boundary. (4 to 8 inches thick)"
       },
       {
         "name": "C",
-        "top": 51,
-        "bottom": 114,
+        "top": 64,
+        "bottom": 127,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -177,11 +213,11 @@
         "pH_class": "very strongly acid",
         "distinctness": "diffuse",
         "topography": "irregular",
-        "narrative": "C--20 to 45 inches, olive yellow (2.5Y 6/6) very gravelly sand; single grain; loose; few roots; 50 percent by volume quartzite pebbles and cobbles; very strongly acid; diffuse irregular boundary.  (8 to 30 inches thick)"
+        "narrative": "C -- 25 to 50 inches; olive yellow (2.5Y 6/6) very gravelly sand; single grained; loose; few fine roots; 50 percent quartzite pebbles and cobblestones; very strongly acid; diffuse irregular boundary. (8 to 30 inches thick)"
       },
       {
         "name": "R",
-        "top": 114,
+        "top": 127,
         "bottom": "NA",
         "dry_hue": "NA",
         "dry_value": "NA",
@@ -195,7 +231,7 @@
         "pH_class": "NA",
         "distinctness": "NA",
         "topography": "NA",
-        "narrative": "R--45 inches, grayish hard quartzite rock."
+        "narrative": "R -- 50 inches; grayish hard quartzite."
       }
     ]
   ]
