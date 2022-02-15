@@ -21,7 +21,7 @@ sc <- sc$soilseriesname
 
 ## TODO: double-check funky names like "O'BRIEN" and chars not [a-z]
 
-## TODO: add sections / entire OSD -> fulltext data
+## TODO: add entire OSD -> fulltext data
 
 ## TODO: narratives in the JSON files have leading white space
 
@@ -160,8 +160,10 @@ write.csv(hz, file = gzfile('parsed-data.csv.gz'), row.names = FALSE)
 write.csv(s, file = gzfile('parsed-site-data.csv.gz'), row.names = FALSE)
 
 ## re-make section fulltext table + INSERT statements
+# 6 minutes
 system.time(.makeFullTextSectionsTable(fulltext.records))
-
+# gzip
+R.utils::gzip('fulltext-section-data.sql', overwrite = TRUE)
 
 ## TODO: investigate missing records, relative to the last time this was run
 # nrow(read.csv('E:/working_copies/parse-osd/R/parsed-data.csv.gz'))
