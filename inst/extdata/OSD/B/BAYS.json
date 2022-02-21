@@ -2,7 +2,7 @@
   "SERIES": "BAYS",
   "STATUS": "Established Series",
   "BYREV": "Rev. HCD:NTH:DLN",
-  "REVDATE": "02/2006",
+  "REVDATE": "02/2022",
   "STATES": "TN",
   "OVERVIEW": "The Bays series consists of shallow, well drained soils that formed in residuum from calcareous shale bedrock.  They are on shale uplands with narrow convex ridges and long convex side slopes in the Ridge and Valley portion of the Southern Appalachians.  Slopes range from 5 to 75 percent.",
   "TAXONOMIC CLASS": {
@@ -11,7 +11,7 @@
   },
   "TYPICAL PEDON": {
     "section": "TYPICAL PEDON",
-    "content": "TYPICAL PEDON:  Bays silty clay loam on a 60 percent northeast facing sideslope at an elevation of 2000 feet--pasture.  (Colors are for moist soil)\nAp--O to 3 inches; dark grayish brown (10YR 4/2) silty clay loam; moderate medium granular structure; friable; many fine and medium roots; 10 percent fragments of shale up to 1/2 inch across; strongly acid; abrupt wavy boundary.  (1 to 4 inches thick)\nBw/Bt--3 to 16 inches; (Bw part) strong brown (7.5YR 5/6) channery silty clay loam; weak fine subangular blocky structure; very friable; few fine and medium roots; common fine discontinuous tubular pores; 25 percent channers of shale up to 2 inches across; medium acid; (Bt part) intermittent pockets of strong brown (7.5YR 5/6) channery silty clay loam; moderate medium subangular blocky structure; very friable; few fine and medium roots; common fine discontinuous tubular pores; few faint clay films; 25 percent channers of shale up to 2 inches across; medium acid; abrupt irregular boundary.  (6 to 15 inches thick)\nC--l6 to l9 inches; strong brown (7.5YR 5/6) very channery silty clay loam; massive; friable; 50 percent channers of shale up to 2 inches across; strongly acid; clear irregular boundary.\nCr--19 inches; tilted and fractured, soft, partially weathered shale in shades of yellow and brown with thin lenses of yellowish brown silt loam between fractures."
+    "content": "TYPICAL PEDON:  Bays silty clay loam on a 60 percent northeast facing sideslope at an elevation of 2000 feet--pasture.  (Colors are for moist soil)\nAp--0 to 3 inches; dark grayish brown (10YR 4/2) silty clay loam; moderate medium granular structure; friable; many fine and medium roots; 10 percent fragments of shale up to 1/2 inch across; strongly acid; abrupt wavy boundary.  (1 to 4 inches thick)\nBw/Bt--3 to 16 inches; (Bw part) strong brown (7.5YR 5/6) channery silty clay loam; weak fine subangular blocky structure; very friable; few fine and medium roots; common fine discontinuous tubular pores; 25 percent channers of shale up to 2 inches across; medium acid; (Bt part) intermittent pockets of strong brown (7.5YR 5/6) channery silty clay loam; moderate medium subangular blocky structure; very friable; few fine and medium roots; common fine discontinuous tubular pores; few faint clay films; 25 percent channers of shale up to 2 inches across; medium acid; abrupt irregular boundary.  (6 to 15 inches thick)\nC--16 to 19 inches; strong brown (7.5YR 5/6) very channery silty clay loam; massive; friable; 50 percent channers of shale up to 2 inches across; strongly acid; clear irregular boundary.\nCr--19 inches; tilted and fractured, soft, partially weathered shale in shades of yellow and brown with thin lenses of yellowish brown silt loam between fractures."
   },
   "TYPE LOCATION": {
     "section": "TYPE LOCATION",
@@ -73,7 +73,7 @@
     [
       {
         "name": "Ap",
-        "top": "NA",
+        "top": 0,
         "bottom": 8,
         "dry_hue": "NA",
         "dry_value": "NA",
@@ -87,7 +87,7 @@
         "pH_class": "strongly acid",
         "distinctness": "abrupt",
         "topography": "wavy",
-        "narrative": "Ap--O to 3 inches; dark grayish brown (10YR 4/2) silty clay loam; moderate medium granular structure; friable; many fine and medium roots; 10 percent fragments of shale up to 1/2 inch across; strongly acid; abrupt wavy boundary.  (1 to 4 inches thick)"
+        "narrative": "Ap--0 to 3 inches; dark grayish brown (10YR 4/2) silty clay loam; moderate medium granular structure; friable; many fine and medium roots; 10 percent fragments of shale up to 1/2 inch across; strongly acid; abrupt wavy boundary.  (1 to 4 inches thick)"
       },
       {
         "name": "Bw/Bt",
@@ -106,6 +106,24 @@
         "distinctness": "abrupt",
         "topography": "irregular",
         "narrative": "Bw/Bt--3 to 16 inches; (Bw part) strong brown (7.5YR 5/6) channery silty clay loam; weak fine subangular blocky structure; very friable; few fine and medium roots; common fine discontinuous tubular pores; 25 percent channers of shale up to 2 inches across; medium acid; (Bt part) intermittent pockets of strong brown (7.5YR 5/6) channery silty clay loam; moderate medium subangular blocky structure; very friable; few fine and medium roots; common fine discontinuous tubular pores; few faint clay films; 25 percent channers of shale up to 2 inches across; medium acid; abrupt irregular boundary.  (6 to 15 inches thick)"
+      },
+      {
+        "name": "C",
+        "top": 41,
+        "bottom": 48,
+        "dry_hue": "NA",
+        "dry_value": "NA",
+        "dry_chroma": "NA",
+        "moist_hue": "7.5YR",
+        "moist_value": 5,
+        "moist_chroma": 6,
+        "texture_class": "silty clay loam",
+        "cf_class": "very channery",
+        "pH": "NA",
+        "pH_class": "strongly acid",
+        "distinctness": "clear",
+        "topography": "irregular",
+        "narrative": "C--16 to 19 inches; strong brown (7.5YR 5/6) very channery silty clay loam; massive; friable; 50 percent channers of shale up to 2 inches across; strongly acid; clear irregular boundary."
       },
       {
         "name": "Cr",
