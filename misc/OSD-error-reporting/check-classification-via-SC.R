@@ -16,6 +16,7 @@ cleanSectionTitle <- function(s) {
 
 sc <- get_soilseries_from_NASIS()
 
+# ~ 6 minutes from local files
 osds <- pblapply(sc$soilseriesname, FUN = get_OSD, base_url = 'E:/working_copies/SoilKnowledgeBase/inst/extdata/OSD/')
 
 
