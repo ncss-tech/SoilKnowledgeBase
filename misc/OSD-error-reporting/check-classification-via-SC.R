@@ -28,7 +28,7 @@ osds.taxcl <- pblapply(osds, FUN = function(i) {
   
   res <- data.frame(
     series = toupper(i$SERIES),
-    OSD.taxcl = toupper(cleanSectionTitle(i$TAXONOMIC.CLASS))
+    OSD.taxcl = trimws(toupper(cleanSectionTitle(i$TAXONOMIC.CLASS)), which = 'both')
   )
   
   return(res)
@@ -42,6 +42,7 @@ x <- merge(d, osds.taxcl, by = 'series', all.x = TRUE, sort = FALSE)
 
 x$flag <- x$SC.taxcl != x$OSD.taxcl
 
+# 123 series
 table("does not match" = x$flag)
 table("series status" = x$status, "does not match" = x$flag)
 
