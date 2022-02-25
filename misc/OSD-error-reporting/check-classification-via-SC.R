@@ -5,6 +5,7 @@
 library(aqp)
 library(soilDB)
 library(pbapply)
+library(daff)
 
 
 cleanSectionTitle <- function(s) {
@@ -26,9 +27,18 @@ d <- data.frame(
 
 osds.taxcl <- pblapply(osds, FUN = function(i) {
   
+  # cleanup parsed taxonomic label
+  # remove section title
+  # upper case
+  # trim white space
+  .cl <- trimws(toupper(cleanSectionTitle(i$TAXONOMIC.CLASS)), which = 'both')
+  
+  # remove newline
+  .cl <- gsub(pattern = '\n', replacement = '', x = .cl, fixed = TRUE)
+  
   res <- data.frame(
     series = toupper(i$SERIES),
-    OSD.taxcl = trimws(toupper(cleanSectionTitle(i$TAXONOMIC.CLASS)), which = 'both')
+    OSD.taxcl = .cl
   )
   
   return(res)
@@ -48,17 +58,28 @@ table("series status" = x$status, "does not match" = x$flag)
 
 idx <- which(x$flag)
 
-x$series[idx]
+z <- x[idx, ]
 
-m <- sc$soiltaxclasslastupdated[match(sc$soilseriesname, x$series[idx])]
+z$series
+
+m <- sc$soiltaxclasslastupdated[match(sc$soilseriesname, z$series)]
 m <- na.omit(m)
 
 summary(m)
 
 
-sc.to.fix <- sc[sc$soilseriesname %in% x$series[idx], ]
+sc.to.fix <- sc[sc$soilseriesname %in% z$series, ]
 
 table(sc.to.fix$mlraoffice)
 
+options(width = 500)
+knitr::kable(z[1:10, 3:4])
 
+write.csv(z, file = '../../inst/extdata/OSD-error-reporting/taxclassname-errors.csv', row.names = FALSE)
+
+
+## record differences
+.d <- diff_data(data_ref = z[, c('series', 'SC.taxcl')], data = z[, c('series', 'OSD.taxcl')])
+
+render_diff(.d, file = 'E:/temp/OSD-vs-SC.html', title = 'SC vs. OSD')
 
