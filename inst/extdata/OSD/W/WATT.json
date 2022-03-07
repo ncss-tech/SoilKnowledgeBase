@@ -2,7 +2,7 @@
   "SERIES": "WATT",
   "STATUS": "Established Series",
   "BYREV": "Rev. NAM-DDR",
-  "REVDATE": "02/2004",
+  "REVDATE": "03/2022",
   "STATES": "VA",
   "OVERVIEW": "Soils of the Watt series are moderately deep to rock, somewhat excessively drained with moderately rapid permeability.  They formed in residuum from dark gray or black graphitic rock.  These soils are gently sloping to steep and occur on irregularly, elongated segments of side- slopes and ridges in the Piedmont Plateau.  Slopes range from 2 to 60 percent.  Mean annual temperature is about 55 degrees F and mean annual precipitation is about 42 inches.",
   "TAXONOMIC CLASS": {
@@ -11,7 +11,7 @@
   },
   "TYPICAL PEDON": {
     "section": "TYPICAL PEDON",
-    "content": "TYPICAL PEDON:  Watt channery silt loam - on a northeast facing, convex, 10 percent slope that is forested.  (Colors are for moist soil.)\nOi--2 to 0 inches; partially decomposed hardwood leaves and twigs.\nAl--0 to 2 inches; black (5Y 2/1) channery silt loam; moderate fine and very fine granular structure; very friable; many fine roots; 20 percent black graphitic schist fragments; very strongly acid; clear smooth boundary.\nA2--2 to 9 inches; dark olive gray (5Y 3/2) channery silt loam; moderate fine granular structure; very friable; many fine and medium roots; few fine and medium pores; 25 percent black graphitic schist fragments; very strongly acid; clear smooth boundary.  (Combined thickness of the A horizon is 3 to 10 inches thick)\nBw--9 to 14 inches; olive gray (5Y 4/2) channery silt loam; weak fine subgranular blocky structure; friable, slightly sticky; common fine roots; few fine and medium pores; 40 percent black graphitic schist fragments; very strongly acid; gradual smooth boundary.  (4 to 12 inches thick)\nC--14 to 26 inches; black (5Y 2/1) streaked with olive gray (5Y 4/2) and olive yellow (2.5Y 6/8) very channery silt loam; massive; firm; 55 percent black graphitic schist fragments; very strongly acid; clear wavy boundary.  (10 to 16 inches thick)\nR--26 inches; partially weathered dark gray and black graphitic rock."
+    "content": "TYPICAL PEDON:  Watt channery silt loam - on a northeast facing, convex, 10 percent slope that is forested.  (Colors are for moist soil.)\nOi--0 to 2 inches; partially decomposed hardwood leaves and twigs.\nA1--2 to 4 inches; black (5Y 2/1) channery silt loam; moderate fine and very fine granular structure; very friable; many fine roots; 20 percent black graphitic schist fragments; very strongly acid; clear smooth boundary.\nA2--4 to 11 inches; dark olive gray (5Y 3/2) channery silt loam; moderate fine granular structure; very friable; many fine and medium roots; few fine and medium pores; 25 percent black graphitic schist fragments; very strongly acid; clear smooth boundary.  (Combined thickness of the A horizon is 3 to 10 inches thick)\nBw--11 to 16 inches; olive gray (5Y 4/2) channery silt loam; weak fine subgranular blocky structure; friable, slightly sticky; common fine roots; few fine and medium pores; 40 percent black graphitic schist fragments; very strongly acid; gradual smooth boundary.  (4 to 12 inches thick)\nC--16 to 28 inches; black (5Y 2/1) streaked with olive gray (5Y 4/2) and olive yellow (2.5Y 6/8) very channery silt loam; massive; firm; 55 percent black graphitic schist fragments; very strongly acid; clear wavy boundary.  (10 to 16 inches thick)\nR--28 inches; partially weathered dark gray and black graphitic rock."
   },
   "TYPE LOCATION": {
     "section": "TYPE LOCATION",
@@ -55,7 +55,7 @@
   },
   "REMARKS": {
     "section": "REMARKS",
-    "content": "REMARKS:  The classification has been changed from Umbric Dystrochrept to Typic Dystrochrept because the dark colors in the solum are inherited from the graphitic schist parent rock.  In most places, the C horizon is darker colored than the solum.\nREVISED = 2/18/2004, MAV added semiactive ce activity class and updated obsolete classification od Dystrochrepts to Dystrudepts."
+    "content": "REMARKS:  The classification has been changed from Umbric Dystrochrept to Typic Dystrochrept because the dark colors in the solum are inherited from the graphitic schist parent rock.  In most places, the C horizon is darker colored than the solum.\nREVISED = 2/18/2004, MAV added semiactive ce activity class and updated obsolete classification od Dystrochrepts to Dystrudepts.\n03/2022 revision: Oi had 2 to 0 inch depths, corrected to be 0 to 2 in horizon depths then added 2 inches to all horizon depths throughout the typical pedon. WJN"
   },
   "ADDITIONAL DATA": {
     "section": "ADDITIONAL DATA",
@@ -73,8 +73,8 @@
     [
       {
         "name": "Oi",
-        "top": 5,
-        "bottom": 0,
+        "top": 0,
+        "bottom": 5,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -87,12 +87,12 @@
         "pH_class": "NA",
         "distinctness": "NA",
         "topography": "NA",
-        "narrative": "Oi--2 to 0 inches; partially decomposed hardwood leaves and twigs."
+        "narrative": "Oi--0 to 2 inches; partially decomposed hardwood leaves and twigs."
       },
       {
-        "name": "Al",
-        "top": 0,
-        "bottom": 5,
+        "name": "A1",
+        "top": 5,
+        "bottom": 10,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -105,12 +105,12 @@
         "pH_class": "very strongly acid",
         "distinctness": "clear",
         "topography": "smooth",
-        "narrative": "Al--0 to 2 inches; black (5Y 2/1) channery silt loam; moderate fine and very fine granular structure; very friable; many fine roots; 20 percent black graphitic schist fragments; very strongly acid; clear smooth boundary."
+        "narrative": "A1--2 to 4 inches; black (5Y 2/1) channery silt loam; moderate fine and very fine granular structure; very friable; many fine roots; 20 percent black graphitic schist fragments; very strongly acid; clear smooth boundary."
       },
       {
         "name": "A2",
-        "top": 5,
-        "bottom": 23,
+        "top": 10,
+        "bottom": 28,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -123,12 +123,12 @@
         "pH_class": "very strongly acid",
         "distinctness": "clear",
         "topography": "smooth",
-        "narrative": "A2--2 to 9 inches; dark olive gray (5Y 3/2) channery silt loam; moderate fine granular structure; very friable; many fine and medium roots; few fine and medium pores; 25 percent black graphitic schist fragments; very strongly acid; clear smooth boundary.  (Combined thickness of the A horizon is 3 to 10 inches thick)"
+        "narrative": "A2--4 to 11 inches; dark olive gray (5Y 3/2) channery silt loam; moderate fine granular structure; very friable; many fine and medium roots; few fine and medium pores; 25 percent black graphitic schist fragments; very strongly acid; clear smooth boundary.  (Combined thickness of the A horizon is 3 to 10 inches thick)"
       },
       {
         "name": "Bw",
-        "top": 23,
-        "bottom": 36,
+        "top": 28,
+        "bottom": 41,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -141,12 +141,12 @@
         "pH_class": "very strongly acid",
         "distinctness": "gradual",
         "topography": "smooth",
-        "narrative": "Bw--9 to 14 inches; olive gray (5Y 4/2) channery silt loam; weak fine subgranular blocky structure; friable, slightly sticky; common fine roots; few fine and medium pores; 40 percent black graphitic schist fragments; very strongly acid; gradual smooth boundary.  (4 to 12 inches thick)"
+        "narrative": "Bw--11 to 16 inches; olive gray (5Y 4/2) channery silt loam; weak fine subgranular blocky structure; friable, slightly sticky; common fine roots; few fine and medium pores; 40 percent black graphitic schist fragments; very strongly acid; gradual smooth boundary.  (4 to 12 inches thick)"
       },
       {
         "name": "C",
-        "top": 36,
-        "bottom": 66,
+        "top": 41,
+        "bottom": 71,
         "dry_hue": "NA",
         "dry_value": "NA",
         "dry_chroma": "NA",
@@ -159,11 +159,11 @@
         "pH_class": "very strongly acid",
         "distinctness": "clear",
         "topography": "wavy",
-        "narrative": "C--14 to 26 inches; black (5Y 2/1) streaked with olive gray (5Y 4/2) and olive yellow (2.5Y 6/8) very channery silt loam; massive; firm; 55 percent black graphitic schist fragments; very strongly acid; clear wavy boundary.  (10 to 16 inches thick)"
+        "narrative": "C--16 to 28 inches; black (5Y 2/1) streaked with olive gray (5Y 4/2) and olive yellow (2.5Y 6/8) very channery silt loam; massive; firm; 55 percent black graphitic schist fragments; very strongly acid; clear wavy boundary.  (10 to 16 inches thick)"
       },
       {
         "name": "R",
-        "top": 66,
+        "top": 71,
         "bottom": "NA",
         "dry_hue": "NA",
         "dry_value": "NA",
@@ -177,7 +177,7 @@
         "pH_class": "NA",
         "distinctness": "NA",
         "topography": "NA",
-        "narrative": "R--26 inches; partially weathered dark gray and black graphitic rock."
+        "narrative": "R--28 inches; partially weathered dark gray and black graphitic rock."
       }
     ]
   ]
