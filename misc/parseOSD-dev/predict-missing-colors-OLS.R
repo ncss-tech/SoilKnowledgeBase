@@ -175,6 +175,38 @@ d$moist_color_estimated[which(is.na(d$moist_hue))] <- TRUE
 d$moist_hue[which(is.na(d$moist_hue))] <- d$dry_hue[which(is.na(d$moist_hue))]
 d$dry_hue[which(is.na(d$dry_hue))] <- d$moist_hue[which(is.na(d$dry_hue))]
 
+
+## TODO: should not round, should locate closest chip--could be 2.5 value
+
+## from aqp::getClosestMunsell()
+
+# # valid value / chroma in our LUT
+# valid.value <- unique(munsell$value)
+# valid.chroma <- unique(munsell$chroma)
+# 
+# # treat as numeric
+# cd$value <- as.numeric(cd$value)
+# cd$chroma <- as.numeric(cd$chroma)
+# 
+# # locate closest value / chroma
+# closest.value <- vector(mode = 'numeric', length = nrow(cd))
+# closest.chroma <- vector(mode = 'numeric', length = nrow(cd))
+# for(i in 1:nrow(cd)) {
+#   # search for closest value
+#   idx <- which.min(abs(cd$value[i] - valid.value))
+#   closest.value[i] <- valid.value[idx]
+#   
+#   # search for closest chroma
+#   idx <- which.min(abs(cd$chroma[i] - valid.chroma))
+#   closest.chroma[i] <- valid.chroma[idx]
+# }
+# 
+# # convert values and chroma < 1 -> 1
+# closest.value <- ifelse(closest.value < 1, 1, closest.value)
+# closest.chroma <- ifelse(closest.chroma < 1, 1, closest.chroma)
+
+
+
 # moist value
 idx <- which(is.na(d$moist_value))
 d$moist_value[idx] <- round(predict(m.value.moist, d[idx, ]))
