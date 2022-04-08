@@ -113,7 +113,7 @@ z <- cbind(x, pp.dry, pp.moist)
 png(filename = 'figures/dv-model.png', width=800, height=800, res=90)
 
 print(
-  hexbinplot(pp.value.dry ~ dry_value, data=x, trans = log, inv=exp, colramp=viridis, asp=1, xbins=10, xlab='Observed Dry Value', ylab='Predicted Dry Value', colorkey=FALSE)
+  hexbinplot(pp.value.dry ~ dry_value, data=z, trans = log, inv=exp, colramp=viridis, asp=1, xbins=10, xlab='Observed Dry Value', ylab='Predicted Dry Value', colorkey=FALSE)
 )
 
 dev.off()
@@ -122,7 +122,7 @@ dev.off()
 png(filename = 'figures/dc-model.png', width=800, height=800, res=90)
 
 print(
-  hexbinplot(pp.chroma.dry ~ dry_chroma, data=x, trans = log, inv=exp, colramp=viridis, asp=1, xbins=10, xlab='Observed Dry Chroma', ylab='Predicted Dry Chroma', colorkey=FALSE)
+  hexbinplot(pp.chroma.dry ~ dry_chroma, data=z, trans = log, inv=exp, colramp=viridis, asp=1, xbins=10, xlab='Observed Dry Chroma', ylab='Predicted Dry Chroma', colorkey=FALSE)
 )
 
 dev.off()
@@ -131,7 +131,7 @@ dev.off()
 png(filename = 'figures/mv-model.png', width=800, height=800, res=90)
 
 print(
-  hexbinplot(pp.value.moist ~ moist_value, data=x, trans = log, inv=exp, colramp=viridis, asp=1, xbins=10, xlab='Observed Moist Value', ylab='Predicted Moist Value', colorkey=FALSE)
+  hexbinplot(pp.value.moist ~ moist_value, data=z, trans = log, inv=exp, colramp=viridis, asp=1, xbins=10, xlab='Observed Moist Value', ylab='Predicted Moist Value', colorkey=FALSE)
 )
 
 dev.off()
@@ -140,7 +140,7 @@ dev.off()
 png(filename = 'figures/mc-model.png', width=800, height=800, res=90)
 
 print(
-  hexbinplot(pp.chroma.moist ~ moist_chroma, data=x, trans = log, inv=exp, colramp=viridis, asp=1, xbins=10, xlab='Observed Moist Chroma', ylab='Predicted Moist Chroma', colorkey=FALSE)
+  hexbinplot(pp.chroma.moist ~ moist_chroma, data=z, trans = log, inv=exp, colramp=viridis, asp=1, xbins=10, xlab='Observed Moist Chroma', ylab='Predicted Moist Chroma', colorkey=FALSE)
 )
 
 dev.off()
@@ -214,6 +214,11 @@ d$moist_value[idx] <- round(predict(m.value.moist, d[idx, ]))
 # dry value
 idx <- which(is.na(d$dry_value))
 d$dry_value[idx] <- round(predict(m.value.dry, d[idx, ]))
+
+
+## 
+## rounding of predicted chroma is OK
+##
 
 # moist chroma
 idx <- which(is.na(d$moist_chroma))

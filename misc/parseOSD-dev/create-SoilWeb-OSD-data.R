@@ -25,6 +25,8 @@ sc <- sc$soilseriesname
 
 ## TODO: narratives in the JSON files have leading white space
 
+## TODO: no rounding of 2.5 value
+
 # for now, relative to /misc/OSD-error-reporting
 osd.path <- '../../inst/extdata/OSD'
 # output.path <- 'inst/extdata/OSD-error-reporting/'
@@ -160,7 +162,7 @@ write.csv(hz, file = gzfile('parsed-data.csv.gz'), row.names = FALSE)
 write.csv(s, file = gzfile('parsed-site-data.csv.gz'), row.names = FALSE)
 
 ## re-make section fulltext table + INSERT statements
-# 6 minutes
+# 6.8 minutes
 system.time(.makeFullTextSectionsTable(fulltext.records))
 # gzip
 R.utils::gzip('fulltext-section-data.sql', overwrite = TRUE)
