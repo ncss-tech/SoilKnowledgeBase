@@ -6,6 +6,10 @@
 library(vegan)
 library(aqp)
 library(farver)
+library(lattice)
+library(tactile)
+library(grid)
+
 
 ## from OSDs
 d <- read.csv('parsed-data.csv.gz', stringsAsFactors=FALSE)
@@ -17,7 +21,7 @@ x <- na.omit(d[, c('dry_hue', 'dry_value', 'dry_chroma', 'moist_hue', 'moist_val
 
 # split, convert to CIELAB
 
-# not all can be converted: invalue hues
+# not all can be converted: invalid hues
 lab.dry <- munsell2rgb(x$dry_hue, x$dry_value, x$dry_chroma, returnLAB = TRUE)
 lab.moist <- munsell2rgb(x$moist_hue, x$moist_value, x$moist_chroma, returnLAB = TRUE)
 
@@ -42,7 +46,24 @@ for(i in 1:nrow(z)) {
 }
 
 # expected range + likely mistakes
-hist(z$dE00.o, las = 1)
+histogram(
+  z$dE00.o[z$dE00.o < 35], 
+  breaks = 50, 
+  par.settings = tactile.theme(), 
+  scales = list(x = list(tick.number = 16)), 
+  xlab = 'CIE2000 Color Contrast Metric', 
+  main = 'Perceptual Differences\nMoist / Dry Soil Colors', 
+  sub = 'Official Series Descriptions, ~78k horizons',
+  panel = function(...) {
+    panel.grid(-1, -1)
+    panel.histogram(...)
+    grid.text('approximately\n1-unit change\nMunsell value', x = unit(7, units = 'native'), y = unit(0.85, 'npc'), hjust = 0.5, gp = gpar(cex = 0.75))
+    grid.text('approximately\n2-unit change\nMunsell value', x = unit(17, units = 'native'), y = unit(0.85, 'npc'), hjust = 0.5, gp = gpar(cex = 0.75))
+})
+
+
+colorContrast('10YR 2/3', '10YR 4/3')
+
 quantile(z$dE00.o)
 
 # what is the expected rate of shift in hue?
@@ -54,10 +75,14 @@ boxplot(dE00.o ~ moist_hue != dry_hue, data = z, horizontal = TRUE)
 z$dry.col <- munsell2rgb(z$dry_hue, z$dry_value, z$dry_chroma)
 z$moist.col <- munsell2rgb(z$moist_hue, z$moist_value, z$moist_chroma)
 
-z.sub <- z[1:100, ]
+z.sub <- z[sample(1:nrow(z), size = 500), ]
 
 plot(moist.L ~ moist.A, data = z.sub, las = 1, pch = 16, col = z.sub$moist.col, cex = 2, ylim = c(0, 95), xlim = c(-5, 25))
 points(dry.L ~ dry.A, data = z.sub, las = 1, pch = 15, col = z.sub$dry.col, cex = 2)
+
+points(mean(z.sub$moist.A), mean(z.sub$moist.L), pch = 16, cex = 1.5)
+points(mean(z.sub$dry.A), mean(z.sub$dry.L), pch = 15, cex = 1.5)
+
 
 
 
@@ -135,6 +160,9 @@ z[idx, ]
 
 
 p.m <- rgb2munsell(convert_colour(p.d2m[idx, ], from = 'lab', to = 'rgb', white_from = 'd65', white_to = 'd65') / 255)
+
+# ~ 1000 random samples: 88% correct
+prop.table(table(p.m$hue == z$moist_hue[idx]))
 
 
 m1 <- sprintf("%s %s/%s", z$moist_hue[idx], z$moist_value[idx], z$moist_chroma[idx])
