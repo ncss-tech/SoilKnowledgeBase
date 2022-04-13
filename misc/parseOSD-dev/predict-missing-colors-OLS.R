@@ -186,29 +186,39 @@ cc.dry <- colorContrast(m1, m2)
 prop.table(table(cc.moist$dE00 == 0))
 prop.table(table(cc.dry$dE00 == 0))
 
-histogram(
-  cc.moist$dE00, 
+
+p1 <- histogram(
+  cc.moist$dE00[cc.moist$dE00 < 30], 
   breaks = 50, 
+  xlim = c(-1, 31),
   par.settings = tactile.theme(), 
   scales = list(x = list(tick.number = 16)), 
   xlab = 'CIE2000 Color Contrast Metric', 
-  main = 'Actual vs. Predicted Moist Colors', 
+  main = 'Actual vs. Predicted Moist Colors (OLS)', 
   panel = function(...) {
     panel.grid(-1, -1)
     panel.histogram(...)
   })
 
-histogram(
-  cc.dry$dE00, 
+p2 <- histogram(
+  cc.dry$dE00[cc.dry$dE00 < 30], 
   breaks = 50, 
+  xlim = c(-1, 31),
   par.settings = tactile.theme(), 
   scales = list(x = list(tick.number = 16)), 
   xlab = 'CIE2000 Color Contrast Metric', 
-  main = 'Actual vs. Predicted Dry Colors', 
+  main = 'Actual vs. Predicted Dry Colors (OLS)', 
   panel = function(...) {
     panel.grid(-1, -1)
     panel.histogram(...)
   })
+
+
+
+print(p1, more = TRUE, split = c(1, 1, 1, 2))
+print(p2, more = FALSE, split = c(1, 2, 1, 2))
+
+
 
 
 
