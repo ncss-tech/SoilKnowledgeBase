@@ -5,6 +5,9 @@ library(sharpshootR)
 library(rms)
 library(farver)
 library(visreg)
+library(e1071)
+library(lattice)
+library(tactile)
 
 ## dE00 observed vs. predicted
 ##
@@ -21,6 +24,8 @@ library(visreg)
 # 0.000000  0.000000  0.000000  3.931853  9.359900 11.318566 61.923273
 # 
 
+# use aqp's LUT to set plausible limits on Munsell value
+data("munsell")
 
 # from OSDs
 d <- read.csv('parsed-data.csv.gz', stringsAsFactors=FALSE)
@@ -59,9 +64,17 @@ plot(Predict(m.chroma.moist))
 anova(m.value.moist)
 anova(m.chroma.moist)
 
-## finish this
-# plot(summary(m.value.moist, dry_value=c(3,4), dry_chroma=c(3,4)))
-# plot(summary(m.value.dry, moist_value=c(3,4)))
+# predict dry ~ moist
+plot(summary(m.value.dry, moist_value = 3:4, moist_chroma = 3:4))
+plot(summary(m.chroma.dry, moist_value = 3:4, moist_chroma = 3:4))
+
+# predict moist ~ dry
+plot(summary(m.value.moist, dry_value = 3:4, dry_chroma = 3:4))
+plot(summary(m.chroma.moist, dry_value = 3:4, dry_chroma = 3:4))
+
+
+
+
 
 # 
 ## partial effects via visreg: not all that interesting
@@ -147,6 +160,57 @@ dev.off()
 
 
 
+##
+## eval via dE00
+##
+
+# small set
+idx <- sample(1:nrow(z), size = 10, replace = FALSE)
+
+# limited rounding for display purposes
+m1 <- sprintf("%s %s/%s", z$moist_hue[idx], z$moist_value[idx], z$moist_chroma[idx])
+m2 <- sprintf("%s %s/%s", z$moist_hue[idx], round(z$pp.value.moist[idx], 2), round(z$pp.chroma.moist[idx]))
+
+colorContrastPlot(m1, m2, labels = c('source', 'estimate'), col.cex = 0.75)
+
+
+# all rows
+m1 <- sprintf("%s %s/%s", z$moist_hue, z$moist_value, z$moist_chroma)
+m2 <- sprintf("%s %s/%s", z$moist_hue, round(z$pp.value.moist, 2), round(z$pp.chroma.moist))
+cc.moist <- colorContrast(m1, m2)
+
+m1 <- sprintf("%s %s/%s", z$dry_hue, z$dry_value, z$dry_chroma)
+m2 <- sprintf("%s %s/%s", z$dry_hue, round(z$pp.value.dry, 2), round(z$pp.chroma.dry))
+cc.dry <- colorContrast(m1, m2)
+
+prop.table(table(cc.moist$dE00 == 0))
+prop.table(table(cc.dry$dE00 == 0))
+
+histogram(
+  cc.moist$dE00, 
+  breaks = 50, 
+  par.settings = tactile.theme(), 
+  scales = list(x = list(tick.number = 16)), 
+  xlab = 'CIE2000 Color Contrast Metric', 
+  main = 'Actual vs. Predicted Moist Colors', 
+  panel = function(...) {
+    panel.grid(-1, -1)
+    panel.histogram(...)
+  })
+
+histogram(
+  cc.dry$dE00, 
+  breaks = 50, 
+  par.settings = tactile.theme(), 
+  scales = list(x = list(tick.number = 16)), 
+  xlab = 'CIE2000 Color Contrast Metric', 
+  main = 'Actual vs. Predicted Dry Colors', 
+  panel = function(...) {
+    panel.grid(-1, -1)
+    panel.histogram(...)
+  })
+
+
 
 
 ## make a copy of some of the data,  
@@ -176,44 +240,50 @@ d$moist_hue[which(is.na(d$moist_hue))] <- d$dry_hue[which(is.na(d$moist_hue))]
 d$dry_hue[which(is.na(d$dry_hue))] <- d$moist_hue[which(is.na(d$dry_hue))]
 
 
-## TODO: should not round, should locate closest chip--could be 2.5 value
 
-## from aqp::getClosestMunsell()
+## Munsell value requires special consideration due to 2.5 chips
 
-# # valid value / chroma in our LUT
-# valid.value <- unique(munsell$value)
-# valid.chroma <- unique(munsell$chroma)
-# 
-# # treat as numeric
-# cd$value <- as.numeric(cd$value)
-# cd$chroma <- as.numeric(cd$chroma)
-# 
-# # locate closest value / chroma
-# closest.value <- vector(mode = 'numeric', length = nrow(cd))
-# closest.chroma <- vector(mode = 'numeric', length = nrow(cd))
-# for(i in 1:nrow(cd)) {
-#   # search for closest value
-#   idx <- which.min(abs(cd$value[i] - valid.value))
-#   closest.value[i] <- valid.value[idx]
-#   
-#   # search for closest chroma
-#   idx <- which.min(abs(cd$chroma[i] - valid.chroma))
-#   closest.chroma[i] <- valid.chroma[idx]
-# }
-# 
-# # convert values and chroma < 1 -> 1
-# closest.value <- ifelse(closest.value < 1, 1, closest.value)
-# closest.chroma <- ifelse(closest.chroma < 1, 1, closest.chroma)
+# valid value / chroma in our LUT
+valid.value <- unique(munsell$value)
 
+# place to store closest values
+closest.value.moist <- vector(mode = 'numeric', length = nrow(d))
+closest.value.dry <- vector(mode = 'numeric', length = nrow(d))
 
+# predictions for all rows
+p.m.value.moist <- predict(m.value.moist, d)
+p.m.value.dry <- predict(m.value.dry, d)
+
+# select closest values, safely accounting for NA
+for(i in 1:nrow(d)) {
+  
+  # search for closest moist value
+  if(is.na(p.m.value.moist[i])) {
+    closest.value.moist[i] <- NA
+  } else {
+    idx <- which.min(abs(p.m.value.moist[i] - valid.value))
+    closest.value.moist[i] <- valid.value[idx]
+  }
+
+  # search for closest dry value
+  if(is.na(p.m.value.dry[i])) {
+    closest.value.dry[i] <- NA
+  } else {
+    idx <- which.min(abs(p.m.value.dry[i] - valid.value))
+    closest.value.dry[i] <- valid.value[idx]
+  }
+  
+}
+
+# make replacements when missing
 
 # moist value
 idx <- which(is.na(d$moist_value))
-d$moist_value[idx] <- round(predict(m.value.moist, d[idx, ]))
+d$moist_value[idx] <- closest.value.moist[idx]
 
 # dry value
 idx <- which(is.na(d$dry_value))
-d$dry_value[idx] <- round(predict(m.value.dry, d[idx, ]))
+d$dry_value[idx] <- closest.value.dry[idx]
 
 
 ## 
@@ -232,6 +302,42 @@ d$dry_chroma[idx] <- round(predict(m.chroma.dry, d[idx, ]))
 # estimated proportions
 prop.table(table(d$dry_color_estimated))
 prop.table(table(d$moist_color_estimated))
+
+
+
+##
+## eval accuracy
+##
+head(d)
+
+
+tab <- table(source = d$moist_value[!d$moist_color_estimated], estimated = closest.value.moist[!d$moist_color_estimated])
+
+classAgreement(tab, match.names = TRUE)
+
+round(
+  prop.table(
+    tab
+    , margin = 1
+  )
+, 2
+)
+
+
+tab <- table(source = d$dry_value[!d$dry_color_estimated], estimated = closest.value.dry[!d$dry_color_estimated])
+
+classAgreement(tab, match.names = TRUE)
+
+round(
+  prop.table(
+    tab
+    , margin = 1
+  )
+  , 2
+)
+
+
+
 
 
 ## filling missing O horizon colors requires fixing 0->O OCR errors
@@ -292,7 +398,7 @@ d$dry_chroma[idx] <- 2
 
 # Oi / moist
 idx <- which(grepl('Oi', d$name) & is.na(d$moist_hue))
-d$moist_hue[idx] <- '7.5YR'
+d$moist_hue[idx] <- '5YR'
 d$moist_value[idx] <- 2
 d$moist_chroma[idx] <- 2
 
@@ -306,11 +412,11 @@ d$dry_chroma[idx] <- 2
 idx <- which(grepl('Oe', d$name) & is.na(d$moist_hue))
 d$moist_hue[idx] <- '7.5YR'
 d$moist_value[idx] <- 2
-d$moist_chroma[idx] <- 2
+d$moist_chroma[idx] <- 1
 
 # Oa / dry
 idx <- which(grepl('Oa', d$name) & is.na(d$dry_hue))
-d$dry_hue[idx] <- '5YR'
+d$dry_hue[idx] <- '7.5YR'
 d$dry_value[idx] <- 4
 d$dry_chroma[idx] <- 1
 
@@ -400,8 +506,8 @@ png(file='figures/original-vs-filled-swatch.png', width=700, height=400, res=90)
 
 colorspace::swatchplot(
   'dry missing'=x.original$dry_soil_color,
-  'moist missing'=x.original$moist_soil_color,
   'dry filled'=x$dry_soil_color,
+  'moist missing'=x.original$moist_soil_color,
   'moist filled'=x$moist_soil_color
 )
 
@@ -417,7 +523,7 @@ write.csv(d, file=gzfile('parsed-data-est-colors.csv.gz'), row.names=FALSE)
 
 
 
-
+## eval accuracy
 
 
 
