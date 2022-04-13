@@ -1,5 +1,6 @@
 ##
 ## TODO: is this approach as accurate as 4x OLS models with RCS terms? 
+##  ---> likely more accurate
 ##
  
 
@@ -52,7 +53,7 @@ histogram(
   par.settings = tactile.theme(), 
   scales = list(x = list(tick.number = 16)), 
   xlab = 'CIE2000 Color Contrast Metric', 
-  main = 'Perceptual Differences\nMoist / Dry Soil Colors', 
+  main = 'Perceptual Differences: Moist / Dry Soil Colors', 
   sub = 'Official Series Descriptions, ~78k horizons',
   panel = function(...) {
     panel.grid(-1, -1)
@@ -94,9 +95,24 @@ keep.idx <- which(z$dE00.o < 30)
 d2m <- procrustes(X = z[keep.idx, moist.vars], Y = z[keep.idx, dry.vars], scale = TRUE)
 m2d <- procrustes(X = z[keep.idx, dry.vars], Y = z[keep.idx, moist.vars], scale = TRUE)
 
-## save to ...??
+## optionally save
 
 
+# export for aqp::estimateSoilColor()
+
+
+
+dput(d2m$scale)
+dput(d2m$rotation)
+dput(d2m$translation)
+
+dput(m2d$scale)
+dput(m2d$rotation)
+dput(m2d$translation)
+
+
+
+# eval
 summary(d2m)
 summary(m2d)
 
@@ -113,9 +129,11 @@ head(z[r > 30, ])
 
 ## predictions
 p.d2m <- predict(d2m, z[, dry.vars])
+p.m2d <- predict(m2d, z[, moist.vars])
 
 head(z)
 head(p.d2m)
+head(p.m2d)
 
 
 ## manual predictions
@@ -128,16 +146,55 @@ all.equal(Y, p.d2m)
 
 
 ## evaluate predictions
-z$dE00.f <- NA
+
+## TODO: generalize to moist + dry
+
+
+z$dE00.moist <- NA
+z$dE00.dry <- NA
+
 for(i in 1:nrow(z)) {
-  z$dE00.f[i] <- compare_colour(from = z[i, 4:6], to = rbind(p.d2m[i, ]), from_space = 'lab', to_space = 'lab', white_from = 'd65', white_to = 'd65', method = 'CIE2000')
+  z$dE00.moist[i] <- compare_colour(from = z[i, moist.vars], to = rbind(p.d2m[i, ]), from_space = 'lab', to_space = 'lab', white_from = 'd65', white_to = 'd65', method = 'CIE2000')
+  
+  z$dE00.dry[i] <- compare_colour(from = z[i, dry.vars], to = rbind(p.m2d[i, ]), from_space = 'lab', to_space = 'lab', white_from = 'd65', white_to = 'd65', method = 'CIE2000')
   }
 
-hist(z$dE00.f, las = 1)
 
-quantile(z$dE00.f / z$dE00.o)
+quantile(z$dE00.moist / z$dE00.o)
+boxplot(list(source = z$dE00.o[keep.idx], estimate = z$dE00.moist[keep.idx]), horizontal = TRUE, xlab = 'dE00')
 
-boxplot(list(source = z$dE00.o[keep.idx], estimate = z$dE00.f[keep.idx]), horizontal = TRUE, xlab = 'dE00')
+p1 <- histogram(
+  z$dE00.moist[z$dE00.moist < 30], 
+  breaks = 50, 
+  xlim = c(-1, 31),
+  par.settings = tactile.theme(), 
+  scales = list(x = list(tick.number = 16)), 
+  xlab = 'CIE2000 Color Contrast Metric', 
+  main = 'Actual vs. Predicted Moist Colors', 
+  panel = function(...) {
+    panel.grid(-1, -1)
+    panel.histogram(...)
+  })
+
+
+p2 <- histogram(
+  z$dE00.dry[z$dE00.dry < 30], 
+  breaks = 50, 
+  xlim = c(-1, 31),
+  par.settings = tactile.theme(), 
+  scales = list(x = list(tick.number = 16)), 
+  xlab = 'CIE2000 Color Contrast Metric', 
+  main = 'Actual vs. Predicted Dry Colors', 
+  panel = function(...) {
+    panel.grid(-1, -1)
+    panel.histogram(...)
+  })
+
+
+
+print(p1, more = TRUE, split = c(1, 1, 1, 2))
+print(p2, more = FALSE, split = c(1, 2, 1, 2))
+
 
 
 # chip accuracy
