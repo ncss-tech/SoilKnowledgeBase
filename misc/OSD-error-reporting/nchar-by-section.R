@@ -12,7 +12,7 @@ sc <- get_soilseries_from_NASIS()
 
 # load all OSDs
 # ~ 6 minutes from local files
-osds <- pblapply(sc$soilseriesname[500:550], FUN = get_OSD, base_url = 'E:/working_copies/SoilKnowledgeBase/inst/extdata/OSD/')
+osds <- pblapply(sc$soilseriesname, FUN = get_OSD, base_url = 'E:/working_copies/SoilKnowledgeBase/inst/extdata/OSD/')
 
 
 sectionCharacterCount <- function(i) {
@@ -45,10 +45,15 @@ z <- melt(section.char.count)
 z$variable <- factor(z$variable, levels = rev(levels(z$variable)))
 
 
+tps <- tactile.theme(
+  box.rectangle = list(fill = '#A1CBEEFF'),
+  plot.symbol = list(cex = 0.66)
+)
+
 bwplot(
   variable ~ value, 
   data = z, 
-  par.settings = tactile.theme(box.rectangle = list(fill = '#A1CBEEFF')),
+  par.settings = tps,
   scales = list(x = list(tick.number = 10, log = 10, alternating = 3)),
   xscale.components = xscale.components.log10.3,
   xlab = 'Number of Characters in Section',
@@ -64,7 +69,7 @@ bwplot(
 tapply(z$value, z$variable, quantile, probs = c(0.05, 0.5, 0.95))
 
 knitr::kable(
-tapply(z$value, z$variable, max)
+tapply(z$value, z$variable, max), format = 'simple'
 )
 
 
