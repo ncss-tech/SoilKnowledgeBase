@@ -6,44 +6,45 @@
 #' @return TRUE if successful
 #' @export
 create_NSSH <- function(...) {
-#  outpath = "./inst/extdata"
-#  logfile = file.path(outpath, "NSSH/NSSH.log")
+ outpath = "./inst/extdata"
+ logfile = file.path(outpath, "NSSH/NSSH.log")
 
-#  logmsg(logfile, "Processing NSSH from eDirectives...")
+ logmsg(logfile, "Processing NSSH from eDirectives...")
 
   # run inst/scripts/NSSH
 
-#  dat <- parse_nssh_index(logfile = logfile, ...)
-#  attempt <- try(for (p in unique(dat$part)) {
+   dat <- parse_nssh_index(logfile = logfile, ...)
+   attempt <- try(for (p in unique(dat$part)) {
 
-#    hed <- parse_nssh_part(dat$part, dat$subpart, outpath = outpath, logfile = logfile)
+   hed <- parse_nssh_part(dat$part, dat$subpart, outpath = outpath, logfile = logfile)
 
-#    if (!is.null(hed)) {
-
+   if (!is.null(hed)) {
       # create the JSON clause products for each NSSH part/subpart .txt
-#      dspt <- split(dat, 1:nrow(dat))
-#      lapply(dspt, function(dd) parse_NSSH(logfile = logfile,
-#                                           outpath = outpath,
-#                                           a_part = dd$part,
-#                                           a_subpart = dd$subpart))
+      dspt <- split(dat, 1:nrow(dat))
+      lapply(dspt, function(dd)
+        parse_NSSH(
+          logfile = logfile,
+          outpath = outpath,
+          a_part = dd$part,
+          a_subpart = dd$subpart
+        ))
       # Optional: special scripts (by NSSH Part #) can be called from inst/scripts/NSSH
-      # rpath <- list.files(paste0("inst/scripts/NSSH/", p), ".*.R", full.names = TRUE)
+      rpath <- list.files(paste0("inst/scripts/NSSH/", p), ".*.R", full.names = TRUE)
       # # find each .R file (one or more for each part) and source them
-      # lapply(rpath, function(filepath) {
-      #   if (file.exists(filepath))
-      #     source(filepath)
-      # })
-
-  #   }
-  # })
+      lapply(rpath, function(filepath) {
+        if (file.exists(filepath))
+          source(filepath)
+      })
+    }
+  })
 
   # call processing methods built into package
-#  try(process_NSSH_629A(outpath = outpath) )
+  try(process_NSSH_629A(outpath = outpath) )
 
-#  if (inherits(attempt, 'try-error'))
-#    return(FALSE)
+  if (inherits(attempt, 'try-error'))
+    return(FALSE)
 
-#  logmsg(logfile, "Done!")
+  logmsg(logfile, "Done!")
   return(TRUE)
 }
 
@@ -63,16 +64,16 @@ create_NSSH <- function(...) {
 #' @details Hardcoded with \code{ignore.headers = "Part 615 – Amendments To Soil Taxonomy"}; TODO: set this to NULL when webpage is updated. Default URL: https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/ref/?cid=nrcs142p2_054240
 #'
 #' @return A data.frame object containing link, part and section information for the NSSH. A directory "inst/extdata/NSSH" is created in \code{outpath} (Default: "./inst/extdata/NSSH/") with a numeric subfolder for each part in the NSSH.
-#' @importFrom dplyr bind_rows
-#' @importFrom magrittr %>%
+#' @importFrom data.table data.table
 #' @importFrom rvest html_node html_nodes html_text
 #' @importFrom xml2 read_html xml_attr
 #' @importFrom utils write.csv download.file
 #' @importFrom stats aggregate
+#' @importFrom pdftools pdf_text
 parse_nssh_index <- function(
   logfile = file.path(outpath, "NSSH/NSSH.log"),
   nssh_url = NULL,
-  ignore.headers = "Amendments To Soil Taxonomy",
+  ignore.headers = NULL,
   outpath = "./inst/extdata",
   download_pdf = "ifneeded",
   output_types = c("txt","html"),
@@ -80,117 +81,119 @@ parse_nssh_index <- function(
   ...
 ) {
   if (is.null(nssh_url))
-    nssh_url <- "https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/ref/?cid=nrcs142p2_054240"
+    nssh_url <- "https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/soils/ref/?cid=nrcs142p2_054242"
 
   ## NSSH Table of Contents
 
   html <- xml2::read_html(nssh_url)
 
-  # header level 2 are the sections
-  the_sections <- html %>%
-                   rvest::html_nodes('h2') %>%
-                   rvest::html_text()
-
-  suppressWarnings({
-    start_part <- as.numeric(gsub("Parts (\\d{3}) to (\\d{3}).*", "\\1", the_sections))
-    end_part <- as.numeric(gsub("Parts (\\d{3}) to (\\d{3}).*", "\\2", the_sections))
+  edi <-  data.frame(
+    url = rvest::html_attr(rvest::html_nodes(html, 'a'), 'href'),
+    txt = rvest::html_text(rvest::html_nodes(html, 'a'))
+  )
+  edi <- edi[grepl("directives", edi$url) & !grepl("Amendments", edi$txt), ]
+  
+  edi$url <- gsub(
+      "http:",
+      "https:",
+      gsub("viewerFS.aspx?", "viewDirective.aspx?", edi$url, fixed = TRUE),
+      fixed = TRUE)
+  
+  html2 <- lapply(edi$url, xml2::read_html)
+  
+  res0 <- do.call('rbind', lapply(seq_along(edi$url), function(i) {
+    p <- rvest::html_nodes(html2[[i]], 'p')
+  
+    data.frame(
+      url = rvest::html_attr(rvest::html_nodes(p, 'a'), 'href'),
+      txt = rvest::html_text(rvest::html_nodes(p, 'a'))
+    )
+  }))
+  
+  res1 <- res0[complete.cases(res0),]
+  
+  pdfs <- lapply(res1$url, function(x) {
+    dfile <- file.path(tempdir(), paste0(basename(x), ".pdf"))
+    f <- download.file(
+      paste0("https://directives.sc.egov.usda.gov/OpenNonWebContent.aspx?content=", x),
+      dfile,
+      mode = "wb"
+    )
+    if (f == 0)
+      return(dfile)
+    NA_character_
+  })
+  
+  txts <- lapply(lapply(lapply(pdfs, function(x) try(pdftools::pdf_text(x))), paste0, collapse = "\n"), function(x) strsplit(x, "\n")[[1]])
+  
+  # TODO: bad pdf format
+  # cmb <-  try(pdftools::pdf_combine(paste0("https://directives.sc.egov.usda.gov/", res$url),
+  #                                   output = "test.pdf"))
+  # unlink(as.character(pdfs))
+  
+  toc <- gsub("\\u2013", "-", txts[[1]])
+  section <- toc[grep("^Parts", toc)]
+  
+  .section_to_parts <- function(x) {
+    y <- do.call('rbind', lapply(x, function(z) {
+      lh <- as.data.frame(do.call('rbind', 
+                                  strsplit(gsub("Parts (\\d+) to (\\d+) \u2013 (.*)", 
+                                                "\\1;\\2;\\3", z), ";"))
+                          )
+    }))
+    do.call('rbind', lapply(seq_len(nrow(y)), function(i) {
+      data.frame(Part = y$V1[i]:y$V2[i], Section = y$V3[i])
+    }))
+  }
+  stp <- .section_to_parts(section)
+  
+  header <- lapply(txts, function(x) {
+    y <- trimws(x)
+    head(y[y != ""], 3)
+  })
+  
+  longnames <- sapply(header, function(x) {
+    if (length(x) > 1) {
+      y <- x[2:length(x)]
+      paste(y[grepl("Part|Subpart", y)], collapse = ", ")
+    } else return(NA)
   })
 
-  # combine and remove first row
-  the_sections <- data.frame(section = the_sections, start = start_part, end = end_part)[-1,]
-
-  # header level 3 are "parts" e.g. part 618, 629
-  the_parts <- html %>%
-    html_nodes('h3') %>%
-    html_text()
-
-  # skip "Quick Links" section at top
-  the_parts <- the_parts[2:length(the_parts)]
-
-  # this is currently a header with no links
-  if (!is.null(ignore.headers)) {
-    for (h in ignore.headers) {
-      a <- grep(h, the_parts)
-      if (length(a))
-        the_parts <- the_parts[-a]
-    }
-  }
-
-  ulnodes <- html %>%
-    html_nodes('ul')
-
-  # find the links to eDirectives
-  linknodes <- which(grepl('\\.wba', ulnodes %>% html_node('a') %>% xml_attr('href')))
-
-  # this is the link to part 655; last link, as expected
-  ulnodes[linknodes[length(linknodes)]]
-
-  # inspect (should be part 600)
-  ulnodes[linknodes[1]] %>%
-    html_nodes('a') %>%
-    bind_xml_nodeset()
-
-  res <- lapply(seq_along(linknodes), function(i) {
-
-   current_links <- ulnodes[linknodes[i]] %>%
-      html_nodes('a') %>%
-      bind_xml_nodeset()
-
-   parent_index <- which(linknodes == linknodes[i])
-
-   current_links$parent <- the_parts[parent_index]
-
-   return(current_links)
-
-  }) %>% bind_rows()
-
-  res$part_number <- as.numeric(gsub("Part (\\d+).*", "\\1", res$parent))
-
-  res$section <- as.character(lapply(split(res, 1:nrow(res)), function(x) {
-     return(the_sections[x$part_number >= the_sections$start & x$part_number <= the_sections$end, 'section'])
-    }))
-
-  # cleanup
-  res$target <- NULL
-  res$part <- res$part_number
-  res$part_number <- NULL
-  res$subpart <- do.call('c', aggregate(res$part, by = list(res$part),
-                                        FUN = function(x) LETTERS[1:2][1:length(x)])$x)
-
-  res$parent <- gsub("Part \\d+ . (.*)", "\\1", res$parent)
-  res$section <- gsub("Parts \\d+ to \\d+ . (.*)", "\\1", res$section)
-
-  # create directory structure and download PDFs
-  lapply(unique(res$part), function(x) {
-      dp <-  file.path(outpath, "NSSH", x)
-      if (!dir.exists(dp))
-        dir.create(dp, recursive = TRUE)
-      parts <- subset(res, res$part == x)
-      lapply(split(parts, 1:nrow(parts)), function(y) {
-         pat <- file.path(outpath, "NSSH", x, sprintf("%s%s.pdf", y$part, y$subpart))
-         dfile <- download_pdf
-         if (dfile == "ifneeded")
-           dfile <- !file.exists(pat)
-         if (dfile)
-           download.file(y$href, destfile = pat)
-         if (file.exists(pat)) {
-           logmsg(logfile, "Processing %s", pat)
-          if ("txt" %in% output_types)
-            system(sprintf("pdftotext -raw -nodiag %s", pat))
-          if ("html" %in% output_types)
-            system(sprintf("pdftohtml %s", pat))
-         }
-         if (!keep_pdf)
-          system(sprintf("rm %s", pat))
-        })
+  dln <- data.frame(longname = longnames, 
+                    url = paste0("https://directives.sc.egov.usda.gov/", res1$url), 
+                    part = trimws(res1$txt))
+  dln$Part <- as.numeric(gsub("Part (\\d+) .*|(.*)", "\\1", dln$longname))
+  dln$Subpart <- gsub(".*, Subpart ([AB]).*|(.*)", "\\1", dln$longname)
+  dln$Content <- I(txts)
+  
+  res2 <- merge(data.table::data.table(stp), data.table::data.table(dln), by = "Part", sort = FALSE, all.x = TRUE)
+  res3 <- res2[complete.cases(res2[, .SD, .SDcols = colnames(res2) != "Content"]), ]
+  
+  res4 <- data.frame(
+    href = res3$url,
+    parent = trimws(gsub("Part \\d+ \u2013 ([^\u2013]*) ?.*", "\\1", res3$longname)),
+    section = res3$Section,
+    part = res3$Part,
+    subpart = res3$Subpart
+  )
+  
+  lapply(unique(res3$Part), function(x) {
+    dp <- file.path(outpath, "NSSH", x)
+    if (!dir.exists(dp))
+      dir.create(dp, recursive = TRUE)
+    parts <- subset(res3, res3$Part == x)
+    lapply(split(parts, 1:nrow(parts)), function(y) {
+      xx <- strip_lines(clean_chars(y$Content[[1]]))
+      writeLines(stringi::stri_escape_unicode(xx), file.path(outpath, "NSSH", x, sprintf("%s%s.txt", y$Part, y$Subpart)))
     })
-
+  })
+  
   indexout <- file.path(outpath, "NSSH", "index.csv")
+
+  write.csv(res4, file = indexout)
+
   logmsg(logfile, "Wrote NSSH index to %s", indexout)
-
-  write.csv(res, file = indexout)
-
-  return(res)
+  return(res4)
 }
 
 #' Parse headers and line positions by NSSH Part and Subpart
@@ -219,7 +222,7 @@ parse_nssh_part <- function(number, subpart,
                                     if (!file.exists(f))
                                       return(NULL)
 
-                                    L <- suppressWarnings(readLines(f, warn = FALSE))
+                                    L <- readLines(f)
 
                                     idx <- grep("^\\d{3}\\.\\d+ [A-Z]", L)
 
@@ -256,21 +259,30 @@ parse_NSSH <- function(logfile = file.path(outpath, "NSSH/NSSH.log"),
 
   raw_txt <- sprintf(file.path(outpath, "NSSH/%s/%s%s.txt"), a_part, a_part, a_subpart)
   stopifnot(file.exists(raw_txt))
-  raw <- suppressWarnings(readLines(raw_txt))
+  raw <- suppressWarnings(readLines(raw_txt, encoding = "UTF-8"))
 
   headers <- get_assets('NSSH','headers')[[1]]
   headers <- subset(headers, headers$part == a_part &
                              headers$subpart == a_subpart)
 
-  sect.idx <- c(1, headers$line, length(raw))
+  sect.idx <- c(1, headers$line - 1, length(raw))
   llag  <- sect.idx[1:(length(sect.idx - 1))]
   llead <- sect.idx[2:(length(sect.idx))]
 
   hsections <- lapply(1:(nrow(headers) + 1), function(i) {
-    fix_line_breaks(strip_lines(clean_chars(raw[llag[i]:(llead[i] - 1)])))
+    if (i != 1) {
+      llag[i] <- llag[i] + 1
+    }
+    res <- fix_line_breaks(strip_lines(clean_chars(raw[llag[i]:llead[i]])))
+    if (i == 1) {
+      res$headerid <- 1
+      res$header = "Front Matter"
+    }
+    res
   })
 
   names(hsections) <- c("frontmatter", gsub("^(\\d+\\.\\d+) .*", "\\1", headers$header))
+  
   res <- convert_to_json(hsections)
   write(res, file = sprintf(file.path(outpath, "NSSH/%s/%s%s.json"),
                                       a_part, a_part, a_subpart))
@@ -312,19 +324,24 @@ fix_line_breaks <- function(x) {
 
 # remove material associated with page breaks and footnotes
 strip_lines <- function(x) {
-  idx <- grep("\\fTitle 430 .* National Soil Survey Handbook|\\(430-6\\d{2}-., 1st|Ed\\., Amend\\.|6\\d{2}-[AB].\\d+|^Subpart [AB] ", x)
+  idx <- grep("\\fTitle 430 .* National Soil Survey Handbook|\\(430-6\\d{2}-., 1st|Ed\\., Amend\\.|6\\d{2}-[AB].\\d+", x)
   idx.fn <- grep("-------------", x)
   if (length(idx.fn))
     x <- x[1:(idx.fn[1] - 1)]
   if (length(idx) > 0)
     return(x[-idx])
+  x <- x[nchar(trimws(x)) > 0]
   return(x)
 }
 
-# TODO: placeholder; better fixing of unicode stuff
+# fixing of unicode stuff, then convert to ascii
 clean_chars <- function(x) {
-  x <- gsub("\u00E2\u20AC\u201D",' ', x)
-  return(x)
+  x <- gsub("\u2013|\u2014|\uf0b7|\u001a|\u2022", '-', x)
+  x <- gsub("Title 430 - National Soil Survey Handbook", "", x)
+  x <- gsub("\u2019", "'", x)
+  x <- gsub("\u201c|\u201d", '"', x)
+  x <- x[nchar(trimws(x)) > 0]
+  return(trimws(x))
 }
 
 
