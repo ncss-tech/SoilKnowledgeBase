@@ -1,51 +1,45 @@
-Title 430 – National Soil Survey Handbook
-(430-648-H, 1st Ed., Amend. 26, June 2018)
-648-B.1
-Part 648 – Digital Soil Mapping – Raster Products
-Subpart B – Exhibits
+Part 648 - Digital Soil Mapping - Raster Products
+Subpart B - Exhibits
 648.10 Glossary
-A. accuracy.—The difference between the predicted value at a location and the measured or observed
+A. accuracy.-The difference between the predicted value at a location and the measured or observed
 value at the same location. For overall accuracy, this is the proportion of correctly allocated instances
 to the most probable class.
-B. class (soil).—Discrete representation of soil information based on a range of shared values or
+B. class (soil).-Discrete representation of soil information based on a range of shared values or
 attributes (i.e., environmental, spectral, SSURGO, lab, etc.)
-C. continuous raster.—A type of raster used to communicate information on a topic that varies
+C. continuous raster.-A type of raster used to communicate information on a topic that varies
 progressively across a surface for phenomena that have no distinct borders such as temperature,
 precipitation, or elevation.
-D. geostatistics.—A range of statistical techniques for modeling spatial patterns as a function of
+D. geostatistics.-A range of statistical techniques for modeling spatial patterns as a function of
 distance to adjacent observations.
-E. ISODATA.—Iterative Self Organizing Data Analysis Technique; a variation on k-mean clustering
-F. k-means clustering.—An iterative process that creates class clusters in data and classifies pixels
+E. ISODATA.-Iterative Self Organizing Data Analysis Technique; a variation on k-mean clustering
+F. k-means clustering.-An iterative process that creates class clusters in data and classifies pixels
 until the change of class assignment at each pixel location is small and final classes are defined
-G. knowledge-based classification.—Prediction methods that use an expert’s knowledge as rules and
+G. knowledge-based classification.-Prediction methods that use an expert\'s knowledge as rules and
 data within an inference engine to predict target classes.
-H. mapunit key.—Often represented in its shorthand notation, mukey, this value comes from the
+H. mapunit key.-Often represented in its shorthand notation, mukey, this value comes from the
 NASIS legend map unit id column and relates a map unit to its legend and a component to its map
 unit.
-I. pixel.—The smallest unit of information represented in a raster, typically square. Alternatively
+I. pixel.-The smallest unit of information represented in a raster, typically square. Alternatively
 referred to as a grid cell.
-J. prediction interval.—A measure which reports the range of values within which the true value is
+J. prediction interval.-A measure which reports the range of values within which the true value is
 likely to occur (e.g., a 90-percent prediction interval indicates the range in values in which a new
 measurement will be found 9 times out of 10).
-K. predictive modeling.—The process of developing a mathematical model that approximates the
+K. predictive modeling.-The process of developing a mathematical model that approximates the
 true relationship between soil classes or properties and environmental covariates to produce and
 accurate prediction (e.g., tree-based models, regression)
-L. raster.—A regular grid or array of cells covering a spatial area. A raster is often viewed as
+L. raster.-A regular grid or array of cells covering a spatial area. A raster is often viewed as
 consisting of rows and columns of grid cells.
-M. supervised classification.—Prediction methods that require soil observations (training data)
+M. supervised classification.-Prediction methods that require soil observations (training data)
 covering the area of interest and the target classes. Class definitions from training data are combined
 with carefully selected environmental data, and the applied algorithm assigns a class to each pixel.
-N. uncertainty.—For continuous data types, the prediction interval is used to communicate a range of
+N. uncertainty.-For continuous data types, the prediction interval is used to communicate a range of
 values within which the true value at any prediction location is expected. For example, a 90-percent
 prediction interval is often used and indicates the range of values in which a new measurement is
 likely to occur 9 times out of 10 (or 90 percent of the time).
-Title 430 – National Soil Survey Handbook
-(430-648-H, 1st Ed., Amend. 26, June 2018)
-648-B.2
 For categorical data types (class data), a numerical value conveying confidence for the predicted
 outcome. An increase in the number of potential outcomes indicates a higher degree of
 uncertainty present within the model
-O. unsupervised classification.—Exploratory methods most reliant on computer automation and the
+O. unsupervised classification.-Exploratory methods most reliant on computer automation and the
 only method that does not require soil observations (training data) covering the area of interest. The
 algorithm uncovers statistical patterns inherent in the data and groups pixels with similar
 characteristics into unique clusters (classes) based on statistically determined criteria.
@@ -69,29 +63,26 @@ b. Select appropriate predictors
 a. Case-based and a priori samples
 b. Field samples
 Review and assess:
-• Do the data layers represent the important environmental covariates?
-o Yes—proceed to Stage 6
-o No—return to Stages 2, 3, and 4
-• Are the training data adequate to predict the classes or properties of interest?
-o Yes—proceed to Stage 6
-o No—return to Stage 5
+- Do the data layers represent the important environmental covariates?
+o Yes-proceed to Stage 6
+o No-return to Stages 2, 3, and 4
+- Are the training data adequate to predict the classes or properties of interest?
+o Yes-proceed to Stage 6
+o No-return to Stage 5
 6. Predict soil classes or properties
 a. Choose and apply appropriate prediction method
-i. Soil classes – unsupervised or supervised classification, predictive modeling
-ii. Soil properties – predictive modeling, geostatistics
+i. Soil classes - unsupervised or supervised classification, predictive modeling
+ii. Soil properties - predictive modeling, geostatistics
 Review and assess:
-• Are the prediction results reasonable?
-o Yes—proceed to Stage 7
-o No—apply a different prediction method, combination of predictors, or set of
-training data—return to Stages 4, 5, and 6
+- Are the prediction results reasonable?
+o Yes-proceed to Stage 7
+o No-apply a different prediction method, combination of predictors, or set of
+training data-return to Stages 4, 5, and 6
 7. Calculate accuracy and uncertainty of results
 Review and assess:
-• Are accuracy and uncertainty results acceptable?
-Title 430 – National Soil Survey Handbook
-(430-648-H, 1st Ed., Amend. 26, June 2018)
-648-B.3
-o Yes—proceed to Stage 8
-o No—revisit prediction method, predictors, and training data—return to Stages 4, 5
+- Are accuracy and uncertainty results acceptable?
+o Yes-proceed to Stage 8
+o No-revisit prediction method, predictors, and training data-return to Stages 4, 5
 and 6
 8. Apply digital soil mapping
 a. Produce soil class or property maps
@@ -99,6 +90,21 @@ b. Evaluate existing maps
 c. Create soil information products
 d. Apply to other disciplines
 648.12 Raster Soil Survey Areas
+1   AK000                16   HT000               31  MP000               46    PA000
+2   AL000                17   IA000               32  MS000               47    PR000
+3   AR000                18   ID000               33  MT000               48    PW000
+4   AS000                19   IL000               34  MX000               49    RI000
+5   AZ000                20   IN000               35  NC000               50    SC000
+6   CA000                21   KS000               36  ND000               51    SD000
+7   CO000                22   KY000               37  NE000               52    TN000
+8   CT000                23   LA000               38  NH000               53    TX000
+9   DC000                24   MA000               39  NJ000               54    UT000
+10    DE000                25   MD000               40  NM000               55    VA000
+11    FL000                26   ME000               41  NV000               56    VT000
+12    FM000                27   MH000               42  NY000               57    WA000
+13    GA000                28   MI000               43  OH000               58    WI000
+14    GU000                29   MN000               44  OK000               59    WV000
+15    HI000                30   MO000               45  OR000               60    WY000
 648.13 Metadata
 FGDC CSDGM example metadata
 <metadata>
@@ -118,24 +124,6 @@ methodologies and are updated annually to include work completed as Major Land R
 raster mapping projects by the NCSS. The classes in the map layer are related to attributes stored in the National
 Soil Information System relational database which include information for soil properties and interpretations in the
 raster class.</abstract>
-1 AK000 16 HT000 31 MP000 46 PA000
-2 AL000 17 IA000 32 MS000 47 PR000
-3 AR000 18 ID000 33 MT000 48 PW000
-4 AS000 19 IL000 34 MX000 49 RI000
-5 AZ000 20 IN000 35 NC000 50 SC000
-6 CA000 21 KS000 36 ND000 51 SD000
-7 CO000 22 KY000 37 NE000 52 TN000
-8 CT000 23 LA000 38 NH000 53 TX000
-9 DC000 24 MA000 39 NJ000 54 UT000
-10 DE000 25 MD000 40 NM000 55 VA000
-11 FL000 26 ME000 41 NV000 56 VT000
-12 FM000 27 MH000 42 NY000 57 WA000
-13 GA000 28 MI000 43 OH000 58 WI000
-14 GU000 29 MN000 44 OK000 59 WV000
-15 HI000 30 MO000 45 OR000 60 WY000
-Title 430 – National Soil Survey Handbook
-(430-648-H, 1st Ed., Amend. 26, June 2018)
-648-B.4
 <purpose>The FY2017 North Dakota Raster Soil Survey database was created for use in national, regional, and
 state-wide resource planning where soils information is a component. The dataset consists of soils information in
 raster and tabular format. The RaSS_ND000_2017 raster is aligned with other common layers, e.g., National Land
@@ -185,9 +173,6 @@ Elevation Dataset (NED).</purpose>
 <theme>
 <themekt>ISO 19115 Topic Categories</themekt>
 <themekey>farming</themekey>
-Title 430 – National Soil Survey Handbook
-(430-648-H, 1st Ed., Amend. 26, June 2018)
-648-B.5
 <themekey>environment</themekey>
 </theme>
 <place>
@@ -237,9 +222,6 @@ for obtaining the latest version of the data.</useconst>
 </cntaddr>
 <cntvoice>701 530 2021</cntvoice>
 <cntemail>wade.bott@nd.usda.gov</cntemail>
-Title 430 – National Soil Survey Handbook
-(430-648-H, 1st Ed., Amend. 26, June 2018)
-648-B.6
 </cntinfo>
 </ptcontac>
 <datacred>Soil Survey Staff. Soil Landuse Raster database for North Dakota. United States Department of
@@ -289,9 +271,6 @@ Agriculture, Natural Resources Conservation Service. Available online at http://
 <srcinfo>
 <srccite>
 <citeinfo>
-Title 430 – National Soil Survey Handbook
-(430-648-H, 1st Ed., Amend. 26, June 2018)
-648-B.7
 <title>Terrain Covariates</title>
 </citeinfo>
 </srccite>
@@ -332,7 +311,7 @@ map unit, landform, or ecological unit potentially involving soil catenas.
 Mapservice sponsored by the North Dakota Water Commission. The 1-meter digital elevation grid files were
 mosaicked using ESRI ArcGIS 10.3. The mosaicked product was then projected to USA Contiguous Albers Equal
 Area Conic USGS coordinate system NAD83 WKID: 102039. The mosaicked 1-meter digital elevation model was
-resampled to a 5-meter resolution digital elevation model using the ESRI ArcGIS 10.1 Spatial Analyst 'Aggregate'
+resampled to a 5-meter resolution digital elevation model using the ESRI ArcGIS 10.1 Spatial Analyst \'Aggregate\'
 function using the median aggregation technique.</procdesc>
 <procdate>20170101</procdate>
 </procstep>
@@ -341,10 +320,7 @@ function using the median aggregation technique.</procdesc>
 (MLRA 55A) was identified as a MLRA project area. The Souris Till Plain comprises of ground and stagnation
 moraines surrounding Glacial Lake Souris and till-floored lake plains within the margins of the glacial lake. In some
 process steps the project area was further stratified into two general physiographic areas: The break between the
-Title 430 – National Soil Survey Handbook
-(430-648-H, 1st Ed., Amend. 26, June 2018)
-648-B.8
-EPA Level IV "Glacial Lake Basins" Subsection 46c and the largest zone of "Northern Black Prairie - 46g", just west
+EPA Level IV \"Glacial Lake Basins\" Subsection 46c and the largest zone of \"Northern Black Prairie - 46g\", just west
 of the eastern leg of the Souris River in North Central North Dakota. These physiographic areas were used as the
 extent boundary for this project.
 Mapping was completed through the identification of 290 Training Points. Training points were used to support
@@ -393,9 +369,6 @@ Information System (NASIS) database was developed by NRCS soil scientists accord
 raster soil map units are linked to attributes in NASIS. An area-wide file geodatabase (ESRI) was created using
 ArcGIS 10.1 software to accommodate the spatial and tabular raster soil survey data. Relationship classes between
 tables were created in the geodatabase.
-Title 430 – National Soil Survey Handbook
-(430-648-H, 1st Ed., Amend. 26, June 2018)
-648-B.9
 Attribution is confirmed by display of the map data using geospatial and tabular software, in review selected
 attributes and spatial relationships. All attribute data conform to the attribute codes in the correlation document.
 A field based validation was also initiated through the project to establish spatial and attribute accuracy. Through
@@ -426,14 +399,14 @@ Tot 20 26 24 28 16 40 18 172
 *Observed on the X axis, Inferred on the Y axis
 Total Number of Samples:172
 ID Producer Accuracy User Accuracy
-4 84% 69%
-8 84% 86%
-1 84% 67%
-5 40% 78%
-6 23% 56%
-2 94% 80%
-7 31% 92%
-Overall Accuracy 76%
+4 84%             69%
+8 84%             86%
+1 84%             67%
+5 40%             78%
+6 23%             56%
+2 94%             80%
+7 31%             92%
+Overall Accuracy       76%
 Area Weighted Accuracy 76%
 Khat (Kappa Coeff.) 71%
 Class Symbol Name
@@ -445,9 +418,6 @@ Class Symbol Name
 16 F158B Hamlet-Souris-Tonka complex, 0 to 5 percent slopes
 17 F160A Hamlet-Souris loams, 1 to 3 percent slopes
 18 F160B Hamlet-Souris loams, 1 to 5 percent slopes
-Title 430 – National Soil Survey Handbook
-(430-648-H, 1st Ed., Amend. 26, June 2018)
-648-B.10
 In these classes the attribute accuracy from the
 county-based source metadata can be referenced.</procdesc>
 <procdate>20170101</procdate>
@@ -497,9 +467,6 @@ county-based source metadata can be referenced.</procdesc>
 <detailed>
 <enttyp>
 <enttypl>VAT_RaSS_ND000_2017</enttypl>
-Title 430 – National Soil Survey Handbook
-(430-648-H, 1st Ed., Amend. 26, June 2018)
-648-B.11
 <enttypd>The values of the cells in this dataset are used to relate the spatial information to the tabular
 information.</enttypd>
 <enttypds>NRCS</enttypds>
@@ -549,9 +516,6 @@ object.</udom>
 </cntaddr>
 <cntvoice>817-509-3400</cntvoice>
 <cntfax>817-509-3469</cntfax>
-Title 430 – National Soil Survey Handbook
-(430-648-H, 1st Ed., Amend. 26, June 2018)
-648-B.12
 <cntinst>There is currently no direct charge for requesting data or for retrieval via FTP. The charge is $50 for a
 CD or $100 for a DVD that contains one or more datasets. A dataset is one state that includes both spatial and
 attribute data.</cntinst>
@@ -599,11 +563,7 @@ in the National Soils Information System, Web Soil Survey, Data Gateway database
 </metainfo>
 </metadata>
 648.14 References
-Title 430 – National Soil Survey Handbook
-(430-648-H, 1st Ed., Amend. 26, June 2018)
-648-B.13
 A. Soil Science Division Staff. 2017. Soil Survey Manual. C. Ditzler, K. Scheffe, and H.C. Monger
 (eds.). USDA Handbook 18. Government Printing Office, Washington, DC.
 B. GlobalSoilMap Science Committee, 2015. Specifications: Tiered GlobalSoilMap. net Products,
 Release 2.4. GlobalSoilMap Science Committee.
-
