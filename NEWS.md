@@ -1,3 +1,6 @@
+# SoilKnowledgeBase 0.3.0
+* Upgrades to NSSH parsing: now using {pdftools} for PDF->TXT
+
 # SoilKnowledgeBase 0.2.5
 * Changes to fix parsing of some OSD edge cases
 
@@ -13,7 +16,7 @@
 
 # SoilKnowledgeBase 0.2
 
-* Improvements to testing and reproducibility, generality of patterns for desigining routines
+* Improvements to testing and reproducibility, generality of patterns for designing routines
 
 # SoilKnowledgeBase 0.1
 
