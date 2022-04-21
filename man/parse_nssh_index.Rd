@@ -7,7 +7,7 @@
 parse_nssh_index(
   logfile = file.path(outpath, "NSSH/NSSH.log"),
   nssh_url = NULL,
-  ignore.headers = "Amendments To Soil Taxonomy",
+  ignore.headers = NULL,
   outpath = "./inst/extdata",
   download_pdf = "ifneeded",
   output_types = c("txt", "html"),
