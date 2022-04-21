@@ -15,7 +15,7 @@ osd_to_json(
 \arguments{
 \item{logfile}{Path to log file; default: \code{file.path(output_dir, "OSD/OSD.log")}}
 
-\item{input_dir}{Default: \code{'OSD'}; files matching pattern are listed recursviely}
+\item{input_dir}{Default: \code{'OSD'}; files matching pattern are listed recursively}
 
 \item{pattern}{Argument passed to \code{list.files} when \code{osd_files} is not specified}
 

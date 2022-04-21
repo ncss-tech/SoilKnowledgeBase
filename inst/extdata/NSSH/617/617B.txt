@@ -1,30 +1,26 @@
-Title 430 – National Soil Survey Handbook
-(430-617-NSSH, 1st
-Ed., Amend. 25, Nov. 2017)
-617-B.1
-Part 617 – Soil Survey Interpretations
-Subpart B – Exhibits
+Part 617 - Soil Survey Interpretations
+Subpart B - Exhibits
 617.20 Example of Descriptions for Documenting Interpretations
 Example Documentation of Interpretations
 Following are examples of documentation content for rules, evaluations, and properties. These paragraphs are
 used as content to generate the Interpretation Documentation reports in NASIS described above.
-The following is in the “Description” field in the “Rule” table of a primary rule:
+The following is in the \"Description\" field in the \"Rule\" table of a primary rule:
 WMS-Grape Production with Drip Irrigation
-Summary: Soil interpretations for “WMS-Grape Production with Drip Irrigation” evaluate a soil’s limitations
+Summary: Soil interpretations for \"WMS-Grape Production with Drip Irrigation\" evaluate a soil\'s limitations
 for drip irrigation of grapes. This irrigation system applies water at a very slow rate near the plants. The
 ratings are for soils in their natural condition. Present land use is not considered in the ratings.
 The degree of limitation is expressed as a numeric index between 0 (nonlimiting condition) and 1.0 (most
-limiting condition). If a soil’s property within 150 cm (60 inches) of the soil surface has a degree of
+limiting condition). If a soil\'s property within 150 cm (60 inches) of the soil surface has a degree of
 limitation greater then zero, then that soil property is limiting and the soil restrictive feature is identified. The
 overall interpretive rating assigned is the maximum degree of limitation of each soil interpretive criteria that
 comprises the interpretive rule. Lesser restrictive soil features are those that have a degree of limitation less
-then the maximum and are identified to provide the user with additional information about the soil’s
+then the maximum and are identified to provide the user with additional information about the soil\'s
 capability to support the interpretation. These lesser restrictive features could be important factors where the
 major restrictive features are overcome through practice design and application modifications.
-Soils are assigned interpretive rating classes on the basis of their degree of limitation. These classes are “not
-limited” (degree of limitation = 0), “somewhat limited” (degree of limitation >0 and <1.0), and “very limited”
+Soils are assigned interpretive rating classes on the basis of their degree of limitation. These classes are \"not
+limited\" (degree of limitation = 0), \"somewhat limited\" (degree of limitation >0 and <1.0), and \"very limited\"
 (degree of limitation = 1.0).
-The “Grape Production with Drip Irrigation” interpretation was developed by the Davis, CA, interpretation
+The \"Grape Production with Drip Irrigation\" interpretation was developed by the Davis, CA, interpretation
 staff in cooperation with the University of California-Davis, and is neither designed nor intended to be
 used in a regulatory manner. Drip irrigation is the controlled application of water to supplement rainfall for
 grape production. The soil properties and qualities that affect design, layout, construction, management, or
@@ -35,47 +31,3 @@ Description: The soil properties and qualities important in the design and manag
 systems are soil depth, wetness or ponding, a need for drainage, and flooding. The soil properties and
 qualities that influence installation are soil depth, flooding, and ponding. The features that affect performance
 of the system and plant growth are the amount of salts, lime, gypsum, and sodium.
-Title 430 – National Soil Survey Handbook
-(430-617-H, __ Ed., Amend. __, Nov 2017)
-617-B.2
----------------------------------------------------------------------------------------------
-Reference Information:
-Criteria were adjusted as requested by NRCS staff working on the Alameda County Agricultural
-Enhancement Plan.
-The original interpretation was developed using input from the Davis, CA, NRCS Resource Technology staff
-(Earth Team volunteer). The interpretation received further technical review from an irrigation specialist on
-staff at UC Davis.
-References:
-California Irrigation Guide. USDA-SCS. 1982. Developed in cooperation with the Pond-Shafter-Wasco
-Resource Conservation District.
-Hanson, Blaine and Grattan, Stephen R. 1993. Agricultural Salinity and Drainage. University of California
-Irrigation Program. University of California, Davis.
-National Engineering Handbook. USDA-NRCS. Aug. 1996. Part 652.
-National Soil Survey Handbook. 1993. United States Department of Agriculture. Natural Resources
-Conservation Service. Part 620 - Soil Interpretations Rating Guides 620, Table 620-32.
-The following is in the “Description” field in the “Rule” table of a child rule:
-Depth to bedrock: Shallow depth to bedrock limits the soil’s water holding capacity and the thickness of the
-root zone. Soil feature considered is the top depth of the first restrictive layer where restrictive type is
-“bedrock*.” Depth to restrictive feature must be synchronized with the depth to the restrictive feature horizon
-shown in the horizon table.
-Property used: “DEPTH TO BEDROCK (TX)” (Modality - representative value)
-Restrictive limits:
-Limiting < 50cm
-Not limiting >= 50cm
-Null depth is assigned to the not limiting class.
-The following is in the “Description” field in the “Evaluation” table:
-The evaluation checks for the presence of bedrock and if present indexes the depth. This index expresses the
-degree to which “depth to bedrock” is a limiting feature. Where “depth to bedrock” is—
-< 50cm the soil is limited and the degree of limitation index is expressed as the number 1.0.
->= 50cm the soil is not limited and the degree of limitation index is expressed as the number 0.
-The following is in the “Description” field in the “Property” table:
-Data used: resdept and reskind from component restriction table.
-Consideration:
-1. reskind imatches “bedrock*” and if true
-2. resdepth
-Title 430 – National Soil Survey Handbook
-(430-617-H, __ Ed., Amend. __, Nov 2017)
-617-B.3
-Logic: Reports the top depth of the first restrictive layer where kind equal bedrock. Depth to restrictive
-feature must be synchronized with the depth to the restrictive feature horizon shown in the horizon table.
-

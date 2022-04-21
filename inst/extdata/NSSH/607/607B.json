@@ -2,8 +2,10 @@
   "frontmatter": [
     {
       "clause": 1,
-      "content": "Title 430 – National Soil Survey Handbook Part 607 – Initial Soil Survey Preparation",
-      "part": "Title 430 – National Soil Survey Handbook"
+      "content": "Part 607 - Initial Soil Survey Preparation Subpart B - Exhibits",
+      "part": "Part 607 - Initial Soil Survey Preparation",
+      "headerid": 1,
+      "header": "Front Matter"
     }
   ],
   "607.10": [
@@ -102,14 +104,14 @@
     },
     {
       "clause": 3,
-      "content": "(1) Set up geodatabases with topology and import data layers.  Use the standards for file naming  Create a geodatabase  Import data into the geodatabase  Project data to the desired geographic location  Create a feature dataset  Import template feature classes  Set up domains",
+      "content": "(1) Set up geodatabases with topology and import data layers. -   Use the standards for file naming -   Create a geodatabase -   Import data into the geodatabase -   Project data to the desired geographic location -   Create a feature dataset -   Import template feature classes -   Set up domains",
       "part": "607",
       "headerid": "11",
       "header": "Example of a Procedure for Geodatabase Development, File Naming,"
     },
     {
       "clause": 4,
-      "content": "(2) Set up the map environment for creating digital soils data.  Create a map and add data layers  Customize a map, using— -- Toolbars and menus -- Symbology -- Image display  Create a layer overview  Add or delete fields and calculate values  Set selectable layers",
+      "content": "(2)    Set up the map environment for creating digital soils data. - Create a map and add data layers - Customize a map, using- -- Toolbars and menus -- Symbology -- Image display - Create a layer overview - Add or delete fields and calculate values - Set selectable layers",
       "part": "607",
       "headerid": "11",
       "header": "Example of a Procedure for Geodatabase Development, File Naming,"
@@ -137,7 +139,7 @@
     },
     {
       "clause": 8,
-      "content": "B. File Naming System The geodatabase is named as follows: State abbreviation followed by county or parish FIPS code, “OFFICIAL,” and the current date (two-digit month, day, and year) (e.g., PG695_OFFICIAL_072105).",
+      "content": "B. File Naming System The geodatabase is named as follows: State abbreviation followed by county or parish FIPS code, \\\"OFFICIAL,\\\" and the current date (two-digit month, day, and year) (e.g., PG695_OFFICIAL_072105).",
       "part": "607",
       "headerid": "11",
       "header": "Example of a Procedure for Geodatabase Development, File Naming,"
@@ -158,21 +160,21 @@
     },
     {
       "clause": 11,
-      "content": "(2) The project leader adds metadata notes into the geodatabase, compacts the geodatabase, and makes a copy of it using the copy and paste function in ArcCatalog. The copy is then renamed by changing “OFFICIAL” to “GIS” and using the current date (e.g., PG695_GIS_072205).",
+      "content": "(2) The project leader adds metadata notes into the geodatabase, compacts the geodatabase, and makes a copy of it using the copy and paste function in ArcCatalog. The copy is then renamed by changing \\\"OFFICIAL\\\" to \\\"GIS\\\" and using the current date (e.g., PG695_GIS_072205).",
       "part": "607",
       "headerid": "11",
       "header": "Example of a Procedure for Geodatabase Development, File Naming,"
     },
     {
       "clause": 12,
-      "content": "(3) The project leader confirms that metadata notes are kept to record scale of digitizing and imagery used. Brief metadata entries are made in the “Abstract” section of the metadata in ArcCatalog for each geodatabase version that is sent for archiving. Notes in the “Abstract” and “Purpose” sections may also be made for feature classes.",
+      "content": "(3) The project leader confirms that metadata notes are kept to record scale of digitizing and imagery used. Brief metadata entries are made in the \\\"Abstract\\\" section of the metadata in ArcCatalog for each geodatabase version that is sent for archiving. Notes in the \\\"Abstract\\\" and \\\"Purpose\\\" sections may also be made for feature classes.",
       "part": "607",
       "headerid": "11",
       "header": "Example of a Procedure for Geodatabase Development, File Naming,"
     },
     {
       "clause": 13,
-      "content": "(4) The following schedule should be followed to safeguard the geodatabase:  Daily.—All new or edited soil mapping data is backed up to hard drive storage at the soil survey office. A separate copy of the geodatabase is therefore saved on a hard drive separate from that of the active file being edited. -- Edits are frequently saved during an edit session in case the software crashes. Saving edits is different from saving the geodatabase. -- Topology is frequently validated, and errors are fixed while editing. -- The geodatabases are compacted in ArcCatalog.  Weekly.—All new or edited soil mapping data is copied onto a CD or DVD and stored offsite for security. Updates can be added to previous media in order to maintain an archive of edited versions.  Monthly.—When soil mapping data are being updated, a copy of the geodatabase is sent by compressing it into a WinZip file and attaching this file to an email (or on a CD or DVD) to designated GIS staff. If no edits have been made, this is not necessary.  Annually.—After completing a 100-percent quality control review of the digital data, the project leader sends a copy of the overall geodatabase to the soil survey regional office for quality assurance.",
+      "content": "(4) The following schedule should be followed to safeguard the geodatabase: - Daily.-All new or edited soil mapping data is backed up to hard drive storage at the soil survey office. A separate copy of the geodatabase is therefore saved on a hard drive separate from that of the active file being edited. -- Edits are frequently saved during an edit session in case the software crashes. Saving edits is different from saving the geodatabase. -- Topology is frequently validated, and errors are fixed while editing. -- The geodatabases are compacted in ArcCatalog. - Weekly.-All new or edited soil mapping data is copied onto a CD or DVD and stored offsite for security. Updates can be added to previous media in order to maintain an archive of edited versions. - Monthly.-When soil mapping data are being updated, a copy of the geodatabase is sent by compressing it into a WinZip file and attaching this file to an email (or on a CD or DVD) to designated GIS staff. If no edits have been made, this is not necessary. - Annually.-After completing a 100-percent quality control review of the digital data, the project leader sends a copy of the overall geodatabase to the soil survey regional office for quality assurance.",
       "part": "607",
       "headerid": "11",
       "header": "Example of a Procedure for Geodatabase Development, File Naming,"
