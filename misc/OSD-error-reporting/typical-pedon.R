@@ -1,6 +1,7 @@
 library(aqp)
-library(soilDB)
 library(data.table)
+
+source("https://raw.githubusercontent.com/ncss-tech/soilDB/master/R/get_OSD.R")
 
 # recent acreage estimates from SoilWeb
 ac <- fread('https://github.com/ncss-tech/SoilWeb-data/raw/main/files/series_stats.csv.gz')
