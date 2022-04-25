@@ -107,8 +107,8 @@ jobs:
         run: |
           git add inst/extdata/\*.txt
           git commit -m 'Update inst/extdata/ TXT files' || echo "No changes to commit"
-          git add inst/extdata/\*.html
-          git commit -m 'Update inst/extdata/ HTML files' || echo "No changes to commit"
+          # git add inst/extdata/\*.html
+          # git commit -m 'Update inst/extdata/ HTML files' || echo "No changes to commit"
           git add inst/extdata/\*.json
           git commit -m 'Update inst/extdata/ JSON files' || echo "No changes to commit"
           git add inst/extdata/\*.csv
