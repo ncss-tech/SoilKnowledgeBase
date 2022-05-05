@@ -391,5 +391,3 @@ clean_chars <- function(x) {
   x <- x[nchar(trimws(x)) > 0]
   return(trimws(x))
 }
-
-

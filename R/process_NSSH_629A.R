@@ -17,10 +17,10 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
   # ## reference source codes
 
   # build from 629A.json
-  refcodes <- strsplit(paste(defs$content[sources.idx:comments.idx], collapse = " "), " \\([ivx]+\\) ")
-  srcx <- strsplit(refcodes[[1]][2:length(refcodes[[1]])], ".-", fixed = TRUE)
+  refcodes <- strsplit(paste(defs$content[sources.idx:(comments.idx - 1)], collapse = " "), " \\([ivx]+\\) ")
+  srcx <- strsplit(refcodes[[1]][2:length(refcodes[[1]])], ".\\-")
 
-  sources <- as.list(sapply(srcx, function(x) paste0(x[2:length(x)], collapse = "")))
+  sources <- as.list(sapply(srcx, function(x) x[2]))
   names(sources) <- sapply(srcx, function(x) x[1])
 
   # converts to reasonable JSON
