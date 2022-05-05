@@ -275,8 +275,8 @@ parse_NSSH <- function(logfile = file.path(outpath, "NSSH/NSSH.log"),
     }
     res <- fix_line_breaks(strip_lines(clean_chars(raw[llag[i]:llead[i]])))
     if (i == 1) {
-      res$headerid <- 1
-      res$header = "Front Matter"
+      res$headerid <- 0
+      res$header <- "Front Matter"
     }
     res
   })
@@ -293,28 +293,35 @@ parse_NSSH <- function(logfile = file.path(outpath, "NSSH/NSSH.log"),
 fix_line_breaks <- function(x) {
   # starts with A. (1) or 618. is a new line
 
+  # parse header components
   ids <- strsplit(gsub("^(\\d+)\\.(\\d+) (.*)$", "\\1:\\2:\\3", x[1]), ":")
-
-  res <- aggregate(x,
-                   by = list(cumsum(grepl("^[A-Z]\\.|^6[0-9]{2}\\. |^\\(\\d+\\)", x))), # |^\\(\\d+\\) -- not sure if this is desired
-                   FUN = paste, collapse = " ")
-
+  
+  # remove header from content
+  x2 <- x[-1]
+  if (length(x2) > 0) {
+    res <- aggregate(x2,
+                     by = list(cumsum(grepl("^[A-Z]\\.|^6[0-9]{2}\\. |^\\(\\d+\\)", x2))), # |^\\(\\d+\\) -- not sure if this is desired
+                     FUN = paste, collapse = " ")
+  } else {
+    res <- aggregate(x,
+                     by = list(cumsum(grepl("^[A-Z]\\.|^6[0-9]{2}\\. |^\\(\\d+\\)", x))), # |^\\(\\d+\\) -- not sure if this is desired
+                     FUN = paste, collapse = " ")
+  }
+  
   # check for clauses that dont start with a capital letter, a number or a parenthesis
   fclause.idx <- !grepl("^[A-Zivx0-9\\(]", res$x)
 
   if (length(fclause.idx) > 0)
     res$Group.1[fclause.idx] <- res$Group.1[fclause.idx] - 1
-
-  res2 <- aggregate(res$x,
-                    by = list(res$Group.1),
-                    FUN = paste, collapse = " ")
-
-  # idx.bad <- which(!grepl("\\.$", res2$x))
-  # res3 <- aggregate(res2$x,
-  #                   by = list(cumsum()),
-  #                   FUN = paste, collapse = " ")
-
-  colnames(res2) <- c("clause","content")
+  if (nrow(res) > 0) {
+    res2 <- aggregate(res$x,
+                      by = list(res$Group.1),
+                      FUN = paste, collapse = " ")
+  } else {
+    return(data.frame(clause = "", content = ""))
+  }
+  
+  colnames(res2) <- c("clause", "content")
   res2$part <- ids[[1]][1]
   res2$headerid <- ids[[1]][2]
   res2$header <- ids[[1]][3]
