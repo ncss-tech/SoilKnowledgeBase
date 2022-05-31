@@ -8,6 +8,8 @@
 
 #' Prepare Site and Horizon _data.frame_ from a `validateOSD()` result
 #' @param x a _list_ result of SoilKnowledgeBase::validateOSD()
+#' @keywords internal
+#' @noRd
 .doParseOSD <- function(x) {
   # # get data
   # res <- soilDB:::.getLocalOSD(x, path)

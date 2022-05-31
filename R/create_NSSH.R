@@ -68,7 +68,8 @@ create_NSSH <- function(...) {
 #' @importFrom rvest html_node html_nodes html_text
 #' @importFrom xml2 read_html xml_attr
 #' @importFrom utils write.csv download.file
-#' @importFrom stats aggregate
+#' @importFrom stats aggregate complete.cases
+#' @importFrom utils head
 #' @importFrom pdftools pdf_text
 parse_nssh_index <- function(
   logfile = file.path(outpath, "NSSH/NSSH.log"),
@@ -80,6 +81,7 @@ parse_nssh_index <- function(
   keep_pdf = FALSE,
   ...
 ) {
+  .SD <- NULL
   if (is.null(nssh_url))
     nssh_url <- "https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/soils/ref/?cid=nrcs142p2_054242"
 
