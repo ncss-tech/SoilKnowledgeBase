@@ -92,26 +92,26 @@ parse_nssh_index <- function(
     txt = rvest::html_text(rvest::html_nodes(html, 'a'))
   )
   edi <- edi[grepl("directives", edi$url) & !grepl("Amendments", edi$txt), ]
-  
+
   edi$url <- gsub(
       "http:",
       "https:",
       gsub("viewerFS.aspx?", "viewDirective.aspx?", edi$url, fixed = TRUE),
       fixed = TRUE)
-  
+
   html2 <- lapply(edi$url, xml2::read_html)
-  
+
   res0 <- do.call('rbind', lapply(seq_along(edi$url), function(i) {
     p <- rvest::html_nodes(html2[[i]], 'p')
-  
+
     data.frame(
       url = rvest::html_attr(rvest::html_nodes(p, 'a'), 'href'),
       txt = rvest::html_text(rvest::html_nodes(p, 'a'))
     )
   }))
-  
+
   res1 <- res0[complete.cases(res0),]
-  
+
   pdfs <- lapply(res1$url, function(x) {
     dfile <- file.path(tempdir(), paste0(basename(x), ".pdf"))
     f <- download.file(
@@ -123,21 +123,21 @@ parse_nssh_index <- function(
       return(dfile)
     NA_character_
   })
-  
+
   txts <- lapply(lapply(lapply(pdfs, function(x) try(pdftools::pdf_text(x), silent = TRUE)), paste0, collapse = "\n"), function(x) strsplit(x, "\n")[[1]])
-  
+
   # TODO: bad pdf format
   # cmb <-  try(pdftools::pdf_combine(paste0("https://directives.sc.egov.usda.gov/", res$url),
   #                                   output = "test.pdf"))
   # unlink(as.character(pdfs))
-  
+
   toc <- gsub("\\u2013", "-", txts[[1]])
   section <- toc[grep("^Parts", toc)]
-  
+
   .section_to_parts <- function(x) {
     y <- do.call('rbind', lapply(x, function(z) {
-      lh <- as.data.frame(do.call('rbind', 
-                                  strsplit(gsub("Parts (\\d+) to (\\d+) \u2013 (.*)", 
+      lh <- as.data.frame(do.call('rbind',
+                                  strsplit(gsub("Parts (\\d+) to (\\d+) \u2013 (.*)",
                                                 "\\1;\\2;\\3", z), ";"))
                           )
     }))
@@ -146,12 +146,12 @@ parse_nssh_index <- function(
     }))
   }
   stp <- .section_to_parts(section)
-  
+
   header <- lapply(txts, function(x) {
     y <- trimws(x)
     head(y[y != ""], 3)
   })
-  
+
   longnames <- sapply(header, function(x) {
     if (length(x) > 1) {
       y <- x[2:length(x)]
@@ -159,16 +159,16 @@ parse_nssh_index <- function(
     } else return(NA)
   })
 
-  dln <- data.frame(longname = longnames, 
-                    url = paste0("https://directives.sc.egov.usda.gov/", res1$url), 
+  dln <- data.frame(longname = longnames,
+                    url = paste0("https://directives.sc.egov.usda.gov/", res1$url),
                     part = trimws(res1$txt))
   dln$Part <- as.numeric(gsub("Part (\\d+) .*|(.*)", "\\1", dln$longname))
   dln$Subpart <- gsub(".*, Subpart ([AB]).*|(.*)", "\\1", dln$longname)
   dln$Content <- I(txts)
-  
+
   res2 <- merge(data.table::data.table(stp), data.table::data.table(dln), by = "Part", sort = FALSE, all.x = TRUE)
   res3 <- res2[complete.cases(res2[, .SD, .SDcols = colnames(res2) != "Content"]), ]
-  
+
   res4 <- data.frame(
     href = res3$url,
     parent = trimws(gsub("Part \\d+ \u2013 ([^\u2013]*) ?.*", "\\1", res3$longname)),
@@ -176,7 +176,7 @@ parse_nssh_index <- function(
     part = res3$Part,
     subpart = res3$Subpart
   )
-  
+
   lapply(unique(res3$Part), function(x) {
     dp <- file.path(outpath, "NSSH", x)
     if (!dir.exists(dp))
@@ -187,7 +187,7 @@ parse_nssh_index <- function(
       writeLines(stringi::stri_escape_unicode(xx), file.path(outpath, "NSSH", x, sprintf("%s%s.txt", y$Part, y$Subpart)))
     })
   })
-  
+
   indexout <- file.path(outpath, "NSSH", "index.csv")
 
   write.csv(res4, file = indexout)
@@ -226,13 +226,13 @@ parse_nssh_part <- function(number, subpart,
 
                                     idx <- grep("^\\d{3}\\.\\d+ [A-Z]", L)
                                     idx2 <- grep("^A\\. .*", L)
-                                    
+
                                     lsub <- sapply(lapply(1:length(idx), function(i) {
-                                      idx[i]:(idx2[i] - 1)
+                                      na.omit(idx[i]:(idx2[i] - 1))
                                     }), function(j) {
                                       paste0(L[j], collapse = " ")
                                     })
- 
+
                                     respart <- rep(x$number, length(idx))
                                     ressubpart <- rep(x$subpart, length(idx))
 
@@ -288,7 +288,7 @@ parse_NSSH <- function(logfile = file.path(outpath, "NSSH/NSSH.log"),
   })
 
   names(hsections) <- c("frontmatter", gsub("^(\\d+\\.\\d+) .*", "\\1", headers$header))
-  
+
   res <- convert_to_json(hsections)
   write(res, file = sprintf(file.path(outpath, "NSSH/%s/%s%s.json"),
                                       a_part, a_part, a_subpart))
@@ -301,7 +301,7 @@ fix_line_breaks <- function(x) {
 
   # parse header components
   ids <- strsplit(gsub("^(\\d+)\\.(\\d+) (.*)$", "\\1:\\2:\\3", x[1]), ":")
-  
+
   # remove header from content
   x2 <- x[-1]
   if (length(x2) > 0) {
@@ -313,7 +313,7 @@ fix_line_breaks <- function(x) {
                      by = list(cumsum(grepl("^[A-Z]\\.|^6[0-9]{2}\\. |^\\(\\d+\\)", x))), # |^\\(\\d+\\) -- not sure if this is desired
                      FUN = paste, collapse = " ")
   }
-  
+
   # check for clauses that dont start with a capital letter, a number or a parenthesis
   fclause.idx <- !grepl("^[A-Zivx0-9\\(]", res$x)
 
@@ -326,7 +326,7 @@ fix_line_breaks <- function(x) {
   } else {
     return(data.frame(clause = "", content = ""))
   }
-  
+
   colnames(res2) <- c("clause", "content")
   res2$part <- ids[[1]][1]
   res2$headerid <- ids[[1]][2]
