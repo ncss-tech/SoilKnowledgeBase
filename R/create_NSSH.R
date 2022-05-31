@@ -225,15 +225,21 @@ parse_nssh_part <- function(number, subpart,
                                     L <- readLines(f)
 
                                     idx <- grep("^\\d{3}\\.\\d+ [A-Z]", L)
-
+                                    idx2 <- grep("^A\\. .*", L)
+                                    
+                                    lsub <- sapply(lapply(1:length(idx), function(i) {
+                                      idx[i]:(idx2[i] - 1)
+                                    }), function(j) {
+                                      paste0(L[j], collapse = " ")
+                                    })
+ 
                                     respart <- rep(x$number, length(idx))
                                     ressubpart <- rep(x$subpart, length(idx))
-
 
                                     res <- data.frame(part = x$number,
                                                       subpart = x$subpart,
                                                       line = idx,
-                                                      header = L[idx])
+                                                      header = lsub)
                                     return(res)
                                   } )
                                 }))
