@@ -124,7 +124,7 @@ parse_nssh_index <- function(
     NA_character_
   })
   
-  txts <- lapply(lapply(lapply(pdfs, function(x) try(pdftools::pdf_text(x))), paste0, collapse = "\n"), function(x) strsplit(x, "\n")[[1]])
+  txts <- lapply(lapply(lapply(pdfs, function(x) try(pdftools::pdf_text(x), silent = TRUE)), paste0, collapse = "\n"), function(x) strsplit(x, "\n")[[1]])
   
   # TODO: bad pdf format
   # cmb <-  try(pdftools::pdf_combine(paste0("https://directives.sc.egov.usda.gov/", res$url),
@@ -276,7 +276,7 @@ parse_NSSH <- function(logfile = file.path(outpath, "NSSH/NSSH.log"),
     res <- fix_line_breaks(strip_lines(clean_chars(raw[llag[i]:llead[i]])))
     if (i == 1) {
       res$headerid <- 0
-      res$header <- "Front Matter"
+      res$header <- raw[sect.idx][1]
     }
     res
   })
