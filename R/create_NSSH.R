@@ -113,42 +113,24 @@ parse_nssh_index <- function(
   }))
 
   res1 <- res0[complete.cases(res0),]
-  pdf_path <- file.path(outpath, "NSSH", "pdf")
-  if (!dir.exists(pdf_path)) {
-    dir.create(pdf_path, recursive = TRUE)
-  }
-  pdfs <- list.files(pdf_path, pattern = "pdf", recursive = TRUE, full.names = TRUE)
-  if ((length(pdfs) == 0 && (download_pdf == "ifneeded")) ||
-      (is.logical(download_pdf) && download_pdf)) {
-    pdfs <- lapply(res1$url, function(x) {
-      dfile <- file.path(pdf_path, paste0(basename(x), ".pdf"))
-      f <- download.file(
-        paste0("https://directives.sc.egov.usda.gov/OpenNonWebContent.aspx?content=", x),
-        dfile,
-        mode = "wb"
-      )
-      if (f == 0)
-        return(dfile)
-      NA_character_
-    })
-    # heuristic to find bad PDF files (<100kB); TODO: get these fixed
-    .badpdf <- function() (file.size(list.files(pdf_path, full.names = TRUE)) / 1024) < 100
-    bpf <- which(.badpdf())
-    if (length(bpf) > 0) {
-      logmsg(logfile, "Found %s PDFs with bad format", length(bpf))
-    }
+  pdfs <- lapply(res1$url, function(x) {
+    dfile <- file.path(tempdir(), paste0(basename(x), ".pdf"))
+    f <- download.file(
+      paste0("https://directives.sc.egov.usda.gov/OpenNonWebContent.aspx?content=", x),
+      dfile,
+      mode = "wb"
+    )
+    if (f == 0)
+      return(dfile)
+    NA_character_
+  })
 
-    txts <- lapply(lapply(lapply(pdfs, function(x) try(pdftools::pdf_text(x), silent = TRUE)), paste0, collapse = "\n"), function(x) strsplit(x, "\n")[[1]])
+  txts <- lapply(lapply(lapply(pdfs, function(x) try(pdftools::pdf_text(x), silent = TRUE)), paste0, collapse = "\n"), function(x) strsplit(x, "\n")[[1]])
 
-    # TODO: bad pdf format
-    # cmb <-  try(pdftools::pdf_combine(paste0("https://directives.sc.egov.usda.gov/", res$url),
-    #                                   output = "test.pdf"))
-    # unlink(as.character(pdfs))
-  }
-
-  if (length(txts) == 0) {
-    stop("Missing input PDFs")
-  }
+  # TODO: bad pdf format
+  # cmb <-  try(pdftools::pdf_combine(paste0("https://directives.sc.egov.usda.gov/", res$url),
+  #                                   output = "test.pdf"))
+  # unlink(as.character(pdfs))
 
   toc <- gsub("\\u2013", "-", txts[[1]])
   section <- toc[grep("^Parts", toc)]
@@ -316,7 +298,8 @@ parse_NSSH <- function(logfile = file.path(outpath, "NSSH/NSSH.log"),
     }
     res <- fix_line_breaks(strip_lines(clean_chars(raw[llag[i]:llead[i]])))
     if (i == 1) {
-      res$headerid <- 1
+      res$headerid <- 0
+      res$header <- raw[sect.idx][1]
     }
     res$header <- headers$header[i]
     res
