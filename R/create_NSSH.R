@@ -226,9 +226,16 @@ parse_nssh_part <- function(number, subpart,
 
                                     idx <- grep("^\\d{3}\\.\\d+ [A-Z]", L)
                                     idx2 <- grep("^A\\. .*", L)
-
+                                    lidx2 <- length(idx2)
                                     lsub <- sapply(lapply(1:length(idx), function(i) {
-                                      na.omit(idx[i]:(idx2[i] - 1))
+                                      res <- idx[i]
+                                      if (lidx2 > 0 && i < lidx2) {
+                                        resend <- idx2[i] - 1
+                                        if (!is.na(resend)) {
+                                          res <- res:resend
+                                        }
+                                      }
+                                      res
                                     }), function(j) {
                                       paste0(L[j], collapse = " ")
                                     })
