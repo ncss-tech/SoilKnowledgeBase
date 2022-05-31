@@ -113,6 +113,7 @@ parse_nssh_index <- function(
   }))
 
   res1 <- res0[complete.cases(res0),]
+
   pdfs <- lapply(res1$url, function(x) {
     dfile <- file.path(tempdir(), paste0(basename(x), ".pdf"))
     f <- download.file(
@@ -229,10 +230,11 @@ parse_nssh_part <- function(number, subpart,
                                     idx2 <- grep("^A\\. .*", L)
 
                                     lsub <- sapply(lapply(1:length(idx), function(i) {
-                                      idx[i]:(idx2[i] - 1)
+                                      na.omit(idx[i]:(idx2[i] - 1))
                                     }), function(j) {
                                       paste0(L[j], collapse = " ")
                                     })
+
                                     respart <- rep(x$number, length(idx))
                                     ressubpart <- rep(x$subpart, length(idx))
 
@@ -294,7 +296,7 @@ parse_NSSH <- function(logfile = file.path(outpath, "NSSH/NSSH.log"),
     res
   })
 
-  names(hsections) <- c(gsub("^(\\d+\\.\\d+) .*", "\\1", headers$header))
+  names(hsections) <- c("frontmatter", gsub("^(\\d+\\.\\d+) .*", "\\1", headers$header))
 
   res <- convert_to_json(hsections)
   write(res, file = sprintf(file.path(outpath, "NSSH/%s/%s%s.json"),
