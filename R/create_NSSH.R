@@ -226,24 +226,13 @@ parse_nssh_part <- function(number, subpart,
                                     L <- readLines(f)
 
                                     idx <- grep("^\\d{3}\\.\\d+ [A-Z]", L)
-                                    # collapses long headers
-                                    idx2 <- idx[grepl("^A\\. .*$|^[A-Z\\)][a-z\\)]+ ?", L[idx + 1])] + 1
-                                    lidx2 <- length(idx2)
+                                    idx2 <- grep("^A\\. .*", L)
+
                                     lsub <- sapply(lapply(1:length(idx), function(i) {
-                                      res <- idx[i]
-                                      if (lidx2 > 0 && i <= lidx2 &&
-                                          (nchar(L[idx2[[i]]]) < 50 &&
-                                           !grepl("[\\.\\-\\:\\;]|Accessibility statement|^The database", L[idx2[[i]]]))) {
-                                        resend <- idx2[i]
-                                        if (!is.na(resend) && abs(resend - res) <= 1) {
-                                          res <- res:resend
-                                        }
-                                      }
-                                      res
+                                      idx[i]:(idx2[i] - 1)
                                     }), function(j) {
                                       paste0(L[j], collapse = " ")
                                     })
-
                                     respart <- rep(x$number, length(idx))
                                     ressubpart <- rep(x$subpart, length(idx))
 
