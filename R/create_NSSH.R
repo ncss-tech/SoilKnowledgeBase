@@ -113,18 +113,32 @@ parse_nssh_index <- function(
   }))
 
   res1 <- res0[complete.cases(res0),]
+  pdf_path <- file.path(outpath, "NSSH", "pdf")
+  if (!dir.exists(pdf_path)) {
+    dir.create(pdf_path, recursive = TRUE)
+  }
+  pdfs <- list.files(pdf_path, pattern = "pdf", recursive = TRUE, full.names = TRUE)
+  if ((length(pdfs) == 0 && (download_pdf == "ifneeded")) ||
+      (is.logical(download_pdf) && download_pdf)) {
+    pdfs <- lapply(res1$url, function(x) {
+      dfile <- file.path(pdf_path, paste0(basename(x), ".pdf"))
+      f <- download.file(
+        paste0("https://directives.sc.egov.usda.gov/OpenNonWebContent.aspx?content=", x),
+        dfile,
+        mode = "wb"
+      )
+      if (f == 0)
+        return(dfile)
+      NA_character_
+    })
+  }
 
-  pdfs <- lapply(res1$url, function(x) {
-    dfile <- file.path(tempdir(), paste0(basename(x), ".pdf"))
-    f <- download.file(
-      paste0("https://directives.sc.egov.usda.gov/OpenNonWebContent.aspx?content=", x),
-      dfile,
-      mode = "wb"
-    )
-    if (f == 0)
-      return(dfile)
-    NA_character_
-  })
+  # heuristic to find bad PDF files (<100kB); TODO: get these fixed
+  .badpdf <- function() (file.size(list.files(pdf_path, full.names = TRUE)) / 1024) < 100
+  bpf <- which(.badpdf())
+  if (length(bpf) > 0) {
+    logmsg(logfile, "Found %s PDFs with bad format", length(bpf))
+  }
 
   txts <- lapply(lapply(lapply(pdfs, function(x) try(pdftools::pdf_text(x), silent = TRUE)), paste0, collapse = "\n"), function(x) strsplit(x, "\n")[[1]])
 
@@ -227,11 +241,14 @@ parse_nssh_part <- function(number, subpart,
                                     L <- readLines(f)
 
                                     idx <- grep("^\\d{3}\\.\\d+ [A-Z]", L)
-                                    idx2 <- idx[grepl("^A\\. .*|^[A-Z][a-z]+$", L[idx + 1])] + 1
+                                    # collapses long headers
+                                    idx2 <- idx[grepl("^A\\. .*$|^[A-Z\\)][a-z\\)]+ ?", L[idx + 1])] + 1
                                     lidx2 <- length(idx2)
                                     lsub <- sapply(lapply(1:length(idx), function(i) {
                                       res <- idx[i]
-                                      if (lidx2 > 0 && i < lidx2) {
+                                      if (lidx2 > 0 && i <= lidx2 &&
+                                          (nchar(L[idx2[[i]]]) < 50 &&
+                                           !grepl("[\\.\\-\\:\\;]|Accessibility statement|^The database", L[idx2[[i]]]))) {
                                         resend <- idx2[i]
                                         if (!is.na(resend) && abs(resend - res) <= 1) {
                                           res <- res:resend
@@ -283,15 +300,17 @@ parse_NSSH <- function(logfile = file.path(outpath, "NSSH/NSSH.log"),
                               line = 1, header = "Front Matter"), headers)
   sect.idx <- c(1, headers$line[2:nrow(headers)] - 1, length(raw))
 
-  llag  <- sect.idx[1:(length(sect.idx - 1))]
+  llag  <- sect.idx[1:(length(sect.idx) - 1)]
   llead <- sect.idx[2:(length(sect.idx))]
 
   hsections <- lapply(1:nrow(headers), function(i) {
-    if (i != 1) {
-      llag[i] <- llag[i] + 1
-    }
     if (headers$header[i] != raw[llag[i]]) {
-      llag[i] <- llag[i] + 1
+      k <- 1
+      header_exceptions <- c("600.0 The Mission of the Soil Science Division, Natural Resources Conservation Service",
+                             "607.11 Example of a Procedure for Geodatabase Development, File Naming, Archiving, and Quality Assurance")
+      if (headers$header[i] %in% header_exceptions)
+        k <- 2 # long headers need (at least) an extra line; see heuristics for header parsing in parse_nssh_part()
+      llag[i] <- llag[i] + k
     }
     res <- fix_line_breaks(strip_lines(clean_chars(raw[llag[i]:llead[i]])))
     if (i == 1) {
