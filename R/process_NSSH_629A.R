@@ -45,7 +45,7 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
     cmplx.pattern <- ' \\(?[a-g]\\) | \\(i+\\) '
     cmplx <- stringi::stri_detect_regex(i, pattern = cmplx.pattern)
 
-    if(cmplx) {
+    if (cmplx) {
       # split on compound definition markers
       i.list <- stringi::stri_split_regex(i, pattern = cmplx.pattern)[[1]]
       # trim
@@ -54,7 +54,7 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
       if (i.list[[1]] == "") {
         i.list <- i.list[-1]
       } else {
-        i.list <- lapply(i.list[2:length(i.list)], function(x) paste0(i.list[[1]], ".\u2014",x))
+        i.list <- lapply(i.list[2:length(i.list)], function(x) paste0(i.list[[1]], ".-", x))
       }
     } else {
       # convert definition to a list
@@ -77,16 +77,16 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
 
       # remove the sources if possible
       # note that there may be a trailing "." if this source is listed as part of a complex def
-      s.txt <- stringi::stri_extract_all_regex(j, pattern = '(\\.[^.,\u2014)]*\\.?)$', simplify = TRUE)
+      s.txt <- stringi::stri_extract_all_regex(j, pattern = '(\\.[^.,\u2014\\-)]*\\.?)$', simplify = TRUE)
       s.txt <- as.vector(s.txt)
 
       # if found, replace with a period (search includes trailing period)
-      if(! is.na(s.txt)){
+      if (!is.na(s.txt)) {
         j <- gsub(j, pattern = s.txt, replacement = '.', fixed = TRUE)
       }
 
       # if there are no sources found, then keep track of this via NA
-      if(length(s) < 1) {
+      if (length(s) < 1) {
         s <- NA
       }
 
@@ -95,17 +95,7 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
       comp <- as.vector(comp)
 
       # remove comparison text if found
-      if(!is.na(comp)) {
-        # replace with empty string
-        j <- gsub(j, pattern = comp, replacement = '', fixed = TRUE)
-        # clean white space
-        j <- stringi::stri_trim_both(j)
-      } else {
-        comp <- NA_character_
-      }
-
-      # remove comparison text if found
-      if(!is.na(comp)) {
+      if (!is.na(comp)) {
         # replace with empty string
         j <- gsub(j, pattern = comp, replacement = '', fixed = TRUE)
         # clean white space
@@ -115,8 +105,8 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
       }
 
       # search for obsolete, not preferred
-      if (length(grep("\\(obsolete \u2014 use|\\(not recommended|\\(not preferred|; not preferred", j) > 0)) {
-        obspattern <- '.*obsolete \u2014 use ([A-Za-z, ]+).*|.*\\(not recommended: obsolete\\) Use ([^\\.]*).?$|.*\\(not recommended\\) Use ([^\\.]*).?$|.*\\(not preferred\\) Use ([^\\.]*).?$|.*[\\(;\\u2013] ?not preferred.*[Rr]efer to ([^\\.\\)]*).?.*|.*\\(not recommended, use ([^\\.]*)\\).*'
+      if (length(grep("\\(obsolete - use|\\(not recommended|\\(not preferred|; not preferred", j) > 0)) {
+        obspattern <- '.*obsolete - use ([A-Za-z, ]+).*|.*\\(not recommended: obsolete\\) Use ([^\\.]*).?$|.*\\(not recommended\\) Use ([^\\.]*).?$|.*\\(not preferred\\) Use ([^\\.]*).?$|.*[\\(;\\u2013\\-] ?not preferred.*[Rr]efer to ([^\\.\\)]*).?.*|.*\\(not recommended, use ([^\\.]*)\\).*'
 
         obsolete <- grepl("obsolete", j)
         newterms <- trimws(strsplit(gsub(obspattern, "\\1\\2\\3\\4\\5\\6", j), ",|, or")[[1]])
@@ -129,13 +119,13 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
         coldesc <- trimws(strsplit(gsub('.*colloquial:([A-Za-z\\., ]+)[\\);\\u2013].*', "\\1", j), ",|, or")[[1]])
       } else coldesc <- character(0)
 
-      h <- trimws(strsplit(gsub("\\(\\d+\\) ([^\\(\\)]*).[\u2014](.*)", "\\1::::\\2", j), "::::")[[1]])
+      h <- trimws(strsplit(gsub("\\(\\d+\\) ([^\\(\\)]*)\\.[\\-](.*)", "\\1::::\\2", j), "::::")[[1]])
 
       # pack into a list
       final <- list(
         term = h[1],
         text = h[2],
-        compare = gsub("[\\.]","", trimws(strsplit(trimws(strsplit(comp, "\u2014")[[1]])[2], ",")[[1]])),
+        compare = gsub("[\\.]","", trimws(strsplit(trimws(strsplit(comp, "-", fixed = TRUE)[[1]])[2], ",")[[1]])),
         sources = s,
         colloquial = length(coldesc) > 0,
         colloquloc = coldesc,
@@ -156,10 +146,10 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
     # sources can be vectors, hence the complexity here
     missing.sources <- which(sapply(all.sources, function(z) {all(is.na(z)) }))
 
-    if(length(missing.sources) > 0) {
+    if (length(missing.sources) > 0) {
 
       # replace with "last" source
-      for(z in missing.sources) {
+      for (z in missing.sources) {
         i.list[[z]]$sources <- all.sources[[length(all.sources)]]
       }
     }
