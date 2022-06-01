@@ -11,14 +11,14 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
   # references <- part629a$`629.3`
 
   sources.idx <- grep("^[A-Z]\\. Reference Codes Sources", defs$content)
-  comments.idx <- grep("^[A-Z]\\. Clarifying Comments Included With Glossary Definitions$", defs$content) + 1
+  comments.idx <- grep("^[A-Z]\\. Clarifying Comments Included With Glossary Definitions$", defs$content) - 1
   glossary.idx <- grep("^[A-Z]\\. Glossary$", defs$content) + 1
 
   # ## reference source codes
 
   # build from 629A.json
   refcodes <- strsplit(paste(defs$content[sources.idx:comments.idx], collapse = " "), " \\([ivx]+\\) ")
-  srcx <- strsplit(refcodes[[1]][2:length(refcodes[[1]])], ".\\-")
+  srcx <- strsplit(refcodes[[1]][2:length(refcodes[[1]])], ".-", fixed = TRUE)
 
   sources <- as.list(sapply(srcx, function(x) paste0(x[2:length(x)], collapse = "")))
   names(sources) <- sapply(srcx, function(x) x[1])
