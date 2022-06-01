@@ -233,7 +233,7 @@ parse_nssh_part <- function(number, subpart,
                                       res <- idx[i]
                                       if (lidx2 > 0 && i < lidx2) {
                                         resend <- idx2[i] - 1
-                                        if (!is.na(resend)) {
+                                        if (!is.na(resend) && abs(resend - res) <= 2) {
                                           res <- res:resend
                                         }
                                       }
