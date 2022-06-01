@@ -227,12 +227,12 @@ parse_nssh_part <- function(number, subpart,
                                     L <- readLines(f)
 
                                     idx <- grep("^\\d{3}\\.\\d+ [A-Z]", L)
-                                    idx2 <- grep("^A\\. .*", L)
+                                    idx2 <- idx[grepl("^A\\. .*|^[A-Z][a-z]+$", L[idx + 1])] + 1
                                     lidx2 <- length(idx2)
                                     lsub <- sapply(lapply(1:length(idx), function(i) {
                                       res <- idx[i]
                                       if (lidx2 > 0 && i < lidx2) {
-                                        resend <- idx2[i] - 1
+                                        resend <- idx2[i]
                                         if (!is.na(resend) && abs(resend - res) <= 1) {
                                           res <- res:resend
                                         }
@@ -279,24 +279,28 @@ parse_NSSH <- function(logfile = file.path(outpath, "NSSH/NSSH.log"),
   headers <- get_assets('NSSH','headers')[[1]]
   headers <- subset(headers, headers$part == a_part &
                              headers$subpart == a_subpart)
-
-  sect.idx <- c(1, headers$line - 1, length(raw))
+  headers <- rbind(data.frame(X = "", part = a_part, subpart = a_subpart,
+                              line = 1, header = "Front Matter"), headers)
+  sect.idx <- c(1, headers$line[2:nrow(headers)] - 1, length(raw))
   llag  <- sect.idx[1:(length(sect.idx - 1))]
   llead <- sect.idx[2:(length(sect.idx))]
 
-  hsections <- lapply(1:(nrow(headers) + 1), function(i) {
+  hsections <- lapply(1:nrow(headers), function(i) {
     if (i != 1) {
+      llag[i] <- llag[i] + 1
+    }
+    if (headers$header[i] != raw[llag[i]]) {
       llag[i] <- llag[i] + 1
     }
     res <- fix_line_breaks(strip_lines(clean_chars(raw[llag[i]:llead[i]])))
     if (i == 1) {
-      res$headerid <- 0
-      res$header <- raw[sect.idx][1]
+      res$headerid <- 1
     }
+    res$header <- headers$header[i]
     res
   })
 
-  names(hsections) <- c("frontmatter", gsub("^(\\d+\\.\\d+) .*", "\\1", headers$header))
+  names(hsections) <- c(gsub("^(\\d+\\.\\d+) .*", "\\1", headers$header))
 
   res <- convert_to_json(hsections)
   write(res, file = sprintf(file.path(outpath, "NSSH/%s/%s%s.json"),
