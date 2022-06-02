@@ -68,7 +68,8 @@ create_NSSH <- function(...) {
 #' @importFrom rvest html_node html_nodes html_text
 #' @importFrom xml2 read_html xml_attr
 #' @importFrom utils write.csv download.file
-#' @importFrom stats aggregate
+#' @importFrom stats aggregate complete.cases
+#' @importFrom utils head
 #' @importFrom pdftools pdf_text
 parse_nssh_index <- function(
   logfile = file.path(outpath, "NSSH/NSSH.log"),
@@ -80,6 +81,7 @@ parse_nssh_index <- function(
   keep_pdf = FALSE,
   ...
 ) {
+  .SD <- NULL
   if (is.null(nssh_url))
     nssh_url <- "https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/soils/ref/?cid=nrcs142p2_054242"
 
@@ -92,52 +94,66 @@ parse_nssh_index <- function(
     txt = rvest::html_text(rvest::html_nodes(html, 'a'))
   )
   edi <- edi[grepl("directives", edi$url) & !grepl("Amendments", edi$txt), ]
-  
+
   edi$url <- gsub(
       "http:",
       "https:",
       gsub("viewerFS.aspx?", "viewDirective.aspx?", edi$url, fixed = TRUE),
       fixed = TRUE)
-  
+
   html2 <- lapply(edi$url, xml2::read_html)
-  
+
   res0 <- do.call('rbind', lapply(seq_along(edi$url), function(i) {
     p <- rvest::html_nodes(html2[[i]], 'p')
-  
+
     data.frame(
       url = rvest::html_attr(rvest::html_nodes(p, 'a'), 'href'),
       txt = rvest::html_text(rvest::html_nodes(p, 'a'))
     )
   }))
-  
+
   res1 <- res0[complete.cases(res0),]
-  
-  pdfs <- lapply(res1$url, function(x) {
-    dfile <- file.path(tempdir(), paste0(basename(x), ".pdf"))
-    f <- download.file(
-      paste0("https://directives.sc.egov.usda.gov/OpenNonWebContent.aspx?content=", x),
-      dfile,
-      mode = "wb"
-    )
-    if (f == 0)
-      return(dfile)
-    NA_character_
-  })
-  
-  txts <- lapply(lapply(lapply(pdfs, function(x) try(pdftools::pdf_text(x))), paste0, collapse = "\n"), function(x) strsplit(x, "\n")[[1]])
-  
+  pdf_path <- file.path(outpath, "NSSH", "pdf")
+  if (!dir.exists(pdf_path)) {
+    dir.create(pdf_path, recursive = TRUE)
+  }
+  pdfs <- list.files(pdf_path, pattern = "pdf", recursive = TRUE, full.names = TRUE)
+  if ((length(pdfs) == 0 && (download_pdf == "ifneeded")) ||
+      (is.logical(download_pdf) && download_pdf)) {
+    pdfs <- lapply(res1$url, function(x) {
+      dfile <- file.path(pdf_path, paste0(basename(x), ".pdf"))
+      f <- download.file(
+        paste0("https://directives.sc.egov.usda.gov/OpenNonWebContent.aspx?content=", x),
+        dfile,
+        mode = "wb"
+      )
+      if (f == 0)
+        return(dfile)
+      NA_character_
+    })
+  }
+
+  # heuristic to find bad PDF files (<100kB); TODO: get these fixed
+  .badpdf <- function() (file.size(list.files(pdf_path, full.names = TRUE)) / 1024) < 100
+  bpf <- which(.badpdf())
+  if (length(bpf) > 0) {
+    logmsg(logfile, "Found %s PDFs with bad format", length(bpf))
+  }
+
+  txts <- lapply(lapply(lapply(pdfs, function(x) try(pdftools::pdf_text(x), silent = TRUE)), paste0, collapse = "\n"), function(x) strsplit(x, "\n")[[1]])
+
   # TODO: bad pdf format
   # cmb <-  try(pdftools::pdf_combine(paste0("https://directives.sc.egov.usda.gov/", res$url),
   #                                   output = "test.pdf"))
   # unlink(as.character(pdfs))
-  
+
   toc <- gsub("\\u2013", "-", txts[[1]])
   section <- toc[grep("^Parts", toc)]
-  
+
   .section_to_parts <- function(x) {
     y <- do.call('rbind', lapply(x, function(z) {
-      lh <- as.data.frame(do.call('rbind', 
-                                  strsplit(gsub("Parts (\\d+) to (\\d+) \u2013 (.*)", 
+      lh <- as.data.frame(do.call('rbind',
+                                  strsplit(gsub("Parts (\\d+) to (\\d+) \u2013 (.*)",
                                                 "\\1;\\2;\\3", z), ";"))
                           )
     }))
@@ -146,12 +162,12 @@ parse_nssh_index <- function(
     }))
   }
   stp <- .section_to_parts(section)
-  
+
   header <- lapply(txts, function(x) {
     y <- trimws(x)
     head(y[y != ""], 3)
   })
-  
+
   longnames <- sapply(header, function(x) {
     if (length(x) > 1) {
       y <- x[2:length(x)]
@@ -159,16 +175,16 @@ parse_nssh_index <- function(
     } else return(NA)
   })
 
-  dln <- data.frame(longname = longnames, 
-                    url = paste0("https://directives.sc.egov.usda.gov/", res1$url), 
+  dln <- data.frame(longname = longnames,
+                    url = paste0("https://directives.sc.egov.usda.gov/", res1$url),
                     part = trimws(res1$txt))
   dln$Part <- as.numeric(gsub("Part (\\d+) .*|(.*)", "\\1", dln$longname))
   dln$Subpart <- gsub(".*, Subpart ([AB]).*|(.*)", "\\1", dln$longname)
   dln$Content <- I(txts)
-  
+
   res2 <- merge(data.table::data.table(stp), data.table::data.table(dln), by = "Part", sort = FALSE, all.x = TRUE)
   res3 <- res2[complete.cases(res2[, .SD, .SDcols = colnames(res2) != "Content"]), ]
-  
+
   res4 <- data.frame(
     href = res3$url,
     parent = trimws(gsub("Part \\d+ \u2013 ([^\u2013]*) ?.*", "\\1", res3$longname)),
@@ -176,7 +192,7 @@ parse_nssh_index <- function(
     part = res3$Part,
     subpart = res3$Subpart
   )
-  
+
   lapply(unique(res3$Part), function(x) {
     dp <- file.path(outpath, "NSSH", x)
     if (!dir.exists(dp))
@@ -187,7 +203,7 @@ parse_nssh_index <- function(
       writeLines(stringi::stri_escape_unicode(xx), file.path(outpath, "NSSH", x, sprintf("%s%s.txt", y$Part, y$Subpart)))
     })
   })
-  
+
   indexout <- file.path(outpath, "NSSH", "index.csv")
 
   write.csv(res4, file = indexout)
@@ -225,15 +241,31 @@ parse_nssh_part <- function(number, subpart,
                                     L <- readLines(f)
 
                                     idx <- grep("^\\d{3}\\.\\d+ [A-Z]", L)
+                                    # collapses long headers
+                                    idx2 <- idx[grepl("^A\\. .*$|^[A-Z\\)][a-z\\)]+ ?", L[idx + 1])] + 1
+                                    lidx2 <- length(idx2)
+                                    lsub <- sapply(lapply(1:length(idx), function(i) {
+                                      res <- idx[i]
+                                      if (lidx2 > 0 && i <= lidx2 &&
+                                          (nchar(L[idx2[[i]]]) < 50 &&
+                                           !grepl("[\\.\\-\\:\\;]|Accessibility statement|^The database", L[idx2[[i]]]))) {
+                                        resend <- idx2[i]
+                                        if (!is.na(resend) && abs(resend - res) <= 1) {
+                                          res <- res:resend
+                                        }
+                                      }
+                                      res
+                                    }), function(j) {
+                                      paste0(L[j], collapse = " ")
+                                    })
 
                                     respart <- rep(x$number, length(idx))
                                     ressubpart <- rep(x$subpart, length(idx))
 
-
                                     res <- data.frame(part = x$number,
                                                       subpart = x$subpart,
                                                       line = idx,
-                                                      header = L[idx])
+                                                      header = lsub)
                                     return(res)
                                   } )
                                 }))
@@ -264,25 +296,31 @@ parse_NSSH <- function(logfile = file.path(outpath, "NSSH/NSSH.log"),
   headers <- get_assets('NSSH','headers')[[1]]
   headers <- subset(headers, headers$part == a_part &
                              headers$subpart == a_subpart)
-
-  sect.idx <- c(1, headers$line - 1, length(raw))
-  llag  <- sect.idx[1:(length(sect.idx - 1))]
+  headers <- rbind(data.frame(X = "", part = a_part, subpart = a_subpart,
+                              line = 1, header = "Front Matter"), headers)
+  sect.idx <- c(1, headers$line[2:nrow(headers)] - 1, length(raw))
+  llag  <- sect.idx[1:(length(sect.idx) - 1)]
   llead <- sect.idx[2:(length(sect.idx))]
 
-  hsections <- lapply(1:(nrow(headers) + 1), function(i) {
-    if (i != 1) {
-      llag[i] <- llag[i] + 1
+  hsections <- lapply(1:nrow(headers), function(i) {
+    if (headers$header[i] != raw[llag[i]]) {
+      k <- 1
+      header_exceptions <- c("600.0 The Mission of the Soil Science Division, Natural Resources Conservation Service",
+                             "607.11 Example of a Procedure for Geodatabase Development, File Naming, Archiving, and Quality Assurance")
+      if (headers$header[i] %in% header_exceptions)
+        k <- 2 # long headers need (at least) an extra line; see heuristics for header parsing in parse_nssh_part()
+      llag[i] <- llag[i] + k
     }
     res <- fix_line_breaks(strip_lines(clean_chars(raw[llag[i]:llead[i]])))
     if (i == 1) {
       res$headerid <- 1
-      res$header = "Front Matter"
     }
+    res$header <- headers$header[i]
     res
   })
 
-  names(hsections) <- c("frontmatter", gsub("^(\\d+\\.\\d+) .*", "\\1", headers$header))
-  
+  names(hsections) <- c(gsub("^(\\d+\\.\\d+) .*", "\\1", headers$header))
+
   res <- convert_to_json(hsections)
   write(res, file = sprintf(file.path(outpath, "NSSH/%s/%s%s.json"),
                                       a_part, a_part, a_subpart))
@@ -293,28 +331,35 @@ parse_NSSH <- function(logfile = file.path(outpath, "NSSH/NSSH.log"),
 fix_line_breaks <- function(x) {
   # starts with A. (1) or 618. is a new line
 
+  # parse header components
   ids <- strsplit(gsub("^(\\d+)\\.(\\d+) (.*)$", "\\1:\\2:\\3", x[1]), ":")
 
-  res <- aggregate(x,
-                   by = list(cumsum(grepl("^[A-Z]\\.|^6[0-9]{2}\\. |^\\(\\d+\\)", x))), # |^\\(\\d+\\) -- not sure if this is desired
-                   FUN = paste, collapse = " ")
+  # remove header from content
+  x2 <- x[-1]
+  if (length(x2) > 0) {
+    res <- aggregate(x2,
+                     by = list(cumsum(grepl("^[A-Z]\\.|^6[0-9]{2}\\. |^\\(\\d+\\)", x2))), # |^\\(\\d+\\) -- not sure if this is desired
+                     FUN = paste, collapse = " ")
+  } else {
+    res <- aggregate(x,
+                     by = list(cumsum(grepl("^[A-Z]\\.|^6[0-9]{2}\\. |^\\(\\d+\\)", x))), # |^\\(\\d+\\) -- not sure if this is desired
+                     FUN = paste, collapse = " ")
+  }
 
   # check for clauses that dont start with a capital letter, a number or a parenthesis
   fclause.idx <- !grepl("^[A-Zivx0-9\\(]", res$x)
 
   if (length(fclause.idx) > 0)
     res$Group.1[fclause.idx] <- res$Group.1[fclause.idx] - 1
+  if (nrow(res) > 0) {
+    res2 <- aggregate(res$x,
+                      by = list(res$Group.1),
+                      FUN = paste, collapse = " ")
+  } else {
+    return(data.frame(clause = "", content = ""))
+  }
 
-  res2 <- aggregate(res$x,
-                    by = list(res$Group.1),
-                    FUN = paste, collapse = " ")
-
-  # idx.bad <- which(!grepl("\\.$", res2$x))
-  # res3 <- aggregate(res2$x,
-  #                   by = list(cumsum()),
-  #                   FUN = paste, collapse = " ")
-
-  colnames(res2) <- c("clause","content")
+  colnames(res2) <- c("clause", "content")
   res2$part <- ids[[1]][1]
   res2$headerid <- ids[[1]][2]
   res2$header <- ids[[1]][3]
