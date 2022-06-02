@@ -3,7 +3,7 @@
     {
       "term": "half graben",
       "text": "An elongate, structural trough or basin bounded on one side by a normal fault. It may or may not produce a topographic basin.",
-      "compare": null,
+      "compare": "graben",
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -81,7 +81,7 @@
     {
       "term": "head-of-outwash",
       "text": "A sloping and sometimes high relief landform composed predominantly of glaciofluvial sediment that delimits a former ice-margin of a relatively static, rapidly wasting glacier. A steep ice-contact slope forms the ice-proximal face of the landform; a more gently sloping surface dips away on the distal slope, if not slumped.",
-      "compare": null,
+      "compare": "ice",
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -93,7 +93,7 @@
     {
       "term": "head slope",
       "text": "[geomorphology] A geomorphic component of hills consisting of a laterally concave area of a hillside, especially at the head of a drainageway, resulting in converging overland water flow (e.g., sheet wash); head slopes are dominated by colluvium and slope wash sediments (e.g., slope alluvium); contour lines form concave curves. Slope complexity (downslope shape) can range from simple to complex. Headslopes are comparatively moister portions of hillslopes and tend to accumulate sediments (e.g., soils with over-thickened, dark epipedons) where they are not directly contributing materials to channel flow.",
-      "compare": null,
+      "compare": ["side slope", "nose slope", "free face", "interfluve", "crest", "base slope"],
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -105,7 +105,7 @@
     {
       "term": "headwall",
       "text": "A steep slope at the head of a valley (e.g., the rock cliff at the back of a cirque).",
-      "compare": null,
+      "compare": "cirque headwall",
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -141,7 +141,7 @@
     {
       "term": "herbaceous peat",
       "text": "An accumulation of organic material, decomposed to some degree that is predominantly the remains of sedges, reeds, cattails and other herbaceous plants.",
-      "compare": null,
+      "compare": ["moss peat", "sedimentary peat", "woody peat", "peat", "muck", "and mucky peat"],
       "sources": ["SS", "SSM"],
       "colloquial": false,
       "colloquloc": [],
@@ -153,7 +153,7 @@
     {
       "term": "high-center polygon",
       "text": "A polygon whose center is raised relative to its boundary.",
-      "compare": null,
+      "compare": "low",
       "sources": "NRC",
       "colloquial": false,
       "colloquloc": [],
@@ -165,7 +165,7 @@
     {
       "term": "high hill",
       "text": "A generic name for an elevated, generally rounded land surface with high local relief, rising between 90 meters (approx. 300 ft.) to as much as 300 m (approx. 1000 ft.) above surrounding lowlands.",
-      "compare": null,
+      "compare": ["low hill", "hill", "hillock"],
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -177,7 +177,7 @@
     {
       "term": "highmoor bog",
       "text": "A bog, often on the uplands, whose surface is covered by sphagnum mosses that, because of their high degree of water retention, make the bog more dependent upon precipitation than on the water table. The bog often occurs as a raised peat bog or blanket bog.",
-      "compare": null,
+      "compare": ["lowmoor bog", "raised bog"],
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -188,7 +188,7 @@
   [
     {
       "term": "highwall",
-      "text": "see headwall – [anthropogenic].",
+      "text": "see headwall - [anthropogenic].",
       "compare": null,
       "sources": null,
       "colloquial": false,
@@ -200,8 +200,8 @@
   [
     {
       "term": "hill",
-      "text": "A generic term for an elevated area of the land surface, rising at least 30 m (100 ft.) to as much as 300 meters (approx. 1000 ft.) above surrounding lowlands, usually with a nominal summit area relative to bounding slopes, a well-defined, rounded outline and slopes that generally exceed 15 percent. A hill can occur as a single, isolated mass or in a group. A hill can be further specified based on the magnitude of local relief: low hill (30 – 90 m) or high hill (90-300 m). Informal distinctions between a hill and a mountain are often arbitrary and dependent on local convention.",
-      "compare": null,
+      "text": "A generic term for an elevated area of the land surface, rising at least 30 m (100 ft.) to as much as 300 meters (approx. 1000 ft.) above surrounding lowlands, usually with a nominal summit area relative to bounding slopes, a well-defined, rounded outline and slopes that generally exceed 15 percent. A hill can occur as a single, isolated mass or in a group. A hill can be further specified based on the magnitude of local relief: low hill (30 - 90 m) or high hill (90-300 m). Informal distinctions between a hill and a mountain are often arbitrary and dependent on local convention.",
+      "compare": ["hillock", "plateau", "mountain", "foothills", "hills"],
       "sources": ["HP", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -212,8 +212,8 @@
   [
     {
       "term": "hillock",
-      "text": "A generic name for a small, low hill, generally between 3 – 30 m in height and slopes between 5 and 50 percent (e.g., bigger than a mound but smaller than a hill); commonly considered a microfeature.",
-      "compare": null,
+      "text": "A generic name for a small, low hill, generally between 3 - 30 m in height and slopes between 5 and 50 percent (e.g., bigger than a mound but smaller than a hill); commonly considered a microfeature.",
+      "compare": ["mound", "hill"],
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -249,7 +249,7 @@
     {
       "term": "hillslope",
       "text": "A generic term for the steeper part of a hill between its summit and the drainage line, valley flat, or depression floor at the base of the hill.",
-      "compare": null,
+      "compare": "mountain slope",
       "sources": "HP",
       "colloquial": false,
       "colloquloc": [],
@@ -261,7 +261,7 @@
     {
       "term": "hillslope-profile position",
       "text": "Discrete slope segments found along a transect line that runs perpendicular to the contour, beginning at a divide and descending to a lower, bounding stream channel or valley floor; a discrete piece of a two-dimensional cross profile of a hill. Positions are commonly separated from one another by inflection points along the line. In descending elevational order, the hillslope-profile positions of a simple hillslope include summit, shoulder, backslope, footslope, and toeslope. Not all of these segments (positions) are necessarily present along a particular hillslope. Complex hillslopes include multiple sequences or partial sequences, or partial sequences.  SW, HP, and RR",
-      "compare": null,
+      "compare": "geomorphic components",
       "sources": ["HP", "RR", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -273,7 +273,7 @@
     {
       "term": "hillslope terrace",
       "text": "[anthropogenic] A raised, generally horizontal strip of earth and/or rock bounded by a down-slope berm or retaining wall, constructed along a contour on a hillslope to make land suitable for tillage and to prevent accelerated erosion; common in steep terrain, both archaic (e.g., Peru) and modern (e.g., Nepal).",
-      "compare": null,
+      "compare": ["conservation terrace", "rice paddy"],
       "sources": ["GS", "GSST", "SS", "ST", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -284,8 +284,8 @@
   [
     {
       "term": "hillslope terrace anthroscape",
-      "text": "A human-modified “landscape” dominated by permanent alterations to the physical shape and/or internal stratigraphy of the land (i.e. complexes of large berms or walls and artificial terraces on sloping land), due to management for food or fiber production that have substantively altered water flow and sediment transport across or within the regolith; a type of agricultural anthroscape. Commonly excludes areas of minor alterations (e.g. low berms, shallow troughs or furrows) that are easily obscured or obliterated by natural bio-, pedo-, or cryoturbation.",
-      "compare": null,
+      "text": "A human-modified \\\"landscape\\\" dominated by permanent alterations to the physical shape and/or internal stratigraphy of the land (i.e. complexes of large berms or walls and artificial terraces on sloping land), due to management for food or fiber production that have substantively altered water flow and sediment transport across or within the regolith; a type of agricultural anthroscape. Commonly excludes areas of minor alterations (e.g. low berms, shallow troughs or furrows) that are easily obscured or obliterated by natural bio-, pedo-, or cryoturbation.",
+      "compare": ["urban anthroscape", "suburban anthroscape"],
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -308,8 +308,8 @@
   [
     {
       "term": "hogback",
-      "text": "A sharp-crested, symmetric ridge formed by highly tilted resistant rock layers; a type of homocline produced by differential erosion of interlayered resistant and weak rocks with dips greater than about 25° (or approximately > 45% slopes).",
-      "compare": null,
+      "text": "A sharp-crested, symmetric ridge formed by highly tilted resistant rock layers; a type of homocline produced by differential erosion of interlayered resistant and weak rocks with dips greater than about 25\\u00b0 (or approximately > 45% slopes).",
+      "compare": ["homoclinal ridge", "cuesta"],
       "sources": ["HP", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -320,7 +320,7 @@
   [
     {
       "term": "Holocene",
-      "text": "The epoch of the Quaternary Period of geologic time following the Pleistocene Epoch (from the present to about 10 to 12 thousand years ago); also corresponding (time-stratigraphic) “series” of earth materials.",
+      "text": "The epoch of the Quaternary Period of geologic time following the Pleistocene Epoch (from the present to about 10 to 12 thousand years ago); also corresponding (time-stratigraphic) \\\"series\\\" of earth materials.",
       "compare": null,
       "sources": "SW",
       "colloquial": false,
@@ -333,7 +333,7 @@
     {
       "term": "homoclinal",
       "text": "[structural geomorphology] (adjective) Pertaining to strata that dip in one direction with a uniform angle.",
-      "compare": null,
+      "compare": ["cuesta", "hogback", "homoclinal ridge"],
       "sources": "HP",
       "colloquial": false,
       "colloquloc": [],
@@ -344,8 +344,8 @@
   [
     {
       "term": "homoclinal ridge",
-      "text": "A homocline that forms an asymmetric ridge with a dip slope commonly between 10 to 25º (15 to 45%). A homoclinal ridge has steeper dip than a cuesta, but lower dip than a hogback.",
-      "compare": null,
+      "text": "A homocline that forms an asymmetric ridge with a dip slope commonly between 10 to 25\\u00ba (15 to 45%). A homoclinal ridge has steeper dip than a cuesta, but lower dip than a hogback.",
+      "compare": ["cuesta", "hogback"],
       "sources": ["RF", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -357,7 +357,7 @@
     {
       "term": "homocline",
       "text": "A general term for a series of rock strata that dip in one direction with a uniform angle (e.g., one limb of a fold, a tilted fault block, or an isocline).",
-      "compare": null,
+      "compare": ["cuesta", "homoclinal ridge", "hogback"],
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -369,7 +369,7 @@
     {
       "term": "hoodoo",
       "text": "A bizarrely shaped column, pinnacle, or pillar of rock produced by differential weathering or erosion in a region of sporadically heavy rainfall. Formation is facilitated by joints and layers of varying hardness.",
-      "compare": null,
+      "compare": "earth pillar",
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -405,7 +405,7 @@
     {
       "term": "hot spring",
       "text": "A natural, geothermally heated spring whose temperature is above that of the human body.",
-      "compare": null,
+      "compare": ["geyser", "mud pot"],
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -440,7 +440,7 @@
   [
     {
       "term": "hummock [geomorphology]",
-      "text": "(not preferred – see hillock). An imprecise, general term for a rounded or conical mound or other small elevation.",
+      "text": "(not preferred - see hillock). An imprecise, general term for a rounded or conical mound or other small elevation.",
       "compare": null,
       "sources": "GG",
       "colloquial": false,

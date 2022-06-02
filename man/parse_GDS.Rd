@@ -21,7 +21,7 @@ parse_GDS(
 
 \item{output_types}{Options include \code{c("txt","html")} for processed PDF files.}
 
-\item{keep_pdf}{Keep PDF files after processing TXT?}
+\item{keep_pdf}{Keep PDF files after processing TXT}
 }
 \description{
 parse_GDS

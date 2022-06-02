@@ -47,11 +47,6 @@ These links connect to
 [eDirectives](http://directives.sc.egov.usda.gov/) which are the
 official sources of standards of this nature.
 
-Error in poppler\_pdf\_text(loadfile(pdf), opw, upw) : PDF parsing
-failure. Error in poppler\_pdf\_text(loadfile(pdf), opw, upw) : PDF
-parsing failure. Error in names(srcx) &lt;- c(“code”, “citation”) :
-‘names’ attribute \[2\] must be the same length as the vector \[1\]
-
 <table>
 <colgroup>
 <col style="width: 9%" />
@@ -386,7 +381,7 @@ parsing failure. Error in names(srcx) &lt;- c(“code”, “citation”) :
 <tr class="odd">
 <td style="text-align: right;">600</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">600.0 The Mission of the Soil Science Division, Natural Resources Conservation</td>
+<td style="text-align: left;">600.0 The Mission of the Soil Science Division, Natural Resources Conservation Service</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">600</td>
@@ -486,7 +481,7 @@ parsing failure. Error in names(srcx) &lt;- c(“code”, “citation”) :
 <tr class="odd">
 <td style="text-align: right;">606</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">606.10 Template Statement of Commitment for Soil Survey and Ecological Site</td>
+<td style="text-align: left;">606.10 Template Statement of Commitment for Soil Survey and Ecological Site Inventory Projects</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">607</td>
@@ -511,7 +506,7 @@ parsing failure. Error in names(srcx) &lt;- c(“code”, “citation”) :
 <tr class="even">
 <td style="text-align: right;">607</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">607.11 Example of a Procedure for Geodatabase Development, File Naming,</td>
+<td style="text-align: left;">607.11 Example of a Procedure for Geodatabase Development, File Naming, Archiving, and Quality Assurance</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">608</td>
@@ -891,7 +886,7 @@ parsing failure. Error in names(srcx) &lt;- c(“code”, “citation”) :
 <tr class="even">
 <td style="text-align: right;">617</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">617.20 Example of Descriptions for Documenting Interpretations</td>
+<td style="text-align: left;">617.20 Example of Descriptions for Documenting Interpretations Example Documentation of Interpretations</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
@@ -1101,7 +1096,7 @@ parsing failure. Error in names(srcx) &lt;- c(“code”, “citation”) :
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.41 Landscape, Landform, Microfeature, Anthroscape, Anthropogenic</td>
+<td style="text-align: left;">618.41 Landscape, Landform, Microfeature, Anthroscape, Anthropogenic Landform, and Anthropogenic Microfeature</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
@@ -1306,7 +1301,7 @@ parsing failure. Error in names(srcx) &lt;- c(“code”, “citation”) :
 <tr class="odd">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.82 Crop Names and Units of Measure</td>
+<td style="text-align: left;">618.82 Crop Names and Units of Measure Refer to the NASIS-related metadata at</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">618</td>
@@ -1321,7 +1316,7 @@ parsing failure. Error in names(srcx) &lt;- c(“code”, “citation”) :
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.85 Distribution of Design Freezing Index Values in the Continental United</td>
+<td style="text-align: left;">618.85 Distribution of Design Freezing Index Values in the Continental United States</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
@@ -1331,7 +1326,7 @@ parsing failure. Error in names(srcx) &lt;- c(“code”, “citation”) :
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.87 Texture Triangle and Particle-Size Limits of AASHTO, USDA, and Unified</td>
+<td style="text-align: left;">618.87 Texture Triangle and Particle-Size Limits of AASHTO, USDA, and Unified Classification Systems</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
@@ -1341,7 +1336,7 @@ parsing failure. Error in names(srcx) &lt;- c(“code”, “citation”) :
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.89 Guide to Estimating Water Movement Through Bedrock for Layers</td>
+<td style="text-align: left;">618.89 Guide to Estimating Water Movement Through Bedrock for Layers Designated as R and Cr</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
@@ -1666,17 +1661,17 @@ parsing failure. Error in names(srcx) &lt;- c(“code”, “citation”) :
 <tr class="odd">
 <td style="text-align: right;">629</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">629.10 Lists of Landscape, Landform, Microfeature, and Anthropogenic Feature</td>
+<td style="text-align: left;">629.10 Lists of Landscape, Landform, Microfeature, and Anthropogenic Feature Terms Contained in the Glossary</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">629</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">629.11 List of Materials or Material-Related, Structure, or Morphological-Feature</td>
+<td style="text-align: left;">629.11 List of Materials or Material-Related, Structure, or Morphological-Feature Terms Contained in the Glossary</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">629</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">629.12 Genesis-Process Terms and Geologic Time Terms Contained in the</td>
+<td style="text-align: left;">629.12 Genesis-Process Terms and Geologic Time Terms Contained in the Glossary</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">629</td>
