@@ -39,7 +39,7 @@
     {
       "term": "debris avalanche",
       "text": "The mass movement process, associated sediments (debris avalanche deposit), or resultant landform characterized by a very rapid to extremely rapid type of flow dominated by the sudden downslope movement of incoherent, unsorted mixtures of soil and weathered bedrock that, although comparatively dry, behave much as a viscous fluid when moving.",
-      "compare": null,
+      "compare": ["debris flow", "earthflow", "landslide", "rockfall avalanche"],
       "sources": ["GG", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -51,7 +51,7 @@
     {
       "term": "debris fall",
       "text": "The mass movement process, associated sediments (debris fall deposit), or resultant landform characterized by a rapid type of fall involving the relatively free, downslope movement or collapse of detached, unconsolidated material that falls freely through the air (lacks an underlying slip face); sediments have substantial proportions of both fine earth and rock fragments; common along undercut stream banks.",
-      "compare": null,
+      "compare": ["rockfall", "soil fall", "landslide"],
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -63,7 +63,7 @@
     {
       "term": "debris slide",
       "text": "The mass movement process, associated sediments (debris slide deposit), or resultant landform characterized by a rapid type of slide, composed of comparatively dry and largely unconsolidated earthy material that slides or rolls downslope (does not exhibit backward rotation) and resulting in an irregular, hummocky deposit somewhat resembling a moraine.",
-      "compare": null,
+      "compare": ["rotational landslide", "block glide", "lateral spread", "landslide"],
       "sources": ["GG", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -75,7 +75,7 @@
     {
       "term": "debris spread",
       "text": "The mass movement process, associated sediments (debris spread deposit), or resultant landform characterized by a very rapid type of spread dominated by lateral movement in a soil and rock mass resulting from liquefaction or plastic flow of underlying materials that may be extruded out between intact units; sediments have substantial proportions of both fine earth and rock fragments.",
-      "compare": null,
+      "compare": ["earth spread", "rock spread", "landslide"],
       "sources": ["DV", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -87,7 +87,7 @@
     {
       "term": "debris topple",
       "text": "The mass movement process, associated sediments (debris topple deposit), or resultant landform characterized by a localized, very rapid type of topple in which large blocks of soil and rock material literally fall over, rotating outward over a low pivot point; sediments have substantial proportions of both fine earth and rock fragments. Portions of the original material may remain intact, although reoriented, within the resulting debris pile.",
-      "compare": null,
+      "compare": ["earth topple", "rock topple", "landslide"],
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -111,7 +111,7 @@
     {
       "term": "deflation basin",
       "text": "A topographic basin excavated and maintained by wind erosion that removes unconsolidated material and commonly leaves a rim of resistant material surrounding the depression. Unlike a blowout, a deflation basin does not include adjacent deposits derived from the basin.",
-      "compare": null,
+      "compare": "blowout",
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -123,7 +123,7 @@
     {
       "term": "deflation flat",
       "text": "(colloquial: US Gulf Coast) A series of low ridges and troughs on an essentially flat surface on barrier islands formed by dune field migration during alternating wet and dry periods; a type of interdune. Troughs are eroded down to the wet sand level during drought periods (dune slack), while the ridges are stabilized by vegetation that invades the edge of dune fields during wet periods.",
-      "compare": null,
+      "compare": ["blowout", "deflation basin"],
       "sources": "HF",
       "colloquial": true,
       "colloquloc": "US Gulf Coast",
@@ -135,7 +135,7 @@
     {
       "term": "degradation",
       "text": "[geomorphology] The wearing down or away, and the general lowering of the land surface by natural processes of weathering and erosion (e.g., the deepening by a stream of its channel); it may infer the process of transportation of sediment.",
-      "compare": null,
+      "compare": "destructional",
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -218,8 +218,8 @@
   [
     {
       "term": "depression",
-      "text": "Any relatively sunken part of the earth’s surface; especially a low-lying area surrounded by higher ground. A closed depression has no natural outlet for surface drainage (e.g., a sinkhole). An open depression has a natural outlet for surface drainage.",
-      "compare": null,
+      "text": "Any relatively sunken part of the earth\\'s surface; especially a low-lying area surrounded by higher ground. A closed depression has no natural outlet for surface drainage (e.g., a sinkhole). An open depression has a natural outlet for surface drainage.",
+      "compare": ["closed depression", "open depression"],
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -243,7 +243,7 @@
     {
       "term": "desert pavement",
       "text": "A natural, residual concentration or layer of wind-polished, closely packed gravel, boulders, and other rock fragments, mantling a desert surface. It is formed where wind action and sheetwash have removed all smaller particles or where rock fragments have migrated upward through sediments to the surface. It usually protects the underlying, finer-grained material from further deflation.  SW, GSST, and GG",
-      "compare": null,
+      "compare": ["erosion pavement", "stone line"],
       "sources": ["GG", "GS", "GSST", "SS", "ST", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -267,7 +267,7 @@
     {
       "term": "destructional",
       "text": "[geomorphology] (adjective) Said of a landform that owes its origin, form, position, or general character to the removal of material by erosion and weathering (degradation) processes resulting from the wearing-down or away of the land surface.",
-      "compare": null,
+      "compare": "constructional",
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -279,7 +279,7 @@
     {
       "term": "detritus",
       "text": "[geology] A collective term for rock and mineral fragments occurring in sediments, that are detached or removed by mechanical means (e.g., disintegration, abrasion) and derived from preexisting rocks and moved from their place of origin.",
-      "compare": null,
+      "compare": ["clastic", "epiclastic", "pyroclastic"],
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -303,7 +303,7 @@
     {
       "term": "diamictite",
       "text": "A general term for any nonsorted or poorly sorted, noncalcareous, terrigenous sedimentary rock (e.g., pebbly mudstone) containing a wide range of particle sizes.",
-      "compare": null,
+      "compare": "diamicton",
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -315,7 +315,7 @@
     {
       "term": "diamicton",
       "text": "A generic term for any nonlithified, nonsorted or poorly sorted sediment that contains a wide range of particle sizes, such as rock fragments contained within a fine earth matrix (e.g., till) and used when the genetic context of the sediment is uncertain.",
-      "compare": null,
+      "compare": "diamictite",
       "sources": ["GG", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -363,7 +363,7 @@
     {
       "term": "diatomite",
       "text": "A light-colored, soft, siliceous sedimentary rock consisting chiefly of opaline diatom frustules deposited in a lacustrine or marine environment. Diatomite has a number of uses owing to its high surface area, absorptive capacity, and relative chemical stability but the term is generally reserved for deposits of actual or potential commercial value.",
-      "compare": null,
+      "compare": "diatomaceous earth",
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -375,7 +375,7 @@
     {
       "term": "diatreme",
       "text": "A breccia-filled volcanic pipe that was formed by a gaseous explosion (e.g., hydrovolcanic eruption); commonly, but not exclusively associated with exposed throat or neck of maar, as in the Hopi Buttes area of northeastern Arizona.",
-      "compare": null,
+      "compare": "volcanic neck",
       "sources": ["GG", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -387,7 +387,7 @@
     {
       "term": "dike",
       "text": "[intrusive rocks] A tabular igneous intrusion that cuts across the bedding or foliation of the country rock.",
-      "compare": null,
+      "compare": "sill",
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -410,7 +410,7 @@
   [
     {
       "term": "dip",
-      "text": "[structural geology] The maximum angle that a structural surface, (e.g., a bedding or fault plane) makes with the horizontal, measured perpendicular to the strike of the structure and in the vertical plane; used in combination with “dip” to describe the orientation of bedrock strata.",
+      "text": "[structural geology] The maximum angle that a structural surface, (e.g., a bedding or fault plane) makes with the horizontal, measured perpendicular to the strike of the structure and in the vertical plane; used in combination with \\\"dip\\\" to describe the orientation of bedrock strata.",
       "compare": null,
       "sources": ["GG", "SW"],
       "colloquial": false,
@@ -423,7 +423,7 @@
     {
       "term": "dip slope",
       "text": "A slope of the land surface, roughly determined by and approximately conforming to the dip of underlying bedded rocks; (i.e., the long, gently inclined surface of a cuesta).",
-      "compare": null,
+      "compare": "scarp slope",
       "sources": "HP",
       "colloquial": false,
       "colloquloc": [],
@@ -447,7 +447,7 @@
     {
       "term": "discontinuous permafrost",
       "text": "Permafrost occurring in some areas beneath the exposed land surface throughout a geographic region where other areas are free of permafrost.",
-      "compare": null,
+      "compare": ["continuous permafrost", "sporadic permafrost"],
       "sources": "NRC",
       "colloquial": false,
       "colloquloc": [],
@@ -483,7 +483,7 @@
     {
       "term": "dissected plateau",
       "text": "A land area (landscape) produced by significant stream erosion and incision of a plateau such that only a small part of the plateau surface is at or near the original summit level. Much of the area occurs as hillslopes, or if incision is sufficient and relief is > 1000 feet, as mountain slopes.",
-      "compare": null,
+      "compare": "plateau",
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -495,7 +495,7 @@
     {
       "term": "distal",
       "text": "(sedimentology; adjective) Said of a sedimentary deposit consisting of fine clastics and deposited farthest from the source area.",
-      "compare": null,
+      "compare": "proximal",
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -541,7 +541,7 @@
     {
       "term": "divide",
       "text": "A summit area or tract of high ground, which can vary from broad to narrow, or a line of separation that constitutes a watershed boundary between adjacent drainage basins; a divide separates surface waters that flow naturally in one direction from those that flow in a different or opposite direction.",
-      "compare": null,
+      "compare": "interfluve",
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -552,13 +552,13 @@
   [
     {
       "term": "doline",
-      "text": "(not preferred) Refer to synonym “sinkhole.",
+      "text": "(not preferred) Refer to synonym \\\"sinkhole.",
       "compare": null,
       "sources": null,
       "colloquial": false,
       "colloquloc": [],
       "obsolete": true,
-      "preferred": "synonym “sinkhole"
+      "preferred": "synonym"
     }
   ],
   [
@@ -598,8 +598,8 @@
   [
     {
       "term": "dolostone",
-      "text": "(not recommended – use dolomite) An obsolete term proposed for the sedimentary rock called dolomite, in order to avoid confusion with the mineral of the same name.",
-      "compare": null,
+      "text": "(not recommended - use dolomite) An obsolete term proposed for the sedimentary rock called dolomite, in order to avoid confusion with the mineral of the same name.",
+      "compare": "dolomite",
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -727,7 +727,7 @@
     {
       "term": "dredged channel",
       "text": "A roughly linear, deep water area formed by a dredging operation for navigation purposes (after Wells et al., 1994; dredged hole).",
-      "compare": null,
+      "compare": "dredge",
       "sources": ["SS", "SSS"],
       "colloquial": false,
       "colloquloc": [],
@@ -739,7 +739,7 @@
     {
       "term": "dredge-deposit shoal",
       "text": "A subaqueous area, substantially shallower than the surrounding area that resulted from the deposition of materials from dredging and dumping (modified from Demas 1998).",
-      "compare": null,
+      "compare": ["dredged channel", "shoal"],
       "sources": ["SS", "SSS"],
       "colloquial": false,
       "colloquloc": [],
@@ -763,7 +763,7 @@
     {
       "term": "dredge spoil bank",
       "text": "A subaerial mound or ridge that permanently stands above the water composed of dredge spoils; randomly mixed sediments deposited during dredging and dumping.",
-      "compare": null,
+      "compare": ["dredged channel", "dredge"],
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -786,8 +786,8 @@
   [
     {
       "term": "dropstone",
-      "text": "An oversized stone (compared to the matrix sediments) in laminated sediment that depresses the underlying laminae and can be covered by “draped laminae.” Most dropstones originate through ice-rafting; another source is floating tree roots.",
-      "compare": null,
+      "text": "An oversized stone (compared to the matrix sediments) in laminated sediment that depresses the underlying laminae and can be covered by \\\"draped laminae.\\\" Most dropstones originate through ice-rafting; another source is floating tree roots.",
+      "compare": ["erratic", "ice"],
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -799,7 +799,7 @@
     {
       "term": "drumlin",
       "text": "A low, smooth, elongated oval hill, mound, or ridge of compact till that has a core of bedrock or drift. It usually has a blunt nose facing the direction from which the ice approached and a gentler slope tapering in the other direction. The longest axis is parallel to the general direction of glacier flow. Drumlins are products of streamline (laminar) flow of glaciers, which molded the subglacial floor through a combination of erosion and deposition.  SW, HP, and GG",
-      "compare": null,
+      "compare": "drumlinoid ridge",
       "sources": ["GG", "HP", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -823,7 +823,7 @@
     {
       "term": "drumlinoid ridge",
       "text": "A rock drumlin or drift deposit whose form approaches but does not fully attain that of a classic drumlin, even though it seemingly results from similar processes of moving ice.",
-      "compare": null,
+      "compare": ["drumlin", "interdrumlin"],
       "sources": ["GG", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -834,8 +834,8 @@
   [
     {
       "term": "dry wash",
-      "text": "(not preferred – refer to wash). A dry, ephemeral stream channel, especially in semiarid regions that only moves water in response to intense, infrequent precipitation.",
-      "compare": null,
+      "text": "(not preferred - refer to wash). A dry, ephemeral stream channel, especially in semiarid regions that only moves water in response to intense, infrequent precipitation.",
+      "compare": "arroyo",
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -847,7 +847,7 @@
     {
       "term": "dump",
       "text": "An area of smooth or uneven accumulations or piles of waste rock, earthy material, or general refuse that without major reclamation are incapable of supporting plants.",
-      "compare": null,
+      "compare": ["fill", "sanitary landfill"],
       "sources": ["GS", "GSST", "SS", "ST"],
       "colloquial": false,
       "colloquloc": [],
@@ -871,7 +871,7 @@
     {
       "term": "dune field",
       "text": "An assemblage of moving dunes, stabilized dunes, or both, together with sand plains, interdune areas, and the ponds, lakes, or swamps produced by the blocking of waterways by migrating dunes. See dune lake.",
-      "compare": null,
+      "compare": "coppice dune field",
       "sources": ["SS", "SSS", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -905,7 +905,7 @@
     {
       "term": "dune slack",
       "text": "A damp depression or trough between dunes in a dune field or dune ridges on a shore, caused by intersecting the capillary fringe of the local water table; a moist type of interdune.",
-      "compare": null,
+      "compare": ["interdune", "dune lake"],
       "sources": ["GG", "SW"],
       "colloquial": false,
       "colloquloc": [],

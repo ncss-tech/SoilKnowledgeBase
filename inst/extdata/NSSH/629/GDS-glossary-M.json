@@ -15,7 +15,7 @@
     {
       "term": "mafic rock",
       "text": "A general term for igneous rock composed chiefly of one or more ferromagnesian, dark-colored minerals; also said of those minerals.",
-      "compare": null,
+      "compare": "felsic rock",
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -27,7 +27,7 @@
     {
       "term": "main scarp",
       "text": "The steep surface on undisturbed ground at the upper edge of a landslide, caused by movement of displaced material away from the undisturbed ground; it is visible a part of the surface of rupture (slip surface).",
-      "compare": null,
+      "compare": ["minor scarp", "toe"],
       "sources": ["CV", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -39,7 +39,7 @@
     {
       "term": "mainland cove",
       "text": "A subaqueous area adjacent to the mainland or a submerged mainland beach that forms a minor recess or embayment within the larger basin.",
-      "compare": null,
+      "compare": ["cove", "barrier cove"],
       "sources": ["SS", "SSS"],
       "colloquial": false,
       "colloquloc": [],
@@ -63,7 +63,7 @@
     {
       "term": "marine deposit",
       "text": "Sediments (predominantly sands, silts and clays) of marine origin; laid down in the waters of an ocean.",
-      "compare": null,
+      "compare": ["estuarine deposit", "lagoonal deposit"],
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -74,7 +74,7 @@
   [
     {
       "term": "marine lake",
-      "text": "[water] An inland body of permanently standing brackish or saline water, occupying a depression on the earth’s surface whose water level is commonly influenced by ocean tides through subterranean cavities connecting to nearby lagoons; generally of appreciable size (larger than a pond) and too deep to permit emergent vegetation to take root completely across the expanse of water. Such water bodies can have unique biota (e.g., sting- less jellyfish of Palau).",
+      "text": "[water] An inland body of permanently standing brackish or saline water, occupying a depression on the earth\\'s surface whose water level is commonly influenced by ocean tides through subterranean cavities connecting to nearby lagoons; generally of appreciable size (larger than a pond) and too deep to permit emergent vegetation to take root completely across the expanse of water. Such water bodies can have unique biota (e.g., sting- less jellyfish of Palau).",
       "compare": null,
       "sources": "SW",
       "colloquial": false,
@@ -87,7 +87,7 @@
     {
       "term": "marine terrace",
       "text": "A constructional coastal strip, sloping gently seaward, veneered by marine deposits (typically silt, sand, fine gravel).",
-      "compare": null,
+      "compare": ["terrace", "wave"],
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -99,7 +99,7 @@
     {
       "term": "marl",
       "text": "A generic term loosely applied to a variety of materials, most of which occur as an earthy, unconsolidated deposit consisting chiefly of an intimate mixture of clay and calcium carbonate formed commonly by the chemical action of algae mats and organic detritus (periphyton); specifically an earthy substance containing 35 to 65 percent clay and 65 to 35 percent calcium carbonate mud; formed primarily under freshwater lacustrine conditions, but varieties associated with more saline environments and higher carbonate contents also occur.",
-      "compare": null,
+      "compare": ["coastal marl", "freshwater marl"],
       "sources": ["HP", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -111,7 +111,7 @@
     {
       "term": "marsh",
       "text": "Periodically wet or continually flooded areas with the surface not deeply submerged. Covered dominantly with sedges, cattails, rushes, or other hydrophytic plants.",
-      "compare": null,
+      "compare": ["salt marsh", "swamp", "bog", "fen"],
       "sources": ["GS", "GSST", "SS", "ST"],
       "colloquial": false,
       "colloquloc": [],
@@ -159,7 +159,7 @@
     {
       "term": "mawae",
       "text": "(colloquial: Hawaii) A natural surface channel commonly found near the middle of an aa lava flow, formed by the surficial draining of molten lava rather than by erosion from running water; a type of lava trench.",
-      "compare": null,
+      "compare": "lava tube",
       "sources": "MA",
       "colloquial": true,
       "colloquloc": "Hawaii",
@@ -194,7 +194,7 @@
   [
     {
       "term": "meander scar",
-      "text": "A crescent-shaped, concave or linear mark on the face of a bluff or valley wall, produced by the lateral erosion of a meandering stream that impinged upon and undercut the bluff; if it’s no longer adjacent to the modern stream channel, it indicates an abandoned route of the stream.",
+      "text": "A crescent-shaped, concave or linear mark on the face of a bluff or valley wall, produced by the lateral erosion of a meandering stream that impinged upon and undercut the bluff; if it\\'s no longer adjacent to the modern stream channel, it indicates an abandoned route of the stream.",
       "compare": null,
       "sources": "SW",
       "colloquial": false,
@@ -217,7 +217,7 @@
     {
       "term": "meander scroll",
       "text": "One of a series of long, parallel, close fitting, crescent-shaped ridges and troughs formed along the inner bank of a stream meander as the channel migrated laterally down-valley and toward the outer bank.",
-      "compare": null,
+      "compare": ["meander belt", "point bar"],
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -238,8 +238,8 @@
   [
     {
       "term": "meandering channel",
-      "text": "The term “meandering” should be restricted to loops with channel length more than 1.5 to 2 times the meander wave length. Meandering stream channels commonly have cross sections with low width-to-depth ratios, cohesive (fine-grained) bank materials, and low gradient. At a given bank-full discharge, meandering streams have gentler slopes, and deeper narrower, and more stable channel cross sections than braided streams.",
-      "compare": null,
+      "text": "The term \\\"meandering\\\" should be restricted to loops with channel length more than 1.5 to 2 times the meander wave length. Meandering stream channels commonly have cross sections with low width-to-depth ratios, cohesive (fine-grained) bank materials, and low gradient. At a given bank-full discharge, meandering streams have gentler slopes, and deeper narrower, and more stable channel cross sections than braided streams.",
+      "compare": ["meander", "braided stream", "flood"],
       "sources": ["HP", "RR"],
       "colloquial": false,
       "colloquloc": [],
@@ -283,7 +283,7 @@
     {
       "term": "melt-out till",
       "text": "A till that may be either subglacial or supraglacial in origin. Melt-out till forms by slow melting of debris-rich stagnant ice, but without secondary flow processes. The fabric and clast orientations, imparted by ice processes, remain mostly intact.",
-      "compare": null,
+      "compare": ["subglacial till", "supraglacial till", "flow till", "lodgment till"],
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -295,7 +295,7 @@
     {
       "term": "mesa",
       "text": "An isolated, flat-topped landform that stands distinctly above the adjacent land area, is bounded by steep slopes or cliffs, and is generally capped by erosion-resistant, nearly horizontal rock (often lava). Mesas and buttes have similar forms and isolated occurrence. A mesa has a summit area broader than the bounding cliff height. Mesas are most common in arid and semiarid regions, but are not climatically restricted.",
-      "compare": null,
+      "compare": ["butte", "plateau", "cuesta"],
       "sources": ["GG", "HP"],
       "colloquial": false,
       "colloquloc": [],
@@ -306,7 +306,7 @@
   [
     {
       "term": "metamorphic rock",
-      "text": "Rock of any origin altered in mineralogical composition, chemical composition, or structure by heat, pressure, and movement at depth in the earth’s crust. Nearly all such rocks are crystalline. Examples: schist, gneiss, quartzite, slate, marble.",
+      "text": "Rock of any origin altered in mineralogical composition, chemical composition, or structure by heat, pressure, and movement at depth in the earth\\'s crust. Nearly all such rocks are crystalline. Examples: schist, gneiss, quartzite, slate, marble.",
       "compare": null,
       "sources": "HP",
       "colloquial": false,
@@ -331,7 +331,7 @@
     {
       "term": "metastable slope",
       "text": "(not recommended: obsolete) A slope that is relatively stable at the present time, but may become active if the environmental balance is disturbed, for instance, by road construction or destruction of vegetation. A metastable slope is often related to base levels of former geomorphic episodes. The regolith is generally moderately deep, may contain stone lines or relict evidence of slope alluvium. Slope gradients usually range from 15 to 45 percent.",
-      "compare": null,
+      "compare": "active slope",
       "sources": "HP",
       "colloquial": false,
       "colloquloc": [],
@@ -342,8 +342,8 @@
   [
     {
       "term": "meteorite crater",
-      "text": "An impact crater formed by the falling of a large meteorite onto the earth’s surface (e.g., Barringer Crater (AZ)).",
-      "compare": null,
+      "text": "An impact crater formed by the falling of a large meteorite onto the earth\\'s surface (e.g., Barringer Crater (AZ)).",
+      "compare": ["crater", "impact crater"],
       "sources": ["GG", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -379,7 +379,7 @@
     {
       "term": "microfeature",
       "text": "[soil survey] Small, local, natural forms (features) on the land surface that are too small to delineate on a topographic or soils map at commonly used map scales (e.g., 1:24,000 to 1:10,000). They are readily identifiable at ground level and typically have substantial impact on local soil geography, local hydrology, and ecological microsites. Examples include earth pillar, patterned ground, frost boil.",
-      "compare": null,
+      "compare": "microrelief",
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -427,7 +427,7 @@
     {
       "term": "microrelief",
       "text": "[soil survey] Slight variations in the height of a land surface that are too small or intricate to delineate on a topographic or soils map at commonly used map scales (e.g., 1:24,000 through 1:10,000). Examples include microhigh, microslope, and microlow.",
-      "compare": null,
+      "compare": "microfeature",
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -436,7 +436,7 @@
     },
     {
       "term": "microrelief",
-      "text": "(not preferred – refer to microfeature) Generically refers to local, slight irregularities in form and height of a land surface that are superimposed upon a larger landform, including such features as low mounds, swales, and shallow pits.",
+      "text": "(not preferred - refer to microfeature) Generically refers to local, slight irregularities in form and height of a land surface that are superimposed upon a larger landform, including such features as low mounds, swales, and shallow pits.",
       "compare": null,
       "sources": "GG",
       "colloquial": false,
@@ -473,7 +473,7 @@
     {
       "term": "mima mound",
       "text": "A term used for one of numerous low circular or oval domes composed of loose, unstratified, gravelly, silty, or sandy material. The basal diameter varies from 3 meters to more than 30 meters, and the height from 30 centimeters to about 2 meters.",
-      "compare": null,
+      "compare": ["pimple mound", "patterned ground", "shrub"],
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -521,7 +521,7 @@
     {
       "term": "minor scarp",
       "text": "A steep surface on the displaced material of a landslide, produced by differential movements within the sliding mass.",
-      "compare": null,
+      "compare": ["main scarp", "toe"],
       "sources": "CV",
       "colloquial": false,
       "colloquloc": [],
@@ -532,7 +532,7 @@
   [
     {
       "term": "Miocene",
-      "text": "An epoch of the Tertiary Period of geologic time (approximately 5.2 to 23 million years ago) that immediately follows the Oligocene and precedes the Pliocene Epoch; also the corresponding (time-stratigraphic) “series” of earth materials.",
+      "text": "An epoch of the Tertiary Period of geologic time (approximately 5.2 to 23 million years ago) that immediately follows the Oligocene and precedes the Pliocene Epoch; also the corresponding (time-stratigraphic) \\\"series\\\" of earth materials.",
       "compare": null,
       "sources": "HP",
       "colloquial": false,
@@ -557,7 +557,7 @@
     {
       "term": "monadnock",
       "text": "An isolated hill or mountain of resistant rock rising conspicuously above the general level of a lower erosion surface in a temperate climate representing an isolated remnant of a former erosion cycle in an area that has largely been beveled to its base level.",
-      "compare": null,
+      "compare": ["inselberg", "nunatak"],
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -568,8 +568,8 @@
   [
     {
       "term": "monocline",
-      "text": "[landform] A unit of folded strata that dips from the horizontal in one direction only, is not part of an anticline or syncline, and occurs at the earth’s surface. This structure is typically present in plateau areas where nearly flat strata locally assume steep dips caused by differential vertical movements without faulting.",
-      "compare": null,
+      "text": "[landform] A unit of folded strata that dips from the horizontal in one direction only, is not part of an anticline or syncline, and occurs at the earth\\'s surface. This structure is typically present in plateau areas where nearly flat strata locally assume steep dips caused by differential vertical movements without faulting.",
+      "compare": ["anticline", "syncline", "fold"],
       "sources": ["HP", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -578,7 +578,7 @@
     },
     {
       "term": "monocline",
-      "text": "[structural geology]– A local steepening in an otherwise uniform gentle dip.",
+      "text": "[structural geology]- A local steepening in an otherwise uniform gentle dip.",
       "compare": null,
       "sources": "GG",
       "colloquial": false,
@@ -625,7 +625,7 @@
     {
       "term": "moss peat",
       "text": "An accumulation of organic material that is predominantly the remains of mosses (e.g., sphagnum moss).",
-      "compare": null,
+      "compare": ["herbaceous peat", "sedimentary peat", "woody peat", "peat", "muck", "and mucky peat"],
       "sources": ["SS", "SSM"],
       "colloquial": false,
       "colloquloc": [],
@@ -669,7 +669,7 @@
     {
       "term": "mountain",
       "text": "A generic term for an elevated area of the land surface, rising more than 300 meters above surrounding lowlands, usually with a nominal summit area relative to bounding slopes and generally with steep sides (greater than 25-percent slope) with or without considerable bare-rock exposed. A mountain can occur as a single, isolated mass or in a group forming a chain or range. Mountains are primarily formed by tectonic activity, volcanic action, or both and secondarily by differential erosion.",
-      "compare": null,
+      "compare": ["hill", "hillock", "plateau", "foothills", "mountains"],
       "sources": ["HP", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -681,7 +681,7 @@
     {
       "term": "mountainbase",
       "text": "A geomorphic component of mountains consisting of the lowermost area, consisting of the strongly to slightly concave colluvial apron or wedge at the bottom of mountain slopes; composed of long-transport colluvium and slope alluvium sediment. It can extend out onto more level valley areas where it ultimately interfingers with, is buried by alluvium or is replaced by reemergent residuum.",
-      "compare": null,
+      "compare": ["mountaintop", "mountainflank", "free face", "geomorphic component"],
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -693,7 +693,7 @@
     {
       "term": "mountainflank",
       "text": "A geomorphic component of mountains consisting of the side area of mountains, characterized by very long, complex backslopes with comparatively high slope gradients and composed of highly-diverse, colluvial sediment mantles, complex near-surface hydrology, mass movement processes and features (e.g., creep, landslides); rock outcrops or structural benches may be present. The mountainflank can be subdivided by the general location along the mountainside (i.e., upper-third, middle-third, or lower-third mountainflank).",
-      "compare": null,
+      "compare": ["mountaintop", "mountainbase", "free face", "geomorphic component"],
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -705,7 +705,7 @@
     {
       "term": "mountain range",
       "text": "A single, large mass consisting of a succession of mountains or narrowly spaced mountain ridges, with or without peaks, closely related in position, direction, orientation, formation, and age; a component part of a mountain system.",
-      "compare": null,
+      "compare": ["mountain system", "mountains"],
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -717,7 +717,7 @@
     {
       "term": "mountains",
       "text": "A region or landscape characterized by mountains and their intervening valleys; a generic name for any group, cluster, or sequence of mountains or narrowly spaced mountain ridges, with or without peaks, closely related in position, orientation, direction, formation, or age, and whose summits commonly exceed 300 m (approx. 1000 ft).",
-      "compare": null,
+      "compare": ["foothills", "hills", "mountain range", "mountain system"],
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -741,7 +741,7 @@
     {
       "term": "mountain slope",
       "text": "A part of a mountain between the summit and the foot.",
-      "compare": null,
+      "compare": ["mountainflank", "hillslope"],
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -753,7 +753,7 @@
     {
       "term": "mountain system",
       "text": "A group of mountain ranges exhibiting certain unifying features, such as similarity in form, structure and alignment, and presumably originating from the same general causes; especially a series of mountain ranges belonging to an orogenic belt.",
-      "compare": null,
+      "compare": ["mountain range", "mountains"],
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -765,7 +765,7 @@
     {
       "term": "mountaintop",
       "text": "A geomorphic component of mountains consisting of the uppermost, comparatively level or gently sloped area of mountains, characterized by relatively short, simple slopes composed of bare rock, residuum, or short-transport colluvial sediments. In humid environments, mountaintop soils can be quite thick and well developed.",
-      "compare": null,
+      "compare": ["mountainflank", "mountainbase", "free face", "geomorphic component"],
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -777,7 +777,7 @@
     {
       "term": "mountain valley",
       "text": "Any small, externally drained V-shaped depression (in cross-section) cut or deepened by a stream and floored with alluvium, or a broader, U-shaped depression modified by an alpine glacier and floored with either till or alluvium, that occurs on a mountain or within mountains. Several types of mountain valleys can be recognized based on their form and valley floor sediments (i.e., V-shaped valley, U-shaped valley).",
-      "compare": null,
+      "compare": "valley",
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -787,7 +787,7 @@
     {
       "term": "mountain valley",
       "text": "(colloquial: Basin and Range, United States) A relatively small, structural depression within a mountain range that is partly filled with alluvium and commonly drains externally to an intermontane basin, bolson, or semibolson.",
-      "compare": null,
+      "compare": "valley flat",
       "sources": ["FFP", "SW"],
       "colloquial": true,
       "colloquloc": ["Basin and Range", "United States"],
@@ -798,8 +798,8 @@
   [
     {
       "term": "muck",
-      "text": "Unconsolidated soil material consisting primarily of highly decomposed organic material in which the original plant parts are not recognizable (e.g., “sapric soil materials” of Soil Taxonomy). It generally contains more mineral matter, fewer plant fibers, and is usually darker in color than peat.",
-      "compare": null,
+      "text": "Unconsolidated soil material consisting primarily of highly decomposed organic material in which the original plant parts are not recognizable (e.g., \\\"sapric soil materials\\\" of Soil Taxonomy). It generally contains more mineral matter, fewer plant fibers, and is usually darker in color than peat.",
+      "compare": ["peat", "mucky peat", "herbaceous peat"],
       "sources": ["GS", "GSST", "SS", "ST"],
       "colloquial": false,
       "colloquloc": [],
@@ -810,8 +810,8 @@
   [
     {
       "term": "mucky peat",
-      "text": "Unconsolidated soil material consisting primarily of organic matter that is in an intermediate stage of decomposition such that a significant part of the original material can be recognized and a significant part of the material cannot be recognized (e.g., “hemic soil materials” of Soil Taxonomy).",
-      "compare": null,
+      "text": "Unconsolidated soil material consisting primarily of organic matter that is in an intermediate stage of decomposition such that a significant part of the original material can be recognized and a significant part of the material cannot be recognized (e.g., \\\"hemic soil materials\\\" of Soil Taxonomy).",
+      "compare": ["peat", "muck", "herbaceous peat"],
       "sources": ["SS", "SSM"],
       "colloquial": false,
       "colloquloc": [],
@@ -822,8 +822,8 @@
   [
     {
       "term": "mud flat",
-      "text": "(not preferred – use tidal flat) A relatively level area of fine grained material (e.g., silt) along a shore (as in a sheltered estuary) or around an island, alternately covered and uncovered by the tide or covered by shallow water, and barren of vegetation.",
-      "compare": null,
+      "text": "(not preferred - use tidal flat) A relatively level area of fine grained material (e.g., silt) along a shore (as in a sheltered estuary) or around an island, alternately covered and uncovered by the tide or covered by shallow water, and barren of vegetation.",
+      "compare": ["low marsh", "tidal flat", "tidal marsh"],
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -835,7 +835,7 @@
     {
       "term": "mud pot",
       "text": "A type of hot spring containing boiling mud, usually sulfurous and often multicolored, as in a paint pot. Mud pots are commonly associated with geysers and other hot springs in volcanic areas, especially in Yellowstone Natl. Park, WY.",
-      "compare": null,
+      "compare": ["geyser", "hot spring"],
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -847,7 +847,7 @@
     {
       "term": "mudflow",
       "text": "The mass movement process, associated sediments (mudflow deposit), or resultant landform characterized by a very rapid type of earthflow dominated by a sudden, downslope movement of a saturated mass of rock, soil, and mud (more than 50% of the particles are < 2 mm), that behaves as much as a viscous fluid when moving.",
-      "compare": null,
+      "compare": ["debris flow", "flow", "landslide"],
       "sources": ["DV", "SW"],
       "colloquial": false,
       "colloquloc": [],
