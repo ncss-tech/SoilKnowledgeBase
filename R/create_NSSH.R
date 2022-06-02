@@ -131,21 +131,24 @@ parse_nssh_index <- function(
         return(dfile)
       NA_character_
     })
+    # heuristic to find bad PDF files (<100kB); TODO: get these fixed
+    .badpdf <- function() (file.size(list.files(pdf_path, full.names = TRUE)) / 1024) < 100
+    bpf <- which(.badpdf())
+    if (length(bpf) > 0) {
+      logmsg(logfile, "Found %s PDFs with bad format", length(bpf))
+    }
+
+    txts <- lapply(lapply(lapply(pdfs, function(x) try(pdftools::pdf_text(x), silent = TRUE)), paste0, collapse = "\n"), function(x) strsplit(x, "\n")[[1]])
+
+    # TODO: bad pdf format
+    # cmb <-  try(pdftools::pdf_combine(paste0("https://directives.sc.egov.usda.gov/", res$url),
+    #                                   output = "test.pdf"))
+    # unlink(as.character(pdfs))
   }
 
-  # heuristic to find bad PDF files (<100kB); TODO: get these fixed
-  .badpdf <- function() (file.size(list.files(pdf_path, full.names = TRUE)) / 1024) < 100
-  bpf <- which(.badpdf())
-  if (length(bpf) > 0) {
-    logmsg(logfile, "Found %s PDFs with bad format", length(bpf))
+  if (length(txts) == 0) {
+    stop("Missing input PDFs")
   }
-
-  txts <- lapply(lapply(lapply(pdfs, function(x) try(pdftools::pdf_text(x), silent = TRUE)), paste0, collapse = "\n"), function(x) strsplit(x, "\n")[[1]])
-
-  # TODO: bad pdf format
-  # cmb <-  try(pdftools::pdf_combine(paste0("https://directives.sc.egov.usda.gov/", res$url),
-  #                                   output = "test.pdf"))
-  # unlink(as.character(pdfs))
 
   toc <- gsub("\\u2013", "-", txts[[1]])
   section <- toc[grep("^Parts", toc)]

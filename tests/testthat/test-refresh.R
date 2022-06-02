@@ -1,6 +1,9 @@
 context("Refreshing from external data sources")
 
 test_that("refresh (no source PDF download)", {
+  pdf_path <- file.path(find.package("SoilKnowledgeBase"), "NSSH", "pdf")
+  pdfs <- list.files(pdf_path, pattern = "pdf", recursive = TRUE, full.names = TRUE)
+  skip_if(length(pdfs) == 0)
   res <- refresh(download_pdf = FALSE, keep_pdf = TRUE)
   expect_true(all(unlist(res)))
   unlink("inst", recursive = TRUE)
