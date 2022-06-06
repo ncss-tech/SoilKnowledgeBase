@@ -49,9 +49,9 @@
   ],
   [
     {
-      "term": "geomorphic component – flat plains",
+      "term": "geomorphic component - flat plains",
       "text": ":A group of fundamental, three dimensional pieces or areas of flat plains. In descending elevational order, the geomorphic components of a simple, flat plain (e.g., lake plain, low coastal plain, etc.) are the rise (a broad, slightly elevated area with comparatively greater gradients (e.g., 1-3% slopes)), and the talf (a comparatively level (e.g., 0-1% slopes), laterally extensive, nonfluvial area), and dip (a slight depression that is not a permanent water body nor part of an integrated drainage network).",
-      "compare": null,
+      "compare": "geomorphic component",
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -61,7 +61,7 @@
   ],
   [
     {
-      "term": "geomorphic component – hills",
+      "term": "geomorphic component - hills",
       "text": ":A set of fundamental, three-dimensional areas and positions that geomorphically define a hill or ridge. In descending topographic order, the geomorphic components are interfluve (stable summit area); crest (unstable summit- converged shoulders); three geometric slope areas defined by plan shape and its influence on overland flow and throughflow: the head slope (convergent flow), side slope (parallel flow), and nose slope (divergent flow); free face (rock outcrop); and base slope (concave accretion area (colluvium/slope alluvium) at hill bottom).",
       "compare": null,
       "sources": "SW",
@@ -73,7 +73,7 @@
   ],
   [
     {
-      "term": "geomorphic component – mountains",
+      "term": "geomorphic component - mountains",
       "text": ":A group of fundamental, three-dimensional pieces or areas of mountains. In descending elevational order, the geomorphic components of a simple mountain are the mountaintop (roughly analogous to the crest or summit); mountainflank (the long slope along the sides of mountains that can be further subdivided into three portions based on the relative slope location: upper third-, middle third-, or lower third mountainflank); free face (rock outcrop); and the mountainbase (colluvium/slope alluvium apron at the bottom of the mountain).",
       "compare": null,
       "sources": "SW",
@@ -85,7 +85,7 @@
   ],
   [
     {
-      "term": "geomorphic component – terraces, stepped landforms",
+      "term": "geomorphic component - terraces, stepped landforms",
       "text": ":A group of fundamental, three dimensional pieces or areas of terraces, flood-plain steps, and other stepped landforms (e.g., stacked lava flow units). In descending elevational order, the geomorphic components are the tread (the level to gently sloping, laterally extensive top of a terrace, flood-plain step, or other stepped landform); and the riser (the comparatively short escarpment forming the more steeply sloping edge that descends to another level or a channel).",
       "compare": null,
       "sources": "SW",
@@ -98,8 +98,8 @@
   [
     {
       "term": "geomorphic surface",
-      "text": "A mappable area of the earth’s surface that has a common history; the area is of similar age and is formed by a set of processes during an episode of landscape evolution. A geomorphic surface can be erosional, constructional or both. The surface shape can be planar, concave, convex, or any combination of these.",
-      "compare": null,
+      "text": "A mappable area of the earth\\'s surface that has a common history; the area is of similar age and is formed by a set of processes during an episode of landscape evolution. A geomorphic surface can be erosional, constructional or both. The surface shape can be planar, concave, convex, or any combination of these.",
+      "compare": ["constructional", "erosional"],
       "sources": "RR",
       "colloquial": false,
       "colloquloc": [],
@@ -110,7 +110,7 @@
   [
     {
       "term": "geomorphology",
-      "text": "The science that treats the general configuration of the earth’s surface; specifically the study of the classification, description, nature, origin, and development of landforms and their relationships to underlying structures, and of the history of geologic changes as recorded by these surface features. The term is especially applied to the genetic interpretation of landforms.",
+      "text": "The science that treats the general configuration of the earth\\'s surface; specifically the study of the classification, description, nature, origin, and development of landforms and their relationships to underlying structures, and of the history of geologic changes as recorded by these surface features. The term is especially applied to the genetic interpretation of landforms.",
       "compare": null,
       "sources": "GG",
       "colloquial": false,
@@ -123,7 +123,7 @@
     {
       "term": "geyser",
       "text": "A type of hot spring that intermittently erupts jets of hot water and steam, the result of ground water coming in contact with rock or steam hot enough to create steam under conditions preventing free circulation; a type of intermittent spring.",
-      "compare": null,
+      "compare": ["mud pot", "hot spring"],
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -159,7 +159,7 @@
     {
       "term": "giant ripple",
       "text": "A ripple that is more than 30 m in length; e.g., the jokulhlaup derived giant ripples in Camas Prairie, MT; it usually exhibits superimposed megaripples.",
-      "compare": null,
+      "compare": "ripple mark",
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -207,7 +207,7 @@
     {
       "term": "glacial groove",
       "text": "A deep, wide, usually straight furrow cut in bedrock by the abrasive action of a rock fragment embedded in the bottom of a moving glacier; it is larger and deeper than a glacial striation, ranging in size from a deep scratch to a small glacial valley.",
-      "compare": null,
+      "compare": "flute",
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -251,7 +251,7 @@
     {
       "term": "glacial-marine sedimentation",
       "text": "The accumulation of glacially eroded, terrestrially derived sediment in the marine environment. Sediment may be introduced by fluvial transport, by ice rafting, as an ice-contact deposit, or by eolian transport.",
-      "compare": null,
+      "compare": "glaciomarine deposits",
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -274,7 +274,7 @@
   [
     {
       "term": "glacial till",
-      "text": "(not recommended: use till). Till should only be used for describing glacial sediments, therefore “glacial till” is redundant.",
+      "text": "(not recommended: use till). Till should only be used for describing glacial sediments, therefore \\\"glacial till\\\" is redundant.",
       "compare": null,
       "sources": "GM",
       "colloquial": false,
@@ -310,7 +310,7 @@
   [
     {
       "term": "glaciation",
-      "text": "The formation, movement and recession of glaciers or ice sheets. A collective term for the geologic processes of glacial activity, including erosion and deposition, and the resulting effects of such action on the earth's surface.",
+      "text": "The formation, movement and recession of glaciers or ice sheets. A collective term for the geologic processes of glacial activity, including erosion and deposition, and the resulting effects of such action on the earth\\'s surface.",
       "compare": null,
       "sources": "GG",
       "colloquial": false,
@@ -333,7 +333,7 @@
     {
       "term": "glacier",
       "text": "A stream-like landform having the appearance of, or moving like a glacier (e.g., a rock glacier).",
-      "compare": null,
+      "compare": ["snowfield", "rock glacier"],
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -345,7 +345,7 @@
     {
       "term": "glacier outburst flood",
       "text": "A sudden, often annual, release of meltwater from a glacier or glacier-damned lake sometimes resulting in a catastrophic flood, formed by melting of a drainage channel or buoyant lifting of ice by water or by subglacial volcanic activity; also called jokuhlaup.",
-      "compare": null,
+      "compare": ["scabland", "giant ripple"],
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -357,7 +357,7 @@
     {
       "term": "glaciofluvial deposit",
       "text": "Material moved by glaciers and subsequently sorted and deposited by streams flowing from the melting ice. The deposits are stratified and may occur in the form of outwash plains, valley trains, deltas, kames, eskers, and kame terraces.",
-      "compare": null,
+      "compare": "drift and outwash",
       "sources": "HP",
       "colloquial": false,
       "colloquloc": [],
@@ -369,7 +369,7 @@
     {
       "term": "glaciokarst",
       "text": "Karst in glaciated terrain developed on bedrock susceptible to dissolution (e.g., limestone), thinly mantled (e.g., < 5-30 m) with drift and characterized by surficial, closed depressions formed by postglacial, subsurface karstic collapse (e.g., sinkholes) rather than by glacial processes (e.g., ice-block meltout); common in IN, MI.",
-      "compare": null,
+      "compare": "karst",
       "sources": ["GG", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -405,7 +405,7 @@
     {
       "term": "glauconite pellets",
       "text": "Silt to sand-sized, nodular aggregates with a characteristic greenish color, dominantly composed of the clay mineral glauconite; formed in near-shore marine sediments and subsequently exposed by a drop in sea level or rise of a land mass, as on a coastal plain. Glauconite pellets have a high potassium content and higher CEC and moisture retention compared to other mineral sands.",
-      "compare": null,
+      "compare": "greensands",
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -439,7 +439,7 @@
     {
       "term": "graben",
       "text": "An elongate trough or basin bounded on both sides by high-angle, normal faults that dip towards the interior of the trough. It is a structural form that may or may not be geomorphically expressed as a rift valley.",
-      "compare": null,
+      "compare": ["horst", "half graben"],
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -518,8 +518,8 @@
     },
     {
       "term": "greensands",
-      "text": "(not preferred – use glauconitic sandstone) A sandstone consisting of greensand that is commonly poorly cemented, and has a greenish color when unweathered but an orange or yellow color when weathered.",
-      "compare": null,
+      "text": "(not preferred - use glauconitic sandstone) A sandstone consisting of greensand that is commonly poorly cemented, and has a greenish color when unweathered but an orange or yellow color when weathered.",
+      "compare": "glauconite pellets",
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -543,7 +543,7 @@
     {
       "term": "groove",
       "text": "A small, natural, narrow drainageway on high angle slopes that separate tertiary spur ridges or mini-interfluves and is a constituent part of rib and groove topography; common in well dissected uplands.",
-      "compare": null,
+      "compare": "rib",
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -565,7 +565,7 @@
     {
       "term": "ground moraine",
       "text": "A layer of poorly sorted rock and mineral debris (till) dragged along, in, on, or beneath a glacier and deposited by processes including basal lodgment and release from downwasting stagnant ice by ablation.",
-      "compare": null,
+      "compare": ["end moraine", "recessional", "moraine", "terminal moraine"],
       "sources": "SW",
       "colloquial": false,
       "colloquloc": [],
@@ -577,7 +577,7 @@
     {
       "term": "ground soil",
       "text": "A generic name for any soil at the present-day land surface and actively undergoing pedogenesis, regardless of its history (i.e., relict, exhumed).",
-      "compare": null,
+      "compare": "buried soil",
       "sources": ["RR", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -589,7 +589,7 @@
     {
       "term": "grus",
       "text": "The fragmental products of in situ granular disintegration of granite and granitic rocks, dominated by inter-crystal disintegration.",
-      "compare": null,
+      "compare": "saprolite",
       "sources": ["GG", "SW"],
       "colloquial": false,
       "colloquloc": [],
@@ -600,8 +600,8 @@
   [
     {
       "term": "gulch",
-      "text": "(colloquial: western United States; not preferred – refer to ravine) A small stream channel, narrow and steep-sided in cross section, and larger than a gully, cut in unconsolidated materials. General synonym – ravine.",
-      "compare": null,
+      "text": "(colloquial: western United States; not preferred - refer to ravine) A small stream channel, narrow and steep-sided in cross section, and larger than a gully, cut in unconsolidated materials. General synonym - ravine.",
+      "compare": ["arroyo", "draw", "gully", "wash"],
       "sources": "HP",
       "colloquial": true,
       "colloquloc": "western United States",
@@ -613,7 +613,7 @@
     {
       "term": "gulf",
       "text": "A relatively large part of an ocean or sea extending far into the land, partly enclosed by an extensive sweep of the coast, and opened to the sea through a strait (e.g., Gulf of Mexico); the largest of various forms of inlets of the sea. It is usually larger, more enclosed, and more deeply indented than a bay.",
-      "compare": null,
+      "compare": "bay",
       "sources": "GG",
       "colloquial": false,
       "colloquloc": [],
@@ -625,7 +625,7 @@
     {
       "term": "gully",
       "text": "A small channel with steep sides caused by erosion and cut in unconsolidated materials by concentrated but intermittent flow of water usually during and immediately following heavy rains or ice and snow melt. A gully generally is an obstacle to wheeled vehicles and too deep (e.g., > 0.5 m) to be obliterated by ordinary tillage; (a rill is of lesser depth and can be smoothed over by ordinary tillage).",
-      "compare": null,
+      "compare": ["rill", "ravine", "arroyo", "swale", "draw"],
       "sources": ["GS", "GSST", "HP", "SS", "ST"],
       "colloquial": false,
       "colloquloc": [],
@@ -660,8 +660,8 @@
   [
     {
       "term": "gypsite",
-      "text": "An earthy gypsum (CaSO4∙2H2O) variety that contains various quantities (i.e., < 50%) of soil material, silicate clay minerals, and sometimes other salts (e.g., NaCl); found only in arid or semiarid regions as secondary precipitation concentrations or efflorescence associated with rock gypsum or gypsum-bearing strata.",
-      "compare": null,
+      "text": "An earthy gypsum (CaSO4\\u22192H2O) variety that contains various quantities (i.e., < 50%) of soil material, silicate clay minerals, and sometimes other salts (e.g., NaCl); found only in arid or semiarid regions as secondary precipitation concentrations or efflorescence associated with rock gypsum or gypsum-bearing strata.",
+      "compare": ["rock gypsum", "rock anhydrite"],
       "sources": ["GG", "SW"],
       "colloquial": false,
       "colloquloc": [],

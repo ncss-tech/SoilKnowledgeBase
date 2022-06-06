@@ -50,7 +50,8 @@ download_GDS <- function(outpath = "./inst/extdata",
 #' @param outpath A directory path to create "inst/extdata/NSSH" folder structure.
 #' @param download_pdf Download official PDF file? default: "ifneeded"; options: TRUE/FALSE
 #' @param output_types Options include \code{c("txt","html")} for processed PDF files.
-#' @param keep_pdf Keep PDF files after processing TXT?
+#' @param keep_pdf Keep PDF files after processing TXT
+#' @importFrom stats aggregate
 #'
 parse_GDS <- function(logfile = file.path(outpath, "GDS/GDS.log"),
                       outpath = "./inst/extdata",
