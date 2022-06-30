@@ -24,7 +24,11 @@ library(SoilKnowledgeBase)
 ```{r results='asis', echo=FALSE}
 .SD <- NULL
 library(jsonlite)
-f <- list.files("inst/extdata/NSSH/", pattern = ".*6[0-9]{2}[AB]\\.json", recursive = TRUE, full.names = TRUE)
+
+skb_path <- file.path(find.package("SoilKnowledgeBase"), "inst/extdata/NSSH/")
+SoilKnowledgeBase::refresh(outpath = skb_path)
+
+f <- list.files(skb_path, pattern = ".*6[0-9]{2}[AB]\\.json", recursive = TRUE, full.names = TRUE)
 for (ff in f) {
   
   res <- data.table::rbindlist(lapply(lapply(read_json(ff), function(x) lapply(x, data.frame)), data.table::rbindlist), fill = TRUE)
