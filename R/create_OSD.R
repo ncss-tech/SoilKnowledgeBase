@@ -156,7 +156,7 @@ validateOSD <- function(logfile, filepath) {
   }
 
   # TODO: abstract and generalize these into rules
-  markers <- trimws(gsub("^([A-Z`']{2}[A-Z ().`']+[A-Za-z)`']{2}) ?[:;] ?.*|(USE): .*|(TY[PIC]+AL +PEDON)[ \\-]+.*|^(Typical +[Pp]edon) ?[;:\\-]+.*",
+  markers <- trimws(gsub("^([A-Z`']{2}[A-Z ().`']+[A-Za-z)`']{2}) ?[:;] ?.*|(USE): .*|(TY[PIC]+(AL|FYING) +PEDON)[ \\-]+.*|^(Ty[pic]+(al|fying) +[Pp]edon) ?[;:\\-]+.*",
                          "\\1\\2\\3\\4",
                          x[(ser.idx + 1):rem.idx]))
   marker_self1 <- trimws(unlist(strsplit(gsub("LOCATION +([A-Z .`']+) {2,}\\d?([A-Z\\+]+)", "\\1;\\2",
@@ -170,7 +170,7 @@ validateOSD <- function(logfile, filepath) {
 
     # TODO: abstract and generalize these into rules
     # three series in California have established dates before the state
-    marker_self1[1] <- trimws(gsub("[0-9]|/","",marker_self1[1]))
+    marker_self1[1] <- trimws(gsub("[0-9]|/", "", marker_self1[1]))
     marker_self1 <- trimws(unlist(strsplit(gsub("LOCATION +([A-Z .`']+) {2,}\\d?([A-Z\\+]+)", "\\1;\\2", marker_self1[1]), ";")))
 
     # inconsistent location and series
@@ -200,7 +200,7 @@ validateOSD <- function(logfile, filepath) {
   bad.idx <- grep("[a-z1-9]", markheaders)
 
   # has typical pedon
-  typ.idx <- grep("ty[pic]+al pedon", markheaders, ignore.case = TRUE)
+  typ.idx <- grep("ty[pic]+(al|fying) pedon", markheaders, ignore.case = TRUE)
   if (length(typ.idx) > 0) {
     if (any(typ.idx %in% bad.idx))
       bad.idx <- bad.idx[!(bad.idx %in% typ.idx)]
@@ -312,7 +312,8 @@ validateOSD <- function(logfile, filepath) {
                       content = NA))
         }
 
-        if (names(headerpatterns)[i] == "TAXONOMIC CLASS") {
+        if (names(headerpatterns)[i] == "TAXONOMIC CLASS" &&
+            idx_stop < idx_start) {
           idx_stop <- idx_start
         }
 
