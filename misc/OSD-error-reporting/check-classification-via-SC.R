@@ -112,6 +112,16 @@ if(.local) {
   
   # save locally
   render_diff(.d, file = 'S:/NRCS/Archive_Dylan_Beaudette/Focus-Teams/OSD/OSD-vs-SC.html', title = 'SC vs. OSD')
+  
+  write.csv(z, file = 'S:/NRCS/Archive_Dylan_Beaudette/Focus-Teams/OSD/taxclassname-errors.csv', row.names = FALSE)
+  
+  # https://github.com/ncss-tech/SoilKnowledgeBase/issues/49
+  # parse errors due to funky typical pedon section header
+  bad.tp.section.header <- z$series[which(nchar(z$OSD.taxcl) > 200)]
+  
+  # list for GH issue / email to SRSS
+  dput(bad.tp.section.header)
+  cat(sprintf('https://casoilresource.lawr.ucdavis.edu/sde/?series=%s#osd', bad.tp.section.header), sep = '\n')
 }
 
 
