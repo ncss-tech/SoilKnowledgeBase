@@ -107,12 +107,12 @@ validateOSD <- function(logfile, filepath) {
   }
 
   # this should be the last line in OSD
-  raw.max.idx <- grep("^U\\.S\\.A\\.$", raw)
+  raw.max.idx <- grep("^U\\. ?S\\. ?A\\.$", raw)
 
   if (length(raw.max.idx) == 0) {
     # if not present, take last line
     raw.max.idx <- length(raw)
-  } else if(length(raw.max.idx) > 1) {
+  } else if (length(raw.max.idx) > 1) {
     # this shouldnt happen (but it does) -- duplicated OSD contents e.g. HEDVILLE
     logmsg(logfile, "DUPLICATE 'U.S.A.' END OF FILE MARKER: %s", filepath)
   }
@@ -124,7 +124,7 @@ validateOSD <- function(logfile, filepath) {
   }
 
   # TODO: abstract and generalize these into rules
-  x <- trimws(raw[-grep("[A-Z '`][A-Z\\.'`]{2}[A-Z `']+.*|Typical [Pp]edon ?[:;\\-] .*|[A-Z]{3,}[:].*", raw, invert = TRUE)])
+  x <- trimws(raw[-grep("[A-Z '`][A-Z\\.'`]{2}[A-Z `']+.*|Ty[pic]+(al|fying)? ?[Pp]edon ?[:;\\-] ?.*|[A-Z]{3,}[:].*|\\(Colors are for", raw, invert = TRUE)])
 
   if (length(x) != length(unique(x))) {
     logmsg(logfile, "CHECK DUPLICATION OF HEADERS: %s", filepath)
@@ -138,11 +138,11 @@ validateOSD <- function(logfile, filepath) {
   # allow the last section to be remarks, additional data or diagnostic horizons and other features recognized
   rem.idx <- grep("REMARKS[:]|ADDITIONAL DATA[:]|DIAGNOSTIC HORIZONS AND OTHER FEATURES RECOGNIZED[:]|TABULAR SERIES DATA[:]", x)
   rem.idx <- rem.idx[length(rem.idx)]
-  
+
   if (length(rem.idx) == 0) {
     rem.idx <- lst.idx
   }
-  
+
   # unable to locate location and series
   if (is.na(loc.idx) | is.na(ser.idx) | length(x) == 0) {
     logmsg(logfile, "CHECK LOCATION AND/OR SERIES: %s", filepath)
@@ -156,7 +156,7 @@ validateOSD <- function(logfile, filepath) {
   }
 
   # TODO: abstract and generalize these into rules
-  markers <- trimws(gsub("^([A-Z`']{2}[A-Z ().`']+[A-Za-z)`']{2}) ?[:;] ?.*|(USE): .*|(TY[PIC]+AL +PEDON)[ \\-]+.*|^(Typical +[Pp]edon) ?[;:\\-]+.*",
+  markers <- trimws(gsub("^([A-Z`']{2}[A-Z ().`']+[A-Za-z)`']{2}) ?[:;] ?.*|(USE): .*|(TY[PIC]+AL +PEDON)[ \\-]+.*|^(Ty[pic]+(al|fying) +[Pp]edon) ?[;:\\-]+.*",
                          "\\1\\2\\3\\4",
                          x[(ser.idx + 1):rem.idx]))
   marker_self1 <- trimws(unlist(strsplit(gsub("LOCATION +([A-Z .`']+) {2,}\\d?([A-Z\\+]+)", "\\1;\\2",
@@ -170,7 +170,7 @@ validateOSD <- function(logfile, filepath) {
 
     # TODO: abstract and generalize these into rules
     # three series in California have established dates before the state
-    marker_self1[1] <- trimws(gsub("[0-9]|/","",marker_self1[1]))
+    marker_self1[1] <- trimws(gsub("[0-9]|/", "", marker_self1[1]))
     marker_self1 <- trimws(unlist(strsplit(gsub("LOCATION +([A-Z .`']+) {2,}\\d?([A-Z\\+]+)", "\\1;\\2", marker_self1[1]), ";")))
 
     # inconsistent location and series
@@ -200,7 +200,7 @@ validateOSD <- function(logfile, filepath) {
   bad.idx <- grep("[a-z1-9]", markheaders)
 
   # has typical pedon
-  typ.idx <- grep("ty[pic]+al pedon", markheaders, ignore.case = TRUE)
+  typ.idx <- grep("ty[pic]+(al|fying) pedon", markheaders, ignore.case = TRUE)
   if (length(typ.idx) > 0) {
     if (any(typ.idx %in% bad.idx))
       bad.idx <- bad.idx[!(bad.idx %in% typ.idx)]
@@ -227,7 +227,7 @@ validateOSD <- function(logfile, filepath) {
   # TODO: abstract and generalize these into rules
 
   headerpatterns <- c("TAXONOMIC CLASS",
-                      "TY[PIC]+(AL|FYING)? ?PEDON|SOIL PROFILE|Typical ?[Pp]edon|REFERENCE PEDON",
+                      "TY[PIC]+(AL|FYING)? ?PEDON|SOIL PROFILE|Soil Profile|Ty[pic]+(al|fying)? ?[Pp]edon|REFERENCE PEDON",
                       "TYPE LOCATION",
                       "RANGE IN CHARACTERISTICS|RANGE OF CHARACTERISTICS|RANGE OF INDIVIDUAL HORIZONS",
                       "COMPETING SERIES",
@@ -281,7 +281,7 @@ validateOSD <- function(logfile, filepath) {
           idx_start <- idx_start[pii]
         }
 
-        if (length(idx_start) == 0 | is.na(idx_start)) {
+        if (length(idx_start) == 0 || is.na(idx_start)) {
           idx_start <- grep(pattern = markheaders[p - 1], x = raw, fixed = TRUE)
         }
 
@@ -312,6 +312,11 @@ validateOSD <- function(logfile, filepath) {
                       content = NA))
         }
 
+        if (names(headerpatterns)[i] == "TAXONOMIC CLASS" &&
+            idx_stop < idx_start) {
+          idx_stop <- idx_start
+        }
+
         return(list(section = markheaders[p],
                     content = paste0(raw[unique(idx_start:idx_stop)], collapse = "\n")))
       })
@@ -327,6 +332,7 @@ validateOSD <- function(logfile, filepath) {
   present_idx <- apply(sapply(headerpatterns, function(y) {
     grepl(y, sapply(rez, function(x) x$section))
   }), 2, which)
+
 
   names(rez) <- names(headerpatterns)
   rez2 <- c(list(SERIES = marker_self2,
