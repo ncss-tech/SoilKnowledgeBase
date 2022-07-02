@@ -124,7 +124,7 @@ validateOSD <- function(logfile, filepath) {
   }
 
   # TODO: abstract and generalize these into rules
-  x <- trimws(raw[-grep("[A-Z '`][A-Z\\.'`]{2}[A-Z `']+.*|Typical [Pp]edon ?[:;\\-] .*|[A-Z]{3,}[:].*|\\(Colors are for", raw, invert = TRUE)])
+  x <- trimws(raw[-grep("[A-Z '`][A-Z\\.'`]{2}[A-Z `']+.*|Ty[pic]+(al|fying)? ?[Pp]edon ?[:;\\-] ?.*|[A-Z]{3,}[:].*|\\(Colors are for", raw, invert = TRUE)])
 
   if (length(x) != length(unique(x))) {
     logmsg(logfile, "CHECK DUPLICATION OF HEADERS: %s", filepath)
@@ -156,7 +156,7 @@ validateOSD <- function(logfile, filepath) {
   }
 
   # TODO: abstract and generalize these into rules
-  markers <- trimws(gsub("^([A-Z`']{2}[A-Z ().`']+[A-Za-z)`']{2}) ?[:;] ?.*|(USE): .*|(TY[PIC]+(AL|FYING) +PEDON)[ \\-]+.*|^(Ty[pic]+(al|fying) +[Pp]edon) ?[;:\\-]+.*",
+  markers <- trimws(gsub("^([A-Z`']{2}[A-Z ().`']+[A-Za-z)`']{2}) ?[:;] ?.*|(USE): .*|(TY[PIC]+AL +PEDON)[ \\-]+.*|^(Ty[pic]+(al|fying) +[Pp]edon) ?[;:\\-]+.*",
                          "\\1\\2\\3\\4",
                          x[(ser.idx + 1):rem.idx]))
   marker_self1 <- trimws(unlist(strsplit(gsub("LOCATION +([A-Z .`']+) {2,}\\d?([A-Z\\+]+)", "\\1;\\2",
@@ -281,7 +281,7 @@ validateOSD <- function(logfile, filepath) {
           idx_start <- idx_start[pii]
         }
 
-        if (length(idx_start) == 0 | is.na(idx_start)) {
+        if (length(idx_start) == 0 || is.na(idx_start)) {
           idx_start <- grep(pattern = markheaders[p - 1], x = raw, fixed = TRUE)
         }
 
