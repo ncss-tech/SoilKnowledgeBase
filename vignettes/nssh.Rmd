@@ -1,0 +1,68 @@
+---
+title: "National Soil Survey Handbook (NSSH)"
+output: 
+  rmarkdown::html_vignette:
+    toc: true
+    toc_depth: 3
+vignette: >
+  %\VignetteIndexEntry{National Soil Survey Handbook (NSSH)}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup, include=FALSE}
+library(SoilKnowledgeBase)
+
+skb1 <- "D:/workspace/SoilKnowledgeBase"
+if (!dir.exists(skb1)) {
+  skb1 <- "~/workspace/SoilKnowledgeBase"
+  if (!dir.exists(skb1)) {
+    skb1 <- find.package("SoilKnowledgeBase")
+  }
+}
+
+skb_path <- file.path(skb1, "inst/extdata/NSSH/")
+if (!dir.exists(skb_path)) {
+  SoilKnowledgeBase::create_NSSH(outpath = skb_path)
+}
+```
+
+```{r processNSSH, results='asis', echo=FALSE}
+.SD <- NULL
+library(data.table)
+library(jsonlite)
+
+f <- list.files(skb_path, pattern = ".*6[0-9]{2}[AB]?\\.json", recursive = TRUE, full.names = TRUE)
+for (ff in f) {
+  
+  res <- data.table::rbindlist(lapply(lapply(read_json(ff), function(x) lapply(x, data.frame)), data.table::rbindlist), fill = TRUE)
+  res$hgroup <- factor(res$header)
+  
+  .processHeader <- function(x) {
+    if (length(x) > 0 && 
+        !is.na(x[["header"]][1]) &&
+        x[["header"]][1] == "Front Matter") {
+      cat(paste0("## Part ", x[["part"]][1], " - ",
+                 x[["content"]][1]))
+      cat("\n")
+    } else {
+      cat(paste0("### ", x[["header"]][1], sep = "\n"))
+      cat("\n")
+      if (nrow(x) >= 1) {
+        cat("\n")
+        cat(paste0(x$content, "\n"), sep = "\n")
+        cat("\n")
+      }
+    }
+  }
+  
+  res[, .processHeader(.SD), by = "hgroup"]
+}
+```
