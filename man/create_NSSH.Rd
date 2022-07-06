@@ -4,10 +4,12 @@
 \alias{create_NSSH}
 \title{Create NSSH Dataset}
 \usage{
-create_NSSH(...)
+create_NSSH(outpath = "inst/extdata", ...)
 }
 \arguments{
-\item{...}{Arguments to \code{parse_nssh_index}}
+\item{outpath}{A directory path to create "NSSH" folder structure in; default: `"./inst/extdata"`}
+
+\item{...}{Additional arguments to `parse_nssh_index()`}
 }
 \value{
 TRUE if successful
