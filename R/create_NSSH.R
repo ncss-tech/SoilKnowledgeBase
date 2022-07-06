@@ -2,12 +2,14 @@
 
 #' Create NSSH Dataset
 #'
-#' @param ... Arguments to \code{parse_nssh_index}
+#' @param outpath A directory path to create "NSSH" folder structure in; default: `"./inst/extdata"`
+#' @param ... Additional arguments to `parse_nssh_index()`
 #' @return TRUE if successful
 #' @export
-create_NSSH <- function(...) {
- outpath = "./inst/extdata"
- logfile = file.path(outpath, "NSSH/NSSH.log")
+create_NSSH <- function(outpath = "inst/extdata", ...) {
+ if (!dir.exists(outpath))
+   dir.create(outpath, recursive = TRUE)
+ logfile <- file.path(outpath, "NSSH/NSSH.log")
 
  logmsg(logfile, "Processing NSSH from eDirectives...")
 
@@ -28,8 +30,10 @@ create_NSSH <- function(...) {
           a_part = dd$part,
           a_subpart = dd$subpart
         ))
+
       # Optional: special scripts (by NSSH Part #) can be called from inst/scripts/NSSH
-      rpath <- list.files(paste0("inst/scripts/NSSH/", p), ".*.R", full.names = TRUE)
+      rpath <- list.files(file.path(dirname(outpath), "scripts/NSSH/", p, ".*.R"), full.names = TRUE)
+
       # # find each .R file (one or more for each part) and source them
       lapply(rpath, function(filepath) {
         if (file.exists(filepath))
@@ -117,9 +121,10 @@ parse_nssh_index <- function(
   if (!dir.exists(pdf_path)) {
     dir.create(pdf_path, recursive = TRUE)
   }
+  txts <- NULL
   pdfs <- list.files(pdf_path, pattern = "pdf", recursive = TRUE, full.names = TRUE)
-  if ((length(pdfs) == 0 && (download_pdf == "ifneeded")) ||
-      (is.logical(download_pdf) && download_pdf)) {
+  if ((length(pdfs) == 0 || (download_pdf == "ifneeded" ||
+                             (is.logical(download_pdf) && download_pdf))) ) {
     pdfs <- lapply(res1$url, function(x) {
       dfile <- file.path(pdf_path, paste0(basename(x), ".pdf"))
       f <- download.file(
@@ -144,10 +149,10 @@ parse_nssh_index <- function(
     # cmb <-  try(pdftools::pdf_combine(paste0("https://directives.sc.egov.usda.gov/", res$url),
     #                                   output = "test.pdf"))
     # unlink(as.character(pdfs))
-  }
-
-  if (length(txts) == 0) {
-    stop("Missing input PDFs")
+    #
+    if (length(txts) == 0) {
+      stop("Missing input PDFs")
+    }
   }
 
   toc <- gsub("\\u2013", "-", txts[[1]])
@@ -318,6 +323,7 @@ parse_NSSH <- function(logfile = file.path(outpath, "NSSH/NSSH.log"),
     res <- fix_line_breaks(strip_lines(clean_chars(raw[llag[i]:llead[i]])))
     if (i == 1) {
       res$headerid <- 1
+      res$part <- a_part
     }
     res$header <- headers$header[i]
     res
