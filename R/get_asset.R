@@ -6,8 +6,8 @@
 #' @return A list, 1 list element per data source / file matching folder and name conditions
 #' @export
 get_assets <- function(folder, name) {
-  filenames <- list.files(file.path("inst/extdata", folder), 
-                          pattern =  name, 
+  filenames <- list.files(folder,
+                          pattern =  name,
                           full.names = TRUE)
   res <- lapply(filenames, .read_asset)
   names(res) <- filenames
@@ -23,14 +23,16 @@ get_assets <- function(folder, name) {
 #' @importFrom utils read.csv
 #' @importFrom tools file_ext
 #' @importFrom jsonlite read_json
+#' @noRd
+#' @keywords internal;
 .read_asset <- function(fname) {
-  
+
   fxt <- tolower(tools::file_ext(fname))
-  
+
   stopifnot(length(fxt) == 1)
-  
+
   if (fxt == 'csv') {
-    # .csv    
+    # .csv
     return(utils::read.csv(fname))
   } else if (fxt ==  'json') {
     return(jsonlite::read_json(fname)) # TODO: simplify vector default is FALSE
@@ -38,5 +40,5 @@ get_assets <- function(folder, name) {
     # ???
     stop("unknown asset")
   }
-  
+
 }
