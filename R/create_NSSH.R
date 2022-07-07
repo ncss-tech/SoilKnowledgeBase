@@ -306,7 +306,7 @@ parse_NSSH <- function(logfile = file.path(outpath, "NSSH/NSSH.log"),
   stopifnot(file.exists(raw_txt))
   raw <- suppressWarnings(readLines(raw_txt, encoding = "UTF-8"))
 
-  headers <- get_assets('NSSH','headers')[[1]]
+  headers <- get_assets(file.path(outpath, 'NSSH'), 'headers')[[1]]
   headers <- subset(headers, headers$part == a_part &
                              headers$subpart == a_subpart)
   headers <- rbind(data.frame(X = "", part = a_part, subpart = a_subpart,
