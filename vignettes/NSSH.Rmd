@@ -17,12 +17,17 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r setup, include=FALSE}
+```{r setup, echo=FALSE}
 library(SoilKnowledgeBase)
 
 skb_path <- tempdir()
-
-if (!dir.exists(file.path(skb_path, "NSSH"))) {
+f <- list.files(
+  skb_path,
+  pattern = ".*6[0-9]{2}[AB]?\\.json",
+  recursive = TRUE,
+  full.names = TRUE
+)
+if (length(f) == 0) {
   SoilKnowledgeBase::create_NSSH(outpath = skb_path)
 }
 ```
