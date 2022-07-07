@@ -15,7 +15,7 @@ create_NSSH <- function(outpath = "inst/extdata", ...) {
 
   # run inst/scripts/NSSH
 
-   dat <- parse_nssh_index(logfile = logfile, ...)
+   dat <- parse_nssh_index(logfile = logfile, outpath = outpath, ...)
    attempt <- try(for (p in unique(dat$part)) {
 
    hed <- parse_nssh_part(dat$part, dat$subpart, outpath = outpath, logfile = logfile)
@@ -115,6 +115,7 @@ parse_nssh_index <- function(
       txt = rvest::html_text(rvest::html_nodes(p, 'a'))
     )
   }))
+  res0$txt[trimws(res0$txt) == ""] <- NA
 
   res1 <- res0[complete.cases(res0),]
   pdf_path <- file.path(outpath, "NSSH", "pdf")
@@ -137,13 +138,17 @@ parse_nssh_index <- function(
       NA_character_
     })
     # heuristic to find bad PDF files (<100kB); TODO: get these fixed
+    # sent to jennifer 07/07/22
     .badpdf <- function() (file.size(list.files(pdf_path, full.names = TRUE)) / 1024) < 100
     bpf <- which(.badpdf())
     if (length(bpf) > 0) {
       logmsg(logfile, "Found %s PDFs with bad format", length(bpf))
     }
 
-    txts <- lapply(lapply(lapply(pdfs, function(x) try(pdftools::pdf_text(x), silent = TRUE)), paste0, collapse = "\n"), function(x) strsplit(x, "\n")[[1]])
+    txts <- lapply(lapply(lapply(pdfs, function(x) {
+        # cat("extracting PDF text for: ", x, "\n")
+        try(pdftools::pdf_text(x), silent = TRUE)
+      }), paste0, collapse = "\n"), function(x) strsplit(x, "\n")[[1]])
 
     # TODO: bad pdf format
     # cmb <-  try(pdftools::pdf_combine(paste0("https://directives.sc.egov.usda.gov/", res$url),
