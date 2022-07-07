@@ -24,7 +24,7 @@ if (!dir.exists(file.path(find.package("SoilKnowledgeBase"), "inst", "extdata"))
   dir.create(file.path(find.package("SoilKnowledgeBase"), "inst", "extdata"), recursive = TRUE)
 }
 
-skb_path <- system.file("inst", "extdata", package = "SoilKnowledgeBase")
+skb_path <- system.file("extdata", package = "SoilKnowledgeBase")
 
 if (!dir.exists(file.path(skb_path, "NSSH"))) {
   SoilKnowledgeBase::create_NSSH(outpath = skb_path)
@@ -37,6 +37,11 @@ library(data.table)
 library(jsonlite)
 
 f <- list.files(skb_path, pattern = ".*6[0-9]{2}[AB]?\\.json", recursive = TRUE, full.names = TRUE)
+
+if (length(f) == 0) {
+  message("no JSON files available to parse")
+}
+
 for (ff in f) {
   
   res <- data.table::rbindlist(lapply(lapply(read_json(ff), function(x) lapply(x, data.frame)), data.table::rbindlist), fill = TRUE)
