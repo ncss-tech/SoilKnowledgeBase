@@ -1,9 +1,8 @@
 ---
 title: "National Soil Survey Handbook (NSSH)"
 output: 
-  rmarkdown::html_vignette:
+  tufte::tufte_html:
     toc: true
-    toc_depth: 3
 vignette: >
   %\VignetteIndexEntry{National Soil Survey Handbook (NSSH)}
   %\VignetteEngine{knitr::rmarkdown}
