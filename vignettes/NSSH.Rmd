@@ -20,11 +20,7 @@ knitr::opts_chunk$set(
 ```{r setup, include=FALSE}
 library(SoilKnowledgeBase)
 
-if (!dir.exists(file.path(find.package("SoilKnowledgeBase"), "inst", "extdata"))) {
-  dir.create(file.path(find.package("SoilKnowledgeBase"), "inst", "extdata"), recursive = TRUE)
-}
-
-skb_path <- system.file("extdata", package = "SoilKnowledgeBase")
+skb_path <- tempdir()
 
 if (!dir.exists(file.path(skb_path, "NSSH"))) {
   SoilKnowledgeBase::create_NSSH(outpath = skb_path)
@@ -67,4 +63,6 @@ for (ff in f) {
   
   res[, .processHeader(.SD), by = "hgroup"]
 }
+
+unlink(skb_path, recursive = TRUE)
 ```
