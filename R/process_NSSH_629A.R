@@ -165,7 +165,7 @@ process_NSSH_629A <- function(outpath = "./inst/extdata") {
     txt <- gloss.split[[letter]]
 
     # filename
-    f <- sprintf('inst/extdata/NSSH/629/GDS-glossary-%s.json', letter)
+    f <- file.path(outpath, sprintf('NSSH/629/GDS-glossary-%s.json', letter))
 
     # save
     jsonlite::write_json(txt, path = f, pretty = TRUE, auto_unbox = TRUE)
