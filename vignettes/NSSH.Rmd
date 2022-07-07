@@ -20,16 +20,8 @@ knitr::opts_chunk$set(
 ```{r setup, include=FALSE}
 library(SoilKnowledgeBase)
 
-skb1 <- "D:/workspace/SoilKnowledgeBase"
-if (!dir.exists(skb1)) {
-  skb1 <- "~/workspace/SoilKnowledgeBase"
-  if (!dir.exists(skb1)) {
-    skb1 <- find.package("SoilKnowledgeBase")
-  }
-}
-
-skb_path <- file.path(skb1, "inst/extdata/NSSH/")
-if (!dir.exists(skb_path)) {
+skb_path <- system.file("inst", "extdata", package = "SoilKnowledgeBase")
+if (!dir.exists(file.path(skb_path, "NSSH"))) {
   SoilKnowledgeBase::create_NSSH(outpath = skb_path)
 }
 ```
