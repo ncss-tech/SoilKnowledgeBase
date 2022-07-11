@@ -49,7 +49,7 @@ library(SoilKnowledgeBase)
 stopifnot(all(unlist(refresh(keep_pdf = TRUE))))
 
 # access the assets
-dat <- get_assets('NSSH', 'index')[[1]]
+dat <- get_assets('inst/extdata/NSSH', 'index')[[1]]
 
 .doAbbreviate <- function(x) {
   xx <- gsub("National Cooperative Soil Survey", "NCSS", x)
@@ -69,7 +69,7 @@ knitr::kable(dat[,c('part_subpart', 'parent', 'section', 'href')],
 ### The following are headers within individual handbook parts
 
 ```{r}
-nssh_headers <- get_assets('NSSH', 'headers')[[1]]
+nssh_headers <- get_assets('inst/extdata/NSSH', 'headers')[[1]]
 
 if (!is.null(nssh_headers)) {
   knitr::kable(nssh_headers[, c("part", "subpart", "header")],
