@@ -103,7 +103,7 @@ jobs:
       - name: Post-processing
         run: |
           Rscript misc/OSD-error-reporting/typical-pedon.R
-          Rscript misc/OSD-error-reporting/typical-pedon.R
+          Rscript misc/OSD-error-reporting/osd-sections.R
 
       - name: Commit results
         run: |
