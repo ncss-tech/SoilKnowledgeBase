@@ -13,44 +13,47 @@ context("OSD Parsing")
 
 
 test_that("horizon depths (with unit conversion) and designation", {
-  
+
   # MENDEL
   lines <- strsplit("TYPICAL PEDON:
                     A--0 to 13 cm; grayish brown (10YR 5/2) very cobbly coarse sandy loam, very dark grayish brown (10YR 3/2) moist; 76 percent sand; 17 percent silt; 7 percent clay; weak very fine and fine granular structure; slightly hard, friable, slightly sticky, nonplastic; many very fine, and common fine and medium roots throughout; common very fine, fine, and medium interstitial pores; 20 percent subrounded indurated granite gravel, 20 percent subrounded indurated granite cobbles, 5 percent subrounded indurated granite stones; NaF pH 8.9; moderately acid (pH 5.6); abrupt smooth boundary. (9 to 20 cm thick) Lab sample # 16N00926", split = '\n')[[1]]
-  
+
   z <- SoilKnowledgeBase:::.extractHzData(lines)
-  
+
   expect_true(
     all(
       z[, 1:3] == c('A', 0, 13)
     )
   )
-  
-  
+
+
   # CECIL
   lines <- strsplit("TYPICAL PEDON:
                     Bt2--26 to 42 inches; red (10R 4/8) clay; few fine prominent yellowish red (5YR 5/8) mottles; moderate medium subangular blocky structure; firm; sticky, plastic; common clay films on faces of peds; few fine flakes of mica; very strongly acid; gradual wavy boundary. (Combined thickness of the Bt horizon is 24 to 50 inches)", split = '\n')[[1]]
-  
+
   z <- SoilKnowledgeBase:::.extractHzData(lines)
-  
+
   # depths and horizon desgn.
   expect_true(
     all(
       z[, 1:3] == c('Bt2', 66, 107)
     )
   )
-  
-  
+
+
   # SYCAMORE: typical OCR errors, now fixed in the OSD but common elsewhere
+  # NB: for testing typical pedon color parsing, moisture state statement is required for dry/moist to be ID'd right
   lines <- strsplit("TYPICAL PEDON:
+                    Colors are for dry soil unless otherwise specified.
                     C--42 to 60 inches; stratified light brownish gray (lOYR 6/2) and pale brown (lOYR 6/3) loam, fine sandy loam, and loamy fine sand with some silty lenses, dark grayish brown and dark brown (lOYR 4/2 and 4/3) moist; many fine distinct yellowish brown and strong brown mottles; massive; slightly hard, friable; common very fine and fine pores; slightly calcareous, lime mainly disseminated; water table may fluctuate in this horizon depending on the level of the water in the river; moderately alkaline.", split = '\n')[[1]]
 
   z <- SoilKnowledgeBase:::.extractHzData(lines)
 
-  # colors with OCR errors
+  # colors with OCR errors are parsed
+  # lOYR is not valid level of hue, but can be identified as error and fixed downstream
   expect_true(
     all(
-      z[, c('dry_hue', 'dry_value', 'dry_chroma')] == c('10YR', 6, 2)
+      z[, c('dry_hue', 'dry_value', 'dry_chroma')] == c('lOYR', 6, 2)
     )
   )
 
@@ -60,40 +63,40 @@ test_that("horizon depths (with unit conversion) and designation", {
       z[, 1:3] == c('C', 107, 152)
     )
   )
-  
+
   # DRUMMER
   lines <- strsplit("TYPICAL PEDON:
                     2Cg--119 to 152 cm (47 to 60 inches); dark gray (10YR 4/1) stratified loam and sandy loam; massive; friable; many medium prominent olive brown (2.5Y 4/4) masses of oxidized iron-manganese in the matrix; many medium distinct gray (N 5/) iron depletions in the matrix; slightly alkaline.", split = '\n')[[1]]
-  
+
   z <- SoilKnowledgeBase:::.extractHzData(lines)
-  
+
   expect_true(
     all(
       z[, 1:3] == c('2Cg', 119, 152)
     )
   )
-  
-  
+
+
   # IRON MOUNTAIN
   lines <- strsplit("TYPICAL PEDON:
                     R--23 cm ; hard volcanic breccia which is impervious to both roots and water .", split = '\n')[[1]]
-  
+
   z <- SoilKnowledgeBase:::.extractHzData(lines)
-  
+
   expect_true(
     all(
       z[, 1:2] == c('R', 23)
     )
   )
-  
+
   expect_true(is.na(z$bottom))
-  
+
 })
 
 
 # note: TYPICAL PEDON line must be included for the proper identification of default color moisture state
 test_that("entire TYPICAL PEDON section", {
-  
+
   # LUCY
   lines <- strsplit("TYPICAL PEDON: Lucy loamy sand, on a 2 percent convex slope in a cultivated field (Colors are for moist soil).
 
@@ -104,24 +107,24 @@ E--8 to 24 inches; strong brown (7.5YR 5/6) loamy sand; weak fine granular struc
 Bt1--24 to 35 inches; yellowish red (5YR 4/6) sandy loam; weak medium subangular blocky structure; very friable; sand grains coated and bridged with clay; strongly acid; clear smooth boundary.
 
 Bt2--35 to 70 inches; red (2.5YR 4/8) sandy clay loam; weak medium subangular blocky structure; friable; common faint clay films on faces of peds; strongly acid. (The Bt horizon extends to a depth of 60 inches or more.)", split = '\n')[[1]]
-  
-  
+
+
   z <- SoilKnowledgeBase:::.extractHzData(lines)
-  
+
   # horizon designation
   expect_equal(z$name, c('Ap', 'E', 'Bt1', 'Bt2'))
-  
+
   # top depth in cm
   expect_equal(z$top, c(0, 20, 61, 89))
-  
+
   # bottom depth in cm
   expect_equal(z$bottom, c(20, 61, 89, 178))
-  
+
   # moist colors
   expect_equal(z$moist_hue, c('10YR', '7.5YR', '5YR', '2.5YR'))
   expect_equal(z$moist_value, c(4, 5, 4, 4))
   expect_equal(z$moist_chroma, c(2, 6, 6, 8))
-  
+
 })
 
 
@@ -156,42 +159,42 @@ BCk2--188 to 203 cm (74 to 80 in); light gray (5Y 7/1) clay, white (5Y 8/1) dry;
 
   # horizon designation
   expect_equal(z$name, c('A1', 'A2', 'Bt1', 'Bt2', 'Bt3', 'Bt4', 'Btk', 'BCtk', 'BCk1', 'BCk2'))
-  
+
   # top depth in cm
   expect_equal(z$top, c(0, 30, 41, 51, 76, 104, 122, 155, 168, 188))
-  
+
   # bottom depth in cm
   expect_equal(z$bottom, c(30, 41, 51, 76, 104, 122, 155, 168, 188, 203))
-  
+
   # moist colors
   expect_equal(z$moist_hue, c('10YR', '10YR', '10YR', '10YR', '10YR', '10YR', '10YR', '10YR', '5Y', '5Y'))
   expect_equal(z$moist_value, c(4, 5, 6, 6, 6, 6, 5, 6, 7, 7))
   expect_equal(z$moist_chroma, c(3, 2, 2, 1, 1, 1, 6, 4, 1, 1))
-  
+
   # texture class
   expect_equal(
-    as.character(z$texture_class), 
-    c("fine sandy loam", "fine sandy loam", "sandy clay", "sandy clay", 
-      "sandy clay loam", "sandy clay loam", "sandy clay loam", "very fine sandy loam", 
+    as.character(z$texture_class),
+    c("fine sandy loam", "fine sandy loam", "sandy clay", "sandy clay",
+      "sandy clay loam", "sandy clay loam", "sandy clay loam", "very fine sandy loam",
       "clay", "clay")
   )
-  
+
   # pH class
   expect_equal(
-    as.character(z$pH_class), 
-    c("slightly acid", "strongly acid", "strongly acid", "moderately acid", 
-      "moderately acid", "neutral", "neutral", "moderately alkaline", 
+    as.character(z$pH_class),
+    c("slightly acid", "strongly acid", "strongly acid", "moderately acid",
+      "moderately acid", "neutral", "neutral", "moderately alkaline",
       "moderately alkaline", "moderately alkaline")
   )
-  
+
   # coarse fragment class: all NA in this case
   expect_true(
     all(
       is.na(z$cf_class)
     )
   )
-  
-  
+
+
 })
 
 # ensure that spurious horizon found in the TYPICAL PEDON line is filtered
@@ -211,7 +214,7 @@ Bw1--13 to 35 cm; light yellowish brown (10YR 6/4) very cobbly loamy coarse sand
 
 ## TODO add a couple more strange ones, flagstones etc.
 test_that("coarse fragment extraction", {
-  
+
   lines <- strsplit("TYPICAL PEDON: Pardee gravelly loam on a west-facing, 4 percent slope, under annual grasses and forbs with scattered blue oaks at an elevation of 137 meters. (Colors are for dry soil unless otherwise stated. When described on May 3, 1960, the soil was moist throughout.)
 
 A1--0 to 5 cm; brown (7.5YR 5/3) gravelly loam, dark brown (7.5YR 3/4) moist; massive; slightly hard, friable, slightly sticky and slightly plastic; common very fine roots; many very fine interstitial and tubular pores; 10 percent mixed rounded indurated gravel, 5 percent mixed rounded indurated cobbles; slightly acid (pH 6.3); gradual smooth boundary. (5 to 18 cm thick)
@@ -223,17 +226,17 @@ Bt1--23 to 36 cm; brown (7.5YR 5/4) very cobbly loam, reddish brown (5YR 4/4) mo
 Bt2--36 to 43 cm; brown (7.5YR 5/4) extremely cobbly loam, reddish brown (5YR 4/4) moist; massive; hard, friable, slightly sticky and plastic; few very fine roots; many very fine and fine pores; few thin clay films in pores; 20 percent mixed rounded indurated gravel, 60 percent mixed rounded indurated cobbles; moderately acid (pH 5.8); abrupt wavy boundary. (8 to 15 cm thick)
 
 2Bt3--43 to 46 cm; brown (7.5YR 5/3) very cobbly clay with flecks of light gray (10YR 7/2) weathered sand, brown (7.5YR 4/2) moist; massive; very hard, very firm, sticky and plastic; few very fine roots; common very fine tubular pores; thick continuous clay films on peds and lining pores; 5 percent mixed rounded indurated gravel, 35 percent mixed rounded indurated cobbles; strongly acid (pH 5.3); abrupt wavy boundary. (0 to 8 cm thick).", split = '\n')[[1]]
-  
-  
+
+
   z <- SoilKnowledgeBase:::.extractHzData(lines)
   expect_true(nrow(z) == 5)
-  
+
   # coarse fragment class
   expect_equal(
-    as.character(z$cf_class), 
-    c("gravelly", "cobbly", "very cobbly", "extremely cobbly", 
+    as.character(z$cf_class),
+    c("gravelly", "cobbly", "very cobbly", "extremely cobbly",
       "very cobbly")
   )
-  
+
 })
 
