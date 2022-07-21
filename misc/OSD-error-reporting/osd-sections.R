@@ -27,7 +27,7 @@ if (file.exists(osd_log)) {
   res2$ro <- gsub("(.*),.*", "\\1", res2$mlraoffice)
   ress <- split(res2, res2$ro)
   lapply(names(ress), function(x) {
-    x$ro <- NULL
+    ress[[x]]$ro <- NULL
     write.csv(ress[[x]], sprintf("inst/extdata/OSD-error-reporting/%s-sections.csv", x), row.names = FALSE)
   })
 
