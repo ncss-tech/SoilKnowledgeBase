@@ -162,7 +162,8 @@ parse_nssh_index <- function(
     combine_urls <- as.character(pdfs)
     combine_urls <- combine_urls[file.exists(combine_urls)]
 
-    cmb <-  try(pdftools::pdf_combine(combine_urls, output = file.path(outpath, "NSSH", "NSSH.pdf")))
+    cmb <-  try(pdftools::pdf_combine(combine_urls, output = file.path(outpath, "NSSH", "NSSH.pdf")),
+                silent = interactive())
     # unlink(as.character(pdfs))
 
     if (length(txts) == 0) {
