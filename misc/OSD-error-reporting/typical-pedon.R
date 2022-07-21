@@ -7,8 +7,8 @@ source("https://raw.githubusercontent.com/ncss-tech/soilDB/master/R/get_OSD.R")
 ac <- fread('https://github.com/ncss-tech/SoilWeb-data/raw/main/files/series_stats.csv.gz')
 ac <- as.data.frame(ac)
 
-# recent SC database
-sc <- fread('https://github.com/ncss-tech/SoilWeb-data/raw/main/files/SC-database.csv.gz')
+# recent SC database from OSDRegistry
+sc <- fread('https://github.com/ncss-tech/OSDRegistry/raw/main/SC/SCDB.csv')
 sc <- as.data.frame(sc)
 
 ## working on the output from SKB->OSD getting / parsing
@@ -29,32 +29,32 @@ missing.file <- list()
 parse.error <- list()
 
 # iteration over series names
-for(i in sc$soilseriesname) {
-  
+for (i in sc$soilseriesname) {
+
   # important notes:
   # * some series in SC may not exist here
   # * these files may contain data.frames of varying structure
   hz <- get_OSD(i, result = 'json', base_url = osd.path)[['HORIZONS']][[1]]
-  
+
   # missing files / generate warnings
-  if(is.null(hz)) {
+  if (is.null(hz)) {
     missing.file[[i]] <- i
     next
   }
-  
+
   # errors here when parsing errors lead to inconsistent DF
   hz <- try(hz[, c('name', 'top', 'bottom')], silent = TRUE)
-  if(inherits(hz, 'try-error')) {
+  if (inherits(hz, 'try-error')) {
     parse.error[[i]] <- i
     next
-    
+
   } else {
     # add series name
     hz$id <- i
-    
+
     x[[i]] <- hz
   }
-  
+
 }
 
 
@@ -91,7 +91,7 @@ table(ck$valid)
 prop.table(table(ck$valid))
 
 # subset / check
-bad <- ck[which(! ck$valid), ]
+bad <- ck[which(!ck$valid), ]
 
 
 
@@ -131,19 +131,19 @@ sink()
 .processChunk <- function(s, path) {
   # rank
   s <- s[order(s$ac, s$id, decreasing = TRUE), ]
-  
+
   office <- sapply(strsplit(i, ',', fixed = TRUE), '[', 1)
-  
+
   fn <- sprintf('%s/%s-series.csv', path, office)
   write.csv(s[, c('id', 'ac', 'benchmarksoilflag', 'soiltaxclasslastupdated')], file = fn, row.names = FALSE)
-  
+
   z <- subset(x, id %in% s$id)
   ck.hz <- checkHzDepthLogic(z, byhz = TRUE)
   horizons(z) <- ck.hz[, -c(1:3)]
-  
+
   h <- horizons(z)
   h.bad <- h[!h$valid, c(idname(z), hzdesgnname(z), horizonDepths(z))]
-  
+
   fn <- sprintf('%s/%s-hz.csv', path, office)
   write.csv(h.bad, file = fn, row.names = FALSE)
 }
@@ -152,22 +152,22 @@ sink()
 ## sort by RO and state -> save to TXT files
 
 mo <- unique(bad$mlraoffice)
-for(i in mo) {
+for (i in mo) {
   # subset
   s <- bad[bad$overlapOrGap & bad$mlraoffice == i, ]
-  
-  if(nrow(s) > 0) {
+
+  if (nrow(s) > 0) {
     .processChunk(s, path = file.path(output.path, 'RO'))
   }
 }
 
 states <- unique(bad$areasymbol)
-for(i in states) {
+for (i in states) {
   # subset
   s <- bad[bad$overlapOrGap & bad$areasymbol == i, ]
-  
-  if(nrow(s) > 0) {
-    .processChunk(s, path = file.path(output.path, 'state'))  
+
+  if (nrow(s) > 0) {
+    .processChunk(s, path = file.path(output.path, 'state'))
   }
 }
 

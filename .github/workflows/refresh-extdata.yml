@@ -7,15 +7,15 @@ on:
     paths-ignore:
       - .github/workflows/R-CMD-check.yml
       - .github/workflows/refresh-extdata.yml
-  
+
   workflow_dispatch:
-  
+
 name: refresh-extdata
 
 jobs:
   render:
     name: refresh-extdata
-    
+
     runs-on: ${{ matrix.config.os }}
 
     strategy:
@@ -31,10 +31,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-        with: 
+        with:
           fetch-depth: '0'
-          clean: 'false' 
-            
+          clean: 'false'
+
       - name: Get branch name (manual)
         if: github.event_name != 'pull_request'
         shell: bash
@@ -44,14 +44,14 @@ jobs:
         if: github.event_name == 'pull_request'
         shell: bash
         run: echo "BRANCH_NAME=$(echo ${GITHUB_HEAD_REF} | tr / -)" >> $GITHUB_ENV
-        
+
       - name: Configure git
         run: |
           git config user.email "github-actions@github.com"
           git config user.name "SoilKnowledgeBot"
           git pull --no-rebase origin ${{ env.BRANCH_NAME }}
           echo ${{ env.BRANCH_NAME }}
-          
+
       - uses: r-lib/actions/setup-r@v1
         with:
           r-version: ${{ matrix.config.r }}
@@ -80,12 +80,12 @@ jobs:
           do
             eval sudo $cmd
           done < <(Rscript -e 'writeLines(remotes::system_requirements("ubuntu", "20.04"))')
-          
+
       - name: Install dependencies
         run: |
           Rscript -e 'remotes::install_deps(dependencies = TRUE)'
           Rscript -e 'install.packages(c("pdftools", "rvest", "xml2", "aqp", "soilDB", "data.table", "R.utils", "terra"))'
-      
+
       - name: Install SoilKnowledgeBase
         run: |
           sudo apt install poppler-utils
@@ -93,15 +93,17 @@ jobs:
           R CMD build SoilKnowledgeBase
           R CMD INSTALL SoilKnowledgeBase
           cd SoilKnowledgeBase/
-        
+
       - name: Install Rmarkdown
         run: Rscript -e 'install.packages("rmarkdown")'
-        
+
       - name: Render README
         run: Rscript -e 'rmarkdown::render("README.Rmd")'
-        
+
       - name: Post-processing
-        run: Rscript misc/OSD-error-reporting/typical-pedon.R
+        run: |
+          Rscript misc/OSD-error-reporting/typical-pedon.R
+          Rscript misc/OSD-error-reporting/typical-pedon.R
 
       - name: Commit results
         run: |
@@ -114,8 +116,8 @@ jobs:
           git add inst/extdata/\*.csv
           git commit -m 'Update inst/extdata/ CSV files' || echo "No changes to commit"
           git commit README.md -m 'Render README.Rmd' || echo "No changes to commit"
-      
+
       - name: Push results
         run: |
-          git push origin HEAD:${{ env.BRANCH_NAME }} || echo "No changes to commit"     
+          git push origin HEAD:${{ env.BRANCH_NAME }} || echo "No changes to commit"
 
