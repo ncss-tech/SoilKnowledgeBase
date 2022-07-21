@@ -315,6 +315,9 @@
   if(dry.is.default & moist.is.default)
     default.moisture.state <- 'unknown'
 
+  ## TODO: account for l,O style OCR errors
+  # https://github.com/ncss-tech/SoilKnowledgeBase/issues/53
+  
   ## TODO: test this
   # get all colors matching our rule, moist and dry and unknown, 5th column is moisture state
   # interpretation is tough when multiple colors / hz are given

@@ -33,12 +33,33 @@ test_that("horizon depths (with unit conversion) and designation", {
   
   z <- SoilKnowledgeBase:::.extractHzData(lines)
   
+  # depths and horizon desgn.
   expect_true(
     all(
       z[, 1:3] == c('Bt2', 66, 107)
     )
   )
   
+  
+  # SYCAMORE: typical OCR errors, now fixed in the OSD but common elsewhere
+  lines <- strsplit("TYPICAL PEDON:
+                    C--42 to 60 inches; stratified light brownish gray (lOYR 6/2) and pale brown (lOYR 6/3) loam, fine sandy loam, and loamy fine sand with some silty lenses, dark grayish brown and dark brown (lOYR 4/2 and 4/3) moist; many fine distinct yellowish brown and strong brown mottles; massive; slightly hard, friable; common very fine and fine pores; slightly calcareous, lime mainly disseminated; water table may fluctuate in this horizon depending on the level of the water in the river; moderately alkaline.", split = '\n')[[1]]
+
+  z <- SoilKnowledgeBase:::.extractHzData(lines)
+
+  # colors with OCR errors
+  expect_true(
+    all(
+      z[, c('dry_hue', 'dry_value', 'dry_chroma')] == c('10YR', 6, 2)
+    )
+  )
+
+  # depths and horizon desgn.
+  expect_true(
+    all(
+      z[, 1:3] == c('C', 107, 152)
+    )
+  )
   
   # DRUMMER
   lines <- strsplit("TYPICAL PEDON:
