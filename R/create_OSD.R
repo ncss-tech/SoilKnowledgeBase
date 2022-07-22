@@ -127,7 +127,16 @@ validateOSD <- function(logfile, filepath) {
   x <- trimws(raw[-grep("[A-Z '`][A-Z\\.'`]{2}[A-Z `']+.*|Ty[pic]+(al|fying)? ?[Pp]edon ?[:;\\-] ?.*|[A-Z]{3,}[:].*|\\(Colors are for", raw, invert = TRUE)])
 
   if (length(x) != length(unique(x))) {
-    logmsg(logfile, "CHECK DUPLICATION OF HEADERS: %s", filepath)
+    # x is all sorts of "headers" based on what the above pattern is allowed to match
+    # filter to just things that look like headers that would confuse the OSD parser
+    # sometimes this includes stuff in the RIC/REMARKS/ADDITIONAL DATA and may be "ok"
+    # though even OSDCheck/formatting is confused by such things (see HTML)
+    x.sub <- x[grepl("^[A-Z][A-Z \\(\\)]+:", x)]
+    if (length(x.sub) > 0 && length(x.sub) != length(unique(x.sub))) {
+      dh <- table(x.sub)
+      logmsg(logfile, "CHECK DUPLICATION OF HEADERS: %s [%s]", filepath,
+             paste0(names(dh)[which(dh > 1)], collapse = ","))
+    }
   }
 
   loc.idx <- grep("^LOCATION", x)[1]
@@ -151,7 +160,7 @@ validateOSD <- function(logfile, filepath) {
 
   if (length(rem.idx) == 0) {
     # these have some sort of malformed series status
-    logmsg(logfile, "CHECK: Section Headings %s", filepath)
+    logmsg(logfile, "CHECK SECTION HEADINGS %s", filepath)
     rem.idx <- length(x)
   }
 
@@ -166,7 +175,7 @@ validateOSD <- function(logfile, filepath) {
   if (marker_self1[1] != marker_self2) {
     # print(marker_self1[1])
     # print(marker_self2)
-    logmsg(logfile, "CHECK: Line 1 LOCATION %s", filepath)
+    logmsg(logfile, "CHECK LINE 1 LOCATION %s", filepath)
 
     # TODO: abstract and generalize these into rules
     # three series in California have established dates before the state
@@ -190,7 +199,7 @@ validateOSD <- function(logfile, filepath) {
 
   if (n_states < 1) {
     # This is not invoked, given list of state and territory codes
-    logmsg(logfile, "CHECK:  Unknown state marker: %s", marker_self1[2])
+    logmsg(logfile, "CHECK UNKNOWN STATE: %s", marker_self1[2])
   }
 
   # remove whole series name if used in header
@@ -216,7 +225,8 @@ validateOSD <- function(logfile, filepath) {
     tst <- unique(nu)
 
     if (length(tst) != length(nu)) {
-      logmsg(logfile, "CHECK: Duplicate sections: %s [%s]", filepath, paste0(names(table(nu))[table(nu) > 1], collapse = ","))
+      logmsg(logfile, "CHECK DUPLICATE STANDARD SECTIONS: %s [%s]", filepath,
+             paste0(names(table(nu))[table(nu) > 1], collapse = ","))
     }
 
     markheaders <- tst
