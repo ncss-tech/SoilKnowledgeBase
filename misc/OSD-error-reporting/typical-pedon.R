@@ -31,20 +31,20 @@ output.path <- 'inst/extdata/OSD-error-reporting/'
     hz <- NULL
   # add series name
   hz$id <- i
-  # missing files / generate warnings
-  if (is.null(hz$name)) {
+  sci <- sc[which(sc$soilseriesname == i), ]
+  if (is.null(hz$name) && (sci$soilseriesstatus != "Established")) {
     return(data.frame(missing_error = TRUE, parse_error = FALSE,
                       list(name = NA_character_, top = NA_character_, bottom = NA_character_), hz))
   }
 
-  hz[c('name', 'top', 'bottom')] <- lapply(hz[c('name', 'top', 'bottom')], as.character)
-  hz <- try(hz[, c('name', 'top', 'bottom', 'id')], silent = FALSE)
+  hz2 <- try(hz[, c('name', 'top', 'bottom', 'id')], silent = TRUE)
 
-  if (inherits(hz, 'try-error')) {
+  if (inherits(hz2, 'try-error')) {
     return(data.frame(missing_error = FALSE, parse_error = TRUE,
                       list(name = NA_character_, top = NA_character_, bottom = NA_character_), hz))
   } else {
-    return(data.frame(missing_error = FALSE, parse_error = FALSE, hz))
+    hz2[c('name', 'top', 'bottom')] <- lapply(hz2[c('name', 'top', 'bottom')], as.character)
+    return(data.frame(missing_error = FALSE, parse_error = FALSE, hz2))
   }
 }
 
