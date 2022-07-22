@@ -9,73 +9,61 @@ ac <- as.data.frame(ac)
 
 # recent SC database from OSDRegistry
 sc <- fread('https://github.com/ncss-tech/OSDRegistry/raw/main/SC/SCDB.csv')
-sc <- as.data.frame(sc)
 
 ## working on the output from SKB->OSD getting / parsing
-
-## TODO: double-check funky names like "O'BRIEN" and chars not [a-z]
 
 # for now, relative to /misc/OSD-error-reporting
 osd.path <- 'inst/extdata/OSD'
 output.path <- 'inst/extdata/OSD-error-reporting/'
 
+# about 3 minutes just to parse all the JSON files
+# system.time({osds <- get_OSD(sc$soilseriesname, result = 'json', base_url = osd.path)})
+#> user  system elapsed
+#> 205.73    5.11  211.17
 
 # keep subset of parsed data + current series name
-# ~ 3 minutes on local machine
-
-# local copy + names -> named list
-x <- list()
-missing.file <- list()
-parse.error <- list()
-
-# iteration over series names
-for (i in sc$soilseriesname) {
-
+.getOSD <- function(i) {
   # important notes:
-  # * some series in SC may not exist here
-  # * these files may contain data.frames of varying structure
+  # * some series in SC (inactive without OSD) will not exist here
   hz <- get_OSD(i, result = 'json', base_url = osd.path)[['HORIZONS']][[1]]
 
+  if (!is.null(hz) && nrow(hz) == 0)
+    hz <- NULL
+  # add series name
+  hz$id <- i
   # missing files / generate warnings
-  if (is.null(hz)) {
-    missing.file[[i]] <- i
-    next
+  if (is.null(hz$name)) {
+    return(data.frame(missing_error = TRUE, parse_error = FALSE,
+                      list(name = NA_character_, top = NA_character_, bottom = NA_character_), hz))
   }
 
-  # errors here when parsing errors lead to inconsistent DF
-  hz <- try(hz[, c('name', 'top', 'bottom')], silent = TRUE)
+  hz[c('name', 'top', 'bottom')] <- lapply(hz[c('name', 'top', 'bottom')], as.character)
+  hz <- try(hz[, c('name', 'top', 'bottom', 'id')], silent = FALSE)
+
   if (inherits(hz, 'try-error')) {
-    parse.error[[i]] <- i
-    next
-
+    return(data.frame(missing_error = FALSE, parse_error = TRUE,
+                      list(name = NA_character_, top = NA_character_, bottom = NA_character_), hz))
   } else {
-    # add series name
-    hz$id <- i
-
-    x[[i]] <- hz
+    return(data.frame(missing_error = FALSE, parse_error = FALSE, hz))
   }
-
 }
 
-
+system.time({x <- sc[, .getOSD(soilseriesname), by = "soilseriesname"]})
 
 ## flatten
 
 # missing files: likely old / retired OSDs
-missing.file <- as.vector(do.call('c', missing.file))
+missing.file <- x$id[which(x$missing_error)]
 length(missing.file)
 
 # likely REGEX problems inherited from parseOSD
-parse.error <- as.vector(do.call('c', parse.error))
+parse.error <- x$id[which(x$parse_error)]
 length(parse.error)
 
 # dput(parse.error)
 cat(parse.error, file = file.path(output.path, 'misc-errors.txt'), sep = '\n')
 
-# hz data
-x <- do.call('rbind', x)
-
-# init SPC
+# hz data -> SPC
 depths(x) <- id ~ top + bottom
 hzdesgnname(x) <- 'name'
 
@@ -86,14 +74,12 @@ x <- repairMissingHzDepths(x)
 ck <- checkHzDepthLogic(x)
 
 # how bad
-# ~ 7%
+# ~ 11.5%
 table(ck$valid)
 prop.table(table(ck$valid))
 
 # subset / check
 bad <- ck[which(!ck$valid), ]
-
-
 
 # combine with SC for additional info
 bad <- merge(bad, sc, by.x = 'id', by.y = 'soilseriesname', all.x = TRUE, sort = FALSE)
@@ -111,7 +97,6 @@ cat('--------------------------------------------------------\n\n')
 cat('### Depth Logic Errors by RO  ###')
 table(bad$mlraoffice, bad$depthLogic)
 cat('--------------------------------------------------------\n\n')
-
 
 cat('### Hz Overlap / Gap Errors by RO  ###')
 table(bad$mlraoffice, bad$overlapOrGap)
@@ -142,7 +127,7 @@ sink()
   horizons(z) <- ck.hz[, -c(1:3)]
 
   h <- horizons(z)
-  h.bad <- h[!h$valid, c(idname(z), hzdesgnname(z), horizonDepths(z))]
+  h.bad <- h[!h$valid, .SD, .SDcols = c(idname(z), hzdesgnname(z), horizonDepths(z))]
 
   fn <- sprintf('%s/%s-hz.csv', path, office)
   write.csv(h.bad, file = fn, row.names = FALSE)
@@ -152,9 +137,12 @@ sink()
 ## sort by RO and state -> save to TXT files
 
 mo <- unique(bad$mlraoffice)
+
+# remove inactive series with no mlraoffice assigned
+bad <- subset(bad, !(is.na(mlraoffice) & soilseriesstatus == "Inactive"))
+
 for (i in mo) {
-  # subset
-  s <- bad[bad$overlapOrGap & bad$mlraoffice == i, ]
+  s <- bad[which(bad$overlapOrGap & bad$mlraoffice == i), ]
 
   if (nrow(s) > 0) {
     .processChunk(s, path = file.path(output.path, 'RO'))
@@ -163,15 +151,9 @@ for (i in mo) {
 
 states <- unique(bad$areasymbol)
 for (i in states) {
-  # subset
-  s <- bad[bad$overlapOrGap & bad$areasymbol == i, ]
+  s <- bad[which(bad$overlapOrGap & bad$areasymbol == i), ]
 
   if (nrow(s) > 0) {
     .processChunk(s, path = file.path(output.path, 'state'))
   }
 }
-
-
-
-
-
