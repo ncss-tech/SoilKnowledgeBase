@@ -127,9 +127,16 @@ validateOSD <- function(logfile, filepath) {
   x <- trimws(raw[-grep("[A-Z '`][A-Z\\.'`]{2}[A-Z `']+.*|Ty[pic]+(al|fying)? ?[Pp]edon ?[:;\\-] ?.*|[A-Z]{3,}[:].*|\\(Colors are for", raw, invert = TRUE)])
 
   if (length(x) != length(unique(x))) {
-    dh <- table(x)
-    logmsg(logfile, "CHECK DUPLICATION OF HEADERS: %s [%s]", filepath,
-           paste0(names(dh)[which(dh > 1)], collapse = ","))
+    # x is all sorts of "headers" based on what the above pattern is allowed to match
+    # filter to just things that look like headers that would confuse the OSD parser
+    # sometimes this includes stuff in the RIC/REMARKS/ADDITIONAL DATA and may be "ok"
+    # though even OSDCheck/formatting is confused by such things (see HTML)
+    x.sub <- x[grepl("[A-Z \\(\\)]+:", x)]
+    if (length(x.sub) > 0 && length(x.sub) != length(unique(x.sub))) {
+      dh <- table(x.sub)
+      logmsg(logfile, "CHECK DUPLICATION OF HEADERS: %s [%s]", filepath,
+             paste0(names(dh)[which(dh > 1)], collapse = ","))
+    }
   }
 
   loc.idx <- grep("^LOCATION", x)[1]
