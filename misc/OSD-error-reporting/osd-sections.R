@@ -28,7 +28,7 @@ if (file.exists(osd_log)) {
   ress <- split(res2, res2$ro)
   lapply(names(ress), function(x) {
     ress[[x]]$ro <- NULL
-    write.csv(ress[[x]], sprintf("inst/extdata/OSD-error-reporting/%s-sections.csv", x), row.names = FALSE)
+    write.csv(ress[[x]], sprintf("inst/extdata/OSD-error-reporting/RO/%s-sections.csv", x), row.names = FALSE)
   })
 
 
