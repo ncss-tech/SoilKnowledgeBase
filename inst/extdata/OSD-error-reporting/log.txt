@@ -1,137 +1,350 @@
 ### Problems by RO  ###
      amherst, ma       auburn, al      bozeman, mt        davis, ca 
-               9                1              249              391 
+              72               30              770              709 
 indianapolis, in   morgantown, wv      phoenix, az     portland, or 
-               1               17               56              336 
+              12               88              171              443 
      raleigh, nc       salina, ks     st. paul, mn       temple, tx 
-              12               11               42               54 
+              66               37               89               84 
      wasilla, ak 
-             118 
+             290 
 --------------------------------------------------------
 
 ### Depth Logic Errors by RO  ###                  
                    FALSE TRUE
-  amherst, ma          4    5
-  auburn, al           0    1
-  bozeman, mt        116  133
-  davis, ca          199  192
-  indianapolis, in     0    1
-  morgantown, wv       4   13
-  phoenix, az          8   48
-  portland, or       185  151
-  raleigh, nc          2   10
-  salina, ks           7    4
-  st. paul, mn        10   32
-  temple, tx          28   26
-  wasilla, ak         55   63
+  amherst, ma         67    5
+  auburn, al          29    1
+  bozeman, mt        637  133
+  davis, ca          517  192
+  indianapolis, in    11    1
+  morgantown, wv      75   13
+  phoenix, az        123   48
+  portland, or       325  118
+  raleigh, nc         56   10
+  salina, ks          33    4
+  st. paul, mn        57   32
+  temple, tx          58   26
+  wasilla, ak        194   96
 --------------------------------------------------------
 
 ### Hz Overlap / Gap Errors by RO  ###                  
                    FALSE TRUE
-  amherst, ma          2    7
-  auburn, al           1    0
-  bozeman, mt         52  197
-  davis, ca           80  311
-  indianapolis, in     1    0
-  morgantown, wv       8    9
-  phoenix, az         41   15
-  portland, or        42  294
-  raleigh, nc         12    0
-  salina, ks           3    8
-  st. paul, mn         3   39
-  temple, tx          20   34
-  wasilla, ak          2  116
+  amherst, ma         65    7
+  auburn, al          30    0
+  bozeman, mt        573  197
+  davis, ca          398  311
+  indianapolis, in    12    0
+  morgantown, wv      79    9
+  phoenix, az        156   15
+  portland, or       220  223
+  raleigh, nc         66    0
+  salina, ks          29    8
+  st. paul, mn        50   39
+  temple, tx          50   34
+  wasilla, ak        103  187
 --------------------------------------------------------
 
 ### Depth Logic / Gap Errors by State  ###    
      FALSE TRUE
-  AK    93   96
-  AR     3    4
-  AZ     2    9
-  CA   113  161
-  CO    32   59
+  AK   194   96
+  AL     3    0
+  AR     9    4
+  AS     2    0
+  AZ    24    9
+  CA   392  161
+  CO   103   59
+  CT     6    0
+  DE     2    0
+  FL    25    0
   FM     1    1
-  GA     0    1
-  GU     1    0
-  HI     7    3
-  ID     5   17
-  IL     0    1
-  IN     0    1
-  KS     1    0
-  KY     0    3
-  LA     2    1
-  MA     0    1
-  ME     0    1
-  MI     4   20
-  MN     2    6
-  MP     3    3
-  MT    28   21
-  NC     0    5
-  ND     3    2
-  NE     0    1
-  NM    17   22
-  NV    10   16
-  NY     2    0
-  OH     1    0
-  OK     3    6
-  OR   145   23
-  PA     0    2
-  PR     0    2
+  GA     7    1
+  GU     3    0
+  HI    16    3
+  HT     1    0
+  IA     3    0
+  ID    52   17
+  IL     5    1
+  IN     9    1
+  KS     5    0
+  KY     3    3
+  LA    10    1
+  MA     9    1
+  MD     8    0
+  ME     1    1
+  MI    16   20
+  MN    21    6
+  MO     7    0
+  MP     7    3
+  MS     8    0
+  MT    91   21
+  NC    15    5
+  ND     7    2
+  NE     8    1
+  NH    10    0
+  NJ    20    0
+  NM    36   22
+  NV    70   16
+  NY    14    0
+  OH     2    0
+  OK    11    6
+  OR   270   23
+  PA     1    2
+  PR     5    2
   PW     2    1
-  SD     1    1
-  TN     0    3
-  TX    20   19
-  UT    29   37
-  VA     4    5
-  VT     1    1
-  WA    76  109
-  WI     0    3
-  WY     7   12
+  RI     1    0
+  SC     3    0
+  SD    12    1
+  TN     6    3
+  TX    33   19
+  UT   202   37
+  VA    43    5
+  VT     8    1
+  WA   144  109
+  WI     8    3
+  WV     4    0
+  WY   206   12
 --------------------------------------------------------
 
 ### Hz Overlap / Gap Errors by State  ###    
      FALSE TRUE
-  AK     2  187
-  AR     2    5
-  AZ     7    4
-  CA    62  212
-  CO    17   74
+  AK   103  187
+  AL     3    0
+  AR     8    5
+  AS     2    0
+  AZ    29    4
+  CA   341  212
+  CO    88   74
+  CT     6    0
+  DE     2    0
+  FL    25    0
   FM     0    2
-  GA     1    0
-  GU     0    1
-  HI     1    9
-  ID     6   16
-  IL     1    0
-  IN     0    1
-  KS     0    1
-  KY     3    0
-  LA     0    3
-  MA     1    0
-  ME     0    1
-  MI     1   23
-  MN     1    7
-  MP     0    6
-  MT     5   44
-  NC     5    0
-  ND     0    5
-  NE     1    0
-  NM    14   25
-  NV    11   15
-  NY     0    2
-  OH     0    1
-  OK     5    4
-  OR    13  155
-  PA     1    1
-  PR     2    0
+  GA     8    0
+  GU     2    1
+  HI    10    9
+  HT     1    0
+  IA     3    0
+  ID    53   16
+  IL     6    0
+  IN     9    1
+  KS     4    1
+  KY     6    0
+  LA     8    3
+  MA    10    0
+  MD     8    0
+  ME     1    1
+  MI    13   23
+  MN    20    7
+  MO     7    0
+  MP     4    6
+  MS     8    0
+  MT    68   44
+  NC    20    0
+  ND     4    5
+  NE     9    0
+  NH    10    0
+  NJ    20    0
+  NM    33   25
+  NV    71   15
+  NY    12    2
+  OH     1    1
+  OK    13    4
+  OR   138  155
+  PA     2    1
+  PR     7    0
   PW     1    2
-  SD     0    2
-  TN     2    1
-  TX    17   22
-  UT    32   34
-  VA     4    5
-  VT     0    2
-  WA    43  142
-  WI     2    1
-  WY     4   15
+  RI     1    0
+  SC     3    0
+  SD    11    2
+  TN     8    1
+  TX    30   22
+  UT   205   34
+  VA    43    5
+  VT     7    2
+  WA   111  142
+  WI    10    1
+  WV     4    0
+  WY   203   15
+--------------------------------------------------------
+
+### Hz Designation OCR Errors by State  ###    
+     FALSE TRUE
+  AK   256   34
+  AL     1    2
+  AR     8    5
+  AS     0    2
+  AZ     7   26
+  CA   363  190
+  CO    86   76
+  CT     3    3
+  DE     2    0
+  FL    15   10
+  FM     2    0
+  GA     5    3
+  GU     1    2
+  HI     8   11
+  HT     1    0
+  IA     1    2
+  ID    27   42
+  IL     3    3
+  IN     0   10
+  KS     3    2
+  KY     4    2
+  LA     4    7
+  MA     9    1
+  MD     3    5
+  ME     1    1
+  MI    25   11
+  MN    12   15
+  MO     1    6
+  MP     6    4
+  MS     1    7
+  MT    74   38
+  NC    14    6
+  ND     4    5
+  NE     6    3
+  NH     3    7
+  NJ    19    1
+  NM    26   32
+  NV    34   52
+  NY     3   11
+  OH     1    1
+  OK    10    7
+  OR   230   63
+  PA     3    0
+  PR     4    3
+  PW     2    1
+  RI     1    0
+  SC     2    1
+  SD     9    4
+  TN     3    6
+  TX    45    7
+  UT   154   85
+  VA    19   29
+  VT     6    3
+  WA   125  128
+  WI     3    8
+  WV     1    3
+  WY   199   19
+--------------------------------------------------------
+
+### Hz Dry Color OCR Errors by State  ###    
+     FALSE TRUE
+  AK   290    0
+  AL     3    0
+  AR    13    0
+  AS     2    0
+  AZ    33    0
+  CA   522   31
+  CO   154    8
+  CT     6    0
+  DE     2    0
+  FL    25    0
+  FM     2    0
+  GA     8    0
+  GU     3    0
+  HI    19    0
+  HT     1    0
+  IA     3    0
+  ID    66    3
+  IL     6    0
+  IN    10    0
+  KS     4    1
+  KY     6    0
+  LA    11    0
+  MA    10    0
+  MD     8    0
+  ME     2    0
+  MI    36    0
+  MN    25    2
+  MO     7    0
+  MP    10    0
+  MS     8    0
+  MT   112    0
+  NC    20    0
+  ND     9    0
+  NE     7    2
+  NH    10    0
+  NJ    20    0
+  NM    52    6
+  NV    81    5
+  NY    14    0
+  OH     2    0
+  OK    17    0
+  OR   292    1
+  PA     3    0
+  PR     7    0
+  PW     3    0
+  RI     1    0
+  SC     3    0
+  SD    10    3
+  TN     9    0
+  TX    47    5
+  UT   236    3
+  VA    48    0
+  VT     9    0
+  WA   214   39
+  WI    11    0
+  WV     4    0
+  WY   217    1
+--------------------------------------------------------
+
+### Hz Moist Color OCR Errors by State  ###    
+     FALSE TRUE
+  AK   289    1
+  AL     3    0
+  AR    13    0
+  AS     2    0
+  AZ    33    0
+  CA   525   28
+  CO   153    9
+  CT     6    0
+  DE     2    0
+  FL    23    2
+  FM     2    0
+  GA     8    0
+  GU     3    0
+  HI    18    1
+  HT     1    0
+  IA     3    0
+  ID    65    4
+  IL     6    0
+  IN     9    1
+  KS     5    0
+  KY     3    3
+  LA    11    0
+  MA    10    0
+  MD     8    0
+  ME     2    0
+  MI    36    0
+  MN    27    0
+  MO     7    0
+  MP    10    0
+  MS     8    0
+  MT   112    0
+  NC    19    1
+  ND     9    0
+  NE     8    1
+  NH    10    0
+  NJ    20    0
+  NM    52    6
+  NV    80    6
+  NY    14    0
+  OH     2    0
+  OK    16    1
+  OR   292    1
+  PA     3    0
+  PR     7    0
+  PW     3    0
+  RI     1    0
+  SC     3    0
+  SD     8    5
+  TN     9    0
+  TX    47    5
+  UT   227   12
+  VA    40    8
+  VT     9    0
+  WA   216   37
+  WI    11    0
+  WV     4    0
+  WY   217    1
 --------------------------------------------------------
 
