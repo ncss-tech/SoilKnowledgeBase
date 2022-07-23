@@ -156,7 +156,7 @@ sink()
 
   office <- sapply(strsplit(i, ',', fixed = TRUE), '[', 1)
   s.sub <- s[, c('id', 'ac', 'benchmarksoilflag', 'soiltaxclasslastupdated')]
-  s.sub$depthErrors <- s$valid
+  s.sub$depthErrors <- !s$valid
   s.sub$ocrErrors <- (s$any_dry_ocrerr | s$any_moist_ocrerr | s$any_hzname_ocrerr)
 
   fn <- sprintf('%s/%s-series.csv', path, office)
