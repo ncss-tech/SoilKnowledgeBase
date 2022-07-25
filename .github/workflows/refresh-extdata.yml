@@ -121,3 +121,12 @@ jobs:
         run: |
           git push origin HEAD:${{ env.BRANCH_NAME }} || echo "No changes to commit"
 
+      - name: Upload snapshot to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: "inst/extdata/NSHH/NSSH.pdf"
+          tag: ${{ github.ref }}
+          file_glob: true
+          overwrite: true
+          body: "Download the National Soil Survey Handbook (NSSH) as a single PDF. This PDF is built weekly from the latest eDirectives sources."
