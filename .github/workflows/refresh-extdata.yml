@@ -126,7 +126,7 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: "inst/extdata/NSSH/NSSH.pdf"
+          file: inst/extdata/NSSH/NSSH.pdf
           tag: ${{ github.ref }}
           file_glob: true
           overwrite: true
