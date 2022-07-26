@@ -48,6 +48,10 @@ These links connect to
 [eDirectives](http://directives.sc.egov.usda.gov/) which are the
 official sources of standards of this nature.
 
+Error in cpp\_pdf\_combine(input, output, password) :
+/home/runner/work/SoilKnowledgeBase/SoilKnowledgeBase/inst/extdata/NSSH/pdf/44204.wba.pdf:
+unable to find trailer dictionary while recovering damaged file
+
 <table>
 <colgroup>
 <col style="width: 9%" />
