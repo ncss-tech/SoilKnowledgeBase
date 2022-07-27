@@ -127,7 +127,7 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: inst/extdata/NSSH/NSSH.pdf
-          tag: ${{ github.ref }}
+          tag: snapshot
           file_glob: true
           overwrite: true
           body: "Download the National Soil Survey Handbook (NSSH) as a single PDF. This PDF is built weekly from the latest eDirectives sources."
