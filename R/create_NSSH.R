@@ -134,9 +134,14 @@ parse_nssh_index <- function(
     dir.create(pdf_path, recursive = TRUE)
   }
   txts <- NULL
+
+  # match PDFs against urls to sort in TOC order
   pdfs <- list.files(pdf_path, pattern = "pdf", recursive = TRUE, full.names = TRUE)
-  if ((length(pdfs) == 0 || (download_pdf == "ifneeded" ||
-                             (is.logical(download_pdf) && download_pdf))) ) {
+  pdfs <- pdfs[match(gsub("\\.pdf", "", basename(pdfs)), res1$url)]
+
+  if ((length(pdfs) == 0 ||
+       (download_pdf == "ifneeded" ||
+        (is.logical(download_pdf) && download_pdf))) ) {
     pdfs <- lapply(res1$url, function(x) {
       dfile <- file.path(pdf_path, paste0(basename(x), ".pdf"))
       f <- download.file(
@@ -156,7 +161,14 @@ parse_nssh_index <- function(
 
     txts <- lapply(lapply(lapply(pdfs, function(x) {
         # cat("extracting PDF text for: ", x, "\n")
-        try(pdftools::pdf_text(x), silent = TRUE)
+        txt <- try(pdftools::pdf_text(x), silent = TRUE)
+
+        # some image pdfs have either empty "" content or garbled content (containing unicode)
+        if (!inherits(txt, 'try-error') & any(grepl("\u00ff", txt)) | (length(txt) == 1 && txt == "")) {
+          # OCR fallback for non-error, empty text result
+          txt <- try(pdftools::pdf_ocr_text(x), silent = TRUE)
+        }
+        txt
       }), paste0, collapse = "\n"), function(x) strsplit(x, "\n")[[1]])
 
     combine_urls <- as.character(pdfs)
