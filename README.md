@@ -311,10 +311,10 @@ official sources of standards of this nature.
 <td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44278.wba">LINK</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">647 A</td>
-<td style="text-align: left;">Soil Map Development, Subpart A</td>
+<td style="text-align: left;">647 B</td>
+<td style="text-align: left;">Soil Map Development, Subpart B</td>
 <td style="text-align: left;">Soil Maps</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44279.wba">LINK</a></td>
+<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/48547.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">648 A</td>
@@ -1905,38 +1905,38 @@ official sources of standards of this nature.
 </tr>
 <tr class="odd">
 <td style="text-align: right;">647</td>
-<td style="text-align: left;">A</td>
-<td style="text-align: left;">647.0 Definition and Purpose</td>
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">647.07 Soil Survey Geographic Data Certification</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">647</td>
-<td style="text-align: left;">A</td>
-<td style="text-align: left;">647.1 Procedures and Responsibilities</td>
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">647.8 Digital Map Finishing and Print-on-Demand Maps Flowchart</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">647</td>
-<td style="text-align: left;">A</td>
-<td style="text-align: left;">647.2 Imagery</td>
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">647.9 Digital Map Finishing and Print-on-Demand Maps Specifications</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">647</td>
-<td style="text-align: left;">A</td>
-<td style="text-align: left;">647.3 SSURGO Characteristics</td>
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">647.10 Digital Map Finishing Checklist</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">647</td>
-<td style="text-align: left;">A</td>
-<td style="text-align: left;">647.4 Data Capture Specifications</td>
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">647.11 Digital Map Finishing Certification</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">647</td>
-<td style="text-align: left;">A</td>
-<td style="text-align: left;">647.5 Archiving</td>
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">647.12 Glossary</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">647</td>
-<td style="text-align: left;">A</td>
-<td style="text-align: left;">647.6 Digital Map Finishing and Print-on-Demand Maps</td>
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">647.13 SSURGO Metadata Template</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">648</td>
