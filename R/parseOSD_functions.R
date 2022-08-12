@@ -234,7 +234,19 @@
 }
 
 .parse_structure <- function(x) {
-  trimws(gsub(".*(weak|moderate|strong) (very fine|fine|medium|coarse|very coarse|extremely coarse) (.*) structure.*|.*(massive).*|.*(single grain).*|.*", "\\1 \\2 \\3\\4\\5", x))
+  trimws(gsub(".*(weak|moderate|strong) (very fine|very thin|fine|thin|medium|coarse|thick|very coarse|very thick|extremely coarse) (.*) structure.*|.*(massive).*|.*(single grain).*|.*", "\\1 \\2 \\3\\4\\5", x, ignore.case = TRUE))
+}
+
+.parse_rupture_dry <- function(x) {
+  gsub(".*(loose|soft|slightly hard|moderately hard|hard|very hard|extremely hard|rigid|very rigid).*", "\\1", x, ignore.case = TRUE)
+}
+
+.parse_rupture_moist <- function(x) {
+  gsub(".*(loose|very friable|friable|firm|very firm|extremely firm|slightly rigid|rigid|very rigid).*", "\\1", x, ignore.case = TRUE)
+}
+
+.parse_rupture_cem <- function(x) {
+  trimws(gsub(".*(non|extremely weakly|very weakly|weakly|moderately|strongly|very strongly) (cemented|coherent).*|.*(indurated).*", "\\1 \\2\\3", x, ignore.case = TRUE))
 }
 
 ######## extract SPC-style data.frames ########
