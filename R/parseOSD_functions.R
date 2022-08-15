@@ -234,6 +234,7 @@
 }
 
 .zerochar_to_na <- function(x) {
+  x <- trimws(x)
   if (length(x) == 0 || nchar(x[1]) == 0) {
     return(NA)
   }
@@ -241,7 +242,7 @@
 }
 
 .parse_structure <- function(x) {
-  .zerochar_to_na(trimws(gsub(".*(weak|moderate|strong) (very fine|very thin|fine|thin|medium|coarse|thick|very coarse|very thick|extremely coarse) (.*) structure.*|.*(massive).*|.*(single grain).*|.*", "\\1 \\2 \\3\\4\\5", x, ignore.case = TRUE)))
+  .zerochar_to_na(gsub(".*(weak|moderate|strong) (very fine|very thin|fine|thin|medium|coarse|thick|very coarse|very thick|extremely coarse) (.*) structure.*|.*(massive).*|.*(single grain).*|.*", "\\1 \\2 \\3\\4\\5", x, ignore.case = TRUE))
 }
 
 .parse_rupture_dry <- function(x) {
@@ -253,7 +254,7 @@
 }
 
 .parse_rupture_cem <- function(x) {
-  .zerochar_to_na(trimws(gsub(".*(non|extremely weakly|very weakly|weakly|moderately|strongly|very strongly) (cemented|coherent).*|.*(indurated).*|.*", "\\1 \\2\\3", x, ignore.case = TRUE)))
+  .zerochar_to_na(gsub(".*(non|extremely weakly|very weakly|weakly|moderately|strongly|very strongly) (cemented|coherent).*|.*(indurated).*|.*", "\\1 \\2\\3", x, ignore.case = TRUE))
 }
 
 ######## extract SPC-style data.frames ########
