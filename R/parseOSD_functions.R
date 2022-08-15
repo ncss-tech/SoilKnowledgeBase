@@ -233,6 +233,30 @@
   return(m)
 }
 
+.zerochar_to_na <- function(x) {
+  x <- trimws(x)
+  if (length(x) == 0) {
+    return(NA)
+  }
+  x[nchar(x) == 0] <- NA
+  x
+}
+
+.parse_structure <- function(x) {
+  .zerochar_to_na(gsub(".*(weak|moderate|strong) (very fine|very thin|fine|thin|medium|coarse|thick|very coarse|very thick|extremely coarse) (.*) structure.*|.*(massive).*|.*(single grain).*|.*", "\\1 \\2 \\3\\4\\5", x, ignore.case = TRUE))
+}
+
+.parse_rupture_dry <- function(x) {
+  .zerochar_to_na(gsub(".*(loose|soft|slightly hard|moderately hard|hard|very hard|extremely hard|rigid|very rigid).*|.*", "\\1", x, ignore.case = TRUE))
+}
+
+.parse_rupture_moist <- function(x) {
+  .zerochar_to_na(gsub(".*(loose|very friable|friable|firm|very firm|extremely firm|slightly rigid|rigid|very rigid).*|.*", "\\1", x, ignore.case = TRUE))
+}
+
+.parse_rupture_cem <- function(x) {
+  .zerochar_to_na(gsub(".*(non|extremely weakly|very weakly|weakly|moderately|strongly|very strongly) (cemented|coherent).*|.*(indurated).*|.*", "\\1 \\2\\3", x, ignore.case = TRUE))
+}
 
 ######## extract SPC-style data.frames ########
 
@@ -437,6 +461,10 @@
 
   # parse out other elements from the narrative
   res$texture_class <- .parse_texture(narrative.data$narrative)
+  res$structure <- .parse_structure(narrative.data$narrative)
+  res$dry_rupture <- .parse_rupture_dry(narrative.data$narrative)
+  res$moist_rupture <- .parse_rupture_moist(narrative.data$narrative)
+  res$coherence <- .parse_rupture_cem(narrative.data$narrative)
   res$cf_class <- .parse_CF(narrative.data$narrative)
   res$pH <- .parse_pH(narrative.data$narrative)
   res$pH_class <- .parse_pH_class(narrative.data$narrative)
