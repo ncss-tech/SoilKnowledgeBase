@@ -235,9 +235,10 @@
 
 .zerochar_to_na <- function(x) {
   x <- trimws(x)
-  if (length(x) == 0 || nchar(x[1]) == 0) {
+  if (length(x) == 0) {
     return(NA)
   }
+  x[nchar(x) == 0] <- NA
   x
 }
 
