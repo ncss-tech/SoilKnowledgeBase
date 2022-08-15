@@ -462,9 +462,9 @@
   # parse out other elements from the narrative
   res$texture_class <- .parse_texture(narrative.data$narrative)
   res$structure <- .parse_structure(narrative.data$narrative)
-  res$rupture_dry <- .parse_rupture_dry(narrative.data$narrative)
-  res$rupture_moist <- .parse_rupture_moist(narrative.data$narrative)
-  res$rupture_coherence <- .parse_rupture_cem(narrative.data$narrative)
+  res$dry_rupture <- .parse_rupture_dry(narrative.data$narrative)
+  res$moist_rupture <- .parse_rupture_moist(narrative.data$narrative)
+  res$coherence <- .parse_rupture_cem(narrative.data$narrative)
   res$cf_class <- .parse_CF(narrative.data$narrative)
   res$pH <- .parse_pH(narrative.data$narrative)
   res$pH_class <- .parse_pH_class(narrative.data$narrative)
