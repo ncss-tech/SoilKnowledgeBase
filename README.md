@@ -50,10 +50,10 @@ official sources of standards of this nature.
 
 <table>
 <colgroup>
-<col style="width: 9%" />
-<col style="width: 33%" />
-<col style="width: 20%" />
-<col style="width: 35%" />
+<col style="width: 14%" />
+<col style="width: 50%" />
+<col style="width: 30%" />
+<col style="width: 4%" />
 </colgroup>
 <thead>
 <tr class="header">
