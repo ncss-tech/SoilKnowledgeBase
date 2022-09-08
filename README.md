@@ -352,6 +352,12 @@ official sources of standards of this nature.
 <td style="text-align: left;">Information Delivery</td>
 <td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44284.wba">LINK</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;">656 A</td>
+<td style="text-align: left;">Coastal Zone Soil Survey, Subpart A</td>
+<td style="text-align: left;">Information Delivery</td>
+<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/48590.wba">LINK</a></td>
+</tr>
 </tbody>
 </table>
 
@@ -2077,6 +2083,16 @@ official sources of standards of this nature.
 <td style="text-align: right;">655</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">655.3 Responsibilities</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">656</td>
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">656.0 Definition and Purpose</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">656</td>
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">656.1 Boating Safety</td>
 </tr>
 </tbody>
 </table>
