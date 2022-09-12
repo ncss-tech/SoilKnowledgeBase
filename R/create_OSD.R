@@ -57,13 +57,14 @@ create_OSD <- function(...) {
 #' Note: This is a ZIP file within a ZIP file where the internal ZIP file has a unique (weekly) date stamp.
 #'
 #' @param url Path to OSD Data Snapshot
-#'
+#' @param ... Additional arguments to `curl::curl_download()`
 #' @return TRUE if successful, try-error if download or parsing fails
 #' @importFrom utils unzip
-download_OSD <- function(url = NULL) {
+#' @importFrom curl curl_download
+download_OSD <- function(url = NULL, ...) {
   if (is.null(url))
     url <- 'https://github.com/ncss-tech/OSDRegistry/releases/download/main/OSD-data-snapshot.zip'
-  download.file(url, "OSD.zip")
+  curl::curl_download(url, "OSD.zip", handle = .SKB_curl_handle(), ...)
   unzip('OSD.zip')
   file.remove('OSD.zip')
   wkzip <- list.files(pattern = "OSD_.*zip")

@@ -548,7 +548,7 @@ create_KST <- function(...) {
 download_KST <- function(outpath = "./inst/extdata",
                          download_pdf = "ifneeded",
                          keep_pdf = FALSE,
-                         language = "EN") {
+                         language = "EN", ...) {
   # create output path
   if (!dir.exists(file.path(outpath, "KST"))) {
     dir.create(file.path(outpath, "KST"), "KST", recursive = TRUE)
@@ -569,7 +569,7 @@ download_KST <- function(outpath = "./inst/extdata",
   }
 
   if (as.logical(download_pdf)) {
-    download.file(yhref, destfile = fn)
+    curl::curl_download(yhref, destfile = fn, handle = .SKB_curl_handle(), ...)
   }
 
   if (file.exists(fn)) {

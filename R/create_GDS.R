@@ -9,19 +9,22 @@ create_GDS <- function(...) {
 
 }
 
+#' @importFrom curl curl_download
 download_GDS <- function(outpath = "./inst/extdata",
                          output_types = "txt",
-                         keep_pdf = FALSE) {
+                         keep_pdf = FALSE, ...) {
 
-    download.file(destfile = "GDS.pdf",
-                  url = "https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_051068.pdf")
+    curl::curl_download(destfile = "GDS.pdf",
+                        url = "https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_051068.pdf",
+                        handle = .SKB_curl_handle(),
+                        ...)
 
     system(sprintf("pdftotext -raw -nodiag GDS.pdf"))
 
 
     dir.create(file.path(outpath, "GDS"), recursive = TRUE)
 
-    if(file.exists("GDS.txt")) {
+    if (file.exists("GDS.txt")) {
       file.copy("GDS.txt", file.path(outpath, "GDS/GDS.txt"))
       file.remove("GDS.txt")
     }

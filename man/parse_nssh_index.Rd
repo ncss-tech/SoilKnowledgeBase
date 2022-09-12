@@ -30,14 +30,11 @@ parse_nssh_index(
 
 \item{keep_pdf}{Keep PDF files after processing TXT?}
 
-\item{...}{Additional arguments (may not be used)}
+\item{...}{Additional arguments to `curl::curl_download()`}
 }
 \value{
 A data.frame object containing link, part and section information for the NSSH. A directory "inst/extdata/NSSH" is created in \code{outpath} (Default: "./inst/extdata/NSSH/") with a numeric subfolder for each part in the NSSH.
 }
 \description{
 \code{parse_nssh_index} provides a basic framework and folder structure for assets that are part of the National Soil Survey Handbook (NSSH) a key part of National Cooperative Soil Survey (NCSS) standards.
-}
-\details{
-Hardcoded with \code{ignore.headers = "Part 615 – Amendments To Soil Taxonomy"}; TODO: set this to NULL when webpage is updated. Default URL: https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/ref/?cid=nrcs142p2_054240
 }

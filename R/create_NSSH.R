@@ -64,18 +64,17 @@ create_NSSH <- function(outpath = "inst/extdata", ...) {
 #' @param download_pdf Download official PDF files from eDirectives? default: "ifneeded"; options: TRUE/FALSE
 #' @param output_types Options include \code{c("txt","html")} for processed PDF files.
 #' @param keep_pdf Keep PDF files after processing TXT?
-#' @param ... Additional arguments (may not be used)
-#'
-#' @details Hardcoded with \code{ignore.headers = "Part 615 – Amendments To Soil Taxonomy"}; TODO: set this to NULL when webpage is updated. Default URL: https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/ref/?cid=nrcs142p2_054240
+#' @param ... Additional arguments to `curl::curl_download()`
 #'
 #' @return A data.frame object containing link, part and section information for the NSSH. A directory "inst/extdata/NSSH" is created in \code{outpath} (Default: "./inst/extdata/NSSH/") with a numeric subfolder for each part in the NSSH.
 #' @importFrom data.table data.table
 #' @importFrom rvest html_node html_nodes html_text
 #' @importFrom xml2 read_html xml_attr
-#' @importFrom utils write.csv download.file
+#' @importFrom utils write.csv
 #' @importFrom stats aggregate complete.cases
 #' @importFrom utils head
 #' @importFrom pdftools pdf_text
+#' @importFrom curl curl_download
 parse_nssh_index <- function(
   logfile = file.path(outpath, "NSSH/NSSH.log"),
   nssh_url = NULL,
@@ -144,14 +143,12 @@ parse_nssh_index <- function(
         (is.logical(download_pdf) && download_pdf))) ) {
     pdfs <- lapply(res1$url, function(x) {
       dfile <- file.path(pdf_path, paste0(basename(x), ".pdf"))
-      f <- download.file(
+      curl::curl_download(
         paste0("https://directives.sc.egov.usda.gov/OpenNonWebContent.aspx?content=", x),
         dfile,
-        mode = "wb"
+        handle = .SKB_curl_handle(),
+        ...
       )
-      if (f == 0)
-        return(dfile)
-      NA_character_
     })
 
     # heuristic to find bad PDF files (<100kB)
