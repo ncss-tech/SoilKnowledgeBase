@@ -85,6 +85,7 @@ jobs:
         run: |
           Rscript -e 'remotes::install_deps(dependencies = TRUE)'
           Rscript -e 'install.packages(c("pdftools", "rvest", "xml2", "aqp", "soilDB", "data.table", "R.utils", "terra"))'
+          Rscript -e 'install.packages("aqp", repos = "https://ncss-tech.r-universe.dev")'
 
       - name: Install SoilKnowledgeBase
         run: |
