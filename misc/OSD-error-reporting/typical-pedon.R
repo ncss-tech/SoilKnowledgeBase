@@ -69,7 +69,7 @@ length(parse.error)
 # dput(parse.error)
 cat(parse.error, file = file.path(output.path, 'misc-errors.txt'), sep = '\n')
 
-spc <- as.data.frame(x)
+spc <- x
 
 # hz data -> SPC
 depths(spc) <- id ~ top + bottom
@@ -150,7 +150,7 @@ cat('--------------------------------------------------------\n\n')
 sink()
 
 # show counts in console
-print(readLines(file.path(output.path, 'log.txt')))
+cat(readLines(file.path(output.path, 'log.txt')), sep = "\n")
 
 .processChunk <- function(s, path) {
   # rank
@@ -180,24 +180,45 @@ print(readLines(file.path(output.path, 'log.txt')))
   write.csv(h.bad, file = fn, row.names = FALSE)
 }
 
+# debug mysterious error only occurring in GHA
 
-## sort by RO and state -> save to TXT files
+tryCatch({
+  ## sort by RO and state -> save to TXT files
 
-mo <- unique(bad$mlraoffice)
+  mo <- unique(bad$mlraoffice)
 
-for (i in mo) {
-  s <- bad[which((bad$overlapOrGap | bad$any_dry_ocrerr  | bad$any_moist_ocrerr | bad$any_hzname_ocrerr) & bad$mlraoffice == i), ]
+  for (i in mo) {
+    s <- bad[which((
+        bad$overlapOrGap |
+          bad$any_dry_ocrerr  |
+          bad$any_moist_ocrerr |
+          bad$any_hzname_ocrerr
+      ) & bad$mlraoffice == i
+      ),]
 
-  if (nrow(s) > 0) {
-    .processChunk(s, path = file.path(output.path, 'RO'))
+    if (nrow(s) > 0) {
+      .processChunk(s, path = file.path(output.path, 'RO'))
+    }
   }
-}
 
-states <- unique(bad$areasymbol)
-for (i in states) {
-  s <- bad[which((bad$overlapOrGap | bad$any_dry_ocrerr  | bad$any_moist_ocrerr | bad$any_hzname_ocrerr) & bad$areasymbol == i), ]
+  states <- unique(bad$areasymbol)
+  for (i in states) {
+    s <- bad[which((
+        bad$overlapOrGap |
+          bad$any_dry_ocrerr  |
+          bad$any_moist_ocrerr |
+          bad$any_hzname_ocrerr
+      ) & bad$areasymbol == i
+      ),]
 
-  if (nrow(s) > 0) {
-    .processChunk(s, path = file.path(output.path, 'state'))
+    if (nrow(s) > 0) {
+      .processChunk(s, path = file.path(output.path, 'state'))
+    }
   }
-}
+
+},
+error = function(e) {
+  cat(e[[1]], sep = "\n")
+  e
+},
+finally = traceback())
