@@ -69,7 +69,7 @@ length(parse.error)
 # dput(parse.error)
 cat(parse.error, file = file.path(output.path, 'misc-errors.txt'), sep = '\n')
 
-spc <- x
+spc <- as.data.frame(x)
 
 # hz data -> SPC
 depths(spc) <- id ~ top + bottom
@@ -149,6 +149,8 @@ cat('--------------------------------------------------------\n\n')
 
 sink()
 
+# show counts in console
+print(readLines(file.path(output.path, 'log.txt')))
 
 .processChunk <- function(s, path) {
   # rank
