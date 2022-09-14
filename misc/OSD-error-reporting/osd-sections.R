@@ -19,6 +19,10 @@ if (file.exists(osd_log)) {
     ), ";;;;"
   ), function(x) data.frame(t(x))), fill = TRUE)
 
+  if (ncol(res) > 3 ) {
+    res <- res[,1:3]
+  }
+
   colnames(res) <- c("errorkind", "soilseriesname", "context")
 
   res$soilseriesname <- gsub("_", " ", res$soilseriesname)
