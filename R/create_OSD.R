@@ -174,7 +174,7 @@ validateOSD <- function(logfile, filepath) {
   marker_self2 <- trimws(gsub("([A-Z .`']) SERIES", "\\1", x[ser.idx]))
 
   if (marker_self1[1] != marker_self2) {
-    logmsg(logfile, "CHECK LINE 1 LOCATION %s", filepath)
+    logmsg(logfile, "CHECK LINE 1 LOCATION: %s", filepath)
 
     # TODO: abstract and generalize these into rules
     # three series in California have established dates before the state
