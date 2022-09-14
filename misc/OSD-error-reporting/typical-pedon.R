@@ -182,43 +182,36 @@ cat(readLines(file.path(output.path, 'log.txt')), sep = "\n")
 
 # debug mysterious error only occurring in GHA
 
-tryCatch({
-  ## sort by RO and state -> save to TXT files
+## sort by RO and state -> save to TXT files
 
-  mo <- unique(bad$mlraoffice)
+mo <- unique(bad$mlraoffice)
+for (i in mo) {
+  cat(i, sep = "\n")
+  s <- bad[which((
+    bad$overlapOrGap |
+      bad$any_dry_ocrerr  |
+      bad$any_moist_ocrerr |
+      bad$any_hzname_ocrerr
+  ) & bad$mlraoffice == i
+  ), ]
 
-  for (i in mo) {
-    s <- bad[which((
-        bad$overlapOrGap |
-          bad$any_dry_ocrerr  |
-          bad$any_moist_ocrerr |
-          bad$any_hzname_ocrerr
-      ) & bad$mlraoffice == i
-      ),]
-
-    if (nrow(s) > 0) {
-      .processChunk(s, path = file.path(output.path, 'RO'))
-    }
+  if (nrow(s) > 0) {
+    try(.processChunk(s, path = file.path(output.path, 'RO')))
   }
+}
 
-  states <- unique(bad$areasymbol)
-  for (i in states) {
-    s <- bad[which((
-        bad$overlapOrGap |
-          bad$any_dry_ocrerr  |
-          bad$any_moist_ocrerr |
-          bad$any_hzname_ocrerr
-      ) & bad$areasymbol == i
-      ),]
+states <- unique(bad$areasymbol)
+for (i in states) {
+  cat(i, sep = "\n")
+  s <- bad[which((
+    bad$overlapOrGap |
+      bad$any_dry_ocrerr  |
+      bad$any_moist_ocrerr |
+      bad$any_hzname_ocrerr
+  ) & bad$areasymbol == i
+  ), ]
 
-    if (nrow(s) > 0) {
-      .processChunk(s, path = file.path(output.path, 'state'))
-    }
+  if (nrow(s) > 0) {
+    try(.processChunk(s, path = file.path(output.path, 'state')))
   }
-
-},
-error = function(e) {
-  cat(e[[1]], sep = "\n")
-  e
-},
-finally = traceback())
+}
