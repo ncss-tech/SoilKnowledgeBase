@@ -87,7 +87,7 @@ parse_nssh_index <- function(
 ) {
   .SD <- NULL
   if (is.null(nssh_url))
-    nssh_url <- "https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/soils/ref/?cid=nrcs142p2_054242"
+    nssh_url <- "https://www.nrcs.usda.gov/resources/guides-and-instructions/national-soil-survey-handbook"
 
   ## NSSH Table of Contents
 
