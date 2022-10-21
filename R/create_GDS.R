@@ -5,7 +5,8 @@
 #' @export
 create_GDS <- function(...) {
 
-    parse_GDS(...)
+    # TODO: GDS link unknown on new drupal site
+    # parse_GDS(...)
 
 }
 

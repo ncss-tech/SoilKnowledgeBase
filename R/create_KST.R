@@ -555,10 +555,10 @@ download_KST <- function(outpath = "./inst/extdata",
   }
 
   # hard coding 12th edition web sources for PDF files
-  yhref <- "https://www.nrcs.usda.gov/wps/PA_NRCSConsumption/download?cid=stelprdb1252094&ext=pdf"
+  yhref <- "https://www.nrcs.usda.gov/sites/default/files/2022-09/Keys-to-Soil-Taxonomy.pdf"
 
   if (language == "SP") {
-    yhref <- "https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_051546.pdf"
+    yhref <- "https://www.nrcs.usda.gov/sites/default/files/2022-06/Illustrated_Guide_to_Soil_Taxonomy_Spanish.pdf"
   }
 
   fn <- sprintf("2014_KST_%s.pdf", language)
