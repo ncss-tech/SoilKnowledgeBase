@@ -5,8 +5,7 @@
 #' @export
 create_GDS <- function(...) {
 
-    # TODO: GDS link unknown on new drupal site
-    # parse_GDS(...)
+    parse_GDS(...)
 
 }
 
@@ -15,8 +14,11 @@ download_GDS <- function(outpath = "./inst/extdata",
                          output_types = "txt",
                          keep_pdf = FALSE, ...) {
 
+
+    # TODO: convert to pdftools
+
     curl::curl_download(destfile = "GDS.pdf",
-                        url = "https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_051068.pdf",
+                        url = "https://www.nrcs.usda.gov/sites/default/files/2022-10/GDS_v5.pdf",
                         handle = .SKB_curl_handle(),
                         ...)
 

@@ -558,7 +558,7 @@ download_KST <- function(outpath = "./inst/extdata",
   yhref <- "https://www.nrcs.usda.gov/sites/default/files/2022-09/Keys-to-Soil-Taxonomy.pdf"
 
   if (language == "SP") {
-    yhref <- "https://www.nrcs.usda.gov/sites/default/files/2022-06/Illustrated_Guide_to_Soil_Taxonomy_Spanish.pdf"
+    yhref <- "https://www.nrcs.usda.gov/sites/default/files/2022-10/Spanish-Keys-to-Soil-Taxonomy.pdf"
   }
 
   fn <- sprintf("2014_KST_%s.pdf", language)
