@@ -1,6 +1,6 @@
 #' @importFrom curl new_handle curl_download
 .SKB_curl_handle <- function(timeout = 300, ssl_verifyhost = 0, ...) {
-  curl::new_handle(timeout = timeout, ssl_verifyhost = 0, ...)
+  curl::new_handle(timeout = timeout, ssl_verifyhost = ssl_verifyhost, ...)
 }
 
 #' Convert an xml_nodeset containing <a> elements into a tbl_df
