@@ -17,10 +17,10 @@ download_GDS <- function(outpath = "./inst/extdata",
 
     # TODO: convert to pdftools
 
-    curl::curl_download(destfile = "GDS.pdf",
+    try(curl::curl_download(destfile = "GDS.pdf",
                         url = "https://www.nrcs.usda.gov/sites/default/files/2022-10/GDS_v5.pdf",
                         handle = .SKB_curl_handle(),
-                        ...)
+                        ...))
 
     system(sprintf("pdftotext -raw -nodiag GDS.pdf"))
 
