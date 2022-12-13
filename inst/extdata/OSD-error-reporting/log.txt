@@ -1,19 +1,19 @@
 ### Problems by RO  ###
      amherst, ma       auburn, al      bozeman, mt        davis, ca 
-              71               30              734              708 
+              71               30              710              708 
 indianapolis, in   morgantown, wv      phoenix, az     portland, or 
               12               88              171              449 
      raleigh, nc       salina, ks     st. paul, mn       temple, tx 
               70               37               89               83 
      wasilla, ak 
-             290 
+             293 
 --------------------------------------------------------
 
 ### Depth Logic Errors by RO  ###                  
                    FALSE TRUE
   amherst, ma         66    5
   auburn, al          29    1
-  bozeman, mt        620  114
+  bozeman, mt        606  104
   davis, ca          516  192
   indianapolis, in    11    1
   morgantown, wv      75   13
@@ -23,14 +23,14 @@ indianapolis, in   morgantown, wv      phoenix, az     portland, or
   salina, ks          33    4
   st. paul, mn        57   32
   temple, tx          57   26
-  wasilla, ak        194   96
+  wasilla, ak        197   96
 --------------------------------------------------------
 
 ### Hz Overlap / Gap Errors by RO  ###                  
                    FALSE TRUE
   amherst, ma         64    7
   auburn, al          30    0
-  bozeman, mt        573  161
+  bozeman, mt        574  136
   davis, ca          398  310
   indianapolis, in    12    0
   morgantown, wv      79    9
@@ -40,18 +40,18 @@ indianapolis, in   morgantown, wv      phoenix, az     portland, or
   salina, ks          29    8
   st. paul, mn        50   39
   temple, tx          50   33
-  wasilla, ak        103  187
+  wasilla, ak        106  187
 --------------------------------------------------------
 
 ### Depth Logic / Gap Errors by State  ###    
      FALSE TRUE
-  AK   194   96
+  AK   197   96
   AL     3    0
   AR     9    4
   AS     2    0
   AZ    24    9
   CA   391  161
-  CO    99   52
+  CO    94   46
   CT     6    0
   DE     2    0
   FL    25    0
@@ -61,7 +61,7 @@ indianapolis, in   morgantown, wv      phoenix, az     portland, or
   HI    16    3
   HT     1    0
   IA     3    0
-  ID    58   13
+  ID    58   11
   IL     5    1
   IN     9    1
   KS     5    0
@@ -75,13 +75,13 @@ indianapolis, in   morgantown, wv      phoenix, az     portland, or
   MO     7    0
   MP     7    3
   MS     8    0
-  MT    85   19
+  MT    83   18
   NC    19    5
   ND     7    2
   NE     8    1
   NH     9    0
   NJ    20    0
-  NM    33   18
+  NM    28   18
   NV    70   16
   NY    14    0
   OH     2    0
@@ -95,24 +95,24 @@ indianapolis, in   morgantown, wv      phoenix, az     portland, or
   SD    12    1
   TN     6    3
   TX    32   19
-  UT   199   36
+  UT   197   36
   VA    43    5
   VT     8    1
   WA   144  109
   WI     8    3
   WV     4    0
-  WY   205   11
+  WY   205   10
 --------------------------------------------------------
 
 ### Hz Overlap / Gap Errors by State  ###    
      FALSE TRUE
-  AK   103  187
+  AK   106  187
   AL     3    0
   AR     8    5
   AS     2    0
   AZ    29    4
   CA   341  211
-  CO    88   63
+  CO    88   52
   CT     6    0
   DE     2    0
   FL    25    0
@@ -122,7 +122,7 @@ indianapolis, in   morgantown, wv      phoenix, az     portland, or
   HI    10    9
   HT     1    0
   IA     3    0
-  ID    59   12
+  ID    60    9
   IL     6    0
   IN     9    1
   KS     4    1
@@ -136,13 +136,13 @@ indianapolis, in   morgantown, wv      phoenix, az     portland, or
   MO     7    0
   MP     4    6
   MS     8    0
-  MT    68   36
+  MT    68   33
   NC    24    0
   ND     4    5
   NE     9    0
   NH     9    0
   NJ    20    0
-  NM    33   18
+  NM    33   13
   NV    71   15
   NY    12    2
   OH     1    1
@@ -156,24 +156,24 @@ indianapolis, in   morgantown, wv      phoenix, az     portland, or
   SD    11    2
   TN     8    1
   TX    30   21
-  UT   205   30
+  UT   205   28
   VA    43    5
   VT     7    2
   WA   111  142
   WI    10    1
   WV     4    0
-  WY   203   13
+  WY   203   12
 --------------------------------------------------------
 
 ### Hz Designation OCR Errors by State  ###    
      FALSE TRUE
-  AK   256   34
+  AK   259   34
   AL     1    2
   AR     8    5
   AS     0    2
   AZ     7   26
   CA   362  190
-  CO    82   69
+  CO    80   60
   CT     3    3
   DE     2    0
   FL    15   10
@@ -183,7 +183,7 @@ indianapolis, in   morgantown, wv      phoenix, az     portland, or
   HI     8   11
   HT     1    0
   IA     1    2
-  ID    30   41
+  ID    27   42
   IL     3    3
   IN     0   10
   KS     3    2
@@ -197,13 +197,13 @@ indianapolis, in   morgantown, wv      phoenix, az     portland, or
   MO     1    6
   MP     6    4
   MS     1    7
-  MT    67   37
+  MT    64   37
   NC    18    6
   ND     4    5
   NE     6    3
   NH     2    7
   NJ    19    1
-  NM    23   28
+  NM    21   25
   NV    34   52
   NY     3   11
   OH     1    1
@@ -217,24 +217,24 @@ indianapolis, in   morgantown, wv      phoenix, az     portland, or
   SD     9    4
   TN     3    6
   TX    44    7
-  UT   154   81
+  UT   153   80
   VA    19   29
   VT     6    3
   WA   125  128
   WI     3    8
   WV     1    3
-  WY   198   18
+  WY   198   17
 --------------------------------------------------------
 
 ### Hz Dry Color OCR Errors by State  ###    
      FALSE TRUE
-  AK   290    0
+  AK   293    0
   AL     3    0
   AR    13    0
   AS     2    0
   AZ    33    0
   CA   522   30
-  CO   143    8
+  CO   132    8
   CT     6    0
   DE     2    0
   FL    25    0
@@ -244,7 +244,7 @@ indianapolis, in   morgantown, wv      phoenix, az     portland, or
   HI    19    0
   HT     1    0
   IA     3    0
-  ID    68    3
+  ID    66    3
   IL     6    0
   IN    10    0
   KS     4    1
@@ -258,13 +258,13 @@ indianapolis, in   morgantown, wv      phoenix, az     portland, or
   MO     7    0
   MP    10    0
   MS     8    0
-  MT   104    0
+  MT   101    0
   NC    24    0
   ND     9    0
   NE     7    2
   NH     9    0
   NJ    20    0
-  NM    45    6
+  NM    40    6
   NV    81    5
   NY    14    0
   OH     2    0
@@ -278,24 +278,24 @@ indianapolis, in   morgantown, wv      phoenix, az     portland, or
   SD    10    3
   TN     9    0
   TX    46    5
-  UT   232    3
+  UT   230    3
   VA    48    0
   VT     9    0
   WA   214   39
   WI    11    0
   WV     4    0
-  WY   215    1
+  WY   214    1
 --------------------------------------------------------
 
 ### Hz Moist Color OCR Errors by State  ###    
      FALSE TRUE
-  AK   289    1
+  AK   292    1
   AL     3    0
   AR    13    0
   AS     2    0
   AZ    33    0
   CA   524   28
-  CO   142    9
+  CO   131    9
   CT     6    0
   DE     2    0
   FL    23    2
@@ -305,7 +305,7 @@ indianapolis, in   morgantown, wv      phoenix, az     portland, or
   HI    18    1
   HT     1    0
   IA     3    0
-  ID    67    4
+  ID    65    4
   IL     6    0
   IN     9    1
   KS     5    0
@@ -319,13 +319,13 @@ indianapolis, in   morgantown, wv      phoenix, az     portland, or
   MO     7    0
   MP    10    0
   MS     8    0
-  MT   104    0
+  MT   101    0
   NC    23    1
   ND     9    0
   NE     8    1
   NH     9    0
   NJ    20    0
-  NM    45    6
+  NM    40    6
   NV    80    6
   NY    14    0
   OH     2    0
@@ -339,12 +339,12 @@ indianapolis, in   morgantown, wv      phoenix, az     portland, or
   SD     8    5
   TN     9    0
   TX    46    5
-  UT   223   12
+  UT   221   12
   VA    40    8
   VT     9    0
   WA   216   37
   WI    11    0
   WV     4    0
-  WY   215    1
+  WY   214    1
 --------------------------------------------------------
 
