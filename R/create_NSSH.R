@@ -7,49 +7,49 @@
 #' @return TRUE if successful
 #' @export
 create_NSSH <- function(outpath = "inst/extdata", ...) {
- if (!dir.exists(outpath))
-   dir.create(outpath, recursive = TRUE)
- logfile <- file.path(outpath, "NSSH/NSSH.log")
-
- logmsg(logfile, "Processing NSSH from eDirectives...")
-
-  # run inst/scripts/NSSH
-
-   dat <- parse_nssh_index(logfile = logfile, outpath = outpath, ...)
-
-   attempt <- try(for (p in unique(dat$part)) {
-
-   hed <- parse_nssh_part(dat$part, dat$subpart, outpath = outpath, logfile = logfile)
-
-   if (!is.null(hed)) {
-      # create the JSON clause products for each NSSH part/subpart .txt
-      dspt <- split(dat, 1:nrow(dat))
-      lapply(dspt, function(dd)
-        parse_NSSH(
-          logfile = logfile,
-          outpath = outpath,
-          a_part = dd$part,
-          a_subpart = dd$subpart
-        ))
-
-      # Optional: special scripts (by NSSH Part #) can be called from inst/scripts/NSSH
-      rpath <- list.files(file.path(dirname(outpath), "scripts/NSSH/", p, ".*.R"), full.names = TRUE)
-
-      # # find each .R file (one or more for each part) and source them
-      lapply(rpath, function(filepath) {
-        if (file.exists(filepath))
-          source(filepath)
-      })
-    }
-  })
-
-  # call processing methods built into package
-  try(process_NSSH_629A(outpath = outpath) )
-
-  if (inherits(attempt, 'try-error'))
-    return(FALSE)
-
-  logmsg(logfile, "Done!")
+ # if (!dir.exists(outpath))
+ #   dir.create(outpath, recursive = TRUE)
+ # logfile <- file.path(outpath, "NSSH/NSSH.log")
+ #
+ # logmsg(logfile, "Processing NSSH from eDirectives...")
+ #
+ #  # run inst/scripts/NSSH
+ #
+ #   dat <- parse_nssh_index(logfile = logfile, outpath = outpath, ...)
+ #
+ #   attempt <- try(for (p in unique(dat$part)) {
+ #
+ #   hed <- parse_nssh_part(dat$part, dat$subpart, outpath = outpath, logfile = logfile)
+ #
+ #   if (!is.null(hed)) {
+ #      # create the JSON clause products for each NSSH part/subpart .txt
+ #      dspt <- split(dat, 1:nrow(dat))
+ #      lapply(dspt, function(dd)
+ #        parse_NSSH(
+ #          logfile = logfile,
+ #          outpath = outpath,
+ #          a_part = dd$part,
+ #          a_subpart = dd$subpart
+ #        ))
+ #
+ #      # Optional: special scripts (by NSSH Part #) can be called from inst/scripts/NSSH
+ #      rpath <- list.files(file.path(dirname(outpath), "scripts/NSSH/", p, ".*.R"), full.names = TRUE)
+ #
+ #      # # find each .R file (one or more for each part) and source them
+ #      lapply(rpath, function(filepath) {
+ #        if (file.exists(filepath))
+ #          source(filepath)
+ #      })
+ #    }
+ #  })
+ #
+ #  # call processing methods built into package
+ #  try(process_NSSH_629A(outpath = outpath) )
+ #
+ #  if (inherits(attempt, 'try-error'))
+ #    return(FALSE)
+ #
+ #  logmsg(logfile, "Done!")
   return(TRUE)
 }
 
