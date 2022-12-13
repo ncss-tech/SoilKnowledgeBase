@@ -1,5 +1,5 @@
 #' @importFrom curl new_handle curl_download
-.SKB_curl_handle <- function(timeout = 300, ssl_verifyhost = 0, ...) {
+.SKB_curl_handle <- function(timeout = 3000, ssl_verifyhost = 0, ...) {
   curl::new_handle(timeout = timeout, ssl_verifyhost = ssl_verifyhost, ...)
 }
 
