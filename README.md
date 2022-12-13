@@ -1,5 +1,4 @@
-Soil Knowledge Base
--------------------
+## Soil Knowledge Base
 
 [![refresh
 inst/extdata](https://github.com/brownag/SoilKnowledgeBase/workflows/refresh-extdata/badge.svg)](https://github.com/brownag/SoilKnowledgeBase/actions?query=workflow%3Arefresh-extdata)
@@ -68,295 +67,360 @@ official sources of standards of this nature.
 <td style="text-align: left;">600 A</td>
 <td style="text-align: left;">Introduction, Subpart A</td>
 <td style="text-align: left;">General</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44200.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44200.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">600 B</td>
 <td style="text-align: left;">Introduction, Subpart B</td>
 <td style="text-align: left;">General</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44201.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44201.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">601 A</td>
 <td style="text-align: left;">NCSS Organization, Subpart A</td>
 <td style="text-align: left;">General</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44202.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44202.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">601 B</td>
 <td style="text-align: left;">NCSS Organization, Subpart B</td>
 <td style="text-align: left;">General</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44203.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44203.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">602 B</td>
 <td style="text-align: left;">Conferences of the NCSS, Subpart B</td>
 <td style="text-align: left;">General</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/45970.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/45970.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">606 A</td>
 <td style="text-align: left;">Working Agreements, Subpart A</td>
 <td style="text-align: left;">Operations And Management</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/46327.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/46327.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">606 B</td>
 <td style="text-align: left;">Working Agreements, Subpart B</td>
 <td style="text-align: left;">Operations And Management</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/46328.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/46328.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">607 A</td>
-<td style="text-align: left;">Initial Soil Survey Preparation, Subpart A</td>
+<td style="text-align: left;">Initial Soil Survey Preparation, Subpart
+A</td>
 <td style="text-align: left;">Operations And Management</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44209.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44209.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">607 B</td>
-<td style="text-align: left;">Initial Soil Survey Preparation, Subpart B</td>
+<td style="text-align: left;">Initial Soil Survey Preparation, Subpart
+B</td>
 <td style="text-align: left;">Operations And Management</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44216.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44216.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">608 A</td>
 <td style="text-align: left;">Program Management, Subpart A</td>
 <td style="text-align: left;">Operations And Management</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44210.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44210.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">608 B</td>
 <td style="text-align: left;">Program Management, Subpart B</td>
 <td style="text-align: left;">Operations And Management</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44211.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44211.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">609 A</td>
-<td style="text-align: left;">QC/QA* and Soil Correlation, Subpart A</td>
+<td style="text-align: left;">QC/QA* and Soil Correlation, Subpart
+A</td>
 <td style="text-align: left;">Operations And Management</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44212.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44212.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">609 B</td>
-<td style="text-align: left;">QC/QA* and Soil Correlation, Subpart B</td>
+<td style="text-align: left;">QC/QA* and Soil Correlation, Subpart
+B</td>
 <td style="text-align: left;">Operations And Management</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44213.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44213.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">610 A</td>
 <td style="text-align: left;">Updating Soil Surveys, Subpart A</td>
 <td style="text-align: left;">Operations And Management</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44214.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44214.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">610 B</td>
 <td style="text-align: left;">Updating Soil Surveys, Subpart B</td>
 <td style="text-align: left;">Operations And Management</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44215.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44215.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">614 A</td>
 <td style="text-align: left;">Applying Soil Taxonomy, Subpart A</td>
 <td style="text-align: left;">Soil Classification</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44230.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44230.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">614 B</td>
 <td style="text-align: left;">Applying Soil Taxonomy, Subpart B</td>
 <td style="text-align: left;">Soil Classification</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44231.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44231.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">617 A</td>
-<td style="text-align: left;">Soil Survey Interpretations, Subpart A</td>
+<td style="text-align: left;">Soil Survey Interpretations, Subpart
+A</td>
 <td style="text-align: left;">Soil Interpretations</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44232.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44232.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">617 B</td>
-<td style="text-align: left;">Soil Survey Interpretations, Subpart B</td>
+<td style="text-align: left;">Soil Survey Interpretations, Subpart
+B</td>
 <td style="text-align: left;">Soil Interpretations</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44234.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44234.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">618 A</td>
-<td style="text-align: left;">Soil Properties and Qualities, Subpart A</td>
+<td style="text-align: left;">Soil Properties and Qualities, Subpart
+A</td>
 <td style="text-align: left;">Soil Interpretations</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/46752.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/46752.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">618 B</td>
-<td style="text-align: left;">Soil Properties and Qualities, Subpart B</td>
+<td style="text-align: left;">Soil Properties and Qualities, Subpart
+B</td>
 <td style="text-align: left;">Soil Interpretations</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44385.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44385.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">621 A</td>
 <td style="text-align: left;">Soil Potential Ratings, Subpart A</td>
 <td style="text-align: left;">Soil Interpretations</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44251.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44251.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">621 B</td>
 <td style="text-align: left;">Soil Potential Ratings, Subpart B</td>
 <td style="text-align: left;">Soil Interpretations</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44252.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44252.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">622 A</td>
 <td style="text-align: left;">Interpretive Groups, Subpart A</td>
 <td style="text-align: left;">Soil Interpretations</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/45381.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/45381.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">622 B</td>
 <td style="text-align: left;">Interpretive Groups, Subpart B</td>
 <td style="text-align: left;">Soil Interpretations</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44254.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44254.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">624 A</td>
 <td style="text-align: left;">Soil Quality, Subpart A</td>
 <td style="text-align: left;">Soil Interpretations</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44255.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44255.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">624 B</td>
 <td style="text-align: left;">Soil Quality, Subpart B</td>
 <td style="text-align: left;">Soil Interpretations</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44256.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44256.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">627 A</td>
-<td style="text-align: left;">Legend Development and Data Collection, Subpart A</td>
+<td style="text-align: left;">Legend Development and Data Collection,
+Subpart A</td>
 <td style="text-align: left;">Soil Survey Field Procedures</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/45136.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/45136.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">627 B</td>
-<td style="text-align: left;">Legend Development and Data Collection, Subpart B</td>
+<td style="text-align: left;">Legend Development and Data Collection,
+Subpart B</td>
 <td style="text-align: left;">Soil Survey Field Procedures</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44259.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44259.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">629 A</td>
-<td style="text-align: left;">Glossary of Landform and Geologic Terms, Subpart A</td>
+<td style="text-align: left;">Glossary of Landform and Geologic Terms,
+Subpart A</td>
 <td style="text-align: left;">Soil Survey Field Procedures</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44260.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44260.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">629 B</td>
-<td style="text-align: left;">Glossary of Landform and Geologic Terms, Subpart B</td>
+<td style="text-align: left;">Glossary of Landform and Geologic Terms,
+Subpart B</td>
 <td style="text-align: left;">Soil Survey Field Procedures</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44261.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44261.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">630 A</td>
 <td style="text-align: left;">Benchmark Soils, Subpart A</td>
 <td style="text-align: left;">Soil Survey Field Procedures</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44262.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44262.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">630 B</td>
 <td style="text-align: left;">Benchmark Soils, Subpart B</td>
 <td style="text-align: left;">Soil Survey Field Procedures</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44263.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44263.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">631 A</td>
 <td style="text-align: left;">Soil Survey Investigations, Subpart A</td>
 <td style="text-align: left;">Soil Survey Field Procedures</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44264.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44264.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">631 B</td>
 <td style="text-align: left;">Soil Survey Investigations, Subpart B</td>
 <td style="text-align: left;">Soil Survey Field Procedures</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44265.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44265.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">638</td>
 <td style="text-align: left;">Soil Data Systems</td>
 <td style="text-align: left;">Soil Survey Information Systems</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44266.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44266.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">639 A</td>
-<td style="text-align: left;">National Soil Information System (NASIS), Subpart A</td>
+<td style="text-align: left;">National Soil Information System (NASIS),
+Subpart A</td>
 <td style="text-align: left;">Soil Survey Information Systems</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44267.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44267.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">639 B</td>
-<td style="text-align: left;">National Soil Information System (NASIS), Subpart B</td>
+<td style="text-align: left;">National Soil Information System (NASIS),
+Subpart B</td>
 <td style="text-align: left;">Soil Survey Information Systems</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44268.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44268.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">644 A</td>
-<td style="text-align: left;">Delivering Soil Survey Information, Subpart A</td>
+<td style="text-align: left;">Delivering Soil Survey Information,
+Subpart A</td>
 <td style="text-align: left;">Soil Survey Publications</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44276.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44276.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">644 B</td>
-<td style="text-align: left;">Delivering Soil Survey Information, Subpart B</td>
+<td style="text-align: left;">Delivering Soil Survey Information,
+Subpart B</td>
 <td style="text-align: left;">Soil Survey Publications</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44277.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44277.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">647 A</td>
 <td style="text-align: left;">Soil Map Development, Subpart A</td>
 <td style="text-align: left;">Soil Maps</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44278.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44278.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">647 B</td>
 <td style="text-align: left;">Soil Map Development, Subpart B</td>
 <td style="text-align: left;">Soil Maps</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/48547.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/48547.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">648 A</td>
 <td style="text-align: left;">Digital Soil Mapping</td>
 <td style="text-align: left;">Soil Maps</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44280.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44280.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">648 B</td>
 <td style="text-align: left;">Digital Soil Mapping</td>
 <td style="text-align: left;">Soil Maps</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44281.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44281.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">649 A</td>
 <td style="text-align: left;">Land Resource Areas, Subpart A</td>
 <td style="text-align: left;">Soil Maps</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44282.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44282.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">649 B</td>
 <td style="text-align: left;">Land Resource Areas, Subpart B</td>
 <td style="text-align: left;">Soil Maps</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44286.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44286.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">651</td>
 <td style="text-align: left;">Advance Soil Survey Information</td>
 <td style="text-align: left;">Information Delivery</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44283.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44283.wba">LINK</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">655</td>
 <td style="text-align: left;">Technical Soil Services</td>
 <td style="text-align: left;">Information Delivery</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/44284.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/44284.wba">LINK</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">656 A</td>
 <td style="text-align: left;">Coastal Zone Soil Survey, Subpart A</td>
 <td style="text-align: left;">Information Delivery</td>
-<td style="text-align: left;"><a href="https://directives.sc.egov.usda.gov/48590.wba">LINK</a></td>
+<td style="text-align: left;"><a
+href="https://directives.sc.egov.usda.gov/48590.wba">LINK</a></td>
 </tr>
 </tbody>
 </table>
@@ -382,7 +446,8 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">600</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">600.0 The Mission of the Soil Science Division, Natural Resources Conservation Service</td>
+<td style="text-align: left;">600.0 The Mission of the Soil Science
+Division, Natural Resources Conservation Service</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">600</td>
@@ -392,12 +457,14 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">600</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">600.2 National Cooperative Soil Survey (NCSS) Standards</td>
+<td style="text-align: left;">600.2 National Cooperative Soil Survey
+(NCSS) Standards</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">600</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">600.3 Principal References and Their Maintenance</td>
+<td style="text-align: left;">600.3 Principal References and Their
+Maintenance</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">600</td>
@@ -407,7 +474,8 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">600</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">600.5 Standards of the National Cooperative Soil Survey</td>
+<td style="text-align: left;">600.5 Standards of the National
+Cooperative Soil Survey</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">600</td>
@@ -417,7 +485,8 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">600</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">600.11 Tracking Flowchart for NSSH Amendments (After Figure 503-D2: Workflow</td>
+<td style="text-align: left;">600.11 Tracking Flowchart for NSSH
+Amendments (After Figure 503-D2: Workflow</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">601</td>
@@ -427,7 +496,8 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">601</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">601.1 NRCS Organization and Responsibilities</td>
+<td style="text-align: left;">601.1 NRCS Organization and
+Responsibilities</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">601</td>
@@ -437,27 +507,32 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">602</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">602.10 Bylaws of the National Cooperative Soil Survey Conference</td>
+<td style="text-align: left;">602.10 Bylaws of the National Cooperative
+Soil Survey Conference</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">602</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">602.11 Bylaws of the Western Regional Cooperative Soil Survey Conference</td>
+<td style="text-align: left;">602.11 Bylaws of the Western Regional
+Cooperative Soil Survey Conference</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">602</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">602.12 Bylaws of the Northeast Cooperative Soil Survey Conference (Revised</td>
+<td style="text-align: left;">602.12 Bylaws of the Northeast Cooperative
+Soil Survey Conference (Revised</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">602</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">602.13 Bylaws of the North Central Regional Soil Survey Conference (Revised</td>
+<td style="text-align: left;">602.13 Bylaws of the North Central
+Regional Soil Survey Conference (Revised</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">602</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">602.14 Bylaws of the Southern Regional Cooperative Soil Survey Conference</td>
+<td style="text-align: left;">602.14 Bylaws of the Southern Regional
+Cooperative Soil Survey Conference</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">602</td>
@@ -477,7 +552,8 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">606</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">606.10 Template Statement of Commitment for Soil Survey and Ecological Site Inventory Projects</td>
+<td style="text-align: left;">606.10 Template Statement of Commitment
+for Soil Survey and Ecological Site Inventory Projects</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">607</td>
@@ -497,12 +573,15 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">607</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">607.10 Reference Materials for Soil Surveys</td>
+<td style="text-align: left;">607.10 Reference Materials for Soil
+Surveys</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">607</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">607.11 Example of a Procedure for Geodatabase Development, File Naming, Archiving, and Quality Assurance</td>
+<td style="text-align: left;">607.11 Example of a Procedure for
+Geodatabase Development, File Naming, Archiving, and Quality
+Assurance</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">608</td>
@@ -512,7 +591,8 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">608</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">608.1 Responsibilities and Organization</td>
+<td style="text-align: left;">608.1 Responsibilities and
+Organization</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">608</td>
@@ -522,7 +602,8 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">608</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">608.3 Areas of Limited Access, Denied Access Areas, and Areas Not Completed</td>
+<td style="text-align: left;">608.3 Areas of Limited Access, Denied
+Access Areas, and Areas Not Completed</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">608</td>
@@ -532,7 +613,8 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">608</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">608.5 Priorities for Soil Survey Activities</td>
+<td style="text-align: left;">608.5 Priorities for Soil Survey
+Activities</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">608</td>
@@ -547,7 +629,8 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">608</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">608.8 Developing Other Schedules for Soil Survey Operations</td>
+<td style="text-align: left;">608.8 Developing Other Schedules for Soil
+Survey Operations</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">608</td>
@@ -557,12 +640,14 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">608</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">608.10 Long-Range Plan for Initial Soil Surveys</td>
+<td style="text-align: left;">608.10 Long-Range Plan for Initial Soil
+Surveys</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">608</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">608.11 Annual Plan of Operations for Initial Soil Surveys</td>
+<td style="text-align: left;">608.11 Annual Plan of Operations for
+Initial Soil Surveys</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">608</td>
@@ -572,17 +657,20 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">608</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">608.13 Business Area Responsibilities for Goals and Progress</td>
+<td style="text-align: left;">608.13 Business Area Responsibilities for
+Goals and Progress</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">609</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">609.0 Definition and Purpose of Quality Control and Quality Assurance</td>
+<td style="text-align: left;">609.0 Definition and Purpose of Quality
+Control and Quality Assurance</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">609</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">609.1 Policy and Responsibilities for Quality Control and Quality Assurance</td>
+<td style="text-align: left;">609.1 Policy and Responsibilities for
+Quality Control and Quality Assurance</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">609</td>
@@ -612,62 +700,74 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">609</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">609.7 Final Soil Survey Field Activities for Initial Soil Survey Projects</td>
+<td style="text-align: left;">609.7 Final Soil Survey Field Activities
+for Initial Soil Survey Projects</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">609</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">609.8 General Soil Maps, Index Maps, and Location Maps</td>
+<td style="text-align: left;">609.8 General Soil Maps, Index Maps, and
+Location Maps</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">609</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">609.10 Format for Correlation Document</td>
+<td style="text-align: left;">609.10 Format for Correlation
+Document</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">609</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">609.11 List of Soil Property or Quality Attributes for Joining</td>
+<td style="text-align: left;">609.11 List of Soil Property or Quality
+Attributes for Joining</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">609</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">609.12 Quality Control Template for Initial Soil Surveys (subject to change to</td>
+<td style="text-align: left;">609.12 Quality Control Template for
+Initial Soil Surveys (subject to change to</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">609</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">609.13 Outline of Items Considered in an Operations Management Review or</td>
+<td style="text-align: left;">609.13 Outline of Items Considered in an
+Operations Management Review or</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">609</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">609.14 Initial Field Review Checklist for Initial Soil Surveys</td>
+<td style="text-align: left;">609.14 Initial Field Review Checklist for
+Initial Soil Surveys</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">609</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">609.15 Quality Assurance Worksheet for Initial Soil Surveys (subject to change</td>
+<td style="text-align: left;">609.15 Quality Assurance Worksheet for
+Initial Soil Surveys (subject to change</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">609</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">609.16 Progress Field Review Checklist for Initial Soil Surveys</td>
+<td style="text-align: left;">609.16 Progress Field Review Checklist for
+Initial Soil Surveys</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">609</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">609.17 Final Field Review Checklist for Initial Soil Surveys</td>
+<td style="text-align: left;">609.17 Final Field Review Checklist for
+Initial Soil Surveys</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">609</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">609.18 Project Review Checklist for MLRA Soil Surveys</td>
+<td style="text-align: left;">609.18 Project Review Checklist for MLRA
+Soil Surveys</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">609</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">609.19 Quality Assurance Worksheet for MLRA Soil Surveys (subject to change</td>
+<td style="text-align: left;">609.19 Quality Assurance Worksheet for
+MLRA Soil Surveys (subject to change</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">610</td>
@@ -727,17 +827,20 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">610</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">610.11 Information Items for the Inventory and Assessment</td>
+<td style="text-align: left;">610.11 Information Items for the Inventory
+and Assessment</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">610</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">610.12 Resources for the Inventory and Assessment</td>
+<td style="text-align: left;">610.12 Resources for the Inventory and
+Assessment</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">610</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">610.13 Sample Project Evaluation Worksheet</td>
+<td style="text-align: left;">610.13 Sample Project Evaluation
+Worksheet</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">610</td>
@@ -747,7 +850,8 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">610</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">610.15 Example of a Project Evaluation Ranking Procedure</td>
+<td style="text-align: left;">610.15 Example of a Project Evaluation
+Ranking Procedure</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">610</td>
@@ -767,22 +871,26 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">614</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">614.2 National Soil Classification System</td>
+<td style="text-align: left;">614.2 National Soil Classification
+System</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">614</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">614.3 Use of the National Soil Classification System in Soil Surveys</td>
+<td style="text-align: left;">614.3 Use of the National Soil
+Classification System in Soil Surveys</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">614</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">614.4 Soil Taxonomy Committees, Work Groups, and Referees</td>
+<td style="text-align: left;">614.4 Soil Taxonomy Committees, Work
+Groups, and Referees</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">614</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">614.5 Procedures for Amending Soil Taxonomy</td>
+<td style="text-align: left;">614.5 Procedures for Amending Soil
+Taxonomy</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">614</td>
@@ -792,27 +900,32 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">614</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">614.10 Flow Chart of Amendment Process</td>
+<td style="text-align: left;">614.10 Flow Chart of Amendment
+Process</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">614</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">614.11 Example of an Official Soil Series Description in HTML</td>
+<td style="text-align: left;">614.11 Example of an Official Soil Series
+Description in HTML</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">614</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">614.12 Explanation and Content of a Soil Series Description</td>
+<td style="text-align: left;">614.12 Explanation and Content of a Soil
+Series Description</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">614</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">614.13 Rounding Numbers from Laboratory Data</td>
+<td style="text-align: left;">614.13 Rounding Numbers from Laboratory
+Data</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">614</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">614.14 Significant Digits for Soil Property or Quality Measurements Used as Criteria</td>
+<td style="text-align: left;">614.14 Significant Digits for Soil
+Property or Quality Measurements Used as Criteria</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">617</td>
@@ -827,22 +940,26 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">617</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">617.2 Interpretations for Map Unit Components and Map Units</td>
+<td style="text-align: left;">617.2 Interpretations for Map Unit
+Components and Map Units</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">617</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">617.3 Developing and Maintaining Interpretation Guides and Ratings</td>
+<td style="text-align: left;">617.3 Developing and Maintaining
+Interpretation Guides and Ratings</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">617</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">617.4 Reviewing and Implementing Soil Interpretative Technologies</td>
+<td style="text-align: left;">617.4 Reviewing and Implementing Soil
+Interpretative Technologies</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">617</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">617.5 The National Soil Information System</td>
+<td style="text-align: left;">617.5 The National Soil Information
+System</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">617</td>
@@ -857,22 +974,26 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">617</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">617.8 Coordinating Soil Survey Interpretations</td>
+<td style="text-align: left;">617.8 Coordinating Soil Survey
+Interpretations</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">617</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">617.9 Writing Soil Interpretation Criteria</td>
+<td style="text-align: left;">617.9 Writing Soil Interpretation
+Criteria</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">617</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">617.10 Documenting Soil Interpretation Criteria</td>
+<td style="text-align: left;">617.10 Documenting Soil Interpretation
+Criteria</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">617</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">617.11 Requirements for Naming Reports and Interpretations</td>
+<td style="text-align: left;">617.11 Requirements for Naming Reports and
+Interpretations</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">617</td>
@@ -882,7 +1003,9 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">617</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">617.20 Example of Descriptions for Documenting Interpretations Example Documentation of Interpretations</td>
+<td style="text-align: left;">617.20 Example of Descriptions for
+Documenting Interpretations Example Documentation of
+Interpretations</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">618</td>
@@ -897,12 +1020,14 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.2 Collecting, Testing, and Populating Soil Property Data</td>
+<td style="text-align: left;">618.2 Collecting, Testing, and Populating
+Soil Property Data</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.3 Soil Properties and Soil Qualities</td>
+<td style="text-align: left;">618.3 Soil Properties and Soil
+Qualities</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">618</td>
@@ -942,7 +1067,8 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.11 Cation-Exchange Capacity NH4OAc pH 7</td>
+<td style="text-align: left;">618.11 Cation-Exchange Capacity NH4OAc pH
+7</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">618</td>
@@ -952,7 +1078,8 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.13 Continuous Inundation Class, Depth, and Month</td>
+<td style="text-align: left;">618.13 Continuous Inundation Class, Depth,
+and Month</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">618</td>
@@ -967,17 +1094,20 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.16 Diagnostic Horizon Feature - Depth to Bottom</td>
+<td style="text-align: left;">618.16 Diagnostic Horizon Feature - Depth
+to Bottom</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.17 Diagnostic Horizon Feature - Depth to Top</td>
+<td style="text-align: left;">618.17 Diagnostic Horizon Feature - Depth
+to Top</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.18 Diagnostic Horizon Feature - Kind</td>
+<td style="text-align: left;">618.18 Diagnostic Horizon Feature -
+Kind</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
@@ -987,7 +1117,8 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.20 Effective Cation-Exchange Capacity</td>
+<td style="text-align: left;">618.20 Effective Cation-Exchange
+Capacity</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
@@ -997,7 +1128,8 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">648.22 Electrical Conductivity 1:5 (volume)</td>
+<td style="text-align: left;">648.22 Electrical Conductivity 1:5
+(volume)</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
@@ -1042,7 +1174,8 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.31 Flooding Frequency Class, Duration Class, Inundation Type, and Month</td>
+<td style="text-align: left;">618.31 Flooding Frequency Class, Duration
+Class, Inundation Type, and Month</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">618</td>
@@ -1092,7 +1225,8 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.41 Landscape, Landform, Microfeature, Anthroscape, Anthropogenic Landform, and Anthropogenic Microfeature</td>
+<td style="text-align: left;">618.41 Landscape, Landform, Microfeature,
+Anthroscape, Anthropogenic Landform, and Anthropogenic Microfeature</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">618</td>
@@ -1112,7 +1246,8 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.45 Parent Material, Kind, Modifier, and Origin</td>
+<td style="text-align: left;">618.45 Parent Material, Kind, Modifier,
+and Origin</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">618</td>
@@ -1137,7 +1272,8 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.50 Ponding Depth, Duration Class, Frequency Class, and Month</td>
+<td style="text-align: left;">618.50 Ponding Depth, Duration Class,
+Frequency Class, and Month</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
@@ -1152,12 +1288,14 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.53 Restriction Kind, Depth, Thickness, and Hardness</td>
+<td style="text-align: left;">618.53 Restriction Kind, Depth, Thickness,
+and Hardness</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.54 Saturated Hydraulic Conductivity</td>
+<td style="text-align: left;">618.54 Saturated Hydraulic
+Conductivity</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
@@ -1182,12 +1320,14 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.59 Soil Erodibility Factors, USLE, RUSLE2</td>
+<td style="text-align: left;">618.59 Soil Erodibility Factors, USLE,
+RUSLE2</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.60 Soil Erodibility Factors for WEPP</td>
+<td style="text-align: left;">618.60 Soil Erodibility Factors for
+WEPP</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
@@ -1227,7 +1367,8 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.68 Taxonomic Family Temperature Class</td>
+<td style="text-align: left;">618.68 Taxonomic Family Temperature
+Class</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
@@ -1237,17 +1378,20 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.70 Taxonomic Moisture Subclass (Subclasses of Soil Moisture Regimes)</td>
+<td style="text-align: left;">618.70 Taxonomic Moisture Subclass
+(Subclasses of Soil Moisture Regimes)</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.71 Taxonomic Temperature Regime (Soil Temperature Regimes)</td>
+<td style="text-align: left;">618.71 Taxonomic Temperature Regime (Soil
+Temperature Regimes)</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.72 Texture Class, Texture Modifier, and Terms Used in Lieu of Texture</td>
+<td style="text-align: left;">618.72 Texture Class, Texture Modifier,
+and Terms Used in Lieu of Texture</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
@@ -1282,27 +1426,32 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">618.79 Wind Erodibility Group and Index</td>
+<td style="text-align: left;">618.79 Wind Erodibility Group and
+Index</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.80 Guides for Estimating Risk of Corrosion Potential for Uncoated Steel</td>
+<td style="text-align: left;">618.80 Guides for Estimating Risk of
+Corrosion Potential for Uncoated Steel</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.81 Guide for Estimating Risk of Corrosion Potential for Concrete</td>
+<td style="text-align: left;">618.81 Guide for Estimating Risk of
+Corrosion Potential for Concrete</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.82 Crop Names and Units of Measure Refer to the NASIS-related metadata at</td>
+<td style="text-align: left;">618.82 Crop Names and Units of Measure
+Refer to the NASIS-related metadata at</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.83 Classification of Soils and Soil-Aggregate Mixtures for the AASHTO System</td>
+<td style="text-align: left;">618.83 Classification of Soils and
+Soil-Aggregate Mixtures for the AASHTO System</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">618</td>
@@ -1312,32 +1461,38 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.85 Distribution of Design Freezing Index Values in the Continental United States</td>
+<td style="text-align: left;">618.85 Distribution of Design Freezing
+Index Values in the Continental United States</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.86 Estimating LL and PI from Percent and Type of Clay</td>
+<td style="text-align: left;">618.86 Estimating LL and PI from Percent
+and Type of Clay</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.87 Texture Triangle and Particle-Size Limits of AASHTO, USDA, and Unified Classification Systems</td>
+<td style="text-align: left;">618.87 Texture Triangle and Particle-Size
+Limits of AASHTO, USDA, and Unified Classification Systems</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.88 Guide for Estimating Ksat from Soil Properties</td>
+<td style="text-align: left;">618.88 Guide for Estimating Ksat from Soil
+Properties</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.89 Guide to Estimating Water Movement Through Bedrock for Layers Designated as R and Cr</td>
+<td style="text-align: left;">618.89 Guide to Estimating Water Movement
+Through Bedrock for Layers Designated as R and Cr</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.90 Rock Fragment Modifier of Texture</td>
+<td style="text-align: left;">618.90 Rock Fragment Modifier of
+Texture</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
@@ -1347,42 +1502,50 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.92 Kw Value Associated With Various Fragment Contents</td>
+<td style="text-align: left;">618.92 Kw Value Associated With Various
+Fragment Contents</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.93 General Guidelines for Assigning Soil Loss Tolerance "T"</td>
+<td style="text-align: left;">618.93 General Guidelines for Assigning
+Soil Loss Tolerance "T"</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.94 Texture Class, Texture Modifier, and Terms Used in Lieu of Texture</td>
+<td style="text-align: left;">618.94 Texture Class, Texture Modifier,
+and Terms Used in Lieu of Texture</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.95 Wind Erodibility Groups (WEG) and Index</td>
+<td style="text-align: left;">618.95 Wind Erodibility Groups (WEG) and
+Index</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.96 Key Landforms and Their Susceptibility to Slippage</td>
+<td style="text-align: left;">618.96 Key Landforms and Their
+Susceptibility to Slippage</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.97 Example Worksheets for Soil Moisture State by Month and Depth</td>
+<td style="text-align: left;">618.97 Example Worksheets for Soil
+Moisture State by Month and Depth</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.98 NASIS Calculation for Estimating AASHTO Group Index</td>
+<td style="text-align: left;">618.98 NASIS Calculation for Estimating
+AASHTO Group Index</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">618</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">618.99 NASIS Calculation for Estimating Cation-Exchange Capacity</td>
+<td style="text-align: left;">618.99 NASIS Calculation for Estimating
+Cation-Exchange Capacity</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">621</td>
@@ -1402,12 +1565,14 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">621</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">621.3 Developing Soil Potential Ratings</td>
+<td style="text-align: left;">621.3 Developing Soil Potential
+Ratings</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">621</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">621.4 Steps in Preparing Soil Potential Ratings</td>
+<td style="text-align: left;">621.4 Steps in Preparing Soil Potential
+Ratings</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">621</td>
@@ -1417,7 +1582,8 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">621</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">621.6 Definition of Soil Potential Classes</td>
+<td style="text-align: left;">621.6 Definition of Soil Potential
+Classes</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">621</td>
@@ -1427,27 +1593,32 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">621</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">621.8 Procedures for Preparing Soil Potential Ratings</td>
+<td style="text-align: left;">621.8 Procedures for Preparing Soil
+Potential Ratings</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">621</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">621.9 Defining Soil Use, Performance Standards, and Criteria for Evaluation</td>
+<td style="text-align: left;">621.9 Defining Soil Use, Performance
+Standards, and Criteria for Evaluation</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">621</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">621.10 Terminology for Limitations and Corrective Measures</td>
+<td style="text-align: left;">621.10 Terminology for Limitations and
+Corrective Measures</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">621</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">621.11 Format for Presenting Soil Potential Ratings</td>
+<td style="text-align: left;">621.11 Format for Presenting Soil
+Potential Ratings</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">621</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">621.12 Analysis of Preparations and Procedures for Soil Potential Ratings</td>
+<td style="text-align: left;">621.12 Analysis of Preparations and
+Procedures for Soil Potential Ratings</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">622</td>
@@ -1472,7 +1643,8 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">622</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">622.4 Highly Erodible Land - Highly Erodible Soil Map Unit List</td>
+<td style="text-align: left;">622.4 Highly Erodible Land - Highly
+Erodible Soil Map Unit List</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">622</td>
@@ -1537,7 +1709,8 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">624</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">624.10 Soil Quality Test Kit (Instruction Manual)</td>
+<td style="text-align: left;">624.10 Soil Quality Test Kit (Instruction
+Manual)</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">624</td>
@@ -1557,7 +1730,8 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">627</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">627.2 Field Studies for Legend Development</td>
+<td style="text-align: left;">627.2 Field Studies for Legend
+Development</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">627</td>
@@ -1577,12 +1751,14 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">627</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">627.6 Phases Used to Name Soil Map Units</td>
+<td style="text-align: left;">627.6 Phases Used to Name Soil Map
+Units</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">627</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">627.7 Soil Performance Data Collection</td>
+<td style="text-align: left;">627.7 Soil Performance Data
+Collection</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">627</td>
@@ -1592,7 +1768,8 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">627</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">627.9 Ecological Site and Soil Correlation Procedures</td>
+<td style="text-align: left;">627.9 Ecological Site and Soil Correlation
+Procedures</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">627</td>
@@ -1602,27 +1779,32 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">627</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">627.11 Example of Form NRCS-SOI-1, "Soil-Crop Yield Data"</td>
+<td style="text-align: left;">627.11 Example of Form NRCS-SOI-1,
+"Soil-Crop Yield Data"</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">627</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">627.12 Instructions for Completing Form NRCS-SOI-1, "Soil-Crop Yield Data"</td>
+<td style="text-align: left;">627.12 Instructions for Completing Form
+NRCS-SOI-1, "Soil-Crop Yield Data"</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">627</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">627.13 Identification Legend of Map Unit Symbols and Names</td>
+<td style="text-align: left;">627.13 Identification Legend of Map Unit
+Symbols and Names</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">627</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">627.14 Form NRCS-SOI-37A, "Feature and Symbol Legend for Soil Survey"</td>
+<td style="text-align: left;">627.14 Form NRCS-SOI-37A, "Feature and
+Symbol Legend for Soil Survey"</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">627</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">627.15 Ecological Site and Soil Correlation Checklist</td>
+<td style="text-align: left;">627.15 Ecological Site and Soil
+Correlation Checklist</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">627</td>
@@ -1632,7 +1814,8 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">627</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">627.17 Matrix of Investigation Intensity of Soil Surveys and Documentation</td>
+<td style="text-align: left;">627.17 Matrix of Investigation Intensity
+of Soil Surveys and Documentation</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">629</td>
@@ -1657,22 +1840,28 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">629</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">629.10 Lists of Landscape, Landform, Microfeature, and Anthropogenic Feature Terms Contained in the Glossary</td>
+<td style="text-align: left;">629.10 Lists of Landscape, Landform,
+Microfeature, and Anthropogenic Feature Terms Contained in the
+Glossary</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">629</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">629.11 List of Materials or Material-Related, Structure, or Morphological-Feature Terms Contained in the Glossary</td>
+<td style="text-align: left;">629.11 List of Materials or
+Material-Related, Structure, or Morphological-Feature Terms Contained in
+the Glossary</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">629</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">629.12 Genesis-Process Terms and Geologic Time Terms Contained in the Glossary</td>
+<td style="text-align: left;">629.12 Genesis-Process Terms and Geologic
+Time Terms Contained in the Glossary</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">629</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">629.13 North American Glacial Episodes and General Geologic Time Scale 1, 2</td>
+<td style="text-align: left;">629.13 North American Glacial Episodes and
+General Geologic Time Scale 1, 2</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">629</td>
@@ -1692,17 +1881,20 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">630</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">630.2 Criteria for Selecting or Revising Benchmark Soils</td>
+<td style="text-align: left;">630.2 Criteria for Selecting or Revising
+Benchmark Soils</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">630</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">630.3 Maintaining a Record of Benchmark Soil Data Needs</td>
+<td style="text-align: left;">630.3 Maintaining a Record of Benchmark
+Soil Data Needs</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">630</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">630.10 Sample Narrative Record for Benchmark Soils</td>
+<td style="text-align: left;">630.10 Sample Narrative Record for
+Benchmark Soils</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">631</td>
@@ -1722,7 +1914,8 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">631</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">631.3 Laboratory Investigation Methods</td>
+<td style="text-align: left;">631.3 Laboratory Investigation
+Methods</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">631</td>
@@ -1757,7 +1950,8 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">631</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">631.12 Example of a Soil Characterization Work Plan</td>
+<td style="text-align: left;">631.12 Example of a Soil Characterization
+Work Plan</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">638</td>
@@ -1772,12 +1966,14 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">638</td>
 <td style="text-align: left;"></td>
-<td style="text-align: left;">638.2 Components of the National Soil Information System</td>
+<td style="text-align: left;">638.2 Components of the National Soil
+Information System</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">638</td>
 <td style="text-align: left;"></td>
-<td style="text-align: left;">638.3 Managing Soil Spatial and Tabular Databases</td>
+<td style="text-align: left;">638.3 Managing Soil Spatial and Tabular
+Databases</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">638</td>
@@ -1802,22 +1998,26 @@ official sources of standards of this nature.
 <tr class="odd">
 <td style="text-align: right;">639</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">639.2 Soil Survey Application Security Policy</td>
+<td style="text-align: left;">639.2 Soil Survey Application Security
+Policy</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">639</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">639.3 NASIS Organization and Database Objects</td>
+<td style="text-align: left;">639.3 NASIS Organization and Database
+Objects</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">639</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">639.4 Guidelines for Changing, Adding, or Deleting Soil Property Data Elements</td>
+<td style="text-align: left;">639.4 Guidelines for Changing, Adding, or
+Deleting Soil Property Data Elements</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">639</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">639.10 Proposed Amendment to Soil Data Dictionary</td>
+<td style="text-align: left;">639.10 Proposed Amendment to Soil Data
+Dictionary</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">644</td>
@@ -1847,32 +2047,38 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">644</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">644.5 Development of Detailed Soil Survey Information</td>
+<td style="text-align: left;">644.5 Development of Detailed Soil Survey
+Information</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">644</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">644.6 Development of a Complete Soil Survey Publication</td>
+<td style="text-align: left;">644.6 Development of a Complete Soil
+Survey Publication</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">644</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">644.7 Development of the U.S. General Soil Map</td>
+<td style="text-align: left;">644.7 Development of the U.S. General Soil
+Map</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">644</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">644.10 Sections of a Soil Survey Publication</td>
+<td style="text-align: left;">644.10 Sections of a Soil Survey
+Publication</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">644</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">644.11 Record Sheet for Collating State Orders for Published Soil Surveys</td>
+<td style="text-align: left;">644.11 Record Sheet for Collating State
+Orders for Published Soil Surveys</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">644</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">644.12 Example of Letter to Senator - Notification of Availability of Soil Survey</td>
+<td style="text-align: left;">644.12 Example of Letter to Senator -
+Notification of Availability of Soil Survey</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">647</td>
@@ -1907,32 +2113,38 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">647</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">647.6 Digital Map Finishing and Print-on-Demand Maps</td>
+<td style="text-align: left;">647.6 Digital Map Finishing and
+Print-on-Demand Maps</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">647</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">647.07 Soil Survey Geographic Data Certification</td>
+<td style="text-align: left;">647.07 Soil Survey Geographic Data
+Certification</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">647</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">647.8 Digital Map Finishing and Print-on-Demand Maps Flowchart</td>
+<td style="text-align: left;">647.8 Digital Map Finishing and
+Print-on-Demand Maps Flowchart</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">647</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">647.9 Digital Map Finishing and Print-on-Demand Maps Specifications</td>
+<td style="text-align: left;">647.9 Digital Map Finishing and
+Print-on-Demand Maps Specifications</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">647</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">647.10 Digital Map Finishing Checklist</td>
+<td style="text-align: left;">647.10 Digital Map Finishing
+Checklist</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">647</td>
 <td style="text-align: left;">B</td>
-<td style="text-align: left;">647.11 Digital Map Finishing Certification</td>
+<td style="text-align: left;">647.11 Digital Map Finishing
+Certification</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">647</td>
@@ -2017,12 +2229,14 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">649</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">649.6 Coding System for Hierarchical Land Resource Areas for Ecological Sites</td>
+<td style="text-align: left;">649.6 Coding System for Hierarchical Land
+Resource Areas for Ecological Sites</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">649</td>
 <td style="text-align: left;">A</td>
-<td style="text-align: left;">649.7 Establishing or Revising Land Resource Areas</td>
+<td style="text-align: left;">649.7 Establishing or Revising Land
+Resource Areas</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">649</td>
@@ -2057,12 +2271,14 @@ official sources of standards of this nature.
 <tr class="even">
 <td style="text-align: right;">651</td>
 <td style="text-align: left;"></td>
-<td style="text-align: left;">651.4 Providing Quality Assurance, Quality Control, and Review</td>
+<td style="text-align: left;">651.4 Providing Quality Assurance, Quality
+Control, and Review</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">651</td>
 <td style="text-align: left;"></td>
-<td style="text-align: left;">651.5 Labeling of Advance Soil Survey Information</td>
+<td style="text-align: left;">651.5 Labeling of Advance Soil Survey
+Information</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">655</td>
