@@ -123,7 +123,9 @@ notbad <- pbsapply(osds, function(i) {
   m
 })
 
-# 374 series with matches
+## series with matches
+# first run: 374
+# 2022-12-29: 224
 nrow(bad)
 
 # frequency of bad words
