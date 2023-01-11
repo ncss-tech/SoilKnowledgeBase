@@ -126,6 +126,7 @@ notbad <- pbsapply(osds, function(i) {
 ## series with matches
 # first run: 374
 # 2022-12-29: 224
+# 2023-01-11: 133
 nrow(bad)
 
 # frequency of bad words
@@ -134,12 +135,17 @@ dotplot(sort(table(bad$matches)), par.settings = tactile.theme(), xlab = 'Freque
 # flag as possible false positives
 names(which(notbad))
 
+# tabulate by responsible office
+z <- merge(bad, sc[, c('soilseriesname', 'mlraoffice')], by.x = 'series', by.y = 'soilseriesname', all.x = TRUE, sort = FALSE)
+
+sort(table(z$mlraoffice), decreasing = TRUE)
 
 # save
-write.csv(bad, file = 'series-with-bad-words.csv', row.names = FALSE)
+write.csv(z, file = 'series-with-bad-words.csv', row.names = FALSE)
 
 # describe for Kyle
-knitr::kable(bad[sample(nrow(bad), size = 10), ], row.names = FALSE)
+knitr::kable(z[sample(nrow(z), size = 10), ], row.names = FALSE)
+
 
 
 
