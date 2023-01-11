@@ -117,10 +117,18 @@ plan(sequential)
 bad <- do.call('rbind', bad)
 row.names(bad) <- NULL
 
-# possible false positives due to location near Squaw Valley, CA
+# possible false positives: TRUE|FALSE
+# * location near Squaw Valley, CA
+# * squaw carpet
+.of <- stri_opts_fixed(case_insensitive = TRUE)
 notbad <- pbsapply(osds, function(i) {
-  m <- stri_detect_fixed(str = i, pattern = 'Squaw Valley')
-  m
+  # patterns
+  m1 <- stri_detect_fixed(str = i, pattern = 'Squaw Valley', opts_fixed = .of)
+  m2 <- stri_detect_fixed(str = i, pattern = 'squaw carpet', opts_fixed = .of)
+  
+  # any possible false positives
+  .res <- m1 || m2
+  return(.res)
 })
 
 ## series with matches
@@ -139,6 +147,10 @@ names(which(notbad))
 z <- merge(bad, sc[, c('soilseriesname', 'mlraoffice')], by.x = 'series', by.y = 'soilseriesname', all.x = TRUE, sort = FALSE)
 
 sort(table(z$mlraoffice), decreasing = TRUE)
+
+# add false positives
+z$falsePositive <- ''
+z$falsePositive[z$series %in% names(which(notbad))] <- 'X'
 
 # save
 write.csv(z, file = 'series-with-bad-words.csv', row.names = FALSE)
