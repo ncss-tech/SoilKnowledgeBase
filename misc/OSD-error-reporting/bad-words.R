@@ -125,9 +125,10 @@ notbad <- pbsapply(osds, function(i) {
   # patterns
   m1 <- stri_detect_fixed(str = i, pattern = 'Squaw Valley', opts_fixed = .of)
   m2 <- stri_detect_fixed(str = i, pattern = 'squaw carpet', opts_fixed = .of)
+  m3 <- stri_detect_fixed(str = i, pattern = 'squaw lake', opts_fixed = .of)
   
   # any possible false positives
-  .res <- m1 || m2
+  .res <- m1 || m2 || m3
   return(.res)
 })
 
@@ -135,6 +136,7 @@ notbad <- pbsapply(osds, function(i) {
 # first run: 374
 # 2022-12-29: 224
 # 2023-01-11: 133
+# 2023-01-18: 11
 nrow(bad)
 
 # frequency of bad words
@@ -156,8 +158,8 @@ z$falsePositive[z$series %in% names(which(notbad))] <- 'X'
 write.csv(z, file = 'series-with-bad-words.csv', row.names = FALSE)
 
 # describe for Kyle
-knitr::kable(z[sample(nrow(z), size = 10), ], row.names = FALSE)
+knitr::kable(z[sample(nrow(z), size = pmin(20, nrow(z))), ], row.names = FALSE)
 
-
+knitr::kable(z, row.names = FALSE)
 
 
