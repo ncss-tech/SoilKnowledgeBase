@@ -571,20 +571,22 @@ download_KST <- function(outpath = "./inst/extdata",
     fn <- sprintf("2022_KST_%s.pdf", language)
   }
 
-  dlkst <- FALSE
 
   if (as.character(download_pdf) == "ifneeded") {
     download_pdf <- !file.exists(fn)
   }
 
   if (as.logical(download_pdf)) {
+    message("Downloading ", yhref, "...")
     curl::curl_download(yhref, destfile = fn, handle = .SKB_curl_handle(), ...)
   }
 
   if (file.exists(fn)) {
     # txt <- pdftools::pdf_text(fn)
+    message("Running pdftotext on ", fn, "...")
     system(sprintf("pdftotext -raw -nodiag %s", fn))
   } else {
+    message(fn, " does not exist!")
     return(file.exists(fn))
   }
 
@@ -592,11 +594,16 @@ download_KST <- function(outpath = "./inst/extdata",
     file.copy(fn, file.path(outpath, "KST", fn))
   }
   file.remove(fn)
+
   of <- gsub("\\.pdf",".txt", fn)
-  op <- file.path(outpath, "KST", gsub("\\.pdf",".txt", fn))
-  return(file.copy(of, op))
-  # writeLines(txt, con = op)
-  # return(file.exists(op))
+  if (file.exists(of)) {
+    op <- file.path(outpath, "KST", of)
+
+    writeLines(readLines(of), con = op)
+    return(file.exists(op))
+  }
+  message(of, " does not exist!")
+  return(FALSE)
 }
 
 get_page_breaks <- function(content) {
@@ -841,8 +848,8 @@ parse_feature <- function(f) {
 }
 
 get_chapter_markers <- function(language = "EN", edition = "12th") {
-  
-  
+
+
   chapter.markers.en <- list(
     ch1 = "like many common words, has several",
     ch2 = "Soil taxonomy differentiates between mineral soils and",
@@ -864,7 +871,7 @@ get_chapter_markers <- function(language = "EN", edition = "12th") {
     ch18 = "This chapter describes soil layers and genetic soil horizons",
     appendix = "Data Elements Used in Classifying Soils"
   )
-  
+
   if (edition == "13th") {
     chapter.markers.en$ch2 <- "Soils are composed of both"
     chapter.markers.en$ch8 <- "Entisols that have a field observable water"
