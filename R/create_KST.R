@@ -599,7 +599,7 @@ download_KST <- function(outpath = "./inst/extdata",
   if (file.exists(of)) {
     op <- file.path(outpath, "KST", of)
 
-    writeLines(readLines(of), con = op)
+    writeLines(readLines(of, warn = FALSE), con = op)
     return(file.exists(op))
   }
   message(of, " does not exist!")

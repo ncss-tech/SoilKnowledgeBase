@@ -50,11 +50,9 @@ create_KST13 <- function(...) {
       }
 
       # # use pdftotext to extract text+metadata from Keys PDF
-      suppressWarnings({
-        if (file.exists(pdftxtfile)) {
-          pdf <- data.frame(content = readLines(pdftxtfile), stringsAsFactors = FALSE)
-        }
-      })
+      if (file.exists(pdftxtfile)) {
+        pdf <- data.frame(content = readLines(pdftxtfile, warn = FALSE), stringsAsFactors = FALSE)
+      }
 
       # simple count of page break indices and lines
       pages.idx <- which(grepl("\\f", pdf$content))
@@ -66,55 +64,30 @@ create_KST13 <- function(...) {
       message("lines: ", length(pdf$content))
 
       # determine line index each chapter starts on
-      chidx <- rep(NA, length(chapter.markers))
-      for (p in 1:length(chapter.markers)) {
+      chidx <- sapply(seq_along(chapter.markers), function(p) {
         chp1 <- as.numeric(first_match_to_page(chapter.markers[p], pdf$content))
 
         if (is.na(chp1)) {
           message("could not find chapter marker for chapter ", p)
-          return(FALSE)
+          return(NA)
         }
-        chidx[p] <- page_to_index(pdf$content, chp1)
+        page_to_index(pdf$content, chp1)
+      })
+      
+      if (any(is.na(chidx))) {
+        return(FALSE)
       }
 
-      # create some indexes that will create groups that span full content
+      # create some indices defining groups that span full content
       ch.groups <- c(0, chidx, length(pdf$content))
-
       pgidx <- c(0, get_page_breaks(pdf$content))
       pgnames <- as.numeric(gsub("[^0-9]*([0-9]+)[^0-9]*|^([^0-9]*)$","\\1",
                                  pdf$content[pgidx]))
 
-      # correct index offset of linebreaks
+      # correct index offset of line breaks
       pgnames <- pgnames - 1
 
-      # create a table of text "content," chapter and page number
-      st <- data.frame(
-        content = pdf$content,
-        chapter = category_from_index(ch.groups, length(pdf$content), 0:19),
-        page = category_from_index(pgidx, length(pdf$content), pgnames),
-        stringsAsFactors = FALSE
-      )
-
-      # perform various 13th-edition specific fixes
-
-      # determine line index each chapter starts on
-      chidx <- rep(NA, length(chapter.markers))
-      for (p in 1:length(chapter.markers)) {
-        chp1 <- as.numeric(first_match_to_page(chapter.markers[p], pdf$content))
-        chidx[p] <- page_to_index(pdf$content, chp1)
-      }
-
-      # create some indexes that will create groups that span full content
-      ch.groups <- c(0, chidx, length(pdf$content))
-
-      pgidx <- c(0, get_page_breaks(pdf$content))
-      pgnames <- as.numeric(gsub("[^0-9]*([0-9]+)[^0-9]*|^([^0-9]*)$","\\1",
-                                 pdf$content[pgidx]))
-
-      # correct index offset of linebreaks
-      pgnames <- pgnames - 1
-
-      # create a table of text "content," chapter and page number
+      # create a table of text content, chapter, and page number
       st <- data.frame(
         content = pdf$content,
         chapter = category_from_index(ch.groups, length(pdf$content), 0:19),
@@ -142,6 +115,8 @@ create_KST13 <- function(...) {
       st <- st[!st$content %in% c("Gelisols", "Histosols", "Spodosols", "Andisols", "Oxisols", 
                                  "Vertisols", "Aridisols", "Ultisols", "Mollisols", "Alfisols", 
                                  "Inceptisols", "Entisols"),]
+      
+      # perform various 13th-edition specific fixes
       
       # vertisols suborder key
       st$content[grep("Key to Suborders*", st$content, fixed = TRUE)] <- "Key to Suborders"
@@ -186,19 +161,49 @@ create_KST13 <- function(...) {
           st <- st[-idx,]
       }
       
+      # footnotes in Key to Soil Orders
+      idx <- grep("A crack is a separation", st$content)+((-1):4)
+      if (length(idx) > 0) {
+        if (st$content[idx[1]] == "*")
+          st <- st[-idx,]
+      } 
+      
+      idx <- grep("Materials that meet the definition of the cindery", st$content)
+      idx1 <- idx[1] + ((-1):2)
+      idx2 <- idx[2] + ((-1):2)
+      if (length(idx) == 2) {
+        if (st$content[idx1[1]] == "*" && st$content[idx2[1]] == "*")
+          st <- st[-c(idx1, idx2),]
+      }     
+      
+      # TODO: footnotes buried in criteria that didn't interfere with parsing taxon names so far
+      # is there a systematic way to exclude them? 
+      #  - maybe if they are in the keys and we assume 1 sentence;
+      #  - can be problematic if they show up midsentence... may all require manual exclusion
+      
       # split by chapter
       ch <- split(st, f = st$chapter)
 
       # save ch 1:4 + end chapters for definitions and criteria
       st_def <- do.call('rbind', ch[c(1:4,18)])
 
-      # TODO: needed?
-      bad.idx <- c(
-        grep("^Horizons and Characteristics Diagnostic for the Higher Categories$", st_def$content)
-      )
-      if (length(bad.idx))
-        st_def <- st_def[-bad.idx,]
+      # TODO: needs to be more extensive
+      # bad.idx <- c(
+      #   grep("^Horizons and Characteristics Diagnostic for the Higher Categories$", st_def$content)
+      # )
+      # if (length(bad.idx))
+      #   st_def <- st_def[-bad.idx,]
 
+      # add discussion from "Identification of Taxonomic Class of Soils" to defs
+      ord.idx <- grep("^Key to Soil Orders$", ch[[5]]$content)
+      lit.idx <- grep("^Literature Cited", ch[[5]]$content)
+      st_def <- rbind(st_def, ch[[5]][1:(ord.idx - 1), ])
+      
+      # chapter 5 / index 5 is from "Key to Soil Orders" header to "Literature Cited"
+      ch[[5]] <- ch[[5]][ord.idx:(lit.idx - 1), ]
+      
+      # TODO: footnotes in chapter 4 (organic soil materials, cracks)
+      
       # indexes 5 to 17 are the Keys to Order, Suborder, Great Group, Subgroup...
       #  indexes offset by 1 from their "true" chapter number in table
       keys <- lapply(ch[5:17], function(h) {
