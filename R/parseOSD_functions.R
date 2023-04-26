@@ -293,7 +293,7 @@
 }
 
 
-# s.lines: result of getOSD()
+
 #' @importFrom stringi stri_match_all
 .extractHzData <- function(tp) {
 
@@ -303,12 +303,15 @@
   #       "O" = "0"
   #       "l" = "1"
   ## ideas: http://stackoverflow.com/questions/15474741/python-regex-optional-capture-group
-
+  
+  # expect em dashes used after horizon designation as of May 2023
+  # https://github.com/ncss-tech/SoilKnowledgeBase/issues/64
+  
   # detect horizons with both top and bottom depths
-  hz.rule <-            "([\\^\\'\\/a-zA-Z0-9]+)\\s*[-=]+\\s*([Ol0-9.]+)\\s*?(to|-)?\\s+?([Ol0-9.]+)\\s*?(in|inches|cm|centimeters)"
+  hz.rule <-            "([\\^\\'\\/a-zA-Z0-9]+)\\s*[-=—]+\\s*([Ol0-9.]+)\\s*?(to|-)?\\s+?([Ol0-9.]+)\\s*?(in|inches|cm|centimeters)"
 
   # detect horizons with no bottom depth
-  hz.rule.no.bottom <- "([\\^\\'\\/a-zA-Z0-9]+)\\s*[-=]+?\\s*([Ol0-9.]+)\\s*(to|-)?\\s*([Ol0-9.]+)?\\s*?(in|inches|cm|centimeters)"
+  hz.rule.no.bottom <- "([\\^\\'\\/a-zA-Z0-9]+)\\s*[-=—]+?\\s*([Ol0-9.]+)\\s*(to|-)?\\s*([Ol0-9.]+)?\\s*?(in|inches|cm|centimeters)"
 
   ## TODO: this doesn't work when only moist colors are specified (http://casoilresource.lawr.ucdavis.edu/sde/?series=canarsie)
   ## TODO: these rules will not match neutral colors: N 2.5/

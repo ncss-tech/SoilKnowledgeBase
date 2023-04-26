@@ -12,6 +12,38 @@ context("OSD Parsing")
 ## NOTE: the first line must be "TYPICAL PEDON"
 
 
+# https://github.com/ncss-tech/SoilKnowledgeBase/issues/64
+# anticipate expected / possible changes to OSDs starting May 2023
+test_that("May 2023 changes to OSD style", {
+  
+  lines <- strsplit("Typical Pedon:
+Gamma silt loam with a north-facing, linear, 1 percent slope in an alfalfa field at an elevation of 210 meters. (Colors are for dry soil unless otherwise noted.) 
+
+Ap—0 to 15 centimeters; grayish brown (10YR 5/2) silt loam, very dark grayish brown (10YR 3/2) moist; weak fine granular structure; slightly hard, friable; neutral (pH 6.7 in 1:1 water); abrupt smooth boundary. (10 to 23 centimeters thick)
+
+C—15 to 33 centimeters; stratified grayish brown (10YR 5/2) and light brownish gray (10YR 6/2) silt loam, very dark grayish brown (10YR 3/2) and dark grayish brown (10YR 4/2) moist; massive with evident bedding planes; slightly hard, friable; few fine prominent reddish brown (5YR 4/4) masses of oxidized iron in the soil matrix; neutral (pH 6.7 in 1:1 water); abrupt smooth boundary. (15 to 30 centimeters thick)
+
+Cg1—33 to 48 centimeters; stratified dark gray (10YR 4/1) and grayish brown (10YR 5/2) silt loam, very dark gray (10YR 3/1) and dark grayish brown (10YR 4/2) moist; massive with evident bedding planes; slightly hard, friable; few fine prominent reddish brown (5YR 4/4) masses of oxidized iron in the soil matrix; neutral (pH 6.8 in 1:1 water); abrupt smooth boundary. (10 to 25 centimeters thick)
+
+Cg2—48 to 81 centimeters; stratified grayish brown (10YR 5/2) and light brownish gray (10YR 6/2) silt loam, very dark grayish brown (10YR 3/2) and dark grayish brown (10YR 4/2) moist; massive with evident bedding planes; slightly hard, friable; few fine prominent reddish brown (5YR 4/4) masses of oxidized iron in the soil matrix; neutral (pH 6.9 in 1:1 water); abrupt smooth boundary. (25 to 51 centimeters thick)
+
+Agb1—81 to 112 centimeters; dark gray (10YR 4/1) silt loam, very dark gray (10YR 3/1) moist; massive; hard, friable; neutral (pH 6.8 in 1:1 water); gradual wavy boundary. (0 to 38 centimeters thick)
+
+Agb2—112 to 153 centimeters; dark gray (N 4/) silt loam, black (N 2.5/) moist; massive; hard, friable; neutral (pH 6.8 in 1:1 water).
+", split = '\n')[[1]]
+  
+  z <- SoilKnowledgeBase:::.extractHzData(lines)
+
+  expect_equal(nrow(z), 6)
+  expect_equal(z$top, c(0, 15, 33, 48, 81, 112))
+    
+})
+
+
+
+
+
+
 test_that("horizon depths (with unit conversion) and designation", {
 
   # MENDEL
