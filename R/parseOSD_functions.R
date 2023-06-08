@@ -243,7 +243,7 @@
 }
 
 .parse_structure <- function(x) {
-  .zerochar_to_na(gsub(".*(weak|moderate|strong) (very fine|very thin|fine|thin|medium|coarse|thick|very coarse|very thick|extremely coarse) (.*) structure.*|.*(massive).*|.*(single grain).*|.*", "\\1 \\2 \\3\\4\\5", x, ignore.case = TRUE))
+  .zerochar_to_na(gsub(".*(weak|moderate|strong|very fine|very thin|fine|thin|medium|coarse|thick|very coarse|very thick|extremely coarse),? +(weak|moderate|strong|very fine|very thin|fine|thin|medium|coarse|thick|very coarse|very thick|extremely coarse) (.*) structure.*|.*(massive).*|.*(single grain).*|.*", "\\1 \\2 \\3\\4\\5", x, ignore.case = TRUE))
 }
 
 .parse_rupture_dry <- function(x) {
@@ -256,6 +256,18 @@
 
 .parse_rupture_cem <- function(x) {
   .zerochar_to_na(gsub(".*(non|extremely weakly|very weakly|weakly|moderately|strongly|very strongly) (cemented|coherent).*|.*(indurated).*|.*", "\\1 \\2\\3", x, ignore.case = TRUE))
+}
+
+.parse_CF_volume <- function(x) {
+  I(stringi::stri_extract_all_regex(x, "(\\d+) percent .* (pebbles|gravel|cobbles|stones|boulders|channers|flagstones),*"))
+}
+
+.parse_roots <- function(x) {
+  I(stringi::stri_extract_all_regex(x, "(very few|few|common|many) (.*) roots"))
+}
+
+.parse_pores <- function(x) {
+  I(stringi::stri_extract_all_regex(x, "(very few|few|common|many) (.*) pores"))
 }
 
 ######## extract SPC-style data.frames ########
@@ -303,11 +315,11 @@
   #       "O" = "0"
   #       "l" = "1"
   ## ideas: http://stackoverflow.com/questions/15474741/python-regex-optional-capture-group
-  
-  ## TODO: it isn't clear if the new files will be in 
+
+  ## TODO: it isn't clear if the new files will be in
   # expect em dashes (\u2014) used after horizon designation as of May 2023
   # https://github.com/ncss-tech/SoilKnowledgeBase/issues/64
-  
+
   # detect horizons with both top and bottom depths
   hz.rule <-            "([\\^\\'\\/a-zA-Z0-9]+)\\s*[-=\u2014]+\\s*([Ol0-9.]+)\\s*?(to|-)?\\s+?([Ol0-9.]+)\\s*?(in|inches|cm|centimeters)"
 
@@ -470,6 +482,9 @@
   res$moist_rupture <- .parse_rupture_moist(narrative.data$narrative)
   res$coherence <- .parse_rupture_cem(narrative.data$narrative)
   res$cf_class <- .parse_CF(narrative.data$narrative)
+  res$cf_volume <- .parse_CF_volume(narrative.data$narrative)
+  res$roots <- .parse_roots(narrative.data$narrative)
+  res$pores <- .parse_pores(narrative.data$narrative)
   res$pH <- .parse_pH(narrative.data$narrative)
   res$pH_class <- .parse_pH_class(narrative.data$narrative)
 
