@@ -258,6 +258,17 @@
   .zerochar_to_na(gsub(".*(non|extremely weakly|very weakly|weakly|moderately|strongly|very strongly) (cemented|coherent).*|.*(indurated).*|.*", "\\1 \\2\\3", x, ignore.case = TRUE))
 }
 
+.parse_stickiness <- function(x) {
+  .zerochar_to_na(gsub("^.*\\b([a-z]+ ?sticky).*$|.*", "\\1", x, ignore.case = TRUE))
+}
+
+.parse_plasticity <- function(x) {
+  res <- .zerochar_to_na(gsub("^.*\\b([a-z]+ ?plastic).*$|.*", "\\1", x, ignore.case = TRUE))
+  res <- gsub("and plastic", "plastic", res)
+  res <- gsub("noplastic", "nonplastic", res)
+  res
+}
+
 .parse_CF_volume <- function(x) {
   I(stringi::stri_extract_all_regex(x, "(\\d+) percent .* (pebbles|gravel|cobbles|stones|boulders|channers|flagstones),*"))
 }
