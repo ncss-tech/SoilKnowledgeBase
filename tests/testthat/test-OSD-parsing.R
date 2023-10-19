@@ -272,3 +272,29 @@ Bt2--36 to 43 cm; brown (7.5YR 5/4) extremely cobbly loam, reddish brown (5YR 4/
 
 })
 
+test_that("parsing of effervescence class", {
+  
+  lines <- strsplit("TYPICAL PEDON: Abac loam - grassland. (Colors are for dry soil unless otherwise noted.)
+
+A1--0 to 3 inches; reddish brown (2.5YR 5/4) silt loam, dark reddish brown (2.5YR 3/4) moist; moderate thin platy structure; slightly hard, friable, slightly sticky, slightly plastic; many very fine roots; slightly effervescent; few soft red shale fragments; clear smooth boundary. (2 to 6 inches thick)
+
+Bw--3 to 8 inches; red (2.5YR 5/6) loam, dark red (2.5YR 3/6) moist; weak medium prismatic structure; hard, friable, sticky, plastic; common very fine roots; many fine tubular pores; 15 percent (volume) soft shale parafragments; slightly effervescent; clear wavy boundary.
+
+Bk--8 to 15 inches; red (2.5YR 5/6) loam, dark red (2.5YR 3/6) moist; fine blocky structure; hard, friable, slightly sticky, slightly plastic; common very fine roots and pores; 30 percent (volume) soft shale parafragments; strongly effervescent; common fine lime threads; clear wavy boundary.
+
+BCk--15 to 19 inches; light reddish brown (2.5YR 6/4) loam, red (2.5YR 4/6) moist; massive; hard, friable, slightly sticky, slightly plastic; a few mats of very fine roots follow the bedding planes of the shale; 60 percent shale parafragments; strongly effervescent with few fine threads of lime; abrupt irregular boundary.
+
+Cr--19 to 26 inches; red, platy shale and fine grained sandstone, calcareous.", split = '\n')[[1]]
+  
+  
+  z <- SoilKnowledgeBase:::.extractHzData(lines)
+  expect_true(nrow(z) == 5)
+  
+  expect_true(inherits(z$eff_class, 'factor'))
+  
+  expect_true(length(z$eff_class) == 5)
+  
+})
+
+
+
