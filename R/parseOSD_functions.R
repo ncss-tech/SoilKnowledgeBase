@@ -188,7 +188,7 @@
 #' @importFrom stringi stri_match
 .parse_pH_class <- function(text) {
 
-  # mineral texture classes
+  # reaction classes
   pH_classes <- c('ultra acid', 'extremely acid', 'very strongly acid', 'strongly acid', 'moderately acid', 'slightly acid', 'neutral', 'slightly alkaline', 'mildly alkaline', 'moderately alkaline', 'strongly alkaline', 'very strongly alkaline')
 
   ## 2019-05-29: generalized for all non-greedy, exact matching
@@ -200,6 +200,27 @@
 
   return(m)
 }
+
+
+
+# vectorized parsing of effervescence class
+#' @importFrom stringi stri_match
+.parse_eff_class <- function(text) {
+  
+  # mineral texture classes
+  .classes <- c('noneffervescent', 'very slightly effervescent', 'slightly effervescent', 'strongly effervescent', 'violently effervescent')
+  
+  ## 2019-05-29: generalized for all non-greedy, exact matching
+  m <- .findClass(needle = .classes, haystack = text)
+  m <- tolower(m)
+  
+  # return as an ordered factor acidic -> basic
+  m <- factor(m, levels = .classes, ordered = TRUE)
+  
+  return(m)
+  
+}
+
 
 
 # vectorized parsing of drainage class
@@ -472,7 +493,8 @@
   res$cf_class <- .parse_CF(narrative.data$narrative)
   res$pH <- .parse_pH(narrative.data$narrative)
   res$pH_class <- .parse_pH_class(narrative.data$narrative)
-
+  res$eff_class <- .parse_eff_class(narrative.data$narrative)
+  
   bdy <- .parse_hz_boundary(narrative.data$narrative)
   res$distinctness <- bdy$distinctness
   res$topography <- bdy$topography

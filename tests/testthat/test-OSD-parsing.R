@@ -272,3 +272,63 @@ Bt2--36 to 43 cm; brown (7.5YR 5/4) extremely cobbly loam, reddish brown (5YR 4/
 
 })
 
+test_that("parsing of effervescence class", {
+  
+  lines <- strsplit("TYPICAL PEDON: Abac loam - grassland. (Colors are for dry soil unless otherwise noted.)
+
+A1--0 to 3 inches; reddish brown (2.5YR 5/4) silt loam, dark reddish brown (2.5YR 3/4) moist; moderate thin platy structure; slightly hard, friable, slightly sticky, slightly plastic; many very fine roots; slightly effervescent; few soft red shale fragments; clear smooth boundary. (2 to 6 inches thick)
+
+Bw--3 to 8 inches; red (2.5YR 5/6) loam, dark red (2.5YR 3/6) moist; weak medium prismatic structure; hard, friable, sticky, plastic; common very fine roots; many fine tubular pores; 15 percent (volume) soft shale parafragments; slightly effervescent; clear wavy boundary.
+
+Bk--8 to 15 inches; red (2.5YR 5/6) loam, dark red (2.5YR 3/6) moist; fine blocky structure; hard, friable, slightly sticky, slightly plastic; common very fine roots and pores; 30 percent (volume) soft shale parafragments; strongly effervescent; common fine lime threads; clear wavy boundary.
+
+BCk--15 to 19 inches; light reddish brown (2.5YR 6/4) loam, red (2.5YR 4/6) moist; massive; hard, friable, slightly sticky, slightly plastic; a few mats of very fine roots follow the bedding planes of the shale; 60 percent shale parafragments; strongly effervescent with few fine threads of lime; abrupt irregular boundary.
+
+Cr--19 to 26 inches; red, platy shale and fine grained sandstone, calcareous.", split = '\n')[[1]]
+  
+  
+  z <- SoilKnowledgeBase:::.extractHzData(lines)
+  expect_true(nrow(z) == 5)
+  
+  expect_true(inherits(z$eff_class, 'factor'))
+  
+  expect_true(length(z$eff_class) == 5)
+  
+  
+  ## no eff mentioned
+  lines <- strsplit("TYPICAL PEDON: Naconiche mucky sandy loam, 0 to 2 percent slopes in a forested flood plain.
+(colors are for moist soil conditions)
+
+A1--0 to 12 inches; very dark gray (7.5YR 3/0) mucky sandy loam; many medium white (10YR 8/2) spots of sand; massive; many fine, medium and coarse roots; about 20 percent decomposing leaves, roots, and twigs; extremely acid; abrupt smooth boundary. (6 to 16 inches thick)
+
+A2--12 to 19 inches; black (7.5YR 2/0) mucky fine sandy loam; massive; few fine and medium roots; about 10 percent decomposing leaves, roots, and twigs; extremely acid; abrupt smooth boundary. (0 to 10 inches thick)
+
+A3--19 to 29 inches; very dark gray (7.5YR 3/0) sand; single grained; common fine and medium roots; extremely acid; abrupt smooth boundary. (6 to 16 inches thick)
+
+A4--29 to 32 inches; dark gray (10YR 4/1) sand; single grained; common white (10YR 8/2) spots of loamy fine sand; few fine and medium roots; extremely acid; abrupt smooth boundary.(0 to 8 inches thick)
+
+A5--32 to 36 inches; black (10YR 2/1) loamy sand; massive; few white (10YR 8/2) spots of sand; few fine and medium roots; extremely acid; abrupt smooth boundary. (0 to 8 inches thick)
+
+Cg--36 to 40 inches; light gray (10YR 7/1) sand; single grained; few fine and medium roots; few medium rounded masses of iron-manganese; very strongly acid; abrupt smooth boundary. (0 to 10 inches thick)
+
+Ab1--40 to 45 inches; black (10YR 2/1) sand; single grained; few fine and medium roots; few medium rounded masses of iron-manganese; extremely acid; abrupt smooth boundary. (0 to 10 inches thick)
+
+Ab2--45 to 52 inches; very dark grayish brown (10YR 3/2) mucky fine sandy loam; massive; few streaks and spots of dark brown (10YR 4/3) and black (10YR 2/1); few fine and medium roots; extremely acid; abrupt smooth boundary. (0 to 10 inches thick)
+
+C'g--52 to 57 inches; light gray (10YR 7/1) sand; single grained; few fine and medium roots; moderately acid; abrupt smooth boundary. (0 to 20 inches thick)
+
+A'b--57 to 67 inches; black (N 2/0), very dark gray (10YR 3/1), and white (10YR 8/2) loamy fine sand; massive; few fine and medium roots; extremely acid; abrupt smooth boundary. (0 to 12 inches thick)
+
+C''g--67 to 73 inches; white (10YR 8/2) fine sand; single grained; few fine and medium roots; moderately acid; abrupt smooth boundary.(0 to 10 inches thick)
+
+A''b--73 to 80 inches; dark grayish brown (10YR 4/2) fine sand; single grained; few fine and medium roots; very strongly acid.", split = '\n')[[1]]
+  
+  
+  z <- SoilKnowledgeBase:::.extractHzData(lines)
+  expect_true(nrow(z) == 12)
+  expect_true(all(is.na(z$eff_class)))
+  
+})
+
+
+
