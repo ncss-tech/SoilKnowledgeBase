@@ -171,7 +171,7 @@
 .parse_pH <- function(text) {
 
   # combine into capturing REGEX
-  ph.regex <- '\\(ph\\s?([0-9]\\.[0-9])\\)'
+  ph.regex <- '\\(ph\\s?([0-9]\\.?[0-9]?)\\)'
 
   # get matches
   m <- stringi::stri_match(text, regex = ph.regex, mode = 'first', opts_regex = list(case_insensitive = TRUE))
