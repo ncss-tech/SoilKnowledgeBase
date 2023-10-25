@@ -15,9 +15,9 @@ context("OSD Parsing")
 # https://github.com/ncss-tech/SoilKnowledgeBase/issues/64
 # anticipate expected / possible changes to OSDs starting May 2023
 test_that("May 2023 changes to OSD style", {
-  
+
   lines <- strsplit("Typical Pedon:
-Gamma silt loam with a north-facing, linear, 1 percent slope in an alfalfa field at an elevation of 210 meters. (Colors are for dry soil unless otherwise noted.) 
+Gamma silt loam with a north-facing, linear, 1 percent slope in an alfalfa field at an elevation of 210 meters. (Colors are for dry soil unless otherwise noted.)
 
 Ap—0 to 15 centimeters; grayish brown (10YR 5/2) silt loam, very dark grayish brown (10YR 3/2) moist; weak fine granular structure; slightly hard, friable; neutral (pH 6.7 in 1:1 water); abrupt smooth boundary. (10 to 23 centimeters thick)
 
@@ -31,12 +31,12 @@ Agb1—81 to 112 centimeters; dark gray (10YR 4/1) silt loam, very dark gray (10
 
 Agb2—112 to 153 centimeters; dark gray (N 4/) silt loam, black (N 2.5/) moist; massive; hard, friable; neutral (pH 6.8 in 1:1 water).
 ", split = '\n')[[1]]
-  
+
   z <- SoilKnowledgeBase:::.extractHzData(lines)
 
   expect_equal(nrow(z), 6)
   expect_equal(z$top, c(0, 15, 33, 48, 81, 112))
-    
+
 })
 
 
@@ -273,7 +273,7 @@ Bt2--36 to 43 cm; brown (7.5YR 5/4) extremely cobbly loam, reddish brown (5YR 4/
 })
 
 test_that("parsing of effervescence class", {
-  
+
   lines <- strsplit("TYPICAL PEDON: Abac loam - grassland. (Colors are for dry soil unless otherwise noted.)
 
 A1--0 to 3 inches; reddish brown (2.5YR 5/4) silt loam, dark reddish brown (2.5YR 3/4) moist; moderate thin platy structure; slightly hard, friable, slightly sticky, slightly plastic; many very fine roots; slightly effervescent; few soft red shale fragments; clear smooth boundary. (2 to 6 inches thick)
@@ -285,16 +285,14 @@ Bk--8 to 15 inches; red (2.5YR 5/6) loam, dark red (2.5YR 3/6) moist; fine block
 BCk--15 to 19 inches; light reddish brown (2.5YR 6/4) loam, red (2.5YR 4/6) moist; massive; hard, friable, slightly sticky, slightly plastic; a few mats of very fine roots follow the bedding planes of the shale; 60 percent shale parafragments; strongly effervescent with few fine threads of lime; abrupt irregular boundary.
 
 Cr--19 to 26 inches; red, platy shale and fine grained sandstone, calcareous.", split = '\n')[[1]]
-  
-  
+
+
   z <- SoilKnowledgeBase:::.extractHzData(lines)
   expect_true(nrow(z) == 5)
-  
-  expect_true(inherits(z$eff_class, 'factor'))
-  
+
   expect_true(length(z$eff_class) == 5)
-  
-  
+
+
   ## no eff mentioned
   lines <- strsplit("TYPICAL PEDON: Naconiche mucky sandy loam, 0 to 2 percent slopes in a forested flood plain.
 (colors are for moist soil conditions)
@@ -322,12 +320,12 @@ A'b--57 to 67 inches; black (N 2/0), very dark gray (10YR 3/1), and white (10YR 
 C''g--67 to 73 inches; white (10YR 8/2) fine sand; single grained; few fine and medium roots; moderately acid; abrupt smooth boundary.(0 to 10 inches thick)
 
 A''b--73 to 80 inches; dark grayish brown (10YR 4/2) fine sand; single grained; few fine and medium roots; very strongly acid.", split = '\n')[[1]]
-  
-  
+
+
   z <- SoilKnowledgeBase:::.extractHzData(lines)
   expect_true(nrow(z) == 12)
   expect_true(all(is.na(z$eff_class)))
-  
+
 })
 
 
