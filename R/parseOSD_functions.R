@@ -94,7 +94,10 @@
   m <- tolower(m)
 
   # convert to ordered factor
-  m <- factor(m, levels = textures, ordered = TRUE)
+  #
+  # m <- factor(m, levels = textures, ordered = TRUE)
+  #
+  # factors cannot be preserved in JSON output, and wont work for multiple classes/ranges of classes
 
   return(m)
 }
@@ -196,32 +199,18 @@
   m <- tolower(m)
 
   # return as an ordered factor acidic -> basic
-  m <- factor(m, levels = pH_classes, ordered = TRUE)
+  # m <- factor(m, levels = pH_classes, ordered = TRUE)
+  # factors cannot be preserved in JSON output, and wont work for multiple classes/ranges of classes
 
   return(m)
 }
-
-
 
 # vectorized parsing of effervescence class
-#' @importFrom stringi stri_match
-.parse_eff_class <- function(text) {
-  
-  # mineral texture classes
-  .classes <- c('noneffervescent', 'very slightly effervescent', 'slightly effervescent', 'strongly effervescent', 'violently effervescent')
-  
-  ## 2019-05-29: generalized for all non-greedy, exact matching
-  m <- .findClass(needle = .classes, haystack = text)
-  m <- tolower(m)
-  
-  # return as an ordered factor acidic -> basic
-  m <- factor(m, levels = .classes, ordered = TRUE)
-  
-  return(m)
-  
+.parse_eff_class <- function(x) {
+  .zerochar_to_na(gsub("^.*[;,]? ?\\b([a-z]+ ?effervescen[tce]+ (to|and|or) [a-z]+ ?effervescen[tce]+).*$|^.*[;,] ?\\b(very [a-z]+ effervescen[tce]+).*$|^.*[;,] ?\\b([a-z]+ ?effervescen[tce]+).*$|^.*[;,]? ?\\b(very [a-z]+ effervescen[tce]+).*$|^.*[;,]? ?\\b([a-z]+ ?effervescen[tce]+).*$|.*",
+                                           "\\1\\3\\4\\5\\6", x, ignore.case = TRUE))
+  # factors cannot be preserved in JSON output, and wont work for multiple classes/ranges of classes
 }
-
-
 
 # vectorized parsing of drainage class
 #' @importFrom stringi stri_match
@@ -248,7 +237,6 @@
 
   # return as an ordered factor
   # m <- factor(m, levels = classes, ordered = TRUE)
-
   # factors cannot be preserved in JSON output, and wont work for multiple classes/ranges of classes
 
   return(m)
@@ -324,11 +312,11 @@
   #       "O" = "0"
   #       "l" = "1"
   ## ideas: http://stackoverflow.com/questions/15474741/python-regex-optional-capture-group
-  
-  ## TODO: it isn't clear if the new files will be in 
+
+  ## TODO: it isn't clear if the new files will be in
   # expect em dashes (\u2014) used after horizon designation as of May 2023
   # https://github.com/ncss-tech/SoilKnowledgeBase/issues/64
-  
+
   # detect horizons with both top and bottom depths
   hz.rule <-            "([\\^\\'\\/a-zA-Z0-9]+)\\s*[-=\u2014]+\\s*([Ol0-9.]+)\\s*?(to|-)?\\s+?([Ol0-9.]+)\\s*?(in|inches|cm|centimeters)"
 
@@ -494,7 +482,7 @@
   res$pH <- .parse_pH(narrative.data$narrative)
   res$pH_class <- .parse_pH_class(narrative.data$narrative)
   res$eff_class <- .parse_eff_class(narrative.data$narrative)
-  
+
   bdy <- .parse_hz_boundary(narrative.data$narrative)
   res$distinctness <- bdy$distinctness
   res$topography <- bdy$topography
