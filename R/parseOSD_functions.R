@@ -207,7 +207,7 @@
 
 # vectorized parsing of effervescence class
 .parse_eff_class <- function(x) {
-  SoilKnowledgeBase:::.zerochar_to_na(gsub("^.*[;,]? \\b([a-z]+ ?effervescen[tce]+ to [a-z]+ ?effervescen[tce]+).*$|^.*[;,] \\b(very [a-z]+ effervescen[tce]+).*$|^.*[;,] \\b([a-z]+ ?effervescen[tce]+).*$|^.*[;,]? \\b(very [a-z]+ effervescen[tce]+).*$|^.*[;,]? \\b([a-z]+ ?effervescen[tce]+).*$|.*",
+  .zerochar_to_na(gsub("^.*[;,]? ?\\b([a-z]+ ?effervescen[tce]+ to [a-z]+ ?effervescen[tce]+).*$|^.*[;,] ?\\b(very [a-z]+ effervescen[tce]+).*$|^.*[;,] ?\\b([a-z]+ ?effervescen[tce]+).*$|^.*[;,]? ?\\b(very [a-z]+ effervescen[tce]+).*$|^.*[;,]? ?\\b([a-z]+ ?effervescen[tce]+).*$|.*",
                                            "\\1\\2\\3\\4\\5", x, ignore.case = TRUE))
   # factors cannot be preserved in JSON output, and wont work for multiple classes/ranges of classes
 }
