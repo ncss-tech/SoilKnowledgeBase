@@ -1,4 +1,5 @@
 library(aqp)
+library(soilDB)
 library(data.table)
 
 source("https://raw.githubusercontent.com/ncss-tech/soilDB/master/R/get_OSD.R")
