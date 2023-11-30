@@ -2,16 +2,14 @@
 #
 #' Create PLANTS Dataset
 #'
-#' @param ... Arguments to `create_*()` function. Only `outpath` supported at this time.
-#' @return TRUE if successful
+#' @param ... Arguments to `parse_PLANTS()` function. Only `outpath` supported at this time.
+#' @return `TRUE` if successful
 #' @export
 #' @importFrom data.table fread
 create_PLANTS <- function(...) {
-
-  args <- list(...)
-  if (!is.null(args[["outpath"]])) {
-    outpath <- args[["outpath"]]
-  }
+  parse_PLANTS(...)
+}
+parse_PLANTS <- function(outpath = "inst/extdata", ...) {
 
   x <- data.table::fread('https://plants.usda.gov/assets/docs/CompletePLANTSList/plantlst.txt')
 

@@ -7,10 +7,10 @@
 create_PLANTS(...)
 }
 \arguments{
-\item{...}{Arguments to `create_*()` function. Only `outpath` supported at this time.}
+\item{...}{Arguments to `parse_PLANTS()` function. Only `outpath` supported at this time.}
 }
 \value{
-TRUE if successful
+`TRUE` if successful
 }
 \description{
 Create PLANTS Dataset
