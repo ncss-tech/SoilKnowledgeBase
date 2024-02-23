@@ -219,10 +219,11 @@
   # drainage classes, in order, lower case
   classes <- c("excessively", "somewhat excessively", "well", "moderately well",
                "somewhat poorly", "poorly", "very poorly", "subaqueous")
+  class_hyphen <- gsub(" ", "[ -]", classes)
 
   # combine into capturing REGEX
-  classes.regex <- paste0('(', paste(classes, collapse = '|'), ')', "( drained)?( (to|or|and) )?",
-                          paste0('(', paste(classes, collapse = '|'), ')'), "? drained|subaqueous")
+  classes.regex <- paste0('(', paste(class_hyphen, collapse = '|'), ')', "([ -]drained)?( (to|or|and) )?",
+                          paste0('(', paste(class_hyphen, collapse = '|'), ')'), "?[ -]drained|subaqueous")
 
   # get matches
   m <- stringi::stri_match(text, regex = classes.regex, mode = 'first', opts_regex = list(case_insensitive = TRUE))
@@ -233,7 +234,7 @@
   }
 
   # keep full match and convert to lower case, remove the word "drained"
-  m <- trimws(gsub("  ", " ", gsub("drained", "", tolower(m[, 1]))))
+  m <- trimws(gsub("  ", " ", gsub("-", " ", gsub("drained", "", tolower(m[, 1])))))
 
   # put classes in order from excessively->subaqueous
   # interpolate ranges across more than 2 classes, and concatenate with comma
