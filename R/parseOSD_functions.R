@@ -222,7 +222,7 @@
 
   # combine into capturing REGEX
   classes.regex <- paste0('(', paste(classes, collapse = '|'), ')', "( drained)?( (to|or|and) )?",
-                          paste0('(', paste(classes, collapse = '|'), ')'), "? drained")
+                          paste0('(', paste(classes, collapse = '|'), ')'), "? drained|subaqueous")
 
   # get matches
   m <- stringi::stri_match(text, regex = classes.regex, mode = 'first', opts_regex = list(case_insensitive = TRUE))
