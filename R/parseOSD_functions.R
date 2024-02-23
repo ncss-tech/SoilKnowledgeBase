@@ -235,14 +235,20 @@
   # keep full match and convert to lower case, remove the word "drained"
   m <- trimws(gsub("  ", " ", gsub("drained", "", tolower(m[, 1]))))
 
-  # m2 <- strsplit(m, "(and|or|to)")
-  # m3 <- lapply(m2, function(x) { x[match(x, classes)]})
+  # put classes in order from excessively->subaqueous
+  # interpolate ranges across more than 2 classes, and concatenate with comma
+  m2 <- strsplit(m, "\\b(and|or|to)\\b")
+  m3 <- lapply(m2, function(x) {
+    x <- trimws(x)
+    y <- as.integer(factor(unique(classes[match(x, classes)]),
+                           levels = classes, ordered = TRUE))
+    if (length(y) > 1) {
+      y <- seq(from = min(y, na.rm = TRUE), to = max(y, na.rm = TRUE))
+    }
+    ifelse(is.na(classes[y]), "", classes[y]) # TODO: use zero chars or NA?
+  })
 
-  # return as an ordered factor
-  # m <- factor(m, levels = classes, ordered = TRUE)
-  # factors cannot be preserved in JSON output, and wont work for multiple classes/ranges of classes
-
-  return(m)
+  return(sapply(m3, paste0, collapse = ", "))
 }
 
 .zerochar_to_na <- function(x) {
