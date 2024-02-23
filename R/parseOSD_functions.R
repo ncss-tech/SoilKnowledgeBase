@@ -219,14 +219,18 @@
   # drainage classes, in order, lower case
   classes <- c("excessively", "somewhat excessively", "well", "moderately well",
                "somewhat poorly", "poorly", "very poorly", "subaqueous")
-  class_hyphen <- gsub(" ", "[ -]", classes)
+  class_hyphen <- gsub(" ", "[ \\-]", classes)
 
   # combine into capturing REGEX
-  classes.regex <- paste0('(', paste(class_hyphen, collapse = '|'), ')', "([ -]drained)?( (to|or|and) )?",
-                          paste0('(', paste(class_hyphen, collapse = '|'), ')'), "?[ -]drained|subaqueous")
+  classes.regex <- paste0('(', paste(class_hyphen, collapse = '|'), ')', "([ \\-]drained)?( (to|or|and) )?",
+                          paste0('(', paste(class_hyphen, collapse = '|'), ')'),
+                          "?[ \\-]drained|subaqueous|Drainage[ class]*[:\\-]+ ",
+                          '(', paste(class_hyphen, collapse = '|'), ')', "([ \\-]drained)?( (to|or|and) )?",
+                          paste0('(', paste(class_hyphen, collapse = '|'), ')?'))
 
   # get matches
   m <- stringi::stri_match(text, regex = classes.regex, mode = 'first', opts_regex = list(case_insensitive = TRUE))
+  m <- gsub("Drainage[ Cclass]*[:\\-]+ ", "", m, ignore.case = TRUE)
 
   # fail gracefully in the case of no section data or no matches
   if (nrow(m) < 1) {
