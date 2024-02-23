@@ -221,7 +221,7 @@
                "somewhat poorly", "poorly", "very poorly", "subaqueous")
 
   # combine into capturing REGEX
-  classes.regex <- paste0('(', paste(classes, collapse = '|'), ')', "( (to|or|and) )?",
+  classes.regex <- paste0('(', paste(classes, collapse = '|'), ')', "( drained)?( (to|or|and) )?",
                           paste0('(', paste(classes, collapse = '|'), ')'), "? drained")
 
   # get matches
@@ -233,7 +233,10 @@
   }
 
   # keep full match and convert to lower case, remove the word "drained"
-  m <- trimws(gsub("drained", "", tolower(m[, 1])))
+  m <- trimws(gsub("  ", " ", gsub("drained", "", tolower(m[, 1]))))
+
+  # m2 <- strsplit(m, "(and|or|to)")
+  # m3 <- lapply(m2, function(x) { x[match(x, classes)]})
 
   # return as an ordered factor
   # m <- factor(m, levels = classes, ordered = TRUE)
