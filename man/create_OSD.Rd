@@ -4,10 +4,12 @@
 \alias{create_OSD}
 \title{Create OSD Dataset}
 \usage{
-create_OSD(...)
+create_OSD(..., download = TRUE)
 }
 \arguments{
 \item{...}{not used}
+
+\item{download}{_logical_. Download OSD Snapshot from OSDRegistry? Default: `TRUE`}
 }
 \value{
 TRUE if successful

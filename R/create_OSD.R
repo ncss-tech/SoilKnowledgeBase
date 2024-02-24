@@ -3,10 +3,11 @@
 #' Create OSD Dataset
 #'
 #' @param ... not used
+#' @param download _logical_. Download OSD Snapshot from OSDRegistry? Default: `TRUE`
 #'
 #' @return TRUE if successful
 #' @export
-create_OSD <- function(...) {
+create_OSD <- function(..., download = TRUE) {
 
   output_dir <- "inst/extdata/OSD"
   logfile <- file.path(output_dir, "OSD.log")
@@ -15,9 +16,11 @@ create_OSD <- function(...) {
 
   attempt <- try({
 
-        logmsg(logfile, "Downloading snapshot...")
-        # Download OSDRegistry snapshot
-        download_OSD(url = 'https://github.com/ncss-tech/OSDRegistry/releases/download/main/OSD-data-snapshot.zip')
+        if (download) {
+          logmsg(logfile, "Downloading snapshot...")
+          # Download OSDRegistry snapshot
+          download_OSD(url = 'https://github.com/ncss-tech/OSDRegistry/releases/download/main/OSD-data-snapshot.zip')
+        }
 
         # Do JSON parsing of sections
         res <- osd_to_json(logfile = logfile,
