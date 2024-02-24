@@ -219,13 +219,18 @@
   # drainage classes, in order, lower case
   classes <- c("excessively", "somewhat excessively", "well", "moderately well",
                "somewhat poorly", "poorly", "very poorly", "subaqueous")
+  class_hyphen <- gsub(" ", "[ \\-]", classes)
 
   # combine into capturing REGEX
-  classes.regex <- paste0('(', paste(classes, collapse = '|'), ')', "( (to|or|and) )?",
-                          paste0('(', paste(classes, collapse = '|'), ')'), "? drained")
+  classes.regex <- paste0('(', paste(class_hyphen, collapse = '|'), ')', "([ \\-]drained)?( (to|or|and) )?",
+                          paste0('(', paste(class_hyphen, collapse = '|'), ')'),
+                          "?[ \\-]drained|subaqueous|Drainage[ class]*[:\\-]+ ",
+                          '(', paste(class_hyphen, collapse = '|'), ')', "([ \\-]drained)?( (to|or|and) )?",
+                          paste0('(', paste(class_hyphen, collapse = '|'), ')?'))
 
   # get matches
   m <- stringi::stri_match(text, regex = classes.regex, mode = 'first', opts_regex = list(case_insensitive = TRUE))
+  m <- gsub("Drainage[ Cclass]*[:\\-]+ ", "", m, ignore.case = TRUE)
 
   # fail gracefully in the case of no section data or no matches
   if (nrow(m) < 1) {
@@ -233,13 +238,22 @@
   }
 
   # keep full match and convert to lower case, remove the word "drained"
-  m <- trimws(gsub("drained", "", tolower(m[, 1])))
+  m <- trimws(gsub("  ", " ", gsub("-", " ", gsub("drained", "", tolower(m[, 1])))))
 
-  # return as an ordered factor
-  # m <- factor(m, levels = classes, ordered = TRUE)
-  # factors cannot be preserved in JSON output, and wont work for multiple classes/ranges of classes
+  # put classes in order from excessively->subaqueous
+  # interpolate ranges across more than 2 classes, and concatenate with comma
+  m2 <- strsplit(m, "\\b(and|or|to)\\b")
+  m3 <- lapply(m2, function(x) {
+    x <- trimws(x)
+    y <- as.integer(factor(unique(classes[match(x, classes)]),
+                           levels = classes, ordered = TRUE))
+    if (length(y) > 1) {
+      y <- seq(from = min(y, na.rm = TRUE), to = max(y, na.rm = TRUE))
+    }
+    ifelse(is.na(classes[y]), "", classes[y]) # TODO: use zero chars or NA?
+  })
 
-  return(m)
+  return(sapply(m3, paste0, collapse = ", "))
 }
 
 .zerochar_to_na <- function(x) {
