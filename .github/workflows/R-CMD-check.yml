@@ -37,8 +37,17 @@ jobs:
         with:
           extra-packages: any::rcmdcheck
           needs: check
-
+          
+      - name: Install SoilKnowledgeBase
+        run: |
+          sudo apt install poppler-utils
+        
       - uses: r-lib/actions/check-r-package@v2
         with:
           upload-snapshots: true
+          
+      - name: Post-processing
+        run: |
+          Rscript misc/OSD-error-reporting/typical-pedon.R
+          Rscript misc/OSD-error-reporting/osd-sections.R
 
