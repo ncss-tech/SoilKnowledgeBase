@@ -327,7 +327,6 @@
   #       "l" = "1"
   ## ideas: http://stackoverflow.com/questions/15474741/python-regex-optional-capture-group
 
-  ## TODO: it isn't clear if the new files will be in
   # expect em dashes (\u2014) used after horizon designation as of May 2023
   # https://github.com/ncss-tech/SoilKnowledgeBase/issues/64
 
@@ -337,8 +336,6 @@
   # detect horizons with no bottom depth
   hz.rule.no.bottom <- "([\\^\\'\\/a-zA-Z0-9]+)\\s*[-=\u2014]+?\\s*([Ol0-9.]+)\\s*(to|-)?\\s*([Ol0-9.]+)?\\s*?(in|inches|cm|centimeters)"
 
-  ## TODO: this doesn't work when only moist colors are specified (http://casoilresource.lawr.ucdavis.edu/sde/?series=canarsie)
-  ## TODO: these rules will not match neutral colors: N 2.5/
   ## TODO: toggle dry/moist assumption:
   ##
   ## Colors are for dry soil unless otherwise stated | Colors are for moist soil unless otherwise stated
@@ -348,7 +345,6 @@
   ##   A--0 to 6 inches; light gray (10YR 7/2) loam, dark grayish brown (10YR 4/2) moist; moderate coarse subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine roots; many very fine and few fine tubular and many very fine interstitial pores; 10 percent pebbles; strongly acid (pH 5.1); clear wavy boundary. (1 to 8 inches thick)
   ##
 
-  ## TODO: test this
   # establish default encoding of colors
   dry.is.default <- length(grep('for dry (soil|conditions)', tp, ignore.case = TRUE)) > 0
   moist.is.default <- length(grep('for moist (soil|conditions)', tp, ignore.case = TRUE)) > 0
