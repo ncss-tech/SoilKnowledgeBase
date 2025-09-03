@@ -566,7 +566,7 @@ download_KST <- function(outpath = "./inst/extdata",
     fn <- sprintf("2014_KST_%s.pdf", language)
   } else {
     # hard coding 13th edition (uses same URL 12th used to)
-    yhref <- "https://www.nrcs.usda.gov/sites/default/files/2022-09/Keys-to-Soil-Taxonomy.pdf"
+    yhref <- "https://github.com/brownag/SoilKnowledgeBase-data-archive/raw/main/KST/Keys-to-Soil-Taxonomy_13th_2022.pdf"
 
     fn <- sprintf("2022_KST_%s.pdf", language)
   }
