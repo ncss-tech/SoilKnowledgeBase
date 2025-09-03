@@ -406,8 +406,6 @@ osd_to_json <- function(logfile = file.path(output_dir, "OSD/OSD.log"),
 
     fn <- gsub("\\.txt", "\\.json", basename(all_osds[[i]]))
 
-    # note: all-NA columns are silently dropped by toJSON
-    # https://github.com/ncss-tech/SoilKnowledgeBase/issues/35
     write(jsonlite::toJSON(x, pretty = TRUE, auto_unbox = TRUE, na = 'string'), file = file.path(fld, fn))
     return(TRUE)
   })
