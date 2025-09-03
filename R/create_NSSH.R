@@ -8,7 +8,7 @@
 #' @export
 create_NSSH <- function(outpath = "inst/extdata", ...) {
  # if (!dir.exists(outpath))
- #   dir.create(outpath, recursive = TRUE)
+ #   dir.create(outpath, showWarnings = FALSE, recursive = TRUE)
  # logfile <- file.path(outpath, "NSSH/NSSH.log")
  #
  # logmsg(logfile, "Processing NSSH from eDirectives...")
@@ -130,7 +130,7 @@ parse_nssh_index <- function(
   res1 <- res0[complete.cases(res0),]
   pdf_path <- file.path(outpath, "NSSH", "pdf")
   if (!dir.exists(pdf_path)) {
-    dir.create(pdf_path, recursive = TRUE)
+    dir.create(pdf_path, showWarnings = FALSE, recursive = TRUE)
   }
   txts <- NULL
 
@@ -229,7 +229,7 @@ parse_nssh_index <- function(
   lapply(unique(res3$Part), function(x) {
     dp <- file.path(outpath, "NSSH", x)
     if (!dir.exists(dp))
-      dir.create(dp, recursive = TRUE)
+      dir.create(dp, showWarnings = FALSE, recursive = TRUE)
     parts <- subset(res3, res3$Part == x)
     lapply(split(parts, 1:nrow(parts)), function(y) {
       xx <- strip_lines(clean_chars(y$Content[[1]]))

@@ -46,7 +46,7 @@ convert_to_json <- function(a_list, pretty = TRUE, auto_unbox = TRUE, ...) {
 logmsg <- function(logfile, fmt, ..., sep = "\n") {
 
   if (!dir.exists(dirname(logfile)))
-    dir.create(dirname(logfile), recursive = TRUE)
+    dir.create(dirname(logfile), showWarnings = FALSE, recursive = TRUE)
 
   msg <- sprintf(fmt, ...)
 

@@ -31,7 +31,7 @@ chapters <- subset(proposals, grepl("Chapter \\d", proposals$name))
 chapters$name <- gsub("[:]","",chapters$name)
 
 # create directory
-dir.create(output_dir, recursive = TRUE)
+dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
 
 dlres <- sapply(seq_len(nrow(chapters)), function(i)
   download.file(url = chapters$href[i],

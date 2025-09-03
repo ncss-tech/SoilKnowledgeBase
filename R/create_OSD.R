@@ -402,7 +402,7 @@ osd_to_json <- function(logfile = file.path(output_dir, "OSD/OSD.log"),
     fld <- file.path(output_dir, substr(x$SERIES, 1, 1))
 
     if (!dir.exists(fld))
-      dir.create(fld, recursive = TRUE)
+      dir.create(fld, showWarnings = FALSE, recursive = TRUE)
 
     fn <- gsub("\\.txt", "\\.json", basename(all_osds[[i]]))
 
