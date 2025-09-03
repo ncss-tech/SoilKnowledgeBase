@@ -12,6 +12,40 @@ context("OSD Parsing")
 ## NOTE: the first line must be "TYPICAL PEDON"
 
 
+test_that("neutral hue specified without chroma", {
+  
+  # https://casoilresource.lawr.ucdavis.edu/sde/?series=zunhall#osd
+  lines <- strsplit("TYPICAL PEDON: Zunhall silt loam, grass. (Colors are for dry soil unless otherwise noted.)
+
+Ak1--0 to 2 inches; gray (N 6/) grayish brown 2.5Y 5/2 crushed silt loam, very dark gray (N 3/) moist; weak thin platy structure that parts to strong fine and very fine granular structure; hard, friable, slightly sticky and slightly plastic; root mat; many very fine interstitial pores; very strongly calcareous; strongly alkaline (pH 9.0); abrupt smooth boundary. (0 to 3 inches thick)
+
+Ak2--2 to 6 inches; gray (N 6/) silt loam, very dark gray (N 3/) moist; moderate thin platy structure that parts to moderate very fine subangular angular blocky and weak fine and very fine granular structure; hard, friable, slightly sticky and slightly plastic; many very fine and fine roots; common very fine tubular pores; very strongly calcareous; very strongly alkaline (pH 9.2); clear smooth boundary. (3 to 6 inches thick)
+
+ABk--6 to 17 inches; gray (N 6/) silt loam, dark gray (N 4/) moist; weak medium platy structure that parts to moderate fine and very fine granular structure; slightly hard, very friable, moderately sticky and moderately plastic; many very fine granular structure; slightly hard, very friable, sticky and plastic; many very fine and fine roots; many very fine tubular pores; very strongly calcareous; strongly alkaline (pH 8.9); clear wavy boundary. (2 to 12 inches thick)
+
+Bk1--17 to 23 inches; light gray (N 7/) silty clay loam, gray (N 5/) moist weak very fine and fine granular structure; hard, very friable, moderately sticky and moderately plastic; many very fine and fine roots; many very fine tubular pores; very strongly calcareous; strongly alkaline (pH 8.5); clear wavy boundary. (4 to 10 inches thick)
+
+Bk2--23 to 37 inches; light gray (N 7/) silty clay loam, gray (N 5/) moist; few fine distinct dark yellowish brown (10YR 3/4) moist redox concentrations; massive; hard, friable; moderately sticky and moderately plastic; very strongly calcareous, common 1 mm spots of lime; moderately alkaline (pH 8.4); gradual wavy boundary. (10 to 25 inches thick)
+
+Bk3--37 to 46 inches; pale yellow (2.5Y 8/2) silty clay loam, light brownish gray (2.5Y 6/2) moist; few fine distinct yellowish brown (10YR 5/6) moist redox concentrations; massive; hard, friable, moderately sticky and moderately plastic; common very fine tubular pores; common indurated lime concretions up to 3 inches across; very strongly calcareous; moderately alkaline (pH 8.3); gardual wavy boundary. (0 to 12 inches thick)
+
+Bk4--46 to 55 inches; pale yellow (2.5Y 8/2) silt loam, light brownish gray (2.5Y 6/2) moist; few fine distinct yellowish brown (10YR 5/6) moist redox concentrations; massive; hard, friable, moderately sticky and moderately plastic; common very fine tubular pores; many indurated and strongly cemented lime concretions up to 3 inches across; very strongly calcareous; moderately alkaline (pH 8.3).
+", split = '\n')[[1]]
+  
+  z <- SoilKnowledgeBase:::.extractHzData(lines)
+  
+  # 7 horizons
+  expect_equal(nrow(z), 7)
+  
+  # moist hue includes N/ style notation
+  expect_equal(z$moist_hue, c('N', 'N', 'N', 'N', 'N', '2.5Y', '2.5Y'))
+  
+  # these have missing chroma
+  expect_equal(z$moist_chroma, c(NA_real_, NA_real_, NA_real_, NA_real_, NA_real_, 2, 2))
+})
+
+
+
 # https://github.com/ncss-tech/SoilKnowledgeBase/issues/64
 # anticipate expected / possible changes to OSDs starting May 2023
 test_that("May 2023 changes to OSD style", {
