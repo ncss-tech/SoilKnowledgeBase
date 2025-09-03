@@ -4,14 +4,12 @@ Title: USDA-NRCS Soil Knowledge Base
 Version: 0.3.6
 Author: Soil and Plant Science Division Staff
 Maintainer: Andrew G. Brown <andrew.g.brown@usda.gov>
-Description: Unified management of USDA-NRCS / National Cooperative Soil Survey / Soil and Plant Science Division standards.
+Description: Unified management of USDA-NRCS, National Cooperative Soil Survey, and Soil and Plant Science Division standards.
 Imports: curl, xml2, jsonlite, rvest, stringi, tibble, dplyr, pdftools, data.table
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.1
-Suggests: 
-    knitr,
-    rmarkdown,
-    testthat
-VignetteBuilder: knitr
+Suggests: knitr, rmarkdown, testthat
+URL: https://github.com/ncss-tech/SoilKnowledgeBase, https://ncss-tech.github.io/SoilKnowledgeBase
+BugReports: https://github.com/ncss-tech/SoilKnowledgeBase/issues
