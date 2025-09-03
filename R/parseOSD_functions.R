@@ -331,10 +331,10 @@
   # https://github.com/ncss-tech/SoilKnowledgeBase/issues/64
 
   # detect horizons with both top and bottom depths
-  hz.rule <-            "([\\^\\'\\/a-zA-Z0-9]+)\\s*[-=\u2014]+\\s*([Ol0-9.]+)\\s*?(to|-)?\\s+?([Ol0-9.]+)\\s*?(in|inches|cm|centimeters)"
+  hz.rule <- "([\\^\\'\\/a-zA-Z0-9]+(?: and [\\^\\'\\/a-zA-Z0-9]+)?)\\s*[-=\u2014]+\\s*([Ol0-9.]+)\\s*?(to|-)?\\s+?([Ol0-9.]+)\\s*?(in|inches|cm|centimeters)"
 
   # detect horizons with no bottom depth
-  hz.rule.no.bottom <- "([\\^\\'\\/a-zA-Z0-9]+)\\s*[-=\u2014]+?\\s*([Ol0-9.]+)\\s*(to|-)?\\s*([Ol0-9.]+)?\\s*?(in|inches|cm|centimeters)"
+  hz.rule.no.bottom <- "([\\^\\'\\/a-zA-Z0-9]+(?: and [\\^\\'\\/a-zA-Z0-9]+)?)\\s*[-=\u2014]+?\\s*([Ol0-9.]+)\\s*(to|-)?\\s*([Ol0-9.]+)?\\s*?(in|inches|cm|centimeters)"
 
   ## TODO: toggle dry/moist assumption:
   ##
