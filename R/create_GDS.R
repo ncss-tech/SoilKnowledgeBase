@@ -18,7 +18,7 @@ download_GDS <- function(outpath = "./inst/extdata",
     # TODO: convert to pdftools
 
     try(curl::curl_download(destfile = "GDS.pdf",
-                        url = "https://www.nrcs.usda.gov/sites/default/files/2022-10/GDS_v5.pdf",
+                        url = "https://github.com/brownag/SoilKnowledgeBase-data-archive/raw/main/GDS/GDS_v5.pdf",
                         handle = .SKB_curl_handle(),
                         ...))
 
