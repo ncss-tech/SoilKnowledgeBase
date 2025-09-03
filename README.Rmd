@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ## Soil Knowledge Base
 [![refresh inst/extdata](https://github.com/brownag/SoilKnowledgeBase/workflows/refresh-extdata/badge.svg)](https://github.com/brownag/SoilKnowledgeBase/actions?query=workflow%3Arefresh-extdata)
 [![R build status](https://github.com/brownag/SoilKnowledgeBase/workflows/R-CMD-check/badge.svg)](https://github.com/brownag/SoilKnowledgeBase/actions)
-[![html-docs](https://camo.githubusercontent.com/f7ba98e46ecd14313e0e8a05bec3f92ca125b8f36302a5b1679d4a949bccbe31/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646f63732d48544d4c2d696e666f726d6174696f6e616c)](https://ncss-tech.github.io/SoilKnowledgeBase/)
+[![html-docs](https://img.shields.io/badge/docs-HTML-informational)](https://ncss-tech.github.io/SoilKnowledgeBase/)
 
 A soil "knowledge base" centered around the **National Cooperative Soil Survey** (NCSS) standards.
 
@@ -34,12 +34,8 @@ SoilKnowledgeBase::refresh()
 The repository is _regularly updated_ to reflect changes that happen in a variety of official data sources. 
 
 Depending on your application you may be better off simply cloning the repository and calling `git pull` on a schedule that is convenient for you.
-
-### The Structure of the National Soil Survey Handbook (NSSH)
-
-The materials provided in this repository are generally defined somewhere within the NSSH. For now, only top-level links to whole sections of the handbook are available. 
-
-These links connect to [eDirectives](http://directives.sc.egov.usda.gov/) which are the official sources of standards of this nature.
+ 
+See the NSSH on [eDirectives](http://directives.sc.egov.usda.gov/) for details on specific data sources.
 
 ```{r, results='asis'}
 # do a full refresh
@@ -47,32 +43,4 @@ library(SoilKnowledgeBase)
 
 # if any of these failed to download
 stopifnot(all(unlist(refresh(keep_pdf = TRUE))))
-
-# access the assets
-dat <- get_assets('inst/extdata/NSSH', 'index')[[1]]
-
-.doAbbreviate <- function(x) {
-  xx <- gsub("National Cooperative Soil Survey", "NCSS", x)
-  gsub("Quality Control, Quality Assurance,", "QC/QA*", xx)
-}
-
-dat$parent <- .doAbbreviate(dat$parent)
-dat$href <- sprintf("[LINK](%s)", dat$href)
-dat$part_subpart <- paste(dat$part, dat$subpart)
-
-knitr::kable(dat[,c('part_subpart', 'parent', 'section', 'href')],
-             col.names = c("Part & Subpart", "Part Name", "Section", "Link"))
 ``` 
-
- - \* QC/QA = Quality Control, Quality Assurance
-
-### The following are headers within individual handbook parts
-
-```{r}
-nssh_headers <- get_assets('inst/extdata/NSSH', 'headers')[[1]]
-
-if (!is.null(nssh_headers)) {
-  knitr::kable(nssh_headers[, c("part", "subpart", "header")],
-               row.names = FALSE, col.names = c("Part", "Subpart", "Header"))
-}
-```
