@@ -9,9 +9,9 @@
 create_PLANTS <- function(...) {
   parse_PLANTS(...)
 }
-parse_PLANTS <- function(outpath = "inst/extdata", ...) {
 
-  x <- data.table::fread('https://plants.usda.gov/assets/docs/CompletePLANTSList/plantlst.txt')
+parse_PLANTS <- function(outpath = "inst/extdata", ...) {
+  x <- data.table::fread('https://plants.sc.egov.usda.gov/DocumentLibrary/Txt/plantlst.txt')
 
   d <- file.path(outpath, "PLANTS")
   f <- file.path(d, "plantlst.csv")
