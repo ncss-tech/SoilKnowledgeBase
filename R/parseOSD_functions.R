@@ -346,7 +346,7 @@
   ##
 
   # establish default encoding of colors
-  dry.is.default <- length(grep('for dry (soil|conditions)', tp, ignore.case = TRUE)) > 0
+  dry.is.default <- length(grep('for (?:air-)?dry (soil|conditions)', tp, ignore.case = TRUE)) > 0
   moist.is.default <- length(grep('for moist (soil|conditions)', tp, ignore.case = TRUE)) > 0
 
   if (dry.is.default)
