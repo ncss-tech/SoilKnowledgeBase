@@ -73,23 +73,7 @@
   # mineral texture classes, sorted from coarse -> fine
   textures <- c('coarse sand', 'sand', 'fine sand', 'very fine sand', 'loamy coarse sand', 'loamy sand', 'loamy fine sand', 'loamy very fine sand', 'coarse sandy loam', 'sandy loam', 'fine sandy loam', 'very fine sandy loam', 'loam', 'silt loam', 'silt', 'sandy clay loam', 'clay loam', 'silty clay loam', 'sandy clay', 'silty clay', 'clay')
 
-  ## TODO: this is too greedy as 'fine sand' will be found _within_ 'fine sandy loam'
-  # https://github.com/dylanbeaudette/parse-osd/issues/10
-
-  # combine into capturing REGEX
-  # texture.regex <- paste0('(', paste(textures, collapse='|'), ')')
-  #
-  # # get matches
-  # m <- stri_match(text, regex = texture.regex, mode='first', opts_regex=list(case_insensitive=TRUE))
-  #
-  # # fail gracefully in the case of no section data or no matches
-  # if(nrow(m) < 1)
-  #   return(NA)
-  #
-  # # keep only matches and convert to lower case
-  # m <- tolower(m[, 2])
-
-  ## 2019-05-29: generalized for all non-greedy, exact matching
+  ## 2019-05-29: generalized for all non-greedy, exact matching, longest string
   m <- .findClass(needle = textures, haystack = text)
   m <- tolower(m)
 
@@ -319,35 +303,27 @@
 
 #' @importFrom stringi stri_match_all
 .extractHzData <- function(tp) {
-
-  ## REGEX rules
-  # http://regexr.com/
-  ## TODO: combine top+bottom with top only rules
-  #       "O" = "0"
-  #       "l" = "1"
-  ## ideas: http://stackoverflow.com/questions/15474741/python-regex-optional-capture-group
-
-  # expect em dashes (\u2014) used after horizon designation as of May 2023
-  # https://github.com/ncss-tech/SoilKnowledgeBase/issues/64
-
+  
   # detect horizons with both top and bottom depths
   hz.rule <- "([\\^\\'\\/a-zA-Z0-9]+(?: and [\\^\\'\\/a-zA-Z0-9]+)?)\\s*[-=\u2014]+\\s*([Ol0-9.]+)\\s*?(to|-)?\\s+?([Ol0-9.]+)\\s*?(in|inches|cm|centimeters)"
-
+  
   # detect horizons with no bottom depth
   hz.rule.no.bottom <- "([\\^\\'\\/a-zA-Z0-9]+(?: and [\\^\\'\\/a-zA-Z0-9]+)?)\\s*[-=\u2014]+?\\s*([Ol0-9.]+)\\s*(to|-)?\\s*([Ol0-9.]+)?\\s*?(in|inches|cm|centimeters)"
-
-  ## TODO: toggle dry/moist assumption:
+  
+  ## default encoding of colors: Toggle dry/moist assumption
   ##
-  ## Colors are for dry soil unless otherwise stated | Colors are for moist soil unless otherwise stated
-  ##
-  ## E1--7 to 12 inches; very dark gray (10YR 3/1) silt loam, 50 percent gray (10YR 5/1) and 50 percent gray (10YR 6/1) dry; moderate thin platy structure parting to weak thin platy; friable, soft; common fine and medium roots throughout; common fine tubular pores; few fine distinct dark yellowish brown (10YR 4/6) friable masses of iron accumulations with sharp boundaries on faces of peds; strongly acid; clear wavy boundary.
-
+  ## Profile-level statement: Colors are for dry soil unless otherwise stated | Colors are for moist soil unless otherwise stated
+  ## 
+  ## Examples:
+  ## moist:
+  ##   E1--7 to 12 inches; very dark gray (10YR 3/1) silt loam, 50 percent gray (10YR 5/1) and 50 percent gray (10YR 6/1) dry; moderate thin platy structure parting to weak thin platy; friable, soft; common fine and medium roots throughout; common fine tubular pores; few fine distinct dark yellowish brown (10YR 4/6) friable masses of iron accumulations with sharp boundaries on faces of peds; strongly acid; clear wavy boundary.
+  ## 
+  ## dry:
   ##   A--0 to 6 inches; light gray (10YR 7/2) loam, dark grayish brown (10YR 4/2) moist; moderate coarse subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine roots; many very fine and few fine tubular and many very fine interstitial pores; 10 percent pebbles; strongly acid (pH 5.1); clear wavy boundary. (1 to 8 inches thick)
   ##
+  dry.is.default <- length(grep('for[ athe]+(?:air-* *)?dr[yied]+[ \\n,]+(colors|soil|conditions)', tp, ignore.case = TRUE)) > 0
+  moist.is.default <- length(grep('for[ athe]+(wet|moi*st)[ \\n,]+(rubbed|crushed|broken|interior|soil|conditions)', tp, ignore.case = TRUE)) > 0
 
-  # establish default encoding of colors
-  dry.is.default <- length(grep('for (?:air-)?dry (soil|conditions)', tp, ignore.case = TRUE)) > 0
-  moist.is.default <- length(grep('for moist (soil|conditions)', tp, ignore.case = TRUE)) > 0
 
   if (dry.is.default)
     default.moisture.state <- 'dry'
@@ -365,16 +341,9 @@
   ## TODO: account for l,O style OCR errors
   # https://github.com/ncss-tech/SoilKnowledgeBase/issues/53
 
-  ## TODO: test this
-  # get all colors matching our rule, moist and dry and unknown, 5th column is moisture state
-  # interpretation is tough when multiple colors / hz are given
   # single rule, with dry/moist state
   # note that dry/moist may not always be present
   color.rule <- "\\(([Ol0-9]?[\\.]?[Ol0-9]?[B|G|Y|R|N]+) *([Ol0-9\\.]+) */([Ol0-9]*) *\\)\\s?(dry|moist|)"
-
-  # detect moist and dry colors
-  dry.color.rule <- "\\(([Ol0-9]?[\\.]?[Ol0-9]?[B|G|Y|R|N]+)([ ]+?[Ol0-9\\.]+)/([Ol0-9]*)\\)(?! moist)"
-  moist.color.rule <- "\\(([Ol0-9]?[\\.]?[Ol0-9]?[B|G|Y|R|N]+)([ ]+?[Ol0-9\\.]+)/([Ol0-9]*)\\) moist"
 
   # ID actual lines of horizon information
   hz.idx <- unique(c(grep(hz.rule, tp), grep(hz.rule.no.bottom, tp)))
@@ -425,10 +394,11 @@
     ## TODO: test this!
     # parse ALL colors, result is a multi-row matrix, 5th column is moisture state
     colors <- stringi::stri_match_all(this.chunk, regex = color.rule)[[1]]
+    
     # replace missing moisture state with (parsed) default value
     colors[, 5][which(colors[, 5] == '')] <- default.moisture.state
 
-    # exctract dry|moist colors, note that there may be >1 color per state
+    # extract dry|moist colors, note that there may be >1 color per state
     dc <- colors[which(colors[, 5] == 'dry'), 1:4, drop = FALSE]
     mc <- colors[which(colors[, 5] == 'moist'), 1:4, drop = FALSE]
 
