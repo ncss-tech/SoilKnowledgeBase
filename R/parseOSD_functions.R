@@ -10,7 +10,7 @@
 #' @param x a _list_ result of SoilKnowledgeBase::validateOSD()
 #' @keywords internal
 #' @noRd
-.doParseOSD <- function(x) {
+.doParseOSD <- function(x, logfile = "OSD.log", filename = "FOO.txt") {
   # # get data
   # res <- soilDB:::.getLocalOSD(x, path)
   #
@@ -22,10 +22,10 @@
   # l[['section-indices']] <- .findSectionIndices(res)
 
   l <- list()
-  l[['site-data']] <- .extractSiteData(x)
+  l[['site-data']] <- .extractSiteData(x, logfile, filename)
   tp <- strsplit(as.character(x$`TYPICAL PEDON`$content), "\n")
   if (length(tp) > 0)
-    l[['hz-data']] <- .extractHzData(tp[[1]])
+    l[['hz-data']] <- .extractHzData(tp[[1]], logfile, filename)
   else
     l[['hz-data']] <- data.frame(name = NA)
 
@@ -269,7 +269,7 @@
 
 # parse important pieces from sections
 # x: list of section chunks
-.extractSiteData <- function(x) {
+.extractSiteData <- function(x, logfile = "OSD.log", filename = "FOO.txt") {
 
   ## drainage class
 
@@ -302,7 +302,7 @@
 
 
 #' @importFrom stringi stri_match_all
-.extractHzData <- function(tp) {
+.extractHzData <- function(tp, logfile = "OSD.log", filename = "FOO.txt") {
   
   # detect horizons with both top and bottom depths
   hz.rule <- "([\\^\\'\\/a-zA-Z0-9]+(?: and [\\^\\'\\/a-zA-Z0-9]+)?)\\s*[-=\u2014]+\\s*([Ol0-9.]+)\\s*?(to|-)?\\s+?([Ol0-9.]+)\\s*?(in|inches|cm|centimeters)"
@@ -345,13 +345,22 @@
   # note that dry/moist may not always be present
   color.rule <- "\\(([Ol0-9]?[\\.]?[Ol0-9]?[B|G|Y|R|N]+) *([Ol0-9\\.]+) */([Ol0-9]*) *\\)\\s?(dry|moist|)"
 
-  # ID actual lines of horizon information
-  hz.idx <- unique(c(grep(hz.rule, tp), grep(hz.rule.no.bottom, tp)))
+  # eliminate empty lines within typical pedon
+  tp <- tp[nzchar(trimws(tp))]
+  
+  # ID starting lines of horizon information
+  hz.idx <- sort(unique(c(grep(hz.rule, tp), grep(hz.rule.no.bottom, tp))))
 
   # the first line of the TYPICAL PEDON section should not appear in this index
   first.line.flag <- which(hz.idx == 1)
   if (length(first.line.flag) > 0) {
     hz.idx <- hz.idx[-first.line.flag]
+  }
+  
+  check.multiline <- diff(hz.idx) > 1
+  if (any(check.multiline)) {
+    # multiline typical pedon horizon formatting (needs fix)
+    logmsg(logfile, paste0("CHECK MULTILINE TYPICAL PEDON: ", filename, " [number of multilines=", sum(check.multiline), "]"))
   }
 
   # init empty lists to store hz data and colors
