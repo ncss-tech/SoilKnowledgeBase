@@ -454,7 +454,8 @@
   })
 
   # convert in -> cm using the first horizon
-  if (hz.data$units[1] %in% c('inches', 'in', 'inch')) {
+  if (!is.na(hz.data$units[1]) &&
+      startsWith(tolower(hz.data$units[1]), "in")) {
     hz.data$top <- round(hz.data$top * 2.54)
     hz.data$bottom <- round(hz.data$bottom * 2.54)
   }
