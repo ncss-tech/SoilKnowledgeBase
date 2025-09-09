@@ -365,16 +365,16 @@ validateOSD <- function(logfile, filepath) {
 #' @param logfile Path to log file; default: \code{file.path(output_dir, "OSD/OSD.log")}
 #' @param input_dir Default: \code{'OSD'}; files matching pattern are listed recursively
 #' @param pattern Argument passed to \code{list.files} when \code{osd_files} is not specified
-#' @param output_dir Default: \code{'inst/extdata'}; folder to create alphabetical folder structure with JSON files
+#' @param output_dir Default: \code{'inst/extdata/OSD'}; folder to create alphabetical folder structure with JSON files
 #' @param osd_files Default \code{NULL}; Optional over-ride vector of file names for testing
 #'
 #' @return A logical vector equal in length to the number of input files.
 #' @export
 #' @importFrom jsonlite toJSON
-osd_to_json <- function(logfile = file.path(output_dir, "OSD/OSD.log"),
+osd_to_json <- function(logfile = file.path(output_dir, "OSD.log"),
                         input_dir = 'OSD',
                         pattern = "txt",
-                        output_dir = "inst/extdata",
+                        output_dir = "inst/extdata/OSD",
                         osd_files = NULL) {
 
   if (!is.null(osd_files)) {
@@ -390,7 +390,7 @@ osd_to_json <- function(logfile = file.path(output_dir, "OSD/OSD.log"),
 
     x <- validateOSD(logfile, filepath)
 
-    parsed.OSD <- .doParseOSD(x)
+    parsed.OSD <- .doParseOSD(x, logfile, filepath)
 
     # SPC-style components from parseOSD returned as nested data.frames in JSON
     x$SITE <- I(list(parsed.OSD$`site-data`))
