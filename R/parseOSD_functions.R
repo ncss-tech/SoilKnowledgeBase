@@ -305,10 +305,10 @@
 .extractHzData <- function(tp, logfile = "OSD.log", filename = "FOO.txt") {
 
   # detect horizons with both top and bottom depths
-  hz.rule <- "([\\^\\'\\/a-zA-Z0-9]+(?: and [\\^\\'\\/a-zA-Z0-9]+)?)\\s*[-=\u2014]+\\s*([Ol0-9.]+)\\s*?(to|-)?\\s+?([Ol0-9.]+)\\s*?(inches|in|cm|centimeters)"
+  hz.rule <- "([\\^\\'\\/a-zA-Z0-9]+(?: and [\\^\\'\\/a-zA-Z0-9]+)?)\\s*[-=\u2014]+\\s*([Ol0-9.]+)\\s*?(to|-)?\\s+?([Ol0-9.]+)\\s*?(inche?s?|in|cm|centimeters?)"
 
   # detect horizons with no bottom depth
-  hz.rule.no.bottom <- "([\\^\\'\\/a-zA-Z0-9]+(?: and [\\^\\'\\/a-zA-Z0-9]+)?)\\s*[-=—]+?\\s*([Ol0-9./ ]+)\\s*(inche?s?|in|cm|centimeters)?\\s*(to|-)?\\s*([Ol0-9./ ]+)?\\s*(inche?s?|in|cm|centimeters)?"
+  hz.rule.no.bottom <- "([\\^\\'\\/a-zA-Z0-9]+(?: and [\\^\\'\\/a-zA-Z0-9]+)?)\\s*[-=\u2014]+?\\s*([Ol0-9./ ]+)\\s*(inche?s?|in|cm|centimeters?)?\\s*(to|-)?\\s*([Ol0-9./ ]+)?\\s*(inche?s?|in|cm|centimeters?)?"
 
   ## default encoding of colors: Toggle dry/moist assumption
   ##
