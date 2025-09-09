@@ -349,7 +349,7 @@
   tp <- tp[nzchar(trimws(tp))]
   
   # ID starting lines of horizon information
-  hz.idx <- unique(c(grep(hz.rule, tp), grep(hz.rule.no.bottom, tp)))
+  hz.idx <- sort(unique(c(grep(hz.rule, tp), grep(hz.rule.no.bottom, tp))))
 
   # the first line of the TYPICAL PEDON section should not appear in this index
   first.line.flag <- which(hz.idx == 1)
