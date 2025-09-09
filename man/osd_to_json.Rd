@@ -5,10 +5,10 @@
 \title{Convert OSD plaintext to JSON using NSSH structural elements}
 \usage{
 osd_to_json(
-  logfile = file.path(output_dir, "OSD/OSD.log"),
+  logfile = file.path(output_dir, "OSD.log"),
   input_dir = "OSD",
   pattern = "txt",
-  output_dir = "inst/extdata",
+  output_dir = "inst/extdata/OSD",
   osd_files = NULL
 )
 }
@@ -19,7 +19,7 @@ osd_to_json(
 
 \item{pattern}{Argument passed to \code{list.files} when \code{osd_files} is not specified}
 
-\item{output_dir}{Default: \code{'inst/extdata'}; folder to create alphabetical folder structure with JSON files}
+\item{output_dir}{Default: \code{'inst/extdata/OSD'}; folder to create alphabetical folder structure with JSON files}
 
 \item{osd_files}{Default \code{NULL}; Optional over-ride vector of file names for testing}
 }
