@@ -10,10 +10,9 @@ if (file.exists(osd_log)) {
   osd_loglines <- readLines(osd_log)
   osd_check <- osd_loglines[grepl("^CHECK", osd_loglines)]
 
-
   res <- data.table::rbindlist(lapply(strsplit(
     gsub(
-      "CHECK:? ([A-Z a-z0-9]+):? OSD/[A-Z]/([A-Z_]+)\\.txt ?(\\[.*\\])?",
+      "CHECK:? ([A-Z a-z0-9]+):? .*/[A-Z]/([A-Z_]+)\\.txt ?(\\[.*\\])?",
       "\\1;;;;\\2;;;;\\3",
       osd_check
     ), ";;;;"
@@ -34,6 +33,5 @@ if (file.exists(osd_log)) {
     ress[[x]]$ro <- NULL
     write.csv(ress[[x]], sprintf("inst/extdata/OSD-error-reporting/RO/%s-sections.csv", x), row.names = FALSE)
   })
-
-
+  
 } else message("Could not find ", osd_log, "; try running create_OSD() or refresh() to create it")

@@ -13,7 +13,6 @@ sc <- fread('https://github.com/ncss-tech/OSDRegistry/raw/main/SC/SCDB.csv')
 
 ## working on the output from SKB->OSD getting / parsing
 
-# for now, relative to /misc/OSD-error-reporting
 osd.path <- 'inst/extdata/OSD'
 output.path <- 'inst/extdata/OSD-error-reporting/'
 
