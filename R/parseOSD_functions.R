@@ -385,13 +385,15 @@
       h <- gsub(" *[1l]/2", ".5", h)
       h <- gsub(" *[1l]/[48]", ".25", h) # NB: fudging 1/8 inch -> 1 cm
       h <- gsub("^\\.", "0.", h)
-      h_num <- grep("^\\d+\\.*\\d*$", h)
+      i_num <- grep("^\\d+\\.*\\d*$", h)
       # fill missing depth with NA
-      if (length(h_num) == 1) {
-        h_num <- c(h_num, NA)
+      if (length(i_num) == 1) {
+        i_num <- c(i_num, NA)
       }
-      h_alp <- grep("[A-Za-z]", h)[2:3]
-      h <- h[c(h_alp[1], h_num, h_alp[2])]
+      h_num <- h[i_num]
+      l_alp <- grepl("[A-Za-z]", h)
+      h_alp <- h[l_alp & h != "to" & h != "-"][2:3]
+      h <- c(h_alp[1], h_num, h_alp[2])
 
     } else {
       h[2] <- gsub("0", "O", h[2], fixed=TRUE)
