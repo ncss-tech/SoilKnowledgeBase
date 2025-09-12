@@ -303,27 +303,26 @@
 
 #' @importFrom stringi stri_match_all
 .extractHzData <- function(tp, logfile = "OSD.log", filename = "FOO.txt") {
-  
+
   # detect horizons with both top and bottom depths
-  hz.rule <- "([\\^\\'\\/a-zA-Z0-9]+(?: and [\\^\\'\\/a-zA-Z0-9]+)?)\\s*[-=\u2014]+\\s*([Ol0-9.]+)\\s*?(to|-)?\\s+?([Ol0-9.]+)\\s*?(in|inches|cm|centimeters)"
-  
+  hz.rule <- "([\\^\\'\\/a-zA-Z0-9]+(?: and [\\^\\'\\/a-zA-Z0-9]+)?)\\s*[-=\u2014]+\\s*([Ol0-9.]+)\\s*?(to|-)?\\s+?([Ol0-9.]+)\\s*?(inche?s?|in|cm|centimeters?)"
+
   # detect horizons with no bottom depth
-  hz.rule.no.bottom <- "([\\^\\'\\/a-zA-Z0-9]+(?: and [\\^\\'\\/a-zA-Z0-9]+)?)\\s*[-=\u2014]+?\\s*([Ol0-9.]+)\\s*(to|-)?\\s*([Ol0-9.]+)?\\s*?(in|inches|cm|centimeters)"
-  
+  hz.rule.no.bottom <- "([\\^\\'\\/a-zA-Z0-9]+(?: and [\\^\\'\\/a-zA-Z0-9]+)?)\\s*[-=\u2014]+?\\s*([Ol0-9./ ]+)\\s*(inche?s?|in|cm|centimeters?)?\\s*(to|-)?\\s*([Ol0-9./ ]+)?\\s*(inche?s?|in|cm|centimeters?)?"
+
   ## default encoding of colors: Toggle dry/moist assumption
   ##
   ## Profile-level statement: Colors are for dry soil unless otherwise stated | Colors are for moist soil unless otherwise stated
-  ## 
+  ##
   ## Examples:
   ## moist:
   ##   E1--7 to 12 inches; very dark gray (10YR 3/1) silt loam, 50 percent gray (10YR 5/1) and 50 percent gray (10YR 6/1) dry; moderate thin platy structure parting to weak thin platy; friable, soft; common fine and medium roots throughout; common fine tubular pores; few fine distinct dark yellowish brown (10YR 4/6) friable masses of iron accumulations with sharp boundaries on faces of peds; strongly acid; clear wavy boundary.
-  ## 
+  ##
   ## dry:
   ##   A--0 to 6 inches; light gray (10YR 7/2) loam, dark grayish brown (10YR 4/2) moist; moderate coarse subangular blocky structure; slightly hard, friable, slightly sticky and slightly plastic; many very fine roots; many very fine and few fine tubular and many very fine interstitial pores; 10 percent pebbles; strongly acid (pH 5.1); clear wavy boundary. (1 to 8 inches thick)
   ##
   dry.is.default <- length(grep('for[ athe]+(?:air-* *)?dr[yied]+[ \\n,]+(colors|soil|conditions)', tp, ignore.case = TRUE)) > 0
   moist.is.default <- length(grep('for[ athe]+(wet|moi*st)[ \\n,]+(rubbed|crushed|broken|interior|soil|conditions)', tp, ignore.case = TRUE)) > 0
-
 
   if (dry.is.default)
     default.moisture.state <- 'dry'
@@ -347,7 +346,7 @@
 
   # eliminate empty lines within typical pedon
   tp <- tp[nzchar(trimws(tp))]
-  
+
   # ID starting lines of horizon information
   hz.idx <- sort(unique(c(grep(hz.rule, tp), grep(hz.rule.no.bottom, tp))))
 
@@ -356,7 +355,7 @@
   if (length(first.line.flag) > 0) {
     hz.idx <- hz.idx[-first.line.flag]
   }
-  
+
   check.multiline <- diff(hz.idx) > 1
   if (any(check.multiline)) {
     # multiline typical pedon horizon formatting (needs fix)
@@ -380,17 +379,25 @@
     # if none, then try searching for only top depths
     if (all(is.na(h))) {
       # this won't have the correct number of elements, adjust manually
-      h <- stringi::stri_match(this.chunk, regex = hz.rule.no.bottom)
-      h_num <- grep("^\\d+$", h)
-      h_alp <- grep("[A-Za-z]", h)[2:3]
-      h <- h[sort(c(h_num, h_alp))]
-
+      h <- trimws(stringi::stri_match(this.chunk, regex = hz.rule.no.bottom))
+      h[2] <- gsub("0", "O", h[2], fixed=TRUE)
+      h[6] <- gsub("l", "1", h[6], fixed=TRUE)
+      h <- gsub(" *[1l]/2", ".5", h)
+      h <- gsub(" *[1l]/[48]", ".25", h) # NB: fudging 1/8 inch -> 1 cm
+      h <- gsub("^\\.", "0.", h)
+      i_num <- grep("^\\d+\\.*\\d*$", h)
       # fill missing depth with NA
-      if (length(h) == 3) {
-        h <- c(h, h[3])
-        h[3] <- NA
+      if (length(i_num) == 1) {
+        i_num <- c(i_num, NA)
       }
+      h_num <- h[i_num]
+      l_alp <- grepl("[A-Za-z]", h)
+      h_alp <- h[l_alp & h != "to" & h != "-"][2:3]
+      h <- c(h_alp[1], h_num, h_alp[2])
+
     } else {
+      h[2] <- gsub("0", "O", h[2], fixed=TRUE)
+      h[c(3,5)] <- gsub("l", "1", h[c(3,5)], fixed=TRUE)
       h <- h[c(2:3,5:6)]
     }
 
@@ -403,7 +410,7 @@
     ## TODO: test this!
     # parse ALL colors, result is a multi-row matrix, 5th column is moisture state
     colors <- stringi::stri_match_all(this.chunk, regex = color.rule)[[1]]
-    
+
     # replace missing moisture state with (parsed) default value
     colors[, 5][which(colors[, 5] == '')] <- default.moisture.state
 
@@ -448,9 +455,9 @@
     moist.colors$moist_chroma <- as.numeric(moist.colors$moist_chroma)
   })
 
-  ## TODO: sanity check / unit reporting: this will fail when formatting is inconsistent (PROPER series)
   # convert in -> cm using the first horizon
-  if (hz.data$units[1] %in% c('inches', 'in')) {
+  if (!is.na(hz.data$units[1]) &&
+      startsWith(tolower(hz.data$units[1]), "in")) {
     hz.data$top <- round(hz.data$top * 2.54)
     hz.data$bottom <- round(hz.data$bottom * 2.54)
   }
