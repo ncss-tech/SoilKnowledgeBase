@@ -382,9 +382,11 @@
       h <- trimws(stringi::stri_match(this.chunk, regex = hz.rule.no.bottom))
       h[2] <- gsub("0", "O", h[2], fixed=TRUE)
       h[6] <- gsub("l", "1", h[6], fixed=TRUE)
+      h <- gsub(" *3/4", ".75", h)
       h <- gsub(" *[1l]/2", ".5", h)
       h <- gsub(" *[1l]/[48]", ".25", h) # NB: fudging 1/8 inch -> 1 cm
       h <- gsub("^\\.", "0.", h)
+      h <- gsub("l", "1", h)
       i_num <- grep("^\\d+\\.*\\d*$", h)
       # fill missing depth with NA
       if (length(i_num) == 1) {
