@@ -21,6 +21,7 @@
   # l[['sections']] <- .extractSections(res)
   # l[['section-indices']] <- .findSectionIndices(res)
 
+  message(filename)
   l <- list()
   l[['site-data']] <- .extractSiteData(x, logfile, filename)
   tp <- strsplit(as.character(x$`TYPICAL PEDON`$content), "\n")
@@ -305,10 +306,10 @@
 .extractHzData <- function(tp, logfile = "OSD.log", filename = "FOO.txt") {
 
   # detect horizons with both top and bottom depths
-  hz.rule <- "([\\^\\'\\/a-zA-Z0-9]+(?: and [\\^\\'\\/a-zA-Z0-9]+)?)\\s*[-=\u2014]+\\s*([Ol0-9.]+)\\s*?(to|-)?\\s+?([Ol0-9.]+)\\s*?(inche?s?|in|cm|centimeters?)"
+  hz.rule <- "([\\^\\'\\\"`\\/a-zA-Z0-9]+(?: and [\\^\\'\\\"`\\/a-zA-Z0-9]+)?)\\s*[-=\u2014]+\\s*([Ol0-9.]+)\\s*?([toTO0\\-]+)?\\s+?([Ol0-9.]+)\\s*?(inche?s?|in|cm|centimeters?)"
 
   # detect horizons with no bottom depth
-  hz.rule.no.bottom <- "([\\^\\'\\/a-zA-Z0-9]+(?: and [\\^\\'\\/a-zA-Z0-9]+)?)\\s*[-=\u2014]+?\\s*([Ol0-9./ ]+)\\s*(inche?s?|in|cm|centimeters?)?\\s*(to|-)?\\s*([Ol0-9./ ]+)?\\s*(inche?s?|in|cm|centimeters?)?"
+  hz.rule.no.bottom <- "([\\^\\'\\\"`\\/a-zA-Z0-9]+(?: and [\\^\\'\\\"`\\/a-zA-Z0-9]+)?)\\s*[-=\u2014]+?\\s*([Ol0-9./ ]+)\\s*(inche?s?|in|cm|centimeters?)?\\s*([toTO0\\-]+)?\\s*([Ol0-9./ ]+)?\\s*(inche?s?|in|cm|centimeters?)?"
 
   ## default encoding of colors: Toggle dry/moist assumption
   ##
@@ -403,31 +404,40 @@
       h <- h[c(2:3,5:6)]
     }
 
-    # save hz data to list
-    hz.data[[i]] <- h
-
-    # save narrative to list
-    narrative.data[[i]] <- this.chunk
-
-    ## TODO: test this!
-    # parse ALL colors, result is a multi-row matrix, 5th column is moisture state
-    colors <- stringi::stri_match_all(this.chunk, regex = color.rule)[[1]]
-
-    # replace missing moisture state with (parsed) default value
-    colors[, 5][which(colors[, 5] == '')] <- default.moisture.state
-
-    # extract dry|moist colors, note that there may be >1 color per state
-    dc <- colors[which(colors[, 5] == 'dry'), 1:4, drop = FALSE]
-    mc <- colors[which(colors[, 5] == 'moist'), 1:4, drop = FALSE]
-
-    # there there was at least 1 match, keep the first 1
-    if (nrow(dc) > 0) {
-      dry.colors[[i]] <- dc[1, ]
-    } else dry.colors[[i]] <- matrix(rep(NA, times = 4), nrow = 1)
-
-    if (nrow(mc) > 0)
-      moist.colors[[i]] <- mc[1, ]
-    else moist.colors[[i]] <- matrix(rep(NA, times = 4), nrow = 1)
+    # apply a filter so horizon data with no horizon designation skip
+    if (!is.na(h[1]) && grepl("[OABCDELMRVWbcxw]", h[1])) {
+      # save hz data to list
+      hz.data[[i]] <- h
+  
+      # save narrative to list
+      narrative.data[[i]] <- this.chunk
+      
+      ## TODO: test this!
+      # parse ALL colors, result is a multi-row matrix, 5th column is moisture state
+      colors <- stringi::stri_match_all(this.chunk, regex = color.rule)[[1]]
+  
+      # replace missing moisture state with (parsed) default value
+      colors[, 5][which(colors[, 5] == '')] <- default.moisture.state
+  
+      # extract dry|moist colors, note that there may be >1 color per state
+      dc <- colors[which(colors[, 5] == 'dry'), 1:4, drop = FALSE]
+      mc <- colors[which(colors[, 5] == 'moist'), 1:4, drop = FALSE]
+  
+      # there there was at least 1 match, keep the first 1
+      if (nrow(dc) > 0) {
+        dry.colors[[i]] <- dc[1, ]
+      } else dry.colors[[i]] <- matrix(rep(NA, times = 4), nrow = 1)
+  
+      if (nrow(mc) > 0)
+        moist.colors[[i]] <- mc[1, ]
+      else moist.colors[[i]] <- matrix(rep(NA, times = 4), nrow = 1)
+    } else {
+      hz.data[[i]] <- NULL
+      narrative.data[[i]] <- NULL
+      dry.colors[[i]] <- NULL
+      moist.colors[[i]] <- NULL
+    }
+    
   }
 
   # test for no parsed data, must be some funky formatting...
@@ -436,6 +446,8 @@
 
   # convert to DF
   hz.data <- as.data.frame(do.call('rbind', hz.data))
+  if (ncol(hz.data) != 4)
+    return(NULL)
   dry.colors <- as.data.frame(do.call('rbind', dry.colors))[2:4]
   moist.colors <- as.data.frame(do.call('rbind', moist.colors))[2:4]
   narrative.data <- as.data.frame(do.call('rbind', narrative.data))
