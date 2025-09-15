@@ -357,10 +357,21 @@
     hz.idx <- hz.idx[-first.line.flag]
   }
 
-  check.multiline <- diff(hz.idx) > 1
-  if (any(check.multiline)) {
+  check.multiline <- diff(hz.idx)
+  if (any(check.multiline > 1)) {
     # multiline typical pedon horizon formatting (needs fix)
-    logmsg(logfile, paste0("CHECK MULTILINE TYPICAL PEDON: ", filename, " [number of multilines=", sum(check.multiline), "]"))
+    logmsg(logfile, paste0("CHECK MULTILINE TYPICAL PEDON: ", filename, " [number of multilines=", sum(check.multiline > 1), "]"))
+  }
+
+  if (length(hz.idx) > 0 ) {
+    # concatenate multiline entries in typical pedon
+    multiline.rle <- list(lengths = c(check.multiline, 1),
+                          values = hz.idx)
+    class(multiline.rle) <- "rle"
+    grp <- inverse.rle(multiline.rle)
+    tpclean <- sapply(split(tp[min(grp):max(grp)], grp), paste, collapse = " ")
+  } else {
+    tpclean <- tp[0]
   }
 
   # init empty lists to store hz data and colors
@@ -370,8 +381,8 @@
   narrative.data <- list()
 
   # iterate over identified horizons, extracting hz parts
-  for (i in seq_along(hz.idx)) {
-    this.chunk <- tp[hz.idx[i]]
+  for (i in seq_along(tpclean)) {
+    this.chunk <- tpclean[i]
 
     # parse hz designations and depths, keep first match
     # first try to find horizons with top AND bottom depths
@@ -408,26 +419,26 @@
     if (!is.na(h[1]) && grepl("[OABCDELMRVWbcxw]", h[1])) {
       # save hz data to list
       hz.data[[i]] <- h
-  
+
       # save narrative to list
       narrative.data[[i]] <- this.chunk
-      
+
       ## TODO: test this!
       # parse ALL colors, result is a multi-row matrix, 5th column is moisture state
       colors <- stringi::stri_match_all(this.chunk, regex = color.rule)[[1]]
-  
+
       # replace missing moisture state with (parsed) default value
       colors[, 5][which(colors[, 5] == '')] <- default.moisture.state
-  
+
       # extract dry|moist colors, note that there may be >1 color per state
       dc <- colors[which(colors[, 5] == 'dry'), 1:4, drop = FALSE]
       mc <- colors[which(colors[, 5] == 'moist'), 1:4, drop = FALSE]
-  
+
       # there there was at least 1 match, keep the first 1
       if (nrow(dc) > 0) {
         dry.colors[[i]] <- dc[1, ]
       } else dry.colors[[i]] <- matrix(rep(NA, times = 4), nrow = 1)
-  
+
       if (nrow(mc) > 0)
         moist.colors[[i]] <- mc[1, ]
       else moist.colors[[i]] <- matrix(rep(NA, times = 4), nrow = 1)
@@ -437,7 +448,7 @@
       dry.colors[[i]] <- NULL
       moist.colors[[i]] <- NULL
     }
-    
+
   }
 
   # test for no parsed data, must be some funky formatting...
