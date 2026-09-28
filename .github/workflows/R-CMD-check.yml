@@ -35,7 +35,7 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: any::rcmdcheck, any::aqp, any::soilDB
+          extra-packages: any::rcmdcheck, any::aqp, any::soilDB, any::R.utils
           needs: check
 
       - name: Install SoilKnowledgeBase
