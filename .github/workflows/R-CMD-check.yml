@@ -18,7 +18,7 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - {os: ubuntu-latest, r: 'release'}
+          - { os: ubuntu-latest, r: "release" }
 
     env:
       R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
@@ -32,22 +32,21 @@ jobs:
           r-version: ${{ matrix.config.r }}
 
       - uses: r-lib/actions/setup-pandoc@v2
-    
+
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: any::rcmdcheck
+          extra-packages: any::rcmdcheck, any::aqp
           needs: check
-          
+
       - name: Install SoilKnowledgeBase
         run: |
           sudo apt install poppler-utils
-        
+
       - uses: r-lib/actions/check-r-package@v2
         with:
           upload-snapshots: true
-          
+
       - name: Post-processing
         run: |
           Rscript misc/OSD-error-reporting/typical-pedon.R
           Rscript misc/OSD-error-reporting/osd-sections.R
-

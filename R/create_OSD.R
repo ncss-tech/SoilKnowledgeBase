@@ -97,6 +97,11 @@ validateOSD <- function(logfile, filepath) {
 
   raw <- trimws(raw[trimws(raw) != ""])
 
+  if (length(raw) == 0) {
+    logmsg(logfile, "EMPTY OSD FILE: %s", filepath)
+    return(FALSE)
+  }
+
   ser.raw.idx <- grep("SERIES$", raw)[1]
   tax.raw.idx <- grep("TAXONOMIC CLASS[:]", raw)[1]
   brief.desc.idx <- which(1:length(raw) > ser.raw.idx &
@@ -390,14 +395,15 @@ osd_to_json <- function(logfile = file.path(output_dir, "OSD.log"),
 
     x <- validateOSD(logfile, filepath)
 
+    if (is.logical(x)) {
+      if (!x) return(FALSE)
+    }
+
     parsed.OSD <- .doParseOSD(x, logfile, filepath)
 
     # SPC-style components from parseOSD returned as nested data.frames in JSON
     x$SITE <- I(list(parsed.OSD$`site-data`))
     x$HORIZONS <- I(list(parsed.OSD$`hz-data`))
-
-    if (is.logical(x))
-      if (!x) return(FALSE)
 
     fld <- file.path(output_dir, substr(x$SERIES, 1, 1))
 
