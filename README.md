@@ -39,3 +39,12 @@ you.
 
 See the NSSH on [eDirectives](http://directives.sc.egov.usda.gov/) for
 details on specific data sources.
+
+### License
+
+This project is licensed under the MIT License - see the
+[LICENSE.md](LICENSE.md) file for details. Works created by U.S.
+Government employees within the scope of employment reside in the public
+domain domestically pursuant to 17 U.S.C. § 105. See
+[INTENT.md](INTENT.md) for full licensing intent and international
+status.

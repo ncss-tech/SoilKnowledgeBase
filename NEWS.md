@@ -1,3 +1,7 @@
+# SoilKnowledgeBase (development version)
+
+* Relicensed package to MIT (+ file LICENSE) with federal open source disclaimer (17 U.S.C. § 105) per Code.mil guidance.
+
 # SoilKnowledgeBase 0.3.0
 * Upgrades to NSSH parsing: now using {pdftools} for PDF->TXT
 
